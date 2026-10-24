@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-blush: #E6A39B;
+    --deep-navy: #173B78;
+    --luxury-gold: #D49A35;
+    --bg-white: #FFFFFF;
+    --bg-ivory: #FAF8F5;
+    --text-charcoal: #1A1A1A;
+    --text-muted: #5A5A5A;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1A1A1A;
+    background-color: #FFFFFF;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #E6A39B;
+    color: #173B78;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Editorial Details */
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #D49A35, transparent);
+}
+
+.navy-gradient {
+  background: linear-gradient(135deg, #173B78 0%, #0E244B 100%);
+}
+
+.blush-soft-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FAEDE9 100%);
+}
+
+.luxury-badge {
+  letter-spacing: 0.15em;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
