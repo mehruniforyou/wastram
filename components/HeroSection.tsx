@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#FAF8F5]">
+    <section className="relative w-full overflow-hidden bg-[#F5F5F5]">
       {/* ============================================================== */}
       {/* DESKTOP HERO VIEW (Screens >= 1024px)                          */}
       {/* ============================================================== */}
@@ -25,22 +25,22 @@ export default function HeroSection() {
         </div>
 
         {/* Overlay Content Centered at Bottom */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center">
-          <p className="text-[11px] font-archivo uppercase tracking-widest text-black/80 font-medium mb-1">
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center">
+          <p className="text-[0.8vw] font-archivo uppercase tracking-widest text-black/70 font-light mb-1">
             [Ends Tonight]
           </p>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black font-archivo tracking-tight text-[#FF2F00] uppercase leading-none drop-shadow-sm">
+          <h1 className="text-[3.2vw] font-black font-archivo tracking-[-2px] text-[#FF2F00] uppercase leading-none drop-shadow-sm">
             FREE PANTS worth ₹1399
           </h1>
 
-          <p className="text-xl md:text-2xl font-bold font-archivo tracking-tight text-white/90 drop-shadow-md mt-1 mb-6">
+          <p className="text-[2.2vw] font-bold font-archivo tracking-[-0.1vw] text-white drop-shadow-md mt-1 mb-4">
             On order above ₹2999
           </p>
 
           <Link
             href="/collections/shop-all"
-            className="hero-glass-pill uppercase tracking-widest text-xs font-bold"
+            className="diwali-hero-button uppercase tracking-wider"
           >
             SHOP ALL
           </Link>
@@ -50,7 +50,7 @@ export default function HeroSection() {
       {/* ============================================================== */}
       {/* MOBILE HERO VIEW (Screens < 1024px)                            */}
       {/* ============================================================== */}
-      <div className="block lg:hidden relative w-full h-[85vh] min-h-[580px]">
+      <div className="block lg:hidden relative w-full h-[85vh] min-h-[560px]">
         {/* Mobile Portrait Image */}
         <img
           src="/nishorama-images/hero-mobile.png"
@@ -58,26 +58,30 @@ export default function HeroSection() {
           className="w-full h-full object-cover object-top"
         />
 
-        {/* Gradient for Text Readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+        {/* Faded Watermark Wordmark */}
+        <div className="absolute top-16 left-1/2 -translate-x-1/2 pointer-events-none select-none z-0">
+          <span className="text-[18vw] font-black text-black/[0.05] tracking-tighter uppercase whitespace-nowrap font-archivo leading-none">
+            NISHORAMA
+          </span>
+        </div>
 
-        {/* Mobile Content */}
-        <div className="absolute bottom-12 inset-x-4 flex flex-col items-center text-center z-10">
-          <p className="text-[10px] font-archivo uppercase tracking-widest text-white/80 font-medium mb-1">
+        {/* Mobile Overlay Content */}
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center w-[85%]">
+          <span className="text-[10px] font-archivo uppercase tracking-widest text-black/70 font-light mb-1">
             [Ends Tonight]
-          </p>
+          </span>
 
-          <h1 className="text-2xl sm:text-3xl font-black font-archivo tracking-tight text-[#FF2F00] uppercase leading-tight drop-shadow-sm">
+          <h1 className="text-3xl font-black font-archivo tracking-tight text-[#FF2F00] uppercase leading-tight drop-shadow-sm">
             FREE PANTS worth ₹1399
           </h1>
 
-          <p className="text-base sm:text-lg font-bold font-archivo tracking-tight text-white drop-shadow-md mt-0.5 mb-5">
+          <p className="text-base font-bold font-archivo text-white drop-shadow-md mt-0.5 mb-4">
             On order above ₹2999
           </p>
 
           <Link
             href="/collections/shop-all"
-            className="px-8 py-3 rounded-full bg-white/20 hover:bg-white/30 text-white font-archivo text-xs font-bold uppercase tracking-widest backdrop-blur-md border border-white/40 shadow-lg transition-all"
+            className="diwali-hero-button uppercase tracking-wider"
           >
             SHOP ALL
           </Link>

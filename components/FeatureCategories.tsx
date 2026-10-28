@@ -28,7 +28,7 @@ export default function FeatureCategories() {
   ];
 
   return (
-    <section className="w-full p-2 md:p-4 bg-[#FAF8F5]">
+    <section className="w-full p-2 md:p-4 bg-[#F5F5F5]">
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3">
         {categories.map((cat, idx) => (
           <Link

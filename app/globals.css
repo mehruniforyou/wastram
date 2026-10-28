@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Assistant:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,28 +9,57 @@
   --color-brand-red: #FF2F00;
   --color-brand-gold: #F6C582;
   --font-archivo: 'Archivo', sans-serif;
-  --font-serif: 'Playfair Display', serif;
+  --font-assistant: 'Assistant', sans-serif;
+  --font-editorial: 'Playfair Display', serif;
 }
 
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-archivo);
-  color: #333333;
-  background-color: #FFFFFF;
+  color: #121212;
+  background-color: #F5F5F5 !important;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Red Pulsing Dot */
+/* Custom Nishorama Selection */
+::selection {
+  background: #482922 !important;
+  color: #FFFFFF !important;
+}
+
+::-moz-selection {
+  background: #482922 !important;
+  color: #FFFFFF !important;
+}
+
+/* Custom Scrollbar */
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #482922;
+  border-radius: 20px;
+}
+
+/* Red Pulsing Dot for Trending */
 .cust-red-dot {
   display: inline-block;
-  width: 6px;
-  height: 6px;
+  width: 0.7vw;
+  height: 0.7vw;
+  min-width: 6px;
+  min-height: 6px;
   background-color: #FF2F00;
   border-radius: 50%;
   margin-left: 4px;
@@ -48,7 +77,7 @@ body {
   }
 }
 
-/* Gradient Spinner for Story Ring */
+/* Story Ring Rotation */
 @keyframes spin-gradient {
   from {
     transform: rotate(0deg);
@@ -62,7 +91,35 @@ body {
   animation: spin-gradient 4s linear infinite;
 }
 
-/* Diwali Category Border */
+/* Wishlist Heart Bounce */
+@keyframes heart-bounce {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.35); }
+  65% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+.animate-heart-bounce {
+  animation: heart-bounce 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Toast Slide Animation */
+@keyframes toast-slide-in {
+  from {
+    transform: translateY(24px) scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-toast {
+  animation: toast-slide-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Capsule Category Borders */
 .diwali-capsule-border {
   border: 5px solid #FF2F00;
   border-radius: 1vw;
@@ -76,7 +133,7 @@ body {
   }
 }
 
-/* Glassmorphic buttons */
+/* Glassmorphic elements */
 .glass-btn {
   background: rgba(55, 31, 17, 0.58);
   border: 1px solid rgba(255, 255, 255, 0.28);
@@ -91,33 +148,88 @@ body {
   border-color: rgba(255, 255, 255, 0.6);
 }
 
-/* Frosted Hero Pill */
-.hero-glass-pill {
-  padding: 0.9vw 2.5vw;
-  border-radius: 9999px;
-  background: rgba(255, 255, 255, 0.15);
+/* Hero Frosted Glass Pill */
+.diwali-hero-button {
+  padding: 1vw 2vw;
+  border-radius: 7rem;
+  background: rgba(255, 255, 255, 0.25);
   color: #FFFFFF;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   box-shadow: inset 0 0 1px #482922;
-  transition: all 0.3s ease;
+  font-size: 0.8vw;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  letter-spacing: -0.02vw !important;
   font-family: var(--font-archivo);
+  transition: all 0.25s ease;
 }
 
-.hero-glass-pill:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: translateY(-2px);
+.diwali-hero-button:hover {
+  background: rgba(255, 255, 255, 0.38);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 950px) {
-  .hero-glass-pill {
-    padding: 12px 28px;
-    font-size: 14px;
+  .diwali-hero-button {
+    padding: 3.5vw 5vw;
+    font-size: 2.6vw;
   }
 }
 
-/* Hide scrollbar */
+/* Nishorama Tab Pill */
+.diwali-fit-button {
+  border: 1px solid #D5D5D5;
+  background: #FFFFFF;
+  cursor: pointer;
+  border-radius: 4rem;
+  padding: 0.6vw 1.2vw;
+  font-size: 0.8vw;
+  font-family: var(--font-archivo);
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+  transition: all 0.2s ease;
+}
+
+.diwali-fit-button.active {
+  background: #482922;
+  color: #FFFFFF;
+  border: 1px solid #F6C582;
+}
+
+@media (max-width: 950px) {
+  .diwali-fit-button {
+    font-size: 2.6vw;
+    padding: 2vw 4vw;
+  }
+}
+
+/* Nishorama Card Inner & Badge */
+.cust-sale-badge {
+  font-family: var(--font-archivo);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 0.7vw;
+  color: #FF2F00;
+  background: #FFFFFF;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 0.4vw 0.8vw;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 950px) {
+  .cust-sale-badge {
+    font-size: 2.3vw;
+    padding: 1.3vw 2.5vw;
+    border-radius: 1rem;
+  }
+}
+
+/* Hide scrollbars utility */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

@@ -13,6 +13,7 @@ dist
 
 # Temporary & Inspection files
 temp_inspect/
+scratch/
 *.tmp
 *.log
 

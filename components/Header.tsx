@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import NishoramaLogo from './NishoramaLogo';
 import StoryRing from './StoryRing';
@@ -14,29 +14,31 @@ interface HeaderProps {
 
 export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: HeaderProps) {
   const { cartCount, wishlist, openCart } = useCart();
+  const wishlistCount = wishlist.length;
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-black/10 transition-all">
+    <header className="sticky top-0 z-40 w-full bg-[#F5F5F5]/90 backdrop-blur-md border-b border-black/5 transition-all">
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-8 py-3.5 relative">
+      <div className="hidden lg:flex items-center justify-between px-6 py-2.5 relative max-w-[1500px] mx-auto">
         {/* Left: Menu trigger & Logo */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4">
+          {/* Authentic Menu capsule button */}
           <button
             onClick={onOpenDrawer}
-            className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-black/15 hover:bg-black/5 transition-colors font-archivo text-xs text-[#482922]"
+            className="flex items-center gap-2 h-7 px-3 rounded-full bg-[#482922] text-white hover:bg-[#38201a] transition-all font-archivo text-[11px] font-medium shadow-xs"
             aria-label="Open Navigation Menu"
           >
-            <div className="flex flex-col gap-1 w-3.5">
-              <span className="w-full h-0.5 bg-[#482922]" />
-              <span className="w-full h-0.5 bg-[#482922]" />
+            <div className="flex flex-col gap-0.5 w-3.5">
+              <span className="w-full h-[1.5px] bg-white rounded-full" />
+              <span className="w-full h-[1.5px] bg-white rounded-full" />
             </div>
-            <span className="font-semibold uppercase tracking-wider text-[11px]">Menu</span>
+            <span className="uppercase tracking-wider">Menu</span>
           </button>
 
           {/* Nishorama Wordmark */}
-          <Link href="/" className="flex items-center hover:opacity-90 transition-opacity">
+          <Link href="/" className="flex items-center hover:opacity-90 transition-opacity pl-2">
             <NishoramaLogo className="h-6 w-auto" color="#482922" />
           </Link>
         </div>
@@ -46,127 +48,148 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           <nav className="flex items-center gap-1.5 font-archivo text-xs font-medium text-[#482922]">
             <Link
               href="/collections/new-in"
-              className="px-3 py-1 rounded-full hover:bg-black/5 transition-colors"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
               New in
             </Link>
             <Link
               href="/collections/shop-all"
-              className="px-3 py-1 rounded-full hover:bg-black/5 transition-colors"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
               Shop All
             </Link>
             <Link
               href="/collections/kurtis"
-              className="px-3 py-1 rounded-full hover:bg-black/5 transition-colors"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
               Kurtis
             </Link>
             <Link
               href="/collections/trending"
-              className="px-3 py-1 rounded-full hover:bg-black/5 transition-colors flex items-center"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
-              Trending
+              <span>Trending</span>
               <span className="cust-red-dot" />
             </Link>
             <Link
               href="/collections/tops"
-              className="px-3 py-1 rounded-full hover:bg-black/5 transition-colors"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
               Tops
             </Link>
             <Link
               href="/collections/bottoms"
-              className="px-3 py-1 rounded-full hover:bg-black/5 transition-colors"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
               Bottom
             </Link>
           </nav>
 
-          <span className="text-[10px] tracking-widest text-[#482922]/60 font-serif italic mt-0.5">
+          <span className="text-[10px] tracking-widest text-[#482922]/70 font-editorial italic mt-0.5">
             &ldquo; YOU know where to GET IT &rdquo;
           </span>
         </div>
 
         {/* Right: Leaving Soon pill, Story ring, Wishlist, Search, Account, Cart */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           {/* Leaving Soon offer pill */}
           <Link
             href="/collections/goodbyedeals"
-            className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FAF8F5] border border-[#482922]/20 hover:border-[#482922] transition-colors font-archivo"
+            className="flex items-center gap-1.5 h-7 px-3 rounded-full bg-white/80 border border-[#482922]/20 hover:border-[#482922] transition-colors font-archivo shadow-2xs"
           >
-            <span className="text-[10px] text-[#482922]/70 uppercase">Leaving soon</span>
-            <span className="text-[11px] font-bold text-[#FF2F00]">30% OFF</span>
+            <span className="text-[10px] text-[#482922]/70 uppercase font-medium">Leaving soon</span>
+            <span className="text-[10px] font-bold text-[#FF2F00]">30% OFF</span>
           </Link>
 
-          {/* Animated Story Ring */}
-          <StoryRing onClick={onOpenStory} size="w-8 h-8" />
+          {/* Instagram-style Story Ring */}
+          <button
+            onClick={onOpenStory}
+            className="focus:outline-none transition-transform hover:scale-105 active:scale-95"
+            aria-label="View Stories"
+          >
+            <StoryRing size="w-8 h-8" />
+          </button>
 
-          {/* Wishlist Icon */}
+          {/* Official Nishorama Bookmark Wishlist */}
           <Link
             href="/pages/swym-wishlist"
-            className="relative p-1.5 text-[#482922] hover:opacity-80 transition-opacity"
-            aria-label="Wishlist"
+            className="relative p-1.5 text-[#482922] hover:text-[#FF2F00] transition-colors flex items-center justify-center"
+            aria-label={`Wishlist (${wishlistCount})`}
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.6" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="13"
+              height="19"
+              viewBox="0 0 12.39 18.53"
+              className="fill-none stroke-current"
+            >
+              <path
+                id="savewishlist"
+                strokeWidth="1.3"
+                d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
+              />
             </svg>
-            {wishlist.length > 0 && (
-              <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-[#FF2F00] text-white text-[9px] font-bold flex items-center justify-center">
-                {wishlist.length}
+            {wishlistCount > 0 && (
+              <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-[#FF2F00] text-white text-[9px] font-bold flex items-center justify-center animate-heart-bounce">
+                {wishlistCount}
               </span>
             )}
           </Link>
 
-          {/* Search Icon */}
+          {/* Search Trigger */}
           <button
             onClick={onOpenSearch}
-            className="p-1.5 text-[#482922] hover:opacity-80 transition-opacity"
-            aria-label="Search"
+            className="p-1.5 text-[#482922] hover:text-[#FF2F00] transition-colors"
+            aria-label="Search Catalog"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.6" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
           </button>
 
-          {/* Account Icon */}
+          {/* User Account */}
           <Link
-            href="/account"
-            className="p-1.5 text-[#482922] hover:opacity-80 transition-opacity"
-            aria-label="Account"
+            href="/pages/about-us"
+            className="p-1.5 text-[#482922] hover:text-[#FF2F00] transition-colors"
+            aria-label="Account Details"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.6" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
             </svg>
           </Link>
 
-          {/* Cart Pill */}
+          {/* Cart Bag Pill */}
           <button
             onClick={openCart}
-            className="flex items-center gap-1.5 px-3 py-1 rounded-full border border-[#482922]/30 hover:border-[#482922] bg-[#FAF8F5] transition-colors font-archivo text-xs font-semibold text-[#482922]"
+            className="flex items-center gap-1.5 h-7 px-3 rounded-full bg-[#482922] text-white hover:bg-[#38201a] transition-all font-archivo text-[11px] font-medium shadow-xs"
             aria-label="Shopping Cart"
           >
-            <span>Cart</span>
-            <span className="text-black/40">|</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 0 1-8 0" />
+            </svg>
             <span>{cartCount}</span>
           </button>
         </div>
       </div>
 
       {/* ============================================================== */}
-      {/* MOBILE HEADER (Screens < 1024px)                                */}
+      {/* MOBILE HEADER (Screens < 1024px)                              */}
       {/* ============================================================== */}
-      <div className="flex lg:hidden items-center justify-between px-4 py-2.5">
+      <div className="flex lg:hidden items-center justify-between px-3.5 py-2.5">
         {/* Left: Hamburger & Search */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5">
           <button
             onClick={onOpenDrawer}
             className="p-1 text-[#482922] focus:outline-none"
-            aria-label="Menu"
+            aria-label="Open Mobile Menu"
           >
             <div className="flex flex-col gap-1 w-5">
-              <span className="w-full h-0.5 bg-[#482922]" />
-              <span className="w-full h-0.5 bg-[#482922]" />
+              <span className="w-full h-0.5 bg-[#482922] rounded-full" />
+              <span className="w-full h-0.5 bg-[#482922] rounded-full" />
             </div>
           </button>
 
@@ -175,51 +198,70 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
             className="p-1 text-[#482922] focus:outline-none"
             aria-label="Search"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
           </button>
         </div>
 
-        {/* Center: Logo & Tagline */}
+        {/* Center: Brand Wordmark with Italic Subtitle */}
         <div className="flex flex-col items-center">
           <Link href="/" className="flex items-center">
-            <NishoramaLogo className="h-4 w-auto" color="#482922" />
+            <NishoramaLogo className="h-5 w-auto" color="#482922" />
           </Link>
-          <span className="text-[8px] tracking-widest text-[#482922]/70 font-serif italic">
-            &ldquo; YOU know where to GET IT &rdquo;
+          <span className="text-[9px] tracking-wider text-[#482922]/70 font-editorial italic -mt-0.5">
+            * YOU know where to GET IT *
           </span>
         </div>
 
-        {/* Right: Story Ring, Wishlist, Cart Bag */}
+        {/* Right: Story ring, Wishlist bookmark, Cart bag */}
         <div className="flex items-center gap-2.5">
-          <StoryRing onClick={onOpenStory} size="w-7 h-7" />
+          <button
+            onClick={onOpenStory}
+            className="focus:outline-none"
+            aria-label="View Stories"
+          >
+            <StoryRing size="w-7 h-7" />
+          </button>
 
           <Link
             href="/pages/swym-wishlist"
             className="relative p-1 text-[#482922]"
-            aria-label="Wishlist"
+            aria-label={`Wishlist (${wishlistCount})`}
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="13"
+              height="18"
+              viewBox="0 0 12.39 18.53"
+              className="fill-none stroke-current"
+            >
+              <path
+                id="savewishlist"
+                strokeWidth="1.3"
+                d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
+              />
             </svg>
-            {wishlist.length > 0 && (
+            {wishlistCount > 0 && (
               <span className="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-[#FF2F00] text-white text-[8px] font-bold flex items-center justify-center">
-                {wishlist.length}
+                {wishlistCount}
               </span>
             )}
           </Link>
 
           <button
             onClick={openCart}
-            className="relative p-1 text-[#482922] focus:outline-none"
-            aria-label="Open Cart"
+            className="relative p-1 text-[#482922]"
+            aria-label="Shopping Cart"
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 0 1-8 0" />
             </svg>
             {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-[#FF2F00] text-white text-[8px] font-bold flex items-center justify-center">
+              <span className="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-[#482922] text-white text-[8px] font-bold flex items-center justify-center">
                 {cartCount}
               </span>
             )}

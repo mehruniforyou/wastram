@@ -48,7 +48,7 @@ export default function EditorialBanners() {
   ];
 
   return (
-    <section className="w-full p-2 md:p-4 bg-[#FAF8F5]">
+    <section className="w-full p-2 md:p-4 bg-[#F5F5F5]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-4">
         {banners.map((item, idx) => (
           <div

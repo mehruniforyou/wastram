@@ -9,6 +9,12 @@ export interface CartItem {
   quantity: number;
 }
 
+export interface WishlistToastState {
+  show: boolean;
+  message: string;
+  product?: NishoramaProduct;
+}
+
 interface CartContextType {
   cart: CartItem[];
   isCartOpen: boolean;
@@ -19,9 +25,23 @@ interface CartContextType {
   updateQuantity: (productId: string, size: string, quantity: number) => void;
   cartCount: number;
   cartSubtotal: number;
+
+  // Wishlist
   wishlist: string[];
   toggleWishlist: (slug: string) => void;
   isWishlisted: (slug: string) => boolean;
+  wishlistToast: WishlistToastState | null;
+  clearWishlistToast: () => void;
+
+  // Tap & View Quick Lightbox Modal
+  tapAndViewProduct: NishoramaProduct | null;
+  openTapAndView: (product: NishoramaProduct) => void;
+  closeTapAndView: () => void;
+
+  // Size Guide Modal ("What's my size ?")
+  isSizeGuideOpen: boolean;
+  openSizeGuide: () => void;
+  closeSizeGuide: () => void;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -30,6 +50,9 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [wishlist, setWishlist] = useState<string[]>([]);
+  const [wishlistToast, setWishlistToast] = useState<WishlistToastState | null>(null);
+  const [tapAndViewProduct, setTapAndViewProduct] = useState<NishoramaProduct | null>(null);
+  const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -87,12 +110,41 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   };
 
   const toggleWishlist = (slug: string) => {
-    setWishlist(prev =>
-      prev.includes(slug) ? prev.filter(s => s !== slug) : [...prev, slug]
-    );
+    const product = NISHORAMA_PRODUCTS.find(p => p.slug === slug);
+    setWishlist(prev => {
+      const alreadyIn = prev.includes(slug);
+      if (alreadyIn) {
+        setWishlistToast({
+          show: true,
+          message: 'Removed from Wishlist',
+          product
+        });
+        return prev.filter(s => s !== slug);
+      } else {
+        setWishlistToast({
+          show: true,
+          message: 'Saved to Wishlist',
+          product
+        });
+        return [...prev, slug];
+      }
+    });
+
+    // Auto-hide toast after 3.2 seconds
+    setTimeout(() => {
+      setWishlistToast(null);
+    }, 3200);
   };
 
+  const clearWishlistToast = () => setWishlistToast(null);
+
   const isWishlisted = (slug: string) => wishlist.includes(slug);
+
+  const openTapAndView = (product: NishoramaProduct) => setTapAndViewProduct(product);
+  const closeTapAndView = () => setTapAndViewProduct(null);
+
+  const openSizeGuide = () => setIsSizeGuideOpen(true);
+  const closeSizeGuide = () => setIsSizeGuideOpen(false);
 
   const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0);
   const cartSubtotal = cart.reduce((sum, item) => sum + item.product.salePrice * item.quantity, 0);
@@ -111,7 +163,15 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         cartSubtotal,
         wishlist,
         toggleWishlist,
-        isWishlisted
+        isWishlisted,
+        wishlistToast,
+        clearWishlistToast,
+        tapAndViewProduct,
+        openTapAndView,
+        closeTapAndView,
+        isSizeGuideOpen,
+        openSizeGuide,
+        closeSizeGuide
       }}
     >
       {children}
@@ -121,6 +181,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
 export function useCart() {
   const context = useContext(CartContext);
-  if (!context) throw new Error('useCart must be used within a CartProvider');
+  if (!context) {
+    throw new Error('useCart must be used within a CartProvider');
+  }
   return context;
 }
