@@ -1,179 +1,238 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { MessageCircle, MapPin, Globe, ShieldCheck, Mail, Sparkles } from 'lucide-react';
-import { siteConfig, buildWhatsAppLink, whatsappMessages } from '@/data/site-config';
-import { categories } from '@/data/categories';
+import NishoramaLogo from './NishoramaLogo';
 
 export default function Footer() {
-  const whatsappUrl = buildWhatsAppLink(whatsappMessages.general());
-  const whatsappInternationalUrl = buildWhatsAppLink(whatsappMessages.international());
+  const [mobileOpen, setMobileOpen] = useState<Record<string, boolean>>({});
+
+  const toggleMobileAccordion = (name: string) => {
+    setMobileOpen(prev => ({ ...prev, [name]: !prev[name] }));
+  };
 
   return (
-    <footer className="bg-navy text-white pt-16 pb-10 border-t-2 border-gold/40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
-          {/* Brand Info & Mission (Cols 1-2) */}
-          <div className="lg:col-span-2 space-y-5">
-            <Link href="/" className="inline-block" aria-label="Wastram Home">
-              <div className="relative h-14 w-56">
-                <Image
-                  src="/images/brand/wastram-logo-footer.png"
-                  alt="Wastram - Indian Women's Wear Wholesale & Export"
-                  fill
-                  sizes="224px"
-                  className="object-contain object-left"
-                />
-              </div>
-            </Link>
-
-            <p className="text-gray-300 text-sm leading-relaxed max-w-sm">
-              Wastram is an export-focused Indian women's wear manufacturer and wholesale supplier based in Jaipur, Rajasthan.
-              We partner with international fashion boutiques, clothing wholesalers, and retailers across the UK, USA, Europe, the Middle East, and worldwide.
-            </p>
-
-            <div className="flex flex-col space-y-2.5 text-xs text-gray-300 pt-2">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-gold flex-shrink-0" />
-                <span>Textile Craft Hub, Sanganer, Jaipur, Rajasthan, India</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Globe className="w-4 h-4 text-gold flex-shrink-0" />
-                <span>International B2B Wholesale & Worldwide Air/Sea Export Enquiries</span>
-              </div>
+    <footer className="w-full bg-[#EFEFEF] text-[#482922] font-archivo border-t border-black/10">
+      {/* ============================================================== */}
+      {/* DESKTOP FOOTER (Screens >= 1024px)                             */}
+      {/* ============================================================== */}
+      <div className="hidden lg:block max-w-7xl mx-auto px-8 pt-16 pb-8">
+        <div className="grid grid-cols-12 gap-8 items-start">
+          {/* Columns 1-3: Links */}
+          <div className="col-span-8 grid grid-cols-4 gap-6">
+            {/* 1: Connect with us */}
+            <div className="flex flex-col gap-3">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-[#482922]">
+                Connect with us
+              </h3>
+              <ul className="flex flex-col gap-2 text-xs text-[#482922]/80">
+                <li><a href="tel:+919511948736" className="hover:text-black">Call</a></li>
+                <li><a href="https://www.instagram.com/nishorama" target="_blank" rel="noopener noreferrer" className="hover:text-black">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UCoxGe5RNOXVRUboMmW0DLHA" target="_blank" rel="noopener noreferrer" className="hover:text-black">YouTube</a></li>
+              </ul>
             </div>
 
-            {/* Direct WhatsApp Action Box */}
-            <div className="pt-2">
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2.5 bg-gold hover:bg-gold-600 text-navy-900 font-semibold px-5 py-3 rounded-full text-xs sm:text-sm tracking-wide transition-all shadow-md group"
-              >
-                <MessageCircle className="w-4 h-4 text-navy-900 fill-navy-900/20 group-hover:scale-110 transition-transform" />
-                <span>Enquire via WhatsApp: {siteConfig.whatsappDisplay}</span>
-              </a>
+            {/* 2: Order Support */}
+            <div className="flex flex-col gap-3">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-[#482922]">
+                Order Support
+              </h3>
+              <ul className="flex flex-col gap-2 text-xs text-[#482922]/80">
+                <li><Link href="/apps/quickreturns" className="hover:text-black">Make a return/Exchange</Link></li>
+                <li><Link href="/pages/refund-policy" className="hover:text-black">Refund/Exchange policy</Link></li>
+                <li><Link href="/pages/refund-policy" className="hover:text-black">Shipping policy</Link></li>
+                <li><Link href="/pages/faqs" className="hover:text-black">FAQ's</Link></li>
+                <li><Link href="/pages/terms-of-service" className="hover:text-black">Terms</Link></li>
+              </ul>
+            </div>
+
+            {/* 3: We Are Nishorama */}
+            <div className="flex flex-col gap-3">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-[#482922]">
+                We Are Nishorama
+              </h3>
+              <ul className="flex flex-col gap-2 text-xs text-[#482922]/80">
+                <li><Link href="/pages/about-us" className="hover:text-black">Our story</Link></li>
+                <li><Link href="/pages/contact" className="hover:text-black">Contact us</Link></li>
+                <li><Link href="/pages/reviews" className="hover:text-black">Customer Reviews</Link></li>
+              </ul>
+            </div>
+
+            {/* 4: Nishorama Pvt Ltd Info */}
+            <div className="flex flex-col gap-2 text-[11px] text-[#482922]/80 leading-relaxed">
+              <h4 className="text-sm font-bold uppercase tracking-wider text-[#482922] mb-1">
+                Nishorama Pvt Ltd
+              </h4>
+              <p>
+                <strong>Address: </strong>
+                1143, Lower Ground Floor, Rustomjee Ease Zone Mall, Sunder Nagar, Malad West, Mumbai-400064
+              </p>
+              <p><strong>Email: </strong>support@nishorama.com</p>
+              <p><strong>Mob: </strong>+91 9511948736</p>
+              <p><strong>Opening Hours: </strong>Mon to Sat: 10:30AM - 6:30PM</p>
             </div>
           </div>
 
-          {/* Product Categories (Col 3) */}
-          <div className="space-y-4">
-            <h3 className="text-sm font-semibold tracking-wider text-gold uppercase font-serif">
-              Our Collections
-            </h3>
-            <ul className="space-y-2 text-sm text-gray-300">
-              {categories.map((cat) => (
-                <li key={cat.id}>
-                  <Link
-                    href={`/collections/${cat.slug}`}
-                    className="hover:text-gold transition-colors inline-block"
-                  >
-                    {cat.name}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link
-                  href="/collections"
-                  className="text-xs font-medium text-blush-300 hover:text-white transition-colors pt-1 block"
-                >
-                  View Complete Catalogue &rarr;
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Quick Navigation (Col 4) */}
-          <div className="space-y-4">
-            <h3 className="text-sm font-semibold tracking-wider text-gold uppercase font-serif">
-              Wholesale & Business
-            </h3>
-            <ul className="space-y-2 text-sm text-gray-300">
-              <li>
-                <Link href="/about" className="hover:text-gold transition-colors">
-                  About Our Craft & Heritage
-                </Link>
-              </li>
-              <li>
-                <Link href="/wholesale-exports" className="hover:text-gold transition-colors">
-                  Wholesale & International Exports
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="hover:text-gold transition-colors">
-                  Wholesale FAQ & Process
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-gold transition-colors">
-                  Contact Wholesale Department
-                </Link>
-              </li>
-              <li>
-                <a
-                  href={whatsappInternationalUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-blush-300 hover:text-white transition-colors block"
-                >
-                  International Buyer Consultation &rarr;
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Export Assurance (Col 5) */}
-          <div className="space-y-4">
-            <h3 className="text-sm font-semibold tracking-wider text-gold uppercase font-serif">
-              Export Assurance
-            </h3>
-            <div className="space-y-3 text-xs text-gray-300">
-              <div className="bg-navy-800/80 p-3.5 rounded-lg border border-white/5 space-y-1.5">
-                <div className="flex items-center gap-1.5 text-white font-medium">
-                  <ShieldCheck className="w-4 h-4 text-gold" />
-                  <span>Genuine Factory Direct</span>
-                </div>
-                <p className="text-gray-400 leading-normal">
-                  No intermediaries. Deal directly with our production facility in Jaipur for reliable pricing and fabric consistency.
-                </p>
-              </div>
-
-              <div className="bg-navy-800/80 p-3.5 rounded-lg border border-white/5 space-y-1.5">
-                <div className="flex items-center gap-1.5 text-white font-medium">
-                  <Sparkles className="w-4 h-4 text-blush" />
-                  <span>Verified Indian Craftsmanship</span>
-                </div>
-                <p className="text-gray-400 leading-normal">
-                  Chanderi, pure cotton 60:60, Farshi salwars, zari work, handblock motifs and premium satin shirts.
-                </p>
-              </div>
+          {/* Column 4: Artisan Engraving Illustration */}
+          <div className="col-span-4 flex justify-end">
+            <div className="w-full max-w-[340px]">
+              <img
+                src="/nishorama-images/cust-footer-svg.svg"
+                alt="Nishorama Textile Artisan"
+                className="w-full h-auto opacity-80"
+              />
             </div>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 gap-4">
-          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 text-center sm:text-left">
-            <span>&copy; {new Date().getFullYear()} {siteConfig.brandName}. All rights reserved.</span>
-            <span>Made in Jaipur, India for Global Boutiques & Wholesalers.</span>
+        {/* Payment Methods */}
+        <div className="mt-12 pt-6 border-t border-black/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#482922]/70">
+          <div className="flex items-center gap-3">
+            <span>We accept all major payment methods:</span>
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-0.5 bg-white rounded border border-black/10 text-[10px] font-bold">UPI</span>
+              <span className="px-2 py-0.5 bg-white rounded border border-black/10 text-[10px] font-bold">Cards</span>
+              <span className="px-2 py-0.5 bg-white rounded border border-black/10 text-[10px] font-bold">NetBanking</span>
+              <span className="px-2 py-0.5 bg-white rounded border border-black/10 text-[10px] font-bold text-blue-800">PayPal</span>
+            </div>
           </div>
 
-          <div className="flex items-center space-x-6">
-            <Link href="/about" className="hover:text-gray-200 transition-colors">
-              About
-            </Link>
-            <Link href="/wholesale-exports" className="hover:text-gray-200 transition-colors">
-              Exports
-            </Link>
-            <Link href="/faq" className="hover:text-gray-200 transition-colors">
-              FAQ
-            </Link>
-            <Link href="/contact" className="hover:text-gray-200 transition-colors">
-              Contact Us
-            </Link>
+          <div>
+            <span>Designed by Nishorama | &copy; Nishorama 2026</span>
           </div>
+        </div>
+      </div>
+
+      {/* ============================================================== */}
+      {/* MOBILE FOOTER (Screens < 1024px)                               */}
+      {/* ============================================================== */}
+      <div className="block lg:hidden px-4 pt-8 pb-10">
+        {/* Mobile Accordions */}
+        <div className="flex flex-col divide-y divide-black/10 border-y border-black/10">
+          {/* 1. Connect with us */}
+          <div className="py-3">
+            <button
+              onClick={() => toggleMobileAccordion('connect')}
+              className="w-full flex items-center justify-between text-left font-bold text-xs uppercase tracking-wider text-[#482922]"
+            >
+              <span>Connect with us</span>
+              <span className="text-base">{mobileOpen['connect'] ? '−' : '+'}</span>
+            </button>
+            {mobileOpen['connect'] && (
+              <ul className="mt-2 pl-2 flex flex-col gap-1.5 text-xs text-[#482922]/80">
+                <li><Link href="/pages/about-us">About us</Link></li>
+                <li><Link href="/pages/contact">Contact us</Link></li>
+                <li><a href="tel:+919511948736">Call: +91 9511948736</a></li>
+              </ul>
+            )}
+          </div>
+
+          {/* 2. Order Support */}
+          <div className="py-3">
+            <button
+              onClick={() => toggleMobileAccordion('support')}
+              className="w-full flex items-center justify-between text-left font-bold text-xs uppercase tracking-wider text-[#482922]"
+            >
+              <span>Order Support</span>
+              <span className="text-base">{mobileOpen['support'] ? '−' : '+'}</span>
+            </button>
+            {mobileOpen['support'] && (
+              <ul className="mt-2 pl-2 flex flex-col gap-1.5 text-xs text-[#482922]/80">
+                <li><Link href="/apps/quickreturns">Make a return/Exchange</Link></li>
+                <li><Link href="/pages/refund-policy">Shipping &amp; Return Policy</Link></li>
+                <li><Link href="/pages/faqs">FAQ's</Link></li>
+              </ul>
+            )}
+          </div>
+
+          {/* 3. We Are Nishorama */}
+          <div className="py-3">
+            <button
+              onClick={() => toggleMobileAccordion('story')}
+              className="w-full flex items-center justify-between text-left font-bold text-xs uppercase tracking-wider text-[#482922]"
+            >
+              <span>We Are Nishorama</span>
+              <span className="text-base">{mobileOpen['story'] ? '−' : '+'}</span>
+            </button>
+            {mobileOpen['story'] && (
+              <ul className="mt-2 pl-2 flex flex-col gap-1.5 text-xs text-[#482922]/80">
+                <li><Link href="/pages/reviews">Customer Reviews</Link></li>
+                <li><a href="https://www.instagram.com/nishorama">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UCoxGe5RNOXVRUboMmW0DLHA">YouTube</a></li>
+              </ul>
+            )}
+          </div>
+
+          {/* 4. Policies */}
+          <div className="py-3">
+            <button
+              onClick={() => toggleMobileAccordion('policies')}
+              className="w-full flex items-center justify-between text-left font-bold text-xs uppercase tracking-wider text-[#482922]"
+            >
+              <span>Policies</span>
+              <span className="text-base">{mobileOpen['policies'] ? '−' : '+'}</span>
+            </button>
+            {mobileOpen['policies'] && (
+              <ul className="mt-2 pl-2 flex flex-col gap-1.5 text-xs text-[#482922]/80">
+                <li><Link href="/pages/terms-of-service">Terms</Link></li>
+                <li><Link href="/pages/refund-policy">Shipping Policy</Link></li>
+                <li><Link href="/pages/refund-policy">Refund/Exchange Policy</Link></li>
+              </ul>
+            )}
+          </div>
+
+          {/* 5. Nishorama Pvt Ltd */}
+          <div className="py-3">
+            <button
+              onClick={() => toggleMobileAccordion('company')}
+              className="w-full flex items-center justify-between text-left font-bold text-xs uppercase tracking-wider text-[#482922]"
+            >
+              <span>Nishorama Pvt Ltd</span>
+              <span className="text-base">{mobileOpen['company'] ? '−' : '+'}</span>
+            </button>
+            {mobileOpen['company'] && (
+              <div className="mt-2 pl-2 flex flex-col gap-1 text-[11px] text-[#482922]/80 leading-relaxed">
+                <p><strong>Address: </strong>1143, Lower Ground Floor, Rustomjee Ease Zone Mall, Sunder Nagar, Malad West, Mumbai-400064</p>
+                <p><strong>Email: </strong>support@nishorama.com</p>
+                <p><strong>Mob: </strong>+91 9511948736</p>
+                <p><strong>Hours: </strong>Mon to Sat: 10:30AM - 6:30PM</p>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Payment info */}
+        <div className="mt-6 text-center text-xs text-[#482922]/70">
+          <p className="mb-2">We accept all major payment methods.</p>
+          <div className="flex justify-center gap-2">
+            <span className="px-2.5 py-0.5 bg-white rounded border border-black/10 text-[10px] font-bold">UPI</span>
+            <span className="px-2.5 py-0.5 bg-white rounded border border-black/10 text-[10px] font-bold">Cards</span>
+            <span className="px-2.5 py-0.5 bg-white rounded border border-black/10 text-[10px] font-bold">NetBanking</span>
+          </div>
+        </div>
+
+        {/* Mobile Artisan Illustration */}
+        <div className="mt-8 flex justify-center">
+          <div className="w-48">
+            <img
+              src="/nishorama-images/cust-footer-svg.svg"
+              alt="Artisan sketch"
+              className="w-full h-auto opacity-75"
+            />
+          </div>
+        </div>
+
+        {/* Mobile Brand Statement & Vector Logo */}
+        <div className="mt-6 flex flex-col items-center text-center gap-2">
+          <span className="text-[10px] tracking-widest text-[#482922]/70 font-serif italic">
+            &ldquo; YOU know where to GET &nbsp;IT &rdquo;
+          </span>
+          <div className="w-56 mt-1">
+            <NishoramaLogo className="w-full h-auto" color="#482922" />
+          </div>
+          <span className="text-[10px] text-[#482922]/60 mt-2">
+            Copyright &amp; Designed by Nishorama 2026
+          </span>
         </div>
       </div>
     </footer>

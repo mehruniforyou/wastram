@@ -1,59 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --primary-blush: #E6A39B;
-    --deep-navy: #173B78;
-    --luxury-gold: #D49A35;
-    --bg-white: #FFFFFF;
-    --bg-ivory: #FAF8F5;
-    --text-charcoal: #1A1A1A;
-    --text-muted: #5A5A5A;
-  }
+:root {
+  --color-brand-brown: #482922;
+  --color-brand-red: #FF2F00;
+  --color-brand-gold: #F6C582;
+  --font-archivo: 'Archivo', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
 
-  html {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #1A1A1A;
-    background-color: #FFFFFF;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  body {
-    overflow-x: hidden;
-  }
+body {
+  font-family: var(--font-archivo);
+  color: #333333;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
 
-  ::selection {
-    background-color: #E6A39B;
-    color: #173B78;
+/* Red Pulsing Dot */
+.cust-red-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #FF2F00;
+  border-radius: 50%;
+  margin-left: 4px;
+  animation: pulse-dot 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.5;
   }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* Gradient Spinner for Story Ring */
+@keyframes spin-gradient {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
-/* Custom Editorial Details */
-.gold-divider {
-  height: 1px;
-  background: linear-gradient(90deg, transparent, #D49A35, transparent);
+.story-ring-spin {
+  animation: spin-gradient 4s linear infinite;
 }
 
-.navy-gradient {
-  background: linear-gradient(135deg, #173B78 0%, #0E244B 100%);
+/* Diwali Category Border */
+.diwali-capsule-border {
+  border: 5px solid #FF2F00;
+  border-radius: 1vw;
+  overflow: hidden;
 }
 
-.blush-soft-gradient {
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAEDE9 100%);
+@media (max-width: 950px) {
+  .diwali-capsule-border {
+    border: 3.5px solid #FF2F00;
+    border-radius: 8px;
+  }
 }
 
-.luxury-badge {
-  letter-spacing: 0.15em;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  font-weight: 600;
+/* Glassmorphic buttons */
+.glass-btn {
+  background: rgba(55, 31, 17, 0.58);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  box-shadow: inset 0px 0px 3px rgba(255, 255, 255, 0.85);
+  transition: all 0.25s ease;
+}
+
+.glass-btn:hover {
+  background: rgba(72, 41, 34, 0.85);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Frosted Hero Pill */
+.hero-glass-pill {
+  padding: 0.9vw 2.5vw;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: inset 0 0 1px #482922;
+  transition: all 0.3s ease;
+  font-family: var(--font-archivo);
+}
+
+.hero-glass-pill:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 950px) {
+  .hero-glass-pill {
+    padding: 12px 28px;
+    font-size: 14px;
+  }
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

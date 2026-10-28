@@ -1,26 +1,71 @@
-import React from 'react';
-import Hero from '@/components/Hero';
-import TrustStrip from '@/components/TrustStrip';
-import CategoryGrid from '@/components/CategoryGrid';
-import FeaturedProducts from '@/components/FeaturedProducts';
-import WholesaleIntro from '@/components/WholesaleIntro';
-import WhyEnquire from '@/components/WhyEnquire';
-import HowItWorks from '@/components/HowItWorks';
-import FaqAccordion from '@/components/FaqAccordion';
-import FinalCta from '@/components/FinalCta';
+'use client';
+
+import React, { useState } from 'react';
+import Header from '@/components/Header';
+import MobileNavDrawer from '@/components/MobileNavDrawer';
+import StoryViewerModal from '@/components/StoryViewerModal';
+import SearchModal from '@/components/SearchModal';
+import PromoPopupModal from '@/components/PromoPopupModal';
+import HeroSection from '@/components/HeroSection';
+import FeatureCategories from '@/components/FeatureCategories';
+import EditorialBanners from '@/components/EditorialBanners';
+import ProductFitsGrid from '@/components/ProductFitsGrid';
+import Footer from '@/components/Footer';
+import PopularSearches from '@/components/PopularSearches';
 
 export default function HomePage() {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isStoryOpen, setIsStoryOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
   return (
-    <>
-      <Hero />
-      <TrustStrip />
-      <CategoryGrid />
-      <FeaturedProducts />
-      <WholesaleIntro />
-      <WhyEnquire />
-      <HowItWorks />
-      <FaqAccordion />
-      <FinalCta />
-    </>
+    <main className="min-h-screen flex flex-col bg-[#FAF8F5]">
+      {/* Interactive Navigation Header */}
+      <Header
+        onOpenDrawer={() => setIsDrawerOpen(true)}
+        onOpenStory={() => setIsStoryOpen(true)}
+        onOpenSearch={() => setIsSearchOpen(true)}
+      />
+
+      {/* Slide-out Mobile Menu Drawer */}
+      <MobileNavDrawer
+        isOpen={isDrawerOpen}
+        onClose={() => setIsDrawerOpen(false)}
+        onOpenSearch={() => setIsSearchOpen(true)}
+      />
+
+      {/* Story Viewer Modal (Opens on Story Ring click) */}
+      <StoryViewerModal
+        isOpen={isStoryOpen}
+        onClose={() => setIsStoryOpen(false)}
+      />
+
+      {/* Search Modal (Opens on Search icon click) */}
+      <SearchModal
+        isOpen={isSearchOpen}
+        onClose={() => setIsSearchOpen(false)}
+      />
+
+      {/* Promotional Popup Modal */}
+      <PromoPopupModal />
+
+      {/* Hero Section */}
+      <HeroSection />
+
+      {/* 4 Feature Columns Grid */}
+      <FeatureCategories />
+
+      {/* 5 Editorial Banners */}
+      <EditorialBanners />
+
+      {/* Filterable Tabbed Product Grid */}
+      <ProductFitsGrid />
+
+      {/* Custom Artisan Footer */}
+      <Footer />
+
+      {/* SEO Category Directory Tag Cloud */}
+      <PopularSearches />
+    </main>
   );
 }

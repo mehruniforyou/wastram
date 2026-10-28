@@ -1,110 +1,120 @@
-# Wastram — Premium Indian Women's Wear Wholesale & Export Website
+# NISHORAMA India — Code-for-Code E-Commerce Clone
 
-An international B2B wholesale and export web platform for **Wastram**, an Indian women's clothing manufacturer based in Jaipur, Rajasthan, India.
+A high-fidelity, pixel-perfect, production-grade Next.js 14 clone of **[NISHORAMA India](https://www.nishorama.com)** ("YOU know where to GET IT").
 
-Built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**. Designed to convert international fashion boutique owners, wholesalers, and importers into direct business enquiries via **WhatsApp** (+91 80030 88838).
-
----
-
-## 🌟 Key Features
-
-- **Genuine Jaipur Craftsmanship**: Showcases 131 actual products across 7 curated categories (Royal 3-Piece Kurti Sets, Designer Ethnic Co-Ords, Indo-Western Tiered Dresses, Artisanal Kurtas, Festive Lehengas, Luxe Satin Shirts, and Embroidered Tunics).
-- **Direct WhatsApp Conversion Engine**: Context-aware click-to-chat links across the header, hero, category pages, product cards, and product detail views with prefilled product names and style codes (SKUs).
-- **Dual Optimized UI (Desktop & Mobile)**:
-  - **Desktop**: Editorial split-screen hero, multi-garment lookbook composition, hover zoom overlays, and side-by-side product detail views.
-  - **Mobile**: Touch-optimized compact header, stacked editorial cards, swipeable category chips, a sticky bottom mobile inquiry bar on product pages, and a fixed 4-tab mobile navigation bar.
-- **Full Catalogue Usability**: Live instant search by title, SKU, or fabric; category filter chips; sorting (Featured, A-Z, SKU); and empty state recovery.
-- **Technical SEO & Structured Data**:
-  - Semantic HTML5 landmarks
-  - Dynamic XML sitemap (`/sitemap.xml`) indexing all 149 routes
-  - `robots.txt` configuration
-  - Rich JSON-LD schemas (`Organization`, `WebSite`, `Product`, `CollectionPage`, `BreadcrumbList`)
-  - Canonical URLs and Open Graph social sharing tags
-- **B2B Export Guidance**: Dedicated pages for About Us, Wholesale & Exports (4-stage workflow, flexible MOQs, sampling, international air/sea freight), Categorized FAQ accordion, and Contact Us form with instant WhatsApp transfer.
+Built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**. Fully responsive with dedicated desktop and mobile layouts, interactive modals, drawers, live countdown tickers, and cart state management.
 
 ---
 
-## 🎨 Brand Identity & Design System
+## 🌟 Features Replicated Code-for-Code
 
-- **Primary Blush Pink**: `#E6A39B`
-- **Deep Navy Blue**: `#173B78`
-- **Luxury Gold Accent**: `#D49A35`
-- **Primary Background**: `#FFFFFF`
-- **Secondary Background**: Ivory `#FAF8F5`
-- **Typography Pairing**: *Playfair Display* (Editorial Serif) + *Plus Jakarta Sans* (Modern Sans)
+### 1. Header & Navigation (Desktop & Mobile)
+- **Live Sale Countdown Ticker**: Real-time ticker counting down hours, minutes, and seconds (`14 Hours : XX Minutes : YY Seconds`).
+- **Diwali Sale Pill Banner**: `DIWALI SALE | UP TO 50% OFF | SHOP NOW`.
+- **Mobile Notification Strip**: `10% OFF Automatically Applied on Orders ₹2,599+`.
+- **Desktop Navigation**:
+  - Menu toggle with animated bars.
+  - Authentic NISHORAMA SVG Wordmark and center quote `“ YOU know where to GET IT ”`.
+  - Nav link pills: `New in`, `Shop All`, `Kurtis`, `Trending 🔴` (with pulsing red indicator), `Tops`, `Bottom`.
+  - "Leaving soon 30% OFF" badge.
+  - Interactive Instagram-style **Story Ring** with Hindi monogram `नी` and spinning gradient animation.
+  - Wishlist bookmark icon with live counter.
+  - Search trigger opening predictive search modal.
+  - User account link.
+  - Cart pill with count.
+- **Mobile Header**:
+  - Hamburger menu trigger + search icon on the left.
+  - Centered brand vector wordmark with italic Hindi quote.
+  - Story ring, wishlist bookmark, and shopping bag icon with item count.
+- **Mobile Navigation Drawer**:
+  - Search input with quick navigation.
+  - Quick promo links (`Shop All`, `New In`, `MOST WANTED`, `FLAT 50% OFF`, `FLAT 40% OFF`, `UNDER ₹1299`, `UNDER ₹999`).
+  - Interactive accordion submenus for `Kurtis`, `Dresses`, `Sets`, `Nisho Men`, `Tops`, `Bottoms`, and `Collections`.
+  - Customer support desk (Phone, WhatsApp, Account, FAQs).
+
+### 2. Interactive Modals & Drawers
+- **Story Viewer Modal**:
+  - Fullscreen Instagram-style story experience triggered by tapping the gradient story ring.
+  - Multi-segment progress bars, auto-advancing slides every 4 seconds, tap to navigate previous/next, and direct "Shop Collection" CTAs.
+- **Predictive Search Modal**:
+  - Live filtering by title, category, and fabric across all styles.
+  - Popular search tags (`White Pants`, `Corset Kurti`, `Mulmul Cover Up`, `Skirt Set`, etc.).
+- **Diwali Promotional Modal**:
+  - Authentic Diwali pop-up with dual-model photography, email capture form, cyan CTA, and session dismissal persistence.
+- **Cart Drawer & Page**:
+  - Slide-out cart drawer with free shipping & free pants progress meter.
+  - Quantity adjustments, size display, item removal, discount code input, and checkout flow.
+- **Quick Add Modal**:
+  - Quick size selector (`XS`, `S`, `M`, `L`, `XL`, `XXL`) triggered directly from any product card.
+
+### 3. Homepage Editorial Layout
+- **Hero Section**:
+  - Desktop split-screen layout with genuine campaign photography, faded watermark typography, `[Ends Tonight]`, bold red headline `FREE PANTS WORTH ₹1399`, and frosted glass `SHOP ALL` pill.
+  - Mobile vertical portrait composition with dark gradient overlay.
+- **Diwali 4-Feature Capsule Grid**:
+  - 4 capsule cards framed by `border: 5px solid #FF2F00; border-radius: 1vw` (desktop 4-columns, mobile 2x2 grid):
+    - `MOST WANTED`
+    - `SETS UP TO 50% off`
+    - `UNDER ₹999`
+    - `KURTIS UP TO 50% off`
+- **5 Editorial Textured Banners**:
+  - Warm chocolate/espresso brown banners with genuine photography, italic serif subtitles, Archivo uppercase headlines, and frosted glass arrow buttons (`most WANTED`, `upto 50% SETS`, `upto 50% KURTIES`, `upto 50% TOPS`, `upto 50% DRESSES`).
+- **Product Fits Tabbed Slider**:
+  - 4 tabs (`UNDER ₹999`, `Festive Sets`, `UPTO 50%`, `Most Wanted`) with active state highlighted in `#482922` and gold border `#F6C582`.
+  - Product cards with discount badges, front/back hover image toggle, pricing, and `+ Add` button.
+  - `View All` button linking to `/collections/shop-all`.
+- **Artisan Engraving Custom Footer**:
+  - Authentic block-print artisan engraving illustration (`cust-footer-svg.svg`).
+  - Desktop 4 columns (Connect with us, Order Support, We Are Nishorama, Nishorama Pvt Ltd Mumbai office details).
+  - Mobile interactive footer accordions with `+`/`−` toggles.
+  - Accepted payment badges (UPI, Cards, NetBanking, PayPal).
+  - Large `#482922` Nishorama vector logo with `" YOU know where to GET IT "` and copyright.
+- **SEO Tag Cloud / Directory Index**:
+  - Bottom directory covering `Kurtis`, `Tops`, `Sets`, `Bottoms`, `Dresses`, and `Our Collections`.
+
+### 4. Catalogue & Product Detail Views
+- **Collection Pages** (`/collections/[category]` and `/collections/shop-all`):
+  - Category selector chips, sorting (Price: Low/High, Featured), responsive 4-column desktop and 2-column mobile grid.
+- **Product Detail Pages** (`/products/[slug]`):
+  - Multi-image gallery with thumbnails, size pills, quantity stepper, "ADD TO BAG", "BUY NOW", accordions for Description & Fit, Fabric & Care, and Shipping & Returns, plus "You May Also Like" recommendations.
+- **Customer Information Pages**:
+  - `/pages/about-us` (Our Story & Craft Heritage)
+  - `/pages/contact` (Contact Form & Mumbai Office)
+  - `/pages/faqs` (Categorized Support Accordion)
+  - `/pages/refund-policy` (Shipping & 7-Day Return Policy)
+  - `/pages/terms-of-service` (Terms of Service)
+  - `/pages/swym-wishlist` (Saved Wishlist Items)
+  - `/cart` (Full Shopping Bag View)
 
 ---
 
-## 🚀 Getting Started
+## 🎨 Color Palette & Typography
 
-### Prerequisites
+- **Brand Dark Brown**: `#482922`
+- **Diwali Festival Red**: `#FF2F00`
+- **Accent Gold Border**: `#F6C582`
+- **Cyan Accent (Modal)**: `#5CE1E6`
+- **Background Cream**: `#FAF8F5`
+- **Background Light Grey**: `#EFEFEF` / `#F5F5F5`
+- **Typography**:
+  - **Primary**: *Archivo* (Weights: 300, 400, 500, 600, 700, 800, 900)
+  - **Editorial Serif Accent**: *Playfair Display* (Italic)
 
-- Node.js (v18.0 or later)
-- npm or yarn
+---
 
-### Installation
+## 🚀 Running the Project
 
 ```bash
-# Clone the repository
-git clone https://github.com/mehruniforyou/wastram.git
-cd wastram
-
 # Install dependencies
 npm install
 
-# Run the development server
+# Run development server
 npm run dev
+# Open http://localhost:3000
 
-# Open http://localhost:3000 in your browser
-```
-
-### Production Build
-
-```bash
-# Compile optimized static pages (SSG)
+# Build for production
 npm run build
 
 # Start production server
 npm run start
 ```
-
----
-
-## 📂 Project Structure
-
-```
-├── app/
-│   ├── layout.tsx                # Root layout with fonts, metadata, and JSON-LD
-│   ├── page.tsx                  # Editorial luxury homepage
-│   ├── collections/
-│   │   ├── page.tsx              # Searchable & filterable catalogue
-│   │   └── [category]/page.tsx   # Dedicated category pages
-│   ├── products/
-│   │   └── [slug]/page.tsx       # Dedicated product detail pages
-│   ├── about/page.tsx            # About Us & Jaipur textile heritage
-│   ├── wholesale-exports/page.tsx# International B2B export guide
-│   ├── faq/page.tsx              # Comprehensive categorized FAQ
-│   ├── contact/page.tsx          # Wholesale enquiry form & contact desk
-│   ├── sitemap.ts                # Dynamic XML sitemap generator
-│   └── robots.ts                 # Search crawler rules
-├── components/                   # Modular UI components
-├── data/
-│   ├── products.ts               # 131 product records with SKUs & specs
-│   ├── categories.ts             # 7 category definitions
-│   └── site-config.ts            # Centralized brand & WhatsApp config
-├── public/
-│   └── images/
-│       ├── brand/                # Derived logos, wordmarks & favicons
-│       ├── hero/                 # High-fashion campaign visuals
-│       └── products/             # Curated product photography by category
-└── scripts/                      # Asset extraction and optimization scripts
-```
-
----
-
-## 📞 Wholesale & Export Contact
-
-- **Brand**: Wastram
-- **WhatsApp**: [+91 80030 88838](https://wa.me/918003088838)
-- **Origin**: Sanganer Textile Craft Hub, Jaipur, Rajasthan, India
-- **Export Coverage**: Worldwide (UK, USA, GCC / Middle East, Europe, Australia)

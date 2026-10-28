@@ -1,13 +1,16 @@
 import { MetadataRoute } from 'next';
-import { siteConfig } from '@/data/site-config';
 
 export default function robots(): MetadataRoute.Robots {
+  const baseUrl = 'https://www.nishorama.com';
+
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      disallow: ['/api/', '/_next/'],
-    },
-    sitemap: `${siteConfig.productionDomain}/sitemap.xml`,
+    rules: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/account', '/cart/checkout'],
+      },
+    ],
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
