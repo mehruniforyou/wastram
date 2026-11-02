@@ -17,7 +17,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
   const wishlistCount = wishlist.length;
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-[#F5F5F5]/90 backdrop-blur-md border-b border-black/5 transition-all">
+    <header className="sticky top-0 z-40 w-full bg-transparent transition-all">
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
