@@ -1,8 +1,10 @@
+import { WESTERN_DRESSES } from './western-dresses';
+
 export interface NishoramaProduct {
   id: string;
   title: string;
   slug: string;
-  tab: 'under-999' | 'festive-sets' | 'upto-50' | 'most-wanted';
+  tab: string;
   category: string;
   badge: string;
   regularPrice: number;
@@ -12,9 +14,11 @@ export interface NishoramaProduct {
   description: string;
   fabric: string;
   details: string[];
+  moq?: string;
+  sku?: string;
 }
 
-export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
+const ORIGINAL_PRODUCTS: NishoramaProduct[] = [
   // UNDER ₹999 Tab
   {
     id: 'gunj-mul-cover-up',
@@ -292,6 +296,11 @@ export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
     fabric: '100% Fine Mul Cotton',
     details: ['Full sleeves with button cuffs', 'Delicate pearl buttons', 'Side slits for mobility', 'Hand wash recommended']
   }
+];
+
+export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
+  ...WESTERN_DRESSES,
+  ...ORIGINAL_PRODUCTS
 ];
 
 export const NISHORAMA_STORIES = [

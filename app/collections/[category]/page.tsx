@@ -11,6 +11,7 @@ interface Props {
 export function generateStaticParams() {
   return [
     { category: 'shop-all' },
+    { category: 'western-dresses' },
     { category: 'new-in' },
     { category: 'kurtis' },
     { category: 'sets' },

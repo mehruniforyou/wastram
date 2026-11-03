@@ -43,8 +43,8 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
             <span className="text-[10px] font-bold uppercase text-[#FF2F00]">{product.badge}</span>
             <h4 className="text-sm font-semibold text-[#482922] line-clamp-1">{product.title}</h4>
             <div className="flex items-center gap-2 mt-1">
-              <span className="text-xs line-through text-black/40">₹ {product.regularPrice.toLocaleString()}</span>
-              <span className="text-sm font-bold text-[#FF2F00]">₹ {product.salePrice.toLocaleString()}</span>
+              <span className="text-xs font-bold text-[#482922]">Price on Enquiry</span>
+              <span className="text-[11px] text-black/50">• {product.moq || 'MOQ: 20 pcs'}</span>
             </div>
           </div>
         </div>
@@ -77,9 +77,7 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
           onClick={handleAdd}
           className="mt-2 w-full py-3 bg-[#482922] hover:bg-[#38201a] text-white font-bold text-xs uppercase tracking-wider rounded-full transition-all shadow-md flex items-center justify-center gap-2"
         >
-          <span>Add to Bag</span>
-          <span>&bull;</span>
-          <span>₹ {product.salePrice.toLocaleString()}</span>
+          <span>Add to Enquiry List</span>
         </button>
       </div>
     </div>

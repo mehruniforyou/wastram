@@ -212,7 +212,7 @@ export default function TapAndViewModal() {
               }}
               className="w-full py-3.5 rounded-full bg-[#482922] text-[#F6C582] hover:bg-[#38201a] text-xs font-bold uppercase tracking-wider transition-all shadow-md flex items-center justify-center gap-2"
             >
-              <span>Add to Bag • Size {selectedSize}</span>
+              <span>Add to Enquiry List • Size {selectedSize}</span>
             </button>
 
             <Link

@@ -9,6 +9,7 @@ import PopularSearches from '@/components/PopularSearches';
 import MobileNavDrawer from '@/components/MobileNavDrawer';
 import StoryViewerModal from '@/components/StoryViewerModal';
 import SearchModal from '@/components/SearchModal';
+import B2BEnquiryModal from '@/components/B2BEnquiryModal';
 import { useCart } from '@/context/CartContext';
 
 interface Props {
@@ -36,6 +37,7 @@ export default function ProductDetailPage({ params }: Props) {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isStoryOpen, setIsStoryOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isEnquiryModalOpen, setIsEnquiryModalOpen] = useState(false);
 
   const { addToCart, toggleWishlist, isWishlisted, openSizeGuide, openTapAndView } = useCart();
   const wishlisted = isWishlisted(product.slug);

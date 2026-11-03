@@ -123,8 +123,8 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         {p.title}
                       </h4>
                       <div className="flex items-center gap-2 text-xs font-archivo">
-                        <span className="line-through text-black/40 text-[11px]">₹ {p.regularPrice.toLocaleString()}</span>
-                        <span className="font-bold text-[#FF2F00]">₹ {p.salePrice.toLocaleString()}</span>
+                        <span className="font-bold text-[#482922]">Price on Enquiry</span>
+                        <span className="text-[10px] text-black/50">• {p.moq || 'MOQ 20 pcs'}</span>
                       </div>
                     </div>
                   </Link>

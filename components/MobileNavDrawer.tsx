@@ -66,6 +66,11 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
               </Link>
             </li>
             <li>
+              <Link href="/collections/western-dresses" onClick={onClose} className="hover:text-[#FF2F00] text-[#FF2F00] font-bold block">
+                Western Dresses ✦
+              </Link>
+            </li>
+            <li>
               <Link href="/collections/new-in" onClick={onClose} className="hover:text-[#FF2F00] block">
                 New In
               </Link>

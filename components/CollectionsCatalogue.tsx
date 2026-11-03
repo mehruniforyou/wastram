@@ -25,6 +25,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
 
   const categories = [
     { id: 'all', label: 'Shop All' },
+    { id: 'western-dresses', label: 'Western Dresses' },
     { id: 'kurtis', label: 'Kurtis' },
     { id: 'sets', label: 'Sets' },
     { id: 'tops', label: 'Tops' },
@@ -230,24 +231,22 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
                         </Link>
 
                         <div className="flex items-center gap-1.5 mt-0.5 font-archivo">
-                          <span className="text-[2.4vw] md:text-[0.75vw] line-through text-black/50">
-                            ₹ {product.regularPrice.toLocaleString()}
+                          <span className="text-[2.6vw] md:text-[0.82vw] font-bold text-[#482922]">
+                            Price on Enquiry
                           </span>
-                          <span className="text-[2.6vw] md:text-[0.82vw] font-bold text-[#FF2F00]">
-                            ₹ {product.salePrice.toLocaleString()}
+                          <span className="text-[2.2vw] md:text-[0.68vw] text-black/50">
+                            • {product.moq || 'MOQ 20 pcs'}
                           </span>
                         </div>
                       </div>
 
-                      {/* Quick Add Pill Button */}
-                      <button
-                        type="button"
-                        onClick={() => setQuickAddProduct(product)}
+                      {/* Enquire Pill Button */}
+                      <Link
+                        href={`/products/${product.slug}`}
                         className="px-2.5 md:px-3 py-1 md:py-1 rounded-full border border-[#482922] bg-white text-[#482922] hover:bg-[#482922] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
                       >
-                        <span className="font-bold">+</span>
-                        <span>Add</span>
-                      </button>
+                        <span>Enquire</span>
+                      </Link>
                     </div>
                   </div>
                 </div>

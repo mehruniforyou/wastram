@@ -47,6 +47,12 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
         <div className="flex flex-col items-center">
           <nav className="flex items-center gap-1.5 font-archivo text-xs font-medium text-[#482922]">
             <Link
+              href="/collections/western-dresses"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#FF2F00]"
+            >
+              Western Dresses ✦
+            </Link>
+            <Link
               href="/collections/new-in"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >

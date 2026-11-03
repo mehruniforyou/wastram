@@ -170,7 +170,7 @@ export default function CartPage() {
                 onClick={() => alert('Proceeding to payment gateway...')}
                 className="w-full mt-2 py-3.5 rounded-full bg-[#FF2F00] hover:bg-[#e02900] text-white font-archivo font-black text-xs uppercase tracking-widest shadow-lg transition-colors"
               >
-                CHECKOUT SECURELY
+                SUBMIT WHOLESALE ENQUIRY
               </button>
             </div>
           </div>
