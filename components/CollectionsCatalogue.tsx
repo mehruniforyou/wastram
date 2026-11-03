@@ -24,20 +24,24 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const { toggleWishlist, isWishlisted, openTapAndView } = useCart();
 
   const categories = [
-    { id: 'all', label: 'All Western Dresses' },
+    { id: 'all', label: 'All Collections' },
+    { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'traditional-gowns', label: 'Traditional Gowns' },
     { id: 'maxi', label: 'Maxi Dresses' },
-    { id: 'midi', label: 'Midi Dresses' },
-    { id: 'slip', label: 'Slip & Halter' },
-    { id: 'tiered', label: 'Tiered & Wrap' }
+    { id: 'anarkali-gowns', label: 'Anarkali Gowns' },
+    { id: 'tiered', label: 'Tiered & Flared' }
   ];
 
   let filtered = NISHORAMA_PRODUCTS.filter(p => {
-    if (selectedCategory === 'all' || selectedCategory === 'western-dresses' || selectedCategory === 'shop-all') return true;
+    if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
+    if (selectedCategory === 'western-dresses') return p.category === 'western-dresses';
+    if (selectedCategory === 'traditional-gowns') return p.category === 'traditional-gowns';
+    if (selectedCategory === 'anarkali-gowns') return p.category === 'traditional-gowns' || p.title.includes('Anarkali');
     if (selectedCategory === 'maxi' || selectedCategory === 'maxi-dresses') return p.title.includes('Maxi');
     if (selectedCategory === 'midi' || selectedCategory === 'midi-dress') return p.title.includes('Midi');
     if (selectedCategory === 'slip') return p.title.includes('Slip') || p.title.includes('Halter');
-    if (selectedCategory === 'tiered') return p.title.includes('Tiered') || p.title.includes('Wrap');
-    if (selectedCategory === 'most-wanted') return p.badge === 'Export Bestseller';
+    if (selectedCategory === 'tiered') return p.title.includes('Tiered') || p.title.includes('Wrap') || p.title.includes('Flared');
+    if (selectedCategory === 'most-wanted') return p.badge.includes('Bestseller');
     return p.category === selectedCategory || p.tab === selectedCategory;
   });
 

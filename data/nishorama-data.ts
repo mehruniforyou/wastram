@@ -1,4 +1,5 @@
 import { WESTERN_DRESSES } from './western-dresses';
+import { TRADITIONAL_GOWNS } from './traditional-gowns';
 
 export interface NishoramaProduct {
   id: string;
@@ -19,7 +20,8 @@ export interface NishoramaProduct {
 }
 
 export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
-  ...WESTERN_DRESSES
+  ...WESTERN_DRESSES,
+  ...TRADITIONAL_GOWNS
 ];
 
 export const NISHORAMA_STORIES = [
@@ -50,10 +52,24 @@ export const NISHORAMA_STORIES = [
     image: '/western-dresses/10426.jpg.jpeg',
     subtitle: 'Boutique Collection',
     tag: 'WHOLESALE'
+  },
+  {
+    id: 5,
+    title: 'TRADITIONAL GOWNS',
+    image: '/traditional-gowns/16668.jpg.jpeg',
+    subtitle: 'Regal Kalidar Gowns',
+    tag: 'ROYAL'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'Traditional Gowns': [
+    { text: 'All Traditional Gowns', href: '/collections/traditional-gowns' },
+    { text: 'Zari Flared Gowns', href: '/collections/traditional-gowns' },
+    { text: 'Organza Festive Gowns', href: '/collections/traditional-gowns' },
+    { text: 'Banarasi Brocade Gowns', href: '/collections/traditional-gowns' },
+    { text: 'Chikankari Floor Gowns', href: '/collections/traditional-gowns' }
+  ],
   'Western Dresses': [
     { text: 'All Western Dresses', href: '/collections/western-dresses' },
     { text: 'Maxi Dresses', href: '/collections/maxi-dresses' },

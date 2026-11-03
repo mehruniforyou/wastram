@@ -15,19 +15,20 @@ export default function ProductFitsGrid() {
   const { toggleWishlist, isWishlisted, openTapAndView } = useCart();
 
   const tabs = [
-    { id: 'all', label: 'All Western Dresses' },
+    { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'traditional-gowns', label: 'Traditional Gowns' },
     { id: 'bestsellers', label: 'Export Bestsellers' },
     { id: 'maxi', label: 'Maxi Dresses' },
-    { id: 'midi', label: 'Midi Dresses' },
-    { id: 'slip', label: 'Slip & Halter' }
+    { id: 'anarkali', label: 'Anarkali Gowns' }
   ];
 
   const currentProducts = NISHORAMA_PRODUCTS.filter(p => {
     if (activeTab === 'all') return true;
-    if (activeTab === 'bestsellers') return p.badge === 'Export Bestseller';
+    if (activeTab === 'western-dresses') return p.category === 'western-dresses';
+    if (activeTab === 'traditional-gowns') return p.category === 'traditional-gowns';
+    if (activeTab === 'bestsellers') return p.badge.includes('Bestseller');
     if (activeTab === 'maxi') return p.title.includes('Maxi');
-    if (activeTab === 'midi') return p.title.includes('Midi');
-    if (activeTab === 'slip') return p.title.includes('Slip') || p.title.includes('Halter');
+    if (activeTab === 'anarkali') return p.title.includes('Anarkali') || p.category === 'traditional-gowns';
     return p.tab === activeTab;
   }).slice(0, 16);
 
