@@ -6,24 +6,24 @@ import Link from 'next/link';
 export default function FeatureCategories() {
   const categories = [
     {
-      title: 'MOST WANTED',
-      image: '/nishorama-images/cat-most-wanted.png',
+      title: 'WESTERN DRESSES',
+      image: '/western-dresses/1668.jpg.jpeg',
+      href: '/collections/western-dresses'
+    },
+    {
+      title: 'TIERED MAXI',
+      image: '/western-dresses/5494.jpg.jpeg',
+      href: '/collections/maxi-dresses'
+    },
+    {
+      title: 'CHIC SLIP & MIDI',
+      image: '/western-dresses/10096.jpg.jpeg',
+      href: '/collections/midi-dress'
+    },
+    {
+      title: 'EXPORT BESTSELLERS',
+      image: '/western-dresses/10426.jpg.jpeg',
       href: '/collections/most-wanted'
-    },
-    {
-      title: 'SETS UP TO 50% off',
-      image: '/nishorama-images/cat-sets-50.png',
-      href: '/collections/sets'
-    },
-    {
-      title: 'UNDER ₹999',
-      image: '/nishorama-images/cat-under-999.png',
-      href: '/collections/under-999'
-    },
-    {
-      title: 'KURTIS UP TO 50% off',
-      image: '/nishorama-images/cat-kurtis-50.png',
-      href: '/collections/kurtis'
     }
   ];
 

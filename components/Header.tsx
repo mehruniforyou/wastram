@@ -53,41 +53,29 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               Western Dresses ✦
             </Link>
             <Link
-              href="/collections/new-in"
+              href="/collections/maxi-dresses"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
-              New in
+              Maxi Dresses
+            </Link>
+            <Link
+              href="/collections/midi-dress"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
+            >
+              Midi Dresses
+            </Link>
+            <Link
+              href="/collections/most-wanted"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
+            >
+              <span>Bestsellers</span>
+              <span className="cust-red-dot" />
             </Link>
             <Link
               href="/collections/shop-all"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
-              Shop All
-            </Link>
-            <Link
-              href="/collections/kurtis"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
-            >
-              Kurtis
-            </Link>
-            <Link
-              href="/collections/trending"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
-            >
-              <span>Trending</span>
-              <span className="cust-red-dot" />
-            </Link>
-            <Link
-              href="/collections/tops"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
-            >
-              Tops
-            </Link>
-            <Link
-              href="/collections/bottoms"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
-            >
-              Bottom
+              All 170+ Styles
             </Link>
           </nav>
 

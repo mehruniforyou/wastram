@@ -48,10 +48,10 @@ export default function AnnouncementBar() {
       {/* Mobile Diwali Banner */}
       <div className="block lg:hidden py-2 px-4 bg-[#231815] text-center border-b border-white/10">
         <div className="flex items-center justify-center gap-3">
-          <span className="font-black text-[#FF2F00] text-sm tracking-wider uppercase">DIWALI SALE</span>
+          <span className="font-black text-[#FF2F00] text-sm tracking-wider uppercase">WHOLESALE & EXPORT</span>
           <span className="text-white/40">|</span>
           <span className="text-xs text-white/90">
-            UP TO <strong className="text-white font-bold">50%</strong> OFF
+            FOB / CIF QUOTES AVAILABLE
           </span>
           <Link
             href="/collections/shop-all"
@@ -64,7 +64,7 @@ export default function AnnouncementBar() {
 
       {/* Mobile Notification Strip */}
       <div className="block lg:hidden py-1 px-4 bg-[#2C1F1B] text-center text-[10px] text-[#F6C582] font-archivo tracking-wider border-b border-[#482922]/50">
-        10% OFF Automatically Applied on Orders ₹2,599+
+        Worldwide Doorstep Air & Sea Cargo Dispatch • UK, USA, EU & Gulf
       </div>
 
       {/* Desktop Announcement Strip */}
@@ -77,10 +77,10 @@ export default function AnnouncementBar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <span className="font-black text-[#FF2F00] tracking-wider uppercase">DIWALI SALE</span>
+          <span className="font-black text-[#FF2F00] tracking-wider uppercase">WHOLESALE & EXPORT</span>
           <span className="text-white/40">|</span>
           <span className="text-white/90">
-            UP TO <strong className="font-bold text-white">50%</strong> OFF
+            FOB / CIF QUOTES AVAILABLE
           </span>
           <Link
             href="/collections/shop-all"

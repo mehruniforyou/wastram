@@ -24,18 +24,22 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const { toggleWishlist, isWishlisted, openTapAndView } = useCart();
 
   const categories = [
-    { id: 'all', label: 'Shop All' },
-    { id: 'western-dresses', label: 'Western Dresses' },
-    { id: 'kurtis', label: 'Kurtis' },
-    { id: 'sets', label: 'Sets' },
-    { id: 'tops', label: 'Tops' },
-    { id: 'bottoms', label: 'Bottoms' },
-    { id: 'dresses', label: 'Dresses' }
+    { id: 'all', label: 'All Western Dresses' },
+    { id: 'maxi', label: 'Maxi Dresses' },
+    { id: 'midi', label: 'Midi Dresses' },
+    { id: 'slip', label: 'Slip & Halter' },
+    { id: 'tiered', label: 'Tiered & Wrap' }
   ];
 
-  let filtered = selectedCategory === 'all'
-    ? NISHORAMA_PRODUCTS
-    : NISHORAMA_PRODUCTS.filter(p => p.category === selectedCategory || p.tab === selectedCategory);
+  let filtered = NISHORAMA_PRODUCTS.filter(p => {
+    if (selectedCategory === 'all' || selectedCategory === 'western-dresses' || selectedCategory === 'shop-all') return true;
+    if (selectedCategory === 'maxi' || selectedCategory === 'maxi-dresses') return p.title.includes('Maxi');
+    if (selectedCategory === 'midi' || selectedCategory === 'midi-dress') return p.title.includes('Midi');
+    if (selectedCategory === 'slip') return p.title.includes('Slip') || p.title.includes('Halter');
+    if (selectedCategory === 'tiered') return p.title.includes('Tiered') || p.title.includes('Wrap');
+    if (selectedCategory === 'most-wanted') return p.badge === 'Export Bestseller';
+    return p.category === selectedCategory || p.tab === selectedCategory;
+  });
 
   if (sortBy === 'price-low') {
     filtered = [...filtered].sort((a, b) => a.salePrice - b.salePrice);

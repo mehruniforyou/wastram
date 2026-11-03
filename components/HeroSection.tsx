@@ -26,16 +26,16 @@ export default function HeroSection() {
 
         {/* Overlay Content Centered at Bottom */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center">
-          <p className="text-[0.8vw] font-archivo uppercase tracking-widest text-black/70 font-light mb-1">
-            [Ends Tonight]
+          <p className="text-[0.8vw] font-archivo uppercase tracking-widest text-black/70 font-bold mb-1">
+            [ DIRECT MANUFACTURER & EXPORT ]
           </p>
 
           <h1 className="text-[3.2vw] font-black font-archivo tracking-[-2px] text-[#FF2F00] uppercase leading-none drop-shadow-sm">
-            FREE PANTS worth ₹1399
+            WESTERN DRESSES WHOLESALE
           </h1>
 
-          <p className="text-[2.2vw] font-bold font-archivo tracking-[-0.1vw] text-white drop-shadow-md mt-1 mb-4">
-            On order above ₹2999
+          <p className="text-[1.8vw] font-bold font-archivo text-white drop-shadow-md mt-1 mb-4">
+            Over 170+ Contemporary Silhouettes • Worldwide Cargo Dispatch
           </p>
 
           <Link
