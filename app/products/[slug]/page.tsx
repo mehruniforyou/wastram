@@ -205,7 +205,7 @@ export default function ProductDetailPage({ params }: Props) {
                   {openAccordions.shipping && (
                     <div className="text-xs text-black/70 pt-2.5 space-y-1.5 leading-relaxed">
                       <p>• Fast dispatch within 24-48 business hours from Mumbai warehouse.</p>
-                      <p>• Free shipping all over India on orders above ₹2,999.</p>
+                      <p>• Worldwide doorstep air & sea freight dispatch (UK, US, EU, Gulf). MOQ 20 pcs.</p>
                       <p>• Standard delivery within 3-5 working days.</p>
                     </div>
                   )}
@@ -357,70 +357,74 @@ export default function ProductDetailPage({ params }: Props) {
                 })}
               </div>
 
-              {/* Price Line */}
-              <div className="flex items-center justify-between py-2 border-y border-black/10">
-                <div className="flex items-baseline gap-2.5">
-                  <span className="text-sm line-through text-black/40">
-                    ₹ {product.regularPrice.toLocaleString()}
-                  </span>
-                  <span className="text-2xl font-black text-[#FF2F00]">
-                    ₹ {product.salePrice.toLocaleString()}
-                  </span>
-                </div>
+              {/* Show Price Button Bar */}
+              <div className="flex items-center justify-between py-2.5 border-y border-black/10">
+                <button
+                  type="button"
+                  onClick={() => setIsEnquiryModalOpen(true)}
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#482922] text-[#F6C582] hover:bg-[#38201a] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-sm active:scale-95"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                    <circle cx="12" cy="12" r="3" />
+                  </svg>
+                  <span>Show Price</span>
+                </button>
 
-                <span className="px-2.5 py-0.5 bg-white border border-[#CDCDCD] text-[#121212] text-xs font-bold rounded">
-                  Sale
+                <span className="px-3 py-1 bg-white border border-[#482922]/20 text-[#482922] text-xs font-bold rounded-full shadow-2xs">
+                  {product.moq || 'MOQ: 20 pcs'}
                 </span>
               </div>
 
-              {/* Primary Action Buttons */}
+              {/* Primary B2B Action Buttons */}
               <div className="grid grid-cols-2 gap-2.5">
                 <button
                   type="button"
-                  onClick={() => addToCart(product, selectedSize, 1)}
+                  onClick={() => setIsEnquiryModalOpen(true)}
                   className="py-3 rounded-full bg-white border border-[#482922] text-[#482922] hover:bg-[#482922] hover:text-white font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs"
                 >
-                  ADD TO CART
+                  REQUEST B2B QUOTE
                 </button>
 
-                <button
-                  type="button"
-                  onClick={() => addToCart(product, selectedSize, 1)}
-                  className="py-3 rounded-full bg-[#482922] text-white hover:bg-[#38201a] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs"
+                <a
+                  href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id})`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-3 rounded-full bg-[#482922] text-white hover:bg-[#38201a] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs flex items-center justify-center text-center"
                 >
-                  BUY IT NOW
-                </button>
+                  WHATSAPP CHAT
+                </a>
               </div>
 
-              {/* Exclusive Offers & Savings */}
+              {/* B2B Wholesale & Export Specifications */}
               <div className="bg-white p-3.5 rounded-2xl border border-black/5 flex flex-col gap-2.5">
                 <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#482922]">
-                  <span>Exclusive Offers & Savings</span>
-                  <span className="text-[10px] bg-[#FAF8F5] text-[#FF2F00] px-2 py-0.5 rounded border border-[#FF2F00]/20">
-                    LIMITED TIME
+                  <span>Wholesale & Export Terms</span>
+                  <span className="text-[10px] bg-[#FAF8F5] text-[#482922] px-2 py-0.5 rounded border border-[#482922]/20 font-semibold">
+                    EXPORT GRADE
                   </span>
                 </div>
 
-                {/* Offer 1 */}
+                {/* Term 1 */}
                 <div className="bg-[#FAF8F5] p-2.5 rounded-xl border border-black/5 flex items-center justify-between text-xs">
                   <div>
-                    <span className="font-bold text-[#482922] block">Free pant on ₹2999+ orders</span>
-                    <span className="text-[11px] text-black/60">Select your favourite pant and size at cart</span>
+                    <span className="font-bold text-[#482922] block">Custom Private Labelling</span>
+                    <span className="text-[11px] text-black/60">Woven tags, barcode stickers & custom packaging</span>
                   </div>
                   <span className="bg-[#482922] text-[#F6C582] text-[10px] font-bold px-2 py-0.5 rounded">
-                    ACTIVE
+                    AVAILABLE
                   </span>
                 </div>
 
-                {/* Offer 2 & 3 Coupon Boxes */}
+                {/* Term 2 & 3 Boxes */}
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   <div className="p-2 border border-dashed border-[#482922]/40 rounded-xl bg-white text-center">
-                    <span className="text-[10px] text-black/60 block">Orders ₹3,999+</span>
-                    <span className="font-black text-[#FF2F00] text-xs">SAVE₹200</span>
+                    <span className="text-[10px] text-black/60 block">Flexible Batch MOQ</span>
+                    <span className="font-bold text-[#482922] text-xs">20 Pcs / Style</span>
                   </div>
                   <div className="p-2 border border-dashed border-[#482922]/40 rounded-xl bg-white text-center">
-                    <span className="text-[10px] text-black/60 block">Orders ₹4,999+</span>
-                    <span className="font-black text-[#FF2F00] text-xs">SAVE₹400</span>
+                    <span className="text-[10px] text-black/60 block">Global Cargo Dispatch</span>
+                    <span className="font-bold text-[#482922] text-xs">DHL / Air / Sea</span>
                   </div>
                 </div>
               </div>
@@ -428,12 +432,12 @@ export default function ProductDetailPage({ params }: Props) {
               {/* Trust Badges */}
               <div className="flex items-center justify-between text-[11px] text-black/70 px-1 pt-1">
                 <div className="flex items-center gap-1.5">
-                  <span>🚚</span>
-                  <span>Cash On Delivery Available</span>
+                  <span>🌐</span>
+                  <span>Worldwide Export (UK, US, EU, Gulf)</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span>🔄</span>
-                  <span>Easy 7 Days Returns</span>
+                  <span>🛡️</span>
+                  <span>Verified Export Quality</span>
                 </div>
               </div>
             </div>
@@ -542,18 +546,21 @@ export default function ProductDetailPage({ params }: Props) {
             </button>
           </div>
 
-          {/* Price Line */}
+          {/* Mobile Show Price Button */}
           <div className="flex items-center justify-between pb-2 border-b border-black/10">
-            <div className="flex items-center gap-2">
-              <span className="text-xs line-through text-black/40">
-                ₹ {product.regularPrice.toLocaleString()}
-              </span>
-              <span className="text-lg font-black text-[#FF2F00]">
-                ₹ {product.salePrice.toLocaleString()}
-              </span>
-            </div>
-            <span className="px-2 py-0.5 bg-[#FAF8F5] border border-black/15 text-[#482922] text-[10px] font-bold rounded">
-              Sale
+            <button
+              type="button"
+              onClick={() => setIsEnquiryModalOpen(true)}
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#482922] text-[#F6C582] font-archivo text-xs font-bold uppercase tracking-wider shadow-sm active:scale-95"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              <span>Show Price</span>
+            </button>
+            <span className="px-2.5 py-0.5 bg-[#FAF8F5] border border-black/15 text-[#482922] text-[10px] font-bold rounded">
+              {product.moq || 'MOQ: 20 pcs'}
             </span>
           </div>
 
@@ -600,36 +607,36 @@ export default function ProductDetailPage({ params }: Props) {
             })}
           </div>
 
-          {/* Action CTAs */}
+          {/* B2B Action CTAs */}
           <div className="flex flex-col gap-2 pt-2">
             <button
               type="button"
-              onClick={() => addToCart(product, selectedSize, 1)}
-              className="w-full py-3.5 rounded-full bg-white border border-[#482922] text-[#482922] font-bold text-xs uppercase tracking-wider"
+              onClick={() => setIsEnquiryModalOpen(true)}
+              className="w-full py-3.5 rounded-full bg-white border border-[#482922] text-[#482922] font-bold text-xs uppercase tracking-wider shadow-xs"
             >
-              ADD TO CART
+              REQUEST B2B QUOTE
             </button>
-            <button
-              type="button"
-              onClick={() => addToCart(product, selectedSize, 1)}
-              className="w-full py-3.5 rounded-full bg-[#482922] text-white font-bold text-xs uppercase tracking-wider"
+            <a
+              href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id})`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-3.5 rounded-full bg-[#482922] text-white font-bold text-xs uppercase tracking-wider shadow-xs text-center flex items-center justify-center gap-1.5"
             >
-              BUY IT NOW
-            </button>
+              <span>💬 WHATSAPP ENQUIRY</span>
+            </a>
           </div>
 
-          {/* Exclusive Offers & Savings */}
+          {/* B2B Wholesale & Export Terms */}
           <div className="bg-[#FAF8F5] p-3 rounded-2xl border border-black/5 flex flex-col gap-2">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-[#482922]">
-              Free pant on orders ₹2,999+
-            </span>
-            <div className="grid grid-cols-2 gap-2 text-center text-xs">
-              <div className="p-2 border border-dashed border-[#482922]/40 rounded-xl bg-white font-bold text-[#FF2F00]">
-                SAVE₹200
-              </div>
-              <div className="p-2 border border-dashed border-[#482922]/40 rounded-xl bg-white font-bold text-[#FF2F00]">
-                SAVE₹400
-              </div>
+            <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#482922]">
+              <span>Wholesale & Export Terms</span>
+              <span className="text-[9px] bg-white text-[#482922] px-2 py-0.5 rounded border border-[#482922]/20 font-semibold">
+                EXPORT GRADE
+              </span>
+            </div>
+            <div className="bg-white p-2.5 rounded-xl border border-black/5 text-xs">
+              <span className="font-bold text-[#482922] block">Custom Private Labelling & Tags</span>
+              <span className="text-[10px] text-black/60">MOQ 20 pcs/style • Worldwide Doorstep Air/Sea Cargo</span>
             </div>
           </div>
 
@@ -648,7 +655,7 @@ export default function ProductDetailPage({ params }: Props) {
                 Shipping & Delivery
               </summary>
               <p className="mt-2 text-black/70 leading-relaxed">
-                Fast dispatch within 24-48 business hours from Mumbai. Free shipping across India on orders above ₹2,999.
+                Fast dispatch within 24-48 business hours from Mumbai. Worldwide doorstep air & sea freight dispatch (UK, US, EU, Gulf). MOQ 20 pcs.
               </p>
             </details>
             <details className="py-2 border-b border-black/5">
@@ -727,13 +734,13 @@ export default function ProductDetailPage({ params }: Props) {
                       >
                         {rel.title}
                       </Link>
-                      <div className="flex items-center gap-1.5 mt-0.5 text-xs font-archivo">
-                        <span className="text-[2.4vw] md:text-[0.75vw] line-through text-black/50">
-                          ₹ {rel.regularPrice.toLocaleString()}
-                        </span>
-                        <span className="text-[2.6vw] md:text-[0.82vw] font-bold text-[#FF2F00]">
-                          ₹ {rel.salePrice.toLocaleString()}
-                        </span>
+                      <div className="mt-1">
+                        <Link
+                          href={`/products/${rel.slug}`}
+                          className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#482922] text-[#F6C582] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider hover:bg-[#38201a] transition-all"
+                        >
+                          <span>Show Price</span>
+                        </Link>
                       </div>
                     </div>
 

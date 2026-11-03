@@ -91,7 +91,7 @@ export default function AnnouncementBar() {
         </div>
 
         <div className="text-[#F6C582] text-[11px] font-medium tracking-wide">
-          10% OFF Automatically Applied on Orders ₹2,599+
+          10% OFF Automatically Applied on Orders Wholesale Orders
         </div>
       </div>
     </div>

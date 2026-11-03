@@ -145,16 +145,17 @@ export default function TapAndViewModal() {
               </h2>
             </div>
 
-            {/* Price */}
+            {/* Show Price Button Bar */}
             <div className="flex items-center gap-3">
-              <span className="text-sm md:text-base line-through text-black/40">
-                ₹ {tapAndViewProduct.regularPrice.toLocaleString()}
-              </span>
-              <span className="text-xl md:text-2xl font-black text-[#FF2F00]">
-                ₹ {tapAndViewProduct.salePrice.toLocaleString()}
-              </span>
+              <Link
+                href={`/products/${tapAndViewProduct.slug}`}
+                onClick={closeTapAndView}
+                className="px-4 py-1.5 rounded-full bg-[#482922] text-[#F6C582] font-archivo text-xs font-bold uppercase tracking-wider hover:bg-[#38201a] transition-all shadow-sm flex items-center gap-1.5"
+              >
+                <span>Show Price</span>
+              </Link>
               <span className="text-[10px] font-bold bg-[#FAF8F5] text-[#482922] border border-black/15 px-2 py-0.5 rounded">
-                Sale
+                {tapAndViewProduct.moq || 'MOQ: 20 pcs'}
               </span>
             </div>
 
@@ -197,7 +198,7 @@ export default function TapAndViewModal() {
             {/* Features preview */}
             <div className="text-xs text-black/70 space-y-1 pt-2">
               <p>• Premium Pure Fabric with Handcrafted detailing</p>
-              <p>• Free shipping & pants on orders above ₹2,999</p>
+              <p>• Worldwide export shipping via DHL / Air / Sea cargo</p>
               <p>• 7-day hassle-free exchange & COD available</p>
             </div>
           </div>

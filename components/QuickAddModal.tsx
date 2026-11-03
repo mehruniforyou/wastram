@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { NishoramaProduct } from '@/data/nishorama-data';
 import { useCart } from '@/context/CartContext';
 
@@ -43,7 +44,13 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
             <span className="text-[10px] font-bold uppercase text-[#FF2F00]">{product.badge}</span>
             <h4 className="text-sm font-semibold text-[#482922] line-clamp-1">{product.title}</h4>
             <div className="flex items-center gap-2 mt-1">
-              <span className="text-xs font-bold text-[#482922]">Price on Enquiry</span>
+              <Link
+                href={`/products/${product.slug}`}
+                onClick={onClose}
+                className="px-3 py-1 rounded-full bg-[#482922] text-[#F6C582] font-archivo text-[11px] font-bold uppercase tracking-wider hover:bg-[#38201a]"
+              >
+                Show Price
+              </Link>
               <span className="text-[11px] text-black/50">• {product.moq || 'MOQ: 20 pcs'}</span>
             </div>
           </div>

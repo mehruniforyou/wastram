@@ -29,7 +29,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     'Skirt Set',
     'Modest Kurti',
     'Jacquard Set',
-    'Under ₹999'
+    'Maxi Dresses'
   ];
 
   return (
@@ -122,8 +122,10 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                       <h4 className="text-xs font-medium font-archivo text-black/80 line-clamp-1">
                         {p.title}
                       </h4>
-                      <div className="flex items-center gap-2 text-xs font-archivo">
-                        <span className="font-bold text-[#482922]">Price on Enquiry</span>
+                      <div className="flex items-center gap-2 text-xs font-archivo mt-1">
+                        <span className="px-2 py-0.5 rounded-full bg-[#482922] text-[#F6C582] text-[10px] font-bold uppercase tracking-wider">
+                          Show Price
+                        </span>
                         <span className="text-[10px] text-black/50">• {p.moq || 'MOQ 20 pcs'}</span>
                       </div>
                     </div>

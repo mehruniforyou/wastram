@@ -81,23 +81,23 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
               </Link>
             </li>
             <li>
-              <Link href="/collections/50-off" onClick={onClose} className="text-[#FF2F00] font-bold block">
-                FLAT 50% OFF
+              <Link href="/collections/most-wanted" onClick={onClose} className="text-[#FF2F00] font-bold block">
+                EXPORT BESTSELLERS
               </Link>
             </li>
             <li>
-              <Link href="/collections/40-off" onClick={onClose} className="text-[#FF2F00] font-bold block">
-                FLAT 40% OFF
+              <Link href="/collections/shop-all" onClick={onClose} className="text-[#FF2F00] font-bold block">
+                ALL 170+ STYLES
               </Link>
             </li>
             <li>
-              <Link href="/collections/under-1299" onClick={onClose} className="text-[#FF2F00] font-bold block">
-                UNDER ₹1299
+              <Link href="/collections/maxi-dresses" onClick={onClose} className="text-[#FF2F00] font-bold block">
+                MAXI DRESSES
               </Link>
             </li>
             <li>
-              <Link href="/collections/under-999" onClick={onClose} className="text-[#FF2F00] font-bold block">
-                UNDER ₹999
+              <Link href="/collections/midi-dress" onClick={onClose} className="text-[#FF2F00] font-bold block">
+                MIDI DRESSES
               </Link>
             </li>
           </ul>

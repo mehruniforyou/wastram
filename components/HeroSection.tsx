@@ -13,7 +13,7 @@ export default function HeroSection() {
         {/* Background Image */}
         <img
           src="/nishorama-images/hero-desktop.png"
-          alt="FREE PANTS worth ₹1399 On order above ₹2999"
+          alt="Wastram Western Dresses Wholesale"
           className="w-full h-full object-cover object-center"
         />
 
@@ -54,7 +54,7 @@ export default function HeroSection() {
         {/* Mobile Portrait Image */}
         <img
           src="/nishorama-images/hero-mobile.png"
-          alt="FREE PANTS worth ₹1399"
+          alt="Western Dresses 170+ Designs"
           className="w-full h-full object-cover object-top"
         />
 
@@ -72,11 +72,11 @@ export default function HeroSection() {
           </span>
 
           <h1 className="text-3xl font-black font-archivo tracking-tight text-[#FF2F00] uppercase leading-tight drop-shadow-sm">
-            FREE PANTS worth ₹1399
+            WESTERN DRESSES WHOLESALE
           </h1>
 
           <p className="text-base font-bold font-archivo text-white drop-shadow-md mt-0.5 mb-4">
-            On order above ₹2999
+            Over 170+ Contemporary Silhouettes
           </p>
 
           <Link

@@ -49,7 +49,7 @@ export default function CartDrawer() {
         <div className="p-3 bg-[#FAF8F5] border-b border-black/10 text-xs">
           {remainingForFreeShipping > 0 ? (
             <p className="text-black/70 mb-1.5 text-[11px]">
-              Add <strong className="text-[#FF2F00]">₹ {remainingForFreeShipping.toLocaleString()}</strong> more to get <strong>FREE SHIPPING &amp; PANTS</strong>!
+              B2B Wholesale Quotation Basket • Flexible 20 pcs MOQ per style
             </p>
           ) : (
             <p className="text-emerald-700 font-bold mb-1.5 text-[11px] flex items-center gap-1">
@@ -139,7 +139,7 @@ export default function CartDrawer() {
 
                     <div className="text-right">
                       <span className="text-xs font-bold text-[#FF2F00]">
-                        ₹ {(item.product.salePrice * item.quantity).toLocaleString()}
+                        Show Price
                       </span>
                     </div>
                   </div>
@@ -178,7 +178,7 @@ export default function CartDrawer() {
             <div className="flex items-center justify-between text-sm font-archivo pt-2 border-t border-black/5">
               <span className="text-black/70 font-medium">Subtotal</span>
               <span className="text-base font-extrabold text-[#482922]">
-                ₹ {cartSubtotal.toLocaleString()}
+                Price on Request
               </span>
             </div>
 
@@ -195,7 +195,7 @@ export default function CartDrawer() {
             >
               <span>PROCEED TO CHECKOUT</span>
               <span>&bull;</span>
-              <span>₹ {cartSubtotal.toLocaleString()}</span>
+              <span>On Quotation</span>
             </button>
           </div>
         )}

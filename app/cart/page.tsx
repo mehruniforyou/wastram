@@ -66,7 +66,7 @@ export default function CartPage() {
               <div className="pb-4 mb-2 text-xs">
                 {remainingForFreeShipping > 0 ? (
                   <p className="text-black/70 mb-2">
-                    Add <strong className="text-[#FF2F00]">₹ {remainingForFreeShipping.toLocaleString()}</strong> more to unlock <strong>FREE SHIPPING &amp; FREE PANTS</strong>!
+                    B2B Wholesale Quotation Basket • Direct Manufacturer Dispatch (UK, USA, EU, Gulf)
                   </p>
                 ) : (
                   <p className="text-emerald-700 font-bold mb-2">
@@ -115,7 +115,7 @@ export default function CartPage() {
                         </button>
                       </div>
                       <span className="text-sm font-bold text-[#FF2F00]">
-                        ₹ {(item.product.salePrice * item.quantity).toLocaleString()}
+                        Show Price
                       </span>
                     </div>
                   </div>
@@ -154,15 +154,15 @@ export default function CartPage() {
               <div className="space-y-2 pt-2 border-t border-black/5 text-xs">
                 <div className="flex justify-between text-black/70">
                   <span>Subtotal</span>
-                  <span>₹ {cartSubtotal.toLocaleString()}</span>
+                  <span>Price on Request</span>
                 </div>
                 <div className="flex justify-between text-black/70">
                   <span>Standard Shipping</span>
-                  <span>{cartSubtotal >= freeShippingThreshold ? <strong className="text-emerald-700">FREE</strong> : '₹ 150'}</span>
+                  <span>Calculated on destination</span>
                 </div>
                 <div className="flex justify-between text-base font-bold text-[#482922] pt-2 border-t border-black/10">
                   <span>Total Amount</span>
-                  <span className="text-[#FF2F00]">₹ {cartSubtotal.toLocaleString()}</span>
+                  <span className="text-[#482922] font-bold">On Quotation</span>
                 </div>
               </div>
 

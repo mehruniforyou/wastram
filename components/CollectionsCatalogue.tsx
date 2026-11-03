@@ -234,10 +234,13 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
                           {product.title}
                         </Link>
 
-                        <div className="flex items-center gap-1.5 mt-0.5 font-archivo">
-                          <span className="text-[2.6vw] md:text-[0.82vw] font-bold text-[#482922]">
-                            Price on Enquiry
-                          </span>
+                        <div className="flex items-center gap-1.5 mt-1 font-archivo">
+                          <Link
+                            href={`/products/${product.slug}`}
+                            className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#482922] text-[#F6C582] hover:bg-[#38201a] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider transition-all shadow-2xs"
+                          >
+                            <span>Show Price</span>
+                          </Link>
                           <span className="text-[2.2vw] md:text-[0.68vw] text-black/50">
                             • {product.moq || 'MOQ 20 pcs'}
                           </span>
