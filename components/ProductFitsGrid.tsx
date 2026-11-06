@@ -16,6 +16,7 @@ export default function ProductFitsGrid() {
 
   const tabs = [
     { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets' },
     { id: 'tops-shirts', label: 'Tops & Shirts' },
     { id: 'cord-sets', label: 'Co-ord Sets' },
     { id: 'traditional-gowns', label: 'Traditional Gowns' },
@@ -26,6 +27,7 @@ export default function ProductFitsGrid() {
   const currentProducts = NISHORAMA_PRODUCTS.filter(p => {
     if (activeTab === 'all') return true;
     if (activeTab === 'western-dresses') return p.category === 'western-dresses';
+    if (activeTab === 'ethnic-wear-sets') return p.category === 'ethnic-wear-sets';
     if (activeTab === 'tops-shirts') return p.category === 'tops-shirts';
     if (activeTab === 'cord-sets') return p.category === 'cord-sets';
     if (activeTab === 'traditional-gowns') return p.category === 'traditional-gowns';

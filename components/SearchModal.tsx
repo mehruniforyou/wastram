@@ -23,6 +23,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     : [];
 
   const popularTags = [
+    'Ethnic Wear Sets',
     'Tops & Shirts',
     'Co-ord Sets',
     'White Pants',

@@ -12,6 +12,7 @@ export function generateStaticParams() {
   return [
     { category: 'shop-all' },
     { category: 'western-dresses' },
+    { category: 'ethnic-wear-sets' },
     { category: 'tops-shirts' },
     { category: 'cord-sets' },
     { category: 'traditional-gowns' },

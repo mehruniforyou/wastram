@@ -2,6 +2,7 @@ import { WESTERN_DRESSES } from './western-dresses';
 import { TRADITIONAL_GOWNS } from './traditional-gowns';
 import { CORD_SETS } from './cord-sets';
 import { TOPS_SHIRTS } from './tops-shirts';
+import { ETHNIC_WEAR_SETS } from './ethnic-wear-sets';
 
 export interface NishoramaProduct {
   id: string;
@@ -25,7 +26,8 @@ export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
   ...WESTERN_DRESSES,
   ...TRADITIONAL_GOWNS,
   ...CORD_SETS,
-  ...TOPS_SHIRTS
+  ...TOPS_SHIRTS,
+  ...ETHNIC_WEAR_SETS
 ];
 
 export const NISHORAMA_STORIES = [
@@ -77,10 +79,24 @@ export const NISHORAMA_STORIES = [
     image: '/tops-shirts/IMG-20250122-WA0005.jpg.jpeg',
     subtitle: '120+ Designer Tops & Shirts',
     tag: 'NEW'
+  },
+  {
+    id: 8,
+    title: 'ETHNIC WEAR SETS',
+    image: '/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg',
+    subtitle: '75+ Regal 3-Piece Sets',
+    tag: 'ROYAL'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'Ethnic Wear Sets': [
+    { text: 'All Ethnic Wear Sets', href: '/collections/ethnic-wear-sets' },
+    { text: '3-Piece Suit Sets', href: '/collections/ethnic-wear-sets' },
+    { text: 'Chanderi Anarkali Sets', href: '/collections/ethnic-wear-sets' },
+    { text: 'Gota Patti Sharara Sets', href: '/collections/ethnic-wear-sets' },
+    { text: 'Chikankari Kurta & Pant Sets', href: '/collections/ethnic-wear-sets' }
+  ],
   'Tops & Shirts': [
     { text: 'All Tops & Shirts', href: '/collections/tops-shirts' },
     { text: 'Linen Relaxed Shirts', href: '/collections/tops-shirts' },
