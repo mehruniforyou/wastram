@@ -16,15 +16,16 @@ export default function ProductFitsGrid() {
 
   const tabs = [
     { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'cord-sets', label: 'Co-ord Sets' },
     { id: 'traditional-gowns', label: 'Traditional Gowns' },
     { id: 'bestsellers', label: 'Export Bestsellers' },
-    { id: 'maxi', label: 'Maxi Dresses' },
-    { id: 'anarkali', label: 'Anarkali Gowns' }
+    { id: 'maxi', label: 'Maxi Dresses' }
   ];
 
   const currentProducts = NISHORAMA_PRODUCTS.filter(p => {
     if (activeTab === 'all') return true;
     if (activeTab === 'western-dresses') return p.category === 'western-dresses';
+    if (activeTab === 'cord-sets') return p.category === 'cord-sets';
     if (activeTab === 'traditional-gowns') return p.category === 'traditional-gowns';
     if (activeTab === 'bestsellers') return p.badge.includes('Bestseller');
     if (activeTab === 'maxi') return p.title.includes('Maxi');

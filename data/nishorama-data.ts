@@ -1,5 +1,6 @@
 import { WESTERN_DRESSES } from './western-dresses';
 import { TRADITIONAL_GOWNS } from './traditional-gowns';
+import { CORD_SETS } from './cord-sets';
 
 export interface NishoramaProduct {
   id: string;
@@ -21,7 +22,8 @@ export interface NishoramaProduct {
 
 export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
   ...WESTERN_DRESSES,
-  ...TRADITIONAL_GOWNS
+  ...TRADITIONAL_GOWNS,
+  ...CORD_SETS
 ];
 
 export const NISHORAMA_STORIES = [
@@ -59,10 +61,24 @@ export const NISHORAMA_STORIES = [
     image: '/traditional-gowns/16668.jpg.jpeg',
     subtitle: 'Regal Kalidar Gowns',
     tag: 'ROYAL'
+  },
+  {
+    id: 6,
+    title: 'CO-ORD SETS',
+    image: '/cord-sets/_MG_7607.JPG.jpeg',
+    subtitle: '95+ Designer Sets',
+    tag: 'NEW'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'Co-ord Sets': [
+    { text: 'All Co-ord Sets', href: '/collections/cord-sets' },
+    { text: 'Tailored Blazer Sets', href: '/collections/cord-sets' },
+    { text: 'Linen Tunic & Trouser Sets', href: '/collections/cord-sets' },
+    { text: 'Handcrafted Silk Sets', href: '/collections/cord-sets' },
+    { text: 'Resort Wear Sets', href: '/collections/cord-sets' }
+  ],
   'Traditional Gowns': [
     { text: 'All Traditional Gowns', href: '/collections/traditional-gowns' },
     { text: 'Zari Flared Gowns', href: '/collections/traditional-gowns' },

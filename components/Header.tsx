@@ -53,6 +53,12 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               Western Dresses ✦
             </Link>
             <Link
+              href="/collections/cord-sets"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
+            >
+              Co-ord Sets ✦
+            </Link>
+            <Link
               href="/collections/traditional-gowns"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
             >
@@ -81,7 +87,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               href="/collections/shop-all"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
-              All 170+ Styles
+              All 360+ Styles
             </Link>
           </nav>
 
