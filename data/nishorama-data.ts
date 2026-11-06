@@ -1,6 +1,7 @@
 import { WESTERN_DRESSES } from './western-dresses';
 import { TRADITIONAL_GOWNS } from './traditional-gowns';
 import { CORD_SETS } from './cord-sets';
+import { TOPS_SHIRTS } from './tops-shirts';
 
 export interface NishoramaProduct {
   id: string;
@@ -23,7 +24,8 @@ export interface NishoramaProduct {
 export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
   ...WESTERN_DRESSES,
   ...TRADITIONAL_GOWNS,
-  ...CORD_SETS
+  ...CORD_SETS,
+  ...TOPS_SHIRTS
 ];
 
 export const NISHORAMA_STORIES = [
@@ -68,10 +70,24 @@ export const NISHORAMA_STORIES = [
     image: '/cord-sets/_MG_7607.JPG.jpeg',
     subtitle: '95+ Designer Sets',
     tag: 'NEW'
+  },
+  {
+    id: 7,
+    title: 'TOPS & SHIRTS',
+    image: '/tops-shirts/IMG-20250122-WA0005.jpg.jpeg',
+    subtitle: '120+ Designer Tops & Shirts',
+    tag: 'NEW'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'Tops & Shirts': [
+    { text: 'All Tops & Shirts', href: '/collections/tops-shirts' },
+    { text: 'Linen Relaxed Shirts', href: '/collections/tops-shirts' },
+    { text: 'Embroidered Peplum Tops', href: '/collections/tops-shirts' },
+    { text: 'Silk Wrap Blouses', href: '/collections/tops-shirts' },
+    { text: 'Schiffli Crop Blouses', href: '/collections/tops-shirts' }
+  ],
   'Co-ord Sets': [
     { text: 'All Co-ord Sets', href: '/collections/cord-sets' },
     { text: 'Tailored Blazer Sets', href: '/collections/cord-sets' },

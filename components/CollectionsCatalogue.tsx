@@ -26,6 +26,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const categories = [
     { id: 'all', label: 'All Collections' },
     { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'tops-shirts', label: 'Tops & Shirts' },
     { id: 'cord-sets', label: 'Co-ord Sets' },
     { id: 'traditional-gowns', label: 'Traditional Gowns' },
     { id: 'maxi', label: 'Maxi Dresses' },
@@ -36,6 +37,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   let filtered = NISHORAMA_PRODUCTS.filter(p => {
     if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
     if (selectedCategory === 'western-dresses') return p.category === 'western-dresses';
+    if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') return p.category === 'tops-shirts';
     if (selectedCategory === 'cord-sets' || selectedCategory === 'cord-set') return p.category === 'cord-sets';
     if (selectedCategory === 'traditional-gowns') return p.category === 'traditional-gowns';
     if (selectedCategory === 'anarkali-gowns') return p.category === 'traditional-gowns' || p.title.includes('Anarkali');
