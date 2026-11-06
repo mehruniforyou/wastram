@@ -53,6 +53,12 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               Western Dresses ✦
             </Link>
             <Link
+              href="/collections/short-long-kaftan"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
+            >
+              Short &amp; Long Kaftan ✦
+            </Link>
+            <Link
               href="/collections/ethnic-wear-sets"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
             >
@@ -99,7 +105,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               href="/collections/shop-all"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
             >
-              All 560+ Styles
+              All 700+ Styles
             </Link>
           </nav>
 
