@@ -71,8 +71,9 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
               </Link>
             </li>
             <li>
-              <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-[#482922] text-[#482922] font-bold block">
-                Denim Collection ✦
+              <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-[#FF2F00] text-[#FF2F00] font-bold flex items-center justify-between">
+                <span>Denim Collection ✦</span>
+                <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#FF2F00]/10 text-[#FF2F00] font-bold uppercase tracking-wider">140+ Styles</span>
               </Link>
             </li>
             <li>
@@ -239,6 +240,29 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
             )}
           </div>
 
+          {/* Denim Collection */}
+          <div className="border-b border-black/10 py-3">
+            <button
+              onClick={() => toggleAccordion('denim')}
+              className="w-full flex items-center justify-between text-left font-medium text-[#482922]"
+            >
+              <span className="font-semibold text-[#FF2F00]">Denim Collection (140+ Styles)</span>
+              <span className="text-base font-bold text-[#FF2F00]">
+                {openAccordions['denim'] ? '−' : '+'}
+              </span>
+            </button>
+            {openAccordions['denim'] && (
+              <div className="mt-2 pl-3 flex flex-col gap-2 text-xs text-black/70 font-normal">
+                <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-black">High-Rise Flared Denim Jeans</Link>
+                <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-black">Wide-Leg Rigid Denim</Link>
+                <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-black">Acid-Washed Barrel Denim</Link>
+                <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-black">Raw Selvedge Denim Trousers</Link>
+                <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-black">Comfort-Stretch Indigo Jeans</Link>
+                <Link href="/collections/denim-collection" onClick={onClose} className="font-semibold text-[#FF2F00] pt-1">All Denim Collection (140+ Styles) →</Link>
+              </div>
+            )}
+          </div>
+
           {/* Bottoms */}
           <div className="border-b border-black/10 py-3">
             <button
@@ -252,6 +276,7 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
             </button>
             {openAccordions['bottoms'] && (
               <div className="mt-2 pl-3 flex flex-col gap-2 text-xs text-black/70 font-normal">
+                <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-[#FF2F00] font-semibold text-[#FF2F00]">Denim Jeans &amp; Trousers (140+ Styles) ✦</Link>
                 <Link href="/collections/bottoms" onClick={onClose} className="hover:text-black">Pants</Link>
                 <Link href="/collections/skirts" onClick={onClose} className="hover:text-black">Skirts</Link>
                 <Link href="/collections/bottoms" onClick={onClose} className="font-semibold text-[#482922] pt-1">All Bottoms →</Link>

@@ -52,6 +52,9 @@ export default function Footer() {
                 We Are Nishorama
               </h3>
               <ul className="flex flex-col gap-2 text-xs text-[#482922]/80">
+                <li><Link href="/collections/denim-collection" className="hover:text-[#FF2F00] text-[#FF2F00] font-bold">Denim Collection (140+ Styles) ✦</Link></li>
+                <li><Link href="/collections/hoodies-sweatshirts" className="hover:text-black">Hoodies &amp; Sweatshirts</Link></li>
+                <li><Link href="/collections/t-shirts" className="hover:text-black">T-Shirts Collection</Link></li>
                 <li><Link href="/pages/about-us" className="hover:text-black">Our story</Link></li>
                 <li><Link href="/pages/contact" className="hover:text-black">Contact us</Link></li>
                 <li><Link href="/pages/reviews" className="hover:text-black">Customer Reviews</Link></li>
@@ -156,6 +159,9 @@ export default function Footer() {
             </button>
             {mobileOpen['story'] && (
               <ul className="mt-2 pl-2 flex flex-col gap-1.5 text-xs text-[#482922]/80">
+                <li><Link href="/collections/denim-collection" className="text-[#FF2F00] font-bold">Denim Collection (140+ Styles) ✦</Link></li>
+                <li><Link href="/collections/hoodies-sweatshirts">Hoodies &amp; Sweatshirts</Link></li>
+                <li><Link href="/collections/t-shirts">T-Shirts Collection</Link></li>
                 <li><Link href="/pages/reviews">Customer Reviews</Link></li>
                 <li><a href="https://www.instagram.com/nishorama">Instagram</a></li>
                 <li><a href="https://www.youtube.com/channel/UCoxGe5RNOXVRUboMmW0DLHA">YouTube</a></li>

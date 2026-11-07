@@ -54,7 +54,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
             </Link>
             <Link
               href="/collections/denim-collection"
-              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
+              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-[#FF2F00]/25 hover:border-[#FF2F00]/50 text-[11px] font-bold text-[#FF2F00] whitespace-nowrap shrink-0"
             >
               Denim Collection ✦
             </Link>

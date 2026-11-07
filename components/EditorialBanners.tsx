@@ -38,12 +38,20 @@ export default function EditorialBanners() {
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
+      subtitle: 'WHOLESALE & EXPORT',
+      heading: 'DENIM',
+      description: '140+ premium rigid 100% cotton, selvedge denim, and comfort-stretch flared & wide-leg jeans engineered for international retailers.',
+      image: '/denim-collection/IMG-20261102-WA0488.jpg.jpeg',
+      href: '/collections/denim-collection',
+      aspect: 'aspect-[2/1] lg:aspect-[2/1]'
+    },
+    {
       subtitle: 'WHOLESALE',
       heading: 'DRESSES',
       description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-dresses.png',
       href: '/collections/dresses',
-      aspect: 'aspect-[2/1] lg:aspect-[3/1] lg:col-span-2'
+      aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     }
   ];
 
