@@ -5,6 +5,7 @@ import { TOPS_SHIRTS } from './tops-shirts';
 import { ETHNIC_WEAR_SETS } from './ethnic-wear-sets';
 import { SHORT_LONG_KAFTANS } from './short-long-kaftan';
 import { UMBRELLA_DRESSES } from './umbrella-dresses';
+import { T_SHIRTS } from './t-shirts';
 
 export interface NishoramaProduct {
   id: string;
@@ -31,7 +32,8 @@ export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
   ...TOPS_SHIRTS,
   ...ETHNIC_WEAR_SETS,
   ...SHORT_LONG_KAFTANS,
-  ...UMBRELLA_DRESSES
+  ...UMBRELLA_DRESSES,
+  ...T_SHIRTS
 ];
 
 export const NISHORAMA_STORIES = [
@@ -104,10 +106,24 @@ export const NISHORAMA_STORIES = [
     image: '/umbrella-dresses/4726.jpg.jpeg',
     subtitle: '30+ Flared Umbrella Styles',
     tag: 'NEW'
+  },
+  {
+    id: 11,
+    title: 'T-SHIRTS',
+    image: '/t-shirts/13665.jpg.jpeg',
+    subtitle: '50+ Heavyweight Streetwear Tees',
+    tag: 'NEW'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'T-Shirts': [
+    { text: 'All T-Shirts', href: '/collections/t-shirts' },
+    { text: 'Heavyweight Oversized Tees', href: '/collections/t-shirts' },
+    { text: 'Bio-Washed Crewneck T-Shirts', href: '/collections/t-shirts' },
+    { text: 'Drop-Shoulder Boxy Tees', href: '/collections/t-shirts' },
+    { text: 'Vintage Acid-Wash T-Shirts', href: '/collections/t-shirts' }
+  ],
   'Umbrella Dresses': [
     { text: 'All Umbrella Dresses', href: '/collections/umbrella-dresses' },
     { text: 'Chanderi Kalidar Umbrella Dresses', href: '/collections/umbrella-dresses' },
