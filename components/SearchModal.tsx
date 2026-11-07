@@ -23,6 +23,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     : [];
 
   const popularTags = [
+    'Denim Collection',
     'Hoodies & Sweatshirts',
     'T-Shirts',
     'Umbrella Dresses',

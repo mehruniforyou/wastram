@@ -71,6 +71,11 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
               </Link>
             </li>
             <li>
+              <Link href="/collections/denim-collection" onClick={onClose} className="hover:text-[#482922] text-[#482922] font-bold block">
+                Denim Collection ✦
+              </Link>
+            </li>
+            <li>
               <Link href="/collections/hoodies-sweatshirts" onClick={onClose} className="hover:text-[#482922] text-[#482922] font-bold block">
                 Hoodies &amp; Sweatshirts ✦
               </Link>
@@ -127,7 +132,7 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
             </li>
             <li>
               <Link href="/collections/shop-all" onClick={onClose} className="text-[#FF2F00] font-bold block">
-                ALL 700+ STYLES
+                ALL 970+ STYLES
               </Link>
             </li>
             <li>

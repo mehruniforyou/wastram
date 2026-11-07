@@ -12,6 +12,8 @@ export function generateStaticParams() {
   return [
     { category: 'shop-all' },
     { category: 'western-dresses' },
+    { category: 'denim-collection' },
+    { category: 'denim' },
     { category: 'hoodies-sweatshirts' },
     { category: 't-shirts' },
     { category: 'umbrella-dresses' },

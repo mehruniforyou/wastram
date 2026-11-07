@@ -26,6 +26,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const categories = [
     { id: 'all', label: 'All Collections' },
     { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'denim-collection', label: 'Denim Collection' },
     { id: 'hoodies-sweatshirts', label: 'Hoodies & Sweatshirts' },
     { id: 't-shirts', label: 'T-Shirts' },
     { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
@@ -42,6 +43,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   let filtered = NISHORAMA_PRODUCTS.filter(p => {
     if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
     if (selectedCategory === 'western-dresses') return p.category === 'western-dresses';
+    if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') return p.category === 'denim-collection';
     if (selectedCategory === 'hoodies-sweatshirts' || selectedCategory === 'hoodies' || selectedCategory === 'sweatshirts' || selectedCategory === 'hoodie') return p.category === 'hoodies-sweatshirts';
     if (selectedCategory === 't-shirts' || selectedCategory === 'tshirts' || selectedCategory === 'tee') return p.category === 't-shirts';
     if (selectedCategory === 'umbrella-dresses' || selectedCategory === 'umbrella') return p.category === 'umbrella-dresses';

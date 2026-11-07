@@ -16,6 +16,7 @@ export default function ProductFitsGrid() {
 
   const tabs = [
     { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'denim-collection', label: 'Denim Collection' },
     { id: 'hoodies-sweatshirts', label: 'Hoodies & Sweatshirts' },
     { id: 't-shirts', label: 'T-Shirts' },
     { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
@@ -31,6 +32,7 @@ export default function ProductFitsGrid() {
   const currentProducts = NISHORAMA_PRODUCTS.filter(p => {
     if (activeTab === 'all') return true;
     if (activeTab === 'western-dresses') return p.category === 'western-dresses';
+    if (activeTab === 'denim-collection') return p.category === 'denim-collection';
     if (activeTab === 'hoodies-sweatshirts') return p.category === 'hoodies-sweatshirts';
     if (activeTab === 't-shirts') return p.category === 't-shirts';
     if (activeTab === 'umbrella-dresses') return p.category === 'umbrella-dresses';

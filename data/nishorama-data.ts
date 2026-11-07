@@ -7,6 +7,7 @@ import { SHORT_LONG_KAFTANS } from './short-long-kaftan';
 import { UMBRELLA_DRESSES } from './umbrella-dresses';
 import { T_SHIRTS } from './t-shirts';
 import { HOODIES_SWEATSHIRTS } from './hoodies-sweatshirts';
+import { DENIM_COLLECTION } from './denim-collection';
 
 export interface NishoramaProduct {
   id: string;
@@ -35,7 +36,8 @@ export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
   ...SHORT_LONG_KAFTANS,
   ...UMBRELLA_DRESSES,
   ...T_SHIRTS,
-  ...HOODIES_SWEATSHIRTS
+  ...HOODIES_SWEATSHIRTS,
+  ...DENIM_COLLECTION
 ];
 
 export const NISHORAMA_STORIES = [
@@ -122,10 +124,24 @@ export const NISHORAMA_STORIES = [
     image: '/hoodies-sweatshirts/16885.jpg.jpeg',
     subtitle: '40+ Heavyweight Streetwear Hoodies',
     tag: 'NEW'
+  },
+  {
+    id: 13,
+    title: 'DENIM COLLECTION',
+    image: '/denim-collection/IMG-20261102-WA0252.jpg.jpeg',
+    subtitle: '140+ Premium Rigid & Stretch Denim Styles',
+    tag: 'NEW'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'Denim Collection': [
+    { text: 'All Denim Collection', href: '/collections/denim-collection' },
+    { text: 'High-Rise Vintage Flared Denim', href: '/collections/denim-collection' },
+    { text: 'Wide-Leg Rigid Cotton Jeans', href: '/collections/denim-collection' },
+    { text: 'Acid-Washed Barrel Leg Denim', href: '/collections/denim-collection' },
+    { text: 'Raw Indigo Selvedge Denim Trousers', href: '/collections/denim-collection' }
+  ],
   'Hoodies & Sweatshirts': [
     { text: 'All Hoodies & Sweatshirts', href: '/collections/hoodies-sweatshirts' },
     { text: 'Heavyweight Boxy Fleece Hoodies', href: '/collections/hoodies-sweatshirts' },
