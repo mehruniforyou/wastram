@@ -43,87 +43,56 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           </Link>
         </div>
 
-        {/* Center: Navigation Pill Links & Tagline */}
-        <div className="flex flex-col items-center">
-          <nav className="flex items-center gap-1.5 font-archivo text-xs font-medium text-[#482922]">
+        {/* Center: Minimalist Navigation Pills (no wrapping, no overlapping) */}
+        <div className="flex-1 flex justify-center px-4 overflow-hidden">
+          <nav className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
             <Link
               href="/collections/western-dresses"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#FF2F00]"
+              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#FF2F00] whitespace-nowrap shrink-0"
             >
               Western Dresses ✦
             </Link>
             <Link
               href="/collections/short-long-kaftan"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
+              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
             >
-              Short &amp; Long Kaftan ✦
+              Kaftans ✦
             </Link>
             <Link
               href="/collections/ethnic-wear-sets"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
+              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
             >
               Ethnic Wear Sets ✦
             </Link>
             <Link
               href="/collections/tops-shirts"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
+              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
             >
-              Tops & Shirts ✦
+              Tops &amp; Shirts ✦
             </Link>
             <Link
               href="/collections/cord-sets"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
+              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
             >
               Co-ord Sets ✦
             </Link>
             <Link
               href="/collections/traditional-gowns"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922]"
+              className="h-7 px-3 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
             >
               Traditional Gowns ✦
             </Link>
             <Link
-              href="/collections/maxi-dresses"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
-            >
-              Maxi Dresses
-            </Link>
-            <Link
-              href="/collections/midi-dress"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
-            >
-              Midi Dresses
-            </Link>
-            <Link
-              href="/collections/most-wanted"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
-            >
-              <span>Bestsellers</span>
-              <span className="cust-red-dot" />
-            </Link>
-            <Link
               href="/collections/shop-all"
-              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/80 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px]"
+              className="h-7 px-3.5 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
             >
               All 700+ Styles
             </Link>
           </nav>
-
-          <span className="text-[10px] tracking-widest text-[#482922]/70 font-editorial italic mt-0.5">
-            &ldquo; YOU know where to GET IT &rdquo;
-          </span>
         </div>
 
-        {/* Right: Leaving Soon pill, Story ring, Wishlist, Search, Account, Cart */}
-        <div className="flex items-center gap-3">
-          {/* Leaving Soon offer pill */}
-          <Link
-            href="/collections/goodbyedeals"
-            className="flex items-center gap-1.5 h-7 px-3 rounded-full bg-white/80 border border-[#482922]/20 hover:border-[#482922] transition-colors font-archivo shadow-2xs"
-          >
-            <span className="text-[10px] text-[#482922]/70 uppercase font-medium">Leaving soon</span>
-            <span className="text-[10px] font-bold text-[#FF2F00]">30% OFF</span>
-          </Link>
+        {/* Right: Story ring, Wishlist, Search, Account, Cart */}
+        <div className="flex items-center gap-3 shrink-0">
 
           {/* Instagram-style Story Ring */}
           <button
@@ -234,9 +203,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           <Link href="/" className="flex items-center">
             <NishoramaLogo className="h-5 w-auto" color="#482922" />
           </Link>
-          <span className="text-[9px] tracking-wider text-[#482922]/70 font-editorial italic -mt-0.5">
-            * YOU know where to GET IT *
-          </span>
+          
         </div>
 
         {/* Right: Story ring, Wishlist bookmark, Cart bag */}

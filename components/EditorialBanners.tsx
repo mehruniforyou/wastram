@@ -8,39 +8,39 @@ export default function EditorialBanners() {
     {
       subtitle: 'most',
       heading: 'WANTED',
-      description: 'Your most-loved styles, now even more irresistible. Shop Most Wanted this Diwali with up to 50% off.',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-most-wanted.png',
       href: '/collections/most-wanted',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'upto 50%',
+      subtitle: 'WHOLESALE',
       heading: 'SETS',
-      description: 'Your most-loved styles, now even more irresistible. Shop Most Wanted this Diwali with up to 50% off.',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-sets.png',
       href: '/collections/sets',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'upto 50%',
+      subtitle: 'WHOLESALE',
       heading: 'KURTIES',
-      description: 'Your most-loved styles, now even more irresistible. Shop Most Wanted this Diwali with up to 50% off.',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-kurtis.png',
       href: '/collections/kurtis',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'upto 50%',
+      subtitle: 'WHOLESALE',
       heading: 'TOPS',
-      description: 'Your most-loved styles, now even more irresistible. Shop Most Wanted this Diwali with up to 50% off.',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-tops.png',
       href: '/collections/tops',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'upto 50%',
+      subtitle: 'WHOLESALE',
       heading: 'DRESSES',
-      description: 'Your most-loved styles, now even more irresistible. Shop Most Wanted this Diwali with up to 50% off.',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-dresses.png',
       href: '/collections/dresses',
       aspect: 'aspect-[2/1] lg:aspect-[3/1] lg:col-span-2'

@@ -35,7 +35,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-[1.8vw] font-bold font-archivo text-white drop-shadow-md mt-1 mb-4">
-            Over 170+ Contemporary Silhouettes • Worldwide Cargo Dispatch
+            Over 700+ Designer Silhouettes • Worldwide Cargo Dispatch
           </p>
 
           <Link
@@ -76,7 +76,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-base font-bold font-archivo text-white drop-shadow-md mt-0.5 mb-4">
-            Over 170+ Contemporary Silhouettes
+            Over 700+ Designer Silhouettes
           </p>
 
           <Link

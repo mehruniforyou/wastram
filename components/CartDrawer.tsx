@@ -158,7 +158,7 @@ export default function CartDrawer() {
                 type="text"
                 value={promoCode}
                 onChange={e => setPromoCode(e.target.value)}
-                placeholder="Discount code (e.g. DIWALI50)"
+                placeholder="Trade / Buyer Ref Code"
                 className="flex-1 px-3 py-1.5 text-xs rounded-lg border border-black/15 bg-white focus:outline-none uppercase"
               />
               <button
@@ -170,7 +170,7 @@ export default function CartDrawer() {
             </div>
             {promoApplied && (
               <p className="text-[10px] text-emerald-700 font-semibold">
-                ✓ Coupon code applied! Extra 10% Diwali discount added.
+                ✓ Wholesale inquiry code applied.
               </p>
             )}
 
