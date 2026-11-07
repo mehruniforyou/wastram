@@ -108,7 +108,7 @@ export const NISHORAMA_STORIES = [
     id: 10,
     title: 'UMBRELLA DRESSES',
     image: '/umbrella-dresses/4726.jpg.jpeg',
-    subtitle: '30+ Flared Umbrella Styles',
+    subtitle: '300+ Flared Umbrella Styles',
     tag: 'NEW'
   },
   {
