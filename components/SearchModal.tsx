@@ -23,6 +23,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     : [];
 
   const popularTags = [
+    'Umbrella Dresses',
     'Short & Long Kaftan',
     'Ethnic Wear Sets',
     'Tops & Shirts',

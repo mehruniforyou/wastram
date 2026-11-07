@@ -4,6 +4,7 @@ import { CORD_SETS } from './cord-sets';
 import { TOPS_SHIRTS } from './tops-shirts';
 import { ETHNIC_WEAR_SETS } from './ethnic-wear-sets';
 import { SHORT_LONG_KAFTANS } from './short-long-kaftan';
+import { UMBRELLA_DRESSES } from './umbrella-dresses';
 
 export interface NishoramaProduct {
   id: string;
@@ -29,7 +30,8 @@ export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
   ...CORD_SETS,
   ...TOPS_SHIRTS,
   ...ETHNIC_WEAR_SETS,
-  ...SHORT_LONG_KAFTANS
+  ...SHORT_LONG_KAFTANS,
+  ...UMBRELLA_DRESSES
 ];
 
 export const NISHORAMA_STORIES = [
@@ -95,10 +97,24 @@ export const NISHORAMA_STORIES = [
     image: '/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg',
     subtitle: '140+ Resort & Maxi Kaftans',
     tag: 'NEW'
+  },
+  {
+    id: 10,
+    title: 'UMBRELLA DRESSES',
+    image: '/umbrella-dresses/4726.jpg.jpeg',
+    subtitle: '30+ Flared Umbrella Styles',
+    tag: 'NEW'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'Umbrella Dresses': [
+    { text: 'All Umbrella Dresses', href: '/collections/umbrella-dresses' },
+    { text: 'Chanderi Kalidar Umbrella Dresses', href: '/collections/umbrella-dresses' },
+    { text: 'Pure Mulmul Flared Dresses', href: '/collections/umbrella-dresses' },
+    { text: 'Tiered Circular Umbrella Maxis', href: '/collections/umbrella-dresses' },
+    { text: 'Block-Printed Umbrella Dresses', href: '/collections/umbrella-dresses' }
+  ],
   'Short & Long Kaftan': [
     { text: 'All Short & Long Kaftans', href: '/collections/short-long-kaftan' },
     { text: 'Silk Crepe Maxi Kaftans', href: '/collections/short-long-kaftan' },

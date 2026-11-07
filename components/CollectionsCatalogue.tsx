@@ -26,6 +26,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const categories = [
     { id: 'all', label: 'All Collections' },
     { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
     { id: 'short-long-kaftan', label: 'Short & Long Kaftan' },
     { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets' },
     { id: 'tops-shirts', label: 'Tops & Shirts' },
@@ -39,6 +40,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   let filtered = NISHORAMA_PRODUCTS.filter(p => {
     if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
     if (selectedCategory === 'western-dresses') return p.category === 'western-dresses';
+    if (selectedCategory === 'umbrella-dresses' || selectedCategory === 'umbrella') return p.category === 'umbrella-dresses';
     if (selectedCategory === 'short-long-kaftan' || selectedCategory === 'kaftans' || selectedCategory === 'kaftan') return p.category === 'short-long-kaftan';
     if (selectedCategory === 'ethnic-wear-sets' || selectedCategory === 'ethnic-sets' || selectedCategory === '3-piece') return p.category === 'ethnic-wear-sets';
     if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') return p.category === 'tops-shirts';
