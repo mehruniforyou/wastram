@@ -6,6 +6,7 @@ import { ETHNIC_WEAR_SETS } from './ethnic-wear-sets';
 import { SHORT_LONG_KAFTANS } from './short-long-kaftan';
 import { UMBRELLA_DRESSES } from './umbrella-dresses';
 import { T_SHIRTS } from './t-shirts';
+import { HOODIES_SWEATSHIRTS } from './hoodies-sweatshirts';
 
 export interface NishoramaProduct {
   id: string;
@@ -33,7 +34,8 @@ export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
   ...ETHNIC_WEAR_SETS,
   ...SHORT_LONG_KAFTANS,
   ...UMBRELLA_DRESSES,
-  ...T_SHIRTS
+  ...T_SHIRTS,
+  ...HOODIES_SWEATSHIRTS
 ];
 
 export const NISHORAMA_STORIES = [
@@ -113,10 +115,24 @@ export const NISHORAMA_STORIES = [
     image: '/t-shirts/13665.jpg.jpeg',
     subtitle: '50+ Heavyweight Streetwear Tees',
     tag: 'NEW'
+  },
+  {
+    id: 12,
+    title: 'HOODIES & SWEATSHIRTS',
+    image: '/hoodies-sweatshirts/16885.jpg.jpeg',
+    subtitle: '40+ Heavyweight Streetwear Hoodies',
+    tag: 'NEW'
   }
 ];
 
 export const NISHORAMA_POPULAR_SEARCHES = {
+  'Hoodies & Sweatshirts': [
+    { text: 'All Hoodies & Sweatshirts', href: '/collections/hoodies-sweatshirts' },
+    { text: 'Heavyweight Boxy Fleece Hoodies', href: '/collections/hoodies-sweatshirts' },
+    { text: 'French Terry Drop-Shoulder Pullovers', href: '/collections/hoodies-sweatshirts' },
+    { text: 'Acid-Wash Vintage Sweatshirts', href: '/collections/hoodies-sweatshirts' },
+    { text: 'Carbon-Brushed Cotton Hoodies', href: '/collections/hoodies-sweatshirts' }
+  ],
   'T-Shirts': [
     { text: 'All T-Shirts', href: '/collections/t-shirts' },
     { text: 'Heavyweight Oversized Tees', href: '/collections/t-shirts' },
