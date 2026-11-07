@@ -1083,7 +1083,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
   },
   {
     "id": "ud-032",
-    "title": "Aria Artisanal Block-Printed Kalidar Umbrella Dress",
+    "title": "Nayantara Artisanal Kalidar Umbrella Dress",
     "slug": "aria-artisanal-block-printed-kalidar-umbrella-dress-32",
     "tab": "umbrella-dresses",
     "category": "umbrella-dresses",
@@ -1114,7 +1114,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
   },
   {
     "id": "ud-033",
-    "title": "Sienna Belgian Linen Slub Tiered Umbrella Dress",
+    "title": "Ishita Mulmul Tiered Flared Umbrella Dress",
     "slug": "sienna-belgian-linen-slub-tiered-umbrella-dress-33",
     "tab": "umbrella-dresses",
     "category": "umbrella-dresses",
@@ -9653,5 +9653,409 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-UD-404"
+  },
+  {
+    "id": "ud-305",
+    "title": "Mustard Gold Tribal Smocked Flared Umbrella Maxi Dress",
+    "slug": "mustard-gold-tribal-smocked-flared-umbrella-maxi-dress-305",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Full Kalidar Flare",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA1856.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1003.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5068.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7883.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mustard Gold Tribal Smocked Flared Umbrella Maxi Dress (WST-UD-405) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Organic Rayon Crepe with Geometric Block Border, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Organic Rayon Crepe with Geometric Block Border",
+    "details": [
+      "Crafted in Organic Rayon Crepe with Geometric Block Border",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-405"
+  },
+  {
+    "id": "ud-306",
+    "title": "Ocean Teal Tribal Smocked Flared Umbrella Maxi Dress",
+    "slug": "ocean-teal-tribal-smocked-flared-umbrella-maxi-dress-306",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Umbrella Flare",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA4798.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7592.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7724.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0996.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ocean Teal Tribal Smocked Flared Umbrella Maxi Dress (WST-UD-406) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Organic Rayon Crepe with Tribal Borders, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Organic Rayon Crepe with Tribal Borders",
+    "details": [
+      "Crafted in Organic Rayon Crepe with Tribal Borders",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-406"
+  },
+  {
+    "id": "ud-307",
+    "title": "Olive Green Vineyard Smocked Flared Umbrella Maxi Dress",
+    "slug": "olive-green-vineyard-smocked-flared-umbrella-maxi-dress-307",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Grand Sweep Flare",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA1440.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8929.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3458.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7037.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Olive Green Vineyard Smocked Flared Umbrella Maxi Dress (WST-UD-407) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Mulmul Cotton Slub with Geometric Border Print, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Mulmul Cotton Slub with Geometric Border Print",
+    "details": [
+      "Crafted in Mulmul Cotton Slub with Geometric Border Print",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-407"
+  },
+  {
+    "id": "ud-308",
+    "title": "Tuscan Beige Smocked Flared Umbrella Maxi Dress",
+    "slug": "tuscan-beige-smocked-flared-umbrella-maxi-dress-308",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA3968.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7751.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8209.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3436.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tuscan Beige Smocked Flared Umbrella Maxi Dress (WST-UD-408) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Mulmul Cotton Slub with Aztec Tribal Smocking, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Mulmul Cotton Slub with Aztec Tribal Smocking",
+    "details": [
+      "Crafted in Mulmul Cotton Slub with Aztec Tribal Smocking",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-408"
+  },
+  {
+    "id": "ud-309",
+    "title": "Emerald Sage Marbled Crushed Flared Umbrella Midi Dress",
+    "slug": "emerald-sage-marbled-crushed-flared-umbrella-midi-dress-309",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Crinkled Texture",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA9736.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3294.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6779.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1208.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Emerald Sage Marbled Crushed Flared Umbrella Midi Dress (WST-UD-409) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Micro-Pleated Poly Georgette with Botanical Marbling, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Micro-Pleated Poly Georgette with Botanical Marbling",
+    "details": [
+      "Crafted in Micro-Pleated Poly Georgette with Botanical Marbling",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-409"
+  },
+  {
+    "id": "ud-310",
+    "title": "Lemon & Sky Blue Marbled Crushed Flared Umbrella Midi Dress",
+    "slug": "lemon-sky-blue-marbled-crushed-flared-umbrella-midi-dress-310",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Flared Umbrella Sweep",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA2169.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4078.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8308.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6639.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lemon & Sky Blue Marbled Crushed Flared Umbrella Midi Dress (WST-UD-410) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Micro-Pleated Poly Georgette with Pastel Mineral Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Micro-Pleated Poly Georgette with Pastel Mineral Dye",
+    "details": [
+      "Crafted in Micro-Pleated Poly Georgette with Pastel Mineral Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-410"
+  },
+  {
+    "id": "ud-311",
+    "title": "Golden Sand & Blush Marbled Crushed Flared Umbrella Midi Dress",
+    "slug": "golden-sand-blush-marbled-crushed-flared-umbrella-midi-dress-311",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Boho Sweep",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA3546.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8110.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA2084.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6823.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Golden Sand & Blush Marbled Crushed Flared Umbrella Midi Dress (WST-UD-411) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Micro-Pleated Poly Georgette with Sunset Swirl Print, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Micro-Pleated Poly Georgette with Sunset Swirl Print",
+    "details": [
+      "Crafted in Micro-Pleated Poly Georgette with Sunset Swirl Print",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-411"
+  },
+  {
+    "id": "ud-312",
+    "title": "Paprika Coral Marbled Crushed Flared Umbrella Midi Dress",
+    "slug": "paprika-coral-marbled-crushed-flared-umbrella-midi-dress-312",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Vibrant Flare",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA1292.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4589.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3229.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6191.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paprika Coral Marbled Crushed Flared Umbrella Midi Dress (WST-UD-412) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Micro-Pleated Poly Georgette with Warm Mineral Wash, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Micro-Pleated Poly Georgette with Warm Mineral Wash",
+    "details": [
+      "Crafted in Micro-Pleated Poly Georgette with Warm Mineral Wash",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-412"
+  },
+  {
+    "id": "ud-313",
+    "title": "Silver Smoke Marbled Crushed Flared Umbrella Midi Dress",
+    "slug": "silver-smoke-marbled-crushed-flared-umbrella-midi-dress-313",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Monochrome Flare",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA0667.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0785.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4218.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA7870.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1460.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Silver Smoke Marbled Crushed Flared Umbrella Midi Dress (WST-UD-413) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Micro-Pleated Poly Georgette with Charcoal Ink Textures, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Micro-Pleated Poly Georgette with Charcoal Ink Textures",
+    "details": [
+      "Crafted in Micro-Pleated Poly Georgette with Charcoal Ink Textures",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-413"
+  },
+  {
+    "id": "ud-314",
+    "title": "Plum Merlot Marbled Crushed Flared Umbrella Midi Dress",
+    "slug": "plum-merlot-marbled-crushed-flared-umbrella-midi-dress-314",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Rich Tonal Sweep",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA2457.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5099.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8070.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Plum Merlot Marbled Crushed Flared Umbrella Midi Dress (WST-UD-414) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Micro-Pleated Poly Georgette with Deep Wine Swirls, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Micro-Pleated Poly Georgette with Deep Wine Swirls",
+    "details": [
+      "Crafted in Micro-Pleated Poly Georgette with Deep Wine Swirls",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-414"
+  },
+  {
+    "id": "ud-315",
+    "title": "Arctic Cyan Marbled Crushed Flared Umbrella Midi Dress",
+    "slug": "arctic-cyan-marbled-crushed-flared-umbrella-midi-dress-315",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Glacial Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA7438.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Arctic Cyan Marbled Crushed Flared Umbrella Midi Dress (WST-UD-415) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Micro-Pleated Poly Georgette with Water Swirl Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Micro-Pleated Poly Georgette with Water Swirl Dye",
+    "details": [
+      "Crafted in Micro-Pleated Poly Georgette with Water Swirl Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-415"
+  },
+  {
+    "id": "ud-316",
+    "title": "Amber Ochre Vintage Printed Flared Umbrella Midi Dress",
+    "slug": "amber-ochre-vintage-printed-flared-umbrella-midi-dress-316",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Artisan Motif",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA4958.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0016.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0066.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amber Ochre Vintage Printed Flared Umbrella Midi Dress (WST-UD-416) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Fine Rayon Twill with Flared Kalidar Panels, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Fine Rayon Twill with Flared Kalidar Panels",
+    "details": [
+      "Crafted in Fine Rayon Twill with Flared Kalidar Panels",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-416"
   }
 ];

@@ -4186,5 +4186,39 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-TS-223"
+  },
+  {
+    "id": "ts-124",
+    "title": "Blush Pink Floral Printed Button-Down Cotton Tunic",
+    "slug": "blush-pink-floral-printed-button-down-cotton-tunic-124",
+    "tab": "tops-shirts",
+    "category": "tops-shirts",
+    "badge": "Casual Chic",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA3406.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3520.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7036.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0306.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Blush Pink Floral Printed Button-Down Cotton Tunic (WST-TS-224) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in 100% Breathable Fine Poplin Cotton, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "100% Breathable Fine Poplin Cotton",
+    "details": [
+      "Crafted in 100% Breathable Fine Poplin Cotton",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-TS-224"
   }
 ];

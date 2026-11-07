@@ -2856,7 +2856,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
   },
   {
     "id": "tg-081",
-    "title": "Ananya Handcrafted Chanderi Silk Gown",
+    "title": "Meera Handcrafted Zari Embroidered Silk Gown",
     "slug": "ananya-handcrafted-chanderi-silk-gown-81",
     "tab": "traditional-gowns",
     "category": "traditional-gowns",

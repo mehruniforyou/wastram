@@ -5110,5 +5110,240 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-KF-245"
+  },
+  {
+    "id": "kf-146",
+    "title": "Desert Sienna Shibori Tie-Dye Asymmetric Maxi Kaftan",
+    "slug": "desert-sienna-shibori-tie-dye-asymmetric-maxi-kaftan-146",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Artisanal Dye",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA0794.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1581.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5362.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0019.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3638.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Desert Sienna Shibori Tie-Dye Asymmetric Maxi Kaftan (WST-KF-246) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Lightweight Georgette with Hand-Crafted Bandhani Circles, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Lightweight Georgette with Hand-Crafted Bandhani Circles",
+    "details": [
+      "Crafted in Pure Lightweight Georgette with Hand-Crafted Bandhani Circles",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-246"
+  },
+  {
+    "id": "kf-147",
+    "title": "Sunrise Amber & Blush Shibori Tie-Dye Maxi Kaftan",
+    "slug": "sunrise-amber-blush-shibori-tie-dye-maxi-kaftan-147",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA4339.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0736.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5760.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0120.jpg%20(1).jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sunrise Amber & Blush Shibori Tie-Dye Maxi Kaftan (WST-KF-247) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Lightweight Georgette with Sunburst Spiral Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Lightweight Georgette with Sunburst Spiral Dye",
+    "details": [
+      "Crafted in Pure Lightweight Georgette with Sunburst Spiral Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-247"
+  },
+  {
+    "id": "kf-148",
+    "title": "Canary Yellow & Magenta Shibori Tie-Dye Maxi Kaftan",
+    "slug": "canary-yellow-magenta-shibori-tie-dye-maxi-kaftan-148",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Vibrant Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA9593.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3207.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6323.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9207.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Canary Yellow & Magenta Shibori Tie-Dye Maxi Kaftan (WST-KF-248) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Lightweight Georgette with Multicolored Spiral Rings, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Lightweight Georgette with Multicolored Spiral Rings",
+    "details": [
+      "Crafted in Pure Lightweight Georgette with Multicolored Spiral Rings",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-248"
+  },
+  {
+    "id": "kf-149",
+    "title": "Lagoon Turquoise Shibori Tie-Dye Maxi Kaftan",
+    "slug": "lagoon-turquoise-shibori-tie-dye-maxi-kaftan-149",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Oceanic Palette",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA5283.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1574.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3661.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lagoon Turquoise Shibori Tie-Dye Maxi Kaftan (WST-KF-249) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Lightweight Georgette with Indigo & Cyan Ring Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Lightweight Georgette with Indigo & Cyan Ring Dye",
+    "details": [
+      "Crafted in Pure Lightweight Georgette with Indigo & Cyan Ring Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-249"
+  },
+  {
+    "id": "kf-150",
+    "title": "Mustard Ochre Shibori Tie-Dye Maxi Kaftan",
+    "slug": "mustard-ochre-shibori-tie-dye-maxi-kaftan-150",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Earthy Palette",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA4039.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8059.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mustard Ochre Shibori Tie-Dye Maxi Kaftan (WST-KF-250) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Lightweight Georgette with Radial Shibori Discs, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Lightweight Georgette with Radial Shibori Discs",
+    "details": [
+      "Crafted in Pure Lightweight Georgette with Radial Shibori Discs",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-250"
+  },
+  {
+    "id": "kf-151",
+    "title": "Charcoal Smoke Shibori Tie-Dye Maxi Kaftan",
+    "slug": "charcoal-smoke-shibori-tie-dye-maxi-kaftan-151",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Monochrome Luxe",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA1709.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1220.jpg%20(1).jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Charcoal Smoke Shibori Tie-Dye Maxi Kaftan (WST-KF-251) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Lightweight Georgette with Noir Marble Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Lightweight Georgette with Noir Marble Dye",
+    "details": [
+      "Crafted in Pure Lightweight Georgette with Noir Marble Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-251"
+  },
+  {
+    "id": "kf-152",
+    "title": "Tangerine Sunset Shibori Tie-Dye Maxi Kaftan",
+    "slug": "tangerine-sunset-shibori-tie-dye-maxi-kaftan-152",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Summer Glow",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA9639.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA2793.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5532.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tangerine Sunset Shibori Tie-Dye Maxi Kaftan (WST-KF-252) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Lightweight Georgette with Coral & Amber Radial Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Lightweight Georgette with Coral & Amber Radial Dye",
+    "details": [
+      "Crafted in Pure Lightweight Georgette with Coral & Amber Radial Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-252"
   }
 ];

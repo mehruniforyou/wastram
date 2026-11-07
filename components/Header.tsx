@@ -110,7 +110,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               href="/collections/shop-all"
               className="h-7 px-3.5 rounded-full bg-white hover:bg-white/90 transition-all flex items-center shadow-2xs border border-black/5 hover:border-black/15 text-[11px] font-semibold text-[#482922] whitespace-nowrap shrink-0"
             >
-              All 1,300+ Styles
+              All 1,400+ Styles
             </Link>
           </nav>
         </div>

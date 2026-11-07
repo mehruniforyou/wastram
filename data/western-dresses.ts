@@ -8928,5 +8928,182 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-WD-359"
+  },
+  {
+    "id": "wd-260",
+    "title": "Dusty Rose Floral Lace-Up Back Beach Sundress",
+    "slug": "dusty-rose-floral-lace-up-back-beach-sundress-260",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Beach Resort",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Dusty Rose Floral Lace-Up Back Beach Sundress (WST-WD-360) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in 100% Breathable Cotton Slub with Floral Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "100% Breathable Cotton Slub with Floral Dye",
+    "details": [
+      "Crafted in 100% Breathable Cotton Slub with Floral Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-360"
+  },
+  {
+    "id": "wd-261",
+    "title": "Riviera Turquoise Shibori Tie-Back Mini Sundress",
+    "slug": "riviera-turquoise-shibori-tie-back-mini-sundress-261",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Riviera Turquoise Shibori Tie-Back Mini Sundress (WST-WD-361) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Fine Rayon Slub with Indigo Batik Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-361"
+  },
+  {
+    "id": "wd-262",
+    "title": "Cerulean Blue Shibori Tie-Back Beach Mini Dress",
+    "slug": "cerulean-blue-shibori-tie-back-beach-mini-dress-262",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cerulean Blue Shibori Tie-Back Beach Mini Dress (WST-WD-362) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in 100% Lightweight Cotton Voile with Tie-Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "100% Lightweight Cotton Voile with Tie-Dye",
+    "details": [
+      "Crafted in 100% Lightweight Cotton Voile with Tie-Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-362"
+  },
+  {
+    "id": "wd-263",
+    "title": "Teal Sleeveless Embroidered A-Line Midi Dress",
+    "slug": "teal-sleeveless-embroidered-a-line-midi-dress-263",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Teal Sleeveless Embroidered A-Line Midi Dress (WST-WD-363) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Slub Cotton Linen with Tone-on-Tone Resham Detailing, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+    "details": [
+      "Crafted in Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-363"
+  },
+  {
+    "id": "wd-264",
+    "title": "Lime Green Chikankari Embroidered Short Tunic Dress",
+    "slug": "lime-green-chikankari-embroidered-short-tunic-dress-264",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Artisanal Craft",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lime Green Chikankari Embroidered Short Tunic Dress (WST-WD-364) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Cambric Cotton with Hand Chikankari Lace, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Cambric Cotton with Hand Chikankari Lace",
+    "details": [
+      "Crafted in Pure Cambric Cotton with Hand Chikankari Lace",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-364"
   }
 ];

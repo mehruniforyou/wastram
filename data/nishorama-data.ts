@@ -45,7 +45,7 @@ export const NISHORAMA_STORIES = [
     id: 1,
     title: 'WESTERN DRESSES',
     image: '/western-dresses/1668.jpg.jpeg',
-    subtitle: '250+ Export Designs',
+    subtitle: '260+ Export Designs',
     tag: 'NEW'
   },
   {
@@ -80,7 +80,7 @@ export const NISHORAMA_STORIES = [
     id: 6,
     title: 'CO-ORD SETS',
     image: '/cord-sets/_MG_7607.JPG.jpeg',
-    subtitle: '95+ Designer Sets',
+    subtitle: '110+ Designer Sets',
     tag: 'NEW'
   },
   {
@@ -94,21 +94,21 @@ export const NISHORAMA_STORIES = [
     id: 8,
     title: 'ETHNIC WEAR SETS',
     image: '/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg',
-    subtitle: '85+ Regal 3-Piece Sets',
+    subtitle: '100+ Regal 3-Piece Sets',
     tag: 'ROYAL'
   },
   {
     id: 9,
     title: 'SHORT & LONG KAFTAN',
     image: '/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg',
-    subtitle: '140+ Resort & Maxi Kaftans',
+    subtitle: '150+ Resort & Maxi Kaftans',
     tag: 'NEW'
   },
   {
     id: 10,
     title: 'UMBRELLA DRESSES',
     image: '/umbrella-dresses/4726.jpg.jpeg',
-    subtitle: '300+ Flared Umbrella Styles',
+    subtitle: '315+ Flared Umbrella Styles',
     tag: 'NEW'
   },
   {

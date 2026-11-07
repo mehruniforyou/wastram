@@ -2751,7 +2751,8 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0768.jpg.jpeg",
       "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3448.jpg.jpeg",
       "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4671.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7505.jpg.jpeg"
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7505.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2228.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3116,5 +3117,503 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-EW-189"
+  },
+  {
+    "id": "ew-090",
+    "title": "Charcoal Slate Kashmiri Embroidered Kurta & Palazzo Set",
+    "slug": "charcoal-slate-kashmiri-embroidered-kurta-palazzo-set-90",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Zari & Resham Work",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5001.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7791.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Charcoal Slate Kashmiri Embroidered Kurta & Palazzo Set (WST-EW-190) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Premium Slub Khadi Cotton with Pure Cotton Palazzo, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Premium Slub Khadi Cotton with Pure Cotton Palazzo",
+    "details": [
+      "Crafted in Premium Slub Khadi Cotton with Pure Cotton Palazzo",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-190"
+  },
+  {
+    "id": "ew-091",
+    "title": "Toasted Camel Floral Embroidered Kurta & Palazzo Set",
+    "slug": "toasted-camel-floral-embroidered-kurta-palazzo-set-91",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Export Grade",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA4608.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8191.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1696.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Toasted Camel Floral Embroidered Kurta & Palazzo Set (WST-EW-191) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Textured Linen Cotton with Needlework Yoke, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Textured Linen Cotton with Needlework Yoke",
+    "details": [
+      "Crafted in Textured Linen Cotton with Needlework Yoke",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-191"
+  },
+  {
+    "id": "ew-092",
+    "title": "Silver Greige Linen Embroidered Kurta & Palazzo Set",
+    "slug": "silver-greige-linen-embroidered-kurta-palazzo-set-92",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Minimalist Luxe",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA2876.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9787.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8231.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5596.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Silver Greige Linen Embroidered Kurta & Palazzo Set (WST-EW-192) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Belgian Linen Blend with Silver Resham Floral Sprigs, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Belgian Linen Blend with Silver Resham Floral Sprigs",
+    "details": [
+      "Crafted in Belgian Linen Blend with Silver Resham Floral Sprigs",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-192"
+  },
+  {
+    "id": "ew-093",
+    "title": "Slate Indigo Pintuck Kurta & White Trousers Set",
+    "slug": "slate-indigo-pintuck-kurta-white-trousers-set-93",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Formal Ethnic",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA5509.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5211.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9262.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Slate Indigo Pintuck Kurta & White Trousers Set (WST-EW-193) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Natural Dyed Khadi Cotton with Button Placket, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Natural Dyed Khadi Cotton with Button Placket",
+    "details": [
+      "Crafted in Natural Dyed Khadi Cotton with Button Placket",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-193"
+  },
+  {
+    "id": "ew-094",
+    "title": "Espresso Brown Resham Embroidered Kurta & Palazzo Set",
+    "slug": "espresso-brown-resham-embroidered-kurta-palazzo-set-94",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Artisan Edition",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA6993.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5898.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9970.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2747.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Espresso Brown Resham Embroidered Kurta & Palazzo Set (WST-EW-194) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Lustrous Cotton Silk with Kashmiri Tilla Embroidery, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Lustrous Cotton Silk with Kashmiri Tilla Embroidery",
+    "details": [
+      "Crafted in Lustrous Cotton Silk with Kashmiri Tilla Embroidery",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-194"
+  },
+  {
+    "id": "ew-095",
+    "title": "Noir Black Scalloped Floral Embroidered Kurta & Pant Set",
+    "slug": "noir-black-scalloped-floral-embroidered-kurta-pant-set-95",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Festive Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA9411.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9125.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3006.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5744.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noir Black Scalloped Floral Embroidered Kurta & Pant Set (WST-EW-195) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Fine Roman Silk with Multi-Color Resham Floral Border, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Fine Roman Silk with Multi-Color Resham Floral Border",
+    "details": [
+      "Crafted in Fine Roman Silk with Multi-Color Resham Floral Border",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-195"
+  },
+  {
+    "id": "ew-096",
+    "title": "Midnight Navy Medallion Yoke Printed Kurta & Pant Set",
+    "slug": "midnight-navy-medallion-yoke-printed-kurta-pant-set-96",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Gold Foiled Print",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA3445.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA7233.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0546.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4765.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Midnight Navy Medallion Yoke Printed Kurta & Pant Set (WST-EW-196) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-196"
+  },
+  {
+    "id": "ew-097",
+    "title": "Ruby Vermillion Medallion Yoke Printed Kurta & Pant Set",
+    "slug": "ruby-vermillion-medallion-yoke-printed-kurta-pant-set-97",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Festive Favorite",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA0186.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5890.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA7565.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1711.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ruby Vermillion Medallion Yoke Printed Kurta & Pant Set (WST-EW-197) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-197"
+  },
+  {
+    "id": "ew-098",
+    "title": "Regal Black & Gold Medallion Yoke Printed Kurta & Pant Set",
+    "slug": "regal-black-gold-medallion-yoke-printed-kurta-pant-set-98",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Classic Noir",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA7858.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1646.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Regal Black & Gold Medallion Yoke Printed Kurta & Pant Set (WST-EW-198) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-198"
+  },
+  {
+    "id": "ew-099",
+    "title": "Fuchsia Magenta Medallion Yoke Printed Kurta & Pant Set",
+    "slug": "fuchsia-magenta-medallion-yoke-printed-kurta-pant-set-99",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Jewel Tone",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA1689.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5378.jpg%20(1).jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Fuchsia Magenta Medallion Yoke Printed Kurta & Pant Set (WST-EW-199) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-199"
+  },
+  {
+    "id": "ew-100",
+    "title": "Soft Peach Pink Medallion Yoke Printed Kurta & Pant Set",
+    "slug": "soft-peach-pink-medallion-yoke-printed-kurta-pant-set-100",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Pastel Ethnic",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA8553.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA2181.jpg%20(1).jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8421.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Soft Peach Pink Medallion Yoke Printed Kurta & Pant Set (WST-EW-200) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-200"
+  },
+  {
+    "id": "ew-101",
+    "title": "Terracotta Rust Medallion Yoke Printed Kurta & Pant Set",
+    "slug": "terracotta-rust-medallion-yoke-printed-kurta-pant-set-101",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Warm Earth",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA9413.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA2721.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9769.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Terracotta Rust Medallion Yoke Printed Kurta & Pant Set (WST-EW-201) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-201"
+  },
+  {
+    "id": "ew-102",
+    "title": "Forest Green Medallion Yoke Printed Kurta & Pant Set",
+    "slug": "forest-green-medallion-yoke-printed-kurta-pant-set-102",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Deep Emerald",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA8482.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9834.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Forest Green Medallion Yoke Printed Kurta & Pant Set (WST-EW-202) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Embroidered Mirror-Work Medallion",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-202"
+  },
+  {
+    "id": "ew-103",
+    "title": "Turquoise Azure Geometric Printed Kurta & Pant Set with Tassels",
+    "slug": "turquoise-azure-geometric-printed-kurta-pant-set-with-tassels-103",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Boutique Craft",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA6084.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9638.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Turquoise Azure Geometric Printed Kurta & Pant Set with Tassels (WST-EW-203) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Mulmul Cotton with Tassel Embellished Yoke, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Mulmul Cotton with Tassel Embellished Yoke",
+    "details": [
+      "Crafted in Pure Mulmul Cotton with Tassel Embellished Yoke",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-203"
+  },
+  {
+    "id": "ew-104",
+    "title": "Ivory & Russet Paisley Embroidered Asymmetric Tunic & Palazzo Set",
+    "slug": "ivory-russet-paisley-embroidered-asymmetric-tunic-palazzo-set-104",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "High-Low Silhouette",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA2760.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6747.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0715.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4859.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivory & Russet Paisley Embroidered Asymmetric Tunic & Palazzo Set (WST-EW-204) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Fine Chanderi Cotton with Earthy Paisley Motif Embroidery, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Fine Chanderi Cotton with Earthy Paisley Motif Embroidery",
+    "details": [
+      "Crafted in Fine Chanderi Cotton with Earthy Paisley Motif Embroidery",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-204"
   }
 ];

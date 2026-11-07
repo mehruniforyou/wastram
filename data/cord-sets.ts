@@ -3290,5 +3290,478 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-CS-196"
+  },
+  {
+    "id": "cs-097",
+    "title": "Taupe Garden Embroidered Peplum Tunic & Tulip Dhoti Pant Set",
+    "slug": "taupe-garden-embroidered-peplum-tunic-tulip-dhoti-pant-set-97",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Festive Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA1624.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1620.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5281.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Taupe Garden Embroidered Peplum Tunic & Tulip Dhoti Pant Set (WST-CS-197) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Georgette with Resham Threadwork and Cotton Silk Lining, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Georgette with Resham Threadwork and Cotton Silk Lining",
+    "details": [
+      "Crafted in Georgette with Resham Threadwork and Cotton Silk Lining",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-197"
+  },
+  {
+    "id": "cs-098",
+    "title": "Teal Garden Embroidered Peplum Tunic & Tulip Dhoti Pant Set",
+    "slug": "teal-garden-embroidered-peplum-tunic-tulip-dhoti-pant-set-98",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Indo-Western Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA2169.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4299.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Teal Garden Embroidered Peplum Tunic & Tulip Dhoti Pant Set (WST-CS-198) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Georgette with Resham Threadwork and Cotton Silk Lining, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Georgette with Resham Threadwork and Cotton Silk Lining",
+    "details": [
+      "Crafted in Georgette with Resham Threadwork and Cotton Silk Lining",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-198"
+  },
+  {
+    "id": "cs-099",
+    "title": "Cocoa Brown Embroidered Peplum Tunic & Tulip Dhoti Pant Set",
+    "slug": "cocoa-brown-embroidered-peplum-tunic-tulip-dhoti-pant-set-99",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Designer Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA2471.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4225.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7158.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9702.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cocoa Brown Embroidered Peplum Tunic & Tulip Dhoti Pant Set (WST-CS-199) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Georgette with Resham Threadwork and Cotton Silk Lining, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Georgette with Resham Threadwork and Cotton Silk Lining",
+    "details": [
+      "Crafted in Georgette with Resham Threadwork and Cotton Silk Lining",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-199"
+  },
+  {
+    "id": "cs-100",
+    "title": "Mustard Olive Embroidered Peplum Tunic & Tulip Dhoti Pant Set",
+    "slug": "mustard-olive-embroidered-peplum-tunic-tulip-dhoti-pant-set-100",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Festive Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA9770.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2772.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8618.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5583.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mustard Olive Embroidered Peplum Tunic & Tulip Dhoti Pant Set (WST-CS-200) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Georgette with Resham Threadwork and Cotton Silk Lining, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Georgette with Resham Threadwork and Cotton Silk Lining",
+    "details": [
+      "Crafted in Georgette with Resham Threadwork and Cotton Silk Lining",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-200"
+  },
+  {
+    "id": "cs-101",
+    "title": "Mulberry Wine Floral Embroidered Shirt & Wide Trouser Set",
+    "slug": "mulberry-wine-floral-embroidered-shirt-wide-trouser-set-101",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Luxury Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA0222.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8543.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3113.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5842.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mulberry Wine Floral Embroidered Shirt & Wide Trouser Set (WST-CS-201) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Slub Viscose Linen with Tonal Floral Resham, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Slub Viscose Linen with Tonal Floral Resham",
+    "details": [
+      "Crafted in Pure Slub Viscose Linen with Tonal Floral Resham",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-201"
+  },
+  {
+    "id": "cs-102",
+    "title": "Almond Camel Floral Embroidered Shirt & Wide Trouser Set",
+    "slug": "almond-camel-floral-embroidered-shirt-wide-trouser-set-102",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA2849.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1189.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA6390.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2227.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9145.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4028.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA6592.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9302.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Almond Camel Floral Embroidered Shirt & Wide Trouser Set (WST-CS-202) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Slub Viscose Linen with Multi-Hued Floral Resham, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Slub Viscose Linen with Multi-Hued Floral Resham",
+    "details": [
+      "Crafted in Pure Slub Viscose Linen with Multi-Hued Floral Resham",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-202"
+  },
+  {
+    "id": "cs-103",
+    "title": "Steel Grey Floral Embroidered Shirt & Wide Trouser Set",
+    "slug": "steel-grey-floral-embroidered-shirt-wide-trouser-set-103",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Executive Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA2646.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2559.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA6103.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9224.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Steel Grey Floral Embroidered Shirt & Wide Trouser Set (WST-CS-203) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Pure Slub Viscose Linen with Charcoal Floral Resham, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Pure Slub Viscose Linen with Charcoal Floral Resham",
+    "details": [
+      "Crafted in Pure Slub Viscose Linen with Charcoal Floral Resham",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-203"
+  },
+  {
+    "id": "cs-104",
+    "title": "Crimson Red Shibori Camp Shirt & Wide Trouser Co-ord Set",
+    "slug": "crimson-red-shibori-camp-shirt-wide-trouser-co-ord-set-104",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Resort Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA6123.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3319.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0404.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA7473.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Crimson Red Shibori Camp Shirt & Wide Trouser Co-ord Set (WST-CS-204) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Soft Handloom Rayon with Japanese Shibori Box Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Soft Handloom Rayon with Japanese Shibori Box Dye",
+    "details": [
+      "Crafted in Soft Handloom Rayon with Japanese Shibori Box Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-204"
+  },
+  {
+    "id": "cs-105",
+    "title": "Mojito Green Shibori Camp Shirt & Wide Trouser Co-ord Set",
+    "slug": "mojito-green-shibori-camp-shirt-wide-trouser-co-ord-set-105",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Summer Co-ord",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA6068.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0521.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3510.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6305.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mojito Green Shibori Camp Shirt & Wide Trouser Co-ord Set (WST-CS-205) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Soft Handloom Rayon with Japanese Shibori Box Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Soft Handloom Rayon with Japanese Shibori Box Dye",
+    "details": [
+      "Crafted in Soft Handloom Rayon with Japanese Shibori Box Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-205"
+  },
+  {
+    "id": "cs-106",
+    "title": "Copper Rust Shibori Camp Shirt & Wide Trouser Co-ord Set",
+    "slug": "copper-rust-shibori-camp-shirt-wide-trouser-co-ord-set-106",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Earth Tones",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA6351.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0564.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1466.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5069.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Copper Rust Shibori Camp Shirt & Wide Trouser Co-ord Set (WST-CS-206) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Soft Handloom Rayon with Japanese Shibori Box Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Soft Handloom Rayon with Japanese Shibori Box Dye",
+    "details": [
+      "Crafted in Soft Handloom Rayon with Japanese Shibori Box Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-206"
+  },
+  {
+    "id": "cs-107",
+    "title": "Slate Fog Shibori Camp Shirt & Wide Trouser Co-ord Set",
+    "slug": "slate-fog-shibori-camp-shirt-wide-trouser-co-ord-set-107",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Neutral Chic",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA0505.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3581.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6448.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9907.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Slate Fog Shibori Camp Shirt & Wide Trouser Co-ord Set (WST-CS-207) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Soft Handloom Rayon with Japanese Shibori Box Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Soft Handloom Rayon with Japanese Shibori Box Dye",
+    "details": [
+      "Crafted in Soft Handloom Rayon with Japanese Shibori Box Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-207"
+  },
+  {
+    "id": "cs-108",
+    "title": "Bubblegum Pink Shibori Camp Shirt & Wide Trouser Co-ord Set",
+    "slug": "bubblegum-pink-shibori-camp-shirt-wide-trouser-co-ord-set-108",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Pastel Resort",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA4052.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8134.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3469.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6797.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bubblegum Pink Shibori Camp Shirt & Wide Trouser Co-ord Set (WST-CS-208) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Soft Handloom Rayon with Japanese Shibori Box Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Soft Handloom Rayon with Japanese Shibori Box Dye",
+    "details": [
+      "Crafted in Soft Handloom Rayon with Japanese Shibori Box Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-208"
+  },
+  {
+    "id": "cs-109",
+    "title": "Midnight Onyx Shibori Camp Shirt & Wide Trouser Co-ord Set",
+    "slug": "midnight-onyx-shibori-camp-shirt-wide-trouser-co-ord-set-109",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Monochrome Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA2443.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8522.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1648.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Midnight Onyx Shibori Camp Shirt & Wide Trouser Co-ord Set (WST-CS-209) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Soft Handloom Rayon with Japanese Shibori Box Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Soft Handloom Rayon with Japanese Shibori Box Dye",
+    "details": [
+      "Crafted in Soft Handloom Rayon with Japanese Shibori Box Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-209"
+  },
+  {
+    "id": "cs-110",
+    "title": "Royal Cobalt Shibori Camp Shirt & Wide Trouser Co-ord Set",
+    "slug": "royal-cobalt-shibori-camp-shirt-wide-trouser-co-ord-set-110",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Outdoor Resort",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA0795.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Royal Cobalt Shibori Camp Shirt & Wide Trouser Co-ord Set (WST-CS-210) is an export-grade signature creation from Wastram's premier wholesale collection. Precision-tailored in Soft Handloom Rayon with Japanese Shibori Box Dye, it combines distinctive handcrafted artistry, international export stitching reinforcement, and premium drape suited for boutique curation, festive retail, and global fashion distributor cataloguing.",
+    "fabric": "Soft Handloom Rayon with Japanese Shibori Box Dye",
+    "details": [
+      "Crafted in Soft Handloom Rayon with Japanese Shibori Box Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-210"
   }
 ];
