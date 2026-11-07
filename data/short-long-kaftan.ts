@@ -5076,5 +5076,39 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-KF-244"
+  },
+  {
+    "id": "kf-145",
+    "title": "Sunburst Yellow & Indigo Shibori Tie-Dye Maxi Kaftan",
+    "slug": "sunburst-yellow-indigo-shibori-tie-dye-maxi-kaftan-145",
+    "tab": "short-long-kaftan",
+    "category": "short-long-kaftan",
+    "badge": "Resort Edition",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA1191.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA3164.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA8575.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sunburst Yellow & Indigo Shibori Tie-Dye Maxi Kaftan (WST-KF-245) is an export-grade resort wear kaftan from Wastram's luxury Kaftan wholesale collection. Crafted in Fine Viscose Silk with Drawstring Waist and Side High-Slit, it features an airy silhouette with adjustable waist cinch, side leg opening, and reinforced seams for global commercial distribution.",
+    "fabric": "Fine Viscose Silk with Drawstring Waist and Side High-Slit",
+    "details": [
+      "Flowing full-length kaftan silhouette with adjustable tassel waist tie",
+      "Artisanal tie-dye shibori pattern on breathable Fine Viscose Silk with Drawstring Waist and Side High-Slit",
+      "Available in assorted export size packs (Free Size / XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-KF-245"
   }
 ];

@@ -133,7 +133,7 @@ export default function MobileNavDrawer({ isOpen, onClose, onOpenSearch }: Mobil
             </li>
             <li>
               <Link href="/collections/shop-all" onClick={onClose} className="text-[#FF2F00] font-bold block">
-                ALL 1,200+ STYLES
+                ALL 1,300+ STYLES
               </Link>
             </li>
             <li>

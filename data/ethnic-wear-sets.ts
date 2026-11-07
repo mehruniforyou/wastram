@@ -1,4 +1,4 @@
-// Auto-generated Ethnic Wear Sets (3-Piece Sets) catalogue dataset for B2B Wholesale
+// Auto-generated Ethnic Wear Sets catalogue dataset for B2B Wholesale
 import { NishoramaProduct } from './nishorama-data';
 
 export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
@@ -2699,5 +2699,422 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-EW-177"
+  },
+  {
+    "id": "ew-078",
+    "title": "White & Maroon Resham Embroidered Kurta & Pant Set",
+    "slug": "white-maroon-resham-embroidered-kurta-pant-set-78",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Heritage Craft",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0445.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2002.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3156.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4876.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5604.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7700.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8548.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The White & Maroon Resham Embroidered Kurta & Pant Set (WST-EW-178) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Pure Cotton Slub with Resham Kashmiri Work, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Pure Cotton Slub with Resham Kashmiri Work",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Pure Cotton Slub with Resham Kashmiri Work",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-178"
+  },
+  {
+    "id": "ew-079",
+    "title": "Slate Blue Floral Embroidered Cotton Kurta & Pant Set",
+    "slug": "slate-blue-floral-embroidered-cotton-kurta-pant-set-79",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0599.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0768.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3448.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4671.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7505.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Slate Blue Floral Embroidered Cotton Kurta & Pant Set (WST-EW-179) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Fine Cotton Twill with Pastel Resham Embroidery, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Fine Cotton Twill with Pastel Resham Embroidery",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Fine Cotton Twill with Pastel Resham Embroidery",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-179"
+  },
+  {
+    "id": "ew-080",
+    "title": "Ivory White & Royal Blue Embroidered Kurta & Pant Set",
+    "slug": "ivory-white-royal-blue-embroidered-kurta-pant-set-80",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "New Arrival",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0671.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3307.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5864.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9972.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivory White & Royal Blue Embroidered Kurta & Pant Set (WST-EW-180) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Premium Mulmul Cotton with Contrast Resham Threadwork, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Premium Mulmul Cotton with Contrast Resham Threadwork",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Premium Mulmul Cotton with Contrast Resham Threadwork",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-180"
+  },
+  {
+    "id": "ew-081",
+    "title": "Teal Blue Botanical Print Kurta & Tapered Pant Set",
+    "slug": "teal-blue-botanical-print-kurta-tapered-pant-set-81",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Wholesale Favorite",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0726.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2623.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5653.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7263.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8387.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Teal Blue Botanical Print Kurta & Tapered Pant Set (WST-EW-181) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Breathable Slub Rayon with Precision Screen Print, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Breathable Slub Rayon with Precision Screen Print",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Breathable Slub Rayon with Precision Screen Print",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-181"
+  },
+  {
+    "id": "ew-082",
+    "title": "Ivory White & Emerald Green Embroidered Kurta & Pant Set",
+    "slug": "ivory-white-emerald-green-embroidered-kurta-pant-set-82",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Festive Edition",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0834.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3558.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6199.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8626.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivory White & Emerald Green Embroidered Kurta & Pant Set (WST-EW-182) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Chanderi Blend with Intricate Yoke Kashida Work, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Chanderi Blend with Intricate Yoke Kashida Work",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Chanderi Blend with Intricate Yoke Kashida Work",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-182"
+  },
+  {
+    "id": "ew-083",
+    "title": "Royal Maroon Velvet Zardozi Embroidered Kurta & Pant Set",
+    "slug": "royal-maroon-velvet-zardozi-embroidered-kurta-pant-set-83",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Royal Velvet",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1264.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4295.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5318.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8443.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Royal Maroon Velvet Zardozi Embroidered Kurta & Pant Set (WST-EW-183) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Luxe Micro-Velvet with Golden Tilla & Zardozi Motifs, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Luxe Micro-Velvet with Golden Tilla & Zardozi Motifs",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Luxe Micro-Velvet with Golden Tilla & Zardozi Motifs",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-183"
+  },
+  {
+    "id": "ew-084",
+    "title": "Desert Beige Tone-on-Tone Embroidered Kurta & Pant Set",
+    "slug": "desert-beige-tone-on-tone-embroidered-kurta-pant-set-84",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1548.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4313.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7034.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7246.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7268.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Desert Beige Tone-on-Tone Embroidered Kurta & Pant Set (WST-EW-184) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Pure Cotton Linen Slub with Self Resham Work, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Pure Cotton Linen Slub with Self Resham Work",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Pure Cotton Linen Slub with Self Resham Work",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-184"
+  },
+  {
+    "id": "ew-085",
+    "title": "Dusty Mauve Embroidered Cotton Slub Kurta & Pant Set",
+    "slug": "dusty-mauve-embroidered-cotton-slub-kurta-pant-set-85",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Summer Pastel",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1720.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4498.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7221.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7641.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8879.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Dusty Mauve Embroidered Cotton Slub Kurta & Pant Set (WST-EW-185) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Premium 60s Cotton with Tonal Floral Neck Embroidery, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Premium 60s Cotton with Tonal Floral Neck Embroidery",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Premium 60s Cotton with Tonal Floral Neck Embroidery",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-185"
+  },
+  {
+    "id": "ew-086",
+    "title": "Deep Crimson Red Slub Cotton Kurta & Pant Set",
+    "slug": "deep-crimson-red-slub-cotton-kurta-pant-set-86",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0851.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2380.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5236.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7993.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Deep Crimson Red Slub Cotton Kurta & Pant Set (WST-EW-186) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Handloom Texture Cotton with Geometric Thread Embroidery, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Handloom Texture Cotton with Geometric Thread Embroidery",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Handloom Texture Cotton with Geometric Thread Embroidery",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-186"
+  },
+  {
+    "id": "ew-087",
+    "title": "Earthy Cinnamon Brown Embroidered Kurta & Pant Set",
+    "slug": "earthy-cinnamon-brown-embroidered-kurta-pant-set-87",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Autumn Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2983.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5906.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8373.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9452.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Earthy Cinnamon Brown Embroidered Kurta & Pant Set (WST-EW-187) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Linen Slub with Tonal Floral Resham Work, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Linen Slub with Tonal Floral Resham Work",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Linen Slub with Tonal Floral Resham Work",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-187"
+  },
+  {
+    "id": "ew-088",
+    "title": "Sage Grey Self-Embroidered Kurta & Pant Set",
+    "slug": "sage-grey-self-embroidered-kurta-pant-set-88",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Minimalist Luxe",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3163.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6340.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9550.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9743.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sage Grey Self-Embroidered Kurta & Pant Set (WST-EW-188) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Breathable Modal Cotton with Slub Texture, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Breathable Modal Cotton with Slub Texture",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Breathable Modal Cotton with Slub Texture",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-188"
+  },
+  {
+    "id": "ew-089",
+    "title": "Ivory White & Jet Black Embroidered Kurta & Pant Set",
+    "slug": "ivory-white-jet-black-embroidered-kurta-pant-set-89",
+    "tab": "ethnic-wear-sets",
+    "category": "ethnic-wear-sets",
+    "badge": "Monochrome Luxe",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1564.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4229.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4258.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7009.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7324.jpg.jpeg",
+      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9432.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivory White & Jet Black Embroidered Kurta & Pant Set (WST-EW-189) is an exceptional ensemble from Wastram's premier Ethnic Wear Sets wholesale collection. Crafted in Fine Cambric Cotton with Dense Kashida Embroidery, it features refined artisanal embroidery, coordinating tailored bottoms, and export-grade seam reinforcement, tailored for boutiques, retailers, and fashion distributors worldwide.",
+    "fabric": "Fine Cambric Cotton with Dense Kashida Embroidery",
+    "details": [
+      "Coordinating 2-piece designer ensemble: Tailored Kurta and Straight Pant",
+      "Handcrafted threadwork embroidery and reinforced hem finishing in Fine Cambric Cotton with Dense Kashida Embroidery",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-EW-189"
   }
 ];

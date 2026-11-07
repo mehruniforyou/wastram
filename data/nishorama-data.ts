@@ -45,7 +45,7 @@ export const NISHORAMA_STORIES = [
     id: 1,
     title: 'WESTERN DRESSES',
     image: '/western-dresses/1668.jpg.jpeg',
-    subtitle: '170+ Export Designs',
+    subtitle: '250+ Export Designs',
     tag: 'NEW'
   },
   {
@@ -94,7 +94,7 @@ export const NISHORAMA_STORIES = [
     id: 8,
     title: 'ETHNIC WEAR SETS',
     image: '/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg',
-    subtitle: '75+ Regal 3-Piece Sets',
+    subtitle: '85+ Regal 3-Piece Sets',
     tag: 'ROYAL'
   },
   {

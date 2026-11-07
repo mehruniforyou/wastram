@@ -6144,5 +6144,2789 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-WD-273"
+  },
+  {
+    "id": "wd-174",
+    "title": "Aria Yellow Embroidered Bohemian Notch-Neck Tunic Dress",
+    "slug": "aria-yellow-embroidered-bohemian-notch-neck-tunic-dress-174",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3126.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Yellow Embroidered Bohemian Notch-Neck Tunic Dress (WST-WD-274) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-274"
+  },
+  {
+    "id": "wd-175",
+    "title": "Sienna Lime Green Bishop-Sleeve Embroidered Dress",
+    "slug": "sienna-lime-green-bishop-sleeve-embroidered-dress-175",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6020.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Lime Green Bishop-Sleeve Embroidered Dress (WST-WD-275) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-275"
+  },
+  {
+    "id": "wd-176",
+    "title": "Zephyr Midnight Black & Crimson Lotus Print Midi Dress",
+    "slug": "zephyr-midnight-black-crimson-lotus-print-midi-dress-176",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zephyr Midnight Black & Crimson Lotus Print Midi Dress (WST-WD-276) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-276"
+  },
+  {
+    "id": "wd-177",
+    "title": "Elena White Embroidered Peasant Balloon-Sleeve Dress",
+    "slug": "elena-white-embroidered-peasant-balloon-sleeve-dress-177",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0222.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2356.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9302.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena White Embroidered Peasant Balloon-Sleeve Dress (WST-WD-277) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-277"
+  },
+  {
+    "id": "wd-178",
+    "title": "Kyoto Olive Green Tiered Smocked Sundress",
+    "slug": "kyoto-olive-green-tiered-smocked-sundress-178",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7294.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kyoto Olive Green Tiered Smocked Sundress (WST-WD-278) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-278"
+  },
+  {
+    "id": "wd-179",
+    "title": "Milan Minimalist Botanical Leaf Print Rayon Dress",
+    "slug": "milan-minimalist-botanical-leaf-print-rayon-dress-179",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0252.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4886.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Milan Minimalist Botanical Leaf Print Rayon Dress (WST-WD-279) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-279"
+  },
+  {
+    "id": "wd-180",
+    "title": "Orion Ivory White Embroidered Peasant Mini Dress",
+    "slug": "orion-ivory-white-embroidered-peasant-mini-dress-180",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0334.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Orion Ivory White Embroidered Peasant Mini Dress (WST-WD-280) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-280"
+  },
+  {
+    "id": "wd-181",
+    "title": "Nova Sunset Pink & Gold Tie-Dye Collared Shirt Dress",
+    "slug": "nova-sunset-pink-gold-tie-dye-collared-shirt-dress-181",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Sunset Pink & Gold Tie-Dye Collared Shirt Dress (WST-WD-281) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-281"
+  },
+  {
+    "id": "wd-182",
+    "title": "Rowan White Tiered Bohemian Mini Dress with Black Threadwork",
+    "slug": "rowan-white-tiered-bohemian-mini-dress-with-black-threadwork-182",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rowan White Tiered Bohemian Mini Dress with Black Threadwork (WST-WD-282) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-282"
+  },
+  {
+    "id": "wd-183",
+    "title": "Zuri Black & White Graphic Tile Printed Sundress",
+    "slug": "zuri-black-white-graphic-tile-printed-sundress-183",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7394.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zuri Black & White Graphic Tile Printed Sundress (WST-WD-283) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-283"
+  },
+  {
+    "id": "wd-184",
+    "title": "Elysia Sage Green Halter Backless Tiered Maxi Dress",
+    "slug": "elysia-sage-green-halter-backless-tiered-maxi-dress-184",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elysia Sage Green Halter Backless Tiered Maxi Dress (WST-WD-284) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-284"
+  },
+  {
+    "id": "wd-185",
+    "title": "Vesper Grey & Coral Floral Gathered Midi Dress",
+    "slug": "vesper-grey-coral-floral-gathered-midi-dress-185",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vesper Grey & Coral Floral Gathered Midi Dress (WST-WD-285) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-285"
+  },
+  {
+    "id": "wd-186",
+    "title": "Astrid Crimson Red Kashmiri Embroidered Tunic Dress",
+    "slug": "astrid-crimson-red-kashmiri-embroidered-tunic-dress-186",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7543.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Crimson Red Kashmiri Embroidered Tunic Dress (WST-WD-286) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-286"
+  },
+  {
+    "id": "wd-187",
+    "title": "Terra Red Printed Bohemian Summer Sundress",
+    "slug": "terra-red-printed-bohemian-summer-sundress-187",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Terra Red Printed Bohemian Summer Sundress (WST-WD-287) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-287"
+  },
+  {
+    "id": "wd-188",
+    "title": "Luxe White Poppy Embroidered Linen A-Line Dress",
+    "slug": "luxe-white-poppy-embroidered-linen-a-line-dress-188",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1396.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luxe White Poppy Embroidered Linen A-Line Dress (WST-WD-288) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-288"
+  },
+  {
+    "id": "wd-189",
+    "title": "Solstice Turquoise Shibori Tie-Dye Halter Sundress",
+    "slug": "solstice-turquoise-shibori-tie-dye-halter-sundress-189",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Solstice Turquoise Shibori Tie-Dye Halter Sundress (WST-WD-289) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-289"
+  },
+  {
+    "id": "wd-190",
+    "title": "Blakely Royal Blue Hand-Dyed Tunic Dress",
+    "slug": "blakely-royal-blue-hand-dyed-tunic-dress-190",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Blakely Royal Blue Hand-Dyed Tunic Dress (WST-WD-290) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-290"
+  },
+  {
+    "id": "wd-191",
+    "title": "Emerson Cobalt Blue Shibori Halter Sundress",
+    "slug": "emerson-cobalt-blue-shibori-halter-sundress-191",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7404.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9891.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Emerson Cobalt Blue Shibori Halter Sundress (WST-WD-291) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-291"
+  },
+  {
+    "id": "wd-192",
+    "title": "Oslo Cream & Emerald Floral Embroidered Dress",
+    "slug": "oslo-cream-emerald-floral-embroidered-dress-192",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3470.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Oslo Cream & Emerald Floral Embroidered Dress (WST-WD-292) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-292"
+  },
+  {
+    "id": "wd-193",
+    "title": "Vance Golden Amber Tie-Dye Casual Dress",
+    "slug": "vance-golden-amber-tie-dye-casual-dress-193",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1689.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vance Golden Amber Tie-Dye Casual Dress (WST-WD-293) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-293"
+  },
+  {
+    "id": "wd-194",
+    "title": "Reese Black & White Peacock Motif Flared Sundress",
+    "slug": "reese-black-white-peacock-motif-flared-sundress-194",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6013.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Reese Black & White Peacock Motif Flared Sundress (WST-WD-294) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-294"
+  },
+  {
+    "id": "wd-195",
+    "title": "Cruz Royal Navy Angrakha Wrap Flared Dress",
+    "slug": "cruz-royal-navy-angrakha-wrap-flared-dress-195",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9450.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cruz Royal Navy Angrakha Wrap Flared Dress (WST-WD-295) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-295"
+  },
+  {
+    "id": "wd-196",
+    "title": "Harlow Rich Maroon & Golden Ombre Tiered Maxi Dress",
+    "slug": "harlow-rich-maroon-golden-ombre-tiered-maxi-dress-196",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Harlow Rich Maroon & Golden Ombre Tiered Maxi Dress (WST-WD-296) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-296"
+  },
+  {
+    "id": "wd-197",
+    "title": "Kenzo Crimson Micro-Print Bohemian Dress",
+    "slug": "kenzo-crimson-micro-print-bohemian-dress-197",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kenzo Crimson Micro-Print Bohemian Dress (WST-WD-297) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-297"
+  },
+  {
+    "id": "wd-198",
+    "title": "Sage Turquoise & Amber Tie-Dye Shirt Dress",
+    "slug": "sage-turquoise-amber-tie-dye-shirt-dress-198",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5575.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sage Turquoise & Amber Tie-Dye Shirt Dress (WST-WD-298) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-298"
+  },
+  {
+    "id": "wd-199",
+    "title": "Dallas Sage Green Tunic Dress with Magenta Threadwork",
+    "slug": "dallas-sage-green-tunic-dress-with-magenta-threadwork-199",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2070.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6874.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7003.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9465.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Dallas Sage Green Tunic Dress with Magenta Threadwork (WST-WD-299) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-299"
+  },
+  {
+    "id": "wd-200",
+    "title": "Nico Black Graphic Abstract Floral Midi Dress",
+    "slug": "nico-black-graphic-abstract-floral-midi-dress-200",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nico Black Graphic Abstract Floral Midi Dress (WST-WD-300) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-300"
+  },
+  {
+    "id": "wd-201",
+    "title": "Indie Hot Pink Embroidered Notch-Neck Sundress",
+    "slug": "indie-hot-pink-embroidered-notch-neck-sundress-201",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Indie Hot Pink Embroidered Notch-Neck Sundress (WST-WD-301) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-301"
+  },
+  {
+    "id": "wd-202",
+    "title": "Marlow Imperial Purple Bohemian Tiered Sundress",
+    "slug": "marlow-imperial-purple-bohemian-tiered-sundress-202",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2258.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Marlow Imperial Purple Bohemian Tiered Sundress (WST-WD-302) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-302"
+  },
+  {
+    "id": "wd-203",
+    "title": "Bodhi Multi-Color Rainbow Tie-Dye Sundress",
+    "slug": "bodhi-multi-color-rainbow-tie-dye-sundress-203",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2263.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bodhi Multi-Color Rainbow Tie-Dye Sundress (WST-WD-303) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-303"
+  },
+  {
+    "id": "wd-204",
+    "title": "Sora Earthy Brown Smocked Bodice Flared Dress",
+    "slug": "sora-earthy-brown-smocked-bodice-flared-dress-204",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Earthy Brown Smocked Bodice Flared Dress (WST-WD-304) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-304"
+  },
+  {
+    "id": "wd-205",
+    "title": "Remi Olive Green Botanical Print Midi Dress",
+    "slug": "remi-olive-green-botanical-print-midi-dress-205",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Remi Olive Green Botanical Print Midi Dress (WST-WD-305) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-305"
+  },
+  {
+    "id": "wd-206",
+    "title": "Eden Grey Sand Abstract Batik Print Dress",
+    "slug": "eden-grey-sand-abstract-batik-print-dress-206",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7678.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8206.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9059.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Eden Grey Sand Abstract Batik Print Dress (WST-WD-306) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-306"
+  },
+  {
+    "id": "wd-207",
+    "title": "Atlas Indigo Navy Tie-Dye Tunic Dress",
+    "slug": "atlas-indigo-navy-tie-dye-tunic-dress-207",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2666.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Atlas Indigo Navy Tie-Dye Tunic Dress (WST-WD-307) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-307"
+  },
+  {
+    "id": "wd-208",
+    "title": "Juno Cobalt Blue Shibori Checkered Midi Dress",
+    "slug": "juno-cobalt-blue-shibori-checkered-midi-dress-208",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8931.jpg (1).jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Juno Cobalt Blue Shibori Checkered Midi Dress (WST-WD-308) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-308"
+  },
+  {
+    "id": "wd-209",
+    "title": "Phoenix Amber Ochre Printed Cap-Sleeve Dress",
+    "slug": "phoenix-amber-ochre-printed-cap-sleeve-dress-209",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2712.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9701.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Phoenix Amber Ochre Printed Cap-Sleeve Dress (WST-WD-309) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-309"
+  },
+  {
+    "id": "wd-210",
+    "title": "Lennon Royal Blue Embroidered V-Neck Tunic Dress",
+    "slug": "lennon-royal-blue-embroidered-v-neck-tunic-dress-210",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2777.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lennon Royal Blue Embroidered V-Neck Tunic Dress (WST-WD-310) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-310"
+  },
+  {
+    "id": "wd-211",
+    "title": "Cairo Dusty Peach Tiered Ruffle Mini Dress",
+    "slug": "cairo-dusty-peach-tiered-ruffle-mini-dress-211",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2781.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5573.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cairo Dusty Peach Tiered Ruffle Mini Dress (WST-WD-311) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-311"
+  },
+  {
+    "id": "wd-212",
+    "title": "Milo Warm Rust Embroidered Bohemian Tiered Dress",
+    "slug": "milo-warm-rust-embroidered-bohemian-tiered-dress-212",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2943.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6995.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Milo Warm Rust Embroidered Bohemian Tiered Dress (WST-WD-312) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-312"
+  },
+  {
+    "id": "wd-213",
+    "title": "Shiloh White Embroidered Tassel-Tie Boho Mini Dress",
+    "slug": "shiloh-white-embroidered-tassel-tie-boho-mini-dress-213",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Shiloh White Embroidered Tassel-Tie Boho Mini Dress (WST-WD-313) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-313"
+  },
+  {
+    "id": "wd-214",
+    "title": "Jasper Multi-Pattern Smocked Bodice Midi Dress",
+    "slug": "jasper-multi-pattern-smocked-bodice-midi-dress-214",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6574.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Jasper Multi-Pattern Smocked Bodice Midi Dress (WST-WD-314) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-314"
+  },
+  {
+    "id": "wd-215",
+    "title": "Dune Cream Embroidered Victorian Long-Sleeve Dress",
+    "slug": "dune-cream-embroidered-victorian-long-sleeve-dress-215",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4347.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7366.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8699.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Dune Cream Embroidered Victorian Long-Sleeve Dress (WST-WD-315) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-315"
+  },
+  {
+    "id": "wd-216",
+    "title": "River Ocean Blue Printed Sheath Midi Dress",
+    "slug": "river-ocean-blue-printed-sheath-midi-dress-216",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA3643.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The River Ocean Blue Printed Sheath Midi Dress (WST-WD-316) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-316"
+  },
+  {
+    "id": "wd-217",
+    "title": "Zenith Amethyst Purple Paisley Print Maxi Dress",
+    "slug": "zenith-amethyst-purple-paisley-print-maxi-dress-217",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zenith Amethyst Purple Paisley Print Maxi Dress (WST-WD-317) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-317"
+  },
+  {
+    "id": "wd-218",
+    "title": "Aura Indigo Tie-Dye A-Line Casual Dress",
+    "slug": "aura-indigo-tie-dye-a-line-casual-dress-218",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA3906.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9775.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aura Indigo Tie-Dye A-Line Casual Dress (WST-WD-318) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-318"
+  },
+  {
+    "id": "wd-219",
+    "title": "Coralie Coral Pink Tiered Summer Sundress",
+    "slug": "coralie-coral-pink-tiered-summer-sundress-219",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4140.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Coralie Coral Pink Tiered Summer Sundress (WST-WD-319) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-319"
+  },
+  {
+    "id": "wd-220",
+    "title": "Breezy Seafoam Linen Slub Midi Dress",
+    "slug": "breezy-seafoam-linen-slub-midi-dress-220",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4313.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8635.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Breezy Seafoam Linen Slub Midi Dress (WST-WD-320) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-320"
+  },
+  {
+    "id": "wd-221",
+    "title": "Karisma Hand-Dyed Cotton Voile Shirt Dress",
+    "slug": "karisma-hand-dyed-cotton-voile-shirt-dress-221",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Karisma Hand-Dyed Cotton Voile Shirt Dress (WST-WD-321) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-321"
+  },
+  {
+    "id": "wd-222",
+    "title": "Melina Floral Embroidered Georgette Sundress",
+    "slug": "melina-floral-embroidered-georgette-sundress-222",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Melina Floral Embroidered Georgette Sundress (WST-WD-322) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-322"
+  },
+  {
+    "id": "wd-223",
+    "title": "Nalani Bohemian Printed Cotton Maxi Dress",
+    "slug": "nalani-bohemian-printed-cotton-maxi-dress-223",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4565.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8646.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nalani Bohemian Printed Cotton Maxi Dress (WST-WD-323) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-323"
+  },
+  {
+    "id": "wd-224",
+    "title": "Saffron Embroidered Folk Tunic Dress",
+    "slug": "saffron-embroidered-folk-tunic-dress-224",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Embroidered Folk Tunic Dress (WST-WD-324) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-324"
+  },
+  {
+    "id": "wd-225",
+    "title": "Verona Tiered Smocked Rayon Midi Dress",
+    "slug": "verona-tiered-smocked-rayon-midi-dress-225",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4605.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Verona Tiered Smocked Rayon Midi Dress (WST-WD-325) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-325"
+  },
+  {
+    "id": "wd-226",
+    "title": "Zahara Moroccan Tile Print Slip Dress",
+    "slug": "zahara-moroccan-tile-print-slip-dress-226",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4719.jpg (1).jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zahara Moroccan Tile Print Slip Dress (WST-WD-326) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-326"
+  },
+  {
+    "id": "wd-227",
+    "title": "Amira Vintage Washed Linen Sundress",
+    "slug": "amira-vintage-washed-linen-sundress-227",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA4940.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amira Vintage Washed Linen Sundress (WST-WD-327) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-327"
+  },
+  {
+    "id": "wd-228",
+    "title": "Belle Blue Shibori Flared Midi Dress",
+    "slug": "belle-blue-shibori-flared-midi-dress-228",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5033.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Belle Blue Shibori Flared Midi Dress (WST-WD-328) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-328"
+  },
+  {
+    "id": "wd-229",
+    "title": "Calla Ivory Cutwork Cotton Mini Dress",
+    "slug": "calla-ivory-cutwork-cotton-mini-dress-229",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5042.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5518.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8560.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Calla Ivory Cutwork Cotton Mini Dress (WST-WD-329) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-329"
+  },
+  {
+    "id": "wd-230",
+    "title": "Delphine Sage Botanical Print Shift Dress",
+    "slug": "delphine-sage-botanical-print-shift-dress-230",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9381.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Delphine Sage Botanical Print Shift Dress (WST-WD-330) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-330"
+  },
+  {
+    "id": "wd-231",
+    "title": "Evie Rust Orange Smocked Bohemian Dress",
+    "slug": "evie-rust-orange-smocked-bohemian-dress-231",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Evie Rust Orange Smocked Bohemian Dress (WST-WD-331) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-331"
+  },
+  {
+    "id": "wd-232",
+    "title": "Fleur Pastel Floral Georgette Tiered Dress",
+    "slug": "fleur-pastel-floral-georgette-tiered-dress-232",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8087.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Fleur Pastel Floral Georgette Tiered Dress (WST-WD-332) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-332"
+  },
+  {
+    "id": "wd-233",
+    "title": "Gia Aztec Pattern Linen Blend Dress",
+    "slug": "gia-aztec-pattern-linen-blend-dress-233",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Aztec Pattern Linen Blend Dress (WST-WD-333) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-333"
+  },
+  {
+    "id": "wd-234",
+    "title": "Haven Smocked Yoke Cotton Sundress",
+    "slug": "haven-smocked-yoke-cotton-sundress-234",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9483.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9999.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Haven Smocked Yoke Cotton Sundress (WST-WD-334) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-334"
+  },
+  {
+    "id": "wd-235",
+    "title": "Iris Cobalt Blue Hand-Block Print Dress",
+    "slug": "iris-cobalt-blue-hand-block-print-dress-235",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5551.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9408.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Cobalt Blue Hand-Block Print Dress (WST-WD-335) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-335"
+  },
+  {
+    "id": "wd-236",
+    "title": "Joli Sunflower Yellow Embroidered Tunic Dress",
+    "slug": "joli-sunflower-yellow-embroidered-tunic-dress-236",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Joli Sunflower Yellow Embroidered Tunic Dress (WST-WD-336) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-336"
+  },
+  {
+    "id": "wd-237",
+    "title": "Kiran Royal Navy Printed Shirt Dress",
+    "slug": "kiran-royal-navy-printed-shirt-dress-237",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kiran Royal Navy Printed Shirt Dress (WST-WD-337) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-337"
+  },
+  {
+    "id": "wd-238",
+    "title": "Lila Lavender Tiered Flared Maxi Dress",
+    "slug": "lila-lavender-tiered-flared-maxi-dress-238",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5958.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lila Lavender Tiered Flared Maxi Dress (WST-WD-338) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-338"
+  },
+  {
+    "id": "wd-239",
+    "title": "Mira Bohemian Folk Embroidered Dress",
+    "slug": "mira-bohemian-folk-embroidered-dress-239",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA6080.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Bohemian Folk Embroidered Dress (WST-WD-339) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-339"
+  },
+  {
+    "id": "wd-240",
+    "title": "Nadia Golden Mustard Linen Sundress",
+    "slug": "nadia-golden-mustard-linen-sundress-240",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Golden Mustard Linen Sundress (WST-WD-340) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-340"
+  },
+  {
+    "id": "wd-241",
+    "title": "Opaline Pure Cotton Pintuck Tunic Dress",
+    "slug": "opaline-pure-cotton-pintuck-tunic-dress-241",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6612.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6663.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Opaline Pure Cotton Pintuck Tunic Dress (WST-WD-341) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-341"
+  },
+  {
+    "id": "wd-242",
+    "title": "Paloma Vintage Indigo Wrap Midi Dress",
+    "slug": "paloma-vintage-indigo-wrap-midi-dress-242",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7012.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Vintage Indigo Wrap Midi Dress (WST-WD-342) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-342"
+  },
+  {
+    "id": "wd-243",
+    "title": "Quinn Olive Drab Tiered Linen Dress",
+    "slug": "quinn-olive-drab-tiered-linen-dress-243",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA6893.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Quinn Olive Drab Tiered Linen Dress (WST-WD-343) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-343"
+  },
+  {
+    "id": "wd-244",
+    "title": "Raya Sunset Orange Embroidered Peasant Dress",
+    "slug": "raya-sunset-orange-embroidered-peasant-dress-244",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA7051.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Raya Sunset Orange Embroidered Peasant Dress (WST-WD-344) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-344"
+  },
+  {
+    "id": "wd-245",
+    "title": "Serena Multi-Stripe Cotton Voile Dress",
+    "slug": "serena-multi-stripe-cotton-voile-dress-245",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA7171.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Multi-Stripe Cotton Voile Dress (WST-WD-345) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-345"
+  },
+  {
+    "id": "wd-246",
+    "title": "Talia Floral Trellis Printed Slip Dress",
+    "slug": "talia-floral-trellis-printed-slip-dress-246",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA7252.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Talia Floral Trellis Printed Slip Dress (WST-WD-346) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-346"
+  },
+  {
+    "id": "wd-247",
+    "title": "Uma Dusty Cedar Smocked Midi Dress",
+    "slug": "uma-dusty-cedar-smocked-midi-dress-247",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA7514.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8804.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9899.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Uma Dusty Cedar Smocked Midi Dress (WST-WD-347) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-347"
+  },
+  {
+    "id": "wd-248",
+    "title": "Vida Emerald Tile Print Flared Dress",
+    "slug": "vida-emerald-tile-print-flared-dress-248",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA7584.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vida Emerald Tile Print Flared Dress (WST-WD-348) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-348"
+  },
+  {
+    "id": "wd-249",
+    "title": "Wren Classic White Schiffli Lace Dress",
+    "slug": "wren-classic-white-schiffli-lace-dress-249",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA7922.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Wren Classic White Schiffli Lace Dress (WST-WD-349) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-349"
+  },
+  {
+    "id": "wd-250",
+    "title": "Xanthe Terracotta Printed Bohemian Dress",
+    "slug": "xanthe-terracotta-printed-bohemian-dress-250",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA8157.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9273.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Xanthe Terracotta Printed Bohemian Dress (WST-WD-350) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-350"
+  },
+  {
+    "id": "wd-251",
+    "title": "Aria Yellow Embroidered Bohemian Notch-Neck Tunic Dress (Edition 2)",
+    "slug": "aria-yellow-embroidered-bohemian-notch-neck-tunic-dress-edition-2-251",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA8164.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Yellow Embroidered Bohemian Notch-Neck Tunic Dress (Edition 2) (WST-WD-351) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-351"
+  },
+  {
+    "id": "wd-252",
+    "title": "Sienna Lime Green Bishop-Sleeve Embroidered Dress (Edition 2)",
+    "slug": "sienna-lime-green-bishop-sleeve-embroidered-dress-edition-2-252",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA8500.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Lime Green Bishop-Sleeve Embroidered Dress (Edition 2) (WST-WD-352) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-352"
+  },
+  {
+    "id": "wd-253",
+    "title": "Zephyr Midnight Black & Crimson Lotus Print Midi Dress (Edition 2)",
+    "slug": "zephyr-midnight-black-crimson-lotus-print-midi-dress-edition-2-253",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA8881.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zephyr Midnight Black & Crimson Lotus Print Midi Dress (Edition 2) (WST-WD-353) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-353"
+  },
+  {
+    "id": "wd-254",
+    "title": "Elena White Embroidered Peasant Balloon-Sleeve Dress (Edition 2)",
+    "slug": "elena-white-embroidered-peasant-balloon-sleeve-dress-edition-2-254",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA8938.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena White Embroidered Peasant Balloon-Sleeve Dress (Edition 2) (WST-WD-354) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-354"
+  },
+  {
+    "id": "wd-255",
+    "title": "Kyoto Olive Green Tiered Smocked Sundress (Edition 2)",
+    "slug": "kyoto-olive-green-tiered-smocked-sundress-edition-2-255",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA8951.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kyoto Olive Green Tiered Smocked Sundress (Edition 2) (WST-WD-355) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-355"
+  },
+  {
+    "id": "wd-256",
+    "title": "Milan Minimalist Botanical Leaf Print Rayon Dress (Edition 2)",
+    "slug": "milan-minimalist-botanical-leaf-print-rayon-dress-edition-2-256",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA9119.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Milan Minimalist Botanical Leaf Print Rayon Dress (Edition 2) (WST-WD-356) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-356"
+  },
+  {
+    "id": "wd-257",
+    "title": "Orion Ivory White Embroidered Peasant Mini Dress (Edition 2)",
+    "slug": "orion-ivory-white-embroidered-peasant-mini-dress-edition-2-257",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA9264.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Orion Ivory White Embroidered Peasant Mini Dress (Edition 2) (WST-WD-357) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-357"
+  },
+  {
+    "id": "wd-258",
+    "title": "Nova Sunset Pink & Gold Tie-Dye Collared Shirt Dress (Edition 2)",
+    "slug": "nova-sunset-pink-gold-tie-dye-collared-shirt-dress-edition-2-258",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA9520.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Sunset Pink & Gold Tie-Dye Collared Shirt Dress (Edition 2) (WST-WD-358) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Flowing Viscose Georgette with Butter Crepe Lining, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Flowing Viscose Georgette with Butter Crepe Lining",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Flowing Viscose Georgette with Butter Crepe Lining",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-358"
+  },
+  {
+    "id": "wd-259",
+    "title": "Rowan White Tiered Bohemian Mini Dress with Black Threadwork (Edition 2)",
+    "slug": "rowan-white-tiered-bohemian-mini-dress-with-black-threadwork-edition-2-259",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA9969.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rowan White Tiered Bohemian Mini Dress with Black Threadwork (Edition 2) (WST-WD-359) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-359"
   }
 ];

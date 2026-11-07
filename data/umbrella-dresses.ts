@@ -9579,5 +9579,79 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-UD-402"
+  },
+  {
+    "id": "ud-303",
+    "title": "Royal Indigo Kalidar Flared Umbrella Maxi Dress",
+    "slug": "royal-indigo-kalidar-flared-umbrella-maxi-dress-303",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Heritage Kalidar",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0172.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0176.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0178.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0179.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0180.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0181.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0182.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0183.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0187.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0190.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Royal Indigo Kalidar Flared Umbrella Maxi Dress (WST-UD-403) is an exquisite creation from Wastram's premier Umbrella Dresses wholesale export collection. Crafted in Pure Indigo Dabu Handloom Cotton with Sweep Flare, it features a sweeping circular umbrella flare silhouette, exquisite artisanal finishes, and export-grade seam reinforcement, tailored for international boutiques, luxury summer retail, and high-end fashion distributors worldwide.",
+    "fabric": "Pure Indigo Dabu Handloom Cotton with Sweep Flare",
+    "details": [
+      "Full circular umbrella flare silhouette offering dramatic volume and graceful movement",
+      "Tailored bodice with breathable cotton voile lining in Pure Indigo Dabu Handloom Cotton with Sweep Flare",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-403"
+  },
+  {
+    "id": "ud-304",
+    "title": "Aria Ivory Tiered Floral Embroidered Grand Flare Umbrella Gown",
+    "slug": "aria-ivory-tiered-floral-embroidered-grand-flare-umbrella-gown-304",
+    "tab": "umbrella-dresses",
+    "category": "umbrella-dresses",
+    "badge": "Full Umbrella Flare",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0847.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA0969.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA4736.jpg.jpeg",
+      "/umbrella-dresses/dresses-images/IMG-20261103-WA8111.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Ivory Tiered Floral Embroidered Grand Flare Umbrella Gown (WST-UD-404) is an exquisite creation from Wastram's premier Umbrella Dresses wholesale export collection. Crafted in Fine Chanderi Mulmul with Multi-Resham Floral Yoke, it features a sweeping circular umbrella flare silhouette, exquisite artisanal finishes, and export-grade seam reinforcement, tailored for international boutiques, luxury summer retail, and high-end fashion distributors worldwide.",
+    "fabric": "Fine Chanderi Mulmul with Multi-Resham Floral Yoke",
+    "details": [
+      "Full circular umbrella flare silhouette offering dramatic volume and graceful movement",
+      "Tailored bodice with breathable cotton voile lining in Fine Chanderi Mulmul with Multi-Resham Floral Yoke",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-UD-404"
   }
 ];

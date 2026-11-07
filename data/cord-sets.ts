@@ -3257,5 +3257,38 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
     "sku": "WST-CS-195"
+  },
+  {
+    "id": "cs-096",
+    "title": "Midnight Black Fitted Crop Top & Bohemian Flared Maxi Skirt Set",
+    "slug": "midnight-black-fitted-crop-top-bohemian-flared-maxi-skirt-set-96",
+    "tab": "cord-sets",
+    "category": "cord-sets",
+    "badge": "Co-ord Trend",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/cord-sets/dresses-images/IMG-20261103-WA0387.jpg.jpeg",
+      "/cord-sets/dresses-images/IMG-20261103-WA6234.jpg.jpeg",
+      "/cord-sets/dresses-images/IMG-20261103-WA9636.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Midnight Black Fitted Crop Top & Bohemian Flared Maxi Skirt Set (WST-CS-196) is an export-ready 2-piece skirt and top co-ord set designed for contemporary retail boutiques and resort fashion buyers. Built with Stretch Rib Cotton Top with Printed Rayon Flared Maxi Skirt, it combines modern minimalist tailoring with a sweeping ethnic-printed skirt.",
+    "fabric": "Stretch Rib Cotton Top with Printed Rayon Flared Maxi Skirt",
+    "details": [
+      "Two-piece coordinating set: Fitted knit top and high-waist flared maxi skirt",
+      "Comfort-stretch waistband with reinforced hemline",
+      "Available in assorted export size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-CS-196"
   }
 ];
