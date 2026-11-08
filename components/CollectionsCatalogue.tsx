@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import Header from './Header';
@@ -10,7 +10,9 @@ import MobileNavDrawer from './MobileNavDrawer';
 import StoryViewerModal from './StoryViewerModal';
 import SearchModal from './SearchModal';
 import QuickAddModal from './QuickAddModal';
-import { useCart } from '@/context/CartContext';
+import ProductCard from './ProductCard';
+
+const PAGE_SIZE = 24;
 
 export default function CollectionsCatalogue({ initialCategory = 'all' }: { initialCategory?: string }) {
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory);
@@ -19,9 +21,9 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const [isStoryOpen, setIsStoryOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [quickAddProduct, setQuickAddProduct] = useState<NishoramaProduct | null>(null);
-  const [hoveredProduct, setHoveredProduct] = useState<string | null>(null);
+  const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
 
-  const { toggleWishlist, isWishlisted, openTapAndView } = useCart();
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
 
   const categories = [
     { id: 'all', label: 'All Collections' },
@@ -40,32 +42,67 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     { id: 'tiered', label: 'Tiered & Flared' }
   ];
 
-  let filtered = NISHORAMA_PRODUCTS.filter(p => {
-    if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
-    if (selectedCategory === 'western-dresses') return p.category === 'western-dresses';
-    if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') return p.category === 'denim-collection';
-    if (selectedCategory === 'hoodies-sweatshirts' || selectedCategory === 'hoodies' || selectedCategory === 'sweatshirts' || selectedCategory === 'hoodie') return p.category === 'hoodies-sweatshirts';
-    if (selectedCategory === 't-shirts' || selectedCategory === 'tshirts' || selectedCategory === 'tee') return p.category === 't-shirts';
-    if (selectedCategory === 'umbrella-dresses' || selectedCategory === 'umbrella') return p.category === 'umbrella-dresses';
-    if (selectedCategory === 'short-long-kaftan' || selectedCategory === 'kaftans' || selectedCategory === 'kaftan') return p.category === 'short-long-kaftan';
-    if (selectedCategory === 'ethnic-wear-sets' || selectedCategory === 'ethnic-sets' || selectedCategory === '3-piece') return p.category === 'ethnic-wear-sets';
-    if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') return p.category === 'tops-shirts';
-    if (selectedCategory === 'cord-sets' || selectedCategory === 'cord-set') return p.category === 'cord-sets';
-    if (selectedCategory === 'traditional-gowns') return p.category === 'traditional-gowns';
-    if (selectedCategory === 'anarkali-gowns') return p.category === 'traditional-gowns' || p.title.includes('Anarkali');
-    if (selectedCategory === 'maxi' || selectedCategory === 'maxi-dresses') return p.title.includes('Maxi');
-    if (selectedCategory === 'midi' || selectedCategory === 'midi-dress') return p.title.includes('Midi');
-    if (selectedCategory === 'slip') return p.title.includes('Slip') || p.title.includes('Halter');
-    if (selectedCategory === 'tiered') return p.title.includes('Tiered') || p.title.includes('Wrap') || p.title.includes('Flared');
-    if (selectedCategory === 'most-wanted') return p.badge.includes('Bestseller');
-    return p.category === selectedCategory || p.tab === selectedCategory;
-  });
+  // Reset pagination when category or sort changes
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [selectedCategory, sortBy]);
 
-  if (sortBy === 'price-low') {
-    filtered = [...filtered].sort((a, b) => a.salePrice - b.salePrice);
-  } else if (sortBy === 'price-high') {
-    filtered = [...filtered].sort((a, b) => b.salePrice - a.salePrice);
-  }
+  const filtered = useMemo(() => {
+    let list = NISHORAMA_PRODUCTS.filter(p => {
+      if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
+      if (selectedCategory === 'western-dresses') return p.category === 'western-dresses';
+      if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') return p.category === 'denim-collection';
+      if (selectedCategory === 'hoodies-sweatshirts' || selectedCategory === 'hoodies' || selectedCategory === 'sweatshirts' || selectedCategory === 'hoodie') return p.category === 'hoodies-sweatshirts';
+      if (selectedCategory === 't-shirts' || selectedCategory === 'tshirts' || selectedCategory === 'tee') return p.category === 't-shirts';
+      if (selectedCategory === 'umbrella-dresses' || selectedCategory === 'umbrella') return p.category === 'umbrella-dresses';
+      if (selectedCategory === 'short-long-kaftan' || selectedCategory === 'kaftans' || selectedCategory === 'kaftan') return p.category === 'short-long-kaftan';
+      if (selectedCategory === 'ethnic-wear-sets' || selectedCategory === 'ethnic-sets' || selectedCategory === '3-piece') return p.category === 'ethnic-wear-sets';
+      if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') return p.category === 'tops-shirts';
+      if (selectedCategory === 'cord-sets' || selectedCategory === 'cord-set') return p.category === 'cord-sets';
+      if (selectedCategory === 'traditional-gowns') return p.category === 'traditional-gowns';
+      if (selectedCategory === 'anarkali-gowns') return p.category === 'traditional-gowns' || p.title.includes('Anarkali');
+      if (selectedCategory === 'maxi' || selectedCategory === 'maxi-dresses') return p.title.includes('Maxi');
+      if (selectedCategory === 'midi' || selectedCategory === 'midi-dress') return p.title.includes('Midi');
+      if (selectedCategory === 'slip') return p.title.includes('Slip') || p.title.includes('Halter');
+      if (selectedCategory === 'tiered') return p.title.includes('Tiered') || p.title.includes('Wrap') || p.title.includes('Flared');
+      if (selectedCategory === 'most-wanted') return p.badge.includes('Bestseller');
+      return p.category === selectedCategory || p.tab === selectedCategory;
+    });
+
+    if (sortBy === 'price-low') {
+      list = [...list].sort((a, b) => a.salePrice - b.salePrice);
+    } else if (sortBy === 'price-high') {
+      list = [...list].sort((a, b) => b.salePrice - a.salePrice);
+    }
+
+    return list;
+  }, [selectedCategory, sortBy]);
+
+  const visibleProducts = useMemo(() => {
+    return filtered.slice(0, visibleCount);
+  }, [filtered, visibleCount]);
+
+  // Infinite Scroll Observer
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && visibleCount < filtered.length) {
+          setVisibleCount(prev => Math.min(prev + PAGE_SIZE, filtered.length));
+        }
+      },
+      { rootMargin: '600px 0px' }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [visibleCount, filtered.length]);
+
+  const handleLoadMore = () => {
+    setVisibleCount(prev => Math.min(prev + PAGE_SIZE, filtered.length));
+  };
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FAF9F6] font-archivo">
@@ -95,6 +132,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         product={quickAddProduct}
         onClose={() => setQuickAddProduct(null)}
       />
+
       <div className="max-w-[1400px] w-full mx-auto px-2.5 md:px-6 py-6 md:py-10 flex-1">
         {/* Breadcrumb Navigation */}
         <div className="flex items-center gap-2 text-xs text-black/50 mb-4">
@@ -112,7 +150,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               {selectedCategory === 'all' ? 'Signature Collections' : selectedCategory}
             </h1>
             <p className="text-xs text-black/60 mt-1">
-              Showing {filtered.length} exclusive styles handcrafted for global fashion lovers
+              Showing {visibleProducts.length} of {filtered.length} exclusive styles handcrafted for global fashion lovers
             </p>
           </div>
 
@@ -146,7 +184,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
           </div>
         </div>
 
-        {/* Product Cards Grid: Desktop 4-col, Mobile 2-col */}
+        {/* Product Cards Grid */}
         {filtered.length === 0 ? (
           <div className="py-20 text-center">
             <p className="text-sm text-black/60">No styles found in this selection.</p>
@@ -158,135 +196,38 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 md:gap-4 lg:gap-5">
-            {filtered.map(product => {
-              const isHovered = hoveredProduct === product.id;
-              const displayImage = isHovered && product.images[1] ? product.images[1] : product.images[0];
-              const wishlisted = isWishlisted(product.slug);
-
-              return (
-                <div
+          <>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 md:gap-4 lg:gap-5">
+              {visibleProducts.map((product, idx) => (
+                <ProductCard
                   key={product.id}
-                  onMouseEnter={() => setHoveredProduct(product.id)}
-                  onMouseLeave={() => setHoveredProduct(null)}
-                  className="group relative flex flex-col bg-transparent"
+                  product={product}
+                  priority={idx < 4}
+                />
+              ))}
+            </div>
+
+            {/* Infinite Scroll Trigger Sentinel */}
+            <div ref={sentinelRef} className="h-10 w-full" />
+
+            {/* Load More Button */}
+            {visibleCount < filtered.length && (
+              <div className="flex flex-col items-center justify-center gap-2 py-8">
+                <button
+                  type="button"
+                  onClick={handleLoadMore}
+                  className="px-8 py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] font-archivo text-xs font-bold uppercase tracking-wider shadow-navy border border-[#D4AF37]/40 transition-all hover:scale-102 active:scale-98"
                 >
-                  {/* Image Container with Exact Nishorama Roundness */}
-                  <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#FAF9F6] border border-[#0B2D7F]/10 rounded-[4vw] md:rounded-[1vw] overflow-hidden">
-                    <Link href={`/products/${product.slug}`} className="block w-full h-full">
-                      <img
-                        src={displayImage}
-                        alt={product.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        loading="lazy"
-                      />
-                    </Link>
-
-                    {/* Sale Badge Pill */}
-                    <div className="cust-badges-wrapper absolute top-2 left-2 md:top-2.5 md:left-2.5 z-10">
-                      <span className="cust-sale-badge">
-                        {product.badge}
-                      </span>
-                    </div>
-
-                    {/* Top Right: Wishlist & Tap & View Buttons */}
-                    <div className="absolute top-2 right-2 md:top-2.5 md:right-2.5 z-10 flex flex-col gap-1.5">
-                      {/* Official Bookmark Wishlist Button */}
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          e.stopPropagation();
-                          toggleWishlist(product.slug);
-                        }}
-                        className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-transform active:scale-90"
-                        aria-label="Save to wishlist"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="11"
-                          height="16"
-                          viewBox="0 0 12.39 18.53"
-                          className={`transition-all duration-300 ${
-                            wishlisted
-                              ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce'
-                              : 'fill-none stroke-current'
-                          }`}
-                        >
-                          <path
-                            id="savewishlist"
-                            strokeWidth="1.2"
-                            d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
-                          />
-                        </svg>
-                      </button>
-
-                      {/* Tap & View Button */}
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          e.stopPropagation();
-                          openTapAndView(product);
-                        }}
-                        className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95"
-                        title="Tap & View Lightbox"
-                        aria-label="Tap and View"
-                      >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <circle cx="11" cy="11" r="8" />
-                          <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                          <line x1="11" y1="8" x2="11" y2="14" />
-                          <line x1="8" y1="11" x2="14" y2="11" />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-
-                  {/* Card Info */}
-                  <div className="pt-2 md:pt-2.5 pb-1 flex flex-col justify-between flex-1 gap-1">
-                    <div className="flex items-start justify-between gap-1">
-                      <div className="flex flex-col flex-1">
-                        <Link
-                          href={`/products/${product.slug}`}
-                          className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#0B2D7F] hover:text-[#F58220] transition-colors line-clamp-1 leading-snug uppercase tracking-tight"
-                        >
-                          {product.title}
-                        </Link>
-
-                        <div className="flex items-center gap-1.5 mt-1 font-archivo">
-                          <Link
-                            href={`/products/${product.slug}`}
-                            className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#0B2D7F] text-[#FAF9F6] hover:bg-[#071F59] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider transition-all shadow-2xs"
-                          >
-                            <span>Show Price</span>
-                          </Link>
-                          <span className="text-[2.2vw] md:text-[0.68vw] text-black/50">
-                            • {product.moq || 'MOQ 20 pcs'}
-                          </span>
-                        </div>
-                      </div>
-
-                      {/* Enquire Pill Button */}
-                      <Link
-                        href={`/products/${product.slug}`}
-                        className="px-2.5 md:px-3 py-1 md:py-1 rounded-full border border-[#0B2D7F] bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
-                      >
-                        <span>Enquire</span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+                  Load More Styles ({filtered.length - visibleCount} remaining)
+                </button>
+                <span className="text-[11px] text-black/50">
+                  Showing {visibleProducts.length} of {filtered.length} styles
+                </span>
+              </div>
+            )}
+          </>
         )}
       </div>
-
-      <QuickAddModal
-        product={quickAddProduct}
-        onClose={() => setQuickAddProduct(null)}
-      />
 
       <Footer />
       <PopularSearches />

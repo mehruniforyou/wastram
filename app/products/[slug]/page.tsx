@@ -10,6 +10,7 @@ import MobileNavDrawer from '@/components/MobileNavDrawer';
 import StoryViewerModal from '@/components/StoryViewerModal';
 import SearchModal from '@/components/SearchModal';
 import B2BEnquiryModal from '@/components/B2BEnquiryModal';
+import ProductCard from '@/components/ProductCard';
 import { useCart } from '@/context/CartContext';
 
 interface Props {
@@ -65,7 +66,7 @@ export default function ProductDetailPage({ params }: Props) {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F5F5F5] font-archivo">
+    <div className="min-h-screen flex flex-col bg-[#FAF9F6] font-archivo">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -262,7 +263,9 @@ export default function ProductDetailPage({ params }: Props) {
                 <img
                   src={img}
                   alt={`${product.title} angle ${idx + 1}`}
-                  className={`w-full h-full object-cover transition-transform duration-300 group-hover:scale-105`}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading={idx === 0 ? "eager" : "lazy"}
+                  decoding="async"
                 />
 
                 {/* Zoom overlay badge */}
@@ -683,78 +686,9 @@ export default function ProductDetailPage({ params }: Props) {
           </div>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 md:gap-4 lg:gap-5">
-            {relatedProducts.map(rel => {
-              const relWish = isWishlisted(rel.slug);
-              return (
-                <div key={rel.id} className="group relative flex flex-col bg-transparent">
-                  <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#EEEEEE] rounded-[4vw] md:rounded-[1vw] overflow-hidden">
-                    <Link href={`/products/${rel.slug}`} className="block w-full h-full">
-                      <img
-                        src={rel.images[0]}
-                        alt={rel.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                        loading="lazy"
-                      />
-                    </Link>
-
-                    <div className="cust-badges-wrapper absolute top-2 left-2 md:top-2.5 md:left-2.5 z-10">
-                      <span className="cust-sale-badge">{rel.badge}</span>
-                    </div>
-
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        toggleWishlist(rel.slug);
-                      }}
-                      className="absolute top-2 right-2 md:top-2.5 md:right-2.5 w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 shadow-sm flex items-center justify-center text-[#0B2D7F]"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="11"
-                        height="16"
-                        viewBox="0 0 12.39 18.53"
-                        className={`transition-all ${relWish ? 'fill-[#F58220] text-[#F58220]' : 'fill-none stroke-current'}`}
-                      >
-                        <path
-                          id="savewishlist"
-                          strokeWidth="1.2"
-                          d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-
-                  <div className="pt-2 flex items-start justify-between gap-1">
-                    <div className="flex flex-col">
-                      <Link
-                        href={`/products/${rel.slug}`}
-                        className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#0B2D7F] hover:text-[#F58220] line-clamp-1 uppercase"
-                      >
-                        {rel.title}
-                      </Link>
-                      <div className="mt-1">
-                        <Link
-                          href={`/products/${rel.slug}`}
-                          className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider hover:bg-[#071F59] transition-all"
-                        >
-                          <span>Show Price</span>
-                        </Link>
-                      </div>
-                    </div>
-
-                    <button
-                      type="button"
-                      onClick={() => openTapAndView(rel)}
-                      className="px-2.5 py-1 rounded-full border border-[#0B2D7F] bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold"
-                    >
-                      + Add
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
+            {relatedProducts.map(rel => (
+              <ProductCard key={rel.id} product={rel} />
+            ))}
           </div>
         </div>
       </section>
