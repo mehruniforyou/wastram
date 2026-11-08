@@ -69,8 +69,8 @@ export function generateMetadata({ params }: Props): Metadata {
     .join(' ');
 
   return {
-    title: `${formatted} Collection | NISHORAMA India`,
-    description: `Shop the latest ${formatted} designs from NISHORAMA India. Handcrafted prints, modern ethnic wear, and festive discounts.`,
+    title: `${formatted} Collection | WASTRAM | Authentic Indian Textiles`,
+    description: `Shop the latest ${formatted} designs from WASTRAM | Authentic Indian Textiles. Handcrafted prints, modern ethnic wear, and festive discounts.`,
   };
 }
 

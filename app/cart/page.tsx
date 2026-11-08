@@ -24,7 +24,7 @@ export default function CartPage() {
   const remainingForFreeShipping = Math.max(0, freeShippingThreshold - cartSubtotal);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF8F5]">
+    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -38,9 +38,9 @@ export default function CartPage() {
       <StoryViewerModal isOpen={isStoryOpen} onClose={() => setIsStoryOpen(false)} />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
 
-      <main className="max-w-6xl w-full mx-auto px-4 md:px-8 py-10 md:py-16 flex-1 font-archivo text-[#482922]">
+      <main className="max-w-6xl w-full mx-auto px-4 md:px-8 py-10 md:py-16 flex-1 font-archivo text-[#0B2D7F]">
         <div className="text-center mb-8">
-          <span className="text-xs uppercase tracking-widest text-[#FF2F00] font-bold">
+          <span className="text-xs uppercase tracking-widest text-[#0B2D7F] font-bold">
             Checkout Summary
           </span>
           <h1 className="text-3xl md:text-5xl font-black uppercase tracking-tight mt-1">
@@ -53,7 +53,7 @@ export default function CartPage() {
             <p className="text-sm text-black/60 font-medium">Your shopping cart is empty.</p>
             <Link
               href="/collections/shop-all"
-              className="inline-block px-8 py-3 rounded-full bg-[#482922] text-[#F6C582] text-xs font-bold uppercase tracking-wider shadow"
+              className="inline-block px-8 py-3 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-xs font-bold uppercase tracking-wider shadow"
             >
               Continue Shopping
             </Link>
@@ -74,7 +74,7 @@ export default function CartPage() {
                   </p>
                 )}
                 <div className="w-full h-2 bg-black/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-[#FF2F00] transition-all duration-300" style={{ width: `${progressPercent}%` }} />
+                  <div className="h-full bg-[#0B2D7F] transition-all duration-300" style={{ width: `${progressPercent}%` }} />
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ export default function CartPage() {
                   <div className="flex-1 flex flex-col justify-between">
                     <div className="flex justify-between items-start">
                       <div>
-                        <h4 className="text-sm font-semibold text-[#482922]">{item.product.title}</h4>
+                        <h4 className="text-sm font-semibold text-[#0B2D7F]">{item.product.title}</h4>
                         <p className="text-xs text-black/50 mt-0.5">Size: <strong>{item.size}</strong></p>
                       </div>
                       <button
@@ -99,7 +99,7 @@ export default function CartPage() {
                     </div>
 
                     <div className="flex items-center justify-between mt-3">
-                      <div className="flex items-center border border-black/20 rounded-md bg-[#FAF8F5]">
+                      <div className="flex items-center border border-black/20 rounded-md bg-[#FAF9F6]">
                         <button
                           onClick={() => updateQuantity(item.product.id, item.size, item.quantity - 1)}
                           className="px-2.5 py-0.5 text-xs text-black/70 hover:bg-black/10"
@@ -114,7 +114,7 @@ export default function CartPage() {
                           +
                         </button>
                       </div>
-                      <span className="text-sm font-bold text-[#FF2F00]">
+                      <span className="text-sm font-bold text-[#0B2D7F]">
                         Show Price
                       </span>
                     </div>
@@ -125,7 +125,7 @@ export default function CartPage() {
 
             {/* Summary card */}
             <div className="lg:col-span-4 bg-white rounded-2xl p-6 shadow-sm border border-black/5 flex flex-col gap-4">
-              <h3 className="text-sm font-bold uppercase tracking-wider text-[#482922]">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-[#0B2D7F]">
                 Order Summary
               </h3>
 
@@ -135,11 +135,11 @@ export default function CartPage() {
                   value={promoCode}
                   onChange={e => setPromoCode(e.target.value)}
                   placeholder="Promo Code"
-                  className="flex-1 px-3 py-2 text-xs rounded-lg border border-black/15 bg-[#FAF8F5] uppercase focus:outline-none"
+                  className="flex-1 px-3 py-2 text-xs rounded-lg border border-black/15 bg-[#FAF9F6] uppercase focus:outline-none"
                 />
                 <button
                   onClick={() => setPromoApplied(true)}
-                  className="px-4 py-2 rounded-lg bg-[#482922] text-[#F6C582] text-xs font-bold uppercase tracking-wider"
+                  className="px-4 py-2 rounded-lg bg-[#0B2D7F] text-[#FAF9F6] text-xs font-bold uppercase tracking-wider"
                 >
                   Apply
                 </button>
@@ -160,15 +160,15 @@ export default function CartPage() {
                   <span>Standard Shipping</span>
                   <span>Calculated on destination</span>
                 </div>
-                <div className="flex justify-between text-base font-bold text-[#482922] pt-2 border-t border-black/10">
+                <div className="flex justify-between text-base font-bold text-[#0B2D7F] pt-2 border-t border-black/10">
                   <span>Total Amount</span>
-                  <span className="text-[#482922] font-bold">On Quotation</span>
+                  <span className="text-[#0B2D7F] font-bold">On Quotation</span>
                 </div>
               </div>
 
               <button
                 onClick={() => alert('Proceeding to payment gateway...')}
-                className="w-full mt-2 py-3.5 rounded-full bg-[#FF2F00] hover:bg-[#e02900] text-white font-archivo font-black text-xs uppercase tracking-widest shadow-lg transition-colors"
+                className="w-full mt-2 py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#e02900] text-white font-archivo font-black text-xs uppercase tracking-widest shadow-lg transition-colors"
               >
                 SUBMIT WHOLESALE ENQUIRY
               </button>

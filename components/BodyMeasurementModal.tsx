@@ -35,7 +35,7 @@ export default function BodyMeasurementModal() {
     <div className="fixed inset-0 z-[90] flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-[#482922]/70 backdrop-blur-sm transition-opacity"
+        className="fixed inset-0 bg-[#0B2D7F]/70 backdrop-blur-sm transition-opacity"
         onClick={closeSizeGuide}
       />
 
@@ -43,7 +43,7 @@ export default function BodyMeasurementModal() {
       <div className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden border border-black/10 z-10 font-archivo animate-toast">
         {/* Header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-black/10 bg-white">
-          <h3 className="text-sm md:text-base font-bold text-[#482922] uppercase tracking-wide">
+          <h3 className="text-sm md:text-base font-bold text-[#0B2D7F] uppercase tracking-wide">
             Body Measurement
           </h3>
 
@@ -55,7 +55,7 @@ export default function BodyMeasurementModal() {
                 onClick={() => setUnit('inch')}
                 className={`px-3 py-1 rounded-full transition-all ${
                   unit === 'inch'
-                    ? 'bg-[#482922] text-[#F6C582] shadow-sm'
+                    ? 'bg-[#0B2D7F] text-[#FAF9F6] shadow-sm'
                     : 'text-black/60 hover:text-black'
                 }`}
               >
@@ -66,7 +66,7 @@ export default function BodyMeasurementModal() {
                 onClick={() => setUnit('cm')}
                 className={`px-3 py-1 rounded-full transition-all ${
                   unit === 'cm'
-                    ? 'bg-[#482922] text-[#F6C582] shadow-sm'
+                    ? 'bg-[#0B2D7F] text-[#FAF9F6] shadow-sm'
                     : 'text-black/60 hover:text-black'
                 }`}
               >
@@ -77,7 +77,7 @@ export default function BodyMeasurementModal() {
             {/* Close X button */}
             <button
               onClick={closeSizeGuide}
-              className="w-8 h-8 rounded-full bg-black/5 hover:bg-black/10 flex items-center justify-center text-[#482922] text-sm font-bold transition-colors"
+              className="w-8 h-8 rounded-full bg-black/5 hover:bg-black/10 flex items-center justify-center text-[#0B2D7F] text-sm font-bold transition-colors"
               aria-label="Close"
             >
               ✕
@@ -89,7 +89,7 @@ export default function BodyMeasurementModal() {
         <div className="overflow-x-auto">
           <table className="w-full text-center border-collapse">
             <thead>
-              <tr className="bg-[#F1EFEF] text-[11px] md:text-xs text-[#482922] font-bold uppercase tracking-wider">
+              <tr className="bg-[#F1EFEF] text-[11px] md:text-xs text-[#0B2D7F] font-bold uppercase tracking-wider">
                 <th className="py-2.5 px-3">Size</th>
                 <th className="py-2.5 px-3">Bust ({unit})</th>
                 <th className="py-2.5 px-3">Waist ({unit})</th>
@@ -100,11 +100,11 @@ export default function BodyMeasurementModal() {
               {data.map((row, idx) => (
                 <tr
                   key={row.size}
-                  className={`border-b border-black/5 transition-colors hover:bg-[#FAF8F5] ${
-                    idx % 2 === 0 ? 'bg-white' : 'bg-[#FAF8F5]/60'
+                  className={`border-b border-black/5 transition-colors hover:bg-[#FAF9F6] ${
+                    idx % 2 === 0 ? 'bg-white' : 'bg-[#FAF9F6]/60'
                   }`}
                 >
-                  <td className="py-2.5 px-3 font-bold text-[#482922]">{row.size}</td>
+                  <td className="py-2.5 px-3 font-bold text-[#0B2D7F]">{row.size}</td>
                   <td className="py-2.5 px-3">{row.bust}</td>
                   <td className="py-2.5 px-3">{row.waist}</td>
                   <td className="py-2.5 px-3">{row.hip}</td>
@@ -115,12 +115,12 @@ export default function BodyMeasurementModal() {
         </div>
 
         {/* Footer Notes & Fit Tags */}
-        <div className="bg-[#482922] text-white p-4 flex flex-col gap-2.5">
+        <div className="bg-[#0B2D7F] text-white p-4 flex flex-col gap-2.5">
           <div className="flex gap-2">
-            <span className="bg-[#6B4036] text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded">
+            <span className="bg-[#071F59] text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded">
               Regular Fit
             </span>
-            <span className="bg-[#6B4036] text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded">
+            <span className="bg-[#071F59] text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded">
               True to Size
             </span>
           </div>

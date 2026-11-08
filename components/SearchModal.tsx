@@ -42,11 +42,11 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
 
   return (
     <div className="fixed inset-0 z-[70] flex flex-col bg-black/60 backdrop-blur-sm">
-      <div className="w-full bg-[#FAF8F5] shadow-xl p-4 md:p-8 flex flex-col gap-6 max-h-[85vh] overflow-y-auto no-scrollbar">
+      <div className="w-full bg-[#FAF9F6] shadow-xl p-4 md:p-8 flex flex-col gap-6 max-h-[85vh] overflow-y-auto no-scrollbar">
         {/* Search Input Row */}
-        <div className="max-w-4xl w-full mx-auto flex items-center justify-between gap-4 border-b-2 border-[#482922] pb-3">
+        <div className="max-w-4xl w-full mx-auto flex items-center justify-between gap-4 border-b-2 border-[#0B2D7F] pb-3">
           <div className="flex items-center gap-3 flex-1">
-            <svg className="w-6 h-6 text-[#482922]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-[#0B2D7F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
             <input
@@ -55,13 +55,13 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
               value={query}
               onChange={e => setQuery(e.target.value)}
               placeholder="Search for Kurtis, Sets, Tops, Pants, Fabrics..."
-              className="w-full bg-transparent text-lg md:text-xl font-archivo text-[#482922] placeholder:text-black/40 focus:outline-none"
+              className="w-full bg-transparent text-lg md:text-xl font-archivo text-[#0B2D7F] placeholder:text-black/40 focus:outline-none"
             />
           </div>
 
           <button
             onClick={onClose}
-            className="p-2 rounded-full hover:bg-black/5 text-[#482922] transition-colors"
+            className="p-2 rounded-full hover:bg-black/5 text-[#0B2D7F] transition-colors"
             aria-label="Close search"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -81,7 +81,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 <button
                   key={tag}
                   onClick={() => setQuery(tag)}
-                  className="px-4 py-1.5 rounded-full bg-white border border-black/10 text-xs font-archivo text-[#482922] hover:bg-[#482922] hover:text-white transition-all shadow-sm"
+                  className="px-4 py-1.5 rounded-full bg-white border border-black/10 text-xs font-archivo text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white transition-all shadow-sm"
                 >
                   {tag}
                 </button>
@@ -102,7 +102,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 <p className="text-sm">No styles found matching "{query}"</p>
                 <button
                   onClick={() => setQuery('')}
-                  className="mt-3 text-xs underline font-semibold text-[#482922]"
+                  className="mt-3 text-xs underline font-semibold text-[#0B2D7F]"
                 >
                   Clear search
                 </button>
@@ -122,7 +122,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         alt={p.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
-                      <span className="absolute top-2 left-2 text-[10px] bg-red-600 text-white font-bold px-1.5 py-0.5 rounded">
+                      <span className="absolute top-2 left-2 text-[10px] bg-[#F58220] text-white font-bold px-1.5 py-0.5 rounded">
                         {p.badge}
                       </span>
                     </div>
@@ -131,7 +131,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         {p.title}
                       </h4>
                       <div className="flex items-center gap-2 text-xs font-archivo mt-1">
-                        <span className="px-2 py-0.5 rounded-full bg-[#482922] text-[#F6C582] text-[10px] font-bold uppercase tracking-wider">
+                        <span className="px-2 py-0.5 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-[10px] font-bold uppercase tracking-wider">
                           Show Price
                         </span>
                         <span className="text-[10px] text-black/50">• {p.moq || 'MOQ 20 pcs'}</span>

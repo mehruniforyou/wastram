@@ -38,7 +38,7 @@ export default function FaqsPage() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF8F5]">
+    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -52,9 +52,9 @@ export default function FaqsPage() {
       <StoryViewerModal isOpen={isStoryOpen} onClose={() => setIsStoryOpen(false)} />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
 
-      <main className="max-w-3xl mx-auto px-4 md:px-8 py-12 md:py-20 flex-1 font-archivo text-[#482922]">
+      <main className="max-w-3xl mx-auto px-4 md:px-8 py-12 md:py-20 flex-1 font-archivo text-[#0B2D7F]">
         <div className="text-center mb-10">
-          <span className="text-xs uppercase tracking-widest text-[#FF2F00] font-bold">
+          <span className="text-xs uppercase tracking-widest text-[#F58220] font-bold">
             Customer Support
           </span>
           <h1 className="text-3xl md:text-5xl font-black uppercase tracking-tight mt-1">
@@ -71,10 +71,10 @@ export default function FaqsPage() {
               <button
                 type="button"
                 onClick={() => setOpenIdx(openIdx === i ? null : i)}
-                className="w-full flex items-center justify-between text-left font-bold text-sm text-[#482922]"
+                className="w-full flex items-center justify-between text-left font-bold text-sm text-[#0B2D7F]"
               >
                 <span>{faq.q}</span>
-                <span className="text-base text-[#482922]/70 font-mono">
+                <span className="text-base text-[#0B2D7F]/70 font-mono">
                   {openIdx === i ? '−' : '+'}
                 </span>
               </button>

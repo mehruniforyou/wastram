@@ -26,9 +26,9 @@ export default function CartDrawer() {
       {/* Drawer */}
       <div className="relative w-full max-w-md h-full bg-white shadow-2xl z-10 flex flex-col font-archivo animate-slide-left">
         {/* Drawer Header */}
-        <div className="p-4 border-b border-black/10 flex items-center justify-between bg-[#FAF8F5]">
+        <div className="p-4 border-b border-black/10 flex items-center justify-between bg-[#FAF9F6]">
           <div className="flex items-center gap-2">
-            <h3 className="text-base font-bold text-[#482922] uppercase tracking-wide">
+            <h3 className="text-base font-bold text-[#0B2D7F] uppercase tracking-wide">
               Your Bag
             </h3>
             <span className="text-xs text-black/50">({cartCount} items)</span>
@@ -36,7 +36,7 @@ export default function CartDrawer() {
 
           <button
             onClick={closeCart}
-            className="p-1.5 rounded-full hover:bg-black/5 text-[#482922]"
+            className="p-1.5 rounded-full hover:bg-black/5 text-[#0B2D7F]"
             aria-label="Close cart"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -46,7 +46,7 @@ export default function CartDrawer() {
         </div>
 
         {/* Free Shipping Progress Bar */}
-        <div className="p-3 bg-[#FAF8F5] border-b border-black/10 text-xs">
+        <div className="p-3 bg-[#FAF9F6] border-b border-black/10 text-xs">
           {remainingForFreeShipping > 0 ? (
             <p className="text-black/70 mb-1.5 text-[11px]">
               B2B Wholesale Quotation Basket • Flexible 20 pcs MOQ per style
@@ -60,7 +60,7 @@ export default function CartDrawer() {
 
           <div className="w-full h-1.5 bg-black/10 rounded-full overflow-hidden">
             <div
-              className="h-full bg-[#FF2F00] transition-all duration-300"
+              className="h-full bg-[#F58220] transition-all duration-300"
               style={{ width: `${progressPercent}%` }}
             />
           </div>
@@ -70,7 +70,7 @@ export default function CartDrawer() {
         <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-4 divide-y divide-black/5 no-scrollbar">
           {cart.length === 0 ? (
             <div className="py-20 flex flex-col items-center justify-center text-center gap-3">
-              <div className="w-16 h-16 rounded-full bg-[#FAF8F5] flex items-center justify-center text-black/30">
+              <div className="w-16 h-16 rounded-full bg-[#FAF9F6] flex items-center justify-center text-black/30">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
@@ -79,7 +79,7 @@ export default function CartDrawer() {
               <Link
                 href="/collections/shop-all"
                 onClick={closeCart}
-                className="mt-2 px-6 py-2.5 rounded-full bg-[#482922] text-[#F6C582] text-xs font-bold uppercase tracking-wider"
+                className="mt-2 px-6 py-2.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] text-xs font-bold uppercase tracking-wider"
               >
                 Start Shopping
               </Link>
@@ -100,7 +100,7 @@ export default function CartDrawer() {
                 <div className="flex-1 flex flex-col justify-between py-0.5">
                   <div>
                     <div className="flex justify-between items-start gap-2">
-                      <h4 className="text-xs font-semibold text-[#482922] line-clamp-1">
+                      <h4 className="text-xs font-semibold text-[#0B2D7F] line-clamp-1">
                         {item.product.title}
                       </h4>
                       <button
@@ -138,7 +138,7 @@ export default function CartDrawer() {
                     </div>
 
                     <div className="text-right">
-                      <span className="text-xs font-bold text-[#FF2F00]">
+                      <span className="text-xs font-bold text-[#F58220]">
                         Show Price
                       </span>
                     </div>
@@ -151,7 +151,7 @@ export default function CartDrawer() {
 
         {/* Footer Checkout Summary */}
         {cart.length > 0 && (
-          <div className="p-4 border-t border-black/10 bg-[#FAF8F5] flex flex-col gap-3">
+          <div className="p-4 border-t border-black/10 bg-[#FAF9F6] flex flex-col gap-3">
             {/* Promo code */}
             <div className="flex gap-2">
               <input
@@ -163,7 +163,7 @@ export default function CartDrawer() {
               />
               <button
                 onClick={() => setPromoApplied(true)}
-                className="px-3 py-1.5 rounded-lg bg-[#482922] text-[#F6C582] text-xs font-semibold uppercase tracking-wider"
+                className="px-3 py-1.5 rounded-lg bg-[#0B2D7F] text-[#D4AF37] text-xs font-semibold uppercase tracking-wider"
               >
                 Apply
               </button>
@@ -177,7 +177,7 @@ export default function CartDrawer() {
             {/* Subtotal */}
             <div className="flex items-center justify-between text-sm font-archivo pt-2 border-t border-black/5">
               <span className="text-black/70 font-medium">Subtotal</span>
-              <span className="text-base font-extrabold text-[#482922]">
+              <span className="text-base font-extrabold text-[#0B2D7F]">
                 Price on Request
               </span>
             </div>
@@ -191,7 +191,7 @@ export default function CartDrawer() {
               onClick={() => {
                 alert('Order received! Proceeding to secure checkout...');
               }}
-              className="w-full py-3.5 rounded-full bg-[#FF2F00] hover:bg-[#e02900] text-white font-archivo font-black text-xs uppercase tracking-widest shadow-lg transition-colors flex items-center justify-center gap-2"
+              className="w-full py-3.5 rounded-full bg-[#F58220] hover:bg-[#e02900] text-white font-archivo font-black text-xs uppercase tracking-widest shadow-lg transition-colors flex items-center justify-center gap-2"
             >
               <span>PROCEED TO CHECKOUT</span>
               <span>&bull;</span>

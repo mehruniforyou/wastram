@@ -6,54 +6,59 @@ import Link from 'next/link';
 export default function FeatureCategories() {
   const categories = [
     {
+      title: 'ETHNIC WEAR SETS',
+      count: '100+ Regal Sets',
+      image: '/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg',
+      href: '/collections/ethnic-wear-sets',
+      highlight: true
+    },
+    {
+      title: 'UMBRELLA DRESSES',
+      count: '315+ Flared Styles',
+      image: '/umbrella-dresses/4726.jpg.jpeg',
+      href: '/collections/umbrella-dresses',
+      highlight: false
+    },
+    {
       title: 'DENIM COLLECTION',
       count: '140+ Export Styles',
       image: '/denim-collection/IMG-20261102-WA0252.jpg.jpeg',
       href: '/collections/denim-collection',
-      highlight: true
+      highlight: false
     },
     {
       title: 'WESTERN DRESSES',
-      count: '170+ Export Designs',
+      count: '260+ Export Designs',
       image: '/western-dresses/1668.jpg.jpeg',
-      href: '/collections/western-dresses'
-    },
-    {
-      title: 'HOODIES & SWEATSHIRTS',
-      count: '40+ Streetwear Styles',
-      image: '/hoodies-sweatshirts/16885.jpg.jpeg',
-      href: '/collections/hoodies-sweatshirts'
-    },
-    {
-      title: 'T-SHIRTS',
-      count: '50+ Streetwear Tees',
-      image: '/t-shirts/13665.jpg.jpeg',
-      href: '/collections/t-shirts'
+      href: '/collections/western-dresses',
+      highlight: false
     },
     {
       title: 'CO-ORD SETS',
-      count: '95+ Designer Sets',
+      count: '110+ Designer Sets',
       image: '/cord-sets/_MG_7607.JPG.jpeg',
-      href: '/collections/cord-sets'
+      href: '/collections/cord-sets',
+      highlight: false
     },
     {
-      title: 'EXPORT BESTSELLERS',
-      count: 'Top Wholesale Picks',
-      image: '/western-dresses/10426.jpg.jpeg',
-      href: '/collections/most-wanted'
+      title: 'SHORT & LONG KAFTAN',
+      count: '150+ Resort Styles',
+      image: '/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg',
+      href: '/collections/short-long-kaftan',
+      highlight: false
     }
   ];
 
   return (
-    <section className="w-full p-2 md:p-4 bg-[#F5F5F5]">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-3">
+    <section className="w-full p-2 md:p-4 bg-[#FAF9F6]">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-3 max-w-[1540px] mx-auto">
         {categories.map((cat, idx) => (
           <Link
             key={idx}
             href={cat.href}
-            className="group relative diwali-capsule-border bg-white shadow-sm hover:shadow-md transition-all block overflow-hidden rounded-lg"
+            className="group relative bg-white border border-[#0B2D7F]/10 hover:border-[#D4AF37] shadow-xs hover:shadow-md transition-all block overflow-hidden rounded-xl"
           >
-            <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#ECE8E1]">
+            <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#FAF9F6]">
               <img
                 src={cat.image}
                 alt={cat.title}
@@ -62,17 +67,17 @@ export default function FeatureCategories() {
               />
               {cat.highlight && (
                 <div className="absolute top-2 left-2 z-10">
-                  <span className="px-2 py-0.5 rounded-full bg-[#FF2F00] text-white text-[9px] font-bold uppercase tracking-wider shadow-xs">
-                    NEW DROP
+                  <span className="px-2 py-0.5 rounded-full bg-[#F58220] text-white text-[9px] font-bold uppercase tracking-wider shadow-xs border border-white/40">
+                    SIGNATURE
                   </span>
                 </div>
               )}
             </div>
-            <div className="p-2 md:p-2.5 bg-white text-center border-t border-black/5 flex flex-col gap-0.5">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-[#482922] group-hover:text-[#FF2F00] transition-colors line-clamp-1">
+            <div className="p-2 md:p-2.5 bg-white text-center border-t border-[#0B2D7F]/5 flex flex-col gap-0.5">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B2D7F] group-hover:text-[#F58220] transition-colors line-clamp-1">
                 {cat.title}
               </span>
-              <span className="text-[10px] text-black/50 font-medium">
+              <span className="text-[10px] text-[#0B2D7F]/60 font-medium">
                 {cat.count}
               </span>
             </div>

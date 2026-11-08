@@ -35,7 +35,7 @@ export default function TapAndViewModal() {
     <div className="fixed inset-0 z-[80] flex items-center justify-center p-3 md:p-6">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-[#482922]/75 backdrop-blur-md transition-opacity"
+        className="fixed inset-0 bg-[#0B2D7F]/75 backdrop-blur-md transition-opacity"
         onClick={closeTapAndView}
       />
 
@@ -44,7 +44,7 @@ export default function TapAndViewModal() {
         {/* Close Button */}
         <button
           onClick={closeTapAndView}
-          className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-white/90 shadow-md flex items-center justify-center text-[#482922] hover:bg-[#482922] hover:text-white transition-all font-bold text-sm"
+          className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-white/90 shadow-md flex items-center justify-center text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white transition-all font-bold text-sm"
           aria-label="Close modal"
         >
           ✕
@@ -87,7 +87,7 @@ export default function TapAndViewModal() {
                 e.stopPropagation();
                 toggleWishlist(tapAndViewProduct.slug);
               }}
-              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center text-[#482922] shadow-sm hover:scale-105 active:scale-95 transition-all"
+              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center text-[#0B2D7F] shadow-sm hover:scale-105 active:scale-95 transition-all"
               aria-label="Save to wishlist"
             >
               <svg
@@ -96,7 +96,7 @@ export default function TapAndViewModal() {
                 height="18"
                 viewBox="0 0 12.39 18.53"
                 className={`transition-colors ${
-                  wishlisted ? 'fill-[#FF2F00] text-[#FF2F00] animate-heart-bounce' : 'fill-none stroke-current'
+                  wishlisted ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce' : 'fill-none stroke-current'
                 }`}
               >
                 <path
@@ -122,7 +122,7 @@ export default function TapAndViewModal() {
                   type="button"
                   onClick={() => setActiveImageIdx(idx)}
                   className={`w-12 h-16 rounded-md overflow-hidden border-2 transition-all flex-shrink-0 ${
-                    activeImageIdx === idx ? 'border-[#482922]' : 'border-transparent opacity-60 hover:opacity-100'
+                    activeImageIdx === idx ? 'border-[#0B2D7F]' : 'border-transparent opacity-60 hover:opacity-100'
                   }`}
                 >
                   <img src={img} alt="" className="w-full h-full object-cover" />
@@ -137,10 +137,10 @@ export default function TapAndViewModal() {
           <div className="flex flex-col gap-4">
             {/* Title & Category */}
             <div>
-              <span className="text-[11px] font-bold text-[#FF2F00] uppercase tracking-wider">
+              <span className="text-[11px] font-bold text-[#F58220] uppercase tracking-wider">
                 {tapAndViewProduct.category}
               </span>
-              <h2 className="text-lg md:text-2xl font-bold text-[#482922] uppercase tracking-tight mt-1 leading-snug">
+              <h2 className="text-lg md:text-2xl font-bold text-[#0B2D7F] uppercase tracking-tight mt-1 leading-snug">
                 {tapAndViewProduct.title}
               </h2>
             </div>
@@ -150,22 +150,22 @@ export default function TapAndViewModal() {
               <Link
                 href={`/products/${tapAndViewProduct.slug}`}
                 onClick={closeTapAndView}
-                className="px-4 py-1.5 rounded-full bg-[#482922] text-[#F6C582] font-archivo text-xs font-bold uppercase tracking-wider hover:bg-[#38201a] transition-all shadow-sm flex items-center gap-1.5"
+                className="px-4 py-1.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] font-archivo text-xs font-bold uppercase tracking-wider hover:bg-[#071F59] transition-all shadow-sm flex items-center gap-1.5"
               >
                 <span>Show Price</span>
               </Link>
-              <span className="text-[10px] font-bold bg-[#FAF8F5] text-[#482922] border border-black/15 px-2 py-0.5 rounded">
+              <span className="text-[10px] font-bold bg-[#FAF9F6] text-[#0B2D7F] border border-black/15 px-2 py-0.5 rounded">
                 {tapAndViewProduct.moq || 'MOQ: 20 pcs'}
               </span>
             </div>
 
             {/* Measurement & Size Guide Bar */}
             <div className="flex items-center justify-between pt-2 border-t border-black/10">
-              <span className="text-xs font-semibold text-[#482922]">Select Size</span>
+              <span className="text-xs font-semibold text-[#0B2D7F]">Select Size</span>
               <button
                 type="button"
                 onClick={openSizeGuide}
-                className="text-[11px] font-bold text-[#482922] bg-[#FAF8F5] px-3 py-1 rounded-full border border-black/15 hover:bg-[#482922] hover:text-white transition-all"
+                className="text-[11px] font-bold text-[#0B2D7F] bg-[#FAF9F6] px-3 py-1 rounded-full border border-black/15 hover:bg-[#0B2D7F] hover:text-white transition-all"
               >
                 What&apos;s my size ?
               </button>
@@ -182,13 +182,13 @@ export default function TapAndViewModal() {
                     onClick={() => setSelectedSize(size)}
                     className={`relative h-11 md:h-12 rounded-[8.64px] font-archivo text-xs font-bold transition-all flex flex-col items-center justify-center ${
                       isSelected
-                        ? 'bg-[#482922] text-white border-2 border-[#482922] shadow-sm'
-                        : 'bg-white text-[#121212] border border-[#D8D8D8] hover:border-[#482922]/50'
+                        ? 'bg-[#0B2D7F] text-white border-2 border-[#0B2D7F] shadow-sm'
+                        : 'bg-white text-[#121212] border border-[#D8D8D8] hover:border-[#0B2D7F]/50'
                     }`}
                   >
                     <span>{size}</span>
                     {isSelected && (
-                      <span className="w-3.5 h-[1.5px] bg-[#F6C582] rounded-full mt-0.5" />
+                      <span className="w-3.5 h-[1.5px] bg-[#D4AF37] rounded-full mt-0.5" />
                     )}
                   </button>
                 );
@@ -211,7 +211,7 @@ export default function TapAndViewModal() {
                 addToCart(tapAndViewProduct, selectedSize, 1);
                 closeTapAndView();
               }}
-              className="w-full py-3.5 rounded-full bg-[#482922] text-[#F6C582] hover:bg-[#38201a] text-xs font-bold uppercase tracking-wider transition-all shadow-md flex items-center justify-center gap-2"
+              className="w-full py-3.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] hover:bg-[#071F59] text-xs font-bold uppercase tracking-wider transition-all shadow-md flex items-center justify-center gap-2"
             >
               <span>Add to Enquiry List • Size {selectedSize}</span>
             </button>
@@ -219,7 +219,7 @@ export default function TapAndViewModal() {
             <Link
               href={`/products/${tapAndViewProduct.slug}`}
               onClick={closeTapAndView}
-              className="w-full py-2.5 rounded-full bg-white text-[#482922] border border-[#482922] hover:bg-[#FAF8F5] text-xs font-bold uppercase tracking-wider text-center transition-all"
+              className="w-full py-2.5 rounded-full bg-white text-[#0B2D7F] border border-[#0B2D7F] hover:bg-[#FAF9F6] text-xs font-bold uppercase tracking-wider text-center transition-all"
             >
               View Full Product Details →
             </Link>

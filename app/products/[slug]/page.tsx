@@ -94,7 +94,7 @@ export default function ProductDetailPage({ params }: Props) {
         <span>/</span>
         <Link href="/collections/shop-all" className="hover:text-black">Shop All</Link>
         <span>/</span>
-        <span className="text-[#482922] font-semibold uppercase tracking-tight line-clamp-1">{product.title}</span>
+        <span className="text-[#0B2D7F] font-semibold uppercase tracking-tight line-clamp-1">{product.title}</span>
       </div>
 
       {/* ============================================================== */}
@@ -109,20 +109,20 @@ export default function ProductDetailPage({ params }: Props) {
             <div className="flex flex-col gap-4">
               {/* Badges */}
               <div className="flex items-center gap-2 flex-wrap">
-                <span className="px-3 py-1 bg-white text-[#482922] text-[11px] font-medium rounded-full shadow-2xs">
+                <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-2xs">
                   Cotton
                 </span>
-                <span className="px-3 py-1 bg-white text-[#482922] text-[11px] font-medium rounded-full shadow-2xs">
+                <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-2xs">
                   Slim Fit
                 </span>
-                <span className="px-3 py-1 bg-white text-[#482922] text-[11px] font-medium rounded-full shadow-2xs">
+                <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-2xs">
                   Full sleeves
                 </span>
               </div>
 
               {/* Title & Official Wishlist Bookmark */}
               <div className="flex items-start justify-between gap-3">
-                <h1 className="text-xl xl:text-2xl font-bold text-[#482922] uppercase tracking-tight leading-tight">
+                <h1 className="text-xl xl:text-2xl font-bold text-[#0B2D7F] uppercase tracking-tight leading-tight">
                   {product.title}
                 </h1>
 
@@ -130,7 +130,7 @@ export default function ProductDetailPage({ params }: Props) {
                 <button
                   type="button"
                   onClick={() => toggleWishlist(product.slug)}
-                  className="w-9 h-9 rounded-full bg-white shadow-sm flex items-center justify-center text-[#482922] hover:bg-[#FAF8F5] transition-transform active:scale-90 flex-shrink-0"
+                  className="w-9 h-9 rounded-full bg-white shadow-sm flex items-center justify-center text-[#0B2D7F] hover:bg-[#FAF9F6] transition-transform active:scale-90 flex-shrink-0"
                   aria-label="Save to wishlist"
                 >
                   <svg
@@ -139,7 +139,7 @@ export default function ProductDetailPage({ params }: Props) {
                     height="18.53"
                     viewBox="0 0 12.39 18.53"
                     className={`transition-all ${
-                      wishlisted ? 'fill-[#FF2F00] text-[#FF2F00] animate-heart-bounce' : 'fill-none stroke-current'
+                      wishlisted ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce' : 'fill-none stroke-current'
                     }`}
                   >
                     <path
@@ -152,7 +152,7 @@ export default function ProductDetailPage({ params }: Props) {
               </div>
 
               {/* Specs metadata */}
-              <div className="flex flex-col gap-1.5 text-xs text-[#482922] py-2 border-y border-black/10">
+              <div className="flex flex-col gap-1.5 text-xs text-[#0B2D7F] py-2 border-y border-black/10">
                 <div className="flex">
                   <span className="w-28 opacity-70 font-medium">Style</span>
                   <span className="font-semibold">{product.category} Special</span>
@@ -174,7 +174,7 @@ export default function ProductDetailPage({ params }: Props) {
                   <button
                     type="button"
                     onClick={() => toggleAccordion('details')}
-                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#482922]"
+                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#0B2D7F]"
                   >
                     <span>Details & Description</span>
                     <span className={`transition-transform duration-300 ${openAccordions.details ? 'rotate-90' : '-rotate-90'}`}>
@@ -195,7 +195,7 @@ export default function ProductDetailPage({ params }: Props) {
                   <button
                     type="button"
                     onClick={() => toggleAccordion('shipping')}
-                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#482922]"
+                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#0B2D7F]"
                   >
                     <span>Shipping & Delivery</span>
                     <span className={`transition-transform duration-300 ${openAccordions.shipping ? 'rotate-90' : '-rotate-90'}`}>
@@ -216,7 +216,7 @@ export default function ProductDetailPage({ params }: Props) {
                   <button
                     type="button"
                     onClick={() => toggleAccordion('returns')}
-                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#482922]"
+                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#0B2D7F]"
                   >
                     <span>Return & Exchange</span>
                     <span className={`transition-transform duration-300 ${openAccordions.returns ? 'rotate-90' : '-rotate-90'}`}>
@@ -239,7 +239,7 @@ export default function ProductDetailPage({ params }: Props) {
               <button
                 type="button"
                 onClick={() => openTapAndView(product)}
-                className="w-full py-2.5 rounded-full border border-black/20 bg-white hover:bg-[#482922] hover:text-white text-[#482922] text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-2"
+                className="w-full py-2.5 rounded-full border border-black/20 bg-white hover:bg-[#0B2D7F] hover:text-white text-[#0B2D7F] text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-2"
               >
                 <span>🔍 Tap & View Lightbox</span>
               </button>
@@ -306,14 +306,14 @@ export default function ProductDetailPage({ params }: Props) {
                 <button
                   type="button"
                   onClick={openSizeGuide}
-                  className="px-3.5 py-1.5 rounded-full bg-[#482922] text-white/90 hover:text-white text-xs font-semibold tracking-wide transition-all shadow-2xs"
+                  className="px-3.5 py-1.5 rounded-full bg-[#0B2D7F] text-white/90 hover:text-white text-xs font-semibold tracking-wide transition-all shadow-2xs"
                 >
                   What&apos;s my size ?
                 </button>
               </div>
 
               {/* Body measurements row */}
-              <div className="flex items-center justify-between text-xs bg-white px-3.5 py-2 rounded-xl border border-black/5 text-[#482922]">
+              <div className="flex items-center justify-between text-xs bg-white px-3.5 py-2 rounded-xl border border-black/5 text-[#0B2D7F]">
                 <div>
                   <span className="opacity-60 text-[10px] uppercase font-bold block">Chest</span>
                   <span className="font-bold">{measurements.chest} {measurements.unit}</span>
@@ -344,13 +344,13 @@ export default function ProductDetailPage({ params }: Props) {
                         isUnavailable
                           ? 'bg-white text-black/25 border border-dashed border-black/15 cursor-not-allowed'
                           : isSelected
-                          ? 'bg-[#482922] text-white border-2 border-[#482922] shadow-sm'
-                          : 'bg-white text-[#121212] border border-[#D8D8D8] hover:border-[#482922]/50'
+                          ? 'bg-[#0B2D7F] text-white border-2 border-[#0B2D7F] shadow-sm'
+                          : 'bg-white text-[#121212] border border-[#D8D8D8] hover:border-[#0B2D7F]/50'
                       }`}
                     >
                       <span>{size}</span>
                       {isSelected && (
-                        <span className="w-3.5 h-[1.5px] bg-[#F6C582] rounded-full mt-0.5" />
+                        <span className="w-3.5 h-[1.5px] bg-[#D4AF37] rounded-full mt-0.5" />
                       )}
                     </button>
                   );
@@ -362,7 +362,7 @@ export default function ProductDetailPage({ params }: Props) {
                 <button
                   type="button"
                   onClick={() => setIsEnquiryModalOpen(true)}
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#482922] text-[#F6C582] hover:bg-[#38201a] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-sm active:scale-95"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#0B2D7F] text-[#D4AF37] hover:bg-[#071F59] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-sm active:scale-95"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                     <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
@@ -371,7 +371,7 @@ export default function ProductDetailPage({ params }: Props) {
                   <span>Show Price</span>
                 </button>
 
-                <span className="px-3 py-1 bg-white border border-[#482922]/20 text-[#482922] text-xs font-bold rounded-full shadow-2xs">
+                <span className="px-3 py-1 bg-white border border-[#0B2D7F]/20 text-[#0B2D7F] text-xs font-bold rounded-full shadow-2xs">
                   {product.moq || 'MOQ: 20 pcs'}
                 </span>
               </div>
@@ -381,7 +381,7 @@ export default function ProductDetailPage({ params }: Props) {
                 <button
                   type="button"
                   onClick={() => setIsEnquiryModalOpen(true)}
-                  className="py-3 rounded-full bg-white border border-[#482922] text-[#482922] hover:bg-[#482922] hover:text-white font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs"
+                  className="py-3 rounded-full bg-white border border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs"
                 >
                   REQUEST B2B QUOTE
                 </button>
@@ -390,7 +390,7 @@ export default function ProductDetailPage({ params }: Props) {
                   href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id})`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-3 rounded-full bg-[#482922] text-white hover:bg-[#38201a] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs flex items-center justify-center text-center"
+                  className="py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs flex items-center justify-center text-center"
                 >
                   WHATSAPP CHAT
                 </a>
@@ -398,33 +398,33 @@ export default function ProductDetailPage({ params }: Props) {
 
               {/* B2B Wholesale & Export Specifications */}
               <div className="bg-white p-3.5 rounded-2xl border border-black/5 flex flex-col gap-2.5">
-                <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#482922]">
+                <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#0B2D7F]">
                   <span>Wholesale & Export Terms</span>
-                  <span className="text-[10px] bg-[#FAF8F5] text-[#482922] px-2 py-0.5 rounded border border-[#482922]/20 font-semibold">
+                  <span className="text-[10px] bg-[#FAF9F6] text-[#0B2D7F] px-2 py-0.5 rounded border border-[#0B2D7F]/20 font-semibold">
                     EXPORT GRADE
                   </span>
                 </div>
 
                 {/* Term 1 */}
-                <div className="bg-[#FAF8F5] p-2.5 rounded-xl border border-black/5 flex items-center justify-between text-xs">
+                <div className="bg-[#FAF9F6] p-2.5 rounded-xl border border-black/5 flex items-center justify-between text-xs">
                   <div>
-                    <span className="font-bold text-[#482922] block">Custom Private Labelling</span>
+                    <span className="font-bold text-[#0B2D7F] block">Custom Private Labelling</span>
                     <span className="text-[11px] text-black/60">Woven tags, barcode stickers & custom packaging</span>
                   </div>
-                  <span className="bg-[#482922] text-[#F6C582] text-[10px] font-bold px-2 py-0.5 rounded">
+                  <span className="bg-[#0B2D7F] text-[#D4AF37] text-[10px] font-bold px-2 py-0.5 rounded">
                     AVAILABLE
                   </span>
                 </div>
 
                 {/* Term 2 & 3 Boxes */}
                 <div className="grid grid-cols-2 gap-2 text-xs">
-                  <div className="p-2 border border-dashed border-[#482922]/40 rounded-xl bg-white text-center">
+                  <div className="p-2 border border-dashed border-[#0B2D7F]/40 rounded-xl bg-white text-center">
                     <span className="text-[10px] text-black/60 block">Flexible Batch MOQ</span>
-                    <span className="font-bold text-[#482922] text-xs">20 Pcs / Style</span>
+                    <span className="font-bold text-[#0B2D7F] text-xs">20 Pcs / Style</span>
                   </div>
-                  <div className="p-2 border border-dashed border-[#482922]/40 rounded-xl bg-white text-center">
+                  <div className="p-2 border border-dashed border-[#0B2D7F]/40 rounded-xl bg-white text-center">
                     <span className="text-[10px] text-black/60 block">Global Cargo Dispatch</span>
-                    <span className="font-bold text-[#482922] text-xs">DHL / Air / Sea</span>
+                    <span className="font-bold text-[#0B2D7F] text-xs">DHL / Air / Sea</span>
                   </div>
                 </div>
               </div>
@@ -475,20 +475,20 @@ export default function ProductDetailPage({ params }: Props) {
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="text-[10px] font-bold text-[#482922] uppercase tracking-wide pr-1">
+            <span className="text-[10px] font-bold text-[#0B2D7F] uppercase tracking-wide pr-1">
               Touch to zoom in
             </span>
           </button>
 
           {/* Top Pill Tags on Image */}
           <div className="absolute top-3 right-3 flex items-center gap-1.5">
-            <span className="bg-white/90 backdrop-blur-sm text-[#482922] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
+            <span className="bg-white/90 backdrop-blur-sm text-[#0B2D7F] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
               Cotton
             </span>
-            <span className="bg-white/90 backdrop-blur-sm text-[#482922] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
+            <span className="bg-white/90 backdrop-blur-sm text-[#0B2D7F] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
               Slim Fit
             </span>
-            <span className="bg-white/90 backdrop-blur-sm text-[#482922] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
+            <span className="bg-white/90 backdrop-blur-sm text-[#0B2D7F] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
               Full sleeves
             </span>
           </div>
@@ -503,7 +503,7 @@ export default function ProductDetailPage({ params }: Props) {
                 type="button"
                 onClick={() => setActiveImageIndex(dotIdx)}
                 className={`h-1.5 rounded-full transition-all ${
-                  activeImageIndex === dotIdx ? 'w-4 bg-[#482922]' : 'w-1.5 bg-black/20'
+                  activeImageIndex === dotIdx ? 'w-4 bg-[#0B2D7F]' : 'w-1.5 bg-black/20'
                 }`}
                 aria-label={`Slide ${dotIdx + 1}`}
               />
@@ -516,7 +516,7 @@ export default function ProductDetailPage({ params }: Props) {
           {/* Title Row with Official Wishlist Bookmark */}
           <div className="flex items-start justify-between gap-3">
             <div>
-              <h1 className="text-base font-bold text-[#482922] uppercase tracking-tight">
+              <h1 className="text-base font-bold text-[#0B2D7F] uppercase tracking-tight">
                 {product.title}
               </h1>
               <p className="text-xs text-black/60 mt-0.5">Floral Print Handcrafted Kurti</p>
@@ -525,7 +525,7 @@ export default function ProductDetailPage({ params }: Props) {
             <button
               type="button"
               onClick={() => toggleWishlist(product.slug)}
-              className="w-9 h-9 rounded-full bg-[#FAF8F5] shadow-sm flex items-center justify-center text-[#482922] active:scale-90"
+              className="w-9 h-9 rounded-full bg-[#FAF9F6] shadow-sm flex items-center justify-center text-[#0B2D7F] active:scale-90"
               aria-label="Save to wishlist"
             >
               <svg
@@ -534,7 +534,7 @@ export default function ProductDetailPage({ params }: Props) {
                 height="18"
                 viewBox="0 0 12.39 18.53"
                 className={`transition-all ${
-                  wishlisted ? 'fill-[#FF2F00] text-[#FF2F00] animate-heart-bounce' : 'fill-none stroke-current'
+                  wishlisted ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce' : 'fill-none stroke-current'
                 }`}
               >
                 <path
@@ -551,7 +551,7 @@ export default function ProductDetailPage({ params }: Props) {
             <button
               type="button"
               onClick={() => setIsEnquiryModalOpen(true)}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#482922] text-[#F6C582] font-archivo text-xs font-bold uppercase tracking-wider shadow-sm active:scale-95"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] font-archivo text-xs font-bold uppercase tracking-wider shadow-sm active:scale-95"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
@@ -559,20 +559,20 @@ export default function ProductDetailPage({ params }: Props) {
               </svg>
               <span>Show Price</span>
             </button>
-            <span className="px-2.5 py-0.5 bg-[#FAF8F5] border border-black/15 text-[#482922] text-[10px] font-bold rounded">
+            <span className="px-2.5 py-0.5 bg-[#FAF9F6] border border-black/15 text-[#0B2D7F] text-[10px] font-bold rounded">
               {product.moq || 'MOQ: 20 pcs'}
             </span>
           </div>
 
           {/* Measurements & Size Guide */}
           <div className="flex items-center justify-between bg-[#F5F5F5] p-2 rounded-xl text-[11px]">
-            <span className="font-semibold text-[#482922]">
+            <span className="font-semibold text-[#0B2D7F]">
               Chest {measurements.chest} • Waist {measurements.waist} • Hip {measurements.hip}
             </span>
             <button
               type="button"
               onClick={openSizeGuide}
-              className="px-2.5 py-1 rounded-full bg-[#482922] text-white text-[10px] font-bold"
+              className="px-2.5 py-1 rounded-full bg-[#0B2D7F] text-white text-[10px] font-bold"
             >
               What&apos;s my size ?
             </button>
@@ -594,13 +594,13 @@ export default function ProductDetailPage({ params }: Props) {
                     isUnavailable
                       ? 'bg-white text-black/25 border border-dashed border-black/15'
                       : isSelected
-                      ? 'bg-[#482922] text-white border-2 border-[#482922]'
+                      ? 'bg-[#0B2D7F] text-white border-2 border-[#0B2D7F]'
                       : 'bg-white text-[#121212] border border-[#D8D8D8]'
                   }`}
                 >
                   <span>{size}</span>
                   {isSelected && (
-                    <span className="w-3 h-[1.5px] bg-[#F6C582] rounded-full mt-0.5" />
+                    <span className="w-3 h-[1.5px] bg-[#D4AF37] rounded-full mt-0.5" />
                   )}
                 </button>
               );
@@ -612,7 +612,7 @@ export default function ProductDetailPage({ params }: Props) {
             <button
               type="button"
               onClick={() => setIsEnquiryModalOpen(true)}
-              className="w-full py-3.5 rounded-full bg-white border border-[#482922] text-[#482922] font-bold text-xs uppercase tracking-wider shadow-xs"
+              className="w-full py-3.5 rounded-full bg-white border border-[#0B2D7F] text-[#0B2D7F] font-bold text-xs uppercase tracking-wider shadow-xs"
             >
               REQUEST B2B QUOTE
             </button>
@@ -620,22 +620,22 @@ export default function ProductDetailPage({ params }: Props) {
               href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id})`)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-3.5 rounded-full bg-[#482922] text-white font-bold text-xs uppercase tracking-wider shadow-xs text-center flex items-center justify-center gap-1.5"
+              className="w-full py-3.5 rounded-full bg-[#0B2D7F] text-white font-bold text-xs uppercase tracking-wider shadow-xs text-center flex items-center justify-center gap-1.5"
             >
               <span>💬 WHATSAPP ENQUIRY</span>
             </a>
           </div>
 
           {/* B2B Wholesale & Export Terms */}
-          <div className="bg-[#FAF8F5] p-3 rounded-2xl border border-black/5 flex flex-col gap-2">
-            <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#482922]">
+          <div className="bg-[#FAF9F6] p-3 rounded-2xl border border-black/5 flex flex-col gap-2">
+            <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#0B2D7F]">
               <span>Wholesale & Export Terms</span>
-              <span className="text-[9px] bg-white text-[#482922] px-2 py-0.5 rounded border border-[#482922]/20 font-semibold">
+              <span className="text-[9px] bg-white text-[#0B2D7F] px-2 py-0.5 rounded border border-[#0B2D7F]/20 font-semibold">
                 EXPORT GRADE
               </span>
             </div>
             <div className="bg-white p-2.5 rounded-xl border border-black/5 text-xs">
-              <span className="font-bold text-[#482922] block">Custom Private Labelling & Tags</span>
+              <span className="font-bold text-[#0B2D7F] block">Custom Private Labelling & Tags</span>
               <span className="text-[10px] text-black/60">MOQ 20 pcs/style • Worldwide Doorstep Air/Sea Cargo</span>
             </div>
           </div>
@@ -643,7 +643,7 @@ export default function ProductDetailPage({ params }: Props) {
           {/* Accordions */}
           <div className="border-t border-black/10 pt-2 space-y-2 text-xs">
             <details className="py-2 border-b border-black/5" open>
-              <summary className="font-bold text-[#482922] uppercase tracking-wider cursor-pointer">
+              <summary className="font-bold text-[#0B2D7F] uppercase tracking-wider cursor-pointer">
                 Details & Description
               </summary>
               <p className="mt-2 text-black/70 leading-relaxed">
@@ -651,7 +651,7 @@ export default function ProductDetailPage({ params }: Props) {
               </p>
             </details>
             <details className="py-2 border-b border-black/5">
-              <summary className="font-bold text-[#482922] uppercase tracking-wider cursor-pointer">
+              <summary className="font-bold text-[#0B2D7F] uppercase tracking-wider cursor-pointer">
                 Shipping & Delivery
               </summary>
               <p className="mt-2 text-black/70 leading-relaxed">
@@ -659,7 +659,7 @@ export default function ProductDetailPage({ params }: Props) {
               </p>
             </details>
             <details className="py-2 border-b border-black/5">
-              <summary className="font-bold text-[#482922] uppercase tracking-wider cursor-pointer">
+              <summary className="font-bold text-[#0B2D7F] uppercase tracking-wider cursor-pointer">
                 Return & Exchange
               </summary>
               <p className="mt-2 text-black/70 leading-relaxed">
@@ -673,10 +673,10 @@ export default function ProductDetailPage({ params }: Props) {
       {/* ============================================================== */}
       {/* RELATED PRODUCTS RECOMMENDATION                                */}
       {/* ============================================================== */}
-      <section className="w-full py-8 md:py-12 px-3 md:px-6 bg-[#FAF8F5] border-t border-black/10">
+      <section className="w-full py-8 md:py-12 px-3 md:px-6 bg-[#FAF9F6] border-t border-black/10">
         <div className="max-w-[1400px] mx-auto flex flex-col gap-6">
           <div className="text-center">
-            <h2 className="text-lg md:text-2xl font-bold uppercase tracking-tight text-[#482922]">
+            <h2 className="text-lg md:text-2xl font-bold uppercase tracking-tight text-[#0B2D7F]">
               You May Also Like
             </h2>
             <p className="text-xs text-black/60 mt-0.5">Complementary styles from our signature collections</p>
@@ -708,14 +708,14 @@ export default function ProductDetailPage({ params }: Props) {
                         e.stopPropagation();
                         toggleWishlist(rel.slug);
                       }}
-                      className="absolute top-2 right-2 md:top-2.5 md:right-2.5 w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 shadow-sm flex items-center justify-center text-[#482922]"
+                      className="absolute top-2 right-2 md:top-2.5 md:right-2.5 w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 shadow-sm flex items-center justify-center text-[#0B2D7F]"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="11"
                         height="16"
                         viewBox="0 0 12.39 18.53"
-                        className={`transition-all ${relWish ? 'fill-[#FF2F00] text-[#FF2F00]' : 'fill-none stroke-current'}`}
+                        className={`transition-all ${relWish ? 'fill-[#F58220] text-[#F58220]' : 'fill-none stroke-current'}`}
                       >
                         <path
                           id="savewishlist"
@@ -730,14 +730,14 @@ export default function ProductDetailPage({ params }: Props) {
                     <div className="flex flex-col">
                       <Link
                         href={`/products/${rel.slug}`}
-                        className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#482922] hover:text-[#FF2F00] line-clamp-1 uppercase"
+                        className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#0B2D7F] hover:text-[#F58220] line-clamp-1 uppercase"
                       >
                         {rel.title}
                       </Link>
                       <div className="mt-1">
                         <Link
                           href={`/products/${rel.slug}`}
-                          className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#482922] text-[#F6C582] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider hover:bg-[#38201a] transition-all"
+                          className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider hover:bg-[#071F59] transition-all"
                         >
                           <span>Show Price</span>
                         </Link>
@@ -747,7 +747,7 @@ export default function ProductDetailPage({ params }: Props) {
                     <button
                       type="button"
                       onClick={() => openTapAndView(rel)}
-                      className="px-2.5 py-1 rounded-full border border-[#482922] bg-white text-[#482922] hover:bg-[#482922] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold"
+                      className="px-2.5 py-1 rounded-full border border-[#0B2D7F] bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold"
                     >
                       + Add
                     </button>

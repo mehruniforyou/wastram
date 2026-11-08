@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 export default function StoryRing({
@@ -12,9 +14,10 @@ export default function StoryRing({
       type="button"
       onClick={onClick}
       className={`relative ${size} flex items-center justify-center rounded-full group cursor-pointer focus:outline-none`}
-      aria-label="View Stories"
+      aria-label="View Wastram Artisan Stories"
+      title="View Wastram Artisan Stories"
     >
-      {/* Animated gradient spinning ring */}
+      {/* Animated gradient spinning ring in Wastram Brand Colors */}
       <svg
         className="absolute inset-0 w-full h-full story-ring-spin"
         viewBox="0 0 200 200"
@@ -22,19 +25,24 @@ export default function StoryRing({
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
-          <linearGradient id="story-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="200" y2="200">
-            <stop offset="0%" stopColor="#8034B0" />
-            <stop offset="33%" stopColor="#DD2A7B" />
-            <stop offset="66%" stopColor="#FDDA76" />
-            <stop offset="100%" stopColor="#F48529" />
+          <linearGradient id="wastram-story-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="200" y2="200">
+            <stop offset="0%" stopColor="#0B2D7F" />     {/* Royal Navy Blue */}
+            <stop offset="35%" stopColor="#4A7BC6" />    {/* Ceramic Blue */}
+            <stop offset="68%" stopColor="#F4A7B7" />    {/* Heritage Pink */}
+            <stop offset="100%" stopColor="#D4AF37" />   {/* Golden Thread */}
           </linearGradient>
         </defs>
-        <circle cx="100" cy="100" r="90" fill="none" stroke="url(#story-grad)" strokeWidth="12" />
+        <circle cx="100" cy="100" r="90" fill="none" stroke="url(#wastram-story-grad)" strokeWidth="12" />
       </svg>
 
-      {/* Inner background with Devanagari 'नी' monogram */}
-      <div className="w-[82%] h-[82%] rounded-full bg-[#FAF8F5] flex items-center justify-center z-10 shadow-sm group-hover:scale-105 transition-transform">
-        <span className="font-serif font-bold text-xs text-[#482922]">नी</span>
+      {/* Inner circular avatar displaying the Wastram Ornate Sewing Craft Emblem */}
+      <div className="w-[82%] h-[82%] rounded-full bg-[#FAF9F6] flex items-center justify-center z-10 shadow-sm group-hover:scale-105 transition-transform overflow-hidden p-0.5">
+        <img
+          src="/images/brand/wastram-craft-emblem.png"
+          alt="Wastram Artisan Emblem"
+          className="w-full h-full object-contain"
+          loading="eager"
+        />
       </div>
     </button>
   );

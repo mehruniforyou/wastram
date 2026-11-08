@@ -21,7 +21,7 @@ export default function WishlistPage() {
   const wishlistedProducts = NISHORAMA_PRODUCTS.filter(p => wishlist.includes(p.slug));
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F5F5F5] font-archivo">
+    <div className="min-h-screen flex flex-col bg-[#FAF9F6] font-archivo">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -35,13 +35,13 @@ export default function WishlistPage() {
       <StoryViewerModal isOpen={isStoryOpen} onClose={() => setIsStoryOpen(false)} />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
 
-      <main className="max-w-[1400px] w-full mx-auto px-3 md:px-6 py-8 md:py-14 flex-1 text-[#482922]">
+      <main className="max-w-[1400px] w-full mx-auto px-3 md:px-6 py-8 md:py-14 flex-1 text-[#0B2D7F]">
         {/* Header */}
         <div className="text-center mb-8 md:mb-12">
-          <span className="text-xs uppercase tracking-widest text-[#FF2F00] font-bold">
+          <span className="text-xs uppercase tracking-widest text-[#F58220] font-bold">
             Saved Styles
           </span>
-          <h1 className="text-2xl md:text-5xl font-extrabold uppercase tracking-tight mt-1 text-[#482922]">
+          <h1 className="text-2xl md:text-5xl font-extrabold uppercase tracking-tight mt-1 text-[#0B2D7F]">
             My Wishlist
           </h1>
           <p className="text-xs text-black/60 mt-1">
@@ -51,7 +51,7 @@ export default function WishlistPage() {
 
         {wishlistedProducts.length === 0 ? (
           <div className="bg-white rounded-3xl p-10 md:p-14 text-center border border-black/5 max-w-md mx-auto shadow-sm space-y-4">
-            <div className="w-14 h-14 mx-auto rounded-full bg-[#F5F5F5] flex items-center justify-center text-[#482922]/50">
+            <div className="w-14 h-14 mx-auto rounded-full bg-[#FAF9F6] flex items-center justify-center text-[#0B2D7F]/50">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -66,7 +66,7 @@ export default function WishlistPage() {
                 />
               </svg>
             </div>
-            <h3 className="text-base font-bold text-[#482922] uppercase tracking-wide">
+            <h3 className="text-base font-bold text-[#0B2D7F] uppercase tracking-wide">
               Your Wishlist is Empty
             </h3>
             <p className="text-xs text-black/60 leading-relaxed">
@@ -74,7 +74,7 @@ export default function WishlistPage() {
             </p>
             <Link
               href="/collections/shop-all"
-              className="inline-block mt-2 px-8 py-3 rounded-full bg-[#482922] text-[#F6C582] text-xs font-bold uppercase tracking-wider shadow hover:bg-[#38201a] transition-all"
+              className="inline-block mt-2 px-8 py-3 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-xs font-bold uppercase tracking-wider shadow hover:bg-[#071F59] transition-all"
             >
               Explore Collections
             </Link>
@@ -86,8 +86,8 @@ export default function WishlistPage() {
                 key={p.id}
                 className="group relative flex flex-col bg-transparent"
               >
-                {/* Media Container with Exact Nishorama Roundness */}
-                <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#EEEEEE] rounded-[4vw] md:rounded-[1vw] overflow-hidden">
+                {/* Media Container with Exact Wastram Roundness */}
+                <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#FAF9F6] border border-[#0B2D7F]/10 rounded-[4vw] md:rounded-[1vw] overflow-hidden">
                   <Link href={`/products/${p.slug}`} className="block w-full h-full">
                     <img
                       src={p.images[0]}
@@ -106,7 +106,7 @@ export default function WishlistPage() {
                     <button
                       type="button"
                       onClick={() => toggleWishlist(p.slug)}
-                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#FF2F00] transition-transform active:scale-90"
+                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#F58220] transition-transform active:scale-90"
                       aria-label="Remove from wishlist"
                     >
                       <svg
@@ -114,7 +114,7 @@ export default function WishlistPage() {
                         width="11"
                         height="16"
                         viewBox="0 0 12.39 18.53"
-                        className="fill-[#FF2F00] text-[#FF2F00]"
+                        className="fill-[#F58220] text-[#F58220]"
                       >
                         <path
                           id="savewishlist"
@@ -127,7 +127,7 @@ export default function WishlistPage() {
                     <button
                       type="button"
                       onClick={() => openTapAndView(p)}
-                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#482922] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95"
+                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95"
                       title="Tap & View Lightbox"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -146,13 +146,13 @@ export default function WishlistPage() {
                     <div className="flex flex-col flex-1">
                       <Link
                         href={`/products/${p.slug}`}
-                        className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#482922] hover:text-[#FF2F00] transition-colors line-clamp-1 uppercase tracking-tight"
+                        className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#0B2D7F] hover:text-[#F58220] transition-colors line-clamp-1 uppercase tracking-tight"
                       >
                         {p.title}
                       </Link>
 
                       <div className="flex items-center gap-1.5 mt-0.5 font-archivo">
-                        <span className="text-[2.6vw] md:text-[0.82vw] font-bold text-[#482922]">
+                        <span className="text-[2.6vw] md:text-[0.82vw] font-bold text-[#0B2D7F]">
                           Price on Enquiry
                         </span>
                         <span className="text-[2.2vw] md:text-[0.68vw] text-black/50">
@@ -163,7 +163,7 @@ export default function WishlistPage() {
 
                     <Link
                       href={`/products/${p.slug}`}
-                      className="px-2.5 md:px-3 py-1 rounded-full border border-[#482922] bg-[#482922] text-[#F6C582] hover:bg-[#38201a] font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
+                      className="px-2.5 md:px-3 py-1 rounded-full border border-[#0B2D7F] bg-[#0B2D7F] text-[#FAF9F6] hover:bg-[#071F59] font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
                     >
                       <span>Enquire</span>
                     </Link>

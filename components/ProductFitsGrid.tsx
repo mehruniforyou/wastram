@@ -66,7 +66,7 @@ export default function ProductFitsGrid() {
   };
 
   return (
-    <section className="w-full py-6 md:py-10 px-2 md:px-6 bg-[#F5F5F5]">
+    <section className="w-full py-6 md:py-10 px-2 md:px-6 bg-[#FAF9F6]">
       <div className="max-w-[1400px] mx-auto flex flex-col gap-4 md:gap-6">
         {/* TABS (Exact Nishorama 4rem pill buttons) */}
         <div className="flex items-center justify-center gap-1.5 md:gap-2 overflow-x-auto no-scrollbar pb-1">
@@ -99,7 +99,7 @@ export default function ProductFitsGrid() {
                 className="group relative flex flex-col bg-transparent"
               >
                 {/* Image Media Container */}
-                <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#EEEEEE] rounded-[4vw] md:rounded-[1vw] overflow-hidden">
+                <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#FAF9F6] border border-[#0B2D7F]/10 rounded-[4vw] md:rounded-[1vw] overflow-hidden">
                   <Link href={`/products/${product.slug}`} className="block w-full h-full">
                     <img
                       src={displayImage}
@@ -126,7 +126,7 @@ export default function ProductFitsGrid() {
                         e.stopPropagation();
                         toggleWishlist(product.slug);
                       }}
-                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#482922] transition-transform active:scale-90"
+                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-transform active:scale-90"
                       aria-label="Save to wishlist"
                     >
                       <svg
@@ -136,7 +136,7 @@ export default function ProductFitsGrid() {
                         viewBox="0 0 12.39 18.53"
                         className={`transition-all duration-300 ${
                           wishlisted
-                            ? 'fill-[#FF2F00] text-[#FF2F00] animate-heart-bounce'
+                            ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce'
                             : 'fill-none stroke-current'
                         }`}
                       >
@@ -156,7 +156,7 @@ export default function ProductFitsGrid() {
                         e.stopPropagation();
                         openTapAndView(product);
                       }}
-                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#482922] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95"
+                      className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-sm hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95"
                       title="Tap & View Lightbox"
                       aria-label="Tap and View"
                     >
@@ -175,7 +175,7 @@ export default function ProductFitsGrid() {
                       <button
                         type="button"
                         onClick={(e) => handlePrevImage(e, product.id, product.images.length)}
-                        className={`hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/70 backdrop-blur-md shadow-sm items-center justify-center text-[#482922] transition-all ${
+                        className={`hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/70 backdrop-blur-md shadow-sm items-center justify-center text-[#0B2D7F] transition-all ${
                           isHovered ? 'opacity-90 translate-x-0' : 'opacity-0 -translate-x-3 pointer-events-none'
                         }`}
                         aria-label="Previous photo"
@@ -185,7 +185,7 @@ export default function ProductFitsGrid() {
                       <button
                         type="button"
                         onClick={(e) => handleNextImage(e, product.id, product.images.length)}
-                        className={`hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/70 backdrop-blur-md shadow-sm items-center justify-center text-[#482922] transition-all ${
+                        className={`hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/70 backdrop-blur-md shadow-sm items-center justify-center text-[#0B2D7F] transition-all ${
                           isHovered ? 'opacity-90 translate-x-0' : 'opacity-0 translate-x-3 pointer-events-none'
                         }`}
                         aria-label="Next photo"
@@ -215,7 +215,7 @@ export default function ProductFitsGrid() {
                       {/* Product Title */}
                       <Link
                         href={`/products/${product.slug}`}
-                        className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#482922] hover:text-[#FF2F00] transition-colors line-clamp-1 leading-snug uppercase tracking-tight"
+                        className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#0B2D7F] hover:text-[#F58220] transition-colors line-clamp-1 leading-snug uppercase tracking-tight"
                       >
                         {product.title}
                       </Link>
@@ -224,7 +224,7 @@ export default function ProductFitsGrid() {
                       <div className="flex items-center gap-1.5 mt-1 font-archivo">
                         <Link
                           href={`/products/${product.slug}`}
-                          className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#482922] text-[#F6C582] hover:bg-[#38201a] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider transition-all shadow-2xs"
+                          className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#0B2D7F] text-[#FAF9F6] hover:bg-[#071F59] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider transition-all shadow-2xs"
                         >
                           <span>Show Price</span>
                         </Link>
@@ -237,7 +237,7 @@ export default function ProductFitsGrid() {
                     {/* Enquire Pill Button */}
                     <Link
                       href={`/products/${product.slug}`}
-                      className="px-2.5 md:px-3 py-1 md:py-1 rounded-full border border-[#482922] bg-white text-[#482922] hover:bg-[#482922] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
+                      className="px-2.5 md:px-3 py-1 md:py-1 rounded-full border border-[#0B2D7F] bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
                     >
                       <span>Enquire</span>
                     </Link>

@@ -8,27 +8,28 @@ import TapAndViewModal from '@/components/TapAndViewModal';
 import BodyMeasurementModal from '@/components/BodyMeasurementModal';
 
 export const metadata: Metadata = {
-  title: 'NISHORAMA India | You know where to GET IT',
-  description: 'Contemporary fusion of ethnic and modern Indian wear. Kurtis, Co-ord Sets, Dresses, Tops and Bottoms handcrafted for global fashion lovers.',
-  keywords: 'Nishorama, Kurtis, Co-ord Sets, Halter Kurtis, Dabu prints, Sanganeri prints, Modern Ethnic Wear, India',
+  title: 'Wastram | Authentic Indian Textiles & Contemporary Fashion',
+  description: 'Wastram is a premier Indian textile and fashion brand combining traditional Indian craftsmanship with modern luxury aesthetics. Explore handcrafted ethnic wear sets, kalidar umbrella dresses, artisanal kaftans, and contemporary resort collections.',
+  keywords: 'Wastram, Indian Textiles, Wholesale Fashion, Ethnic Wear Sets, Umbrella Dresses, Kaftans, Co-ord Sets, Western Dresses, Handcrafted Indian Apparel, B2B Apparel Export',
   openGraph: {
-    title: 'NISHORAMA India',
-    description: 'You know where to GET IT. Discover the latest Diwali Sale and signature ethnic collections.',
-    url: 'https://www.nishorama.com',
-    siteName: 'NISHORAMA',
+    title: 'Wastram | Authentic Indian Textiles & Contemporary Fashion',
+    description: 'Combining traditional Indian craftsmanship with modern luxury aesthetics. Explore 1,400+ handcrafted styles.',
+    url: 'https://www.wastram.com',
+    siteName: 'Wastram',
     images: [
       {
-        url: '/nishorama-images/hero-desktop.png',
+        url: '/images/brand/wastram-gold-thread-logo.png',
         width: 1200,
-        height: 630,
-        alt: 'Nishorama India',
+        height: 400,
+        alt: 'Wastram Logo',
       },
     ],
     locale: 'en_IN',
     type: 'website',
   },
   icons: {
-    icon: '/nishorama-images/cat-most-wanted.png',
+    icon: '/images/brand/wastram-craft-emblem.png',
+    apple: '/images/brand/wastram-craft-emblem.png',
   },
 };
 
@@ -43,7 +44,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className="bg-[#F5F5F5] text-[#121212] font-archivo antialiased selection:bg-[#482922] selection:text-white">
+      <body className="bg-[#FAF9F6] text-[#1A1A1A] font-archivo antialiased selection:bg-[#0B2D7F] selection:text-white">
         <CartProvider>
           <AnnouncementBar />
           {children}

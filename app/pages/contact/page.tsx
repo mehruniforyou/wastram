@@ -15,7 +15,7 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF8F5]">
+    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -29,9 +29,9 @@ export default function ContactPage() {
       <StoryViewerModal isOpen={isStoryOpen} onClose={() => setIsStoryOpen(false)} />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
 
-      <main className="max-w-4xl mx-auto px-4 md:px-8 py-12 md:py-20 flex-1 font-archivo text-[#482922]">
+      <main className="max-w-4xl mx-auto px-4 md:px-8 py-12 md:py-20 flex-1 font-archivo text-[#0B2D7F]">
         <div className="text-center mb-10">
-          <span className="text-xs uppercase tracking-widest text-[#FF2F00] font-bold">
+          <span className="text-xs uppercase tracking-widest text-[#F58220] font-bold">
             Get In Touch
           </span>
           <h1 className="text-3xl md:text-5xl font-black uppercase tracking-tight mt-1">
@@ -45,8 +45,8 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* Contact Details Card */}
           <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-black/5 space-y-5 text-xs">
-            <h3 className="text-base font-bold uppercase tracking-wide text-[#482922]">
-              Nishorama Pvt Ltd
+            <h3 className="text-base font-bold uppercase tracking-wide text-[#0B2D7F]">
+              Wastram Pvt Ltd
             </h3>
             <div className="space-y-3 text-black/80">
               <p>
@@ -55,11 +55,11 @@ export default function ContactPage() {
               </p>
               <p>
                 <strong>Email: </strong>
-                <a href="mailto:support@nishorama.com" className="text-[#FF2F00] underline font-medium">support@nishorama.com</a>
+                <a href="mailto:support@wastram.com" className="text-[#F58220] underline font-medium">support@wastram.com</a>
               </p>
               <p>
                 <strong>Customer Helpline: </strong>
-                <a href="tel:+919511948736" className="text-[#482922] font-semibold underline">+91 9511948736</a>
+                <a href="tel:+919511948736" className="text-[#0B2D7F] font-semibold underline">+91 9511948736</a>
               </p>
               <p>
                 <strong>WhatsApp Concierge: </strong>
@@ -83,24 +83,24 @@ export default function ContactPage() {
             ) : (
               <form onSubmit={e => { e.preventDefault(); setSubmitted(true); }} className="space-y-4 text-xs font-archivo">
                 <div>
-                  <label className="block font-semibold text-[#482922] mb-1">Your Name</label>
-                  <input required type="text" placeholder="Enter your full name" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF8F5] focus:outline-none focus:border-[#482922]" />
+                  <label className="block font-semibold text-[#0B2D7F] mb-1">Your Name</label>
+                  <input required type="text" placeholder="Enter your full name" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <div>
-                  <label className="block font-semibold text-[#482922] mb-1">Email Address</label>
-                  <input required type="email" placeholder="name@example.com" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF8F5] focus:outline-none focus:border-[#482922]" />
+                  <label className="block font-semibold text-[#0B2D7F] mb-1">Email Address</label>
+                  <input required type="email" placeholder="name@example.com" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <div>
-                  <label className="block font-semibold text-[#482922] mb-1">Phone / WhatsApp</label>
-                  <input type="tel" placeholder="+91 98765 43210" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF8F5] focus:outline-none focus:border-[#482922]" />
+                  <label className="block font-semibold text-[#0B2D7F] mb-1">Phone / WhatsApp</label>
+                  <input type="tel" placeholder="+91 98765 43210" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <div>
-                  <label className="block font-semibold text-[#482922] mb-1">Message</label>
-                  <textarea required rows={4} placeholder="How can we help you?" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF8F5] focus:outline-none focus:border-[#482922]" />
+                  <label className="block font-semibold text-[#0B2D7F] mb-1">Message</label>
+                  <textarea required rows={4} placeholder="How can we help you?" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <button
                   type="submit"
-                  className="w-full py-3 rounded-full bg-[#482922] hover:bg-[#38201a] text-[#F6C582] font-bold text-xs uppercase tracking-wider transition-colors shadow-md"
+                  className="w-full py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-[#FAF9F6] font-bold text-xs uppercase tracking-wider transition-colors shadow-md"
                 >
                   Send Message
                 </button>

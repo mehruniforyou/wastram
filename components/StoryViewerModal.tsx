@@ -99,8 +99,8 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
         {/* Story Header */}
         <div className="absolute top-7 left-4 right-4 z-20 flex items-center justify-between text-white font-archivo">
           <div className="flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-full bg-[#FAF8F5] flex items-center justify-center">
-              <span className="font-serif font-bold text-xs text-[#482922]">नी</span>
+            <div className="w-7 h-7 rounded-full bg-[#FAF9F6] flex items-center justify-center">
+              <span className="font-serif font-bold text-xs text-[#0B2D7F]">नी</span>
             </div>
             <div>
               <p className="text-xs font-bold tracking-wider">NISHORAMA</p>
@@ -125,7 +125,7 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
 
         {/* Bottom Story Content */}
         <div className="relative z-20 p-6 pb-8 text-white flex flex-col gap-2 mt-auto">
-          <span className="text-xs uppercase tracking-widest text-[#F6C582] font-semibold">
+          <span className="text-xs uppercase tracking-widest text-[#D4AF37] font-semibold">
             {currentStory.subtitle}
           </span>
           <h3 className="text-2xl font-black tracking-tight uppercase font-archivo">
@@ -134,7 +134,7 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
           <Link
             href="/collections/shop-all"
             onClick={onClose}
-            className="mt-3 w-full py-3 bg-white text-black font-archivo font-bold text-center text-xs tracking-wider uppercase rounded-full hover:bg-[#FAF8F5] transition-colors"
+            className="mt-3 w-full py-3 bg-white text-black font-archivo font-bold text-center text-xs tracking-wider uppercase rounded-full hover:bg-[#FAF9F6] transition-colors"
           >
             SHOP COLLECTION →
           </Link>

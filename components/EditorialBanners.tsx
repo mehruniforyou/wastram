@@ -56,12 +56,12 @@ export default function EditorialBanners() {
   ];
 
   return (
-    <section className="w-full p-2 md:p-4 bg-[#F5F5F5]">
+    <section className="w-full p-2 md:p-4 bg-[#FAF9F6]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-4">
         {banners.map((item, idx) => (
           <div
             key={idx}
-            className={`group relative rounded-xl md:rounded-2xl overflow-hidden shadow-sm bg-[#3D2E24] cursor-pointer ${item.aspect}`}
+            className={`group relative rounded-xl md:rounded-2xl overflow-hidden shadow-sm bg-[#071F59] border border-[#D4AF37]/20 cursor-pointer ${item.aspect}`}
           >
             {/* Background image */}
             <img
