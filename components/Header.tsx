@@ -17,71 +17,71 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
   const wishlistCount = wishlist.length;
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md transition-all font-serif">
+    <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md transition-all">
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-4 sm:px-6 xl:px-8 py-2 relative max-w-[1540px] mx-auto gap-3 xl:gap-6 w-full">
-        {/* Left: Artisan Stories Ring & Wastram Official Logo */}
-        <div className="flex items-center gap-3 shrink-0">
+      <div className="hidden lg:flex items-center justify-between px-4 sm:px-6 xl:px-8 py-1.5 lg:py-2 relative max-w-[1540px] mx-auto gap-3 xl:gap-5 w-full">
+        {/* Left: Artisan Stories Ring (replaces menu icon) & Wastram Official Logo */}
+        <div className="flex items-center gap-2.5 lg:gap-3 shrink-0">
           <div className="flex items-center">
             <StoryRing onClick={onOpenStory} size="w-8 h-8" />
           </div>
 
-          {/* Wastram Official Gold Thread Calligraphy Logo */}
+          {/* Wastram Official Gold Thread Calligraphy Logo (Sleek & Balanced) */}
           <Link href="/" className="flex items-center hover:opacity-95 transition-opacity pl-1" aria-label="Wastram Home">
             <WastramLogo className="h-8 lg:h-9 w-auto" priority />
           </Link>
         </div>
 
-        {/* Center: Curated, balanced primary navigation in luxury serif */}
-        <nav className="flex items-center gap-4 lg:gap-6 xl:gap-8 justify-center flex-1 min-w-0 px-2 font-serif tracking-widest uppercase text-xs xl:text-[13px]">
+        {/* Center: Curated, balanced primary navigation links with responsive spacing */}
+        <nav className="flex items-center gap-3 lg:gap-4 xl:gap-6 justify-center flex-1 min-w-0 px-2">
           <Link
             href="/collections/western-dresses"
-            className="text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[12px] xl:text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Western Dresses
           </Link>
           <Link
             href="/collections/denim-collection"
-            className="text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 flex items-center gap-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[12px] xl:text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 flex items-center gap-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             <span>Denim Collection</span>
-            <span className="text-[8px] uppercase tracking-wider px-1.5 py-0.2 rounded-full bg-[#F58220]/15 text-[#F58220]">New</span>
+            <span className="text-[8px] xl:text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded-full bg-[#F58220]/15 text-[#F58220]">New</span>
           </Link>
           <Link
             href="/collections/ethnic-wear-sets"
-            className="text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[12px] xl:text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Ethnic Wear
           </Link>
           <Link
             href="/collections/umbrella-dresses"
-            className="text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[12px] xl:text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Umbrella Dresses
           </Link>
           <Link
             href="/collections/cord-sets"
-            className="hidden xl:inline-block text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="hidden xl:inline-block text-[12px] xl:text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Co-ord Sets
           </Link>
           <Link
             href="/collections/short-long-kaftan"
-            className="hidden 2xl:inline-block text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="hidden 2xl:inline-block text-[12px] xl:text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Kaftans
           </Link>
           <Link
             href="/collections/shop-all"
-            className="px-3.5 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] transition-all whitespace-nowrap"
+            className="text-[11px] xl:text-[12px] font-bold tracking-wider uppercase px-3 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] border border-[#0B2D7F]/15 transition-all whitespace-nowrap"
           >
             All Styles
           </Link>
         </nav>
 
-        {/* Right: Search, Wishlist, Cart */}
+        {/* Right: Search, Wishlist, Cart (Guaranteed 100% visible, shrink-0) */}
         <div className="flex items-center gap-2.5 xl:gap-3.5 shrink-0">
           {/* Search Trigger */}
           <button
@@ -121,10 +121,10 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
             )}
           </Link>
 
-          {/* Cart Bag Capsule */}
+          {/* Cart Bag Capsule - Guaranteed visible with shrink-0 */}
           <button
             onClick={openCart}
-            className="flex items-center gap-1.5 xl:gap-2 h-8 px-3 xl:px-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-xs font-serif uppercase tracking-wider shrink-0 cursor-pointer shadow-xs"
+            className="flex items-center gap-1.5 xl:gap-2 h-8 px-3 xl:px-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[11px] xl:text-[12px] font-medium shadow-xs shrink-0 cursor-pointer"
             aria-label="Shopping Cart"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
@@ -140,9 +140,9 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
       {/* ============================================================== */}
       {/* MOBILE HEADER (Screens < 1024px)                               */}
       {/* ============================================================== */}
-      <div className="flex lg:hidden items-center justify-between px-3.5 sm:px-5 py-2 w-full">
-        {/* Left: Artisan Stories Ring & Search */}
-        <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
+      <div className="flex lg:hidden items-center justify-between px-3.5 sm:px-5 py-1.5 sm:py-2 w-full">
+        {/* Left: Artisan Stories Ring (replaces menu icon) & Search */}
+        <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
           <div className="flex items-center">
             <StoryRing onClick={onOpenStory} size="w-7 h-7" />
           </div>
@@ -166,7 +166,7 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
           </Link>
         </div>
 
-        {/* Right: Wishlist & Cart */}
+        {/* Right: Wishlist & Cart (Guaranteed 100% visible, shrink-0) */}
         <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
           <Link
             href="/pages/swym-wishlist"

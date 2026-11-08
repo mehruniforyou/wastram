@@ -147,9 +147,12 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         {/* Header & Filter Controls */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 md:mb-8 pb-2">
           <div>
-            <h1 className="text-2xl md:text-4xl font-serif text-[#0B2D7F] uppercase tracking-wide">
+            <h1 className="text-2xl md:text-4xl font-extrabold text-[#0B2D7F] uppercase tracking-tight">
               {selectedCategory === 'all' ? 'Signature Collections' : selectedCategory}
             </h1>
+            <p className="text-xs text-black/60 mt-1">
+              Showing {visibleProducts.length} of {filtered.length} exclusive styles handcrafted for global fashion lovers
+            </p>
           </div>
 
           {/* Category Filter Pills (Exact 4rem roundness) */}

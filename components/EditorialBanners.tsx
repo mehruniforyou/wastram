@@ -6,43 +6,49 @@ import Link from 'next/link';
 export default function EditorialBanners() {
   const banners = [
     {
-      subtitle: 'Most Wanted',
-      heading: 'SIGNATURE EDIT',
+      subtitle: 'most',
+      heading: 'WANTED',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-most-wanted.png',
       href: '/collections/most-wanted',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'Wholesale',
-      heading: 'ETHNIC SETS',
+      subtitle: 'WHOLESALE',
+      heading: 'SETS',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-sets.png',
       href: '/collections/sets',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'Artisanal',
-      heading: 'KURTIS & TUNICS',
+      subtitle: 'WHOLESALE',
+      heading: 'KURTIES',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-kurtis.png',
       href: '/collections/kurtis',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'Contemporary',
-      heading: 'TOPS & SHIRTS',
+      subtitle: 'WHOLESALE',
+      heading: 'TOPS',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-tops.png',
       href: '/collections/tops',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'B2B Export',
-      heading: 'DENIM COLLECTION',
+      subtitle: 'WHOLESALE & EXPORT',
+      heading: 'DENIM',
+      description: '140+ premium rigid 100% cotton, selvedge denim, and comfort-stretch flared & wide-leg jeans engineered for international retailers.',
       image: '/denim-collection/IMG-20261102-WA0488.jpg.jpeg',
       href: '/collections/denim-collection',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
     },
     {
-      subtitle: 'Resort & Kalidar',
+      subtitle: 'WHOLESALE',
       heading: 'DRESSES',
+      description: 'Your most-loved styles, now even more irresistible. Curated high-turnover silhouettes engineered for international boutiques.',
       image: '/nishorama-images/banner-dresses.png',
       href: '/collections/dresses',
       aspect: 'aspect-[2/1] lg:aspect-[2/1]'
@@ -50,12 +56,12 @@ export default function EditorialBanners() {
   ];
 
   return (
-    <section className="w-full p-2 md:p-4 bg-[#FAF9F6] font-serif">
+    <section className="w-full p-2 md:p-4 bg-[#FAF9F6]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-4">
         {banners.map((item, idx) => (
           <div
             key={idx}
-            className={`group relative rounded-xl md:rounded-2xl overflow-hidden shadow-sm bg-[#071F59] cursor-pointer ${item.aspect}`}
+            className={`group relative rounded-xl md:rounded-2xl overflow-hidden shadow-sm bg-[#071F59] border border-[#D4AF37]/20 cursor-pointer ${item.aspect}`}
           >
             {/* Background image */}
             <img
@@ -65,27 +71,45 @@ export default function EditorialBanners() {
               loading="lazy"
             />
 
-            {/* Dark warm overlay */}
+            {/* Dark warm chocolate overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/20" />
 
-            {/* Banner Content: Only Subtitle and Heading + Minimal Explore Button */}
-            <div className="absolute inset-0 p-6 md:p-10 flex flex-col justify-end text-white z-10">
-              <div className="flex items-end justify-between gap-4">
+            {/* Banner Content */}
+            <div className="absolute inset-0 p-5 md:p-8 flex flex-col justify-end text-white z-10">
+              <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                {/* Titles & Buttons */}
                 <div className="flex flex-col">
                   <span className="font-serif italic text-lg md:text-2xl text-white/90 leading-tight">
                     {item.subtitle}
                   </span>
-                  <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif tracking-tight uppercase leading-none text-white drop-shadow mt-1">
+                  <h2 className="text-2xl md:text-4xl lg:text-5xl font-black font-archivo tracking-tight uppercase leading-none text-white drop-shadow">
                     {item.heading}
                   </h2>
+
+                  {/* Buttons */}
+                  <div className="flex items-center gap-1.5 mt-3">
+                    <Link
+                      href={item.href}
+                      className="glass-btn px-4 md:px-6 py-1.5 md:py-2 text-[11px] md:text-xs font-archivo font-semibold tracking-wider uppercase text-white rounded-full flex items-center"
+                    >
+                      Shop All
+                    </Link>
+                    <Link
+                      href={item.href}
+                      className="glass-btn w-8 h-8 md:w-9 md:h-9 rounded-full flex items-center justify-center text-white"
+                      aria-label={`Explore ${item.heading}`}
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </Link>
+                  </div>
                 </div>
 
-                <Link
-                  href={item.href}
-                  className="px-5 py-2 text-xs font-serif tracking-widest uppercase text-white rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md transition-all whitespace-nowrap shrink-0"
-                >
-                  Explore &rarr;
-                </Link>
+                {/* Description Text */}
+                <p className="max-w-xs text-[11px] md:text-xs font-archivo text-white/70 leading-relaxed font-light">
+                  {item.description}
+                </p>
               </div>
             </div>
           </div>

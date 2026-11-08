@@ -40,9 +40,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        archivo: ['var(--font-serif)', 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'serif'],
-        serif: ['var(--font-serif)', 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'serif'],
-        display: ['var(--font-display)', 'Playfair Display', 'Cormorant Garamond', 'serif'],
+        archivo: ['var(--font-archivo)', 'sans-serif'],
+        serif: ['var(--font-serif)', 'Playfair Display', 'serif'],
       },
       boxShadow: {
         capsule: '0 4px 20px rgba(11, 45, 127, 0.08)',

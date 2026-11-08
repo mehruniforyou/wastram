@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#FAF9F6] font-serif">
+    <section className="relative w-full overflow-hidden bg-[#FAF9F6]">
       {/* ============================================================== */}
       {/* DESKTOP HERO VIEW (Screens >= 1024px)                          */}
       {/* ============================================================== */}
-      <div className="hidden lg:block relative w-full h-[88vh] min-h-[600px] max-h-[880px]">
+      <div className="hidden lg:block relative w-full h-[90vh] min-h-[640px] max-h-[920px]">
         {/* Background Image */}
         <img
           src="/nishorama-images/hero-desktop.png"
@@ -19,33 +19,37 @@ export default function HeroSection() {
 
         {/* Faded Watermark Background Wordmark */}
         <div className="absolute top-[8%] left-1/2 -translate-x-1/2 pointer-events-none select-none z-0">
-          <span className="text-[12vw] font-serif font-bold text-[#0B2D7F]/[0.05] tracking-widest uppercase whitespace-nowrap leading-none">
+          <span className="text-[12vw] font-black text-[#0B2D7F]/[0.05] tracking-tighter uppercase whitespace-nowrap font-archivo leading-none">
             WASTRAM
           </span>
         </div>
 
-        {/* Overlay Content Centered at Bottom: Only Subtitle, Heading & CTA */}
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center max-w-4xl px-4">
-          <p className="text-xs md:text-sm font-serif italic tracking-[0.25em] text-[#0B2D7F] uppercase mb-2">
-            Direct B2B Manufacturer &amp; Global Export House
+        {/* Overlay Content Centered at Bottom */}
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center max-w-4xl px-4">
+          <p className="text-[11px] font-archivo uppercase tracking-[0.25em] text-[#0B2D7F] font-bold mb-1 px-3 py-0.5 rounded-full bg-white/80 backdrop-blur-xs border border-[#D4AF37]/40 shadow-xs">
+            DIRECT B2B MANUFACTURER &amp; EXPORT HOUSE
           </p>
 
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-normal tracking-tight text-[#0B2D7F] uppercase leading-tight drop-shadow-sm mb-6">
-            Authentic Textiles &amp; Contemporary Luxury
+          <h1 className="text-[3.2vw] font-black font-archivo tracking-tight text-[#0B2D7F] uppercase leading-none drop-shadow-sm mt-2">
+            AUTHENTIC TEXTILES &amp; CONTEMPORARY FASHION
           </h1>
+
+          <p className="text-[1.3vw] font-semibold font-archivo text-[#0B2D7F] drop-shadow-xs mt-2 mb-5">
+            Over 1,400+ Handcrafted Silhouettes • Air &amp; Ocean Cargo Dispatch
+          </p>
 
           <div className="flex items-center gap-3">
             <Link
               href="/collections/shop-all"
-              className="px-8 py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all font-serif text-xs uppercase tracking-widest shadow-navy"
+              className="px-7 py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all font-archivo text-xs font-bold uppercase tracking-wider shadow-navy border border-[#D4AF37]/50"
             >
-              Explore Collections
+              Explore 1,400+ Styles
             </Link>
             <Link
               href="/pages/contact"
-              className="px-8 py-3 rounded-full bg-white/90 text-[#0B2D7F] hover:bg-white transition-all font-serif text-xs uppercase tracking-widest shadow-xs"
+              className="px-7 py-3 rounded-full bg-white/90 text-[#0B2D7F] hover:bg-white transition-all font-archivo text-xs font-bold uppercase tracking-wider shadow-xs border border-[#0B2D7F]/20 hover:border-[#D4AF37]"
             >
-              Wholesale Quote
+              Request B2B Quote
             </Link>
           </div>
         </div>
@@ -54,7 +58,7 @@ export default function HeroSection() {
       {/* ============================================================== */}
       {/* MOBILE HERO VIEW (Screens < 1024px)                            */}
       {/* ============================================================== */}
-      <div className="block lg:hidden relative w-full h-[82vh] min-h-[520px]">
+      <div className="block lg:hidden relative w-full h-[85vh] min-h-[560px]">
         {/* Mobile Portrait Image */}
         <img
           src="/nishorama-images/hero-mobile.png"
@@ -63,27 +67,31 @@ export default function HeroSection() {
         />
 
         {/* Faded Watermark Wordmark */}
-        <div className="absolute top-14 left-1/2 -translate-x-1/2 pointer-events-none select-none z-0">
-          <span className="text-[16vw] font-serif font-bold text-[#0B2D7F]/[0.05] tracking-widest uppercase whitespace-nowrap leading-none">
+        <div className="absolute top-16 left-1/2 -translate-x-1/2 pointer-events-none select-none z-0">
+          <span className="text-[18vw] font-black text-[#0B2D7F]/[0.05] tracking-tighter uppercase whitespace-nowrap font-archivo leading-none">
             WASTRAM
           </span>
         </div>
 
-        {/* Mobile Overlay Content: Only Subtitle, Heading & CTA */}
+        {/* Mobile Overlay Content */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center w-[90%]">
-          <span className="text-[11px] font-serif italic tracking-widest text-[#0B2D7F] uppercase mb-2">
-            Direct B2B Manufacturer
+          <span className="text-[10px] font-archivo uppercase tracking-widest text-[#0B2D7F] font-bold mb-1.5 px-2.5 py-0.5 rounded-full bg-white/85 border border-[#D4AF37]/40">
+            DIRECT B2B MANUFACTURER
           </span>
 
-          <h1 className="text-2xl sm:text-3xl font-serif font-normal tracking-tight text-[#0B2D7F] uppercase leading-tight drop-shadow-xs mb-5">
-            Authentic Textiles &amp; Contemporary Luxury
+          <h1 className="text-2xl sm:text-3xl font-black font-archivo tracking-tight text-[#0B2D7F] uppercase leading-tight drop-shadow-xs">
+            AUTHENTIC TEXTILES &amp; CONTEMPORARY FASHION
           </h1>
+
+          <p className="text-sm font-semibold font-archivo text-[#0B2D7F] mt-1 mb-4">
+            Over 1,400+ Handcrafted Silhouettes
+          </p>
 
           <Link
             href="/collections/shop-all"
-            className="w-full max-w-[280px] py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all font-serif text-xs uppercase tracking-widest shadow-navy text-center"
+            className="w-full max-w-[280px] py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all font-archivo text-xs font-bold uppercase tracking-wider shadow-navy border border-[#D4AF37]/40 text-center"
           >
-            Explore Collections
+            Explore 1,400+ Styles
           </Link>
         </div>
       </div>
