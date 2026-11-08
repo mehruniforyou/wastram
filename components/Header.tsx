@@ -17,14 +17,13 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
   const wishlistCount = wishlist.length;
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md border-b border-[#0B2D7F]/10 transition-all">
+    <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md border-b border-[#0B2D7F]/10 transition-all shadow-2xs">
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-6 py-2 relative max-w-[1540px] mx-auto">
-        {/* Left: Menu trigger & Wastram Official Gold Thread Logo */}
-        <div className="flex items-center gap-4">
-          {/* Authentic Menu capsule button */}
+      <div className="hidden lg:flex items-center justify-between px-6 py-2.5 relative max-w-[1540px] mx-auto gap-4">
+        {/* Left: Menu capsule trigger & Wastram Official Gold Thread Logo */}
+        <div className="flex items-center gap-3.5 shrink-0">
           <button
             onClick={onOpenDrawer}
             className="flex items-center gap-2 h-8 px-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[11px] font-medium shadow-xs"
@@ -37,99 +36,84 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
             <span className="uppercase tracking-wider">Menu</span>
           </button>
 
-          {/* Wastram Official Gold Thread Calligraphy Logo with Needle */}
+          {/* Wastram Official Gold Thread Calligraphy Logo */}
           <Link href="/" className="flex items-center hover:opacity-95 transition-opacity pl-1" aria-label="Wastram Home">
             <WastramLogo className="h-9 w-auto" priority />
           </Link>
         </div>
 
-        {/* Center: Minimalist Navigation Pills */}
-        <div className="flex-1 flex justify-center px-4 overflow-hidden">
-          <nav className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
-            <Link
-              href="/collections/western-dresses"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#D4AF37]/50 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Western Dresses <span className="ml-1 text-[#F58220]">✦</span>
-            </Link>
-            <Link
-              href="/collections/denim-collection"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/20 hover:border-[#D4AF37] text-[11px] font-bold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Denim Collection <span className="ml-1 text-[#D4AF37]">✦</span>
-            </Link>
-            <Link
-              href="/collections/ethnic-wear-sets"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Ethnic Wear Sets <span className="ml-1 text-[#D4AF37]">✦</span>
-            </Link>
-            <Link
-              href="/collections/umbrella-dresses"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Umbrella Dresses <span className="ml-1 text-[#D4AF37]">✦</span>
-            </Link>
-            <Link
-              href="/collections/short-long-kaftan"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Kaftans <span className="ml-1 text-[#D4AF37]">✦</span>
-            </Link>
-            <Link
-              href="/collections/cord-sets"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Co-ord Sets <span className="ml-1 text-[#D4AF37]">✦</span>
-            </Link>
-            <Link
-              href="/collections/traditional-gowns"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Traditional Gowns <span className="ml-1 text-[#D4AF37]">✦</span>
-            </Link>
-            <Link
-              href="/collections/tops-shirts"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Tops &amp; Shirts <span className="ml-1 text-[#D4AF37]">✦</span>
-            </Link>
-            <Link
-              href="/collections/hoodies-sweatshirts"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              Hoodies &amp; Sweatshirts
-            </Link>
-            <Link
-              href="/collections/t-shirts"
-              className="h-7 px-3 rounded-full bg-white hover:bg-[#FAF9F6] transition-all flex items-center shadow-2xs border border-[#0B2D7F]/15 hover:border-[#D4AF37] text-[11px] font-semibold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              T-Shirts
-            </Link>
-            <Link
-              href="/collections/shop-all"
-              className="h-7 px-3.5 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 transition-all flex items-center shadow-2xs border border-[#0B2D7F]/20 text-[11px] font-bold text-[#0B2D7F] whitespace-nowrap shrink-0"
-            >
-              All 1,400+ Styles
-            </Link>
-          </nav>
-        </div>
-
-        {/* Right: Story ring, Wishlist, Search, Account, Cart */}
-        <div className="flex items-center gap-3 shrink-0">
-          {/* Instagram-style Story Ring with Wastram Craft Emblem */}
-          <button
-            onClick={onOpenStory}
-            className="focus:outline-none transition-transform hover:scale-105 active:scale-95"
-            aria-label="View Stories"
+        {/* Center: Curated, balanced primary navigation links with elegant typography */}
+        <nav className="flex items-center gap-5 xl:gap-7 justify-center flex-1">
+          <Link
+            href="/collections/western-dresses"
+            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
-            <StoryRing size="w-8 h-8" />
+            Western Dresses
+          </Link>
+          <Link
+            href="/collections/denim-collection"
+            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 flex items-center gap-1.5 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+          >
+            <span>Denim Collection</span>
+            <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-[#F58220]/15 text-[#F58220]">New</span>
+          </Link>
+          <Link
+            href="/collections/ethnic-wear-sets"
+            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+          >
+            Ethnic Wear
+          </Link>
+          <Link
+            href="/collections/umbrella-dresses"
+            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+          >
+            Umbrella Dresses
+          </Link>
+          <Link
+            href="/collections/cord-sets"
+            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+          >
+            Co-ord Sets
+          </Link>
+          <Link
+            href="/collections/short-long-kaftan"
+            className="hidden xl:inline-block text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+          >
+            Kaftans
+          </Link>
+          <Link
+            href="/collections/shop-all"
+            className="text-[11px] font-bold tracking-wider uppercase px-3 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] border border-[#0B2D7F]/15 transition-all whitespace-nowrap"
+          >
+            All Styles
+          </Link>
+        </nav>
+
+        {/* Right: Story Ring, Search, Wishlist, Cart */}
+        <div className="flex items-center gap-3.5 shrink-0">
+          {/* Artisan Craft Stories Ring */}
+          <div className="flex items-center">
+            <StoryRing onClick={onOpenStory} size="w-8 h-8" />
+          </div>
+
+          <span className="w-px h-5 bg-[#0B2D7F]/15" />
+
+          {/* Search Trigger */}
+          <button
+            onClick={onOpenSearch}
+            className="p-1.5 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors rounded-full hover:bg-[#0B2D7F]/5"
+            aria-label="Search Catalog"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
           </button>
 
           {/* Official Wastram Bookmark Wishlist */}
           <Link
             href="/pages/swym-wishlist"
-            className="relative p-1.5 text-[#0B2D7F] hover:text-[#F58220] transition-colors flex items-center justify-center"
+            className="relative p-1.5 text-[#0B2D7F] hover:text-[#F58220] transition-colors rounded-full hover:bg-[#0B2D7F]/5 flex items-center justify-center"
             aria-label={`Wishlist (${wishlistCount})`}
           >
             <svg
@@ -146,37 +130,13 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               />
             </svg>
             {wishlistCount > 0 && (
-              <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-[#F58220] text-white text-[9px] font-bold flex items-center justify-center animate-heart-bounce shadow-xs">
+              <span className="absolute -top-0.5 -right-0.5 w-4 h-4 rounded-full bg-[#F58220] text-white text-[9px] font-bold flex items-center justify-center animate-heart-bounce shadow-xs">
                 {wishlistCount}
               </span>
             )}
           </Link>
 
-          {/* Search Trigger */}
-          <button
-            onClick={onOpenSearch}
-            className="p-1.5 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors"
-            aria-label="Search Catalog"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-              <circle cx="11" cy="11" r="8" />
-              <line x1="21" y1="21" x2="16.65" y2="16.65" />
-            </svg>
-          </button>
-
-          {/* User Account */}
-          <Link
-            href="/pages/about-us"
-            className="p-1.5 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors"
-            aria-label="Account Details"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-              <circle cx="12" cy="7" r="4" />
-            </svg>
-          </Link>
-
-          {/* Cart Bag Pill */}
+          {/* Cart Bag Capsule */}
           <button
             onClick={openCart}
             className="flex items-center gap-1.5 h-8 px-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[11px] font-medium shadow-xs"
@@ -193,14 +153,14 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
       </div>
 
       {/* ============================================================== */}
-      {/* MOBILE HEADER (Screens < 1024px)                              */}
+      {/* MOBILE HEADER (Screens < 1024px)                               */}
       {/* ============================================================== */}
-      <div className="flex lg:hidden items-center justify-between px-3.5 py-2">
-        {/* Left: Hamburger & Search */}
-        <div className="flex items-center gap-2">
+      <div className="flex lg:hidden items-center justify-between px-3.5 sm:px-5 py-2.5">
+        {/* Left: Hamburger Menu & Search */}
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <button
             onClick={onOpenDrawer}
-            className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-md hover:bg-[#0B2D7F]/5"
+            className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-[#0B2D7F]/5 transition-colors"
             aria-label="Open Mobile Menu"
           >
             <div className="flex flex-col gap-1 w-5">
@@ -211,7 +171,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
 
           <button
             onClick={onOpenSearch}
-            className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-md hover:bg-[#0B2D7F]/5"
+            className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-[#0B2D7F]/5 transition-colors"
             aria-label="Search"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
@@ -222,31 +182,28 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
         </div>
 
         {/* Center: Wastram Official Gold Thread Calligraphy Logo */}
-        <div className="flex items-center justify-center">
+        <div className="flex-1 flex items-center justify-center px-2">
           <Link href="/" className="flex items-center py-0.5" aria-label="Wastram Home">
-            <WastramLogo className="h-7 w-auto" priority />
+            <WastramLogo className="h-7 sm:h-8 w-auto" priority />
           </Link>
         </div>
 
-        {/* Right: Story ring, Wishlist bookmark, Cart bag */}
-        <div className="flex items-center gap-2">
-          <button
-            onClick={onOpenStory}
-            className="focus:outline-none"
-            aria-label="View Stories"
-          >
-            <StoryRing size="w-7 h-7" />
-          </button>
+        {/* Right: Wishlist & Cart (with Story Ring on sm+ screens) */}
+        <div className="flex items-center gap-1.5 sm:gap-2.5">
+          {/* Story Ring for tablets (640px - 1023px) */}
+          <div className="hidden sm:flex items-center">
+            <StoryRing onClick={onOpenStory} size="w-7 h-7" />
+          </div>
 
           <Link
             href="/pages/swym-wishlist"
-            className="relative p-1 text-[#0B2D7F] hover:text-[#F58220]"
+            className="relative p-1.5 text-[#0B2D7F] hover:text-[#F58220] transition-colors"
             aria-label={`Wishlist (${wishlistCount})`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="13"
-              height="18"
+              width="14"
+              height="19"
               viewBox="0 0 12.39 18.53"
               className="fill-none stroke-current"
             >
@@ -257,7 +214,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               />
             </svg>
             {wishlistCount > 0 && (
-              <span className="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-[#F58220] text-white text-[8px] font-bold flex items-center justify-center shadow-xs">
+              <span className="absolute -top-0.5 -right-0.5 w-3.5 h-3.5 rounded-full bg-[#F58220] text-white text-[8px] font-bold flex items-center justify-center shadow-xs">
                 {wishlistCount}
               </span>
             )}
@@ -265,7 +222,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
 
           <button
             onClick={openCart}
-            className="relative p-1 text-[#0B2D7F]"
+            className="relative p-1.5 text-[#0B2D7F]"
             aria-label="Shopping Cart"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
@@ -274,7 +231,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               <path d="M16 10a4 4 0 0 1-8 0" />
             </svg>
             {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-[#0B2D7F] text-white text-[8px] font-bold flex items-center justify-center">
+              <span className="absolute -top-0.5 -right-0.5 w-3.5 h-3.5 rounded-full bg-[#0B2D7F] text-white text-[8px] font-bold flex items-center justify-center">
                 {cartCount}
               </span>
             )}

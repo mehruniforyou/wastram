@@ -116,6 +116,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         isOpen={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}
         onOpenSearch={() => setIsSearchOpen(true)}
+        onOpenStory={() => setIsStoryOpen(true)}
       />
 
       <StoryViewerModal

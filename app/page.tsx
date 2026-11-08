@@ -32,6 +32,7 @@ export default function HomePage() {
         isOpen={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}
         onOpenSearch={() => setIsSearchOpen(true)}
+        onOpenStory={() => setIsStoryOpen(true)}
       />
 
       {/* Story Viewer Modal (Opens on Story Ring click) */}
