@@ -7,12 +7,12 @@ import StoryRing from './StoryRing';
 import { useCart } from '@/context/CartContext';
 
 interface HeaderProps {
-  onOpenDrawer: () => void;
+  onOpenDrawer?: () => void;
   onOpenStory: () => void;
   onOpenSearch: () => void;
 }
 
-export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: HeaderProps) {
+export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
   const { cartCount, wishlist, openCart } = useCart();
   const wishlistCount = wishlist.length;
 
@@ -21,90 +21,75 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-6 py-2.5 relative max-w-[1540px] mx-auto gap-4">
-        {/* Left: Menu capsule trigger & Wastram Official Gold Thread Logo */}
-        <div className="flex items-center gap-3.5 shrink-0">
-          <button
-            onClick={onOpenDrawer}
-            className="flex items-center gap-2 h-8 px-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[11px] font-medium shadow-xs"
-            aria-label="Open Navigation Menu"
-          >
-            <div className="flex flex-col gap-0.5 w-3.5">
-              <span className="w-full h-[1.5px] bg-white rounded-full" />
-              <span className="w-full h-[1.5px] bg-white rounded-full" />
-            </div>
-            <span className="uppercase tracking-wider">Menu</span>
-          </button>
+      <div className="hidden lg:flex items-center justify-between px-6 xl:px-8 py-3.5 xl:py-4 relative max-w-[1540px] mx-auto gap-4">
+        {/* Left: Artisan Stories Ring (replaces menu icon) & Wastram Official Logo */}
+        <div className="flex items-center gap-4 shrink-0">
+          <div className="flex items-center">
+            <StoryRing onClick={onOpenStory} size="w-9 h-9" />
+          </div>
 
-          {/* Wastram Official Gold Thread Calligraphy Logo */}
+          {/* Wastram Official Gold Thread Calligraphy Logo (Bigger) */}
           <Link href="/" className="flex items-center hover:opacity-95 transition-opacity pl-1" aria-label="Wastram Home">
-            <WastramLogo className="h-9 w-auto" priority />
+            <WastramLogo className="h-11 lg:h-12 w-auto" priority />
           </Link>
         </div>
 
         {/* Center: Curated, balanced primary navigation links with elegant typography */}
-        <nav className="flex items-center gap-5 xl:gap-7 justify-center flex-1">
+        <nav className="flex items-center gap-6 xl:gap-8 justify-center flex-1">
           <Link
             href="/collections/western-dresses"
-            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[13px] xl:text-[14px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Western Dresses
           </Link>
           <Link
             href="/collections/denim-collection"
-            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 flex items-center gap-1.5 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[13px] xl:text-[14px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 flex items-center gap-1.5 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             <span>Denim Collection</span>
             <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-[#F58220]/15 text-[#F58220]">New</span>
           </Link>
           <Link
             href="/collections/ethnic-wear-sets"
-            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[13px] xl:text-[14px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Ethnic Wear
           </Link>
           <Link
             href="/collections/umbrella-dresses"
-            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[13px] xl:text-[14px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Umbrella Dresses
           </Link>
           <Link
             href="/collections/cord-sets"
-            className="text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="text-[13px] xl:text-[14px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Co-ord Sets
           </Link>
           <Link
             href="/collections/short-long-kaftan"
-            className="hidden xl:inline-block text-[13px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
+            className="hidden xl:inline-block text-[13px] xl:text-[14px] font-semibold text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap"
           >
             Kaftans
           </Link>
           <Link
             href="/collections/shop-all"
-            className="text-[11px] font-bold tracking-wider uppercase px-3 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] border border-[#0B2D7F]/15 transition-all whitespace-nowrap"
+            className="text-[11px] xl:text-[12px] font-bold tracking-wider uppercase px-3.5 py-1.5 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] border border-[#0B2D7F]/15 transition-all whitespace-nowrap"
           >
             All Styles
           </Link>
         </nav>
 
-        {/* Right: Story Ring, Search, Wishlist, Cart */}
+        {/* Right: Search, Wishlist, Cart */}
         <div className="flex items-center gap-3.5 shrink-0">
-          {/* Artisan Craft Stories Ring */}
-          <div className="flex items-center">
-            <StoryRing onClick={onOpenStory} size="w-8 h-8" />
-          </div>
-
-          <span className="w-px h-5 bg-[#0B2D7F]/15" />
-
           {/* Search Trigger */}
           <button
             onClick={onOpenSearch}
-            className="p-1.5 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors rounded-full hover:bg-[#0B2D7F]/5"
+            className="p-2 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors rounded-full hover:bg-[#0B2D7F]/5"
             aria-label="Search Catalog"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8" />
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
@@ -113,13 +98,13 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           {/* Official Wastram Bookmark Wishlist */}
           <Link
             href="/pages/swym-wishlist"
-            className="relative p-1.5 text-[#0B2D7F] hover:text-[#F58220] transition-colors rounded-full hover:bg-[#0B2D7F]/5 flex items-center justify-center"
+            className="relative p-2 text-[#0B2D7F] hover:text-[#F58220] transition-colors rounded-full hover:bg-[#0B2D7F]/5 flex items-center justify-center"
             aria-label={`Wishlist (${wishlistCount})`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="13"
-              height="19"
+              width="14"
+              height="20"
               viewBox="0 0 12.39 18.53"
               className="fill-none stroke-current"
             >
@@ -130,7 +115,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               />
             </svg>
             {wishlistCount > 0 && (
-              <span className="absolute -top-0.5 -right-0.5 w-4 h-4 rounded-full bg-[#F58220] text-white text-[9px] font-bold flex items-center justify-center animate-heart-bounce shadow-xs">
+              <span className="absolute 0 top-0.5 right-0.5 w-4 h-4 rounded-full bg-[#F58220] text-white text-[9px] font-bold flex items-center justify-center animate-heart-bounce shadow-xs">
                 {wishlistCount}
               </span>
             )}
@@ -139,10 +124,10 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           {/* Cart Bag Capsule */}
           <button
             onClick={openCart}
-            className="flex items-center gap-1.5 h-8 px-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[11px] font-medium shadow-xs"
+            className="flex items-center gap-2 h-9 px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[12px] font-medium shadow-xs"
             aria-label="Shopping Cart"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
               <line x1="3" y1="6" x2="21" y2="6" />
               <path d="M16 10a4 4 0 0 1-8 0" />
@@ -155,46 +140,34 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
       {/* ============================================================== */}
       {/* MOBILE HEADER (Screens < 1024px)                               */}
       {/* ============================================================== */}
-      <div className="flex lg:hidden items-center justify-between px-3.5 sm:px-5 py-2.5">
-        {/* Left: Hamburger Menu & Search */}
-        <div className="flex items-center gap-1.5 sm:gap-2">
-          <button
-            onClick={onOpenDrawer}
-            className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-[#0B2D7F]/5 transition-colors"
-            aria-label="Open Mobile Menu"
-          >
-            <div className="flex flex-col gap-1 w-5">
-              <span className="w-full h-0.5 bg-[#0B2D7F] rounded-full" />
-              <span className="w-full h-0.5 bg-[#0B2D7F] rounded-full" />
-            </div>
-          </button>
+      <div className="flex lg:hidden items-center justify-between px-4 sm:px-6 py-3 sm:py-3.5">
+        {/* Left: Artisan Stories Ring (replaces menu icon) & Search */}
+        <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center">
+            <StoryRing onClick={onOpenStory} size="w-8 h-8" />
+          </div>
 
           <button
             onClick={onOpenSearch}
             className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-[#0B2D7F]/5 transition-colors"
             aria-label="Search"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8" />
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
           </button>
         </div>
 
-        {/* Center: Wastram Official Gold Thread Calligraphy Logo */}
+        {/* Center: Wastram Official Gold Thread Calligraphy Logo (Bigger) */}
         <div className="flex-1 flex items-center justify-center px-2">
           <Link href="/" className="flex items-center py-0.5" aria-label="Wastram Home">
-            <WastramLogo className="h-7 sm:h-8 w-auto" priority />
+            <WastramLogo className="h-9 sm:h-10 w-auto" priority />
           </Link>
         </div>
 
-        {/* Right: Wishlist & Cart (with Story Ring on sm+ screens) */}
-        <div className="flex items-center gap-1.5 sm:gap-2.5">
-          {/* Story Ring for tablets (640px - 1023px) */}
-          <div className="hidden sm:flex items-center">
-            <StoryRing onClick={onOpenStory} size="w-7 h-7" />
-          </div>
-
+        {/* Right: Wishlist & Cart */}
+        <div className="flex items-center gap-2 sm:gap-3">
           <Link
             href="/pages/swym-wishlist"
             className="relative p-1.5 text-[#0B2D7F] hover:text-[#F58220] transition-colors"
@@ -225,7 +198,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
             className="relative p-1.5 text-[#0B2D7F]"
             aria-label="Shopping Cart"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
               <line x1="3" y1="6" x2="21" y2="6" />
               <path d="M16 10a4 4 0 0 1-8 0" />
