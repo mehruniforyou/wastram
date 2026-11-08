@@ -11,7 +11,6 @@ import FeatureCategories from '@/components/FeatureCategories';
 import EditorialBanners from '@/components/EditorialBanners';
 import ProductFitsGrid from '@/components/ProductFitsGrid';
 import Footer from '@/components/Footer';
-import PopularSearches from '@/components/PopularSearches';
 
 export default function HomePage() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -53,20 +52,17 @@ export default function HomePage() {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* 4 Feature Columns Grid */}
+      {/* Feature Categories Grid */}
       <FeatureCategories />
 
-      {/* 5 Editorial Banners */}
+      {/* Editorial Banners */}
       <EditorialBanners />
 
       {/* Filterable Tabbed Product Grid */}
       <ProductFitsGrid />
 
-      {/* Custom Artisan Footer */}
+      {/* Minimal Luxury Footer */}
       <Footer />
-
-      {/* SEO Category Directory Tag Cloud */}
-      <PopularSearches />
     </main>
   );
 }
