@@ -145,7 +145,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         </div>
 
         {/* Header & Filter Controls */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 md:mb-8 pb-4 border-b border-black/10">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 md:mb-8 pb-2">
           <div>
             <h1 className="text-2xl md:text-4xl font-extrabold text-[#0B2D7F] uppercase tracking-tight">
               {selectedCategory === 'all' ? 'Signature Collections' : selectedCategory}

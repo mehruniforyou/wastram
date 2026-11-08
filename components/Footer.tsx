@@ -12,7 +12,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#FAF9F6] border-t-2 border-[#D4AF37]/40 text-[#0B2D7F] font-archivo border-t border-black/10">
+    <footer className="w-full bg-[#FAF9F6] text-[#0B2D7F] font-archivo">
       {/* ============================================================== */}
       {/* DESKTOP FOOTER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
 
         {/* Payment Methods */}
-        <div className="mt-12 pt-6 border-t border-black/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#0B2D7F]/70">
+        <div className="mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#0B2D7F]/70">
           <div className="flex items-center gap-3">
             <span>We accept all major payment methods:</span>
             <div className="flex items-center gap-2">
@@ -111,7 +111,7 @@ export default function Footer() {
       {/* ============================================================== */}
       <div className="block lg:hidden px-4 pt-8 pb-10">
         {/* Mobile Accordions */}
-        <div className="flex flex-col divide-y divide-black/10 border-y border-black/10">
+        <div className="flex flex-col ">
           {/* 1. Connect with us */}
           <div className="py-3">
             <button

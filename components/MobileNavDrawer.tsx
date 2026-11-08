@@ -31,7 +31,7 @@ export default function MobileNavDrawer({
       {/* Drawer content */}
       <div className="relative w-[85%] max-w-[360px] h-full bg-[#FAF9F6] shadow-2xl z-10 flex flex-col overflow-y-auto no-scrollbar">
         {/* Header with logo & close */}
-        <div className="flex items-center justify-between p-4 border-b border-[#0B2D7F]/10 bg-white">
+        <div className="flex items-center justify-between p-4 bg-white">
           <Link href="/" onClick={onClose} className="flex items-center" aria-label="Wastram Home">
             <WastramLogo className="h-7 w-auto" priority />
           </Link>
@@ -219,7 +219,7 @@ export default function MobileNavDrawer({
         </div>
 
         {/* Footer Support Desk */}
-        <div className="p-4 border-t border-[#0B2D7F]/10 bg-white font-archivo text-xs flex flex-col gap-2">
+        <div className="p-4 bg-white font-archivo text-xs flex flex-col gap-2">
           <div className="flex items-center justify-between text-[#0B2D7F]/80">
             <span>Customer Care:</span>
             <a href="tel:+919511948736" className="font-semibold text-[#0B2D7F]">+91 9511948736</a>
@@ -228,7 +228,7 @@ export default function MobileNavDrawer({
             <span>WhatsApp Support:</span>
             <a href="https://wa.me/918549000338" target="_blank" rel="noopener noreferrer" className="font-semibold text-emerald-700">Chat Now</a>
           </div>
-          <div className="flex items-center justify-between text-[#0B2D7F]/70 pt-2 border-t border-[#0B2D7F]/5 text-[11px]">
+          <div className="flex items-center justify-between text-[#0B2D7F]/70 pt-2 text-[11px]">
             <Link href="/pages/faqs" onClick={onClose} className="hover:text-[#0B2D7F]">FAQs</Link>
             <Link href="/pages/about-us" onClick={onClose} className="hover:text-[#0B2D7F]">Our Story</Link>
             <Link href="/pages/contact" onClick={onClose} className="hover:text-[#0B2D7F]">Contact</Link>

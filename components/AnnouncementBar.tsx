@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 export default function AnnouncementBar() {
   return (
-    <div className="w-full bg-[#FAF9F6] text-[#0B2D7F] border-b border-[#D4AF37]/30 text-[11px] font-archivo tracking-wide">
-      <div className="max-w-[1540px] mx-auto px-4 lg:px-8 py-1.5 md:py-2 flex items-center justify-between">
+    <div className="w-full bg-[#FAF9F6] text-[#0B2D7F] text-[11px] font-archivo tracking-wide">
+      <div className="max-w-[1540px] mx-auto px-4 lg:px-8 py-1.5 flex items-center justify-between">
         {/* Left: Brand / B2B Export Tag */}
         <div className="flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-[#F58220] animate-pulse shrink-0" />

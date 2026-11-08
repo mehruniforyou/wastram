@@ -17,20 +17,20 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
   const wishlistCount = wishlist.length;
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md border-b border-[#0B2D7F]/10 transition-all shadow-2xs">
+    <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md transition-all">
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-4 sm:px-6 xl:px-8 py-3 lg:py-3.5 relative max-w-[1540px] mx-auto gap-3 xl:gap-5 w-full">
+      <div className="hidden lg:flex items-center justify-between px-4 sm:px-6 xl:px-8 py-1.5 lg:py-2 relative max-w-[1540px] mx-auto gap-3 xl:gap-5 w-full">
         {/* Left: Artisan Stories Ring (replaces menu icon) & Wastram Official Logo */}
-        <div className="flex items-center gap-3 lg:gap-3.5 shrink-0">
+        <div className="flex items-center gap-2.5 lg:gap-3 shrink-0">
           <div className="flex items-center">
-            <StoryRing onClick={onOpenStory} size="w-9 h-9" />
+            <StoryRing onClick={onOpenStory} size="w-8 h-8" />
           </div>
 
-          {/* Wastram Official Gold Thread Calligraphy Logo (Bigger & Balanced) */}
+          {/* Wastram Official Gold Thread Calligraphy Logo (Sleek & Balanced) */}
           <Link href="/" className="flex items-center hover:opacity-95 transition-opacity pl-1" aria-label="Wastram Home">
-            <WastramLogo className="h-10 lg:h-11 w-auto" priority />
+            <WastramLogo className="h-8 lg:h-9 w-auto" priority />
           </Link>
         </div>
 
@@ -89,7 +89,7 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
             className="p-1.5 xl:p-2 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors rounded-full hover:bg-[#0B2D7F]/5 cursor-pointer"
             aria-label="Search Catalog"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8" />
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
@@ -103,8 +103,8 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="20"
+              width="13"
+              height="18"
               viewBox="0 0 12.39 18.53"
               className="fill-none stroke-current"
             >
@@ -124,10 +124,10 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
           {/* Cart Bag Capsule - Guaranteed visible with shrink-0 */}
           <button
             onClick={openCart}
-            className="flex items-center gap-1.5 xl:gap-2 h-9 px-3.5 xl:px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[11px] xl:text-[12px] font-medium shadow-xs shrink-0 cursor-pointer"
+            className="flex items-center gap-1.5 xl:gap-2 h-8 px-3 xl:px-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] border border-[#D4AF37]/35 transition-all font-archivo text-[11px] xl:text-[12px] font-medium shadow-xs shrink-0 cursor-pointer"
             aria-label="Shopping Cart"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
               <line x1="3" y1="6" x2="21" y2="6" />
               <path d="M16 10a4 4 0 0 1-8 0" />
@@ -140,19 +140,19 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
       {/* ============================================================== */}
       {/* MOBILE HEADER (Screens < 1024px)                               */}
       {/* ============================================================== */}
-      <div className="flex lg:hidden items-center justify-between px-3.5 sm:px-5 py-2.5 sm:py-3 w-full">
+      <div className="flex lg:hidden items-center justify-between px-3.5 sm:px-5 py-1.5 sm:py-2 w-full">
         {/* Left: Artisan Stories Ring (replaces menu icon) & Search */}
         <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
           <div className="flex items-center">
-            <StoryRing onClick={onOpenStory} size="w-7 h-7 sm:w-8 sm:h-8" />
+            <StoryRing onClick={onOpenStory} size="w-7 h-7" />
           </div>
 
           <button
             onClick={onOpenSearch}
-            className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-[#0B2D7F]/5 transition-colors cursor-pointer"
+            className="p-1 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-[#0B2D7F]/5 transition-colors cursor-pointer"
             aria-label="Search"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8" />
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
@@ -162,7 +162,7 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
         {/* Center: Wastram Official Gold Thread Calligraphy Logo */}
         <div className="flex-1 flex items-center justify-center px-1 min-w-0 overflow-hidden">
           <Link href="/" className="flex items-center py-0.5" aria-label="Wastram Home">
-            <WastramLogo className="h-8 sm:h-9 w-auto" priority />
+            <WastramLogo className="h-7.5 sm:h-8 w-auto" priority />
           </Link>
         </div>
 
@@ -170,13 +170,13 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
         <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
           <Link
             href="/pages/swym-wishlist"
-            className="relative p-1.5 text-[#0B2D7F] hover:text-[#F58220] transition-colors cursor-pointer"
+            className="relative p-1 text-[#0B2D7F] hover:text-[#F58220] transition-colors cursor-pointer"
             aria-label={`Wishlist (${wishlistCount})`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="19"
+              width="13"
+              height="18"
               viewBox="0 0 12.39 18.53"
               className="fill-none stroke-current"
             >
@@ -195,10 +195,10 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
 
           <button
             onClick={openCart}
-            className="relative p-1.5 text-[#0B2D7F] cursor-pointer"
+            className="relative p-1 text-[#0B2D7F] cursor-pointer"
             aria-label="Shopping Cart"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
               <line x1="3" y1="6" x2="21" y2="6" />
               <path d="M16 10a4 4 0 0 1-8 0" />

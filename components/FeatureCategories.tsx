@@ -73,7 +73,7 @@ export default function FeatureCategories() {
                 </div>
               )}
             </div>
-            <div className="p-2 md:p-2.5 bg-white text-center border-t border-[#0B2D7F]/5 flex flex-col gap-0.5">
+            <div className="p-2 md:p-2.5 bg-white text-center flex flex-col gap-0.5">
               <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B2D7F] group-hover:text-[#F58220] transition-colors line-clamp-1">
                 {cat.title}
               </span>
