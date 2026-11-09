@@ -1,43 +1,23 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import Header from '@/components/Header';
 import StoryViewerModal from '@/components/StoryViewerModal';
 import SearchModal from '@/components/SearchModal';
 import PromoPopupModal from '@/components/PromoPopupModal';
 import HeroSection from '@/components/HeroSection';
 import FeatureCategories from '@/components/FeatureCategories';
-import EditorialBanners from '@/components/EditorialBanners';
 import ProductFitsGrid from '@/components/ProductFitsGrid';
-import ProductShowcaseSection from '@/components/ProductShowcaseSection';
+import EditorialBanners from '@/components/EditorialBanners';
+import DenimAtelierShowcase from '@/components/DenimAtelierShowcase';
+import HeritageGalleryShowcase from '@/components/HeritageGalleryShowcase';
+import ResortFilmstripShowcase from '@/components/ResortFilmstripShowcase';
+import BestsellersShowcase from '@/components/BestsellersShowcase';
 import Footer from '@/components/Footer';
-
-import { NISHORAMA_PRODUCTS } from '@/data/nishorama-data';
-import { DENIM_COLLECTION } from '@/data/denim-collection';
-import { ETHNIC_WEAR_SETS } from '@/data/ethnic-wear-sets';
-import { SHORT_LONG_KAFTANS } from '@/data/short-long-kaftan';
-import { CORD_SETS } from '@/data/cord-sets';
 
 export default function HomePage() {
   const [isStoryOpen, setIsStoryOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-
-  // Curated showcase subsets
-  const bestsellers = useMemo(() => {
-    return NISHORAMA_PRODUCTS.filter(p => p.badge?.includes('Bestseller') || p.badge?.includes('Export')).slice(0, 8);
-  }, []);
-
-  const denimStyles = useMemo(() => {
-    return DENIM_COLLECTION.slice(0, 8);
-  }, []);
-
-  const heritageSets = useMemo(() => {
-    return ETHNIC_WEAR_SETS.slice(0, 8);
-  }, []);
-
-  const resortSilhouettes = useMemo(() => {
-    return [...SHORT_LONG_KAFTANS.slice(0, 4), ...CORD_SETS.slice(0, 4)];
-  }, []);
 
   return (
     <main className="min-h-screen flex flex-col bg-[#FAF9F6]">
@@ -62,57 +42,29 @@ export default function HomePage() {
       {/* Promotional Popup Modal */}
       <PromoPopupModal />
 
-      {/* 1. Hero Section */}
+      {/* 1. Hero Section: Cinematic Grand Portrait & Brand Statement */}
       <HeroSection />
 
-      {/* 2. Curated Silhouettes (Category Cards) */}
+      {/* 2. Arched Architectural Silhouette Portals */}
       <FeatureCategories />
 
-      {/* 3. Filterable Tabbed Product Grid */}
+      {/* 3. Interactive Filtered Runway Grid */}
       <ProductFitsGrid />
 
-      {/* 4. Editorial Lookbook Banners */}
+      {/* 4. Asymmetrical High-Fashion Magazine Spread */}
       <EditorialBanners />
 
-      {/* 5. Product Showcase: Global Export Bestsellers */}
-      <ProductShowcaseSection
-        kicker="High-Turnover Boutique Favorites"
-        heading="Global Export Bestsellers"
-        products={bestsellers}
-        viewAllHref="/collections/shop-all"
-        viewAllLabel="Explore All Bestsellers"
-        limit={8}
-      />
+      {/* 5. Split-Screen Studio Atelier Spotlight (Denim) */}
+      <DenimAtelierShowcase />
 
-      {/* 6. Product Showcase: The Denim Export Edit */}
-      <ProductShowcaseSection
-        kicker="100% Rigid & Selvedge Denim"
-        heading="The Denim Export Edit"
-        products={denimStyles}
-        viewAllHref="/collections/denim-collection"
-        viewAllLabel="Explore 140+ Denim Styles"
-        limit={8}
-      />
+      {/* 6. Champagne-Tinted Royal Gallery (Heritage Needlework) */}
+      <HeritageGalleryShowcase />
 
-      {/* 7. Product Showcase: Handcrafted Heritage */}
-      <ProductShowcaseSection
-        kicker="Royal Jaipuri Needlework"
-        heading="Handcrafted Heritage"
-        products={heritageSets}
-        viewAllHref="/collections/ethnic-wear-sets"
-        viewAllLabel="Explore 100+ Regal Sets"
-        limit={8}
-      />
+      {/* 7. Horizontal Lookbook Filmstrip (Resort & Co-ords) */}
+      <ResortFilmstripShowcase />
 
-      {/* 8. Product Showcase: Resort & Co-ord Silhouettes */}
-      <ProductShowcaseSection
-        kicker="Breezy Holiday Couture"
-        heading="Resort & Co-ord Silhouettes"
-        products={resortSilhouettes}
-        viewAllHref="/collections/short-long-kaftan"
-        viewAllLabel="Explore Resort Styles"
-        limit={8}
-      />
+      {/* 8. Export Bestsellers Podium & Wholesale Credentials */}
+      <BestsellersShowcase />
 
       {/* 9. Minimal Luxury Footer */}
       <Footer />

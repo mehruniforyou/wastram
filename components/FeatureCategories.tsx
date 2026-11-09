@@ -44,9 +44,9 @@ export default function FeatureCategories() {
   ];
 
   return (
-    <section className="w-full py-10 md:py-16 px-4 md:px-8 bg-[#FAF9F6]">
-      <div className="max-w-[1540px] mx-auto flex flex-col gap-8 md:gap-12">
-        {/* Elegant Section Heading */}
+    <section className="w-full py-12 md:py-20 px-4 md:px-8 bg-[#FAF9F6]">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10 md:gap-14">
+        {/* Architectural Section Heading */}
         <div className="flex flex-col items-center text-center">
           <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1">
             Handcrafted Jaipuri Artistry
@@ -57,33 +57,38 @@ export default function FeatureCategories() {
           <div className="w-12 h-[1px] bg-[#D4AF37]/60 mt-3" />
         </div>
 
-        {/* 6 Category Cards Grid (Border-free, soft luxury elevation) */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-5">
+        {/* 6 Arched Luxury Portals Grid (Architectural silhouette vaults) */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3.5 md:gap-5">
           {categories.map((cat, idx) => (
             <Link
               key={idx}
               href={cat.href}
-              className="group relative bg-white shadow-soft hover:shadow-card transition-all duration-400 block overflow-hidden rounded-2xl hover:-translate-y-1"
+              className="group flex flex-col items-center gap-3 transition-transform duration-400 hover:-translate-y-1.5 cursor-pointer"
             >
-              <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#FAF9F6]">
+              {/* Arched Architectural Portal Frame */}
+              <div className="relative aspect-[3/4.2] w-full rounded-t-[3.5rem] md:rounded-t-[4.5rem] rounded-b-2xl overflow-hidden bg-white shadow-soft hover:shadow-card transition-shadow duration-400">
                 <img
                   src={cat.image}
                   alt={cat.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-600"
+                  className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 will-change-transform"
                   loading="lazy"
                 />
+
+                {/* Subtle vignette gradient at bottom of portal */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+
                 {cat.highlight && (
-                  <div className="absolute top-2.5 left-2.5 z-10">
-                    <span className="px-2.5 py-0.5 rounded-full bg-[#0B2D7F] text-white text-[9px] font-medium uppercase tracking-[0.15em] shadow-soft">
+                  <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
+                    <span className="px-2.5 py-0.5 rounded-full bg-[#0B2D7F]/90 backdrop-blur-md text-white text-[9px] font-medium uppercase tracking-[0.15em] shadow-soft whitespace-nowrap">
                       Signature
                     </span>
                   </div>
                 )}
               </div>
 
-              {/* Minimal Clean Title (No body text) */}
-              <div className="p-3 bg-white text-center">
-                <span className="text-xs md:text-sm font-serif font-medium text-[#0B2D7F] group-hover:text-[#4A7BC6] transition-colors line-clamp-1 tracking-wide">
+              {/* Minimalist Serif Title */}
+              <div className="text-center px-1">
+                <span className="text-xs md:text-sm font-serif italic text-[#0B2D7F] group-hover:text-[#4A7BC6] transition-colors line-clamp-1 tracking-wide">
                   {cat.title}
                 </span>
               </div>
