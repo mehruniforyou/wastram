@@ -34,6 +34,14 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
     setCurrentImgIdx(prev => (prev - 1 + totalImages) % totalImages);
   };
 
+  // Clean concise MOQ badge (strips long packaging sentences)
+  const rawMoq = product.moq
+    ? product.moq.includes('/')
+      ? product.moq.split('/')[0].trim()
+      : product.moq
+    : '20 pcs';
+  const displayMoq = rawMoq.toLowerCase().startsWith('moq') ? rawMoq : `MOQ ${rawMoq}`;
+
   return (
     <div
       onMouseEnter={() => setIsHovered(true)}
@@ -157,34 +165,35 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
         )}
       </div>
 
-      {/* Card Info (Elegant serif typography, clear actions) */}
-      <div className="pt-3 pb-1 flex flex-col justify-between flex-1 gap-1.5">
-        <Link
-          href={`/products/${product.slug}`}
-          className="font-serif text-[14px] md:text-[15px] font-medium text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors line-clamp-1 leading-snug tracking-wide"
-        >
-          {product.title}
-        </Link>
-
-        <div className="flex items-center justify-between gap-2 mt-0.5">
-          <div className="flex items-center gap-1.5">
-            <Link
-              href={`/products/${product.slug}`}
-              className="inline-flex items-center px-3 py-1 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-[11px] font-medium uppercase tracking-wider transition-all shadow-soft"
-            >
-              <span>Show Price</span>
-            </Link>
-            <span className="text-[11px] text-[#0B2D7F]/60 font-medium">
-              • {product.moq || 'MOQ 20'}
-            </span>
-          </div>
-
-          {/* Enquire Button */}
+      {/* Card Info & Dual Balanced CTAs */}
+      <div className="pt-3 pb-1 flex flex-col justify-between flex-1 gap-2">
+        {/* Title and Clean Concise MOQ */}
+        <div className="flex items-baseline justify-between gap-2">
           <Link
             href={`/products/${product.slug}`}
-            className="px-3 py-1 rounded-full bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] shadow-soft text-[11px] font-medium transition-all flex items-center gap-1 flex-shrink-0 active:scale-95"
+            className="font-serif text-[14px] md:text-[15px] font-medium text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors truncate tracking-wide flex-1"
           >
-            <span>Enquire</span>
+            {product.title}
+          </Link>
+          <span className="text-[10px] md:text-[11px] font-sans text-[#0B2D7F]/60 uppercase tracking-wider shrink-0 font-medium">
+            {displayMoq}
+          </span>
+        </div>
+
+        {/* Symmetrical Dual Action CTA Buttons (Guaranteed elegant at 100%, 80%, and mobile) */}
+        <div className="grid grid-cols-2 gap-2 w-full pt-0.5">
+          <Link
+            href={`/products/${product.slug}`}
+            className="w-full py-2 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-center text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.1em] shadow-soft hover:shadow-card active:scale-[0.98] flex items-center justify-center cursor-pointer"
+          >
+            Show Price
+          </Link>
+
+          <Link
+            href={`/products/${product.slug}`}
+            className="w-full py-2 rounded-full bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] transition-all text-center text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.1em] shadow-soft hover:shadow-card active:scale-[0.98] flex items-center justify-center cursor-pointer"
+          >
+            Enquire
           </Link>
         </div>
       </div>
