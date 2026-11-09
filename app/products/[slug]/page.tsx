@@ -1,12 +1,10 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import PopularSearches from '@/components/PopularSearches';
-import MobileNavDrawer from '@/components/MobileNavDrawer';
 import StoryViewerModal from '@/components/StoryViewerModal';
 import SearchModal from '@/components/SearchModal';
 import B2BEnquiryModal from '@/components/B2BEnquiryModal';
@@ -25,22 +23,21 @@ export default function ProductDetailPage({ params }: Props) {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [selectedSize, setSelectedSize] = useState('XS');
   const [measurementUnit, setMeasurementUnit] = useState<'inch' | 'cm'>('inch');
-  const [isZoomActive, setIsZoomActive] = useState(false);
-  const [zoomCoords, setZoomCoords] = useState({ x: 50, y: 50 });
 
   // Accordion states
   const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
     details: true,
     shipping: false,
-    returns: false
+    returns: false,
   });
 
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isStoryOpen, setIsStoryOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isEnquiryModalOpen, setIsEnquiryModalOpen] = useState(false);
 
-  const { addToCart, toggleWishlist, isWishlisted, openSizeGuide, openTapAndView } = useCart();
+  const mobileCarouselRef = useRef<HTMLDivElement | null>(null);
+
+  const { toggleWishlist, isWishlisted, openSizeGuide, openTapAndView } = useCart();
   const wishlisted = isWishlisted(product.slug);
 
   const sizes = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
@@ -54,28 +51,48 @@ export default function ProductDetailPage({ params }: Props) {
   const toggleAccordion = (key: string) => {
     setOpenAccordions(prev => ({
       ...prev,
-      [key]: !prev[key]
+      [key]: !prev[key],
     }));
   };
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
-    const x = ((e.clientX - left) / width) * 100;
-    const y = ((e.clientY - top) / height) * 100;
-    setZoomCoords({ x, y });
+  // Mobile Horizontal Swipe Handler
+  const handleMobileScroll = () => {
+    if (!mobileCarouselRef.current) return;
+    const { scrollLeft, clientWidth } = mobileCarouselRef.current;
+    if (clientWidth > 0) {
+      const newIndex = Math.round(scrollLeft / clientWidth);
+      if (newIndex !== activeImageIndex && newIndex >= 0 && newIndex < product.images.length) {
+        setActiveImageIndex(newIndex);
+      }
+    }
   };
 
-  return (
-    <div className="min-h-screen flex flex-col bg-[#FAF9F6] font-archivo">
-      <Header
-        onOpenDrawer={() => setIsDrawerOpen(true)}
-        onOpenStory={() => setIsStoryOpen(true)}
-        onOpenSearch={() => setIsSearchOpen(true)}
-      />
+  const scrollToMobileSlide = (index: number) => {
+    if (!mobileCarouselRef.current) return;
+    const clientWidth = mobileCarouselRef.current.clientWidth;
+    mobileCarouselRef.current.scrollTo({
+      left: index * clientWidth,
+      behavior: 'smooth',
+    });
+    setActiveImageIndex(index);
+  };
 
-      <MobileNavDrawer
-        isOpen={isDrawerOpen}
-        onClose={() => setIsDrawerOpen(false)}
+  // Clean concise MOQ
+  const rawMoq = product.moq
+    ? product.moq.includes('/')
+      ? product.moq.split('/')[0].trim()
+      : product.moq
+    : '20 pcs';
+  const displayMoq = rawMoq.toLowerCase().startsWith('moq') ? rawMoq : `MOQ ${rawMoq}`;
+
+  const whatsappMessage = encodeURIComponent(
+    `Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id}). Please share FOB quotation and export specifications.`
+  );
+
+  return (
+    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
+      <Header
+        onOpenStory={() => setIsStoryOpen(true)}
         onOpenSearch={() => setIsSearchOpen(true)}
       />
 
@@ -90,450 +107,51 @@ export default function ProductDetailPage({ params }: Props) {
       />
 
       {/* Breadcrumb Navigation */}
-      <div className="max-w-[1440px] w-full mx-auto px-3 md:px-6 py-2.5 text-xs text-black/50 flex items-center gap-2">
-        <Link href="/" className="hover:text-black">Home</Link>
+      <div className="max-w-[1540px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-3 text-xs text-[#0B2D7F]/60 flex items-center gap-2">
+        <Link href="/" className="hover:text-[#0B2D7F] transition-colors">Home</Link>
         <span>/</span>
-        <Link href="/collections/shop-all" className="hover:text-black">Shop All</Link>
+        <Link href="/collections/shop-all" className="hover:text-[#0B2D7F] transition-colors">Shop All</Link>
         <span>/</span>
-        <span className="text-[#0B2D7F] font-semibold uppercase tracking-tight line-clamp-1">{product.title}</span>
+        <span className="text-[#0B2D7F] font-medium uppercase tracking-tight truncate">{product.title}</span>
       </div>
 
       {/* ============================================================== */}
-      {/* DESKTOP 3-COLUMN PDP LAYOUT (Screens >= 950px)                 */}
+      {/* DESKTOP 3-COLUMN PDP: ONLY CENTER IMAGES SCROLL, SIDES STICKY  */}
       {/* ============================================================== */}
-      <div className="hidden lg:block max-w-[1440px] w-full mx-auto px-6 py-4">
-        <div className="flex gap-[1.5%] items-start">
-          {/* ========================================================== */}
-          {/* COLUMN 1: LEFT DETAILS & ACCORDIONS (Width: 32%)           */}
-          {/* ========================================================== */}
-          <div className="w-[32%] sticky top-20 flex flex-col justify-between min-h-[calc(100vh-6rem)] py-2">
-            <div className="flex flex-col gap-4">
-              {/* Badges */}
-              <div className="flex items-center gap-2 flex-wrap">
-                <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-2xs">
-                  Cotton
-                </span>
-                <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-2xs">
-                  Slim Fit
-                </span>
-                <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-2xs">
-                  Full sleeves
-                </span>
-              </div>
-
-              {/* Title & Official Wishlist Bookmark */}
-              <div className="flex items-start justify-between gap-3">
-                <h1 className="text-xl xl:text-2xl font-bold text-[#0B2D7F] uppercase tracking-tight leading-tight">
-                  {product.title}
-                </h1>
-
-                {/* Bookmark Wishlist Button */}
-                <button
-                  type="button"
-                  onClick={() => toggleWishlist(product.slug)}
-                  className="w-9 h-9 rounded-full bg-white shadow-sm flex items-center justify-center text-[#0B2D7F] hover:bg-[#FAF9F6] transition-transform active:scale-90 flex-shrink-0"
-                  aria-label="Save to wishlist"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12.39"
-                    height="18.53"
-                    viewBox="0 0 12.39 18.53"
-                    className={`transition-all ${
-                      wishlisted ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce' : 'fill-none stroke-current'
-                    }`}
-                  >
-                    <path
-                      id="savewishlist"
-                      strokeWidth="1.2"
-                      d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
-                    />
-                  </svg>
-                </button>
-              </div>
-
-              {/* Specs metadata */}
-              <div className="flex flex-col gap-1.5 text-xs text-[#0B2D7F] py-2 border-y border-black/10">
-                <div className="flex">
-                  <span className="w-28 opacity-70 font-medium">Style</span>
-                  <span className="font-semibold">{product.category} Special</span>
-                </div>
-                <div className="flex">
-                  <span className="w-28 opacity-70 font-medium">Color</span>
-                  <span className="font-semibold">Handblock Floral</span>
-                </div>
-                <div className="flex">
-                  <span className="w-28 opacity-70 font-medium">Model Fit Check</span>
-                  <span className="font-semibold">Model is wearing size XS</span>
-                </div>
-              </div>
-
-              {/* Accordions */}
-              <div className="flex flex-col gap-1">
-                {/* Details & Description */}
-                <div className="border-b border-black/10 py-3">
-                  <button
-                    type="button"
-                    onClick={() => toggleAccordion('details')}
-                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#0B2D7F]"
-                  >
-                    <span>Details & Description</span>
-                    <span className={`transition-transform duration-300 ${openAccordions.details ? 'rotate-90' : '-rotate-90'}`}>
-                      ›
-                    </span>
-                  </button>
-                  {openAccordions.details && (
-                    <div className="text-xs text-black/70 pt-2.5 space-y-1.5 leading-relaxed">
-                      <p>• Handcrafted pure cotton silhouette designed for supreme breathability.</p>
-                      <p>• Traditional hand-block artisan motifs curated for modern elegance.</p>
-                      <p>• Machine wash cold delicate cycle. Do not bleach. Dry in shade.</p>
-                    </div>
-                  )}
-                </div>
-
-                {/* Shipping & Delivery */}
-                <div className="border-b border-black/10 py-3">
-                  <button
-                    type="button"
-                    onClick={() => toggleAccordion('shipping')}
-                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#0B2D7F]"
-                  >
-                    <span>Shipping & Delivery</span>
-                    <span className={`transition-transform duration-300 ${openAccordions.shipping ? 'rotate-90' : '-rotate-90'}`}>
-                      ›
-                    </span>
-                  </button>
-                  {openAccordions.shipping && (
-                    <div className="text-xs text-black/70 pt-2.5 space-y-1.5 leading-relaxed">
-                      <p>• Fast dispatch within 24-48 business hours from Mumbai warehouse.</p>
-                      <p>• Worldwide doorstep air & sea freight dispatch (UK, US, EU, Gulf). MOQ 20 pcs.</p>
-                      <p>• Standard delivery within 3-5 working days.</p>
-                    </div>
-                  )}
-                </div>
-
-                {/* Return & Exchange */}
-                <div className="border-b border-black/10 py-3">
-                  <button
-                    type="button"
-                    onClick={() => toggleAccordion('returns')}
-                    className="w-full flex items-center justify-between text-xs font-bold uppercase tracking-wider text-black/80 hover:text-[#0B2D7F]"
-                  >
-                    <span>Return & Exchange</span>
-                    <span className={`transition-transform duration-300 ${openAccordions.returns ? 'rotate-90' : '-rotate-90'}`}>
-                      ›
-                    </span>
-                  </button>
-                  {openAccordions.returns && (
-                    <div className="text-xs text-black/70 pt-2.5 space-y-1.5 leading-relaxed">
-                      <p>• 7-day hassle-free reverse pickup exchange available.</p>
-                      <p>• Easy size swap directly from your customer account.</p>
-                      <p>• Must be unworn with original tags and packaging intact.</p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-
-            {/* Tap & View Hint */}
-            <div className="pt-4">
-              <button
-                type="button"
-                onClick={() => openTapAndView(product)}
-                className="w-full py-2.5 rounded-full border border-black/20 bg-white hover:bg-[#0B2D7F] hover:text-white text-[#0B2D7F] text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-2"
-              >
-                <span>🔍 Tap & View Lightbox</span>
-              </button>
-            </div>
-          </div>
-
-          {/* ========================================================== */}
-          {/* COLUMN 2: CENTER HIGH-RES GALLERY (Width: 34%)             */}
-          {/* ========================================================== */}
-          <div className="w-[34%] flex flex-col gap-3">
-            {product.images.map((img, idx) => (
-              <div
-                key={idx}
-                className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-[#EEEEEE] cursor-zoom-in group shadow-2xs"
-                onMouseEnter={() => setIsZoomActive(true)}
-                onMouseLeave={() => setIsZoomActive(false)}
-                onMouseMove={handleMouseMove}
-                onClick={() => openTapAndView(product)}
-              >
-                <img
-                  src={img}
-                  alt={`${product.title} angle ${idx + 1}`}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  loading={idx === 0 ? "eager" : "lazy"}
-                  decoding="async"
-                />
-
-                {/* Zoom overlay badge */}
-                <div className="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
-                  Click to Zoom
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* ========================================================== */}
-          {/* COLUMN 3: RIGHT SIZES, PRICE & PURCHASE (Width: 32%)       */}
-          {/* ========================================================== */}
-          <div className="w-[32%] sticky top-20 flex flex-col justify-between min-h-[calc(100vh-6rem)] py-2">
-            <div className="flex flex-col gap-4">
-              {/* Measurement Bar & Size Guide */}
-              <div className="flex items-center justify-between">
-                {/* Inches / CM Toggle */}
-                <div className="flex items-center bg-[#EBE9E9] p-0.5 rounded-full text-xs">
-                  <button
-                    type="button"
-                    onClick={() => setMeasurementUnit('inch')}
-                    className={`px-3 py-1 rounded-full font-semibold transition-all ${
-                      measurementUnit === 'inch' ? 'bg-white text-black shadow-2xs' : 'text-black/60'
-                    }`}
-                  >
-                    Inches
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setMeasurementUnit('cm')}
-                    className={`px-3 py-1 rounded-full font-semibold transition-all ${
-                      measurementUnit === 'cm' ? 'bg-white text-black shadow-2xs' : 'text-black/60'
-                    }`}
-                  >
-                    CM
-                  </button>
-                </div>
-
-                {/* What's my size ? Pill */}
-                <button
-                  type="button"
-                  onClick={openSizeGuide}
-                  className="px-3.5 py-1.5 rounded-full bg-[#0B2D7F] text-white/90 hover:text-white text-xs font-semibold tracking-wide transition-all shadow-2xs"
-                >
-                  What&apos;s my size ?
-                </button>
-              </div>
-
-              {/* Body measurements row */}
-              <div className="flex items-center justify-between text-xs bg-white px-3.5 py-2 rounded-xl border border-black/5 text-[#0B2D7F]">
-                <div>
-                  <span className="opacity-60 text-[10px] uppercase font-bold block">Chest</span>
-                  <span className="font-bold">{measurements.chest} {measurements.unit}</span>
-                </div>
-                <div>
-                  <span className="opacity-60 text-[10px] uppercase font-bold block">High Waist</span>
-                  <span className="font-bold">{measurements.waist} {measurements.unit}</span>
-                </div>
-                <div>
-                  <span className="opacity-60 text-[10px] uppercase font-bold block">Hip</span>
-                  <span className="font-bold">{measurements.hip} {measurements.unit}</span>
-                </div>
-              </div>
-
-              {/* Size Selector Pills (Exact Nishorama 8.64px roundness) */}
-              <div className="grid grid-cols-7 gap-1.5">
-                {sizes.map(size => {
-                  const isSelected = selectedSize === size;
-                  const isUnavailable = size === 'XXL';
-
-                  return (
-                    <button
-                      key={size}
-                      type="button"
-                      disabled={isUnavailable}
-                      onClick={() => setSelectedSize(size)}
-                      className={`relative h-12 rounded-[8.64px] font-archivo text-xs font-bold transition-all flex flex-col items-center justify-center ${
-                        isUnavailable
-                          ? 'bg-white text-black/25 border border-dashed border-black/15 cursor-not-allowed'
-                          : isSelected
-                          ? 'bg-[#0B2D7F] text-white border-2 border-[#0B2D7F] shadow-sm'
-                          : 'bg-white text-[#121212] border border-[#D8D8D8] hover:border-[#0B2D7F]/50'
-                      }`}
-                    >
-                      <span>{size}</span>
-                      {isSelected && (
-                        <span className="w-3.5 h-[1.5px] bg-[#D4AF37] rounded-full mt-0.5" />
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
-
-              {/* Show Price Button Bar */}
-              <div className="flex items-center justify-between py-2.5 border-y border-black/10">
-                <button
-                  type="button"
-                  onClick={() => setIsEnquiryModalOpen(true)}
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#0B2D7F] text-[#D4AF37] hover:bg-[#071F59] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-sm active:scale-95"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                    <circle cx="12" cy="12" r="3" />
-                  </svg>
-                  <span>Show Price</span>
-                </button>
-
-                <span className="px-3 py-1 bg-white border border-[#0B2D7F]/20 text-[#0B2D7F] text-xs font-bold rounded-full shadow-2xs">
-                  {product.moq || 'MOQ: 20 pcs'}
-                </span>
-              </div>
-
-              {/* Primary B2B Action Buttons */}
-              <div className="grid grid-cols-2 gap-2.5">
-                <button
-                  type="button"
-                  onClick={() => setIsEnquiryModalOpen(true)}
-                  className="py-3 rounded-full bg-white border border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs"
-                >
-                  REQUEST B2B QUOTE
-                </button>
-
-                <a
-                  href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id})`)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] font-archivo text-xs font-bold uppercase tracking-wider transition-all shadow-xs flex items-center justify-center text-center"
-                >
-                  WHATSAPP CHAT
-                </a>
-              </div>
-
-              {/* B2B Wholesale & Export Specifications */}
-              <div className="bg-white p-3.5 rounded-2xl border border-black/5 flex flex-col gap-2.5">
-                <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#0B2D7F]">
-                  <span>Wholesale & Export Terms</span>
-                  <span className="text-[10px] bg-[#FAF9F6] text-[#0B2D7F] px-2 py-0.5 rounded border border-[#0B2D7F]/20 font-semibold">
-                    EXPORT GRADE
-                  </span>
-                </div>
-
-                {/* Term 1 */}
-                <div className="bg-[#FAF9F6] p-2.5 rounded-xl border border-black/5 flex items-center justify-between text-xs">
-                  <div>
-                    <span className="font-bold text-[#0B2D7F] block">Custom Private Labelling</span>
-                    <span className="text-[11px] text-black/60">Woven tags, barcode stickers & custom packaging</span>
-                  </div>
-                  <span className="bg-[#0B2D7F] text-[#D4AF37] text-[10px] font-bold px-2 py-0.5 rounded">
-                    AVAILABLE
-                  </span>
-                </div>
-
-                {/* Term 2 & 3 Boxes */}
-                <div className="grid grid-cols-2 gap-2 text-xs">
-                  <div className="p-2 border border-dashed border-[#0B2D7F]/40 rounded-xl bg-white text-center">
-                    <span className="text-[10px] text-black/60 block">Flexible Batch MOQ</span>
-                    <span className="font-bold text-[#0B2D7F] text-xs">20 Pcs / Style</span>
-                  </div>
-                  <div className="p-2 border border-dashed border-[#0B2D7F]/40 rounded-xl bg-white text-center">
-                    <span className="text-[10px] text-black/60 block">Global Cargo Dispatch</span>
-                    <span className="font-bold text-[#0B2D7F] text-xs">DHL / Air / Sea</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Trust Badges */}
-              <div className="flex items-center justify-between text-[11px] text-black/70 px-1 pt-1">
-                <div className="flex items-center gap-1.5">
-                  <span>🌐</span>
-                  <span>Worldwide Export (UK, US, EU, Gulf)</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span>🛡️</span>
-                  <span>Verified Export Quality</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ============================================================== */}
-      {/* MOBILE STACKED PDP LAYOUT (Screens < 950px)                   */}
-      {/* ============================================================== */}
-      <div className="lg:hidden w-full flex flex-col pb-8">
-        {/* Main Media Carousel Container */}
-        <div className="relative w-full h-[130vw] max-h-[580px] bg-[#EEEEEE] overflow-hidden rounded-b-[4vw]">
-          <img
-            src={product.images[activeImageIndex] || product.images[0]}
-            alt={product.title}
-            className="w-full h-full object-cover"
-          />
-
-          {/* Slide Indicator */}
-          <div className="absolute bottom-3 left-4 bg-black/50 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full">
-            {activeImageIndex + 1} / {product.images.length}
-          </div>
-
-          {/* Inset "Touch to zoom in" floating preview */}
-          <button
-            type="button"
-            onClick={() => openTapAndView(product)}
-            className="absolute bottom-3 right-4 bg-white/90 backdrop-blur-md shadow-md rounded-xl p-2 flex items-center gap-2 text-left"
-          >
-            <div className="w-8 h-11 rounded overflow-hidden bg-black/10">
-              <img
-                src={product.images[1] || product.images[0]}
-                alt=""
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <span className="text-[10px] font-bold text-[#0B2D7F] uppercase tracking-wide pr-1">
-              Touch to zoom in
-            </span>
-          </button>
-
-          {/* Top Pill Tags on Image */}
-          <div className="absolute top-3 right-3 flex items-center gap-1.5">
-            <span className="bg-white/90 backdrop-blur-sm text-[#0B2D7F] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
+      <div className="hidden lg:grid grid-cols-12 gap-6 xl:gap-8 items-start max-w-[1540px] w-full mx-auto px-6 lg:px-8 py-4">
+        {/* ========================================================== */}
+        {/* COLUMN 1: LEFT DETAILS & ACCORDIONS (STICKY PINNED)        */}
+        {/* ========================================================== */}
+        <div className="col-span-4 sticky top-24 self-start max-h-[calc(100vh-7rem)] overflow-y-auto no-scrollbar flex flex-col gap-4 py-2 pr-2">
+          {/* Badges */}
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-soft">
               Cotton
             </span>
-            <span className="bg-white/90 backdrop-blur-sm text-[#0B2D7F] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
+            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-soft">
               Slim Fit
             </span>
-            <span className="bg-white/90 backdrop-blur-sm text-[#0B2D7F] text-[10px] font-semibold px-2 py-0.5 rounded-full shadow-2xs">
+            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-soft">
               Full sleeves
             </span>
           </div>
-        </div>
 
-        {/* Thumbnail Dots Bar */}
-        {product.images.length > 1 && (
-          <div className="flex items-center justify-center gap-1.5 py-2.5 bg-white">
-            {product.images.map((_, dotIdx) => (
-              <button
-                key={dotIdx}
-                type="button"
-                onClick={() => setActiveImageIndex(dotIdx)}
-                className={`h-1.5 rounded-full transition-all ${
-                  activeImageIndex === dotIdx ? 'w-4 bg-[#0B2D7F]' : 'w-1.5 bg-black/20'
-                }`}
-                aria-label={`Slide ${dotIdx + 1}`}
-              />
-            ))}
-          </div>
-        )}
-
-        {/* Mobile Info Sheet */}
-        <div className="bg-white px-4 py-5 rounded-[4vw] -mt-3 shadow-sm flex flex-col gap-4">
-          {/* Title Row with Official Wishlist Bookmark */}
+          {/* Title & Official Wishlist Bookmark */}
           <div className="flex items-start justify-between gap-3">
-            <div>
-              <h1 className="text-base font-bold text-[#0B2D7F] uppercase tracking-tight">
-                {product.title}
-              </h1>
-              <p className="text-xs text-black/60 mt-0.5">Floral Print Handcrafted Kurti</p>
-            </div>
+            <h1 className="text-2xl xl:text-3xl font-serif font-normal text-[#0B2D7F] uppercase tracking-wide leading-tight">
+              {product.title}
+            </h1>
 
+            {/* Bookmark Wishlist Button */}
             <button
               type="button"
               onClick={() => toggleWishlist(product.slug)}
-              className="w-9 h-9 rounded-full bg-[#FAF9F6] shadow-sm flex items-center justify-center text-[#0B2D7F] active:scale-90"
+              className="w-9 h-9 rounded-full bg-white shadow-soft flex items-center justify-center text-[#0B2D7F] hover:bg-[#FAF9F6] transition-transform active:scale-90 flex-shrink-0 cursor-pointer"
               aria-label="Save to wishlist"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="12"
+                width="13"
                 height="18"
                 viewBox="0 0 12.39 18.53"
                 className={`transition-all ${
@@ -542,42 +160,415 @@ export default function ProductDetailPage({ params }: Props) {
               >
                 <path
                   id="savewishlist"
-                  strokeWidth="1.2"
+                  strokeWidth="1.3"
                   d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
                 />
               </svg>
             </button>
           </div>
 
-          {/* Mobile Show Price Button */}
-          <div className="flex items-center justify-between pb-2 border-b border-black/10">
+          {/* Specs metadata */}
+          <div className="flex flex-col gap-2 text-xs text-[#0B2D7F] py-3 border-y border-[#0B2D7F]/10">
+            <div className="flex">
+              <span className="w-32 opacity-70 font-medium">Style Category</span>
+              <span className="font-semibold capitalize">{product.category.replace(/-/g, ' ')}</span>
+            </div>
+            <div className="flex">
+              <span className="w-32 opacity-70 font-medium">Color &amp; Craft</span>
+              <span className="font-semibold">Handblock Floral</span>
+            </div>
+            <div className="flex">
+              <span className="w-32 opacity-70 font-medium">Model Fit</span>
+              <span className="font-semibold">Model is wearing size XS</span>
+            </div>
+          </div>
+
+          {/* Accordions (Clean, borderless, soft shadow) */}
+          <div className="flex flex-col gap-2">
+            {/* Details & Description */}
+            <div className="bg-white rounded-2xl p-4 shadow-soft">
+              <button
+                type="button"
+                onClick={() => toggleAccordion('details')}
+                className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F] cursor-pointer"
+              >
+                <span>Details &amp; Craftsmanship</span>
+                <span className={`transition-transform duration-300 ${openAccordions.details ? 'rotate-90' : '-rotate-90'}`}>
+                  &rsaquo;
+                </span>
+              </button>
+              {openAccordions.details && (
+                <div className="text-xs text-[#0B2D7F]/80 pt-3 space-y-1.5 leading-relaxed font-sans">
+                  <p>&bull; Handcrafted pure cotton silhouette designed for supreme breathability.</p>
+                  <p>&bull; Traditional hand-block artisan motifs curated for modern elegance.</p>
+                  <p>&bull; Machine wash cold delicate cycle. Do not bleach. Dry in shade.</p>
+                </div>
+              )}
+            </div>
+
+            {/* Shipping & Delivery */}
+            <div className="bg-white rounded-2xl p-4 shadow-soft">
+              <button
+                type="button"
+                onClick={() => toggleAccordion('shipping')}
+                className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F] cursor-pointer"
+              >
+                <span>Export Shipping &amp; Cargo</span>
+                <span className={`transition-transform duration-300 ${openAccordions.shipping ? 'rotate-90' : '-rotate-90'}`}>
+                  &rsaquo;
+                </span>
+              </button>
+              {openAccordions.shipping && (
+                <div className="text-xs text-[#0B2D7F]/80 pt-3 space-y-1.5 leading-relaxed font-sans">
+                  <p>&bull; Fast dispatch within 24-48 business hours from Mumbai &amp; Jaipur warehouses.</p>
+                  <p>&bull; Worldwide doorstep air &amp; ocean freight dispatch (UK, US, EU, Gulf). MOQ 20 pcs.</p>
+                  <p>&bull; Air freight delivery within 4-7 business days with end-to-end tracking.</p>
+                </div>
+              )}
+            </div>
+
+            {/* Return & Exchange */}
+            <div className="bg-white rounded-2xl p-4 shadow-soft">
+              <button
+                type="button"
+                onClick={() => toggleAccordion('returns')}
+                className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F] cursor-pointer"
+              >
+                <span>Return &amp; Exchange Policy</span>
+                <span className={`transition-transform duration-300 ${openAccordions.returns ? 'rotate-90' : '-rotate-90'}`}>
+                  &rsaquo;
+                </span>
+              </button>
+              {openAccordions.returns && (
+                <div className="text-xs text-[#0B2D7F]/80 pt-3 space-y-1.5 leading-relaxed font-sans">
+                  <p>&bull; 7-day hassle-free reverse pickup exchange available directly from account.</p>
+                  <p>&bull; Easy size swap and quality assurance guarantee for wholesale orders.</p>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Tap & View Hint */}
+          <div className="pt-2">
+            <button
+              type="button"
+              onClick={() => openTapAndView(product)}
+              className="w-full py-2.5 rounded-full bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white text-xs font-medium uppercase tracking-wider shadow-soft transition-all flex items-center justify-center gap-2 cursor-pointer"
+            >
+              <span>🔍 Tap &amp; View Lightbox</span>
+            </button>
+          </div>
+        </div>
+
+        {/* ========================================================== */}
+        {/* COLUMN 2: CENTER HIGH-RES GALLERY (SCROLLABLE IMAGE LIST)  */}
+        {/* ========================================================== */}
+        <div className="col-span-4 flex flex-col gap-4">
+          {product.images.map((img, idx) => (
+            <div
+              key={idx}
+              className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-white shadow-soft cursor-zoom-in group"
+              onClick={() => openTapAndView(product)}
+            >
+              <img
+                src={img}
+                alt={`${product.title} angle ${idx + 1}`}
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading={idx === 0 ? "eager" : "lazy"}
+                decoding="async"
+              />
+
+              {/* Zoom overlay badge */}
+              <div className="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-white text-[10px] font-medium uppercase tracking-wider px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+                Click to Zoom
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* ========================================================== */}
+        {/* COLUMN 3: RIGHT SIZES, PRICE & PURCHASE (STICKY PINNED)    */}
+        {/* ========================================================== */}
+        <div className="col-span-4 sticky top-24 self-start max-h-[calc(100vh-7rem)] overflow-y-auto no-scrollbar flex flex-col gap-4 py-2 pl-2">
+          {/* Measurement Bar & Size Guide */}
+          <div className="flex items-center justify-between">
+            {/* Inches / CM Toggle */}
+            <div className="flex items-center bg-white p-1 rounded-full text-xs shadow-soft">
+              <button
+                type="button"
+                onClick={() => setMeasurementUnit('inch')}
+                className={`px-3 py-1 rounded-full font-medium transition-all cursor-pointer ${
+                  measurementUnit === 'inch' ? 'bg-[#0B2D7F] text-white shadow-soft' : 'text-[#0B2D7F]/70'
+                }`}
+              >
+                Inches
+              </button>
+              <button
+                type="button"
+                onClick={() => setMeasurementUnit('cm')}
+                className={`px-3 py-1 rounded-full font-medium transition-all cursor-pointer ${
+                  measurementUnit === 'cm' ? 'bg-[#0B2D7F] text-white shadow-soft' : 'text-[#0B2D7F]/70'
+                }`}
+              >
+                CM
+              </button>
+            </div>
+
+            {/* What's my size ? Pill */}
+            <button
+              type="button"
+              onClick={openSizeGuide}
+              className="px-3.5 py-1.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium tracking-wide transition-all shadow-soft cursor-pointer"
+            >
+              What&apos;s my size ?
+            </button>
+          </div>
+
+          {/* Body measurements row */}
+          <div className="flex items-center justify-between text-xs bg-white px-4 py-3 rounded-2xl shadow-soft text-[#0B2D7F]">
+            <div>
+              <span className="opacity-60 text-[10px] uppercase font-bold block">Chest</span>
+              <span className="font-semibold">{measurements.chest} {measurements.unit}</span>
+            </div>
+            <div>
+              <span className="opacity-60 text-[10px] uppercase font-bold block">High Waist</span>
+              <span className="font-semibold">{measurements.waist} {measurements.unit}</span>
+            </div>
+            <div>
+              <span className="opacity-60 text-[10px] uppercase font-bold block">Hip</span>
+              <span className="font-semibold">{measurements.hip} {measurements.unit}</span>
+            </div>
+          </div>
+
+          {/* Size Selector Pills (7 sizes) */}
+          <div className="grid grid-cols-7 gap-1.5">
+            {sizes.map(size => {
+              const isSelected = selectedSize === size;
+              const isUnavailable = size === 'XXL';
+
+              return (
+                <button
+                  key={size}
+                  type="button"
+                  disabled={isUnavailable}
+                  onClick={() => setSelectedSize(size)}
+                  className={`relative h-12 rounded-xl text-xs font-semibold transition-all flex flex-col items-center justify-center cursor-pointer ${
+                    isUnavailable
+                      ? 'bg-white text-black/25 border border-dashed border-black/15 cursor-not-allowed'
+                      : isSelected
+                      ? 'bg-[#0B2D7F] text-white shadow-soft'
+                      : 'bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] shadow-soft'
+                  }`}
+                >
+                  <span>{size}</span>
+                  {isSelected && (
+                    <span className="w-3 h-[1.5px] bg-[#D4AF37] rounded-full mt-0.5" />
+                  )}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Show Price Button Bar */}
+          <div className="flex items-center justify-between py-2 border-y border-[#0B2D7F]/10">
             <button
               type="button"
               onClick={() => setIsEnquiryModalOpen(true)}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] font-archivo text-xs font-bold uppercase tracking-wider shadow-sm active:scale-95"
+              className="flex items-center gap-2 px-5 py-2 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-xs font-medium uppercase tracking-wider transition-all shadow-soft cursor-pointer"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                <circle cx="12" cy="12" r="3" />
-              </svg>
               <span>Show Price</span>
             </button>
-            <span className="px-2.5 py-0.5 bg-[#FAF9F6] border border-black/15 text-[#0B2D7F] text-[10px] font-bold rounded">
-              {product.moq || 'MOQ: 20 pcs'}
+
+            <span className="px-3.5 py-1 bg-white text-[#0B2D7F] text-xs font-medium rounded-full shadow-soft uppercase tracking-wider">
+              {displayMoq}
+            </span>
+          </div>
+
+          {/* Primary B2B Action Buttons */}
+          <div className="grid grid-cols-2 gap-2.5">
+            <button
+              type="button"
+              onClick={() => setIsEnquiryModalOpen(true)}
+              className="py-3 rounded-full bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] text-xs font-medium uppercase tracking-wider transition-all shadow-soft cursor-pointer"
+            >
+              Request B2B Quote
+            </button>
+
+            <a
+              href={`https://wa.me/918003088838?text=${whatsappMessage}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-xs font-medium uppercase tracking-wider transition-all shadow-soft flex items-center justify-center text-center cursor-pointer"
+            >
+              WhatsApp Chat
+            </a>
+          </div>
+
+          {/* B2B Wholesale & Export Terms Card */}
+          <div className="bg-white p-4 rounded-2xl shadow-soft flex flex-col gap-3">
+            <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">
+              <span>Wholesale &amp; Export Terms</span>
+              <span className="text-[10px] bg-[#FAF9F6] text-[#0B2D7F] px-2.5 py-0.5 rounded-full font-medium">
+                EXPORT GRADE
+              </span>
+            </div>
+
+            <div className="bg-[#FAF9F6] p-3 rounded-xl flex items-center justify-between text-xs">
+              <div>
+                <span className="font-semibold text-[#0B2D7F] block">Custom Private Labelling</span>
+                <span className="text-[11px] text-[#0B2D7F]/70">Woven tags, barcode stickers &amp; custom packaging</span>
+              </div>
+              <span className="bg-[#0B2D7F] text-[#D4AF37] text-[10px] font-bold px-2 py-0.5 rounded-full">
+                AVAILABLE
+              </span>
+            </div>
+
+            <div className="grid grid-cols-2 gap-2 text-xs">
+              <div className="p-2.5 rounded-xl bg-[#FAF9F6] text-center">
+                <span className="text-[10px] text-[#0B2D7F]/60 block uppercase">Flexible Batch MOQ</span>
+                <span className="font-semibold text-[#0B2D7F] text-xs">20 Pcs / Style</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-[#FAF9F6] text-center">
+                <span className="text-[10px] text-[#0B2D7F]/60 block uppercase">Global Cargo Dispatch</span>
+                <span className="font-semibold text-[#0B2D7F] text-xs">DHL &bull; Air &bull; Sea</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ============================================================== */}
+      {/* MOBILE STACKED PDP WITH BUTTERY SMOOTH HORIZONTAL SWIPE        */}
+      {/* ============================================================== */}
+      <div className="lg:hidden w-full flex flex-col pb-8">
+        {/* Mobile Smooth Swipe Media Carousel Container */}
+        <div className="relative w-full h-[125vw] max-h-[560px] bg-white overflow-hidden rounded-b-3xl shadow-soft">
+          <div
+            ref={mobileCarouselRef}
+            onScroll={handleMobileScroll}
+            className="w-full h-full flex overflow-x-auto snap-x snap-mandatory no-scrollbar scroll-smooth"
+          >
+            {product.images.map((img, idx) => (
+              <div
+                key={idx}
+                className="w-full h-full flex-shrink-0 snap-center relative overflow-hidden"
+                onClick={() => openTapAndView(product)}
+              >
+                <img
+                  src={img}
+                  alt={`${product.title} angle ${idx + 1}`}
+                  className="w-full h-full object-cover"
+                  loading={idx === 0 ? "eager" : "lazy"}
+                  decoding="async"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Slide Indicator Badge */}
+          <div className="absolute bottom-3 left-4 bg-black/60 backdrop-blur-md text-white text-[11px] font-sans font-medium px-3 py-1 rounded-full shadow-soft pointer-events-none">
+            {activeImageIndex + 1} / {product.images.length}
+          </div>
+
+          {/* Inset Tap to Zoom Pill */}
+          <button
+            type="button"
+            onClick={() => openTapAndView(product)}
+            className="absolute bottom-3 right-4 bg-white/95 backdrop-blur-md shadow-soft rounded-full px-3 py-1.5 flex items-center gap-1.5 text-xs text-[#0B2D7F] font-medium active:scale-95 cursor-pointer"
+          >
+            <span>🔍 Zoom</span>
+          </button>
+
+          {/* Top Pill Badges */}
+          <div className="absolute top-3 right-3 flex items-center gap-1.5 pointer-events-none">
+            <span className="bg-white/90 backdrop-blur-md text-[#0B2D7F] text-[10px] font-medium px-2.5 py-0.5 rounded-full shadow-soft">
+              Cotton
+            </span>
+            <span className="bg-white/90 backdrop-blur-md text-[#0B2D7F] text-[10px] font-medium px-2.5 py-0.5 rounded-full shadow-soft">
+              Slim Fit
+            </span>
+          </div>
+        </div>
+
+        {/* Thumbnail Dots Bar (Interactive & Synchronized) */}
+        {product.images.length > 1 && (
+          <div className="flex items-center justify-center gap-1.5 py-3 bg-[#FAF9F6]">
+            {product.images.map((_, dotIdx) => (
+              <button
+                key={dotIdx}
+                type="button"
+                onClick={() => scrollToMobileSlide(dotIdx)}
+                className={`h-1.5 rounded-full transition-all duration-300 ${
+                  activeImageIndex === dotIdx ? 'w-5 bg-[#0B2D7F]' : 'w-1.5 bg-[#0B2D7F]/25'
+                }`}
+                aria-label={`Slide ${dotIdx + 1}`}
+              />
+            ))}
+          </div>
+        )}
+
+        {/* Mobile Info Sheet */}
+        <div className="px-4 py-5 flex flex-col gap-4">
+          {/* Title Row with Official Wishlist Bookmark */}
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <h1 className="text-xl font-serif font-normal text-[#0B2D7F] uppercase tracking-wide">
+                {product.title}
+              </h1>
+              <p className="text-xs text-[#0B2D7F]/70 mt-0.5 capitalize">
+                {product.category.replace(/-/g, ' ')} &bull; Handcrafted Silhouette
+              </p>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => toggleWishlist(product.slug)}
+              className="w-9 h-9 rounded-full bg-white shadow-soft flex items-center justify-center text-[#0B2D7F] active:scale-90"
+              aria-label="Save to wishlist"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13"
+                height="18"
+                viewBox="0 0 12.39 18.53"
+                className={`transition-all ${
+                  wishlisted ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce' : 'fill-none stroke-current'
+                }`}
+              >
+                <path
+                  id="savewishlist"
+                  strokeWidth="1.3"
+                  d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
+                />
+              </svg>
+            </button>
+          </div>
+
+          {/* Mobile Show Price Button Bar */}
+          <div className="flex items-center justify-between py-2 border-b border-[#0B2D7F]/10">
+            <button
+              type="button"
+              onClick={() => setIsEnquiryModalOpen(true)}
+              className="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium uppercase tracking-wider shadow-soft active:scale-95 cursor-pointer"
+            >
+              <span>Show Price</span>
+            </button>
+            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-xs font-medium rounded-full shadow-soft uppercase tracking-wider">
+              {displayMoq}
             </span>
           </div>
 
           {/* Measurements & Size Guide */}
-          <div className="flex items-center justify-between bg-[#F5F5F5] p-2 rounded-xl text-[11px]">
-            <span className="font-semibold text-[#0B2D7F]">
-              Chest {measurements.chest} • Waist {measurements.waist} • Hip {measurements.hip}
+          <div className="flex items-center justify-between bg-white px-3.5 py-2.5 rounded-2xl shadow-soft text-xs">
+            <span className="font-medium text-[#0B2D7F]">
+              Chest {measurements.chest} &bull; Waist {measurements.waist} &bull; Hip {measurements.hip}
             </span>
             <button
               type="button"
               onClick={openSizeGuide}
-              className="px-2.5 py-1 rounded-full bg-[#0B2D7F] text-white text-[10px] font-bold"
+              className="px-3 py-1 rounded-full bg-[#0B2D7F] text-white text-[10px] font-medium uppercase tracking-wider"
             >
-              What&apos;s my size ?
+              Size Guide
             </button>
           </div>
 
@@ -593,12 +584,12 @@ export default function ProductDetailPage({ params }: Props) {
                   type="button"
                   disabled={isUnavailable}
                   onClick={() => setSelectedSize(size)}
-                  className={`h-11 rounded-[2.8vw] font-archivo text-xs font-bold transition-all flex flex-col items-center justify-center ${
+                  className={`h-11 rounded-xl text-xs font-medium transition-all flex flex-col items-center justify-center ${
                     isUnavailable
                       ? 'bg-white text-black/25 border border-dashed border-black/15'
                       : isSelected
-                      ? 'bg-[#0B2D7F] text-white border-2 border-[#0B2D7F]'
-                      : 'bg-white text-[#121212] border border-[#D8D8D8]'
+                      ? 'bg-[#0B2D7F] text-white shadow-soft'
+                      : 'bg-white text-[#0B2D7F] shadow-soft'
                   }`}
                 >
                   <span>{size}</span>
@@ -611,64 +602,36 @@ export default function ProductDetailPage({ params }: Props) {
           </div>
 
           {/* B2B Action CTAs */}
-          <div className="flex flex-col gap-2 pt-2">
+          <div className="flex flex-col gap-2.5 pt-2">
             <button
               type="button"
               onClick={() => setIsEnquiryModalOpen(true)}
-              className="w-full py-3.5 rounded-full bg-white border border-[#0B2D7F] text-[#0B2D7F] font-bold text-xs uppercase tracking-wider shadow-xs"
+              className="w-full py-3.5 rounded-full bg-white text-[#0B2D7F] font-medium text-xs uppercase tracking-wider shadow-soft active:scale-98"
             >
-              REQUEST B2B QUOTE
+              Request B2B Quote
             </button>
             <a
-              href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id})`)}`}
+              href={`https://wa.me/918003088838?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-3.5 rounded-full bg-[#0B2D7F] text-white font-bold text-xs uppercase tracking-wider shadow-xs text-center flex items-center justify-center gap-1.5"
+              className="w-full py-3.5 rounded-full bg-[#0B2D7F] text-white font-medium text-xs uppercase tracking-wider shadow-soft text-center flex items-center justify-center gap-1.5 active:scale-98"
             >
-              <span>💬 WHATSAPP ENQUIRY</span>
+              <span>WhatsApp Concierge &rarr;</span>
             </a>
           </div>
 
           {/* B2B Wholesale & Export Terms */}
-          <div className="bg-[#FAF9F6] p-3 rounded-2xl border border-black/5 flex flex-col gap-2">
-            <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#0B2D7F]">
-              <span>Wholesale & Export Terms</span>
-              <span className="text-[9px] bg-white text-[#0B2D7F] px-2 py-0.5 rounded border border-[#0B2D7F]/20 font-semibold">
+          <div className="bg-white p-4 rounded-2xl shadow-soft flex flex-col gap-2">
+            <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">
+              <span>Wholesale &amp; Export Terms</span>
+              <span className="text-[9px] bg-[#FAF9F6] text-[#0B2D7F] px-2 py-0.5 rounded-full font-medium">
                 EXPORT GRADE
               </span>
             </div>
-            <div className="bg-white p-2.5 rounded-xl border border-black/5 text-xs">
-              <span className="font-bold text-[#0B2D7F] block">Custom Private Labelling & Tags</span>
-              <span className="text-[10px] text-black/60">MOQ 20 pcs/style • Worldwide Doorstep Air/Sea Cargo</span>
+            <div className="bg-[#FAF9F6] p-3 rounded-xl text-xs">
+              <span className="font-semibold text-[#0B2D7F] block">Custom Private Labelling &amp; Tags</span>
+              <span className="text-[10px] text-[#0B2D7F]/70">MOQ 20 pcs/style &bull; Worldwide Doorstep Air/Sea Cargo</span>
             </div>
-          </div>
-
-          {/* Accordions */}
-          <div className="border-t border-black/10 pt-2 space-y-2 text-xs">
-            <details className="py-2 border-b border-black/5" open>
-              <summary className="font-bold text-[#0B2D7F] uppercase tracking-wider cursor-pointer">
-                Details & Description
-              </summary>
-              <p className="mt-2 text-black/70 leading-relaxed">
-                Handcrafted pure cotton silhouette designed for supreme breathability. Traditional hand-block artisan motifs curated for modern elegance.
-              </p>
-            </details>
-            <details className="py-2 border-b border-black/5">
-              <summary className="font-bold text-[#0B2D7F] uppercase tracking-wider cursor-pointer">
-                Shipping & Delivery
-              </summary>
-              <p className="mt-2 text-black/70 leading-relaxed">
-                Fast dispatch within 24-48 business hours from Mumbai. Worldwide doorstep air & sea freight dispatch (UK, US, EU, Gulf). MOQ 20 pcs.
-              </p>
-            </details>
-            <details className="py-2 border-b border-black/5">
-              <summary className="font-bold text-[#0B2D7F] uppercase tracking-wider cursor-pointer">
-                Return & Exchange
-              </summary>
-              <p className="mt-2 text-black/70 leading-relaxed">
-                7-day hassle-free reverse pickup exchange available directly from your account.
-              </p>
-            </details>
           </div>
         </div>
       </div>
@@ -676,16 +639,19 @@ export default function ProductDetailPage({ params }: Props) {
       {/* ============================================================== */}
       {/* RELATED PRODUCTS RECOMMENDATION                                */}
       {/* ============================================================== */}
-      <section className="w-full py-8 md:py-12 px-3 md:px-6 bg-[#FAF9F6] border-t border-black/10">
-        <div className="max-w-[1400px] mx-auto flex flex-col gap-6">
-          <div className="text-center">
-            <h2 className="text-lg md:text-2xl font-bold uppercase tracking-tight text-[#0B2D7F]">
-              You May Also Like
+      <section className="w-full py-12 md:py-16 px-4 md:px-8 bg-[#FAF9F6]">
+        <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-10">
+          <div className="flex flex-col items-center text-center">
+            <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1">
+              Complementary Silhouettes
+            </span>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.12em] uppercase text-[#0B2D7F]">
+              Curated Pairings
             </h2>
-            <p className="text-xs text-black/60 mt-0.5">Complementary styles from our signature collections</p>
+            <div className="w-12 h-[1px] bg-[#D4AF37]/60 mt-3" />
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 md:gap-4 lg:gap-5">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
             {relatedProducts.map(rel => (
               <ProductCard key={rel.id} product={rel} />
             ))}
@@ -693,8 +659,15 @@ export default function ProductDetailPage({ params }: Props) {
         </div>
       </section>
 
+      {/* B2B Enquiry Modal */}
+      <B2BEnquiryModal
+        isOpen={isEnquiryModalOpen}
+        onClose={() => setIsEnquiryModalOpen(false)}
+        product={product}
+        selectedSize={selectedSize}
+      />
+
       <Footer />
-      <PopularSearches />
     </div>
   );
 }

@@ -222,11 +222,11 @@ export default function MobileNavDrawer({
         <div className="p-4 bg-white font-archivo text-xs flex flex-col gap-2">
           <div className="flex items-center justify-between text-[#0B2D7F]/80">
             <span>Customer Care:</span>
-            <a href="tel:+919511948736" className="font-semibold text-[#0B2D7F]">+91 9511948736</a>
+            <a href="tel:+918003088838" className="font-semibold text-[#0B2D7F]">+91 80030 88838</a>
           </div>
           <div className="flex items-center justify-between text-[#0B2D7F]/80">
             <span>WhatsApp Support:</span>
-            <a href="https://wa.me/918549000338" target="_blank" rel="noopener noreferrer" className="font-semibold text-emerald-700">Chat Now</a>
+            <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="font-semibold text-emerald-700">Chat Now</a>
           </div>
           <div className="flex items-center justify-between text-[#0B2D7F]/70 pt-2 text-[11px]">
             <Link href="/pages/faqs" onClick={onClose} className="hover:text-[#0B2D7F]">FAQs</Link>

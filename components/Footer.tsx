@@ -71,7 +71,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-2.5 text-xs font-sans text-[#0B2D7F]/85">
               <a
-                href="https://wa.me/919511948736"
+                href="https://wa.me/918003088838"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 hover:text-[#25D366] transition-colors"
@@ -79,8 +79,8 @@ export default function Footer() {
                 <span>WhatsApp B2B Support</span>
                 <span className="text-[10px]">&rarr;</span>
               </a>
-              <a href="tel:+919511948736" className="hover:text-[#4A7BC6] transition-colors">
-                +91 95119 48736
+              <a href="tel:+918003088838" className="hover:text-[#4A7BC6] transition-colors">
+                +91 80030 88838
               </a>
               <a href="mailto:exports@wastram.com" className="hover:text-[#4A7BC6] transition-colors">
                 exports@wastram.com

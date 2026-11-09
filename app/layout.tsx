@@ -61,7 +61,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className="bg-[#FAF9F6] text-[#1A1A1A] font-sans antialiased selection:bg-[#0B2D7F] selection:text-white w-full max-w-full overflow-x-hidden">
+      <body className="bg-[#FAF9F6] text-[#1A1A1A] font-sans antialiased selection:bg-[#0B2D7F] selection:text-white w-full">
         <CartProvider>
           <AnnouncementBar />
           {children}

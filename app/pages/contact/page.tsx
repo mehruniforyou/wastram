@@ -59,11 +59,11 @@ export default function ContactPage() {
               </p>
               <p>
                 <strong>Customer Helpline: </strong>
-                <a href="tel:+919511948736" className="text-[#0B2D7F] font-semibold underline">+91 9511948736</a>
+                <a href="tel:+918003088838" className="text-[#0B2D7F] font-semibold underline">+91 80030 88838</a>
               </p>
               <p>
                 <strong>WhatsApp Concierge: </strong>
-                <a href="https://wa.me/918549000338" target="_blank" rel="noopener noreferrer" className="text-emerald-700 font-semibold underline">+91 8549000338</a>
+                <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="text-emerald-700 font-semibold underline">+91 80030 88838</a>
               </p>
               <p>
                 <strong>Working Hours: </strong>

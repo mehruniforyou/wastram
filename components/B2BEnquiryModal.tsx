@@ -7,14 +7,14 @@ interface B2BEnquiryModalProps {
   isOpen: boolean;
   onClose: () => void;
   product: NishoramaProduct;
-  selectedSize: string;
+  selectedSize?: string;
 }
 
 export default function B2BEnquiryModal({
   isOpen,
   onClose,
   product,
-  selectedSize
+  selectedSize = 'All Sizes / Assorted'
 }: B2BEnquiryModalProps) {
   const [formData, setFormData] = useState({
     name: '',
@@ -81,7 +81,7 @@ export default function B2BEnquiryModal({
               </p>
               <div className="pt-4 flex flex-col sm:flex-row gap-2 justify-center">
                 <a
-                  href={`https://wa.me/919876543210?text=${whatsappMessage}`}
+                  href={`https://wa.me/918003088838?text=${whatsappMessage}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-2.5 rounded-full bg-[#25D366] text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 hover:opacity-90"
@@ -248,7 +248,7 @@ export default function B2BEnquiryModal({
                     {isSubmitting ? 'Transmitting Enquiry...' : 'Submit Wholesale Enquiry'}
                   </button>
                   <a
-                    href={`https://wa.me/919876543210?text=${whatsappMessage}`}
+                    href={`https://wa.me/918003088838?text=${whatsappMessage}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="py-3 px-4 rounded-full bg-[#25D366] text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 hover:opacity-90 transition-all"
