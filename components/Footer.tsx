@@ -95,8 +95,8 @@ export default function Footer() {
               <a href="tel:+918003088838" className="hover:text-[#4A7BC6] transition-colors">
                 +91 80030 88838
               </a>
-              <a href="mailto:exports@wastram.com" className="hover:text-[#4A7BC6] transition-colors">
-                exports@wastram.com
+              <a href="mailto:atelier@wastram.com" className="hover:text-[#4A7BC6] transition-colors">
+                atelier@wastram.com
               </a>
               <span className="text-[11px] text-[#0B2D7F]/60 mt-1">
                 Jaipur &bull; Mumbai &bull; Global Shipping

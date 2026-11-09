@@ -11,7 +11,7 @@ interface SocialIconsProps {
 export const SOCIAL_LINKS = [
   {
     name: 'Instagram',
-    href: 'https://instagram.com/wastram_exports',
+    href: 'https://instagram.com/wastram',
     hoverColor: 'hover:text-[#E4405F] hover:border-[#E4405F]/40',
     icon: (size = 16) => (
       <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">

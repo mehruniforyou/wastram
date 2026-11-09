@@ -63,7 +63,7 @@ export default function HomePage() {
       {/* 7. Horizontal Lookbook Filmstrip (Resort & Co-ords) */}
       <ResortFilmstripShowcase />
 
-      {/* 8. Export Bestsellers Podium & Wholesale Credentials */}
+      {/* 8. Signature Atelier Creations */}
       <BestsellersShowcase />
 
       {/* 9. Minimal Luxury Footer */}
