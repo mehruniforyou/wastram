@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Assistant:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,10 +7,11 @@
 :root {
   --color-brand-brown: #0B2D7F;
   --color-brand-red: #F58220;
-  --color-brand-gold: #F6C582;
-  --font-archivo: 'Archivo', sans-serif;
-  --font-assistant: 'Assistant', sans-serif;
-  --font-editorial: 'Playfair Display', serif;
+  --color-brand-gold: #D4AF37;
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-archivo: 'Plus Jakarta Sans', sans-serif;
 }
 
 * {
@@ -23,7 +24,7 @@ html {
 }
 
 body {
-  font-family: var(--font-archivo);
+  font-family: var(--font-sans);
   color: #121212;
   background-color: #FAF9F6 !important;
   margin: 0;
@@ -45,7 +46,7 @@ body {
 
 /* Custom Scrollbar */
 body::-webkit-scrollbar {
-  width: 7px;
+  width: 6px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -56,10 +57,8 @@ body::-webkit-scrollbar-thumb {
 /* Red Pulsing Dot for Trending */
 .cust-red-dot {
   display: inline-block;
-  width: 0.7vw;
-  height: 0.7vw;
-  min-width: 6px;
-  min-height: 6px;
+  width: 6px;
+  height: 6px;
   background-color: #F58220;
   border-radius: 50%;
   margin-left: 4px;
@@ -119,114 +118,79 @@ body::-webkit-scrollbar-thumb {
   animation: toast-slide-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Capsule Category Borders */
-.diwali-capsule-border {
-  border: 3px solid #D4AF37;
-  border-radius: 1vw;
-  overflow: hidden;
-}
-
-@media (max-width: 950px) {
-  .diwali-capsule-border {
-    border: 2px solid #D4AF37;
-    border-radius: 8px;
-  }
-}
-
 /* Glassmorphic elements */
 .glass-btn {
-  background: rgba(55, 31, 17, 0.58);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
-  box-shadow: inset 0px 0px 3px rgba(255, 255, 255, 0.85);
+  background: rgba(11, 45, 127, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
   transition: all 0.25s ease;
 }
 
 .glass-btn:hover {
   background: rgba(11, 45, 127, 0.85);
-  border-color: rgba(255, 255, 255, 0.6);
-}
-
-/* Hero Frosted Glass Pill */
-.diwali-hero-button {
-  padding: 1vw 2vw;
-  border-radius: 7rem;
-  background: rgba(255, 255, 255, 0.25);
-  color: #FFFFFF;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
-  box-shadow: inset 0 0 1px #D4AF37;
-  font-size: 0.8vw;
-  font-weight: 500;
-  line-height: 1;
-  text-decoration: none;
-  letter-spacing: -0.02vw !important;
-  font-family: var(--font-archivo);
-  transition: all 0.25s ease;
-}
-
-.diwali-hero-button:hover {
-  background: rgba(255, 255, 255, 0.38);
+  border-color: rgba(255, 255, 255, 0.5);
   transform: translateY(-1px);
 }
 
-@media (max-width: 950px) {
-  .diwali-hero-button {
-    padding: 3.5vw 5vw;
-    font-size: 2.6vw;
-  }
-}
-
-/* Nishorama Tab Pill */
+/* Minimal Luxury Tab Pills (Very less borders, soft shadows) */
 .diwali-fit-button {
-  border: 1px solid #D5D5D5;
+  border: none;
   background: #FFFFFF;
   cursor: pointer;
-  border-radius: 4rem;
-  padding: 0.6vw 1.2vw;
-  font-size: 0.8vw;
-  font-family: var(--font-archivo);
+  border-radius: 9999px;
+  padding: 0.55rem 1.25rem;
+  font-size: 13px;
+  font-family: var(--font-sans);
   font-weight: 500;
-  color: rgba(0, 0, 0, 0.7);
-  transition: all 0.2s ease;
+  color: #0B2D7F;
+  box-shadow: 0 2px 8px rgba(11, 45, 127, 0.04);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.diwali-fit-button:hover {
+  background: #FAF9F6;
+  color: #0B2D7F;
+  box-shadow: 0 4px 14px rgba(11, 45, 127, 0.08);
+  transform: translateY(-1px);
 }
 
 .diwali-fit-button.active {
   background: #0B2D7F;
   color: #FFFFFF;
-  border: 1px solid #F6C582;
+  box-shadow: 0 4px 16px rgba(11, 45, 127, 0.2);
 }
 
 @media (max-width: 950px) {
   .diwali-fit-button {
-    font-size: 2.6vw;
-    padding: 2vw 4vw;
+    font-size: 11px;
+    padding: 0.45rem 0.9rem;
   }
 }
 
-/* Nishorama Card Inner & Badge */
+/* Minimal Luxury Sale Badge */
 .cust-sale-badge {
-  font-family: var(--font-archivo);
+  font-family: var(--font-sans);
   font-style: normal;
   font-weight: 600;
   line-height: 1;
-  font-size: 0.7vw;
-  color: #F58220;
-  border: 1px solid rgba(245, 130, 32, 0.25);
-  background: #FFFFFF;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  padding: 0.4vw 0.8vw;
-  border-radius: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0B2D7F;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 0.35rem 0.7rem;
+  border-radius: 9999px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
 }
 
 @media (max-width: 950px) {
   .cust-sale-badge {
-    font-size: 2.3vw;
-    padding: 1.3vw 2.5vw;
-    border-radius: 1rem;
+    font-size: 9px;
+    padding: 0.25rem 0.55rem;
   }
 }
 

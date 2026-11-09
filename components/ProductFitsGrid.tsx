@@ -11,16 +11,13 @@ export default function ProductFitsGrid() {
   const tabs = [
     { id: 'western-dresses', label: 'Western Dresses' },
     { id: 'denim-collection', label: 'Denim Collection' },
-    { id: 'hoodies-sweatshirts', label: 'Hoodies & Sweatshirts' },
-    { id: 't-shirts', label: 'T-Shirts' },
-    { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
-    { id: 'short-long-kaftan', label: 'Short & Long Kaftan' },
     { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets' },
-    { id: 'tops-shirts', label: 'Tops & Shirts' },
+    { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
     { id: 'cord-sets', label: 'Co-ord Sets' },
-    { id: 'traditional-gowns', label: 'Traditional Gowns' },
+    { id: 'short-long-kaftan', label: 'Kaftans' },
+    { id: 'hoodies-sweatshirts', label: 'Hoodies' },
+    { id: 'tops-shirts', label: 'Tops & Shirts' },
     { id: 'bestsellers', label: 'Export Bestsellers' },
-    { id: 'maxi', label: 'Maxi Dresses' }
   ];
 
   const currentProducts = useMemo(() => {
@@ -37,17 +34,26 @@ export default function ProductFitsGrid() {
       if (activeTab === 'cord-sets') return p.category === 'cord-sets';
       if (activeTab === 'traditional-gowns') return p.category === 'traditional-gowns';
       if (activeTab === 'bestsellers') return p.badge.includes('Bestseller');
-      if (activeTab === 'maxi') return p.title.includes('Maxi');
-      if (activeTab === 'anarkali') return p.title.includes('Anarkali') || p.category === 'traditional-gowns';
       return p.tab === activeTab;
     }).slice(0, 16);
   }, [activeTab]);
 
   return (
-    <section className="w-full py-6 md:py-10 px-2 md:px-6 bg-[#FAF9F6]">
-      <div className="max-w-[1400px] mx-auto flex flex-col gap-4 md:gap-6">
-        {/* TABS (Exact 4rem pill buttons) */}
-        <div className="flex items-center justify-center gap-1.5 md:gap-2 overflow-x-auto no-scrollbar pb-1">
+    <section className="w-full py-12 md:py-20 px-4 md:px-8 bg-[#FAF9F6]">
+      <div className="max-w-[1540px] mx-auto flex flex-col gap-8 md:gap-12">
+        {/* Elegant Section Heading */}
+        <div className="flex flex-col items-center text-center">
+          <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1">
+            Global Export Ready
+          </span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.12em] uppercase text-[#0B2D7F]">
+            Featured Collections
+          </h2>
+          <div className="w-12 h-[1px] bg-[#D4AF37]/60 mt-3" />
+        </div>
+
+        {/* Minimal Luxury Filter Tabs (Soft shadows, border-free) */}
+        <div className="flex items-center justify-center gap-2 overflow-x-auto no-scrollbar py-1 px-2">
           {tabs.map(tab => (
             <button
               key={tab.id}
@@ -62,7 +68,7 @@ export default function ProductFitsGrid() {
         </div>
 
         {/* PRODUCT GRID: Desktop 4 columns, Mobile 2 columns */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-5">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 lg:gap-8">
           {currentProducts.map((product, idx) => (
             <ProductCard
               key={product.id}
@@ -72,13 +78,13 @@ export default function ProductFitsGrid() {
           ))}
         </div>
 
-        {/* View All Button */}
-        <div className="flex justify-center pt-2">
+        {/* Minimal Luxury View All Button */}
+        <div className="flex justify-center pt-4">
           <Link
             href="/collections/shop-all"
-            className="diwali-fit-button active uppercase tracking-wider text-center"
+            className="px-8 py-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card cursor-pointer"
           >
-            VIEW ALL PRODUCTS
+            Explore All 1,400+ Styles &rarr;
           </Link>
         </div>
       </div>

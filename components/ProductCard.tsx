@@ -43,27 +43,29 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
       }}
       className="group relative flex flex-col bg-transparent"
     >
-      {/* Image Media Container */}
-      <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#FAF9F6] border border-[#0B2D7F]/10 rounded-[4vw] md:rounded-[1vw] overflow-hidden">
+      {/* Image Media Container (Borderless, soft luxury elevation) */}
+      <div className="relative aspect-[400/680] w-full bg-white shadow-soft hover:shadow-card transition-all duration-400 rounded-2xl overflow-hidden">
         <Link href={`/products/${product.slug}`} className="block w-full h-full">
           <img
             src={displayImage}
             alt={product.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 will-change-transform"
+            className="w-full h-full object-cover transition-transform duration-600 group-hover:scale-105 will-change-transform"
             loading={priority ? 'eager' : 'lazy'}
             decoding="async"
           />
         </Link>
 
-        {/* Sale / Collection Badge Pill */}
-        <div className="cust-badges-wrapper absolute top-2 left-2 md:top-2.5 md:left-2.5 z-10 pointer-events-none">
-          <span className="cust-sale-badge">
-            {product.badge}
-          </span>
-        </div>
+        {/* Minimal Luxury Badge */}
+        {product.badge && (
+          <div className="cust-badges-wrapper absolute top-3 left-3 z-10 pointer-events-none">
+            <span className="cust-sale-badge">
+              {product.badge}
+            </span>
+          </div>
+        )}
 
-        {/* Top Right: Wishlist & Tap & View Buttons */}
-        <div className="absolute top-2 right-2 md:top-2.5 md:right-2.5 z-10 flex flex-col gap-1.5">
+        {/* Top Right: Wishlist & Quick View */}
+        <div className="absolute top-3 right-3 z-10 flex flex-col gap-1.5">
           {/* Wishlist Bookmark Button */}
           <button
             type="button"
@@ -72,12 +74,13 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
               e.stopPropagation();
               toggleWishlist(product.slug);
             }}
-            className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-xs hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-transform active:scale-90"
+            className="w-8 h-8 rounded-full bg-white/95 backdrop-blur-md shadow-soft hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-transform active:scale-90 cursor-pointer"
             aria-label="Save to wishlist"
+            title="Save to Wishlist"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="11"
+              width="12"
               height="16"
               viewBox="0 0 12.39 18.53"
               className={`transition-all duration-300 ${
@@ -88,7 +91,7 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
             >
               <path
                 id="savewishlist"
-                strokeWidth="1.2"
+                strokeWidth="1.3"
                 d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
               />
             </svg>
@@ -102,9 +105,9 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
               e.stopPropagation();
               openTapAndView(product);
             }}
-            className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white/90 backdrop-blur-md shadow-xs hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95"
-            title="Tap & View Lightbox"
-            aria-label="Tap and View"
+            className="w-8 h-8 rounded-full bg-white/95 backdrop-blur-md shadow-soft hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95 cursor-pointer"
+            title="Quick View"
+            aria-label="Quick View"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="11" cy="11" r="8" />
@@ -115,13 +118,13 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
           </button>
         </div>
 
-        {/* Carousel Arrow Controls (Appear on hover when multiple angles available) */}
+        {/* Carousel Arrow Controls */}
         {totalImages > 1 && (
           <>
             <button
               type="button"
               onClick={handlePrevImage}
-              className={`hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/80 backdrop-blur-md shadow-xs items-center justify-center text-[#0B2D7F] text-sm font-bold transition-all ${
+              className={`hidden md:flex absolute left-2.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/90 backdrop-blur-md shadow-soft items-center justify-center text-[#0B2D7F] text-sm font-bold transition-all cursor-pointer ${
                 isHovered ? 'opacity-90 translate-x-0' : 'opacity-0 -translate-x-3 pointer-events-none'
               }`}
               aria-label="Previous angle"
@@ -131,7 +134,7 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
             <button
               type="button"
               onClick={handleNextImage}
-              className={`hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/80 backdrop-blur-md shadow-xs items-center justify-center text-[#0B2D7F] text-sm font-bold transition-all ${
+              className={`hidden md:flex absolute right-2.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/90 backdrop-blur-md shadow-soft items-center justify-center text-[#0B2D7F] text-sm font-bold transition-all cursor-pointer ${
                 isHovered ? 'opacity-90 translate-x-0' : 'opacity-0 translate-x-3 pointer-events-none'
               }`}
               aria-label="Next angle"
@@ -140,12 +143,12 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
             </button>
 
             {/* Pagination Dots */}
-            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-1 z-10 pointer-events-none">
+            <div className="absolute bottom-2.5 left-1/2 -translate-x-1/2 flex items-center gap-1 z-10 pointer-events-none">
               {product.images.slice(0, 5).map((_, dotIdx) => (
                 <span
                   key={dotIdx}
                   className={`h-1 rounded-full transition-all ${
-                    currentImgIdx === dotIdx ? 'w-3 bg-white' : 'w-1 bg-white/50'
+                    currentImgIdx === dotIdx ? 'w-3 bg-white' : 'w-1 bg-white/60'
                   }`}
                 />
               ))}
@@ -154,34 +157,32 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
         )}
       </div>
 
-      {/* Card Info */}
-      <div className="pt-2 md:pt-2.5 pb-1 flex flex-col justify-between flex-1 gap-1">
-        <div className="flex items-start justify-between gap-1">
-          <div className="flex flex-col flex-1 min-w-0">
+      {/* Card Info (Elegant serif typography, clear actions) */}
+      <div className="pt-3 pb-1 flex flex-col justify-between flex-1 gap-1.5">
+        <Link
+          href={`/products/${product.slug}`}
+          className="font-serif text-[14px] md:text-[15px] font-medium text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors line-clamp-1 leading-snug tracking-wide"
+        >
+          {product.title}
+        </Link>
+
+        <div className="flex items-center justify-between gap-2 mt-0.5">
+          <div className="flex items-center gap-1.5">
             <Link
               href={`/products/${product.slug}`}
-              className="font-archivo font-bold text-[2.8vw] md:text-[0.85vw] text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors line-clamp-1 leading-snug uppercase tracking-tight"
+              className="inline-flex items-center px-3 py-1 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-[11px] font-medium uppercase tracking-wider transition-all shadow-soft"
             >
-              {product.title}
+              <span>Show Price</span>
             </Link>
-
-            <div className="flex items-center gap-1.5 mt-1 font-archivo">
-              <Link
-                href={`/products/${product.slug}`}
-                className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#0B2D7F] text-[#FAF9F6] border border-[#D4AF37]/40 hover:bg-[#071F59] font-archivo text-[2.2vw] md:text-[0.72vw] font-bold uppercase tracking-wider transition-all shadow-2xs"
-              >
-                <span>Show Price</span>
-              </Link>
-              <span className="text-[2.2vw] md:text-[0.68vw] text-black/50">
-                • {product.moq || 'MOQ 20 pcs'}
-              </span>
-            </div>
+            <span className="text-[11px] text-[#0B2D7F]/60 font-medium">
+              • {product.moq || 'MOQ 20'}
+            </span>
           </div>
 
-          {/* Enquire Pill Button */}
+          {/* Enquire Button */}
           <Link
             href={`/products/${product.slug}`}
-            className="px-2.5 md:px-3 py-1 md:py-1 rounded-full border border-[#0B2D7F] bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
+            className="px-3 py-1 rounded-full bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] shadow-soft text-[11px] font-medium transition-all flex items-center gap-1 flex-shrink-0 active:scale-95"
           >
             <span>Enquire</span>
           </Link>

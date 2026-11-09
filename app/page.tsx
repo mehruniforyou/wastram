@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header';
-import MobileNavDrawer from '@/components/MobileNavDrawer';
 import StoryViewerModal from '@/components/StoryViewerModal';
 import SearchModal from '@/components/SearchModal';
 import PromoPopupModal from '@/components/PromoPopupModal';
@@ -11,10 +10,8 @@ import FeatureCategories from '@/components/FeatureCategories';
 import EditorialBanners from '@/components/EditorialBanners';
 import ProductFitsGrid from '@/components/ProductFitsGrid';
 import Footer from '@/components/Footer';
-import PopularSearches from '@/components/PopularSearches';
 
 export default function HomePage() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isStoryOpen, setIsStoryOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
@@ -22,17 +19,8 @@ export default function HomePage() {
     <main className="min-h-screen flex flex-col bg-[#FAF9F6]">
       {/* Interactive Navigation Header */}
       <Header
-        onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
         onOpenSearch={() => setIsSearchOpen(true)}
-      />
-
-      {/* Slide-out Mobile Menu Drawer */}
-      <MobileNavDrawer
-        isOpen={isDrawerOpen}
-        onClose={() => setIsDrawerOpen(false)}
-        onOpenSearch={() => setIsSearchOpen(true)}
-        onOpenStory={() => setIsStoryOpen(true)}
       />
 
       {/* Story Viewer Modal (Opens on Story Ring click) */}
@@ -53,20 +41,17 @@ export default function HomePage() {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* 4 Feature Columns Grid */}
+      {/* Curated Silhouettes */}
       <FeatureCategories />
 
-      {/* 5 Editorial Banners */}
+      {/* Editorial Banners */}
       <EditorialBanners />
 
       {/* Filterable Tabbed Product Grid */}
       <ProductFitsGrid />
 
-      {/* Custom Artisan Footer */}
+      {/* Minimal Luxury Footer */}
       <Footer />
-
-      {/* SEO Category Directory Tag Cloud */}
-      <PopularSearches />
     </main>
   );
 }

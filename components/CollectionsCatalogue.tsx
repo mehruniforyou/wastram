@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import Header from './Header';
 import Footer from './Footer';
-import PopularSearches from './PopularSearches';
-import MobileNavDrawer from './MobileNavDrawer';
 import StoryViewerModal from './StoryViewerModal';
 import SearchModal from './SearchModal';
 import QuickAddModal from './QuickAddModal';
@@ -17,7 +15,6 @@ const PAGE_SIZE = 24;
 export default function CollectionsCatalogue({ initialCategory = 'all' }: { initialCategory?: string }) {
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory);
   const [sortBy, setSortBy] = useState<string>('featured');
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isStoryOpen, setIsStoryOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [quickAddProduct, setQuickAddProduct] = useState<NishoramaProduct | null>(null);
@@ -32,14 +29,11 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     { id: 'hoodies-sweatshirts', label: 'Hoodies & Sweatshirts' },
     { id: 't-shirts', label: 'T-Shirts' },
     { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
-    { id: 'short-long-kaftan', label: 'Short & Long Kaftan' },
+    { id: 'short-long-kaftan', label: 'Kaftans' },
     { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets' },
     { id: 'tops-shirts', label: 'Tops & Shirts' },
     { id: 'cord-sets', label: 'Co-ord Sets' },
     { id: 'traditional-gowns', label: 'Traditional Gowns' },
-    { id: 'maxi', label: 'Maxi Dresses' },
-    { id: 'anarkali-gowns', label: 'Anarkali Gowns' },
-    { id: 'tiered', label: 'Tiered & Flared' }
   ];
 
   // Reset pagination when category or sort changes
@@ -60,11 +54,6 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
       if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') return p.category === 'tops-shirts';
       if (selectedCategory === 'cord-sets' || selectedCategory === 'cord-set') return p.category === 'cord-sets';
       if (selectedCategory === 'traditional-gowns') return p.category === 'traditional-gowns';
-      if (selectedCategory === 'anarkali-gowns') return p.category === 'traditional-gowns' || p.title.includes('Anarkali');
-      if (selectedCategory === 'maxi' || selectedCategory === 'maxi-dresses') return p.title.includes('Maxi');
-      if (selectedCategory === 'midi' || selectedCategory === 'midi-dress') return p.title.includes('Midi');
-      if (selectedCategory === 'slip') return p.title.includes('Slip') || p.title.includes('Halter');
-      if (selectedCategory === 'tiered') return p.title.includes('Tiered') || p.title.includes('Wrap') || p.title.includes('Flared');
       if (selectedCategory === 'most-wanted') return p.badge.includes('Bestseller');
       return p.category === selectedCategory || p.tab === selectedCategory;
     });
@@ -105,18 +94,10 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF9F6] font-archivo">
+    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
       <Header
-        onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
         onOpenSearch={() => setIsSearchOpen(true)}
-      />
-
-      <MobileNavDrawer
-        isOpen={isDrawerOpen}
-        onClose={() => setIsDrawerOpen(false)}
-        onOpenSearch={() => setIsSearchOpen(true)}
-        onOpenStory={() => setIsStoryOpen(true)}
       />
 
       <StoryViewerModal
@@ -134,71 +115,72 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         onClose={() => setQuickAddProduct(null)}
       />
 
-      <div className="max-w-[1400px] w-full mx-auto px-2.5 md:px-6 py-6 md:py-10 flex-1">
+      <div className="max-w-[1540px] w-full mx-auto px-4 md:px-8 py-8 md:py-12 flex-1">
         {/* Breadcrumb Navigation */}
-        <div className="flex items-center gap-2 text-xs text-black/50 mb-4">
-          <Link href="/" className="hover:text-black">Home</Link>
+        <div className="flex items-center gap-2 text-xs text-[#0B2D7F]/60 mb-6">
+          <Link href="/" className="hover:text-[#0B2D7F] transition-colors">Home</Link>
           <span>/</span>
-          <span className="text-[#0B2D7F] font-semibold capitalize">
-            {selectedCategory === 'all' ? 'All Collections' : selectedCategory}
+          <span className="text-[#0B2D7F] font-medium capitalize">
+            {selectedCategory === 'all' ? 'All Collections' : selectedCategory.replace(/-/g, ' ')}
           </span>
         </div>
 
         {/* Header & Filter Controls */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 md:mb-8 pb-2">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 pb-4">
           <div>
-            <h1 className="text-2xl md:text-4xl font-extrabold text-[#0B2D7F] uppercase tracking-tight">
-              {selectedCategory === 'all' ? 'Signature Collections' : selectedCategory}
+            <span className="font-serif italic text-base text-[#D4AF37] block mb-1">
+              Curated Wholesale Edit
+            </span>
+            <h1 className="text-3xl md:text-5xl font-serif font-normal text-[#0B2D7F] uppercase tracking-wide">
+              {selectedCategory === 'all' ? 'Signature Collections' : selectedCategory.replace(/-/g, ' ')}
             </h1>
-            <p className="text-xs text-black/60 mt-1">
-              Showing {visibleProducts.length} of {filtered.length} exclusive styles handcrafted for global fashion lovers
-            </p>
           </div>
 
-          {/* Category Filter Pills (Exact 4rem roundness) */}
-          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
-            {categories.map(cat => (
-              <button
-                key={cat.id}
-                onClick={() => setSelectedCategory(cat.id)}
-                className={`diwali-fit-button whitespace-nowrap ${
-                  selectedCategory === cat.id ? 'active' : ''
-                }`}
+          <div className="flex flex-wrap items-center gap-3">
+            {/* Category Filter Pills (Minimal luxury) */}
+            <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+              {categories.map(cat => (
+                <button
+                  key={cat.id}
+                  onClick={() => setSelectedCategory(cat.id)}
+                  className={`diwali-fit-button whitespace-nowrap ${
+                    selectedCategory === cat.id ? 'active' : ''
+                  }`}
+                >
+                  {cat.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Sort By Dropdown (Soft shadow, no harsh border) */}
+            <div className="flex items-center gap-2">
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="text-xs font-medium bg-white shadow-soft rounded-full px-4 py-2 text-[#0B2D7F] focus:outline-none cursor-pointer border-none"
               >
-                {cat.label}
-              </button>
-            ))}
-          </div>
-
-          {/* Sort By Dropdown */}
-          <div className="flex items-center gap-2 self-end md:self-auto">
-            <span className="text-xs text-black/60 font-medium">Sort:</span>
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="text-xs font-semibold bg-white border border-[#D5D5D5] rounded-full px-3 py-1.5 text-[#0B2D7F] focus:outline-none cursor-pointer"
-            >
-              <option value="featured">Featured</option>
-              <option value="price-low">Price: Low to High</option>
-              <option value="price-high">Price: High to Low</option>
-            </select>
+                <option value="featured">Featured</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+              </select>
+            </div>
           </div>
         </div>
 
         {/* Product Cards Grid */}
         {filtered.length === 0 ? (
           <div className="py-20 text-center">
-            <p className="text-sm text-black/60">No styles found in this selection.</p>
+            <p className="text-sm text-[#0B2D7F]/70">No styles found in this selection.</p>
             <button
               onClick={() => setSelectedCategory('all')}
-              className="mt-4 px-6 py-2 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-xs font-bold uppercase"
+              className="mt-4 px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium uppercase tracking-wider shadow-soft"
             >
               View All Styles
             </button>
           </div>
         ) : (
           <>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 md:gap-4 lg:gap-5">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 lg:gap-8">
               {visibleProducts.map((product, idx) => (
                 <ProductCard
                   key={product.id}
@@ -213,17 +195,14 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
 
             {/* Load More Button */}
             {visibleCount < filtered.length && (
-              <div className="flex flex-col items-center justify-center gap-2 py-8">
+              <div className="flex flex-col items-center justify-center gap-2 py-10">
                 <button
                   type="button"
                   onClick={handleLoadMore}
-                  className="px-8 py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] font-archivo text-xs font-bold uppercase tracking-wider shadow-navy border border-[#D4AF37]/40 transition-all hover:scale-102 active:scale-98"
+                  className="px-8 py-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-xs font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card transition-all"
                 >
                   Load More Styles ({filtered.length - visibleCount} remaining)
                 </button>
-                <span className="text-[11px] text-black/50">
-                  Showing {visibleProducts.length} of {filtered.length} styles
-                </span>
               </div>
             )}
           </>
@@ -231,7 +210,6 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
       </div>
 
       <Footer />
-      <PopularSearches />
     </div>
   );
 }

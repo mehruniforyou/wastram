@@ -27,27 +27,30 @@ module.exports = {
           ceramicLight: '#EEF4FC',// Ceramic Blue soft wash
           ceramicDark: '#3866AB', // Ceramic Blue interactive
         },
-        // Legacy alias mapped to official palette for 100% theme consistency
         nishorama: {
-          brown: '#0B2D7F',       // Replaced with Royal Navy Blue
-          red: '#F58220',         // Replaced with Marigold Orange
-          orange: '#F58220',      // Marigold Orange
-          gold: '#D4AF37',        // Golden Thread
-          cream: '#FAF9F6',       // Ivory White
+          brown: '#0B2D7F',
+          red: '#F58220',
+          orange: '#F58220',
+          gold: '#D4AF37',
+          cream: '#FAF9F6',
           grey: '#F3F4F8',
-          light: '#EEF4FC',       // Ceramic Blue tint
-          dark: '#071F59'         // Deep Navy
+          light: '#EEF4FC',
+          dark: '#071F59'
         }
       },
       fontFamily: {
+        sans: ['var(--font-sans)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        serif: ['var(--font-serif)', '"Cormorant Garamond"', 'Playfair Display', 'Georgia', 'serif'],
+        display: ['var(--font-display)', '"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
         archivo: ['var(--font-archivo)', 'sans-serif'],
-        serif: ['var(--font-serif)', 'Playfair Display', 'serif'],
       },
       boxShadow: {
-        capsule: '0 4px 20px rgba(11, 45, 127, 0.08)',
-        glass: 'inset 0 0 3px rgba(255, 255, 255, 0.85)',
-        gold: '0 4px 20px rgba(212, 175, 55, 0.15)',
-        navy: '0 8px 24px rgba(11, 45, 127, 0.12)',
+        soft: '0 2px 10px rgba(11, 45, 127, 0.04)',
+        card: '0 4px 20px rgba(11, 45, 127, 0.06)',
+        cardHover: '0 12px 32px rgba(11, 45, 127, 0.12)',
+        elevated: '0 20px 40px -15px rgba(11, 45, 127, 0.15)',
+        gold: '0 4px 20px rgba(212, 175, 55, 0.18)',
+        navy: '0 8px 24px rgba(11, 45, 127, 0.18)',
       },
     },
   },
