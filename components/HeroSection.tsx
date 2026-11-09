@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#FAF9F6]">
+    <section className="relative w-full max-w-full overflow-hidden bg-[#FAF9F6]">
       {/* ============================================================== */}
       {/* DESKTOP HERO VIEW (Screens >= 1024px)                          */}
       {/* ============================================================== */}
-      <div className="hidden lg:block relative w-full h-[88vh] min-h-[620px] max-h-[880px]">
+      <div className="hidden lg:block relative w-full h-[88vh] min-h-[620px] max-h-[880px] overflow-hidden">
         {/* Background Image */}
         <img
           src="/nishorama-images/hero-desktop.png"
@@ -18,7 +18,7 @@ export default function HeroSection() {
         />
 
         {/* Subtle Watermark Wordmark */}
-        <div className="absolute top-[8%] left-1/2 -translate-x-1/2 pointer-events-none select-none z-0">
+        <div className="absolute top-[8%] left-1/2 -translate-x-1/2 pointer-events-none select-none z-0 max-w-full overflow-hidden">
           <span className="text-[11vw] font-serif font-light text-[#0B2D7F]/[0.04] tracking-[0.1em] uppercase whitespace-nowrap leading-none">
             WASTRAM
           </span>
@@ -26,7 +26,7 @@ export default function HeroSection() {
 
         {/* Overlay Content Centered at Bottom */}
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center max-w-4xl px-4 w-full">
-          {/* Section Kicker Pill (Minimal, shadow, no harsh border) */}
+          {/* Section Kicker Pill */}
           <span className="text-[11px] font-sans uppercase tracking-[0.22em] text-[#0B2D7F] font-semibold mb-3 px-4 py-1 rounded-full bg-white/90 backdrop-blur-md shadow-soft">
             Direct B2B Manufacturer &amp; Export House
           </span>
@@ -57,7 +57,7 @@ export default function HeroSection() {
       {/* ============================================================== */}
       {/* MOBILE HERO VIEW (Screens < 1024px)                            */}
       {/* ============================================================== */}
-      <div className="block lg:hidden relative w-full h-[82vh] min-h-[520px]">
+      <div className="block lg:hidden relative w-full h-[82vh] min-h-[520px] overflow-hidden">
         {/* Mobile Portrait Image */}
         <img
           src="/nishorama-images/hero-mobile.png"
@@ -65,9 +65,9 @@ export default function HeroSection() {
           className="w-full h-full object-cover object-top"
         />
 
-        {/* Mobile Watermark */}
-        <div className="absolute top-16 left-1/2 -translate-x-1/2 pointer-events-none select-none z-0">
-          <span className="text-[16vw] font-serif font-light text-[#0B2D7F]/[0.04] tracking-widest uppercase whitespace-nowrap leading-none">
+        {/* Mobile Watermark (Strictly overflow-hidden & max-w-full) */}
+        <div className="absolute top-16 left-1/2 -translate-x-1/2 pointer-events-none select-none z-0 w-full overflow-hidden flex justify-center">
+          <span className="text-5xl sm:text-7xl font-serif font-light text-[#0B2D7F]/[0.05] tracking-[0.25em] uppercase whitespace-nowrap leading-none">
             WASTRAM
           </span>
         </div>

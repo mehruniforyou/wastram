@@ -1,11 +1,10 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 
 interface WastramLogoProps {
   className?: string;
-  variant?: 'header' | 'emblem' | 'full' | 'stacked';
+  variant?: 'header' | 'emblem' | 'full' | 'stacked' | 'horizontal';
   alt?: string;
   priority?: boolean;
 }
@@ -27,12 +26,13 @@ export default function WastramLogo({
     );
   }
 
-  if (variant === 'full') {
+  // Full Horizontal brand logo lockup (Emblem + Calligraphy wordmark + needle)
+  if (variant === 'horizontal' || variant === 'full') {
     return (
       <img
-        src="/images/brand/wastram-sewing-emblem-logo.png"
+        src="/images/brand/wastram-horizontal-emblem-transparent.png"
         alt={alt}
-        className={`object-contain ${className}`}
+        className={`object-contain block ${className}`}
         loading={priority ? 'eager' : 'lazy'}
       />
     );

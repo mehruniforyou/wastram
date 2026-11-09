@@ -6,12 +6,12 @@ import WastramLogo from './WastramLogo';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#FAF9F6] text-[#0B2D7F] pt-16 pb-12 px-6 lg:px-12">
-      <div className="max-w-[1540px] mx-auto flex flex-col items-center text-center gap-10">
-        {/* Brand Centerpiece */}
+    <footer className="w-full max-w-full overflow-hidden bg-[#FAF9F6] text-[#0B2D7F] pt-16 pb-12 px-5 sm:px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto flex flex-col items-center text-center gap-10">
+        {/* Brand Centerpiece (Horizontal Brand Logo) */}
         <div className="flex flex-col items-center gap-3">
           <Link href="/" className="inline-block hover:opacity-90 transition-opacity" aria-label="Wastram Home">
-            <WastramLogo className="h-10 md:h-12 w-auto" priority />
+            <WastramLogo variant="horizontal" className="h-10 sm:h-12 md:h-14 w-auto max-w-[280px] sm:max-w-[340px]" priority />
           </Link>
           <span className="font-serif italic text-sm md:text-base text-[#D4AF37] tracking-wider">
             Authentic Indian Textiles &amp; Contemporary Luxury
