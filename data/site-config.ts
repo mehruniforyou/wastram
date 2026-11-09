@@ -20,20 +20,22 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   brandName: 'Wastram',
-  tagline: "Indian Women's Wear Wholesale & Export Manufacturer",
+  tagline: 'Authentic Indian Textiles & Contemporary Haute Luxury',
   description:
-    "Wastram is an export-oriented Indian women's wear manufacturer and wholesale supplier. Discover handcrafted 3-piece suit sets, designer co-ords, tiered dresses, artisanal kurtas, festive lehengas, and luxe satin shirts crafted for global retailers and fashion boutiques.",
+    "Wastram is an artisanal Indian women's wear atelier and couture manufacturer. Discover handcrafted 3-piece suit sets, designer co-ords, tiered dresses, artisanal kurtas, festive lehengas, and luxe satin shirts crafted for global fashion boutiques.",
   whatsappNumber: '918003088838',
   whatsappDisplay: '+91 80030 88838',
-  email: 'exports@wastram.com', // placeholder / documented point
+  email: 'exports@wastram.com',
   location: 'Jaipur, Rajasthan, India',
   originHub: 'Sanganer Textile Craft Hub, Jaipur',
   productionDomain: 'https://wastram.com',
-  announcementText: "Indian Women's Wear | Wholesale & International Enquiries Welcome",
-  currencyNotice: 'Wholesale pricing quoted upon enquiry based on order volume and destination',
-  moqNotice: 'Flexible Wholesale MOQs – Direct Manufacturer Communication via WhatsApp',
+  announcementText: 'Indian Haute Textiles | Boutique & Trade Inquiries Welcome',
+  currencyNotice: 'Boutique pricing quoted upon inquiry based on collection selection and volume',
+  moqNotice: 'Flexible Atelier Batch MOQs - Direct Concierge Communication via WhatsApp',
   socials: {
     instagram: 'https://instagram.com/wastram_exports',
+    facebook: 'https://facebook.com/wastram',
+    linkedin: 'https://linkedin.com/company/wastram',
   },
 };
 
@@ -50,20 +52,20 @@ export function buildWhatsAppLink(message: string, customNumber?: string): strin
  */
 export const whatsappMessages = {
   general: () =>
-    `Hello Wastram, I am interested in your Indian women's wear wholesale collections. Please share more information about your available catalogues and the wholesale enquiry process.`,
+    `Hello Wastram Atelier, I am interested in your Indian women's wear collections. Please share more information about your available lookbooks and trade inquiries.`,
   
   category: (categoryName: string) =>
-    `Hello Wastram, I am interested in your "${categoryName}" collection. Could you please share more information regarding available designs, minimum quantities, and wholesale pricing?`,
+    `Hello Wastram Atelier, I am interested in your "${categoryName}" collection. Could you please share more information regarding available designs, minimum quantities, and boutique pricing?`,
 
   product: (productName: string, sku?: string, category?: string) => {
     const ref = sku ? ` (Ref / SKU: ${sku})` : '';
     const cat = category ? ` in ${category}` : '';
-    return `Hello Wastram, I am interested in enquiring about "${productName}"${ref}${cat}. Could you please share the available details, fabric specifications, and wholesale export pricing?`;
+    return `Hello Wastram Atelier, I am interested in inquiring about "${productName}"${ref}${cat}. Could you please share the available details, fabric specifications, and trade pricing?`;
   },
 
   international: () =>
-    `Hello Wastram, I am contacting you regarding international wholesale purchases of Indian women's wear for our boutique / retail business. I would like to discuss available collections, order quantities, and international delivery options.`,
+    `Hello Wastram Atelier, I am contacting you regarding boutique sourcing of Indian women's wear for our retail business. I would like to discuss available collections, order quantities, and international delivery options.`,
 
   customOrder: (details?: string) =>
-    `Hello Wastram, I would like to enquire about bulk wholesale / private label sourcing for our brand. ${details ? `Details: ${details}` : 'Please connect me with your export coordinator.'}`,
+    `Hello Wastram Atelier, I would like to inquire about bespoke manufacturing / private label sourcing for our brand. ${details ? `Details: ${details}` : 'Please connect me with your atelier coordinator.'}`,
 };

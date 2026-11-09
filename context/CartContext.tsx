@@ -42,6 +42,26 @@ interface CartContextType {
   isSizeGuideOpen: boolean;
   openSizeGuide: () => void;
   closeSizeGuide: () => void;
+
+  // Artisan Stories Modal
+  isStoryOpen: boolean;
+  openStory: () => void;
+  closeStory: () => void;
+
+  // Mobile Navigation Drawer
+  isDrawerOpen: boolean;
+  openDrawer: () => void;
+  closeDrawer: () => void;
+
+  // Search Catalog Modal
+  isSearchOpen: boolean;
+  openSearch: () => void;
+  closeSearch: () => void;
+
+  // B2B Wholesale Concierge Drawer
+  isB2BQuoteOpen: boolean;
+  openB2BQuote: () => void;
+  closeB2BQuote: () => void;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -53,6 +73,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const [wishlistToast, setWishlistToast] = useState<WishlistToastState | null>(null);
   const [tapAndViewProduct, setTapAndViewProduct] = useState<NishoramaProduct | null>(null);
   const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false);
+  const [isStoryOpen, setIsStoryOpen] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isB2BQuoteOpen, setIsB2BQuoteOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -146,6 +170,18 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   const openSizeGuide = () => setIsSizeGuideOpen(true);
   const closeSizeGuide = () => setIsSizeGuideOpen(false);
 
+  const openStory = () => setIsStoryOpen(true);
+  const closeStory = () => setIsStoryOpen(false);
+
+  const openDrawer = () => setIsDrawerOpen(true);
+  const closeDrawer = () => setIsDrawerOpen(false);
+
+  const openSearch = () => setIsSearchOpen(true);
+  const closeSearch = () => setIsSearchOpen(false);
+
+  const openB2BQuote = () => setIsB2BQuoteOpen(true);
+  const closeB2BQuote = () => setIsB2BQuoteOpen(false);
+
   const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0);
   const cartSubtotal = cart.reduce((sum, item) => sum + item.product.salePrice * item.quantity, 0);
 
@@ -171,7 +207,19 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         closeTapAndView,
         isSizeGuideOpen,
         openSizeGuide,
-        closeSizeGuide
+        closeSizeGuide,
+        isStoryOpen,
+        openStory,
+        closeStory,
+        isDrawerOpen,
+        openDrawer,
+        closeDrawer,
+        isSearchOpen,
+        openSearch,
+        closeSearch,
+        isB2BQuoteOpen,
+        openB2BQuote,
+        closeB2BQuote,
       }}
     >
       {children}

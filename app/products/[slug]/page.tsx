@@ -86,7 +86,7 @@ export default function ProductDetailPage({ params }: Props) {
   const displayMoq = rawMoq.toLowerCase().startsWith('moq') ? rawMoq : `MOQ ${rawMoq}`;
 
   const whatsappMessage = encodeURIComponent(
-    `Hello Wastram, I am interested in wholesale pricing for ${product.title} (SKU: ${product.sku || product.id}). Please share FOB quotation and export specifications.`
+    `Hello Wastram Atelier, I am interested in boutique pricing for ${product.title} (SKU: ${product.sku || product.id}). Please share line sheets and fabric specifications.`
   );
 
   return (
@@ -213,7 +213,7 @@ export default function ProductDetailPage({ params }: Props) {
                 onClick={() => toggleAccordion('shipping')}
                 className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F] cursor-pointer"
               >
-                <span>Export Shipping &amp; Cargo</span>
+                <span>Worldwide Delivery &amp; Freight</span>
                 <span className={`transition-transform duration-300 ${openAccordions.shipping ? 'rotate-90' : '-rotate-90'}`}>
                   &rsaquo;
                 </span>
@@ -384,14 +384,14 @@ export default function ProductDetailPage({ params }: Props) {
             </span>
           </div>
 
-          {/* Primary B2B Action Buttons */}
+          {/* Primary Atelier Action Buttons */}
           <div className="grid grid-cols-2 gap-2.5">
             <button
               type="button"
               onClick={() => setIsEnquiryModalOpen(true)}
               className="py-3 rounded-full bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] text-xs font-medium uppercase tracking-wider transition-all shadow-soft cursor-pointer"
             >
-              Request B2B Quote
+              Inquire for Boutiques
             </button>
 
             <a
@@ -400,16 +400,16 @@ export default function ProductDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-xs font-medium uppercase tracking-wider transition-all shadow-soft flex items-center justify-center text-center cursor-pointer"
             >
-              WhatsApp Chat
+              WhatsApp Concierge
             </a>
           </div>
 
-          {/* B2B Wholesale & Export Terms Card */}
+          {/* Atelier Sourcing Terms Card */}
           <div className="bg-white p-4 rounded-2xl shadow-soft flex flex-col gap-3">
             <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">
-              <span>Wholesale &amp; Export Terms</span>
+              <span>Atelier Sourcing Terms</span>
               <span className="text-[10px] bg-[#FAF9F6] text-[#0B2D7F] px-2.5 py-0.5 rounded-full font-medium">
-                EXPORT GRADE
+                COUTURE STANDARD
               </span>
             </div>
 
@@ -601,14 +601,14 @@ export default function ProductDetailPage({ params }: Props) {
             })}
           </div>
 
-          {/* B2B Action CTAs */}
+          {/* Atelier Action CTAs */}
           <div className="flex flex-col gap-2.5 pt-2">
             <button
               type="button"
               onClick={() => setIsEnquiryModalOpen(true)}
               className="w-full py-3.5 rounded-full bg-white text-[#0B2D7F] font-medium text-xs uppercase tracking-wider shadow-soft active:scale-98"
             >
-              Request B2B Quote
+              Inquire for Boutiques
             </button>
             <a
               href={`https://wa.me/918003088838?text=${whatsappMessage}`}
@@ -620,12 +620,12 @@ export default function ProductDetailPage({ params }: Props) {
             </a>
           </div>
 
-          {/* B2B Wholesale & Export Terms */}
+          {/* Atelier Sourcing Terms */}
           <div className="bg-white p-4 rounded-2xl shadow-soft flex flex-col gap-2">
             <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">
-              <span>Wholesale &amp; Export Terms</span>
+              <span>Atelier Sourcing Terms</span>
               <span className="text-[9px] bg-[#FAF9F6] text-[#0B2D7F] px-2 py-0.5 rounded-full font-medium">
-                EXPORT GRADE
+                COUTURE STANDARD
               </span>
             </div>
             <div className="bg-[#FAF9F6] p-3 rounded-xl text-xs">

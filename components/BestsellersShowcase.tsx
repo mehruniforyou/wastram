@@ -16,10 +16,10 @@ export default function BestsellersShowcase() {
         {/* Section Heading */}
         <div className="flex flex-col items-center text-center">
           <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1">
-            High-Turnover Boutique Favorites
+            Signature Silhouettes &amp; Handcrafted Design
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.12em] uppercase text-[#0B2D7F]">
-            Global Export Bestsellers
+            Signature Atelier Creations
           </h2>
           <div className="w-12 h-[1px] bg-[#D4AF37]/60 mt-3" />
         </div>
@@ -35,20 +35,20 @@ export default function BestsellersShowcase() {
           ))}
         </div>
 
-        {/* Minimal Luxury B2B Wholesale Credentials Bar */}
+        {/* Minimal Luxury Atelier Credentials Bar */}
         <div className="w-full max-w-4xl mx-auto p-4 md:p-5 rounded-2xl bg-white shadow-soft flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <div className="flex flex-wrap items-center justify-center sm:justify-start gap-4 md:gap-6 text-xs font-sans text-[#0B2D7F]/80">
             <span className="flex items-center gap-1.5 font-medium">
               <span className="text-[#D4AF37]">&bull;</span>
-              Direct Factory MOQ 20 Pcs
+              Flexible Batch MOQ 20 Pcs
             </span>
             <span className="flex items-center gap-1.5 font-medium">
               <span className="text-[#D4AF37]">&bull;</span>
-              Worldwide Air &amp; Ocean Cargo
+              Worldwide Doorstep Delivery
             </span>
             <span className="flex items-center gap-1.5 font-medium">
               <span className="text-[#D4AF37]">&bull;</span>
-              Custom Private Label &amp; Tagging
+              Bespoke Private Labelling
             </span>
           </div>
 
@@ -56,7 +56,7 @@ export default function BestsellersShowcase() {
             href="/pages/contact"
             className="px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] font-sans font-medium uppercase tracking-[0.12em] shadow-soft shrink-0"
           >
-            Request B2B Quote &rarr;
+            Inquire for Boutiques &rarr;
           </Link>
         </div>
       </div>

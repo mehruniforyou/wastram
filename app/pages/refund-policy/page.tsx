@@ -45,7 +45,7 @@ export default function RefundPolicyPage() {
           </p>
           <ul className="list-disc pl-5 space-y-1">
             <li>Standard Domestic Delivery: 3 to 5 business days</li>
-            <li>Doorstep export cargo dispatch with tracking for international shipments</li>
+            <li>Doorstep international delivery with end-to-end tracking</li>
             <li>Tracking link sent via SMS and Email upon dispatch</li>
           </ul>
 

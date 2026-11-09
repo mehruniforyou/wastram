@@ -42,7 +42,7 @@ export default function B2BEnquiryModal({
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Hello Wastram B2B Team,\n\nI am interested in wholesale pricing for:\nProduct: ${product.title}\nSKU: ${product.sku || product.id}\nCategory: ${product.category}\nSelected Size/Pack: ${selectedSize}\n\nPlease share export line sheets and bulk pricing.`
+    `Hello Wastram Atelier,\n\nI am interested in boutique pricing for:\nProduct: ${product.title}\nSKU: ${product.sku || product.id}\nCategory: ${product.category}\nSelected Size/Pack: ${selectedSize}\n\nPlease share the lookbook and line sheets.`
   );
 
   return (
@@ -55,9 +55,9 @@ export default function B2BEnquiryModal({
         <div className="bg-[#0B2D7F] text-white px-6 py-4 flex items-center justify-between">
           <div className="flex flex-col">
             <span className="text-[10px] uppercase tracking-widest text-[#D4AF37] font-semibold">
-              B2B Manufacturer & Export
+              Artisan Atelier &amp; Haute Textiles
             </span>
-            <h2 className="text-lg font-bold tracking-tight">Request Wholesale Quote</h2>
+            <h2 className="text-lg font-serif font-normal tracking-wide">Boutique Sourcing Inquiry</h2>
           </div>
           <button
             onClick={onClose}
@@ -69,15 +69,15 @@ export default function B2BEnquiryModal({
         </div>
 
         {/* Modal Body */}
-        <div className="p-5 sm:p-6 overflow-y-auto space-y-4 font-archivo">
+        <div className="p-5 sm:p-6 overflow-y-auto space-y-4 font-sans">
           {submitted ? (
             <div className="text-center py-8 px-4 space-y-3">
               <div className="w-16 h-16 mx-auto rounded-full bg-[#0B2D7F] text-[#D4AF37] flex items-center justify-center text-3xl shadow-md">
                 ✓
               </div>
-              <h3 className="text-xl font-bold text-[#0B2D7F]">Enquiry Submitted Successfully</h3>
+              <h3 className="text-xl font-serif font-semibold text-[#0B2D7F]">Inquiry Transmitted</h3>
               <p className="text-xs text-black/70 max-w-sm mx-auto leading-relaxed">
-                Thank you, <strong>{formData.name || 'Valued Partner'}</strong>. Our export desk has received your enquiry for <strong>{product.title}</strong>. We will contact you via email and WhatsApp within 2–4 hours with FOB/CIF line sheets.
+                Thank you, <strong>{formData.name || 'Valued Partner'}</strong>. Our atelier concierge has received your inquiry for <strong>{product.title}</strong>. We will contact you via email and WhatsApp within 2–4 hours with line sheets and specifications.
               </p>
               <div className="pt-4 flex flex-col sm:flex-row gap-2 justify-center">
                 <a
@@ -245,7 +245,7 @@ export default function B2BEnquiryModal({
                     disabled={isSubmitting}
                     className="flex-1 py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#38201a] font-bold text-xs uppercase tracking-wider transition-all shadow-md disabled:opacity-50"
                   >
-                    {isSubmitting ? 'Transmitting Enquiry...' : 'Submit Wholesale Enquiry'}
+                    {isSubmitting ? 'Transmitting Inquiry...' : 'Submit Boutique Inquiry'}
                   </button>
                   <a
                     href={`https://wa.me/918003088838?text=${whatsappMessage}`}

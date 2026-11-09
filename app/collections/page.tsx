@@ -4,9 +4,9 @@ import CollectionsCatalogue from '@/components/CollectionsCatalogue';
 import { siteConfig } from '@/data/site-config';
 
 export const metadata: Metadata = {
-  title: "Complete Wholesale Collections Catalogue | Indian Women's Wear",
+  title: "Complete Haute Collections Catalogue | Indian Women's Wear",
   description:
-    "Browse the full wholesale export catalogue of Wastram. Over 130 designs across royal 3-piece suit sets, designer ethnic co-ords, tiered chiffon dresses, artisanal kurtas, festive lehengas, and luxe satin shirts.",
+    "Browse the full haute couture and artisanal catalogue of Wastram. Over 1,400 designs across royal 3-piece suit sets, designer ethnic co-ords, tiered chiffon dresses, artisanal kurtas, festive lehengas, and luxe satin shirts.",
   alternates: {
     canonical: `${siteConfig.productionDomain}/collections`,
   },

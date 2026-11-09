@@ -18,7 +18,7 @@ export default function DenimAtelierShowcase() {
             {/* Background Campaign Image */}
             <img
               src="/denim-collection/IMG-20261102-WA0488.jpg.jpeg"
-              alt="Denim Atelier Export"
+              alt="Denim Atelier Showcase"
               className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-luminosity hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#071F59] via-[#0B2D7F]/70 to-[#0B2D7F]/40" />
@@ -37,10 +37,10 @@ export default function DenimAtelierShowcase() {
             <div className="relative z-10 flex flex-col gap-4 mt-auto pt-16">
               <div>
                 <span className="font-serif italic text-base md:text-lg text-[#D4AF37] block mb-1">
-                  Jaipur Direct Manufacturing
+                  Artisanal Denim Craft
                 </span>
                 <h3 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-normal uppercase tracking-wide leading-[1.1] text-white drop-shadow-sm">
-                  The Denim Export Edit
+                  The Denim Atelier Edit
                 </h3>
               </div>
 

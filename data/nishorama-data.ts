@@ -45,7 +45,7 @@ export const NISHORAMA_STORIES = [
     id: 1,
     title: 'WESTERN DRESSES',
     image: '/western-dresses/1668.jpg.jpeg',
-    subtitle: '260+ Export Designs',
+    subtitle: '260+ Signature Designs',
     tag: 'NEW'
   },
   {
@@ -213,15 +213,15 @@ export const NISHORAMA_POPULAR_SEARCHES = {
     { text: 'Fluted Hem Midi', href: '/collections/western-dresses' },
     { text: 'Puff Sleeve Flounce', href: '/collections/western-dresses' }
   ],
-  'Export Collections': [
-    { text: 'Shop All (170+ Styles)', href: '/collections/shop-all' },
-    { text: 'Export Bestsellers', href: '/collections/most-wanted' },
+  'Signature Collections': [
+    { text: 'Shop All (1,400+ Styles)', href: '/collections/shop-all' },
+    { text: 'Signature Bestsellers', href: '/collections/most-wanted' },
     { text: 'New Arrivals 2026', href: '/collections/new-in' }
   ],
-  'Wholesale Information': [
-    { text: 'About Wastram Wholesale', href: '/pages/about-us' },
-    { text: 'Export & Shipping Terms', href: '/pages/refund-policy' },
-    { text: 'Buyer FAQs', href: '/pages/faqs' },
-    { text: 'Contact Export Desk', href: '/pages/contact' }
+  'Boutique & Trade Services': [
+    { text: 'About Wastram Atelier', href: '/pages/about-us' },
+    { text: 'Atelier Delivery Terms', href: '/pages/refund-policy' },
+    { text: 'Boutique FAQs', href: '/pages/faqs' },
+    { text: 'Contact Atelier Concierge', href: '/pages/contact' }
   ]
 };

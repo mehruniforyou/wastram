@@ -198,7 +198,7 @@ export default function TapAndViewModal() {
             {/* Features preview */}
             <div className="text-xs text-black/70 space-y-1 pt-2">
               <p>• Premium Pure Fabric with Handcrafted detailing</p>
-              <p>• Worldwide export shipping via DHL / Air / Sea cargo</p>
+              <p>• Worldwide doorstep delivery via express air freight</p>
               <p>• 7-day hassle-free exchange & COD available</p>
             </div>
           </div>

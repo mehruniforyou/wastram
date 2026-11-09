@@ -3,18 +3,27 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { NISHORAMA_STORIES } from '@/data/nishorama-data';
+import { useCart } from '@/context/CartContext';
 
 interface StoryViewerModalProps {
-  isOpen: boolean;
-  onClose: () => void;
+  isOpen?: boolean;
+  onClose?: () => void;
 }
 
 export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalProps) {
+  const { isStoryOpen: globalStoryOpen, closeStory: globalCloseStory } = useCart();
+  const effectiveIsOpen = isOpen !== undefined ? isOpen : globalStoryOpen;
+
+  const handleClose = () => {
+    if (onClose) onClose();
+    globalCloseStory();
+  };
+
   const [currentIdx, setCurrentIdx] = useState(0);
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    if (!isOpen) {
+    if (!effectiveIsOpen) {
       setProgress(0);
       return;
     }
@@ -29,7 +38,7 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
             setCurrentIdx(c => c + 1);
             return 0;
           } else {
-            onClose();
+            handleClose();
             return 0;
           }
         }
@@ -38,9 +47,9 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
     }, interval);
 
     return () => clearInterval(timer);
-  }, [isOpen, currentIdx, onClose]);
+  }, [effectiveIsOpen, currentIdx]);
 
-  if (!isOpen) return null;
+  if (!effectiveIsOpen) return null;
 
   const currentStory = NISHORAMA_STORIES[currentIdx];
 
@@ -58,7 +67,7 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
       setCurrentIdx(currentIdx + 1);
       setProgress(0);
     } else {
-      onClose();
+      handleClose();
     }
   };
 
@@ -66,8 +75,8 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
     <div className="fixed inset-0 z-[70] flex items-center justify-center bg-black/80 backdrop-blur-md">
       {/* Close button */}
       <button
-        onClick={onClose}
-        className="absolute top-4 right-4 z-20 text-white/80 hover:text-white p-2 rounded-full bg-black/30"
+        onClick={handleClose}
+        className="absolute top-4 right-4 z-20 text-white/80 hover:text-white p-2 rounded-full bg-black/30 cursor-pointer"
         aria-label="Close stories"
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,13 +106,17 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
         </div>
 
         {/* Story Header */}
-        <div className="absolute top-7 left-4 right-4 z-20 flex items-center justify-between text-white font-archivo">
+        <div className="absolute top-7 left-4 right-4 z-20 flex items-center justify-between text-white font-sans">
           <div className="flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-full bg-[#FAF9F6] flex items-center justify-center">
-              <span className="font-serif font-bold text-xs text-[#0B2D7F]">नी</span>
+            <div className="w-7 h-7 rounded-full bg-[#FAF9F6] p-0.5 flex items-center justify-center overflow-hidden shadow-xs">
+              <img
+                src="/images/brand/wastram-craft-emblem.png"
+                alt="Wastram"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
-              <p className="text-xs font-bold tracking-wider">NISHORAMA</p>
+              <p className="text-xs font-serif font-bold tracking-wider uppercase text-white">WASTRAM</p>
               <p className="text-[10px] text-white/70">{currentStory.tag}</p>
             </div>
           </div>
@@ -128,15 +141,15 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
           <span className="text-xs uppercase tracking-widest text-[#D4AF37] font-semibold">
             {currentStory.subtitle}
           </span>
-          <h3 className="text-2xl font-black tracking-tight uppercase font-archivo">
+          <h3 className="text-2xl font-serif font-normal tracking-wide uppercase text-white">
             {currentStory.title}
           </h3>
           <Link
             href="/collections/shop-all"
-            onClick={onClose}
-            className="mt-3 w-full py-3 bg-white text-black font-archivo font-bold text-center text-xs tracking-wider uppercase rounded-full hover:bg-[#FAF9F6] transition-colors"
+            onClick={handleClose}
+            className="mt-3 w-full py-3 bg-white text-[#0B2D7F] font-sans font-semibold text-center text-xs tracking-wider uppercase rounded-full hover:bg-[#FAF9F6] transition-colors"
           >
-            SHOP COLLECTION →
+            Explore Collections &rarr;
           </Link>
         </div>
       </div>

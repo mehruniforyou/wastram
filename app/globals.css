@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 :root {
+  color-scheme: light;
   --color-brand-brown: #0B2D7F;
   --color-brand-red: #F58220;
   --color-brand-gold: #D4AF37;
@@ -25,12 +26,14 @@ html {
   max-width: 100%;
   overflow-x: clip;
   background-color: #FAF9F6 !important;
+  color-scheme: light !important;
 }
 
 body {
   font-family: var(--font-sans);
   color: #121212;
   background-color: #FAF9F6 !important;
+  color-scheme: light !important;
   margin: 0;
   padding: 0;
   width: 100%;

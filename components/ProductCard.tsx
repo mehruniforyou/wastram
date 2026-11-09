@@ -67,7 +67,7 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
         {product.badge && (
           <div className="cust-badges-wrapper absolute top-3 left-3 z-10 pointer-events-none">
             <span className="cust-sale-badge">
-              {product.badge}
+              {product.badge.replace(/Export/gi, 'Signature')}
             </span>
           </div>
         )}

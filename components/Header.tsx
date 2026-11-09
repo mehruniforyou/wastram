@@ -8,13 +8,18 @@ import { useCart } from '@/context/CartContext';
 
 interface HeaderProps {
   onOpenDrawer?: () => void;
-  onOpenStory: () => void;
-  onOpenSearch: () => void;
+  onOpenStory?: () => void;
+  onOpenSearch?: () => void;
 }
 
-export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
-  const { cartCount, wishlist, openCart } = useCart();
+export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: HeaderProps) {
+  const { wishlist, openCart, openDrawer, openStory, openSearch, openB2BQuote } = useCart();
   const wishlistCount = wishlist.length;
+
+  const handleOpenDrawer = onOpenDrawer || openDrawer;
+  const handleOpenStory = onOpenStory || openStory;
+  const handleOpenSearch = onOpenSearch || openSearch;
+  const handleOpenQuote = openB2BQuote || openCart;
 
   return (
     <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md shadow-[0_2px_12px_rgba(11,45,127,0.03)] transition-all">
@@ -25,7 +30,7 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
         {/* Left: Artisan Stories Ring & Wastram Logo */}
         <div className="flex items-center gap-3 shrink-0">
           <div className="flex items-center" title="Artisan Stories">
-            <StoryRing onClick={onOpenStory} size="w-8 h-8" />
+            <StoryRing onClick={handleOpenStory} size="w-8 h-8" />
           </div>
 
           <Link href="/" className="flex items-center hover:opacity-90 transition-opacity pl-0.5" aria-label="Wastram Home">
@@ -78,11 +83,12 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
           </Link>
         </nav>
 
-        {/* Right: Search, Wishlist, Cart (Guaranteed 100% visible, shrink-0, ml-auto) */}
+        {/* Right: Search, Saved Items, Boutique Inquiry Capsule */}
         <div className="flex items-center gap-2 xl:gap-3 shrink-0 ml-auto">
           {/* Search Trigger */}
           <button
-            onClick={onOpenSearch}
+            type="button"
+            onClick={handleOpenSearch}
             className="p-2 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors rounded-full hover:bg-black/[0.03] cursor-pointer"
             aria-label="Search Catalog"
             title="Search"
@@ -97,8 +103,8 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
           <Link
             href="/pages/swym-wishlist"
             className="relative p-2 text-[#0B2D7F] hover:text-[#F58220] transition-colors rounded-full hover:bg-black/[0.03] flex items-center justify-center cursor-pointer"
-            aria-label={`Wishlist (${wishlistCount})`}
-            title="Saved Items"
+            aria-label={`Saved Styles (${wishlistCount})`}
+            title="Saved Styles"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -120,18 +126,16 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
             )}
           </Link>
 
-          {/* Cart Bag Capsule - Guaranteed visible with shrink-0 & soft shadow */}
+          {/* Boutique Inquiries Concierge Action */}
           <button
-            onClick={openCart}
-            className="flex items-center gap-1.5 xl:gap-2 h-9 px-3.5 xl:px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[12px] font-medium shadow-soft hover:shadow-card shrink-0 cursor-pointer"
-            aria-label="Shopping Cart"
+            type="button"
+            onClick={handleOpenQuote}
+            className="flex items-center gap-1.5 xl:gap-2 h-9 px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] xl:text-[12px] font-medium uppercase tracking-[0.12em] shadow-soft hover:shadow-card shrink-0 cursor-pointer group"
+            aria-label="Inquire for Boutiques"
+            title="Boutique & Trade Inquiries"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
-              <line x1="3" y1="6" x2="21" y2="6" />
-              <path d="M16 10a4 4 0 0 1-8 0" />
-            </svg>
-            <span className="font-bold">{cartCount}</span>
+            <span>Inquire</span>
+            <span className="text-[#F58220] group-hover:translate-x-0.5 transition-transform">&rarr;</span>
           </button>
         </div>
       </div>
@@ -139,15 +143,29 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
       {/* ============================================================== */}
       {/* MOBILE HEADER (Screens < 1024px)                               */}
       {/* ============================================================== */}
-      <div className="flex lg:hidden items-center justify-between px-4 py-2 w-full max-w-7xl mx-auto">
-        {/* Left: Artisan Stories Ring & Search */}
-        <div className="flex items-center gap-2 shrink-0">
-          <StoryRing onClick={onOpenStory} size="w-7 h-7" />
+      <div className="flex lg:hidden items-center justify-between px-3 sm:px-4 py-2 w-full max-w-7xl mx-auto">
+        {/* Left: Mobile Navigation Menu (Hamburger) & Search */}
+        <div className="flex items-center gap-1 shrink-0">
+          <button
+            type="button"
+            onClick={handleOpenDrawer}
+            className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-black/[0.03] transition-colors cursor-pointer"
+            aria-label="Open Navigation Menu"
+            title="Menu"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
 
           <button
-            onClick={onOpenSearch}
+            type="button"
+            onClick={handleOpenSearch}
             className="p-1.5 text-[#0B2D7F] focus:outline-none rounded-full hover:bg-black/[0.03] transition-colors cursor-pointer"
-            aria-label="Search"
+            aria-label="Search Catalog"
+            title="Search"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="8" />
@@ -163,12 +181,12 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
           </Link>
         </div>
 
-        {/* Right: Wishlist & Cart (Guaranteed 100% visible, shrink-0) */}
+        {/* Right: Saved Styles & Inquire Capsule */}
         <div className="flex items-center gap-2 shrink-0">
           <Link
             href="/pages/swym-wishlist"
             className="relative p-1.5 text-[#0B2D7F] hover:text-[#F58220] transition-colors cursor-pointer"
-            aria-label={`Wishlist (${wishlistCount})`}
+            aria-label={`Saved Styles (${wishlistCount})`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -190,17 +208,15 @@ export default function Header({ onOpenStory, onOpenSearch }: HeaderProps) {
             )}
           </Link>
 
+          {/* Inquire Action on Mobile */}
           <button
-            onClick={openCart}
-            className="flex items-center gap-1 h-8 px-2.5 rounded-full bg-[#0B2D7F] text-white cursor-pointer shadow-soft text-xs"
-            aria-label="Shopping Cart"
+            type="button"
+            onClick={handleOpenQuote}
+            className="flex items-center gap-1 h-8 px-2.5 sm:px-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all cursor-pointer shadow-soft text-[11px] font-medium uppercase tracking-wider active:scale-95"
+            aria-label="Inquire for Boutiques"
+            title="Boutique Inquiries"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
-              <line x1="3" y1="6" x2="21" y2="6" />
-              <path d="M16 10a4 4 0 0 1-8 0" />
-            </svg>
-            <span className="font-bold">{cartCount}</span>
+            <span>Inquire</span>
           </button>
         </div>
       </div>

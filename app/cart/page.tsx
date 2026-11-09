@@ -66,7 +66,7 @@ export default function CartPage() {
               <div className="pb-4 mb-2 text-xs">
                 {remainingForFreeShipping > 0 ? (
                   <p className="text-black/70 mb-2">
-                    B2B Wholesale Quotation Basket • Direct Manufacturer Dispatch (UK, USA, EU, Gulf)
+                    Atelier Trade Inquiry Selection • Direct Artisan Dispatch (UK, USA, EU, Gulf)
                   </p>
                 ) : (
                   <p className="text-emerald-700 font-bold mb-2">

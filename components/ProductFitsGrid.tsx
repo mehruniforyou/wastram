@@ -17,7 +17,7 @@ export default function ProductFitsGrid() {
     { id: 'short-long-kaftan', label: 'Kaftans' },
     { id: 'hoodies-sweatshirts', label: 'Hoodies' },
     { id: 'tops-shirts', label: 'Tops & Shirts' },
-    { id: 'bestsellers', label: 'Export Bestsellers' },
+    { id: 'bestsellers', label: 'Signature Bestsellers' },
   ];
 
   const currentProducts = useMemo(() => {
@@ -44,7 +44,7 @@ export default function ProductFitsGrid() {
         {/* Elegant Section Heading */}
         <div className="flex flex-col items-center text-center">
           <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1">
-            Global Export Ready
+            Artisanal Curation
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.12em] uppercase text-[#0B2D7F]">
             Featured Collections

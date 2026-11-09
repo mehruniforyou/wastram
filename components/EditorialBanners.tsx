@@ -117,7 +117,7 @@ export default function EditorialBanners() {
               >
                 <img
                   src="/nishorama-images/banner-dresses.png"
-                  alt="Export Dresses"
+                  alt="Atelier Dresses"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
@@ -125,10 +125,10 @@ export default function EditorialBanners() {
                 <div className="absolute inset-0 p-5 md:p-8 flex items-end justify-between text-white z-10">
                   <div>
                     <span className="font-serif italic text-sm md:text-base text-[#D4AF37] block">
-                      Global Ready
+                      Artisanal Mastery
                     </span>
                     <h3 className="text-2xl md:text-3xl font-serif font-normal tracking-wide uppercase text-white">
-                      Export Dresses
+                      Atelier Dresses
                     </h3>
                   </div>
                   <span className="px-4 py-1.5 text-[11px] font-sans font-medium tracking-wider uppercase text-white rounded-full bg-white/20 backdrop-blur-md border border-white/25">

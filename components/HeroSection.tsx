@@ -28,7 +28,7 @@ export default function HeroSection() {
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center max-w-4xl px-4 w-full">
           {/* Section Kicker Pill */}
           <span className="text-[11px] font-sans uppercase tracking-[0.22em] text-[#0B2D7F] font-semibold mb-3 px-4 py-1 rounded-full bg-white/90 backdrop-blur-md shadow-soft">
-            Direct B2B Manufacturer &amp; Export House
+            Jaipur Haute Textiles &amp; Bespoke Production
           </span>
 
           {/* Grand Elegant Heading */}
@@ -48,7 +48,7 @@ export default function HeroSection() {
               href="/pages/contact"
               className="px-8 py-3.5 rounded-full bg-white/95 text-[#0B2D7F] hover:bg-white transition-all text-xs font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card"
             >
-              Request B2B Quote
+              Boutique Inquiries
             </Link>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function HeroSection() {
         {/* Mobile Overlay Content */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center w-[92%] max-w-sm">
           <span className="text-[10px] uppercase tracking-[0.2em] text-[#0B2D7F] font-semibold mb-2.5 px-3 py-0.5 rounded-full bg-white/90 backdrop-blur-md shadow-soft">
-            Direct B2B Manufacturer
+            Artisanal Textile Atelier
           </span>
 
           <h1 className="text-2xl sm:text-3xl font-serif font-normal tracking-wide text-[#0B2D7F] uppercase leading-tight mb-5 drop-shadow-sm">
@@ -93,7 +93,7 @@ export default function HeroSection() {
               href="/pages/contact"
               className="w-full py-3 rounded-full bg-white/95 text-[#0B2D7F] hover:bg-white transition-all text-xs font-medium uppercase tracking-[0.15em] shadow-soft text-center"
             >
-              Request Quote
+              Boutique Inquiries
             </Link>
           </div>
         </div>
