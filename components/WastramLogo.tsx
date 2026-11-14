@@ -17,12 +17,15 @@ export default function WastramLogo({
 }: WastramLogoProps) {
   if (variant === 'emblem') {
     return (
-      <img
-        src="/images/brand/wastram-craft-emblem.png"
-        alt={alt}
-        className={`object-contain ${className}`}
-        loading={priority ? 'eager' : 'lazy'}
-      />
+      <picture className="inline-block">
+        <source srcSet="/images/brand/wastram-craft-emblem-hd.webp" type="image/webp" />
+        <img
+          src="/images/brand/wastram-craft-emblem-hd.png"
+          alt={alt}
+          className={`object-contain ${className}`}
+          loading={priority ? 'eager' : 'lazy'}
+        />
+      </picture>
     );
   }
 

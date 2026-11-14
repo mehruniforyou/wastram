@@ -60,7 +60,15 @@ export default function MobileNavDrawer({
       <div className="relative w-[88%] max-w-[360px] h-full bg-[#FAF9F6] shadow-2xl z-10 flex flex-col overflow-y-auto no-scrollbar">
         {/* Header with logo, social icons at top & close */}
         <div className="flex items-center justify-between p-3.5 bg-[#FAF9F6] border-b border-[#0B2D7F]/10">
-          <Link href="/" onClick={handleClose} className="flex items-center shrink-0" aria-label="Wastram Home">
+          <Link href="/" onClick={handleClose} className="flex items-center gap-2 shrink-0 hover:opacity-90 transition-opacity" aria-label="Wastram Home">
+            <picture className="w-7 h-7 sm:w-8 sm:h-8 shrink-0 flex items-center justify-center">
+              <source srcSet="/images/brand/wastram-craft-emblem-hd.webp" type="image/webp" />
+              <img
+                src="/images/brand/wastram-craft-emblem-hd.png"
+                alt="Wastram Logomark"
+                className="w-full h-full object-contain filter drop-shadow-[0_1px_2px_rgba(11,45,127,0.08)]"
+              />
+            </picture>
             <WastramLogo className="h-6 sm:h-7 w-auto" priority />
           </Link>
 

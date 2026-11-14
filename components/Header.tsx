@@ -26,15 +26,15 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-6 xl:px-10 py-2.5 max-w-7xl mx-auto gap-4 w-full">
+      <div className="hidden lg:flex items-center justify-between px-6 xl:px-10 py-2 max-w-7xl mx-auto gap-4 w-full">
         {/* Left: Artisan Stories Ring & Wastram Logo */}
         <div className="flex items-center gap-3 shrink-0">
           <div className="flex items-center" title="Artisan Stories">
-            <StoryRing onClick={handleOpenStory} size="w-8 h-8" />
+            <StoryRing onClick={handleOpenStory} size="w-12 h-12 xl:w-13 xl:h-13" />
           </div>
 
           <Link href="/" className="flex items-center hover:opacity-90 transition-opacity pl-0.5" aria-label="Wastram Home">
-            <WastramLogo className="h-8 xl:h-9 w-auto" priority />
+            <WastramLogo className="h-9 xl:h-10 w-auto" priority />
           </Link>
         </div>
 
@@ -174,11 +174,14 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           </button>
         </div>
 
-        {/* Center: Wastram Official Gold Thread Calligraphy Logo */}
+        {/* Center: Wastram Official Logomark & Gold Thread Calligraphy Logo */}
         <div className="flex-1 flex items-center justify-center px-1 min-w-0 overflow-hidden">
-          <Link href="/" className="flex items-center py-0.5" aria-label="Wastram Home">
-            <WastramLogo className="h-7 sm:h-8 w-auto" priority />
-          </Link>
+          <div className="flex items-center gap-2">
+            <StoryRing onClick={handleOpenStory} size="w-9 h-9 sm:w-10 sm:h-10" />
+            <Link href="/" className="flex items-center py-0.5 hover:opacity-90 transition-opacity" aria-label="Wastram Home">
+              <WastramLogo className="h-7 sm:h-8 w-auto" priority />
+            </Link>
+          </div>
         </div>
 
         {/* Right: Saved Styles & Inquire Capsule */}
