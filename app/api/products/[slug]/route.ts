@@ -23,7 +23,8 @@ export async function GET(req: NextRequest, { params }: RouteProps) {
       (p) =>
         p.slug?.toLowerCase() === slug ||
         p.id?.toLowerCase() === slug ||
-        p.partNumber?.toLowerCase() === slug
+        p.partNumber?.toLowerCase() === slug ||
+        (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === slug)
     );
 
     if (!found || found.deleted) {

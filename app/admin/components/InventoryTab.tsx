@@ -345,7 +345,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
   // Discard all pending unsaved adjustments
   const handleDiscardAllPending = () => {
     setPendingChanges({});
-    notifyAdmin("info", "Änderungen verworfen", "Alle ungespeicherten Bestandsänderungen wurden zurückgesetzt.");
+    notifyAdmin("info", "Changes Discarded", "All unsaved inventory changes have been reset.");
   };
 
   // Batch Save all pending changes to the server in a single request
@@ -407,11 +407,11 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         setPendingChanges({});
         notifyAdmin(
           "success",
-          "Bestand erfolgreich gespeichert",
-          `${count} ${count === 1 ? "Bestandsänderung wurde" : "Bestandsänderungen wurden"} erfolgreich im System aktualisiert.`
+          "Inventory Saved Successfully",
+          `${count} ${count === 1 ? "stock update was" : "stock updates were"} successfully updated in the system.`
         );
       } else {
-        let errorMsg = "Bestand konnte nicht gespeichert werden.";
+        let errorMsg = "Inventory could not be saved.";
         try {
           const errData = await res.json();
           if (errData?.error) errorMsg = errData.error;
@@ -419,7 +419,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         notifyAdmin("error", "Speicherfehler", errorMsg);
       }
     } catch (err: any) {
-      notifyAdmin("error", "Verbindungsfehler", err?.message || "Netzwerkfehler beim Speichern.");
+      notifyAdmin("error", "Connection Error", err?.message || "Network error while saving.");
     } finally {
       setIsSavingPending(false);
     }
@@ -454,13 +454,13 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
           });
           notifyAdmin(
             "success",
-            "Lagerbestand gespeichert",
-            `Artikel "${editingItem.name}" erfolgreich auf ${editStockValue} units updated.`
+            "Stock Level Saved",
+            `Product "${editingItem.name}" successfully updated to ${editStockValue} units.`
           );
           setEditingItem(null);
         }
       } else {
-        notifyAdmin("error", "Fehler beim Speichern", "Lagerbestand konnte nicht gespeichert werden.");
+        notifyAdmin("error", "Error Saving", "Stock level could not be saved.");
       }
     } catch (err: any) {
       notifyAdmin("error", "Verbindungsfehler", err.message || "Netzwerkfehler.");
@@ -476,14 +476,14 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         return (
           <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
-            Auf Lager
+            In Stock
           </span>
         );
       case "LOW_STOCK":
         return (
           <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-800 border border-amber-300">
             <AlertTriangle className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-            Geringer Bestand
+            Low Stock
           </span>
         );
       case "OUT_OF_STOCK":
@@ -504,7 +504,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
               Inventory &amp; Stock Levels
             </h1>
             <Badge variant="outline" className="border-neutral-300 text-neutral-600 font-mono text-xs">
-              {metrics.totalCount} Artikel
+              {metrics.totalCount} Styles
             </Badge>
           </div>
           <p className="text-xs text-neutral-500 font-semibold mt-1">
@@ -567,7 +567,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         >
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-700 font-heading">
-              Auf Lager
+              In Stock
             </span>
             <CheckCircle2 className="w-4 h-4 text-emerald-600" />
           </div>
@@ -575,7 +575,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             {metrics.inStockCount}
           </div>
           <p className="text-[11px] text-emerald-600/80 mt-0.5">
-            Bestand über Schwellenwert
+            Stock above threshold
           </p>
         </div>
 
@@ -589,7 +589,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         >
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-amber-800 font-heading">
-              Geringer Bestand
+              Low Stock
             </span>
             <AlertTriangle className="w-4 h-4 text-amber-600" />
           </div>
@@ -597,7 +597,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             {metrics.lowStockCount}
           </div>
           <p className="text-[11px] text-amber-700/80 mt-0.5">
-            Bestand &le; Schwellenwert
+            Stock &le; threshold
           </p>
         </div>
 
@@ -714,17 +714,17 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
       {loading ? (
         <div className="bg-white rounded-2xl border-2 border-neutral-200 p-12 text-center space-y-3">
           <div className="w-8 h-8 rounded-full border-2 border-neutral-300 border-t-black animate-spin mx-auto" />
-          <p className="text-xs font-semibold text-neutral-600">Lade Inventar und Lagerbestände...</p>
+          <p className="text-xs font-semibold text-neutral-600">Loading inventory and stock levels...</p>
         </div>
       ) : filteredItems.length === 0 ? (
         <div className="bg-white rounded-2xl border-2 border-neutral-200 p-12 text-center space-y-4">
           <Boxes className="w-10 h-10 text-neutral-400 mx-auto stroke-[1.5]" />
           <div>
             <h3 className="font-heading font-black text-base text-black">
-              Keine passenden Produkte gefunden
+              No matching products found
             </h3>
             <p className="text-xs text-neutral-500 font-semibold mt-1">
-              Passen Sie Ihre Such- oder Filterkriterien an, um Artikel anzuzeigen.
+              Adjust your search or filter criteria to display styles.
             </p>
           </div>
           <Button
@@ -752,7 +752,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-600"></span>
                 </span>
                 <span className="font-semibold text-emerald-950">
-                  <strong className="font-bold">{pendingCount}</strong> {pendingCount === 1 ? "Bestandsänderung" : "Bestandsänderungen"} noch nicht gespeichert.
+                  <strong className="font-bold">{pendingCount}</strong> {pendingCount === 1 ? "stock change" : "stock changes"} pending save.
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -773,12 +773,12 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                   {isSavingPending ? (
                     <>
                       <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                      <span>Wird gespeichert...</span>
+                      <span>Saving...</span>
                     </>
                   ) : (
                     <>
                       <Save className="w-3.5 h-3.5" />
-                      <span>Speichern ({pendingCount})</span>
+                      <span>Save ({pendingCount})</span>
                     </>
                   )}
                 </button>
@@ -798,7 +798,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                     className="py-3.5 px-4 font-heading font-bold uppercase tracking-wider text-[11px] cursor-pointer hover:text-black transition-colors"
                   >
                     <div className="flex items-center gap-1.5">
-                      <span>Produkt &amp; SKU</span>
+                      <span>Product &amp; SKU</span>
                       {sortField === "name" && (
                         sortDirection === "asc" ? <ArrowUp className="w-3.5 h-3.5" /> : <ArrowDown className="w-3.5 h-3.5" />
                       )}
@@ -820,7 +820,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                     className="py-3.5 px-4 font-heading font-bold uppercase tracking-wider text-[11px] text-center cursor-pointer hover:text-black transition-colors"
                   >
                     <div className="flex items-center justify-center gap-1.5">
-                      <span>Lagerbestand</span>
+                      <span>Stock Level</span>
                       {sortField === "stock" && (
                         sortDirection === "asc" ? <ArrowUp className="w-3.5 h-3.5" /> : <ArrowDown className="w-3.5 h-3.5" />
                       )}
@@ -857,17 +857,17 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                           onClick={handleSaveAllPending}
                           disabled={isSavingPending}
                           className="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-heading font-bold text-xs shadow-md flex items-center gap-1.5 transition-all cursor-pointer active:scale-95 animate-pulse hover:animate-none"
-                          title="Änderungen jetzt speichern"
+                          title="Save changes now"
                         >
                           {isSavingPending ? (
                             <>
                               <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                              <span>Speichern...</span>
+                              <span>Saving...</span>
                             </>
                           ) : (
                             <>
                               <Save className="w-3.5 h-3.5" />
-                              <span>Speichern ({pendingCount})</span>
+                              <span>Save ({pendingCount})</span>
                             </>
                           )}
                         </button>
@@ -956,7 +956,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                               onClick={() => handleQuickAdjust(item, -1)}
                               disabled={effectiveStock <= 0}
                               className="w-6 h-6 rounded-lg border border-neutral-300 hover:border-black flex items-center justify-center text-neutral-700 hover:text-black disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-colors active:scale-90"
-                              title="Bestand um 1 verringern"
+                              title="Decrease stock by 1"
                             >
                               <Minus className="w-3 h-3" />
                             </button>
@@ -1019,7 +1019,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                               type="button"
                               onClick={() => handleQuickAdjust(item, 1)}
                               className="w-6 h-6 rounded-lg border border-neutral-300 hover:border-black flex items-center justify-center text-neutral-700 hover:text-black cursor-pointer transition-colors active:scale-90"
-                              title="Bestand um 1 erhöhen"
+                              title="Increase stock by 1"
                             >
                               <Plus className="w-3 h-3" />
                             </button>
@@ -1051,15 +1051,15 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                               className="h-8 px-2.5 rounded-xl border-neutral-300 hover:border-black text-xs font-heading font-bold cursor-pointer gap-1"
                             >
                               <Edit2 className="w-3.5 h-3.5" />
-                              <span>Verwalten</span>
+                              <span>Manage</span>
                             </Button>
 
                             <a
-                              href={`/${item.slug}`}
+                              href={`/products/${item.slug}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="p-1.5 rounded-xl border border-neutral-300 hover:border-black text-neutral-600 hover:text-black transition-colors"
-                              title="Produkt live im Shop öffnen"
+                              title="View product live in store"
                             >
                               <ExternalLink className="w-3.5 h-3.5" />
                             </a>
@@ -1157,7 +1157,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         <AdminDrawer
           isOpen={Boolean(editingItem)}
           onClose={() => setEditingItem(null)}
-          title={`Lagerbestand verwalten: ${editingItem.name}`}
+          title={`Manage Stock: ${editingItem.name}`}
         >
           <div className="space-y-6 p-4 sm:p-6 font-sans">
             {/* Product summary card */}
@@ -1243,7 +1243,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                 className="w-full bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-3 py-2 text-sm font-semibold text-black outline-none tabular-nums"
               />
               <p className="text-[11px] text-neutral-500">
-                Fällt der Lagerbestand auf oder unter diesen Wert, wird eine Warnung in der Benachrichtigungszentrale ausgelöst.
+                If stock falls to or below this threshold, an alert is triggered in the notification center.
               </p>
             </div>
 
@@ -1278,7 +1278,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                 onClick={() => setEditingItem(null)}
                 className="rounded-xl text-xs font-bold uppercase border-neutral-300"
               >
-                Abbrechen
+                Cancel
               </Button>
               <Button
                 type="button"
@@ -1291,7 +1291,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                 ) : (
                   <>
                     <Save className="w-3.5 h-3.5" />
-                    <span>Lagerbestand sichern</span>
+                    <span>Save Stock Level</span>
                   </>
                 )}
               </Button>

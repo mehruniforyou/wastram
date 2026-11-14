@@ -4349,7 +4349,7 @@ function AdminPageContent() {
                           {/* Right: Actions */}
                           <div onClick={(e) => e.stopPropagation()} className="flex items-center justify-end gap-2 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-200">
                             <a
-                              href={`/${cat.slug}`}
+                              href={`/collections/${cat.slug}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="p-2 rounded-xl border border-neutral-300 hover:border-black text-black transition-colors"
@@ -4907,7 +4907,7 @@ function AdminPageContent() {
                                 {/* Right: Actions */}
                                 <div onClick={(e) => e.stopPropagation()} className="flex items-center justify-end gap-2 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-200">
                                   <a
-                                    href={`/${(prod.slug || prod.id).trim().toLowerCase().replace(/[^a-z0-9-]+/g, "-").replace(/(^-|-$)/g, "")}`}
+                                    href={`/products/${(prod.slug || prod.id).trim().toLowerCase().replace(/[^a-z0-9-]+/g, "-").replace(/(^-|-$)/g, "")}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-2 rounded-xl border border-neutral-300 hover:border-black text-black transition-colors"
@@ -8918,13 +8918,13 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
               )}
             </div>
             <a
-              href={`/${product.slug}`}
+              href={`/products/${product.slug}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-[10px] text-muted-foreground hover:text-foreground font-mono inline-flex items-center gap-1 group transition-colors"
               title="View product live in store"
             >
-              <span>/{product.slug}</span>
+              <span>/products/{product.slug}</span>
               <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100" />
             </a>
           </div>

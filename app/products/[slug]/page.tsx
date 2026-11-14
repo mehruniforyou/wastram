@@ -20,8 +20,12 @@ interface Props {
 export default function ProductDetailPage({ params }: Props) {
   // Read initial product and check if archived or deleted
   const initialItem = React.useMemo(() => {
+    const rawSlug = decodeURIComponent(params.slug || "").toLowerCase().trim();
     const found = NISHORAMA_PRODUCTS.find(
-      p => p.slug?.toLowerCase() === params.slug?.toLowerCase() || p.id?.toLowerCase() === params.slug?.toLowerCase()
+      p => p.slug?.toLowerCase() === rawSlug ||
+           p.id?.toLowerCase() === rawSlug ||
+           p.partNumber?.toLowerCase() === rawSlug ||
+           (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === rawSlug)
     );
     if (!found || (found as any).deleted || (found as any).is_hidden) return null;
     return found;
