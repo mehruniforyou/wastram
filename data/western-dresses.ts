@@ -1,23 +1,18 @@
-// Auto-generated Western Dresses catalogue dataset for B2B Wholesale
+// Auto-generated western-dresses catalogue dataset for B2B Wholesale
 import { NishoramaProduct } from './nishorama-data';
 
 export const WESTERN_DRESSES: NishoramaProduct[] = [
   {
-    "id": "wd-001",
+    "id": "wd-0001",
     "title": "Aria Tiered Maxi Dress",
-    "slug": "aria-tiered-maxi-dress-1",
+    "slug": "aria-tiered-maxi-dress-wd-1",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/1668.jpg.jpeg",
-      "/western-dresses/1669.jpg.jpeg",
-      "/western-dresses/1670.jpg.jpeg",
-      "/western-dresses/1806.jpg.jpeg",
-      "/western-dresses/1886.jpg.jpeg",
-      "/western-dresses/1999.jpg.jpeg"
+      "/western-dresses/1668.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -36,24 +31,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-101"
+    "sku": "WST-WD-0001"
   },
   {
-    "id": "wd-002",
+    "id": "wd-0002",
+    "title": "Sienna Tiered Maxi Dress",
+    "slug": "sienna-tiered-maxi-dress-wd-001-wd-2",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/1669.jpg.jpeg",
+      "/western-dresses/1670.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Tiered Maxi Dress (WST-WD-101) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0002"
+  },
+  {
+    "id": "wd-0003",
+    "title": "Aria Tiered Ruffle Maxi Dress",
+    "slug": "aria-tiered-ruffle-maxi-dress-wd-001-wd-3",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/1806.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Tiered Ruffle Maxi Dress (WST-WD-500) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0003"
+  },
+  {
+    "id": "wd-0004",
+    "title": "Sienna Embroidered Cotton Shirtdress",
+    "slug": "sienna-embroidered-cotton-shirtdress-wd-001-wd-4",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/1886.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Embroidered Cotton Shirtdress (WST-WD-501) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0004"
+  },
+  {
+    "id": "wd-0005",
+    "title": "Elena Smocked Flounce Midi Dress",
+    "slug": "elena-smocked-flounce-midi-dress-wd-001-wd-5",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/1999.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Smocked Flounce Midi Dress (WST-WD-502) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0005"
+  },
+  {
+    "id": "wd-0006",
     "title": "Sienna Cowl Neck Slip Dress",
-    "slug": "sienna-cowl-neck-slip-dress-2",
+    "slug": "sienna-cowl-neck-slip-dress-wd-6",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5487.jpg.jpeg",
-      "/western-dresses/5488.jpg.jpeg",
-      "/western-dresses/5490.jpg.jpeg",
-      "/western-dresses/5494.jpg.jpeg",
-      "/western-dresses/5495.jpg.jpeg",
-      "/western-dresses/5496.jpg.jpeg"
+      "/western-dresses/5487.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -72,24 +187,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-102"
+    "sku": "WST-WD-0006"
   },
   {
-    "id": "wd-003",
-    "title": "Elena Belted Shirtdress",
-    "slug": "elena-belted-shirtdress-3",
+    "id": "wd-0007",
+    "title": "Chloe Cowl Neck Slip Dress",
+    "slug": "chloe-cowl-neck-slip-dress-wd-002-wd-7",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5497.jpg.jpeg",
-      "/western-dresses/5498.jpg.jpeg",
-      "/western-dresses/5540.jpg.jpeg",
-      "/western-dresses/5541.jpg.jpeg",
-      "/western-dresses/5542.jpg.jpeg",
-      "/western-dresses/5543.jpg.jpeg"
+      "/western-dresses/5488.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Cowl Neck Slip Dress (WST-WD-102) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0007"
+  },
+  {
+    "id": "wd-0008",
+    "title": "Freya Cowl Neck Slip Dress",
+    "slug": "freya-cowl-neck-slip-dress-wd-002-wd-8",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5490.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Cowl Neck Slip Dress (WST-WD-102) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0008"
+  },
+  {
+    "id": "wd-0009",
+    "title": "Mila Broderie Anglaise Sundress",
+    "slug": "mila-broderie-anglaise-sundress-wd-002-wd-9",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5494.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Broderie Anglaise Sundress (WST-WD-503) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0009"
+  },
+  {
+    "id": "wd-0010",
+    "title": "Freya Broderie Anglaise Sundress",
+    "slug": "freya-broderie-anglaise-sundress-wd-002-b-wd-10",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5495.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Broderie Anglaise Sundress (WST-WD-503) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0010"
+  },
+  {
+    "id": "wd-0011",
+    "title": "Maya Broderie Anglaise Sundress",
+    "slug": "maya-broderie-anglaise-sundress-wd-002-b-wd-11",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5496.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Broderie Anglaise Sundress (WST-WD-503) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0011"
+  },
+  {
+    "id": "wd-0012",
+    "title": "Elena Belted Shirtdress",
+    "slug": "elena-belted-shirtdress-wd-12",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5497.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -108,12 +373,77 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-103"
+    "sku": "WST-WD-0012"
   },
   {
-    "id": "wd-004",
+    "id": "wd-0013",
+    "title": "Maya Belted Shirtdress",
+    "slug": "maya-belted-shirtdress-wd-003-wd-13",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5498.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Belted Shirtdress (WST-WD-103) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0013"
+  },
+  {
+    "id": "wd-0014",
+    "title": "Isla Pleated Wrap Midi Dress",
+    "slug": "isla-pleated-wrap-midi-dress-wd-003-wd-14",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5540.jpg.jpeg",
+      "/western-dresses/5541.jpg.jpeg",
+      "/western-dresses/5542.jpg.jpeg",
+      "/western-dresses/5543.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Pleated Wrap Midi Dress (WST-WD-504) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0014"
+  },
+  {
+    "id": "wd-0015",
     "title": "Mila Bias-Cut Slip Dress",
-    "slug": "mila-bias-cut-slip-dress-4",
+    "slug": "mila-bias-cut-slip-dress-wd-15",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -121,11 +451,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5544.jpg.jpeg",
-      "/western-dresses/5545.jpg.jpeg",
-      "/western-dresses/5546.jpg.jpeg",
-      "/western-dresses/5547.jpg.jpeg",
-      "/western-dresses/5548.jpg.jpeg",
-      "/western-dresses/5549.jpg.jpeg"
+      "/western-dresses/5545.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -144,23 +470,147 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-104"
+    "sku": "WST-WD-0015"
   },
   {
-    "id": "wd-005",
+    "id": "wd-0016",
+    "title": "Zara Bias-Cut Slip Dress",
+    "slug": "zara-bias-cut-slip-dress-wd-004-wd-16",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5546.jpg.jpeg",
+      "/western-dresses/5547.jpg.jpeg",
+      "/western-dresses/5548.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Bias-Cut Slip Dress (WST-WD-104) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0016"
+  },
+  {
+    "id": "wd-0017",
+    "title": "Chloe Lantern Sleeve Tunic Dress",
+    "slug": "chloe-lantern-sleeve-tunic-dress-wd-004-wd-17",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5549.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Lantern Sleeve Tunic Dress (WST-WD-505) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0017"
+  },
+  {
+    "id": "wd-0018",
     "title": "Isla Embroidered Midi Dress",
-    "slug": "isla-embroidered-midi-dress-5",
+    "slug": "isla-embroidered-midi-dress-wd-18",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5550.jpg.jpeg",
+      "/western-dresses/5550.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Embroidered Midi Dress (WST-WD-105) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0018"
+  },
+  {
+    "id": "wd-0019",
+    "title": "Nova Embroidered Midi Dress",
+    "slug": "nova-embroidered-midi-dress-wd-005-wd-19",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5551.jpg.jpeg",
       "/western-dresses/5552.jpg.jpeg",
       "/western-dresses/5553.jpg.jpeg",
-      "/western-dresses/5554.jpg.jpeg",
+      "/western-dresses/5554.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Embroidered Midi Dress (WST-WD-105) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0019"
+  },
+  {
+    "id": "wd-0020",
+    "title": "Bella Embroidered Midi Dress",
+    "slug": "bella-embroidered-midi-dress-wd-005-wd-20",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5555.jpg.jpeg"
     ],
     "sizes": [
@@ -180,24 +630,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-105"
+    "sku": "WST-WD-0020"
   },
   {
-    "id": "wd-006",
+    "id": "wd-0021",
     "title": "Chloe Linen Sundress",
-    "slug": "chloe-linen-sundress-6",
+    "slug": "chloe-linen-sundress-wd-21",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5562.jpg.jpeg",
-      "/western-dresses/5566.jpg.jpeg",
-      "/western-dresses/5567.jpg.jpeg",
-      "/western-dresses/5568.jpg.jpeg",
-      "/western-dresses/5569.jpg.jpeg",
-      "/western-dresses/5570.jpg.jpeg"
+      "/western-dresses/5562.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -216,12 +661,107 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-106"
+    "sku": "WST-WD-0021"
   },
   {
-    "id": "wd-007",
+    "id": "wd-0022",
+    "title": "Freya Floral Pintuck Slip Dress",
+    "slug": "freya-floral-pintuck-slip-dress-wd-006-wd-22",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5566.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Floral Pintuck Slip Dress (WST-WD-506) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0022"
+  },
+  {
+    "id": "wd-0023",
+    "title": "Maya Bohemian Peasant Tiered Dress",
+    "slug": "maya-bohemian-peasant-tiered-dress-wd-006-wd-23",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5567.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Bohemian Peasant Tiered Dress (WST-WD-507) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0023"
+  },
+  {
+    "id": "wd-0024",
+    "title": "Zoe Bohemian Peasant Tiered Dress",
+    "slug": "zoe-bohemian-peasant-tiered-dress-wd-006-c-wd-24",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5568.jpg.jpeg",
+      "/western-dresses/5569.jpg.jpeg",
+      "/western-dresses/5570.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Bohemian Peasant Tiered Dress (WST-WD-507) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0024"
+  },
+  {
+    "id": "wd-0025",
     "title": "Freya Ribbed Knit Dress",
-    "slug": "freya-ribbed-knit-dress-7",
+    "slug": "freya-ribbed-knit-dress-wd-25",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -229,11 +769,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5571.jpg.jpeg",
-      "/western-dresses/5572.jpg.jpeg",
-      "/western-dresses/5573.jpg.jpeg",
-      "/western-dresses/5574.jpg.jpeg",
-      "/western-dresses/5575.jpg.jpeg",
-      "/western-dresses/5577.jpg.jpeg"
+      "/western-dresses/5572.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -252,12 +788,76 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-107"
+    "sku": "WST-WD-0025"
   },
   {
-    "id": "wd-008",
+    "id": "wd-0026",
+    "title": "Luna Eyelet Flutter Sleeve Dress",
+    "slug": "luna-eyelet-flutter-sleeve-dress-wd-007-wd-26",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5573.jpg.jpeg",
+      "/western-dresses/5574.jpg.jpeg",
+      "/western-dresses/5575.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Eyelet Flutter Sleeve Dress (WST-WD-508) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0026"
+  },
+  {
+    "id": "wd-0027",
+    "title": "Zara A-Line Tiered Resort Dress",
+    "slug": "zara-a-line-tiered-resort-dress-wd-007-wd-27",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5577.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara A-Line Tiered Resort Dress (WST-WD-509) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0027"
+  },
+  {
+    "id": "wd-0028",
     "title": "Maya Flutter Sleeve Dress",
-    "slug": "maya-flutter-sleeve-dress-8",
+    "slug": "maya-flutter-sleeve-dress-wd-28",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -265,9 +865,69 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5580.jpg.jpeg",
-      "/western-dresses/5581.jpg.jpeg",
+      "/western-dresses/5581.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Flutter Sleeve Dress (WST-WD-108) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0028"
+  },
+  {
+    "id": "wd-0029",
+    "title": "Cleo Flutter Sleeve Dress",
+    "slug": "cleo-flutter-sleeve-dress-wd-008-wd-29",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5582.jpg.jpeg",
-      "/western-dresses/5583.jpg.jpeg",
+      "/western-dresses/5583.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Flutter Sleeve Dress (WST-WD-108) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0029"
+  },
+  {
+    "id": "wd-0030",
+    "title": "Ivy Flutter Sleeve Dress",
+    "slug": "ivy-flutter-sleeve-dress-wd-008-wd-30",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5584.jpg.jpeg",
       "/western-dresses/5585.jpg.jpeg"
     ],
@@ -288,23 +948,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-108"
+    "sku": "WST-WD-0030"
   },
   {
-    "id": "wd-009",
+    "id": "wd-0031",
     "title": "Luna Strapless Column Dress",
-    "slug": "luna-strapless-column-dress-9",
+    "slug": "luna-strapless-column-dress-wd-31",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5586.jpg.jpeg",
-      "/western-dresses/5593.jpg.jpeg",
-      "/western-dresses/5594.jpg.jpeg",
-      "/western-dresses/5595.jpg.jpeg",
-      "/western-dresses/5596.jpg.jpeg"
+      "/western-dresses/5586.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -323,23 +979,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-109"
+    "sku": "WST-WD-0031"
   },
   {
-    "id": "wd-010",
+    "id": "wd-0032",
+    "title": "Kaia Belted Linen Blend Dress",
+    "slug": "kaia-belted-linen-blend-dress-wd-009-wd-32",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5593.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Belted Linen Blend Dress (WST-WD-510) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0032"
+  },
+  {
+    "id": "wd-0033",
+    "title": "Willow Belted Linen Blend Dress",
+    "slug": "willow-belted-linen-blend-dress-wd-009-b-wd-33",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5594.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Belted Linen Blend Dress (WST-WD-510) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0033"
+  },
+  {
+    "id": "wd-0034",
+    "title": "Tara Belted Linen Blend Dress",
+    "slug": "tara-belted-linen-blend-dress-wd-009-b-wd-34",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5595.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Belted Linen Blend Dress (WST-WD-510) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0034"
+  },
+  {
+    "id": "wd-0035",
+    "title": "Kira Belted Linen Blend Dress",
+    "slug": "kira-belted-linen-blend-dress-wd-009-b-wd-35",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5596.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Belted Linen Blend Dress (WST-WD-510) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0035"
+  },
+  {
+    "id": "wd-0036",
     "title": "Zara Cutout Halter Dress",
-    "slug": "zara-cutout-halter-dress-10",
+    "slug": "zara-cutout-halter-dress-wd-36",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5621.jpg.jpeg",
-      "/western-dresses/5622.jpg.jpeg",
-      "/western-dresses/5623.jpg.jpeg",
-      "/western-dresses/5632.jpg.jpeg",
-      "/western-dresses/5637.jpg.jpeg"
+      "/western-dresses/5621.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -358,12 +1134,106 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-110"
+    "sku": "WST-WD-0036"
   },
   {
-    "id": "wd-011",
+    "id": "wd-0037",
+    "title": "Tara Cutout Halter Dress",
+    "slug": "tara-cutout-halter-dress-wd-010-wd-37",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5622.jpg.jpeg",
+      "/western-dresses/5623.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Cutout Halter Dress (WST-WD-110) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0037"
+  },
+  {
+    "id": "wd-0038",
+    "title": "Nova Floral Embroidered Halter Dress",
+    "slug": "nova-floral-embroidered-halter-dress-wd-010-wd-38",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5632.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Floral Embroidered Halter Dress (WST-WD-511) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0038"
+  },
+  {
+    "id": "wd-0039",
+    "title": "Bella Tiered Ruffle Maxi Dress",
+    "slug": "bella-tiered-ruffle-maxi-dress-wd-010-wd-39",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5637.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Tiered Ruffle Maxi Dress (WST-WD-512) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0039"
+  },
+  {
+    "id": "wd-0040",
     "title": "Kaia Draped Column Dress",
-    "slug": "kaia-draped-column-dress-11",
+    "slug": "kaia-draped-column-dress-wd-40",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -371,10 +1241,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5640.jpg.jpeg",
-      "/western-dresses/5641.jpg.jpeg",
-      "/western-dresses/5642.jpg.jpeg",
-      "/western-dresses/5643.jpg.jpeg",
-      "/western-dresses/5644.jpg.jpeg"
+      "/western-dresses/5641.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -393,12 +1260,105 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-111"
+    "sku": "WST-WD-0040"
   },
   {
-    "id": "wd-012",
+    "id": "wd-0041",
+    "title": "Hazel Draped Column Dress",
+    "slug": "hazel-draped-column-dress-wd-011-wd-41",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5642.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Draped Column Dress (WST-WD-111) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0041"
+  },
+  {
+    "id": "wd-0042",
+    "title": "Rhea Embroidered Cotton Shirtdress",
+    "slug": "rhea-embroidered-cotton-shirtdress-wd-011-wd-42",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5643.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Embroidered Cotton Shirtdress (WST-WD-513) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0042"
+  },
+  {
+    "id": "wd-0043",
+    "title": "Nadia Embroidered Cotton Shirtdress",
+    "slug": "nadia-embroidered-cotton-shirtdress-wd-011-b-wd-43",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5644.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Embroidered Cotton Shirtdress (WST-WD-513) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0043"
+  },
+  {
+    "id": "wd-0044",
     "title": "Nova Sweetheart Flare Dress",
-    "slug": "nova-sweetheart-flare-dress-12",
+    "slug": "nova-sweetheart-flare-dress-wd-44",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -408,7 +1368,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/5658.jpg.jpeg",
       "/western-dresses/5659.jpg.jpeg",
       "/western-dresses/5660.jpg.jpeg",
-      "/western-dresses/5661.jpg.jpeg",
+      "/western-dresses/5661.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Sweetheart Flare Dress (WST-WD-112) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Modal Satin Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0044"
+  },
+  {
+    "id": "wd-0045",
+    "title": "Piper Sweetheart Flare Dress",
+    "slug": "piper-sweetheart-flare-dress-wd-012-wd-45",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5662.jpg.jpeg",
       "/western-dresses/5663.jpg.jpeg"
     ],
@@ -429,12 +1419,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-112"
+    "sku": "WST-WD-0045"
   },
   {
-    "id": "wd-013",
+    "id": "wd-0046",
     "title": "Bella Empire Waist Dress",
-    "slug": "bella-empire-waist-dress-13",
+    "slug": "bella-empire-waist-dress-wd-46",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -442,11 +1432,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5664.jpg.jpeg",
-      "/western-dresses/5665.jpg.jpeg",
-      "/western-dresses/5666.jpg.jpeg",
-      "/western-dresses/5667.jpg.jpeg",
-      "/western-dresses/5668.jpg.jpeg",
-      "/western-dresses/5669.jpg.jpeg"
+      "/western-dresses/5665.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -465,12 +1451,136 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-113"
+    "sku": "WST-WD-0046"
   },
   {
-    "id": "wd-014",
+    "id": "wd-0047",
+    "title": "Zoe Smocked Flounce Midi Dress",
+    "slug": "zoe-smocked-flounce-midi-dress-wd-013-wd-47",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5666.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Smocked Flounce Midi Dress (WST-WD-514) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0047"
+  },
+  {
+    "id": "wd-0048",
+    "title": "Thalia Smocked Flounce Midi Dress",
+    "slug": "thalia-smocked-flounce-midi-dress-wd-013-b-wd-48",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5667.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Smocked Flounce Midi Dress (WST-WD-514) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0048"
+  },
+  {
+    "id": "wd-0049",
+    "title": "Lyra Broderie Anglaise Sundress",
+    "slug": "lyra-broderie-anglaise-sundress-wd-013-wd-49",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5668.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Broderie Anglaise Sundress (WST-WD-515) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0049"
+  },
+  {
+    "id": "wd-0050",
+    "title": "Celeste Broderie Anglaise Sundress",
+    "slug": "celeste-broderie-anglaise-sundress-wd-013-c-wd-50",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5669.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Broderie Anglaise Sundress (WST-WD-515) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0050"
+  },
+  {
+    "id": "wd-0051",
     "title": "Rhea Pleated A-Line Dress",
-    "slug": "rhea-pleated-a-line-dress-14",
+    "slug": "rhea-pleated-a-line-dress-wd-51",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -478,11 +1588,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5670.jpg.jpeg",
-      "/western-dresses/5671.jpg.jpeg",
-      "/western-dresses/5672.jpg.jpeg",
-      "/western-dresses/5674.jpg.jpeg",
-      "/western-dresses/5675.jpg.jpeg",
-      "/western-dresses/5676.jpg.jpeg"
+      "/western-dresses/5671.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -501,24 +1607,83 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-114"
+    "sku": "WST-WD-0051"
   },
   {
-    "id": "wd-015",
-    "title": "Zoe Floral Wrap Dress",
-    "slug": "zoe-floral-wrap-dress-15",
+    "id": "wd-0052",
+    "title": "Stella Pleated Wrap Midi Dress",
+    "slug": "stella-pleated-wrap-midi-dress-wd-014-wd-52",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5677.jpg.jpeg",
-      "/western-dresses/5678.jpg.jpeg",
-      "/western-dresses/5679.jpg.jpeg",
-      "/western-dresses/5680.jpg.jpeg",
-      "/western-dresses/5685.jpg.jpeg",
-      "/western-dresses/5686.jpg.jpeg"
+      "/western-dresses/5672.jpg.jpeg",
+      "/western-dresses/5674.jpg.jpeg",
+      "/western-dresses/5675.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Pleated Wrap Midi Dress (WST-WD-516) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0052"
+  },
+  {
+    "id": "wd-0053",
+    "title": "Camille Pleated Wrap Midi Dress",
+    "slug": "camille-pleated-wrap-midi-dress-wd-014-b-wd-53",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5676.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Pleated Wrap Midi Dress (WST-WD-516) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0053"
+  },
+  {
+    "id": "wd-0054",
+    "title": "Zoe Floral Wrap Dress",
+    "slug": "zoe-floral-wrap-dress-wd-54",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5677.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -537,23 +1702,298 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-115"
+    "sku": "WST-WD-0054"
   },
   {
-    "id": "wd-016",
+    "id": "wd-0055",
+    "title": "Diana Floral Wrap Dress",
+    "slug": "diana-floral-wrap-dress-wd-015-wd-55",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5678.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Floral Wrap Dress (WST-WD-115) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0055"
+  },
+  {
+    "id": "wd-0056",
+    "title": "Nina Lantern Sleeve Tunic Dress",
+    "slug": "nina-lantern-sleeve-tunic-dress-wd-015-wd-56",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5679.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Lantern Sleeve Tunic Dress (WST-WD-517) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0056"
+  },
+  {
+    "id": "wd-0057",
+    "title": "Cleo Floral Pintuck Slip Dress",
+    "slug": "cleo-floral-pintuck-slip-dress-wd-015-wd-57",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5680.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Floral Pintuck Slip Dress (WST-WD-518) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0057"
+  },
+  {
+    "id": "wd-0058",
+    "title": "Ivy Bohemian Peasant Tiered Dress",
+    "slug": "ivy-bohemian-peasant-tiered-dress-wd-015-wd-58",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5685.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Bohemian Peasant Tiered Dress (WST-WD-519) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0058"
+  },
+  {
+    "id": "wd-0059",
+    "title": "Bianca Bohemian Peasant Tiered Dress",
+    "slug": "bianca-bohemian-peasant-tiered-dress-wd-015-d-wd-59",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5686.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Bohemian Peasant Tiered Dress (WST-WD-519) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0059"
+  },
+  {
+    "id": "wd-0060",
     "title": "Lyra Backless Maxi Dress",
-    "slug": "lyra-backless-maxi-dress-16",
+    "slug": "lyra-backless-maxi-dress-wd-60",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5707.jpg.jpeg",
-      "/western-dresses/5708.jpg.jpeg",
-      "/western-dresses/5709.jpg.jpeg",
+      "/western-dresses/5707.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Backless Maxi Dress (WST-WD-116) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0060"
+  },
+  {
+    "id": "wd-0061",
+    "title": "Daphne Backless Maxi Dress",
+    "slug": "daphne-backless-maxi-dress-wd-016-wd-61",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5708.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Backless Maxi Dress (WST-WD-116) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0061"
+  },
+  {
+    "id": "wd-0062",
+    "title": "Paloma Backless Maxi Dress",
+    "slug": "paloma-backless-maxi-dress-wd-016-wd-62",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5709.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Backless Maxi Dress (WST-WD-116) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0062"
+  },
+  {
+    "id": "wd-0063",
+    "title": "Vivienne Backless Maxi Dress",
+    "slug": "vivienne-backless-maxi-dress-wd-016-wd-63",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5710.jpg.jpeg",
-      "/western-dresses/5711.jpg.jpeg",
+      "/western-dresses/5711.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Backless Maxi Dress (WST-WD-116) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0063"
+  },
+  {
+    "id": "wd-0064",
+    "title": "Layla Backless Maxi Dress",
+    "slug": "layla-backless-maxi-dress-wd-016-wd-64",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5712.jpg.jpeg"
     ],
     "sizes": [
@@ -573,12 +2013,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-116"
+    "sku": "WST-WD-0064"
   },
   {
-    "id": "wd-017",
+    "id": "wd-0065",
     "title": "Stella High-Slit Slip Dress",
-    "slug": "stella-high-slit-slip-dress-17",
+    "slug": "stella-high-slit-slip-dress-wd-65",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -586,8 +2026,68 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5713.jpg.jpeg",
-      "/western-dresses/5714.jpg.jpeg",
-      "/western-dresses/5715.jpg.jpeg",
+      "/western-dresses/5714.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella High-Slit Slip Dress (WST-WD-117) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0065"
+  },
+  {
+    "id": "wd-0066",
+    "title": "Paloma High-Slit Slip Dress",
+    "slug": "paloma-high-slit-slip-dress-wd-017-wd-66",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5715.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella High-Slit Slip Dress (WST-WD-117) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0066"
+  },
+  {
+    "id": "wd-0067",
+    "title": "Vivienne High-Slit Slip Dress",
+    "slug": "vivienne-high-slit-slip-dress-wd-017-wd-67",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5717.jpg.jpeg"
     ],
     "sizes": [
@@ -607,24 +2107,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-117"
+    "sku": "WST-WD-0067"
   },
   {
-    "id": "wd-018",
+    "id": "wd-0068",
     "title": "Nina Keyhole Shift Dress",
-    "slug": "nina-keyhole-shift-dress-18",
+    "slug": "nina-keyhole-shift-dress-wd-68",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5751.jpg.jpeg",
-      "/western-dresses/5752.jpg.jpeg",
-      "/western-dresses/5753.jpg.jpeg",
-      "/western-dresses/5754.jpg.jpeg",
-      "/western-dresses/5755.jpg.jpeg",
-      "/western-dresses/5757.jpg.jpeg"
+      "/western-dresses/5751.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -643,24 +2138,114 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-118"
+    "sku": "WST-WD-0068"
   },
   {
-    "id": "wd-019",
+    "id": "wd-0069",
+    "title": "Vivienne Keyhole Shift Dress",
+    "slug": "vivienne-keyhole-shift-dress-wd-018-wd-69",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5752.jpg.jpeg",
+      "/western-dresses/5753.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Keyhole Shift Dress (WST-WD-118) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0069"
+  },
+  {
+    "id": "wd-0070",
+    "title": "Layla Keyhole Shift Dress",
+    "slug": "layla-keyhole-shift-dress-wd-018-wd-70",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5754.jpg.jpeg",
+      "/western-dresses/5755.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Keyhole Shift Dress (WST-WD-118) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0070"
+  },
+  {
+    "id": "wd-0071",
+    "title": "Willow Eyelet Flutter Sleeve Dress",
+    "slug": "willow-eyelet-flutter-sleeve-dress-wd-018-wd-71",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5757.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Eyelet Flutter Sleeve Dress (WST-WD-520) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0071"
+  },
+  {
+    "id": "wd-0072",
     "title": "Cleo Pleated Midi Dress",
-    "slug": "cleo-pleated-midi-dress-19",
+    "slug": "cleo-pleated-midi-dress-wd-72",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5758.jpg.jpeg",
-      "/western-dresses/5759.jpg.jpeg",
-      "/western-dresses/5760.jpg.jpeg",
-      "/western-dresses/5761.jpg.jpeg",
-      "/western-dresses/5762.jpg.jpeg",
-      "/western-dresses/5763.jpg.jpeg"
+      "/western-dresses/5758.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -679,20 +2264,205 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-119"
+    "sku": "WST-WD-0072"
   },
   {
-    "id": "wd-020",
+    "id": "wd-0073",
+    "title": "Aria Pleated Midi Dress",
+    "slug": "aria-pleated-midi-dress-wd-019-wd-73",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5759.jpg.jpeg",
+      "/western-dresses/5760.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Pleated Midi Dress (WST-WD-119) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0073"
+  },
+  {
+    "id": "wd-0074",
+    "title": "Sienna Pleated Midi Dress",
+    "slug": "sienna-pleated-midi-dress-wd-019-wd-74",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5761.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Pleated Midi Dress (WST-WD-119) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0074"
+  },
+  {
+    "id": "wd-0075",
+    "title": "Tara A-Line Tiered Resort Dress",
+    "slug": "tara-a-line-tiered-resort-dress-wd-019-wd-75",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5762.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara A-Line Tiered Resort Dress (WST-WD-521) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0075"
+  },
+  {
+    "id": "wd-0076",
+    "title": "Kira Belted Linen Blend Dress",
+    "slug": "kira-belted-linen-blend-dress-wd-019-wd-76",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5763.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Belted Linen Blend Dress (WST-WD-522) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0076"
+  },
+  {
+    "id": "wd-0077",
     "title": "Ivy Smocked Flounce Dress",
-    "slug": "ivy-smocked-flounce-dress-20",
+    "slug": "ivy-smocked-flounce-dress-wd-77",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5764.jpg.jpeg",
-      "/western-dresses/5765.jpg.jpeg",
+      "/western-dresses/5764.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Smocked Flounce Dress (WST-WD-120) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0077"
+  },
+  {
+    "id": "wd-0078",
+    "title": "Mila Smocked Flounce Dress",
+    "slug": "mila-smocked-flounce-dress-wd-020-wd-78",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5765.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Smocked Flounce Dress (WST-WD-120) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0078"
+  },
+  {
+    "id": "wd-0079",
+    "title": "Isla Smocked Flounce Dress",
+    "slug": "isla-smocked-flounce-dress-wd-020-wd-79",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5766.jpg.jpeg",
       "/western-dresses/5767.jpg.jpeg",
       "/western-dresses/5768.jpg.jpeg"
@@ -714,12 +2484,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-120"
+    "sku": "WST-WD-0079"
   },
   {
-    "id": "wd-021",
+    "id": "wd-0080",
     "title": "Willow Asymmetric Wrap Dress",
-    "slug": "willow-asymmetric-wrap-dress-21",
+    "slug": "willow-asymmetric-wrap-dress-wd-80",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -727,10 +2497,100 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5773.jpg.jpeg",
-      "/western-dresses/5774.jpg.jpeg",
-      "/western-dresses/5775.jpg.jpeg",
+      "/western-dresses/5774.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Asymmetric Wrap Dress (WST-WD-121) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0080"
+  },
+  {
+    "id": "wd-0081",
+    "title": "Isla Asymmetric Wrap Dress",
+    "slug": "isla-asymmetric-wrap-dress-wd-021-wd-81",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5775.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Asymmetric Wrap Dress (WST-WD-121) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0081"
+  },
+  {
+    "id": "wd-0082",
+    "title": "Chloe Asymmetric Wrap Dress",
+    "slug": "chloe-asymmetric-wrap-dress-wd-021-wd-82",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5776.jpg.jpeg",
-      "/western-dresses/5777.jpg.jpeg",
+      "/western-dresses/5777.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Asymmetric Wrap Dress (WST-WD-121) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0082"
+  },
+  {
+    "id": "wd-0083",
+    "title": "Freya Asymmetric Wrap Dress",
+    "slug": "freya-asymmetric-wrap-dress-wd-021-wd-83",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5778.jpg.jpeg"
     ],
     "sizes": [
@@ -750,12 +2610,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-121"
+    "sku": "WST-WD-0083"
   },
   {
-    "id": "wd-022",
+    "id": "wd-0084",
     "title": "Tara Off-Shoulder Maxi Dress",
-    "slug": "tara-off-shoulder-maxi-dress-22",
+    "slug": "tara-off-shoulder-maxi-dress-wd-84",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -763,11 +2623,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5781.jpg.jpeg",
-      "/western-dresses/5782.jpg.jpeg",
-      "/western-dresses/5783.jpg.jpeg",
-      "/western-dresses/5784.jpg.jpeg",
-      "/western-dresses/5785.jpg.jpeg",
-      "/western-dresses/5786.jpg.jpeg"
+      "/western-dresses/5782.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -786,12 +2642,106 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-122"
+    "sku": "WST-WD-0084"
   },
   {
-    "id": "wd-023",
+    "id": "wd-0085",
+    "title": "Saffron Floral Embroidered Halter Dress",
+    "slug": "saffron-floral-embroidered-halter-dress-wd-022-wd-85",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5783.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Floral Embroidered Halter Dress (WST-WD-523) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0085"
+  },
+  {
+    "id": "wd-0086",
+    "title": "Hazel Tiered Ruffle Maxi Dress",
+    "slug": "hazel-tiered-ruffle-maxi-dress-wd-022-wd-86",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5784.jpg.jpeg",
+      "/western-dresses/5785.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Tiered Ruffle Maxi Dress (WST-WD-524) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0086"
+  },
+  {
+    "id": "wd-0087",
+    "title": "Nadia Embroidered Cotton Shirtdress",
+    "slug": "nadia-embroidered-cotton-shirtdress-wd-022-wd-87",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5786.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Embroidered Cotton Shirtdress (WST-WD-525) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0087"
+  },
+  {
+    "id": "wd-0088",
     "title": "Kira Plunge Fluted Dress",
-    "slug": "kira-plunge-fluted-dress-23",
+    "slug": "kira-plunge-fluted-dress-wd-88",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -801,9 +2751,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/5787.jpg.jpeg",
       "/western-dresses/5788.jpg.jpeg",
       "/western-dresses/5789.jpg.jpeg",
-      "/western-dresses/5790.jpg.jpeg",
-      "/western-dresses/5791.jpg.jpeg",
-      "/western-dresses/5792.jpg.jpeg"
+      "/western-dresses/5790.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -822,23 +2770,81 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-123"
+    "sku": "WST-WD-0088"
   },
   {
-    "id": "wd-024",
-    "title": "Saffron Ruched Bodycon Dress",
-    "slug": "saffron-ruched-bodycon-dress-24",
+    "id": "wd-0089",
+    "title": "Piper Smocked Flounce Midi Dress",
+    "slug": "piper-smocked-flounce-midi-dress-wd-023-wd-89",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5793.jpg.jpeg",
-      "/western-dresses/5794.jpg.jpeg",
-      "/western-dresses/5795.jpg.jpeg",
-      "/western-dresses/5796.jpg.jpeg",
-      "/western-dresses/5797.jpg.jpeg"
+      "/western-dresses/5791.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Smocked Flounce Midi Dress (WST-WD-526) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0089"
+  },
+  {
+    "id": "wd-0090",
+    "title": "Kaia Smocked Flounce Midi Dress",
+    "slug": "kaia-smocked-flounce-midi-dress-wd-023-b-wd-90",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5792.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Smocked Flounce Midi Dress (WST-WD-526) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0090"
+  },
+  {
+    "id": "wd-0091",
+    "title": "Saffron Ruched Bodycon Dress",
+    "slug": "saffron-ruched-bodycon-dress-wd-91",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5793.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -857,23 +2863,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-124"
+    "sku": "WST-WD-0091"
   },
   {
-    "id": "wd-025",
+    "id": "wd-0092",
+    "title": "Daisy Broderie Anglaise Sundress",
+    "slug": "daisy-broderie-anglaise-sundress-wd-024-wd-92",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5794.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Broderie Anglaise Sundress (WST-WD-527) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0092"
+  },
+  {
+    "id": "wd-0093",
+    "title": "Bella Broderie Anglaise Sundress",
+    "slug": "bella-broderie-anglaise-sundress-wd-024-b-wd-93",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5795.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Broderie Anglaise Sundress (WST-WD-527) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0093"
+  },
+  {
+    "id": "wd-0094",
+    "title": "Rhea Broderie Anglaise Sundress",
+    "slug": "rhea-broderie-anglaise-sundress-wd-024-b-wd-94",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5796.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Broderie Anglaise Sundress (WST-WD-527) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0094"
+  },
+  {
+    "id": "wd-0095",
+    "title": "Zoe Broderie Anglaise Sundress",
+    "slug": "zoe-broderie-anglaise-sundress-wd-024-b-wd-95",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5797.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Broderie Anglaise Sundress (WST-WD-527) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0095"
+  },
+  {
+    "id": "wd-0096",
     "title": "Hazel Puff Sleeve Midi Dress",
-    "slug": "hazel-puff-sleeve-midi-dress-25",
+    "slug": "hazel-puff-sleeve-midi-dress-wd-96",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5800.jpg.jpeg",
-      "/western-dresses/5801.jpg.jpeg",
-      "/western-dresses/5813.jpg.jpeg",
-      "/western-dresses/5821.jpg.jpeg",
-      "/western-dresses/5822.jpg.jpeg"
+      "/western-dresses/5800.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -892,12 +3018,136 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-125"
+    "sku": "WST-WD-0096"
   },
   {
-    "id": "wd-026",
+    "id": "wd-0097",
+    "title": "Rhea Puff Sleeve Midi Dress",
+    "slug": "rhea-puff-sleeve-midi-dress-wd-025-wd-97",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5801.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Puff Sleeve Midi Dress (WST-WD-125) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0097"
+  },
+  {
+    "id": "wd-0098",
+    "title": "Thalia Pleated Wrap Midi Dress",
+    "slug": "thalia-pleated-wrap-midi-dress-wd-025-wd-98",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5813.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Pleated Wrap Midi Dress (WST-WD-528) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0098"
+  },
+  {
+    "id": "wd-0099",
+    "title": "Celeste Lantern Sleeve Tunic Dress",
+    "slug": "celeste-lantern-sleeve-tunic-dress-wd-025-wd-99",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5821.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Lantern Sleeve Tunic Dress (WST-WD-529) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0099"
+  },
+  {
+    "id": "wd-0100",
+    "title": "Iris Floral Pintuck Slip Dress",
+    "slug": "iris-floral-pintuck-slip-dress-wd-025-wd-100",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5822.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Floral Pintuck Slip Dress (WST-WD-530) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0100"
+  },
+  {
+    "id": "wd-0101",
     "title": "Nadia Organza Tiered Dress",
-    "slug": "nadia-organza-tiered-dress-26",
+    "slug": "nadia-organza-tiered-dress-wd-101",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -905,11 +3155,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5856.jpg.jpeg",
-      "/western-dresses/5857.jpg.jpeg",
-      "/western-dresses/5858.jpg.jpeg",
-      "/western-dresses/5859.jpg.jpeg",
-      "/western-dresses/5864.jpg.jpeg",
-      "/western-dresses/5865.jpg.jpeg"
+      "/western-dresses/5857.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -928,24 +3174,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-126"
+    "sku": "WST-WD-0101"
   },
   {
-    "id": "wd-027",
+    "id": "wd-0102",
+    "title": "Nina Organza Tiered Dress",
+    "slug": "nina-organza-tiered-dress-wd-026-wd-102",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5858.jpg.jpeg",
+      "/western-dresses/5859.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Organza Tiered Dress (WST-WD-126) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0102"
+  },
+  {
+    "id": "wd-0103",
+    "title": "Camille Bohemian Peasant Tiered Dress",
+    "slug": "camille-bohemian-peasant-tiered-dress-wd-026-wd-103",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5864.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Bohemian Peasant Tiered Dress (WST-WD-531) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0103"
+  },
+  {
+    "id": "wd-0104",
+    "title": "Diana Eyelet Flutter Sleeve Dress",
+    "slug": "diana-eyelet-flutter-sleeve-dress-wd-026-wd-104",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5865.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Eyelet Flutter Sleeve Dress (WST-WD-532) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0104"
+  },
+  {
+    "id": "wd-0105",
     "title": "Piper Shirred Tiered Dress",
-    "slug": "piper-shirred-tiered-dress-27",
+    "slug": "piper-shirred-tiered-dress-wd-105",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5866.jpg.jpeg",
-      "/western-dresses/5867.jpg.jpeg",
-      "/western-dresses/5868.jpg.jpeg",
-      "/western-dresses/5869.jpg.jpeg",
-      "/western-dresses/5870.jpg.jpeg",
-      "/western-dresses/5871.jpg.jpeg"
+      "/western-dresses/5866.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -964,24 +3299,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-127"
+    "sku": "WST-WD-0105"
   },
   {
-    "id": "wd-028",
+    "id": "wd-0106",
+    "title": "Giselle A-Line Tiered Resort Dress",
+    "slug": "giselle-a-line-tiered-resort-dress-wd-027-wd-106",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5867.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle A-Line Tiered Resort Dress (WST-WD-533) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0106"
+  },
+  {
+    "id": "wd-0107",
+    "title": "Tessa Belted Linen Blend Dress",
+    "slug": "tessa-belted-linen-blend-dress-wd-027-wd-107",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5868.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Belted Linen Blend Dress (WST-WD-534) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0107"
+  },
+  {
+    "id": "wd-0108",
+    "title": "Kira Belted Linen Blend Dress",
+    "slug": "kira-belted-linen-blend-dress-wd-027-c-wd-108",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5869.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Belted Linen Blend Dress (WST-WD-534) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0108"
+  },
+  {
+    "id": "wd-0109",
+    "title": "Saffron Belted Linen Blend Dress",
+    "slug": "saffron-belted-linen-blend-dress-wd-027-c-wd-109",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5870.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Belted Linen Blend Dress (WST-WD-534) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0109"
+  },
+  {
+    "id": "wd-0110",
+    "title": "Bianca Floral Embroidered Halter Dress",
+    "slug": "bianca-floral-embroidered-halter-dress-wd-027-wd-110",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5871.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Floral Embroidered Halter Dress (WST-WD-535) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0110"
+  },
+  {
+    "id": "wd-0111",
     "title": "Daisy Satin Slip Dress",
-    "slug": "daisy-satin-slip-dress-28",
+    "slug": "daisy-satin-slip-dress-wd-111",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5873.jpg.jpeg",
-      "/western-dresses/5874.jpg.jpeg",
-      "/western-dresses/5875.jpg.jpeg",
-      "/western-dresses/5876.jpg.jpeg",
-      "/western-dresses/5878.jpg.jpeg",
-      "/western-dresses/5879.jpg.jpeg"
+      "/western-dresses/5873.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1000,12 +3485,107 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-128"
+    "sku": "WST-WD-0111"
   },
   {
-    "id": "wd-029",
+    "id": "wd-0112",
+    "title": "Daphne Tiered Ruffle Maxi Dress",
+    "slug": "daphne-tiered-ruffle-maxi-dress-wd-028-wd-112",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5874.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daphne Tiered Ruffle Maxi Dress (WST-WD-536) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0112"
+  },
+  {
+    "id": "wd-0113",
+    "title": "Paloma Embroidered Cotton Shirtdress",
+    "slug": "paloma-embroidered-cotton-shirtdress-wd-028-wd-113",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5875.jpg.jpeg",
+      "/western-dresses/5876.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Embroidered Cotton Shirtdress (WST-WD-537) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0113"
+  },
+  {
+    "id": "wd-0114",
+    "title": "Vivienne Smocked Flounce Midi Dress",
+    "slug": "vivienne-smocked-flounce-midi-dress-wd-028-wd-114",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5878.jpg.jpeg",
+      "/western-dresses/5879.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Smocked Flounce Midi Dress (WST-WD-538) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0114"
+  },
+  {
+    "id": "wd-0115",
     "title": "Thalia Corset Mini Dress",
-    "slug": "thalia-corset-mini-dress-29",
+    "slug": "thalia-corset-mini-dress-wd-115",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -1013,11 +3593,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5881.jpg.jpeg",
-      "/western-dresses/5882.jpg.jpeg",
-      "/western-dresses/5883.jpg.jpeg",
-      "/western-dresses/5885.jpg.jpeg",
-      "/western-dresses/5886.jpg.jpeg",
-      "/western-dresses/5887.jpg.jpeg"
+      "/western-dresses/5882.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1036,22 +3612,206 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-129"
+    "sku": "WST-WD-0115"
   },
   {
-    "id": "wd-030",
-    "title": "Celeste Broderie Tier Dress",
-    "slug": "celeste-broderie-tier-dress-30",
+    "id": "wd-0116",
+    "title": "Layla Broderie Anglaise Sundress",
+    "slug": "layla-broderie-anglaise-sundress-wd-029-wd-116",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5888.jpg.jpeg",
-      "/western-dresses/5889.jpg.jpeg",
+      "/western-dresses/5883.jpg.jpeg",
+      "/western-dresses/5885.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Layla Broderie Anglaise Sundress (WST-WD-539) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0116"
+  },
+  {
+    "id": "wd-0117",
+    "title": "Serena Pleated Wrap Midi Dress",
+    "slug": "serena-pleated-wrap-midi-dress-wd-029-wd-117",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5886.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Pleated Wrap Midi Dress (WST-WD-540) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0117"
+  },
+  {
+    "id": "wd-0118",
+    "title": "Iris Pleated Wrap Midi Dress",
+    "slug": "iris-pleated-wrap-midi-dress-wd-029-c-wd-118",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5887.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Pleated Wrap Midi Dress (WST-WD-540) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0118"
+  },
+  {
+    "id": "wd-0119",
+    "title": "Celeste Broderie Tier Dress",
+    "slug": "celeste-broderie-tier-dress-wd-119",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5888.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Broderie Tier Dress (WST-WD-130) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0119"
+  },
+  {
+    "id": "wd-0120",
+    "title": "Camille Broderie Tier Dress",
+    "slug": "camille-broderie-tier-dress-wd-030-wd-120",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5889.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Broderie Tier Dress (WST-WD-130) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0120"
+  },
+  {
+    "id": "wd-0121",
+    "title": "Diana Broderie Tier Dress",
+    "slug": "diana-broderie-tier-dress-wd-030-wd-121",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5890.jpg.jpeg",
-      "/western-dresses/5891.jpg.jpeg",
+      "/western-dresses/5891.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Broderie Tier Dress (WST-WD-130) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0121"
+  },
+  {
+    "id": "wd-0122",
+    "title": "Giselle Broderie Tier Dress",
+    "slug": "giselle-broderie-tier-dress-wd-030-wd-122",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/5892.jpg.jpeg",
       "/western-dresses/5893.jpg.jpeg"
     ],
@@ -1072,12 +3832,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-130"
+    "sku": "WST-WD-0122"
   },
   {
-    "id": "wd-031",
+    "id": "wd-0123",
     "title": "Iris Fluted Hem Midi Dress",
-    "slug": "iris-fluted-hem-midi-dress-31",
+    "slug": "iris-fluted-hem-midi-dress-wd-123",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -1108,22 +3868,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-131"
+    "sku": "WST-WD-0123"
   },
   {
-    "id": "wd-032",
+    "id": "wd-0124",
     "title": "Camille Babydoll Mini Dress",
-    "slug": "camille-babydoll-mini-dress-32",
+    "slug": "camille-babydoll-mini-dress-wd-124",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5900.jpg.jpeg",
-      "/western-dresses/5901.jpg.jpeg",
-      "/western-dresses/5902.jpg.jpeg",
-      "/western-dresses/5903.jpg.jpeg"
+      "/western-dresses/5900.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1142,24 +3899,82 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-132"
+    "sku": "WST-WD-0124"
   },
   {
-    "id": "wd-033",
-    "title": "Diana Tiered Maxi Dress",
-    "slug": "diana-tiered-maxi-dress-33",
+    "id": "wd-0125",
+    "title": "Amara Lantern Sleeve Tunic Dress",
+    "slug": "amara-lantern-sleeve-tunic-dress-wd-032-wd-125",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5943.jpg.jpeg",
-      "/western-dresses/5944.jpg.jpeg",
-      "/western-dresses/5947.jpg.jpeg",
-      "/western-dresses/5948.jpg.jpeg",
-      "/western-dresses/5949.jpg.jpeg",
-      "/western-dresses/5950.jpg.jpeg"
+      "/western-dresses/5901.jpg.jpeg",
+      "/western-dresses/5902.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Lantern Sleeve Tunic Dress (WST-WD-541) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0125"
+  },
+  {
+    "id": "wd-0126",
+    "title": "Tessa Lantern Sleeve Tunic Dress",
+    "slug": "tessa-lantern-sleeve-tunic-dress-wd-032-b-wd-126",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5903.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Lantern Sleeve Tunic Dress (WST-WD-541) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0126"
+  },
+  {
+    "id": "wd-0127",
+    "title": "Diana Tiered Maxi Dress",
+    "slug": "diana-tiered-maxi-dress-wd-127",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5943.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1178,24 +3993,114 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-133"
+    "sku": "WST-WD-0127"
   },
   {
-    "id": "wd-034",
+    "id": "wd-0128",
+    "title": "Bianca Tiered Maxi Dress",
+    "slug": "bianca-tiered-maxi-dress-wd-033-wd-128",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5944.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Tiered Maxi Dress (WST-WD-133) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0128"
+  },
+  {
+    "id": "wd-0129",
+    "title": "Astrid Floral Pintuck Slip Dress",
+    "slug": "astrid-floral-pintuck-slip-dress-wd-033-wd-129",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5947.jpg.jpeg",
+      "/western-dresses/5948.jpg.jpeg",
+      "/western-dresses/5949.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Floral Pintuck Slip Dress (WST-WD-542) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0129"
+  },
+  {
+    "id": "wd-0130",
+    "title": "Gia Bohemian Peasant Tiered Dress",
+    "slug": "gia-bohemian-peasant-tiered-dress-wd-033-wd-130",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5950.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Bohemian Peasant Tiered Dress (WST-WD-543) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0130"
+  },
+  {
+    "id": "wd-0131",
     "title": "Giselle Cowl Neck Slip Dress",
-    "slug": "giselle-cowl-neck-slip-dress-34",
+    "slug": "giselle-cowl-neck-slip-dress-wd-131",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5951.jpg.jpeg",
-      "/western-dresses/5952.jpg.jpeg",
-      "/western-dresses/5953.jpg.jpeg",
-      "/western-dresses/5954.jpg.jpeg",
-      "/western-dresses/5955.jpg.jpeg",
-      "/western-dresses/5956.jpg.jpeg"
+      "/western-dresses/5951.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1214,12 +4119,137 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-134"
+    "sku": "WST-WD-0131"
   },
   {
-    "id": "wd-035",
+    "id": "wd-0132",
+    "title": "Sora Eyelet Flutter Sleeve Dress",
+    "slug": "sora-eyelet-flutter-sleeve-dress-wd-034-wd-132",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5952.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Eyelet Flutter Sleeve Dress (WST-WD-544) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0132"
+  },
+  {
+    "id": "wd-0133",
+    "title": "Layla Eyelet Flutter Sleeve Dress",
+    "slug": "layla-eyelet-flutter-sleeve-dress-wd-034-b-wd-133",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5953.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Eyelet Flutter Sleeve Dress (WST-WD-544) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0133"
+  },
+  {
+    "id": "wd-0134",
+    "title": "Noa A-Line Tiered Resort Dress",
+    "slug": "noa-a-line-tiered-resort-dress-wd-034-wd-134",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5954.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa A-Line Tiered Resort Dress (WST-WD-545) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0134"
+  },
+  {
+    "id": "wd-0135",
+    "title": "Lana Belted Linen Blend Dress",
+    "slug": "lana-belted-linen-blend-dress-wd-034-wd-135",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5955.jpg.jpeg",
+      "/western-dresses/5956.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Belted Linen Blend Dress (WST-WD-546) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0135"
+  },
+  {
+    "id": "wd-0136",
     "title": "Tessa Belted Shirtdress",
-    "slug": "tessa-belted-shirtdress-35",
+    "slug": "tessa-belted-shirtdress-wd-136",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -1227,11 +4257,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5957.jpg.jpeg",
-      "/western-dresses/5958.jpg.jpeg",
-      "/western-dresses/5959.jpg.jpeg",
-      "/western-dresses/5960.jpg.jpeg",
-      "/western-dresses/5961.jpg.jpeg",
-      "/western-dresses/5962.jpg.jpeg"
+      "/western-dresses/5958.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1250,23 +4276,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-135"
+    "sku": "WST-WD-0136"
   },
   {
-    "id": "wd-036",
+    "id": "wd-0137",
+    "title": "Elena Belted Shirtdress",
+    "slug": "elena-belted-shirtdress-wd-035-wd-137",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5959.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Belted Shirtdress (WST-WD-135) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0137"
+  },
+  {
+    "id": "wd-0138",
+    "title": "Kora Floral Embroidered Halter Dress",
+    "slug": "kora-floral-embroidered-halter-dress-wd-035-wd-138",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5960.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora Floral Embroidered Halter Dress (WST-WD-547) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0138"
+  },
+  {
+    "id": "wd-0139",
+    "title": "Mira Tiered Ruffle Maxi Dress",
+    "slug": "mira-tiered-ruffle-maxi-dress-wd-035-wd-139",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5961.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Tiered Ruffle Maxi Dress (WST-WD-548) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0139"
+  },
+  {
+    "id": "wd-0140",
+    "title": "Veda Embroidered Cotton Shirtdress",
+    "slug": "veda-embroidered-cotton-shirtdress-wd-035-wd-140",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5962.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Veda Embroidered Cotton Shirtdress (WST-WD-549) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0140"
+  },
+  {
+    "id": "wd-0141",
     "title": "Bianca Bias-Cut Slip Dress",
-    "slug": "bianca-bias-cut-slip-dress-36",
+    "slug": "bianca-bias-cut-slip-dress-wd-141",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5963.jpg.jpeg",
-      "/western-dresses/5964.jpg.jpeg",
-      "/western-dresses/5965.jpg.jpeg",
-      "/western-dresses/5966.jpg.jpeg",
-      "/western-dresses/5967.jpg.jpeg"
+      "/western-dresses/5963.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1285,12 +4431,76 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-136"
+    "sku": "WST-WD-0141"
   },
   {
-    "id": "wd-037",
+    "id": "wd-0142",
+    "title": "Aria Smocked Flounce Midi Dress",
+    "slug": "aria-smocked-flounce-midi-dress-wd-036-wd-142",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5964.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Smocked Flounce Midi Dress (WST-WD-550) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0142"
+  },
+  {
+    "id": "wd-0143",
+    "title": "Sienna Broderie Anglaise Sundress",
+    "slug": "sienna-broderie-anglaise-sundress-wd-036-wd-143",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5965.jpg.jpeg",
+      "/western-dresses/5966.jpg.jpeg",
+      "/western-dresses/5967.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Broderie Anglaise Sundress (WST-WD-551) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0143"
+  },
+  {
+    "id": "wd-0144",
     "title": "Daphne Embroidered Midi Dress",
-    "slug": "daphne-embroidered-midi-dress-37",
+    "slug": "daphne-embroidered-midi-dress-wd-144",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -1298,11 +4508,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/5977.jpg.jpeg",
-      "/western-dresses/5978.jpg.jpeg",
-      "/western-dresses/5981.jpg.jpeg",
-      "/western-dresses/5982.jpg.jpeg",
-      "/western-dresses/5983.jpg.jpeg",
-      "/western-dresses/5984.jpg.jpeg"
+      "/western-dresses/5978.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1321,24 +4527,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-137"
+    "sku": "WST-WD-0144"
   },
   {
-    "id": "wd-038",
+    "id": "wd-0145",
+    "title": "Elena Pleated Wrap Midi Dress",
+    "slug": "elena-pleated-wrap-midi-dress-wd-037-wd-145",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5981.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Pleated Wrap Midi Dress (WST-WD-552) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0145"
+  },
+  {
+    "id": "wd-0146",
+    "title": "Kaia Pleated Wrap Midi Dress",
+    "slug": "kaia-pleated-wrap-midi-dress-wd-037-b-wd-146",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5982.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Pleated Wrap Midi Dress (WST-WD-552) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0146"
+  },
+  {
+    "id": "wd-0147",
+    "title": "Mila Lantern Sleeve Tunic Dress",
+    "slug": "mila-lantern-sleeve-tunic-dress-wd-037-wd-147",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5983.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Lantern Sleeve Tunic Dress (WST-WD-553) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0147"
+  },
+  {
+    "id": "wd-0148",
+    "title": "Nova Lantern Sleeve Tunic Dress",
+    "slug": "nova-lantern-sleeve-tunic-dress-wd-037-c-wd-148",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5984.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Lantern Sleeve Tunic Dress (WST-WD-553) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0148"
+  },
+  {
+    "id": "wd-0149",
     "title": "Paloma Linen Sundress",
-    "slug": "paloma-linen-sundress-38",
+    "slug": "paloma-linen-sundress-wd-149",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5985.jpg.jpeg",
-      "/western-dresses/5987.jpg.jpeg",
-      "/western-dresses/5988.jpg.jpeg",
-      "/western-dresses/5989.jpg.jpeg",
-      "/western-dresses/5990.jpg.jpeg",
-      "/western-dresses/5992.jpg.jpeg"
+      "/western-dresses/5985.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1357,24 +4682,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-138"
+    "sku": "WST-WD-0149"
   },
   {
-    "id": "wd-039",
-    "title": "Vivienne Ribbed Knit Dress",
-    "slug": "vivienne-ribbed-knit-dress-39",
+    "id": "wd-0150",
+    "title": "Bella Linen Sundress",
+    "slug": "bella-linen-sundress-wd-038-wd-150",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/5996.jpg.jpeg",
-      "/western-dresses/6030.jpg.jpeg",
-      "/western-dresses/6031.jpg.jpeg",
-      "/western-dresses/6032.jpg.jpeg",
-      "/western-dresses/6034.jpg.jpeg",
-      "/western-dresses/6035.jpg.jpeg"
+      "/western-dresses/5987.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Linen Sundress (WST-WD-138) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0150"
+  },
+  {
+    "id": "wd-0151",
+    "title": "Rhea Linen Sundress",
+    "slug": "rhea-linen-sundress-wd-038-wd-151",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5988.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Linen Sundress (WST-WD-138) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0151"
+  },
+  {
+    "id": "wd-0152",
+    "title": "Zoe Linen Sundress",
+    "slug": "zoe-linen-sundress-wd-038-wd-152",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5989.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Linen Sundress (WST-WD-138) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0152"
+  },
+  {
+    "id": "wd-0153",
+    "title": "Isla Floral Pintuck Slip Dress",
+    "slug": "isla-floral-pintuck-slip-dress-wd-038-wd-153",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5990.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Floral Pintuck Slip Dress (WST-WD-554) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0153"
+  },
+  {
+    "id": "wd-0154",
+    "title": "Rhea Floral Pintuck Slip Dress",
+    "slug": "rhea-floral-pintuck-slip-dress-wd-038-b-wd-154",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5992.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Floral Pintuck Slip Dress (WST-WD-554) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0154"
+  },
+  {
+    "id": "wd-0155",
+    "title": "Vivienne Ribbed Knit Dress",
+    "slug": "vivienne-ribbed-knit-dress-wd-155",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/5996.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1393,23 +4868,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-139"
+    "sku": "WST-WD-0155"
   },
   {
-    "id": "wd-040",
+    "id": "wd-0156",
+    "title": "Chloe Bohemian Peasant Tiered Dress",
+    "slug": "chloe-bohemian-peasant-tiered-dress-wd-039-wd-156",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6030.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Bohemian Peasant Tiered Dress (WST-WD-555) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0156"
+  },
+  {
+    "id": "wd-0157",
+    "title": "Lyra Bohemian Peasant Tiered Dress",
+    "slug": "lyra-bohemian-peasant-tiered-dress-wd-039-b-wd-157",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6031.jpg.jpeg",
+      "/western-dresses/6032.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Bohemian Peasant Tiered Dress (WST-WD-555) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0157"
+  },
+  {
+    "id": "wd-0158",
+    "title": "Stella Bohemian Peasant Tiered Dress",
+    "slug": "stella-bohemian-peasant-tiered-dress-wd-039-b-wd-158",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6034.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Bohemian Peasant Tiered Dress (WST-WD-555) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0158"
+  },
+  {
+    "id": "wd-0159",
+    "title": "Freya Eyelet Flutter Sleeve Dress",
+    "slug": "freya-eyelet-flutter-sleeve-dress-wd-039-wd-159",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6035.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Eyelet Flutter Sleeve Dress (WST-WD-556) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0159"
+  },
+  {
+    "id": "wd-0160",
     "title": "Layla Flutter Sleeve Dress",
-    "slug": "layla-flutter-sleeve-dress-40",
+    "slug": "layla-flutter-sleeve-dress-wd-160",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6036.jpg.jpeg",
-      "/western-dresses/6037.jpg.jpeg",
-      "/western-dresses/6038.jpg.jpeg",
-      "/western-dresses/6039.jpg.jpeg",
-      "/western-dresses/6040.jpg.jpeg"
+      "/western-dresses/6036.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1428,24 +5024,83 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-140"
+    "sku": "WST-WD-0160"
   },
   {
-    "id": "wd-041",
+    "id": "wd-0161",
+    "title": "Maya A-Line Tiered Resort Dress",
+    "slug": "maya-a-line-tiered-resort-dress-wd-040-wd-161",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6037.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya A-Line Tiered Resort Dress (WST-WD-557) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0161"
+  },
+  {
+    "id": "wd-0162",
+    "title": "Cleo A-Line Tiered Resort Dress",
+    "slug": "cleo-a-line-tiered-resort-dress-wd-040-b-wd-162",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6038.jpg.jpeg",
+      "/western-dresses/6039.jpg.jpeg",
+      "/western-dresses/6040.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya A-Line Tiered Resort Dress (WST-WD-557) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0162"
+  },
+  {
+    "id": "wd-0163",
     "title": "Serena Strapless Column Dress",
-    "slug": "serena-strapless-column-dress-41",
+    "slug": "serena-strapless-column-dress-wd-163",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6046.jpg.jpeg",
-      "/western-dresses/6047.jpg.jpeg",
-      "/western-dresses/6048.jpg.jpeg",
-      "/western-dresses/6049.jpg.jpeg",
-      "/western-dresses/6050.jpg.jpeg",
-      "/western-dresses/6051.jpg.jpeg"
+      "/western-dresses/6046.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1464,12 +5119,137 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-141"
+    "sku": "WST-WD-0163"
   },
   {
-    "id": "wd-042",
+    "id": "wd-0164",
+    "title": "Luna Belted Linen Blend Dress",
+    "slug": "luna-belted-linen-blend-dress-wd-041-wd-164",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6047.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Belted Linen Blend Dress (WST-WD-558) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0164"
+  },
+  {
+    "id": "wd-0165",
+    "title": "Zara Floral Embroidered Halter Dress",
+    "slug": "zara-floral-embroidered-halter-dress-wd-041-wd-165",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6048.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Floral Embroidered Halter Dress (WST-WD-559) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0165"
+  },
+  {
+    "id": "wd-0166",
+    "title": "Tara Floral Embroidered Halter Dress",
+    "slug": "tara-floral-embroidered-halter-dress-wd-041-c-wd-166",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6049.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Floral Embroidered Halter Dress (WST-WD-559) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0166"
+  },
+  {
+    "id": "wd-0167",
+    "title": "Kira Floral Embroidered Halter Dress",
+    "slug": "kira-floral-embroidered-halter-dress-wd-041-c-wd-167",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6050.jpg.jpeg",
+      "/western-dresses/6051.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Floral Embroidered Halter Dress (WST-WD-559) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0167"
+  },
+  {
+    "id": "wd-0168",
     "title": "Amara Cutout Halter Dress",
-    "slug": "amara-cutout-halter-dress-42",
+    "slug": "amara-cutout-halter-dress-wd-168",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -1477,11 +5257,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/6052.jpg.jpeg",
-      "/western-dresses/6053.jpg.jpeg",
-      "/western-dresses/6054.jpg.jpeg",
-      "/western-dresses/6055.jpg.jpeg",
-      "/western-dresses/6056.jpg.jpeg",
-      "/western-dresses/6057.jpg.jpeg"
+      "/western-dresses/6053.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1500,23 +5276,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-142"
+    "sku": "WST-WD-0168"
   },
   {
-    "id": "wd-043",
+    "id": "wd-0169",
+    "title": "Kira Cutout Halter Dress",
+    "slug": "kira-cutout-halter-dress-wd-042-wd-169",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6054.jpg.jpeg",
+      "/western-dresses/6055.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Cutout Halter Dress (WST-WD-142) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0169"
+  },
+  {
+    "id": "wd-0170",
+    "title": "Kaia Tiered Ruffle Maxi Dress",
+    "slug": "kaia-tiered-ruffle-maxi-dress-wd-042-wd-170",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6056.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Tiered Ruffle Maxi Dress (WST-WD-560) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0170"
+  },
+  {
+    "id": "wd-0171",
+    "title": "Nova Embroidered Cotton Shirtdress",
+    "slug": "nova-embroidered-cotton-shirtdress-wd-042-wd-171",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6057.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Embroidered Cotton Shirtdress (WST-WD-561) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0171"
+  },
+  {
+    "id": "wd-0172",
     "title": "Astrid Draped Column Dress",
-    "slug": "astrid-draped-column-dress-43",
+    "slug": "astrid-draped-column-dress-wd-172",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6058.jpg.jpeg",
-      "/western-dresses/6059.jpg.jpeg",
-      "/western-dresses/6060.jpg.jpeg",
-      "/western-dresses/6061.jpg.jpeg",
-      "/western-dresses/6064.jpg.jpeg"
+      "/western-dresses/6058.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1535,24 +5401,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-143"
+    "sku": "WST-WD-0172"
   },
   {
-    "id": "wd-044",
+    "id": "wd-0173",
+    "title": "Nadia Draped Column Dress",
+    "slug": "nadia-draped-column-dress-wd-043-wd-173",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6059.jpg.jpeg",
+      "/western-dresses/6060.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Draped Column Dress (WST-WD-143) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0173"
+  },
+  {
+    "id": "wd-0174",
+    "title": "Piper Draped Column Dress",
+    "slug": "piper-draped-column-dress-wd-043-wd-174",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6061.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Draped Column Dress (WST-WD-143) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0174"
+  },
+  {
+    "id": "wd-0175",
+    "title": "Bella Smocked Flounce Midi Dress",
+    "slug": "bella-smocked-flounce-midi-dress-wd-043-wd-175",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6064.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Smocked Flounce Midi Dress (WST-WD-562) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0175"
+  },
+  {
+    "id": "wd-0176",
     "title": "Gia Sweetheart Flare Dress",
-    "slug": "gia-sweetheart-flare-dress-44",
+    "slug": "gia-sweetheart-flare-dress-wd-176",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6078.jpg.jpeg",
-      "/western-dresses/6079.jpg.jpeg",
-      "/western-dresses/6080.jpg.jpeg",
-      "/western-dresses/6081.jpg.jpeg",
-      "/western-dresses/6082.jpg.jpeg",
-      "/western-dresses/6083.jpg.jpeg"
+      "/western-dresses/6078.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1571,23 +5526,268 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-144"
+    "sku": "WST-WD-0176"
   },
   {
-    "id": "wd-045",
-    "title": "Sora Empire Waist Dress",
-    "slug": "sora-empire-waist-dress-45",
+    "id": "wd-0177",
+    "title": "Daisy Sweetheart Flare Dress",
+    "slug": "daisy-sweetheart-flare-dress-wd-044-wd-177",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6085.jpg.jpeg",
-      "/western-dresses/6086.jpg.jpeg",
-      "/western-dresses/6087.jpg.jpeg",
+      "/western-dresses/6079.jpg.jpeg",
+      "/western-dresses/6080.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Sweetheart Flare Dress (WST-WD-144) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0177"
+  },
+  {
+    "id": "wd-0178",
+    "title": "Rhea Broderie Anglaise Sundress",
+    "slug": "rhea-broderie-anglaise-sundress-wd-044-wd-178",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6081.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Broderie Anglaise Sundress (WST-WD-563) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0178"
+  },
+  {
+    "id": "wd-0179",
+    "title": "Thalia Broderie Anglaise Sundress",
+    "slug": "thalia-broderie-anglaise-sundress-wd-044-b-wd-179",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6082.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Broderie Anglaise Sundress (WST-WD-563) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0179"
+  },
+  {
+    "id": "wd-0180",
+    "title": "Zoe Pleated Wrap Midi Dress",
+    "slug": "zoe-pleated-wrap-midi-dress-wd-044-wd-180",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6083.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Pleated Wrap Midi Dress (WST-WD-564) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0180"
+  },
+  {
+    "id": "wd-0181",
+    "title": "Sora Empire Waist Dress",
+    "slug": "sora-empire-waist-dress-wd-181",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6085.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Empire Waist Dress (WST-WD-145) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0181"
+  },
+  {
+    "id": "wd-0182",
+    "title": "Iris Empire Waist Dress",
+    "slug": "iris-empire-waist-dress-wd-045-wd-182",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6086.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Empire Waist Dress (WST-WD-145) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0182"
+  },
+  {
+    "id": "wd-0183",
+    "title": "Camille Empire Waist Dress",
+    "slug": "camille-empire-waist-dress-wd-045-wd-183",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6087.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Empire Waist Dress (WST-WD-145) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0183"
+  },
+  {
+    "id": "wd-0184",
+    "title": "Diana Empire Waist Dress",
+    "slug": "diana-empire-waist-dress-wd-045-wd-184",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6088.jpg.jpeg",
-      "/western-dresses/6089.jpg.jpeg",
+      "/western-dresses/6089.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Empire Waist Dress (WST-WD-145) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0184"
+  },
+  {
+    "id": "wd-0185",
+    "title": "Giselle Empire Waist Dress",
+    "slug": "giselle-empire-waist-dress-wd-045-wd-185",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6090.jpg.jpeg"
     ],
     "sizes": [
@@ -1607,24 +5807,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-145"
+    "sku": "WST-WD-0185"
   },
   {
-    "id": "wd-046",
+    "id": "wd-0186",
     "title": "Noa Pleated A-Line Dress",
-    "slug": "noa-pleated-a-line-dress-46",
+    "slug": "noa-pleated-a-line-dress-wd-186",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6092.jpg.jpeg",
-      "/western-dresses/6093.jpg.jpeg",
-      "/western-dresses/6094.jpg.jpeg",
-      "/western-dresses/6095.jpg.jpeg",
-      "/western-dresses/6096.jpg.jpeg",
-      "/western-dresses/6097.jpg.jpeg"
+      "/western-dresses/6092.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1643,24 +5838,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-146"
+    "sku": "WST-WD-0186"
   },
   {
-    "id": "wd-047",
+    "id": "wd-0187",
+    "title": "Camille Pleated A-Line Dress",
+    "slug": "camille-pleated-a-line-dress-wd-046-wd-187",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6093.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Pleated A-Line Dress (WST-WD-146) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0187"
+  },
+  {
+    "id": "wd-0188",
+    "title": "Lyra Lantern Sleeve Tunic Dress",
+    "slug": "lyra-lantern-sleeve-tunic-dress-wd-046-wd-188",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6094.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Lantern Sleeve Tunic Dress (WST-WD-565) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0188"
+  },
+  {
+    "id": "wd-0189",
+    "title": "Stella Floral Pintuck Slip Dress",
+    "slug": "stella-floral-pintuck-slip-dress-wd-046-wd-189",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6095.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Floral Pintuck Slip Dress (WST-WD-566) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0189"
+  },
+  {
+    "id": "wd-0190",
+    "title": "Nina Bohemian Peasant Tiered Dress",
+    "slug": "nina-bohemian-peasant-tiered-dress-wd-046-wd-190",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6096.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Bohemian Peasant Tiered Dress (WST-WD-567) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0190"
+  },
+  {
+    "id": "wd-0191",
+    "title": "Tessa Bohemian Peasant Tiered Dress",
+    "slug": "tessa-bohemian-peasant-tiered-dress-wd-046-d-wd-191",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6097.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Bohemian Peasant Tiered Dress (WST-WD-567) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0191"
+  },
+  {
+    "id": "wd-0192",
     "title": "Lana Floral Wrap Dress",
-    "slug": "lana-floral-wrap-dress-47",
+    "slug": "lana-floral-wrap-dress-wd-192",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6098.jpg.jpeg",
-      "/western-dresses/6099.jpg.jpeg",
-      "/western-dresses/6103.jpg.jpeg",
-      "/western-dresses/6104.jpg.jpeg",
-      "/western-dresses/6105.jpg.jpeg",
-      "/western-dresses/6106.jpg.jpeg"
+      "/western-dresses/6098.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1679,24 +6024,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-147"
+    "sku": "WST-WD-0192"
   },
   {
-    "id": "wd-048",
-    "title": "Kora Backless Maxi Dress",
-    "slug": "kora-backless-maxi-dress-48",
+    "id": "wd-0193",
+    "title": "Bianca Floral Wrap Dress",
+    "slug": "bianca-floral-wrap-dress-wd-047-wd-193",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6107.jpg.jpeg",
-      "/western-dresses/6108.jpg.jpeg",
-      "/western-dresses/6109.jpg.jpeg",
-      "/western-dresses/6114.jpg.jpeg",
-      "/western-dresses/6115.jpg.jpeg",
-      "/western-dresses/6116.jpg.jpeg"
+      "/western-dresses/6099.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Floral Wrap Dress (WST-WD-147) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0193"
+  },
+  {
+    "id": "wd-0194",
+    "title": "Cleo Eyelet Flutter Sleeve Dress",
+    "slug": "cleo-eyelet-flutter-sleeve-dress-wd-047-wd-194",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6103.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Eyelet Flutter Sleeve Dress (WST-WD-568) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0194"
+  },
+  {
+    "id": "wd-0195",
+    "title": "Ivy A-Line Tiered Resort Dress",
+    "slug": "ivy-a-line-tiered-resort-dress-wd-047-wd-195",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6104.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy A-Line Tiered Resort Dress (WST-WD-569) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0195"
+  },
+  {
+    "id": "wd-0196",
+    "title": "Paloma A-Line Tiered Resort Dress",
+    "slug": "paloma-a-line-tiered-resort-dress-wd-047-c-wd-196",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6105.jpg.jpeg",
+      "/western-dresses/6106.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy A-Line Tiered Resort Dress (WST-WD-569) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0196"
+  },
+  {
+    "id": "wd-0197",
+    "title": "Kora Backless Maxi Dress",
+    "slug": "kora-backless-maxi-dress-wd-197",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6107.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1715,24 +6180,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-148"
+    "sku": "WST-WD-0197"
   },
   {
-    "id": "wd-049",
+    "id": "wd-0198",
+    "title": "Vivienne Backless Maxi Dress",
+    "slug": "vivienne-backless-maxi-dress-wd-048-wd-198",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6108.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora Backless Maxi Dress (WST-WD-148) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Modal Satin Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0198"
+  },
+  {
+    "id": "wd-0199",
+    "title": "Willow Belted Linen Blend Dress",
+    "slug": "willow-belted-linen-blend-dress-wd-048-wd-199",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6109.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Belted Linen Blend Dress (WST-WD-570) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0199"
+  },
+  {
+    "id": "wd-0200",
+    "title": "Tara Floral Embroidered Halter Dress",
+    "slug": "tara-floral-embroidered-halter-dress-wd-048-wd-200",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6114.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara Floral Embroidered Halter Dress (WST-WD-571) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0200"
+  },
+  {
+    "id": "wd-0201",
+    "title": "Aria Floral Embroidered Halter Dress",
+    "slug": "aria-floral-embroidered-halter-dress-wd-048-c-wd-201",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6115.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara Floral Embroidered Halter Dress (WST-WD-571) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0201"
+  },
+  {
+    "id": "wd-0202",
+    "title": "Sienna Floral Embroidered Halter Dress",
+    "slug": "sienna-floral-embroidered-halter-dress-wd-048-c-wd-202",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6116.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara Floral Embroidered Halter Dress (WST-WD-571) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0202"
+  },
+  {
+    "id": "wd-0203",
     "title": "Mira High-Slit Slip Dress",
-    "slug": "mira-high-slit-slip-dress-49",
+    "slug": "mira-high-slit-slip-dress-wd-203",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6117.jpg.jpeg",
-      "/western-dresses/6128.jpg.jpeg",
-      "/western-dresses/6130.jpg.jpeg",
-      "/western-dresses/6131.jpg.jpeg",
-      "/western-dresses/6132.jpg.jpeg",
-      "/western-dresses/6133.jpg.jpeg"
+      "/western-dresses/6117.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1751,12 +6366,167 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-149"
+    "sku": "WST-WD-0203"
   },
   {
-    "id": "wd-050",
+    "id": "wd-0204",
+    "title": "Kira Tiered Ruffle Maxi Dress",
+    "slug": "kira-tiered-ruffle-maxi-dress-wd-049-wd-204",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6128.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Tiered Ruffle Maxi Dress (WST-WD-572) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0204"
+  },
+  {
+    "id": "wd-0205",
+    "title": "Elena Tiered Ruffle Maxi Dress",
+    "slug": "elena-tiered-ruffle-maxi-dress-wd-049-b-wd-205",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6130.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Tiered Ruffle Maxi Dress (WST-WD-572) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0205"
+  },
+  {
+    "id": "wd-0206",
+    "title": "Mila Tiered Ruffle Maxi Dress",
+    "slug": "mila-tiered-ruffle-maxi-dress-wd-049-b-wd-206",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6131.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Tiered Ruffle Maxi Dress (WST-WD-572) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0206"
+  },
+  {
+    "id": "wd-0207",
+    "title": "Saffron Embroidered Cotton Shirtdress",
+    "slug": "saffron-embroidered-cotton-shirtdress-wd-049-wd-207",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6132.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Embroidered Cotton Shirtdress (WST-WD-573) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0207"
+  },
+  {
+    "id": "wd-0208",
+    "title": "Hazel Smocked Flounce Midi Dress",
+    "slug": "hazel-smocked-flounce-midi-dress-wd-049-wd-208",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6133.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Smocked Flounce Midi Dress (WST-WD-574) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0208"
+  },
+  {
+    "id": "wd-0209",
     "title": "Veda Keyhole Shift Dress",
-    "slug": "veda-keyhole-shift-dress-50",
+    "slug": "veda-keyhole-shift-dress-wd-209",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -1764,11 +6534,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/6134.jpg.jpeg",
-      "/western-dresses/6135.jpg.jpeg",
-      "/western-dresses/6137.jpg.jpeg",
-      "/western-dresses/6139.jpg.jpeg",
-      "/western-dresses/6140.jpg.jpeg",
-      "/western-dresses/6141.jpg.jpeg"
+      "/western-dresses/6135.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1787,24 +6553,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-150"
+    "sku": "WST-WD-0209"
   },
   {
-    "id": "wd-051",
+    "id": "wd-0210",
+    "title": "Nadia Broderie Anglaise Sundress",
+    "slug": "nadia-broderie-anglaise-sundress-wd-050-wd-210",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6137.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Broderie Anglaise Sundress (WST-WD-575) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0210"
+  },
+  {
+    "id": "wd-0211",
+    "title": "Freya Broderie Anglaise Sundress",
+    "slug": "freya-broderie-anglaise-sundress-wd-050-b-wd-211",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6139.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Broderie Anglaise Sundress (WST-WD-575) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0211"
+  },
+  {
+    "id": "wd-0212",
+    "title": "Piper Pleated Wrap Midi Dress",
+    "slug": "piper-pleated-wrap-midi-dress-wd-050-wd-212",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6140.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Pleated Wrap Midi Dress (WST-WD-576) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0212"
+  },
+  {
+    "id": "wd-0213",
+    "title": "Daisy Lantern Sleeve Tunic Dress",
+    "slug": "daisy-lantern-sleeve-tunic-dress-wd-050-wd-213",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6141.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Lantern Sleeve Tunic Dress (WST-WD-577) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0213"
+  },
+  {
+    "id": "wd-0214",
     "title": "Talia Pleated Midi Dress",
-    "slug": "talia-pleated-midi-dress-51",
+    "slug": "talia-pleated-midi-dress-wd-214",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6142.jpg.jpeg",
-      "/western-dresses/6143.jpg.jpeg",
-      "/western-dresses/6144.jpg.jpeg",
-      "/western-dresses/6146.jpg.jpeg",
-      "/western-dresses/6147.jpg.jpeg",
-      "/western-dresses/6148.jpg.jpeg"
+      "/western-dresses/6142.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1823,24 +6708,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-151"
+    "sku": "WST-WD-0214"
   },
   {
-    "id": "wd-052",
+    "id": "wd-0215",
+    "title": "Zara Pleated Midi Dress",
+    "slug": "zara-pleated-midi-dress-wd-051-wd-215",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6143.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Talia Pleated Midi Dress (WST-WD-151) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0215"
+  },
+  {
+    "id": "wd-0216",
+    "title": "Thalia Floral Pintuck Slip Dress",
+    "slug": "thalia-floral-pintuck-slip-dress-wd-051-wd-216",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6144.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Floral Pintuck Slip Dress (WST-WD-578) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0216"
+  },
+  {
+    "id": "wd-0217",
+    "title": "Celeste Bohemian Peasant Tiered Dress",
+    "slug": "celeste-bohemian-peasant-tiered-dress-wd-051-wd-217",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6146.jpg.jpeg",
+      "/western-dresses/6147.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Bohemian Peasant Tiered Dress (WST-WD-579) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0217"
+  },
+  {
+    "id": "wd-0218",
+    "title": "Nova Bohemian Peasant Tiered Dress",
+    "slug": "nova-bohemian-peasant-tiered-dress-wd-051-c-wd-218",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6148.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Bohemian Peasant Tiered Dress (WST-WD-579) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0218"
+  },
+  {
+    "id": "wd-0219",
     "title": "Leona Smocked Flounce Dress",
-    "slug": "leona-smocked-flounce-dress-52",
+    "slug": "leona-smocked-flounce-dress-wd-219",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6150.jpg.jpeg",
-      "/western-dresses/6151.jpg.jpeg",
-      "/western-dresses/6152.jpg.jpeg",
-      "/western-dresses/6153.jpg.jpeg",
-      "/western-dresses/6154.jpg.jpeg",
-      "/western-dresses/6155.jpg.jpeg"
+      "/western-dresses/6150.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1859,24 +6864,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-152"
+    "sku": "WST-WD-0219"
   },
   {
-    "id": "wd-053",
+    "id": "wd-0220",
+    "title": "Iris Eyelet Flutter Sleeve Dress",
+    "slug": "iris-eyelet-flutter-sleeve-dress-wd-052-wd-220",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6151.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Eyelet Flutter Sleeve Dress (WST-WD-580) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0220"
+  },
+  {
+    "id": "wd-0221",
+    "title": "Rhea Eyelet Flutter Sleeve Dress",
+    "slug": "rhea-eyelet-flutter-sleeve-dress-wd-052-b-wd-221",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6152.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Eyelet Flutter Sleeve Dress (WST-WD-580) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0221"
+  },
+  {
+    "id": "wd-0222",
+    "title": "Camille A-Line Tiered Resort Dress",
+    "slug": "camille-a-line-tiered-resort-dress-wd-052-wd-222",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6153.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille A-Line Tiered Resort Dress (WST-WD-581) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0222"
+  },
+  {
+    "id": "wd-0223",
+    "title": "Diana Belted Linen Blend Dress",
+    "slug": "diana-belted-linen-blend-dress-wd-052-wd-223",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6154.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Belted Linen Blend Dress (WST-WD-582) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0223"
+  },
+  {
+    "id": "wd-0224",
+    "title": "Lyra Belted Linen Blend Dress",
+    "slug": "lyra-belted-linen-blend-dress-wd-052-d-wd-224",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6155.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Belted Linen Blend Dress (WST-WD-582) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0224"
+  },
+  {
+    "id": "wd-0225",
     "title": "Sloane Asymmetric Wrap Dress",
-    "slug": "sloane-asymmetric-wrap-dress-53",
+    "slug": "sloane-asymmetric-wrap-dress-wd-225",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6156.jpg.jpeg",
-      "/western-dresses/6161.jpg.jpeg",
-      "/western-dresses/6163.jpg.jpeg",
-      "/western-dresses/6170.jpg.jpeg",
-      "/western-dresses/6171.jpg.jpeg",
-      "/western-dresses/6172.jpg.jpeg"
+      "/western-dresses/6156.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1895,12 +7050,167 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-153"
+    "sku": "WST-WD-0225"
   },
   {
-    "id": "wd-054",
+    "id": "wd-0226",
+    "title": "Giselle Floral Embroidered Halter Dress",
+    "slug": "giselle-floral-embroidered-halter-dress-wd-053-wd-226",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6161.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle Floral Embroidered Halter Dress (WST-WD-583) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0226"
+  },
+  {
+    "id": "wd-0227",
+    "title": "Nina Floral Embroidered Halter Dress",
+    "slug": "nina-floral-embroidered-halter-dress-wd-053-b-wd-227",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6163.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle Floral Embroidered Halter Dress (WST-WD-583) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0227"
+  },
+  {
+    "id": "wd-0228",
+    "title": "Tessa Tiered Ruffle Maxi Dress",
+    "slug": "tessa-tiered-ruffle-maxi-dress-wd-053-wd-228",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6170.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Tiered Ruffle Maxi Dress (WST-WD-584) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0228"
+  },
+  {
+    "id": "wd-0229",
+    "title": "Bianca Embroidered Cotton Shirtdress",
+    "slug": "bianca-embroidered-cotton-shirtdress-wd-053-wd-229",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6171.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Embroidered Cotton Shirtdress (WST-WD-585) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0229"
+  },
+  {
+    "id": "wd-0230",
+    "title": "Ivy Embroidered Cotton Shirtdress",
+    "slug": "ivy-embroidered-cotton-shirtdress-wd-053-d-wd-230",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6172.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Embroidered Cotton Shirtdress (WST-WD-585) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0230"
+  },
+  {
+    "id": "wd-0231",
     "title": "Sable Off-Shoulder Maxi Dress",
-    "slug": "sable-off-shoulder-maxi-dress-54",
+    "slug": "sable-off-shoulder-maxi-dress-wd-231",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -1908,11 +7218,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/6174.jpg.jpeg",
-      "/western-dresses/6175.jpg.jpeg",
-      "/western-dresses/6176.jpg.jpeg",
-      "/western-dresses/6177.jpg.jpeg",
-      "/western-dresses/6178.jpg.jpeg",
-      "/western-dresses/6180.jpg.jpeg"
+      "/western-dresses/6175.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1931,24 +7237,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-154"
+    "sku": "WST-WD-0231"
   },
   {
-    "id": "wd-055",
+    "id": "wd-0232",
+    "title": "Daphne Smocked Flounce Midi Dress",
+    "slug": "daphne-smocked-flounce-midi-dress-wd-054-wd-232",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6176.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daphne Smocked Flounce Midi Dress (WST-WD-586) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0232"
+  },
+  {
+    "id": "wd-0233",
+    "title": "Paloma Broderie Anglaise Sundress",
+    "slug": "paloma-broderie-anglaise-sundress-wd-054-wd-233",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6177.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Broderie Anglaise Sundress (WST-WD-587) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0233"
+  },
+  {
+    "id": "wd-0234",
+    "title": "Vivienne Pleated Wrap Midi Dress",
+    "slug": "vivienne-pleated-wrap-midi-dress-wd-054-wd-234",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6178.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Pleated Wrap Midi Dress (WST-WD-588) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0234"
+  },
+  {
+    "id": "wd-0235",
+    "title": "Layla Lantern Sleeve Tunic Dress",
+    "slug": "layla-lantern-sleeve-tunic-dress-wd-054-wd-235",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6180.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Layla Lantern Sleeve Tunic Dress (WST-WD-589) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0235"
+  },
+  {
+    "id": "wd-0236",
     "title": "Remi Plunge Fluted Dress",
-    "slug": "remi-plunge-fluted-dress-55",
+    "slug": "remi-plunge-fluted-dress-wd-236",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6181.jpg.jpeg",
-      "/western-dresses/6182.jpg.jpeg",
-      "/western-dresses/6183.jpg.jpeg",
-      "/western-dresses/6184.jpg.jpeg",
-      "/western-dresses/6186.jpg.jpeg",
-      "/western-dresses/6187.jpg.jpeg"
+      "/western-dresses/6181.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -1967,24 +7392,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-155"
+    "sku": "WST-WD-0236"
   },
   {
-    "id": "wd-056",
+    "id": "wd-0237",
+    "title": "Nadia Plunge Fluted Dress",
+    "slug": "nadia-plunge-fluted-dress-wd-055-wd-237",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6182.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Remi Plunge Fluted Dress (WST-WD-155) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0237"
+  },
+  {
+    "id": "wd-0238",
+    "title": "Piper Plunge Fluted Dress",
+    "slug": "piper-plunge-fluted-dress-wd-055-wd-238",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6183.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Remi Plunge Fluted Dress (WST-WD-155) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0238"
+  },
+  {
+    "id": "wd-0239",
+    "title": "Serena Floral Pintuck Slip Dress",
+    "slug": "serena-floral-pintuck-slip-dress-wd-055-wd-239",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6184.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Floral Pintuck Slip Dress (WST-WD-590) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0239"
+  },
+  {
+    "id": "wd-0240",
+    "title": "Amara Bohemian Peasant Tiered Dress",
+    "slug": "amara-bohemian-peasant-tiered-dress-wd-055-wd-240",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6186.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Bohemian Peasant Tiered Dress (WST-WD-591) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0240"
+  },
+  {
+    "id": "wd-0241",
+    "title": "Astrid Eyelet Flutter Sleeve Dress",
+    "slug": "astrid-eyelet-flutter-sleeve-dress-wd-055-wd-241",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6187.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Eyelet Flutter Sleeve Dress (WST-WD-592) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0241"
+  },
+  {
+    "id": "wd-0242",
     "title": "Maeve Ruched Bodycon Dress",
-    "slug": "maeve-ruched-bodycon-dress-56",
+    "slug": "maeve-ruched-bodycon-dress-wd-242",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6188.jpg.jpeg",
-      "/western-dresses/6189.jpg.jpeg",
-      "/western-dresses/6191.jpg.jpeg",
-      "/western-dresses/6193.jpg.jpeg",
-      "/western-dresses/6194.jpg.jpeg",
-      "/western-dresses/6195.jpg.jpeg"
+      "/western-dresses/6188.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2003,23 +7578,328 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-156"
+    "sku": "WST-WD-0242"
   },
   {
-    "id": "wd-057",
+    "id": "wd-0243",
+    "title": "Gia A-Line Tiered Resort Dress",
+    "slug": "gia-a-line-tiered-resort-dress-wd-056-wd-243",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6189.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia A-Line Tiered Resort Dress (WST-WD-593) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0243"
+  },
+  {
+    "id": "wd-0244",
+    "title": "Sora Belted Linen Blend Dress",
+    "slug": "sora-belted-linen-blend-dress-wd-056-wd-244",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6191.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Belted Linen Blend Dress (WST-WD-594) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0244"
+  },
+  {
+    "id": "wd-0245",
+    "title": "Noa Floral Embroidered Halter Dress",
+    "slug": "noa-floral-embroidered-halter-dress-wd-056-wd-245",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6193.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Floral Embroidered Halter Dress (WST-WD-595) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0245"
+  },
+  {
+    "id": "wd-0246",
+    "title": "Diana Floral Embroidered Halter Dress",
+    "slug": "diana-floral-embroidered-halter-dress-wd-056-d-wd-246",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6194.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Floral Embroidered Halter Dress (WST-WD-595) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0246"
+  },
+  {
+    "id": "wd-0247",
+    "title": "Giselle Floral Embroidered Halter Dress",
+    "slug": "giselle-floral-embroidered-halter-dress-wd-056-d-wd-247",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6195.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Floral Embroidered Halter Dress (WST-WD-595) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0247"
+  },
+  {
+    "id": "wd-0248",
     "title": "Reese Puff Sleeve Midi Dress",
-    "slug": "reese-puff-sleeve-midi-dress-57",
+    "slug": "reese-puff-sleeve-midi-dress-wd-248",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6204.jpg.jpeg",
-      "/western-dresses/6205.jpg.jpeg",
-      "/western-dresses/6206.jpg.jpeg",
-      "/western-dresses/6207.jpg.jpeg",
-      "/western-dresses/6208.jpg.jpeg",
+      "/western-dresses/6204.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Reese Puff Sleeve Midi Dress (WST-WD-157) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0248"
+  },
+  {
+    "id": "wd-0249",
+    "title": "Giselle Puff Sleeve Midi Dress",
+    "slug": "giselle-puff-sleeve-midi-dress-wd-057-wd-249",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6205.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Reese Puff Sleeve Midi Dress (WST-WD-157) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0249"
+  },
+  {
+    "id": "wd-0250",
+    "title": "Tessa Puff Sleeve Midi Dress",
+    "slug": "tessa-puff-sleeve-midi-dress-wd-057-wd-250",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6206.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Reese Puff Sleeve Midi Dress (WST-WD-157) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0250"
+  },
+  {
+    "id": "wd-0251",
+    "title": "Bianca Puff Sleeve Midi Dress",
+    "slug": "bianca-puff-sleeve-midi-dress-wd-057-wd-251",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6207.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Reese Puff Sleeve Midi Dress (WST-WD-157) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0251"
+  },
+  {
+    "id": "wd-0252",
+    "title": "Daphne Puff Sleeve Midi Dress",
+    "slug": "daphne-puff-sleeve-midi-dress-wd-057-wd-252",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6208.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Reese Puff Sleeve Midi Dress (WST-WD-157) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0252"
+  },
+  {
+    "id": "wd-0253",
+    "title": "Paloma Puff Sleeve Midi Dress",
+    "slug": "paloma-puff-sleeve-midi-dress-wd-057-wd-253",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6209.jpg.jpeg"
     ],
     "sizes": [
@@ -2039,24 +7919,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-157"
+    "sku": "WST-WD-0253"
   },
   {
-    "id": "wd-058",
+    "id": "wd-0254",
     "title": "Rowan Organza Tiered Dress",
-    "slug": "rowan-organza-tiered-dress-58",
+    "slug": "rowan-organza-tiered-dress-wd-254",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6210.jpg.jpeg",
-      "/western-dresses/6211.jpg.jpeg",
-      "/western-dresses/6212.jpg.jpeg",
-      "/western-dresses/6213.jpg.jpeg",
-      "/western-dresses/6214.jpg.jpeg",
-      "/western-dresses/6215.jpg.jpeg"
+      "/western-dresses/6210.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2075,24 +7950,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-158"
+    "sku": "WST-WD-0254"
   },
   {
-    "id": "wd-059",
+    "id": "wd-0255",
+    "title": "Lana Tiered Ruffle Maxi Dress",
+    "slug": "lana-tiered-ruffle-maxi-dress-wd-058-wd-255",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6211.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Tiered Ruffle Maxi Dress (WST-WD-596) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0255"
+  },
+  {
+    "id": "wd-0256",
+    "title": "Bianca Tiered Ruffle Maxi Dress",
+    "slug": "bianca-tiered-ruffle-maxi-dress-wd-058-b-wd-256",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6212.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Tiered Ruffle Maxi Dress (WST-WD-596) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0256"
+  },
+  {
+    "id": "wd-0257",
+    "title": "Kora Embroidered Cotton Shirtdress",
+    "slug": "kora-embroidered-cotton-shirtdress-wd-058-wd-257",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6213.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora Embroidered Cotton Shirtdress (WST-WD-597) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0257"
+  },
+  {
+    "id": "wd-0258",
+    "title": "Mira Smocked Flounce Midi Dress",
+    "slug": "mira-smocked-flounce-midi-dress-wd-058-wd-258",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6214.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Smocked Flounce Midi Dress (WST-WD-598) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0258"
+  },
+  {
+    "id": "wd-0259",
+    "title": "Veda Broderie Anglaise Sundress",
+    "slug": "veda-broderie-anglaise-sundress-wd-058-wd-259",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6215.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Veda Broderie Anglaise Sundress (WST-WD-599) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0259"
+  },
+  {
+    "id": "wd-0260",
     "title": "Harper Shirred Tiered Dress",
-    "slug": "harper-shirred-tiered-dress-59",
+    "slug": "harper-shirred-tiered-dress-wd-260",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6216.jpg.jpeg",
-      "/western-dresses/6217.jpg.jpeg",
-      "/western-dresses/6218.jpg.jpeg",
-      "/western-dresses/6219.jpg.jpeg",
-      "/western-dresses/6221.jpg.jpeg",
-      "/western-dresses/6222.jpg.jpeg"
+      "/western-dresses/6216.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2111,23 +8136,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-159"
+    "sku": "WST-WD-0260"
   },
   {
-    "id": "wd-060",
-    "title": "Blair Satin Slip Dress",
-    "slug": "blair-satin-slip-dress-60",
+    "id": "wd-0261",
+    "title": "Aria Pleated Wrap Midi Dress",
+    "slug": "aria-pleated-wrap-midi-dress-wd-059-wd-261",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6232.jpg.jpeg",
-      "/western-dresses/6234.jpg.jpeg",
-      "/western-dresses/6239.jpg.jpeg",
-      "/western-dresses/6240.jpg.jpeg",
-      "/western-dresses/6241.jpg.jpeg"
+      "/western-dresses/6217.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Pleated Wrap Midi Dress (WST-WD-600) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0261"
+  },
+  {
+    "id": "wd-0262",
+    "title": "Aria Pleated Wrap Midi Dress",
+    "slug": "aria-pleated-wrap-midi-dress-wd-059-b-wd-262",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6218.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Pleated Wrap Midi Dress (WST-WD-600) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0262"
+  },
+  {
+    "id": "wd-0263",
+    "title": "Sienna Pleated Wrap Midi Dress",
+    "slug": "sienna-pleated-wrap-midi-dress-wd-059-b-wd-263",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6219.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Pleated Wrap Midi Dress (WST-WD-600) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0263"
+  },
+  {
+    "id": "wd-0264",
+    "title": "Sienna Lantern Sleeve Tunic Dress",
+    "slug": "sienna-lantern-sleeve-tunic-dress-wd-059-wd-264",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6221.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Lantern Sleeve Tunic Dress (WST-WD-601) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0264"
+  },
+  {
+    "id": "wd-0265",
+    "title": "Sienna Lantern Sleeve Tunic Dress",
+    "slug": "sienna-lantern-sleeve-tunic-dress-wd-059-c-wd-265",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6222.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Lantern Sleeve Tunic Dress (WST-WD-601) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0265"
+  },
+  {
+    "id": "wd-0266",
+    "title": "Blair Satin Slip Dress",
+    "slug": "blair-satin-slip-dress-wd-266",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6232.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2146,12 +8322,136 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-160"
+    "sku": "WST-WD-0266"
   },
   {
-    "id": "wd-061",
+    "id": "wd-0267",
+    "title": "Elena Floral Pintuck Slip Dress",
+    "slug": "elena-floral-pintuck-slip-dress-wd-060-wd-267",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6234.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Floral Pintuck Slip Dress (WST-WD-602) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0267"
+  },
+  {
+    "id": "wd-0268",
+    "title": "Mila Bohemian Peasant Tiered Dress",
+    "slug": "mila-bohemian-peasant-tiered-dress-wd-060-wd-268",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6239.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Bohemian Peasant Tiered Dress (WST-WD-603) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0268"
+  },
+  {
+    "id": "wd-0269",
+    "title": "Isla Bohemian Peasant Tiered Dress",
+    "slug": "isla-bohemian-peasant-tiered-dress-wd-060-c-wd-269",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6240.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Bohemian Peasant Tiered Dress (WST-WD-603) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0269"
+  },
+  {
+    "id": "wd-0270",
+    "title": "Chloe Bohemian Peasant Tiered Dress",
+    "slug": "chloe-bohemian-peasant-tiered-dress-wd-060-c-wd-270",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6241.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Bohemian Peasant Tiered Dress (WST-WD-603) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0270"
+  },
+  {
+    "id": "wd-0271",
     "title": "Gemma Corset Mini Dress",
-    "slug": "gemma-corset-mini-dress-61",
+    "slug": "gemma-corset-mini-dress-wd-271",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -2159,9 +8459,69 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/6244.jpg.jpeg",
-      "/western-dresses/6245.jpg.jpeg",
+      "/western-dresses/6245.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gemma Corset Mini Dress (WST-WD-161) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0271"
+  },
+  {
+    "id": "wd-0272",
+    "title": "Chloe Corset Mini Dress",
+    "slug": "chloe-corset-mini-dress-wd-061-wd-272",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6246.jpg.jpeg",
-      "/western-dresses/6247.jpg.jpeg",
+      "/western-dresses/6247.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gemma Corset Mini Dress (WST-WD-161) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0272"
+  },
+  {
+    "id": "wd-0273",
+    "title": "Freya Corset Mini Dress",
+    "slug": "freya-corset-mini-dress-wd-061-wd-273",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6248.jpg.jpeg"
     ],
     "sizes": [
@@ -2181,24 +8541,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-161"
+    "sku": "WST-WD-0273"
   },
   {
-    "id": "wd-062",
+    "id": "wd-0274",
     "title": "Cora Broderie Tier Dress",
-    "slug": "cora-broderie-tier-dress-62",
+    "slug": "cora-broderie-tier-dress-wd-274",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6252.jpg.jpeg",
-      "/western-dresses/6253.jpg.jpeg",
-      "/western-dresses/6254.jpg.jpeg",
-      "/western-dresses/6257.jpg.jpeg",
-      "/western-dresses/6258.jpg.jpeg",
-      "/western-dresses/6259.jpg.jpeg"
+      "/western-dresses/6252.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2217,23 +8572,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-162"
+    "sku": "WST-WD-0274"
   },
   {
-    "id": "wd-063",
-    "title": "Jade Fluted Hem Midi Dress",
-    "slug": "jade-fluted-hem-midi-dress-63",
+    "id": "wd-0275",
+    "title": "Freya Broderie Tier Dress",
+    "slug": "freya-broderie-tier-dress-wd-062-wd-275",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6260.jpg.jpeg",
-      "/western-dresses/6261.jpg.jpeg",
-      "/western-dresses/6262.jpg.jpeg",
-      "/western-dresses/6263.jpg.jpeg",
-      "/western-dresses/6264.jpg.jpeg"
+      "/western-dresses/6253.jpg.jpeg",
+      "/western-dresses/6254.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cora Broderie Tier Dress (WST-WD-162) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0275"
+  },
+  {
+    "id": "wd-0276",
+    "title": "Isla Eyelet Flutter Sleeve Dress",
+    "slug": "isla-eyelet-flutter-sleeve-dress-wd-062-wd-276",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6257.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Eyelet Flutter Sleeve Dress (WST-WD-604) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0276"
+  },
+  {
+    "id": "wd-0277",
+    "title": "Chloe A-Line Tiered Resort Dress",
+    "slug": "chloe-a-line-tiered-resort-dress-wd-062-wd-277",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6258.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe A-Line Tiered Resort Dress (WST-WD-605) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0277"
+  },
+  {
+    "id": "wd-0278",
+    "title": "Luna A-Line Tiered Resort Dress",
+    "slug": "luna-a-line-tiered-resort-dress-wd-062-c-wd-278",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6259.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe A-Line Tiered Resort Dress (WST-WD-605) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0278"
+  },
+  {
+    "id": "wd-0279",
+    "title": "Jade Fluted Hem Midi Dress",
+    "slug": "jade-fluted-hem-midi-dress-wd-279",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6260.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2252,24 +8728,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-163"
+    "sku": "WST-WD-0279"
   },
   {
-    "id": "wd-064",
+    "id": "wd-0280",
+    "title": "Freya Belted Linen Blend Dress",
+    "slug": "freya-belted-linen-blend-dress-wd-063-wd-280",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6261.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Belted Linen Blend Dress (WST-WD-606) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0280"
+  },
+  {
+    "id": "wd-0281",
+    "title": "Maya Floral Embroidered Halter Dress",
+    "slug": "maya-floral-embroidered-halter-dress-wd-063-wd-281",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6262.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Floral Embroidered Halter Dress (WST-WD-607) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0281"
+  },
+  {
+    "id": "wd-0282",
+    "title": "Nova Floral Embroidered Halter Dress",
+    "slug": "nova-floral-embroidered-halter-dress-wd-063-c-wd-282",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6263.jpg.jpeg",
+      "/western-dresses/6264.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Floral Embroidered Halter Dress (WST-WD-607) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0282"
+  },
+  {
+    "id": "wd-0283",
     "title": "Ruby Babydoll Mini Dress",
-    "slug": "ruby-babydoll-mini-dress-64",
+    "slug": "ruby-babydoll-mini-dress-wd-283",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6268.jpg.jpeg",
-      "/western-dresses/6269.jpg.jpeg",
-      "/western-dresses/6270.jpg.jpeg",
-      "/western-dresses/6272.jpg.jpeg",
-      "/western-dresses/6282.jpg.jpeg",
-      "/western-dresses/6283.jpg.jpeg"
+      "/western-dresses/6268.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2288,24 +8853,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-164"
+    "sku": "WST-WD-0283"
   },
   {
-    "id": "wd-065",
+    "id": "wd-0284",
+    "title": "Bella Babydoll Mini Dress",
+    "slug": "bella-babydoll-mini-dress-wd-064-wd-284",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6269.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ruby Babydoll Mini Dress (WST-WD-164) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0284"
+  },
+  {
+    "id": "wd-0285",
+    "title": "Rhea Babydoll Mini Dress",
+    "slug": "rhea-babydoll-mini-dress-wd-064-wd-285",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6270.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ruby Babydoll Mini Dress (WST-WD-164) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0285"
+  },
+  {
+    "id": "wd-0286",
+    "title": "Zoe Babydoll Mini Dress",
+    "slug": "zoe-babydoll-mini-dress-wd-064-wd-286",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6272.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ruby Babydoll Mini Dress (WST-WD-164) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0286"
+  },
+  {
+    "id": "wd-0287",
+    "title": "Luna Tiered Ruffle Maxi Dress",
+    "slug": "luna-tiered-ruffle-maxi-dress-wd-064-wd-287",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6282.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Tiered Ruffle Maxi Dress (WST-WD-608) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0287"
+  },
+  {
+    "id": "wd-0288",
+    "title": "Rhea Tiered Ruffle Maxi Dress",
+    "slug": "rhea-tiered-ruffle-maxi-dress-wd-064-b-wd-288",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6283.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Tiered Ruffle Maxi Dress (WST-WD-608) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0288"
+  },
+  {
+    "id": "wd-0289",
     "title": "Opal Tiered Maxi Dress",
-    "slug": "opal-tiered-maxi-dress-65",
+    "slug": "opal-tiered-maxi-dress-wd-289",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6286.jpg.jpeg",
-      "/western-dresses/6287.jpg.jpeg",
-      "/western-dresses/6289.jpg.jpeg",
-      "/western-dresses/6290.jpg.jpeg",
-      "/western-dresses/6291.jpg.jpeg",
-      "/western-dresses/6292.jpg.jpeg"
+      "/western-dresses/6286.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2324,12 +9039,167 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-165"
+    "sku": "WST-WD-0289"
   },
   {
-    "id": "wd-066",
+    "id": "wd-0290",
+    "title": "Zoe Tiered Maxi Dress",
+    "slug": "zoe-tiered-maxi-dress-wd-065-wd-290",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6287.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Opal Tiered Maxi Dress (WST-WD-165) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0290"
+  },
+  {
+    "id": "wd-0291",
+    "title": "Zara Embroidered Cotton Shirtdress",
+    "slug": "zara-embroidered-cotton-shirtdress-wd-065-wd-291",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6289.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Embroidered Cotton Shirtdress (WST-WD-609) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0291"
+  },
+  {
+    "id": "wd-0292",
+    "title": "Kaia Smocked Flounce Midi Dress",
+    "slug": "kaia-smocked-flounce-midi-dress-wd-065-wd-292",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6290.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Smocked Flounce Midi Dress (WST-WD-610) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0292"
+  },
+  {
+    "id": "wd-0293",
+    "title": "Stella Smocked Flounce Midi Dress",
+    "slug": "stella-smocked-flounce-midi-dress-wd-065-c-wd-293",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6291.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Smocked Flounce Midi Dress (WST-WD-610) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0293"
+  },
+  {
+    "id": "wd-0294",
+    "title": "Nina Smocked Flounce Midi Dress",
+    "slug": "nina-smocked-flounce-midi-dress-wd-065-c-wd-294",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6292.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Smocked Flounce Midi Dress (WST-WD-610) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0294"
+  },
+  {
+    "id": "wd-0295",
     "title": "Pearl Cowl Neck Slip Dress",
-    "slug": "pearl-cowl-neck-slip-dress-66",
+    "slug": "pearl-cowl-neck-slip-dress-wd-295",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -2337,11 +9207,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/6293.jpg.jpeg",
-      "/western-dresses/6294.jpg.jpeg",
-      "/western-dresses/6296.jpg.jpeg",
-      "/western-dresses/6297.jpg.jpeg",
-      "/western-dresses/6298.jpg.jpeg",
-      "/western-dresses/6300.jpg.jpeg"
+      "/western-dresses/6294.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2360,12 +9226,136 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-166"
+    "sku": "WST-WD-0295"
   },
   {
-    "id": "wd-067",
+    "id": "wd-0296",
+    "title": "Nova Broderie Anglaise Sundress",
+    "slug": "nova-broderie-anglaise-sundress-wd-066-wd-296",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6296.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Broderie Anglaise Sundress (WST-WD-611) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0296"
+  },
+  {
+    "id": "wd-0297",
+    "title": "Cleo Broderie Anglaise Sundress",
+    "slug": "cleo-broderie-anglaise-sundress-wd-066-b-wd-297",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6297.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Broderie Anglaise Sundress (WST-WD-611) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0297"
+  },
+  {
+    "id": "wd-0298",
+    "title": "Ivy Broderie Anglaise Sundress",
+    "slug": "ivy-broderie-anglaise-sundress-wd-066-b-wd-298",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6298.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Broderie Anglaise Sundress (WST-WD-611) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0298"
+  },
+  {
+    "id": "wd-0299",
+    "title": "Willow Broderie Anglaise Sundress",
+    "slug": "willow-broderie-anglaise-sundress-wd-066-b-wd-299",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6300.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Broderie Anglaise Sundress (WST-WD-611) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0299"
+  },
+  {
+    "id": "wd-0300",
     "title": "Ember Belted Shirtdress",
-    "slug": "ember-belted-shirtdress-67",
+    "slug": "ember-belted-shirtdress-wd-300",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -2374,9 +9364,99 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/6301.jpg.jpeg",
       "/western-dresses/6302.jpg.jpeg",
-      "/western-dresses/6303.jpg.jpeg",
-      "/western-dresses/6304.jpg.jpeg",
-      "/western-dresses/6305.jpg.jpeg",
+      "/western-dresses/6303.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ember Belted Shirtdress (WST-WD-167) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0300"
+  },
+  {
+    "id": "wd-0301",
+    "title": "Ivy Belted Shirtdress",
+    "slug": "ivy-belted-shirtdress-wd-067-wd-301",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6304.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ember Belted Shirtdress (WST-WD-167) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0301"
+  },
+  {
+    "id": "wd-0302",
+    "title": "Willow Belted Shirtdress",
+    "slug": "willow-belted-shirtdress-wd-067-wd-302",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6305.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ember Belted Shirtdress (WST-WD-167) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0302"
+  },
+  {
+    "id": "wd-0303",
+    "title": "Tara Belted Shirtdress",
+    "slug": "tara-belted-shirtdress-wd-067-wd-303",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6306.jpg.jpeg"
     ],
     "sizes": [
@@ -2396,24 +9476,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-167"
+    "sku": "WST-WD-0303"
   },
   {
-    "id": "wd-068",
+    "id": "wd-0304",
     "title": "Skye Bias-Cut Slip Dress",
-    "slug": "skye-bias-cut-slip-dress-68",
+    "slug": "skye-bias-cut-slip-dress-wd-304",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6307.jpg.jpeg",
-      "/western-dresses/6308.jpg.jpeg",
-      "/western-dresses/6311.jpg.jpeg",
-      "/western-dresses/6313.jpg.jpeg",
-      "/western-dresses/6314.jpg.jpeg",
-      "/western-dresses/6315.jpg.jpeg"
+      "/western-dresses/6307.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2432,23 +9507,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-168"
+    "sku": "WST-WD-0304"
   },
   {
-    "id": "wd-069",
-    "title": "Eden Embroidered Midi Dress",
-    "slug": "eden-embroidered-midi-dress-69",
+    "id": "wd-0305",
+    "title": "Willow Bias-Cut Slip Dress",
+    "slug": "willow-bias-cut-slip-dress-wd-068-wd-305",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6316.jpg.jpeg",
-      "/western-dresses/6317.jpg.jpeg",
-      "/western-dresses/6318.jpg.jpeg",
-      "/western-dresses/6319.jpg.jpeg",
-      "/western-dresses/6321.jpg.jpeg"
+      "/western-dresses/6308.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Skye Bias-Cut Slip Dress (WST-WD-168) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0305"
+  },
+  {
+    "id": "wd-0306",
+    "title": "Bella Pleated Wrap Midi Dress",
+    "slug": "bella-pleated-wrap-midi-dress-wd-068-wd-306",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6311.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Pleated Wrap Midi Dress (WST-WD-612) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0306"
+  },
+  {
+    "id": "wd-0307",
+    "title": "Rhea Lantern Sleeve Tunic Dress",
+    "slug": "rhea-lantern-sleeve-tunic-dress-wd-068-wd-307",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6313.jpg.jpeg",
+      "/western-dresses/6314.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Lantern Sleeve Tunic Dress (WST-WD-613) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0307"
+  },
+  {
+    "id": "wd-0308",
+    "title": "Zoe Floral Pintuck Slip Dress",
+    "slug": "zoe-floral-pintuck-slip-dress-wd-068-wd-308",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6315.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Floral Pintuck Slip Dress (WST-WD-614) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0308"
+  },
+  {
+    "id": "wd-0309",
+    "title": "Eden Embroidered Midi Dress",
+    "slug": "eden-embroidered-midi-dress-wd-309",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6316.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2467,12 +9663,136 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-169"
+    "sku": "WST-WD-0309"
   },
   {
-    "id": "wd-070",
+    "id": "wd-0310",
+    "title": "Lyra Bohemian Peasant Tiered Dress",
+    "slug": "lyra-bohemian-peasant-tiered-dress-wd-069-wd-310",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6317.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Bohemian Peasant Tiered Dress (WST-WD-615) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0310"
+  },
+  {
+    "id": "wd-0311",
+    "title": "Nadia Bohemian Peasant Tiered Dress",
+    "slug": "nadia-bohemian-peasant-tiered-dress-wd-069-b-wd-311",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6318.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Bohemian Peasant Tiered Dress (WST-WD-615) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0311"
+  },
+  {
+    "id": "wd-0312",
+    "title": "Stella Eyelet Flutter Sleeve Dress",
+    "slug": "stella-eyelet-flutter-sleeve-dress-wd-069-wd-312",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6319.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Eyelet Flutter Sleeve Dress (WST-WD-616) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0312"
+  },
+  {
+    "id": "wd-0313",
+    "title": "Nina A-Line Tiered Resort Dress",
+    "slug": "nina-a-line-tiered-resort-dress-wd-069-wd-313",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6321.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina A-Line Tiered Resort Dress (WST-WD-617) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0313"
+  },
+  {
+    "id": "wd-0314",
     "title": "Flora Linen Sundress",
-    "slug": "flora-linen-sundress-70",
+    "slug": "flora-linen-sundress-wd-314",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -2480,11 +9800,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/6327.jpg.jpeg",
-      "/western-dresses/6328.jpg.jpeg",
-      "/western-dresses/6329.jpg.jpeg",
-      "/western-dresses/6330.jpg.jpeg",
-      "/western-dresses/6338.jpg.jpeg",
-      "/western-dresses/6339.jpg.jpeg"
+      "/western-dresses/6328.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2503,24 +9819,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-170"
+    "sku": "WST-WD-0314"
   },
   {
-    "id": "wd-071",
+    "id": "wd-0315",
+    "title": "Thalia Linen Sundress",
+    "slug": "thalia-linen-sundress-wd-070-wd-315",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6329.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Flora Linen Sundress (WST-WD-170) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0315"
+  },
+  {
+    "id": "wd-0316",
+    "title": "Cleo Belted Linen Blend Dress",
+    "slug": "cleo-belted-linen-blend-dress-wd-070-wd-316",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6330.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Belted Linen Blend Dress (WST-WD-618) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0316"
+  },
+  {
+    "id": "wd-0317",
+    "title": "Ivy Floral Embroidered Halter Dress",
+    "slug": "ivy-floral-embroidered-halter-dress-wd-070-wd-317",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6338.jpg.jpeg",
+      "/western-dresses/6339.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Floral Embroidered Halter Dress (WST-WD-619) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0317"
+  },
+  {
+    "id": "wd-0318",
     "title": "Dahlia Ribbed Knit Dress",
-    "slug": "dahlia-ribbed-knit-dress-71",
+    "slug": "dahlia-ribbed-knit-dress-wd-318",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6346.jpg.jpeg",
-      "/western-dresses/6347.jpg.jpeg",
-      "/western-dresses/6348.jpg.jpeg",
-      "/western-dresses/6349.jpg.jpeg",
-      "/western-dresses/6351.jpg.jpeg",
-      "/western-dresses/6352.jpg.jpeg"
+      "/western-dresses/6346.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2539,24 +9944,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-171"
+    "sku": "WST-WD-0318"
   },
   {
-    "id": "wd-072",
+    "id": "wd-0319",
+    "title": "Willow Tiered Ruffle Maxi Dress",
+    "slug": "willow-tiered-ruffle-maxi-dress-wd-071-wd-319",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6347.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Tiered Ruffle Maxi Dress (WST-WD-620) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0319"
+  },
+  {
+    "id": "wd-0320",
+    "title": "Tara Embroidered Cotton Shirtdress",
+    "slug": "tara-embroidered-cotton-shirtdress-wd-071-wd-320",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6348.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara Embroidered Cotton Shirtdress (WST-WD-621) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0320"
+  },
+  {
+    "id": "wd-0321",
+    "title": "Kira Smocked Flounce Midi Dress",
+    "slug": "kira-smocked-flounce-midi-dress-wd-071-wd-321",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6349.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Smocked Flounce Midi Dress (WST-WD-622) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0321"
+  },
+  {
+    "id": "wd-0322",
+    "title": "Tessa Smocked Flounce Midi Dress",
+    "slug": "tessa-smocked-flounce-midi-dress-wd-071-d-wd-322",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6351.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Smocked Flounce Midi Dress (WST-WD-622) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0322"
+  },
+  {
+    "id": "wd-0323",
+    "title": "Bianca Smocked Flounce Midi Dress",
+    "slug": "bianca-smocked-flounce-midi-dress-wd-071-d-wd-323",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6352.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Smocked Flounce Midi Dress (WST-WD-622) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0323"
+  },
+  {
+    "id": "wd-0324",
     "title": "Poppy Flutter Sleeve Dress",
-    "slug": "poppy-flutter-sleeve-dress-72",
+    "slug": "poppy-flutter-sleeve-dress-wd-324",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6353.jpg.jpeg",
-      "/western-dresses/6354.jpg.jpeg",
-      "/western-dresses/6356.jpg.jpeg",
-      "/western-dresses/6357.jpg.jpeg",
-      "/western-dresses/6358.jpg.jpeg",
-      "/western-dresses/6359.jpg.jpeg"
+      "/western-dresses/6353.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2575,24 +10130,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-172"
+    "sku": "WST-WD-0324"
   },
   {
-    "id": "wd-073",
+    "id": "wd-0325",
+    "title": "Saffron Broderie Anglaise Sundress",
+    "slug": "saffron-broderie-anglaise-sundress-wd-072-wd-325",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6354.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Broderie Anglaise Sundress (WST-WD-623) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0325"
+  },
+  {
+    "id": "wd-0326",
+    "title": "Daphne Broderie Anglaise Sundress",
+    "slug": "daphne-broderie-anglaise-sundress-wd-072-b-wd-326",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6356.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Broderie Anglaise Sundress (WST-WD-623) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0326"
+  },
+  {
+    "id": "wd-0327",
+    "title": "Paloma Broderie Anglaise Sundress",
+    "slug": "paloma-broderie-anglaise-sundress-wd-072-b-wd-327",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6357.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Broderie Anglaise Sundress (WST-WD-623) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0327"
+  },
+  {
+    "id": "wd-0328",
+    "title": "Vivienne Broderie Anglaise Sundress",
+    "slug": "vivienne-broderie-anglaise-sundress-wd-072-b-wd-328",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6358.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Broderie Anglaise Sundress (WST-WD-623) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0328"
+  },
+  {
+    "id": "wd-0329",
+    "title": "Layla Broderie Anglaise Sundress",
+    "slug": "layla-broderie-anglaise-sundress-wd-072-b-wd-329",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6359.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Broderie Anglaise Sundress (WST-WD-623) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0329"
+  },
+  {
+    "id": "wd-0330",
     "title": "Magnolia Strapless Column Dress",
-    "slug": "magnolia-strapless-column-dress-73",
+    "slug": "magnolia-strapless-column-dress-wd-330",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6360.jpg.jpeg",
-      "/western-dresses/6361.jpg.jpeg",
-      "/western-dresses/6362.jpg.jpeg",
-      "/western-dresses/6364.jpg.jpeg",
-      "/western-dresses/6365.jpg.jpeg",
-      "/western-dresses/6366.jpg.jpeg"
+      "/western-dresses/6360.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2611,24 +10316,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-173"
+    "sku": "WST-WD-0330"
   },
   {
-    "id": "wd-074",
+    "id": "wd-0331",
+    "title": "Paloma Strapless Column Dress",
+    "slug": "paloma-strapless-column-dress-wd-073-wd-331",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6361.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Magnolia Strapless Column Dress (WST-WD-173) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0331"
+  },
+  {
+    "id": "wd-0332",
+    "title": "Vivienne Strapless Column Dress",
+    "slug": "vivienne-strapless-column-dress-wd-073-wd-332",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6362.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Magnolia Strapless Column Dress (WST-WD-173) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0332"
+  },
+  {
+    "id": "wd-0333",
+    "title": "Hazel Pleated Wrap Midi Dress",
+    "slug": "hazel-pleated-wrap-midi-dress-wd-073-wd-333",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6364.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Pleated Wrap Midi Dress (WST-WD-624) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0333"
+  },
+  {
+    "id": "wd-0334",
+    "title": "Nadia Lantern Sleeve Tunic Dress",
+    "slug": "nadia-lantern-sleeve-tunic-dress-wd-073-wd-334",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6365.jpg.jpeg",
+      "/western-dresses/6366.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Lantern Sleeve Tunic Dress (WST-WD-625) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0334"
+  },
+  {
+    "id": "wd-0335",
     "title": "Jasmine Cutout Halter Dress",
-    "slug": "jasmine-cutout-halter-dress-74",
+    "slug": "jasmine-cutout-halter-dress-wd-335",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6367.jpg.jpeg",
-      "/western-dresses/6369.jpg.jpeg",
-      "/western-dresses/6370.jpg.jpeg",
-      "/western-dresses/6371.jpg.jpeg",
-      "/western-dresses/6372.jpg.jpeg",
-      "/western-dresses/6373.jpg.jpeg"
+      "/western-dresses/6367.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2647,24 +10472,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-174"
+    "sku": "WST-WD-0335"
   },
   {
-    "id": "wd-075",
-    "title": "Lotus Draped Column Dress",
-    "slug": "lotus-draped-column-dress-75",
+    "id": "wd-0336",
+    "title": "Piper Floral Pintuck Slip Dress",
+    "slug": "piper-floral-pintuck-slip-dress-wd-074-wd-336",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6374.jpg.jpeg",
-      "/western-dresses/6376.jpg.jpeg",
-      "/western-dresses/6381.jpg.jpeg",
-      "/western-dresses/6382.jpg.jpeg",
-      "/western-dresses/6383.jpg.jpeg",
-      "/western-dresses/6384.jpg.jpeg"
+      "/western-dresses/6369.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Floral Pintuck Slip Dress (WST-WD-626) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0336"
+  },
+  {
+    "id": "wd-0337",
+    "title": "Daisy Bohemian Peasant Tiered Dress",
+    "slug": "daisy-bohemian-peasant-tiered-dress-wd-074-wd-337",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6370.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Bohemian Peasant Tiered Dress (WST-WD-627) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0337"
+  },
+  {
+    "id": "wd-0338",
+    "title": "Elena Bohemian Peasant Tiered Dress",
+    "slug": "elena-bohemian-peasant-tiered-dress-wd-074-c-wd-338",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6371.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Bohemian Peasant Tiered Dress (WST-WD-627) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0338"
+  },
+  {
+    "id": "wd-0339",
+    "title": "Mila Bohemian Peasant Tiered Dress",
+    "slug": "mila-bohemian-peasant-tiered-dress-wd-074-c-wd-339",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6372.jpg.jpeg",
+      "/western-dresses/6373.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Bohemian Peasant Tiered Dress (WST-WD-627) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0339"
+  },
+  {
+    "id": "wd-0340",
+    "title": "Lotus Draped Column Dress",
+    "slug": "lotus-draped-column-dress-wd-340",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6374.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2683,12 +10628,137 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-175"
+    "sku": "WST-WD-0340"
   },
   {
-    "id": "wd-076",
+    "id": "wd-0341",
+    "title": "Mila Draped Column Dress",
+    "slug": "mila-draped-column-dress-wd-075-wd-341",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6376.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lotus Draped Column Dress (WST-WD-175) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0341"
+  },
+  {
+    "id": "wd-0342",
+    "title": "Thalia Eyelet Flutter Sleeve Dress",
+    "slug": "thalia-eyelet-flutter-sleeve-dress-wd-075-wd-342",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6381.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Eyelet Flutter Sleeve Dress (WST-WD-628) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0342"
+  },
+  {
+    "id": "wd-0343",
+    "title": "Celeste A-Line Tiered Resort Dress",
+    "slug": "celeste-a-line-tiered-resort-dress-wd-075-wd-343",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6382.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste A-Line Tiered Resort Dress (WST-WD-629) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0343"
+  },
+  {
+    "id": "wd-0344",
+    "title": "Chloe A-Line Tiered Resort Dress",
+    "slug": "chloe-a-line-tiered-resort-dress-wd-075-c-wd-344",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6383.jpg.jpeg",
+      "/western-dresses/6384.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste A-Line Tiered Resort Dress (WST-WD-629) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0344"
+  },
+  {
+    "id": "wd-0345",
     "title": "Sage Sweetheart Flare Dress",
-    "slug": "sage-sweetheart-flare-dress-76",
+    "slug": "sage-sweetheart-flare-dress-wd-345",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -2696,11 +10766,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/6385.jpg.jpeg",
-      "/western-dresses/6386.jpg.jpeg",
-      "/western-dresses/6387.jpg.jpeg",
-      "/western-dresses/6388.jpg.jpeg",
-      "/western-dresses/6389.jpg.jpeg",
-      "/western-dresses/6391.jpg.jpeg"
+      "/western-dresses/6386.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2719,22 +10785,266 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-176"
+    "sku": "WST-WD-0345"
   },
   {
-    "id": "wd-077",
+    "id": "wd-0346",
+    "title": "Iris Belted Linen Blend Dress",
+    "slug": "iris-belted-linen-blend-dress-wd-076-wd-346",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6387.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Belted Linen Blend Dress (WST-WD-630) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0346"
+  },
+  {
+    "id": "wd-0347",
+    "title": "Maya Belted Linen Blend Dress",
+    "slug": "maya-belted-linen-blend-dress-wd-076-b-wd-347",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6388.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Belted Linen Blend Dress (WST-WD-630) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0347"
+  },
+  {
+    "id": "wd-0348",
+    "title": "Luna Belted Linen Blend Dress",
+    "slug": "luna-belted-linen-blend-dress-wd-076-b-wd-348",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6389.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Belted Linen Blend Dress (WST-WD-630) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0348"
+  },
+  {
+    "id": "wd-0349",
+    "title": "Zara Belted Linen Blend Dress",
+    "slug": "zara-belted-linen-blend-dress-wd-076-b-wd-349",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6391.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Belted Linen Blend Dress (WST-WD-630) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0349"
+  },
+  {
+    "id": "wd-0350",
     "title": "Olive Empire Waist Dress",
-    "slug": "olive-empire-waist-dress-77",
+    "slug": "olive-empire-waist-dress-wd-350",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6392.jpg.jpeg",
-      "/western-dresses/6393.jpg.jpeg",
-      "/western-dresses/6394.jpg.jpeg",
-      "/western-dresses/6395.jpg.jpeg",
+      "/western-dresses/6392.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Olive Empire Waist Dress (WST-WD-177) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0350"
+  },
+  {
+    "id": "wd-0351",
+    "title": "Luna Empire Waist Dress",
+    "slug": "luna-empire-waist-dress-wd-077-wd-351",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6393.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Olive Empire Waist Dress (WST-WD-177) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0351"
+  },
+  {
+    "id": "wd-0352",
+    "title": "Zara Empire Waist Dress",
+    "slug": "zara-empire-waist-dress-wd-077-wd-352",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6394.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Olive Empire Waist Dress (WST-WD-177) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0352"
+  },
+  {
+    "id": "wd-0353",
+    "title": "Kaia Empire Waist Dress",
+    "slug": "kaia-empire-waist-dress-wd-077-wd-353",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6395.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Olive Empire Waist Dress (WST-WD-177) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0353"
+  },
+  {
+    "id": "wd-0354",
+    "title": "Nova Empire Waist Dress",
+    "slug": "nova-empire-waist-dress-wd-077-wd-354",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6396.jpg.jpeg",
       "/western-dresses/6397.jpg.jpeg"
     ],
@@ -2755,24 +11065,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-177"
+    "sku": "WST-WD-0354"
   },
   {
-    "id": "wd-078",
+    "id": "wd-0355",
     "title": "Peony Pleated A-Line Dress",
-    "slug": "peony-pleated-a-line-dress-78",
+    "slug": "peony-pleated-a-line-dress-wd-355",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6398.jpg.jpeg",
-      "/western-dresses/6400.jpg.jpeg",
-      "/western-dresses/6401.jpg.jpeg",
-      "/western-dresses/6404.jpg.jpeg",
-      "/western-dresses/6406.jpg.jpeg",
-      "/western-dresses/6407.jpg.jpeg"
+      "/western-dresses/6398.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2791,24 +11096,114 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-178"
+    "sku": "WST-WD-0355"
   },
   {
-    "id": "wd-079",
+    "id": "wd-0356",
+    "title": "Camille Floral Embroidered Halter Dress",
+    "slug": "camille-floral-embroidered-halter-dress-wd-078-wd-356",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6400.jpg.jpeg",
+      "/western-dresses/6401.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Floral Embroidered Halter Dress (WST-WD-631) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0356"
+  },
+  {
+    "id": "wd-0357",
+    "title": "Kaia Floral Embroidered Halter Dress",
+    "slug": "kaia-floral-embroidered-halter-dress-wd-078-b-wd-357",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6404.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Floral Embroidered Halter Dress (WST-WD-631) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0357"
+  },
+  {
+    "id": "wd-0358",
+    "title": "Diana Tiered Ruffle Maxi Dress",
+    "slug": "diana-tiered-ruffle-maxi-dress-wd-078-wd-358",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6406.jpg.jpeg",
+      "/western-dresses/6407.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Tiered Ruffle Maxi Dress (WST-WD-632) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0358"
+  },
+  {
+    "id": "wd-0359",
     "title": "Camellia Floral Wrap Dress",
-    "slug": "camellia-floral-wrap-dress-79",
+    "slug": "camellia-floral-wrap-dress-wd-359",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/6479.jpg.jpeg",
-      "/western-dresses/6480.jpg.jpeg",
-      "/western-dresses/6481.jpg.jpeg",
-      "/western-dresses/6482.jpg.jpeg",
-      "/western-dresses/6485.jpg.jpeg",
-      "/western-dresses/6486.jpg.jpeg"
+      "/western-dresses/6479.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2827,12 +11222,137 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-179"
+    "sku": "WST-WD-0359"
   },
   {
-    "id": "wd-080",
+    "id": "wd-0360",
+    "title": "Bella Floral Wrap Dress",
+    "slug": "bella-floral-wrap-dress-wd-079-wd-360",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6480.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camellia Floral Wrap Dress (WST-WD-179) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0360"
+  },
+  {
+    "id": "wd-0361",
+    "title": "Rhea Floral Wrap Dress",
+    "slug": "rhea-floral-wrap-dress-wd-079-wd-361",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6481.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camellia Floral Wrap Dress (WST-WD-179) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0361"
+  },
+  {
+    "id": "wd-0362",
+    "title": "Zoe Floral Wrap Dress",
+    "slug": "zoe-floral-wrap-dress-wd-079-wd-362",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6482.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camellia Floral Wrap Dress (WST-WD-179) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0362"
+  },
+  {
+    "id": "wd-0363",
+    "title": "Giselle Embroidered Cotton Shirtdress",
+    "slug": "giselle-embroidered-cotton-shirtdress-wd-079-wd-363",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6485.jpg.jpeg",
+      "/western-dresses/6486.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle Embroidered Cotton Shirtdress (WST-WD-633) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0363"
+  },
+  {
+    "id": "wd-0364",
     "title": "Vienna Backless Maxi Dress",
-    "slug": "vienna-backless-maxi-dress-80",
+    "slug": "vienna-backless-maxi-dress-wd-364",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -2841,7 +11361,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/6487.jpg.jpeg",
       "/western-dresses/6488.jpg.jpeg",
-      "/western-dresses/6489.jpg.jpeg",
+      "/western-dresses/6489.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vienna Backless Maxi Dress (WST-WD-180) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0364"
+  },
+  {
+    "id": "wd-0365",
+    "title": "Zoe Backless Maxi Dress",
+    "slug": "zoe-backless-maxi-dress-wd-080-wd-365",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/6490.jpg.jpeg",
       "/western-dresses/6493.jpg.jpeg",
       "/western-dresses/6495.jpg.jpeg"
@@ -2863,12 +11413,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-180"
+    "sku": "WST-WD-0365"
   },
   {
-    "id": "wd-081",
+    "id": "wd-0366",
     "title": "Milan High-Slit Slip Dress",
-    "slug": "milan-high-slit-slip-dress-81",
+    "slug": "milan-high-slit-slip-dress-wd-366",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -2877,8 +11427,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/6513.jpg.jpeg",
       "/western-dresses/6514.jpg.jpeg",
-      "/western-dresses/6515.jpg.jpeg",
-      "/western-dresses/6526.jpg.jpeg"
+      "/western-dresses/6515.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2897,12 +11446,43 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-181"
+    "sku": "WST-WD-0366"
   },
   {
-    "id": "wd-082",
+    "id": "wd-0367",
+    "title": "Tessa Smocked Flounce Midi Dress",
+    "slug": "tessa-smocked-flounce-midi-dress-wd-081-wd-367",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/6526.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Smocked Flounce Midi Dress (WST-WD-634) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0367"
+  },
+  {
+    "id": "wd-0368",
     "title": "Monaco Keyhole Shift Dress",
-    "slug": "monaco-keyhole-shift-dress-82",
+    "slug": "monaco-keyhole-shift-dress-wd-368",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -2911,9 +11491,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/9559.jpg.jpeg",
       "/western-dresses/9560.jpg%20(1).jpeg",
-      "/western-dresses/9560.jpg.jpeg",
-      "/western-dresses/9582.jpg.jpeg",
-      "/western-dresses/9583.jpg.jpeg"
+      "/western-dresses/9560.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2932,23 +11510,81 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-182"
+    "sku": "WST-WD-0368"
   },
   {
-    "id": "wd-083",
+    "id": "wd-0369",
+    "title": "Bianca Broderie Anglaise Sundress",
+    "slug": "bianca-broderie-anglaise-sundress-wd-082-wd-369",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9582.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Broderie Anglaise Sundress (WST-WD-635) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0369"
+  },
+  {
+    "id": "wd-0370",
+    "title": "Daphne Pleated Wrap Midi Dress",
+    "slug": "daphne-pleated-wrap-midi-dress-wd-082-wd-370",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9583.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daphne Pleated Wrap Midi Dress (WST-WD-636) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0370"
+  },
+  {
+    "id": "wd-0371",
     "title": "Capri Pleated Midi Dress",
-    "slug": "capri-pleated-midi-dress-83",
+    "slug": "capri-pleated-midi-dress-wd-371",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/9635.jpg.jpeg",
-      "/western-dresses/9636.jpg.jpeg",
-      "/western-dresses/9638.jpg.jpeg",
-      "/western-dresses/9651.jpg.jpeg",
-      "/western-dresses/9652.jpg.jpeg"
+      "/western-dresses/9635.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -2967,23 +11603,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-183"
+    "sku": "WST-WD-0371"
   },
   {
-    "id": "wd-084",
-    "title": "Santorini Smocked Flounce Dress",
-    "slug": "santorini-smocked-flounce-dress-84",
+    "id": "wd-0372",
+    "title": "Willow Pleated Midi Dress",
+    "slug": "willow-pleated-midi-dress-wd-083-wd-372",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/9666.jpg.jpeg",
-      "/western-dresses/9670.jpg.jpeg",
-      "/western-dresses/9671.jpg.jpeg",
-      "/western-dresses/9673.jpg.jpeg",
-      "/western-dresses/9696.jpg.jpeg"
+      "/western-dresses/9636.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Capri Pleated Midi Dress (WST-WD-183) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0372"
+  },
+  {
+    "id": "wd-0373",
+    "title": "Tara Pleated Midi Dress",
+    "slug": "tara-pleated-midi-dress-wd-083-wd-373",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9638.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Capri Pleated Midi Dress (WST-WD-183) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0373"
+  },
+  {
+    "id": "wd-0374",
+    "title": "Paloma Lantern Sleeve Tunic Dress",
+    "slug": "paloma-lantern-sleeve-tunic-dress-wd-083-wd-374",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9651.jpg.jpeg",
+      "/western-dresses/9652.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Lantern Sleeve Tunic Dress (WST-WD-637) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0374"
+  },
+  {
+    "id": "wd-0375",
+    "title": "Santorini Smocked Flounce Dress",
+    "slug": "santorini-smocked-flounce-dress-wd-375",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9666.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3002,12 +11728,136 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-184"
+    "sku": "WST-WD-0375"
   },
   {
-    "id": "wd-085",
+    "id": "wd-0376",
+    "title": "Vivienne Floral Pintuck Slip Dress",
+    "slug": "vivienne-floral-pintuck-slip-dress-wd-084-wd-376",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9670.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Floral Pintuck Slip Dress (WST-WD-638) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0376"
+  },
+  {
+    "id": "wd-0377",
+    "title": "Saffron Floral Pintuck Slip Dress",
+    "slug": "saffron-floral-pintuck-slip-dress-wd-084-b-wd-377",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9671.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Floral Pintuck Slip Dress (WST-WD-638) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0377"
+  },
+  {
+    "id": "wd-0378",
+    "title": "Hazel Floral Pintuck Slip Dress",
+    "slug": "hazel-floral-pintuck-slip-dress-wd-084-b-wd-378",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9673.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Floral Pintuck Slip Dress (WST-WD-638) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0378"
+  },
+  {
+    "id": "wd-0379",
+    "title": "Layla Bohemian Peasant Tiered Dress",
+    "slug": "layla-bohemian-peasant-tiered-dress-wd-084-wd-379",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9696.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Layla Bohemian Peasant Tiered Dress (WST-WD-639) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0379"
+  },
+  {
+    "id": "wd-0380",
     "title": "Kyoto Asymmetric Wrap Dress",
-    "slug": "kyoto-asymmetric-wrap-dress-85",
+    "slug": "kyoto-asymmetric-wrap-dress-wd-380",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -3015,9 +11865,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/9709.jpg.jpeg",
-      "/western-dresses/9710.jpg.jpeg",
-      "/western-dresses/9713.jpg.jpeg",
-      "/western-dresses/9733.jpg.jpeg"
+      "/western-dresses/9710.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3036,24 +11884,81 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-185"
+    "sku": "WST-WD-0380"
   },
   {
-    "id": "wd-086",
+    "id": "wd-0381",
+    "title": "Nadia Asymmetric Wrap Dress",
+    "slug": "nadia-asymmetric-wrap-dress-wd-085-wd-381",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9713.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kyoto Asymmetric Wrap Dress (WST-WD-185) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0381"
+  },
+  {
+    "id": "wd-0382",
+    "title": "Serena Eyelet Flutter Sleeve Dress",
+    "slug": "serena-eyelet-flutter-sleeve-dress-wd-085-wd-382",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9733.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Eyelet Flutter Sleeve Dress (WST-WD-640) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0382"
+  },
+  {
+    "id": "wd-0383",
     "title": "Venice Off-Shoulder Maxi Dress",
-    "slug": "venice-off-shoulder-maxi-dress-86",
+    "slug": "venice-off-shoulder-maxi-dress-wd-383",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/9759.jpg.jpeg",
-      "/western-dresses/9760.jpg%20(1).jpeg",
-      "/western-dresses/9760.jpg.jpeg",
-      "/western-dresses/9775.jpg.jpeg",
-      "/western-dresses/9799.jpg.jpeg",
-      "/western-dresses/9800.jpg.jpeg"
+      "/western-dresses/9759.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3072,23 +11977,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-186"
+    "sku": "WST-WD-0383"
   },
   {
-    "id": "wd-087",
+    "id": "wd-0384",
+    "title": "Daisy Off-Shoulder Maxi Dress",
+    "slug": "daisy-off-shoulder-maxi-dress-wd-086-wd-384",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9760.jpg%20(1).jpeg",
+      "/western-dresses/9760.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Venice Off-Shoulder Maxi Dress (WST-WD-186) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0384"
+  },
+  {
+    "id": "wd-0385",
+    "title": "Amara A-Line Tiered Resort Dress",
+    "slug": "amara-a-line-tiered-resort-dress-wd-086-wd-385",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9775.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara A-Line Tiered Resort Dress (WST-WD-641) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0385"
+  },
+  {
+    "id": "wd-0386",
+    "title": "Astrid Belted Linen Blend Dress",
+    "slug": "astrid-belted-linen-blend-dress-wd-086-wd-386",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9799.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Belted Linen Blend Dress (WST-WD-642) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0386"
+  },
+  {
+    "id": "wd-0387",
+    "title": "Celeste Belted Linen Blend Dress",
+    "slug": "celeste-belted-linen-blend-dress-wd-086-c-wd-387",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9800.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Belted Linen Blend Dress (WST-WD-642) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0387"
+  },
+  {
+    "id": "wd-0388",
     "title": "Ibiza Plunge Fluted Dress",
-    "slug": "ibiza-plunge-fluted-dress-87",
+    "slug": "ibiza-plunge-fluted-dress-wd-388",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/9802.jpg.jpeg",
-      "/western-dresses/9803.jpg.jpeg",
-      "/western-dresses/9818.jpg.jpeg",
-      "/western-dresses/9843.jpg.jpeg",
-      "/western-dresses/9845.jpg.jpeg"
+      "/western-dresses/9802.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3107,21 +12133,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-187"
+    "sku": "WST-WD-0388"
   },
   {
-    "id": "wd-088",
+    "id": "wd-0389",
+    "title": "Iris Plunge Fluted Dress",
+    "slug": "iris-plunge-fluted-dress-wd-087-wd-389",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9803.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ibiza Plunge Fluted Dress (WST-WD-187) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0389"
+  },
+  {
+    "id": "wd-0390",
+    "title": "Gia Floral Embroidered Halter Dress",
+    "slug": "gia-floral-embroidered-halter-dress-wd-087-wd-390",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9818.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Floral Embroidered Halter Dress (WST-WD-643) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0390"
+  },
+  {
+    "id": "wd-0391",
+    "title": "Sora Tiered Ruffle Maxi Dress",
+    "slug": "sora-tiered-ruffle-maxi-dress-wd-087-wd-391",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9843.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Tiered Ruffle Maxi Dress (WST-WD-644) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0391"
+  },
+  {
+    "id": "wd-0392",
+    "title": "Noa Embroidered Cotton Shirtdress",
+    "slug": "noa-embroidered-cotton-shirtdress-wd-087-wd-392",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9845.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Embroidered Cotton Shirtdress (WST-WD-645) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0392"
+  },
+  {
+    "id": "wd-0393",
     "title": "St. Tropez Ruched Bodycon Dress",
-    "slug": "st-tropez-ruched-bodycon-dress-88",
+    "slug": "st-tropez-ruched-bodycon-dress-wd-393",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/9896.jpg.jpeg",
-      "/western-dresses/9935.jpg.jpeg",
-      "/western-dresses/9936.jpg.jpeg"
+      "/western-dresses/9896.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3140,22 +12288,51 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-188"
+    "sku": "WST-WD-0393"
   },
   {
-    "id": "wd-089",
+    "id": "wd-0394",
+    "title": "Lana Smocked Flounce Midi Dress",
+    "slug": "lana-smocked-flounce-midi-dress-wd-088-wd-394",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9935.jpg.jpeg",
+      "/western-dresses/9936.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Smocked Flounce Midi Dress (WST-WD-646) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0394"
+  },
+  {
+    "id": "wd-0395",
     "title": "Verona Puff Sleeve Midi Dress",
-    "slug": "verona-puff-sleeve-midi-dress-89",
+    "slug": "verona-puff-sleeve-midi-dress-wd-395",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/9995.jpg.jpeg",
-      "/western-dresses/9996.jpg.jpeg",
-      "/western-dresses/9998.jpg.jpeg",
-      "/western-dresses/10045.jpg.jpeg"
+      "/western-dresses/9995.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3174,12 +12351,105 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-189"
+    "sku": "WST-WD-0395"
   },
   {
-    "id": "wd-090",
+    "id": "wd-0396",
+    "title": "Daphne Puff Sleeve Midi Dress",
+    "slug": "daphne-puff-sleeve-midi-dress-wd-089-wd-396",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9996.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Verona Puff Sleeve Midi Dress (WST-WD-189) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0396"
+  },
+  {
+    "id": "wd-0397",
+    "title": "Kora Broderie Anglaise Sundress",
+    "slug": "kora-broderie-anglaise-sundress-wd-089-wd-397",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/9998.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora Broderie Anglaise Sundress (WST-WD-647) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0397"
+  },
+  {
+    "id": "wd-0398",
+    "title": "Mira Pleated Wrap Midi Dress",
+    "slug": "mira-pleated-wrap-midi-dress-wd-089-wd-398",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10045.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Pleated Wrap Midi Dress (WST-WD-648) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0398"
+  },
+  {
+    "id": "wd-0399",
     "title": "Riviera Organza Tiered Dress",
-    "slug": "riviera-organza-tiered-dress-90",
+    "slug": "riviera-organza-tiered-dress-wd-399",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -3187,11 +12457,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/10096.jpg.jpeg",
-      "/western-dresses/10097.jpg.jpeg",
-      "/western-dresses/10098.jpg.jpeg",
-      "/western-dresses/10099.jpg.jpeg",
-      "/western-dresses/10100.jpg.jpeg",
-      "/western-dresses/10101.jpg.jpeg"
+      "/western-dresses/10097.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3210,21 +12476,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-190"
+    "sku": "WST-WD-0399"
   },
   {
-    "id": "wd-091",
+    "id": "wd-0400",
+    "title": "Layla Organza Tiered Dress",
+    "slug": "layla-organza-tiered-dress-wd-090-wd-400",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10098.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Riviera Organza Tiered Dress (WST-WD-190) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0400"
+  },
+  {
+    "id": "wd-0401",
+    "title": "Aria Organza Tiered Dress",
+    "slug": "aria-organza-tiered-dress-wd-090-wd-401",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10099.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Riviera Organza Tiered Dress (WST-WD-190) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0401"
+  },
+  {
+    "id": "wd-0402",
+    "title": "Sienna Organza Tiered Dress",
+    "slug": "sienna-organza-tiered-dress-wd-090-wd-402",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10100.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Riviera Organza Tiered Dress (WST-WD-190) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0402"
+  },
+  {
+    "id": "wd-0403",
+    "title": "Veda Lantern Sleeve Tunic Dress",
+    "slug": "veda-lantern-sleeve-tunic-dress-wd-090-wd-403",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10101.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Veda Lantern Sleeve Tunic Dress (WST-WD-649) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0403"
+  },
+  {
+    "id": "wd-0404",
     "title": "Soho Shirred Tiered Dress",
-    "slug": "soho-shirred-tiered-dress-91",
+    "slug": "soho-shirred-tiered-dress-wd-404",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10198.jpg.jpeg",
-      "/western-dresses/10200.jpg.jpeg",
-      "/western-dresses/10201.jpg.jpeg"
+      "/western-dresses/10198.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3243,21 +12631,81 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-191"
+    "sku": "WST-WD-0404"
   },
   {
-    "id": "wd-092",
+    "id": "wd-0405",
+    "title": "Sienna Shirred Tiered Dress",
+    "slug": "sienna-shirred-tiered-dress-wd-091-wd-405",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10200.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Soho Shirred Tiered Dress (WST-WD-191) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0405"
+  },
+  {
+    "id": "wd-0406",
+    "title": "Aria Floral Pintuck Slip Dress",
+    "slug": "aria-floral-pintuck-slip-dress-wd-091-wd-406",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10201.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Floral Pintuck Slip Dress (WST-WD-650) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0406"
+  },
+  {
+    "id": "wd-0407",
     "title": "Chelsea Satin Slip Dress",
-    "slug": "chelsea-satin-slip-dress-92",
+    "slug": "chelsea-satin-slip-dress-wd-407",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10235.jpg.jpeg",
-      "/western-dresses/10241.jpg.jpeg",
-      "/western-dresses/10242.jpg.jpeg"
+      "/western-dresses/10235.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3276,25 +12724,51 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-192"
+    "sku": "WST-WD-0407"
   },
   {
-    "id": "wd-093",
-    "title": "Bel Air Corset Mini Dress",
-    "slug": "bel-air-corset-mini-dress-93",
+    "id": "wd-0408",
+    "title": "Sienna Bohemian Peasant Tiered Dress",
+    "slug": "sienna-bohemian-peasant-tiered-dress-wd-092-wd-408",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10277.jpg.jpeg",
-      "/western-dresses/10278.jpg.jpeg",
-      "/western-dresses/10310.jpg.jpeg",
-      "/western-dresses/10311.jpg.jpeg",
-      "/western-dresses/10312.jpg.jpeg",
-      "/western-dresses/10355.jpg.jpeg",
-      "/western-dresses/10356.jpg.jpeg"
+      "/western-dresses/10241.jpg.jpeg",
+      "/western-dresses/10242.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Bohemian Peasant Tiered Dress (WST-WD-651) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0408"
+  },
+  {
+    "id": "wd-0409",
+    "title": "Bel Air Corset Mini Dress",
+    "slug": "bel-air-corset-mini-dress-wd-409",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10277.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3313,25 +12787,205 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-193"
+    "sku": "WST-WD-0409"
   },
   {
-    "id": "wd-094",
+    "id": "wd-0410",
+    "title": "Chloe Air Corset Mini Dress",
+    "slug": "chloe-air-corset-mini-dress-wd-093-wd-410",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10278.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bel Air Corset Mini Dress (WST-WD-193) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0410"
+  },
+  {
+    "id": "wd-0411",
+    "title": "Elena Eyelet Flutter Sleeve Dress",
+    "slug": "elena-eyelet-flutter-sleeve-dress-wd-093-wd-411",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10310.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Eyelet Flutter Sleeve Dress (WST-WD-652) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0411"
+  },
+  {
+    "id": "wd-0412",
+    "title": "Freya Eyelet Flutter Sleeve Dress",
+    "slug": "freya-eyelet-flutter-sleeve-dress-wd-093-b-wd-412",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10311.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Eyelet Flutter Sleeve Dress (WST-WD-652) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0412"
+  },
+  {
+    "id": "wd-0413",
+    "title": "Maya Eyelet Flutter Sleeve Dress",
+    "slug": "maya-eyelet-flutter-sleeve-dress-wd-093-b-wd-413",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10312.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Eyelet Flutter Sleeve Dress (WST-WD-652) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0413"
+  },
+  {
+    "id": "wd-0414",
+    "title": "Mila A-Line Tiered Resort Dress",
+    "slug": "mila-a-line-tiered-resort-dress-wd-093-wd-414",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10355.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila A-Line Tiered Resort Dress (WST-WD-653) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0414"
+  },
+  {
+    "id": "wd-0415",
+    "title": "Maya A-Line Tiered Resort Dress",
+    "slug": "maya-a-line-tiered-resort-dress-wd-093-c-wd-415",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10356.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila A-Line Tiered Resort Dress (WST-WD-653) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0415"
+  },
+  {
+    "id": "wd-0416",
     "title": "Sorrento Broderie Tier Dress",
-    "slug": "sorrento-broderie-tier-dress-94",
+    "slug": "sorrento-broderie-tier-dress-wd-416",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10426.jpg.jpeg",
-      "/western-dresses/10427.jpg.jpeg",
-      "/western-dresses/10428.jpg.jpeg",
-      "/western-dresses/10429.jpg.jpeg",
-      "/western-dresses/10430.jpg.jpeg",
-      "/western-dresses/10431.jpg.jpeg",
-      "/western-dresses/10457.jpg.jpeg"
+      "/western-dresses/10426.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3350,24 +13004,175 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-194"
+    "sku": "WST-WD-0416"
   },
   {
-    "id": "wd-095",
+    "id": "wd-0417",
+    "title": "Luna Broderie Tier Dress",
+    "slug": "luna-broderie-tier-dress-wd-094-wd-417",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10427.jpg.jpeg",
+      "/western-dresses/10428.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sorrento Broderie Tier Dress (WST-WD-194) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0417"
+  },
+  {
+    "id": "wd-0418",
+    "title": "Isla Belted Linen Blend Dress",
+    "slug": "isla-belted-linen-blend-dress-wd-094-wd-418",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10429.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Belted Linen Blend Dress (WST-WD-654) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0418"
+  },
+  {
+    "id": "wd-0419",
+    "title": "Chloe Floral Embroidered Halter Dress",
+    "slug": "chloe-floral-embroidered-halter-dress-wd-094-wd-419",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10430.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Floral Embroidered Halter Dress (WST-WD-655) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0419"
+  },
+  {
+    "id": "wd-0420",
+    "title": "Kaia Floral Embroidered Halter Dress",
+    "slug": "kaia-floral-embroidered-halter-dress-wd-094-c-wd-420",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10431.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Floral Embroidered Halter Dress (WST-WD-655) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0420"
+  },
+  {
+    "id": "wd-0421",
+    "title": "Freya Tiered Ruffle Maxi Dress",
+    "slug": "freya-tiered-ruffle-maxi-dress-wd-094-wd-421",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10457.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Tiered Ruffle Maxi Dress (WST-WD-656) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0421"
+  },
+  {
+    "id": "wd-0422",
     "title": "Amalfi Fluted Hem Midi Dress",
-    "slug": "amalfi-fluted-hem-midi-dress-95",
+    "slug": "amalfi-fluted-hem-midi-dress-wd-422",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10633.jpg.jpeg",
-      "/western-dresses/10634.jpg.jpeg",
-      "/western-dresses/10635.jpg.jpeg",
-      "/western-dresses/10636.jpg.jpeg",
-      "/western-dresses/10637.jpg.jpeg",
-      "/western-dresses/10638.jpg.jpeg"
+      "/western-dresses/10633.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3386,12 +13191,137 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-195"
+    "sku": "WST-WD-0422"
   },
   {
-    "id": "wd-096",
+    "id": "wd-0423",
+    "title": "Maya Embroidered Cotton Shirtdress",
+    "slug": "maya-embroidered-cotton-shirtdress-wd-095-wd-423",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10634.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Embroidered Cotton Shirtdress (WST-WD-657) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0423"
+  },
+  {
+    "id": "wd-0424",
+    "title": "Rhea Embroidered Cotton Shirtdress",
+    "slug": "rhea-embroidered-cotton-shirtdress-wd-095-b-wd-424",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10635.jpg.jpeg",
+      "/western-dresses/10636.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Embroidered Cotton Shirtdress (WST-WD-657) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0424"
+  },
+  {
+    "id": "wd-0425",
+    "title": "Zoe Embroidered Cotton Shirtdress",
+    "slug": "zoe-embroidered-cotton-shirtdress-wd-095-b-wd-425",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10637.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Embroidered Cotton Shirtdress (WST-WD-657) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0425"
+  },
+  {
+    "id": "wd-0426",
+    "title": "Luna Smocked Flounce Midi Dress",
+    "slug": "luna-smocked-flounce-midi-dress-wd-095-wd-426",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10638.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Smocked Flounce Midi Dress (WST-WD-658) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0426"
+  },
+  {
+    "id": "wd-0427",
     "title": "Corsica Babydoll Mini Dress",
-    "slug": "corsica-babydoll-mini-dress-96",
+    "slug": "corsica-babydoll-mini-dress-wd-427",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -3399,10 +13329,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/10676.jpg%20(1).jpeg",
-      "/western-dresses/10676.jpg.jpeg",
-      "/western-dresses/10686.jpg.jpeg",
-      "/western-dresses/10687.jpg.jpeg",
-      "/western-dresses/10699.jpg.jpeg"
+      "/western-dresses/10676.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3421,22 +13348,82 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-196"
+    "sku": "WST-WD-0427"
   },
   {
-    "id": "wd-097",
+    "id": "wd-0428",
+    "title": "Zara Broderie Anglaise Sundress",
+    "slug": "zara-broderie-anglaise-sundress-wd-096-wd-428",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10686.jpg.jpeg",
+      "/western-dresses/10687.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Broderie Anglaise Sundress (WST-WD-659) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0428"
+  },
+  {
+    "id": "wd-0429",
+    "title": "Kaia Pleated Wrap Midi Dress",
+    "slug": "kaia-pleated-wrap-midi-dress-wd-096-wd-429",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10699.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Pleated Wrap Midi Dress (WST-WD-660) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0429"
+  },
+  {
+    "id": "wd-0430",
     "title": "Sicily Tiered Maxi Dress",
-    "slug": "sicily-tiered-maxi-dress-97",
+    "slug": "sicily-tiered-maxi-dress-wd-430",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10702.jpg.jpeg",
-      "/western-dresses/10746.jpg.jpeg",
-      "/western-dresses/10748.jpg.jpeg",
-      "/western-dresses/10779.jpg.jpeg"
+      "/western-dresses/10702.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3455,23 +13442,112 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-197"
+    "sku": "WST-WD-0430"
   },
   {
-    "id": "wd-098",
+    "id": "wd-0431",
+    "title": "Nova Lantern Sleeve Tunic Dress",
+    "slug": "nova-lantern-sleeve-tunic-dress-wd-097-wd-431",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10746.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Lantern Sleeve Tunic Dress (WST-WD-661) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0431"
+  },
+  {
+    "id": "wd-0432",
+    "title": "Ivy Lantern Sleeve Tunic Dress",
+    "slug": "ivy-lantern-sleeve-tunic-dress-wd-097-b-wd-432",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10748.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Lantern Sleeve Tunic Dress (WST-WD-661) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0432"
+  },
+  {
+    "id": "wd-0433",
+    "title": "Bella Floral Pintuck Slip Dress",
+    "slug": "bella-floral-pintuck-slip-dress-wd-097-wd-433",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10779.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Floral Pintuck Slip Dress (WST-WD-662) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0433"
+  },
+  {
+    "id": "wd-0434",
     "title": "Biarritz Cowl Neck Slip Dress",
-    "slug": "biarritz-cowl-neck-slip-dress-98",
+    "slug": "biarritz-cowl-neck-slip-dress-wd-434",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10840.jpg.jpeg",
-      "/western-dresses/10841.jpg.jpeg",
-      "/western-dresses/10846.jpg.jpeg",
-      "/western-dresses/10848.jpg.jpeg",
-      "/western-dresses/10866.jpg.jpeg"
+      "/western-dresses/10840.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3490,12 +13566,106 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-198"
+    "sku": "WST-WD-0434"
   },
   {
-    "id": "wd-099",
+    "id": "wd-0435",
+    "title": "Tara Cowl Neck Slip Dress",
+    "slug": "tara-cowl-neck-slip-dress-wd-098-wd-435",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10841.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Biarritz Cowl Neck Slip Dress (WST-WD-198) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0435"
+  },
+  {
+    "id": "wd-0436",
+    "title": "Rhea Bohemian Peasant Tiered Dress",
+    "slug": "rhea-bohemian-peasant-tiered-dress-wd-098-wd-436",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10846.jpg.jpeg",
+      "/western-dresses/10848.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Bohemian Peasant Tiered Dress (WST-WD-663) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0436"
+  },
+  {
+    "id": "wd-0437",
+    "title": "Zoe Eyelet Flutter Sleeve Dress",
+    "slug": "zoe-eyelet-flutter-sleeve-dress-wd-098-wd-437",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10866.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Eyelet Flutter Sleeve Dress (WST-WD-664) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0437"
+  },
+  {
+    "id": "wd-0438",
     "title": "Seville Belted Shirtdress",
-    "slug": "seville-belted-shirtdress-99",
+    "slug": "seville-belted-shirtdress-wd-438",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -3503,11 +13673,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/10871.jpg.jpeg",
-      "/western-dresses/10872.jpg.jpeg",
-      "/western-dresses/10875.jpg.jpeg",
-      "/western-dresses/10880.jpg.jpeg",
-      "/western-dresses/10882.jpg.jpeg",
-      "/western-dresses/10883.jpg.jpeg"
+      "/western-dresses/10872.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3526,23 +13692,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-199"
+    "sku": "WST-WD-0438"
   },
   {
-    "id": "wd-100",
+    "id": "wd-0439",
+    "title": "Lyra A-Line Tiered Resort Dress",
+    "slug": "lyra-a-line-tiered-resort-dress-wd-099-wd-439",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10875.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra A-Line Tiered Resort Dress (WST-WD-665) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0439"
+  },
+  {
+    "id": "wd-0440",
+    "title": "Stella Belted Linen Blend Dress",
+    "slug": "stella-belted-linen-blend-dress-wd-099-wd-440",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10880.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Belted Linen Blend Dress (WST-WD-666) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0440"
+  },
+  {
+    "id": "wd-0441",
+    "title": "Nina Floral Embroidered Halter Dress",
+    "slug": "nina-floral-embroidered-halter-dress-wd-099-wd-441",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10882.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Floral Embroidered Halter Dress (WST-WD-667) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0441"
+  },
+  {
+    "id": "wd-0442",
+    "title": "Daisy Floral Embroidered Halter Dress",
+    "slug": "daisy-floral-embroidered-halter-dress-wd-099-d-wd-442",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10883.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Floral Embroidered Halter Dress (WST-WD-667) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0442"
+  },
+  {
+    "id": "wd-0443",
     "title": "Catalina Bias-Cut Slip Dress",
-    "slug": "catalina-bias-cut-slip-dress-100",
+    "slug": "catalina-bias-cut-slip-dress-wd-443",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10884.jpg.jpeg",
-      "/western-dresses/10885.jpg.jpeg",
-      "/western-dresses/10886.jpg.jpeg",
-      "/western-dresses/10887.jpg.jpeg",
-      "/western-dresses/10888.jpg.jpeg"
+      "/western-dresses/10884.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3561,23 +13847,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-200"
+    "sku": "WST-WD-0443"
   },
   {
-    "id": "wd-101",
+    "id": "wd-0444",
+    "title": "Thalia Bias-Cut Slip Dress",
+    "slug": "thalia-bias-cut-slip-dress-wd-100-wd-444",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10885.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Catalina Bias-Cut Slip Dress (WST-WD-200) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0444"
+  },
+  {
+    "id": "wd-0445",
+    "title": "Celeste Bias-Cut Slip Dress",
+    "slug": "celeste-bias-cut-slip-dress-wd-100-wd-445",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10886.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Catalina Bias-Cut Slip Dress (WST-WD-200) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0445"
+  },
+  {
+    "id": "wd-0446",
+    "title": "Cleo Tiered Ruffle Maxi Dress",
+    "slug": "cleo-tiered-ruffle-maxi-dress-wd-100-wd-446",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10887.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Tiered Ruffle Maxi Dress (WST-WD-668) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0446"
+  },
+  {
+    "id": "wd-0447",
+    "title": "Celeste Tiered Ruffle Maxi Dress",
+    "slug": "celeste-tiered-ruffle-maxi-dress-wd-100-b-wd-447",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10888.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Tiered Ruffle Maxi Dress (WST-WD-668) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0447"
+  },
+  {
+    "id": "wd-0448",
     "title": "Geneva Embroidered Midi Dress",
-    "slug": "geneva-embroidered-midi-dress-101",
+    "slug": "geneva-embroidered-midi-dress-wd-448",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10929.jpg.jpeg",
-      "/western-dresses/10942.jpg.jpeg",
-      "/western-dresses/10948.jpg.jpeg",
-      "/western-dresses/10949.jpg.jpeg",
-      "/western-dresses/10950.jpg.jpeg"
+      "/western-dresses/10929.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3596,24 +14002,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-201"
+    "sku": "WST-WD-0448"
   },
   {
-    "id": "wd-102",
+    "id": "wd-0449",
+    "title": "Ivy Embroidered Cotton Shirtdress",
+    "slug": "ivy-embroidered-cotton-shirtdress-wd-101-wd-449",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10942.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Embroidered Cotton Shirtdress (WST-WD-669) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0449"
+  },
+  {
+    "id": "wd-0450",
+    "title": "Willow Smocked Flounce Midi Dress",
+    "slug": "willow-smocked-flounce-midi-dress-wd-101-wd-450",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10948.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Smocked Flounce Midi Dress (WST-WD-670) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0450"
+  },
+  {
+    "id": "wd-0451",
+    "title": "Diana Smocked Flounce Midi Dress",
+    "slug": "diana-smocked-flounce-midi-dress-wd-101-c-wd-451",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10949.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Smocked Flounce Midi Dress (WST-WD-670) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0451"
+  },
+  {
+    "id": "wd-0452",
+    "title": "Giselle Smocked Flounce Midi Dress",
+    "slug": "giselle-smocked-flounce-midi-dress-wd-101-c-wd-452",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10950.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Smocked Flounce Midi Dress (WST-WD-670) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0452"
+  },
+  {
+    "id": "wd-0453",
     "title": "Florence Linen Sundress",
-    "slug": "florence-linen-sundress-102",
+    "slug": "florence-linen-sundress-wd-453",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/10964.jpg.jpeg",
-      "/western-dresses/10973.jpg.jpeg",
-      "/western-dresses/10976.jpg.jpeg",
-      "/western-dresses/10977.jpg.jpeg",
-      "/western-dresses/10978.jpg.jpeg",
-      "/western-dresses/10979.jpg.jpeg"
+      "/western-dresses/10964.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3632,12 +14157,137 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-202"
+    "sku": "WST-WD-0453"
   },
   {
-    "id": "wd-103",
+    "id": "wd-0454",
+    "title": "Tara Broderie Anglaise Sundress",
+    "slug": "tara-broderie-anglaise-sundress-wd-102-wd-454",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10973.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara Broderie Anglaise Sundress (WST-WD-671) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0454"
+  },
+  {
+    "id": "wd-0455",
+    "title": "Kira Pleated Wrap Midi Dress",
+    "slug": "kira-pleated-wrap-midi-dress-wd-102-wd-455",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10976.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Pleated Wrap Midi Dress (WST-WD-672) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0455"
+  },
+  {
+    "id": "wd-0456",
+    "title": "Bianca Pleated Wrap Midi Dress",
+    "slug": "bianca-pleated-wrap-midi-dress-wd-102-c-wd-456",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10977.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Pleated Wrap Midi Dress (WST-WD-672) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0456"
+  },
+  {
+    "id": "wd-0457",
+    "title": "Saffron Lantern Sleeve Tunic Dress",
+    "slug": "saffron-lantern-sleeve-tunic-dress-wd-102-wd-457",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/10978.jpg.jpeg",
+      "/western-dresses/10979.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Lantern Sleeve Tunic Dress (WST-WD-673) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0457"
+  },
+  {
+    "id": "wd-0458",
     "title": "Savannah Ribbed Knit Dress",
-    "slug": "savannah-ribbed-knit-dress-103",
+    "slug": "savannah-ribbed-knit-dress-wd-458",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -3645,12 +14295,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/10981.jpg.jpeg",
-      "/western-dresses/10982.jpg.jpeg",
-      "/western-dresses/11046.jpg.jpeg",
-      "/western-dresses/11053.jpg.jpeg",
-      "/western-dresses/11054.jpg.jpeg",
-      "/western-dresses/11055.jpg.jpeg",
-      "/western-dresses/11076.jpg.jpeg"
+      "/western-dresses/10982.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3669,24 +14314,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-203"
+    "sku": "WST-WD-0458"
   },
   {
-    "id": "wd-104",
+    "id": "wd-0459",
+    "title": "Hazel Floral Pintuck Slip Dress",
+    "slug": "hazel-floral-pintuck-slip-dress-wd-103-wd-459",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11046.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Floral Pintuck Slip Dress (WST-WD-674) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0459"
+  },
+  {
+    "id": "wd-0460",
+    "title": "Nadia Bohemian Peasant Tiered Dress",
+    "slug": "nadia-bohemian-peasant-tiered-dress-wd-103-wd-460",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11053.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Bohemian Peasant Tiered Dress (WST-WD-675) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0460"
+  },
+  {
+    "id": "wd-0461",
+    "title": "Layla Bohemian Peasant Tiered Dress",
+    "slug": "layla-bohemian-peasant-tiered-dress-wd-103-c-wd-461",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11054.jpg.jpeg",
+      "/western-dresses/11055.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Bohemian Peasant Tiered Dress (WST-WD-675) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0461"
+  },
+  {
+    "id": "wd-0462",
+    "title": "Piper Eyelet Flutter Sleeve Dress",
+    "slug": "piper-eyelet-flutter-sleeve-dress-wd-103-wd-462",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11076.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Eyelet Flutter Sleeve Dress (WST-WD-676) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0462"
+  },
+  {
+    "id": "wd-0463",
     "title": "Austin Flutter Sleeve Dress",
-    "slug": "austin-flutter-sleeve-dress-104",
+    "slug": "austin-flutter-sleeve-dress-wd-463",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11079.jpg.jpeg",
-      "/western-dresses/11085.jpg.jpeg",
-      "/western-dresses/11086.jpg.jpeg",
-      "/western-dresses/11088.jpg.jpeg",
-      "/western-dresses/11092.jpg.jpeg",
-      "/western-dresses/11093.jpg.jpeg"
+      "/western-dresses/11079.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3705,12 +14470,137 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-204"
+    "sku": "WST-WD-0463"
   },
   {
-    "id": "wd-105",
+    "id": "wd-0464",
+    "title": "Daisy A-Line Tiered Resort Dress",
+    "slug": "daisy-a-line-tiered-resort-dress-wd-104-wd-464",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11085.jpg.jpeg",
+      "/western-dresses/11086.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy A-Line Tiered Resort Dress (WST-WD-677) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0464"
+  },
+  {
+    "id": "wd-0465",
+    "title": "Elena A-Line Tiered Resort Dress",
+    "slug": "elena-a-line-tiered-resort-dress-wd-104-b-wd-465",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11088.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy A-Line Tiered Resort Dress (WST-WD-677) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0465"
+  },
+  {
+    "id": "wd-0466",
+    "title": "Thalia Belted Linen Blend Dress",
+    "slug": "thalia-belted-linen-blend-dress-wd-104-wd-466",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11092.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Belted Linen Blend Dress (WST-WD-678) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0466"
+  },
+  {
+    "id": "wd-0467",
+    "title": "Mila Belted Linen Blend Dress",
+    "slug": "mila-belted-linen-blend-dress-wd-104-c-wd-467",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11093.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Belted Linen Blend Dress (WST-WD-678) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0467"
+  },
+  {
+    "id": "wd-0468",
     "title": "Sydney Strapless Column Dress",
-    "slug": "sydney-strapless-column-dress-105",
+    "slug": "sydney-strapless-column-dress-wd-468",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -3737,24 +14627,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-205"
+    "sku": "WST-WD-0468"
   },
   {
-    "id": "wd-106",
+    "id": "wd-0469",
     "title": "Aspen Cutout Halter Dress",
-    "slug": "aspen-cutout-halter-dress-106",
+    "slug": "aspen-cutout-halter-dress-wd-469",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11156.jpg.jpeg",
-      "/western-dresses/11168.jpg.jpeg",
-      "/western-dresses/11169.jpg.jpeg",
-      "/western-dresses/11173.jpg.jpeg",
-      "/western-dresses/11174.jpg.jpeg",
-      "/western-dresses/11175.jpg.jpeg"
+      "/western-dresses/11156.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3773,24 +14658,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-206"
+    "sku": "WST-WD-0469"
   },
   {
-    "id": "wd-107",
+    "id": "wd-0470",
+    "title": "Celeste Floral Embroidered Halter Dress",
+    "slug": "celeste-floral-embroidered-halter-dress-wd-106-wd-470",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11168.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Floral Embroidered Halter Dress (WST-WD-679) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0470"
+  },
+  {
+    "id": "wd-0471",
+    "title": "Freya Floral Embroidered Halter Dress",
+    "slug": "freya-floral-embroidered-halter-dress-wd-106-b-wd-471",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11169.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Floral Embroidered Halter Dress (WST-WD-679) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0471"
+  },
+  {
+    "id": "wd-0472",
+    "title": "Iris Tiered Ruffle Maxi Dress",
+    "slug": "iris-tiered-ruffle-maxi-dress-wd-106-wd-472",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11173.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Tiered Ruffle Maxi Dress (WST-WD-680) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0472"
+  },
+  {
+    "id": "wd-0473",
+    "title": "Camille Embroidered Cotton Shirtdress",
+    "slug": "camille-embroidered-cotton-shirtdress-wd-106-wd-473",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11174.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Embroidered Cotton Shirtdress (WST-WD-681) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0473"
+  },
+  {
+    "id": "wd-0474",
+    "title": "Luna Embroidered Cotton Shirtdress",
+    "slug": "luna-embroidered-cotton-shirtdress-wd-106-d-wd-474",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11175.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Embroidered Cotton Shirtdress (WST-WD-681) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0474"
+  },
+  {
+    "id": "wd-0475",
     "title": "Cannes Draped Column Dress",
-    "slug": "cannes-draped-column-dress-107",
+    "slug": "cannes-draped-column-dress-wd-475",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11176.jpg.jpeg",
-      "/western-dresses/11179.jpg.jpeg",
-      "/western-dresses/11197.jpg.jpeg",
-      "/western-dresses/11198.jpg.jpeg",
-      "/western-dresses/11202.jpg.jpeg",
-      "/western-dresses/11204.jpg.jpeg"
+      "/western-dresses/11176.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3809,23 +14844,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-207"
+    "sku": "WST-WD-0475"
   },
   {
-    "id": "wd-108",
-    "title": "Valencia Sweetheart Flare Dress",
-    "slug": "valencia-sweetheart-flare-dress-108",
+    "id": "wd-0476",
+    "title": "Zara Draped Column Dress",
+    "slug": "zara-draped-column-dress-wd-107-wd-476",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11205.jpg.jpeg",
-      "/western-dresses/11207.jpg.jpeg",
-      "/western-dresses/11209.jpg.jpeg",
-      "/western-dresses/11210.jpg.jpeg",
-      "/western-dresses/11212.jpg.jpeg"
+      "/western-dresses/11179.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cannes Draped Column Dress (WST-WD-207) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0476"
+  },
+  {
+    "id": "wd-0477",
+    "title": "Diana Smocked Flounce Midi Dress",
+    "slug": "diana-smocked-flounce-midi-dress-wd-107-wd-477",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11197.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Smocked Flounce Midi Dress (WST-WD-682) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0477"
+  },
+  {
+    "id": "wd-0478",
+    "title": "Kaia Smocked Flounce Midi Dress",
+    "slug": "kaia-smocked-flounce-midi-dress-wd-107-b-wd-478",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11198.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Smocked Flounce Midi Dress (WST-WD-682) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0478"
+  },
+  {
+    "id": "wd-0479",
+    "title": "Giselle Broderie Anglaise Sundress",
+    "slug": "giselle-broderie-anglaise-sundress-wd-107-wd-479",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11202.jpg.jpeg",
+      "/western-dresses/11204.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle Broderie Anglaise Sundress (WST-WD-683) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0479"
+  },
+  {
+    "id": "wd-0480",
+    "title": "Valencia Sweetheart Flare Dress",
+    "slug": "valencia-sweetheart-flare-dress-wd-480",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11205.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3844,24 +15000,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-208"
+    "sku": "WST-WD-0480"
   },
   {
-    "id": "wd-109",
+    "id": "wd-0481",
+    "title": "Tessa Pleated Wrap Midi Dress",
+    "slug": "tessa-pleated-wrap-midi-dress-wd-108-wd-481",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11207.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Pleated Wrap Midi Dress (WST-WD-684) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0481"
+  },
+  {
+    "id": "wd-0482",
+    "title": "Rhea Pleated Wrap Midi Dress",
+    "slug": "rhea-pleated-wrap-midi-dress-wd-108-b-wd-482",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11209.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Pleated Wrap Midi Dress (WST-WD-684) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0482"
+  },
+  {
+    "id": "wd-0483",
+    "title": "Bianca Lantern Sleeve Tunic Dress",
+    "slug": "bianca-lantern-sleeve-tunic-dress-wd-108-wd-483",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11210.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Lantern Sleeve Tunic Dress (WST-WD-685) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0483"
+  },
+  {
+    "id": "wd-0484",
+    "title": "Daphne Floral Pintuck Slip Dress",
+    "slug": "daphne-floral-pintuck-slip-dress-wd-108-wd-484",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11212.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daphne Floral Pintuck Slip Dress (WST-WD-686) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0484"
+  },
+  {
+    "id": "wd-0485",
     "title": "Palermo Empire Waist Dress",
-    "slug": "palermo-empire-waist-dress-109",
+    "slug": "palermo-empire-waist-dress-wd-485",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11249.jpg.jpeg",
-      "/western-dresses/11260.jpg.jpeg",
-      "/western-dresses/11261.jpg.jpeg",
-      "/western-dresses/11266.jpg.jpeg",
-      "/western-dresses/11267.jpg.jpeg",
-      "/western-dresses/11268.jpg.jpeg"
+      "/western-dresses/11249.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3880,24 +15155,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-209"
+    "sku": "WST-WD-0485"
   },
   {
-    "id": "wd-110",
+    "id": "wd-0486",
+    "title": "Paloma Bohemian Peasant Tiered Dress",
+    "slug": "paloma-bohemian-peasant-tiered-dress-wd-109-wd-486",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11260.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Bohemian Peasant Tiered Dress (WST-WD-687) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0486"
+  },
+  {
+    "id": "wd-0487",
+    "title": "Nina Bohemian Peasant Tiered Dress",
+    "slug": "nina-bohemian-peasant-tiered-dress-wd-109-b-wd-487",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11261.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Bohemian Peasant Tiered Dress (WST-WD-687) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0487"
+  },
+  {
+    "id": "wd-0488",
+    "title": "Vivienne Eyelet Flutter Sleeve Dress",
+    "slug": "vivienne-eyelet-flutter-sleeve-dress-wd-109-wd-488",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11266.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Eyelet Flutter Sleeve Dress (WST-WD-688) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0488"
+  },
+  {
+    "id": "wd-0489",
+    "title": "Layla A-Line Tiered Resort Dress",
+    "slug": "layla-a-line-tiered-resort-dress-wd-109-wd-489",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11267.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Layla A-Line Tiered Resort Dress (WST-WD-689) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0489"
+  },
+  {
+    "id": "wd-0490",
+    "title": "Serena Belted Linen Blend Dress",
+    "slug": "serena-belted-linen-blend-dress-wd-109-wd-490",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11268.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Belted Linen Blend Dress (WST-WD-690) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0490"
+  },
+  {
+    "id": "wd-0491",
     "title": "Bordeaux Pleated A-Line Dress",
-    "slug": "bordeaux-pleated-a-line-dress-110",
+    "slug": "bordeaux-pleated-a-line-dress-wd-491",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11269.jpg.jpeg",
-      "/western-dresses/11270.jpg.jpeg",
-      "/western-dresses/11271.jpg.jpeg",
-      "/western-dresses/11272.jpg.jpeg",
-      "/western-dresses/11273.jpg.jpeg",
-      "/western-dresses/11274.jpg.jpeg"
+      "/western-dresses/11269.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3916,23 +15341,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-210"
+    "sku": "WST-WD-0491"
   },
   {
-    "id": "wd-111",
+    "id": "wd-0492",
+    "title": "Amara Floral Embroidered Halter Dress",
+    "slug": "amara-floral-embroidered-halter-dress-wd-110-wd-492",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11270.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Floral Embroidered Halter Dress (WST-WD-691) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0492"
+  },
+  {
+    "id": "wd-0493",
+    "title": "Astrid Tiered Ruffle Maxi Dress",
+    "slug": "astrid-tiered-ruffle-maxi-dress-wd-110-wd-493",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11271.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Tiered Ruffle Maxi Dress (WST-WD-692) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0493"
+  },
+  {
+    "id": "wd-0494",
+    "title": "Gia Embroidered Cotton Shirtdress",
+    "slug": "gia-embroidered-cotton-shirtdress-wd-110-wd-494",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11272.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Embroidered Cotton Shirtdress (WST-WD-693) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0494"
+  },
+  {
+    "id": "wd-0495",
+    "title": "Hazel Embroidered Cotton Shirtdress",
+    "slug": "hazel-embroidered-cotton-shirtdress-wd-110-d-wd-495",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11273.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Embroidered Cotton Shirtdress (WST-WD-693) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0495"
+  },
+  {
+    "id": "wd-0496",
+    "title": "Nadia Embroidered Cotton Shirtdress",
+    "slug": "nadia-embroidered-cotton-shirtdress-wd-110-d-wd-496",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11274.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Embroidered Cotton Shirtdress (WST-WD-693) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0496"
+  },
+  {
+    "id": "wd-0497",
     "title": "Portofino Floral Wrap Dress",
-    "slug": "portofino-floral-wrap-dress-111",
+    "slug": "portofino-floral-wrap-dress-wd-497",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11300.jpg.jpeg",
-      "/western-dresses/11303.jpg.jpeg",
-      "/western-dresses/11304.jpg.jpeg",
-      "/western-dresses/11308.jpg.jpeg",
-      "/western-dresses/11309.jpg.jpeg"
+      "/western-dresses/11300.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3951,24 +15527,83 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-211"
+    "sku": "WST-WD-0497"
   },
   {
-    "id": "wd-112",
+    "id": "wd-0498",
+    "title": "Nadia Floral Wrap Dress",
+    "slug": "nadia-floral-wrap-dress-wd-111-wd-498",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11303.jpg.jpeg",
+      "/western-dresses/11304.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Portofino Floral Wrap Dress (WST-WD-211) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0498"
+  },
+  {
+    "id": "wd-0499",
+    "title": "Sora Smocked Flounce Midi Dress",
+    "slug": "sora-smocked-flounce-midi-dress-wd-111-wd-499",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11308.jpg.jpeg",
+      "/western-dresses/11309.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Smocked Flounce Midi Dress (WST-WD-694) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0499"
+  },
+  {
+    "id": "wd-0500",
     "title": "Navona Backless Maxi Dress",
-    "slug": "navona-backless-maxi-dress-112",
+    "slug": "navona-backless-maxi-dress-wd-500",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11313.jpg.jpeg",
-      "/western-dresses/11314.jpg.jpeg",
-      "/western-dresses/11315.jpg.jpeg",
-      "/western-dresses/11316.jpg.jpeg",
-      "/western-dresses/11317.jpg.jpeg",
-      "/western-dresses/11318.jpg.jpeg"
+      "/western-dresses/11313.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -3987,24 +15622,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-212"
+    "sku": "WST-WD-0500"
   },
   {
-    "id": "wd-113",
+    "id": "wd-0501",
+    "title": "Noa Broderie Anglaise Sundress",
+    "slug": "noa-broderie-anglaise-sundress-wd-112-wd-501",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11314.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Broderie Anglaise Sundress (WST-WD-695) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0501"
+  },
+  {
+    "id": "wd-0502",
+    "title": "Lana Pleated Wrap Midi Dress",
+    "slug": "lana-pleated-wrap-midi-dress-wd-112-wd-502",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11315.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Pleated Wrap Midi Dress (WST-WD-696) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0502"
+  },
+  {
+    "id": "wd-0503",
+    "title": "Celeste Pleated Wrap Midi Dress",
+    "slug": "celeste-pleated-wrap-midi-dress-wd-112-c-wd-503",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11316.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Pleated Wrap Midi Dress (WST-WD-696) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0503"
+  },
+  {
+    "id": "wd-0504",
+    "title": "Iris Pleated Wrap Midi Dress",
+    "slug": "iris-pleated-wrap-midi-dress-wd-112-c-wd-504",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11317.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Pleated Wrap Midi Dress (WST-WD-696) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0504"
+  },
+  {
+    "id": "wd-0505",
+    "title": "Camille Pleated Wrap Midi Dress",
+    "slug": "camille-pleated-wrap-midi-dress-wd-112-c-wd-505",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11318.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Pleated Wrap Midi Dress (WST-WD-696) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0505"
+  },
+  {
+    "id": "wd-0506",
     "title": "Trevi High-Slit Slip Dress",
-    "slug": "trevi-high-slit-slip-dress-113",
+    "slug": "trevi-high-slit-slip-dress-wd-506",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11319.jpg.jpeg",
-      "/western-dresses/11332.jpg.jpeg",
-      "/western-dresses/11355.jpg.jpeg",
-      "/western-dresses/11356.jpg.jpeg",
-      "/western-dresses/11366.jpg.jpeg",
-      "/western-dresses/11367.jpg.jpeg"
+      "/western-dresses/11319.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4023,24 +15808,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-213"
+    "sku": "WST-WD-0506"
   },
   {
-    "id": "wd-114",
-    "title": "Montmartre Keyhole Shift Dress",
-    "slug": "montmartre-keyhole-shift-dress-114",
+    "id": "wd-0507",
+    "title": "Kora Lantern Sleeve Tunic Dress",
+    "slug": "kora-lantern-sleeve-tunic-dress-wd-113-wd-507",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11373.jpg.jpeg",
-      "/western-dresses/11374.jpg.jpeg",
-      "/western-dresses/11375.jpg.jpeg",
-      "/western-dresses/11394.jpg.jpeg",
-      "/western-dresses/11397.jpg.jpeg",
-      "/western-dresses/11398.jpg.jpeg"
+      "/western-dresses/11332.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora Lantern Sleeve Tunic Dress (WST-WD-697) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0507"
+  },
+  {
+    "id": "wd-0508",
+    "title": "Mira Floral Pintuck Slip Dress",
+    "slug": "mira-floral-pintuck-slip-dress-wd-113-wd-508",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11355.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Floral Pintuck Slip Dress (WST-WD-698) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0508"
+  },
+  {
+    "id": "wd-0509",
+    "title": "Veda Bohemian Peasant Tiered Dress",
+    "slug": "veda-bohemian-peasant-tiered-dress-wd-113-wd-509",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11356.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Veda Bohemian Peasant Tiered Dress (WST-WD-699) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0509"
+  },
+  {
+    "id": "wd-0510",
+    "title": "Aria Eyelet Flutter Sleeve Dress",
+    "slug": "aria-eyelet-flutter-sleeve-dress-wd-113-wd-510",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11366.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Eyelet Flutter Sleeve Dress (WST-WD-700) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0510"
+  },
+  {
+    "id": "wd-0511",
+    "title": "Sienna A-Line Tiered Resort Dress",
+    "slug": "sienna-a-line-tiered-resort-dress-wd-113-wd-511",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11367.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna A-Line Tiered Resort Dress (WST-WD-701) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0511"
+  },
+  {
+    "id": "wd-0512",
+    "title": "Montmartre Keyhole Shift Dress",
+    "slug": "montmartre-keyhole-shift-dress-wd-512",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11373.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4059,24 +15994,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-214"
+    "sku": "WST-WD-0512"
   },
   {
-    "id": "wd-115",
+    "id": "wd-0513",
+    "title": "Elena Belted Linen Blend Dress",
+    "slug": "elena-belted-linen-blend-dress-wd-114-wd-513",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11374.jpg.jpeg",
+      "/western-dresses/11375.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Belted Linen Blend Dress (WST-WD-702) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0513"
+  },
+  {
+    "id": "wd-0514",
+    "title": "Mila Floral Embroidered Halter Dress",
+    "slug": "mila-floral-embroidered-halter-dress-wd-114-wd-514",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11394.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Floral Embroidered Halter Dress (WST-WD-703) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0514"
+  },
+  {
+    "id": "wd-0515",
+    "title": "Isla Tiered Ruffle Maxi Dress",
+    "slug": "isla-tiered-ruffle-maxi-dress-wd-114-wd-515",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11397.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Tiered Ruffle Maxi Dress (WST-WD-704) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0515"
+  },
+  {
+    "id": "wd-0516",
+    "title": "Layla Tiered Ruffle Maxi Dress",
+    "slug": "layla-tiered-ruffle-maxi-dress-wd-114-d-wd-516",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11398.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Tiered Ruffle Maxi Dress (WST-WD-704) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0516"
+  },
+  {
+    "id": "wd-0517",
     "title": "Marais Pleated Midi Dress",
-    "slug": "marais-pleated-midi-dress-115",
+    "slug": "marais-pleated-midi-dress-wd-517",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11399.jpg.jpeg",
-      "/western-dresses/11401.jpg.jpeg",
-      "/western-dresses/11403.jpg.jpeg",
-      "/western-dresses/11404.jpg.jpeg",
-      "/western-dresses/11405.jpg.jpeg",
-      "/western-dresses/11406.jpg.jpeg"
+      "/western-dresses/11399.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4095,24 +16150,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-215"
+    "sku": "WST-WD-0517"
   },
   {
-    "id": "wd-116",
+    "id": "wd-0518",
+    "title": "Chloe Embroidered Cotton Shirtdress",
+    "slug": "chloe-embroidered-cotton-shirtdress-wd-115-wd-518",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11401.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Embroidered Cotton Shirtdress (WST-WD-705) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0518"
+  },
+  {
+    "id": "wd-0519",
+    "title": "Freya Smocked Flounce Midi Dress",
+    "slug": "freya-smocked-flounce-midi-dress-wd-115-wd-519",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11403.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Smocked Flounce Midi Dress (WST-WD-706) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0519"
+  },
+  {
+    "id": "wd-0520",
+    "title": "Maya Broderie Anglaise Sundress",
+    "slug": "maya-broderie-anglaise-sundress-wd-115-wd-520",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11404.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Broderie Anglaise Sundress (WST-WD-707) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0520"
+  },
+  {
+    "id": "wd-0521",
+    "title": "Mila Broderie Anglaise Sundress",
+    "slug": "mila-broderie-anglaise-sundress-wd-115-d-wd-521",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11405.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Broderie Anglaise Sundress (WST-WD-707) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0521"
+  },
+  {
+    "id": "wd-0522",
+    "title": "Isla Broderie Anglaise Sundress",
+    "slug": "isla-broderie-anglaise-sundress-wd-115-d-wd-522",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11406.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Broderie Anglaise Sundress (WST-WD-707) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0522"
+  },
+  {
+    "id": "wd-0523",
     "title": "Notting Hill Smocked Flounce Dress",
-    "slug": "notting-hill-smocked-flounce-dress-116",
+    "slug": "notting-hill-smocked-flounce-dress-wd-523",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11407.jpg.jpeg",
-      "/western-dresses/11409.jpg.jpeg",
-      "/western-dresses/11410.jpg.jpeg",
-      "/western-dresses/11412.jpg.jpeg",
-      "/western-dresses/11437.jpg.jpeg",
-      "/western-dresses/11438.jpg.jpeg"
+      "/western-dresses/11407.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4131,24 +16336,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-216"
+    "sku": "WST-WD-0523"
   },
   {
-    "id": "wd-117",
+    "id": "wd-0524",
+    "title": "Isla Hill Smocked Flounce Dress",
+    "slug": "isla-hill-smocked-flounce-dress-wd-116-wd-524",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11409.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Notting Hill Smocked Flounce Dress (WST-WD-216) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0524"
+  },
+  {
+    "id": "wd-0525",
+    "title": "Luna Pleated Wrap Midi Dress",
+    "slug": "luna-pleated-wrap-midi-dress-wd-116-wd-525",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11410.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Pleated Wrap Midi Dress (WST-WD-708) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0525"
+  },
+  {
+    "id": "wd-0526",
+    "title": "Zara Lantern Sleeve Tunic Dress",
+    "slug": "zara-lantern-sleeve-tunic-dress-wd-116-wd-526",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11412.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Lantern Sleeve Tunic Dress (WST-WD-709) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0526"
+  },
+  {
+    "id": "wd-0527",
+    "title": "Kaia Floral Pintuck Slip Dress",
+    "slug": "kaia-floral-pintuck-slip-dress-wd-116-wd-527",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11437.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Floral Pintuck Slip Dress (WST-WD-710) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0527"
+  },
+  {
+    "id": "wd-0528",
+    "title": "Maya Floral Pintuck Slip Dress",
+    "slug": "maya-floral-pintuck-slip-dress-wd-116-d-wd-528",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11438.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Floral Pintuck Slip Dress (WST-WD-710) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0528"
+  },
+  {
+    "id": "wd-0529",
     "title": "Mayfair Asymmetric Wrap Dress",
-    "slug": "mayfair-asymmetric-wrap-dress-117",
+    "slug": "mayfair-asymmetric-wrap-dress-wd-529",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11485.jpg.jpeg",
-      "/western-dresses/11486.jpg.jpeg",
-      "/western-dresses/11493.jpg.jpeg",
-      "/western-dresses/11494.jpg.jpeg",
-      "/western-dresses/11497.jpg.jpeg",
-      "/western-dresses/11498.jpg.jpeg"
+      "/western-dresses/11485.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4167,24 +16522,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-217"
+    "sku": "WST-WD-0529"
   },
   {
-    "id": "wd-118",
+    "id": "wd-0530",
+    "title": "Luna Asymmetric Wrap Dress",
+    "slug": "luna-asymmetric-wrap-dress-wd-117-wd-530",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11486.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mayfair Asymmetric Wrap Dress (WST-WD-217) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0530"
+  },
+  {
+    "id": "wd-0531",
+    "title": "Nova Bohemian Peasant Tiered Dress",
+    "slug": "nova-bohemian-peasant-tiered-dress-wd-117-wd-531",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11493.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Bohemian Peasant Tiered Dress (WST-WD-711) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0531"
+  },
+  {
+    "id": "wd-0532",
+    "title": "Bella Eyelet Flutter Sleeve Dress",
+    "slug": "bella-eyelet-flutter-sleeve-dress-wd-117-wd-532",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11494.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Eyelet Flutter Sleeve Dress (WST-WD-712) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0532"
+  },
+  {
+    "id": "wd-0533",
+    "title": "Rhea A-Line Tiered Resort Dress",
+    "slug": "rhea-a-line-tiered-resort-dress-wd-117-wd-533",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11497.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea A-Line Tiered Resort Dress (WST-WD-713) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0533"
+  },
+  {
+    "id": "wd-0534",
+    "title": "Nova A-Line Tiered Resort Dress",
+    "slug": "nova-a-line-tiered-resort-dress-wd-117-d-wd-534",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11498.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea A-Line Tiered Resort Dress (WST-WD-713) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0534"
+  },
+  {
+    "id": "wd-0535",
     "title": "Tribeca Off-Shoulder Maxi Dress",
-    "slug": "tribeca-off-shoulder-maxi-dress-118",
+    "slug": "tribeca-off-shoulder-maxi-dress-wd-535",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11499.jpg.jpeg",
-      "/western-dresses/11500.jpg.jpeg",
-      "/western-dresses/11520.jpg.jpeg",
-      "/western-dresses/11521.jpg.jpeg",
-      "/western-dresses/11528.jpg.jpeg",
-      "/western-dresses/11530.jpg.jpeg"
+      "/western-dresses/11499.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4203,24 +16708,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-218"
+    "sku": "WST-WD-0535"
   },
   {
-    "id": "wd-119",
+    "id": "wd-0536",
+    "title": "Zoe Belted Linen Blend Dress",
+    "slug": "zoe-belted-linen-blend-dress-wd-118-wd-536",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11500.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Belted Linen Blend Dress (WST-WD-714) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0536"
+  },
+  {
+    "id": "wd-0537",
+    "title": "Lyra Floral Embroidered Halter Dress",
+    "slug": "lyra-floral-embroidered-halter-dress-wd-118-wd-537",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11520.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Floral Embroidered Halter Dress (WST-WD-715) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0537"
+  },
+  {
+    "id": "wd-0538",
+    "title": "Zoe Floral Embroidered Halter Dress",
+    "slug": "zoe-floral-embroidered-halter-dress-wd-118-c-wd-538",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11521.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Floral Embroidered Halter Dress (WST-WD-715) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0538"
+  },
+  {
+    "id": "wd-0539",
+    "title": "Stella Tiered Ruffle Maxi Dress",
+    "slug": "stella-tiered-ruffle-maxi-dress-wd-118-wd-539",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11528.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Tiered Ruffle Maxi Dress (WST-WD-716) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0539"
+  },
+  {
+    "id": "wd-0540",
+    "title": "Lyra Tiered Ruffle Maxi Dress",
+    "slug": "lyra-tiered-ruffle-maxi-dress-wd-118-d-wd-540",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11530.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Tiered Ruffle Maxi Dress (WST-WD-716) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0540"
+  },
+  {
+    "id": "wd-0541",
     "title": "NoHo Plunge Fluted Dress",
-    "slug": "noho-plunge-fluted-dress-119",
+    "slug": "noho-plunge-fluted-dress-wd-541",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11531.jpg.jpeg",
-      "/western-dresses/11532.jpg.jpeg",
-      "/western-dresses/11533.jpg.jpeg",
-      "/western-dresses/11534.jpg.jpeg",
-      "/western-dresses/11535.jpg.jpeg",
-      "/western-dresses/11536.jpg.jpeg"
+      "/western-dresses/11531.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4239,24 +16894,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-219"
+    "sku": "WST-WD-0541"
   },
   {
-    "id": "wd-120",
-    "title": "Dumbo Ruched Bodycon Dress",
-    "slug": "dumbo-ruched-bodycon-dress-120",
+    "id": "wd-0542",
+    "title": "Stella Plunge Fluted Dress",
+    "slug": "stella-plunge-fluted-dress-wd-119-wd-542",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11576.jpg.jpeg",
-      "/western-dresses/11596.jpg.jpeg",
-      "/western-dresses/11597.jpg.jpeg",
-      "/western-dresses/11598.jpg.jpeg",
-      "/western-dresses/11599.jpg.jpeg",
-      "/western-dresses/11600.jpg.jpeg"
+      "/western-dresses/11532.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The NoHo Plunge Fluted Dress (WST-WD-219) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0542"
+  },
+  {
+    "id": "wd-0543",
+    "title": "Nina Plunge Fluted Dress",
+    "slug": "nina-plunge-fluted-dress-wd-119-wd-543",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11533.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The NoHo Plunge Fluted Dress (WST-WD-219) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0543"
+  },
+  {
+    "id": "wd-0544",
+    "title": "Nina Embroidered Cotton Shirtdress",
+    "slug": "nina-embroidered-cotton-shirtdress-wd-119-wd-544",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11534.jpg.jpeg",
+      "/western-dresses/11535.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Embroidered Cotton Shirtdress (WST-WD-717) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0544"
+  },
+  {
+    "id": "wd-0545",
+    "title": "Nina Embroidered Cotton Shirtdress",
+    "slug": "nina-embroidered-cotton-shirtdress-wd-119-b-wd-545",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11536.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Embroidered Cotton Shirtdress (WST-WD-717) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0545"
+  },
+  {
+    "id": "wd-0546",
+    "title": "Dumbo Ruched Bodycon Dress",
+    "slug": "dumbo-ruched-bodycon-dress-wd-546",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11576.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4275,23 +17050,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-220"
+    "sku": "WST-WD-0546"
   },
   {
-    "id": "wd-121",
+    "id": "wd-0547",
+    "title": "Cleo Smocked Flounce Midi Dress",
+    "slug": "cleo-smocked-flounce-midi-dress-wd-120-wd-547",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11596.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Smocked Flounce Midi Dress (WST-WD-718) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0547"
+  },
+  {
+    "id": "wd-0548",
+    "title": "Ivy Smocked Flounce Midi Dress",
+    "slug": "ivy-smocked-flounce-midi-dress-wd-120-b-wd-548",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11597.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Smocked Flounce Midi Dress (WST-WD-718) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0548"
+  },
+  {
+    "id": "wd-0549",
+    "title": "Ivy Broderie Anglaise Sundress",
+    "slug": "ivy-broderie-anglaise-sundress-wd-120-wd-549",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11598.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Broderie Anglaise Sundress (WST-WD-719) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0549"
+  },
+  {
+    "id": "wd-0550",
+    "title": "Willow Pleated Wrap Midi Dress",
+    "slug": "willow-pleated-wrap-midi-dress-wd-120-wd-550",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11599.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Pleated Wrap Midi Dress (WST-WD-720) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0550"
+  },
+  {
+    "id": "wd-0551",
+    "title": "Tara Lantern Sleeve Tunic Dress",
+    "slug": "tara-lantern-sleeve-tunic-dress-wd-120-wd-551",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11600.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara Lantern Sleeve Tunic Dress (WST-WD-721) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0551"
+  },
+  {
+    "id": "wd-0552",
     "title": "Malibu Puff Sleeve Midi Dress",
-    "slug": "malibu-puff-sleeve-midi-dress-121",
+    "slug": "malibu-puff-sleeve-midi-dress-wd-552",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11601.jpg.jpeg",
-      "/western-dresses/11602.jpg.jpeg",
-      "/western-dresses/11638.jpg.jpeg",
-      "/western-dresses/11641.jpg.jpeg",
-      "/western-dresses/11642.jpg.jpeg"
+      "/western-dresses/11601.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4310,24 +17236,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-221"
+    "sku": "WST-WD-0552"
   },
   {
-    "id": "wd-122",
+    "id": "wd-0553",
+    "title": "Saffron Puff Sleeve Midi Dress",
+    "slug": "saffron-puff-sleeve-midi-dress-wd-121-wd-553",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11602.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Malibu Puff Sleeve Midi Dress (WST-WD-221) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0553"
+  },
+  {
+    "id": "wd-0554",
+    "title": "Kira Floral Pintuck Slip Dress",
+    "slug": "kira-floral-pintuck-slip-dress-wd-121-wd-554",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11638.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Floral Pintuck Slip Dress (WST-WD-722) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0554"
+  },
+  {
+    "id": "wd-0555",
+    "title": "Saffron Bohemian Peasant Tiered Dress",
+    "slug": "saffron-bohemian-peasant-tiered-dress-wd-121-wd-555",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11641.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Bohemian Peasant Tiered Dress (WST-WD-723) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0555"
+  },
+  {
+    "id": "wd-0556",
+    "title": "Nadia Bohemian Peasant Tiered Dress",
+    "slug": "nadia-bohemian-peasant-tiered-dress-wd-121-c-wd-556",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11642.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Bohemian Peasant Tiered Dress (WST-WD-723) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0556"
+  },
+  {
+    "id": "wd-0557",
     "title": "Laguna Organza Tiered Dress",
-    "slug": "laguna-organza-tiered-dress-122",
+    "slug": "laguna-organza-tiered-dress-wd-557",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11671.jpg.jpeg",
-      "/western-dresses/11685.jpg.jpeg",
-      "/western-dresses/11690.jpg.jpeg",
-      "/western-dresses/11691.jpg.jpeg",
-      "/western-dresses/11692.jpg.jpeg",
-      "/western-dresses/11694.jpg.jpeg"
+      "/western-dresses/11671.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4346,12 +17391,167 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-222"
+    "sku": "WST-WD-0557"
   },
   {
-    "id": "wd-123",
+    "id": "wd-0558",
+    "title": "Hazel Eyelet Flutter Sleeve Dress",
+    "slug": "hazel-eyelet-flutter-sleeve-dress-wd-122-wd-558",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11685.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Eyelet Flutter Sleeve Dress (WST-WD-724) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0558"
+  },
+  {
+    "id": "wd-0559",
+    "title": "Nadia A-Line Tiered Resort Dress",
+    "slug": "nadia-a-line-tiered-resort-dress-wd-122-wd-559",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11690.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia A-Line Tiered Resort Dress (WST-WD-725) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0559"
+  },
+  {
+    "id": "wd-0560",
+    "title": "Piper Belted Linen Blend Dress",
+    "slug": "piper-belted-linen-blend-dress-wd-122-wd-560",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11691.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Belted Linen Blend Dress (WST-WD-726) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0560"
+  },
+  {
+    "id": "wd-0561",
+    "title": "Daisy Floral Embroidered Halter Dress",
+    "slug": "daisy-floral-embroidered-halter-dress-wd-122-wd-561",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11692.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Floral Embroidered Halter Dress (WST-WD-727) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0561"
+  },
+  {
+    "id": "wd-0562",
+    "title": "Iris Floral Embroidered Halter Dress",
+    "slug": "iris-floral-embroidered-halter-dress-wd-122-e-wd-562",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11694.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Floral Embroidered Halter Dress (WST-WD-727) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0562"
+  },
+  {
+    "id": "wd-0563",
     "title": "Avalon Shirred Tiered Dress",
-    "slug": "avalon-shirred-tiered-dress-123",
+    "slug": "avalon-shirred-tiered-dress-wd-563",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -4359,11 +17559,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/11720.jpg.jpeg",
-      "/western-dresses/11721.jpg.jpeg",
-      "/western-dresses/11722.jpg.jpeg",
-      "/western-dresses/11723.jpg.jpeg",
-      "/western-dresses/11729.jpg.jpeg",
-      "/western-dresses/11730.jpg.jpeg"
+      "/western-dresses/11721.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4382,23 +17578,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-223"
+    "sku": "WST-WD-0563"
   },
   {
-    "id": "wd-124",
+    "id": "wd-0564",
+    "title": "Thalia Tiered Ruffle Maxi Dress",
+    "slug": "thalia-tiered-ruffle-maxi-dress-wd-123-wd-564",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11722.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Tiered Ruffle Maxi Dress (WST-WD-728) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0564"
+  },
+  {
+    "id": "wd-0565",
+    "title": "Diana Tiered Ruffle Maxi Dress",
+    "slug": "diana-tiered-ruffle-maxi-dress-wd-123-b-wd-565",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11723.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Tiered Ruffle Maxi Dress (WST-WD-728) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0565"
+  },
+  {
+    "id": "wd-0566",
+    "title": "Celeste Embroidered Cotton Shirtdress",
+    "slug": "celeste-embroidered-cotton-shirtdress-wd-123-wd-566",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11729.jpg.jpeg",
+      "/western-dresses/11730.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Embroidered Cotton Shirtdress (WST-WD-729) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0566"
+  },
+  {
+    "id": "wd-0567",
     "title": "Sedona Satin Slip Dress",
-    "slug": "sedona-satin-slip-dress-124",
+    "slug": "sedona-satin-slip-dress-wd-567",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11732.jpg.jpeg",
-      "/western-dresses/11733.jpg.jpeg",
-      "/western-dresses/11773.jpg.jpeg",
-      "/western-dresses/11775.jpg.jpeg",
-      "/western-dresses/11782.jpg.jpeg"
+      "/western-dresses/11732.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4417,24 +17703,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-224"
+    "sku": "WST-WD-0567"
   },
   {
-    "id": "wd-125",
+    "id": "wd-0568",
+    "title": "Tessa Satin Slip Dress",
+    "slug": "tessa-satin-slip-dress-wd-124-wd-568",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11733.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sedona Satin Slip Dress (WST-WD-224) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0568"
+  },
+  {
+    "id": "wd-0569",
+    "title": "Iris Smocked Flounce Midi Dress",
+    "slug": "iris-smocked-flounce-midi-dress-wd-124-wd-569",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11773.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Smocked Flounce Midi Dress (WST-WD-730) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0569"
+  },
+  {
+    "id": "wd-0570",
+    "title": "Camille Broderie Anglaise Sundress",
+    "slug": "camille-broderie-anglaise-sundress-wd-124-wd-570",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11775.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Broderie Anglaise Sundress (WST-WD-731) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0570"
+  },
+  {
+    "id": "wd-0571",
+    "title": "Diana Pleated Wrap Midi Dress",
+    "slug": "diana-pleated-wrap-midi-dress-wd-124-wd-571",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11782.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Pleated Wrap Midi Dress (WST-WD-732) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0571"
+  },
+  {
+    "id": "wd-0572",
     "title": "Carmel Corset Mini Dress",
-    "slug": "carmel-corset-mini-dress-125",
+    "slug": "carmel-corset-mini-dress-wd-572",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11790.jpg.jpeg",
-      "/western-dresses/11791.jpg.jpeg",
-      "/western-dresses/11792.jpg.jpeg",
-      "/western-dresses/11793.jpg.jpeg",
-      "/western-dresses/11794.jpg.jpeg",
-      "/western-dresses/11795.jpg.jpeg"
+      "/western-dresses/11790.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4453,23 +17858,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-225"
+    "sku": "WST-WD-0572"
   },
   {
-    "id": "wd-126",
+    "id": "wd-0573",
+    "title": "Giselle Lantern Sleeve Tunic Dress",
+    "slug": "giselle-lantern-sleeve-tunic-dress-wd-125-wd-573",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11791.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle Lantern Sleeve Tunic Dress (WST-WD-733) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0573"
+  },
+  {
+    "id": "wd-0574",
+    "title": "Tessa Floral Pintuck Slip Dress",
+    "slug": "tessa-floral-pintuck-slip-dress-wd-125-wd-574",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11792.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Floral Pintuck Slip Dress (WST-WD-734) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0574"
+  },
+  {
+    "id": "wd-0575",
+    "title": "Bianca Bohemian Peasant Tiered Dress",
+    "slug": "bianca-bohemian-peasant-tiered-dress-wd-125-wd-575",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11793.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Bohemian Peasant Tiered Dress (WST-WD-735) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0575"
+  },
+  {
+    "id": "wd-0576",
+    "title": "Sienna Bohemian Peasant Tiered Dress",
+    "slug": "sienna-bohemian-peasant-tiered-dress-wd-125-d-wd-576",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11794.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Bohemian Peasant Tiered Dress (WST-WD-735) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0576"
+  },
+  {
+    "id": "wd-0577",
+    "title": "Elena Bohemian Peasant Tiered Dress",
+    "slug": "elena-bohemian-peasant-tiered-dress-wd-125-d-wd-577",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11795.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Bohemian Peasant Tiered Dress (WST-WD-735) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0577"
+  },
+  {
+    "id": "wd-0578",
     "title": "Napa Broderie Tier Dress",
-    "slug": "napa-broderie-tier-dress-126",
+    "slug": "napa-broderie-tier-dress-wd-578",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11796.jpg.jpeg",
-      "/western-dresses/11830.jpg.jpeg",
-      "/western-dresses/11831.jpg.jpeg",
-      "/western-dresses/11832.jpg.jpeg",
-      "/western-dresses/11834.jpg.jpeg"
+      "/western-dresses/11796.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4488,23 +18044,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-226"
+    "sku": "WST-WD-0578"
   },
   {
-    "id": "wd-127",
+    "id": "wd-0579",
+    "title": "Daphne Eyelet Flutter Sleeve Dress",
+    "slug": "daphne-eyelet-flutter-sleeve-dress-wd-126-wd-579",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11830.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daphne Eyelet Flutter Sleeve Dress (WST-WD-736) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0579"
+  },
+  {
+    "id": "wd-0580",
+    "title": "Paloma A-Line Tiered Resort Dress",
+    "slug": "paloma-a-line-tiered-resort-dress-wd-126-wd-580",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11831.jpg.jpeg",
+      "/western-dresses/11832.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma A-Line Tiered Resort Dress (WST-WD-737) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0580"
+  },
+  {
+    "id": "wd-0581",
+    "title": "Isla A-Line Tiered Resort Dress",
+    "slug": "isla-a-line-tiered-resort-dress-wd-126-c-wd-581",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11834.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma A-Line Tiered Resort Dress (WST-WD-737) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0581"
+  },
+  {
+    "id": "wd-0582",
     "title": "Sonoma Fluted Hem Midi Dress",
-    "slug": "sonoma-fluted-hem-midi-dress-127",
+    "slug": "sonoma-fluted-hem-midi-dress-wd-582",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11837.jpg.jpeg",
-      "/western-dresses/11838.jpg.jpeg",
-      "/western-dresses/11839.jpg.jpeg",
-      "/western-dresses/11840.jpg.jpeg",
-      "/western-dresses/11841.jpg.jpeg"
+      "/western-dresses/11837.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4523,24 +18169,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-227"
+    "sku": "WST-WD-0582"
   },
   {
-    "id": "wd-128",
+    "id": "wd-0583",
+    "title": "Chloe Fluted Hem Midi Dress",
+    "slug": "chloe-fluted-hem-midi-dress-wd-127-wd-583",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11838.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sonoma Fluted Hem Midi Dress (WST-WD-227) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0583"
+  },
+  {
+    "id": "wd-0584",
+    "title": "Vivienne Belted Linen Blend Dress",
+    "slug": "vivienne-belted-linen-blend-dress-wd-127-wd-584",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11839.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Belted Linen Blend Dress (WST-WD-738) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0584"
+  },
+  {
+    "id": "wd-0585",
+    "title": "Layla Floral Embroidered Halter Dress",
+    "slug": "layla-floral-embroidered-halter-dress-wd-127-wd-585",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11840.jpg.jpeg",
+      "/western-dresses/11841.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Layla Floral Embroidered Halter Dress (WST-WD-739) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0585"
+  },
+  {
+    "id": "wd-0586",
     "title": "Hampton Babydoll Mini Dress",
-    "slug": "hampton-babydoll-mini-dress-128",
+    "slug": "hampton-babydoll-mini-dress-wd-586",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11844.jpg.jpeg",
-      "/western-dresses/11883.jpg.jpeg",
-      "/western-dresses/11888.jpg.jpeg",
-      "/western-dresses/11893.jpg.jpeg",
-      "/western-dresses/11894.jpg.jpeg",
-      "/western-dresses/11895.jpg.jpeg"
+      "/western-dresses/11844.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4559,23 +18294,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-228"
+    "sku": "WST-WD-0586"
   },
   {
-    "id": "wd-129",
-    "title": "Newport Tiered Maxi Dress",
-    "slug": "newport-tiered-maxi-dress-129",
+    "id": "wd-0587",
+    "title": "Serena Tiered Ruffle Maxi Dress",
+    "slug": "serena-tiered-ruffle-maxi-dress-wd-128-wd-587",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11896.jpg.jpeg",
-      "/western-dresses/11915.jpg.jpeg",
-      "/western-dresses/11917.jpg.jpeg",
-      "/western-dresses/11920.jpg.jpeg",
-      "/western-dresses/11921.jpg.jpeg"
+      "/western-dresses/11883.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Tiered Ruffle Maxi Dress (WST-WD-740) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0587"
+  },
+  {
+    "id": "wd-0588",
+    "title": "Amara Embroidered Cotton Shirtdress",
+    "slug": "amara-embroidered-cotton-shirtdress-wd-128-wd-588",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11888.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Embroidered Cotton Shirtdress (WST-WD-741) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0588"
+  },
+  {
+    "id": "wd-0589",
+    "title": "Astrid Smocked Flounce Midi Dress",
+    "slug": "astrid-smocked-flounce-midi-dress-wd-128-wd-589",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11893.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Smocked Flounce Midi Dress (WST-WD-742) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0589"
+  },
+  {
+    "id": "wd-0590",
+    "title": "Gia Broderie Anglaise Sundress",
+    "slug": "gia-broderie-anglaise-sundress-wd-128-wd-590",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11894.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Broderie Anglaise Sundress (WST-WD-743) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0590"
+  },
+  {
+    "id": "wd-0591",
+    "title": "Bella Broderie Anglaise Sundress",
+    "slug": "bella-broderie-anglaise-sundress-wd-128-e-wd-591",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11895.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Broderie Anglaise Sundress (WST-WD-743) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0591"
+  },
+  {
+    "id": "wd-0592",
+    "title": "Newport Tiered Maxi Dress",
+    "slug": "newport-tiered-maxi-dress-wd-592",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11896.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4594,23 +18480,267 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-229"
+    "sku": "WST-WD-0592"
   },
   {
-    "id": "wd-130",
+    "id": "wd-0593",
+    "title": "Sora Pleated Wrap Midi Dress",
+    "slug": "sora-pleated-wrap-midi-dress-wd-129-wd-593",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11915.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Pleated Wrap Midi Dress (WST-WD-744) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0593"
+  },
+  {
+    "id": "wd-0594",
+    "title": "Noa Lantern Sleeve Tunic Dress",
+    "slug": "noa-lantern-sleeve-tunic-dress-wd-129-wd-594",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11917.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Lantern Sleeve Tunic Dress (WST-WD-745) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0594"
+  },
+  {
+    "id": "wd-0595",
+    "title": "Lana Floral Pintuck Slip Dress",
+    "slug": "lana-floral-pintuck-slip-dress-wd-129-wd-595",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11920.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Floral Pintuck Slip Dress (WST-WD-746) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0595"
+  },
+  {
+    "id": "wd-0596",
+    "title": "Kora Bohemian Peasant Tiered Dress",
+    "slug": "kora-bohemian-peasant-tiered-dress-wd-129-wd-596",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11921.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora Bohemian Peasant Tiered Dress (WST-WD-747) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0596"
+  },
+  {
+    "id": "wd-0597",
     "title": "Bellevue Cowl Neck Slip Dress",
-    "slug": "bellevue-cowl-neck-slip-dress-130",
+    "slug": "bellevue-cowl-neck-slip-dress-wd-597",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11927.jpg.jpeg",
-      "/western-dresses/11928.jpg.jpeg",
-      "/western-dresses/11929.jpg.jpeg",
+      "/western-dresses/11927.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bellevue Cowl Neck Slip Dress (WST-WD-230) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0597"
+  },
+  {
+    "id": "wd-0598",
+    "title": "Cleo Cowl Neck Slip Dress",
+    "slug": "cleo-cowl-neck-slip-dress-wd-130-wd-598",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11928.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bellevue Cowl Neck Slip Dress (WST-WD-230) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0598"
+  },
+  {
+    "id": "wd-0599",
+    "title": "Ivy Cowl Neck Slip Dress",
+    "slug": "ivy-cowl-neck-slip-dress-wd-130-wd-599",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/11929.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bellevue Cowl Neck Slip Dress (WST-WD-230) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0599"
+  },
+  {
+    "id": "wd-0600",
+    "title": "Willow Cowl Neck Slip Dress",
+    "slug": "willow-cowl-neck-slip-dress-wd-130-wd-600",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/11930.jpg.jpeg",
-      "/western-dresses/11931.jpg.jpeg",
+      "/western-dresses/11931.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bellevue Cowl Neck Slip Dress (WST-WD-230) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0600"
+  },
+  {
+    "id": "wd-0601",
+    "title": "Tara Cowl Neck Slip Dress",
+    "slug": "tara-cowl-neck-slip-dress-wd-130-wd-601",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/11932.jpg.jpeg"
     ],
     "sizes": [
@@ -4630,24 +18760,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-230"
+    "sku": "WST-WD-0601"
   },
   {
-    "id": "wd-131",
+    "id": "wd-0602",
     "title": "Adelaide Belted Shirtdress",
-    "slug": "adelaide-belted-shirtdress-131",
+    "slug": "adelaide-belted-shirtdress-wd-602",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/11954.jpg.jpeg",
-      "/western-dresses/12001.jpg.jpeg",
-      "/western-dresses/12002.jpg.jpeg",
-      "/western-dresses/12016.jpg.jpeg",
-      "/western-dresses/12020.jpg.jpeg",
-      "/western-dresses/12021.jpg.jpeg"
+      "/western-dresses/11954.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4666,24 +18791,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-231"
+    "sku": "WST-WD-0602"
   },
   {
-    "id": "wd-132",
+    "id": "wd-0603",
+    "title": "Mira Eyelet Flutter Sleeve Dress",
+    "slug": "mira-eyelet-flutter-sleeve-dress-wd-131-wd-603",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12001.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Eyelet Flutter Sleeve Dress (WST-WD-748) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0603"
+  },
+  {
+    "id": "wd-0604",
+    "title": "Willow Eyelet Flutter Sleeve Dress",
+    "slug": "willow-eyelet-flutter-sleeve-dress-wd-131-b-wd-604",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12002.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Eyelet Flutter Sleeve Dress (WST-WD-748) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0604"
+  },
+  {
+    "id": "wd-0605",
+    "title": "Veda A-Line Tiered Resort Dress",
+    "slug": "veda-a-line-tiered-resort-dress-wd-131-wd-605",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12016.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Veda A-Line Tiered Resort Dress (WST-WD-749) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0605"
+  },
+  {
+    "id": "wd-0606",
+    "title": "Aria Belted Linen Blend Dress",
+    "slug": "aria-belted-linen-blend-dress-wd-131-wd-606",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12020.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Belted Linen Blend Dress (WST-WD-750) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0606"
+  },
+  {
+    "id": "wd-0607",
+    "title": "Sienna Floral Embroidered Halter Dress",
+    "slug": "sienna-floral-embroidered-halter-dress-wd-131-wd-607",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12021.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Floral Embroidered Halter Dress (WST-WD-751) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0607"
+  },
+  {
+    "id": "wd-0608",
     "title": "Brisbane Bias-Cut Slip Dress",
-    "slug": "brisbane-bias-cut-slip-dress-132",
+    "slug": "brisbane-bias-cut-slip-dress-wd-608",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12022.jpg.jpeg",
-      "/western-dresses/12049.jpg.jpeg",
-      "/western-dresses/12053.jpg.jpeg",
-      "/western-dresses/12055.jpg.jpeg",
-      "/western-dresses/12056.jpg.jpeg",
-      "/western-dresses/12057.jpg.jpeg"
+      "/western-dresses/12022.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4702,24 +18977,114 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-232"
+    "sku": "WST-WD-0608"
   },
   {
-    "id": "wd-133",
+    "id": "wd-0609",
+    "title": "Elena Tiered Ruffle Maxi Dress",
+    "slug": "elena-tiered-ruffle-maxi-dress-wd-132-wd-609",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12049.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Tiered Ruffle Maxi Dress (WST-WD-752) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0609"
+  },
+  {
+    "id": "wd-0610",
+    "title": "Mila Embroidered Cotton Shirtdress",
+    "slug": "mila-embroidered-cotton-shirtdress-wd-132-wd-610",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12053.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Embroidered Cotton Shirtdress (WST-WD-753) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0610"
+  },
+  {
+    "id": "wd-0611",
+    "title": "Isla Smocked Flounce Midi Dress",
+    "slug": "isla-smocked-flounce-midi-dress-wd-132-wd-611",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12055.jpg.jpeg",
+      "/western-dresses/12056.jpg.jpeg",
+      "/western-dresses/12057.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Smocked Flounce Midi Dress (WST-WD-754) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0611"
+  },
+  {
+    "id": "wd-0612",
     "title": "Marrakech Embroidered Midi Dress",
-    "slug": "marrakech-embroidered-midi-dress-133",
+    "slug": "marrakech-embroidered-midi-dress-wd-612",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12061.jpg.jpeg",
-      "/western-dresses/12107.jpg.jpeg",
-      "/western-dresses/12108.jpg.jpeg",
-      "/western-dresses/12121.jpg.jpeg",
-      "/western-dresses/12123.jpg.jpeg",
-      "/western-dresses/12124.jpg.jpeg"
+      "/western-dresses/12061.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4738,24 +19103,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-233"
+    "sku": "WST-WD-0612"
   },
   {
-    "id": "wd-134",
+    "id": "wd-0613",
+    "title": "Chloe Broderie Anglaise Sundress",
+    "slug": "chloe-broderie-anglaise-sundress-wd-133-wd-613",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12107.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Broderie Anglaise Sundress (WST-WD-755) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0613"
+  },
+  {
+    "id": "wd-0614",
+    "title": "Celeste Broderie Anglaise Sundress",
+    "slug": "celeste-broderie-anglaise-sundress-wd-133-b-wd-614",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12108.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Broderie Anglaise Sundress (WST-WD-755) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0614"
+  },
+  {
+    "id": "wd-0615",
+    "title": "Freya Pleated Wrap Midi Dress",
+    "slug": "freya-pleated-wrap-midi-dress-wd-133-wd-615",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12121.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Pleated Wrap Midi Dress (WST-WD-756) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0615"
+  },
+  {
+    "id": "wd-0616",
+    "title": "Maya Lantern Sleeve Tunic Dress",
+    "slug": "maya-lantern-sleeve-tunic-dress-wd-133-wd-616",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12123.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Lantern Sleeve Tunic Dress (WST-WD-757) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0616"
+  },
+  {
+    "id": "wd-0617",
+    "title": "Camille Lantern Sleeve Tunic Dress",
+    "slug": "camille-lantern-sleeve-tunic-dress-wd-133-d-wd-617",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12124.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Lantern Sleeve Tunic Dress (WST-WD-757) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0617"
+  },
+  {
+    "id": "wd-0618",
     "title": "Casablanca Linen Sundress",
-    "slug": "casablanca-linen-sundress-134",
+    "slug": "casablanca-linen-sundress-wd-618",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12126.jpg.jpeg",
-      "/western-dresses/12138.jpg.jpeg",
-      "/western-dresses/12141.jpg.jpeg",
-      "/western-dresses/12142.jpg.jpeg",
-      "/western-dresses/12144.jpg.jpeg",
-      "/western-dresses/12145.jpg.jpeg"
+      "/western-dresses/12126.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4774,23 +19289,328 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-234"
+    "sku": "WST-WD-0618"
   },
   {
-    "id": "wd-135",
-    "title": "Rhodes Ribbed Knit Dress",
-    "slug": "rhodes-ribbed-knit-dress-135",
+    "id": "wd-0619",
+    "title": "Luna Floral Pintuck Slip Dress",
+    "slug": "luna-floral-pintuck-slip-dress-wd-134-wd-619",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12146.jpg.jpeg",
-      "/western-dresses/12149.jpg.jpeg",
-      "/western-dresses/12150.jpg.jpeg",
-      "/western-dresses/12151.jpg.jpeg",
-      "/western-dresses/12152.jpg.jpeg",
+      "/western-dresses/12138.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Floral Pintuck Slip Dress (WST-WD-758) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0619"
+  },
+  {
+    "id": "wd-0620",
+    "title": "Giselle Floral Pintuck Slip Dress",
+    "slug": "giselle-floral-pintuck-slip-dress-wd-134-b-wd-620",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12141.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Floral Pintuck Slip Dress (WST-WD-758) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0620"
+  },
+  {
+    "id": "wd-0621",
+    "title": "Zara Bohemian Peasant Tiered Dress",
+    "slug": "zara-bohemian-peasant-tiered-dress-wd-134-wd-621",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12142.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Bohemian Peasant Tiered Dress (WST-WD-759) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0621"
+  },
+  {
+    "id": "wd-0622",
+    "title": "Tessa Bohemian Peasant Tiered Dress",
+    "slug": "tessa-bohemian-peasant-tiered-dress-wd-134-c-wd-622",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12144.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Bohemian Peasant Tiered Dress (WST-WD-759) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0622"
+  },
+  {
+    "id": "wd-0623",
+    "title": "Bianca Bohemian Peasant Tiered Dress",
+    "slug": "bianca-bohemian-peasant-tiered-dress-wd-134-c-wd-623",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12145.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Bohemian Peasant Tiered Dress (WST-WD-759) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0623"
+  },
+  {
+    "id": "wd-0624",
+    "title": "Rhodes Ribbed Knit Dress",
+    "slug": "rhodes-ribbed-knit-dress-wd-624",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12146.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhodes Ribbed Knit Dress (WST-WD-235) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0624"
+  },
+  {
+    "id": "wd-0625",
+    "title": "Bianca Ribbed Knit Dress",
+    "slug": "bianca-ribbed-knit-dress-wd-135-wd-625",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12149.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhodes Ribbed Knit Dress (WST-WD-235) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0625"
+  },
+  {
+    "id": "wd-0626",
+    "title": "Daphne Ribbed Knit Dress",
+    "slug": "daphne-ribbed-knit-dress-wd-135-wd-626",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12150.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhodes Ribbed Knit Dress (WST-WD-235) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0626"
+  },
+  {
+    "id": "wd-0627",
+    "title": "Paloma Ribbed Knit Dress",
+    "slug": "paloma-ribbed-knit-dress-wd-135-wd-627",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12151.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhodes Ribbed Knit Dress (WST-WD-235) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0627"
+  },
+  {
+    "id": "wd-0628",
+    "title": "Vivienne Ribbed Knit Dress",
+    "slug": "vivienne-ribbed-knit-dress-wd-135-wd-628",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12152.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhodes Ribbed Knit Dress (WST-WD-235) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0628"
+  },
+  {
+    "id": "wd-0629",
+    "title": "Layla Ribbed Knit Dress",
+    "slug": "layla-ribbed-knit-dress-wd-135-wd-629",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/12153.jpg.jpeg"
     ],
     "sizes": [
@@ -4810,12 +19630,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-235"
+    "sku": "WST-WD-0629"
   },
   {
-    "id": "wd-136",
+    "id": "wd-0630",
     "title": "Mykonos Flutter Sleeve Dress",
-    "slug": "mykonos-flutter-sleeve-dress-136",
+    "slug": "mykonos-flutter-sleeve-dress-wd-630",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -4824,8 +19644,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/12155.jpg.jpeg",
       "/western-dresses/12156.jpg.jpeg",
-      "/western-dresses/12157.jpg.jpeg",
-      "/western-dresses/12158.jpg.jpeg"
+      "/western-dresses/12157.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4844,24 +19663,50 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-236"
+    "sku": "WST-WD-0630"
   },
   {
-    "id": "wd-137",
+    "id": "wd-0631",
+    "title": "Kaia Eyelet Flutter Sleeve Dress",
+    "slug": "kaia-eyelet-flutter-sleeve-dress-wd-136-wd-631",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12158.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Eyelet Flutter Sleeve Dress (WST-WD-760) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0631"
+  },
+  {
+    "id": "wd-0632",
     "title": "Crete Strapless Column Dress",
-    "slug": "crete-strapless-column-dress-137",
+    "slug": "crete-strapless-column-dress-wd-632",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12202.jpg.jpeg",
-      "/western-dresses/12203.jpg.jpeg",
-      "/western-dresses/12213.jpg.jpeg",
-      "/western-dresses/12223.jpg.jpeg",
-      "/western-dresses/12224.jpg.jpeg",
-      "/western-dresses/12225.jpg.jpeg"
+      "/western-dresses/12202.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4880,24 +19725,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-237"
+    "sku": "WST-WD-0632"
   },
   {
-    "id": "wd-138",
-    "title": "Dubrovnik Cutout Halter Dress",
-    "slug": "dubrovnik-cutout-halter-dress-138",
+    "id": "wd-0633",
+    "title": "Vivienne Strapless Column Dress",
+    "slug": "vivienne-strapless-column-dress-wd-137-wd-633",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12245.jpg.jpeg",
-      "/western-dresses/12254.jpg.jpeg",
-      "/western-dresses/12255.jpg.jpeg",
-      "/western-dresses/12256.jpg.jpeg",
-      "/western-dresses/12257.jpg.jpeg",
-      "/western-dresses/12259.jpg.jpeg"
+      "/western-dresses/12203.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Crete Strapless Column Dress (WST-WD-237) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Broderie Anglaise, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0633"
+  },
+  {
+    "id": "wd-0634",
+    "title": "Nova A-Line Tiered Resort Dress",
+    "slug": "nova-a-line-tiered-resort-dress-wd-137-wd-634",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12213.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova A-Line Tiered Resort Dress (WST-WD-761) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0634"
+  },
+  {
+    "id": "wd-0635",
+    "title": "Bella Belted Linen Blend Dress",
+    "slug": "bella-belted-linen-blend-dress-wd-137-wd-635",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12223.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Belted Linen Blend Dress (WST-WD-762) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0635"
+  },
+  {
+    "id": "wd-0636",
+    "title": "Aria Belted Linen Blend Dress",
+    "slug": "aria-belted-linen-blend-dress-wd-137-c-wd-636",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12224.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Belted Linen Blend Dress (WST-WD-762) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0636"
+  },
+  {
+    "id": "wd-0637",
+    "title": "Rhea Floral Embroidered Halter Dress",
+    "slug": "rhea-floral-embroidered-halter-dress-wd-137-wd-637",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12225.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Floral Embroidered Halter Dress (WST-WD-763) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0637"
+  },
+  {
+    "id": "wd-0638",
+    "title": "Dubrovnik Cutout Halter Dress",
+    "slug": "dubrovnik-cutout-halter-dress-wd-638",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12245.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4916,23 +19911,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-238"
+    "sku": "WST-WD-0638"
   },
   {
-    "id": "wd-139",
+    "id": "wd-0639",
+    "title": "Zoe Tiered Ruffle Maxi Dress",
+    "slug": "zoe-tiered-ruffle-maxi-dress-wd-138-wd-639",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12254.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Tiered Ruffle Maxi Dress (WST-WD-764) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0639"
+  },
+  {
+    "id": "wd-0640",
+    "title": "Mila Tiered Ruffle Maxi Dress",
+    "slug": "mila-tiered-ruffle-maxi-dress-wd-138-b-wd-640",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12255.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Tiered Ruffle Maxi Dress (WST-WD-764) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0640"
+  },
+  {
+    "id": "wd-0641",
+    "title": "Isla Tiered Ruffle Maxi Dress",
+    "slug": "isla-tiered-ruffle-maxi-dress-wd-138-b-wd-641",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12256.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Tiered Ruffle Maxi Dress (WST-WD-764) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0641"
+  },
+  {
+    "id": "wd-0642",
+    "title": "Chloe Tiered Ruffle Maxi Dress",
+    "slug": "chloe-tiered-ruffle-maxi-dress-wd-138-b-wd-642",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12257.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Tiered Ruffle Maxi Dress (WST-WD-764) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0642"
+  },
+  {
+    "id": "wd-0643",
+    "title": "Freya Tiered Ruffle Maxi Dress",
+    "slug": "freya-tiered-ruffle-maxi-dress-wd-138-b-wd-643",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12259.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Tiered Ruffle Maxi Dress (WST-WD-764) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0643"
+  },
+  {
+    "id": "wd-0644",
     "title": "Ljubljana Draped Column Dress",
-    "slug": "ljubljana-draped-column-dress-139",
+    "slug": "ljubljana-draped-column-dress-wd-644",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12260.jpg.jpeg",
-      "/western-dresses/12262.jpg.jpeg",
-      "/western-dresses/12306.jpg.jpeg",
-      "/western-dresses/12316.jpg.jpeg",
-      "/western-dresses/12317.jpg.jpeg"
+      "/western-dresses/12260.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4951,12 +20097,136 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-239"
+    "sku": "WST-WD-0644"
   },
   {
-    "id": "wd-140",
+    "id": "wd-0645",
+    "title": "Lyra Embroidered Cotton Shirtdress",
+    "slug": "lyra-embroidered-cotton-shirtdress-wd-139-wd-645",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12262.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Embroidered Cotton Shirtdress (WST-WD-765) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0645"
+  },
+  {
+    "id": "wd-0646",
+    "title": "Stella Smocked Flounce Midi Dress",
+    "slug": "stella-smocked-flounce-midi-dress-wd-139-wd-646",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12306.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Smocked Flounce Midi Dress (WST-WD-766) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0646"
+  },
+  {
+    "id": "wd-0647",
+    "title": "Nina Broderie Anglaise Sundress",
+    "slug": "nina-broderie-anglaise-sundress-wd-139-wd-647",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12316.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Broderie Anglaise Sundress (WST-WD-767) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0647"
+  },
+  {
+    "id": "wd-0648",
+    "title": "Cleo Pleated Wrap Midi Dress",
+    "slug": "cleo-pleated-wrap-midi-dress-wd-139-wd-648",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12317.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Pleated Wrap Midi Dress (WST-WD-768) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0648"
+  },
+  {
+    "id": "wd-0649",
     "title": "Zurich Sweetheart Flare Dress",
-    "slug": "zurich-sweetheart-flare-dress-140",
+    "slug": "zurich-sweetheart-flare-dress-wd-649",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -4964,11 +20234,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/12325.jpg.jpeg",
-      "/western-dresses/12326.jpg.jpeg",
-      "/western-dresses/12327.jpg.jpeg",
-      "/western-dresses/12330.jpg.jpeg",
-      "/western-dresses/12331.jpg.jpeg",
-      "/western-dresses/12332.jpg.jpeg"
+      "/western-dresses/12326.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -4987,23 +20253,143 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-240"
+    "sku": "WST-WD-0649"
   },
   {
-    "id": "wd-141",
+    "id": "wd-0650",
+    "title": "Zara Sweetheart Flare Dress",
+    "slug": "zara-sweetheart-flare-dress-wd-140-wd-650",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12327.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zurich Sweetheart Flare Dress (WST-WD-240) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Textured Linen Crepe, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0650"
+  },
+  {
+    "id": "wd-0651",
+    "title": "Ivy Lantern Sleeve Tunic Dress",
+    "slug": "ivy-lantern-sleeve-tunic-dress-wd-140-wd-651",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12330.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Lantern Sleeve Tunic Dress (WST-WD-769) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0651"
+  },
+  {
+    "id": "wd-0652",
+    "title": "Willow Floral Pintuck Slip Dress",
+    "slug": "willow-floral-pintuck-slip-dress-wd-140-wd-652",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12331.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Floral Pintuck Slip Dress (WST-WD-770) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0652"
+  },
+  {
+    "id": "wd-0653",
+    "title": "Nova Floral Pintuck Slip Dress",
+    "slug": "nova-floral-pintuck-slip-dress-wd-140-c-wd-653",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12332.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Floral Pintuck Slip Dress (WST-WD-770) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0653"
+  },
+  {
+    "id": "wd-0654",
     "title": "Geneva Empire Waist Dress",
-    "slug": "geneva-empire-waist-dress-141",
+    "slug": "geneva-empire-waist-dress-wd-654",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12333.jpg.jpeg",
-      "/western-dresses/12334.jpg.jpeg",
-      "/western-dresses/12361.jpg.jpeg",
-      "/western-dresses/12362.jpg.jpeg",
-      "/western-dresses/12363.jpg.jpeg"
+      "/western-dresses/12333.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5022,25 +20408,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-241"
+    "sku": "WST-WD-0654"
   },
   {
-    "id": "wd-142",
+    "id": "wd-0655",
+    "title": "Tara Bohemian Peasant Tiered Dress",
+    "slug": "tara-bohemian-peasant-tiered-dress-wd-141-wd-655",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12334.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara Bohemian Peasant Tiered Dress (WST-WD-771) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0655"
+  },
+  {
+    "id": "wd-0656",
+    "title": "Kira Eyelet Flutter Sleeve Dress",
+    "slug": "kira-eyelet-flutter-sleeve-dress-wd-141-wd-656",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12361.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Eyelet Flutter Sleeve Dress (WST-WD-772) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0656"
+  },
+  {
+    "id": "wd-0657",
+    "title": "Saffron A-Line Tiered Resort Dress",
+    "slug": "saffron-a-line-tiered-resort-dress-wd-141-wd-657",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12362.jpg.jpeg",
+      "/western-dresses/12363.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron A-Line Tiered Resort Dress (WST-WD-773) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0657"
+  },
+  {
+    "id": "wd-0658",
     "title": "Oslo Pleated A-Line Dress",
-    "slug": "oslo-pleated-a-line-dress-142",
+    "slug": "oslo-pleated-a-line-dress-wd-658",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12368.jpg.jpeg",
-      "/western-dresses/12369.jpg.jpeg",
-      "/western-dresses/12373.jpg.jpeg",
-      "/western-dresses/12374.jpg.jpeg",
-      "/western-dresses/12375.jpg.jpeg",
-      "/western-dresses/12376.jpg%20(1).jpeg",
-      "/western-dresses/12376.jpg.jpeg"
+      "/western-dresses/12368.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5059,24 +20533,175 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-242"
+    "sku": "WST-WD-0658"
   },
   {
-    "id": "wd-143",
+    "id": "wd-0659",
+    "title": "Hazel Belted Linen Blend Dress",
+    "slug": "hazel-belted-linen-blend-dress-wd-142-wd-659",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12369.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Belted Linen Blend Dress (WST-WD-774) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0659"
+  },
+  {
+    "id": "wd-0660",
+    "title": "Nadia Floral Embroidered Halter Dress",
+    "slug": "nadia-floral-embroidered-halter-dress-wd-142-wd-660",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12373.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Floral Embroidered Halter Dress (WST-WD-775) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0660"
+  },
+  {
+    "id": "wd-0661",
+    "title": "Cleo Floral Embroidered Halter Dress",
+    "slug": "cleo-floral-embroidered-halter-dress-wd-142-c-wd-661",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12374.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Floral Embroidered Halter Dress (WST-WD-775) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0661"
+  },
+  {
+    "id": "wd-0662",
+    "title": "Ivy Floral Embroidered Halter Dress",
+    "slug": "ivy-floral-embroidered-halter-dress-wd-142-c-wd-662",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12375.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Floral Embroidered Halter Dress (WST-WD-775) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0662"
+  },
+  {
+    "id": "wd-0663",
+    "title": "Piper Tiered Ruffle Maxi Dress",
+    "slug": "piper-tiered-ruffle-maxi-dress-wd-142-wd-663",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12376.jpg%20(1).jpeg",
+      "/western-dresses/12376.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Tiered Ruffle Maxi Dress (WST-WD-776) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0663"
+  },
+  {
+    "id": "wd-0664",
     "title": "Stockholm Floral Wrap Dress",
-    "slug": "stockholm-floral-wrap-dress-143",
+    "slug": "stockholm-floral-wrap-dress-wd-664",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12437.jpg.jpeg",
-      "/western-dresses/12438.jpg.jpeg",
-      "/western-dresses/12445.jpg.jpeg",
-      "/western-dresses/12446.jpg.jpeg",
-      "/western-dresses/12447.jpg.jpeg",
-      "/western-dresses/12448.jpg.jpeg"
+      "/western-dresses/12437.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5095,25 +20720,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-243"
+    "sku": "WST-WD-0664"
   },
   {
-    "id": "wd-144",
-    "title": "Copenhagen Backless Maxi Dress",
-    "slug": "copenhagen-backless-maxi-dress-144",
+    "id": "wd-0665",
+    "title": "Willow Floral Wrap Dress",
+    "slug": "willow-floral-wrap-dress-wd-143-wd-665",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12466.jpg.jpeg",
-      "/western-dresses/12470.jpg.jpeg",
-      "/western-dresses/12477.jpg.jpeg",
-      "/western-dresses/12479.jpg.jpeg",
-      "/western-dresses/12480.jpg.jpeg",
-      "/western-dresses/12482.jpg.jpeg",
-      "/western-dresses/12483.jpg.jpeg"
+      "/western-dresses/12438.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stockholm Floral Wrap Dress (WST-WD-243) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0665"
+  },
+  {
+    "id": "wd-0666",
+    "title": "Daisy Embroidered Cotton Shirtdress",
+    "slug": "daisy-embroidered-cotton-shirtdress-wd-143-wd-666",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12445.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Embroidered Cotton Shirtdress (WST-WD-777) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0666"
+  },
+  {
+    "id": "wd-0667",
+    "title": "Thalia Smocked Flounce Midi Dress",
+    "slug": "thalia-smocked-flounce-midi-dress-wd-143-wd-667",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12446.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Smocked Flounce Midi Dress (WST-WD-778) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0667"
+  },
+  {
+    "id": "wd-0668",
+    "title": "Celeste Broderie Anglaise Sundress",
+    "slug": "celeste-broderie-anglaise-sundress-wd-143-wd-668",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12447.jpg.jpeg",
+      "/western-dresses/12448.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Broderie Anglaise Sundress (WST-WD-779) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0668"
+  },
+  {
+    "id": "wd-0669",
+    "title": "Copenhagen Backless Maxi Dress",
+    "slug": "copenhagen-backless-maxi-dress-wd-669",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12466.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5132,22 +20876,205 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-244"
+    "sku": "WST-WD-0669"
   },
   {
-    "id": "wd-145",
+    "id": "wd-0670",
+    "title": "Iris Pleated Wrap Midi Dress",
+    "slug": "iris-pleated-wrap-midi-dress-wd-144-wd-670",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12470.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Pleated Wrap Midi Dress (WST-WD-780) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0670"
+  },
+  {
+    "id": "wd-0671",
+    "title": "Camille Lantern Sleeve Tunic Dress",
+    "slug": "camille-lantern-sleeve-tunic-dress-wd-144-wd-671",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12477.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Lantern Sleeve Tunic Dress (WST-WD-781) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0671"
+  },
+  {
+    "id": "wd-0672",
+    "title": "Piper Lantern Sleeve Tunic Dress",
+    "slug": "piper-lantern-sleeve-tunic-dress-wd-144-c-wd-672",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12479.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Lantern Sleeve Tunic Dress (WST-WD-781) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0672"
+  },
+  {
+    "id": "wd-0673",
+    "title": "Diana Floral Pintuck Slip Dress",
+    "slug": "diana-floral-pintuck-slip-dress-wd-144-wd-673",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12480.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Floral Pintuck Slip Dress (WST-WD-782) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0673"
+  },
+  {
+    "id": "wd-0674",
+    "title": "Giselle Bohemian Peasant Tiered Dress",
+    "slug": "giselle-bohemian-peasant-tiered-dress-wd-144-wd-674",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12482.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle Bohemian Peasant Tiered Dress (WST-WD-783) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0674"
+  },
+  {
+    "id": "wd-0675",
+    "title": "Thalia Bohemian Peasant Tiered Dress",
+    "slug": "thalia-bohemian-peasant-tiered-dress-wd-144-e-wd-675",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12483.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle Bohemian Peasant Tiered Dress (WST-WD-783) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0675"
+  },
+  {
+    "id": "wd-0676",
     "title": "Helsinki High-Slit Slip Dress",
-    "slug": "helsinki-high-slit-slip-dress-145",
+    "slug": "helsinki-high-slit-slip-dress-wd-676",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12537.jpg.jpeg",
-      "/western-dresses/12538.jpg.jpeg",
-      "/western-dresses/12539.jpg.jpeg",
-      "/western-dresses/12623.jpg.jpeg"
+      "/western-dresses/12537.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5166,23 +21093,112 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-245"
+    "sku": "WST-WD-0676"
   },
   {
-    "id": "wd-146",
+    "id": "wd-0677",
+    "title": "Tessa Eyelet Flutter Sleeve Dress",
+    "slug": "tessa-eyelet-flutter-sleeve-dress-wd-145-wd-677",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12538.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Eyelet Flutter Sleeve Dress (WST-WD-784) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0677"
+  },
+  {
+    "id": "wd-0678",
+    "title": "Iris Eyelet Flutter Sleeve Dress",
+    "slug": "iris-eyelet-flutter-sleeve-dress-wd-145-b-wd-678",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12539.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Eyelet Flutter Sleeve Dress (WST-WD-784) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0678"
+  },
+  {
+    "id": "wd-0679",
+    "title": "Bianca A-Line Tiered Resort Dress",
+    "slug": "bianca-a-line-tiered-resort-dress-wd-145-wd-679",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12623.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca A-Line Tiered Resort Dress (WST-WD-785) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0679"
+  },
+  {
+    "id": "wd-0680",
     "title": "Tallinn Keyhole Shift Dress",
-    "slug": "tallinn-keyhole-shift-dress-146",
+    "slug": "tallinn-keyhole-shift-dress-wd-680",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12822.jpg.jpeg",
-      "/western-dresses/12832.jpg.jpeg",
-      "/western-dresses/12833.jpg.jpeg",
-      "/western-dresses/12887.jpg.jpeg",
-      "/western-dresses/12888.jpg.jpeg"
+      "/western-dresses/12822.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5201,25 +21217,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-246"
+    "sku": "WST-WD-0680"
   },
   {
-    "id": "wd-147",
+    "id": "wd-0681",
+    "title": "Daphne Belted Linen Blend Dress",
+    "slug": "daphne-belted-linen-blend-dress-wd-146-wd-681",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12832.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daphne Belted Linen Blend Dress (WST-WD-786) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0681"
+  },
+  {
+    "id": "wd-0682",
+    "title": "Paloma Floral Embroidered Halter Dress",
+    "slug": "paloma-floral-embroidered-halter-dress-wd-146-wd-682",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12833.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Floral Embroidered Halter Dress (WST-WD-787) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0682"
+  },
+  {
+    "id": "wd-0683",
+    "title": "Vivienne Tiered Ruffle Maxi Dress",
+    "slug": "vivienne-tiered-ruffle-maxi-dress-wd-146-wd-683",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12887.jpg.jpeg",
+      "/western-dresses/12888.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Tiered Ruffle Maxi Dress (WST-WD-788) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Premium Viscose Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0683"
+  },
+  {
+    "id": "wd-0684",
     "title": "Riga Pleated Midi Dress",
-    "slug": "riga-pleated-midi-dress-147",
+    "slug": "riga-pleated-midi-dress-wd-684",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/12944.jpg.jpeg",
-      "/western-dresses/12980.jpg.jpeg",
-      "/western-dresses/13010.jpg.jpeg",
-      "/western-dresses/13030.jpg.jpeg",
-      "/western-dresses/13056.jpg.jpeg",
-      "/western-dresses/13115.jpg.jpeg",
-      "/western-dresses/13149.jpg.jpeg"
+      "/western-dresses/12944.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5238,24 +21342,205 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-247"
+    "sku": "WST-WD-0684"
   },
   {
-    "id": "wd-148",
+    "id": "wd-0685",
+    "title": "Layla Embroidered Cotton Shirtdress",
+    "slug": "layla-embroidered-cotton-shirtdress-wd-147-wd-685",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/12980.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Layla Embroidered Cotton Shirtdress (WST-WD-789) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0685"
+  },
+  {
+    "id": "wd-0686",
+    "title": "Serena Smocked Flounce Midi Dress",
+    "slug": "serena-smocked-flounce-midi-dress-wd-147-wd-686",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13010.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Smocked Flounce Midi Dress (WST-WD-790) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0686"
+  },
+  {
+    "id": "wd-0687",
+    "title": "Amara Broderie Anglaise Sundress",
+    "slug": "amara-broderie-anglaise-sundress-wd-147-wd-687",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13030.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Broderie Anglaise Sundress (WST-WD-791) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0687"
+  },
+  {
+    "id": "wd-0688",
+    "title": "Astrid Pleated Wrap Midi Dress",
+    "slug": "astrid-pleated-wrap-midi-dress-wd-147-wd-688",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13056.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Pleated Wrap Midi Dress (WST-WD-792) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0688"
+  },
+  {
+    "id": "wd-0689",
+    "title": "Gia Lantern Sleeve Tunic Dress",
+    "slug": "gia-lantern-sleeve-tunic-dress-wd-147-wd-689",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13115.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Lantern Sleeve Tunic Dress (WST-WD-793) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0689"
+  },
+  {
+    "id": "wd-0690",
+    "title": "Sora Floral Pintuck Slip Dress",
+    "slug": "sora-floral-pintuck-slip-dress-wd-147-wd-690",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13149.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Floral Pintuck Slip Dress (WST-WD-794) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0690"
+  },
+  {
+    "id": "wd-0691",
     "title": "Vilnius Smocked Flounce Dress",
-    "slug": "vilnius-smocked-flounce-dress-148",
+    "slug": "vilnius-smocked-flounce-dress-wd-691",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/13201.jpg.jpeg",
-      "/western-dresses/13260.jpg.jpeg",
-      "/western-dresses/13294.jpg.jpeg",
-      "/western-dresses/13323.jpg.jpeg",
-      "/western-dresses/13345.jpg.jpeg",
-      "/western-dresses/13356.jpg.jpeg"
+      "/western-dresses/13201.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5274,21 +21559,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-248"
+    "sku": "WST-WD-0691"
   },
   {
-    "id": "wd-149",
+    "id": "wd-0692",
+    "title": "Noa Bohemian Peasant Tiered Dress",
+    "slug": "noa-bohemian-peasant-tiered-dress-wd-148-wd-692",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13260.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa Bohemian Peasant Tiered Dress (WST-WD-795) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0692"
+  },
+  {
+    "id": "wd-0693",
+    "title": "Lana Eyelet Flutter Sleeve Dress",
+    "slug": "lana-eyelet-flutter-sleeve-dress-wd-148-wd-693",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13294.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Eyelet Flutter Sleeve Dress (WST-WD-796) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0693"
+  },
+  {
+    "id": "wd-0694",
+    "title": "Kora A-Line Tiered Resort Dress",
+    "slug": "kora-a-line-tiered-resort-dress-wd-148-wd-694",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13323.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora A-Line Tiered Resort Dress (WST-WD-797) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0694"
+  },
+  {
+    "id": "wd-0695",
+    "title": "Mira Belted Linen Blend Dress",
+    "slug": "mira-belted-linen-blend-dress-wd-148-wd-695",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13345.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Belted Linen Blend Dress (WST-WD-798) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0695"
+  },
+  {
+    "id": "wd-0696",
+    "title": "Veda Floral Embroidered Halter Dress",
+    "slug": "veda-floral-embroidered-halter-dress-wd-148-wd-696",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13356.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Veda Floral Embroidered Halter Dress (WST-WD-799) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0696"
+  },
+  {
+    "id": "wd-0697",
     "title": "Prague Asymmetric Wrap Dress",
-    "slug": "prague-asymmetric-wrap-dress-149",
+    "slug": "prague-asymmetric-wrap-dress-wd-697",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/13374.jpg.jpeg",
-      "/western-dresses/13414.jpg.jpeg",
-      "/western-dresses/13415.jpg.jpeg"
+      "/western-dresses/13374.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5307,22 +21745,81 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-249"
+    "sku": "WST-WD-0697"
   },
   {
-    "id": "wd-150",
-    "title": "Budapest Off-Shoulder Maxi Dress",
-    "slug": "budapest-off-shoulder-maxi-dress-150",
+    "id": "wd-0698",
+    "title": "Aria Tiered Ruffle Maxi Dress",
+    "slug": "aria-tiered-ruffle-maxi-dress-wd-149-wd-698",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/13510.jpg.jpeg",
-      "/western-dresses/13511.jpg.jpeg",
-      "/western-dresses/13512.jpg.jpeg",
-      "/western-dresses/13523.jpg.jpeg"
+      "/western-dresses/13414.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Tiered Ruffle Maxi Dress (WST-WD-800) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0698"
+  },
+  {
+    "id": "wd-0699",
+    "title": "Sienna Embroidered Cotton Shirtdress",
+    "slug": "sienna-embroidered-cotton-shirtdress-wd-149-wd-699",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13415.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Embroidered Cotton Shirtdress (WST-WD-801) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0699"
+  },
+  {
+    "id": "wd-0700",
+    "title": "Budapest Off-Shoulder Maxi Dress",
+    "slug": "budapest-off-shoulder-maxi-dress-wd-700",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13510.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5341,24 +21838,112 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-250"
+    "sku": "WST-WD-0700"
   },
   {
-    "id": "wd-151",
+    "id": "wd-0701",
+    "title": "Elena Smocked Flounce Midi Dress",
+    "slug": "elena-smocked-flounce-midi-dress-wd-150-wd-701",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13511.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Smocked Flounce Midi Dress (WST-WD-802) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0701"
+  },
+  {
+    "id": "wd-0702",
+    "title": "Mila Broderie Anglaise Sundress",
+    "slug": "mila-broderie-anglaise-sundress-wd-150-wd-702",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13512.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Broderie Anglaise Sundress (WST-WD-803) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0702"
+  },
+  {
+    "id": "wd-0703",
+    "title": "Isla Pleated Wrap Midi Dress",
+    "slug": "isla-pleated-wrap-midi-dress-wd-150-wd-703",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13523.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Pleated Wrap Midi Dress (WST-WD-804) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0703"
+  },
+  {
+    "id": "wd-0704",
     "title": "Krakow Plunge Fluted Dress",
-    "slug": "krakow-plunge-fluted-dress-151",
+    "slug": "krakow-plunge-fluted-dress-wd-704",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/13560.jpg.jpeg",
-      "/western-dresses/13581.jpg.jpeg",
-      "/western-dresses/13629.jpg.jpeg",
-      "/western-dresses/13632.jpg.jpeg",
-      "/western-dresses/13649.jpg.jpeg",
-      "/western-dresses/13650.jpg.jpeg"
+      "/western-dresses/13560.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5377,12 +21962,167 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-251"
+    "sku": "WST-WD-0704"
   },
   {
-    "id": "wd-152",
+    "id": "wd-0705",
+    "title": "Chloe Lantern Sleeve Tunic Dress",
+    "slug": "chloe-lantern-sleeve-tunic-dress-wd-151-wd-705",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13581.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Lantern Sleeve Tunic Dress (WST-WD-805) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0705"
+  },
+  {
+    "id": "wd-0706",
+    "title": "Freya Floral Pintuck Slip Dress",
+    "slug": "freya-floral-pintuck-slip-dress-wd-151-wd-706",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13629.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Floral Pintuck Slip Dress (WST-WD-806) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0706"
+  },
+  {
+    "id": "wd-0707",
+    "title": "Maya Bohemian Peasant Tiered Dress",
+    "slug": "maya-bohemian-peasant-tiered-dress-wd-151-wd-707",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13632.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya Bohemian Peasant Tiered Dress (WST-WD-807) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0707"
+  },
+  {
+    "id": "wd-0708",
+    "title": "Luna Eyelet Flutter Sleeve Dress",
+    "slug": "luna-eyelet-flutter-sleeve-dress-wd-151-wd-708",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13649.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Eyelet Flutter Sleeve Dress (WST-WD-808) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0708"
+  },
+  {
+    "id": "wd-0709",
+    "title": "Zara A-Line Tiered Resort Dress",
+    "slug": "zara-a-line-tiered-resort-dress-wd-151-wd-709",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/13650.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara A-Line Tiered Resort Dress (WST-WD-809) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Airy Organza Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0709"
+  },
+  {
+    "id": "wd-0710",
     "title": "Warsaw Ruched Bodycon Dress",
-    "slug": "warsaw-ruched-bodycon-dress-152",
+    "slug": "warsaw-ruched-bodycon-dress-wd-710",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -5390,12 +22130,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/14308.jpg.jpeg",
-      "/western-dresses/14309.jpg.jpeg",
-      "/western-dresses/14364.jpg.jpeg",
-      "/western-dresses/14375.jpg.jpeg",
-      "/western-dresses/14787.jpg.jpeg",
-      "/western-dresses/14927.jpg.jpeg",
-      "/western-dresses/14961.jpg.jpeg"
+      "/western-dresses/14309.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5414,24 +22149,174 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-252"
+    "sku": "WST-WD-0710"
   },
   {
-    "id": "wd-153",
-    "title": "Lisbon Puff Sleeve Midi Dress",
-    "slug": "lisbon-puff-sleeve-midi-dress-153",
+    "id": "wd-0711",
+    "title": "Kaia Belted Linen Blend Dress",
+    "slug": "kaia-belted-linen-blend-dress-wd-152-wd-711",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/16211.jpg.jpeg",
-      "/western-dresses/16212.jpg.jpeg",
-      "/western-dresses/16213.jpg.jpeg",
-      "/western-dresses/16214.jpg.jpeg",
-      "/western-dresses/16215.jpg.jpeg",
-      "/western-dresses/16216.jpg.jpeg"
+      "/western-dresses/14364.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kaia Belted Linen Blend Dress (WST-WD-810) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0711"
+  },
+  {
+    "id": "wd-0712",
+    "title": "Nova Floral Embroidered Halter Dress",
+    "slug": "nova-floral-embroidered-halter-dress-wd-152-wd-712",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/14375.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nova Floral Embroidered Halter Dress (WST-WD-811) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0712"
+  },
+  {
+    "id": "wd-0713",
+    "title": "Bella Tiered Ruffle Maxi Dress",
+    "slug": "bella-tiered-ruffle-maxi-dress-wd-152-wd-713",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/14787.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bella Tiered Ruffle Maxi Dress (WST-WD-812) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0713"
+  },
+  {
+    "id": "wd-0714",
+    "title": "Rhea Embroidered Cotton Shirtdress",
+    "slug": "rhea-embroidered-cotton-shirtdress-wd-152-wd-714",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/14927.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rhea Embroidered Cotton Shirtdress (WST-WD-813) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0714"
+  },
+  {
+    "id": "wd-0715",
+    "title": "Zoe Smocked Flounce Midi Dress",
+    "slug": "zoe-smocked-flounce-midi-dress-wd-152-wd-715",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/14961.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zoe Smocked Flounce Midi Dress (WST-WD-814) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0715"
+  },
+  {
+    "id": "wd-0716",
+    "title": "Lisbon Puff Sleeve Midi Dress",
+    "slug": "lisbon-puff-sleeve-midi-dress-wd-716",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16211.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5450,21 +22335,144 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-253"
+    "sku": "WST-WD-0716"
   },
   {
-    "id": "wd-154",
+    "id": "wd-0717",
+    "title": "Thalia Puff Sleeve Midi Dress",
+    "slug": "thalia-puff-sleeve-midi-dress-wd-153-wd-717",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16212.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lisbon Puff Sleeve Midi Dress (WST-WD-253) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0717"
+  },
+  {
+    "id": "wd-0718",
+    "title": "Celeste Puff Sleeve Midi Dress",
+    "slug": "celeste-puff-sleeve-midi-dress-wd-153-wd-718",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16213.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lisbon Puff Sleeve Midi Dress (WST-WD-253) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0718"
+  },
+  {
+    "id": "wd-0719",
+    "title": "Iris Puff Sleeve Midi Dress",
+    "slug": "iris-puff-sleeve-midi-dress-wd-153-wd-719",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16214.jpg.jpeg",
+      "/western-dresses/16215.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lisbon Puff Sleeve Midi Dress (WST-WD-253) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0719"
+  },
+  {
+    "id": "wd-0720",
+    "title": "Lyra Broderie Anglaise Sundress",
+    "slug": "lyra-broderie-anglaise-sundress-wd-153-wd-720",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16216.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lyra Broderie Anglaise Sundress (WST-WD-815) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Silk Chiffon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0720"
+  },
+  {
+    "id": "wd-0721",
     "title": "Porto Organza Tiered Dress",
-    "slug": "porto-organza-tiered-dress-154",
+    "slug": "porto-organza-tiered-dress-wd-721",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/16217.jpg.jpeg",
-      "/western-dresses/16218.jpg.jpeg",
-      "/western-dresses/16219.jpg.jpeg"
+      "/western-dresses/16217.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5483,12 +22491,74 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-254"
+    "sku": "WST-WD-0721"
   },
   {
-    "id": "wd-155",
+    "id": "wd-0722",
+    "title": "Stella Pleated Wrap Midi Dress",
+    "slug": "stella-pleated-wrap-midi-dress-wd-154-wd-722",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16218.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Stella Pleated Wrap Midi Dress (WST-WD-816) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0722"
+  },
+  {
+    "id": "wd-0723",
+    "title": "Nina Lantern Sleeve Tunic Dress",
+    "slug": "nina-lantern-sleeve-tunic-dress-wd-154-wd-723",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16219.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nina Lantern Sleeve Tunic Dress (WST-WD-817) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Mercerized Cotton Knit, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0723"
+  },
+  {
+    "id": "wd-0724",
     "title": "Sintra Shirred Tiered Dress",
-    "slug": "sintra-shirred-tiered-dress-155",
+    "slug": "sintra-shirred-tiered-dress-wd-724",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -5497,10 +22567,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/16646.jpg.jpeg",
       "/western-dresses/16647.jpg.jpeg",
-      "/western-dresses/16650.jpg.jpeg",
-      "/western-dresses/16651.jpg.jpeg",
-      "/western-dresses/16652.jpg.jpeg",
-      "/western-dresses/16653.jpg.jpeg"
+      "/western-dresses/16650.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5519,21 +22586,82 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-255"
+    "sku": "WST-WD-0724"
   },
   {
-    "id": "wd-156",
+    "id": "wd-0725",
+    "title": "Cleo Floral Pintuck Slip Dress",
+    "slug": "cleo-floral-pintuck-slip-dress-wd-155-wd-725",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16651.jpg.jpeg",
+      "/western-dresses/16652.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Floral Pintuck Slip Dress (WST-WD-818) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0725"
+  },
+  {
+    "id": "wd-0726",
+    "title": "Tessa Floral Pintuck Slip Dress",
+    "slug": "tessa-floral-pintuck-slip-dress-wd-155-b-wd-726",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16653.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Cleo Floral Pintuck Slip Dress (WST-WD-818) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0726"
+  },
+  {
+    "id": "wd-0727",
     "title": "Faro Satin Slip Dress",
-    "slug": "faro-satin-slip-dress-156",
+    "slug": "faro-satin-slip-dress-wd-727",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/16654.jpg.jpeg",
-      "/western-dresses/16658.jpg.jpeg",
-      "/western-dresses/16659.jpg.jpeg"
+      "/western-dresses/16654.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5552,22 +22680,81 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-256"
+    "sku": "WST-WD-0727"
   },
   {
-    "id": "wd-157",
+    "id": "wd-0728",
+    "title": "Ivy Bohemian Peasant Tiered Dress",
+    "slug": "ivy-bohemian-peasant-tiered-dress-wd-156-wd-728",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16658.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Bohemian Peasant Tiered Dress (WST-WD-819) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0728"
+  },
+  {
+    "id": "wd-0729",
+    "title": "Daphne Bohemian Peasant Tiered Dress",
+    "slug": "daphne-bohemian-peasant-tiered-dress-wd-156-b-wd-729",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16659.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Ivy Bohemian Peasant Tiered Dress (WST-WD-819) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0729"
+  },
+  {
+    "id": "wd-0730",
     "title": "Coimbra Corset Mini Dress",
-    "slug": "coimbra-corset-mini-dress-157",
+    "slug": "coimbra-corset-mini-dress-wd-730",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/16728.jpg.jpeg",
-      "/western-dresses/16729.jpg.jpeg",
-      "/western-dresses/16730.jpg.jpeg",
-      "/western-dresses/16772.jpg.jpeg"
+      "/western-dresses/16728.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5586,12 +22773,105 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-257"
+    "sku": "WST-WD-0730"
   },
   {
-    "id": "wd-158",
+    "id": "wd-0731",
+    "title": "Willow Eyelet Flutter Sleeve Dress",
+    "slug": "willow-eyelet-flutter-sleeve-dress-wd-157-wd-731",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16729.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Willow Eyelet Flutter Sleeve Dress (WST-WD-820) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0731"
+  },
+  {
+    "id": "wd-0732",
+    "title": "Tara A-Line Tiered Resort Dress",
+    "slug": "tara-a-line-tiered-resort-dress-wd-157-wd-732",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16730.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tara A-Line Tiered Resort Dress (WST-WD-821) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0732"
+  },
+  {
+    "id": "wd-0733",
+    "title": "Kira Belted Linen Blend Dress",
+    "slug": "kira-belted-linen-blend-dress-wd-157-wd-733",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16772.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kira Belted Linen Blend Dress (WST-WD-822) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0733"
+  },
+  {
+    "id": "wd-0734",
     "title": "Braga Broderie Tier Dress",
-    "slug": "braga-broderie-tier-dress-158",
+    "slug": "braga-broderie-tier-dress-wd-734",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -5599,8 +22879,68 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/16840.jpg.jpeg",
-      "/western-dresses/16843.jpg.jpeg",
-      "/western-dresses/16844.jpg.jpeg",
+      "/western-dresses/16843.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Braga Broderie Tier Dress (WST-WD-258) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0734"
+  },
+  {
+    "id": "wd-0735",
+    "title": "Sienna Broderie Tier Dress",
+    "slug": "sienna-broderie-tier-dress-wd-158-wd-735",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16844.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Braga Broderie Tier Dress (WST-WD-258) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0735"
+  },
+  {
+    "id": "wd-0736",
+    "title": "Elena Broderie Tier Dress",
+    "slug": "elena-broderie-tier-dress-wd-158-wd-736",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/16845.jpg.jpeg"
     ],
     "sizes": [
@@ -5620,24 +22960,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-258"
+    "sku": "WST-WD-0736"
   },
   {
-    "id": "wd-159",
+    "id": "wd-0737",
     "title": "Seville Fluted Hem Midi Dress",
-    "slug": "seville-fluted-hem-midi-dress-159",
+    "slug": "seville-fluted-hem-midi-dress-wd-737",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/16872.jpg.jpeg",
-      "/western-dresses/16874.jpg.jpeg",
-      "/western-dresses/16875.jpg.jpeg",
-      "/western-dresses/16876.jpg.jpeg",
-      "/western-dresses/16877.jpg.jpeg",
-      "/western-dresses/16879.jpg.jpeg"
+      "/western-dresses/16872.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5656,22 +22991,114 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-259"
+    "sku": "WST-WD-0737"
   },
   {
-    "id": "wd-160",
+    "id": "wd-0738",
+    "title": "Saffron Floral Embroidered Halter Dress",
+    "slug": "saffron-floral-embroidered-halter-dress-wd-159-wd-738",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16874.jpg.jpeg",
+      "/western-dresses/16875.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Floral Embroidered Halter Dress (WST-WD-823) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0738"
+  },
+  {
+    "id": "wd-0739",
+    "title": "Mila Floral Embroidered Halter Dress",
+    "slug": "mila-floral-embroidered-halter-dress-wd-159-b-wd-739",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16876.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Floral Embroidered Halter Dress (WST-WD-823) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0739"
+  },
+  {
+    "id": "wd-0740",
+    "title": "Isla Floral Embroidered Halter Dress",
+    "slug": "isla-floral-embroidered-halter-dress-wd-159-b-wd-740",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/16877.jpg.jpeg",
+      "/western-dresses/16879.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Saffron Floral Embroidered Halter Dress (WST-WD-823) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Breathable Cotton Voile, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0740"
+  },
+  {
+    "id": "wd-0741",
     "title": "Granada Babydoll Mini Dress",
-    "slug": "granada-babydoll-mini-dress-160",
+    "slug": "granada-babydoll-mini-dress-wd-741",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/55723.jpg.jpeg",
-      "/western-dresses/55726.jpg.jpeg",
-      "/western-dresses/55729.jpg.jpeg",
-      "/western-dresses/55735.jpg.jpeg"
+      "/western-dresses/55723.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5690,12 +23117,105 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-260"
+    "sku": "WST-WD-0741"
   },
   {
-    "id": "wd-161",
+    "id": "wd-0742",
+    "title": "Isla Babydoll Mini Dress",
+    "slug": "isla-babydoll-mini-dress-wd-160-wd-742",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/55726.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Granada Babydoll Mini Dress (WST-WD-260) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0742"
+  },
+  {
+    "id": "wd-0743",
+    "title": "Chloe Babydoll Mini Dress",
+    "slug": "chloe-babydoll-mini-dress-wd-160-wd-743",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/55729.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Granada Babydoll Mini Dress (WST-WD-260) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0743"
+  },
+  {
+    "id": "wd-0744",
+    "title": "Hazel Tiered Ruffle Maxi Dress",
+    "slug": "hazel-tiered-ruffle-maxi-dress-wd-160-wd-744",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/55735.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Hazel Tiered Ruffle Maxi Dress (WST-WD-824) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0744"
+  },
+  {
+    "id": "wd-0745",
     "title": "Cordoba Tiered Maxi Dress",
-    "slug": "cordoba-tiered-maxi-dress-161",
+    "slug": "cordoba-tiered-maxi-dress-wd-745",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -5724,12 +23244,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-261"
+    "sku": "WST-WD-0745"
   },
   {
-    "id": "wd-162",
+    "id": "wd-0746",
     "title": "Toledo Cowl Neck Slip Dress",
-    "slug": "toledo-cowl-neck-slip-dress-162",
+    "slug": "toledo-cowl-neck-slip-dress-wd-746",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -5737,10 +23257,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/61299.jpg.jpeg",
-      "/western-dresses/61302.jpg.jpeg",
-      "/western-dresses/61305.jpg.jpeg",
-      "/western-dresses/61310.jpg.jpeg",
-      "/western-dresses/61314.jpg.jpeg"
+      "/western-dresses/61302.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5759,19 +23276,142 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-262"
+    "sku": "WST-WD-0746"
   },
   {
-    "id": "wd-163",
+    "id": "wd-0747",
+    "title": "Maya Cowl Neck Slip Dress",
+    "slug": "maya-cowl-neck-slip-dress-wd-162-wd-747",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/61305.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Toledo Cowl Neck Slip Dress (WST-WD-262) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Printed Habotai Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0747"
+  },
+  {
+    "id": "wd-0748",
+    "title": "Nadia Embroidered Cotton Shirtdress",
+    "slug": "nadia-embroidered-cotton-shirtdress-wd-162-wd-748",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/61310.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Embroidered Cotton Shirtdress (WST-WD-825) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0748"
+  },
+  {
+    "id": "wd-0749",
+    "title": "Piper Smocked Flounce Midi Dress",
+    "slug": "piper-smocked-flounce-midi-dress-wd-162-wd-749",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/61314.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Piper Smocked Flounce Midi Dress (WST-WD-826) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Printed Habotai Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Printed Habotai Silk",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0749"
+  },
+  {
+    "id": "wd-0750",
     "title": "Salamanca Belted Shirtdress",
-    "slug": "salamanca-belted-shirtdress-163",
+    "slug": "salamanca-belted-shirtdress-wd-750",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/61317.jpg.jpeg",
+      "/western-dresses/61317.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Salamanca Belted Shirtdress (WST-WD-263) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Airy Organza Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Airy Organza Blend",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0750"
+  },
+  {
+    "id": "wd-0751",
+    "title": "Kaia Belted Shirtdress",
+    "slug": "kaia-belted-shirtdress-wd-163-wd-751",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/61320.jpg.jpeg",
       "/western-dresses/61323.jpg.jpeg"
     ],
@@ -5792,23 +23432,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-263"
+    "sku": "WST-WD-0751"
   },
   {
-    "id": "wd-164",
+    "id": "wd-0752",
     "title": "Bilbao Bias-Cut Slip Dress",
-    "slug": "bilbao-bias-cut-slip-dress-164",
+    "slug": "bilbao-bias-cut-slip-dress-wd-752",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/67785.jpg.jpeg",
-      "/western-dresses/67789.jpg.jpeg",
-      "/western-dresses/67792.jpg.jpeg",
-      "/western-dresses/67795.jpg.jpeg",
-      "/western-dresses/67798.jpg.jpeg"
+      "/western-dresses/67785.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5827,20 +23463,204 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-264"
+    "sku": "WST-WD-0752"
   },
   {
-    "id": "wd-165",
-    "title": "San Sebastian Embroidered Midi Dress",
-    "slug": "san-sebastian-embroidered-midi-dress-165",
+    "id": "wd-0753",
+    "title": "Daisy Broderie Anglaise Sundress",
+    "slug": "daisy-broderie-anglaise-sundress-wd-164-wd-753",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/67801.jpg.jpeg",
-      "/western-dresses/67804.jpg.jpeg",
+      "/western-dresses/67789.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daisy Broderie Anglaise Sundress (WST-WD-827) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0753"
+  },
+  {
+    "id": "wd-0754",
+    "title": "Thalia Pleated Wrap Midi Dress",
+    "slug": "thalia-pleated-wrap-midi-dress-wd-164-wd-754",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/67792.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Thalia Pleated Wrap Midi Dress (WST-WD-828) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0754"
+  },
+  {
+    "id": "wd-0755",
+    "title": "Celeste Lantern Sleeve Tunic Dress",
+    "slug": "celeste-lantern-sleeve-tunic-dress-wd-164-wd-755",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/67795.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Celeste Lantern Sleeve Tunic Dress (WST-WD-829) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0755"
+  },
+  {
+    "id": "wd-0756",
+    "title": "Iris Floral Pintuck Slip Dress",
+    "slug": "iris-floral-pintuck-slip-dress-wd-164-wd-756",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/67798.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Iris Floral Pintuck Slip Dress (WST-WD-830) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Textured Linen Crepe, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Textured Linen Crepe",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0756"
+  },
+  {
+    "id": "wd-0757",
+    "title": "San Sebastian Embroidered Midi Dress",
+    "slug": "san-sebastian-embroidered-midi-dress-wd-757",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/67801.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The San Sebastian Embroidered Midi Dress (WST-WD-265) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0757"
+  },
+  {
+    "id": "wd-0758",
+    "title": "Stella Sebastian Embroidered Midi Dress",
+    "slug": "stella-sebastian-embroidered-midi-dress-wd-165-wd-758",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/67804.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The San Sebastian Embroidered Midi Dress (WST-WD-265) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Silk Chiffon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Silk Chiffon",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0758"
+  },
+  {
+    "id": "wd-0759",
+    "title": "Nina Sebastian Embroidered Midi Dress",
+    "slug": "nina-sebastian-embroidered-midi-dress-wd-165-wd-759",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/67807.jpg.jpeg"
     ],
     "sizes": [
@@ -5860,20 +23680,80 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-265"
+    "sku": "WST-WD-0759"
   },
   {
-    "id": "wd-166",
+    "id": "wd-0760",
     "title": "Oviedo Linen Sundress",
-    "slug": "oviedo-linen-sundress-166",
+    "slug": "oviedo-linen-sundress-wd-760",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/68015.jpg.jpeg",
-      "/western-dresses/68018.jpg.jpeg",
+      "/western-dresses/68015.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Oviedo Linen Sundress (WST-WD-266) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0760"
+  },
+  {
+    "id": "wd-0761",
+    "title": "Nina Linen Sundress",
+    "slug": "nina-linen-sundress-wd-166-wd-761",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/68018.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Oviedo Linen Sundress (WST-WD-266) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Mercerized Cotton Knit, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Mercerized Cotton Knit",
+    "details": [
+      "Premium wrinkle-resistant drape fabrication",
+      "Concealed side zipper with tailored waist darts",
+      "Reinforced seams for international commercial export",
+      "Flexible wholesale packaging & hanger packs"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0761"
+  },
+  {
+    "id": "wd-0762",
+    "title": "Cleo Linen Sundress",
+    "slug": "cleo-linen-sundress-wd-166-wd-762",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/68021.jpg.jpeg",
       "/western-dresses/68024.jpg.jpeg"
     ],
@@ -5894,12 +23774,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-266"
+    "sku": "WST-WD-0762"
   },
   {
-    "id": "wd-167",
+    "id": "wd-0763",
     "title": "Santander Ribbed Knit Dress",
-    "slug": "santander-ribbed-knit-dress-167",
+    "slug": "santander-ribbed-knit-dress-wd-763",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -5907,11 +23787,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/70751.jpg.jpeg",
-      "/western-dresses/70752.jpg.jpeg",
-      "/western-dresses/70753.jpg.jpeg",
-      "/western-dresses/70754.jpg.jpeg",
-      "/western-dresses/70755.jpg.jpeg",
-      "/western-dresses/70756.jpg.jpeg"
+      "/western-dresses/70752.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5930,25 +23806,113 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-267"
+    "sku": "WST-WD-0763"
   },
   {
-    "id": "wd-168",
-    "title": "Leon Flutter Sleeve Dress",
-    "slug": "leon-flutter-sleeve-dress-168",
+    "id": "wd-0764",
+    "title": "Cleo Ribbed Knit Dress",
+    "slug": "cleo-ribbed-knit-dress-wd-167-wd-764",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/70757.jpg.jpeg",
-      "/western-dresses/70758.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772125783.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772128137.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772130401.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772133882.jpg.jpeg"
+      "/western-dresses/70753.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Santander Ribbed Knit Dress (WST-WD-267) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Soft Twill Rayon, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0764"
+  },
+  {
+    "id": "wd-0765",
+    "title": "Camille Bohemian Peasant Tiered Dress",
+    "slug": "camille-bohemian-peasant-tiered-dress-wd-167-wd-765",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/70754.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Bohemian Peasant Tiered Dress (WST-WD-831) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0765"
+  },
+  {
+    "id": "wd-0766",
+    "title": "Ivy Bohemian Peasant Tiered Dress",
+    "slug": "ivy-bohemian-peasant-tiered-dress-wd-167-b-wd-766",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/70755.jpg.jpeg",
+      "/western-dresses/70756.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Camille Bohemian Peasant Tiered Dress (WST-WD-831) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Soft Twill Rayon, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Soft Twill Rayon",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0766"
+  },
+  {
+    "id": "wd-0767",
+    "title": "Leon Flutter Sleeve Dress",
+    "slug": "leon-flutter-sleeve-dress-wd-767",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/70757.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -5967,23 +23931,205 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-268"
+    "sku": "WST-WD-0767"
   },
   {
-    "id": "wd-169",
+    "id": "wd-0768",
+    "title": "Willow Flutter Sleeve Dress",
+    "slug": "willow-flutter-sleeve-dress-wd-168-wd-768",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/70758.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Leon Flutter Sleeve Dress (WST-WD-268) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Modal Satin Blend, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0768"
+  },
+  {
+    "id": "wd-0769",
+    "title": "Diana Eyelet Flutter Sleeve Dress",
+    "slug": "diana-eyelet-flutter-sleeve-dress-wd-168-wd-769",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772121145.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Eyelet Flutter Sleeve Dress (WST-WD-832) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0769"
+  },
+  {
+    "id": "wd-0770",
+    "title": "Tara Eyelet Flutter Sleeve Dress",
+    "slug": "tara-eyelet-flutter-sleeve-dress-wd-168-b-wd-770",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772125783.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Eyelet Flutter Sleeve Dress (WST-WD-832) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0770"
+  },
+  {
+    "id": "wd-0771",
+    "title": "Kira Eyelet Flutter Sleeve Dress",
+    "slug": "kira-eyelet-flutter-sleeve-dress-wd-168-b-wd-771",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772128137.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Eyelet Flutter Sleeve Dress (WST-WD-832) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0771"
+  },
+  {
+    "id": "wd-0772",
+    "title": "Saffron Eyelet Flutter Sleeve Dress",
+    "slug": "saffron-eyelet-flutter-sleeve-dress-wd-168-b-wd-772",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772130401.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Eyelet Flutter Sleeve Dress (WST-WD-832) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0772"
+  },
+  {
+    "id": "wd-0773",
+    "title": "Hazel Eyelet Flutter Sleeve Dress",
+    "slug": "hazel-eyelet-flutter-sleeve-dress-wd-168-b-wd-773",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772133882.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Diana Eyelet Flutter Sleeve Dress (WST-WD-832) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Modal Satin Blend, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Modal Satin Blend",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0773"
+  },
+  {
+    "id": "wd-0774",
     "title": "Burgos Strapless Column Dress",
-    "slug": "burgos-strapless-column-dress-169",
+    "slug": "burgos-strapless-column-dress-wd-774",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/FB_IMG_1765772137336.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772187012.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772191648.jpg.jpeg"
+      "/western-dresses/FB_IMG_1765772137336.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -6002,12 +24148,106 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-269"
+    "sku": "WST-WD-0774"
   },
   {
-    "id": "wd-170",
+    "id": "wd-0775",
+    "title": "Kira Strapless Column Dress",
+    "slug": "kira-strapless-column-dress-wd-169-wd-775",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772140613.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Burgos Strapless Column Dress (WST-WD-269) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0775"
+  },
+  {
+    "id": "wd-0776",
+    "title": "Giselle A-Line Tiered Resort Dress",
+    "slug": "giselle-a-line-tiered-resort-dress-wd-169-wd-776",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772187012.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle A-Line Tiered Resort Dress (WST-WD-833) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0776"
+  },
+  {
+    "id": "wd-0777",
+    "title": "Saffron A-Line Tiered Resort Dress",
+    "slug": "saffron-a-line-tiered-resort-dress-wd-169-b-wd-777",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772191648.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Giselle A-Line Tiered Resort Dress (WST-WD-833) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Lustrous Crepe Silk, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0777"
+  },
+  {
+    "id": "wd-0778",
     "title": "Segovia Cutout Halter Dress",
-    "slug": "segovia-cutout-halter-dress-170",
+    "slug": "segovia-cutout-halter-dress-wd-778",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -6037,21 +24277,81 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible wholesale packaging & hanger packs"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-270"
+    "sku": "WST-WD-0778"
   },
   {
-    "id": "wd-171",
+    "id": "wd-0779",
     "title": "Avila Draped Column Dress",
-    "slug": "avila-draped-column-dress-171",
+    "slug": "avila-draped-column-dress-wd-779",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772406910.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Avila Draped Column Dress (WST-WD-271) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0779"
+  },
+  {
+    "id": "wd-0780",
+    "title": "Nadia Draped Column Dress",
+    "slug": "nadia-draped-column-dress-wd-171-wd-780",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/FB_IMG_1765772409459.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772412140.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772412140.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Avila Draped Column Dress (WST-WD-271) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Breathable Cotton Voile, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Breathable Cotton Voile",
+    "details": [
+      "Breathable double-lined bodice for modest coverage",
+      "High tensile tear-resistant stitching",
+      "Export compliance with EU/US textile safety norms",
+      "Custom colorways available on 100+ pcs bulk orders"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0780"
+  },
+  {
+    "id": "wd-0781",
+    "title": "Piper Draped Column Dress",
+    "slug": "piper-draped-column-dress-wd-171-wd-781",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/FB_IMG_1765772417000.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772420306.jpg.jpeg"
     ],
@@ -6072,12 +24372,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom colorways available on 100+ pcs bulk orders"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-271"
+    "sku": "WST-WD-0781"
   },
   {
-    "id": "wd-172",
+    "id": "wd-0782",
     "title": "Caceres Sweetheart Flare Dress",
-    "slug": "caceres-sweetheart-flare-dress-172",
+    "slug": "caceres-sweetheart-flare-dress-wd-782",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -6085,12 +24385,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
-      "/western-dresses/FB_IMG_1781793223709.jpg.jpeg",
-      "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
-      "/western-dresses/FB_IMG_1781793227598.jpg.jpeg",
-      "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
-      "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
-      "/western-dresses/FB_IMG_1789315352815.jpg.jpeg"
+      "/western-dresses/FB_IMG_1781793223709.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -6109,22 +24404,84 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Worldwide DHL/FedEx courier & Sea cargo dispatch"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-272"
+    "sku": "WST-WD-0782"
   },
   {
-    "id": "wd-173",
+    "id": "wd-0783",
+    "title": "Piper Sweetheart Flare Dress",
+    "slug": "piper-sweetheart-flare-dress-wd-172-wd-783",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
+      "/western-dresses/FB_IMG_1781793227598.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Caceres Sweetheart Flare Dress (WST-WD-272) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Luxe Satin Georgette, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0783"
+  },
+  {
+    "id": "wd-0784",
+    "title": "Tessa Belted Linen Blend Dress",
+    "slug": "tessa-belted-linen-blend-dress-wd-172-wd-784",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
+      "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
+      "/western-dresses/FB_IMG_1789315352815.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Tessa Belted Linen Blend Dress (WST-WD-834) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Luxe Satin Georgette, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Luxe Satin Georgette",
+    "details": [
+      "Hand-cut and precision draped silhouette",
+      "Soft touch pre-shrunk fabric with vibrant fast colors",
+      "Complete size grading from XS to XXL",
+      "Worldwide DHL/FedEx courier & Sea cargo dispatch"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0784"
+  },
+  {
+    "id": "wd-0785",
     "title": "Merida Empire Waist Dress",
-    "slug": "merida-empire-waist-dress-173",
+    "slug": "merida-empire-waist-dress-wd-785",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/IMG_20251207_220600.jpg.jpeg",
-      "/western-dresses/IMG_20251207_220614.jpg.jpeg",
-      "/western-dresses/IMG_20251207_220627.jpg.jpeg",
-      "/western-dresses/IMG_20251207_220638.jpg.jpeg"
+      "/western-dresses/IMG_20251207_220600.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -6143,12 +24500,105 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Custom private label and packaging available"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-273"
+    "sku": "WST-WD-0785"
   },
   {
-    "id": "wd-174",
+    "id": "wd-0786",
+    "title": "Bianca Floral Embroidered Halter Dress",
+    "slug": "bianca-floral-embroidered-halter-dress-wd-173-wd-786",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/IMG_20251207_220614.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Bianca Floral Embroidered Halter Dress (WST-WD-835) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0786"
+  },
+  {
+    "id": "wd-0787",
+    "title": "Daphne Tiered Ruffle Maxi Dress",
+    "slug": "daphne-tiered-ruffle-maxi-dress-wd-173-wd-787",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/IMG_20251207_220627.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Daphne Tiered Ruffle Maxi Dress (WST-WD-836) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0787"
+  },
+  {
+    "id": "wd-0788",
+    "title": "Paloma Embroidered Cotton Shirtdress",
+    "slug": "paloma-embroidered-cotton-shirtdress-wd-173-wd-788",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/IMG_20251207_220638.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Paloma Embroidered Cotton Shirtdress (WST-WD-837) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Broderie Anglaise, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Broderie Anglaise",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Available in assorted size packs (XS-XXL)",
+      "Bulk MOQ: 20 pcs per style",
+      "Custom private label and packaging available"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0788"
+  },
+  {
+    "id": "wd-0789",
     "title": "Aria Yellow Embroidered Bohemian Notch-Neck Tunic Dress",
-    "slug": "aria-yellow-embroidered-bohemian-notch-neck-tunic-dress-174",
+    "slug": "aria-yellow-embroidered-bohemian-notch-neck-tunic-dress-wd-789",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -6175,12 +24625,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-274"
+    "sku": "WST-WD-0789"
   },
   {
-    "id": "wd-175",
+    "id": "wd-0790",
     "title": "Sienna Lime Green Bishop-Sleeve Embroidered Dress",
-    "slug": "sienna-lime-green-bishop-sleeve-embroidered-dress-175",
+    "slug": "sienna-lime-green-bishop-sleeve-embroidered-dress-wd-790",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -6188,7 +24638,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Lime Green Bishop-Sleeve Embroidered Dress (WST-WD-275) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0790"
+  },
+  {
+    "id": "wd-0791",
+    "title": "Giselle Lime Green Bishop-Sleeve Embroidered Dress",
+    "slug": "giselle-lime-green-bishop-sleeve-embroidered-dress-wd-175-wd-791",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA6020.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg"
     ],
@@ -6209,12 +24689,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-275"
+    "sku": "WST-WD-0791"
   },
   {
-    "id": "wd-176",
+    "id": "wd-0792",
     "title": "Zephyr Midnight Black & Crimson Lotus Print Midi Dress",
-    "slug": "zephyr-midnight-black-crimson-lotus-print-midi-dress-176",
+    "slug": "zephyr-midnight-black-crimson-lotus-print-midi-dress-wd-792",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -6222,7 +24702,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zephyr Midnight Black & Crimson Lotus Print Midi Dress (WST-WD-276) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0792"
+  },
+  {
+    "id": "wd-0793",
+    "title": "Tessa Midnight Black & Crimson Lotus Print Midi Dress",
+    "slug": "tessa-midnight-black-crimson-lotus-print-midi-dress-wd-176-wd-793",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg"
@@ -6244,12 +24754,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-276"
+    "sku": "WST-WD-0793"
   },
   {
-    "id": "wd-177",
+    "id": "wd-0794",
     "title": "Elena White Embroidered Peasant Balloon-Sleeve Dress",
-    "slug": "elena-white-embroidered-peasant-balloon-sleeve-dress-177",
+    "slug": "elena-white-embroidered-peasant-balloon-sleeve-dress-wd-794",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -6277,12 +24787,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-277"
+    "sku": "WST-WD-0794"
   },
   {
-    "id": "wd-178",
+    "id": "wd-0795",
     "title": "Kyoto Olive Green Tiered Smocked Sundress",
-    "slug": "kyoto-olive-green-tiered-smocked-sundress-178",
+    "slug": "kyoto-olive-green-tiered-smocked-sundress-wd-795",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -6312,12 +24822,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-278"
+    "sku": "WST-WD-0795"
   },
   {
-    "id": "wd-179",
+    "id": "wd-0796",
     "title": "Milan Minimalist Botanical Leaf Print Rayon Dress",
-    "slug": "milan-minimalist-botanical-leaf-print-rayon-dress-179",
+    "slug": "milan-minimalist-botanical-leaf-print-rayon-dress-wd-796",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -6347,12 +24857,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-279"
+    "sku": "WST-WD-0796"
   },
   {
-    "id": "wd-180",
+    "id": "wd-0797",
     "title": "Orion Ivory White Embroidered Peasant Mini Dress",
-    "slug": "orion-ivory-white-embroidered-peasant-mini-dress-180",
+    "slug": "orion-ivory-white-embroidered-peasant-mini-dress-wd-797",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -6378,12 +24888,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-280"
+    "sku": "WST-WD-0797"
   },
   {
-    "id": "wd-181",
+    "id": "wd-0798",
     "title": "Nova Sunset Pink & Gold Tie-Dye Collared Shirt Dress",
-    "slug": "nova-sunset-pink-gold-tie-dye-collared-shirt-dress-181",
+    "slug": "nova-sunset-pink-gold-tie-dye-collared-shirt-dress-wd-798",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -6413,12 +24923,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-281"
+    "sku": "WST-WD-0798"
   },
   {
-    "id": "wd-182",
+    "id": "wd-0799",
     "title": "Rowan White Tiered Bohemian Mini Dress with Black Threadwork",
-    "slug": "rowan-white-tiered-bohemian-mini-dress-with-black-threadwork-182",
+    "slug": "rowan-white-tiered-bohemian-mini-dress-with-black-threadwork-wd-799",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -6428,7 +24938,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Rowan White Tiered Bohemian Mini Dress with Black Threadwork (WST-WD-282) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Cotton 60:60 with Enzyme Soft Wash, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cotton 60:60 with Enzyme Soft Wash",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Cotton 60:60 with Enzyme Soft Wash",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0799"
+  },
+  {
+    "id": "wd-0800",
+    "title": "Aria White Tiered Bohemian Mini Dress with Black Threadwork",
+    "slug": "aria-white-tiered-bohemian-mini-dress-with-black-threadwork-wd-182-wd-800",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Export Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg"
     ],
     "sizes": [
@@ -6448,19 +24988,49 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-282"
+    "sku": "WST-WD-0800"
   },
   {
-    "id": "wd-183",
+    "id": "wd-0801",
     "title": "Zuri Black & White Graphic Tile Printed Sundress",
-    "slug": "zuri-black-white-graphic-tile-printed-sundress-183",
+    "slug": "zuri-black-white-graphic-tile-printed-sundress-wd-801",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zuri Black & White Graphic Tile Printed Sundress (WST-WD-283) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0801"
+  },
+  {
+    "id": "wd-0802",
+    "title": "Sienna Black & White Graphic Tile Printed Sundress",
+    "slug": "sienna-black-white-graphic-tile-printed-sundress-wd-183-wd-802",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg",
@@ -6483,12 +25053,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-283"
+    "sku": "WST-WD-0802"
   },
   {
-    "id": "wd-184",
+    "id": "wd-0803",
     "title": "Elysia Sage Green Halter Backless Tiered Maxi Dress",
-    "slug": "elysia-sage-green-halter-backless-tiered-maxi-dress-184",
+    "slug": "elysia-sage-green-halter-backless-tiered-maxi-dress-wd-803",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -6497,7 +25067,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elysia Sage Green Halter Backless Tiered Maxi Dress (WST-WD-284) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0803"
+  },
+  {
+    "id": "wd-0804",
+    "title": "Elena Sage Green Halter Backless Tiered Maxi Dress",
+    "slug": "elena-sage-green-halter-backless-tiered-maxi-dress-wd-184-wd-804",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg"
     ],
@@ -6518,12 +25118,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-284"
+    "sku": "WST-WD-0804"
   },
   {
-    "id": "wd-185",
+    "id": "wd-0805",
     "title": "Vesper Grey & Coral Floral Gathered Midi Dress",
-    "slug": "vesper-grey-coral-floral-gathered-midi-dress-185",
+    "slug": "vesper-grey-coral-floral-gathered-midi-dress-wd-805",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -6553,12 +25153,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-285"
+    "sku": "WST-WD-0805"
   },
   {
-    "id": "wd-186",
+    "id": "wd-0806",
     "title": "Astrid Crimson Red Kashmiri Embroidered Tunic Dress",
-    "slug": "astrid-crimson-red-kashmiri-embroidered-tunic-dress-186",
+    "slug": "astrid-crimson-red-kashmiri-embroidered-tunic-dress-wd-806",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -6585,12 +25185,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-286"
+    "sku": "WST-WD-0806"
   },
   {
-    "id": "wd-187",
+    "id": "wd-0807",
     "title": "Terra Red Printed Bohemian Summer Sundress",
-    "slug": "terra-red-printed-bohemian-summer-sundress-187",
+    "slug": "terra-red-printed-bohemian-summer-sundress-wd-807",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -6600,7 +25200,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Terra Red Printed Bohemian Summer Sundress (WST-WD-287) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Fine Cotton Voile with Artisanal Hand-Dyed Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Fine Cotton Voile with Artisanal Hand-Dyed Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0807"
+  },
+  {
+    "id": "wd-0808",
+    "title": "Chloe Red Printed Bohemian Summer Sundress",
+    "slug": "chloe-red-printed-bohemian-summer-sundress-wd-187-wd-808",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Trending Style",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg"
     ],
     "sizes": [
@@ -6620,12 +25250,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-287"
+    "sku": "WST-WD-0808"
   },
   {
-    "id": "wd-188",
+    "id": "wd-0809",
     "title": "Luxe White Poppy Embroidered Linen A-Line Dress",
-    "slug": "luxe-white-poppy-embroidered-linen-a-line-dress-188",
+    "slug": "luxe-white-poppy-embroidered-linen-a-line-dress-wd-809",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -6651,12 +25281,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-288"
+    "sku": "WST-WD-0809"
   },
   {
-    "id": "wd-189",
+    "id": "wd-0810",
     "title": "Solstice Turquoise Shibori Tie-Dye Halter Sundress",
-    "slug": "solstice-turquoise-shibori-tie-dye-halter-sundress-189",
+    "slug": "solstice-turquoise-shibori-tie-dye-halter-sundress-wd-810",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -6684,12 +25314,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-289"
+    "sku": "WST-WD-0810"
   },
   {
-    "id": "wd-190",
+    "id": "wd-0811",
     "title": "Blakely Royal Blue Hand-Dyed Tunic Dress",
-    "slug": "blakely-royal-blue-hand-dyed-tunic-dress-190",
+    "slug": "blakely-royal-blue-hand-dyed-tunic-dress-wd-811",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -6719,12 +25349,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-290"
+    "sku": "WST-WD-0811"
   },
   {
-    "id": "wd-191",
+    "id": "wd-0812",
     "title": "Emerson Cobalt Blue Shibori Halter Sundress",
-    "slug": "emerson-cobalt-blue-shibori-halter-sundress-191",
+    "slug": "emerson-cobalt-blue-shibori-halter-sundress-wd-812",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -6754,12 +25384,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-291"
+    "sku": "WST-WD-0812"
   },
   {
-    "id": "wd-192",
+    "id": "wd-0813",
     "title": "Oslo Cream & Emerald Floral Embroidered Dress",
-    "slug": "oslo-cream-emerald-floral-embroidered-dress-192",
+    "slug": "oslo-cream-emerald-floral-embroidered-dress-wd-813",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -6786,12 +25416,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-292"
+    "sku": "WST-WD-0813"
   },
   {
-    "id": "wd-193",
+    "id": "wd-0814",
     "title": "Vance Golden Amber Tie-Dye Casual Dress",
-    "slug": "vance-golden-amber-tie-dye-casual-dress-193",
+    "slug": "vance-golden-amber-tie-dye-casual-dress-wd-814",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -6800,7 +25430,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA1689.jpg (1).jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vance Golden Amber Tie-Dye Casual Dress (WST-WD-293) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Belgian Linen Slub with Pre-Shrunk Finish, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Belgian Linen Slub with Pre-Shrunk Finish",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Belgian Linen Slub with Pre-Shrunk Finish",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0814"
+  },
+  {
+    "id": "wd-0815",
+    "title": "Nova Golden Amber Tie-Dye Casual Dress",
+    "slug": "nova-golden-amber-tie-dye-casual-dress-wd-193-wd-815",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg"
     ],
@@ -6821,12 +25481,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-293"
+    "sku": "WST-WD-0815"
   },
   {
-    "id": "wd-194",
+    "id": "wd-0816",
     "title": "Reese Black & White Peacock Motif Flared Sundress",
-    "slug": "reese-black-white-peacock-motif-flared-sundress-194",
+    "slug": "reese-black-white-peacock-motif-flared-sundress-wd-816",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -6853,12 +25513,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-294"
+    "sku": "WST-WD-0816"
   },
   {
-    "id": "wd-195",
+    "id": "wd-0817",
     "title": "Cruz Royal Navy Angrakha Wrap Flared Dress",
-    "slug": "cruz-royal-navy-angrakha-wrap-flared-dress-195",
+    "slug": "cruz-royal-navy-angrakha-wrap-flared-dress-wd-817",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -6885,21 +25545,111 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-295"
+    "sku": "WST-WD-0817"
   },
   {
-    "id": "wd-196",
+    "id": "wd-0818",
     "title": "Harlow Rich Maroon & Golden Ombre Tiered Maxi Dress",
-    "slug": "harlow-rich-maroon-golden-ombre-tiered-maxi-dress-196",
+    "slug": "harlow-rich-maroon-golden-ombre-tiered-maxi-dress-wd-818",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Harlow Rich Maroon & Golden Ombre Tiered Maxi Dress (WST-WD-296) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0818"
+  },
+  {
+    "id": "wd-0819",
+    "title": "Zoe Rich Maroon & Golden Ombre Tiered Maxi Dress",
+    "slug": "zoe-rich-maroon-golden-ombre-tiered-maxi-dress-wd-196-wd-819",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Harlow Rich Maroon & Golden Ombre Tiered Maxi Dress (WST-WD-296) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0819"
+  },
+  {
+    "id": "wd-0820",
+    "title": "Lyra Rich Maroon & Golden Ombre Tiered Maxi Dress",
+    "slug": "lyra-rich-maroon-golden-ombre-tiered-maxi-dress-wd-196-wd-820",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Harlow Rich Maroon & Golden Ombre Tiered Maxi Dress (WST-WD-296) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Pure Mulmul Cotton with Slub Texture, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Mulmul Cotton with Slub Texture",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Pure Mulmul Cotton with Slub Texture",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0820"
+  },
+  {
+    "id": "wd-0821",
+    "title": "Stella Rich Maroon & Golden Ombre Tiered Maxi Dress",
+    "slug": "stella-rich-maroon-golden-ombre-tiered-maxi-dress-wd-196-wd-821",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Collection",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg"
     ],
@@ -6920,12 +25670,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-296"
+    "sku": "WST-WD-0821"
   },
   {
-    "id": "wd-197",
+    "id": "wd-0822",
     "title": "Kenzo Crimson Micro-Print Bohemian Dress",
-    "slug": "kenzo-crimson-micro-print-bohemian-dress-197",
+    "slug": "kenzo-crimson-micro-print-bohemian-dress-wd-822",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -6933,7 +25683,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kenzo Crimson Micro-Print Bohemian Dress (WST-WD-297) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0822"
+  },
+  {
+    "id": "wd-0823",
+    "title": "Lyra Crimson Micro-Print Bohemian Dress",
+    "slug": "lyra-crimson-micro-print-bohemian-dress-wd-197-wd-823",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg"
     ],
     "sizes": [
@@ -6953,12 +25733,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-297"
+    "sku": "WST-WD-0823"
   },
   {
-    "id": "wd-198",
+    "id": "wd-0824",
     "title": "Sage Turquoise & Amber Tie-Dye Shirt Dress",
-    "slug": "sage-turquoise-amber-tie-dye-shirt-dress-198",
+    "slug": "sage-turquoise-amber-tie-dye-shirt-dress-wd-824",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -6988,12 +25768,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-298"
+    "sku": "WST-WD-0824"
   },
   {
-    "id": "wd-199",
+    "id": "wd-0825",
     "title": "Dallas Sage Green Tunic Dress with Magenta Threadwork",
-    "slug": "dallas-sage-green-tunic-dress-with-magenta-threadwork-199",
+    "slug": "dallas-sage-green-tunic-dress-with-magenta-threadwork-wd-825",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -7022,12 +25802,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-299"
+    "sku": "WST-WD-0825"
   },
   {
-    "id": "wd-200",
+    "id": "wd-0826",
     "title": "Nico Black Graphic Abstract Floral Midi Dress",
-    "slug": "nico-black-graphic-abstract-floral-midi-dress-200",
+    "slug": "nico-black-graphic-abstract-floral-midi-dress-wd-826",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -7053,12 +25833,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-300"
+    "sku": "WST-WD-0826"
   },
   {
-    "id": "wd-201",
+    "id": "wd-0827",
     "title": "Indie Hot Pink Embroidered Notch-Neck Sundress",
-    "slug": "indie-hot-pink-embroidered-notch-neck-sundress-201",
+    "slug": "indie-hot-pink-embroidered-notch-neck-sundress-wd-827",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -7085,12 +25865,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-301"
+    "sku": "WST-WD-0827"
   },
   {
-    "id": "wd-202",
+    "id": "wd-0828",
     "title": "Marlow Imperial Purple Bohemian Tiered Sundress",
-    "slug": "marlow-imperial-purple-bohemian-tiered-sundress-202",
+    "slug": "marlow-imperial-purple-bohemian-tiered-sundress-wd-828",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -7116,12 +25896,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-302"
+    "sku": "WST-WD-0828"
   },
   {
-    "id": "wd-203",
+    "id": "wd-0829",
     "title": "Bodhi Multi-Color Rainbow Tie-Dye Sundress",
-    "slug": "bodhi-multi-color-rainbow-tie-dye-sundress-203",
+    "slug": "bodhi-multi-color-rainbow-tie-dye-sundress-wd-829",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -7147,12 +25927,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-303"
+    "sku": "WST-WD-0829"
   },
   {
-    "id": "wd-204",
+    "id": "wd-0830",
     "title": "Sora Earthy Brown Smocked Bodice Flared Dress",
-    "slug": "sora-earthy-brown-smocked-bodice-flared-dress-204",
+    "slug": "sora-earthy-brown-smocked-bodice-flared-dress-wd-830",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -7178,19 +25958,49 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-304"
+    "sku": "WST-WD-0830"
   },
   {
-    "id": "wd-205",
+    "id": "wd-0831",
     "title": "Remi Olive Green Botanical Print Midi Dress",
-    "slug": "remi-olive-green-botanical-print-midi-dress-205",
+    "slug": "remi-olive-green-botanical-print-midi-dress-wd-831",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Remi Olive Green Botanical Print Midi Dress (WST-WD-305) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0831"
+  },
+  {
+    "id": "wd-0832",
+    "title": "Saffron Olive Green Botanical Print Midi Dress",
+    "slug": "saffron-olive-green-botanical-print-midi-dress-wd-205-wd-832",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
     ],
@@ -7211,12 +26021,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-305"
+    "sku": "WST-WD-0832"
   },
   {
-    "id": "wd-206",
+    "id": "wd-0833",
     "title": "Eden Grey Sand Abstract Batik Print Dress",
-    "slug": "eden-grey-sand-abstract-batik-print-dress-206",
+    "slug": "eden-grey-sand-abstract-batik-print-dress-wd-833",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -7246,12 +26056,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-306"
+    "sku": "WST-WD-0833"
   },
   {
-    "id": "wd-207",
+    "id": "wd-0834",
     "title": "Atlas Indigo Navy Tie-Dye Tunic Dress",
-    "slug": "atlas-indigo-navy-tie-dye-tunic-dress-207",
+    "slug": "atlas-indigo-navy-tie-dye-tunic-dress-wd-834",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -7277,12 +26087,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-307"
+    "sku": "WST-WD-0834"
   },
   {
-    "id": "wd-208",
+    "id": "wd-0835",
     "title": "Juno Cobalt Blue Shibori Checkered Midi Dress",
-    "slug": "juno-cobalt-blue-shibori-checkered-midi-dress-208",
+    "slug": "juno-cobalt-blue-shibori-checkered-midi-dress-wd-835",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -7310,12 +26120,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-308"
+    "sku": "WST-WD-0835"
   },
   {
-    "id": "wd-209",
+    "id": "wd-0836",
     "title": "Phoenix Amber Ochre Printed Cap-Sleeve Dress",
-    "slug": "phoenix-amber-ochre-printed-cap-sleeve-dress-209",
+    "slug": "phoenix-amber-ochre-printed-cap-sleeve-dress-wd-836",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -7342,12 +26152,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-309"
+    "sku": "WST-WD-0836"
   },
   {
-    "id": "wd-210",
+    "id": "wd-0837",
     "title": "Lennon Royal Blue Embroidered V-Neck Tunic Dress",
-    "slug": "lennon-royal-blue-embroidered-v-neck-tunic-dress-210",
+    "slug": "lennon-royal-blue-embroidered-v-neck-tunic-dress-wd-837",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -7373,12 +26183,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-310"
+    "sku": "WST-WD-0837"
   },
   {
-    "id": "wd-211",
+    "id": "wd-0838",
     "title": "Cairo Dusty Peach Tiered Ruffle Mini Dress",
-    "slug": "cairo-dusty-peach-tiered-ruffle-mini-dress-211",
+    "slug": "cairo-dusty-peach-tiered-ruffle-mini-dress-wd-838",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -7405,12 +26215,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-311"
+    "sku": "WST-WD-0838"
   },
   {
-    "id": "wd-212",
+    "id": "wd-0839",
     "title": "Milo Warm Rust Embroidered Bohemian Tiered Dress",
-    "slug": "milo-warm-rust-embroidered-bohemian-tiered-dress-212",
+    "slug": "milo-warm-rust-embroidered-bohemian-tiered-dress-wd-839",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -7437,20 +26247,80 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-312"
+    "sku": "WST-WD-0839"
   },
   {
-    "id": "wd-213",
+    "id": "wd-0840",
     "title": "Shiloh White Embroidered Tassel-Tie Boho Mini Dress",
-    "slug": "shiloh-white-embroidered-tassel-tie-boho-mini-dress-213",
+    "slug": "shiloh-white-embroidered-tassel-tie-boho-mini-dress-wd-840",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Shiloh White Embroidered Tassel-Tie Boho Mini Dress (WST-WD-313) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0840"
+  },
+  {
+    "id": "wd-0841",
+    "title": "Camille White Embroidered Tassel-Tie Boho Mini Dress",
+    "slug": "camille-white-embroidered-tassel-tie-boho-mini-dress-wd-213-wd-841",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Shiloh White Embroidered Tassel-Tie Boho Mini Dress (WST-WD-313) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0841"
+  },
+  {
+    "id": "wd-0842",
+    "title": "Diana White Embroidered Tassel-Tie Boho Mini Dress",
+    "slug": "diana-white-embroidered-tassel-tie-boho-mini-dress-wd-213-wd-842",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
     ],
     "sizes": [
@@ -7470,12 +26340,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-313"
+    "sku": "WST-WD-0842"
   },
   {
-    "id": "wd-214",
+    "id": "wd-0843",
     "title": "Jasper Multi-Pattern Smocked Bodice Midi Dress",
-    "slug": "jasper-multi-pattern-smocked-bodice-midi-dress-214",
+    "slug": "jasper-multi-pattern-smocked-bodice-midi-dress-wd-843",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -7504,12 +26374,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-314"
+    "sku": "WST-WD-0843"
   },
   {
-    "id": "wd-215",
+    "id": "wd-0844",
     "title": "Dune Cream Embroidered Victorian Long-Sleeve Dress",
-    "slug": "dune-cream-embroidered-victorian-long-sleeve-dress-215",
+    "slug": "dune-cream-embroidered-victorian-long-sleeve-dress-wd-844",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -7538,12 +26408,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-315"
+    "sku": "WST-WD-0844"
   },
   {
-    "id": "wd-216",
+    "id": "wd-0845",
     "title": "River Ocean Blue Printed Sheath Midi Dress",
-    "slug": "river-ocean-blue-printed-sheath-midi-dress-216",
+    "slug": "river-ocean-blue-printed-sheath-midi-dress-wd-845",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -7569,12 +26439,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-316"
+    "sku": "WST-WD-0845"
   },
   {
-    "id": "wd-217",
+    "id": "wd-0846",
     "title": "Zenith Amethyst Purple Paisley Print Maxi Dress",
-    "slug": "zenith-amethyst-purple-paisley-print-maxi-dress-217",
+    "slug": "zenith-amethyst-purple-paisley-print-maxi-dress-wd-846",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -7600,12 +26470,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-317"
+    "sku": "WST-WD-0846"
   },
   {
-    "id": "wd-218",
+    "id": "wd-0847",
     "title": "Aura Indigo Tie-Dye A-Line Casual Dress",
-    "slug": "aura-indigo-tie-dye-a-line-casual-dress-218",
+    "slug": "aura-indigo-tie-dye-a-line-casual-dress-wd-847",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -7632,12 +26502,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-318"
+    "sku": "WST-WD-0847"
   },
   {
-    "id": "wd-219",
+    "id": "wd-0848",
     "title": "Coralie Coral Pink Tiered Summer Sundress",
-    "slug": "coralie-coral-pink-tiered-summer-sundress-219",
+    "slug": "coralie-coral-pink-tiered-summer-sundress-wd-848",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -7663,12 +26533,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-319"
+    "sku": "WST-WD-0848"
   },
   {
-    "id": "wd-220",
+    "id": "wd-0849",
     "title": "Breezy Seafoam Linen Slub Midi Dress",
-    "slug": "breezy-seafoam-linen-slub-midi-dress-220",
+    "slug": "breezy-seafoam-linen-slub-midi-dress-wd-849",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -7695,12 +26565,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-320"
+    "sku": "WST-WD-0849"
   },
   {
-    "id": "wd-221",
+    "id": "wd-0850",
     "title": "Karisma Hand-Dyed Cotton Voile Shirt Dress",
-    "slug": "karisma-hand-dyed-cotton-voile-shirt-dress-221",
+    "slug": "karisma-hand-dyed-cotton-voile-shirt-dress-wd-850",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -7726,12 +26596,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-321"
+    "sku": "WST-WD-0850"
   },
   {
-    "id": "wd-222",
+    "id": "wd-0851",
     "title": "Melina Floral Embroidered Georgette Sundress",
-    "slug": "melina-floral-embroidered-georgette-sundress-222",
+    "slug": "melina-floral-embroidered-georgette-sundress-wd-851",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -7757,12 +26627,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-322"
+    "sku": "WST-WD-0851"
   },
   {
-    "id": "wd-223",
+    "id": "wd-0852",
     "title": "Nalani Bohemian Printed Cotton Maxi Dress",
-    "slug": "nalani-bohemian-printed-cotton-maxi-dress-223",
+    "slug": "nalani-bohemian-printed-cotton-maxi-dress-wd-852",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -7789,12 +26659,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-323"
+    "sku": "WST-WD-0852"
   },
   {
-    "id": "wd-224",
+    "id": "wd-0853",
     "title": "Saffron Embroidered Folk Tunic Dress",
-    "slug": "saffron-embroidered-folk-tunic-dress-224",
+    "slug": "saffron-embroidered-folk-tunic-dress-wd-853",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -7820,12 +26690,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-324"
+    "sku": "WST-WD-0853"
   },
   {
-    "id": "wd-225",
+    "id": "wd-0854",
     "title": "Verona Tiered Smocked Rayon Midi Dress",
-    "slug": "verona-tiered-smocked-rayon-midi-dress-225",
+    "slug": "verona-tiered-smocked-rayon-midi-dress-wd-854",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -7851,12 +26721,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-325"
+    "sku": "WST-WD-0854"
   },
   {
-    "id": "wd-226",
+    "id": "wd-0855",
     "title": "Zahara Moroccan Tile Print Slip Dress",
-    "slug": "zahara-moroccan-tile-print-slip-dress-226",
+    "slug": "zahara-moroccan-tile-print-slip-dress-wd-855",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -7882,12 +26752,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-326"
+    "sku": "WST-WD-0855"
   },
   {
-    "id": "wd-227",
+    "id": "wd-0856",
     "title": "Amira Vintage Washed Linen Sundress",
-    "slug": "amira-vintage-washed-linen-sundress-227",
+    "slug": "amira-vintage-washed-linen-sundress-wd-856",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -7913,12 +26783,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-327"
+    "sku": "WST-WD-0856"
   },
   {
-    "id": "wd-228",
+    "id": "wd-0857",
     "title": "Belle Blue Shibori Flared Midi Dress",
-    "slug": "belle-blue-shibori-flared-midi-dress-228",
+    "slug": "belle-blue-shibori-flared-midi-dress-wd-857",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -7944,12 +26814,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-328"
+    "sku": "WST-WD-0857"
   },
   {
-    "id": "wd-229",
+    "id": "wd-0858",
     "title": "Calla Ivory Cutwork Cotton Mini Dress",
-    "slug": "calla-ivory-cutwork-cotton-mini-dress-229",
+    "slug": "calla-ivory-cutwork-cotton-mini-dress-wd-858",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -7977,12 +26847,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-329"
+    "sku": "WST-WD-0858"
   },
   {
-    "id": "wd-230",
+    "id": "wd-0859",
     "title": "Delphine Sage Botanical Print Shift Dress",
-    "slug": "delphine-sage-botanical-print-shift-dress-230",
+    "slug": "delphine-sage-botanical-print-shift-dress-wd-859",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -8009,19 +26879,49 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-330"
+    "sku": "WST-WD-0859"
   },
   {
-    "id": "wd-231",
+    "id": "wd-0860",
     "title": "Evie Rust Orange Smocked Bohemian Dress",
-    "slug": "evie-rust-orange-smocked-bohemian-dress-231",
+    "slug": "evie-rust-orange-smocked-bohemian-dress-wd-860",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Evie Rust Orange Smocked Bohemian Dress (WST-WD-331) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Premium Viscose Rayon with Breathable Drape, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Premium Viscose Rayon with Breathable Drape",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Premium Viscose Rayon with Breathable Drape",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0860"
+  },
+  {
+    "id": "wd-0861",
+    "title": "Zara Rust Orange Smocked Bohemian Dress",
+    "slug": "zara-rust-orange-smocked-bohemian-dress-wd-231-wd-861",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Wholesale Only",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg"
     ],
     "sizes": [
@@ -8041,12 +26941,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-331"
+    "sku": "WST-WD-0861"
   },
   {
-    "id": "wd-232",
+    "id": "wd-0862",
     "title": "Fleur Pastel Floral Georgette Tiered Dress",
-    "slug": "fleur-pastel-floral-georgette-tiered-dress-232",
+    "slug": "fleur-pastel-floral-georgette-tiered-dress-wd-862",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -8073,12 +26973,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-332"
+    "sku": "WST-WD-0862"
   },
   {
-    "id": "wd-233",
+    "id": "wd-0863",
     "title": "Gia Aztec Pattern Linen Blend Dress",
-    "slug": "gia-aztec-pattern-linen-blend-dress-233",
+    "slug": "gia-aztec-pattern-linen-blend-dress-wd-863",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -8104,12 +27004,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-333"
+    "sku": "WST-WD-0863"
   },
   {
-    "id": "wd-234",
+    "id": "wd-0864",
     "title": "Haven Smocked Yoke Cotton Sundress",
-    "slug": "haven-smocked-yoke-cotton-sundress-234",
+    "slug": "haven-smocked-yoke-cotton-sundress-wd-864",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -8139,12 +27039,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-334"
+    "sku": "WST-WD-0864"
   },
   {
-    "id": "wd-235",
+    "id": "wd-0865",
     "title": "Iris Cobalt Blue Hand-Block Print Dress",
-    "slug": "iris-cobalt-blue-hand-block-print-dress-235",
+    "slug": "iris-cobalt-blue-hand-block-print-dress-wd-865",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -8171,12 +27071,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-335"
+    "sku": "WST-WD-0865"
   },
   {
-    "id": "wd-236",
+    "id": "wd-0866",
     "title": "Joli Sunflower Yellow Embroidered Tunic Dress",
-    "slug": "joli-sunflower-yellow-embroidered-tunic-dress-236",
+    "slug": "joli-sunflower-yellow-embroidered-tunic-dress-wd-866",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -8202,12 +27102,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-336"
+    "sku": "WST-WD-0866"
   },
   {
-    "id": "wd-237",
+    "id": "wd-0867",
     "title": "Kiran Royal Navy Printed Shirt Dress",
-    "slug": "kiran-royal-navy-printed-shirt-dress-237",
+    "slug": "kiran-royal-navy-printed-shirt-dress-wd-867",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -8215,8 +27115,68 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kiran Royal Navy Printed Shirt Dress (WST-WD-337) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0867"
+  },
+  {
+    "id": "wd-0868",
+    "title": "Lyra Royal Navy Printed Shirt Dress",
+    "slug": "lyra-royal-navy-printed-shirt-dress-wd-237-wd-868",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kiran Royal Navy Printed Shirt Dress (WST-WD-337) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Cambric Cotton with Reinforced Seam Construction, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Cambric Cotton with Reinforced Seam Construction",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Cambric Cotton with Reinforced Seam Construction",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0868"
+  },
+  {
+    "id": "wd-0869",
+    "title": "Stella Royal Navy Printed Shirt Dress",
+    "slug": "stella-royal-navy-printed-shirt-dress-wd-237-wd-869",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Fast Seller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
     ],
@@ -8237,12 +27197,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-337"
+    "sku": "WST-WD-0869"
   },
   {
-    "id": "wd-238",
+    "id": "wd-0870",
     "title": "Lila Lavender Tiered Flared Maxi Dress",
-    "slug": "lila-lavender-tiered-flared-maxi-dress-238",
+    "slug": "lila-lavender-tiered-flared-maxi-dress-wd-870",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -8268,12 +27228,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-338"
+    "sku": "WST-WD-0870"
   },
   {
-    "id": "wd-239",
+    "id": "wd-0871",
     "title": "Mira Bohemian Folk Embroidered Dress",
-    "slug": "mira-bohemian-folk-embroidered-dress-239",
+    "slug": "mira-bohemian-folk-embroidered-dress-wd-871",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -8299,12 +27259,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-339"
+    "sku": "WST-WD-0871"
   },
   {
-    "id": "wd-240",
+    "id": "wd-0872",
     "title": "Nadia Golden Mustard Linen Sundress",
-    "slug": "nadia-golden-mustard-linen-sundress-240",
+    "slug": "nadia-golden-mustard-linen-sundress-wd-872",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -8312,7 +27272,37 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     "salePrice": 0,
     "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Nadia Golden Mustard Linen Sundress (WST-WD-340) is an export-grade women's Western dress crafted for international boutiques, retailers, and private label brands. Built with Lustrous Crepe Silk with Micro-Pleat Details, it features an elegant tailored fit, premium lining, and reinforced seam work for global commercial distribution.",
+    "fabric": "Lustrous Crepe Silk with Micro-Pleat Details",
+    "details": [
+      "Export-grade precision stitching and hem finishing",
+      "Breathable, colorfast fabrication in Lustrous Crepe Silk with Micro-Pleat Details",
+      "Available in assorted size packs (XS-XXL)",
+      "Flexible B2B wholesale MOQ: 20 pcs per style"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0872"
+  },
+  {
+    "id": "wd-0873",
+    "title": "Cleo Golden Mustard Linen Sundress",
+    "slug": "cleo-golden-mustard-linen-sundress-wd-240-wd-873",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "New Design",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
       "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg"
     ],
     "sizes": [
@@ -8332,12 +27322,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-340"
+    "sku": "WST-WD-0873"
   },
   {
-    "id": "wd-241",
+    "id": "wd-0874",
     "title": "Opaline Pure Cotton Pintuck Tunic Dress",
-    "slug": "opaline-pure-cotton-pintuck-tunic-dress-241",
+    "slug": "opaline-pure-cotton-pintuck-tunic-dress-wd-874",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -8365,12 +27355,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-341"
+    "sku": "WST-WD-0874"
   },
   {
-    "id": "wd-242",
+    "id": "wd-0875",
     "title": "Paloma Vintage Indigo Wrap Midi Dress",
-    "slug": "paloma-vintage-indigo-wrap-midi-dress-242",
+    "slug": "paloma-vintage-indigo-wrap-midi-dress-wd-875",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -8397,12 +27387,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-342"
+    "sku": "WST-WD-0875"
   },
   {
-    "id": "wd-243",
+    "id": "wd-0876",
     "title": "Quinn Olive Drab Tiered Linen Dress",
-    "slug": "quinn-olive-drab-tiered-linen-dress-243",
+    "slug": "quinn-olive-drab-tiered-linen-dress-wd-876",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -8428,12 +27418,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-343"
+    "sku": "WST-WD-0876"
   },
   {
-    "id": "wd-244",
+    "id": "wd-0877",
     "title": "Raya Sunset Orange Embroidered Peasant Dress",
-    "slug": "raya-sunset-orange-embroidered-peasant-dress-244",
+    "slug": "raya-sunset-orange-embroidered-peasant-dress-wd-877",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -8459,12 +27449,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-344"
+    "sku": "WST-WD-0877"
   },
   {
-    "id": "wd-245",
+    "id": "wd-0878",
     "title": "Serena Multi-Stripe Cotton Voile Dress",
-    "slug": "serena-multi-stripe-cotton-voile-dress-245",
+    "slug": "serena-multi-stripe-cotton-voile-dress-wd-878",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -8490,12 +27480,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-345"
+    "sku": "WST-WD-0878"
   },
   {
-    "id": "wd-246",
+    "id": "wd-0879",
     "title": "Talia Floral Trellis Printed Slip Dress",
-    "slug": "talia-floral-trellis-printed-slip-dress-246",
+    "slug": "talia-floral-trellis-printed-slip-dress-wd-879",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -8521,12 +27511,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-346"
+    "sku": "WST-WD-0879"
   },
   {
-    "id": "wd-247",
+    "id": "wd-0880",
     "title": "Uma Dusty Cedar Smocked Midi Dress",
-    "slug": "uma-dusty-cedar-smocked-midi-dress-247",
+    "slug": "uma-dusty-cedar-smocked-midi-dress-wd-880",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -8554,12 +27544,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-347"
+    "sku": "WST-WD-0880"
   },
   {
-    "id": "wd-248",
+    "id": "wd-0881",
     "title": "Vida Emerald Tile Print Flared Dress",
-    "slug": "vida-emerald-tile-print-flared-dress-248",
+    "slug": "vida-emerald-tile-print-flared-dress-wd-881",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -8585,12 +27575,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-348"
+    "sku": "WST-WD-0881"
   },
   {
-    "id": "wd-249",
+    "id": "wd-0882",
     "title": "Wren Classic White Schiffli Lace Dress",
-    "slug": "wren-classic-white-schiffli-lace-dress-249",
+    "slug": "wren-classic-white-schiffli-lace-dress-wd-882",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -8616,12 +27606,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-349"
+    "sku": "WST-WD-0882"
   },
   {
-    "id": "wd-250",
+    "id": "wd-0883",
     "title": "Xanthe Terracotta Printed Bohemian Dress",
-    "slug": "xanthe-terracotta-printed-bohemian-dress-250",
+    "slug": "xanthe-terracotta-printed-bohemian-dress-wd-883",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -8648,12 +27638,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-350"
+    "sku": "WST-WD-0883"
   },
   {
-    "id": "wd-251",
+    "id": "wd-0884",
     "title": "Aria Yellow Embroidered Bohemian Notch-Neck Tunic Dress (Edition 2)",
-    "slug": "aria-yellow-embroidered-bohemian-notch-neck-tunic-dress-edition-2-251",
+    "slug": "aria-yellow-embroidered-bohemian-notch-neck-tunic-dress-edition-2-wd-884",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -8679,12 +27669,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-351"
+    "sku": "WST-WD-0884"
   },
   {
-    "id": "wd-252",
+    "id": "wd-0885",
     "title": "Sienna Lime Green Bishop-Sleeve Embroidered Dress (Edition 2)",
-    "slug": "sienna-lime-green-bishop-sleeve-embroidered-dress-edition-2-252",
+    "slug": "sienna-lime-green-bishop-sleeve-embroidered-dress-edition-2-wd-885",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Collection",
@@ -8710,12 +27700,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-352"
+    "sku": "WST-WD-0885"
   },
   {
-    "id": "wd-253",
+    "id": "wd-0886",
     "title": "Zephyr Midnight Black & Crimson Lotus Print Midi Dress (Edition 2)",
-    "slug": "zephyr-midnight-black-crimson-lotus-print-midi-dress-edition-2-253",
+    "slug": "zephyr-midnight-black-crimson-lotus-print-midi-dress-edition-2-wd-886",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Fast Seller",
@@ -8741,12 +27731,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-353"
+    "sku": "WST-WD-0886"
   },
   {
-    "id": "wd-254",
+    "id": "wd-0887",
     "title": "Elena White Embroidered Peasant Balloon-Sleeve Dress (Edition 2)",
-    "slug": "elena-white-embroidered-peasant-balloon-sleeve-dress-edition-2-254",
+    "slug": "elena-white-embroidered-peasant-balloon-sleeve-dress-edition-2-wd-887",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Export Bestseller",
@@ -8772,12 +27762,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-354"
+    "sku": "WST-WD-0887"
   },
   {
-    "id": "wd-255",
+    "id": "wd-0888",
     "title": "Kyoto Olive Green Tiered Smocked Sundress (Edition 2)",
-    "slug": "kyoto-olive-green-tiered-smocked-sundress-edition-2-255",
+    "slug": "kyoto-olive-green-tiered-smocked-sundress-edition-2-wd-888",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Wholesale Only",
@@ -8803,12 +27793,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-355"
+    "sku": "WST-WD-0888"
   },
   {
-    "id": "wd-256",
+    "id": "wd-0889",
     "title": "Milan Minimalist Botanical Leaf Print Rayon Dress (Edition 2)",
-    "slug": "milan-minimalist-botanical-leaf-print-rayon-dress-edition-2-256",
+    "slug": "milan-minimalist-botanical-leaf-print-rayon-dress-edition-2-wd-889",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "New Design",
@@ -8834,12 +27824,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-356"
+    "sku": "WST-WD-0889"
   },
   {
-    "id": "wd-257",
+    "id": "wd-0890",
     "title": "Orion Ivory White Embroidered Peasant Mini Dress (Edition 2)",
-    "slug": "orion-ivory-white-embroidered-peasant-mini-dress-edition-2-257",
+    "slug": "orion-ivory-white-embroidered-peasant-mini-dress-edition-2-wd-890",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
@@ -8865,12 +27855,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-357"
+    "sku": "WST-WD-0890"
   },
   {
-    "id": "wd-258",
+    "id": "wd-0891",
     "title": "Nova Sunset Pink & Gold Tie-Dye Collared Shirt Dress (Edition 2)",
-    "slug": "nova-sunset-pink-gold-tie-dye-collared-shirt-dress-edition-2-258",
+    "slug": "nova-sunset-pink-gold-tie-dye-collared-shirt-dress-edition-2-wd-891",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Edit",
@@ -8896,12 +27886,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-358"
+    "sku": "WST-WD-0891"
   },
   {
-    "id": "wd-259",
+    "id": "wd-0892",
     "title": "Rowan White Tiered Bohemian Mini Dress with Black Threadwork (Edition 2)",
-    "slug": "rowan-white-tiered-bohemian-mini-dress-with-black-threadwork-edition-2-259",
+    "slug": "rowan-white-tiered-bohemian-mini-dress-with-black-threadwork-edition-2-wd-892",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Trending Style",
@@ -8927,22 +27917,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "Flexible B2B wholesale MOQ: 20 pcs per style"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-359"
+    "sku": "WST-WD-0892"
   },
   {
-    "id": "wd-260",
+    "id": "wd-0893",
     "title": "Dusty Rose Floral Lace-Up Back Beach Sundress",
-    "slug": "dusty-rose-floral-lace-up-back-beach-sundress-260",
+    "slug": "dusty-rose-floral-lace-up-back-beach-sundress-wd-893",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Beach Resort",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg"
+      "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -8961,29 +27948,112 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "B2B Wholesale MOQ: 20 pcs per style / colorway"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-360"
+    "sku": "WST-WD-0893"
   },
   {
-    "id": "wd-261",
+    "id": "wd-0894",
+    "title": "Vivienne Smocked Flounce Midi Dress",
+    "slug": "vivienne-smocked-flounce-midi-dress-wd-260-wd-894",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Beach Resort",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Vivienne Smocked Flounce Midi Dress (WST-WD-838) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in 100% Breathable Cotton Slub with Floral Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "100% Breathable Cotton Slub with Floral Dye",
+    "details": [
+      "Crafted in 100% Breathable Cotton Slub with Floral Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0894"
+  },
+  {
+    "id": "wd-0895",
+    "title": "Layla Broderie Anglaise Sundress",
+    "slug": "layla-broderie-anglaise-sundress-wd-260-wd-895",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Beach Resort",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Layla Broderie Anglaise Sundress (WST-WD-839) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in 100% Breathable Cotton Slub with Floral Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "100% Breathable Cotton Slub with Floral Dye",
+    "details": [
+      "Crafted in 100% Breathable Cotton Slub with Floral Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0895"
+  },
+  {
+    "id": "wd-0896",
+    "title": "Serena Pleated Wrap Midi Dress",
+    "slug": "serena-pleated-wrap-midi-dress-wd-260-wd-896",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Beach Resort",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Serena Pleated Wrap Midi Dress (WST-WD-840) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in 100% Breathable Cotton Slub with Floral Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "100% Breathable Cotton Slub with Floral Dye",
+    "details": [
+      "Crafted in 100% Breathable Cotton Slub with Floral Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0896"
+  },
+  {
+    "id": "wd-0897",
     "title": "Riviera Turquoise Shibori Tie-Back Mini Sundress",
-    "slug": "riviera-turquoise-shibori-tie-back-mini-sundress-261",
+    "slug": "riviera-turquoise-shibori-tie-back-mini-sundress-wd-897",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Resort Edit",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg"
+      "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -9002,22 +28072,329 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "B2B Wholesale MOQ: 20 pcs per style / colorway"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-361"
+    "sku": "WST-WD-0897"
   },
   {
-    "id": "wd-262",
+    "id": "wd-0898",
+    "title": "Amara Lantern Sleeve Tunic Dress",
+    "slug": "amara-lantern-sleeve-tunic-dress-wd-261-wd-898",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Amara Lantern Sleeve Tunic Dress (WST-WD-841) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0898"
+  },
+  {
+    "id": "wd-0899",
+    "title": "Astrid Floral Pintuck Slip Dress",
+    "slug": "astrid-floral-pintuck-slip-dress-wd-261-wd-899",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Astrid Floral Pintuck Slip Dress (WST-WD-842) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0899"
+  },
+  {
+    "id": "wd-0900",
+    "title": "Gia Bohemian Peasant Tiered Dress",
+    "slug": "gia-bohemian-peasant-tiered-dress-wd-261-wd-900",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Gia Bohemian Peasant Tiered Dress (WST-WD-843) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0900"
+  },
+  {
+    "id": "wd-0901",
+    "title": "Sora Eyelet Flutter Sleeve Dress",
+    "slug": "sora-eyelet-flutter-sleeve-dress-wd-261-wd-901",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sora Eyelet Flutter Sleeve Dress (WST-WD-844) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0901"
+  },
+  {
+    "id": "wd-0902",
+    "title": "Noa A-Line Tiered Resort Dress",
+    "slug": "noa-a-line-tiered-resort-dress-wd-261-wd-902",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Noa A-Line Tiered Resort Dress (WST-WD-845) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0902"
+  },
+  {
+    "id": "wd-0903",
+    "title": "Lana Belted Linen Blend Dress",
+    "slug": "lana-belted-linen-blend-dress-wd-261-wd-903",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Lana Belted Linen Blend Dress (WST-WD-846) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0903"
+  },
+  {
+    "id": "wd-0904",
+    "title": "Kora Floral Embroidered Halter Dress",
+    "slug": "kora-floral-embroidered-halter-dress-wd-261-wd-904",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Kora Floral Embroidered Halter Dress (WST-WD-847) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0904"
+  },
+  {
+    "id": "wd-0905",
+    "title": "Mira Tiered Ruffle Maxi Dress",
+    "slug": "mira-tiered-ruffle-maxi-dress-wd-261-wd-905",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mira Tiered Ruffle Maxi Dress (WST-WD-848) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0905"
+  },
+  {
+    "id": "wd-0906",
+    "title": "Veda Embroidered Cotton Shirtdress",
+    "slug": "veda-embroidered-cotton-shirtdress-wd-261-wd-906",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Veda Embroidered Cotton Shirtdress (WST-WD-849) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0906"
+  },
+  {
+    "id": "wd-0907",
+    "title": "Aria Smocked Flounce Midi Dress",
+    "slug": "aria-smocked-flounce-midi-dress-wd-261-wd-907",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Resort Edit",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Aria Smocked Flounce Midi Dress (WST-WD-850) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Fine Rayon Slub with Indigo Batik Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Fine Rayon Slub with Indigo Batik Dye",
+    "details": [
+      "Crafted in Fine Rayon Slub with Indigo Batik Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0907"
+  },
+  {
+    "id": "wd-0908",
     "title": "Cerulean Blue Shibori Tie-Back Beach Mini Dress",
-    "slug": "cerulean-blue-shibori-tie-back-beach-mini-dress-262",
+    "slug": "cerulean-blue-shibori-tie-back-beach-mini-dress-wd-908",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Summer Bestseller",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg"
+      "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -9036,22 +28413,112 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "B2B Wholesale MOQ: 20 pcs per style / colorway"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-362"
+    "sku": "WST-WD-0908"
   },
   {
-    "id": "wd-263",
+    "id": "wd-0909",
+    "title": "Sienna Broderie Anglaise Sundress",
+    "slug": "sienna-broderie-anglaise-sundress-wd-262-wd-909",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Sienna Broderie Anglaise Sundress (WST-WD-851) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in 100% Lightweight Cotton Voile with Tie-Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "100% Lightweight Cotton Voile with Tie-Dye",
+    "details": [
+      "Crafted in 100% Lightweight Cotton Voile with Tie-Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0909"
+  },
+  {
+    "id": "wd-0910",
+    "title": "Elena Pleated Wrap Midi Dress",
+    "slug": "elena-pleated-wrap-midi-dress-wd-262-wd-910",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Elena Pleated Wrap Midi Dress (WST-WD-852) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in 100% Lightweight Cotton Voile with Tie-Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "100% Lightweight Cotton Voile with Tie-Dye",
+    "details": [
+      "Crafted in 100% Lightweight Cotton Voile with Tie-Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0910"
+  },
+  {
+    "id": "wd-0911",
+    "title": "Mila Lantern Sleeve Tunic Dress",
+    "slug": "mila-lantern-sleeve-tunic-dress-wd-262-wd-911",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Summer Bestseller",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Mila Lantern Sleeve Tunic Dress (WST-WD-853) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in 100% Lightweight Cotton Voile with Tie-Dye, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "100% Lightweight Cotton Voile with Tie-Dye",
+    "details": [
+      "Crafted in 100% Lightweight Cotton Voile with Tie-Dye",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0911"
+  },
+  {
+    "id": "wd-0912",
     "title": "Teal Sleeveless Embroidered A-Line Midi Dress",
-    "slug": "teal-sleeveless-embroidered-a-line-midi-dress-263",
+    "slug": "teal-sleeveless-embroidered-a-line-midi-dress-wd-912",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Boutique Exclusive",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg"
+      "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -9070,22 +28537,112 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "B2B Wholesale MOQ: 20 pcs per style / colorway"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-363"
+    "sku": "WST-WD-0912"
   },
   {
-    "id": "wd-264",
+    "id": "wd-0913",
+    "title": "Isla Floral Pintuck Slip Dress",
+    "slug": "isla-floral-pintuck-slip-dress-wd-263-wd-913",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Isla Floral Pintuck Slip Dress (WST-WD-854) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Slub Cotton Linen with Tone-on-Tone Resham Detailing, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+    "details": [
+      "Crafted in Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0913"
+  },
+  {
+    "id": "wd-0914",
+    "title": "Chloe Bohemian Peasant Tiered Dress",
+    "slug": "chloe-bohemian-peasant-tiered-dress-wd-263-wd-914",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Chloe Bohemian Peasant Tiered Dress (WST-WD-855) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Slub Cotton Linen with Tone-on-Tone Resham Detailing, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+    "details": [
+      "Crafted in Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0914"
+  },
+  {
+    "id": "wd-0915",
+    "title": "Freya Eyelet Flutter Sleeve Dress",
+    "slug": "freya-eyelet-flutter-sleeve-dress-wd-263-wd-915",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Boutique Exclusive",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Freya Eyelet Flutter Sleeve Dress (WST-WD-856) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Slub Cotton Linen with Tone-on-Tone Resham Detailing, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+    "details": [
+      "Crafted in Slub Cotton Linen with Tone-on-Tone Resham Detailing",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0915"
+  },
+  {
+    "id": "wd-0916",
     "title": "Lime Green Chikankari Embroidered Short Tunic Dress",
-    "slug": "lime-green-chikankari-embroidered-short-tunic-dress-264",
+    "slug": "lime-green-chikankari-embroidered-short-tunic-dress-wd-916",
     "tab": "western-dresses",
     "category": "western-dresses",
     "badge": "Artisanal Craft",
     "regularPrice": 0,
     "salePrice": 0,
     "images": [
-      "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
+      "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg"
     ],
     "sizes": [
       "XS",
@@ -9104,6 +28661,99 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "B2B Wholesale MOQ: 20 pcs per style / colorway"
     ],
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-364"
+    "sku": "WST-WD-0916"
+  },
+  {
+    "id": "wd-0917",
+    "title": "Maya A-Line Tiered Resort Dress",
+    "slug": "maya-a-line-tiered-resort-dress-wd-264-wd-917",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Artisanal Craft",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Maya A-Line Tiered Resort Dress (WST-WD-857) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Pure Cambric Cotton with Hand Chikankari Lace, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cambric Cotton with Hand Chikankari Lace",
+    "details": [
+      "Crafted in Pure Cambric Cotton with Hand Chikankari Lace",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0917"
+  },
+  {
+    "id": "wd-0918",
+    "title": "Luna Belted Linen Blend Dress",
+    "slug": "luna-belted-linen-blend-dress-wd-264-wd-918",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Artisanal Craft",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Luna Belted Linen Blend Dress (WST-WD-858) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Pure Cambric Cotton with Hand Chikankari Lace, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cambric Cotton with Hand Chikankari Lace",
+    "details": [
+      "Crafted in Pure Cambric Cotton with Hand Chikankari Lace",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0918"
+  },
+  {
+    "id": "wd-0919",
+    "title": "Zara Floral Embroidered Halter Dress",
+    "slug": "zara-floral-embroidered-halter-dress-wd-264-wd-919",
+    "tab": "western-dresses",
+    "category": "western-dresses",
+    "badge": "Artisanal Craft",
+    "regularPrice": 0,
+    "salePrice": 0,
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "description": "The Zara Floral Embroidered Halter Dress (WST-WD-859) is an export-grade ensemble from Wastram's premier WESTERN DRESSES wholesale catalogue. Crafted in Pure Cambric Cotton with Hand Chikankari Lace, it features an elegant tailored silhouette, refined finishing, and reinforced seam work for global commercial distribution.",
+    "fabric": "Pure Cambric Cotton with Hand Chikankari Lace",
+    "details": [
+      "Crafted in Pure Cambric Cotton with Hand Chikankari Lace",
+      "Reinforced interlocking seams and export-spec colorfast finishing",
+      "Available in assorted international size packs (XS-XXL)",
+      "B2B Wholesale MOQ: 20 pcs per style / colorway"
+    ],
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sku": "WST-WD-0919"
   }
 ];
