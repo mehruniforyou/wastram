@@ -297,8 +297,8 @@ export default function ProductDetailPage({ params }: Props) {
         {/* COLUMN 3: RIGHT SIZES, PRICE & PURCHASE (STICKY PINNED)    */}
         {/* ========================================================== */}
         <div className="col-span-4 sticky top-24 self-start max-h-[calc(100vh-7rem)] overflow-y-auto no-scrollbar flex flex-col gap-4 py-2 pl-2">
-          {/* Interactive Color Variant Swatch Bar */}
-          {hasVariants && product.colorVariants!.length > 1 && (
+          {/* Audited Color Variant Swatch Bar (Desktop) */}
+          {hasVariants && (
             <div className="flex flex-col gap-2.5 bg-white p-4 rounded-2xl shadow-soft">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-1.5">
@@ -310,7 +310,7 @@ export default function ProductDetailPage({ params }: Props) {
                   </span>
                 </div>
                 <span className="text-[10px] text-[#0B2D7F]/60 font-mono tracking-wider uppercase">
-                  {product.colorVariants!.length} Colors Available
+                  {product.colorVariants!.length} {product.colorVariants!.length === 1 ? 'Color Available' : 'Colors Available'}
                 </span>
               </div>
 
@@ -603,15 +603,15 @@ export default function ProductDetailPage({ params }: Props) {
             </button>
           </div>
 
-          {/* Mobile Color Variant Swatch Selector */}
-          {hasVariants && product.colorVariants!.length > 1 && (
+          {/* Mobile Audited Color Variant Swatch Selector */}
+          {hasVariants && (
             <div className="flex flex-col gap-2 bg-white p-3.5 rounded-2xl shadow-soft">
               <div className="flex items-center justify-between text-xs">
                 <span className="font-semibold text-[#0B2D7F]">
                   Color: <span className="text-[#F58220] font-bold">{activeVariant?.name}</span>
                 </span>
                 <span className="text-[10px] text-[#0B2D7F]/60">
-                  {product.colorVariants!.length} Colors
+                  {product.colorVariants!.length} {product.colorVariants!.length === 1 ? 'Color' : 'Colors'}
                 </span>
               </div>
               <div className="flex items-center gap-2 flex-wrap pt-0.5">

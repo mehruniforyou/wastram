@@ -189,39 +189,59 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
           <span>{refCode}</span>
         </div>
 
-        {/* Color Variant Swatches */}
-        {hasVariants && product.colorVariants!.length > 1 && (
-          <div className="flex items-center gap-1.5 px-0.5 py-0.5">
-            {product.colorVariants!.map((variant, vIdx) => {
-              const isSelected = selectedVariantIdx === vIdx;
-              return (
-                <button
-                  key={vIdx}
-                  type="button"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    setSelectedVariantIdx(vIdx);
-                    setCurrentImgIdx(0);
-                  }}
-                  onMouseEnter={() => {
-                    setSelectedVariantIdx(vIdx);
-                    setCurrentImgIdx(0);
-                  }}
-                  title={variant.name}
-                  className={`w-3.5 h-3.5 rounded-full border transition-all cursor-pointer ${
-                    isSelected
-                      ? 'scale-125 border-[#0B2D7F] ring-1.5 ring-[#0B2D7F]/40 shadow-xs'
-                      : 'border-black/20 hover:scale-115 opacity-80 hover:opacity-100'
-                  }`}
-                  style={{ backgroundColor: variant.colorCode }}
-                  aria-label={`Select ${variant.name}`}
+        {/* Audited Color Variant Swatches (Dynamically Shown Based on Real Photoshoot Colors) */}
+        {hasVariants && (
+          <div className="flex items-center justify-between px-0.5 py-0.5 min-h-[20px]">
+            {product.colorVariants!.length > 1 ? (
+              <>
+                <div className="flex items-center gap-1.5">
+                  {product.colorVariants!.map((variant, vIdx) => {
+                    const isSelected = selectedVariantIdx === vIdx;
+                    return (
+                      <button
+                        key={vIdx}
+                        type="button"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          setSelectedVariantIdx(vIdx);
+                          setCurrentImgIdx(0);
+                        }}
+                        onMouseEnter={() => {
+                          setSelectedVariantIdx(vIdx);
+                          setCurrentImgIdx(0);
+                        }}
+                        title={variant.name}
+                        className={`w-3.5 h-3.5 rounded-full border transition-all cursor-pointer ${
+                          isSelected
+                            ? 'scale-125 border-[#0B2D7F] ring-1.5 ring-[#0B2D7F]/40 shadow-xs'
+                            : 'border-black/20 hover:scale-115 opacity-80 hover:opacity-100'
+                        }`}
+                        style={{ backgroundColor: variant.colorCode }}
+                        aria-label={`Select ${variant.name}`}
+                      />
+                    );
+                  })}
+                </div>
+                <span className="text-[9.5px] font-sans text-[#0B2D7F]/60 ml-auto font-medium tracking-tight">
+                  {product.colorVariants!.length} Colors
+                </span>
+              </>
+            ) : (
+              <div className="flex items-center gap-1.5 w-full">
+                <span
+                  className="w-3 h-3 rounded-full border border-black/20 shadow-xs shrink-0"
+                  style={{ backgroundColor: product.colorVariants![0].colorCode }}
+                  title={product.colorVariants![0].name}
                 />
-              );
-            })}
-            <span className="text-[9.5px] font-sans text-[#0B2D7F]/60 ml-auto font-medium tracking-tight">
-              {product.colorVariants!.length} Colors
-            </span>
+                <span className="text-[10px] font-sans text-[#0B2D7F]/75 font-medium truncate max-w-[130px]">
+                  {product.colorVariants![0].name}
+                </span>
+                <span className="text-[9.5px] font-sans text-[#0B2D7F]/50 ml-auto font-medium tracking-tight">
+                  1 Color
+                </span>
+              </div>
+            )}
           </div>
         )}
 
