@@ -1,0 +1,25 @@
+rules_version = '2';
+
+// Wastram Atelier - Firestore Security Rules
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public read for products, collections, categories
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if true; // In production, restrict to authenticated admin
+    }
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    match /product_overrides/{productId} {
+      allow read, write: if true;
+    }
+    match /settings/{document=**} {
+      allow read, write: if true;
+    }
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

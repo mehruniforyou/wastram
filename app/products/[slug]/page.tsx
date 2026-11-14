@@ -18,7 +18,22 @@ interface Props {
 }
 
 export default function ProductDetailPage({ params }: Props) {
-  const product = NISHORAMA_PRODUCTS.find(p => p.slug === params.slug) || NISHORAMA_PRODUCTS[0];
+  const [product, setProduct] = useState<NishoramaProduct>(
+    () => NISHORAMA_PRODUCTS.find(p => p.slug === params.slug) || NISHORAMA_PRODUCTS[0]
+  );
+
+  // Sync with live product updates from admin console
+  React.useEffect(() => {
+    fetch('/api/products')
+      .then(res => res.json())
+      .then(data => {
+        if (Array.isArray(data.products)) {
+          const found = data.products.find((p: NishoramaProduct) => p.slug === params.slug || p.id === params.slug);
+          if (found) setProduct(found);
+        }
+      })
+      .catch(() => {});
+  }, [params.slug]);
 
   const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);
   const [activeImageIndex, setActiveImageIndex] = useState(0);

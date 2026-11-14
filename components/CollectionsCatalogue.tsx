@@ -27,6 +27,7 @@ const CATEGORIES = [
 ];
 
 export default function CollectionsCatalogue({ initialCategory = 'all' }: { initialCategory?: string }) {
+  const [liveProducts, setLiveProducts] = useState<NishoramaProduct[]>(NISHORAMA_PRODUCTS);
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory);
   const [sortBy, setSortBy] = useState<string>('featured');
   const [isStoryOpen, setIsStoryOpen] = useState(false);
@@ -35,6 +36,18 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
 
   const sentinelRef = useRef<HTMLDivElement | null>(null);
+
+  // Background fetch to ensure instant reflection of any Admin panel updates
+  useEffect(() => {
+    fetch('/api/products')
+      .then(res => res.json())
+      .then(data => {
+        if (Array.isArray(data.products) && data.products.length > 0) {
+          setLiveProducts(data.products);
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   // Synchronize category state when initialCategory prop changes (e.g. Header navigation)
   useEffect(() => {
@@ -57,7 +70,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   };
 
   const filtered = useMemo(() => {
-    let list = NISHORAMA_PRODUCTS.filter(p => {
+    let list = liveProducts.filter(p => {
       if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
       if (selectedCategory === 'western-dresses' || selectedCategory === 'dresses') return p.category === 'western-dresses';
       if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') return p.category === 'denim-collection';
