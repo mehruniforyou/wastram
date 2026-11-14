@@ -39,7 +39,7 @@ const POLICY_TABS: PolicyTabInfo[] = [
   },
   {
     key: "privacy",
-    label: "Datenschutzerklärung",
+    label: "Privacy Policy",
     slug: "/privacy",
   },
   {
@@ -49,7 +49,7 @@ const POLICY_TABS: PolicyTabInfo[] = [
   },
   {
     key: "cancellation",
-    label: "Widerrufsbelehrung & Retouren (30 Tage)",
+    label: "Refund &amp; Return Policy & Retouren (30 Tage)",
     slug: "/returns",
   },
   {
@@ -258,7 +258,7 @@ export default function LegalPoliciesTab() {
       <div className="flex items-center justify-between gap-3 pb-3 border-b border-neutral-200">
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-neutral-900">
-            Rechtliches &amp; Richtlinien
+            Legal &amp; Policies
           </h1>
         </div>
 

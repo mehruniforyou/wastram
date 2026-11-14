@@ -8,7 +8,7 @@ interface OverviewProps {
   currencySymbol?: string
 }
 
-export function Overview({ data = [], currencySymbol = '€' }: OverviewProps) {
+export function Overview({ data = [], currencySymbol = '₹' }: OverviewProps) {
   const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export function Overview({ data = [], currencySymbol = '€' }: OverviewProps) {
           tickFormatter={(value) => `${currencySymbol}${value}`}
         />
         <Tooltip
-          formatter={(value: any) => [`${currencySymbol}${value}`, 'Umsatz']}
+          formatter={(value: any) => [`${currencySymbol}${value}`, 'Revenue']}
           cursor={{ fill: 'rgba(0, 0, 0, 0.05)' }}
           contentStyle={{
             backgroundColor: 'var(--popover)',

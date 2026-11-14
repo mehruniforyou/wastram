@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+import React from 'react'
 import { useLayout } from '@/context/layout-provider'
 import {
   Sidebar,
@@ -30,32 +30,16 @@ export function AppSidebar({
 
   return (
     <Sidebar collapsible={collapsible} variant={variant}>
-      <SidebarHeader className='p-2'>
-        <div className='flex h-12 w-full items-center justify-center select-none'>
-          <div className='flex items-center -translate-x-10 group-data-[collapsible=icon]:translate-x-0'>
-            <Image
-              src='/logo-light.png'
-              alt='IXOS'
-              width={120}
-              height={42}
-              className='h-7 w-auto object-contain dark:hidden group-data-[collapsible=icon]:hidden pointer-events-none'
-              priority
-            />
-            <Image
-              src='/logo-dark.png'
-              alt='IXOS'
-              width={120}
-              height={42}
-              className='h-7 w-auto object-contain hidden dark:block dark:group-data-[collapsible=icon]:hidden pointer-events-none'
-              priority
-            />
-            <Image
-              src='/icon.png'
-              alt='IXOS'
-              width={32}
-              height={32}
-              className='hidden size-7 rounded-md object-contain group-data-[collapsible=icon]:block pointer-events-none'
-            />
+      <SidebarHeader className='p-2 border-b border-border/40'>
+        <div className='flex h-12 w-full items-center justify-start px-2 select-none'>
+          <div className='flex items-center gap-2.5'>
+            <div className='flex aspect-square size-8 items-center justify-center rounded-lg bg-[#0B2D7F] text-white font-serif font-black text-sm shrink-0 shadow-sm'>
+              W
+            </div>
+            <div className='flex flex-col items-start justify-center group-data-[collapsible=icon]:hidden'>
+              <span className='font-serif font-bold text-sm tracking-wide text-foreground'>WASTRAM</span>
+              <span className='text-[9px] tracking-widest uppercase text-muted-foreground -mt-0.5'>ATELIER ADMIN</span>
+            </div>
           </div>
         </div>
       </SidebarHeader>

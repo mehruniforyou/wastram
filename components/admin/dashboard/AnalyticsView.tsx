@@ -15,8 +15,8 @@ export function AnalyticsView() {
     <div className='space-y-4 font-inter'>
       <Card>
         <CardHeader>
-          <CardTitle>Traffic-Übersicht</CardTitle>
-          <CardDescription>Wöchentliche Klicks und eindeutige Besucher</CardDescription>
+          <CardTitle>Traffic Overview</CardTitle>
+          <CardDescription>Weekly visits and unique store visitors</CardDescription>
         </CardHeader>
         <CardContent className='px-6'>
           <AnalyticsChart />
@@ -25,7 +25,7 @@ export function AnalyticsView() {
       <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
         <Card>
           <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-            <CardTitle className='text-sm font-medium'>Gesamte Klicks</CardTitle>
+            <CardTitle className='text-sm font-medium'>Total Clicks</CardTitle>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 24 24'
@@ -42,13 +42,13 @@ export function AnalyticsView() {
           </CardHeader>
           <CardContent>
             <div className='text-2xl font-bold'>1,248</div>
-            <p className='text-xs text-muted-foreground'>+12,4 % ggü. Vorwoche</p>
+            <p className='text-xs text-muted-foreground'>+12.4% vs previous week</p>
           </CardContent>
         </Card>
         <Card>
           <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
             <CardTitle className='text-sm font-medium'>
-              Eindeutige Besucher
+              Unique Visitors
             </CardTitle>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -66,12 +66,12 @@ export function AnalyticsView() {
           </CardHeader>
           <CardContent>
             <div className='text-2xl font-bold'>832</div>
-            <p className='text-xs text-muted-foreground'>+5,8 % ggü. Vorwoche</p>
+            <p className='text-xs text-muted-foreground'>+5.8% vs previous week</p>
           </CardContent>
         </Card>
         <Card>
           <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-            <CardTitle className='text-sm font-medium'>Absprungrate</CardTitle>
+            <CardTitle className='text-sm font-medium'>Bounce Rate</CardTitle>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 24 24'
@@ -87,12 +87,12 @@ export function AnalyticsView() {
           </CardHeader>
           <CardContent>
             <div className='text-2xl font-bold'>42%</div>
-            <p className='text-xs text-muted-foreground'>-3,2 % ggü. Vorwoche</p>
+            <p className='text-xs text-muted-foreground'>-3.2% vs previous week</p>
           </CardContent>
         </Card>
         <Card>
           <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-            <CardTitle className='text-sm font-medium'>Durchschn. Sitzungsdauer</CardTitle>
+            <CardTitle className='text-sm font-medium'>Avg. Session Duration</CardTitle>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 24 24'
@@ -109,23 +109,23 @@ export function AnalyticsView() {
           </CardHeader>
           <CardContent>
             <div className='text-2xl font-bold'>3m 24s</div>
-            <p className='text-xs text-muted-foreground'>+18 s ggü. Vorwoche</p>
+            <p className='text-xs text-muted-foreground'>+18s vs previous week</p>
           </CardContent>
         </Card>
       </div>
       <div className='grid grid-cols-1 gap-4 lg:grid-cols-7'>
         <Card className='col-span-1 lg:col-span-4'>
           <CardHeader>
-            <CardTitle>Verweiser</CardTitle>
-            <CardDescription>Wichtigste Traffic-Quellen</CardDescription>
+            <CardTitle>Top Referrers</CardTitle>
+            <CardDescription>Primary traffic sources and channels</CardDescription>
           </CardHeader>
           <CardContent>
             <SimpleBarList
               items={[
-                { name: 'Direkt', value: 512 },
-                { name: 'Product Hunt', value: 238 },
-                { name: 'Twitter / X', value: 174 },
-                { name: 'Blog', value: 104 },
+                { name: 'Direct', value: 512 },
+                { name: 'Instagram & WhatsApp', value: 340 },
+                { name: 'Google Search', value: 238 },
+                { name: 'Direct B2B Sourcing', value: 104 },
               ]}
               barClass='bg-primary'
               valueFormatter={(n) => `${n}`}
@@ -134,14 +134,14 @@ export function AnalyticsView() {
         </Card>
         <Card className='col-span-1 lg:col-span-3'>
           <CardHeader>
-            <CardTitle>Geräte</CardTitle>
-            <CardDescription>Zugriff aufgeteilt nach Endgeräten</CardDescription>
+            <CardTitle>Devices</CardTitle>
+            <CardDescription>Traffic breakdown by client device</CardDescription>
           </CardHeader>
           <CardContent>
             <SimpleBarList
               items={[
-                { name: 'Desktop', value: 74 },
-                { name: 'Mobil', value: 22 },
+                { name: 'Mobile', value: 68 },
+                { name: 'Desktop', value: 28 },
                 { name: 'Tablet', value: 4 },
               ]}
               barClass='bg-muted-foreground'
@@ -190,4 +190,3 @@ function SimpleBarList({
     </ul>
   )
 }
-

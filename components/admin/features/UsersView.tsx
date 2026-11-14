@@ -273,10 +273,10 @@ export function CustomersView({
   // Export CSV
   const handleExportCSV = useCallback(() => {
     if (customers.length === 0) {
-      alert('Keine Kundendaten zum Exportieren vorhanden.')
+      alert('No customer data available to export.')
       return
     }
-    const headers = ['Kundenname', 'E-Mail', 'Anzahl Bestellungen', 'Gesamtumsatz', 'Währung', 'Letztes Bestelldatum']
+    const headers = ['Customer Name', 'Email', 'Order Count', 'Total Spent', 'Currency', 'Last Order Date']
     const rows = customers.map((c) => [
       `"${c.name.replace(/"/g, '""')}"`,
       `"${c.email.replace(/"/g, '""')}"`,
@@ -290,7 +290,7 @@ export function CustomersView({
     const url = URL.createObjectURL(blob)
     const link = document.createElement('a')
     link.href = url
-    link.setAttribute('download', `ixos-kunden-${new Date().toISOString().split('T')[0]}.csv`)
+    link.setAttribute('download', `wastram-customers-${new Date().toISOString().split('T')[0]}.csv`)
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -332,7 +332,7 @@ export function CustomersView({
                 className='cursor-pointer text-xs h-9'
               >
                 <ShoppingBag className='size-3.5 mr-1.5' />
-                Alle Bestellungen anzeigen
+                View All Orders
               </Button>
             )}
           </div>
@@ -343,14 +343,14 @@ export function CustomersView({
           <div className='relative w-[240px] sm:w-[320px]'>
             <Search className='absolute left-2.5 top-2.5 h-3.5 w-3.5 text-muted-foreground' />
             <Input
-              placeholder='Kunden nach Name oder E-Mail filtern...'
+              placeholder='Filter customers by name or email...'
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className='h-8.5 pl-8 text-xs'
             />
           </div>
           <div className='text-xs text-muted-foreground font-medium'>
-            {filteredCustomers.length} {filteredCustomers.length === 1 ? 'Kunde' : 'Kunden'}
+            {filteredCustomers.length} {filteredCustomers.length === 1 ? 'Customer' : 'Customers'}
           </div>
         </div>
 
@@ -359,11 +359,11 @@ export function CustomersView({
           <Table>
             <TableHeader>
               <TableRow className='hover:bg-transparent'>
-                <TableHead className='text-xs font-semibold'>Kunde</TableHead>
-                <TableHead className='text-xs font-semibold'>Bestellungen</TableHead>
-                <TableHead className='text-xs font-semibold'>Gesamtumsatz</TableHead>
+                <TableHead className='text-xs font-semibold'>Customer</TableHead>
+                <TableHead className='text-xs font-semibold'>Orders</TableHead>
+                <TableHead className='text-xs font-semibold'>Total Revenue</TableHead>
                 <TableHead className='text-xs font-semibold'>Status</TableHead>
-                <TableHead className='text-xs font-semibold'>Letzte Aktivität</TableHead>
+                <TableHead className='text-xs font-semibold'>Last Activity</TableHead>
                 <TableHead className='w-[60px]'></TableHead>
               </TableRow>
             </TableHeader>
@@ -372,13 +372,13 @@ export function CustomersView({
                 <TableRow>
                   <TableCell colSpan={6} className='h-32 text-center text-xs text-muted-foreground'>
                     {searchTerm ? (
-                      'Keine Kunden gefunden, die Ihrer Suche entsprechen.'
+                      'No customers found matching your search.'
                     ) : (
                       <div className='flex flex-col items-center justify-center gap-2'>
                         <Users className='size-8 text-muted-foreground/50' />
-                        <p className='font-medium text-foreground'>Noch keine verifizierten Kunden</p>
+                        <p className='font-medium text-foreground'>No verified customers yet</p>
                         <p className='text-[11px] text-muted-foreground'>
-                          Verifizierte Bestellungen und Bezahlvorgänge erscheinen automatisch in dieser Kundenliste.
+                          Verified customer orders and payments will appear automatically in this list.
                         </p>
                       </div>
                     )}
@@ -407,13 +407,13 @@ export function CustomersView({
 
                     <TableCell>
                       <Badge variant='secondary' className='text-[11px] font-medium'>
-                        {customer.orderCount} {customer.orderCount === 1 ? 'Bestellung' : 'Bestellungen'}
+                        {customer.orderCount} {customer.orderCount === 1 ? 'Order' : 'Orders'}
                       </Badge>
                     </TableCell>
 
                     <TableCell className='text-xs font-semibold text-[#007934] dark:text-[#22c55e] tabular-nums'>
-                      {customer.currency === 'USD' ? '$' : customer.currency === 'GBP' ? '£' : '€'}
-                      {customer.totalSpent.toLocaleString('de-DE', {
+                      {customer.currency === 'USD' ? '$' : customer.currency === 'GBP' ? '£' : customer.currency === 'EUR' ? '€' : '₹'}
+                      {customer.totalSpent.toLocaleString('en-IN', {
                         minimumFractionDigits: 2,
                         maximumFractionDigits: 2,
                       })}
@@ -456,7 +456,7 @@ export function CustomersView({
                               className='cursor-pointer text-xs'
                             >
                               <ShoppingBag className='size-3.5 mr-2' />
-                              Bestellungen anzeigen
+                              View Orders
                             </DropdownMenuItem>
                           )}
                         </DropdownMenuContent>

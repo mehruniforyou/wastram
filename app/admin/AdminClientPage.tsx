@@ -1016,7 +1016,7 @@ function AdminPageContent() {
     if (!cat) return;
     const catProds = products.filter(p => p.category_id === cat.id);
     if (catProds.length === 0) {
-      notifyAdmin("info", "Keine Products", `Keine Products in der Category "${cat.name}" gefunden.`);
+      notifyAdmin("info", "No Products", `No products found in category "${cat.name}".`);
       return;
     }
 
@@ -1731,7 +1731,7 @@ function AdminPageContent() {
 
   const exportPriceUnlocksCSV = () => {
     if (priceUnlocks.length === 0) {
-      notifyAdmin("info", "Export", "Keine Interessenten-Einträge zum Exportieren vorhanden.");
+      notifyAdmin("info", "Export", "No lead entries available to export.");
       return;
     }
     const headers = ["ID", "E-Mail", "Telefon", "Angesehenes Product", "Status", "Datum", "Zeitstempel"];
@@ -3114,7 +3114,7 @@ function AdminPageContent() {
 
   const handleExportOrdersCSV = useCallback(() => {
     if (!filteredOrders || filteredOrders.length === 0) {
-      notifyAdmin("info", "Export", "Keine Ordersdatensätze zum Exportieren vorhanden.");
+      notifyAdmin("info", "Export", "No order records available to export.");
       return;
     }
     const headers = ["Bestell-Nr.", "Datum", "Customersname", "E-Mail", "Artikel", "Status", "Gesamtbetrag", "Währung"];
@@ -3605,11 +3605,11 @@ function AdminPageContent() {
       rangeLabel: graphRange === "today" 
         ? `Heute (24 Std. ${tzAbbr})` 
         : graphRange === "7d" 
-          ? "Letzte 7 Tage" 
+          ? "Last 7 Days" 
           : graphRange === "last_month" 
-            ? "Letzter Monat (30 Tage)" 
+            ? "Last Month (30 Days)" 
             : graphRange === "last_3_months" 
-              ? "Letzte 3 Monate (90 Tage)" 
+              ? "Last 3 Months (90 Days)" 
               : "Benutzerdefinierter Zeitraum",
       periodSalesLabel: graphRange === "today" ? "Umsatz heute" : graphRange === "7d" ? "7-Tage-Umsatz" : graphRange === "last_month" ? "30-Tage-Umsatz" : graphRange === "last_3_months" ? "90-Tage-Umsatz" : "Zeitraum-Umsatz",
       periodExpensesLabel: graphRange === "today" ? "Ausgaben heute" : graphRange === "7d" ? "7-Tage-Ausgaben" : graphRange === "last_month" ? "30-Tage-Ausgaben" : graphRange === "last_3_months" ? "90-Tage-Ausgaben" : "Zeitraum-Ausgaben",
@@ -3677,7 +3677,7 @@ function AdminPageContent() {
     const adminMenuGroups: AdminMenuGroup[] = useMemo(() => [
     {
       id: "general",
-      title: "Allgemein",
+      title: "General",
       icon: LayoutDashboard,
       subGroups: [
         {
@@ -3692,7 +3692,7 @@ function AdminPageContent() {
     },
     {
       id: "catalog",
-      title: "Shop & Inventar",
+      title: "Store & Catalog",
       icon: Box,
       subGroups: [
         {
@@ -3710,7 +3710,7 @@ function AdminPageContent() {
     },
     {
       id: "settings",
-      title: "Shop-Settings & Weiteres",
+      title: "Store Settings & Tools",
       icon: Store,
       subGroups: [
         {
@@ -3741,7 +3741,7 @@ function AdminPageContent() {
 
   const navTabsList = useMemo(() => {
     const list: Array<{ id: string; label: string; icon: any; group: string }> = [
-      { id: "overview", label: "Overview", icon: LayoutDashboard, group: "Allgemein" }
+      { id: "overview", label: "Overview", icon: LayoutDashboard, group: "General" }
     ];
     adminMenuGroups.forEach(group => {
       group.subGroups.forEach(sub => {
@@ -4013,7 +4013,7 @@ function AdminPageContent() {
                 href="/"
                 className="text-xs text-muted-foreground hover:text-primary underline underline-offset-4 text-center flex items-center justify-center gap-1"
               >
-                <span>Back zum Shop</span>
+                <span>Live Store</span>
                 <ExternalLink className="size-3" />
               </Link>
             </CardFooter>
@@ -4283,7 +4283,7 @@ function AdminPageContent() {
                   {/* ── BOTTOM SECTION: Minimal Clean Category Cards ── */}
                   {filteredCategories.length === 0 ? (
                     <div className="py-16 text-center text-black font-medium text-xs bg-white rounded-2xl border-2 border-neutral-200 p-8">
-                      Keine passenden Categories gefunden.
+                      No matching categories found.
                     </div>
                   ) : (
                     <div className="space-y-3">
@@ -4346,7 +4346,7 @@ function AdminPageContent() {
                               target="_blank"
                               rel="noopener noreferrer"
                               className="p-2 rounded-xl border border-neutral-300 hover:border-black text-black transition-colors"
-                              title="Category live im Shop anzeigen"
+                              title="View category live in store"
                             >
                               <ExternalLink className="w-4 h-4" />
                             </a>
@@ -4586,7 +4586,7 @@ function AdminPageContent() {
                             </div>
                             <div className="mt-4 text-center">
                               <h3 className="font-heading font-black text-base text-red-600">
-                                Keine Category
+                                No Category
                               </h3>
                               <p className="text-xs text-red-500 font-semibold mt-1">
                                 {unassignedProducts.length} {unassignedProducts.length === 1 ? "Product" : "Products"} nicht zugewiesen
@@ -4624,7 +4624,7 @@ function AdminPageContent() {
                               <span>
                                 {isSearching 
                                   ? `Search: "${prodSearch}"` 
-                                  : (selectedCat?.name || (prodCategoryFilter === "all" ? "Alle Products" : (prodCategoryFilter === "unassigned" ? "Keine Category zugewiesen" : prodCategoryFilter)))}
+                                  : (selectedCat?.name || (prodCategoryFilter === "all" ? "Alle Products" : (prodCategoryFilter === "unassigned" ? "No Category zugewiesen" : prodCategoryFilter)))}
                               </span>
                               <span className="text-sm font-heading font-bold text-neutral-500">
                                 ({filteredProducts.length})
@@ -4752,7 +4752,7 @@ function AdminPageContent() {
                             <option value="">← Category-Overview</option>
                             <option value="all">Alle Products</option>
                             {unassignedProducts.length > 0 && (
-                              <option value="unassigned">⚠️ Keine Category zugewiesen ({unassignedProducts.length})</option>
+                              <option value="unassigned">⚠️ No Category zugewiesen ({unassignedProducts.length})</option>
                             )}
                             {displayCategories.map(cat => (
                               <option key={cat.id} value={cat.slug}>{cat.name}</option>
@@ -4763,7 +4763,7 @@ function AdminPageContent() {
 
                       {filteredProducts.length === 0 ? (
                         <div className="py-16 text-center text-black font-medium text-xs bg-white rounded-2xl border-2 border-neutral-200 p-8 space-y-4">
-                          <p>Keine passenden Products in dieser Category gefunden.</p>
+                          <p>No matching products found in this category.</p>
                           <div className="flex items-center justify-center gap-2 flex-wrap">
                             <button
                               type="button"
@@ -4849,7 +4849,7 @@ function AdminPageContent() {
                                     </h3>
                                     <div className="text-xs text-neutral-800 font-semibold flex items-center gap-2 flex-wrap">
                                       {(!prod.category_id || prod.category_id === "none" || prod.category_id === "" || prod.category_id === "unassigned") ? (
-                                        <span className="text-red-600 font-bold">⚠️ Keine Category zugewiesen</span>
+                                        <span className="text-red-600 font-bold">⚠️ No Category zugewiesen</span>
                                       ) : (
                                         <span className="text-black font-bold">
                                           {categories.find(c => c.id === prod.category_id || c.slug === prod.category_id || c.id === (prod as any).category?.id)?.name || prod.category?.name || (typeof prod.category === "string" ? prod.category : "Ohne Category")}
@@ -4900,7 +4900,7 @@ function AdminPageContent() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-2 rounded-xl border border-neutral-300 hover:border-black text-black transition-colors"
-                                    title="Product live im Shop anzeigen"
+                                    title="View product live in store"
                                   >
                                     <ExternalLink className="w-4 h-4" />
                                   </a>
@@ -5252,7 +5252,7 @@ function AdminPageContent() {
                               </div>
                             ) : availableCatalog.length === 0 ? (
                               <div className="py-16 text-center text-neutral-500 font-medium text-xs bg-neutral-50 rounded-2xl border-2 border-dashed border-neutral-200 p-8 space-y-2">
-                                <p className="text-sm font-heading font-bold text-black">Keine Products gefunden</p>
+                                <p className="text-sm font-heading font-bold text-black">No products found</p>
                                 <p>{targetCategoryForAdd ? "Es gibt derzeit keine nicht zugewiesenen Products." : "Passen Sie Ihre Suchanfrage oder den Categoryfilter oben an."}</p>
                               </div>
                             ) : (
@@ -5727,7 +5727,7 @@ function AdminPageContent() {
                       <TableRow>
                         <TableCell colSpan={6} className="h-32 text-center text-xs text-muted-foreground">
                           {orderSearchQuery ? (
-                            `Keine Orders für "${orderSearchQuery}" gefunden.`
+                            `No orders found for "${orderSearchQuery}".`
                           ) : (
                             <div className="flex flex-col items-center justify-center gap-2">
                               <Package className="size-8 text-muted-foreground/50" />
@@ -5869,7 +5869,7 @@ function AdminPageContent() {
                     Settings
                   </h1>
                   <p className="text-sm text-muted-foreground mt-1">
-                    Shop-Verwaltung, Betreiberprofil und Systemkonfiguration.
+                    Store management, operator profile, and system configuration.
                   </p>
                 </div>
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted text-muted-foreground text-xs font-semibold shrink-0">
@@ -7368,7 +7368,7 @@ function AdminPageContent() {
                   {/* Point-Wise Store Order & Delivery Terms & Conditions */}
                   <div className="border border-black rounded-xl p-3.5 bg-white space-y-1.5 text-[9.5px] text-black">
                     <h4 className="font-bold text-[11px] uppercase tracking-wider text-black flex items-center gap-1.5 border-b border-black pb-1">
-                      <Truck className="w-3.5 h-3.5 text-black" /> Allgemeine Geschäfts- &amp; Lieferbedingungen
+                      <Truck className="w-3.5 h-3.5 text-black" /> Terms of Service &amp; Shipping Policies
                     </h4>
                     
                     <ol className="list-decimal pl-4 space-y-0.5 text-black leading-normal">
@@ -7542,8 +7542,8 @@ function CategoryFormModal({ category, onSave, onClose }: {
                 onChange={e => setForm({ ...form, is_hidden: e.target.value === "hidden" })}
                 className={textInputClass}
               >
-                <option value="visible">Im Shop sichtbar</option>
-                <option value="hidden">Im Shop ausgeblendet</option>
+                <option value="visible">Visible in Store (Published)</option>
+                <option value="hidden">Hidden in Store (Draft)</option>
               </select>
             </div>
             <div>
@@ -8211,7 +8211,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 }}
                 className={textInputClass}
               >
-                <option value="">⚠️ Keine Category zugewiesen (Entfernen)</option>
+                <option value="">⚠️ No Category zugewiesen (Entfernen)</option>
                 {categories.map(c => (
                   <option key={c.id} value={c.id}>
                     {c.name}
@@ -8375,7 +8375,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
             <div>
               <label className={labelTextClass}>Product-Imageer & Medien ({form.gallery.length})</label>
               <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
-                Verwalten Sie alle Imageer des Products. Das mit dem Stern markierte Image ist das Hauptbild im Shop.
+                Manage all product images. The starred image is the primary cover image displayed in the store.
               </p>
             </div>
             {form.featured_image && (
@@ -8654,8 +8654,8 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 onChange={e => setForm({ ...form, is_hidden: e.target.value === "hidden" })}
                 className={textInputClass}
               >
-                <option value="visible">Im Shop sichtbar</option>
-                <option value="hidden">Im Shop ausgeblendet</option>
+                <option value="visible">Visible in Store (Published)</option>
+                <option value="hidden">Hidden in Store (Draft)</option>
               </select>
             </div>
             <div>
@@ -8688,7 +8688,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           <div className="pt-2 border-t border-neutral-100 space-y-3">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className={labelTextClass}>Shop Flag-Badge (Ecken-Fähnchen)</label>
+                <label className={labelTextClass}>Store Corner Ribbon Badge (e.g. Signature, Handcrafted, Bestseller)</label>
                 <select
                   value={
                     form.tag === "SALE" || form.tag === "BESTSELLER" || form.tag === "POPULAR" || !form.tag
@@ -8730,7 +8730,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
             {/* Live Flag Badge Preview */}
             {form.tag && (
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-neutral-50 border border-neutral-200">
-                <span className="text-xs font-bold text-neutral-600">Vorschau im Shop:</span>
+                <span className="text-xs font-bold text-neutral-600">Live Preview:</span>
                 <span
                   className={`inline-flex items-center text-white text-[10px] font-heading font-black uppercase tracking-wider px-3 py-1 rounded shadow-xs ${
                     form.tag === "SALE" ? "bg-[#3628e6]" : "bg-black"
@@ -8880,7 +8880,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
               {(() => {
                 const normCatId = getProductNormalizedCategoryId(product);
                 if (!normCatId) {
-                  return <span className="text-red-600 font-bold">⚠️ Keine Category zugewiesen</span>;
+                  return <span className="text-red-600 font-bold">⚠️ No Category zugewiesen</span>;
                 }
                 const cat = categories.find(c => c.id.toLowerCase() === normCatId.toLowerCase() || c.slug.toLowerCase() === normCatId.toLowerCase());
                 return <span className="text-slate-800">{cat?.name || normCatId}</span>;
@@ -8911,7 +8911,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
               target="_blank"
               rel="noopener noreferrer"
               className="text-[10px] text-muted-foreground hover:text-foreground font-mono inline-flex items-center gap-1 group transition-colors"
-              title="Product live im Shop anzeigen"
+              title="View product live in store"
             >
               <span>/{product.slug}</span>
               <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100" />

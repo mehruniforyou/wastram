@@ -37,7 +37,7 @@ export function AuthenticatedLayout({
         <DirectionProvider>
           <SearchProvider>
             <LayoutProvider>
-              <SidebarProvider defaultOpen={defaultOpen} className='bg-sidebar'>
+              <SidebarProvider defaultOpen={defaultOpen} className='bg-background flex min-h-screen w-full'>
                 <AppSidebar
                   activeTab={activeTab}
                   onSelectTab={onSelectTab}
@@ -45,13 +45,7 @@ export function AuthenticatedLayout({
                   openTicketsCount={openTicketsCount}
                   onLogout={onLogout}
                 />
-                <SidebarInset
-                  className={cn(
-                    '@container/content',
-                    'has-data-[layout=fixed]:h-svh',
-                    'peer-data-[variant=inset]:has-data-[layout=fixed]:h-[calc(100svh-(var(--spacing)*4))]'
-                  )}
-                >
+                <SidebarInset className='flex-1 flex flex-col min-w-0 bg-background overflow-x-hidden overflow-y-auto min-h-screen'>
                   {children}
                 </SidebarInset>
                 <CommandMenu onSelectTab={onSelectTab} />

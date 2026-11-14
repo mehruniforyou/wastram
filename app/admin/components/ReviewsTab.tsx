@@ -146,7 +146,7 @@ export default function ReviewsTab() {
             size="icon"
             onClick={fetchReviews}
             className="h-8 w-8 cursor-pointer"
-            title="Kundenbewertungen aktualisieren"
+            title="Customer Reviews aktualisieren"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${loading ? "animate-spin" : ""}`} />
           </Button>
@@ -288,7 +288,7 @@ export default function ReviewsTab() {
                   <button
                     type="button"
                     onClick={() => handleDelete(r.id)}
-                    title="Bewertung löschen"
+                    title="Delete Review"
                     className="p-1.5 rounded-full text-muted-foreground hover:text-destructive transition-colors cursor-pointer"
                   >
                     <Trash2 className="w-4 h-4" />

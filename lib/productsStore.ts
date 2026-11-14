@@ -1,4 +1,5 @@
-import { NISHORAMA_PRODUCTS, NishoramaProduct, ColorVariant } from "@/data/nishorama-data";
+import { PRODUCTS, Product, ColorVariant } from "@/data/products";
+export type NishoramaProduct = Product;
 import { getFirebaseDb } from "@/lib/firebaseClient";
 import { getAdminDb } from "@/lib/firebaseAdmin";
 import fs from "fs";
@@ -278,7 +279,7 @@ export async function getAllMergedProducts(options?: { includeHidden?: boolean; 
   const handledIds = new Set<string>();
 
   // 1. Process base catalog with overrides
-  for (const p of NISHORAMA_PRODUCTS) {
+  for (const p of PRODUCTS) {
     handledIds.add(p.id);
     const ovr = overrides[p.id];
     if (ovr?.deleted) continue; // Deleted in admin
@@ -292,6 +293,18 @@ export async function getAllMergedProducts(options?: { includeHidden?: boolean; 
     if (!handledIds.has(id) && ovr.isCustomProduct && !ovr.deleted && !ovr.is_hidden) {
       activeProducts.push({
         id,
+        name: ovr.title || "Custom Atelier Ensemble",
+        partNumber: ovr.sku || `WST-CUSTOM-${id.substring(0, 6)}`,
+        price: ovr.salePrice || ovr.regularPrice || 0,
+        rating: 5.0,
+        reviewCount: 1,
+        inStock: true,
+        freeShipping: true,
+        brand: "Wastram Atelier",
+        mainImage: (ovr.images && ovr.images[0]) || "",
+        gallery: ovr.images || [],
+        galleryImages: (ovr.images || []).map((img: string) => ({ url: img })),
+        descriptionHtml: `<p>${ovr.description || ""}</p>`,
         title: ovr.title || "Custom Atelier Ensemble",
         slug: ovr.slug || id,
         category: ovr.category || "western-dresses",
@@ -309,7 +322,7 @@ export async function getAllMergedProducts(options?: { includeHidden?: boolean; 
         sku: ovr.sku || `WST-CUSTOM-${id.substring(0, 6)}`,
         createdAt: ovr.createdAt || new Date().toISOString(),
         updatedAt: ovr.updatedAt || new Date().toISOString(),
-      });
+      } as any);
     }
   }
 

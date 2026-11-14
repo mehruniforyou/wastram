@@ -24,121 +24,121 @@ import { type SidebarData } from '../types'
 
 export const getSidebarData = (unreadOrdersCount = 0, openTicketsCount = 0): SidebarData => ({
   user: {
-    name: 'Administrator',
-    email: 'admin@ixosaudio.com',
-    avatar: '/avatars/shadcn.jpg',
+    name: 'Atelier Admin',
+    email: 'admin@wastram.com',
+    avatar: '/images/brand/wastram-craft-emblem.png',
   },
   teams: [
     {
-      name: 'IXOS Audio',
+      name: 'Wastram Atelier',
       logo: Command,
-      plan: 'Offizieller Shop',
+      plan: 'Live Boutique',
     },
     {
-      name: 'IXOS Operations',
+      name: 'Wastram Operations',
       logo: GalleryVerticalEnd,
-      plan: 'Verwaltungskonsole',
+      plan: 'Wholesale Management',
     },
   ],
   navGroups: [
     {
-      title: 'Allgemein',
+      title: 'General',
       items: [
         {
-          title: 'Übersicht',
+          title: 'Dashboard',
           url: 'overview',
           icon: LayoutDashboard,
         },
         {
-          title: 'Bestellungen',
+          title: 'Orders',
           url: 'orders',
           badge: unreadOrdersCount > 0 ? String(unreadOrdersCount) : undefined,
           icon: ShoppingBag,
         },
         {
-          title: 'Kundenservice',
+          title: 'Customer Support',
           url: 'customer-support',
           badge: openTicketsCount > 0 ? String(openTicketsCount) : undefined,
           icon: Headphones,
         },
         {
-          title: 'Kunden',
+          title: 'Customers',
           url: 'customers',
           icon: Users,
         },
       ],
     },
     {
-      title: 'Shop & Inventar',
+      title: 'Store & Inventory',
       items: [
         {
-          title: 'Produkte',
+          title: 'Products',
           url: 'products',
           icon: Box,
         },
         {
-          title: 'Inventar',
+          title: 'Inventory',
           url: 'inventory',
           icon: Boxes,
         },
         {
-          title: 'Kategorien',
+          title: 'Categories',
           url: 'categories',
           icon: Layers,
         },
         {
-          title: 'Rabatte',
+          title: 'Discounts',
           url: 'discounts',
           icon: Percent,
         },
         {
-          title: 'Bewertungen',
+          title: 'Reviews',
           url: 'reviews',
           icon: Star,
         },
         {
-          title: 'Versandtarife',
+          title: 'Shipping Rates',
           url: 'shipping',
           icon: Truck,
         },
         {
-          title: 'Rechtliches & Richtlinien',
+          title: 'Legal & Policies',
           url: 'legal-policies',
           icon: FileText,
         },
       ],
     },
     {
-      title: 'Sonstiges',
+      title: 'Settings & System',
       items: [
         {
-          title: 'Shop-Einstellungen',
+          title: 'Store Settings',
           icon: Store,
           items: [
             {
-              title: 'Ankündigungen',
+              title: 'Announcements',
               url: 'store-announcements',
               icon: Megaphone,
             },
             {
-              title: 'Blog & Ratgeber',
+              title: 'Lookbook & Journal',
               url: 'store-blogs',
               icon: BookOpen,
             },
             {
-              title: 'Aktualisierungen',
+              title: 'Updates',
               url: 'store-updates',
               icon: Sparkles,
             },
           ],
         },
         {
-          title: 'API-Schlüssel',
+          title: 'API Keys',
           url: 'api-keys',
           icon: KeyRound,
         },
         {
-          title: 'Hilfe-Center',
+          title: 'Help Center',
           url: 'help-center',
           icon: HelpCircle,
         },

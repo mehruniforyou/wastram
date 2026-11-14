@@ -33,7 +33,6 @@ import {
 import {
   Calendar,
   Download,
-  Euro,
   DollarSign,
   PackageCheck,
   CreditCard,
@@ -87,13 +86,13 @@ export type FilterPeriod =
   | 'custom'
 
 const FILTER_OPTIONS: { id: FilterPeriod; label: string }[] = [
-  { id: 'today', label: 'Heute' },
-  { id: 'yesterday', label: 'Gestern' },
-  { id: 'last_7_days', label: 'Letzte 7 Tage' },
-  { id: 'this_month', label: 'Dieser Monat' },
-  { id: 'last_month', label: 'Letzter Monat' },
-  { id: 'last_6_months', label: 'Letzte 6 Monate' },
-  { id: 'custom', label: 'Benutzerdefiniert' },
+  { id: 'today', label: 'Today' },
+  { id: 'yesterday', label: 'Yesterday' },
+  { id: 'last_7_days', label: 'Last 7 Days' },
+  { id: 'this_month', label: 'This Month' },
+  { id: 'last_month', label: 'Last Month' },
+  { id: 'last_6_months', label: 'Last 6 Months' },
+  { id: 'custom', label: 'Custom Range' },
 ]
 
 export interface DashboardViewProps {
@@ -239,7 +238,7 @@ function extractVerifiedSales(ordersList: any[] = [], paymentsList: any[] = []):
         quantity: order.quantity || 1,
         unitPrice: order.unitPrice || order.price || amount,
         variant: order.variantName || order.variant || 'Standard Spec',
-        partNumber: order.partNumber || order.sku || 'IX-AUDIO',
+        partNumber: order.partNumber || order.sku || 'WST-APP',
       }]
     }
 
@@ -248,7 +247,7 @@ function extractVerifiedSales(ordersList: any[] = [], paymentsList: any[] = []):
       const quantity = Math.max(1, Number(it.quantity || it.qty || 1))
       const unitPrice = Number(it.unitPrice || it.price || 0)
       const total = Number(it.total || it.amount || (unitPrice * quantity)) || (amount / Math.max(1, rawItems.length))
-      const sku = it.partNumber || it.part_number || it.sku || it.id || 'IX-AUDIO'
+      const sku = it.partNumber || it.part_number || it.sku || it.id || 'WST-APP'
       const variant = it.variant || it.variantName || 'Standard Spec'
       return {
         id: it.id || sku,
@@ -264,13 +263,13 @@ function extractVerifiedSales(ordersList: any[] = [], paymentsList: any[] = []):
     })
 
     if (items.length === 0) {
-      const fallbackName = order.productName || order.product_name || 'IXOS Audio Product'
+      const fallbackName = order.productName || order.product_name || 'Wastram Apparel Product'
       items.push({
-        id: order.productId || 'IX-AUDIO',
+        id: order.productId || 'WST-APP',
         name: fallbackName,
         productName: fallbackName,
-        sku: order.sku || 'IX-AUDIO',
-        partNumber: order.sku || 'IX-AUDIO',
+        sku: order.sku || 'WST-APP',
+        partNumber: order.sku || 'WST-APP',
         variant: order.variantName || 'Standard Spec',
         quantity: 1,
         unitPrice: amount,
@@ -334,7 +333,7 @@ function extractVerifiedSales(ordersList: any[] = [], paymentsList: any[] = []):
     const currency = pay.currency || 'EUR'
     const paymentMethod = 'PayPal'
 
-    const payFallbackName = pay.product_name || pay.productName || pay.item_name || 'IXOS Audio Product'
+    const payFallbackName = pay.product_name || pay.productName || pay.item_name || 'Wastram Apparel Product'
     const items: SaleItem[] = Array.isArray(pay.items) && pay.items.length > 0
       ? pay.items.map((it: any) => ({
           id: it.id || 'IX-ITEM',
@@ -448,7 +447,7 @@ function getPreviousFilterRange(
     y.setDate(y.getDate() - 1)
     const start = new Date(y.getFullYear(), y.getMonth(), y.getDate(), 0, 0, 0, 0)
     const end = new Date(y.getFullYear(), y.getMonth(), y.getDate(), 23, 59, 59, 999)
-    return { start, end, label: 'gestern' }
+    return { start, end, label: 'yesterday' }
   }
   if (period === 'yesterday') {
     const dby = new Date(now)
@@ -464,22 +463,22 @@ function getPreviousFilterRange(
     const end = new Date(now)
     end.setDate(end.getDate() - 7)
     end.setHours(23, 59, 59, 999)
-    return { start, end, label: 'vorherige 7 Tage' }
+    return { start, end, label: 'previous 7 days' }
   }
   if (period === 'this_month') {
     const start = new Date(now.getFullYear(), now.getMonth() - 1, 1, 0, 0, 0, 0)
     const end = new Date(now.getFullYear(), now.getMonth(), 0, 23, 59, 59, 999)
-    return { start, end, label: 'letzter Monat' }
+    return { start, end, label: 'last month' }
   }
   if (period === 'last_month') {
     const start = new Date(now.getFullYear(), now.getMonth() - 2, 1, 0, 0, 0, 0)
     const end = new Date(now.getFullYear(), now.getMonth() - 1, 0, 23, 59, 59, 999)
-    return { start, end, label: 'Vormonat' }
+    return { start, end, label: 'previous month' }
   }
   if (period === 'last_6_months') {
     const start = new Date(now.getFullYear(), now.getMonth() - 11, 1, 0, 0, 0, 0)
     const end = new Date(now.getFullYear(), now.getMonth() - 5, 0, 23, 59, 59, 999)
-    return { start, end, label: 'vorherige 6 Monate' }
+    return { start, end, label: 'previous 6 months' }
   }
   if (period === 'custom') {
     const curRange = getFilterRange(period, customStart, customEnd)
@@ -530,9 +529,9 @@ function getTooltipDescription(
       case 'sales':
         return `Gleiches Verkaufsvolumen wie im ${label}`
       case 'aov':
-        return `Gleicher durchschnittlicher Bestellwert wie im ${label}`
+        return `Equal average order value compared to ${label}`
       case 'customers':
-        return `Gleiche Kundenanzahl wie im ${label}`
+        return `Equal customer count compared to ${label}`
     }
   }
 
@@ -545,16 +544,16 @@ function getTooltipDescription(
         : `${percentStr} geringerer Umsatz als im ${label}`
     case 'sales':
       return isIncrease
-        ? `${percentStr} mehr Verkäufe als im ${label}`
-        : `${percentStr} weniger Verkäufe als im ${label}`
+        ? `${percentStr} more orders than ${label}`
+        : `${percentStr} fewer orders than ${label}`
     case 'aov':
       return isIncrease
-        ? `${percentStr} höherer durchschnittlicher Bestellwert als im ${label}`
-        : `${percentStr} geringerer durchschnittlicher Bestellwert als im ${label}`
+        ? `${percentStr} higher average order value than ${label}`
+        : `${percentStr} lower average order value than ${label}`
     case 'customers':
       return isIncrease
-        ? `${percentStr} mehr Kunden als im ${label}`
-        : `${percentStr} weniger Kunden als im ${label}`
+        ? `${percentStr} more customers than ${label}`
+        : `${percentStr} fewer customers than ${label}`
   }
 }
 
@@ -568,9 +567,9 @@ function formatRelativeTime(date: Date): string {
   if (diffMins < 2) return 'Gerade eben'
   if (diffMins < 60) return `vor ${diffMins} Min.`
   if (diffHours < 24) return `vor ${diffHours} Std.`
-  if (diffDays === 1) return 'Gestern'
+  if (diffDays === 1) return 'Yesterday'
   if (diffDays < 7) return `vor ${diffDays} Tagen`
-  return date.toLocaleDateString('de-DE', { month: 'short', day: 'numeric' })
+  return date.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' })
 }
 
 interface ChartBucket {
@@ -603,14 +602,14 @@ function generateChartData(
   // 1. TODAY (Hours of today in admin's local timezone)
   if (period === 'today') {
     const hours = [
-      { name: '00:00', full: `Heute, 00:00 – 03:00 (${tzAbbr})`, startH: 0, endH: 3 },
-      { name: '03:00', full: `Heute, 03:00 – 06:00 (${tzAbbr})`, startH: 3, endH: 6 },
-      { name: '06:00', full: `Heute, 06:00 – 09:00 (${tzAbbr})`, startH: 6, endH: 9 },
-      { name: '09:00', full: `Heute, 09:00 – 12:00 (${tzAbbr})`, startH: 9, endH: 12 },
-      { name: '12:00', full: `Heute, 12:00 – 15:00 (${tzAbbr})`, startH: 12, endH: 15 },
-      { name: '15:00', full: `Heute, 15:00 – 18:00 (${tzAbbr})`, startH: 15, endH: 18 },
-      { name: '18:00', full: `Heute, 18:00 – 21:00 (${tzAbbr})`, startH: 18, endH: 21 },
-      { name: '21:00', full: `Heute, 21:00 – 24:00 (${tzAbbr})`, startH: 21, endH: 24 },
+      { name: '00:00', full: `Today, 00:00 – 03:00 (${tzAbbr})`, startH: 0, endH: 3 },
+      { name: '03:00', full: `Today, 03:00 – 06:00 (${tzAbbr})`, startH: 3, endH: 6 },
+      { name: '06:00', full: `Today, 06:00 – 09:00 (${tzAbbr})`, startH: 6, endH: 9 },
+      { name: '09:00', full: `Today, 09:00 – 12:00 (${tzAbbr})`, startH: 9, endH: 12 },
+      { name: '12:00', full: `Today, 12:00 – 15:00 (${tzAbbr})`, startH: 12, endH: 15 },
+      { name: '15:00', full: `Today, 15:00 – 18:00 (${tzAbbr})`, startH: 15, endH: 18 },
+      { name: '18:00', full: `Today, 18:00 – 21:00 (${tzAbbr})`, startH: 18, endH: 21 },
+      { name: '21:00', full: `Today, 21:00 – 24:00 (${tzAbbr})`, startH: 21, endH: 24 },
     ]
     return hours.map((h) => {
       const matching = salesInRange.filter((s) => {
@@ -630,14 +629,14 @@ function generateChartData(
   // 2. YESTERDAY (Hours of yesterday in admin's local timezone)
   if (period === 'yesterday') {
     const hours = [
-      { name: '00:00', full: `Gestern, 00:00 – 03:00 (${tzAbbr})`, startH: 0, endH: 3 },
-      { name: '03:00', full: `Gestern, 03:00 – 06:00 (${tzAbbr})`, startH: 3, endH: 6 },
-      { name: '06:00', full: `Gestern, 06:00 – 09:00 (${tzAbbr})`, startH: 6, endH: 9 },
-      { name: '09:00', full: `Gestern, 09:00 – 12:00 (${tzAbbr})`, startH: 9, endH: 12 },
-      { name: '12:00', full: `Gestern, 12:00 – 15:00 (${tzAbbr})`, startH: 12, endH: 15 },
-      { name: '15:00', full: `Gestern, 15:00 – 18:00 (${tzAbbr})`, startH: 15, endH: 18 },
-      { name: '18:00', full: `Gestern, 18:00 – 21:00 (${tzAbbr})`, startH: 18, endH: 21 },
-      { name: '21:00', full: `Gestern, 21:00 – 24:00 (${tzAbbr})`, startH: 21, endH: 24 },
+      { name: '00:00', full: `Yesterday, 00:00 – 03:00 (${tzAbbr})`, startH: 0, endH: 3 },
+      { name: '03:00', full: `Yesterday, 03:00 – 06:00 (${tzAbbr})`, startH: 3, endH: 6 },
+      { name: '06:00', full: `Yesterday, 06:00 – 09:00 (${tzAbbr})`, startH: 6, endH: 9 },
+      { name: '09:00', full: `Yesterday, 09:00 – 12:00 (${tzAbbr})`, startH: 9, endH: 12 },
+      { name: '12:00', full: `Yesterday, 12:00 – 15:00 (${tzAbbr})`, startH: 12, endH: 15 },
+      { name: '15:00', full: `Yesterday, 15:00 – 18:00 (${tzAbbr})`, startH: 15, endH: 18 },
+      { name: '18:00', full: `Yesterday, 18:00 – 21:00 (${tzAbbr})`, startH: 18, endH: 21 },
+      { name: '21:00', full: `Yesterday, 21:00 – 24:00 (${tzAbbr})`, startH: 21, endH: 24 },
     ]
     return hours.map((h) => {
       const matching = salesInRange.filter((s) => {
@@ -704,7 +703,7 @@ function generateChartData(
       const eDay = wEnd.getDate()
 
       const label = `${sm} ${sDay}–${eDay}`
-      const tooltip = `Woche ${i + 1}: ${sm} ${sDay} – ${eDay}, ${wEnd.getFullYear()}`
+      const tooltip = `Week ${i + 1}: ${sm} ${sDay} – ${eDay}, ${wEnd.getFullYear()}`
 
       buckets.push({
         name: label,
@@ -742,7 +741,7 @@ function generateChartData(
       const eDay = wEnd.getDate()
 
       const label = sm === em ? `${sm} ${sDay}–${eDay}` : `${sm} ${sDay} – ${em} ${eDay}`
-      const tooltip = `Woche ${i + 1}: ${sm} ${sDay} – ${em} ${eDay}, ${wEnd.getFullYear()}`
+      const tooltip = `Week ${i + 1}: ${sm} ${sDay} – ${em} ${eDay}, ${wEnd.getFullYear()}`
 
       buckets.push({
         name: label,
@@ -808,7 +807,7 @@ function generateChartData(
         const total = matching.reduce((sum, s) => sum + s.amount, 0)
         return {
           name: h.name,
-          tooltipLabel: `${h.name} (${matching.length} ${matching.length === 1 ? 'Bestellung' : 'Bestellungen'})`,
+          tooltipLabel: `${h.name} (${matching.length} ${matching.length === 1 ? 'Bestellung' : 'Orders'})`,
           total: Math.round(total * 100) / 100,
           count: matching.length,
         }
@@ -879,7 +878,7 @@ function generateChartData(
   return []
 }
 
-function CustomChartTooltip({ active, payload, label, currencySymbol = '€' }: any) {
+function CustomChartTooltip({ active, payload, label, currencySymbol = '₹' }: any) {
   if (active && payload && payload.length) {
     const item = payload[0].payload
     return (
@@ -892,16 +891,16 @@ function CustomChartTooltip({ active, payload, label, currencySymbol = '€' }: 
           <span className='text-muted-foreground'>Umsatzvolumen:</span>
           <span className='font-bold text-[#007934] dark:text-[#22c55e] tabular-nums'>
             {currencySymbol}
-            {Number(item.total || 0).toLocaleString('de-DE', {
+            {Number(item.total || 0).toLocaleString('en-IN', {
               minimumFractionDigits: 2,
               maximumFractionDigits: 2,
             })}
           </span>
         </div>
         <div className='flex items-center justify-between gap-3'>
-          <span className='text-muted-foreground'>Bestellungen:</span>
+          <span className='text-muted-foreground'>Orders:</span>
           <span className='font-semibold text-foreground tabular-nums'>
-            {item.count || 0} {item.count === 1 ? 'Bestellung' : 'Bestellungen'}
+            {item.count || 0} {item.count === 1 ? 'Bestellung' : 'Orders'}
           </span>
         </div>
       </div>
@@ -1244,14 +1243,14 @@ export function DashboardView({
           existing.latestOrderNumber = sale.orderNumber
         }
         if (sale.customerPhone && (!existing.phone || existing.phone === '–')) existing.phone = sale.customerPhone
-        if (sale.customerCountry && existing.country === 'Germany') existing.country = sale.customerCountry
+        if (sale.customerCountry && existing.country === 'India') existing.country = sale.customerCountry
         if (!existing.statuses.includes(sale.status)) existing.statuses.push(sale.status)
       } else {
         map.set(email, {
           email: sale.customerEmail || 'Guest Account',
           name: sale.customerName,
           phone: sale.customerPhone || '–',
-          country: sale.customerCountry || 'Germany',
+          country: sale.customerCountry || 'India',
           city: sale.customerCity || '–',
           address: sale.customerAddress || '–',
           ordersCount: 1,
@@ -1282,10 +1281,10 @@ export function DashboardView({
 
     for (const sale of salesInPeriod) {
       const items = (sale.items && sale.items.length > 0) ? sale.items : [{
-        name: 'IXOS Audio Product',
-        productName: 'IXOS Audio Product',
-        sku: 'IX-AUDIO',
-        partNumber: 'IX-AUDIO',
+        name: 'Wastram Apparel Product',
+        productName: 'Wastram Apparel Product',
+        sku: 'WST-APP',
+        partNumber: 'WST-APP',
         variant: 'Standard Spec',
         quantity: 1,
         unitPrice: sale.amount,
@@ -1309,8 +1308,8 @@ export function DashboardView({
           }
         } else {
           map.set(skuKey, {
-            sku: item.sku || item.partNumber || 'IX-AUDIO',
-            name: item.name || item.productName || 'IXOS Audio Part',
+            sku: item.sku || item.partNumber || 'WST-APP',
+            name: item.name || item.productName || 'Wastram Handcrafted Apparel',
             variant: item.variant || 'Standard Spec',
             unitsSold: qty,
             totalRevenue: itemRev,
@@ -1336,7 +1335,7 @@ export function DashboardView({
   }, [periodProductsSold])
 
   const periodUniqueCountriesCount = useMemo(() => {
-    const countries = new Set(salesInPeriod.map((s) => s.customerCountry || 'Germany'))
+    const countries = new Set(salesInPeriod.map((s) => s.customerCountry || 'India'))
     return Math.max(1, countries.size)
   }, [salesInPeriod])
 
@@ -1386,7 +1385,7 @@ export function DashboardView({
       'Bestellnummer',
       'Datum',
       'Uhrzeit',
-      'Kundenname',
+      'Customer Name',
       'E-Mail-Adresse',
       'Telefonnummer',
       'Lieferland',
@@ -1446,23 +1445,23 @@ export function DashboardView({
   // Download Customer Data CSV (filtered according to time period)
   const handleDownloadCustomersReport = useCallback(() => {
     if (periodCustomers.length === 0) {
-      alert(`Keine Kundenaktivität für ${activePeriodLabel} erfasst. Versuchen Sie einen anderen Zeitraum.`)
+      alert(`No customer activity recorded for ${activePeriodLabel}. Please try another period.`)
       return
     }
     const headers = [
-      'Kundenname',
+      'Customer Name',
       'E-Mail-Adresse',
       'Telefonnummer',
       'Lieferland',
       'Lieferstadt',
       'Lieferadresse',
-      'Bestellungen im Zeitraum',
+      'Orders in Period',
       'Gesamtausgaben im Zeitraum',
       'Währung',
       'Durchschn. Ausgaben pro Bestellung',
       'Letzte Bestellnummer',
-      'Letztes Bestelldatum',
-      'Kundenstatus',
+      'Latest Order Date',
+      'Customer Status',
       'Zeitraumfilter',
     ]
     const rows = periodCustomers.map((c) => {
@@ -1514,7 +1513,7 @@ export function DashboardView({
       'Gesamtes Verkaufsvolumen',
       'Währung',
       'Durchschn. Verkaufspreis',
-      'Zugehörige Bestellungen',
+      'Associated Orders',
       'Zugehörige Bestellnummern',
       'Letztes Verkaufsdatum',
       'Zeitraumfilter',
@@ -1560,7 +1559,7 @@ export function DashboardView({
     const headers = [
       'Bestellnummer',
       'Datum',
-      'Kundenname',
+      'Customer Name',
       'Zielland',
       'Region',
       'Steuerliche Einstufung',
@@ -1775,7 +1774,7 @@ export function DashboardView({
               size='sm'
               onClick={handleDownloadReport}
               className='h-8 text-xs cursor-pointer'
-              title='Zum Berichte-Reiter wechseln'
+              title='Export or view reports'
             >
               <Download className='w-3.5 h-3.5 me-1.5' />
               Bericht herunterladen
@@ -1788,12 +1787,11 @@ export function DashboardView({
           <div className='flex flex-wrap items-center gap-2.5 sm:gap-3'>
             <div className='overflow-x-auto'>
               <TabsList>
-                <TabsTrigger value='overview'>Übersicht</TabsTrigger>
-                <TabsTrigger value='analytics'>Analysen</TabsTrigger>
-                <TabsTrigger value='reports'>Berichte</TabsTrigger>
+                <TabsTrigger value='overview'>Overview</TabsTrigger>
+                <TabsTrigger value='analytics'>Analytics</TabsTrigger>
+                <TabsTrigger value='reports'>Reports</TabsTrigger>
                 <TabsTrigger value='notifications' className='relative'>
-                  Benachrichtigungen
-                  {unreadNotificationsCount > 0 && (
+                  Notifications {unreadNotificationsCount > 0 && (
                     <span className='ms-1.5 inline-flex items-center justify-center px-1.5 py-0.2 text-[10px] font-bold rounded-full bg-destructive text-destructive-foreground'>
                       {unreadNotificationsCount}
                     </span>
@@ -1811,7 +1809,7 @@ export function DashboardView({
                 >
                   <SelectTrigger className='w-[155px] h-9 text-xs font-medium bg-card border-border shadow-xs'>
                     <Calendar className='w-3.5 h-3.5 me-1.5 text-muted-foreground' />
-                    <SelectValue placeholder='Zeitraum auswählen' />
+                    <SelectValue placeholder='Select period' />
                   </SelectTrigger>
                   <SelectContent align='start'>
                     {FILTER_OPTIONS.map((f) => (
@@ -1832,11 +1830,11 @@ export function DashboardView({
                 <div className='flex items-center gap-2 flex-wrap sm:flex-nowrap'>
                   <div className='flex items-center gap-1.5 text-xs font-medium text-foreground shrink-0'>
                     <Calendar className='w-3.5 h-3.5 text-muted-foreground' />
-                    <span>Benutzerdefinierter Zeitraum:</span>
+                    <span>Custom Date Range:</span>
                   </div>
                   <div className='flex items-center gap-1.5 bg-muted/40 dark:bg-muted/20 border border-border/70 rounded-lg p-1 text-xs'>
                     <div className='flex items-center gap-1.5 px-1'>
-                      <span className='text-[11px] font-medium text-muted-foreground select-none'>Von</span>
+                      <span className='text-[11px] font-medium text-muted-foreground select-none'>From</span>
                       <Input
                         type='date'
                         value={customStartDate}
@@ -1846,7 +1844,7 @@ export function DashboardView({
                     </div>
                     <span className='text-muted-foreground/60 text-xs select-none'>–</span>
                     <div className='flex items-center gap-1.5 px-1'>
-                      <span className='text-[11px] font-medium text-muted-foreground select-none'>Bis</span>
+                      <span className='text-[11px] font-medium text-muted-foreground select-none'>To</span>
                       <Input
                         type='date'
                         value={customEndDate}
@@ -1868,7 +1866,7 @@ export function DashboardView({
                   }}
                   className='text-xs font-medium text-muted-foreground hover:text-foreground hover:underline transition-colors shrink-0 cursor-pointer ms-auto'
                 >
-                  Auf letzte 30 Tage zurücksetzen
+                  Reset to last 30 days
                 </button>
               </div>
             </div>
@@ -1879,13 +1877,13 @@ export function DashboardView({
             <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>Gesamtumsatz</CardTitle>
-                  <Euro className='h-4 w-4 text-muted-foreground' />
+                  <CardTitle className='text-sm font-medium'>Total Revenue</CardTitle>
+                  <span className='h-5 w-5 rounded-full bg-primary/10 text-primary font-bold text-xs flex items-center justify-center'>₹</span>
                 </CardHeader>
                 <CardContent>
                   <div className='text-3xl sm:text-4xl font-normal tracking-tight'>
                     {currencySymbol}
-                    {filteredRevenue.toLocaleString('de-DE', {
+                    {filteredRevenue.toLocaleString('en-IN', {
                       minimumFractionDigits: 2,
                       maximumFractionDigits: 2,
                     })}
@@ -1916,7 +1914,7 @@ export function DashboardView({
 
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>Verifizierte Verkäufe</CardTitle>
+                  <CardTitle className='text-sm font-medium'>Verified Orders</CardTitle>
                   <PackageCheck className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
@@ -1947,13 +1945,13 @@ export function DashboardView({
 
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>Durchschnittlicher Bestellwert</CardTitle>
+                  <CardTitle className='text-sm font-medium'>Average Order Value</CardTitle>
                   <CreditCard className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
                   <div className='text-3xl sm:text-4xl font-normal tracking-tight'>
                     {currencySymbol}
-                    {periodAverageOrderValue.toLocaleString('de-DE', {
+                    {periodAverageOrderValue.toLocaleString('en-IN', {
                       minimumFractionDigits: 2,
                       maximumFractionDigits: 2,
                     })}
@@ -1984,7 +1982,7 @@ export function DashboardView({
 
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>Verifizierte Kunden</CardTitle>
+                  <CardTitle className='text-sm font-medium'>Verified Customers</CardTitle>
                   <Users className='h-4 w-4 text-muted-foreground' />
                 </CardHeader>
                 <CardContent>
@@ -2019,18 +2017,18 @@ export function DashboardView({
               {/* Overview Graph Card with Real Data */}
               <Card className='col-span-1 lg:col-span-4 min-w-0'>
                 <CardHeader className='pb-3'>
-                  <CardTitle className='text-base font-semibold'>Übersicht</CardTitle>
+                  <CardTitle className='text-base font-semibold'>Revenue Overview</CardTitle>
                   <CardDescription className='text-xs mt-1 truncate'>
-                    Verifiziertes Umsatzvolumen:{' '}
+                    Verified Revenue Volume:{' '}
                     <span className='font-semibold text-[#007934] dark:text-[#22c55e]'>
                       {currencySymbol}
-                      {filteredRevenue.toLocaleString('de-DE', {
+                      {filteredRevenue.toLocaleString('en-IN', {
                         minimumFractionDigits: 2,
                         maximumFractionDigits: 2,
                       })}
                     </span>{' '}
                     <span className='text-muted-foreground'>
-                      ({filteredSalesCount} {filteredSalesCount === 1 ? 'Bestellung' : 'Bestellungen'} • {activePeriodLabel})
+                      ({filteredSalesCount} {filteredSalesCount === 1 ? 'Order' : 'Orders'} • {activePeriodLabel})
                     </span>
                   </CardDescription>
                 </CardHeader>
@@ -2041,10 +2039,10 @@ export function DashboardView({
                       <div className='absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-10'>
                         <div className='bg-background/85 backdrop-blur-xs px-4 py-2.5 rounded-xl border border-border/60 text-center shadow-xs'>
                           <p className='text-xs font-semibold text-foreground'>
-                            Keine verifizierten Verkäufe in diesem Zeitraum
+                            No verified orders in this period
                           </p>
                           <p className='text-[11px] text-muted-foreground mt-0.5'>
-                            Verifizierte Kundenbestellungen erscheinen automatisch hier
+                            Verified customer orders will automatically appear here
                           </p>
                         </div>
                       </div>
@@ -2095,13 +2093,11 @@ export function DashboardView({
                 <CardHeader>
                   <div className='flex items-center justify-between gap-2'>
                     <div>
-                      <CardTitle>Letzte Verkäufe</CardTitle>
+                      <CardTitle>Recent Sales</CardTitle>
                       <CardDescription>
                         {salesInPeriod.length > 0
-                          ? `Zeigt die neuesten ${Math.min(salesInPeriod.length, 5)} verifizierten ${
-                              salesInPeriod.length === 1 ? 'Verkauf' : 'Verkäufe'
-                            } (${activePeriodLabel}).`
-                          : `Keine verifizierten Verkäufe verzeichnet für ${activePeriodLabel.toLowerCase()}.`}
+                          ? `Showing latest ${Math.min(salesInPeriod.length, 5)} verified ${salesInPeriod.length === 1 ? 'order' : 'orders'} (${activePeriodLabel}).`
+                          : `No verified orders recorded for ${activePeriodLabel.toLowerCase()}.`}
                       </CardDescription>
                     </div>
                     {salesInPeriod.length > 0 && (
@@ -2111,7 +2107,7 @@ export function DashboardView({
                         onClick={() => onSelectTab('orders')}
                         className='text-xs text-muted-foreground hover:text-foreground h-8 px-2 cursor-pointer shrink-0'
                       >
-                        <span>Alle Bestellungen</span>
+                        <span>All Orders</span>
                         <ArrowUpRight className='w-3.5 h-3.5 ms-1' />
                       </Button>
                     )}
@@ -2127,7 +2123,7 @@ export function DashboardView({
                         Keine verifizierten Verkäufe für {activePeriodLabel.toLowerCase()}
                       </p>
                       <p className='text-xs text-muted-foreground max-w-xs mx-auto'>
-                        Über PayPal abgeschlossene Kundenkäufe erscheinen hier in Echtzeit.
+                        Customer orders and checkouts will appear here in real time.
                       </p>
                     </div>
                   ) : (
@@ -2144,7 +2140,7 @@ export function DashboardView({
                               handleRecentSaleClick(sale)
                             }
                           }}
-                          title={`Klicken, um Bestellung ${sale.orderNumber} anzuzeigen`}
+                          title={`Click to view order ${sale.orderNumber}`}
                           className='flex items-center justify-between gap-4 px-2.5 py-3 hover:bg-muted/50 dark:hover:bg-muted/30 rounded-xl transition-all duration-150 cursor-pointer group'
                         >
                           <div className='flex items-center gap-3.5 min-w-0'>
@@ -2164,14 +2160,14 @@ export function DashboardView({
                                 </span>
                               </div>
                               <p className='text-xs text-muted-foreground truncate'>
-                                {sale.customerEmail || 'Gastkäufer'}
+                                {sale.customerEmail || 'Guest Customer'}
                               </p>
                             </div>
                           </div>
                           <div className='flex items-center gap-2 shrink-0'>
                             <div className='font-semibold text-sm sm:text-base text-[#007934] dark:text-[#22c55e] tabular-nums tracking-tight text-right'>
                               +{currencySymbol}
-                              {sale.amount.toLocaleString('de-DE', {
+                              {sale.amount.toLocaleString('en-IN', {
                                 minimumFractionDigits: 2,
                                 maximumFractionDigits: 2,
                               })}
@@ -2191,18 +2187,18 @@ export function DashboardView({
             <div className='space-y-4'>
               <Card className='min-w-0'>
                 <CardHeader className='pb-3'>
-                  <CardTitle className='text-base font-semibold'>Umsatzvolumen-Trend</CardTitle>
+                  <CardTitle className='text-base font-semibold'>Revenue Volume Trend</CardTitle>
                   <CardDescription className='text-xs mt-1 truncate'>
-                    Verifizierter Bestellverlauf nach Zeitraum:{' '}
+                    Verified order trajectory by period:{' '}
                     <span className='font-semibold text-[#007934] dark:text-[#22c55e]'>
                       {currencySymbol}
-                      {filteredRevenue.toLocaleString('de-DE', {
+                      {filteredRevenue.toLocaleString('en-IN', {
                         minimumFractionDigits: 2,
                         maximumFractionDigits: 2,
                       })}
                     </span>{' '}
                     <span className='text-muted-foreground'>
-                      ({filteredSalesCount} {filteredSalesCount === 1 ? 'Bestellung' : 'Bestellungen'} • {activePeriodLabel})
+                      ({filteredSalesCount} {filteredSalesCount === 1 ? 'Order' : 'Orders'} • {activePeriodLabel})
                     </span>
                   </CardDescription>
                 </CardHeader>
@@ -2259,10 +2255,10 @@ export function DashboardView({
                   onClick={handleDownloadSalesReport}
                   disabled={salesInPeriod.length === 0}
                   className='h-8 text-xs cursor-pointer px-2.5'
-                  title={`Verkäufe für ${activePeriodLabel} herunterladen`}
+                  title={`Export orders for ${activePeriodLabel}`}
                 >
                   <Receipt className='w-3.5 h-3.5 me-1.5 text-emerald-600 dark:text-emerald-400 shrink-0' />
-                  Verkäufe (CSV)
+                  Orders (CSV)
                 </Button>
                 <Button
                   variant='outline'
@@ -2270,10 +2266,10 @@ export function DashboardView({
                   onClick={handleDownloadCustomersReport}
                   disabled={periodCustomers.length === 0}
                   className='h-8 text-xs cursor-pointer px-2.5'
-                  title={`Kunden für ${activePeriodLabel} herunterladen`}
+                  title={`Export customers for ${activePeriodLabel}`}
                 >
                   <Users className='w-3.5 h-3.5 me-1.5 text-blue-600 dark:text-blue-400 shrink-0' />
-                  Kunden (CSV)
+                  Customers (CSV)
                 </Button>
                 <Button
                   variant='outline'
@@ -2284,14 +2280,14 @@ export function DashboardView({
                   title={`Verkaufte Produkte für ${activePeriodLabel} herunterladen`}
                 >
                   <Package className='w-3.5 h-3.5 me-1.5 text-amber-600 dark:text-amber-400 shrink-0' />
-                  Verkaufte Produkte (CSV)
+                  Verkaufte Products (CSV)
                 </Button>
                 <Button
                   size='sm'
                   onClick={handleDownloadAllReports}
                   disabled={salesInPeriod.length === 0}
                   className='h-8 text-xs cursor-pointer px-3 bg-primary text-primary-foreground hover:bg-primary/90'
-                  title={`Alle Berichte für ${activePeriodLabel} herunterladen`}
+                  title={`Export complete reports for ${activePeriodLabel}`}
                 >
                   <Download className='w-3.5 h-3.5 me-1.5 shrink-0' />
                   Alle exportieren
@@ -2315,7 +2311,7 @@ export function DashboardView({
                       type='button'
                       onClick={() => onSelectTab('orders')}
                       className='text-muted-foreground/60 hover:text-foreground transition-colors p-1 cursor-pointer'
-                      title='In Bestellungen ansehen'
+                      title='View in Orders'
                     >
                       <ArrowUpRight className='w-3.5 h-3.5' />
                     </button>
@@ -2325,7 +2321,7 @@ export function DashboardView({
                       {currencySymbol}{filteredRevenue.toFixed(2)}
                     </div>
                     <p className='text-[11px] text-muted-foreground mt-0.5 truncate'>
-                      {filteredSalesCount} {filteredSalesCount === 1 ? 'verifizierte Bestellung' : 'verifizierte Bestellungen'} in {activePeriodLabel.toLowerCase()}
+                      {filteredSalesCount} {filteredSalesCount === 1 ? 'verified order' : 'verified orders'} in {activePeriodLabel.toLowerCase()}
                     </p>
                   </div>
                 </div>
@@ -2349,13 +2345,13 @@ export function DashboardView({
                       <div className='w-7 h-7 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0'>
                         <Users className='w-3.5 h-3.5' />
                       </div>
-                      <span className='text-xs font-semibold text-foreground tracking-tight'>Kundendaten</span>
+                      <span className='text-xs font-semibold text-foreground tracking-tight'>Customer Data</span>
                     </div>
                     <button
                       type='button'
                       onClick={() => onSelectTab('customers')}
                       className='text-muted-foreground/60 hover:text-foreground transition-colors p-1 cursor-pointer'
-                      title='In Kunden ansehen'
+                      title='View in Customers'
                     >
                       <ArrowUpRight className='w-3.5 h-3.5' />
                     </button>
@@ -2389,7 +2385,7 @@ export function DashboardView({
                       <div className='w-7 h-7 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0'>
                         <Package className='w-3.5 h-3.5' />
                       </div>
-                      <span className='text-xs font-semibold text-foreground tracking-tight'>Verkaufte Produkte</span>
+                      <span className='text-xs font-semibold text-foreground tracking-tight'>Products Sold</span>
                     </div>
                     <button
                       type='button'
@@ -2856,7 +2852,7 @@ export function DashboardView({
                     { id: 'all', label: 'Alle', count: allNotifications.length },
                     {
                       id: 'orders',
-                      label: 'Bestellungen',
+                      label: 'Orders',
                       count: allNotifications.filter((n) => n.category === 'orders').length,
                     },
                     {

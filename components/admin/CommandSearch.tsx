@@ -31,21 +31,21 @@ interface CommandSearchProps {
 }
 
 const NAV_COMMANDS = [
-  { id: 'overview', title: 'Übersicht', group: 'Allgemein', icon: LayoutDashboard },
-  { id: 'orders', title: 'Bestellungen', group: 'Allgemein', icon: ShoppingBag },
-  { id: 'customers', title: 'Kunden', group: 'Allgemein', icon: Users },
-  { id: 'products', title: 'Produkte', group: 'Shop & Lager', icon: Box },
-  { id: 'inventory', title: 'Inventar', group: 'Shop & Lager', icon: Boxes },
-  { id: 'categories', title: 'Kategorien', group: 'Shop & Lager', icon: Layers },
-  { id: 'discounts', title: 'Rabatte', group: 'Shop & Lager', icon: Percent },
-  { id: 'reviews', title: 'Bewertungen', group: 'Shop & Lager', icon: Star },
-  { id: 'api-keys', title: 'API-Schlüssel', group: 'Sonstiges', icon: KeyRound },
-  { id: 'store-settings', title: 'Shop-Einstellungen', group: 'Sonstiges', icon: Store },
-  { id: 'settings-profile', title: 'Profil-Einstellungen', group: 'Einstellungen', icon: Settings },
-  { id: 'settings-account', title: 'Konto-Einstellungen', group: 'Einstellungen', icon: Settings },
-  { id: 'settings-appearance', title: 'Erscheinungsbild', group: 'Einstellungen', icon: Settings },
-  { id: 'settings-notifications', title: 'Benachrichtigungen', group: 'Einstellungen', icon: Settings },
-  { id: 'settings-display', title: 'Anzeige-Optionen', group: 'Einstellungen', icon: Settings },
+  { id: 'overview', title: 'Dashboard', group: 'General', icon: LayoutDashboard },
+  { id: 'orders', title: 'Orders', group: 'General', icon: ShoppingBag },
+  { id: 'customers', title: 'Customers', group: 'General', icon: Users },
+  { id: 'products', title: 'Products', group: 'Store & Catalog', icon: Box },
+  { id: 'inventory', title: 'Inventory', group: 'Store & Catalog', icon: Boxes },
+  { id: 'categories', title: 'Categories', group: 'Store & Catalog', icon: Layers },
+  { id: 'discounts', title: 'Discounts', group: 'Store & Catalog', icon: Percent },
+  { id: 'reviews', title: 'Reviews', group: 'Store & Catalog', icon: Star },
+  { id: 'api-keys', title: 'API Keys', group: 'Settings', icon: KeyRound },
+  { id: 'store-settings', title: 'Store Settings', group: 'Settings', icon: Store },
+  { id: 'settings-profile', title: 'Profile Settings', group: 'Settings', icon: Settings },
+  { id: 'settings-account', title: 'Account Settings', group: 'Settings', icon: Settings },
+  { id: 'settings-appearance', title: 'Appearance', group: 'Settings', icon: Settings },
+  { id: 'settings-notifications', title: 'Notifications', group: 'Settings', icon: Settings },
+  { id: 'settings-display', title: 'Display Options', group: 'Settings', icon: Settings },
 ]
 
 export function CommandSearch({ onSelectTab }: CommandSearchProps) {
@@ -87,72 +87,80 @@ export function CommandSearch({ onSelectTab }: CommandSearchProps) {
       >
         <Search
           aria-hidden='true'
-          className='absolute inset-s-1.5 top-1/2 -translate-y-1/2 opacity-70'
+          className='absolute start-2 top-1/2 -translate-y-1/2 opacity-70'
           size={16}
         />
-        <span className='ms-4'>Suchen</span>
+        <span className='ms-4'>Search...</span>
       </Button>
 
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className='max-w-xl p-0 gap-0 overflow-hidden rounded-xl'>
           <DialogHeader className='p-0 border-b border-border'>
-            <DialogTitle className='sr-only'>Befehlsmenü</DialogTitle>
+            <DialogTitle className='sr-only'>Command Menu</DialogTitle>
             <div className='flex items-center px-4 py-3 gap-2.5'>
-              <Search className='h-4 w-4 text-muted-foreground shrink-0' />
+              <Search className='size-4 text-muted-foreground shrink-0' />
               <input
                 type='text'
+                placeholder='Search modules, tabs, or settings... (ESC to close)'
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder='Befehl eingeben oder suchen...'
-                className='w-full bg-transparent text-sm text-foreground placeholder:text-muted-foreground outline-none font-medium'
+                className='w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground'
                 autoFocus
               />
+              <kbd className='rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground'>
+                ESC
+              </kbd>
             </div>
           </DialogHeader>
 
-          <div className='max-h-80 overflow-y-auto p-2 space-y-1'>
+          <div className='max-h-80 overflow-y-auto p-2'>
             {filtered.length === 0 ? (
               <div className='py-8 text-center text-xs text-muted-foreground'>
-                Keine passenden Ergebnisse gefunden.
+                No matching navigation targets found.
               </div>
             ) : (
-              filtered.map((item) => {
-                const Icon = item.icon
-                return (
-                  <button
-                    key={item.id}
-                    type='button'
-                    onClick={() => handleSelect(item.id)}
-                    className='w-full flex items-center justify-between p-2.5 rounded-lg text-left text-xs hover:bg-accent transition-colors group cursor-pointer'
-                  >
-                    <div className='flex items-center gap-2.5 min-w-0'>
-                      <div className='w-7 h-7 rounded-md bg-muted flex items-center justify-center text-muted-foreground group-hover:text-primary group-hover:bg-primary/10 transition-colors shrink-0'>
-                        <Icon className='w-3.5 h-3.5' />
+              <div className='space-y-3'>
+                {['General', 'Store & Catalog', 'Settings'].map((group) => {
+                  const items = filtered.filter((c) => c.group === group)
+                  if (items.length === 0) return null
+
+                  return (
+                    <div key={group} className='space-y-1'>
+                      <div className='px-2 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground/70'>
+                        {group}
                       </div>
-                      <div className='min-w-0'>
-                        <p className='font-semibold text-foreground truncate'>{item.title}</p>
-                        <p className='text-[10px] text-muted-foreground font-mono'>{item.group}</p>
+                      <div className='space-y-0.5'>
+                        {items.map((item) => (
+                          <button
+                            key={item.id}
+                            type='button'
+                            onClick={() => handleSelect(item.id)}
+                            className='flex w-full items-center justify-between gap-2 rounded-lg px-2.5 py-2 text-xs font-medium text-foreground hover:bg-accent cursor-pointer transition-colors text-start'
+                          >
+                            <div className='flex items-center gap-2.5'>
+                              <item.icon className='size-4 text-muted-foreground' />
+                              <span>{item.title}</span>
+                            </div>
+                            <ArrowRight className='size-3 text-muted-foreground/60' />
+                          </button>
+                        ))}
                       </div>
                     </div>
-                    <ArrowRight className='w-3.5 h-3.5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0' />
-                  </button>
-                )
-              })
+                  )
+                })}
+              </div>
             )}
+          </div>
 
-            <div className='pt-2 border-t border-border/60 mt-2'>
-              <a
-                href='/'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='w-full flex items-center justify-between p-2 rounded-lg text-xs text-muted-foreground hover:text-foreground hover:bg-accent transition-colors'
-              >
-                <div className='flex items-center gap-2'>
-                  <ExternalLink className='w-3.5 h-3.5' />
-                  <span>Online-Shop in neuem Tab öffnen</span>
-                </div>
-                <span className='text-[10px] font-mono'>ixosweb.vercel.app ↗</span>
-              </a>
+          <div className='flex items-center justify-between border-t border-border bg-muted/40 px-3 py-2 text-[11px] text-muted-foreground'>
+            <span>Navigation shortcut</span>
+            <div className='flex items-center gap-1'>
+              <kbd className='rounded bg-background px-1.5 py-0.5 text-[10px] font-medium border border-border shadow-2xs'>
+                Ctrl
+              </kbd>
+              <kbd className='rounded bg-background px-1.5 py-0.5 text-[10px] font-medium border border-border shadow-2xs'>
+                K
+              </kbd>
             </div>
           </div>
         </DialogContent>

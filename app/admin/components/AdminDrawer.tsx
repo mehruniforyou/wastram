@@ -27,7 +27,7 @@ export default function AdminDrawer({
   footer,
   maxWidthClass = "max-w-5xl",
   containerId,
-  backLabel = "Zurück zur Übersicht",
+  backLabel = "Zurück zur Overview",
 }: AdminDrawerProps) {
   // Lock body scroll and register Escape key listener
   useEffect(() => {
@@ -93,7 +93,7 @@ export default function AdminDrawer({
               type="button"
               onClick={onClose}
               className="w-8 h-8 rounded-full hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center transition-colors cursor-pointer shrink-0"
-              aria-label="Schließen"
+              aria-label="Close"
             >
               <X size={18} />
             </button>
@@ -161,7 +161,7 @@ export default function AdminDrawer({
                 type="button"
                 onClick={onClose}
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted text-xs font-medium transition-colors cursor-pointer"
-                title="Schließen (Esc)"
+                title="Close (Esc)"
               >
                 <span className="text-[10px] font-mono border border-border rounded px-1.5 py-0.5 text-muted-foreground">ESC</span>
                 <X className="w-4 h-4" />

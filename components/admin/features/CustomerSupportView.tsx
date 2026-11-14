@@ -100,7 +100,7 @@ export function CustomerSupportView({
       }
     } catch (err: any) {
       console.warn('[CustomerSupportView] Fetch error:', err)
-      notifyAdmin('error', 'Fehler beim Laden', 'Support-Tickets konnten nicht geladen werden.')
+      notifyAdmin('error', 'Loading Error', 'Support tickets could not be loaded.')
     } finally {
       setLoading(false)
       setRefreshing(false)
@@ -132,7 +132,7 @@ export function CustomerSupportView({
         return (
           <span className='inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-100 text-blue-800 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-300 dark:border-blue-700'>
             <span className='size-1.5 rounded-full bg-blue-500' />
-            In Bearbeitung
+            In Progress
           </span>
         )
       case 'resolved':
@@ -145,7 +145,7 @@ export function CustomerSupportView({
       case 'closed':
         return (
           <span className='inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-neutral-100 text-neutral-700 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-300 dark:border-neutral-700'>
-            Geschlossen
+            Closed
           </span>
         )
       default:
@@ -368,7 +368,7 @@ export function CustomerSupportView({
     const url = URL.createObjectURL(blob)
     const link = document.createElement('a')
     link.href = url
-    link.setAttribute('download', `ixos-support-tickets-${new Date().toISOString().split('T')[0]}.csv`)
+    link.setAttribute('download', `wastram-support-tickets-${new Date().toISOString().split('T')[0]}.csv`)
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -395,7 +395,7 @@ export function CustomerSupportView({
               </h2>
               {stats.open > 0 && (
                 <span className='px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500 text-white animate-pulse'>
-                  {stats.open} {stats.open === 1 ? 'offenes Ticket' : 'offene Tickets'}
+                  {stats.open} {stats.open === 1 ? 'Open Ticket' : 'Open Tickets'}
                 </span>
               )}
             </div>
@@ -482,7 +482,7 @@ export function CustomerSupportView({
             }`}
           >
             <div className='flex items-center justify-between text-blue-600 dark:text-blue-400 text-xs font-bold uppercase'>
-              <span>In Bearbeitung</span>
+              <span>In Progress</span>
               <Clock size={15} />
             </div>
             <p className='text-2xl sm:text-3xl font-mono font-black mt-1 text-blue-600 dark:text-blue-400'>
@@ -540,10 +540,10 @@ export function CustomerSupportView({
               className='h-9 px-3 rounded-lg border-2 border-border bg-background text-xs font-medium cursor-pointer focus:outline-none focus:border-[#3628e6]'
             >
               <option value='all'>Alle Status ({tickets.length})</option>
-              <option value='open'>Nur Offene ({stats.open})</option>
-              <option value='in_progress'>In Bearbeitung ({stats.inProgress})</option>
+              <option value='open'>Open Only ({stats.open})</option>
+              <option value='in_progress'>In Progress ({stats.inProgress})</option>
               <option value='resolved'>Gelöst ({stats.resolved})</option>
-              <option value='closed'>Geschlossen ({stats.closed})</option>
+              <option value='closed'>Closed ({stats.closed})</option>
             </select>
           </div>
 
@@ -572,18 +572,18 @@ export function CustomerSupportView({
           {loading ? (
             <div className='py-16 text-center text-muted-foreground space-y-2'>
               <RefreshCw className='size-6 animate-spin mx-auto text-[#3628e6]' />
-              <p className='text-xs font-medium'>Support-Tickets werden geladen...</p>
+              <p className='text-xs font-medium'>Loading support tickets...</p>
             </div>
           ) : filteredTickets.length === 0 ? (
             <div className='py-16 text-center text-muted-foreground space-y-3 px-4'>
               <div className='w-12 h-12 rounded-xl bg-muted border border-border flex items-center justify-center mx-auto text-muted-foreground'>
                 <Headphones size={22} />
               </div>
-              <h3 className='text-base font-bold text-foreground'>Keine Support-Tickets gefunden</h3>
+              <h3 className='text-base font-bold text-foreground'>No support tickets found</h3>
               <p className='text-xs max-w-sm mx-auto'>
                 {searchTerm || statusFilter !== 'all' || categoryFilter !== 'all'
-                  ? 'Keine Tickets stimmen mit Ihren Filterkriterien überein.'
-                  : 'Aktuell sind noch keine Support-Tickets eingegangen. Neue Anfragen von der Kontaktseite erscheinen sofort hier.'}
+                  ? 'No tickets match your filter criteria.'
+                  : 'No customer support inquiries yet. Inquiries from the contact page will appear here immediately.'}
               </p>
               {(searchTerm || statusFilter !== 'all' || categoryFilter !== 'all') && (
                 <Button
@@ -691,7 +691,7 @@ export function CustomerSupportView({
                                 className='gap-2 cursor-pointer'
                               >
                                 <span className='size-2 rounded-full bg-blue-500' />
-                                In Bearbeitung
+                                In Progress
                               </DropdownMenuItem>
                               <DropdownMenuItem
                                 onClick={() => handleUpdateStatus(ticket.id, 'resolved')}
@@ -705,7 +705,7 @@ export function CustomerSupportView({
                                 className='gap-2 cursor-pointer'
                               >
                                 <span className='size-2 rounded-full bg-neutral-400' />
-                                Geschlossen
+                                Closed
                               </DropdownMenuItem>
                             </DropdownMenuContent>
                           </DropdownMenu>
@@ -915,9 +915,9 @@ export function CustomerSupportView({
                     className='w-full h-8 px-2.5 rounded-md border border-border bg-background text-xs font-semibold cursor-pointer'
                   >
                     <option value='open'>Offen</option>
-                    <option value='in_progress'>In Bearbeitung</option>
+                    <option value='in_progress'>In Progress</option>
                     <option value='resolved'>Gelöst</option>
-                    <option value='closed'>Geschlossen</option>
+                    <option value='closed'>Closed</option>
                   </select>
                 </div>
 

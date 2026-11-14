@@ -170,7 +170,7 @@ export default function AddSampleOrderModal({
     0
   );
   const total = Math.max(0, subtotal + Number(shippingFee || 0) - Number(discount || 0));
-  const currencySymbol = currency === "EUR" ? "€" : currency === "GBP" ? "£" : currency === "INR" ? "₹" : "$";
+  const currencySymbol = currency === "EUR" ? "₹" : currency === "GBP" ? "£" : currency === "INR" ? "₹" : "$";
 
   const getProductsForCategory = (catId: string) => {
     const cat = categories.find((c) => c.id === catId);
@@ -330,11 +330,11 @@ export default function AddSampleOrderModal({
     setErrorMsg("");
 
     if (!customerName.trim()) {
-      setErrorMsg("Kundenname ist erforderlich.");
+      setErrorMsg("Customer Name ist erforderlich.");
       return;
     }
     if (!customerEmail.trim()) {
-      setErrorMsg("E-Mail-Adresse des Kunden ist erforderlich.");
+      setErrorMsg("Email Address des Kunden ist erforderlich.");
       return;
     }
     if (!city.trim() || !country.trim()) {
@@ -525,7 +525,7 @@ export default function AddSampleOrderModal({
                   value={currency}
                   onChange={(val) => setCurrency(val as string)}
                   options={[
-                    { value: "EUR", label: "EUR (€) – Eurozone / Shop-Standard" },
+                    { value: "EUR", label: "EUR (₹) – Eurozone / Shop-Standard" },
                     { value: "USD", label: "USD ($) – US-Dollar" },
                     { value: "GBP", label: "GBP (£) – Großbritannien" },
                     { value: "INR", label: "INR (₹) – Indien" }
@@ -560,7 +560,7 @@ export default function AddSampleOrderModal({
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
-                <label className={labelClass}>Vollständiger Kundenname *</label>
+                <label className={labelClass}>Vollständiger Customer Name *</label>
                 <input
                   type="text"
                   required
@@ -581,7 +581,7 @@ export default function AddSampleOrderModal({
                 />
               </div>
               <div>
-                <label className={labelClass}>E-Mail-Adresse *</label>
+                <label className={labelClass}>Email Address *</label>
                 <input
                   type="email"
                   required
@@ -871,7 +871,7 @@ export default function AddSampleOrderModal({
                               }
                               options={selectedProd.variants.map((v) => ({
                                 value: v.name,
-                                label: `${v.name} ${v.price ? `(${v.price} €)` : ""}`
+                                label: `${v.name} ${v.price ? `(${v.price} ₹)` : ""}`
                               }))}
                               variant="form"
                             />
@@ -957,7 +957,7 @@ export default function AddSampleOrderModal({
                   options={[
                     { value: "Paid", label: "Vollständig bezahlt", badge: "Bezahlt", badgeColor: "bg-emerald-500/10 text-emerald-600 border border-emerald-500/20" },
                     { value: "Pending", label: "Zahlung ausstehend", badge: "Ausstehend", badgeColor: "bg-amber-500/10 text-amber-600 border border-amber-500/20" },
-                    { value: "Complimentary", label: "Kostenloses Muster (0 €)", badge: "Kostenlos", badgeColor: "bg-blue-500/10 text-blue-600 border border-blue-500/20" }
+                    { value: "Complimentary", label: "Kostenloses Muster (0 ₹)", badge: "Kostenlos", badgeColor: "bg-blue-500/10 text-blue-600 border border-blue-500/20" }
                   ]}
                   variant="form"
                 />

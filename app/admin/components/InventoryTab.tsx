@@ -503,7 +503,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         <div>
           <div className="flex items-center gap-2.5">
             <h1 className="text-3xl sm:text-4xl font-heading font-black tracking-tight text-black">
-              Inventar &amp; Lagerbestand
+              Inventory &amp; Stock Levels
             </h1>
             <Badge variant="outline" className="border-neutral-300 text-neutral-600 font-mono text-xs">
               {metrics.totalCount} Artikel
@@ -831,7 +831,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                     </div>
                   </th>
                   <th className="py-3.5 px-4 font-heading font-bold uppercase tracking-wider text-[11px] text-center">
-                    Mindestbestand
+                    Low Stock Threshold
                   </th>
                   <th
                     onClick={() => handleSort("status")}
@@ -1141,7 +1141,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                                 {renderStatusBadge(vEffectiveStatus)}
                               </td>
                               <td className="py-2.5 px-4 text-right text-neutral-400 text-[11px]">
-                                {variant.price !== null && `€${variant.price.toFixed(2)}`}
+                                {variant.price !== null && `₹${variant.price.toFixed(2)}`}
                               </td>
                             </tr>
                           );
@@ -1237,7 +1237,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             {/* Low-stock Threshold Input */}
             <div className="space-y-2">
               <label className="text-xs font-heading font-bold uppercase tracking-wider text-neutral-700">
-                Mindestbestand-Schwellenwert (Warnsignal)
+                Low Stock Threshold-Schwellenwert (Warnsignal)
               </label>
               <input
                 type="number"

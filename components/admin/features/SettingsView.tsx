@@ -50,11 +50,11 @@ interface SettingsViewProps {
 }
 
 const navItems = [
-  { id: 'profile', title: 'Profil', icon: UserCog },
-  { id: 'account', title: 'Konto', icon: Wrench },
-  { id: 'appearance', title: 'Erscheinungsbild', icon: Palette },
-  { id: 'notifications', title: 'Benachrichtigungen', icon: Bell },
-  { id: 'display', title: 'Anzeige', icon: Monitor },
+  { id: 'profile', title: 'Profile', icon: UserCog },
+  { id: 'account', title: 'Account', icon: Wrench },
+  { id: 'appearance', title: 'Appearance', icon: Palette },
+  { id: 'notifications', title: 'Notifications', icon: Bell },
+  { id: 'display', title: 'Display', icon: Monitor },
   { id: 'api-keys', title: 'API-Schlüssel', icon: KeyRound },
 ]
 
@@ -135,7 +135,7 @@ function SubTabHeader({
           ) : (
             <>
               <Save className='w-3.5 h-3.5' />
-              <span>Änderungen speichern</span>
+              <span>Save Changes</span>
             </>
           )}
         </Button>
@@ -200,9 +200,9 @@ function ProfileTab() {
       setSaveSuccess(true)
       setIsEditing(false)
       setTimeout(() => setSaveSuccess(false), 3500)
-      notifyAdmin('success', 'Profil gespeichert', 'Admin-Profildetails wurden erfolgreich gespeichert.')
+      notifyAdmin('success', 'Profile Saved', 'Admin profile details saved successfully.')
     } catch (err: any) {
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Profil konnte nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Profile could not be saved.')
     } finally {
       setSaving(false)
     }
@@ -211,8 +211,8 @@ function ProfileTab() {
   return (
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
-        title='Admin-Profil'
-        description='Verwalten Sie den Anzeigenamen des Administrators, die Kontakt-E-Mail und Biografie-Angaben.'
+        title='Admin Profile'
+        description='Manage administrator display name, contact email, and bio details.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
         onSave={() => handleSave()}
@@ -223,13 +223,13 @@ function ProfileTab() {
       {saveSuccess && (
         <div className='p-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
           <CheckCircle2 className='w-4 h-4 shrink-0' />
-          <span>Profiländerungen gespeichert und synchronisiert!</span>
+          <span>Profile changes saved and synchronized!</span>
         </div>
       )}
 
       <div className='space-y-4 rounded-xl border border-border p-5 bg-card'>
         <div className='space-y-2'>
-          <Label htmlFor='username' className='text-xs font-semibold'>Anzeigename / Administratorname</Label>
+          <Label htmlFor='username' className='text-xs font-semibold'>Display Name / Admin Name</Label>
           <Input
             id='username'
             value={username}
@@ -315,7 +315,7 @@ function ProfileTab() {
           className='cursor-pointer text-xs h-9 gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black shadow-2xs'
         >
           {saving ? <Loader2 className='w-3.5 h-3.5 animate-spin' /> : <Save className='w-3.5 h-3.5' />}
-          <span>Profil speichern</span>
+          <span>Save Profile</span>
         </Button>
       </div>
     </form>
@@ -390,7 +390,7 @@ function AccountTab() {
       setSaveSuccess(true)
       setIsEditing(false)
       setTimeout(() => setSaveSuccess(false), 3500)
-      notifyAdmin('success', 'Konto gespeichert', 'Shop- und Kontoeinstellungen aktualisiert.')
+      notifyAdmin('success', 'Account Saved', 'Store and account settings updated.')
     } catch (err: any) {
       notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Kontoeinstellungen konnten nicht gespeichert werden.')
     } finally {
@@ -401,7 +401,7 @@ function AccountTab() {
   return (
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
-        title='Shop-Konto &amp; Rechtliche Angaben'
+        title='Store Account &amp; Legal Details'
         description='Konfigurieren Sie Firmennamen, Werkstattkontakt, Steuersätze und Betriebsdaten.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
@@ -484,7 +484,7 @@ function AccountTab() {
           </div>
 
           <div className='space-y-1.5'>
-            <Label className='text-xs font-semibold'>Mindestbestellwert für kostenlosen Versand (€)</Label>
+            <Label className='text-xs font-semibold'>Minimum Order for Free Shipping (₹)</Label>
             <Input
               type='text'
               inputMode='decimal'
@@ -509,7 +509,9 @@ function AccountTab() {
                 <SelectValue placeholder='Währung auswählen' />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value='EUR'>EUR (€) – Euro</SelectItem>
+                <SelectItem value='INR'>INR (₹) – Indian Rupee</SelectItem>
+                      <SelectItem value='USD'>USD ($) – US Dollar</SelectItem>
+                      <SelectItem value='EUR'>EUR (€) – Euro</SelectItem>
                 <SelectItem value='USD'>USD ($) – US-Dollar</SelectItem>
                 <SelectItem value='GBP'>GBP (£) – Britisches Pfund</SelectItem>
               </SelectContent>
@@ -528,7 +530,7 @@ function AccountTab() {
           className='cursor-pointer text-xs h-9 gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black shadow-2xs'
         >
           {saving ? <Loader2 className='w-3.5 h-3.5 animate-spin' /> : <Save className='w-3.5 h-3.5' />}
-          <span>Kontodetails speichern</span>
+          <span>Save Account Details</span>
         </Button>
       </div>
     </form>
@@ -576,7 +578,7 @@ function AppearanceTab() {
       setSaveSuccess(true)
       setIsEditing(false)
       setTimeout(() => setSaveSuccess(false), 3500)
-      notifyAdmin('success', 'Erscheinungsbild gespeichert', 'Design- und Schriftart-Einstellungen aktualisiert.')
+      notifyAdmin('success', 'Appearance Saved', 'Theme and font settings updated.')
     } catch (err: any) {
       notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Erscheinungsbild konnte nicht gespeichert werden.')
     } finally {
@@ -587,7 +589,7 @@ function AppearanceTab() {
   return (
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
-        title='Erscheinungsbild'
+        title='Appearance'
         description='Passen Sie Dashboard-Farbschema, Typografie und visuelle Einstellungen an.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
@@ -663,7 +665,7 @@ function AppearanceTab() {
           className='cursor-pointer text-xs h-9 gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black shadow-2xs'
         >
           {saving ? <Loader2 className='w-3.5 h-3.5 animate-spin' /> : <Save className='w-3.5 h-3.5' />}
-          <span>Erscheinungsbild speichern</span>
+          <span>Save Appearance</span>
         </Button>
       </div>
     </form>
@@ -712,7 +714,7 @@ function NotificationsTab() {
       setSaveSuccess(true)
       setIsEditing(false)
       setTimeout(() => setSaveSuccess(false), 3500)
-      notifyAdmin('success', 'Benachrichtigungen gespeichert', 'Benachrichtigungseinstellungen aktualisiert.')
+      notifyAdmin('success', 'Notifications Saved', 'Notification preferences updated.')
     } catch (err: any) {
       notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Benachrichtigungen konnten nicht gespeichert werden.')
     } finally {
@@ -723,7 +725,7 @@ function NotificationsTab() {
   return (
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
-        title='Benachrichtigungen'
+        title='Notifications'
         description='Wählen Sie, wie und wann Sie Bestell-, Lager- und Kundenbenachrichtigungen erhalten.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
@@ -802,7 +804,7 @@ function NotificationsTab() {
           className='cursor-pointer text-xs h-9 gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black shadow-2xs'
         >
           {saving ? <Loader2 className='w-3.5 h-3.5 animate-spin' /> : <Save className='w-3.5 h-3.5' />}
-          <span>Benachrichtigungen speichern</span>
+          <span>Save Notifications</span>
         </Button>
       </div>
     </form>
@@ -852,7 +854,7 @@ function DisplayTab() {
       setSaveSuccess(true)
       setIsEditing(false)
       setTimeout(() => setSaveSuccess(false), 3500)
-      notifyAdmin('success', 'Anzeige gespeichert', 'Anzeige- und Modulsichtbarkeit gespeichert.')
+      notifyAdmin('success', 'Display Saved', 'Display visibility settings saved.')
     } catch (err: any) {
       notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Anzeigeeinstellungen konnten nicht gespeichert werden.')
     } finally {
@@ -863,7 +865,7 @@ function DisplayTab() {
   return (
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
-        title='Anzeige &amp; Navigation'
+        title='Display &amp; Navigation'
         description='Konfigurieren Sie Standard-Tabellenzeilen und sichtbare Verwaltungsmodule.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
@@ -927,7 +929,7 @@ function DisplayTab() {
           className='cursor-pointer text-xs h-9 gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black shadow-2xs'
         >
           {saving ? <Loader2 className='w-3.5 h-3.5 animate-spin' /> : <Save className='w-3.5 h-3.5' />}
-          <span>Anzeige speichern</span>
+          <span>Save Display</span>
         </Button>
       </div>
     </form>
@@ -1096,7 +1098,9 @@ function ApiKeysTab() {
                 <SelectValue placeholder='Währung auswählen' />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value='EUR'>EUR (€) – Euro</SelectItem>
+                <SelectItem value='INR'>INR (₹) – Indian Rupee</SelectItem>
+                      <SelectItem value='USD'>USD ($) – US Dollar</SelectItem>
+                      <SelectItem value='EUR'>EUR (€) – Euro</SelectItem>
                 <SelectItem value='USD'>USD ($) – US-Dollar</SelectItem>
                 <SelectItem value='GBP'>GBP (£) – Britisches Pfund</SelectItem>
               </SelectContent>

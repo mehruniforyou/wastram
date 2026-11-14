@@ -123,7 +123,7 @@ export function OrderDetailDrawer({
       ];
 
   const totalAmount = Number(order.total || 0);
-  const currencySymbol = order.currency === "USD" ? "$" : order.currency === "GBP" ? "£" : "€";
+  const currencySymbol = order.currency === "USD" ? "$" : order.currency === "GBP" ? "£" : "₹";
 
   const copyToClipboard = (text: string, fieldName: string) => {
     if (!text) return;
@@ -143,12 +143,12 @@ export function OrderDetailDrawer({
   })();
 
   const statusDisplayMap: Record<string, string> = {
-    "New Orders": "Neue Bestellung",
+    "New Orders": "New Order",
     "Courier Assigned": "Kurier zugewiesen",
-    "In Transit": "Auf dem Versandweg",
+    "In Transit": "In Transit",
     "Shipped": "Versendet",
-    "Delivered": "Zugestellt",
-    "Cancelled": "Storniert",
+    "Delivered": "Delivered",
+    "Cancelled": "Cancelled",
   };
 
   const getNextStage = (status: string) => {
@@ -157,7 +157,7 @@ export function OrderDetailDrawer({
       case "Payment Confirmed":
         return { label: "Zu 'Kurier zugewiesen' wechseln", next: "Courier Assigned" };
       case "Courier Assigned":
-        return { label: "Zu 'Auf dem Versandweg' wechseln", next: "In Transit" };
+        return { label: "Mark as 'In Transit'", next: "In Transit" };
       case "In Transit":
       case "Shipped":
         return { label: "Als 'Zugestellt' markieren", next: "Delivered" };
@@ -220,7 +220,7 @@ export function OrderDetailDrawer({
                 type="button"
                 onClick={() => copyToClipboard(orderId, "orderId")}
                 className="text-muted-foreground hover:text-foreground p-1 rounded hover:bg-muted transition-colors cursor-pointer"
-                title="Bestell-ID kopieren"
+                title="Copy Order ID"
               >
                 {copiedField === "orderId" ? (
                   <Check className="w-3.5 h-3.5 text-emerald-500" />
@@ -295,7 +295,7 @@ export function OrderDetailDrawer({
           <div className="rounded-xl border border-border p-4 bg-muted/30 space-y-2">
             <div className="flex items-center justify-between">
               <span className="text-[11px] font-bold text-foreground uppercase tracking-wider">
-                Versand- &amp; Abwicklungsstatus
+                Fulfillment &amp; Shipping Status
               </span>
               <span className="text-[10px] text-muted-foreground">Klicken zum Ändern</span>
             </div>
@@ -306,9 +306,9 @@ export function OrderDetailDrawer({
                 disabled={isUpdatingStatus}
                 className="w-full appearance-none bg-background border border-input rounded-xl px-3.5 py-2.5 text-xs font-semibold text-foreground cursor-pointer outline-none focus:ring-1 focus:ring-ring focus:border-ring transition-all pr-8"
               >
-                <option value="New Orders">Neue Bestellung</option>
+                <option value="New Orders">New Order</option>
                 <option value="Courier Assigned">Kurier zugewiesen</option>
-                <option value="In Transit">Auf dem Versandweg</option>
+                <option value="In Transit">In Transit</option>
                 <option value="Shipped">Versendet</option>
                 <option value="Delivered">Zugestellt</option>
                 <option value="Cancelled">Storniert</option>
@@ -321,7 +321,7 @@ export function OrderDetailDrawer({
           <div className="rounded-xl border border-border p-4 bg-card space-y-3">
             <div className="flex items-center justify-between pb-1 border-b border-border">
               <span className="text-[11px] font-bold uppercase tracking-wider text-foreground">
-                Bestellte Artikel ({itemsList.length})
+                Ordered Products ({itemsList.length})
               </span>
               <span className="text-muted-foreground text-[11px] font-medium">
                 {itemsList.reduce((acc: number, it: any) => acc + (Number(it.quantity) || 1), 0)} Stk. gesamt
@@ -404,7 +404,7 @@ export function OrderDetailDrawer({
               </div>
               {Number(order.shippingFee || 0) > 0 && (
                 <div className="flex justify-between text-muted-foreground">
-                  <span>Versand:</span>
+                  <span>Shipping:</span>
                   <span className="font-mono text-foreground">
                     {currencySymbol}{Number(order.shippingFee).toFixed(2)}
                   </span>
@@ -430,7 +430,7 @@ export function OrderDetailDrawer({
           {/* Customer Details Card */}
           <div className="rounded-xl border border-border p-4 bg-card space-y-2.5">
             <span className="text-[11px] font-bold uppercase tracking-wider text-foreground block pb-1 border-b border-border">
-              Kundeninformationen
+              Customer Information
             </span>
 
             <div className="space-y-2 pt-1">
@@ -528,7 +528,7 @@ export function OrderDetailDrawer({
             <div className="flex items-start gap-2.5 pt-1">
               <MapPin className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0" />
               <div className="font-mono text-muted-foreground leading-relaxed text-xs flex-1">
-                <p>{shippingAddress || "Direktversand ab Werk"}</p>
+                <p>{shippingAddress || "Direct Atelier Dispatch (Jaipur)"}</p>
                 <p>
                   {shippingZip} {shippingCity}
                 </p>
@@ -550,7 +550,7 @@ export function OrderDetailDrawer({
             <div className="space-y-3 pt-1">
               <div>
                 <label className="text-[10px] font-bold text-foreground uppercase tracking-wider block mb-1">
-                  Versanddienstleister
+                  Shipping Carrier &amp; Logistics
                 </label>
                 <input
                   type="text"
@@ -597,20 +597,20 @@ export function OrderDetailDrawer({
           <div className="rounded-xl border border-border p-4 bg-card space-y-2.5">
             <div className="flex items-center justify-between pb-1 border-b border-border">
               <span className="text-[11px] font-bold uppercase tracking-wider text-foreground">
-                Zahlung &amp; Abrechnung
+                Payment &amp; Billing
               </span>
               <CreditCard className="w-3.5 h-3.5 text-muted-foreground" />
             </div>
 
             <div className="space-y-2 pt-1 text-xs">
               <div className="flex justify-between items-center">
-                <span className="text-muted-foreground">Zahlungsart:</span>
+                <span className="text-muted-foreground">Payment Method:</span>
                 <span className="font-bold text-foreground">
                   {order.payment?.gateway || order.payment_gateway || "PayPal"}
                 </span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-muted-foreground">Zahlungsstatus:</span>
+                <span className="text-muted-foreground">Payment Status:</span>
                 <Badge
                   variant={
                     order.payment_status === "paid" || order.payment?.status === "Paid"
@@ -671,7 +671,7 @@ export function OrderDetailDrawer({
             className="w-full gap-2 text-xs sm:text-sm font-semibold cursor-pointer h-10 rounded-xl shadow-2xs"
           >
             <Edit3 className="w-4 h-4" />
-            <span>Bestellung bearbeiten</span>
+            <span>Edit Order</span>
           </Button>
 
           {isConfirmingDelete ? (
@@ -683,7 +683,7 @@ export function OrderDetailDrawer({
                 onClick={() => onDelete(order.orderId || order.id)}
                 className="flex-1 text-xs font-semibold h-8.5 rounded-lg cursor-pointer"
               >
-                Bestellung endgültig löschen
+                Permanently Delete Order
               </Button>
               <Button
                 type="button"
@@ -705,7 +705,7 @@ export function OrderDetailDrawer({
                 className="text-destructive hover:bg-destructive/10 text-xs gap-1.5 h-8 px-2.5 rounded-lg cursor-pointer transition-colors"
               >
                 <Trash2 className="w-3.5 h-3.5" />
-                <span>Bestellung löschen</span>
+                <span>Delete Order</span>
               </Button>
             </div>
           )}

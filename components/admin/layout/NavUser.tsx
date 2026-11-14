@@ -62,17 +62,19 @@ export function NavUser({ user, onSelectTab, onLogout }: NavUserProps) {
               >
                 <Avatar className='h-8 w-8 rounded-lg'>
                   <AvatarImage src={user.avatar} alt={user.name} />
-                  <AvatarFallback className='rounded-lg'>IX</AvatarFallback>
+                  <AvatarFallback className='rounded-lg bg-[#0B2D7F] text-white font-serif font-bold text-xs'>
+                    WA
+                  </AvatarFallback>
                 </Avatar>
                 <div className='grid flex-1 text-start text-sm leading-tight'>
                   <span className='truncate font-semibold'>{user.name}</span>
-                  <span className='truncate text-xs'>{user.email}</span>
+                  <span className='truncate text-xs text-muted-foreground'>{user.email}</span>
                 </div>
                 <ChevronsUpDown className='ms-auto size-4' />
               </SidebarMenuButton>
             </DropdownMenuTrigger>
             <DropdownMenuContent
-              className='w-(--radix-dropdown-menu-trigger-width) min-w-56 rounded-lg'
+              className='w-[var(--radix-dropdown-menu-trigger-width)] min-w-56 rounded-lg'
               side={isMobile ? 'bottom' : 'right'}
               align='end'
               sideOffset={4}
@@ -81,44 +83,45 @@ export function NavUser({ user, onSelectTab, onLogout }: NavUserProps) {
                 <div className='flex items-center gap-2 px-1 py-1.5 text-start text-sm'>
                   <Avatar className='h-8 w-8 rounded-lg'>
                     <AvatarImage src={user.avatar} alt={user.name} />
-                    <AvatarFallback className='rounded-lg'>IX</AvatarFallback>
+                    <AvatarFallback className='rounded-lg bg-[#0B2D7F] text-white font-serif font-bold text-xs'>
+                      WA
+                    </AvatarFallback>
                   </Avatar>
                   <div className='grid flex-1 text-start text-sm leading-tight'>
                     <span className='truncate font-semibold'>{user.name}</span>
-                    <span className='truncate text-xs'>{user.email}</span>
+                    <span className='truncate text-xs text-muted-foreground'>{user.email}</span>
                   </div>
                 </div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuGroup>
                 <DropdownMenuItem className='cursor-pointer' onClick={() => onSelectTab('overview')}>
-                  <Sparkles />
-                  Shop-Telemetrie
+                  <Sparkles className='size-4 mr-2 text-primary' />
+                  Store Telemetry
                 </DropdownMenuItem>
               </DropdownMenuGroup>
               <DropdownMenuSeparator />
               <DropdownMenuGroup>
                 <DropdownMenuItem className='cursor-pointer' onClick={() => onSelectTab('settings-account')}>
-                  <BadgeCheck />
-                  Konto
+                  <BadgeCheck className='size-4 mr-2' />
+                  Account
                 </DropdownMenuItem>
-                <DropdownMenuItem className='cursor-pointer' onClick={() => onSelectTab('settings')}>
-                  <CreditCard />
-                  Profil
+                <DropdownMenuItem className='cursor-pointer' onClick={() => onSelectTab('payment-settings')}>
+                  <CreditCard className='size-4 mr-2' />
+                  Billing &amp; Payments
                 </DropdownMenuItem>
                 <DropdownMenuItem className='cursor-pointer' onClick={() => onSelectTab('settings-notifications')}>
-                  <Bell />
-                  Benachrichtigungen
+                  <Bell className='size-4 mr-2' />
+                  Notifications
                 </DropdownMenuItem>
               </DropdownMenuGroup>
               <DropdownMenuSeparator />
               <DropdownMenuItem
-                variant='destructive'
-                className='cursor-pointer'
+                className='cursor-pointer text-destructive focus:text-destructive'
                 onClick={() => setOpenSignOut(true)}
               >
-                <LogOut />
-                Abmelden
+                <LogOut className='size-4 mr-2' />
+                Log Out
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -128,21 +131,18 @@ export function NavUser({ user, onSelectTab, onLogout }: NavUserProps) {
       <AlertDialog open={openSignOut} onOpenChange={setOpenSignOut}>
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle>Abmelden</AlertDialogTitle>
+            <AlertDialogTitle>Log Out</AlertDialogTitle>
             <AlertDialogDescription>
-              Möchten Sie sich wirklich abmelden? Sie müssen Ihre Zugangsdaten erneut eingeben, um auf das Admin-Panel zuzugreifen.
+              Are you sure you want to log out of the Wastram Atelier admin console?
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
-            <AlertDialogCancel>Abbrechen</AlertDialogCancel>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
             <AlertDialogAction
-              onClick={() => {
-                setOpenSignOut(false)
-                onLogout()
-              }}
+              onClick={onLogout}
               className='bg-destructive text-destructive-foreground hover:bg-destructive/90'
             >
-              Abmelden
+              Log Out
             </AlertDialogAction>
           </AlertDialogFooter>
         </AlertDialogContent>

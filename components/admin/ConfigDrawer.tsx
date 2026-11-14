@@ -49,7 +49,7 @@ export function ConfigDrawer() {
         <Button
           size='icon'
           variant='ghost'
-          aria-label='Design-Einstellungen öffnen'
+          aria-label='Open theme settings'
           className='rounded-full'
         >
           <Settings aria-hidden='true' />
@@ -57,9 +57,9 @@ export function ConfigDrawer() {
       </SheetTrigger>
       <SheetContent className='flex flex-col'>
         <SheetHeader className='pb-0 text-start'>
-          <SheetTitle>Design-Einstellungen</SheetTitle>
+          <SheetTitle>Theme &amp; Layout Settings</SheetTitle>
           <SheetDescription>
-            Passen Sie das Erscheinungsbild und Layout an Ihre Präferenzen an.
+            Customize appearance, sidebar, and layout preferences.
           </SheetDescription>
         </SheetHeader>
         <div className='space-y-6 overflow-y-auto px-4'>
@@ -73,7 +73,7 @@ export function ConfigDrawer() {
             variant='destructive'
             onClick={handleReset}
             className='flex-1 cursor-pointer'
-            aria-label='Alle Einstellungen zurücksetzen'
+            aria-label='Reset all settings to default'
           >
             Zurücksetzen
           </Button>
@@ -81,7 +81,7 @@ export function ConfigDrawer() {
             <Button
               variant='default'
               className='flex-1 cursor-pointer'
-              aria-label='Design-Einstellungen schließen'
+              aria-label='Close settings'
             >
               Fertig
             </Button>
@@ -190,16 +190,16 @@ function ThemeConfig() {
   return (
     <div>
       <SectionTitle
-        title='Design'
+        title='Theme'
         showReset={theme !== defaultTheme}
         onReset={() => setTheme(defaultTheme)}
-        resetAriaLabel='Design-Einstellung auf Standard zurücksetzen'
+        resetAriaLabel='Reset theme to default'
       />
       <Radio
         value={theme}
         onValueChange={setTheme}
         className='grid w-full max-w-md grid-cols-3 gap-4'
-        aria-label='Design auswählen'
+        aria-label='Select theme'
         aria-describedby='theme-description'
       >
         {[
@@ -210,12 +210,12 @@ function ThemeConfig() {
           },
           {
             value: 'light',
-            label: 'Hell',
+            label: 'Light',
             icon: IconThemeLight,
           },
           {
             value: 'dark',
-            label: 'Dunkel',
+            label: 'Dark',
             icon: IconThemeDark,
           },
         ].map((item) => (
@@ -223,7 +223,7 @@ function ThemeConfig() {
         ))}
       </Radio>
       <div id='theme-description' className='sr-only'>
-        Wählen Sie zwischen Systemeinstellung, hellem oder dunklem Modus
+        Choose between system, light, or dark theme.
       </div>
     </div>
   )
@@ -234,10 +234,10 @@ function SidebarConfig() {
   return (
     <div className='max-md:hidden'>
       <SectionTitle
-        title='Seitenleiste'
+        title='Sidebar'
         showReset={defaultVariant !== variant}
         onReset={() => setVariant(defaultVariant)}
-        resetAriaLabel='Seitenleisten-Stil auf Standard zurücksetzen'
+        resetAriaLabel='Reset sidebar style to default'
       />
       <Radio
         value={variant}
@@ -288,7 +288,7 @@ function LayoutConfig() {
           setOpen(true)
           setCollapsible(defaultCollapsible)
         }}
-        resetAriaLabel='Layout-Optionen auf Standard zurücksetzen'
+        resetAriaLabel='Reset layout options to default'
       />
       <Radio
         value={radioState}
@@ -336,10 +336,10 @@ function DirConfig() {
   return (
     <div>
       <SectionTitle
-        title='Schreibrichtung'
+        title='Text Direction'
         showReset={defaultDir !== dir}
         onReset={() => setDir(defaultDir)}
-        resetAriaLabel='Schreibrichtung auf Standard zurücksetzen'
+        resetAriaLabel='Reset text direction to default'
       />
       <Radio
         value={dir}

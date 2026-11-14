@@ -1,6 +1,6 @@
 "use client";
 
-// Currency changer removed from Admin Panel — Fixed default: EUR (€)
+// Admin Panel Fixed default: INR (₹)
 export default function AdminCurrencySelector({ className = "" }: { className?: string }) {
   return null;
 }

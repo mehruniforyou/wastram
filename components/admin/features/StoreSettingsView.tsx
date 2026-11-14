@@ -165,7 +165,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
         }),
       })
 
-      if (!res.ok) throw new Error('Server hat einen Fehler gemeldet.')
+      if (!res.ok) throw new Error('Server returned an error.')
       setSaveSuccess(true)
       setIsEditing(false)
       setTimeout(() => setSaveSuccess(false), 3500)
@@ -349,7 +349,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
   if (loading) {
     return (
       <div className='flex items-center justify-center p-20 text-sm text-muted-foreground'>
-        <Loader2 className='w-4 h-4 mr-2 animate-spin' /> Lade Ankündigungen &amp; Shop-Inhalte...
+        <Loader2 className='w-4 h-4 mr-2 animate-spin' /> Loading announcements &amp; store content...
       </div>
     )
   }
@@ -370,7 +370,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
           <div>
             <h1 className='text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground flex items-center gap-2.5'>
               <currentTabInfo.icon className='w-6 h-6 text-primary' />
-              <span>Shop-Einstellungen</span>
+              <span>Store Settings</span>
             </h1>
             <p className='text-xs sm:text-sm text-muted-foreground mt-1'>
               {currentTabInfo.desc}
@@ -419,7 +419,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
               ) : (
                 <>
                   <Save className='w-3.5 h-3.5' />
-                  <span>Änderungen speichern</span>
+                  <span>Save Changes</span>
                 </>
               )}
             </Button>
@@ -473,7 +473,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
           {saveSuccess && (
             <div className='p-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
               <CheckCircle2 className='w-4 h-4 shrink-0' />
-              <span>Shop-Einstellungen und Inhalte erfolgreich aktualisiert!</span>
+              <span>Store settings and content updated successfully!</span>
             </div>
           )}
 
@@ -573,7 +573,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
             <div className='space-y-4'>
               <div className='flex items-center justify-between pb-2'>
                 <div>
-                  <h3 className='text-sm font-bold text-foreground'>Shop-Blogartikel &amp; Ratgeber</h3>
+                  <h3 className='text-sm font-bold text-foreground'>Store Blog Articles &amp; Lookbooks</h3>
                   <p className='text-xs text-muted-foreground'>Technische Anleitungen, Vintage-Audio-Restaurierungen und Lautsprecher-Reparaturen.</p>
                 </div>
                 <Button
@@ -666,7 +666,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
             <div className='space-y-4'>
               <div className='flex items-center justify-between pb-2'>
                 <div>
-                  <h3 className='text-sm font-bold text-foreground'>Shop-Änderungsprotokoll &amp; Mitteilungen</h3>
+                  <h3 className='text-sm font-bold text-foreground'>Store Changelog &amp; Announcements</h3>
                   <p className='text-xs text-muted-foreground'>Halten Sie Kunden über neue Lagerware und Werkstatt-Upgrades auf dem Laufenden.</p>
                 </div>
                 <Button
@@ -739,7 +739,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
           {/* Bottom Save Bar */}
           <div className='flex items-center justify-between gap-4 pt-4 border-t border-border mt-8'>
             <p className='text-xs text-muted-foreground'>
-              Hier gespeicherte Änderungen werden synchronisiert und im Online-Shop veröffentlicht.
+              Changes saved here are synchronized and published immediately on the online store.
             </p>
             <Button
               type='button'
@@ -748,7 +748,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
               className='cursor-pointer text-xs h-9 gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black shadow-2xs'
             >
               {saving ? <Loader2 className='w-3.5 h-3.5 animate-spin' /> : <Save className='w-3.5 h-3.5' />}
-              <span>Änderungen speichern</span>
+              <span>Save Changes</span>
             </Button>
           </div>
         </div>
@@ -794,7 +794,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                 </div>
 
                 <div className='flex items-center justify-between pt-2'>
-                  <Label className='text-xs font-semibold'>Im Online-Shop aktiv</Label>
+                  <Label className='text-xs font-semibold'>Active on Online Store</Label>
                   <Switch
                     checked={annForm.active}
                     onCheckedChange={v => setAnnForm(p => ({ ...p, active: v }))}

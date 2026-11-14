@@ -51,7 +51,7 @@ export function ApiKeysView() {
       })
       const data = await res.json().catch(() => ({}))
       if (res.ok && data.success) {
-        notifyAdmin('success', 'E-Mail-Verbindung erfolgreich', 'Test-E-Mail wurde versendet.')
+        notifyAdmin('success', 'Email Connection Successful', 'Test email was delivered.')
       } else {
         notifyAdmin('warning', 'E-Mail-Test fehlgeschlagen', data.error || 'Test-E-Mail konnte nicht gesendet werden.')
       }
@@ -180,7 +180,7 @@ export function ApiKeysView() {
   if (loading) {
     return (
       <div className='flex items-center justify-center p-20 text-sm text-muted-foreground'>
-        <Loader2 className='w-4 h-4 mr-2 animate-spin' /> Produktions-API-Konfiguration wird geladen...
+        <Loader2 className='w-4 h-4 mr-2 animate-spin' /> Loading production API configuration...
       </div>
     )
   }
@@ -240,7 +240,7 @@ export function ApiKeysView() {
               {saving ? (
                 <>
                   <Loader2 className='w-3.5 h-3.5 animate-spin' />
-                  <span>Speichern...</span>
+                  <span>Saving...</span>
                 </>
               ) : saveSuccess ? (
                 <>
@@ -250,7 +250,7 @@ export function ApiKeysView() {
               ) : (
                 <>
                   <Save className='w-3.5 h-3.5' />
-                  <span>Änderungen speichern</span>
+                  <span>Save Changes</span>
                 </>
               )}
             </Button>
@@ -295,7 +295,7 @@ export function ApiKeysView() {
               </div>
 
               <div className='space-y-1.5'>
-                <Label className='text-xs font-semibold'>Standard-Shop-Währung</Label>
+                <Label className='text-xs font-semibold'>Default Store Currency</Label>
                 <Select
                   value={form.defaultCurrency}
                   onValueChange={(val) => { setForm((p) => ({ ...p, defaultCurrency: val })); setIsEditing(true); }}
@@ -304,6 +304,8 @@ export function ApiKeysView() {
                     <SelectValue placeholder='Währung auswählen' />
                   </SelectTrigger>
                   <SelectContent>
+                    <SelectItem value='INR'>INR (₹) — Indian Rupee</SelectItem>
+                    <SelectItem value='USD'>USD ($) — US Dollar</SelectItem>
                     <SelectItem value='EUR'>EUR (€) — Euro</SelectItem>
                     <SelectItem value='USD'>USD ($) — US-Dollar</SelectItem>
                     <SelectItem value='GBP'>GBP (£) — Britisches Pfund</SelectItem>
@@ -704,12 +706,12 @@ export function ApiKeysView() {
                 {saving ? (
                   <>
                     <Loader2 className='w-3.5 h-3.5 animate-spin' />
-                    <span>Schlüssel speichern...</span>
+                    <span>Saving Keys...</span>
                   </>
                 ) : (
                   <>
                     <Save className='w-3.5 h-3.5' />
-                    <span>API-Schlüssel speichern</span>
+                    <span>Save API Keys</span>
                   </>
                 )}
               </Button>

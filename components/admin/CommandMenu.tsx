@@ -35,10 +35,10 @@ export function CommandMenu({ onSelectTab }: CommandMenuProps) {
 
   return (
     <CommandDialog modal open={open} onOpenChange={setOpen}>
-      <CommandInput placeholder='Befehl eingeben oder suchen...' />
+      <CommandInput placeholder='Type a command or search...' />
       <CommandList>
         <ScrollArea className='h-72 pe-1'>
-          <CommandEmpty>Keine Ergebnisse gefunden.</CommandEmpty>
+          <CommandEmpty>No results found.</CommandEmpty>
           {sidebarData.navGroups.map((group) => (
             <CommandGroup key={group.title} heading={group.title}>
               {group.items.map((navItem, i) => {
@@ -78,19 +78,19 @@ export function CommandMenu({ onSelectTab }: CommandMenuProps) {
             </CommandGroup>
           ))}
           <CommandSeparator />
-          <CommandGroup heading='Design'>
+          <CommandGroup heading='Theme'>
             <CommandItem
               onSelect={() => runCommand(() => setTheme('light'))}
               className='cursor-pointer'
             >
-              <Sun /> <span>Hell</span>
+              <Sun /> <span>Light</span>
             </CommandItem>
             <CommandItem
               onSelect={() => runCommand(() => setTheme('dark'))}
               className='cursor-pointer'
             >
               <Moon className='scale-90' />
-              <span>Dunkel</span>
+              <span>Dark</span>
             </CommandItem>
             <CommandItem
               onSelect={() => runCommand(() => setTheme('system'))}

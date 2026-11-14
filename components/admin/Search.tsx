@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 
 export function Search({
   className = '',
-  placeholder = 'Suchen',
+  placeholder = 'Search...',
   ...props
 }: React.ComponentProps<'button'> & { placeholder?: string }) {
   const { setOpen } = useSearch()
@@ -25,7 +25,7 @@ export function Search({
     >
       <SearchIcon
         aria-hidden='true'
-        className='absolute inset-s-1.5 top-1/2 -translate-y-1/2'
+        className='absolute start-2 top-1/2 -translate-y-1/2 opacity-70'
         size={16}
       />
       <span className='ms-4'>{placeholder}</span>

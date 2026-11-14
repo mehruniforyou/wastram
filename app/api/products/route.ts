@@ -1,6 +1,6 @@
 import { NextResponse, NextRequest } from "next/server";
 import { revalidatePath } from "next/cache";
-import { NISHORAMA_PRODUCTS } from "@/data/nishorama-data";
+import { PRODUCTS } from "@/data/products";
 import {
   getProductOverrides,
   saveProductOverride,
@@ -14,14 +14,14 @@ export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const category = searchParams.get("category");
-    const adminMode = searchParams.get("admin") === "true";
+    const adminMode = searchParams.get("admin") === "true" || searchParams.get("admin") === "1";
 
     if (adminMode) {
       const overrides = await getProductOverrides();
       const all: any[] = [];
       const handled = new Set<string>();
 
-      for (const p of NISHORAMA_PRODUCTS) {
+      for (const p of PRODUCTS) {
         handled.add(p.id);
         const ovr: any = overrides[p.id] || {};
         all.push({

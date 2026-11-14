@@ -19,8 +19,8 @@ export function RecentSales({ sales = [] }: RecentSalesProps) {
   if (sales.length === 0) {
     return (
       <div className='py-8 text-center space-y-1 text-muted-foreground'>
-        <p className='text-sm font-medium text-foreground'>Noch keine verifizierten Verkäufe</p>
-        <p className='text-xs'>Verifizierte Bestellungen erscheinen automatisch hier.</p>
+        <p className='text-sm font-medium text-foreground'>No verified sales yet</p>
+        <p className='text-xs'>Verified customer orders will automatically appear here.</p>
       </div>
     )
   }

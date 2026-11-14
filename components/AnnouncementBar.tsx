@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import StoryRing from './StoryRing';
 import { useCart } from '@/context/CartContext';
 
@@ -74,10 +75,16 @@ const ANNOUNCEMENTS: Announcement[] = [
 ];
 
 export default function AnnouncementBar() {
+  const pathname = usePathname();
   const { openStory, openB2BQuote } = useCart();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(true);
   const [isPaused, setIsPaused] = useState(false);
+
+  // Suppress AnnouncementBar on Admin Portal
+  if (pathname?.startsWith('/admin')) {
+    return null;
+  }
 
   // Duplicate the first item at the end for an infinite upward loop
   const tickerItems = [...ANNOUNCEMENTS, ANNOUNCEMENTS[0]];

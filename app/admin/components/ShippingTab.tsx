@@ -98,7 +98,7 @@ export function ShippingRateInput({
   className = "w-24",
   inputClassName = "",
   disabled = false,
-  unit = "€",
+  unit = "₹",
   min = 0,
 }: ShippingRateInputProps) {
   const isBlank = typeof value === "string" ? value.trim() === "" : value === undefined || value === null;
@@ -348,7 +348,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
         notifyAdmin(
           "error",
           "Versandtarif darf nicht leer sein",
-          "Ein oder mehrere Versandtarife sind leer. Bitte geben Sie einen Wert von 0 oder höher ein (z. B. 0.00 für kostenlosen Versand)."
+          "Ein oder mehrere Shipping Rates sind leer. Bitte geben Sie einen Wert von 0 oder höher ein (z. B. 0.00 für kostenlosen Versand)."
         );
         return;
       }
@@ -357,7 +357,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
         notifyAdmin(
           "error",
           "Ungültiger Versandtarif",
-          "Versandtarife müssen 0 oder höher sein (z. B. 0.00)."
+          "Shipping Rates müssen 0 oder höher sein (z. B. 0.00)."
         );
         return;
       }
@@ -500,7 +500,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       notifyAdmin(
         "success",
         "Versandeinstellungen gespeichert",
-        `Die Versandtarife und Länderkonditionen${catName} wurden erfolgreich aktualisiert.`
+        `Die Shipping Rates und Länderkonditionen${catName} wurden erfolgreich aktualisiert.`
       );
     } catch (err: any) {
       console.error("Error saving shipping settings:", err);
@@ -681,7 +681,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
     }));
   };
 
-  // Quick set rate to Free (€0.00)
+  // Quick set rate to Free (₹0.00)
   const handleCategoryCountrySetFree = (categoryId: string, countryCode: string) => {
     handleCategoryCountryFeeChange(categoryId, countryCode, "0.00");
   };
@@ -744,7 +744,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
     notifyAdmin(
       "info",
       "Europa-Tarife übertragen",
-      `Alle europäischen Länder für „${currentCatRate.categoryName || categoryId}“ auf €${fee.toFixed(2)} (+€${addFee.toFixed(2)}) und ${time} gesetzt.`
+      `Alle europäischen Länder für „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
     );
   };
 
@@ -988,7 +988,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
     notifyAdmin(
       "info",
       "USA-Tarife übertragen",
-      `Alle 50 US-Staaten für „${currentCatRate.categoryName || categoryId}“ auf €${fee.toFixed(2)} (+€${addFee.toFixed(2)}) und ${time} gesetzt.`
+      `Alle 50 US-Staaten für „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
     );
   };
 
@@ -1056,7 +1056,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
     notifyAdmin(
       "info",
       "Kanada-Tarife übertragen",
-      `Alle 13 Provinzen für „${currentCatRate.categoryName || categoryId}“ auf €${fee.toFixed(2)} (+€${addFee.toFixed(2)}) und ${time} gesetzt.`
+      `Alle 13 Provinzen für „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
     );
   };
 
@@ -1327,9 +1327,9 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden divide-y divide-neutral-100">
               <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-xs font-bold text-neutral-500 border-b border-neutral-200">
                 <div className="col-span-12 sm:col-span-4 md:col-span-3">Land (42)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (€)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (€)</div>
-                <div className="col-span-6 sm:col-span-4 md:col-span-3">Lieferzeit</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (₹)</div>
+                <div className="col-span-6 sm:col-span-4 md:col-span-3">Estimated Delivery</div>
                 <div className="hidden md:block md:col-span-2 text-right">Status</div>
               </div>
 
@@ -1522,9 +1522,9 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden divide-y divide-neutral-100">
               <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-xs font-bold text-neutral-500 border-b border-neutral-200">
                 <div className="col-span-12 sm:col-span-4 md:col-span-3">Bundesstaat (50)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (€)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (€)</div>
-                <div className="col-span-6 sm:col-span-4 md:col-span-3">Lieferzeit</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (₹)</div>
+                <div className="col-span-6 sm:col-span-4 md:col-span-3">Estimated Delivery</div>
                 <div className="hidden md:block md:col-span-2 text-right">Status</div>
               </div>
 
@@ -1722,9 +1722,9 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden divide-y divide-neutral-100">
               <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-xs font-bold text-neutral-500 border-b border-neutral-200">
                 <div className="col-span-12 sm:col-span-4 md:col-span-3">Provinz / Territorium (13)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (€)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (€)</div>
-                <div className="col-span-6 sm:col-span-4 md:col-span-3">Lieferzeit</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (₹)</div>
+                <div className="col-span-6 sm:col-span-4 md:col-span-3">Estimated Delivery</div>
                 <div className="hidden md:block md:col-span-2 text-right">Status</div>
               </div>
 
@@ -1887,7 +1887,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Versandkosten (€)</label>
+                <label className="text-xs font-bold text-neutral-700">Shipping Fee (₹)</label>
                 <ShippingRateInput
                   value={getDraftRate(
                     `cat:${selectedCategory.id}:DE:fee`,
@@ -1904,7 +1904,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Weitere Artikel (€)</label>
+                <label className="text-xs font-bold text-neutral-700">Weitere Artikel (₹)</label>
                 <ShippingRateInput
                   value={getDraftRate(
                     `cat:${selectedCategory.id}:DE:addFee`,
@@ -1921,7 +1921,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Lieferzeit</label>
+                <label className="text-xs font-bold text-neutral-700">Estimated Delivery</label>
                 <select
                   value={normalizeDeliveryTimeOption(
                     catRate.countryDeliveryTimes?.["DE"] || catRate.deliveryTime || "Within 1 week"
@@ -1961,7 +1961,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Versandkosten (€)</label>
+                <label className="text-xs font-bold text-neutral-700">Shipping Fee (₹)</label>
                 <ShippingRateInput
                   value={getDraftRate(
                     `cat:${selectedCategory.id}:GB:fee`,
@@ -1978,7 +1978,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Weitere Artikel (€)</label>
+                <label className="text-xs font-bold text-neutral-700">Weitere Artikel (₹)</label>
                 <ShippingRateInput
                   value={getDraftRate(
                     `cat:${selectedCategory.id}:GB:addFee`,
@@ -1995,7 +1995,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Lieferzeit</label>
+                <label className="text-xs font-bold text-neutral-700">Estimated Delivery</label>
                 <select
                   value={normalizeDeliveryTimeOption(
                     catRate.countryDeliveryTimes?.["GB"] || "1-2 weeks"
@@ -2078,7 +2078,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-neutral-200">
         <div>
           <h1 className="text-2xl sm:text-3xl font-heading font-black tracking-tight text-black">
-            Versandtarife nach Kategorie
+            Shipping Rates nach Kategorie
           </h1>
         </div>
 
@@ -2273,7 +2273,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div>
-                <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (€)</label>
+                <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
                 <ShippingRateInput
                   value={newCityFee}
                   onChange={setNewCityFee}
@@ -2283,7 +2283,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div>
-                <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Lieferzeit</label>
+                <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Estimated Delivery</label>
                 <select
                   value={normalizeDeliveryTimeOption(newCityDeliveryTime)}
                   onChange={(e) => setNewCityDeliveryTime(e.target.value)}
@@ -2322,8 +2322,8 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-[11px] font-heading font-bold uppercase tracking-wider text-neutral-500 border-b border-neutral-200">
               <div className="col-span-4">Stadt / PLZ</div>
               <div className="col-span-3">Land</div>
-              <div className="col-span-2 text-right">Preis (€)</div>
-              <div className="col-span-2">Lieferzeit</div>
+              <div className="col-span-2 text-right">Preis (₹)</div>
+              <div className="col-span-2">Estimated Delivery</div>
               <div className="col-span-1 text-right">Aktion</div>
             </div>
 
@@ -2353,9 +2353,9 @@ export default function ShippingTab({ categories: propCategories }: { categories
 
                     <div className="col-span-2 text-right font-heading font-black text-sm text-black">
                       {Number(c.fee) === 0 ? (
-                        <span className="text-emerald-700 font-bold">Kostenlos (€0,00)</span>
+                        <span className="text-emerald-700 font-bold">Kostenlos (₹0,00)</span>
                       ) : (
-                        `€${Number(c.fee).toFixed(2)}`
+                        `₹${Number(c.fee).toFixed(2)}`
                       )}
                     </div>
 
@@ -2398,7 +2398,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   <span className="font-heading font-bold text-xs text-black">Deutschland</span>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (€)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:germanyShippingFee",
@@ -2412,7 +2412,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (€)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:germanyAdditionalFee",
@@ -2426,7 +2426,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Lieferzeit</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Estimated Delivery</label>
                   <input
                     type="text"
                     value={settings.germanyDeliveryTime}
@@ -2443,7 +2443,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   <span className="font-heading font-bold text-xs text-black">Europa</span>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (€)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:euShippingFee",
@@ -2457,7 +2457,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (€)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:euAdditionalFee",
@@ -2471,7 +2471,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Lieferzeit</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Estimated Delivery</label>
                   <input
                     type="text"
                     value={settings.euDeliveryTime}
@@ -2488,7 +2488,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   <span className="font-heading font-bold text-xs text-black">Weltweit</span>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (€)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:internationalShippingFee",
@@ -2502,7 +2502,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (€)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:internationalAdditionalFee",
@@ -2516,7 +2516,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Lieferzeit</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Estimated Delivery</label>
                   <input
                     type="text"
                     value={settings.internationalDeliveryTime}

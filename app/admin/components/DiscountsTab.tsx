@@ -342,7 +342,7 @@ export default function DiscountsTab() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-1">
         <div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-black">
-            Rabatte &amp; Gutscheine
+            Discounts &amp; Promo Codes
           </h1>
           <p className="text-xs font-light text-neutral-600 mt-1">
             Aktive Aktionen werden automatisch im Deals-Reiter auf Desktop- und Mobilgeräten angezeigt.
@@ -485,7 +485,7 @@ export default function DiscountsTab() {
                         {d.type === "percentage" ? (
                           <span>{d.value}% Rabatt</span>
                         ) : d.type === "fixed_amount" ? (
-                          <span>€{Number(d.value || 0).toFixed(2)} Rabatt</span>
+                          <span>₹{Number(d.value || 0).toFixed(2)} Rabatt</span>
                         ) : (
                           <span className="inline-flex items-center gap-1.5">
                             <Truck className="w-3.5 h-3.5 text-black" />
@@ -517,7 +517,7 @@ export default function DiscountsTab() {
                       {/* ── COL 6: Min. Order (Light/Medium contrast) ── */}
                       <td className="py-3.5 px-4 text-center whitespace-nowrap text-xs">
                         {d.min_order_value > 0 ? (
-                          <span className="font-medium text-black">€{Number(d.min_order_value).toFixed(2)}</span>
+                          <span className="font-medium text-black">₹{Number(d.min_order_value).toFixed(2)}</span>
                         ) : (
                           <span className="font-light text-neutral-400">Keiner</span>
                         )}
@@ -645,14 +645,14 @@ export default function DiscountsTab() {
                   className={selectInputClass}
                 >
                   <option value="percentage">Prozentual (%)</option>
-                  <option value="fixed_amount">Fester Betrag (€)</option>
+                  <option value="fixed_amount">Fester Betrag (₹)</option>
                   <option value="free_shipping">Kostenloser Versand</option>
                 </select>
               </div>
 
               <div>
                 <label className={labelTextClass}>
-                  Wert {formType === "percentage" ? "(%)" : formType === "fixed_amount" ? "(€)" : ""}
+                  Wert {formType === "percentage" ? "(%)" : formType === "fixed_amount" ? "(₹)" : ""}
                 </label>
                 <input
                   type="text"
@@ -671,7 +671,7 @@ export default function DiscountsTab() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className={labelTextClass}>Mindestbestellwert (€)</label>
+                <label className={labelTextClass}>Minimum Order Value (₹)</label>
                 <input
                   type="text"
                   inputMode="decimal"
@@ -864,7 +864,7 @@ export default function DiscountsTab() {
                         <div className="min-w-0 flex-1">
                           <div className="text-xs text-black truncate">{p.name}</div>
                           <div className="text-[10px] font-light text-neutral-500">
-                            {p.partNumber ? `#${p.partNumber} · ` : ""}€{Number(p.price || 0).toFixed(2)}
+                            {p.partNumber ? `#${p.partNumber} · ` : ""}₹{Number(p.price || 0).toFixed(2)}
                           </div>
                         </div>
                       </label>

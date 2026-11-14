@@ -210,7 +210,7 @@ export default function EditOrderModal({
     0
   );
   const total = Math.max(0, subtotal + Number(shippingFee || 0) - Number(discount || 0));
-  const currencySymbol = currency === "EUR" ? "€" : currency === "GBP" ? "£" : currency === "INR" ? "₹" : "$";
+  const currencySymbol = currency === "EUR" ? "₹" : currency === "GBP" ? "£" : currency === "INR" ? "₹" : "$";
 
   const handleAddItem = () => {
     const defaultProd = products[0];
@@ -432,7 +432,7 @@ export default function EditOrderModal({
         <div className="space-y-3">
           <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
             <Clock className="w-3.5 h-3.5 text-foreground" />
-            Bestellstatus &amp; Währung
+            Order Status &amp; Währung
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -452,7 +452,7 @@ export default function EditOrderModal({
                 value={currency}
                 onChange={(val) => setCurrency(val as string)}
                 options={[
-                  { value: "EUR", label: "EUR (€) – Eurozone / Shop-Standard" },
+                  { value: "EUR", label: "EUR (₹) – Eurozone / Shop-Standard" },
                   { value: "USD", label: "USD ($) – US-Dollar" },
                   { value: "GBP", label: "GBP (£) – Großbritannien" },
                   { value: "INR", label: "INR (₹) – Indien" }
@@ -713,7 +713,7 @@ export default function EditOrderModal({
                           }
                           options={selectedProd.variants.map((v) => ({
                             value: v.name,
-                            label: `${v.name} ${v.price ? `(${v.price} €)` : ""}`
+                            label: `${v.name} ${v.price ? `(${v.price} ₹)` : ""}`
                           }))}
                           variant="form"
                         />
@@ -775,7 +775,7 @@ export default function EditOrderModal({
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <div>
-              <label className={labelClass}>Zahlungsstatus</label>
+              <label className={labelClass}>Payment Status</label>
               <AdminCustomSelect
                 value={paymentStatus}
                 onChange={(val) =>
@@ -785,7 +785,7 @@ export default function EditOrderModal({
                   { value: "Paid", label: "Vollständig bezahlt", badge: "Bezahlt", badgeColor: "bg-emerald-500/10 text-emerald-600 border border-emerald-500/20" },
                   { value: "Pending", label: "Zahlung ausstehend", badge: "Ausstehend", badgeColor: "bg-amber-500/10 text-amber-600 border border-amber-500/20" },
                   { value: "Refunded", label: "Erstattet", badge: "Erstattet", badgeColor: "bg-muted text-muted-foreground border border-border" },
-                  { value: "Complimentary", label: "Kostenloses Muster (0 €)", badge: "Kostenlos", badgeColor: "bg-blue-500/10 text-blue-600 border border-blue-500/20" }
+                  { value: "Complimentary", label: "Kostenloses Muster (0 ₹)", badge: "Kostenlos", badgeColor: "bg-blue-500/10 text-blue-600 border border-blue-500/20" }
                 ]}
                 variant="form"
               />
@@ -967,7 +967,7 @@ export default function EditOrderModal({
             className="gap-2 cursor-pointer"
           >
             <Save className="w-4 h-4" />
-            {isSubmitting ? "Änderungen werden gespeichert..." : "Änderungen speichern"}
+            {isSubmitting ? "Änderungen werden gespeichert..." : "Save Order Changes"}
           </Button>
         </div>
       </form>
