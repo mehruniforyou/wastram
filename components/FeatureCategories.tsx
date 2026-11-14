@@ -9,13 +9,13 @@ export default function FeatureCategories() {
   const categories = [
     {
       title: 'Ethnic Wear Sets',
-      image: '/images/categories/cat-ethnic-wear-sets.webp',
+      image: '/images/categories/cat-ethnic-wear-sets-editorial.webp',
       href: '/collections/ethnic-wear-sets',
       highlight: true
     },
     {
       title: 'Western Dresses',
-      image: '/images/categories/cat-western-dresses.webp',
+      image: '/images/categories/cat-western-dresses-editorial.webp',
       href: '/collections/western-dresses',
       highlight: false
     },
