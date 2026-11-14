@@ -42,16 +42,16 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-6 xl:px-10 max-w-7xl mx-auto gap-4 w-full">
+      <div className="hidden lg:flex items-center justify-between px-4 sm:px-6 xl:px-8 max-w-[1540px] mx-auto gap-2 xl:gap-4 w-full">
         {/* Left: Unified Brand Lockup (Logomark and Wordmark on Shared Horizontal Median) */}
-        <div className="flex items-center gap-3.5 shrink-0">
+        <div className="flex items-center gap-2 xl:gap-3 shrink-0">
           <Link
             href="/"
-            className="inline-flex items-center gap-3 md:gap-3.5 group select-none py-1 transition-opacity hover:opacity-90 shrink-0"
+            className="inline-flex items-center gap-2.5 xl:gap-3 group select-none py-1 transition-opacity hover:opacity-90 shrink-0"
             aria-label="Wastram Atelier Home"
           >
             {/* Logomark (Emblem) */}
-            <div className="w-11 h-11 xl:w-12 xl:h-12 shrink-0 flex items-center justify-center">
+            <div className="w-10 h-10 xl:w-11.5 xl:h-11.5 shrink-0 flex items-center justify-center">
               <picture className="w-full h-full flex items-center justify-center">
                 <source srcSet="/images/brand/wastram-craft-emblem-hd.webp" type="image/webp" />
                 <img
@@ -69,18 +69,18 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
               <img
                 src="/images/brand/wastram-header-logo-trimmed.png"
                 alt="Wastram"
-                className="h-8 md:h-9 xl:h-9.5 w-auto object-contain block group-hover:opacity-95 transition-opacity"
+                className="h-7.5 md:h-8.5 xl:h-9 w-auto object-contain block group-hover:opacity-95 transition-opacity"
                 loading="eager"
                 decoding="async"
               />
             </div>
           </Link>
 
-          {/* Technical Artisan Stories Quick Trigger */}
+          {/* Technical Artisan Stories Quick Trigger (Visible on extra-wide screens) */}
           <button
             type="button"
             onClick={handleOpenStory}
-            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/80 hover:bg-white border border-[#D4AF37]/40 hover:border-[#D4AF37] text-[10px] font-sans font-medium uppercase tracking-[0.14em] text-[#0B2D7F] hover:text-[#4A7BC6] transition-all shadow-2xs hover:shadow-soft cursor-pointer group shrink-0"
+            className="hidden 2xl:inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/80 hover:bg-white border border-[#D4AF37]/40 hover:border-[#D4AF37] text-[10px] font-sans font-medium uppercase tracking-[0.14em] text-[#0B2D7F] hover:text-[#4A7BC6] transition-all shadow-2xs hover:shadow-soft cursor-pointer group shrink-0"
             title="Watch Jaipur Artisan Stories"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] animate-pulse" />
@@ -88,58 +88,58 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           </button>
         </div>
 
-        {/* Center: Minimalist, Technical Caps-Letter-Spacing Navigation */}
-        <nav className="flex items-center gap-5 xl:gap-7 justify-center flex-1 min-w-0 px-2 overflow-hidden">
+        {/* Center: Minimalist, Technical Caps-Letter-Spacing Navigation (NO overflow cutting) */}
+        <nav className="flex items-center gap-2 sm:gap-3 xl:gap-5 2xl:gap-6 justify-center flex-1 px-1">
           <Link
             href="/collections/western-dresses"
-            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11px] xl:text-[12px] 2xl:text-[12.5px] tracking-[0.08em] xl:tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 px-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Western Dresses
           </Link>
 
           <Link
             href="/collections/denim-collection"
-            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11px] xl:text-[12px] 2xl:text-[12.5px] tracking-[0.08em] xl:tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 px-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Denim
           </Link>
 
           <Link
             href="/collections/ethnic-wear-sets"
-            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11px] xl:text-[12px] 2xl:text-[12.5px] tracking-[0.08em] xl:tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 px-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Ethnic Wear
           </Link>
 
           <Link
             href="/collections/umbrella-dresses"
-            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11px] xl:text-[12px] 2xl:text-[12.5px] tracking-[0.08em] xl:tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 px-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Umbrella Dresses
           </Link>
 
           <Link
             href="/collections/cord-sets"
-            className="hidden xl:inline-block text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="hidden xl:inline-block text-[11px] xl:text-[12px] 2xl:text-[12.5px] tracking-[0.08em] xl:tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 px-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Co-ords
           </Link>
 
           <Link
             href="/collections/shop-all"
-            className="text-[11px] xl:text-[11.5px] tracking-[0.16em] uppercase font-semibold px-3 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] transition-colors whitespace-nowrap shrink-0"
+            className="text-[10.5px] xl:text-[11.5px] tracking-[0.12em] uppercase font-semibold px-2.5 xl:px-3 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] transition-colors whitespace-nowrap shrink-0 ml-0.5"
           >
             Shop All
           </Link>
         </nav>
 
         {/* Right: Technical Minimalist Search, Saved Items, Boutique Inquiry Capsule */}
-        <div className="flex items-center gap-2 xl:gap-3 shrink-0 ml-auto">
+        <div className="flex items-center gap-1.5 xl:gap-2.5 shrink-0">
           {/* Search Trigger */}
           <button
             type="button"
             onClick={handleOpenSearch}
-            className="p-2 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors rounded-full hover:bg-black/[0.03] cursor-pointer"
+            className="p-1.5 xl:p-2 text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors rounded-full hover:bg-black/[0.03] cursor-pointer"
             aria-label="Search Catalog"
             title="Search"
           >
@@ -149,10 +149,10 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
             </svg>
           </button>
 
-          {/* Official Wastram Bookmark Wishlist with Technical Numeric Chip */}
+          {/* Official Wastram Bookmark Wishlist */}
           <Link
             href="/pages/swym-wishlist"
-            className="relative p-2 text-[#0B2D7F] hover:text-[#F58220] transition-colors rounded-full hover:bg-black/[0.03] flex items-center justify-center cursor-pointer"
+            className="relative p-1.5 xl:p-2 text-[#0B2D7F] hover:text-[#F58220] transition-colors rounded-full hover:bg-black/[0.03] flex items-center justify-center cursor-pointer"
             aria-label={`Saved Styles (${wishlistCount})`}
             title="Saved Styles"
           >
@@ -180,7 +180,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           <button
             type="button"
             onClick={handleOpenQuote}
-            className="flex items-center gap-1.5 xl:gap-2 h-9 px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] xl:text-[12px] font-medium uppercase tracking-[0.14em] shadow-soft hover:shadow-card shrink-0 cursor-pointer group"
+            className="flex items-center gap-1.5 h-8.5 xl:h-9 px-3 xl:px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[10.5px] xl:text-[11.5px] font-medium uppercase tracking-[0.12em] shadow-soft hover:shadow-card shrink-0 cursor-pointer group"
             aria-label="Inquire for Boutiques"
             title="Boutique & Trade Inquiries"
           >
