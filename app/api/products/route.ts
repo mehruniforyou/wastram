@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
 
       for (const p of NISHORAMA_PRODUCTS) {
         handled.add(p.id);
-        const ovr = overrides[p.id] || {};
+        const ovr: any = overrides[p.id] || {};
         all.push({
           ...applyOverrideToProduct(p, ovr),
           is_hidden: ovr.is_hidden || false,
@@ -60,16 +60,16 @@ export async function GET(req: NextRequest) {
         }
       }
 
-      return NextResponse.json({ products: all });
+      return NextResponse.json(all);
     }
 
     // Public Storefront query
     const products = await getAllMergedProducts();
     const filtered = category && category !== "all" && category !== "shop-all"
-      ? products.filter((p) => p.category.toLowerCase() === category.toLowerCase() || p.tab.toLowerCase() === category.toLowerCase())
+      ? products.filter((p) => (p.category || "").toLowerCase() === category.toLowerCase() || (p.tab || "").toLowerCase() === category.toLowerCase())
       : products;
 
-    return NextResponse.json({ products: filtered });
+    return NextResponse.json(filtered);
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }

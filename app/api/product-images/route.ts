@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
       // If productId provided, append to product's images
       if (productId) {
         const overrides = await getProductOverrides();
-        const existing = overrides[productId] || {};
+        const existing: any = overrides[productId] || {};
         const currentImages = Array.isArray(existing.images) ? [...existing.images] : [];
         if (!currentImages.includes(publicUrl)) {
           currentImages.push(publicUrl);
@@ -77,7 +77,7 @@ export async function POST(req: NextRequest) {
     }
 
     const overrides = await getProductOverrides();
-    const existing = overrides[product_id] || {};
+    const existing: any = overrides[product_id] || {};
     const currentImages = Array.isArray(existing.images) ? [...existing.images] : [];
     if (!currentImages.includes(url)) {
       currentImages.push(url);

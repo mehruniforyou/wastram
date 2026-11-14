@@ -272,7 +272,7 @@ export function applyOverrideToProduct(base: NishoramaProduct, override?: Produc
   };
 }
 
-export async function getAllMergedProducts(): Promise<NishoramaProduct[]> {
+export async function getAllMergedProducts(options?: { includeHidden?: boolean; forceRefresh?: boolean; [key: string]: any }): Promise<NishoramaProduct[]> {
   const overrides = await getProductOverrides();
   const activeProducts: NishoramaProduct[] = [];
   const handledIds = new Set<string>();
@@ -315,3 +315,19 @@ export async function getAllMergedProducts(): Promise<NishoramaProduct[]> {
 
   return activeProducts;
 }
+
+export const getLiveProducts = getAllMergedProducts;
+export function cleanTechnicalSpecs(specs: any): Record<string, string> | null {
+  if (!specs || typeof specs !== "object") return null;
+  const cleaned: Record<string, string> = {};
+  for (const [k, v] of Object.entries(specs)) {
+    if (v !== undefined && v !== null && String(v).trim() !== "") {
+      cleaned[k] = String(v).trim();
+    }
+  }
+  return Object.keys(cleaned).length > 0 ? cleaned : null;
+}
+export function getServerProductsCacheVersion(): number {
+  return 1;
+}
+

@@ -42,8 +42,9 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     fetch('/api/products')
       .then(res => res.json())
       .then(data => {
-        if (Array.isArray(data.products) && data.products.length > 0) {
-          setLiveProducts(data.products);
+        const prods = Array.isArray(data) ? data : (data?.products || []);
+        if (prods.length > 0) {
+          setLiveProducts(prods);
         }
       })
       .catch(() => {});
