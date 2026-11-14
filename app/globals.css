@@ -210,3 +210,66 @@ body::-webkit-scrollbar-thumb {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Luxury Jaipur Zari Thread Golden Shimmer Line */
+@keyframes goldShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.gold-shimmer-line {
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.95) 50%, rgba(212, 175, 55, 0.15) 100%);
+  background-size: 200% 100%;
+  animation: goldShimmer 3.5s ease-in-out infinite;
+}
+
+/* Gentle Luxury Float Animation */
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float-gentle {
+  animation: floatGentle 4s ease-in-out infinite;
+}
+
+/* Subtle Breathing Glow */
+@keyframes goldGlowBreath {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+.animate-glow-breath {
+  animation: goldGlowBreath 3s ease-in-out infinite;
+}
+
+/* Elegant Scroll Indicator Bob */
+@keyframes scrollIndicatorBob {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(6px);
+    opacity: 1;
+  }
+}
+
+.animate-scroll-bob {
+  animation: scrollIndicatorBob 2s ease-in-out infinite;
+}
+

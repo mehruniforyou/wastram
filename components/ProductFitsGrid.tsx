@@ -4,6 +4,7 @@ import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { NISHORAMA_PRODUCTS } from '@/data/nishorama-data';
 import ProductCard from './ProductCard';
+import ScrollReveal from './ScrollReveal';
 
 export default function ProductFitsGrid() {
   const [activeTab, setActiveTab] = useState<string>('western-dresses');
@@ -39,54 +40,70 @@ export default function ProductFitsGrid() {
   }, [activeTab]);
 
   return (
-    <section className="w-full py-12 md:py-20 px-4 md:px-8 bg-[#FAF9F6]">
+    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6]">
       <div className="max-w-[1540px] mx-auto flex flex-col gap-8 md:gap-12">
-        {/* Elegant Section Heading */}
-        <div className="flex flex-col items-center text-center">
-          <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1">
-            Artisanal Curation
-          </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.12em] uppercase text-[#0B2D7F]">
-            Featured Collections
-          </h2>
-          <div className="w-12 h-[1px] bg-[#D4AF37]/60 mt-3" />
-        </div>
+        {/* Elegant Section Heading with Scroll Reveal */}
+        <ScrollReveal direction="up" distance={20} duration={800}>
+          <div className="flex flex-col items-center text-center">
+            <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1.5 flex items-center gap-2">
+              <span className="inline-block w-4 h-[1px] bg-[#D4AF37]/50" />
+              Artisanal Curation
+              <span className="inline-block w-4 h-[1px] bg-[#D4AF37]/50" />
+            </span>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.14em] uppercase text-[#0B2D7F]">
+              Featured Collections
+            </h2>
+            <div className="w-16 h-[1.5px] gold-shimmer-line mt-3 rounded-full" />
+          </div>
+        </ScrollReveal>
 
         {/* Minimal Luxury Filter Tabs (Soft shadows, border-free) */}
-        <div className="flex items-center justify-center gap-2 overflow-x-auto no-scrollbar py-1 px-2">
-          {tabs.map(tab => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`diwali-fit-button whitespace-nowrap ${
-                activeTab === tab.id ? 'active' : ''
-              }`}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
+        <ScrollReveal direction="up" distance={16} duration={700} delay={100}>
+          <div className="flex items-center justify-center gap-2 overflow-x-auto no-scrollbar py-1 px-2">
+            {tabs.map(tab => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`diwali-fit-button whitespace-nowrap ${
+                  activeTab === tab.id ? 'active' : ''
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+        </ScrollReveal>
 
         {/* PRODUCT GRID: Desktop 4 columns, Mobile 2 columns */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 lg:gap-8">
           {currentProducts.map((product, idx) => (
-            <ProductCard
+            <ScrollReveal
               key={product.id}
-              product={product}
-              priority={idx < 4}
-            />
+              direction="up"
+              distance={20}
+              duration={650}
+              delay={Math.min(idx * 40, 240)}
+            >
+              <ProductCard
+                product={product}
+                priority={idx < 4}
+              />
+            </ScrollReveal>
           ))}
         </div>
 
         {/* Minimal Luxury View All Button */}
-        <div className="flex justify-center pt-4">
-          <Link
-            href="/collections/shop-all"
-            className="px-8 py-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card cursor-pointer"
-          >
-            Explore All 1,400+ Styles &rarr;
-          </Link>
-        </div>
+        <ScrollReveal direction="up" distance={16} duration={700} delay={100}>
+          <div className="flex justify-center pt-4">
+            <Link
+              href="/collections/shop-all"
+              className="px-8 py-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card cursor-pointer inline-flex items-center gap-2 hover:-translate-y-0.5"
+            >
+              <span>Explore All 1,400+ Styles</span>
+              <span>&rarr;</span>
+            </Link>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );
