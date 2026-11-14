@@ -21,7 +21,7 @@ export function ErrorView({ code, title, desc, onBack }: ErrorViewProps) {
         </p>
         <div className='mt-6 flex gap-4'>
           <Button variant='outline' onClick={onBack}>
-            Zurück
+            Go Back
           </Button>
           <Button onClick={onBack}>Zur Startseite</Button>
         </div>

@@ -107,7 +107,7 @@ function SubTabHeader({
           )}
         >
           <Edit3 className='w-3.5 h-3.5' />
-          <span>{isEditing ? 'Bearbeitungsmodus' : 'Bearbeiten'}</span>
+          <span>{isEditing ? 'Editing Mode' : 'Edit Profile'}</span>
         </Button>
 
         <Button
@@ -125,12 +125,12 @@ function SubTabHeader({
           {saving ? (
             <>
               <Loader2 className='w-3.5 h-3.5 animate-spin' />
-              <span>Wird gespeichert...</span>
+              <span>Saving...</span>
             </>
           ) : saveSuccess ? (
             <>
               <CheckCircle2 className='w-3.5 h-3.5' />
-              <span>Gespeichert!</span>
+              <span>Saved!</span>
             </>
           ) : (
             <>
@@ -300,14 +300,14 @@ function ProfileTab() {
             className='mt-1 text-xs cursor-pointer'
             onClick={() => { setUrls([...urls, '']); setIsEditing(true); }}
           >
-            + Link hinzufügen
+            + Add Link
           </Button>
         </div>
       </div>
 
       <div className='flex items-center justify-between gap-4 pt-2'>
         <p className='text-xs text-muted-foreground'>
-          Änderungen werden sicher in Ihrer Administrationsdatenbank gespeichert.
+          Changes are securely saved to your administrative database.
         </p>
         <Button
           type='submit'
@@ -392,7 +392,7 @@ function AccountTab() {
       setTimeout(() => setSaveSuccess(false), 3500)
       notifyAdmin('success', 'Account Saved', 'Store and account settings updated.')
     } catch (err: any) {
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Kontoeinstellungen konnten nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Could not save account settings.')
     } finally {
       setSaving(false)
     }
@@ -500,13 +500,13 @@ function AccountTab() {
           </div>
 
           <div className='space-y-1.5'>
-            <Label className='text-xs font-semibold'>Standard-Währung</Label>
+            <Label className='text-xs font-semibold'>Default Currency</Label>
             <Select
               value={form.defaultCurrency}
               onValueChange={val => { setForm(p => ({ ...p, defaultCurrency: val })); setIsEditing(true); }}
             >
               <SelectTrigger className='w-full h-9 text-xs'>
-                <SelectValue placeholder='Währung auswählen' />
+                <SelectValue placeholder='Select Currency' />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value='INR'>INR (₹) – Indian Rupee</SelectItem>
@@ -522,7 +522,7 @@ function AccountTab() {
 
       <div className='flex items-center justify-between gap-4 pt-2'>
         <p className='text-xs text-muted-foreground'>
-          Aktualisierungen wirken sich direkt auf Shop-Rechnungen und den Checkout aus.
+          Updates directly apply to store invoices and checkout.
         </p>
         <Button
           type='submit'
@@ -580,7 +580,7 @@ function AppearanceTab() {
       setTimeout(() => setSaveSuccess(false), 3500)
       notifyAdmin('success', 'Appearance Saved', 'Theme and font settings updated.')
     } catch (err: any) {
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Erscheinungsbild konnte nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Could not save appearance settings.')
     } finally {
       setSaving(false)
     }
@@ -590,7 +590,7 @@ function AppearanceTab() {
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
         title='Appearance'
-        description='Passen Sie Dashboard-Farbschema, Typografie und visuelle Einstellungen an.'
+        description='Customize dashboard theme, typography, and visual preferences.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
         onSave={() => handleSave()}
@@ -601,7 +601,7 @@ function AppearanceTab() {
       {saveSuccess && (
         <div className='p-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
           <CheckCircle2 className='w-4 h-4 shrink-0' />
-          <span>Einstellungen für das Erscheinungsbild gespeichert!</span>
+          <span>Appearance preferences saved!</span>
         </div>
       )}
 
@@ -644,7 +644,7 @@ function AppearanceTab() {
             onValueChange={v => { setFont(v); setIsEditing(true); }}
           >
             <SelectTrigger className='w-[220px] h-9 text-xs'>
-              <SelectValue placeholder='Schriftart auswählen' />
+              <SelectValue placeholder='Select Font' />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value='inter'>Inter (Klar &amp; Modern)</SelectItem>
@@ -657,7 +657,7 @@ function AppearanceTab() {
 
       <div className='flex items-center justify-between gap-4 pt-2'>
         <p className='text-xs text-muted-foreground'>
-          Design-Einstellungen werden sofort für Ihre Admin-Sitzung übernommen.
+          Design settings apply immediately to your admin session.
         </p>
         <Button
           type='submit'
@@ -716,7 +716,7 @@ function NotificationsTab() {
       setTimeout(() => setSaveSuccess(false), 3500)
       notifyAdmin('success', 'Notifications Saved', 'Notification preferences updated.')
     } catch (err: any) {
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Benachrichtigungen konnten nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Could not save notifications.')
     } finally {
       setSaving(false)
     }
@@ -737,7 +737,7 @@ function NotificationsTab() {
       {saveSuccess && (
         <div className='p-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
           <CheckCircle2 className='w-4 h-4 shrink-0' />
-          <span>Benachrichtigungseinstellungen erfolgreich aktualisiert!</span>
+          <span>Notification settings updated!</span>
         </div>
       )}
 
@@ -755,7 +755,7 @@ function NotificationsTab() {
 
             <div className='flex items-center justify-between'>
               <div>
-                <p className='text-xs font-semibold text-foreground'>Warnungen bei geringem Lagerbestand</p>
+                <p className='text-xs font-semibold text-foreground'>Low Stock Alerts</p>
                 <p className='text-[0.75rem] text-muted-foreground'>Benachrichtigung erhalten, wenn der Lautsprecherbestand unter 3 Stück fällt.</p>
               </div>
               <Switch checked={inventoryAlerts} onCheckedChange={v => { setInventoryAlerts(v); setIsEditing(true); }} />
@@ -772,7 +772,7 @@ function NotificationsTab() {
         </div>
 
         <div className='space-y-2 pt-1'>
-          <Label className='text-xs font-semibold'>Nachrichtenpriorität</Label>
+          <Label className='text-xs font-semibold'>Message Priority</Label>
           <RadioGroup
             value={notifyType}
             onValueChange={v => { setNotifyType(v as typeof notifyType); setIsEditing(true); }}
@@ -784,7 +784,7 @@ function NotificationsTab() {
             </div>
             <div className='flex items-center space-x-2'>
               <RadioGroupItem value='mentions' id='notif-critical' />
-              <label htmlFor='notif-critical' className='text-xs font-medium cursor-pointer'>Nur wichtige Bestell- und Zahlungswarnungen</label>
+              <label htmlFor='notif-critical' className='text-xs font-medium cursor-pointer'>High priority order and payment alerts only</label>
             </div>
             <div className='flex items-center space-x-2'>
               <RadioGroupItem value='none' id='notif-none' />
@@ -820,7 +820,7 @@ function DisplayTab() {
   const [pageSize, setPageSize] = useState('25')
 
   const modules = [
-    { id: 'products', label: 'Produkte & Lagerbestand' },
+    { id: 'products', label: 'Products & Inventory' },
     { id: 'orders', label: 'Customer Orders & Fulfillment' },
     { id: 'categories', label: 'Lautsprecherteile-Kategorien' },
     { id: 'discounts', label: 'Discounts & Promotion Codes' },
@@ -856,7 +856,7 @@ function DisplayTab() {
       setTimeout(() => setSaveSuccess(false), 3500)
       notifyAdmin('success', 'Display Saved', 'Display visibility settings saved.')
     } catch (err: any) {
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Anzeigeeinstellungen konnten nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Could not save display settings.')
     } finally {
       setSaving(false)
     }
@@ -877,7 +877,7 @@ function DisplayTab() {
       {saveSuccess && (
         <div className='p-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
           <CheckCircle2 className='w-4 h-4 shrink-0' />
-          <span>Anzeigeeinstellungen erfolgreich gespeichert!</span>
+          <span>Display preferences saved!</span>
         </div>
       )}
 
@@ -921,7 +921,7 @@ function DisplayTab() {
 
       <div className='flex items-center justify-between gap-4 pt-2'>
         <p className='text-xs text-muted-foreground'>
-          Gespeicherte Einstellungen werden in Ihrem lokalen Admin-Profil abgelegt.
+          Settings are saved to your local admin profile.
         </p>
         <Button
           type='submit'
@@ -1020,13 +1020,13 @@ function ApiKeysTab() {
         setSaveSuccess(true)
         setIsEditing(false)
         setTimeout(() => setSaveSuccess(false), 4000)
-        notifyAdmin('success', 'API-Schlüssel gespeichert', 'Produktionsdaten in der Datenbank aktualisiert.')
+        notifyAdmin('success', 'API Keys Saved', 'Production keys updated in database.')
       } else {
         throw new Error('Server returned an error.')
       }
     } catch (err: any) {
       console.error('Error saving API keys:', err)
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'API-Schlüssel konnten nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Could not save API keys.')
     } finally {
       setSaving(false)
     }
@@ -1055,7 +1055,7 @@ function ApiKeysTab() {
       {saveSuccess && (
         <div className='p-3.5 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
           <CheckCircle2 className='w-4 h-4 shrink-0' />
-          <span>Produktions-API-Schlüssel und Zugangsdaten erfolgreich in der Datenbank gespeichert!</span>
+          <span>Production API keys saved in database!</span>
         </div>
       )}
 
@@ -1064,7 +1064,7 @@ function ApiKeysTab() {
         <div className='flex items-center justify-between pb-3 border-b border-border'>
           <div className='flex items-center gap-2'>
             <CreditCard className='w-4 h-4 text-primary' />
-            <h4 className='text-sm font-semibold text-foreground'>Zahlungsanbieter (PayPal &amp; Stripe)</h4>
+            <h4 className='text-sm font-semibold text-foreground'>Payment Providers (Razorpay, Stripe &amp; Cashfree)</h4>
           </div>
           <Badge variant='outline' className='text-[10px] uppercase font-mono'>
             {form.environment === 'live' ? 'Live-Produktion' : 'Sandbox-Modus'}
@@ -1079,7 +1079,7 @@ function ApiKeysTab() {
               onValueChange={(val) => { setForm((p) => ({ ...p, environment: val })); setIsEditing(true); }}
             >
               <SelectTrigger className='w-full h-9 text-xs'>
-                <SelectValue placeholder='Modus auswählen' />
+                <SelectValue placeholder='Select Mode' />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value='sandbox'>Sandbox (Testmodus)</SelectItem>
@@ -1089,13 +1089,13 @@ function ApiKeysTab() {
           </div>
 
           <div className='space-y-1.5'>
-            <Label className='text-xs font-semibold'>Standard-Währung</Label>
+            <Label className='text-xs font-semibold'>Default Currency</Label>
             <Select
               value={form.defaultCurrency}
               onValueChange={(val) => { setForm((p) => ({ ...p, defaultCurrency: val })); setIsEditing(true); }}
             >
               <SelectTrigger className='w-full h-9 text-xs'>
-                <SelectValue placeholder='Währung auswählen' />
+                <SelectValue placeholder='Select Currency' />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value='INR'>INR (₹) – Indian Rupee</SelectItem>
@@ -1397,12 +1397,12 @@ function ApiKeysTab() {
           {saving ? (
             <>
               <Loader2 className='w-3.5 h-3.5 animate-spin' />
-              <span>Schlüssel werden gespeichert...</span>
+              <span>Saving Keys...</span>
             </>
           ) : (
             <>
               <Save className='w-3.5 h-3.5' />
-              <span>API-Schlüssel speichern</span>
+              <span>Save API Keys</span>
             </>
           )}
         </Button>

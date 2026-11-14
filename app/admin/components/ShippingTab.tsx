@@ -47,12 +47,12 @@ import { safeSetLocalStorage, safeSetSessionStorage } from "@/lib/safeStorage";
 
 export const DELIVERY_TIME_OPTIONS = [
   { value: "Within 1 week", label: "Innerhalb 1 Woche (Within 1 week)" },
-  { value: "1-2 weeks", label: "1-2 Wochen (1-2 weeks)" },
-  { value: "2-3 weeks", label: "2-3 Wochen (2-3 weeks)" },
-  { value: "3-4 weeks", label: "3-4 Wochen (3-4 weeks)" },
-  { value: "4-5 weeks", label: "4-5 Wochen (4-5 weeks)" },
-  { value: "5-6 weeks", label: "5-6 Wochen (5-6 weeks)" },
-  { value: "6-8 weeks", label: "6-8 Wochen (6-8 weeks)" },
+  { value: "1-2 weeks", label: "1-2 Weeks" },
+  { value: "2-3 weeks", label: "2-3 Weeks" },
+  { value: "3-4 weeks", label: "3-4 Weeks" },
+  { value: "4-5 weeks", label: "4-5 Weeks" },
+  { value: "5-6 weeks", label: "5-6 Weeks" },
+  { value: "6-8 weeks", label: "6-8 Weeks" },
   { value: "1-2 Werktage", label: "1-2 Werktage (1-2 days)" },
   { value: "2-4 Werktage", label: "2-4 Werktage (2-4 days)" },
   { value: "3-5 Werktage", label: "3-5 Werktage (3-5 days)" },
@@ -136,7 +136,7 @@ export function ShippingRateInput({
           ? "Feld ist leer — Wert ≥ 0 erforderlich"
           : isInvalid
           ? "Ungültiger Wert (muss ≥ 0 sein)"
-          : "Klicken zum Bearbeiten (Wert ≥ 0)"
+          : "Click to edit (value ≥ 0)"
       }
       onClick={(e) => {
         const input = e.currentTarget.querySelector("input");
@@ -202,7 +202,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
 
   // Main Region Group in Category Rates Fixer View:
   // EU (all 42 countries), US (all 50 states), CA (all 13 provinces), DE (Inland), GB (UK)
-  const [activeRegionGroup, setActiveRegionGroup] = useState<"EU" | "US" | "CA" | "DE" | "GB">("EU");
+  const [activeRegionGroup, setActiveRegionGroup] = useState<"EU" | "US" | "CA" | "IN" | "GB">("IN");
   const [regionSearchQuery, setRegionSearchQuery] = useState("");
 
   // Bulk rate apply form for Europe in Category Fixer View
@@ -500,11 +500,11 @@ export default function ShippingTab({ categories: propCategories }: { categories
       notifyAdmin(
         "success",
         "Shipping settings saved",
-        `Die Shipping Rates und Länderkonditionen${catName} wurden erfolgreich aktualisiert.`
+        `Shipping rates and regional conditions${catName} successfully updated.`
       );
     } catch (err: any) {
       console.error("Error saving shipping settings:", err);
-      notifyAdmin("error", "Fehler beim Speichern", err.message || "Shipping settings could not be saved", err);
+      notifyAdmin("error", "Save Failed", err.message || "Shipping settings could not be saved", err);
     } finally {
       setSaving(false);
     }
@@ -693,7 +693,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       return;
     }
     if (!bulkEuAdditionalFee.trim() || isNaN(Number(bulkEuAdditionalFee)) || Number(bulkEuAdditionalFee) < 0) {
-      notifyAdmin("warning", "Tarif erforderlich", "Bitte geben Sie einen Zusatzartikel-Preis von 0 oder höher ein.");
+      notifyAdmin("warning", "Rate Required", "Please enter an additional item price of 0 or higher.");
       return;
     }
 
@@ -931,7 +931,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       return;
     }
     if (!bulkUsAdditionalFee.trim() || isNaN(Number(bulkUsAdditionalFee)) || Number(bulkUsAdditionalFee) < 0) {
-      notifyAdmin("warning", "Tarif erforderlich", "Bitte geben Sie einen Zusatzartikel-Preis von 0 oder höher ein.");
+      notifyAdmin("warning", "Rate Required", "Please enter an additional item price of 0 or higher.");
       return;
     }
 
@@ -999,7 +999,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       return;
     }
     if (!bulkCaAdditionalFee.trim() || isNaN(Number(bulkCaAdditionalFee)) || Number(bulkCaAdditionalFee) < 0) {
-      notifyAdmin("warning", "Tarif erforderlich", "Bitte geben Sie einen Zusatzartikel-Preis von 0 oder höher ein.");
+      notifyAdmin("warning", "Rate Required", "Please enter an additional item price of 0 or higher.");
       return;
     }
 
@@ -1093,7 +1093,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
     setNewCityName("");
     setNewCityPostcode("");
     setNewCityFee("0.00");
-    notifyAdmin("success", "Stadt-Tarif hinzugefügt", `${newEntry.cityName || newEntry.postalCode} (${newEntry.countryCode}) gespeichert.`);
+    notifyAdmin("success", "City Rate Added", `${newEntry.cityName || newEntry.postalCode} (${newEntry.countryCode}) saved.`);
   };
 
   const handleDeleteCityRate = (id: string) => {
@@ -1190,7 +1190,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               }}
               className="text-xs font-bold text-neutral-600 hover:text-black transition-colors cursor-pointer shrink-0"
             >
-              ← Zurück
+              ← Back
             </button>
             <span className="text-neutral-300">|</span>
             <div className="flex items-center gap-2 min-w-0">
@@ -1221,7 +1221,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   : "bg-black hover:bg-neutral-800 disabled:opacity-50 text-white"
               }`}
             >
-              {saving ? "Speichert..." : saveSuccess ? "Gespeichert!" : "Speichern"}
+              {saving ? "Saving..." : saveSuccess ? "Saved!" : "Save"}
             </button>
           </div>
         </div>
@@ -1232,7 +1232,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
             { id: "EU" as const, label: "Europa", count: 42, flag: "🇪🇺" },
             { id: "US" as const, label: "USA", count: 50, flag: "🇺🇸" },
             { id: "CA" as const, label: "Kanada", count: 13, flag: "🇨🇦" },
-            { id: "DE" as const, label: "Deutschland", count: undefined, flag: "🇩🇪" },
+            { id: "IN" as const, label: "India (Domestic)", count: undefined, flag: "🇮🇳" },
             { id: "GB" as const, label: "UK", count: undefined, flag: "🇬🇧" },
           ].map((tab) => {
             const isActive = activeRegionGroup === tab.id;
@@ -1279,7 +1279,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   placeholder="9.95"
                   className="w-20"
                 />
-                <span className="font-bold text-neutral-700 ml-1">+ weiterer Artikel:</span>
+                <span className="font-bold text-neutral-700 ml-1">+ Additional Item:</span>
                 <ShippingRateInput
                   value={bulkEuAdditionalFee}
                   onChange={setBulkEuAdditionalFee}
@@ -1327,14 +1327,14 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden divide-y divide-neutral-100">
               <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-xs font-bold text-neutral-500 border-b border-neutral-200">
                 <div className="col-span-12 sm:col-span-4 md:col-span-3">Land (42)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (₹)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Base Rate (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Additional Items (₹)</div>
                 <div className="col-span-6 sm:col-span-4 md:col-span-3">Estimated Delivery</div>
                 <div className="hidden md:block md:col-span-2 text-right">Status</div>
               </div>
 
               {filteredEuropeCountries.length === 0 ? (
-                <div className="p-8 text-center text-xs text-neutral-500">Keine Länder gefunden</div>
+                <div className="p-8 text-center text-xs text-neutral-500">No countries found</div>
               ) : (
                 filteredEuropeCountries.map((country) => {
                   const customFee = catRate.countryRates?.[country.code];
@@ -1442,7 +1442,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                               : "bg-neutral-100 text-neutral-400 border-neutral-200"
                           }`}
                         >
-                          {isShippable ? "Aktiv" : "Aus"}
+                          {isShippable ? "Active" : "Off"}
                         </button>
 
                         {isOverridden && (
@@ -1450,7 +1450,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                             type="button"
                             onClick={() => handleResetCategoryCountryRate(selectedCategory.id, country.code)}
                             className="p-1 text-neutral-400 hover:text-black rounded hover:bg-neutral-100 transition-colors cursor-pointer"
-                            title="Zurücksetzen"
+                            title="Reset to Default"
                           >
                             <RotateCcw className="w-3.5 h-3.5" />
                           </button>
@@ -1477,7 +1477,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   placeholder="18.00"
                   className="w-20"
                 />
-                <span className="font-bold text-neutral-700 ml-1">+ weiterer Artikel:</span>
+                <span className="font-bold text-neutral-700 ml-1">+ Additional Item:</span>
                 <ShippingRateInput
                   value={bulkUsAdditionalFee}
                   onChange={setBulkUsAdditionalFee}
@@ -1522,14 +1522,14 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden divide-y divide-neutral-100">
               <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-xs font-bold text-neutral-500 border-b border-neutral-200">
                 <div className="col-span-12 sm:col-span-4 md:col-span-3">Bundesstaat (50)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (₹)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Base Rate (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Additional Items (₹)</div>
                 <div className="col-span-6 sm:col-span-4 md:col-span-3">Estimated Delivery</div>
                 <div className="hidden md:block md:col-span-2 text-right">Status</div>
               </div>
 
               {filteredUsStates.length === 0 ? (
-                <div className="p-8 text-center text-xs text-neutral-500">Keine Bundesstaaten gefunden</div>
+                <div className="p-8 text-center text-xs text-neutral-500">No states found</div>
               ) : (
                 filteredUsStates.map((state) => {
                   const customFee = catRate.stateRates?.[state.id];
@@ -1642,7 +1642,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                               : "bg-neutral-100 text-neutral-400 border-neutral-200"
                           }`}
                         >
-                          {isShippable ? "Aktiv" : "Aus"}
+                          {isShippable ? "Active" : "Off"}
                         </button>
 
                         {isOverridden && (
@@ -1650,7 +1650,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                             type="button"
                             onClick={() => handleResetCategoryStateRate(selectedCategory.id, state.id)}
                             className="p-1 text-neutral-400 hover:text-black rounded hover:bg-neutral-100 transition-colors cursor-pointer"
-                            title="Zurücksetzen"
+                            title="Reset to Default"
                           >
                             <RotateCcw className="w-3.5 h-3.5" />
                           </button>
@@ -1677,7 +1677,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   placeholder="19.95"
                   className="w-20"
                 />
-                <span className="font-bold text-neutral-700 ml-1">+ weiterer Artikel:</span>
+                <span className="font-bold text-neutral-700 ml-1">+ Additional Item:</span>
                 <ShippingRateInput
                   value={bulkCaAdditionalFee}
                   onChange={setBulkCaAdditionalFee}
@@ -1722,14 +1722,14 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-white border border-neutral-200 rounded-xl overflow-hidden divide-y divide-neutral-100">
               <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-xs font-bold text-neutral-500 border-b border-neutral-200">
                 <div className="col-span-12 sm:col-span-4 md:col-span-3">Provinz / Territorium (13)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Preis (₹)</div>
-                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Weitere Artikel (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Base Rate (₹)</div>
+                <div className="col-span-6 sm:col-span-2 md:col-span-2 text-right">Additional Items (₹)</div>
                 <div className="col-span-6 sm:col-span-4 md:col-span-3">Estimated Delivery</div>
                 <div className="hidden md:block md:col-span-2 text-right">Status</div>
               </div>
 
               {filteredCaProvinces.length === 0 ? (
-                <div className="p-8 text-center text-xs text-neutral-500">Keine Provinzen gefunden</div>
+                <div className="p-8 text-center text-xs text-neutral-500">No provinces found</div>
               ) : (
                 filteredCaProvinces.map((prov) => {
                   const customFee = catRate.stateRates?.[prov.id];
@@ -1847,7 +1847,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                               : "bg-neutral-100 text-neutral-400 border-neutral-200"
                           }`}
                         >
-                          {isShippable ? "Aktiv" : "Aus"}
+                          {isShippable ? "Active" : "Off"}
                         </button>
 
                         {isOverridden && (
@@ -1855,7 +1855,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                             type="button"
                             onClick={() => handleResetCategoryStateRate(selectedCategory.id, prov.id)}
                             className="p-1 text-neutral-400 hover:text-black rounded hover:bg-neutral-100 transition-colors cursor-pointer"
-                            title="Zurücksetzen"
+                            title="Reset to Default"
                           >
                             <RotateCcw className="w-3.5 h-3.5" />
                           </button>
@@ -1870,13 +1870,13 @@ export default function ShippingTab({ categories: propCategories }: { categories
         )}
 
         {/* ── TAB 4: DEUTSCHLAND (INLAND) ── */}
-        {activeRegionGroup === "DE" && (
+        {activeRegionGroup === "IN" && (
           <div className="bg-white border border-neutral-200 rounded-xl p-4 sm:p-5 space-y-4 animate-fade-in">
             <div className="flex items-center justify-between pb-3 border-b border-neutral-100">
               <div className="flex items-center gap-3">
                 <span className="text-2xl select-none">🇩🇪</span>
                 <div>
-                  <h3 className="font-heading font-black text-sm text-black">Deutschland (Inland)</h3>
+                  <h3 className="font-heading font-black text-sm text-black">India (Domestic)</h3>
                   <span className="text-[11px] text-neutral-400">Standard Domestic Delivery across India</span>
                 </div>
               </div>
@@ -1904,7 +1904,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Weitere Artikel (₹)</label>
+                <label className="text-xs font-bold text-neutral-700">Additional Items (₹)</label>
                 <ShippingRateInput
                   value={getDraftRate(
                     `cat:${selectedCategory.id}:DE:addFee`,
@@ -1978,7 +1978,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-neutral-700">Weitere Artikel (₹)</label>
+                <label className="text-xs font-bold text-neutral-700">Additional Items (₹)</label>
                 <ShippingRateInput
                   value={getDraftRate(
                     `cat:${selectedCategory.id}:GB:addFee`,
@@ -2028,7 +2028,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
             }}
             className="text-xs font-heading font-bold text-neutral-500 hover:text-black cursor-pointer"
           >
-            ← Zurück zu Kategorien
+            ← Back to Categories
           </button>
           <div className="flex items-center gap-2">
             {hasInvalidDrafts && (
@@ -2054,12 +2054,12 @@ export default function ShippingTab({ categories: propCategories }: { categories
               ) : saveSuccess ? (
                 <>
                   <Check className="w-3.5 h-3.5 stroke-[3]" />
-                  <span>Gespeichert!</span>
+                  <span>Saved!</span>
                 </>
               ) : (
                 <>
                   <Check className="w-3.5 h-3.5 stroke-[2.5]" />
-                  <span>Speichern</span>
+                  <span>Save</span>
                 </>
               )}
             </button>
@@ -2106,12 +2106,12 @@ export default function ShippingTab({ categories: propCategories }: { categories
             ) : saveSuccess ? (
               <>
                 <Check className="w-3.5 h-3.5 stroke-[3]" />
-                <span>Gespeichert!</span>
+                <span>Saved!</span>
               </>
             ) : (
               <>
                 <Check className="w-3.5 h-3.5 stroke-[2.5]" />
-                <span>Speichern</span>
+                <span>Save</span>
               </>
             )}
           </button>
@@ -2130,7 +2130,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
           }`}
         >
           <Layers className="w-3.5 h-3.5" />
-          <span>Kategorien</span>
+          <span>Categories</span>
         </button>
 
         <button
@@ -2231,7 +2231,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
           <div className="bg-white border border-neutral-200 rounded-2xl p-4 shadow-2xs space-y-3">
             <h2 className="text-xs font-heading font-bold uppercase tracking-wider text-black flex items-center gap-1.5">
               <MapPin className="w-3.5 h-3.5" />
-              <span>Stadt- oder PLZ-Tarif hinzufügen</span>
+              <span>Add City or PIN Code Rate</span>
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-6 gap-2.5 items-end">
@@ -2273,7 +2273,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               </div>
 
               <div>
-                <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
+                <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Base Rate (₹)</label>
                 <ShippingRateInput
                   value={newCityFee}
                   onChange={setNewCityFee}
@@ -2289,7 +2289,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   onChange={(e) => setNewCityDeliveryTime(e.target.value)}
                   className="w-full bg-neutral-50 border border-neutral-200 focus:border-black rounded-lg px-2.5 py-1.5 text-xs font-medium text-black outline-none cursor-pointer"
                 >
-                  <optgroup label="Wochen / Weeks">
+                  <optgroup label="Weeks">
                     <option value="Within 1 week">Within 1 week</option>
                     <option value="1-2 weeks">1-2 weeks</option>
                     <option value="2-3 weeks">2-3 weeks</option>
@@ -2312,7 +2312,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                 className="px-3.5 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1.5 self-end h-[34px]"
               >
                 <Plus className="w-3.5 h-3.5" />
-                <span>Hinzufügen</span>
+                <span>Add</span>
               </button>
             </div>
           </div>
@@ -2322,14 +2322,14 @@ export default function ShippingTab({ categories: propCategories }: { categories
             <div className="bg-neutral-50 px-4 py-2.5 grid grid-cols-12 gap-3 text-[11px] font-heading font-bold uppercase tracking-wider text-neutral-500 border-b border-neutral-200">
               <div className="col-span-4">Stadt / PLZ</div>
               <div className="col-span-3">Land</div>
-              <div className="col-span-2 text-right">Preis (₹)</div>
+              <div className="col-span-2 text-right">Base Rate (₹)</div>
               <div className="col-span-2">Estimated Delivery</div>
               <div className="col-span-1 text-right">Aktion</div>
             </div>
 
             {(!settings.cityRates || settings.cityRates.length === 0) ? (
               <div className="p-6 text-center">
-                <p className="text-xs font-semibold text-neutral-500">Keine Stadt-Tarife hinterlegt</p>
+                <p className="text-xs font-semibold text-neutral-500">No city shipping rates configured</p>
               </div>
             ) : (
               settings.cityRates.map((c) => {
@@ -2368,7 +2368,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                         type="button"
                         onClick={() => handleDeleteCityRate(c.id)}
                         className="p-1.5 text-neutral-400 hover:text-red-600 rounded-lg transition-colors cursor-pointer"
-                        title="Löschen"
+                        title="Delete"
                       >
                         <Trash2 className="w-4 h-4" />
                       </button>
@@ -2395,10 +2395,10 @@ export default function ShippingTab({ categories: propCategories }: { categories
               <div className="p-3.5 bg-neutral-50 rounded-xl border border-neutral-200 space-y-2.5">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">🇩🇪</span>
-                  <span className="font-heading font-bold text-xs text-black">Deutschland</span>
+                  <span className="font-heading font-bold text-xs text-black">India (Domestic)</span>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Base Rate (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:germanyShippingFee",
@@ -2412,7 +2412,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (₹)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Additional Items (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:germanyAdditionalFee",
@@ -2443,7 +2443,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   <span className="font-heading font-bold text-xs text-black">Europa</span>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Base Rate (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:euShippingFee",
@@ -2457,7 +2457,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (₹)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Additional Items (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:euAdditionalFee",
@@ -2488,7 +2488,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   <span className="font-heading font-bold text-xs text-black">Weltweit</span>
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Preis (₹)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Base Rate (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:internationalShippingFee",
@@ -2502,7 +2502,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Weitere Artikel (₹)</label>
+                  <label className="block text-[11px] font-semibold text-neutral-500 mb-1">Additional Items (₹)</label>
                   <ShippingRateInput
                     value={getDraftRate(
                       "general:internationalAdditionalFee",

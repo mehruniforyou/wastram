@@ -75,7 +75,7 @@ interface StoreUpdate {
 
 const SUB_TABS = [
   { id: 'announcements', label: 'Ankündigungen', icon: Megaphone, desc: 'Verwalten Sie die Ticker-Leiste und Werbebanner der Shopfront.' },
-  { id: 'blogs', label: 'Blog & Ratgeber', icon: BookOpen, desc: 'Erstellen, veröffentlichen und bearbeiten Sie Reparaturanleitungen und Artikel zur Audiorestaurierung.' },
+  { id: 'blogs', label: 'Journal & Stories', icon: BookOpen, desc: 'Create, publish and edit textile craft stories, design blogs, and artisan features.' },
   { id: 'updates', label: 'Aktualisierungen', icon: Sparkles, desc: 'Shop-Änderungsprotokoll, Mitteilungen über Neuzugänge und Werkstatt-Ankündigungen.' },
 ]
 
@@ -169,10 +169,10 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
       setSaveSuccess(true)
       setIsEditing(false)
       setTimeout(() => setSaveSuccess(false), 3500)
-      notifyAdmin('success', 'Shop-Einstellungen gespeichert', 'Ankündigungen, Blogartikel und Aktualisierungen erfolgreich aktualisiert.')
+      notifyAdmin('success', 'Store Settings Saved', 'Announcements, stories, and updates successfully saved.')
     } catch (err: any) {
       console.error('Error saving store content:', err)
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'Shop-Einstellungen konnten nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Could not save store settings.')
     } finally {
       setSaving(false)
     }
@@ -212,11 +212,11 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
     }
     setAnnouncementModalOpen(false)
     setIsEditing(true)
-    notifyAdmin('info', 'Aktualisiert', 'Ankündigung in Liste aktualisiert. Klicken Sie auf Änderungen speichern.')
+    notifyAdmin('info', 'Updated', 'Announcement updated in list. Click Save Changes.')
   }
 
   const deleteAnnouncement = (id: string) => {
-    if (!confirm('Diese Ankündigung wirklich löschen?')) return
+    if (!confirm('Are you sure you want to delete this announcement?')) return
     setAnnouncements(prev => prev.filter(a => a.id !== id))
     setIsEditing(true)
   }
@@ -259,7 +259,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
 
   const saveBlogModal = () => {
     if (!blogForm.title.trim()) {
-      alert('Bitte geben Sie einen Artikeltitel ein.')
+      alert('Please enter an article title.')
       return
     }
 
@@ -284,11 +284,11 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
     }
     setBlogModalOpen(false)
     setIsEditing(true)
-    notifyAdmin('info', 'Artikel vorgemerkt', 'Blogartikel aktualisiert. Klicken Sie auf Änderungen speichern.')
+    notifyAdmin('info', 'Story Updated', 'Journal article updated. Click Save Changes.')
   }
 
   const deleteBlog = (id: string) => {
-    if (!confirm('Diesen Blogbeitrag wirklich löschen?')) return
+    if (!confirm('Are you sure you want to delete this story?')) return
     setBlogs(prev => prev.filter(b => b.id !== id))
     setIsEditing(true)
   }
@@ -335,11 +335,11 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
     }
     setUpdateModalOpen(false)
     setIsEditing(true)
-    notifyAdmin('info', 'Aktualisierung vorgemerkt', 'Shop-Aktualisierung in Liste übernommen. Klicken Sie auf Änderungen speichern.')
+    notifyAdmin('info', 'Update Added', 'Update added to list. Click Save Changes.')
   }
 
   const deleteUpdate = (id: string) => {
-    if (!confirm('Diese Aktualisierung wirklich löschen?')) return
+    if (!confirm('Are you sure you want to delete this update?')) return
     setUpdates(prev => prev.filter(u => u.id !== id))
     setIsEditing(true)
   }
@@ -391,7 +391,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
               )}
             >
               <Edit3 className='w-3.5 h-3.5' />
-              <span>{isEditing ? 'Bearbeitungsmodus' : 'Bearbeiten'}</span>
+              <span>{isEditing ? 'Editing Mode' : 'Edit Settings'}</span>
             </Button>
 
             <Button
@@ -409,12 +409,12 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
               {saving ? (
                 <>
                   <Loader2 className='w-3.5 h-3.5 animate-spin' />
-                  <span>Wird gespeichert...</span>
+                  <span>Saving...</span>
                 </>
               ) : saveSuccess ? (
                 <>
                   <CheckCircle2 className='w-3.5 h-3.5' />
-                  <span>Gespeichert!</span>
+                  <span>Saved!</span>
                 </>
               ) : (
                 <>
@@ -494,7 +494,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   className='h-8 text-xs gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black cursor-pointer shadow-2xs'
                 >
                   <Plus className='w-3.5 h-3.5' />
-                  <span>Ankündigung hinzufügen</span>
+                  <span>Add Announcement</span>
                 </Button>
               </div>
 
@@ -559,7 +559,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                 {announcements.length === 0 && (
                   <div className='py-12 text-center rounded-xl border border-dashed border-border bg-muted/20'>
                     <Megaphone className='w-8 h-8 text-muted-foreground/40 mx-auto mb-2' />
-                    <p className='text-xs font-medium text-muted-foreground'>Noch keine Ankündigungen vorhanden. Klicken Sie auf „Ankündigung hinzufügen“, um eine zu erstellen.</p>
+                    <p className='text-xs font-medium text-muted-foreground'>No announcements yet. Click 'Add Announcement' to create one.</p>
                   </div>
                 )}
               </div>
@@ -583,7 +583,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   className='h-8 text-xs gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black cursor-pointer shadow-2xs'
                 >
                   <Plus className='w-3.5 h-3.5' />
-                  <span>Neuer Artikel</span>
+                  <span>New Story</span>
                 </Button>
               </div>
 
@@ -633,7 +633,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                           onClick={() => openEditBlog(post)}
                           className='h-7 px-2 text-xs cursor-pointer'
                         >
-                          <Edit3 className='w-3 h-3 mr-1' /> Bearbeiten
+                          <Edit3 className='w-3 h-3 mr-1' /> Edit
                         </Button>
                         <Button
                           type='button'
@@ -652,7 +652,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                 {blogs.length === 0 && (
                   <div className='col-span-full py-12 text-center rounded-xl border border-dashed border-border bg-muted/20'>
                     <BookOpen className='w-8 h-8 text-muted-foreground/40 mx-auto mb-2' />
-                    <p className='text-xs font-medium text-muted-foreground'>Noch keine Blogartikel vorhanden. Klicken Sie auf „Neuer Artikel“, um Ihren ersten Beitrag zu verfassen.</p>
+                    <p className='text-xs font-medium text-muted-foreground'>No journal stories yet. Click 'New Story' to publish your first editorial.</p>
                   </div>
                 )}
               </div>
@@ -676,7 +676,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   className='h-8 text-xs gap-1.5 bg-black hover:bg-neutral-800 text-white dark:bg-white dark:text-black cursor-pointer shadow-2xs'
                 >
                   <Plus className='w-3.5 h-3.5' />
-                  <span>Mitteilung hinzufügen</span>
+                  <span>Add Update</span>
                 </Button>
               </div>
 
@@ -711,7 +711,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                         onClick={() => openEditUpdate(upd)}
                         className='h-8 px-2 text-xs cursor-pointer'
                       >
-                        <Edit3 className='w-3.5 h-3.5 mr-1' /> Bearbeiten
+                        <Edit3 className='w-3.5 h-3.5 mr-1' /> Edit
                       </Button>
                       <Button
                         type='button'
@@ -729,7 +729,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                 {updates.length === 0 && (
                   <div className='py-12 text-center rounded-xl border border-dashed border-border bg-muted/20'>
                     <Sparkles className='w-8 h-8 text-muted-foreground/40 mx-auto mb-2' />
-                    <p className='text-xs font-medium text-muted-foreground'>Noch keine Mitteilungen veröffentlicht. Klicken Sie auf „Mitteilung hinzufügen“, um eine Meldung zu veröffentlichen.</p>
+                    <p className='text-xs font-medium text-muted-foreground'>No updates published yet. Click 'Add Update' to publish a notice.</p>
                   </div>
                 )}
               </div>
@@ -758,7 +758,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
           <div className='fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 animate-fade-in'>
             <div className='bg-card border border-border rounded-xl shadow-xl max-w-lg w-full p-5 space-y-4'>
               <h3 className='text-base font-bold text-foreground'>
-                {editingAnnId ? 'Ankündigung bearbeiten' : 'Neue Ankündigung hinzufügen'}
+                {editingAnnId ? 'Edit Announcement' : 'Add New Announcement'}
               </h3>
 
               <div className='space-y-3 text-xs'>
@@ -810,7 +810,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   onClick={() => setAnnouncementModalOpen(false)}
                   className='h-8 text-xs cursor-pointer'
                 >
-                  Abbrechen
+                  Cancel
                 </Button>
                 <Button
                   type='button'
@@ -830,12 +830,12 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
           <div className='fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 animate-fade-in'>
             <div className='bg-card border border-border rounded-xl shadow-xl max-w-xl w-full p-5 space-y-4 max-h-[90vh] overflow-y-auto'>
               <h3 className='text-base font-bold text-foreground'>
-                {editingBlogId ? 'Blogartikel bearbeiten' : 'Neuen Blogartikel verfassen'}
+                {editingBlogId ? 'Edit Journal Story' : 'Write New Journal Story'}
               </h3>
 
               <div className='space-y-3 text-xs'>
                 <div className='space-y-1'>
-                  <Label className='text-xs font-semibold'>Artikeltitel</Label>
+                  <Label className='text-xs font-semibold'>Story Title</Label>
                   <Input
                     value={blogForm.title}
                     onChange={e => setBlogForm(p => ({ ...p, title: e.target.value }))}
@@ -877,11 +877,11 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                 </div>
 
                 <div className='space-y-1'>
-                  <Label className='text-xs font-semibold'>Vollständiger Artikelinhalt</Label>
+                  <Label className='text-xs font-semibold'>Full Story Content</Label>
                   <Textarea
                     value={blogForm.content}
                     onChange={e => setBlogForm(p => ({ ...p, content: e.target.value }))}
-                    placeholder='Verfassen Sie Ihren Artikeltext hier...'
+                    placeholder='Write your artisan and collection story here...'
                     rows={6}
                     className='text-xs'
                   />
@@ -912,7 +912,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   onClick={() => setBlogModalOpen(false)}
                   className='h-8 text-xs cursor-pointer'
                 >
-                  Abbrechen
+                  Cancel
                 </Button>
                 <Button
                   type='button'
@@ -932,7 +932,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
           <div className='fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 animate-fade-in'>
             <div className='bg-card border border-border rounded-xl shadow-xl max-w-lg w-full p-5 space-y-4'>
               <h3 className='text-base font-bold text-foreground'>
-                {editingUpdateId ? 'Mitteilung bearbeiten' : 'Mitteilung hinzufügen'}
+                {editingUpdateId ? 'Edit Update' : 'Add Update'}
               </h3>
 
               <div className='space-y-3 text-xs'>
@@ -941,7 +941,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   <Input
                     value={updateForm.title}
                     onChange={e => setUpdateForm(p => ({ ...p, title: e.target.value }))}
-                    placeholder='z. B. Erweiterter Lagerbestand in Saerbeck'
+                    placeholder='e.g. New Jaipur handloom batch dispatched'
                     className='h-8 text-xs'
                   />
                 </div>
@@ -997,7 +997,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   onClick={() => setUpdateModalOpen(false)}
                   className='h-8 text-xs cursor-pointer'
                 >
-                  Abbrechen
+                  Cancel
                 </Button>
                 <Button
                   type='button'

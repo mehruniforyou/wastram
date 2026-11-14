@@ -43,6 +43,77 @@ let inMemoryProductOverrides: Record<string, ProductOverride> = {};
 let lastFirestoreFetchTime = 0;
 const FIRESTORE_CACHE_TTL_MS = 60 * 1000; // 1 minute in-memory cache
 
+
+const FIRESTORE_PROJECT_ID = process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "wastram-a7300";
+const FIRESTORE_API_KEY = process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyBB62kPVeyIFKv4llhEnfNGSbVuwG46dvA";
+
+async function fetchOverridesFromFirestoreRest(): Promise<Record<string, ProductOverride>> {
+  const result: Record<string, ProductOverride> = {};
+  try {
+    const url = `https://firestore.googleapis.com/v1/projects/${FIRESTORE_PROJECT_ID}/databases/(default)/documents/product_overrides?key=${FIRESTORE_API_KEY}`;
+    const res = await fetch(url, { cache: "no-store" });
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data?.documents)) {
+        for (const doc of data.documents) {
+          const docId = doc.name ? doc.name.split("/").pop() : "";
+          if (!docId) continue;
+          const fields = doc.fields || {};
+          const parsed: Record<string, any> = { id: docId };
+          for (const [k, v] of Object.entries<any>(fields)) {
+            if (v.stringValue !== undefined) {
+              try { parsed[k] = JSON.parse(v.stringValue); } catch { parsed[k] = v.stringValue; }
+            } else if (v.booleanValue !== undefined) {
+              parsed[k] = v.booleanValue;
+            } else if (v.doubleValue !== undefined || v.integerValue !== undefined) {
+              parsed[k] = Number(v.doubleValue ?? v.integerValue);
+            } else if (v.arrayValue?.values) {
+              parsed[k] = v.arrayValue.values.map((item: any) => item.stringValue || item);
+            }
+          }
+          result[docId] = parsed as ProductOverride;
+          // Also link slug if known from base catalog
+          const base = PRODUCTS.find((p) => p.id?.toLowerCase() === docId.toLowerCase() || p.slug?.toLowerCase() === docId.toLowerCase());
+          if (base?.slug) {
+            result[base.slug] = { ...parsed, id: base.id, slug: base.slug } as ProductOverride;
+          }
+          if (base?.id) {
+            result[base.id] = { ...parsed, id: base.id, slug: base.slug } as ProductOverride;
+          }
+        }
+      }
+    }
+  } catch (err: any) {
+    console.warn("[ProductsStore] Firestore REST fetch notice:", err.message);
+  }
+  return result;
+}
+
+async function syncDocToFirestoreRest(collectionName: string, docId: string, data: any): Promise<void> {
+  try {
+    const url = `https://firestore.googleapis.com/v1/projects/${FIRESTORE_PROJECT_ID}/databases/(default)/documents/${collectionName}/${encodeURIComponent(docId)}?key=${FIRESTORE_API_KEY}`;
+    const fields: Record<string, any> = {};
+    for (const [k, v] of Object.entries(data)) {
+      if (v === undefined) continue;
+      if (typeof v === "string") fields[k] = { stringValue: v };
+      else if (typeof v === "boolean") fields[k] = { booleanValue: v };
+      else if (typeof v === "number") fields[k] = { doubleValue: v };
+      else if (Array.isArray(v)) {
+        fields[k] = { arrayValue: { values: v.map((item) => (typeof item === "string" ? { stringValue: item } : { stringValue: JSON.stringify(item) })) } };
+      } else if (v && typeof v === "object") {
+        fields[k] = { stringValue: JSON.stringify(v) };
+      }
+    }
+    await fetch(url, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ fields }),
+    });
+  } catch (err: any) {
+    console.warn(`[ProductsStore] REST sync to ${collectionName}/${docId} notice:`, err.message);
+  }
+}
+
 function getOverridesFilePath(): string {
   return path.join(process.cwd(), "data", "product-overrides.json");
 }
@@ -196,6 +267,8 @@ export async function saveProductOverride(
     }
   }
 
+  await syncDocToFirestoreRest("product_overrides", cleanId, updated);
+  await syncDocToFirestoreRest("products", cleanId, updated);
   return updated;
 }
 
@@ -264,6 +337,11 @@ export async function deleteProductOverride(productId: string): Promise<boolean>
     }
   }
 
+  await syncDocToFirestoreRest("product_overrides", canonicalId, tombstone);
+  await syncDocToFirestoreRest("products", canonicalId, tombstone);
+  if (canonicalSlug) {
+    await syncDocToFirestoreRest("product_overrides", canonicalSlug, tombstone);
+  }
   return true;
 }
 
@@ -280,6 +358,8 @@ export function applyOverrideToProduct(base: NishoramaProduct, override?: Produc
     regularPrice: override.regularPrice !== undefined ? override.regularPrice : base.regularPrice,
     salePrice: override.salePrice !== undefined ? override.salePrice : base.salePrice,
     images: Array.isArray(override.images) && override.images.length > 0 ? override.images : base.images,
+    mainImage: (Array.isArray(override.images) && override.images[0]) || (override as any).featured_image || (override as any).mainImage || base.mainImage || (base.images && base.images[0]) || "",
+    featured_image: (override as any).featured_image || (override as any).mainImage || (Array.isArray(override.images) && override.images[0]) || (base as any).featured_image || base.mainImage || (base.images && base.images[0]) || "",
     colorVariants: Array.isArray(override.colorVariants) ? override.colorVariants : base.colorVariants,
     sizes: Array.isArray(override.sizes) && override.sizes.length > 0 ? override.sizes : base.sizes,
     fabric: override.fabric !== undefined ? override.fabric : base.fabric,

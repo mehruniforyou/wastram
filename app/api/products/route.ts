@@ -23,9 +23,12 @@ export async function GET(req: NextRequest) {
 
       for (const p of PRODUCTS) {
         handled.add(p.id);
-        const ovr: any = overrides[p.id] || {};
+        const ovr: any = overrides[p.id] || overrides[p.slug] || {};
+        const primaryImage = ovr.featured_image || ovr.mainImage || (ovr.images && ovr.images[0]) || p.mainImage || p.image || (p.images && p.images[0]) || "";
         all.push({
           ...applyOverrideToProduct(p, ovr),
+          featured_image: primaryImage,
+          mainImage: primaryImage,
           is_hidden: ovr.is_hidden || false,
           is_featured: ovr.is_featured || false,
           deleted: ovr.deleted || false,
@@ -35,16 +38,21 @@ export async function GET(req: NextRequest) {
 
       for (const [id, ovr] of Object.entries(overrides)) {
         if (!handled.has(id) && ovr.isCustomProduct) {
+          const primaryImage = ovr.featured_image || ovr.mainImage || (ovr.images && ovr.images[0]) || "";
           all.push({
             id,
             title: ovr.title || "Custom Atelier Ensemble",
+            name: ovr.title || ovr.name || "Custom Atelier Ensemble",
             slug: ovr.slug || id,
             category: ovr.category || "western-dresses",
             tab: ovr.tab || ovr.category || "western-dresses",
             badge: ovr.badge || "Signature Collection",
             regularPrice: ovr.regularPrice || 0,
             salePrice: ovr.salePrice || 0,
-            images: ovr.images || [],
+            price: ovr.salePrice || ovr.regularPrice || 0,
+            featured_image: primaryImage,
+            mainImage: primaryImage,
+            images: ovr.images || (primaryImage ? [primaryImage] : []),
             colorVariants: ovr.colorVariants || [],
             sizes: ovr.sizes || ["XS", "S", "M", "L", "XL", "XXL"],
             fabric: ovr.fabric || "Pure Handloom Silk & Cotton",

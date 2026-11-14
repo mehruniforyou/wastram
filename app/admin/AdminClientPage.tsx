@@ -390,11 +390,11 @@ const ORDER_TABS_PIPELINE = [
     label: "Neue Orders",
     nextStatus: "Courier Assigned",
     nextTabId: "COURIER_ASSIGNED",
-    nextActionLabel: "Als 'Kurier zugewiesen' markieren",
+    nextActionLabel: "Mark as 'Courier Assigned'",
   },
   {
     id: "COURIER_ASSIGNED",
-    label: "Kurier zugewiesen",
+    label: "Courier Assigned",
     nextStatus: "In Transit",
     nextTabId: "IN_TRANSIT",
     nextActionLabel: "Als 'Auf dem Shippingweg' markieren",
@@ -1094,7 +1094,7 @@ function AdminPageContent() {
         taxId: custTaxId || ""
       },
       shipping: {
-        address: shipAddress || "Werks- / Lagerlieferung",
+        address: shipAddress || "Atelier / Factory Dispatch",
         city: shipCity || "Hauptwerk",
         state: shipState || "",
         zip: shipZip || "",
@@ -1639,7 +1639,14 @@ function AdminPageContent() {
       const url = "/api/products?t=" + Date.now() + "&includeHidden=true&admin=1";
       const res = await adminFetch(url);
       const data = await res.json();
-      if (Array.isArray(data)) setProducts(data);
+      if (Array.isArray(data)) {
+        const normalized = data.map((p: any) => ({
+          ...p,
+          featured_image: p.featured_image || p.mainImage || p.image || p.images?.[0] || p.colorVariants?.[0]?.images?.[0] || "",
+          mainImage: p.mainImage || p.featured_image || p.image || p.images?.[0] || "",
+        }));
+        setProducts(normalized);
+      }
     } catch (err) { console.error("Error fetching products", err); }
     setProdLoading(false);
   }, []);
@@ -2572,7 +2579,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error adding part number", err);
-      notifyAdmin("error", "Error beim Add der Artikelnummer", err.message || String(err), err);
+      notifyAdmin("error", "Error adding SKU / Part Number", err.message || String(err), err);
     }
   };
 
@@ -2587,7 +2594,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting part number", err);
-      notifyAdmin("error", "Error beim Delete der Artikelnummer", err.message || String(err), err);
+      notifyAdmin("error", "Error deleting SKU / Part Number", err.message || String(err), err);
     }
   };
 
@@ -3698,12 +3705,12 @@ function AdminPageContent() {
         {
           items: [
             { id: "products", label: "Products", icon: Cpu, desc: "Lautsprecherkomponenten, Inventory & Pricee" },
-            { id: "inventory", label: "Inventar", icon: Boxes, desc: "Lagerbestände, Schwellenwerte & Stocksverwaltung" },
+            { id: "inventory", label: "Inventory", icon: Boxes, desc: "Stock levels, thresholds & inventory management" },
             { id: "categories", label: "Categories", icon: Layers, desc: "Catalog taxonomy & collections" },
             { id: "discounts", label: "Discounts", icon: Percent, desc: "Promo codes & promotions" },
             { id: "shipping", label: "Shipping Rates", icon: Truck, desc: "Domestic wholesale shipping & export rates" },
             { id: "reviews", label: "Reviews", icon: Star, desc: "Customersrezensionen & Moderation" },
-            { id: "legal-policies", label: "Legal & Policies & Richtlinien", icon: FileText, desc: "Datenschutz, AGB, Cookies, Widerrufsbelehrung" },
+            { id: "legal-policies", label: "Legal & Policies", icon: FileText, desc: "Privacy Policy, Terms of Service, Shipping Policy, Returns" },
           ]
         }
       ]
@@ -4300,7 +4307,7 @@ function AdminPageContent() {
                                 <img 
                                   src={cat.image_url} 
                                   alt={cat.name} 
-                                  className="w-full h-full object-contain" 
+                                  className="w-full h-full object-cover rounded-lg" 
                                 />
                               ) : (
                                 <Layers className="w-7 h-7 text-black stroke-[1.5]" />
@@ -4509,10 +4516,10 @@ function AdminPageContent() {
                           </div>
                           <div className="mt-4 text-center">
                             <h3 className="font-heading font-black text-base text-black">
-                              Alle Products
+                              All Styles
                             </h3>
                             <p className="text-xs text-neutral-500 font-semibold mt-1">
-                              {products.length} Products insgesamt
+                              {products.length} styles total
                             </p>
                           </div>
                           <div className="mt-4 pt-3 border-t border-neutral-100 flex items-center justify-center gap-1.5 text-xs font-heading font-bold uppercase tracking-wider text-black group-hover:underline">
@@ -4534,7 +4541,7 @@ function AdminPageContent() {
                             );
                           }).length;
                           const count = inMemoryCount > 0 ? inMemoryCount : ((cat as any).product_count || (cat as any).itemCount || 0);
-                          const img = cat.image_url || (cat as any).image;
+                          const img = cat.image_url || (cat as any).image || (cat as any).heroImage;
 
                           return (
                             <div
@@ -4550,7 +4557,7 @@ function AdminPageContent() {
                                   <img
                                     src={img}
                                     alt={cat.name}
-                                    className="w-full h-full object-contain"
+                                    className="w-full h-full object-cover rounded-lg"
                                   />
                                 ) : (
                                   <Box className="w-10 h-10 text-black stroke-[1.5]" />
@@ -4589,7 +4596,7 @@ function AdminPageContent() {
                                 No Category
                               </h3>
                               <p className="text-xs text-red-500 font-semibold mt-1">
-                                {unassignedProducts.length} {unassignedProducts.length === 1 ? "Product" : "Products"} nicht zugewiesen
+                                {unassignedProducts.length} {unassignedProducts.length === 1 ? "Style" : "Styles"} unassigned
                               </p>
                             </div>
                             <div className="mt-4 pt-3 border-t border-red-100 flex items-center justify-center gap-1.5 text-xs font-heading font-bold uppercase tracking-wider text-red-600 group-hover:underline">
@@ -4624,7 +4631,7 @@ function AdminPageContent() {
                               <span>
                                 {isSearching 
                                   ? `Search: "${prodSearch}"` 
-                                  : (selectedCat?.name || (prodCategoryFilter === "all" ? "Alle Products" : (prodCategoryFilter === "unassigned" ? "No Category zugewiesen" : prodCategoryFilter)))}
+                                  : (selectedCat?.name || (prodCategoryFilter === "all" ? "All Styles" : (prodCategoryFilter === "unassigned" ? "Unassigned Category" : prodCategoryFilter)))}
                               </span>
                               <span className="text-sm font-heading font-bold text-neutral-500">
                                 ({filteredProducts.length})
@@ -4750,9 +4757,9 @@ function AdminPageContent() {
                             className="bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-3 py-1.5 text-xs text-black font-semibold outline-none cursor-pointer"
                           >
                             <option value="">← Category-Overview</option>
-                            <option value="all">Alle Products</option>
+                            <option value="all">All Styles</option>
                             {unassignedProducts.length > 0 && (
-                              <option value="unassigned">⚠️ No Category zugewiesen ({unassignedProducts.length})</option>
+                              <option value="unassigned">⚠️ Unassigned Category ({unassignedProducts.length})</option>
                             )}
                             {displayCategories.map(cat => (
                               <option key={cat.id} value={cat.slug}>{cat.name}</option>
@@ -4831,16 +4838,20 @@ function AdminPageContent() {
                                     title="Select Product"
                                   />
 
-                                  <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl border-2 border-neutral-200 bg-white p-1.5 shrink-0 overflow-hidden flex items-center justify-center">
-                                    {prod.featured_image ? (
-                                      <img 
-                                        src={prod.featured_image} 
-                                        alt={prod.name} 
-                                        className="w-full h-full object-contain" 
-                                      />
-                                    ) : (
-                                      <Box className="w-8 h-8 text-black stroke-[1.5]" />
-                                    )}
+                                  <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl border-2 border-neutral-200 bg-white p-1 shrink-0 overflow-hidden flex items-center justify-center">
+                                    {(() => {
+                                      const prodImg = prod.featured_image || (prod as any).mainImage || (prod as any).image || (prod as any).images?.[0] || ((prod as any).colorVariants?.[0]?.images?.[0]);
+                                      return prodImg ? (
+                                        <img 
+                                          src={prodImg} 
+                                          alt={prod.name} 
+                                          className="w-full h-full object-cover rounded-lg" 
+                                          loading="lazy"
+                                        />
+                                      ) : (
+                                        <Box className="w-8 h-8 text-black stroke-[1.5]" />
+                                      );
+                                    })()}
                                   </div>
 
                                   <div className="min-w-0 flex-1 space-y-1">
@@ -4849,10 +4860,10 @@ function AdminPageContent() {
                                     </h3>
                                     <div className="text-xs text-neutral-800 font-semibold flex items-center gap-2 flex-wrap">
                                       {(!prod.category_id || prod.category_id === "none" || prod.category_id === "" || prod.category_id === "unassigned") ? (
-                                        <span className="text-red-600 font-bold">⚠️ No Category zugewiesen</span>
+                                        <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>
                                       ) : (
                                         <span className="text-black font-bold">
-                                          {categories.find(c => c.id === prod.category_id || c.slug === prod.category_id || c.id === (prod as any).category?.id)?.name || prod.category?.name || (typeof prod.category === "string" ? prod.category : "Ohne Category")}
+                                          {categories.find(c => c.id === prod.category_id || c.slug === prod.category_id || c.id === (prod as any).category?.id)?.name || prod.category?.name || (typeof prod.category === "string" ? prod.category : "Uncategorized")}
                                         </span>
                                       )}
                                       <span>•</span>
@@ -4932,7 +4943,7 @@ function AdminPageContent() {
                           {totalPages > 1 && (
                             <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-white p-4 rounded-2xl border-2 border-neutral-200 shadow-2xs">
                               <span className="text-xs text-black font-semibold">
-                                Seite {currentPageSafe} von {totalPages} ({filteredProducts.length} Products insgesamt)
+                                Page {currentPageSafe} of {totalPages} ({filteredProducts.length} styles total)
                               </span>
                               <div className="flex items-center gap-1.5">
                                 <button
@@ -5260,7 +5271,7 @@ function AdminPageContent() {
                                 const origPrice = typeof p.price === "number" ? p.price : parseFloat(String(p.price || "0")) || 0;
                                 const suggestedUsed = origPrice > 0 ? (Math.round(origPrice * 0.75 * 100) / 100).toFixed(2) : "0.00";
                                 const imgSrc = p.featured_image || (p as any)?.mainImage;
-                                const catName = targetCategoryForAdd ? "Ohne Category" : (categories.find(c => c.id === p.category_id || c.slug === p.category_id)?.name || (p as any)?.category?.name || (p as any)?.category || "Product");
+                                const catName = targetCategoryForAdd ? "Uncategorized" : (categories.find(c => c.id === p.category_id || c.slug === p.category_id)?.name || (p as any)?.category?.name || (p as any)?.category || "Product");
 
                                 return (
                                   <div
@@ -5603,7 +5614,7 @@ function AdminPageContent() {
                   },
                   {
                     id: "COURIER_ASSIGNED",
-                    label: "Kurier zugewiesen",
+                    label: "Courier Assigned",
                     count: sampleOrders.filter(o => {
                       const s = (o?.status || "").toLowerCase().trim();
                       return s === "courier assigned" || s === "courier_assigned" || s === "accepted" || s === "processing";
@@ -5956,7 +5967,7 @@ function AdminPageContent() {
                   </p>
                 </div>
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted text-muted-foreground text-xs font-semibold shrink-0">
-                  <span>Währung: EUR (₹)</span>
+                  <span>Currency: INR (₹)</span>
                   <span>•</span>
                   <span>Online-Checkout</span>
                 </div>
@@ -6291,7 +6302,7 @@ function AdminPageContent() {
                             type="text"
                             value={priceListSearchQuery}
                             onChange={(e) => setPriceListSearchQuery(e.target.value)}
-                            placeholder="Products nach Name, Spezifikation, Artikelnummer oder Category filtern..."
+                            placeholder="Filter styles by name, SKU, or category..."
                             className="w-full pl-9 pr-8 py-2 text-xs border border-border bg-card text-foreground rounded-lg focus:outline-none focus:ring-1 focus:ring-accent"
                           />
                           {priceListSearchQuery && (
@@ -8630,7 +8641,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         <div className={cardClass}>
           <div className="flex items-center justify-between pb-1 border-b border-neutral-100">
             <div>
-              <label className={labelTextClass}>Technische Spezifikationen (Artikeltabelle)</label>
+              <label className={labelTextClass}>Craft & Technical Specifications</label>
               <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
                 All attributes listed here will render directly in the Product Detail specification drawer on the live store.
               </p>
@@ -8707,7 +8718,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   }}
                   className={textInputClass}
                 >
-                  <option value="">Kein Flag-Badge</option>
+                  <option value="">No Badge</option>
                   <option value="SALE">SALE (Blaues Wastram Flag-Badge)</option>
                   <option value="BESTSELLER">BESTSELLER (Schwarzes Flag-Badge mit Wastram-Punkt)</option>
                   <option value="POPULAR">POPULAR (Schwarzes Flag-Badge)</option>
@@ -8742,7 +8753,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   {form.tag}
                 </span>
                 <span className="text-[11px] text-neutral-400 font-medium">
-                  (Wird auf Productkarten und der Artikelseite oben rechts angezeigt)
+                  (Displayed on product cards and detail page)
                 </span>
               </div>
             )}
@@ -8880,7 +8891,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
               {(() => {
                 const normCatId = getProductNormalizedCategoryId(product);
                 if (!normCatId) {
-                  return <span className="text-red-600 font-bold">⚠️ No Category zugewiesen</span>;
+                  return <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>;
                 }
                 const cat = categories.find(c => c.id.toLowerCase() === normCatId.toLowerCase() || c.slug.toLowerCase() === normCatId.toLowerCase());
                 return <span className="text-slate-800">{cat?.name || normCatId}</span>;
@@ -9019,7 +9030,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
 
                   {/* Part Numbers */}
                   <div>
-                    <p className="text-[9px] font-bold text-foreground uppercase tracking-wider mb-2">Artikelnummern</p>
+                    <p className="text-[9px] font-bold text-foreground uppercase tracking-wider mb-2">SKU Numbers</p>
                     <div className="flex flex-wrap gap-2 mb-2">
                       {(v.part_numbers || []).map(pn => (
                         <span key={pn.id} className="inline-flex items-center gap-1 text-[10px] bg-muted border border-border rounded px-2 py-1 font-mono text-foreground">

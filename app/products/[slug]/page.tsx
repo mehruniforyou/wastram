@@ -34,6 +34,23 @@ export default function ProductDetailPage({ params }: Props) {
   React.useEffect(() => {
     let isMounted = true;
 
+    // Check localStorage overrides immediately on mount for zero-latency reflection
+    try {
+      if (typeof window !== "undefined") {
+        const local = localStorage.getItem("wastram_products_overrides") || localStorage.getItem("ixos_products_overrides");
+        if (local) {
+          const parsed = JSON.parse(local);
+          const slugKey = params.slug?.toLowerCase();
+          const idKey = initialItem?.id?.toLowerCase();
+          const ovr = (slugKey && parsed[slugKey]) || (idKey && parsed[idKey]);
+          if (ovr?.deleted || ovr?.is_hidden) {
+            setIsArchived(true);
+            setProduct(null);
+          }
+        }
+      }
+    } catch (_) {}
+
     const loadLive = async () => {
       try {
         const res = await fetch(`/api/products/${encodeURIComponent(params.slug)}?t=${Date.now()}`);

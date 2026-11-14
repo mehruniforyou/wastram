@@ -198,7 +198,7 @@ export function CustomerSupportView({
 
       notifyAdmin('success', 'Status aktualisiert', `Ticket ${ticketId} ist jetzt "${newStatus}".`)
     } catch (err: any) {
-      notifyAdmin('error', 'Fehler', err.message || 'Status konnte nicht geändert werden.')
+      notifyAdmin('error', 'Error', err.message || 'Could not update ticket status.')
     } finally {
       setUpdatingStatusId(null)
     }
@@ -224,7 +224,7 @@ export function CustomerSupportView({
 
       notifyAdmin('success', 'Priorität aktualisiert', `Ticket-Priorität geändert auf "${newPriority}".`)
     } catch (err: any) {
-      notifyAdmin('error', 'Fehler', err.message || 'Priorität konnte nicht geändert werden.')
+      notifyAdmin('error', 'Error', err.message || 'Could not update ticket priority.')
     }
   }
 
@@ -241,7 +241,7 @@ export function CustomerSupportView({
           admin_notes: adminNoteInput,
         }),
       })
-      if (!res.ok) throw new Error('Notiz konnte nicht gespeichert werden.')
+      if (!res.ok) throw new Error('Could not save note.')
 
       setTickets((prev) =>
         prev.map((t) =>
@@ -252,9 +252,9 @@ export function CustomerSupportView({
       )
 
       setSelectedTicket((prev) => (prev ? { ...prev, admin_notes: adminNoteInput } : null))
-      notifyAdmin('success', 'Notiz gespeichert', 'Interne Notiz erfolgreich hinterlegt.')
+      notifyAdmin('success', 'Note Saved', 'Internal note saved successfully.')
     } catch (err: any) {
-      notifyAdmin('error', 'Fehler', err.message || 'Notiz konnte nicht gespeichert werden.')
+      notifyAdmin('error', 'Error', err.message || 'Could not save note.')
     } finally {
       setSavingNote(false)
     }
@@ -262,7 +262,7 @@ export function CustomerSupportView({
 
   // Delete Ticket
   const handleDeleteTicket = async (ticketId: string) => {
-    if (!confirm(`Möchten Sie das Ticket ${ticketId} wirklich unwiderruflich löschen?`)) {
+    if (!confirm(`Are you sure you want to permanently delete ticket ${ticketId}?`)) {
       return
     }
 
@@ -278,7 +278,7 @@ export function CustomerSupportView({
       }
       notifyAdmin('success', 'Ticket gelöscht', `Ticket ${ticketId} wurde entfernt.`)
     } catch (err: any) {
-      notifyAdmin('error', 'Fehler', err.message || 'Löschen fehlgeschlagen.')
+      notifyAdmin('error', 'Error', err.message || 'Delete failed.')
     }
   }
 
@@ -331,7 +331,7 @@ export function CustomerSupportView({
   // Export CSV
   const handleExportCSV = useCallback(() => {
     if (filteredTickets.length === 0) {
-      alert('Keine Ticket-Daten zum Exportieren vorhanden.')
+      alert('No ticket data available to export.')
       return
     }
 
@@ -345,7 +345,7 @@ export function CustomerSupportView({
       'Telefon',
       'Kategorie',
       'Lautsprechermodell',
-      'Betreff',
+      'Subject',
       'Erstellt am',
     ]
 
@@ -463,7 +463,7 @@ export function CustomerSupportView({
             }`}
           >
             <div className='flex items-center justify-between text-amber-600 dark:text-amber-400 text-xs font-bold uppercase'>
-              <span>Offen</span>
+              <span>Open</span>
               <span className='size-2 rounded-full bg-amber-500 animate-pulse' />
             </div>
             <p className='text-2xl sm:text-3xl font-mono font-black mt-1 text-amber-600 dark:text-amber-400'>
@@ -555,7 +555,7 @@ export function CustomerSupportView({
               onChange={(e) => setCategoryFilter(e.target.value)}
               className='h-9 px-3 rounded-lg border-2 border-border bg-background text-xs font-medium cursor-pointer focus:outline-none focus:border-[#3628e6]'
             >
-              <option value='all'>Alle Kategorien</option>
+              <option value='all'>All Categories</option>
               {TICKET_CATEGORIES.map((c) => (
                 <option key={c.id} value={c.labelDe}>
                   {c.labelDe}
@@ -594,7 +594,7 @@ export function CustomerSupportView({
                   }}
                   className='text-xs'
                 >
-                  Filter zurücksetzen
+                  Reset Filters
                 </Button>
               )}
             </div>
@@ -614,13 +614,13 @@ export function CustomerSupportView({
                       Bestellnummer
                     </TableHead>
                     <TableHead className='font-bold text-xs uppercase tracking-wider'>
-                      Kategorie & Betreff
+                      Category & Subject
                     </TableHead>
                     <TableHead className='font-bold text-xs uppercase tracking-wider w-[140px]'>
                       Erstellt am
                     </TableHead>
                     <TableHead className='font-bold text-xs uppercase tracking-wider text-right w-[100px]'>
-                      Aktionen
+                      Actions
                     </TableHead>
                   </TableRow>
                 </TableHeader>
@@ -847,7 +847,7 @@ export function CustomerSupportView({
                                   className='text-red-600 focus:text-red-600 cursor-pointer'
                                 >
                                   <Trash2 size={13} className='mr-2' />
-                                  Ticket löschen
+                                  Delete Ticket
                                 </DropdownMenuItem>
                               </DropdownMenuContent>
                             </DropdownMenu>
@@ -910,7 +910,7 @@ export function CustomerSupportView({
                     }
                     className='w-full h-8 px-2.5 rounded-md border border-border bg-background text-xs font-semibold cursor-pointer'
                   >
-                    <option value='open'>Offen</option>
+                    <option value='open'>Open</option>
                     <option value='in_progress'>In Progress</option>
                     <option value='resolved'>Gelöst</option>
                     <option value='closed'>Closed</option>
@@ -932,8 +932,8 @@ export function CustomerSupportView({
                     className='w-full h-8 px-2.5 rounded-md border border-border bg-background text-xs font-semibold cursor-pointer'
                   >
                     <option value='normal'>Normal</option>
-                    <option value='urgent'>Dringend (Urgent)</option>
-                    <option value='low'>Niedrig (Low)</option>
+                    <option value='urgent'>Urgent</option>
+                    <option value='low'>Low</option>
                   </select>
                 </div>
               </div>
@@ -1020,13 +1020,13 @@ export function CustomerSupportView({
               {/* Internal Admin Notes */}
               <div className='space-y-2'>
                 <label className='text-xs font-bold uppercase tracking-wider text-muted-foreground block'>
-                  Interne Notizen (nur für IXOS Admin sichtbar):
+                  Internal Notes (visible only to Wastram Admin):
                 </label>
                 <textarea
                   rows={4}
                   value={adminNoteInput}
                   onChange={(e) => setAdminNoteInput(e.target.value)}
-                  placeholder='Fügen Sie interne Notizen hinzu (z. B. Telefonat geführt, Paketnummer nachverfolgt, Ersatzteil versendet)...'
+                  placeholder='Add internal notes (e.g. phone call notes, tracking numbers, boutique customization details)...'
                   className='w-full p-3 rounded-xl border border-border bg-background text-xs focus:outline-none focus:border-[#3628e6] leading-relaxed'
                 />
                 <Button
@@ -1036,7 +1036,7 @@ export function CustomerSupportView({
                   className='cursor-pointer text-xs h-8 bg-[#3628e6] hover:bg-[#2418b3] text-white'
                 >
                   <Save className='size-3 mr-1.5' />
-                  {savingNote ? 'Wird gespeichert...' : 'Notiz speichern'}
+                  {savingNote ? 'Saving note...' : 'Save Note'}
                 </Button>
               </div>
 
@@ -1049,7 +1049,7 @@ export function CustomerSupportView({
                   className='text-xs text-red-600 hover:text-red-700 hover:bg-red-50 dark:hover:bg-red-950/30 cursor-pointer h-9'
                 >
                   <Trash2 className='size-3.5 mr-1.5' />
-                  Ticket löschen
+                  Delete Ticket
                 </Button>
 
                 <div className='flex items-center gap-2'>

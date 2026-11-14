@@ -568,7 +568,7 @@ function formatRelativeTime(date: Date): string {
   if (diffMins < 60) return `vor ${diffMins} Min.`
   if (diffHours < 24) return `vor ${diffHours} Std.`
   if (diffDays === 1) return 'Yesterday'
-  if (diffDays < 7) return `vor ${diffDays} Tagen`
+  if (diffDays < 7) return `${diffDays} days ago`
   return date.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' })
 }
 
@@ -1041,19 +1041,20 @@ export function DashboardView({
     return extractVerifiedSales(orders, payments)
   }, [orders, payments])
 
-  // Detect store currency - IXOS operates in Germany, strictly default to EUR (€)
+  // Detect store currency - Wastram operates in India, strictly default to INR (₹)
   const currencySymbol = useMemo(() => {
     const nonEur = verifiedSales.find((s) => {
       const c = (s.currency || '').toUpperCase()
-      return c && c !== 'EUR'
+      return c && c !== 'INR'
     })
     if (nonEur) {
       const c = (nonEur.currency || '').toUpperCase()
       if (c === 'USD') return '$'
       if (c === 'GBP') return '£'
-      if (c === 'CHF') return 'CHF'
+      if (c === 'EUR') return '€'
+      if (c === 'AED') return 'AED '
     }
-    return '€'
+    return '₹'
   }, [verifiedSales])
 
   // Filter range
@@ -1382,7 +1383,7 @@ export function DashboardView({
       return
     }
     const headers = [
-      'Bestellnummer',
+      'Order Number',
       'Datum',
       'Uhrzeit',
       'Customer Name',
@@ -1392,12 +1393,12 @@ export function DashboardView({
       'Lieferstadt',
       'Lieferadresse',
       'Bruttobetrag',
-      'Währung',
+      'Currency',
       'Zahlungsmethode',
       'Zahlungsstatus',
       'Erfüllungsstatus',
-      'Anzahl Artikel',
-      'Artikelübersicht',
+      'Item Count',
+      'Item Overview',
       'Zeitraumfilter',
     ]
     const rows = salesInPeriod.map((s) => {
@@ -1414,7 +1415,7 @@ export function DashboardView({
         `"${s.customerName.replace(/"/g, '""')}"`,
         `"${s.customerEmail.replace(/"/g, '""')}"`,
         `"${(s.customerPhone || '').replace(/"/g, '""')}"`,
-        `"${(s.customerCountry || 'Deutschland').replace(/"/g, '""')}"`,
+        `"${(s.customerCountry || 'India').replace(/"/g, '""')}"`,
         `"${(s.customerCity || '').replace(/"/g, '""')}"`,
         `"${(s.customerAddress || '').replace(/"/g, '""')}"`,
         s.amount.toFixed(2),
@@ -1457,21 +1458,21 @@ export function DashboardView({
       'Lieferadresse',
       'Orders in Period',
       'Gesamtausgaben im Zeitraum',
-      'Währung',
+      'Currency',
       'Avg. Spend per Order',
-      'Letzte Bestellnummer',
+      'Latest Order Number',
       'Latest Order Date',
       'Customer Status',
       'Zeitraumfilter',
     ]
     const rows = periodCustomers.map((c) => {
       const avgSpend = c.ordersCount > 0 ? (c.totalSpent / c.ordersCount).toFixed(2) : '0.00'
-      const tier = c.ordersCount > 1 ? 'Wiederkehrender Käufer' : 'Verifizierter Käufer'
+      const tier = c.ordersCount > 1 ? 'Repeat Patron' : 'Verified Patron'
       return [
         `"${c.name.replace(/"/g, '""')}"`,
         `"${c.email.replace(/"/g, '""')}"`,
         `"${(c.phone || '').replace(/"/g, '""')}"`,
-        `"${(c.country || 'Deutschland').replace(/"/g, '""')}"`,
+        `"${(c.country || 'India').replace(/"/g, '""')}"`,
         `"${(c.city || '').replace(/"/g, '""')}"`,
         `"${(c.address || '').replace(/"/g, '""')}"`,
         String(c.ordersCount),
@@ -1491,7 +1492,7 @@ export function DashboardView({
     link.href = url
     link.setAttribute(
       'download',
-      `ixos-kunden-daten-${period}-${new Date().toISOString().slice(0, 10)}.csv`
+      `wastram-customer-data-${period}-${new Date().toISOString().slice(0, 10)}.csv`
     )
     document.body.appendChild(link)
     link.click()
@@ -1502,7 +1503,7 @@ export function DashboardView({
   // Download Products Sold Data CSV (filtered according to time period)
   const handleDownloadProductsSoldReport = useCallback(() => {
     if (periodProductsSold.length === 0) {
-      alert(`Keine Daten über verkaufte Produkte für ${activePeriodLabel} verfügbar. Versuchen Sie einen anderen Zeitraum.`)
+      alert(`No product sales data available for ${activePeriodLabel}. Please try a different period.`)
       return
     }
     const headers = [
@@ -1511,10 +1512,10 @@ export function DashboardView({
       'Variante / Spezifikation',
       'Units Sold (Qty)',
       'Total Sales Revenue',
-      'Währung',
+      'Currency',
       'Avg. Sale Price',
       'Associated Orders',
-      'Zugehörige Bestellnummern',
+      'Associated Order Numbers',
       'Latest Sale Date',
       'Zeitraumfilter',
     ]
@@ -1553,11 +1554,11 @@ export function DashboardView({
   // Download Tax Report (filtered according to time period)
   const handleDownloadTaxReport = useCallback(() => {
     if (salesInPeriod.length === 0) {
-      alert(`Keine steuerlichen Transaktionen für ${activePeriodLabel} erfasst.`)
+      alert(`No tax transactions recorded for ${activePeriodLabel}.`)
       return
     }
     const headers = [
-      'Bestellnummer',
+      'Order Number',
       'Datum',
       'Customer Name',
       'Zielland',
@@ -1573,7 +1574,7 @@ export function DashboardView({
         `"${s.orderNumber}"`,
         `"${dt.date}"`,
         `"${s.customerName.replace(/"/g, '""')}"`,
-        `"${s.customerCountry || 'Deutschland / EU'}"`,
+        `"${s.customerCountry || 'India / Domestic'}"`,
         '"Europäische Union"',
         '"19% Standard EU-MwSt."',
         s.amount.toFixed(2),
@@ -1596,7 +1597,7 @@ export function DashboardView({
   // Download All Reports Bundle
   const handleDownloadAllReports = useCallback(() => {
     if (salesInPeriod.length === 0) {
-      alert(`Keine Daten für ${activePeriodLabel} zum Exportieren vorhanden.`)
+      alert(`No data available to export for ${activePeriodLabel}.`)
       return
     }
     handleDownloadSalesReport()
@@ -2120,7 +2121,7 @@ export function DashboardView({
                         <ShoppingBag className='w-5 h-5' />
                       </div>
                       <p className='text-sm font-semibold text-foreground'>
-                        Keine verifizierten Verkäufe für {activePeriodLabel.toLowerCase()}
+                        No verified sales for {activePeriodLabel.toLowerCase()}
                       </p>
                       <p className='text-xs text-muted-foreground max-w-xs mx-auto'>
                         Customer orders and checkouts will appear here in real time.
@@ -2333,7 +2334,7 @@ export function DashboardView({
                   className='w-full text-xs h-8 cursor-pointer justify-center'
                 >
                   <Download className='w-3.5 h-3.5 me-1.5 shrink-0 text-emerald-600 dark:text-emerald-400' />
-                  CSV herunterladen
+                  Download CSV
                 </Button>
               </Card>
 
@@ -2358,10 +2359,10 @@ export function DashboardView({
                   </div>
                   <div>
                     <div className='text-2xl font-bold tracking-tight text-foreground'>
-                      {periodCustomers.length} {periodCustomers.length === 1 ? 'Käufer' : 'Käufer'}
+                      {periodCustomers.length} {periodCustomers.length === 1 ? 'Customer' : 'Customers'}
                     </div>
                     <p className='text-[11px] text-muted-foreground mt-0.5 truncate'>
-                      Durchschn. Ausgaben {currencySymbol}{periodAverageOrderValue.toFixed(2)} in {activePeriodLabel.toLowerCase()}
+                      Avg. Spend {currencySymbol}{periodAverageOrderValue.toFixed(2)} in {activePeriodLabel.toLowerCase()}
                     </p>
                   </div>
                 </div>
@@ -2373,7 +2374,7 @@ export function DashboardView({
                   className='w-full text-xs h-8 cursor-pointer justify-center'
                 >
                   <Download className='w-3.5 h-3.5 me-1.5 shrink-0 text-blue-600 dark:text-blue-400' />
-                  CSV herunterladen
+                  Download CSV
                 </Button>
               </Card>
 
@@ -2391,17 +2392,17 @@ export function DashboardView({
                       type='button'
                       onClick={() => onSelectTab('products')}
                       className='text-muted-foreground/60 hover:text-foreground transition-colors p-1 cursor-pointer'
-                      title='In Produkten ansehen'
+                      title='View in Products'
                     >
                       <ArrowUpRight className='w-3.5 h-3.5' />
                     </button>
                   </div>
                   <div>
                     <div className='text-2xl font-bold tracking-tight text-foreground'>
-                      {periodTotalUnitsSold} {periodTotalUnitsSold === 1 ? 'Einheit' : 'Einheiten'}
+                      {periodTotalUnitsSold} {periodTotalUnitsSold === 1 ? 'Unit' : 'Units'}
                     </div>
                     <p className='text-[11px] text-muted-foreground mt-0.5 truncate'>
-                      Über {periodUniqueProductsSold} verschiedene SKUs
+                      Across {periodUniqueProductsSold} unique SKUs
                     </p>
                   </div>
                 </div>
@@ -2413,7 +2414,7 @@ export function DashboardView({
                   className='w-full text-xs h-8 cursor-pointer justify-center'
                 >
                   <Download className='w-3.5 h-3.5 me-1.5 shrink-0 text-amber-600 dark:text-amber-400' />
-                  CSV herunterladen
+                  Download CSV
                 </Button>
               </Card>
 
@@ -2425,13 +2426,13 @@ export function DashboardView({
                       <div className='w-7 h-7 rounded-lg bg-purple-500/10 text-purple-600 dark:text-purple-400 flex items-center justify-center shrink-0'>
                         <FileText className='w-3.5 h-3.5' />
                       </div>
-                      <span className='text-xs font-semibold text-foreground tracking-tight'>Steuern &amp; Abgaben</span>
+                      <span className='text-xs font-semibold text-foreground tracking-tight'>GST &amp; Taxes</span>
                     </div>
                     <button
                       type='button'
                       onClick={() => onSelectTab('settings')}
                       className='text-muted-foreground/60 hover:text-foreground transition-colors p-1 cursor-pointer'
-                      title='Shop-Einstellungen'
+                      title='Store Settings'
                     >
                       <ArrowUpRight className='w-3.5 h-3.5' />
                     </button>
@@ -2441,7 +2442,7 @@ export function DashboardView({
                       {currencySymbol}{((filteredRevenue * 0.19) / 1.19).toFixed(2)}
                     </div>
                     <p className='text-[11px] text-muted-foreground mt-0.5 truncate'>
-                      19% MwSt. auf {currencySymbol}{filteredRevenue.toFixed(2)} brutto
+                      18% GST on {currencySymbol}{filteredRevenue.toFixed(2)} gross
                     </p>
                   </div>
                 </div>
@@ -2453,7 +2454,7 @@ export function DashboardView({
                   className='w-full text-xs h-8 cursor-pointer justify-center'
                 >
                   <Download className='w-3.5 h-3.5 me-1.5 shrink-0 text-purple-600 dark:text-purple-400' />
-                  CSV herunterladen
+                  Download CSV
                 </Button>
               </Card>
             </div>
@@ -2463,15 +2464,15 @@ export function DashboardView({
               <CardHeader className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-3'>
                 <div>
                   <CardTitle className='text-base font-semibold flex items-center gap-2'>
-                    <span>Datenprüfung &amp; Explorer</span>
+                    <span>Data Audit &amp; Explorer</span>
                     <Badge variant='outline' className='text-xs font-normal'>
                       {activePeriodLabel}
                     </Badge>
                   </CardTitle>
                   <CardDescription className='text-xs mt-0.5'>
-                    {reportTableTab === 'sales' && `Zeigt ${filteredReportSales.length} von ${salesInPeriod.length} verifizierten Bestelldatensätzen.`}
-                    {reportTableTab === 'customers' && `Zeigt ${filteredReportCustomers.length} von ${periodCustomers.length} eindeutigen Kundenkäufern.`}
-                    {reportTableTab === 'products' && `Zeigt ${filteredReportProducts.length} von ${periodProductsSold.length} verkauften Produkten.`}
+                    {reportTableTab === 'sales' && `Showing ${filteredReportSales.length} of ${salesInPeriod.length} verified order records.`}
+                    {reportTableTab === 'customers' && `Showing ${filteredReportCustomers.length} of ${periodCustomers.length} unique patrons.`}
+                    {reportTableTab === 'products' && `Showing ${filteredReportProducts.length} of ${periodProductsSold.length} products sold.`}
                   </CardDescription>
                 </div>
                 <div className='flex items-center gap-2 flex-wrap'>
@@ -2486,7 +2487,7 @@ export function DashboardView({
                           : 'text-muted-foreground hover:text-foreground'
                       }`}
                     >
-                      Verkäufe ({salesInPeriod.length})
+                      Sales ({salesInPeriod.length})
                     </button>
                     <button
                       type='button'
@@ -2497,7 +2498,7 @@ export function DashboardView({
                           : 'text-muted-foreground hover:text-foreground'
                       }`}
                     >
-                      Kunden ({periodCustomers.length})
+                      Customers ({periodCustomers.length})
                     </button>
                     <button
                       type='button'
@@ -2521,8 +2522,8 @@ export function DashboardView({
                         reportTableTab === 'sales'
                           ? 'Filter orders...'
                           : reportTableTab === 'customers'
-                          ? 'Kunden filtern...'
-                          : 'Produkte filtern...'
+                          ? 'Filter customers...'
+                          : 'Filter products...'
                       }
                       value={reportSearchQuery}
                       onChange={(e) => setReportSearchQuery(e.target.value)}
@@ -2549,7 +2550,7 @@ export function DashboardView({
                     className='h-8 text-xs shrink-0 cursor-pointer'
                   >
                     <Download className='w-3.5 h-3.5 me-1.5' />
-                    Tabelle als CSV exportieren
+                    Export Table as CSV
                   </Button>
                 </div>
               </CardHeader>
@@ -2562,10 +2563,10 @@ export function DashboardView({
                         <Receipt className='w-5 h-5' />
                       </div>
                       <p className='text-sm font-semibold text-foreground'>
-                        Keine Verkäufe entsprechen dem aktiven Zeitraum ({activePeriodLabel})
+                        No sales match the active period ({activePeriodLabel})
                       </p>
                       <p className='text-xs text-muted-foreground max-w-sm mx-auto'>
-                        Wählen Sie einen anderen Filter wie „Dieser Monat“ oder leeren Sie die Sucheingabe.
+                        Select another filter such as 'This Month' or clear the search query.
                       </p>
                     </div>
                   ) : (
@@ -2573,11 +2574,11 @@ export function DashboardView({
                       <table className='w-full text-left text-xs'>
                         <thead>
                           <tr className='border-b border-border/60 text-muted-foreground'>
-                            <th className='py-2.5 px-3 font-medium'>Bestell-Nr.</th>
-                            <th className='py-2.5 px-3 font-medium'>Datum</th>
-                            <th className='py-2.5 px-3 font-medium'>Kunde</th>
-                            <th className='py-2.5 px-3 font-medium'>Zielort</th>
-                            <th className='py-2.5 px-3 font-medium text-right'>Bruttobetrag</th>
+                            <th className='py-2.5 px-3 font-medium'>Order #</th>
+                            <th className='py-2.5 px-3 font-medium'>Date</th>
+                            <th className='py-2.5 px-3 font-medium'>Customer</th>
+                            <th className='py-2.5 px-3 font-medium'>Destination</th>
+                            <th className='py-2.5 px-3 font-medium text-right'>Total Amount</th>
                             <th className='py-2.5 px-3 font-medium'>Status</th>
                             <th className='py-2.5 px-3 font-medium text-right'>Action</th>
                           </tr>
@@ -2613,7 +2614,7 @@ export function DashboardView({
                                 </div>
                               </td>
                               <td className='py-3 px-3 text-muted-foreground whitespace-nowrap'>
-                                {sale.customerCountry || 'Deutschland'}
+                                {sale.customerCountry || 'India'}
                               </td>
                               <td className='py-3 px-3 text-right font-bold text-[#007934] dark:text-[#22c55e] tabular-nums whitespace-nowrap'>
                                 {currencySymbol}{sale.amount.toFixed(2)}
@@ -2658,7 +2659,7 @@ export function DashboardView({
                         <Users className='w-5 h-5' />
                       </div>
                       <p className='text-sm font-semibold text-foreground'>
-                        Keine Kundenkäufer gefunden für {activePeriodLabel}
+                        No customers found for {activePeriodLabel}
                       </p>
                       <p className='text-xs text-muted-foreground max-w-sm mx-auto'>
                         Customer entries will appear here once orders are placed in the selected period.
@@ -2669,11 +2670,11 @@ export function DashboardView({
                       <table className='w-full text-left text-xs'>
                         <thead>
                           <tr className='border-b border-border/60 text-muted-foreground'>
-                            <th className='py-2.5 px-3 font-medium'>Kundenname</th>
+                            <th className='py-2.5 px-3 font-medium'>Customer Name</th>
                             <th className='py-2.5 px-3 font-medium'>E-Mail</th>
-                            <th className='py-2.5 px-3 font-medium'>Land</th>
+                            <th className='py-2.5 px-3 font-medium'>Country</th>
                             <th className='py-2.5 px-3 font-medium text-center'>Orders</th>
-                            <th className='py-2.5 px-3 font-medium text-right'>Gesamtausgaben</th>
+                            <th className='py-2.5 px-3 font-medium text-right'>Total Spend</th>
                             <th className='py-2.5 px-3 font-medium'>Latest Order</th>
                             <th className='py-2.5 px-3 font-medium text-right'>Aktion</th>
                           </tr>
@@ -2706,7 +2707,7 @@ export function DashboardView({
                                   onClick={() => onSelectTab('customers')}
                                   className='h-7 px-2 text-xs font-medium cursor-pointer hover:bg-primary/10 hover:text-primary'
                                 >
-                                  Profil
+                                  Profile
                                   <ArrowUpRight className='w-3 h-3 ms-1' />
                                 </Button>
                               </td>
@@ -2726,7 +2727,7 @@ export function DashboardView({
                         <Package className='w-5 h-5' />
                       </div>
                       <p className='text-sm font-semibold text-foreground'>
-                        Keine verkauften Einheiten in {activePeriodLabel}
+                        No units sold in {activePeriodLabel}
                       </p>
                       <p className='text-xs text-muted-foreground max-w-sm mx-auto'>
                         Revenue analytics and SKU metrics will appear automatically after orders are processed.
@@ -2774,7 +2775,7 @@ export function DashboardView({
                                   onClick={() => onSelectTab('products')}
                                   className='h-7 px-2 text-xs font-medium cursor-pointer hover:bg-primary/10 hover:text-primary'
                                 >
-                                  Katalog
+                                  Catalog
                                   <ArrowUpRight className='w-3 h-3 ms-1' />
                                 </Button>
                               </td>
@@ -2801,15 +2802,15 @@ export function DashboardView({
                   <div>
                     <div className='flex items-center gap-2'>
                       <h3 className='text-sm font-semibold text-foreground tracking-tight'>
-                        Benachrichtigungszentrale
+                        Notification Center
                       </h3>
                       <span className='inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[10px] font-medium bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20'>
                         <span className='w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse' />
-                        Live-Überwachung
+                        Live Monitoring
                       </span>
                     </div>
                     <p className='text-xs text-muted-foreground mt-0.5'>
-                      Echtzeit-Aktivitäten im Shop, Inventarsignale und Bestellmeilensteine
+                      Real-time store activity, inventory signals, and order milestones
                     </p>
                   </div>
                 </div>
@@ -2825,7 +2826,7 @@ export function DashboardView({
                     }`}
                   >
                     <Filter className='w-3 h-3' />
-                    <span>Nur ungelesene</span>
+                    <span>Unread only</span>
                     {unreadNotificationsCount > 0 && (
                       <span className='px-1.5 py-0.2 rounded-full text-[10px] font-bold bg-primary text-primary-foreground'>
                         {unreadNotificationsCount}
@@ -2840,7 +2841,7 @@ export function DashboardView({
                     className='h-8 text-xs cursor-pointer border-border/70'
                   >
                     <Check className='w-3.5 h-3.5 me-1.5' />
-                    Alle als gelesen markieren
+                    Mark all as read
                   </Button>
                 </div>
               </div>
@@ -2849,7 +2850,7 @@ export function DashboardView({
               <div className='px-4 sm:px-5 py-2.5 border-t border-border/60 bg-muted/20 flex flex-wrap items-center gap-1.5'>
                 {(
                   [
-                    { id: 'all', label: 'Alle', count: allNotifications.length },
+                    { id: 'all', label: 'All', count: allNotifications.length },
                     {
                       id: 'orders',
                       label: 'Orders',
@@ -2857,12 +2858,12 @@ export function DashboardView({
                     },
                     {
                       id: 'inventory',
-                      label: 'Lagerbestand',
+                      label: 'Inventory',
                       count: allNotifications.filter((n) => n.category === 'inventory').length,
                     },
                     {
                       id: 'customers',
-                      label: 'Kunden',
+                      label: 'Customers',
                       count: allNotifications.filter((n) => n.category === 'customers').length,
                     },
                     {
@@ -2921,7 +2922,7 @@ export function DashboardView({
                     {/* Clean Typography */}
                     <div className='space-y-1.5'>
                       <h3 className='text-base font-semibold text-foreground tracking-tight'>
-                        Alles erledigt
+                        All Caught Up
                       </h3>
                       <p className='text-xs text-muted-foreground leading-relaxed'>
                         There are currently no active notifications. New orders, low stock warnings, and payment receipts will appear here in real time.
@@ -2936,11 +2937,11 @@ export function DashboardView({
                       </span>
                       <span className='inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[11px] font-medium bg-muted/40 border border-border/60 text-muted-foreground'>
                         <span className='w-1.5 h-1.5 rounded-full bg-emerald-500' />
-                        Bestandsüberwachung aktiv
+                        Inventory Monitor Active
                       </span>
                       <span className='inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[11px] font-medium bg-muted/40 border border-border/60 text-muted-foreground'>
                         <span className='w-1.5 h-1.5 rounded-full bg-emerald-500' />
-                        Zahlungsgateway online
+                        Payment Gateway Online
                       </span>
                     </div>
 
@@ -2962,7 +2963,7 @@ export function DashboardView({
                         className='h-8 text-xs font-medium cursor-pointer border-border/70 hover:bg-muted'
                       >
                         <Box className='w-3.5 h-3.5 me-1.5 text-muted-foreground' />
-                        Katalog &amp; Bestand
+                        Catalog &amp; Inventory
                       </Button>
                       <Button
                         variant='outline'
@@ -2971,7 +2972,7 @@ export function DashboardView({
                         className='h-8 text-xs font-medium cursor-pointer border-border/70 hover:bg-muted'
                       >
                         <ShieldCheck className='w-3.5 h-3.5 me-1.5 text-muted-foreground' />
-                        Shop-Einstellungen
+                        Store Settings
                       </Button>
                     </div>
                   </div>
@@ -3067,7 +3068,7 @@ export function DashboardView({
                               <button
                                 type='button'
                                 onClick={() => toggleNotificationRead(notif.id)}
-                                title={notif.unread ? 'Als gelesen markieren' : 'Als ungelesen markieren'}
+                                title={notif.unread ? 'Mark as read' : 'Mark as unread'}
                                 className={`w-8 h-8 rounded-lg border flex items-center justify-center transition-colors cursor-pointer ${
                                   notif.unread
                                     ? 'border-border/70 hover:bg-muted text-muted-foreground hover:text-foreground'

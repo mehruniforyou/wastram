@@ -140,13 +140,13 @@ export function ApiKeysView() {
         setSaveSuccess(true)
         setIsEditing(false)
         setTimeout(() => setSaveSuccess(false), 4000)
-        notifyAdmin('success', 'API-Schlüssel gespeichert', 'Produktionsschlüssel wurden in der Datenbank aktualisiert.')
+        notifyAdmin('success', 'API Keys Saved', 'Production keys were updated in the database.')
       } else {
-        throw new Error('Server hat einen Fehler gemeldet.')
+        throw new Error('Server reported an error.')
       }
     } catch (err: any) {
       console.error('Error saving API keys:', err)
-      notifyAdmin('error', 'Speichern fehlgeschlagen', err.message || 'API-Schlüssel konnten nicht gespeichert werden.')
+      notifyAdmin('error', 'Save Failed', err.message || 'Could not save API keys.')
     } finally {
       setSaving(false)
     }
@@ -222,7 +222,7 @@ export function ApiKeysView() {
               )}
             >
               <Edit3 className='w-3.5 h-3.5' />
-              <span>{isEditing ? 'Bearbeitungsmodus' : 'Bearbeiten'}</span>
+              <span>{isEditing ? 'Editing Mode' : 'Edit Keys'}</span>
             </Button>
 
             <Button
@@ -245,7 +245,7 @@ export function ApiKeysView() {
               ) : saveSuccess ? (
                 <>
                   <CheckCircle2 className='w-3.5 h-3.5' />
-                  <span>Gespeichert!</span>
+                  <span>Saved!</span>
                 </>
               ) : (
                 <>
@@ -261,7 +261,7 @@ export function ApiKeysView() {
           {saveSuccess && (
             <div className='p-3.5 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
               <CheckCircle2 className='w-4 h-4 shrink-0' />
-              <span>Produktions-API-Schlüssel und Zugangsdaten erfolgreich in der Datenbank gespeichert!</span>
+              <span>Production API keys and credentials successfully saved in the database!</span>
             </div>
           )}
 
@@ -270,7 +270,7 @@ export function ApiKeysView() {
             <div className='flex items-center justify-between pb-3 border-b border-border'>
               <div className='flex items-center gap-2'>
                 <CreditCard className='w-4 h-4 text-primary' />
-                <h4 className='text-sm font-semibold text-foreground'>Zahlungsgateways (PayPal &amp; Stripe)</h4>
+                <h4 className='text-sm font-semibold text-foreground'>Payment Gateways (Razorpay, Stripe &amp; Cashfree)</h4>
               </div>
               <Badge variant='outline' className='text-[10px] uppercase font-mono'>
                 {form.environment === 'live' ? 'Live-Produktion' : 'Sandbox-Testmodus'}
@@ -285,7 +285,7 @@ export function ApiKeysView() {
                   onValueChange={(val) => { setForm((p) => ({ ...p, environment: val })); setIsEditing(true); }}
                 >
                   <SelectTrigger className='w-full h-9 text-xs'>
-                    <SelectValue placeholder='Modus auswählen' />
+                    <SelectValue placeholder='Select Mode' />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value='sandbox'>Sandbox (Testmodus)</SelectItem>
@@ -301,7 +301,7 @@ export function ApiKeysView() {
                   onValueChange={(val) => { setForm((p) => ({ ...p, defaultCurrency: val })); setIsEditing(true); }}
                 >
                   <SelectTrigger className='w-full h-9 text-xs'>
-                    <SelectValue placeholder='Währung auswählen' />
+                    <SelectValue placeholder='Select Currency' />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value='INR'>INR (₹) — Indian Rupee</SelectItem>
@@ -535,7 +535,7 @@ export function ApiKeysView() {
             <div className='flex items-center justify-between pb-3 border-b border-border'>
               <div className='flex items-center gap-2'>
                 <ShieldCheck className='w-4 h-4 text-primary' />
-                <h4 className='text-sm font-semibold text-foreground'>Marketing &amp; Tracking-Analysen</h4>
+                <h4 className='text-sm font-semibold text-foreground'>Marketing &amp; Analytics Tracking</h4>
               </div>
             </div>
 
@@ -685,7 +685,7 @@ export function ApiKeysView() {
 
           <div className='flex items-center justify-between gap-4 pt-2 border-t border-border'>
             <p className='text-xs text-muted-foreground'>
-              Schlüssel werden verschlüsselt und sicher in Ihrer Produktionsdatenbank gespeichert.
+              Keys are encrypted and securely stored in your production database.
             </p>
             <div className='flex items-center gap-2'>
               <Button
@@ -696,7 +696,7 @@ export function ApiKeysView() {
                 className='h-9 text-xs gap-1.5 cursor-pointer'
               >
                 <Edit3 className='w-3.5 h-3.5' />
-                <span>{isEditing ? 'Abbrechen' : 'Bearbeiten'}</span>
+                <span>{isEditing ? 'Cancel' : 'Edit'}</span>
               </Button>
               <Button
                 type='submit'
