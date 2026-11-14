@@ -88,6 +88,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
 
   const filtered = useMemo(() => {
     let list = liveProducts.filter(p => {
+      if ((p as any).deleted || (p as any).is_hidden) return false;
       if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
       if (selectedCategory === 'western-dresses' || selectedCategory === 'dresses') return p.category === 'western-dresses';
       if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') return p.category === 'denim-collection';
@@ -134,7 +135,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     }
 
     return list;
-  }, [selectedCategory, sortBy]);
+  }, [liveProducts, selectedCategory, sortBy]);
 
   const visibleProducts = useMemo(() => {
     return filtered.slice(0, visibleCount);

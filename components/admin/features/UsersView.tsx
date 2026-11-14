@@ -311,9 +311,7 @@ export function CustomersView({
         {/* Title and Top Actions */}
         <div className='flex flex-wrap items-end justify-between gap-3 mb-2'>
           <div>
-            <h2 className='text-4xl sm:text-5xl font-extrabold tracking-tight text-foreground'>
-              Kunden
-            </h2>
+            <h2 className='text-4xl sm:text-5xl font-extrabold tracking-tight text-foreground'>Customers</h2>
           </div>
           <div className='flex items-center gap-2'>
             <Button
@@ -422,7 +420,7 @@ export function CustomersView({
                     <TableCell>
                       <span className='inline-flex items-center gap-1.5 text-xs text-emerald-600 dark:text-emerald-400 font-medium'>
                         <span className='size-1.5 rounded-full bg-emerald-500' />
-                        Verifizierter Käufer
+                        Verified Buyer
                       </span>
                     </TableCell>
 

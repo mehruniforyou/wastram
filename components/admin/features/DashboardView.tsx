@@ -223,7 +223,7 @@ function extractVerifiedSales(ordersList: any[] = [], paymentsList: any[] = []):
       order.shipping?.city || order.shipping_city || order.city || ''
     const customerAddress =
       order.shipping?.address || order.shipping_address || order.address || ''
-    const currency = order.currency || 'EUR'
+    const currency = order.currency || 'INR'
     const status = order.status || 'Payment Confirmed'
     const paymentMethod =
       order.payment_method || order.paymentMethod || order.payment?.method || 'PayPal'
@@ -330,7 +330,7 @@ function extractVerifiedSales(ordersList: any[] = [], paymentsList: any[] = []):
     const customerCountry = pay.customer_country || pay.country || 'Germany'
     const customerCity = pay.customer_city || pay.city || ''
     const customerAddress = pay.customer_address || pay.address || ''
-    const currency = pay.currency || 'EUR'
+    const currency = pay.currency || 'INR'
     const paymentMethod = 'PayPal'
 
     const payFallbackName = pay.product_name || pay.productName || pay.item_name || 'Wastram Apparel Product'
@@ -525,9 +525,9 @@ function getTooltipDescription(
   if (change.direction === 'neutral') {
     switch (metricType) {
       case 'revenue':
-        return `Gleicher Umsatz wie im ${label}`
+        return `Equal revenue compared to ${label}`
       case 'sales':
-        return `Gleiches Verkaufsvolumen wie im ${label}`
+        return `Equal sales volume compared to ${label}`
       case 'aov':
         return `Equal average order value compared to ${label}`
       case 'customers':
@@ -540,8 +540,8 @@ function getTooltipDescription(
   switch (metricType) {
     case 'revenue':
       return isIncrease
-        ? `${percentStr} höherer Umsatz als im ${label}`
-        : `${percentStr} geringerer Umsatz als im ${label}`
+        ? `${percentStr} higher revenue than ${label}`
+        : `${percentStr} lower revenue than ${label}`
     case 'sales':
       return isIncrease
         ? `${percentStr} more orders than ${label}`
@@ -807,7 +807,7 @@ function generateChartData(
         const total = matching.reduce((sum, s) => sum + s.amount, 0)
         return {
           name: h.name,
-          tooltipLabel: `${h.name} (${matching.length} ${matching.length === 1 ? 'Bestellung' : 'Orders'})`,
+          tooltipLabel: `${h.name} (${matching.length} ${matching.length === 1 ? 'Order' : 'Orders'})`,
           total: Math.round(total * 100) / 100,
           count: matching.length,
         }
@@ -888,7 +888,7 @@ function CustomChartTooltip({ active, payload, label, currencySymbol = '₹' }: 
           <span className='text-[10px] text-muted-foreground font-normal'>Verifiziert</span>
         </div>
         <div className='flex items-center justify-between gap-3 pt-0.5'>
-          <span className='text-muted-foreground'>Umsatzvolumen:</span>
+          <span className='text-muted-foreground'>Sales Volume:</span>
           <span className='font-bold text-[#007934] dark:text-[#22c55e] tabular-nums'>
             {currencySymbol}
             {Number(item.total || 0).toLocaleString('en-IN', {
@@ -900,7 +900,7 @@ function CustomChartTooltip({ active, payload, label, currencySymbol = '₹' }: 
         <div className='flex items-center justify-between gap-3'>
           <span className='text-muted-foreground'>Orders:</span>
           <span className='font-semibold text-foreground tabular-nums'>
-            {item.count || 0} {item.count === 1 ? 'Bestellung' : 'Orders'}
+            {item.count || 0} {item.count === 1 ? 'Order' : 'Orders'}
           </span>
         </div>
       </div>
@@ -1378,7 +1378,7 @@ export function DashboardView({
   // Download Sales Data CSV (filtered according to time period)
   const handleDownloadSalesReport = useCallback(() => {
     if (salesInPeriod.length === 0) {
-      alert(`Keine Verkaufsdaten für ${activePeriodLabel} verfügbar. Versuchen Sie einen anderen Zeitraum.`)
+      alert(`No sales data available for ${activePeriodLabel}. Please select another time period.`)
       return
     }
     const headers = [
@@ -1458,7 +1458,7 @@ export function DashboardView({
       'Orders in Period',
       'Gesamtausgaben im Zeitraum',
       'Währung',
-      'Durchschn. Ausgaben pro Bestellung',
+      'Avg. Spend per Order',
       'Letzte Bestellnummer',
       'Latest Order Date',
       'Customer Status',
@@ -1476,7 +1476,7 @@ export function DashboardView({
         `"${(c.address || '').replace(/"/g, '""')}"`,
         String(c.ordersCount),
         c.totalSpent.toFixed(2),
-        `"${c.currency || 'EUR'}"`,
+        `"${c.currency || 'INR'}"`,
         avgSpend,
         `"${c.latestOrderNumber}"`,
         `"${c.latestOrderDate.toISOString().slice(0, 10)}"`,
@@ -1509,13 +1509,13 @@ export function DashboardView({
       'SKU / Teilenummer',
       'Produktname',
       'Variante / Spezifikation',
-      'Verkaufte Einheiten (Menge)',
-      'Gesamtes Verkaufsvolumen',
+      'Units Sold (Qty)',
+      'Total Sales Revenue',
       'Währung',
-      'Durchschn. Verkaufspreis',
+      'Avg. Sale Price',
       'Associated Orders',
       'Zugehörige Bestellnummern',
-      'Letztes Verkaufsdatum',
+      'Latest Sale Date',
       'Zeitraumfilter',
     ]
     const rows = periodProductsSold.map((p) => {
@@ -1527,7 +1527,7 @@ export function DashboardView({
         `"${p.variant.replace(/"/g, '""')}"`,
         String(p.unitsSold),
         p.totalRevenue.toFixed(2),
-        `"${p.currency || 'EUR'}"`,
+        `"${p.currency || 'INR'}"`,
         avgPrice,
         String(p.orderNumbers.length),
         `"${orderRefs.replace(/"/g, '""')}"`,
@@ -1767,7 +1767,7 @@ export function DashboardView({
                 className='h-8 text-xs'
               >
                 <RefreshCw className={`w-3.5 h-3.5 me-1.5 ${loading ? 'animate-spin' : ''}`} />
-                Aktualisieren
+                Refresh
               </Button>
             )}
             <Button
@@ -1777,7 +1777,7 @@ export function DashboardView({
               title='Export or view reports'
             >
               <Download className='w-3.5 h-3.5 me-1.5' />
-              Bericht herunterladen
+              Download Report
             </Button>
           </div>
         </div>
@@ -2277,10 +2277,10 @@ export function DashboardView({
                   onClick={handleDownloadProductsSoldReport}
                   disabled={periodProductsSold.length === 0}
                   className='h-8 text-xs cursor-pointer px-2.5'
-                  title={`Verkaufte Produkte für ${activePeriodLabel} herunterladen`}
+                  title={`Download products sold for ${activePeriodLabel}`}
                 >
                   <Package className='w-3.5 h-3.5 me-1.5 text-amber-600 dark:text-amber-400 shrink-0' />
-                  Verkaufte Products (CSV)
+                  Products Sold (CSV)
                 </Button>
                 <Button
                   size='sm'
@@ -2305,7 +2305,7 @@ export function DashboardView({
                       <div className='w-7 h-7 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0'>
                         <Receipt className='w-3.5 h-3.5' />
                       </div>
-                      <span className='text-xs font-semibold text-foreground tracking-tight'>Verkaufsbericht</span>
+                      <span className='text-xs font-semibold text-foreground tracking-tight'>Sales Report</span>
                     </div>
                     <button
                       type='button'
@@ -2508,7 +2508,7 @@ export function DashboardView({
                           : 'text-muted-foreground hover:text-foreground'
                       }`}
                     >
-                      Verkaufte Produkte ({periodProductsSold.length})
+                      Products Sold ({periodProductsSold.length})
                     </button>
                   </div>
 
@@ -2519,7 +2519,7 @@ export function DashboardView({
                       type='text'
                       placeholder={
                         reportTableTab === 'sales'
-                          ? 'Bestellungen filtern...'
+                          ? 'Filter orders...'
                           : reportTableTab === 'customers'
                           ? 'Kunden filtern...'
                           : 'Produkte filtern...'
@@ -2579,7 +2579,7 @@ export function DashboardView({
                             <th className='py-2.5 px-3 font-medium'>Zielort</th>
                             <th className='py-2.5 px-3 font-medium text-right'>Bruttobetrag</th>
                             <th className='py-2.5 px-3 font-medium'>Status</th>
-                            <th className='py-2.5 px-3 font-medium text-right'>Aktion</th>
+                            <th className='py-2.5 px-3 font-medium text-right'>Action</th>
                           </tr>
                         </thead>
                         <tbody className='divide-y divide-border/40'>
@@ -2661,7 +2661,7 @@ export function DashboardView({
                         Keine Kundenkäufer gefunden für {activePeriodLabel}
                       </p>
                       <p className='text-xs text-muted-foreground max-w-sm mx-auto'>
-                        Kundeneinträge erscheinen hier, sobald Bestellungen im ausgewählten Zeitraum eingehen.
+                        Customer entries will appear here once orders are placed in the selected period.
                       </p>
                     </div>
                   ) : (
@@ -2672,9 +2672,9 @@ export function DashboardView({
                             <th className='py-2.5 px-3 font-medium'>Kundenname</th>
                             <th className='py-2.5 px-3 font-medium'>E-Mail</th>
                             <th className='py-2.5 px-3 font-medium'>Land</th>
-                            <th className='py-2.5 px-3 font-medium text-center'>Bestellungen</th>
+                            <th className='py-2.5 px-3 font-medium text-center'>Orders</th>
                             <th className='py-2.5 px-3 font-medium text-right'>Gesamtausgaben</th>
-                            <th className='py-2.5 px-3 font-medium'>Letzte Bestellung</th>
+                            <th className='py-2.5 px-3 font-medium'>Latest Order</th>
                             <th className='py-2.5 px-3 font-medium text-right'>Aktion</th>
                           </tr>
                         </thead>
@@ -2729,7 +2729,7 @@ export function DashboardView({
                         Keine verkauften Einheiten in {activePeriodLabel}
                       </p>
                       <p className='text-xs text-muted-foreground max-w-sm mx-auto'>
-                        Umsatzanalysen und SKU-Übersichten erscheinen automatisch nach dem Kaufabschluss.
+                        Revenue analytics and SKU metrics will appear automatically after orders are processed.
                       </p>
                     </div>
                   ) : (
@@ -2737,12 +2737,12 @@ export function DashboardView({
                       <table className='w-full text-left text-xs'>
                         <thead>
                           <tr className='border-b border-border/60 text-muted-foreground'>
-                            <th className='py-2.5 px-3 font-medium'>SKU / Teilenummer</th>
-                            <th className='py-2.5 px-3 font-medium'>Produktname</th>
-                            <th className='py-2.5 px-3 font-medium'>Variante</th>
-                            <th className='py-2.5 px-3 font-medium text-center'>Verkaufte Einheiten</th>
-                            <th className='py-2.5 px-3 font-medium text-right'>Gesamtumsatz</th>
-                            <th className='py-2.5 px-3 font-medium text-center'>Bestellungen</th>
+                            <th className='py-2.5 px-3 font-medium'>SKU / Style Code</th>
+                            <th className='py-2.5 px-3 font-medium'>Product Name</th>
+                            <th className='py-2.5 px-3 font-medium'>Variant</th>
+                            <th className='py-2.5 px-3 font-medium text-center'>Units Sold</th>
+                            <th className='py-2.5 px-3 font-medium text-right'>Total Revenue</th>
+                            <th className='py-2.5 px-3 font-medium text-center'>Orders</th>
                             <th className='py-2.5 px-3 font-medium text-right'>Aktion</th>
                           </tr>
                         </thead>
@@ -2872,7 +2872,7 @@ export function DashboardView({
                     },
                     {
                       id: 'discounts',
-                      label: 'Rabatte',
+                      label: 'Discounts',
                       count: allNotifications.filter((n) => n.category === 'discounts').length,
                     },
                   ] as const
@@ -2924,7 +2924,7 @@ export function DashboardView({
                         Alles erledigt
                       </h3>
                       <p className='text-xs text-muted-foreground leading-relaxed'>
-                        Derzeit liegen keine aktiven Benachrichtigungen vor. Neue Bestellungen, Warnungen bei geringem Lagerbestand und Zahlungsbestätigungen erscheinen hier sofort.
+                        There are currently no active notifications. New orders, low stock warnings, and payment receipts will appear here in real time.
                       </p>
                     </div>
 
@@ -2932,7 +2932,7 @@ export function DashboardView({
                     <div className='pt-1 flex flex-wrap items-center justify-center gap-2'>
                       <span className='inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[11px] font-medium bg-muted/40 border border-border/60 text-muted-foreground'>
                         <span className='w-1.5 h-1.5 rounded-full bg-emerald-500' />
-                        Bestellungen aktiv
+                        Orders Active
                       </span>
                       <span className='inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[11px] font-medium bg-muted/40 border border-border/60 text-muted-foreground'>
                         <span className='w-1.5 h-1.5 rounded-full bg-emerald-500' />
@@ -2953,7 +2953,7 @@ export function DashboardView({
                         className='h-8 text-xs font-medium cursor-pointer border-border/70 hover:bg-muted'
                       >
                         <ShoppingBag className='w-3.5 h-3.5 me-1.5 text-muted-foreground' />
-                        Bestellungen ansehen
+                        View Orders
                       </Button>
                       <Button
                         variant='outline'

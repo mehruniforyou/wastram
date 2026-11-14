@@ -340,7 +340,7 @@ export function CustomerSupportView({
       'Status',
       'Priorität',
       'Bestellnummer',
-      'Kundenname',
+      'Customer Name',
       'E-Mail',
       'Telefon',
       'Kategorie',
@@ -391,7 +391,7 @@ export function CustomerSupportView({
           <div>
             <div className='flex items-center gap-2'>
               <h2 className='text-3xl sm:text-4xl font-extrabold tracking-tight text-foreground'>
-                Kundenservice
+                Customer Support
               </h2>
               {stats.open > 0 && (
                 <span className='px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500 text-white animate-pulse'>
@@ -400,7 +400,7 @@ export function CustomerSupportView({
               )}
             </div>
             <p className='text-xs sm:text-sm text-muted-foreground mt-1'>
-              Kundenanfragen, Bestellstatus-Tickets & Werkstattberatung zentral verwalten
+              Manage wholesale inquiries, order tracking tickets, and boutique support centrally
             </p>
           </div>
 
@@ -412,9 +412,7 @@ export function CustomerSupportView({
               disabled={refreshing}
               className='cursor-pointer text-xs h-9'
             >
-              <RefreshCw className={`size-3.5 mr-1.5 ${refreshing ? 'animate-spin' : ''}`} />
-              Aktualisieren
-            </Button>
+              <RefreshCw className={`size-3.5 mr-1.5 ${refreshing ? 'animate-spin' : ''}`} />Refresh</Button>
             <Button
               variant='outline'
               size='sm'
@@ -431,7 +429,7 @@ export function CustomerSupportView({
                 className='cursor-pointer text-xs h-9 bg-[#3628e6] hover:bg-[#2418b3] text-white'
               >
                 <ShoppingBag className='size-3.5 mr-1.5' />
-                Zu den Bestellungen
+                Go to Orders
               </Button>
             )}
           </div>
@@ -611,9 +609,7 @@ export function CustomerSupportView({
                     <TableHead className='font-bold text-xs uppercase tracking-wider w-[120px]'>
                       Status
                     </TableHead>
-                    <TableHead className='font-bold text-xs uppercase tracking-wider'>
-                      Kunde
-                    </TableHead>
+                    <TableHead className='font-bold text-xs uppercase tracking-wider'>Customer</TableHead>
                     <TableHead className='font-bold text-xs uppercase tracking-wider'>
                       Bestellnummer
                     </TableHead>
@@ -773,7 +769,7 @@ export function CustomerSupportView({
                                     onClick={() => onSelectTab('orders')}
                                     className='text-[10px] text-[#3628e6] hover:underline inline-flex items-center gap-0.5 font-bold cursor-pointer'
                                   >
-                                    <span>Bestellung öffnen</span>
+                                    <span>Open Order</span>
                                     <ExternalLink size={10} />
                                   </button>
                                 </div>
@@ -842,7 +838,7 @@ export function CustomerSupportView({
                                     className='cursor-pointer'
                                   >
                                     <ShoppingBag size={13} className='mr-2' />
-                                    In Bestellungen suchen
+                                    Search in orders
                                   </DropdownMenuItem>
                                 )}
                                 <DropdownMenuSeparator />
@@ -946,7 +942,7 @@ export function CustomerSupportView({
               <div className='p-4 rounded-xl border border-border bg-card space-y-3'>
                 <h4 className='text-xs font-bold uppercase tracking-wider text-muted-foreground flex items-center gap-1.5'>
                   <User size={14} />
-                  <span>Kundeninformationen</span>
+                  <span>Customer Information</span>
                 </h4>
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs'>
                   <div>
@@ -989,7 +985,7 @@ export function CustomerSupportView({
                             }}
                             className='text-[10px] text-[#3628e6] hover:underline font-bold'
                           >
-                            [Bestellung ansehen]
+                            [View Order]
                           </button>
                         )}
                       </div>

@@ -47,7 +47,7 @@ export function ApiKeysView() {
       const res = await fetch('/api/email/test', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ targetEmail: form.senderEmail || 'ixos@drampalis.de' }),
+        body: JSON.stringify({ targetEmail: form.senderEmail || 'orders@wastram.com' }),
       })
       const data = await res.json().catch(() => ({}))
       if (res.ok && data.success) {
@@ -76,7 +76,7 @@ export function ApiKeysView() {
     paypalClientId: '',
     paypalSecret: '',
     environment: 'sandbox',
-    defaultCurrency: 'EUR',
+    defaultCurrency: 'INR',
     stripePublishableKey: '',
     stripeSecretKey: '',
     firebaseApiKey: '',
@@ -170,7 +170,7 @@ export function ApiKeysView() {
     } catch (err: any) {
       setPaypalTestResult({
         success: false,
-        message: 'Verbindungstest fehlgeschlagen: ' + (err.message || 'Unbekannter Fehler'),
+        message: 'Connection test failed: ' + (err.message || 'Unknown error'),
       })
     } finally {
       setTestingPaypal(false)
@@ -204,7 +204,7 @@ export function ApiKeysView() {
               <span>API-Schlüssel &amp; Integrationen</span>
             </h1>
             <p className='text-xs sm:text-sm text-muted-foreground mt-1'>
-              Konfigurieren und verwalten Sie produktive API-Zugangsdaten für Zahlungsgateways, Datenbank, Analysen, Versand und E-Mail-Dienste.
+              Configure and manage live API credentials for payment gateways, database, analytics, logistics, and communications.
             </p>
           </div>
 
@@ -503,7 +503,7 @@ export function ApiKeysView() {
             <div className='flex items-center justify-between pb-3 border-b border-border'>
               <div className='flex items-center gap-2'>
                 <Truck className='w-4 h-4 text-primary' />
-                <h4 className='text-sm font-semibold text-foreground'>Versand &amp; Logistik (DHL / Deutsche Post)</h4>
+                <h4 className='text-sm font-semibold text-foreground'>Shipping &amp; Logistics Carriers (Delhivery / Blue Dart / DHL Express)</h4>
               </div>
             </div>
 
@@ -598,7 +598,7 @@ export function ApiKeysView() {
                 <Input
                   value={form.senderEmail}
                   onChange={(e) => { setForm((p) => ({ ...p, senderEmail: e.target.value })); setIsEditing(true); }}
-                  placeholder='bestellungen@ixosaudio.de'
+                  placeholder='orders@wastram.com'
                   className='h-9 text-xs'
                 />
               </div>
@@ -639,7 +639,7 @@ export function ApiKeysView() {
                 <Input
                   value={form.smtpUser}
                   onChange={(e) => { setForm((p) => ({ ...p, smtpUser: e.target.value })); setIsEditing(true); }}
-                  placeholder='ixos@drampalis.de'
+                  placeholder='orders@wastram.com'
                   className='h-9 text-xs font-mono'
                 />
               </div>
@@ -658,7 +658,7 @@ export function ApiKeysView() {
 
             <div className='flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-3 border-t border-border'>
               <p className='text-[11px] text-muted-foreground'>
-                Bestellbestätigungen &amp; Rechnungen werden automatisch an den Kunden und in Kopie an ixos@drampalis.de gesendet.
+                Order confirmations &amp; GST invoices are automatically sent to the customer and copied to orders@wastram.com.
               </p>
               <Button
                 type='button'

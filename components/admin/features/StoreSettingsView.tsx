@@ -667,7 +667,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
               <div className='flex items-center justify-between pb-2'>
                 <div>
                   <h3 className='text-sm font-bold text-foreground'>Store Changelog &amp; Announcements</h3>
-                  <p className='text-xs text-muted-foreground'>Halten Sie Kunden über neue Lagerware und Werkstatt-Upgrades auf dem Laufenden.</p>
+                  <p className='text-xs text-muted-foreground'>Keep boutique buyers informed about new arrivals and atelier collections.</p>
                 </div>
                 <Button
                   type='button'
@@ -767,7 +767,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                   <Input
                     value={annForm.tag}
                     onChange={e => setAnnForm(p => ({ ...p, tag: e.target.value }))}
-                    placeholder='z. B. KOSTENLOSER VERSAND!'
+                    placeholder='e.g. FREE EXPRESS SHIPPING ON ALL ORDERS!'
                     className='h-8 text-xs'
                   />
                 </div>
@@ -959,7 +959,7 @@ export function StoreSettingsView({ subTab = 'announcements', onSelectTab }: Sto
                       <SelectContent>
                         <SelectItem value='Neue Teile'>Neue Teile</SelectItem>
                         <SelectItem value='Werkstatt'>Werkstatt</SelectItem>
-                        <SelectItem value='Versand'>Versand</SelectItem>
+                        <SelectItem value='Shipping'>Shipping</SelectItem>
                         <SelectItem value='Hinweis'>Hinweis</SelectItem>
                         <SelectItem value='Betriebsferien'>Betriebsferien</SelectItem>
                       </SelectContent>

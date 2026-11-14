@@ -54,7 +54,7 @@ const POLICY_TABS: PolicyTabInfo[] = [
   },
   {
     key: "customer-info",
-    label: "Kundeninformationen",
+    label: "Customer Information",
     slug: "/customer-info",
   },
 ];
@@ -238,7 +238,7 @@ export default function LegalPoliciesTab() {
       ? rawText
       : currentDoc.translations?.[previewLang]?.raw_content ||
         (hasUnsavedChanges
-          ? `(Richtlinie speichern, um ${previewLang.toUpperCase()}-Übersetzung zu aktualisieren)`
+          ? `(Save policy to update ${previewLang.toUpperCase()} version)`
           : getPolicyGermanText(currentDoc));
 
   const previewSections = parseRawPolicyContent(activePreviewText, activeTab);

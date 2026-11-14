@@ -334,11 +334,11 @@ export default function AddSampleOrderModal({
       return;
     }
     if (!customerEmail.trim()) {
-      setErrorMsg("Email Address des Kunden ist erforderlich.");
+      setErrorMsg("Customer email address is required.");
       return;
     }
     if (!city.trim() || !country.trim()) {
-      setErrorMsg("Stadt und Land sind für den Versand erforderlich.");
+      setErrorMsg("City and country are required for shipping.");
       return;
     }
     if (items.length === 0) {
@@ -398,7 +398,7 @@ export default function AddSampleOrderModal({
           taxId: taxId.trim(),
         },
         shipping: {
-          address: address.trim() || "Direktversand ab Werk",
+          address: address.trim() || "Direct dispatch from atelier",
           city: city.trim(),
           state: stateName.trim(),
           zip: zip.trim(),
@@ -420,7 +420,7 @@ export default function AddSampleOrderModal({
 
       if (!res.ok) {
         const data = await res.json();
-        throw new Error(data.error || "Bestellung konnte nicht angelegt werden.");
+        throw new Error(data.error || "Order could not be created.");
       }
 
       const created = await res.json();
@@ -455,13 +455,13 @@ export default function AddSampleOrderModal({
 
       // Notify parent & close modal
       onOrderCreated({ ...savedOrder, currency });
-      notifyAdmin("success", "Bestellung erstellt", `Musterbestellung #${actualOrderNumber} wurde erfolgreich angelegt.`);
+      notifyAdmin("success", "Order Created", `Order #${actualOrderNumber} was successfully created.`);
       onClose();
     } catch (err: any) {
       console.error("Error creating manual sample order:", err);
-      const msg = err.message || "Beim Speichern der Bestellung ist ein Fehler aufgetreten.";
+      const msg = err.message || "An error occurred while saving the order.";
       setErrorMsg(msg);
-      notifyAdmin("error", "Fehler beim Anlegen der Bestellung", msg, err);
+      notifyAdmin("error", "Error creating order", msg, err);
     } finally {
       setIsSubmitting(false);
     }
@@ -474,15 +474,15 @@ export default function AddSampleOrderModal({
     <AdminDrawer
       isOpen={isOpen}
       onClose={onClose}
-      title="Bestellung manuell anlegen"
-      subtitle="Kundenbestellungen, Musterpakete und Evaluierungssendungen mit Sendungsverfolgung und Rechnungen erfassen."
+      title="Create Manual Order"
+      subtitle="Record boutique orders, sample packs, and shipments with tracking and invoices."
       badge={
         <span className="text-[10px] normal-case bg-primary text-primary-foreground px-2 py-0.5 rounded-full font-medium">
-          Manuelle Bestellung
+          Manual Order
         </span>
       }
       maxWidthClass="max-w-5xl"
-      backLabel="Zurück zu den Bestellungen"
+      backLabel="Back to Orders"
     >
       {errorMsg && (
         <div className="mb-4 p-3 bg-destructive/10 border border-destructive/20 rounded-xl text-destructive text-xs flex items-center gap-2">
@@ -539,9 +539,9 @@ export default function AddSampleOrderModal({
                   value={orderStatus}
                   onChange={(val) => setOrderStatus(val)}
                   options={[
-                    { value: "Payment Confirmed", label: "Neue Bestellung (Zahlung bestätigt)" },
+                    { value: "Payment Confirmed", label: "New Order (Payment Confirmed)" },
                     { value: "Courier Assigned", label: "Kurier zugewiesen" },
-                    { value: "Dispatched", label: "Auf dem Versandweg" },
+                    { value: "Dispatched", label: "In Transit / Dispatched" },
                     { value: "Shipped", label: "Versendet" },
                     { value: "Delivered", label: "Zugestellt" },
                     { value: "Cancelled", label: "Storniert" }
@@ -556,7 +556,7 @@ export default function AddSampleOrderModal({
           <div className="space-y-3 pt-2">
             <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
               <User className="w-3.5 h-3.5 text-foreground" />
-              Kunden- &amp; Unternehmensdaten
+              Customer &amp; Boutique Details
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
@@ -608,7 +608,7 @@ export default function AddSampleOrderModal({
           <div className="space-y-3 pt-2">
             <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
               <MapPin className="w-3.5 h-3.5 text-foreground" />
-              Liefer- &amp; Versandadresse
+              Delivery &amp; Shipping Address
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               <div className="sm:col-span-3">
@@ -688,7 +688,7 @@ export default function AddSampleOrderModal({
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
               <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
                 <Package className="w-3.5 h-3.5 text-foreground" />
-                Bestellartikel &amp; Katalogprodukte
+                Order Items &amp; Catalog Styles
               </div>
               <button
                 type="button"
@@ -706,7 +706,7 @@ export default function AddSampleOrderModal({
                 <div className="flex flex-wrap items-center justify-between gap-1.5">
                   <div className="flex items-center gap-1.5 font-bold text-foreground text-xs">
                     <Layers className="w-4 h-4 text-foreground" />
-                    <span>Gesamte Kategorie zur Bestellung hinzufügen</span>
+                    <span>Add entire category to order</span>
                     <span className="text-[10px] font-normal text-muted-foreground hidden sm:inline">
                       (Alle Artikel einer Kategorie im Stapel hinzufügen)
                     </span>
@@ -743,10 +743,10 @@ export default function AddSampleOrderModal({
                       onChange={(val) => setCatItemQty(Number(val))}
                       options={[
                         { value: "1", label: "1 Einheit je Artikel" },
-                        { value: "2", label: "2 Einheiten (Paar) je Artikel" },
-                        { value: "4", label: "4 Einheiten je Artikel" },
-                        { value: "5", label: "5 Einheiten je Artikel" },
-                        { value: "10", label: "10 Einheiten je Artikel" }
+                        { value: "2", label: "2 units per style" },
+                        { value: "4", label: "4 units per style" },
+                        { value: "5", label: "5 units per style" },
+                        { value: "10", label: "10 units per style" }
                       ]}
                       variant="badge"
                       size="xs"
@@ -810,7 +810,7 @@ export default function AddSampleOrderModal({
                     <div className="grid grid-cols-1 sm:grid-cols-12 gap-2.5 items-end">
                       {/* Product Selector */}
                       <div className="sm:col-span-5">
-                        <label className={labelClass}>Katalogprodukt</label>
+                        <label className={labelClass}>Catalog Style</label>
                         <AdminCustomSelect
                           value={item.productId || ""}
                           onChange={(val) => handleProductSelect(idx, val)}
@@ -943,7 +943,7 @@ export default function AddSampleOrderModal({
           <div className="space-y-3 pt-2">
             <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
               <CreditCard className="w-3.5 h-3.5 text-foreground" />
-              Zahlung, Versand &amp; Finanzen
+              Payment, Shipping &amp; Pricing
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -991,7 +991,7 @@ export default function AddSampleOrderModal({
               </div>
 
               <div>
-                <label className={labelClass}>Versand- &amp; Kuriergebühr ({currencySymbol})</label>
+                <label className={labelClass}>Shipping &amp; Courier Fee ({currencySymbol})</label>
                 <input
                   type="text"
                   inputMode="decimal"
@@ -1006,7 +1006,7 @@ export default function AddSampleOrderModal({
               </div>
 
               <div>
-                <label className={labelClass}>Rabatt ({currencySymbol})</label>
+                <label className={labelClass}>Discount ({currencySymbol})</label>
                 <input
                   type="text"
                   inputMode="decimal"
@@ -1042,12 +1042,12 @@ export default function AddSampleOrderModal({
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
-                <label className={labelClass}>Versanddienstleister / Kurier</label>
+                <label className={labelClass}>Logistics Provider / Courier</label>
                 <AdminCustomSelect
                   value={carrierName}
                   onChange={(val) => setCarrierName(val)}
                   options={[
-                    { value: "DHL Paket", label: "DHL Paket (Weltweiter Versand)" },
+                    { value: "DHL Paket", label: "Express Air Courier (Domestic & Global)" },
                     { value: "FedEx Priority", label: "FedEx Priority International" },
                     { value: "Deutsche Post", label: "Deutsche Post / DHL Paket" },
                     { value: "UPS Express", label: "UPS Express" },
@@ -1072,7 +1072,7 @@ export default function AddSampleOrderModal({
                 <label className={labelClass}>Interne Notizen / Technische Spezifikationen</label>
                 <textarea
                   rows={2}
-                  placeholder="z. B. Kunde hat 2-Ohm Schwingspulenmuster auf schwarzem Aluminiumträger angefordert."
+                  placeholder="e.g. Boutique requested pure mulmul fabric swatch and express DHL dispatch."
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
                   className={inputClass}
@@ -1085,12 +1085,12 @@ export default function AddSampleOrderModal({
           <div className="space-y-3 pt-2">
             <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
               <Truck className="w-3.5 h-3.5 text-foreground" />
-              Versand- &amp; Lagerspezifikationen
+              Shipping &amp; Dispatch Specifications
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
-                <label className={labelClass}>Lagerstandort / Versandzentrum</label>
+                <label className={labelClass}>Fulfillment Hub / Jaipur Atelier Warehouse</label>
                 <input
                   type="text"
                   placeholder="Saerbeck / Deutschland"
@@ -1101,10 +1101,10 @@ export default function AddSampleOrderModal({
               </div>
 
               <div>
-                <label className={labelClass}>Versandanweisungen</label>
+                <label className={labelClass}>Shipping Instructions</label>
                 <input
                   type="text"
-                  placeholder="z. B. Standardmäßig versicherter Expressversand"
+                  placeholder="e.g. Insured express wholesale packaging with branded poly-sleeves."
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
                   className={inputClass}
@@ -1132,12 +1132,12 @@ export default function AddSampleOrderModal({
               {isSubmitting ? (
                 <>
                   <div className="w-3.5 h-3.5 border-2 border-primary-foreground/30 border-t-primary-foreground rounded-full animate-spin" />
-                  Bestellung wird gespeichert...
+                  Saving order...
                 </>
               ) : (
                 <>
                   <CheckCircle2 className="w-4 h-4" />
-                  Bestellung verbindlich anlegen
+                  Confirm & Create Order
                 </>
               )}
             </Button>

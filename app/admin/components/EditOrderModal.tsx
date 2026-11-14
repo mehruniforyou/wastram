@@ -134,7 +134,7 @@ export default function EditOrderModal({
   const [dispatchDate, setDispatchDate] = useState<string>("");
   const [incoterms, setIncoterms] = useState<string>("CPT - Carriage Paid To");
   const [hsCode, setHsCode] = useState<string>("8518.90.00");
-  const [portOfLoading, setPortOfLoading] = useState<string>("Saerbeck / Flughafen Frankfurt (FRA), Deutschland");
+  const [portOfLoading, setPortOfLoading] = useState<string>("Jaipur / Mumbai Port (BOM), India");
   const [notes, setNotes] = useState<string>("");
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -198,7 +198,7 @@ export default function EditOrderModal({
     setDispatchDate(order.dispatchDate || "");
     setIncoterms(order.incoterms || "CPT - Carriage Paid To");
     setHsCode(order.hsCode || "8518.90.00");
-    setPortOfLoading(order.portOfLoading || "Saerbeck / Flughafen Frankfurt (FRA), Deutschland");
+    setPortOfLoading(order.portOfLoading || "Jaipur / Mumbai Port (BOM), India");
     setNotes(order.notes || "");
   }, [order, isOpen]);
 
@@ -268,11 +268,11 @@ export default function EditOrderModal({
     setSuccessMsg("");
 
     if (!customerName.trim()) {
-      setErrorMsg("Kundenname ist erforderlich.");
+      setErrorMsg("Customer name is required.");
       return;
     }
     if (!customerEmail.trim()) {
-      setErrorMsg("E-Mail-Adresse des Kunden ist erforderlich.");
+      setErrorMsg("Customer email address is required.");
       return;
     }
     if (items.length === 0) {
@@ -321,7 +321,7 @@ export default function EditOrderModal({
         dispatchDate: dispatchDate || (orderStatus === "Shipped" || orderStatus === "Delivered" ? orderDate : ""),
         incoterms: incoterms,
         hsCode: hsCode.trim() || "8518.90.00",
-        portOfLoading: portOfLoading.trim() || "Saerbeck / Flughafen Frankfurt (FRA), Deutschland",
+        portOfLoading: portOfLoading.trim() || "Jaipur / Mumbai Port (BOM), India",
         notes: notes.trim(),
         items: normalizedItems,
         customer: {
@@ -332,7 +332,7 @@ export default function EditOrderModal({
           taxId: taxId.trim(),
         },
         shipping: {
-          address: address.trim() || "Direktlieferung",
+          address: address.trim() || "Direct dispatch from atelier",
           city: city.trim(),
           state: stateName.trim(),
           zip: zip.trim(),
@@ -354,7 +354,7 @@ export default function EditOrderModal({
 
       if (!res.ok) {
         const data = await res.json();
-        throw new Error(data.error || "Bestellung konnte nicht aktualisiert werden.");
+        throw new Error(data.error || "Order could not be updated.");
       }
 
       // 2. Synchronize payment record if matched
@@ -381,8 +381,8 @@ export default function EditOrderModal({
 
       // 3. Notify parent & close
       onOrderUpdated(updatedPayload);
-      setSuccessMsg("Bestellung erfolgreich aktualisiert!");
-      notifyAdmin("success", "Bestellung aktualisiert", `Bestellung #${orderNumber} wurde erfolgreich gespeichert.`);
+      setSuccessMsg("Order successfully updated!");
+      notifyAdmin("success", "Order Updated", `Order #${orderNumber} was successfully saved.`);
       setTimeout(() => {
         onClose();
       }, 700);
@@ -390,7 +390,7 @@ export default function EditOrderModal({
       console.error("Error editing order:", err);
       const msg = err?.message || "Beim Speichern der Änderungen ist ein Fehler aufgetreten.";
       setErrorMsg(msg);
-      notifyAdmin("error", "Fehler beim Aktualisieren der Bestellung", msg, err);
+      notifyAdmin("error", "Error updating order", msg, err);
     } finally {
       setIsSubmitting(false);
     }
@@ -404,14 +404,14 @@ export default function EditOrderModal({
       isOpen={isOpen}
       onClose={onClose}
       title="Bestelldetails bearbeiten"
-      subtitle="Positionen, Mengen, Preise, Kundeninformationen und Logistik anpassen."
+      subtitle="Adjust items, quantities, prices, customer details, and shipping."
       badge={
         <span className="text-[10px] font-mono normal-case bg-primary text-primary-foreground px-2 py-0.5 rounded-md font-bold">
           {orderNumber}
         </span>
       }
       maxWidthClass="max-w-5xl"
-      backLabel="Zurück zu den Bestellungen"
+      backLabel="Back to Orders"
     >
       {/* Error / Success Feedback */}
       {errorMsg && (
@@ -462,15 +462,15 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Versand- &amp; Abwicklungsstatus</label>
+              <label className={labelClass}>Shipping &amp; Fulfillment Status</label>
               <AdminCustomSelect
                 value={orderStatus}
                 onChange={(val) => setOrderStatus(val)}
                 options={[
-                  { value: "New", label: "Neue Bestellung" },
+                  { value: "New", label: "New Order" },
                   { value: "Payment Confirmed", label: "Zahlung bestätigt" },
                   { value: "Courier Assigned", label: "Kurier zugewiesen" },
-                  { value: "In Transit", label: "Auf dem Versandweg" },
+                  { value: "In Transit", label: "In Transit / Dispatched" },
                   { value: "Shipped", label: "Versendet" },
                   { value: "Delivered", label: "Zugestellt" },
                   { value: "Cancelled", label: "Storniert" }
@@ -485,15 +485,15 @@ export default function EditOrderModal({
         <div className="space-y-3">
           <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
             <User className="w-3.5 h-3.5 text-foreground" />
-            Kunden- &amp; Unternehmensdaten
+            Customer &amp; Boutique Details
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
-              <label className={labelClass}>Vollständiger Kundenname *</label>
+              <label className={labelClass}>Full Customer Name *</label>
               <input
                 type="text"
-                placeholder="z. B. Marco Rossi"
+                placeholder="e.g. Priya Sharma"
                 value={customerName}
                 onChange={(e) => setCustomerName(e.target.value)}
                 className={inputClass}
@@ -502,10 +502,10 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Firma / Marke / Werkstatt</label>
+              <label className={labelClass}>Boutique / Brand / Company</label>
               <input
                 type="text"
-                placeholder="z. B. Sonus Pro Audio S.r.l."
+                placeholder="e.g. Royal Heritage Boutique LLP"
                 value={companyName}
                 onChange={(e) => setCompanyName(e.target.value)}
                 className={inputClass}
@@ -516,7 +516,7 @@ export default function EditOrderModal({
               <label className={labelClass}>E-Mail-Adresse *</label>
               <input
                 type="email"
-                placeholder="z. B. marco@sonusaudio.com"
+                placeholder="e.g. buyer@royalheritage.com"
                 value={customerEmail}
                 onChange={(e) => setCustomerEmail(e.target.value)}
                 className={inputClass}
@@ -528,7 +528,7 @@ export default function EditOrderModal({
               <label className={labelClass}>Telefon / WhatsApp</label>
               <input
                 type="tel"
-                placeholder="z. B. +39 02 8492019"
+                placeholder="e.g. +91 98290 12345"
                 value={customerPhone}
                 onChange={(e) => setCustomerPhone(e.target.value)}
                 className={inputClass}
@@ -536,10 +536,10 @@ export default function EditOrderModal({
             </div>
 
             <div className="sm:col-span-2">
-              <label className={labelClass}>USt-IdNr. / Steuernummer (optional)</label>
+              <label className={labelClass}>GSTIN / Tax ID (optional)</label>
               <input
                 type="text"
-                placeholder="z. B. DE123456789 / IT12345678901"
+                placeholder="e.g. 08AAAAA0000A1Z5"
                 value={taxId}
                 onChange={(e) => setTaxId(e.target.value)}
                 className={inputClass + " font-mono"}
@@ -552,15 +552,15 @@ export default function EditOrderModal({
         <div className="space-y-3">
           <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
             <MapPin className="w-3.5 h-3.5 text-foreground" />
-            Liefer- &amp; Versandadresse
+            Delivery &amp; Shipping Address
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div className="sm:col-span-2">
-              <label className={labelClass}>Straße &amp; Hausnummer / Gebäude</label>
+              <label className={labelClass}>Street &amp; Building / Landmark</label>
               <input
                 type="text"
-                placeholder="z. B. Industriestraße 42, Gebäude B"
+                placeholder="e.g. 104 Johari Bazaar, Bapu Nagar"
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}
                 className={inputClass}
@@ -568,10 +568,10 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Stadt / Ort</label>
+              <label className={labelClass}>City</label>
               <input
                 type="text"
-                placeholder="z. B. Berlin / München / Madrid"
+                placeholder="e.g. Jaipur / Mumbai / New Delhi"
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
                 className={inputClass}
@@ -579,10 +579,10 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Bundesland / Region</label>
+              <label className={labelClass}>State / Province</label>
               <input
                 type="text"
-                placeholder="z. B. Nordrhein-Westfalen / Bayern"
+                placeholder="e.g. Rajasthan / Maharashtra"
                 value={stateName}
                 onChange={(e) => setStateName(e.target.value)}
                 className={inputClass}
@@ -590,10 +590,10 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Postleitzahl</label>
+              <label className={labelClass}>Postal / PIN Code</label>
               <input
                 type="text"
-                placeholder="z. B. 48369 / 60311"
+                placeholder="e.g. 302003 / 400001"
                 value={zip}
                 onChange={(e) => setZip(e.target.value)}
                 className={inputClass + " font-mono"}
@@ -601,7 +601,7 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Zielland</label>
+              <label className={labelClass}>Destination Country</label>
               <AdminCustomSelect
                 value={country}
                 onChange={(val) => setCountry(val)}
@@ -610,7 +610,7 @@ export default function EditOrderModal({
                     value: c.name,
                     label: c.flag + " " + c.name
                   })),
-                  ...(POPULAR_COUNTRIES.some(c => c.name === country) ? [] : [{ value: country, label: `${country} (Benutzerdefiniert)` }])
+                  ...(POPULAR_COUNTRIES.some(c => c.name === country) ? [] : [{ value: country, label: `${country} (Custom)` }])
                 ]}
                 variant="form"
                 searchable
@@ -624,7 +624,7 @@ export default function EditOrderModal({
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
               <Package className="w-3.5 h-3.5 text-foreground" />
-              Positionen &amp; Preise
+              Line Items &amp; Pricing
             </div>
             <Button
               type="button"
@@ -633,7 +633,7 @@ export default function EditOrderModal({
               onClick={handleAddItem}
               className="gap-1 text-xs font-semibold cursor-pointer"
             >
-              <Plus className="w-3 h-3" /> + Artikel hinzufügen
+              <Plus className="w-3 h-3" /> + Add Line Item
             </Button>
           </div>
 
@@ -647,14 +647,14 @@ export default function EditOrderModal({
                 >
                   <div className="flex justify-between items-center">
                     <span className="text-[10px] font-bold text-foreground uppercase tracking-wider">
-                      {"Artikel #" + (idx + 1)}
+                      {"Item #" + (idx + 1)}
                     </span>
                     {items.length > 1 && (
                       <button
                         type="button"
                         onClick={() => handleRemoveItem(idx)}
                         className="p-1 text-muted-foreground hover:text-destructive rounded transition-colors cursor-pointer"
-                        title="Artikel entfernen"
+                        title="Remove item"
                       >
                         <Trash2 className="w-3.5 h-3.5" />
                       </button>
@@ -664,7 +664,7 @@ export default function EditOrderModal({
                   <div className="grid grid-cols-1 sm:grid-cols-12 gap-2.5">
                     {/* Product Selector */}
                     <div className="sm:col-span-5">
-                      <label className={labelClass}>Produkt / Lautsprecherteil auswählen</label>
+                      <label className={labelClass}>Select Apparel Style / Product</label>
                       <AdminCustomSelect
                         value={item.productId || "custom"}
                         onChange={(val) => handleProductSelect(idx, val)}
@@ -673,7 +673,7 @@ export default function EditOrderModal({
                             value: p.id,
                             label: p.name
                           })),
-                          { value: "custom", label: "✏️ Individuelles / Prototypen-Teil" }
+                          { value: "custom", label: "✏️ Custom Ensemble / Sample Item" }
                         ]}
                         variant="form"
                         searchable
@@ -682,11 +682,11 @@ export default function EditOrderModal({
 
                     {/* Variant / Name */}
                     <div className="sm:col-span-3">
-                      <label className={labelClass}>Variante / Spezifikation</label>
+                      <label className={labelClass}>Variant / Color & Size</label>
                       {item.productId === "custom" || !selectedProd?.variants?.length ? (
                         <input
                           type="text"
-                          placeholder="z. B. 15-Zoll gerippte Membran"
+                          placeholder="e.g. Pure Mulmul - Indigo / S"
                           value={item.variantName}
                           onChange={(e) =>
                             setItems((prev) => {
@@ -742,7 +742,7 @@ export default function EditOrderModal({
 
                     {/* Unit Price */}
                     <div className="sm:col-span-2">
-                      <label className={labelClass}>{`Einzelpreis (${currencySymbol})`}</label>
+                      <label className={labelClass}>{`Unit Price (${currencySymbol})`}</label>
                       <input
                         type="text"
                         inputMode="decimal"
@@ -770,7 +770,7 @@ export default function EditOrderModal({
         <div className="space-y-3">
           <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
             <CreditCard className="w-3.5 h-3.5 text-foreground" />
-            Zahlung, Versand &amp; Finanzen
+            Payment, Shipping &amp; Pricing
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -819,7 +819,7 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>{`Versandkosten (${currencySymbol})`}</label>
+              <label className={labelClass}>{`Shipping Fee (${currencySymbol})`}</label>
               <input
                 type="text"
                 inputMode="decimal"
@@ -834,7 +834,7 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>{`Rabatt (${currencySymbol})`}</label>
+              <label className={labelClass}>{`Discount (${currencySymbol})`}</label>
               <input
                 type="text"
                 inputMode="decimal"
@@ -869,12 +869,12 @@ export default function EditOrderModal({
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <div>
-              <label className={labelClass}>Versanddienstleister / Kurier</label>
+              <label className={labelClass}>Shipping Carrier / Courier</label>
               <AdminCustomSelect
                 value={carrierName}
                 onChange={(val) => setCarrierName(val)}
                 options={[
-                  { value: "DHL Paket", label: "DHL Paket (Weltweiter Versand)" },
+                  { value: "Express Courier", label: "Express Air Courier (Domestic & Global)" },
                   { value: "FedEx Priority", label: "FedEx Priority International" },
                   { value: "Deutsche Post", label: "Deutsche Post / DHL Paket" },
                   { value: "UPS Express", label: "UPS Express" },
@@ -896,7 +896,7 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Versanddatum</label>
+              <label className={labelClass}>Dispatch Date</label>
               <input
                 type="date"
                 value={dispatchDate}
@@ -911,12 +911,12 @@ export default function EditOrderModal({
         <div className="space-y-3">
           <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
             <Truck className="w-3.5 h-3.5 text-foreground" />
-            Versand- &amp; Lagerspezifikationen
+            Shipping &amp; Dispatch Specifications
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
-              <label className={labelClass}>Lagerstandort / Versandzentrum</label>
+              <label className={labelClass}>Fulfillment Hub / Warehouse</label>
               <input
                 type="text"
                 placeholder="Saerbeck / Deutschland"
@@ -930,7 +930,7 @@ export default function EditOrderModal({
               <label className={labelClass}>Logistik-Notizen</label>
               <input
                 type="text"
-                placeholder="z. B. Versicherter Expressversand erforderlich"
+                placeholder="e.g. Insured express delivery required"
                 value={carrierName}
                 onChange={(e) => setCarrierName(e.target.value)}
                 className={inputClass}
@@ -941,7 +941,7 @@ export default function EditOrderModal({
               <label className={labelClass}>Interne Notizen / Technische Spezifikationen</label>
               <textarea
                 rows={2}
-                placeholder="z. B. Besondere Schwingspulentoleranzen oder Kundenverpackungshinweise."
+                placeholder="e.g. Custom boutique packaging or special fabric folding instructions."
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
                 className={inputClass}
@@ -959,7 +959,7 @@ export default function EditOrderModal({
             disabled={isSubmitting}
             className="cursor-pointer"
           >
-            Abbrechen
+            Cancel
           </Button>
           <Button
             type="submit"

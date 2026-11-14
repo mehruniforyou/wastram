@@ -84,7 +84,7 @@ export function OrderDetailDrawer({
   if (!isOpen || !order) return null;
 
   const orderId = formatOrderSerialNumber(order);
-  const customerName = order.customer?.name || order.customer_name || (order.customer?.company || "Kunde");
+  const customerName = order.customer?.name || order.customer_name || (order.customer?.company || "Boutique Customer");
   const customerEmail = order.customer?.email || order.customer_email || "";
   const customerPhone = order.customer?.phone || order.customer_phone || "";
   const customerCompany = order.customer?.company || order.company || "";
@@ -412,7 +412,7 @@ export function OrderDetailDrawer({
               )}
               {Number(order.discount || 0) > 0 && (
                 <div className="flex justify-between text-emerald-600">
-                  <span>Rabatt:</span>
+                  <span>Discount:</span>
                   <span className="font-mono">
                     -{currencySymbol}{Number(order.discount).toFixed(2)}
                   </span>

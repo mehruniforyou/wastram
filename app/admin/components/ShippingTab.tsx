@@ -347,8 +347,8 @@ export default function ShippingTab({ categories: propCategories }: { categories
       if (typeof rawVal === "string" && rawVal.trim() === "") {
         notifyAdmin(
           "error",
-          "Versandtarif darf nicht leer sein",
-          "Ein oder mehrere Shipping Rates sind leer. Bitte geben Sie einen Wert von 0 oder höher ein (z. B. 0.00 für kostenlosen Versand)."
+          "Shipping rate cannot be empty",
+          "One or more shipping rates are empty. Please enter a value of 0 or higher (e.g. 0.00 for free shipping)."
         );
         return;
       }
@@ -356,7 +356,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       if (isNaN(num) || num < 0) {
         notifyAdmin(
           "error",
-          "Ungültiger Versandtarif",
+          "Invalid shipping rate",
           "Shipping Rates müssen 0 oder höher sein (z. B. 0.00)."
         );
         return;
@@ -466,7 +466,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       });
 
       if (!res.ok) {
-        let errorMsg = "Fehler beim Speichern der Versandeinstellungen";
+        let errorMsg = "Error saving shipping settings";
         try {
           const errorData = await res.json();
           if (errorData?.error) errorMsg = errorData.error;
@@ -499,12 +499,12 @@ export default function ShippingTab({ categories: propCategories }: { categories
       const catName = selectedCategory ? ` für „${selectedCategory.name}“` : "";
       notifyAdmin(
         "success",
-        "Versandeinstellungen gespeichert",
+        "Shipping settings saved",
         `Die Shipping Rates und Länderkonditionen${catName} wurden erfolgreich aktualisiert.`
       );
     } catch (err: any) {
       console.error("Error saving shipping settings:", err);
-      notifyAdmin("error", "Fehler beim Speichern", err.message || "Versandeinstellungen konnten nicht gespeichert werden", err);
+      notifyAdmin("error", "Fehler beim Speichern", err.message || "Shipping settings could not be saved", err);
     } finally {
       setSaving(false);
     }
@@ -1164,7 +1164,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       <div className="p-8 text-center space-y-3 font-sans">
         <RefreshCw className="w-6 h-6 animate-spin text-black mx-auto" />
         <p className="text-xs text-neutral-500 font-bold tracking-wider uppercase">
-          Versandeinstellungen werden geladen...
+          Loading shipping settings...
         </p>
       </div>
     );
@@ -1315,7 +1315,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                 <Search className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-neutral-400" />
                 <input
                   type="text"
-                  placeholder="Land suchen..."
+                  placeholder="Search country..."
                   value={regionSearchQuery}
                   onChange={(e) => setRegionSearchQuery(e.target.value)}
                   className="w-full bg-white border border-neutral-200 focus:border-black rounded-lg pl-8 pr-3 py-1.5 text-xs text-black outline-none font-medium"
@@ -1510,7 +1510,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                 <Search className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-neutral-400" />
                 <input
                   type="text"
-                  placeholder="Staat oder Stadt suchen (z. B. Texas)..."
+                  placeholder="Search state or city..."
                   value={regionSearchQuery}
                   onChange={(e) => setRegionSearchQuery(e.target.value)}
                   className="w-full bg-white border border-neutral-200 focus:border-black rounded-lg pl-8 pr-3 py-1.5 text-xs text-black outline-none font-medium"
@@ -1710,7 +1710,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                 <Search className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-neutral-400" />
                 <input
                   type="text"
-                  placeholder="Provinz oder Stadt suchen (z. B. Ontario)..."
+                  placeholder="Search province or city..."
                   value={regionSearchQuery}
                   onChange={(e) => setRegionSearchQuery(e.target.value)}
                   className="w-full bg-white border border-neutral-200 focus:border-black rounded-lg pl-8 pr-3 py-1.5 text-xs text-black outline-none font-medium"
@@ -1877,7 +1877,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                 <span className="text-2xl select-none">🇩🇪</span>
                 <div>
                   <h3 className="font-heading font-black text-sm text-black">Deutschland (Inland)</h3>
-                  <span className="text-[11px] text-neutral-400">Standardversand innerhalb Deutschlands</span>
+                  <span className="text-[11px] text-neutral-400">Standard Domestic Delivery across India</span>
                 </div>
               </div>
               <span className="text-[10px] font-mono font-semibold px-2 py-0.5 rounded bg-neutral-100 text-neutral-600">
@@ -1951,7 +1951,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                 <span className="text-2xl select-none">🇬🇧</span>
                 <div>
                   <h3 className="font-heading font-black text-sm text-black">Großbritannien / UK</h3>
-                  <span className="text-[11px] text-neutral-400">Versand nach England, Schottland, Wales & Nordirland</span>
+                  <span className="text-[11px] text-neutral-400">Worldwide Express Wholesale Export</span>
                 </div>
               </div>
               <span className="text-[10px] font-mono font-semibold px-2 py-0.5 rounded bg-neutral-100 text-neutral-600">
@@ -2171,7 +2171,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
               <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400" />
               <input
                 type="text"
-                placeholder="Kategorie suchen..."
+                placeholder="Search category..."
                 value={categorySearchQuery}
                 onChange={(e) => setCategorySearchQuery(e.target.value)}
                 className="w-full bg-white border border-neutral-300 focus:border-black rounded-xl pl-9 pr-3 py-2 text-xs text-black placeholder:text-neutral-400 outline-none font-medium transition-colors"

@@ -334,13 +334,13 @@ class AdminErrorBoundary extends Component<AdminErrorBoundaryProps, AdminErrorBo
               <ShieldAlert className="w-8 h-8" />
             </div>
             <div>
-              <h2 className="font-display text-xl font-bold text-white">Administrationskonsole wiederhergestellt</h2>
+              <h2 className="font-display text-xl font-bold text-white">Admin Console Restored</h2>
               <p className="text-xs text-slate-400 mt-1">
                 A component error was caught. You can reload the page or reset the local cache:
               </p>
             </div>
             <div className="p-3.5 bg-black/50 border border-red-500/20 rounded-xl font-mono text-[11px] text-red-400 overflow-x-auto">
-              {this.state.error?.message || "Unbekannte Rendering-Ausnahme"}
+              {this.state.error?.message || "Unknown rendering exception"}
             </div>
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <button
@@ -432,7 +432,7 @@ function normalizeAdminOrder(order: any): any {
     order.customer?.name ||
     order.customer_name ||
     order.payerName ||
-    "Gastkunde";
+    "Guest Customer";
 
   const custEmail =
     order.customer?.email ||
@@ -829,7 +829,7 @@ function AdminPageContent() {
     paypalClientId: "",
     paypalSecret: "",
     environment: "sandbox",
-    defaultCurrency: "EUR",
+    defaultCurrency: "INR",
   });
   const [savingSettings, setSavingSettings] = useState(false);
 
@@ -1087,7 +1087,7 @@ function AdminPageContent() {
       discount: Number(invoiceDiscount),
       total: grandTotal,
       customer: {
-        company: custCompany || "Privatkunde",
+        company: custCompany || "Retail Client",
         name: custName,
         phone: custPhone || "+49 (0) 160 6705008",
         email: custEmail || "info@ixos.de",
@@ -2442,7 +2442,7 @@ function AdminPageContent() {
       await Promise.all([fetchProducts(), fetchCategories()]);
     } catch (err: any) {
       console.error("Error deleting product", err);
-      notifyAdmin("error", "Error beim Delete des Products", err.message || "Error beim Delete des Products", err);
+      notifyAdmin("error", "Error deleting product", err.message || "Error deleting product", err);
       fetchProducts();
     }
   };
@@ -3682,8 +3682,8 @@ function AdminPageContent() {
       subGroups: [
         {
           items: [
-            { id: "overview", label: "Overview", icon: LayoutDashboard, desc: "Leistungsübersicht & Verkaufsanalysen" },
-            { id: "orders", label: "Orders", icon: ShoppingBag, badgeKey: "orders", desc: "Customersbestellungen & Lieferstatus" },
+            { id: "overview", label: "Overview", icon: LayoutDashboard, desc: "Performance overview & sales analytics" },
+            { id: "orders", label: "Orders", icon: ShoppingBag, badgeKey: "orders", desc: "Customer orders & fulfillment status" },
             { id: "customer-support", label: "Customersservice", icon: Headphones, desc: "Support-Tickets, Customersanfragen & Reparaturen" },
             { id: "customers", label: "Customers", icon: Users, desc: "Customersverzeichnis & Käuferprofile" },
           ]
@@ -3699,9 +3699,9 @@ function AdminPageContent() {
           items: [
             { id: "products", label: "Products", icon: Cpu, desc: "Lautsprecherkomponenten, Inventory & Pricee" },
             { id: "inventory", label: "Inventar", icon: Boxes, desc: "Lagerbestände, Schwellenwerte & Stocksverwaltung" },
-            { id: "categories", label: "Categories", icon: Layers, desc: "Katalog-Taxonomie & Kollektionen" },
-            { id: "discounts", label: "Discounts", icon: Percent, desc: "Gutscheincodes & Actions" },
-            { id: "shipping", label: "Shippingtarife", icon: Truck, desc: "Kostenloser Inlandsversand & internationale Tarife" },
+            { id: "categories", label: "Categories", icon: Layers, desc: "Catalog taxonomy & collections" },
+            { id: "discounts", label: "Discounts", icon: Percent, desc: "Promo codes & promotions" },
+            { id: "shipping", label: "Shipping Rates", icon: Truck, desc: "Domestic wholesale shipping & export rates" },
             { id: "reviews", label: "Reviews", icon: Star, desc: "Customersrezensionen & Moderation" },
             { id: "legal-policies", label: "Legal & Policies & Richtlinien", icon: FileText, desc: "Datenschutz, AGB, Cookies, Widerrufsbelehrung" },
           ]
@@ -4121,7 +4121,7 @@ function AdminPageContent() {
             activeTab === "error-401" ? "Nicht autorisierter Zugriff" :
             activeTab === "error-403" ? "Zugriff verweigert" :
             activeTab === "error-404" ? "Seite nicht gefunden" :
-            activeTab === "error-500" ? "Interner Serverfehler" :
+            activeTab === "error-500" ? "Internal Server Error" :
             activeTab === "error-503" ? "Dienst nicht verfügbar" : "Error aufgetreten"
           }
           desc={
@@ -4176,7 +4176,7 @@ function AdminPageContent() {
                 </p>
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border p-4">
-                    <h3 className="font-semibold text-sm mb-1">Katalogverwaltung</h3>
+                    <h3 className="font-semibold text-sm mb-1">Catalog Management</h3>
                     <p className="text-xs text-muted-foreground">Create and edit products, configure visibility, and assign categories.</p>
                   </div>
                   <div className="rounded-lg border p-4">
@@ -4263,7 +4263,7 @@ function AdminPageContent() {
                         <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-neutral-500" />
                         <input
                           type="text"
-                          placeholder="Categories durchsuchen..."
+                          placeholder="Search categories..."
                           value={catSearch}
                           onChange={(e) => setCatSearch(e.target.value)}
                           className="bg-white border-2 border-neutral-200 focus:border-black rounded-xl pl-9 pr-3 py-2 text-xs text-black placeholder:text-neutral-400 outline-none w-44 sm:w-56 font-medium transition-colors"
@@ -4477,7 +4477,7 @@ function AdminPageContent() {
                             <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-neutral-500" />
                             <input
                               type="text"
-                              placeholder="Products durchsuchen..."
+                              placeholder="Search products..."
                               value={prodSearch}
                               onChange={(e) => { setProdSearch(e.target.value); setProdCurrentPage(1); }}
                               className="bg-white border-2 border-neutral-200 focus:border-black rounded-xl pl-9 pr-3 py-2 text-xs text-black placeholder:text-neutral-400 outline-none w-44 sm:w-56 font-medium transition-colors"
@@ -5113,7 +5113,7 @@ function AdminPageContent() {
                                 <Layers className="w-5 h-5 stroke-[2.5]" />
                               </div>
                               <h3 className="font-heading font-black text-sm text-black">
-                                {targetCategoryForAdd ? "Nicht zugewiesenes Product zuweisen" : "Aus aktuellem Katalog übernehmen"}
+                                {targetCategoryForAdd ? "Assign unassigned product" : "Select from existing catalog"}
                               </h3>
                               <p className="text-xs text-neutral-500 font-medium leading-relaxed mt-1.5">
                                 {targetCategoryForAdd
@@ -5190,7 +5190,7 @@ function AdminPageContent() {
                           <div className="p-5 sm:p-6 border-b border-neutral-100 flex items-center justify-between gap-4 shrink-0">
                             <div>
                               <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-neutral-100 text-[10px] font-heading font-black tracking-wider uppercase text-neutral-700 mb-1">
-                                <span>{targetCategoryForAdd ? targetCategoryForAdd.name : "Katalog-Import"}</span>
+                                <span>{targetCategoryForAdd ? targetCategoryForAdd.name : "Catalog Import"}</span>
                               </div>
                               <h2 className="text-lg sm:text-xl font-heading font-black text-black tracking-tight">
                                 {targetCategoryForAdd ? `Assign Style to "${targetCategoryForAdd.name}"` : "Select Style"}
@@ -5217,7 +5217,7 @@ function AdminPageContent() {
                               <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-neutral-400" />
                               <input
                                 type="text"
-                                placeholder={targetCategoryForAdd ? "Nicht zugewiesene Products durchsuchen..." : "Katalog nach Title, SKU, Modell durchsuchen..."}
+                                placeholder={targetCategoryForAdd ? "Search unassigned products..." : "Search catalog by title, SKU, or style..."}
                                 value={existingProdSearch}
                                 onChange={e => setExistingProdSearch(e.target.value)}
                                 className="w-full bg-white border-2 border-neutral-200 focus:border-black rounded-xl pl-9 pr-3 py-2 text-xs text-black placeholder:text-neutral-400 font-medium outline-none transition-colors"
@@ -5248,7 +5248,7 @@ function AdminPageContent() {
                             {loadingCatalogForUsed ? (
                               <div className="py-20 flex flex-col items-center justify-center gap-3 text-neutral-500">
                                 <Loader2 className="w-7 h-7 animate-spin text-black" />
-                                <p className="text-xs font-heading font-bold uppercase tracking-wider">Shop-Katalog wird geladen...</p>
+                                <p className="text-xs font-heading font-bold uppercase tracking-wider">Loading boutique catalog...</p>
                               </div>
                             ) : availableCatalog.length === 0 ? (
                               <div className="py-16 text-center text-neutral-500 font-medium text-xs bg-neutral-50 rounded-2xl border-2 border-dashed border-neutral-200 p-8 space-y-2">
@@ -5386,7 +5386,7 @@ function AdminPageContent() {
                               {productToDelete.name}
                               {(productToDelete.part_number || productToDelete.partNumber) && (
                                 <span className="block text-[11px] text-neutral-500 font-sans font-normal mt-0.5">
-                                  Art.-Nr.: {productToDelete.part_number || productToDelete.partNumber}
+                                  SKU: {productToDelete.part_number || productToDelete.partNumber}
                                 </span>
                               )}
                             </div>
@@ -5462,7 +5462,7 @@ function AdminPageContent() {
                                 await Promise.all([fetchProducts(), fetchCategories()]);
                               } catch (err: any) {
                                 console.error("Error deleting product", err);
-                                notifyAdmin("error", "Error beim Delete des Products", err.message || "Product could not be deleted", err);
+                                notifyAdmin("error", "Error deleting product", err.message || "Product could not be deleted", err);
                                 await fetchProducts();
                               } finally {
                                 setIsDeletingProd(false);
@@ -5543,17 +5543,17 @@ function AdminPageContent() {
                     className="cursor-pointer text-xs h-9"
                   >
                     <Download className="size-3.5 mr-1.5" />
-                    CSV exportieren
+                    Export CSV
                   </Button>
                   <Button
                     variant="outline"
                     size="sm"
                     onClick={() => { fetchOrders(); fetchPayments(); }}
                     className="cursor-pointer text-xs h-9"
-                    title="Orders aus Datenbank synchronisieren"
+                    title="Sync orders from database"
                   >
                     <RefreshCw className="size-3.5 mr-1.5" />
-                    Orders synchronisieren
+                    Sync Orders
                   </Button>
                   <Button
                     size="sm"
@@ -6106,7 +6106,7 @@ function AdminPageContent() {
                 setShowPriceListModal(false);
                 setPriceListStep(1);
               }}
-              title={priceListStep === 1 ? "PDF-Katalog herunterladen" : "Vorschau & Verhandlungspreise anpassen"}
+              title={priceListStep === 1 ? "Download PDF Catalog" : "Preview & Customize Wholesale Prices"}
               subtitle={priceListStep === 1
                 ? "Select categories or specific styles for the B2B Wholesale Line Sheet."
                 : "Vorschau der nach Categories gruppierten Products mit individueller Priceanpassung vor der PDF-Generierung."}
@@ -6493,7 +6493,7 @@ function AdminPageContent() {
                         className="py-2.5 px-4 border border-border bg-card hover:bg-muted text-foreground text-[10px] font-bold uppercase rounded-lg transition-colors disabled:opacity-50 flex items-center justify-center gap-2 cursor-pointer"
                       >
                         <Download className="w-3.5 h-3.5" />
-                        <span>Direkt herunterladen (Basispreise)</span>
+                        <span>Download directly (Base prices)</span>
                       </button>
                       <button 
                         onClick={() => {
@@ -6846,7 +6846,7 @@ function AdminPageContent() {
                                               )}
                                               <div className="flex items-center gap-2 mt-1">
                                                 <span className="text-[9.5px] text-slate-700 font-mono">
-                                                  Katalogpreis: ₹{item.basePrice.toFixed(2)}
+                                                  Catalog Price: ₹{item.basePrice.toFixed(2)}
                                                 </span>
                                                 {isChanged && (
                                                   <span className={`text-[9px] font-bold px-1.5 py-0.2 rounded ${
@@ -6895,7 +6895,7 @@ function AdminPageContent() {
                                             {isChanged && (
                                               <button
                                                 type="button"
-                                                title="Auf Katalogpreis zurücksetzen"
+                                                title="Reset to catalog price"
                                                 onClick={() => {
                                                   const copy = { ...priceListCustomPrices };
                                                   delete copy[item.keyId];
@@ -6942,7 +6942,7 @@ function AdminPageContent() {
                         ) : (
                           <>
                             <FileText className="w-3.5 h-3.5" />
-                            <span>Individuelle B2B-Priceliste (PDF) herunterladen</span>
+                            <span>Download Custom B2B Price List (PDF)</span>
                           </>
                         )}
                       </button>
@@ -7056,7 +7056,7 @@ function AdminPageContent() {
                           onClick={() => handleDownloadActiveDocPDF(docModalType, selectedOrderForInvoice)}
                           className="gap-1.5 text-xs font-semibold cursor-pointer"
                         >
-                          <Download className="w-3.5 h-3.5" /> {docModalType}-PDF herunterladen
+                          <Download className="w-3.5 h-3.5" /> Download {docModalType} PDF
                         </Button>
                         <Button
                           variant="outline"
@@ -7325,7 +7325,7 @@ function AdminPageContent() {
                             </div>
                             {Number(selectedOrderForInvoice.shippingFee) > 0 && (
                               <div className="flex justify-between text-black">
-                                <span>Expressversand &amp; Bereitstellung:</span>
+                                <span>Express Shipping &amp; Handling:</span>
                                 <span className="font-mono font-bold">{formatDocCurrency(Number(selectedOrderForInvoice.shippingFee), cur)}</span>
                               </div>
                             )}
@@ -7337,7 +7337,7 @@ function AdminPageContent() {
                             )}
                             {Number(selectedOrderForInvoice.discount) > 0 && (
                               <div className="flex justify-between text-black">
-                                <span>Handelsrabatt:</span>
+                                <span>Wholesale Trade Discount:</span>
                                 <span className="font-mono font-bold">-{formatDocCurrency(Number(selectedOrderForInvoice.discount), cur)}</span>
                               </div>
                             )}
@@ -7373,16 +7373,16 @@ function AdminPageContent() {
                     
                     <ol className="list-decimal pl-4 space-y-0.5 text-black leading-normal">
                       <li>
-                        <strong className="text-black">Komponentenspezifikationen:</strong> Präzisions-Schwingspulen, Membranen, Recone-Teile &amp; Akustikkomponenten. Qualitätsgeprüft vor dem Shipping.
+                        <strong className="text-black">Artisanal Craftsmanship:</strong> Handcrafted pure mulmul, modal silks, and heritage hand-block print apparel. 100% quality inspected before dispatch.
                       </li>
                       <li>
-                        <strong className="text-black">Lieferung &amp; Transport:</strong> Shipping über autorisierten Kurierdienst mit offizieller Sendungsverfolgung bei Übergabe.
+                        <strong className="text-black">Delivery &amp; Logistics:</strong> Dispatched via authorized air couriers with end-to-end online tracking upon handover.
                       </li>
                       <li>
                         <strong className="text-black">Quality Assurance &amp; Transit Guarantee:</strong> Thoroughly inspected prior to international air dispatch. Any damages in transit must be reported within <strong className="text-black">7 calendar days</strong> with unboxing photographs/videos.
                       </li>
                       <li>
-                        <strong className="text-black">Schutzverpackung:</strong> Verpackt in robusten Schutzkartons mit Feuchtigkeitssperre und stoßdämpfender Polsterung.
+                        <strong className="text-black">Protective Packaging:</strong> Individually packed in moisture-resistant poly-sleeves and heavy-duty wholesale master cartons.
                       </li>
                       <li>
                         <strong className="text-black">Jurisdiction &amp; Trade Terms:</strong> Governed under the commercial jurisdiction of Jaipur, Rajasthan, India.
@@ -7496,7 +7496,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
                 setForm({ ...form, name: val, slug: category ? form.slug : generateSlug(val) });
               }}
               className={textInputClass}
-              placeholder="z. B. Membranen & Schwingspulen"
+              placeholder="e.g. Western Dresses"
             />
           </div>
 
@@ -7507,7 +7507,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
               value={form.slug}
               onChange={e => setForm({ ...form, slug: e.target.value })}
               className={textInputClass}
-              placeholder="z. B. membranen"
+              placeholder="e.g. western-dresses"
             />
           </div>
 
@@ -7518,7 +7518,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
               value={form.description}
               onChange={e => setForm({ ...form, description: e.target.value })}
               className={`${textInputClass} resize-none`}
-              placeholder="Categoryübersicht und Description der Akustikkomponenten..."
+              placeholder="Collection overview and artisanal apparel description..."
             />
           </div>
         </div>
@@ -7758,12 +7758,12 @@ function SpecBuilder({
     { label: "+ Condition", key: "Condition", defaultVal: "Brand New (Artisanal)" },
     { label: "+ Maße", key: "Maße", defaultVal: "" },
     { label: "+ Material", key: "Material", defaultVal: "" },
-    { label: "+ Ohm", key: "Ohm", defaultVal: "8" },
+    { label: "+ Fabric", key: "Fabric", defaultVal: "Pure Mulmul Cotton" },
     { label: "+ Craft / Weave", key: "Craft", defaultVal: "Handloom Zari" },
     { label: "+ Part Number", key: "Part Number", defaultVal: "" },
-    { label: "+ Belastbarkeit", key: "Belastbarkeit", defaultVal: "100 W" },
-    { label: "+ Frequenzbereich", key: "Frequenzbereich", defaultVal: "1 kHz - 20 kHz" },
-    { label: "+ Gewicht", key: "Gewicht", defaultVal: "" },
+    { label: "+ Pattern", key: "Pattern", defaultVal: "Jaipuri Hand-block" },
+    { label: "+ Fit Type", key: "Fit", defaultVal: "Flared Maxi" },
+    { label: "+ Wash Care", key: "Care", defaultVal: "Hand Wash Cold" },
   ];
 
   return (
@@ -7872,7 +7872,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
   }
 
   // Extract Spule Durchmesser
-  let initialCoil = (product as any)?.spule_durchmesser || specs["Spule Durchmesser"] || specs["Spulendurchmesser"] || specs["Voice Coil"] || specs["Schwingspule"] || specs["Durchmesser"] || "";
+  let initialCoil = (product as any)?.craft || specs["Craft"] || specs["Weave"] || "";
   if (!initialCoil && specs["Brand"] && /^[\d,.]+(?:\s*mm)?$/.test(specs["Brand"].trim())) {
     initialCoil = specs["Brand"].trim();
     if (!initialCoil.includes("mm")) initialCoil += " mm";
@@ -7973,7 +7973,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
       initialSpecsRows.push({ key: "Material", value: "" });
     }
     if (initialOhm) initialSpecsRows.push({ key: "Ohm", value: initialOhm });
-    if (initialCoil) initialSpecsRows.push({ key: "Spule Durchmesser", value: initialCoil });
+    if (initialCoil) initialSpecsRows.push({ key: "Craft", value: initialCoil });
     if (initialPartNumber) initialSpecsRows.push({ key: "Part Number", value: initialPartNumber });
     for (const [k, v] of Object.entries(specs)) {
       if (suppressedSpecKeys.has(k.toLowerCase().trim())) continue;
@@ -8076,7 +8076,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
 
       // Sync top-level product schema attributes from technical_specs
       const extractedOhm = technical_specs["Ohm"] || technical_specs["ohm"] || technical_specs["Impedanz"] || technical_specs["Impedance"] || null;
-      const extractedCoil = technical_specs["Spule Durchmesser"] || technical_specs["spule durchmesser"] || technical_specs["Spulendurchmesser"] || technical_specs["Voice Coil"] || technical_specs["Schwingspule"] || null;
+      const extractedCoil = technical_specs["Craft"] || technical_specs["craft"] || technical_specs["Weave"] || null;
       const extractedPartNumber = technical_specs["Part Number"] || technical_specs["part number"] || technical_specs["SKU"] || technical_specs["sku"] || form.partNumber.trim() || product?.partNumber || null;
 
       const cleanSlug = generateProductSlug(form.name) || form.slug;
@@ -8229,7 +8229,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
               value={form.short_desc}
               onChange={e => setForm({ ...form, short_desc: e.target.value })}
               className={`${textInputClass} resize-none`}
-              placeholder="Kurze Productübersicht für Katalog und Suchkarten..."
+              placeholder="Brief product summary for catalog and search cards..."
             />
           </div>
         </div>
@@ -8436,7 +8436,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                       const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
                       const json = await res.json();
                       if (!res.ok || !json.url) {
-                        throw new Error(json?.error || `Upload fehlgeschlagen für ${file.name}`);
+                        throw new Error(json?.error || `Upload failed for ${file.name}`);
                       }
                       urls.push(json.url);
                     }
@@ -8926,8 +8926,8 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
       {/* Section Tabs */}
       <div className="flex gap-2 flex-wrap">
         {[
-          { id: "variants", label: "Color Variants & Artikelnummern", icon: Tag },
-          { id: "images", label: "Imageergalerie", icon: ImageIcon },
+          { id: "variants", label: "Color Variants & SKUs", icon: Tag },
+          { id: "images", label: "Image Gallery", icon: ImageIcon },
           { id: "downloads", label: "Downloads", icon: Download },
           { id: "faqs", label: "Häufige Fragen (FAQ)", icon: HelpCircle },
         ].map(tab => (
@@ -9146,7 +9146,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                 onChange={val => setDlType(val)}
                 options={[
                   { value: "datasheet", label: "Datenblatt" },
-                  { value: "catalogue", label: "Katalog" },
+                  { value: "catalogue", label: "Catalog" },
                   { value: "drawing", label: "Zeichnung / Maßblatt" },
                   { value: "manual", label: "Anleitung / Handbuch" }
                 ]}

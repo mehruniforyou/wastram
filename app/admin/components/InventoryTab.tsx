@@ -455,7 +455,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
           notifyAdmin(
             "success",
             "Lagerbestand gespeichert",
-            `Artikel "${editingItem.name}" erfolgreich auf ${editStockValue} Einheiten aktualisiert.`
+            `Artikel "${editingItem.name}" erfolgreich auf ${editStockValue} units updated.`
           );
           setEditingItem(null);
         }
@@ -489,9 +489,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
       case "OUT_OF_STOCK":
         return (
           <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-rose-50 text-rose-700 border border-rose-200">
-            <XCircle className="w-3.5 h-3.5 text-rose-600 shrink-0" />
-            Ausverkauft
-          </span>
+            <XCircle className="w-3.5 h-3.5 text-rose-600 shrink-0" />Sold Out</span>
         );
     }
   };
@@ -510,7 +508,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             </Badge>
           </div>
           <p className="text-xs text-neutral-500 font-semibold mt-1">
-            Verwalten Sie Lagerbestände, Mindestschwellen und automatisierte Ausverkaufs-Warnungen in Echtzeit.
+            Manage inventory quantities, reorder thresholds, and low-stock alerts in real time.
           </p>
         </div>
 
@@ -524,7 +522,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             className="border-neutral-300 text-black hover:bg-neutral-100 rounded-xl text-xs font-heading font-bold cursor-pointer h-9 px-3.5 gap-1.5"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${refreshing ? "animate-spin" : ""}`} />
-            <span>Aktualisieren</span>
+            <span>Refresh</span>
           </Button>
 
           {onSelectTab && (
@@ -536,7 +534,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
               className="border-neutral-300 text-black hover:bg-neutral-100 rounded-xl text-xs font-heading font-bold cursor-pointer h-9 px-3.5 gap-1.5"
             >
               <Box className="w-3.5 h-3.5" />
-              <span>Produktkatalog</span>
+              <span>Product Catalog</span>
             </Button>
           )}
         </div>
@@ -547,7 +545,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
         <div className="bg-white border-2 border-neutral-200 rounded-2xl p-4 shadow-2xs">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-neutral-500 font-heading">
-              Gesamte Einheiten
+              Total Units
             </span>
             <Boxes className="w-4 h-4 text-neutral-600" />
           </div>
@@ -555,7 +553,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             {metrics.totalUnits.toLocaleString("de-DE")}
           </div>
           <p className="text-[11px] text-neutral-500 mt-0.5">
-            in {metrics.totalCount} Katalogartikeln
+            across {metrics.totalCount} catalog styles
           </p>
         </div>
 
@@ -612,16 +610,14 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
           }`}
         >
           <div className="flex items-center justify-between">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-rose-700 font-heading">
-              Ausverkauft
-            </span>
+            <span className="text-[11px] font-bold uppercase tracking-wider text-rose-700 font-heading">Sold Out</span>
             <XCircle className="w-4 h-4 text-rose-600" />
           </div>
           <div className="text-2xl sm:text-3xl font-heading font-black text-rose-700 mt-2 tabular-nums">
             {metrics.outOfStockCount}
           </div>
           <p className="text-[11px] text-rose-600/80 mt-0.5">
-            0 Einheiten verfügbar
+            0 units available
           </p>
         </div>
       </div>
@@ -633,7 +629,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
           <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400" />
           <input
             type="text"
-            placeholder="Nach Artikelname, SKU oder Teilenummer suchen..."
+            placeholder="Search by style name, SKU, or product code..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-neutral-50 border border-neutral-200 focus:border-black focus:bg-white rounded-xl pl-9 pr-3 py-2 text-xs text-black placeholder:text-neutral-400 outline-none font-medium transition-colors"
@@ -694,7 +690,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                   : "text-neutral-600 hover:text-black"
               }`}
             >
-              Ausverkauft ({metrics.outOfStockCount})
+              Sold Out ({metrics.outOfStockCount})
             </button>
           </div>
 
@@ -1193,7 +1189,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             {/* Current Stock Input */}
             <div className="space-y-2">
               <label className="text-xs font-heading font-bold uppercase tracking-wider text-neutral-700">
-                Aktueller physischer Lagerbestand (Einheiten)
+                Current Physical Inventory (Units)
               </label>
               <div className="flex items-center gap-2">
                 <button

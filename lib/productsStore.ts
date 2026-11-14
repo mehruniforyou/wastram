@@ -203,24 +203,38 @@ export async function deleteProductOverride(productId: string): Promise<boolean>
   const cleanId = String(productId).trim();
   const now = new Date().toISOString();
 
+  // Find associated slug or id from catalog if possible
+  const baseProd = PRODUCTS.find(
+    (p) => p.id?.toLowerCase() === cleanId.toLowerCase() || p.slug?.toLowerCase() === cleanId.toLowerCase()
+  );
+  const canonicalId = baseProd?.id || cleanId;
+  const canonicalSlug = baseProd?.slug || (cleanId !== canonicalId ? cleanId : undefined);
+
   // Tombstone product override (soft delete: preserves history while hiding from store)
   const tombstone: ProductOverride = {
-    ...(inMemoryProductOverrides[cleanId] || {}),
-    id: cleanId,
+    ...(inMemoryProductOverrides[canonicalId] || inMemoryProductOverrides[cleanId] || {}),
+    id: canonicalId,
+    slug: canonicalSlug,
     deleted: true,
     is_hidden: true,
     updated_at: now,
     updatedAt: now,
   };
 
-  inMemoryProductOverrides[cleanId] = tombstone;
+  inMemoryProductOverrides[canonicalId] = tombstone;
+  if (canonicalSlug) {
+    inMemoryProductOverrides[canonicalSlug] = tombstone;
+  }
   saveOverridesToDisk(inMemoryProductOverrides);
 
   const adminDb = getAdminDb();
   if (adminDb) {
     try {
-      await adminDb.collection("products").doc(cleanId).set(tombstone, { merge: true });
-      await adminDb.collection("product_overrides").doc(cleanId).set(tombstone, { merge: true });
+      await adminDb.collection("products").doc(canonicalId).set(tombstone, { merge: true });
+      await adminDb.collection("product_overrides").doc(canonicalId).set(tombstone, { merge: true });
+      if (canonicalSlug) {
+        await adminDb.collection("product_overrides").doc(canonicalSlug).set(tombstone, { merge: true });
+      }
       await adminDb.collection("orders").doc("_products_store").set(
         {
           products: inMemoryProductOverrides,
@@ -236,8 +250,11 @@ export async function deleteProductOverride(productId: string): Promise<boolean>
   const clientDb = getFirebaseDb();
   if (clientDb) {
     try {
-      await setDoc(doc(clientDb, "products", cleanId), tombstone, { merge: true });
-      await setDoc(doc(clientDb, "product_overrides", cleanId), tombstone, { merge: true });
+      await setDoc(doc(clientDb, "products", canonicalId), tombstone, { merge: true });
+      await setDoc(doc(clientDb, "product_overrides", canonicalId), tombstone, { merge: true });
+      if (canonicalSlug) {
+        await setDoc(doc(clientDb, "product_overrides", canonicalSlug), tombstone, { merge: true });
+      }
       await setDoc(doc(clientDb, "orders", "_products_store"), {
         products: inMemoryProductOverrides,
         updated_at: now,
@@ -281,9 +298,9 @@ export async function getAllMergedProducts(options?: { includeHidden?: boolean; 
   // 1. Process base catalog with overrides
   for (const p of PRODUCTS) {
     handledIds.add(p.id);
-    const ovr = overrides[p.id];
+    const ovr = overrides[p.id] || (p.slug ? overrides[p.slug] : undefined);
     if (ovr?.deleted) continue; // Deleted in admin
-    if (ovr?.is_hidden) continue; // Hidden in admin
+    if (ovr?.is_hidden && !options?.includeHidden) continue; // Hidden in admin
 
     activeProducts.push(applyOverrideToProduct(p, ovr));
   }

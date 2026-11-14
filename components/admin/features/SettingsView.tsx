@@ -336,7 +336,7 @@ function AccountTab() {
     workshopAddress: 'Welps Esch 5, Saerbox Nr-12, 48369 Saerbeck, NRW, Germany',
     taxVatRate: 19,
     freeShippingThreshold: 75,
-    defaultCurrency: 'EUR',
+    defaultCurrency: 'INR',
     language: 'de',
   })
 
@@ -402,7 +402,7 @@ function AccountTab() {
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
         title='Store Account &amp; Legal Details'
-        description='Konfigurieren Sie Firmennamen, Werkstattkontakt, Steuersätze und Betriebsdaten.'
+        description='Configure business profile, atelier contacts, tax rates, and operations.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
         onSave={() => handleSave()}
@@ -413,7 +413,7 @@ function AccountTab() {
       {saveSuccess && (
         <div className='p-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 rounded-xl text-xs font-medium flex items-center gap-2 animate-fade-in'>
           <CheckCircle2 className='w-4 h-4 shrink-0' />
-          <span>Shop- und rechtliche Kontodetails erfolgreich gespeichert!</span>
+          <span>Boutique and business legal details successfully saved!</span>
         </div>
       )}
 
@@ -726,7 +726,7 @@ function NotificationsTab() {
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
         title='Notifications'
-        description='Wählen Sie, wie und wann Sie Bestell-, Lager- und Kundenbenachrichtigungen erhalten.'
+        description='Choose how and when you receive order, stock, and customer notifications.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
         onSave={() => handleSave()}
@@ -743,12 +743,12 @@ function NotificationsTab() {
 
       <div className='space-y-4 rounded-xl border border-border p-5 bg-card'>
         <div className='space-y-3 pb-3 border-b border-border'>
-          <Label className='text-xs font-semibold'>Bestell- &amp; Kundenbenachrichtigungskanäle</Label>
+          <Label className='text-xs font-semibold'>Order &amp; Customer Notification Channels</Label>
           <div className='space-y-3'>
             <div className='flex items-center justify-between'>
               <div>
                 <p className='text-xs font-semibold text-foreground'>Neue Bestellbenachrichtigungen</p>
-                <p className='text-[0.75rem] text-muted-foreground'>Sofortige E-Mail, wenn ein Kunde Lautsprecherteile kauft.</p>
+                <p className='text-[0.75rem] text-muted-foreground'>Immediate email notification when a customer places an apparel order.</p>
               </div>
               <Switch checked={orderAlerts} onCheckedChange={v => { setOrderAlerts(v); setIsEditing(true); }} />
             </div>
@@ -763,7 +763,7 @@ function NotificationsTab() {
 
             <div className='flex items-center justify-between'>
               <div>
-                <p className='text-xs font-semibold text-foreground'>Kundenbewertungen</p>
+                <p className='text-xs font-semibold text-foreground'>Customer Reviews</p>
                 <p className='text-[0.75rem] text-muted-foreground'>Benachrichtigung bei Eingang einer neuen Produktbewertung.</p>
               </div>
               <Switch checked={reviewAlerts} onCheckedChange={v => { setReviewAlerts(v); setIsEditing(true); }} />
@@ -821,12 +821,12 @@ function DisplayTab() {
 
   const modules = [
     { id: 'products', label: 'Produkte & Lagerbestand' },
-    { id: 'orders', label: 'Kundenbestellungen & Versandabwicklung' },
+    { id: 'orders', label: 'Customer Orders & Fulfillment' },
     { id: 'categories', label: 'Lautsprecherteile-Kategorien' },
-    { id: 'discounts', label: 'Rabatte & Aktionscodes' },
-    { id: 'reviews', label: 'Kundenbewertungen' },
-    { id: 'shipping', label: 'Versandtarife & Länderausnahmen' },
-    { id: 'policies', label: 'Rechtliche Richtlinien & AGB' },
+    { id: 'discounts', label: 'Discounts & Promotion Codes' },
+    { id: 'reviews', label: 'Customer Reviews' },
+    { id: 'shipping', label: 'Shipping Rates & Regional Rules' },
+    { id: 'policies', label: 'Legal Policies & Terms' },
   ]
 
   useEffect(() => {
@@ -866,7 +866,7 @@ function DisplayTab() {
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
         title='Display &amp; Navigation'
-        description='Konfigurieren Sie Standard-Tabellenzeilen und sichtbare Verwaltungsmodule.'
+        description='Configure table density, default pagination, and visible admin modules.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
         onSave={() => handleSave()}
@@ -949,7 +949,7 @@ function ApiKeysTab() {
     paypalClientId: '',
     paypalSecret: '',
     environment: 'sandbox',
-    defaultCurrency: 'EUR',
+    defaultCurrency: 'INR',
     stripePublishableKey: '',
     stripeSecretKey: '',
     firebaseApiKey: '',
@@ -1044,7 +1044,7 @@ function ApiKeysTab() {
     <form onSubmit={handleSave} className='space-y-6'>
       <SubTabHeader
         title='API-Schlüssel &amp; Integrationen'
-        description='Konfigurieren und aktualisieren Sie API-Schlüssel für Zahlungsanbieter, Datenbank, Analysen, Versand und E-Mail-Dienste.'
+        description='Configure and manage API keys for payment gateways, database, analytics, shipping, and email services.'
         isEditing={isEditing}
         onToggleEdit={() => setIsEditing(!isEditing)}
         onSave={() => handleSave()}
@@ -1231,7 +1231,7 @@ function ApiKeysTab() {
         <div className='flex items-center justify-between pb-3 border-b border-border'>
           <div className='flex items-center gap-2'>
             <Truck className='w-4 h-4 text-primary' />
-            <h4 className='text-sm font-semibold text-foreground'>Versand &amp; Logistik</h4>
+            <h4 className='text-sm font-semibold text-foreground'>Shipping &amp; Logistics</h4>
           </div>
         </div>
 
@@ -1247,7 +1247,7 @@ function ApiKeysTab() {
           </div>
 
           <div className='space-y-1.5'>
-            <Label className='text-xs font-semibold'>DHL-Kundennummer (EKP)</Label>
+            <Label className='text-xs font-semibold'>Logistics Account Number / Courier ID</Label>
             <Input
               value={form.dhlAccountNumber}
               onChange={(e) => { setForm((p) => ({ ...p, dhlAccountNumber: e.target.value })); setIsEditing(true); }}

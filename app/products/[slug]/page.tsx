@@ -18,30 +18,64 @@ interface Props {
 }
 
 export default function ProductDetailPage({ params }: Props) {
-  const [product, setProduct] = useState<NishoramaProduct>(
-    () => NISHORAMA_PRODUCTS.find(p => p.slug === params.slug) || NISHORAMA_PRODUCTS[0]
-  );
+  // Read initial product and check if archived or deleted
+  const initialItem = React.useMemo(() => {
+    const found = NISHORAMA_PRODUCTS.find(
+      p => p.slug?.toLowerCase() === params.slug?.toLowerCase() || p.id?.toLowerCase() === params.slug?.toLowerCase()
+    );
+    if (!found || (found as any).deleted || (found as any).is_hidden) return null;
+    return found;
+  }, [params.slug]);
 
-  // Sync with live product updates from admin console
+  const [product, setProduct] = useState<NishoramaProduct | null>(initialItem);
+  const [isArchived, setIsArchived] = useState<boolean>(!initialItem);
+
+  // Sync with live product updates from admin console & API
   React.useEffect(() => {
-    const loadLive = () => {
-      fetch(`/api/products/${encodeURIComponent(params.slug)}?t=${Date.now()}`)
-        .then(res => res.json())
-        .then(data => {
-          if (data && !data.error && data.id) {
-            setProduct(data);
+    let isMounted = true;
+
+    const loadLive = async () => {
+      try {
+        const res = await fetch(`/api/products/${encodeURIComponent(params.slug)}?t=${Date.now()}`);
+        if (!isMounted) return;
+
+        if (res.status === 404) {
+          setIsArchived(true);
+          setProduct(null);
+          return;
+        }
+
+        const data = await res.json();
+        if (!isMounted) return;
+
+        if (data.error || data.deleted === true || data.is_hidden === true) {
+          setIsArchived(true);
+          setProduct(null);
+        } else if (data && data.id) {
+          setProduct(data);
+          setIsArchived(false);
+        }
+      } catch (err) {
+        if (!isMounted) return;
+        try {
+          const listRes = await fetch(`/api/products?t=${Date.now()}`);
+          const listData = await listRes.json();
+          const list = Array.isArray(listData) ? listData : (listData?.products || []);
+          const found = list.find((p: any) =>
+            p.slug?.toLowerCase() === params.slug?.toLowerCase() ||
+            p.id?.toLowerCase() === params.slug?.toLowerCase()
+          );
+          if (!isMounted) return;
+
+          if (!found || found.deleted || found.is_hidden) {
+            setIsArchived(true);
+            setProduct(null);
+          } else {
+            setProduct(found);
+            setIsArchived(false);
           }
-        })
-        .catch(() => {
-          fetch(`/api/products?t=${Date.now()}`)
-            .then(res => res.json())
-            .then(data => {
-              const list = Array.isArray(data) ? data : (data?.products || []);
-              const found = list.find((p: any) => p.slug === params.slug || p.id === params.slug);
-              if (found) setProduct(found);
-            })
-            .catch(() => {});
-        });
+        } catch (_) {}
+      }
     };
 
     loadLive();
@@ -53,10 +87,15 @@ export default function ProductDetailPage({ params }: Props) {
       ch1.onmessage = onMsg;
       ch2.onmessage = onMsg;
       return () => {
+        isMounted = false;
         ch1.close();
         ch2.close();
       };
-    } catch (_) {}
+    } catch (_) {
+      return () => {
+        isMounted = false;
+      };
+    }
   }, [params.slug]);
 
   const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);
@@ -64,11 +103,11 @@ export default function ProductDetailPage({ params }: Props) {
   const [selectedSize, setSelectedSize] = useState('XS');
   const [measurementUnit, setMeasurementUnit] = useState<'inch' | 'cm'>('inch');
 
-  const hasVariants = Boolean(product.colorVariants && product.colorVariants.length > 0);
-  const activeVariant = hasVariants ? product.colorVariants![selectedVariantIndex] : null;
+  const hasVariants = Boolean(product?.colorVariants && product.colorVariants.length > 0);
+  const activeVariant = hasVariants ? product!.colorVariants![selectedVariantIndex] : null;
   const activeImages = activeVariant && activeVariant.images && activeVariant.images.length > 0
     ? activeVariant.images
-    : product.images;
+    : (product?.images || []);
 
   // Accordion states
   const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
@@ -84,7 +123,7 @@ export default function ProductDetailPage({ params }: Props) {
   const mobileCarouselRef = useRef<HTMLDivElement | null>(null);
 
   const { toggleWishlist, isWishlisted, openSizeGuide, openTapAndView } = useCart();
-  const wishlisted = isWishlisted(product.slug);
+  const wishlisted = product ? isWishlisted(product.slug) : false;
 
   const sizes = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
 
@@ -92,7 +131,7 @@ export default function ProductDetailPage({ params }: Props) {
     ? { chest: '30-32', waist: '26-28', hip: '32-34', unit: 'Inch' }
     : { chest: '76-81', waist: '66-71', hip: '81-86', unit: 'CM' };
 
-  const relatedProducts = NISHORAMA_PRODUCTS.filter(p => p.id !== product.id).slice(0, 4);
+  const relatedProducts = NISHORAMA_PRODUCTS.filter(p => !p.deleted && !p.is_hidden && p.id !== product?.id).slice(0, 4);
 
   const toggleAccordion = (key: string) => {
     setOpenAccordions(prev => ({
@@ -122,6 +161,46 @@ export default function ProductDetailPage({ params }: Props) {
     });
     setActiveImageIndex(index);
   };
+
+  // If archived, deleted, or product not found
+  if (isArchived || !product) {
+    return (
+      <div className="min-h-screen bg-[#FAF9F6] text-[#0B2D7F] flex flex-col justify-between font-serif selection:bg-[#B38E5D] selection:text-white">
+        <Header />
+        <main className="flex-1 flex flex-col items-center justify-center px-4 py-20 text-center max-w-xl mx-auto">
+          <div className="w-16 h-16 rounded-full bg-[#0B2D7F]/5 border border-[#0B2D7F]/15 flex items-center justify-center text-[#0B2D7F] mb-6 shadow-soft">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 opacity-70" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+            </svg>
+          </div>
+          <span className="text-[11px] font-bold uppercase tracking-widest text-[#B38E5D] font-mono mb-2">
+            Wastram Atelier Archive
+          </span>
+          <h1 className="font-serif text-3xl sm:text-4xl font-normal text-[#0B2D7F] mb-3 uppercase tracking-wide">
+            Style Archived or Unavailable
+          </h1>
+          <p className="text-xs sm:text-sm text-[#0B2D7F]/70 max-w-md mx-auto mb-8 font-sans leading-relaxed">
+            This bespoke silhouette is no longer available in the active Wastram wholesale collection. Explore our current catalog of handcrafted pure cotton and modal silk ensembles.
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <Link
+              href="/collections/shop-all"
+              className="px-6 py-3 rounded-full bg-[#0B2D7F] text-white text-xs font-semibold uppercase tracking-wider hover:bg-[#071F59] transition-all shadow-soft"
+            >
+              Explore Wastram Collection
+            </Link>
+            <Link
+              href="/"
+              className="px-6 py-3 rounded-full border border-[#E8E4DA] bg-white text-[#0B2D7F] text-xs font-semibold uppercase tracking-wider hover:bg-[#FAF9F6] transition-all shadow-soft"
+            >
+              Return to Home
+            </Link>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
 
   // Clean concise MOQ
   const rawMoq = product.moq

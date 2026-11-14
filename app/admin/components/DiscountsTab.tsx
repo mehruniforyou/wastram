@@ -133,20 +133,20 @@ export default function DiscountsTab() {
 
       if (res.ok) {
         notifyDiscountsUpdated();
-        notifyAdmin("success", "Rabattstatus aktualisiert", `Gutschein "${item.code}" ist jetzt ${nextState ? "aktiv" : "inaktiv"}.`);
+        notifyAdmin("success", "Discount status updated", `Discount "${item.code}" is now ${nextState ? "active" : "inactive"}.`);
       } else {
         // Rollback on error
         setDiscounts((prev) =>
           prev.map((d) => (d.id === item.id ? { ...d, is_active: item.is_active } : d))
         );
-        notifyAdmin("error", "Fehler beim Aktualisieren", "Der Status konnte nicht geändert werden.");
+        notifyAdmin("error", "Error updating", "Status could not be updated.");
       }
     } catch (err: any) {
       console.error("Error toggling discount active status:", err);
       setDiscounts((prev) =>
         prev.map((d) => (d.id === item.id ? { ...d, is_active: item.is_active } : d))
       );
-      notifyAdmin("error", "Fehler beim Aktualisieren", err.message || String(err), err);
+      notifyAdmin("error", "Error updating", err.message || String(err), err);
     } finally {
       setTogglingId(null);
     }
@@ -202,17 +202,17 @@ export default function DiscountsTab() {
 
     const code = formCode.toUpperCase().trim();
     if (!code) {
-      setFormError("Bitte geben Sie einen gültigen Gutscheincode ein.");
+      setFormError("Please enter a valid discount code.");
       return;
     }
 
     if (formAppliesTo === "categories" && formSelectedCategories.length === 0) {
-      setFormError("Bitte wählen Sie mindestens eine Kategorie für diesen Gutschein aus.");
+      setFormError("Please select at least one category for this discount.");
       return;
     }
 
     if (formAppliesTo === "products" && formSelectedProducts.length === 0) {
-      setFormError("Bitte wählen Sie mindestens ein Produkt für diesen Gutschein aus.");
+      setFormError("Please select at least one product for this discount.");
       return;
     }
 
@@ -265,19 +265,19 @@ export default function DiscountsTab() {
         setFormError(null);
         notifyAdmin(
           "success",
-          editingDiscount ? "Rabattcode aktualisiert" : "Neuer Rabattcode angelegt",
-          `Gutscheincode "${code}" wurde erfolgreich gespeichert.`
+          editingDiscount ? "Discount code updated" : "New discount code created",
+          `Discount code "${code}" was successfully saved.`
         );
       } else {
-        const errorMsg = data.error || "Gutscheincode konnte nicht gespeichert werden. Bitte Eingaben überprüfen.";
+        const errorMsg = data.error || "Discount code could not be saved. Please verify inputs.";
         setFormError(errorMsg);
-        notifyAdmin("error", "Fehler beim Speichern des Rabattcodes", errorMsg, data);
+        notifyAdmin("error", "Error saving discount code", errorMsg, data);
       }
     } catch (err: any) {
       console.error("Error saving discount:", err);
-      const errorMsg = err.message || "Gutscheincode konnte nicht gespeichert werden. Bitte Verbindung prüfen.";
+      const errorMsg = err.message || "Discount code could not be saved. Please check connection.";
       setFormError(errorMsg);
-      notifyAdmin("error", "Fehler beim Speichern des Rabattcodes", errorMsg, err);
+      notifyAdmin("error", "Error saving discount code", errorMsg, err);
     } finally {
       setFormSubmitting(false);
     }
@@ -291,15 +291,15 @@ export default function DiscountsTab() {
       if (res.ok) {
         setDiscounts((prev) => prev.filter((d) => d.id !== discountToDelete.id));
         notifyDiscountsUpdated();
-        notifyAdmin("success", "Rabattcode gelöscht", `Gutscheincode "${discountToDelete.code}" wurde gelöscht.`);
+        notifyAdmin("success", "Discount code deleted", `Discount code "${discountToDelete.code}" was deleted.`);
         setDiscountToDelete(null);
       } else {
         const data = await res.json().catch(() => ({}));
-        notifyAdmin("error", "Fehler beim Löschen des Rabattcodes", data.error || "Gutscheincode konnte nicht gelöscht werden", data);
+        notifyAdmin("error", "Error deleting discount code", data.error || "Discount code could not be deleted", data);
       }
     } catch (err: any) {
       console.error("Error deleting discount:", err);
-      notifyAdmin("error", "Fehler beim Löschen des Rabattcodes", err.message || "Verbindungsfehler beim Löschen", err);
+      notifyAdmin("error", "Error deleting discount code", err.message || "Connection error during deletion", err);
     } finally {
       setIsDeleting(false);
     }
@@ -366,7 +366,7 @@ export default function DiscountsTab() {
             size="icon"
             onClick={fetchDiscounts}
             className="h-9 w-9 rounded-xl border-2 border-neutral-200 hover:border-black text-black cursor-pointer"
-            title="Gutscheine aktualisieren"
+            title="Refresh Discounts"
           >
             <RefreshCw className={`w-4 h-4 ${loading ? "animate-spin" : ""}`} />
           </Button>
@@ -377,7 +377,7 @@ export default function DiscountsTab() {
             className="flex items-center gap-2 h-9 px-4 rounded-xl bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider transition-colors cursor-pointer"
           >
             <Plus className="w-4 h-4 stroke-[2.5]" />
-            <span>Gutschein erstellen</span>
+            <span>Create Discount</span>
           </button>
         </div>
       </div>
@@ -389,11 +389,11 @@ export default function DiscountsTab() {
             <thead className="bg-neutral-50/80 border-b-2 border-neutral-200 text-black font-black uppercase tracking-wider text-[11px]">
               <tr>
                 <th className="py-3.5 px-4 text-center">Status</th>
-                <th className="py-3.5 px-4">Gutscheincode</th>
+                <th className="py-3.5 px-4">Discount Code</th>
                 <th className="py-3.5 px-4">Vorteil</th>
                 <th className="py-3.5 px-4">Gültig für</th>
                 <th className="py-3.5 px-4">Beschreibung</th>
-                <th className="py-3.5 px-4 text-center">Mindestbestellwert</th>
+                <th className="py-3.5 px-4 text-center">Minimum Order Value</th>
                 <th className="py-3.5 px-4 text-center">Nutzung</th>
                 <th className="py-3.5 px-4">Gültig bis</th>
                 <th className="py-3.5 px-4 text-right">Aktionen</th>
@@ -403,13 +403,13 @@ export default function DiscountsTab() {
               {loading ? (
                 <tr>
                   <td colSpan={9} className="py-12 text-center text-neutral-500 font-light">
-                    Lade Gutscheincodes...
+                    Loading discount codes...
                   </td>
                 </tr>
               ) : discounts.length === 0 ? (
                 <tr>
                   <td colSpan={9} className="py-12 text-center text-neutral-500 font-light">
-                    Noch keine Gutscheincodes erstellt. Klicken Sie auf „Gutschein erstellen“, um einen hinzuzufügen.
+                    No discount codes created yet. Click "Create Discount" to add one.
                   </td>
                 </tr>
               ) : (
@@ -434,7 +434,7 @@ export default function DiscountsTab() {
                                 : "bg-neutral-300 hover:bg-neutral-400 shadow-[inset_0_1px_2px_rgba(0,0,0,0.08)]"
                             } ${togglingId === d.id ? "opacity-75 cursor-wait" : ""}`}
                           >
-                            <span className="sr-only">Rabattstatus umschalten</span>
+                            <span className="sr-only">Toggle discount status</span>
                             <span
                               aria-hidden="true"
                               className={`pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow-[0_2px_4px_rgba(0,0,0,0.22)] ring-0 transform transition-transform duration-200 ease-in-out ${
@@ -483,13 +483,13 @@ export default function DiscountsTab() {
                       {/* ── COL 3: Benefit (Bold Text) ── */}
                       <td className="py-3.5 px-4 whitespace-nowrap text-xs font-bold text-black">
                         {d.type === "percentage" ? (
-                          <span>{d.value}% Rabatt</span>
+                          <span>{d.value}% Off</span>
                         ) : d.type === "fixed_amount" ? (
-                          <span>₹{Number(d.value || 0).toFixed(2)} Rabatt</span>
+                          <span>₹{Number(d.value || 0).toFixed(2)} Off</span>
                         ) : (
                           <span className="inline-flex items-center gap-1.5">
                             <Truck className="w-3.5 h-3.5 text-black" />
-                            <span>KOSTENLOSER VERSAND</span>
+                            <span>FREE SHIPPING</span>
                           </span>
                         )}
                       </td>
@@ -550,7 +550,7 @@ export default function DiscountsTab() {
                           <button
                             type="button"
                             onClick={() => openEditModal(d)}
-                            title="Gutschein bearbeiten"
+                            title="Edit Discount"
                             className="w-8 h-8 rounded-lg flex items-center justify-center text-neutral-500 hover:text-black hover:bg-neutral-100 transition-colors p-1 cursor-pointer"
                           >
                             <Pencil className="w-3.5 h-3.5 stroke-[2]" />
@@ -560,7 +560,7 @@ export default function DiscountsTab() {
                           <button
                             type="button"
                             onClick={() => setDiscountToDelete(d)}
-                            title="Gutschein löschen"
+                            title="Delete Discount"
                             className="w-8 h-8 rounded-lg flex items-center justify-center text-neutral-400 hover:text-red-600 hover:bg-red-50 transition-colors p-1 cursor-pointer"
                           >
                             <Trash2 className="w-3.5 h-3.5 stroke-[2]" />
@@ -584,14 +584,14 @@ export default function DiscountsTab() {
           setEditingDiscount(null);
           setFormError(null);
         }}
-        title={editingDiscount ? `Gutschein bearbeiten: ${editingDiscount.code}` : "Neuen Gutscheincode erstellen"}
+        title={editingDiscount ? `Edit Discount: ${editingDiscount.code}` : "Create New Discount Code"}
         subtitle={
           editingDiscount
-            ? "Gutschein-Parameter, berechtigte Kategorien/Produkte und Gültigkeit bearbeiten."
-            : "Rabatthöhe, berechtigte Kategorien oder Produkte und Ablaufdatum festlegen."
+            ? "Edit discount parameters, eligible apparel categories, and validity."
+            : "Set discount value, eligible collections or styles, and expiry date."
         }
         maxWidthClass="max-w-3xl"
-        backLabel="Zurück zu Rabatten"
+        backLabel="Back to Discounts"
       >
         <form onSubmit={handleSaveDiscount} className="space-y-5 text-xs font-sans">
           {/* Error Banner */}
@@ -611,7 +611,7 @@ export default function DiscountsTab() {
           {/* Card 1: Code & Basic Details */}
           <div className={cardClass}>
             <div>
-              <label className={labelTextClass}>Gutscheincode *</label>
+              <label className={labelTextClass}>Discount Code *</label>
               <input
                 type="text"
                 required
@@ -628,7 +628,7 @@ export default function DiscountsTab() {
                 type="text"
                 value={formDesc}
                 onChange={(e) => setFormDesc(e.target.value)}
-                placeholder="z. B. 10% Rabattaktion für Privatkunden"
+                placeholder="e.g. 10% boutique wholesale discount"
                 className={textInputClass}
               />
             </div>
@@ -638,7 +638,7 @@ export default function DiscountsTab() {
           <div className={cardClass}>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className={labelTextClass}>Rabattart</label>
+                <label className={labelTextClass}>Discount Type</label>
                 <select
                   value={formType}
                   onChange={(e) => setFormType(e.target.value as any)}
@@ -646,7 +646,7 @@ export default function DiscountsTab() {
                 >
                   <option value="percentage">Prozentual (%)</option>
                   <option value="fixed_amount">Fester Betrag (₹)</option>
-                  <option value="free_shipping">Kostenloser Versand</option>
+                  <option value="free_shipping">Free Shipping</option>
                 </select>
               </div>
 
@@ -822,7 +822,7 @@ export default function DiscountsTab() {
                     type="text"
                     value={productSearchQuery}
                     onChange={(e) => setProductSearchQuery(e.target.value)}
-                    placeholder="Katalog nach Name oder Artikelnummer durchsuchen..."
+                    placeholder="Search catalog by name or SKU..."
                     className={`${textInputClass} pl-9`}
                   />
                 </div>
@@ -898,8 +898,8 @@ export default function DiscountsTab() {
                   ? "Wird aktualisiert..."
                   : "Wird erstellt..."
                 : editingDiscount
-                ? "Gutschein aktualisieren"
-                : "Gutschein speichern"}
+                ? "Update Discount"
+                : "Save Discount"}
             </button>
           </div>
         </form>
@@ -914,13 +914,13 @@ export default function DiscountsTab() {
                 <Trash2 className="w-6 h-6 stroke-[2]" />
               </div>
               <div className="space-y-1.5 min-w-0 flex-1">
-                <h3 className="font-heading font-black text-lg text-black">Gutschein löschen</h3>
+                <h3 className="font-heading font-black text-lg text-black">Delete Discount</h3>
                 <p className="text-xs text-neutral-700 font-medium leading-relaxed">
-                  Sind Sie sicher, dass Sie den Gutschein{" "}
+                  Are you sure you want to delete discount code{" "}
                   <strong className="text-black font-black">&quot;{discountToDelete.code}&quot;</strong> löschen möchten?
                 </p>
                 <p className="text-[11px] text-neutral-500 leading-normal">
-                  Dadurch wird dieser Rabattcode dauerhaft entfernt. Kunden können ihn an der Kasse nicht mehr einlösen.
+                  This will permanently remove this discount code. Customers will no longer be able to apply it at checkout.
                 </p>
               </div>
             </div>

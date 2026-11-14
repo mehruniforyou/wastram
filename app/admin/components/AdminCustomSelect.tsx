@@ -212,7 +212,7 @@ export default function AdminCustomSelect({
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Optionen durchsuchen..."
+                  placeholder="Search options..."
                   className="w-full bg-muted/40 border border-input focus:border-blue-600 focus:ring-1 focus:ring-blue-500/25 rounded-xl pl-8 pr-7 py-1.5 text-xs font-medium text-foreground placeholder:text-muted-foreground outline-none transition-colors"
                 />
                 {searchQuery && (

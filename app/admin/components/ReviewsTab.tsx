@@ -73,23 +73,23 @@ export default function ReviewsTab() {
         notifyAdmin("success", "Bewertungsstatus aktualisiert", `Bewertung wurde auf "${newStatus}" gesetzt.`);
       } else {
         const data = await res.json().catch(() => ({}));
-        notifyAdmin("error", "Fehler beim Aktualisieren", data.error || "Status konnte nicht geändert werden", data);
+        notifyAdmin("error", "Error updating", data.error || "Status konnte nicht geändert werden", data);
       }
     } catch (err: any) {
       console.error("Error updating review status:", err);
-      notifyAdmin("error", "Fehler beim Aktualisieren", err.message || String(err), err);
+      notifyAdmin("error", "Error updating", err.message || String(err), err);
     } finally {
       setProcessingId(null);
     }
   };
 
   const handleDelete = async (id: string) => {
-    if (!confirm("Möchten Sie diese Kundenbewertung wirklich dauerhaft löschen?")) return;
+    if (!confirm("Are you sure you want to permanently delete this customer review?")) return;
     try {
       const res = await fetch(`/api/reviews?id=${id}&admin=true`, { method: "DELETE" });
       if (res.ok) {
         setReviews((prev) => prev.filter((r) => r.id !== id));
-        notifyAdmin("success", "Bewertung gelöscht", "Kundenbewertung wurde dauerhaft gelöscht.");
+        notifyAdmin("success", "Review deleted", "Customer review has been permanently removed.");
       } else {
         const data = await res.json().catch(() => ({}));
         notifyAdmin("error", "Fehler beim Löschen", data.error || "Bewertung konnte nicht gelöscht werden", data);
@@ -136,7 +136,7 @@ export default function ReviewsTab() {
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Bewertungen durchsuchen..."
+              placeholder="Search reviews..."
               className="bg-background border border-input rounded-lg pl-8 pr-3 py-1.5 text-xs text-foreground outline-none focus:ring-1 focus:ring-ring focus:border-ring w-36 sm:w-48 transition-all font-medium placeholder:text-muted-foreground"
             />
           </div>
@@ -146,7 +146,7 @@ export default function ReviewsTab() {
             size="icon"
             onClick={fetchReviews}
             className="h-8 w-8 cursor-pointer"
-            title="Customer Reviews aktualisieren"
+            title="Refresh Customer Reviews"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${loading ? "animate-spin" : ""}`} />
           </Button>
@@ -223,7 +223,7 @@ export default function ReviewsTab() {
                     {r.verified_purchase && (
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/10 text-emerald-600 border border-emerald-500/20">
                         <ShieldCheck className="w-3 h-3" />
-                        Verifizierter Kauf
+                        Verified Purchase
                       </span>
                     )}
 
