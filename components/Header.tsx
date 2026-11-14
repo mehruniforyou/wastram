@@ -1,9 +1,7 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import WastramLogo from './WastramLogo';
-import StoryRing from './StoryRing';
 import { useCart } from '@/context/CartContext';
 
 interface HeaderProps {
@@ -16,74 +14,126 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
   const { wishlist, openCart, openDrawer, openStory, openSearch, openB2BQuote } = useCart();
   const wishlistCount = wishlist.length;
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 15);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const handleOpenDrawer = onOpenDrawer || openDrawer;
   const handleOpenStory = onOpenStory || openStory;
   const handleOpenSearch = onOpenSearch || openSearch;
   const handleOpenQuote = openB2BQuote || openCart;
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-[#FAF9F6]/95 backdrop-blur-md shadow-[0_2px_12px_rgba(11,45,127,0.03)] transition-all">
+    <header
+      id="SiteHeader"
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
+        isScrolled
+          ? 'bg-[#FAF9F6]/95 backdrop-blur-md shadow-[0_4px_20px_rgba(11,45,127,0.06)] border-b border-[#0B2D7F]/10 py-1.5'
+          : 'bg-[#FAF9F6] border-b border-[#0B2D7F]/5 py-2.5'
+      }`}
+    >
       {/* ============================================================== */}
       {/* DESKTOP HEADER (Screens >= 1024px)                             */}
       {/* ============================================================== */}
-      <div className="hidden lg:flex items-center justify-between px-6 xl:px-10 py-2 max-w-7xl mx-auto gap-4 w-full">
-        {/* Left: Artisan Stories Ring & Wastram Logo */}
-        <div className="flex items-center gap-3 shrink-0">
-          <div className="flex items-center" title="Artisan Stories">
-            <StoryRing onClick={handleOpenStory} size="w-12 h-12 xl:w-13 xl:h-13" />
-          </div>
+      <div className="hidden lg:flex items-center justify-between px-6 xl:px-10 max-w-7xl mx-auto gap-4 w-full">
+        {/* Left: Unified Brand Lockup (Logomark and Wordmark on Shared Horizontal Median) */}
+        <div className="flex items-center gap-3.5 shrink-0">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-3 md:gap-3.5 group select-none py-1 transition-opacity hover:opacity-90 shrink-0"
+            aria-label="Wastram Atelier Home"
+          >
+            {/* Logomark (Emblem) */}
+            <div className="w-11 h-11 xl:w-12 xl:h-12 shrink-0 flex items-center justify-center">
+              <picture className="w-full h-full flex items-center justify-center">
+                <source srcSet="/images/brand/wastram-craft-emblem-hd.webp" type="image/webp" />
+                <img
+                  src="/images/brand/wastram-craft-emblem-hd.png"
+                  alt="Wastram Logomark"
+                  className="w-full h-full object-contain filter drop-shadow-[0_1px_3px_rgba(11,45,127,0.08)] group-hover:scale-104 transition-transform duration-300 block"
+                  loading="eager"
+                  decoding="async"
+                />
+              </picture>
+            </div>
 
-          <Link href="/" className="flex items-center hover:opacity-90 transition-opacity pl-0.5" aria-label="Wastram Home">
-            <WastramLogo className="h-9 xl:h-10 w-auto" priority />
+            {/* Wordmark (Calligraphy "Wastram" with golden needle) */}
+            <div className="flex items-center justify-center shrink-0">
+              <img
+                src="/images/brand/wastram-header-logo-trimmed.png"
+                alt="Wastram"
+                className="h-8 md:h-9 xl:h-9.5 w-auto object-contain block group-hover:opacity-95 transition-opacity"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
           </Link>
+
+          {/* Technical Artisan Stories Quick Trigger */}
+          <button
+            type="button"
+            onClick={handleOpenStory}
+            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/80 hover:bg-white border border-[#D4AF37]/40 hover:border-[#D4AF37] text-[10px] font-sans font-medium uppercase tracking-[0.14em] text-[#0B2D7F] hover:text-[#4A7BC6] transition-all shadow-2xs hover:shadow-soft cursor-pointer group shrink-0"
+            title="Watch Jaipur Artisan Stories"
+          >
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] animate-pulse" />
+            <span>Stories</span>
+          </button>
         </div>
 
-        {/* Center: Minimalist, elegant high-fashion typography navigation */}
+        {/* Center: Minimalist, Technical Caps-Letter-Spacing Navigation */}
         <nav className="flex items-center gap-5 xl:gap-7 justify-center flex-1 min-w-0 px-2 overflow-hidden">
           <Link
             href="/collections/western-dresses"
-            className="text-[12px] xl:text-[13px] tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Western Dresses
           </Link>
 
           <Link
             href="/collections/denim-collection"
-            className="text-[12px] xl:text-[13px] tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Denim
           </Link>
 
           <Link
             href="/collections/ethnic-wear-sets"
-            className="text-[12px] xl:text-[13px] tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Ethnic Wear
           </Link>
 
           <Link
             href="/collections/umbrella-dresses"
-            className="text-[12px] xl:text-[13px] tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Umbrella Dresses
           </Link>
 
           <Link
             href="/collections/cord-sets"
-            className="hidden xl:inline-block text-[12px] xl:text-[13px] tracking-[0.12em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
+            className="hidden xl:inline-block text-[11.5px] xl:text-[12.5px] tracking-[0.14em] uppercase font-medium text-[#0B2D7F]/85 hover:text-[#0B2D7F] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[1.5px] after:bg-[#D4AF37] after:scale-x-0 hover:after:scale-x-100 after:transition-transform whitespace-nowrap shrink-0"
           >
             Co-ords
           </Link>
 
           <Link
             href="/collections/shop-all"
-            className="text-[11px] xl:text-[12px] tracking-[0.15em] uppercase font-semibold px-3 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] transition-colors whitespace-nowrap shrink-0"
+            className="text-[11px] xl:text-[11.5px] tracking-[0.16em] uppercase font-semibold px-3 py-1 rounded-full bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 text-[#0B2D7F] transition-colors whitespace-nowrap shrink-0"
           >
             Shop All
           </Link>
         </nav>
 
-        {/* Right: Search, Saved Items, Boutique Inquiry Capsule */}
+        {/* Right: Technical Minimalist Search, Saved Items, Boutique Inquiry Capsule */}
         <div className="flex items-center gap-2 xl:gap-3 shrink-0 ml-auto">
           {/* Search Trigger */}
           <button
@@ -99,7 +149,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
             </svg>
           </button>
 
-          {/* Official Wastram Bookmark Wishlist */}
+          {/* Official Wastram Bookmark Wishlist with Technical Numeric Chip */}
           <Link
             href="/pages/swym-wishlist"
             className="relative p-2 text-[#0B2D7F] hover:text-[#F58220] transition-colors rounded-full hover:bg-black/[0.03] flex items-center justify-center cursor-pointer"
@@ -130,7 +180,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           <button
             type="button"
             onClick={handleOpenQuote}
-            className="flex items-center gap-1.5 xl:gap-2 h-9 px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] xl:text-[12px] font-medium uppercase tracking-[0.12em] shadow-soft hover:shadow-card shrink-0 cursor-pointer group"
+            className="flex items-center gap-1.5 xl:gap-2 h-9 px-4 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] xl:text-[12px] font-medium uppercase tracking-[0.14em] shadow-soft hover:shadow-card shrink-0 cursor-pointer group"
             aria-label="Inquire for Boutiques"
             title="Boutique & Trade Inquiries"
           >
@@ -143,7 +193,7 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
       {/* ============================================================== */}
       {/* MOBILE HEADER (Screens < 1024px)                               */}
       {/* ============================================================== */}
-      <div className="flex lg:hidden items-center justify-between px-3 sm:px-4 py-2 w-full max-w-7xl mx-auto">
+      <div className="flex lg:hidden items-center justify-between px-3 sm:px-4 w-full max-w-7xl mx-auto">
         {/* Left: Mobile Navigation Menu (Hamburger) & Search */}
         <div className="flex items-center gap-1 shrink-0">
           <button
@@ -174,14 +224,29 @@ export default function Header({ onOpenDrawer, onOpenStory, onOpenSearch }: Head
           </button>
         </div>
 
-        {/* Center: Wastram Official Logomark & Gold Thread Calligraphy Logo */}
+        {/* Center: Wastram Official Logomark & Wordmark on Shared Horizontal Median */}
         <div className="flex-1 flex items-center justify-center px-1 min-w-0 overflow-hidden">
-          <div className="flex items-center gap-2">
-            <StoryRing onClick={handleOpenStory} size="w-9 h-9 sm:w-10 sm:h-10" />
-            <Link href="/" className="flex items-center py-0.5 hover:opacity-90 transition-opacity" aria-label="Wastram Home">
-              <WastramLogo className="h-7 sm:h-8 w-auto" priority />
-            </Link>
-          </div>
+          <Link href="/" className="inline-flex items-center gap-2 hover:opacity-90 transition-opacity py-0.5" aria-label="Wastram Home">
+            <div className="w-8 h-8 sm:w-8.5 sm:h-8.5 shrink-0 flex items-center justify-center">
+              <picture className="w-full h-full flex items-center justify-center">
+                <source srcSet="/images/brand/wastram-craft-emblem-hd.webp" type="image/webp" />
+                <img
+                  src="/images/brand/wastram-craft-emblem-hd.png"
+                  alt="Wastram Logomark"
+                  className="w-full h-full object-contain block"
+                  loading="eager"
+                />
+              </picture>
+            </div>
+            <div className="flex items-center justify-center shrink-0">
+              <img
+                src="/images/brand/wastram-header-logo-trimmed.png"
+                alt="Wastram"
+                className="h-6.5 sm:h-7.5 w-auto object-contain block"
+                loading="eager"
+              />
+            </div>
+          </Link>
         </div>
 
         {/* Right: Saved Styles & Inquire Capsule */}

@@ -34,13 +34,16 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
     setCurrentImgIdx(prev => (prev - 1 + totalImages) % totalImages);
   };
 
-  // Clean concise MOQ badge (strips long packaging sentences)
+  // Clean concise MOQ badge
   const rawMoq = product.moq
     ? product.moq.includes('/')
       ? product.moq.split('/')[0].trim()
       : product.moq
     : '20 pcs';
   const displayMoq = rawMoq.toLowerCase().startsWith('moq') ? rawMoq : `MOQ ${rawMoq}`;
+
+  // Technical reference code
+  const refCode = product.id ? `SPEC-${String(product.id).slice(-4).toUpperCase()}` : 'SPEC-2026';
 
   return (
     <div
@@ -51,13 +54,13 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
       }}
       className="group relative flex flex-col bg-transparent"
     >
-      {/* Image Media Container (Borderless, soft luxury elevation) */}
-      <div className="relative aspect-[400/680] w-full bg-white shadow-soft hover:shadow-card transition-all duration-400 rounded-2xl overflow-hidden">
+      {/* Image Media Container with Technical Framing */}
+      <div className="relative aspect-[400/660] w-full bg-white shadow-soft hover:shadow-card transition-all duration-400 rounded-2xl overflow-hidden border border-[#E8E4DA]/60 group-hover:border-[#0B2D7F]/20">
         <Link href={`/products/${product.slug}`} className="block w-full h-full">
           <img
             src={displayImage}
             alt={product.title}
-            className="w-full h-full object-cover transition-transform duration-600 group-hover:scale-105 will-change-transform"
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-104 will-change-transform"
             loading={priority ? 'eager' : 'lazy'}
             decoding="async"
           />
@@ -126,6 +129,12 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
           </button>
         </div>
 
+        {/* Technical Minimalist Size Specification Bar (MAE Inspired) */}
+        <div className="absolute bottom-2.5 inset-x-2.5 z-10 hidden sm:flex items-center justify-between px-3 py-1.5 rounded-xl bg-white/95 backdrop-blur-md shadow-xs border border-[#0B2D7F]/10 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none translate-y-1 group-hover:translate-y-0">
+          <span className="text-[9.5px] font-sans uppercase tracking-wider text-[#0B2D7F] font-semibold">Available</span>
+          <span className="text-[9px] font-mono tracking-widest text-[#0B2D7F]/80">XS · S · M · L · XL · 2XL</span>
+        </div>
+
         {/* Carousel Arrow Controls */}
         {totalImages > 1 && (
           <>
@@ -165,33 +174,39 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
         )}
       </div>
 
-      {/* Card Info & Dual Balanced CTAs */}
+      {/* Card Info & Dual Balanced CTAs with Technical Minimalism */}
       <div className="pt-3 pb-1 flex flex-col justify-between flex-1 gap-2">
+        {/* Technical Specification Chip */}
+        <div className="flex items-center justify-between text-[9px] font-mono tracking-wider uppercase text-[#0B2D7F]/50 px-0.5">
+          <span>JAIPUR ATELIER // LOOM</span>
+          <span>{refCode}</span>
+        </div>
+
         {/* Title and Clean Concise MOQ */}
-        <div className="flex items-baseline justify-between gap-2">
+        <div className="flex items-baseline justify-between gap-2 px-0.5">
           <Link
             href={`/products/${product.slug}`}
             className="font-serif text-[14px] md:text-[15px] font-medium text-[#0B2D7F] hover:text-[#4A7BC6] transition-colors truncate tracking-wide flex-1"
           >
             {product.title}
           </Link>
-          <span className="text-[10px] md:text-[11px] font-sans text-[#0B2D7F]/60 uppercase tracking-wider shrink-0 font-medium">
+          <span className="text-[10px] md:text-[11px] font-sans text-[#0B2D7F]/70 uppercase tracking-wider shrink-0 font-medium">
             {displayMoq}
           </span>
         </div>
 
-        {/* Symmetrical Dual Action CTA Buttons (Guaranteed elegant at 100%, 80%, and mobile) */}
-        <div className="grid grid-cols-2 gap-2 w-full pt-0.5">
+        {/* Symmetrical Dual Action CTA Buttons */}
+        <div className="grid grid-cols-2 gap-2 w-full pt-1">
           <Link
             href={`/products/${product.slug}`}
-            className="w-full py-2 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-center text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.1em] shadow-soft hover:shadow-card active:scale-[0.98] flex items-center justify-center cursor-pointer"
+            className="w-full py-2 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-center text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.12em] shadow-soft hover:shadow-card active:scale-[0.98] flex items-center justify-center cursor-pointer"
           >
             Show Price
           </Link>
 
           <Link
             href={`/products/${product.slug}`}
-            className="w-full py-2 rounded-full bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] transition-all text-center text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.1em] shadow-soft hover:shadow-card active:scale-[0.98] flex items-center justify-center cursor-pointer"
+            className="w-full py-2 rounded-full bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] border border-[#0B2D7F]/15 hover:border-[#0B2D7F]/30 transition-all text-center text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.12em] shadow-soft hover:shadow-card active:scale-[0.98] flex items-center justify-center cursor-pointer"
           >
             Enquire
           </Link>

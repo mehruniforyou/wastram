@@ -10,15 +10,15 @@ export default function ProductFitsGrid() {
   const [activeTab, setActiveTab] = useState<string>('western-dresses');
 
   const tabs = [
-    { id: 'western-dresses', label: 'Western Dresses' },
-    { id: 'denim-collection', label: 'Denim Collection' },
-    { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets' },
-    { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
-    { id: 'cord-sets', label: 'Co-ord Sets' },
-    { id: 'short-long-kaftan', label: 'Kaftans' },
-    { id: 'hoodies-sweatshirts', label: 'Hoodies' },
-    { id: 'tops-shirts', label: 'Tops & Shirts' },
-    { id: 'bestsellers', label: 'Signature Bestsellers' },
+    { id: 'western-dresses', label: 'Western Dresses', count: '140+' },
+    { id: 'denim-collection', label: 'Denim Collection', count: '120+' },
+    { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets', count: '180+' },
+    { id: 'umbrella-dresses', label: 'Umbrella Dresses', count: '90+' },
+    { id: 'cord-sets', label: 'Co-ord Sets', count: '110+' },
+    { id: 'short-long-kaftan', label: 'Kaftans', count: '80+' },
+    { id: 'hoodies-sweatshirts', label: 'Hoodies', count: '100+' },
+    { id: 'tops-shirts', label: 'Tops & Shirts', count: '160+' },
+    { id: 'bestsellers', label: 'Bestsellers', count: '40+' },
   ];
 
   const currentProducts = useMemo(() => {
@@ -40,12 +40,15 @@ export default function ProductFitsGrid() {
   }, [activeTab]);
 
   return (
-    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6]">
+    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6] border-t border-[#0B2D7F]/5">
       <div className="max-w-[1540px] mx-auto flex flex-col gap-8 md:gap-12">
-        {/* Elegant Section Heading with Scroll Reveal */}
+        {/* Elegant Section Heading with Technical Minimalist Spec (MAE Inspired) */}
         <ScrollReveal direction="up" distance={20} duration={800}>
           <div className="flex flex-col items-center text-center">
-            <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1.5 flex items-center gap-2">
+            <span className="text-[10px] font-mono tracking-[0.25em] text-[#0B2D7F]/60 uppercase mb-2">
+              JAIPUR ATELIER SPECIFICATION // 26.9124° N, 75.7873° E
+            </span>
+            <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1 flex items-center gap-2">
               <span className="inline-block w-4 h-[1px] bg-[#D4AF37]/50" />
               Artisanal Curation
               <span className="inline-block w-4 h-[1px] bg-[#D4AF37]/50" />
@@ -57,18 +60,19 @@ export default function ProductFitsGrid() {
           </div>
         </ScrollReveal>
 
-        {/* Minimal Luxury Filter Tabs (Soft shadows, border-free) */}
+        {/* Minimalist Technical Filter Tabs with numeric counts */}
         <ScrollReveal direction="up" distance={16} duration={700} delay={100}>
           <div className="flex items-center justify-center gap-2 overflow-x-auto no-scrollbar py-1 px-2">
             {tabs.map(tab => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`diwali-fit-button whitespace-nowrap ${
+                className={`diwali-fit-button whitespace-nowrap inline-flex items-center gap-1.5 ${
                   activeTab === tab.id ? 'active' : ''
                 }`}
               >
-                {tab.label}
+                <span>{tab.label}</span>
+                <span className="text-[10px] opacity-60 font-mono tracking-tight">[{tab.count}]</span>
               </button>
             ))}
           </div>
@@ -82,7 +86,7 @@ export default function ProductFitsGrid() {
               direction="up"
               distance={20}
               duration={650}
-              delay={Math.min(idx * 40, 240)}
+              delay={Math.min(idx * 35, 210)}
             >
               <ProductCard
                 product={product}

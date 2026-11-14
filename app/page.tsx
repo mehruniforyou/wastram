@@ -20,7 +20,7 @@ export default function HomePage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <main className="min-h-screen flex flex-col bg-[#FAF9F6] w-full max-w-full overflow-x-hidden">
+    <main className="min-h-screen flex flex-col bg-[#FAF9F6] w-full max-w-full overflow-x-clip">
       {/* Interactive Navigation Header */}
       <Header
         onOpenStory={() => setIsStoryOpen(true)}
