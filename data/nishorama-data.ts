@@ -9,6 +9,13 @@ import { T_SHIRTS } from './t-shirts';
 import { HOODIES_SWEATSHIRTS } from './hoodies-sweatshirts';
 import { DENIM_COLLECTION } from './denim-collection';
 
+export interface ColorVariant {
+  id: string;
+  name: string;
+  colorCode: string;
+  images: string[];
+}
+
 export interface NishoramaProduct {
   id: string;
   title: string;
@@ -19,12 +26,15 @@ export interface NishoramaProduct {
   regularPrice: number;
   salePrice: number;
   images: string[];
+  colorVariants?: ColorVariant[];
   sizes: string[];
   description: string;
   fabric: string;
   details: string[];
   moq?: string;
   sku?: string;
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [

@@ -13,14 +13,21 @@ interface ProductCardProps {
 function ProductCardComponent({ product, priority = false }: ProductCardProps) {
   const [isHovered, setIsHovered] = useState(false);
   const [currentImgIdx, setCurrentImgIdx] = useState(0);
+  const [selectedVariantIdx, setSelectedVariantIdx] = useState(0);
 
   const { toggleWishlist, isWishlisted, openTapAndView } = useCart();
   const wishlisted = isWishlisted(product.slug);
 
-  const totalImages = product.images.length;
+  const hasVariants = Boolean(product.colorVariants && product.colorVariants.length > 0);
+  const activeVariant = hasVariants ? product.colorVariants![selectedVariantIdx] : null;
+  const activeImages = activeVariant && activeVariant.images && activeVariant.images.length > 0
+    ? activeVariant.images
+    : product.images;
+
+  const totalImages = activeImages.length;
   const displayImage = isHovered && totalImages > 1
-    ? (product.images[currentImgIdx] || product.images[0])
-    : product.images[0];
+    ? (activeImages[currentImgIdx] || activeImages[0])
+    : (activeImages[0] || product.images[0]);
 
   const handleNextImage = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -114,7 +121,7 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
-              openTapAndView(product);
+              openTapAndView({ ...product, images: activeImages });
             }}
             className="w-8 h-8 rounded-full bg-white/95 backdrop-blur-md shadow-soft hover:bg-white flex items-center justify-center text-[#0B2D7F] transition-all opacity-0 group-hover:opacity-100 hover:scale-105 active:scale-95 cursor-pointer"
             title="Quick View"
@@ -181,6 +188,42 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
           <span>JAIPUR ATELIER // LOOM</span>
           <span>{refCode}</span>
         </div>
+
+        {/* Color Variant Swatches */}
+        {hasVariants && product.colorVariants!.length > 1 && (
+          <div className="flex items-center gap-1.5 px-0.5 py-0.5">
+            {product.colorVariants!.map((variant, vIdx) => {
+              const isSelected = selectedVariantIdx === vIdx;
+              return (
+                <button
+                  key={vIdx}
+                  type="button"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setSelectedVariantIdx(vIdx);
+                    setCurrentImgIdx(0);
+                  }}
+                  onMouseEnter={() => {
+                    setSelectedVariantIdx(vIdx);
+                    setCurrentImgIdx(0);
+                  }}
+                  title={variant.name}
+                  className={`w-3.5 h-3.5 rounded-full border transition-all cursor-pointer ${
+                    isSelected
+                      ? 'scale-125 border-[#0B2D7F] ring-1.5 ring-[#0B2D7F]/40 shadow-xs'
+                      : 'border-black/20 hover:scale-115 opacity-80 hover:opacity-100'
+                  }`}
+                  style={{ backgroundColor: variant.colorCode }}
+                  aria-label={`Select ${variant.name}`}
+                />
+              );
+            })}
+            <span className="text-[9.5px] font-sans text-[#0B2D7F]/60 ml-auto font-medium tracking-tight">
+              {product.colorVariants!.length} Colors
+            </span>
+          </div>
+        )}
 
         {/* Title and Clean Concise MOQ */}
         <div className="flex items-baseline justify-between gap-2 px-0.5">

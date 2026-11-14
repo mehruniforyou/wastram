@@ -20,9 +20,16 @@ interface Props {
 export default function ProductDetailPage({ params }: Props) {
   const product = NISHORAMA_PRODUCTS.find(p => p.slug === params.slug) || NISHORAMA_PRODUCTS[0];
 
+  const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [selectedSize, setSelectedSize] = useState('XS');
   const [measurementUnit, setMeasurementUnit] = useState<'inch' | 'cm'>('inch');
+
+  const hasVariants = Boolean(product.colorVariants && product.colorVariants.length > 0);
+  const activeVariant = hasVariants ? product.colorVariants![selectedVariantIndex] : null;
+  const activeImages = activeVariant && activeVariant.images && activeVariant.images.length > 0
+    ? activeVariant.images
+    : product.images;
 
   // Accordion states
   const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
@@ -61,7 +68,7 @@ export default function ProductDetailPage({ params }: Props) {
     const { scrollLeft, clientWidth } = mobileCarouselRef.current;
     if (clientWidth > 0) {
       const newIndex = Math.round(scrollLeft / clientWidth);
-      if (newIndex !== activeImageIndex && newIndex >= 0 && newIndex < product.images.length) {
+      if (newIndex !== activeImageIndex && newIndex >= 0 && newIndex < activeImages.length) {
         setActiveImageIndex(newIndex);
       }
     }
@@ -175,7 +182,7 @@ export default function ProductDetailPage({ params }: Props) {
             </div>
             <div className="flex">
               <span className="w-32 opacity-70 font-medium">Color &amp; Craft</span>
-              <span className="font-semibold">Handblock Floral</span>
+              <span className="font-semibold">{activeVariant ? activeVariant.name : 'Artisanal Jaipuri Craft'}</span>
             </div>
             <div className="flex">
               <span className="w-32 opacity-70 font-medium">Model Fit</span>
@@ -252,7 +259,7 @@ export default function ProductDetailPage({ params }: Props) {
           <div className="pt-2">
             <button
               type="button"
-              onClick={() => openTapAndView(product)}
+              onClick={() => openTapAndView({ ...product, images: activeImages })}
               className="w-full py-2.5 rounded-full bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white text-xs font-medium uppercase tracking-wider shadow-soft transition-all flex items-center justify-center gap-2 cursor-pointer"
             >
               <span>🔍 Tap &amp; View Lightbox</span>
@@ -264,15 +271,15 @@ export default function ProductDetailPage({ params }: Props) {
         {/* COLUMN 2: CENTER HIGH-RES GALLERY (SCROLLABLE IMAGE LIST)  */}
         {/* ========================================================== */}
         <div className="col-span-4 flex flex-col gap-4">
-          {product.images.map((img, idx) => (
+          {activeImages.map((img, idx) => (
             <div
-              key={idx}
+              key={`${selectedVariantIndex}-${idx}`}
               className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-white shadow-soft cursor-zoom-in group"
-              onClick={() => openTapAndView(product)}
+              onClick={() => openTapAndView({ ...product, images: activeImages })}
             >
               <img
                 src={img}
-                alt={`${product.title} angle ${idx + 1}`}
+                alt={`${product.title} - ${activeVariant?.name || ''} angle ${idx + 1}`}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading={idx === 0 ? "eager" : "lazy"}
                 decoding="async"
@@ -290,6 +297,58 @@ export default function ProductDetailPage({ params }: Props) {
         {/* COLUMN 3: RIGHT SIZES, PRICE & PURCHASE (STICKY PINNED)    */}
         {/* ========================================================== */}
         <div className="col-span-4 sticky top-24 self-start max-h-[calc(100vh-7rem)] overflow-y-auto no-scrollbar flex flex-col gap-4 py-2 pl-2">
+          {/* Interactive Color Variant Swatch Bar */}
+          {hasVariants && product.colorVariants!.length > 1 && (
+            <div className="flex flex-col gap-2.5 bg-white p-4 rounded-2xl shadow-soft">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-[11px] font-semibold uppercase tracking-wider text-[#0B2D7F]">
+                    Colorway:
+                  </span>
+                  <span className="text-xs font-bold text-[#F58220]">
+                    {activeVariant?.name}
+                  </span>
+                </div>
+                <span className="text-[10px] text-[#0B2D7F]/60 font-mono tracking-wider uppercase">
+                  {product.colorVariants!.length} Colors Available
+                </span>
+              </div>
+
+              <div className="flex items-center gap-2 flex-wrap pt-0.5">
+                {product.colorVariants!.map((variant, idx) => {
+                  const isSelected = selectedVariantIndex === idx;
+                  return (
+                    <button
+                      key={idx}
+                      type="button"
+                      onClick={() => {
+                        setSelectedVariantIndex(idx);
+                        setActiveImageIndex(0);
+                      }}
+                      title={variant.name}
+                      className={`group relative flex items-center gap-2 px-3 py-1.5 rounded-full border transition-all cursor-pointer ${
+                        isSelected
+                          ? 'border-[#0B2D7F] bg-[#0B2D7F]/5 ring-2 ring-[#0B2D7F]/20 shadow-xs'
+                          : 'border-[#E8E4DA] bg-white hover:border-[#0B2D7F]/30 hover:bg-[#FAF9F6]'
+                      }`}
+                    >
+                      <span
+                        className="w-3.5 h-3.5 rounded-full border border-black/15 shadow-inner flex-shrink-0"
+                        style={{ backgroundColor: variant.colorCode }}
+                      />
+                      <span className={`text-[11px] ${isSelected ? 'font-semibold text-[#0B2D7F]' : 'font-medium text-[#0B2D7F]/75'}`}>
+                        {variant.name}
+                      </span>
+                      <span className="text-[10px] text-[#0B2D7F]/50">
+                        ({variant.images.length})
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {/* Measurement Bar & Size Guide */}
           <div className="flex items-center justify-between">
             {/* Inches / CM Toggle */}
@@ -448,15 +507,15 @@ export default function ProductDetailPage({ params }: Props) {
             onScroll={handleMobileScroll}
             className="w-full h-full flex overflow-x-auto snap-x snap-mandatory no-scrollbar scroll-smooth"
           >
-            {product.images.map((img, idx) => (
+            {activeImages.map((img, idx) => (
               <div
-                key={idx}
+                key={`${selectedVariantIndex}-${idx}`}
                 className="w-full h-full flex-shrink-0 snap-center relative overflow-hidden"
-                onClick={() => openTapAndView(product)}
+                onClick={() => openTapAndView({ ...product, images: activeImages })}
               >
                 <img
                   src={img}
-                  alt={`${product.title} angle ${idx + 1}`}
+                  alt={`${product.title} - ${activeVariant?.name || ''} angle ${idx + 1}`}
                   className="w-full h-full object-cover"
                   loading={idx === 0 ? "eager" : "lazy"}
                   decoding="async"
@@ -467,13 +526,13 @@ export default function ProductDetailPage({ params }: Props) {
 
           {/* Slide Indicator Badge */}
           <div className="absolute bottom-3 left-4 bg-black/60 backdrop-blur-md text-white text-[11px] font-sans font-medium px-3 py-1 rounded-full shadow-soft pointer-events-none">
-            {activeImageIndex + 1} / {product.images.length}
+            {activeImageIndex + 1} / {activeImages.length}
           </div>
 
           {/* Inset Tap to Zoom Pill */}
           <button
             type="button"
-            onClick={() => openTapAndView(product)}
+            onClick={() => openTapAndView({ ...product, images: activeImages })}
             className="absolute bottom-3 right-4 bg-white/95 backdrop-blur-md shadow-soft rounded-full px-3 py-1.5 flex items-center gap-1.5 text-xs text-[#0B2D7F] font-medium active:scale-95 cursor-pointer"
           >
             <span>🔍 Zoom</span>
@@ -491,9 +550,9 @@ export default function ProductDetailPage({ params }: Props) {
         </div>
 
         {/* Thumbnail Dots Bar (Interactive & Synchronized) */}
-        {product.images.length > 1 && (
+        {activeImages.length > 1 && (
           <div className="flex items-center justify-center gap-1.5 py-3 bg-[#FAF9F6]">
-            {product.images.map((_, dotIdx) => (
+            {activeImages.map((_, dotIdx) => (
               <button
                 key={dotIdx}
                 type="button"
@@ -516,7 +575,7 @@ export default function ProductDetailPage({ params }: Props) {
                 {product.title}
               </h1>
               <p className="text-xs text-[#0B2D7F]/70 mt-0.5 capitalize">
-                {product.category.replace(/-/g, ' ')} &bull; Handcrafted Silhouette
+                {product.category.replace(/-/g, ' ')} &bull; {activeVariant ? activeVariant.name : 'Handcrafted'}
               </p>
             </div>
 
@@ -543,6 +602,49 @@ export default function ProductDetailPage({ params }: Props) {
               </svg>
             </button>
           </div>
+
+          {/* Mobile Color Variant Swatch Selector */}
+          {hasVariants && product.colorVariants!.length > 1 && (
+            <div className="flex flex-col gap-2 bg-white p-3.5 rounded-2xl shadow-soft">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-semibold text-[#0B2D7F]">
+                  Color: <span className="text-[#F58220] font-bold">{activeVariant?.name}</span>
+                </span>
+                <span className="text-[10px] text-[#0B2D7F]/60">
+                  {product.colorVariants!.length} Colors
+                </span>
+              </div>
+              <div className="flex items-center gap-2 flex-wrap pt-0.5">
+                {product.colorVariants!.map((variant, idx) => {
+                  const isSelected = selectedVariantIndex === idx;
+                  return (
+                    <button
+                      key={idx}
+                      type="button"
+                      onClick={() => {
+                        setSelectedVariantIndex(idx);
+                        setActiveImageIndex(0);
+                        if (mobileCarouselRef.current) {
+                          mobileCarouselRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+                        }
+                      }}
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs transition-all ${
+                        isSelected
+                          ? 'border-[#0B2D7F] bg-[#0B2D7F]/5 ring-1.5 ring-[#0B2D7F]/20 font-semibold text-[#0B2D7F]'
+                          : 'border-[#E8E4DA] bg-white text-[#0B2D7F]/75'
+                      }`}
+                    >
+                      <span
+                        className="w-3.5 h-3.5 rounded-full border border-black/15 shadow-inner"
+                        style={{ backgroundColor: variant.colorCode }}
+                      />
+                      <span>{variant.name}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Mobile Show Price Button Bar */}
           <div className="flex items-center justify-between py-2 border-b border-[#0B2D7F]/10">
