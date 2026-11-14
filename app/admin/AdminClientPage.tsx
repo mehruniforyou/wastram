@@ -336,7 +336,7 @@ class AdminErrorBoundary extends Component<AdminErrorBoundaryProps, AdminErrorBo
             <div>
               <h2 className="font-display text-xl font-bold text-white">Administrationskonsole wiederhergestellt</h2>
               <p className="text-xs text-slate-400 mt-1">
-                Ein Komponentenfehler wurde abgefangen. Sie können die Seite neu laden oder den Cache zurücksetzen:
+                A component error was caught. You can reload the page or reset the local cache:
               </p>
             </div>
             <div className="p-3.5 bg-black/50 border border-red-500/20 rounded-xl font-mono text-[11px] text-red-400 overflow-x-auto">
@@ -347,13 +347,13 @@ class AdminErrorBoundary extends Component<AdminErrorBoundaryProps, AdminErrorBo
                 onClick={this.handleClearCacheAndReload}
                 className="px-4 py-2.5 bg-[#000000] hover:bg-slate-800 text-white rounded-xl text-xs font-bold uppercase tracking-wider cursor-pointer"
               >
-                Lokalen Cache leeren &amp; neu laden
+                Clear Local Cache &amp; Reload
               </button>
               <button
                 onClick={() => window.location.reload()}
                 className="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-bold uppercase tracking-wider cursor-pointer"
               >
-                Konsole neu laden
+                Reload Console
               </button>
               <button
                 onClick={this.handleSignOutAndReset}
@@ -404,18 +404,18 @@ const ORDER_TABS_PIPELINE = [
     label: "Auf dem Shippingweg",
     nextStatus: "Shipped",
     nextTabId: "SHIPPED",
-    nextActionLabel: "Als 'Versendet' markieren",
+    nextActionLabel: "Mark as 'Dispatched'",
   },
   {
     id: "SHIPPED",
-    label: "Zugestellt / Versendet",
+    label: "Delivered / Dispatched",
     nextStatus: "Delivered",
     nextTabId: "SHIPPED",
     nextActionLabel: "Als 'Zugestellt' markieren",
   },
   {
     id: "CANCELLED",
-    label: "Storniert",
+    label: "Cancelled",
     nextStatus: "Payment Confirmed",
     nextTabId: "NEW",
     nextActionLabel: "Wiederherstellen (Neue Order)",
@@ -476,7 +476,7 @@ function normalizeAdminOrder(order: any): any {
     order.shipping?.country ||
     order.shipping_country ||
     order.country ||
-    "Deutschland";
+    "India";
 
   let prodName = order.productName || order.product_name;
   let varName = order.variantName;
@@ -888,7 +888,7 @@ function AdminPageContent() {
   // International Export Specifics
   const [invoiceIncoterms, setInvoiceIncoterms] = useState("CPT - Carriage Paid To");
   const [invoiceHsCode, setInvoiceHsCode] = useState("8518.90.00");
-  const [invoicePortOfLoading, setInvoicePortOfLoading] = useState("Saerbeck / Frankfurt Airport (FRA), Germany");
+  const [invoicePortOfLoading, setInvoicePortOfLoading] = useState("Jaipur International Airport (JAI), India");
   const [invoiceNotes, setInvoiceNotes] = useState("Wastram Sound & Audio precision acoustic components and speaker repair parts.");
 
   const [selectedOrderForInvoice, setSelectedOrderForInvoice] = useState<any | null>(null);
@@ -953,7 +953,7 @@ function AdminPageContent() {
   // Add Item to Invoice handler
   const handleAddInvoiceItem = () => {
     if (!currItemProductId) {
-      notifyAdmin("warning", "Auswahl erforderlich", "Bitte wählen Sie ein Product oder eine vollständige Category aus.");
+      notifyAdmin("warning", "Selection Required", "Please select a product or a complete category.");
       return;
     }
 
@@ -966,7 +966,7 @@ function AdminPageContent() {
         productId: `cat-${cat.id}`,
         productName: `${cat.name} (Komplettes Category-Sortiment)`,
         variantId: "",
-        variantName: `Komplettes Categoryset (${catProds.length} Artikel)`,
+        variantName: `Complete Category Set (${catProds.length} Styles)`,
         quantity: Number(currItemQty) > 0 ? Number(currItemQty) : 1,
         unitPrice: Number(currItemPrice) >= 0 ? Number(currItemPrice) : 0,
       };
@@ -1009,7 +1009,7 @@ function AdminPageContent() {
   const handleAddAllCategoryItems = (catId?: string) => {
     const targetCatId = catId || currItemCategoryId;
     if (!targetCatId) {
-      notifyAdmin("warning", "Category erforderlich", "Bitte wählen Sie zuerst eine Category aus.");
+      notifyAdmin("warning", "Category Required", "Please select a category first.");
       return;
     }
     const cat = categories.find(c => c.id === targetCatId);
@@ -1057,7 +1057,7 @@ function AdminPageContent() {
       return;
     }
     if (invoiceItems.length === 0) {
-      notifyAdmin("warning", "Artikel fehlt", "Bitte fügen Sie mindestens einen Artikel zum Dokument hinzu.");
+      notifyAdmin("warning", "Product Missing", "Please add at least one product to the invoice document.");
       return;
     }
 
@@ -1076,7 +1076,7 @@ function AdminPageContent() {
       order_number: generatedOrderId,
       date: invoiceDate || new Date().toISOString().split("T")[0],
       productId: invoiceItems[0].productId,
-      productName: invoiceItems.length === 1 ? invoiceItems[0].productName : `${invoiceItems[0].productName} + ${invoiceItems.length - 1} weitere Artikel`,
+      productName: invoiceItems.length === 1 ? invoiceItems[0].productName : `${invoiceItems[0].productName} + ${invoiceItems.length - 1} additional styles`,
       variantName: invoiceItems.length === 1 ? invoiceItems[0].variantName : "Sortiert",
       quantity: totalQty,
       unitPrice: Number((subtotal / Math.max(1, totalQty)).toFixed(2)),
@@ -1098,23 +1098,23 @@ function AdminPageContent() {
         city: shipCity || "Hauptwerk",
         state: shipState || "",
         zip: shipZip || "",
-        country: shipCountry || "Deutschland"
+        country: shipCountry || "India"
       },
       payment: {
-        gateway: invoiceGateway || "Banküberweisung",
+        gateway: invoiceGateway || "Direct Bank Wire / UPI",
         status: invoicePaymentStatus || "Pending",
         transactionId: `TXN-${Math.floor(100000 + Math.random() * 900000)}`
       },
       status: invoiceOrderStatus || "Processing",
       incoterms: invoiceIncoterms || "CPT - Frachtfrei bis",
       hsCode: invoiceHsCode || "8518.90.00",
-      portOfLoading: invoicePortOfLoading || "Saerbeck / Flughafen Frankfurt (FRA), Deutschland",
-      notes: invoiceNotes || "Wastram Sound & Audio Präzisionsakustikkomponenten und Lautsprecher-Ersatzteile.",
+      portOfLoading: invoicePortOfLoading || "Jaipur International Airport (JAI), India",
+      notes: invoiceNotes || "Wastram Haute Textiles & Wholesale Apparel Production.",
       items: invoiceItems,
       created_at: new Date().toISOString(),
     };
 
-    setGeneratingPdfStatus("Order wird in Datenbank gespeichert...");
+    setGeneratingPdfStatus("Saving order to database...");
     try {
       // 1. Save to backend API
       const res = await fetch("/api/orders", {
@@ -1139,12 +1139,12 @@ function AdminPageContent() {
             city: shipCity,
             state: shipState,
             zip: shipZip,
-            country: shipCountry || "Deutschland",
+            country: shipCountry || "India",
             status: "Ordered",
-            source: "Manuelle Order / Administrator-Rechnung",
+            source: "Manual Atelier Order / Proforma Invoice",
             total_orders: 1,
             total_revenue: grandTotal,
-            notes: `Manuelle Order #${orderData.orderId} (${activeDocType}). Gesamt: ₹${grandTotal.toFixed(2)} EUR. Artikel: ${invoiceItems.map(i => `${i.productName} (${i.quantity} Stk.)`).join(', ')}`
+            notes: `Manual Order #${orderData.orderId} (${activeDocType}). Total: ₹${grandTotal.toFixed(2)}. Products: ${invoiceItems.map(i => `${i.productName} (${i.quantity} pcs)`).join(', ')}`
           })
         });
       } catch (clientErr) {
@@ -1181,15 +1181,15 @@ function AdminPageContent() {
 
       notifyAdmin(
         "success",
-        "Order erfolgreich gespeichert",
-        `Order #${orderData.orderId} erfolgreich in der Cloud-Datenbank gespeichert und synchronisiert! Gesamt: ₹${grandTotal.toFixed(2)} EUR`
+        "Order Saved Successfully",
+        `Order #${orderData.orderId} saved and synced to database! Total: ₹${grandTotal.toFixed(2)}`
       );
     } catch (err: any) {
       console.error("Error saving order to database:", err);
       notifyAdmin(
         "error",
         "Error beim Save der Order",
-        err.message || "Order konnte nicht in der Datenbank gespeichert werden",
+        err.message || "Order could not be saved to database",
         err
       );
     } finally {
@@ -1382,7 +1382,7 @@ function AdminPageContent() {
     if (priceListMode === "categories" && priceListSelectedCategoryIds.length === 0) return;
     if (priceListMode === "products" && priceListSelectedProductIds.length === 0) return;
     
-    setGeneratingPdfStatus("Productdaten werden geladen...");
+    setGeneratingPdfStatus("Loading product data...");
     try {
       const res = await fetch("/api/products?includeHidden=true");
       if (!res.ok) throw new Error("Failed to fetch product data for PDF generation");
@@ -1421,7 +1421,7 @@ function AdminPageContent() {
       setPriceListStep(1);
     } catch (err: any) {
       console.error(err);
-      notifyAdmin("error", "Error bei der PDF-Erstellung", err.message || "PDF konnte nicht generiert werden", err);
+      notifyAdmin("error", "Error Generating PDF", err.message || "PDF document could not be generated.", err);
     } finally {
       setGeneratingPdfStatus("");
     }
@@ -1429,10 +1429,10 @@ function AdminPageContent() {
 
   // Direct single category download handler
   const handleDirectCategoryPdfDownload = async (category: Category) => {
-    setGeneratingPdfStatus(`Products für ${category.name} werden geladen...`);
+    setGeneratingPdfStatus(`Loading styles for ${category.name}...`);
     try {
       const res = await fetch("/api/products?includeHidden=true");
-      if (!res.ok) throw new Error("Productdaten für die PDF-Erstellung konnten nicht geladen werden");
+      if (!res.ok) throw new Error("Product catalog data could not be loaded for PDF export.");
       const allProds = await res.json();
       
       const { generatePriceListPDF } = await import("@/utils/pdfGenerator");
@@ -1441,7 +1441,7 @@ function AdminPageContent() {
       }, pdfSelectedCurrencies);
     } catch (err: any) {
       console.error(err);
-      notifyAdmin("error", "Error bei der PDF-Erstellung", `Error bei der PDF-Erstellung für ${category.name}: ${err.message}`, err);
+      notifyAdmin("error", "Error Generating PDF", `Error bei der PDF-Erstellung für ${category.name}: ${err.message}`, err);
     } finally {
       setGeneratingPdfStatus("");
     }
@@ -1578,7 +1578,7 @@ function AdminPageContent() {
       }
     } catch (err) {
       console.error("[Admin Auth] Login error:", err);
-      setError("Netzwerkfehler. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.");
+      setError("Network connection error. Please verify your connection and try again.");
     }
 
     setLoginLoading(false);
@@ -1718,7 +1718,7 @@ function AdminPageContent() {
 
 
   const handleDeletePriceUnlock = async (id: string) => {
-    if (!confirm("Sind Sie sicher, dass Sie diesen Interessenten-Eintrag löschen möchten?")) return;
+    if (!confirm("Are you sure you want to delete this buyer inquiry record?")) return;
     try {
       const res = await fetch(`/api/price-unlocks?id=${encodeURIComponent(id)}`, { method: "DELETE" });
       if (res.ok) {
@@ -1734,7 +1734,7 @@ function AdminPageContent() {
       notifyAdmin("info", "Export", "No lead entries available to export.");
       return;
     }
-    const headers = ["ID", "E-Mail", "Telefon", "Angesehenes Product", "Status", "Datum", "Zeitstempel"];
+    const headers = ["ID", "Email", "Phone", "Viewed Product", "Status", "Date", "Timestamp"];
     const rows = priceUnlocks.map(u => [
       `"${u.id || ""}"`,
       `"${u.email || ""}"`,
@@ -1752,7 +1752,7 @@ function AdminPageContent() {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    notifyAdmin("success", "Export abgeschlossen", "CSV-Datei für Interessenten wurde heruntergeladen.");
+    notifyAdmin("success", "Export Completed", "Buyer inquiry records exported to CSV successfully.");
   };
 
   const fetchPaymentSettings = useCallback(async () => {
@@ -1843,13 +1843,13 @@ function AdminPageContent() {
             paypalSecret: data.settings.paypalSecret || data.settings.paypalSecretKey || payload.paypalSecret,
           }));
         }
-        notifyAdmin("success", "Paymentseinstellungen gespeichert", "PayPal- und Paymentseinstellungen erfolgreich gespeichert und aktiv!");
+        notifyAdmin("success", "Payment Settings Saved", "Payment settings saved and active in live store!");
       } else {
-        notifyAdmin("info", "Paymentseinstellungen lokal gespeichert", "Paymentseinstellungen im lokalen Browser-Cache gesichert.");
+        notifyAdmin("info", "Payment settings saved locally", "Payment configuration saved to local cache.");
       }
     } catch (e: any) {
       console.error(e);
-      notifyAdmin("info", "Paymentseinstellungen lokal gespeichert", "Paymentseinstellungen im lokalen Browser-Cache gesichert.", e);
+      notifyAdmin("info", "Payment settings saved locally", "Payment configuration saved to local cache.", e);
     } finally {
       setSavingSettings(false);
     }
@@ -1888,7 +1888,7 @@ function AdminPageContent() {
       });
       const data = await res.json();
       if (!res.ok) {
-        throw new Error(data?.error || "Category konnte nicht gespeichert werden");
+        throw new Error(data?.error || "Category could not be saved");
       }
 
       // Optimistic local update
@@ -1924,12 +1924,12 @@ function AdminPageContent() {
 
       notifyAdmin(
         "success",
-        isUpdate ? "Category aktualisiert & 3-Sprachen synchronisiert" : "Neue Category erstellt & synchronisiert",
-        `Category "${cat.name || ""}" wurde in Deutsch gespeichert und automatisch auf Englisch und Griechisch synchronisiert.`
+        isUpdate ? "Category Updated & Synced" : "New Category Created & Synced",
+        `Category "${cat.name || ""}" saved and synchronized sitewide.`
       );
 
       if (data.warning) {
-        notifyAdmin("warning", "Cloud-Hinweis", data.warning);
+        notifyAdmin("warning", "Sync Notice", data.warning);
       }
 
       setShowCatForm(false);
@@ -1939,7 +1939,7 @@ function AdminPageContent() {
       console.error("Error saving category", err);
       notifyAdmin(
         "error",
-        "Category konnte nicht gespeichert werden",
+        "Category could not be saved",
         err instanceof Error ? err.message : String(err),
         err
       );
@@ -1948,14 +1948,14 @@ function AdminPageContent() {
   };
 
   const deleteCat = async (targetSlugOrId: string, optionalId?: string) => {
-    if (!confirm("Diese Category löschen? Die enthaltenen Products werden nicht gelöscht, sondern als unkategorisiert markiert.")) return;
+    if (!confirm("Delete this category? Contained products will not be deleted, but marked as unassigned.")) return;
     try {
       const cleanSlug = encodeURIComponent(targetSlugOrId.trim());
       const queryPart = optionalId ? `?id=${encodeURIComponent(optionalId.trim())}` : "";
       const res = await adminFetch(`/api/categories/${cleanSlug}${queryPart}`, { method: "DELETE" });
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
-        throw new Error(data?.error || "Category konnte nicht gelöscht werden");
+        throw new Error(data?.error || "Category could not be deleted");
       }
 
       const normSlug = targetSlugOrId.toLowerCase().trim();
@@ -1999,7 +1999,7 @@ function AdminPageContent() {
         bc.close();
       } catch (_) {}
 
-      notifyAdmin("success", "Category gelöscht", "Die Category wurde erfolgreich entfernt.");
+      notifyAdmin("success", "Category Deleted", "Category removed successfully.");
       await fetchCategories();
     } catch (err: any) {
       console.error("Error deleting category", err);
@@ -2018,7 +2018,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ is_hidden: nextHidden })
       });
-      notifyAdmin("success", "Sichtbarkeit aktualisiert", `Category "${cat.name}" ist jetzt ${nextHidden ? "ausgeblendet" : "im Store sichtbar"}.`);
+      notifyAdmin("success", "Visibility Updated", `Category "${cat.name}" is now ${nextHidden ? "hidden" : "visible in store"}.`);
 
       try {
         const storedStr = localStorage.getItem("ixos_categories_overrides") || "{}";
@@ -2047,7 +2047,7 @@ function AdminPageContent() {
     try {
       window.dispatchEvent(new Event("ixos_products_updated"));
       if (typeof BroadcastChannel !== "undefined") {
-        const ch = new BroadcastChannel("ixos_products_sync");
+        const ch = new BroadcastChannel("wastram_products_sync"); try { const chOld = new BroadcastChannel("ixos_products_sync"); chOld.postMessage({ type: "products_updated", timestamp: Date.now() }); chOld.close(); } catch(_) {}
         ch.postMessage({ type: "products_updated", timestamp: Date.now() });
         ch.close();
       }
@@ -2068,7 +2068,7 @@ function AdminPageContent() {
           return p.name.trim().toLowerCase() === trimmed;
         });
         if (duplicate) {
-          throw new Error("Dieser Productname existiert bereits. Bitte wählen Sie einen anderen Namen.");
+          throw new Error("This product title already exists. Please choose a distinct title.");
         }
       }
 
@@ -2082,7 +2082,7 @@ function AdminPageContent() {
       });
       const data = await res.json();
       if (!res.ok) {
-        throw new Error(data?.error || "Product konnte nicht gespeichert werden");
+        throw new Error(data?.error || "Product could not be saved");
       }
 
       // Optimistic in-memory update for instant responsiveness
@@ -2194,12 +2194,12 @@ function AdminPageContent() {
 
       notifyAdmin(
         "success",
-        isUpdate ? "Product aktualisiert & 3-Sprachen-Synchronisation" : "Neues Product angelegt & synchronisiert",
-        `"${prod.name || "Product"}" wurde erfolgreich gespeichert und für Deutsch, Englisch und Griechisch bereitgestellt.`
+        isUpdate ? "Product Updated & Synced" : "New Product Created & Synced",
+        `"${prod.name || "Product"}" saved and synchronized across the storefront.`
       );
 
       if (data.warning) {
-        notifyAdmin("warning", "Cloud-Hinweis", data.warning);
+        notifyAdmin("warning", "Sync Notice", data.warning);
       }
 
       broadcastProductsUpdate();
@@ -2214,7 +2214,7 @@ function AdminPageContent() {
       console.error("Error saving product", err);
       notifyAdmin(
         "error",
-        "Product konnte nicht gespeichert werden",
+        "Product could not be saved",
         err instanceof Error ? err.message : String(err),
         err
       );
@@ -2287,8 +2287,8 @@ function AdminPageContent() {
         "success",
         isUnassigning ? "Zuweisung aufgehoben" : "Products verschoben",
         isUnassigning
-          ? `${selectedProdIds.length} Products wurden erfolgreich aus der Category entfernt (nicht mehr zugewiesen).`
-          : `${selectedProdIds.length} Products wurden erfolgreich in "${targetCatName}" verschoben.`
+          ? `${selectedProdIds.length} products successfully unassigned from category.`
+          : `${selectedProdIds.length} products successfully moved to "${targetCatName}".`
       );
 
       setSelectedProdIds([]);
@@ -2364,7 +2364,7 @@ function AdminPageContent() {
       slug: cleanSlug,
       category_id: usedCatId,
       category: { name: usedCat?.name || "Used Parts", slug: "used-parts" },
-      short_desc: p.short_desc || "Tested pre-owned loudspeaker part in full working condition. (Geprüfter gebrauchter Artikel, voll funktionsfähig.)",
+      short_desc: p.short_desc || "Artisanal handcrafted luxury garment crafted from premium Indian textiles.",
       long_desc: p.long_desc || "",
       featured_image: p.featured_image || (p as any)?.mainImage || "",
       gallery: rawGallery,
@@ -2393,7 +2393,7 @@ function AdminPageContent() {
   const deleteProd = async (slug: string) => {
     const target = products.find(p => p.slug === slug || p.id === slug);
     const prodName = target?.name || slug;
-    if (!confirm(`Möchten Sie dieses Product wirklich dauerhaft löschen?\n\n"${prodName}"\n\nDas Product wird vollständig von der Website, dem Admin-Bereich und aus der Datenbank gelöscht.`)) return;
+    if (!confirm(`Are you sure you want to permanently delete this product?\n\n"${prodName}"\n\nThis product will be permanently purged from the storefront, admin console, and database.`)) return;
     try {
       if (target) {
         try {
@@ -2434,9 +2434,9 @@ function AdminPageContent() {
       const res = await adminFetch(`/api/products/${encodeURIComponent(slug)}`, { method: "DELETE" });
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
-        throw new Error(data?.error || "Product konnte nicht gelöscht werden");
+        throw new Error(data?.error || "Product could not be deleted");
       }
-      notifyAdmin("success", "Product gelöscht", `"${prodName}" wurde dauerhaft gelöscht.`);
+      notifyAdmin("success", "Product Deleted", `"${prodName}" permanently deleted.`);
       broadcastProductsUpdate();
       setDetailProduct(null);
       await Promise.all([fetchProducts(), fetchCategories()]);
@@ -2458,7 +2458,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ is_hidden: nextHidden })
       });
-      notifyAdmin("success", "Sichtbarkeit aktualisiert", `Product "${prod.name}" ist jetzt ${nextHidden ? "ausgeblendet" : "im Store sichtbar"}.`);
+      notifyAdmin("success", "Visibility Updated", `Product "${prod.name}" is now ${nextHidden ? "hidden" : "visible in store"}.`);
       broadcastProductsUpdate();
       fetchProducts();
     } catch (err: any) {
@@ -2479,7 +2479,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ is_featured: nextFeatured })
       });
-      notifyAdmin("success", "Hervorhebung aktualisiert", `Product "${prod.name}" ist jetzt ${nextFeatured ? "hervorgehoben" : "Standard"}.`);
+      notifyAdmin("success", "Featured Status Updated", `Product "${prod.name}" is now ${nextFeatured ? "featured" : "standard"}.`);
       broadcastProductsUpdate();
       fetchProducts();
     } catch (err: any) {
@@ -2503,7 +2503,7 @@ function AdminPageContent() {
           category_id: prod.category_id
         })
       });
-      notifyAdmin("success", "Product dupliziert", `Kopie von "${prod.name}" wurde erfolgreich angelegt.`);
+      notifyAdmin("success", "Product Duplicated", `Copy of "${prod.name}" created successfully.`);
       fetchProducts();
     } catch (err: any) {
       console.error("Error duplicating product", err);
@@ -2540,7 +2540,7 @@ function AdminPageContent() {
           body: JSON.stringify(variant)
         });
       }
-      notifyAdmin("success", "Color Variant gespeichert", `Color Variant "${variant.name || "Color Variant"}" erfolgreich gespeichert.`);
+      notifyAdmin("success", "Color Variant Saved", `Color Variant "${variant.name || "Color Variant"}" saved successfully.`);
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error saving variant", err);
@@ -2549,10 +2549,10 @@ function AdminPageContent() {
   };
 
   const deleteVariant = async (id: string) => {
-    if (!confirm("Diese Color Variant und ihre Artikelnummern löschen?")) return;
+    if (!confirm("Delete this color variant and its associated images?")) return;
     try {
       await adminFetch(`/api/variants/${id}`, { method: "DELETE" });
-      notifyAdmin("success", "Color Variant gelöscht", "Color Variant und zugehörige Daten erfolgreich gelöscht.");
+      notifyAdmin("success", "Color Variant Deleted", "Color variant and associated images deleted.");
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting variant", err);
@@ -2568,7 +2568,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ variant_id: variantId, code })
       });
-      notifyAdmin("success", "Artikelnummer hinzugefügt", `Artikelnummer "${code}" erfolgreich hinzugefügt.`);
+      notifyAdmin("success", "SKU Added", `SKU "${code}" added successfully.`);
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error adding part number", err);
@@ -2583,7 +2583,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id })
       });
-      notifyAdmin("success", "Artikelnummer entfernt", "Artikelnummer erfolgreich gelöscht.");
+      notifyAdmin("success", "SKU Removed", "SKU removed successfully.");
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting part number", err);
@@ -2601,7 +2601,7 @@ function AdminPageContent() {
       });
       const data = await res.json();
       if (!res.ok) {
-        throw new Error(data?.error || "Image konnte nicht hinzugefügt werden");
+        throw new Error(data?.error || "Image could not be added");
       }
 
       // Sync to localStorage
@@ -2621,10 +2621,10 @@ function AdminPageContent() {
         }
       } catch (_) {}
 
-      notifyAdmin("success", "Image hinzugefügt", "Galerie-Image erfolgreich hinzugefügt und gespeichert.");
+      notifyAdmin("success", "Image Added", "Gallery photoshoot image added successfully.");
 
       if (data.warning) {
-        notifyAdmin("warning", "Cloud-Hinweis", data.warning);
+        notifyAdmin("warning", "Sync Notice", data.warning);
       }
 
       if (detailProduct) loadProductDetail(detailProduct.slug);
@@ -2649,7 +2649,7 @@ function AdminPageContent() {
         }
         await addImage(productId, json.url, file.name);
       }
-      notifyAdmin("success", "Upload erfolgreich", `${files.length} Mediendatei(en) hochgeladen und hinzugefügt.`);
+      notifyAdmin("success", "Upload Successful", `${files.length} media file(s) uploaded successfully.`);
     } catch (err: any) {
       console.error("Error uploading media", err);
       notifyAdmin("error", "Medien-Upload fehlgeschlagen", err.message || String(err), err);
@@ -2687,7 +2687,7 @@ function AdminPageContent() {
         }
       } catch (_) {}
 
-      notifyAdmin("success", "Image gelöscht", "Galerie-Image erfolgreich entfernt.");
+      notifyAdmin("success", "Image Removed", "Gallery image removed successfully.");
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting image", err);
@@ -2703,7 +2703,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ product_id: productId, type, url, title })
       });
-      notifyAdmin("success", "Download hinzugefügt", `Dokument "${title || type}" erfolgreich hinzugefügt.`);
+      notifyAdmin("success", "Document Attached", `Document "${title || type}" attached successfully.`);
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error adding download", err);
@@ -2718,7 +2718,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id })
       });
-      notifyAdmin("success", "Download gelöscht", "Dokument wurde erfolgreich entfernt.");
+      notifyAdmin("success", "Document Removed", "Document removed successfully.");
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting download", err);
@@ -2734,7 +2734,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ product_id: productId, question, answer, order_index: detailFaqs.length })
       });
-      notifyAdmin("success", "FAQ hinzugefügt", "Häufige Frage (FAQ) erfolgreich hinzugefügt.");
+      notifyAdmin("success", "FAQ Added", "FAQ item added successfully.");
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error adding FAQ", err);
@@ -2749,7 +2749,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id })
       });
-      notifyAdmin("success", "FAQ gelöscht", "FAQ-Eintrag erfolgreich gelöscht.");
+      notifyAdmin("success", "FAQ Removed", "FAQ item removed successfully.");
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting FAQ", err);
@@ -2784,7 +2784,7 @@ function AdminPageContent() {
           }
         })
       });
-      notifyAdmin("success", "Bestellstatus aktualisiert", `Order #${orderId} auf "${newStatus}" gesetzt.`);
+      notifyAdmin("success", "Order Status Updated", `Order #${orderId} set to "${newStatus}".`);
       await fetchOrders();
     } catch (e: any) {
       console.warn("Could not sync order status to backend:", e);
@@ -2794,7 +2794,7 @@ function AdminPageContent() {
 
   const handleDeleteOrder = async (orderId: string) => {
     if (!orderId) return;
-    const ok = window.confirm(`Möchten Sie die Order #${orderId} wirklich dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.`);
+    const ok = window.confirm(`Are you sure you want to permanently delete Order #${orderId}? This action cannot be undone.`);
     if (!ok) return;
 
     const safeOrders = Array.isArray(sampleOrders) ? sampleOrders : [];
@@ -2812,7 +2812,7 @@ function AdminPageContent() {
           payment_id: paymentId,
         })
       });
-      notifyAdmin("success", "Order gelöscht", `Order #${orderId} wurde gelöscht.`);
+      notifyAdmin("success", "Order Deleted", `Order #${orderId} deleted.`);
     } catch (err: any) {
       console.warn("Could not delete from backend:", err);
       notifyAdmin("error", "Error beim Delete der Order", err.message || String(err), err);
@@ -2848,7 +2848,7 @@ function AdminPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedOrder)
       });
-      notifyAdmin("success", "Order gespeichert", `Order #${orderId} erfolgreich aktualisiert.`);
+      notifyAdmin("success", "Order Saved", `Order #${orderId} updated successfully.`);
     } catch (e: any) {
       console.warn("Could not sync updated order to backend:", e);
       notifyAdmin("error", "Error beim Save der Order", e.message || String(e), e);
@@ -3033,7 +3033,7 @@ function AdminPageContent() {
 
   const handleBatchDeleteOrders = async () => {
     if (selectedOrderRowIds.length === 0) return;
-    const ok = window.confirm(`Möchten Sie wirklich ${selectedOrderRowIds.length} ausgewählte ${selectedOrderRowIds.length === 1 ? "Order" : "Orders"} dauerhaft löschen? Dies kann nicht rückgängig gemacht werden.`);
+    const ok = window.confirm(`Are you sure you want to permanently delete ${selectedOrderRowIds.length} selected ${selectedOrderRowIds.length === 1 ? "order" : "orders"}? This action cannot be undone.`);
     if (!ok) return;
 
     const idsToDelete = [...selectedOrderRowIds];
@@ -3117,7 +3117,7 @@ function AdminPageContent() {
       notifyAdmin("info", "Export", "No order records available to export.");
       return;
     }
-    const headers = ["Bestell-Nr.", "Datum", "Customersname", "E-Mail", "Artikel", "Status", "Gesamtbetrag", "Währung"];
+    const headers = ["Order #", "Date", "Customer Name", "Email", "Products", "Status", "Total Amount", "Currency"];
     const rows = filteredOrders.map((o) => {
       const orderId = formatOrderSerialNumber(o);
       const productInfo = getOrderProductInfo(o);
@@ -3126,7 +3126,7 @@ function AdminPageContent() {
       const dateStr = o.createdAt || o.created_at || o.date || "";
       const total = Number(o.total || 0).toFixed(2);
       const currency = o.currency || "EUR";
-      const status = o.status || "Neu";
+      const status = o.status || "New";
       return [
         `"${orderId}"`,
         `"${dateStr}"`,
@@ -3148,7 +3148,7 @@ function AdminPageContent() {
     link.click();
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
-    notifyAdmin("success", "Export abgeschlossen", "Ordersdaten wurden erfolgreich als CSV heruntergeladen.");
+    notifyAdmin("success", "Export Completed", "Order records downloaded as CSV successfully.");
   }, [filteredOrders, getOrderProductInfo]);
 
   const paymentStats = useMemo(() => {
@@ -3611,8 +3611,8 @@ function AdminPageContent() {
             : graphRange === "last_3_months" 
               ? "Last 3 Months (90 Days)" 
               : "Benutzerdefinierter Zeitraum",
-      periodSalesLabel: graphRange === "today" ? "Umsatz heute" : graphRange === "7d" ? "7-Tage-Umsatz" : graphRange === "last_month" ? "30-Tage-Umsatz" : graphRange === "last_3_months" ? "90-Tage-Umsatz" : "Zeitraum-Umsatz",
-      periodExpensesLabel: graphRange === "today" ? "Ausgaben heute" : graphRange === "7d" ? "7-Tage-Ausgaben" : graphRange === "last_month" ? "30-Tage-Ausgaben" : graphRange === "last_3_months" ? "90-Tage-Ausgaben" : "Zeitraum-Ausgaben",
+      periodSalesLabel: graphRange === "today" ? "Today's Revenue" : graphRange === "7d" ? "7-Day Revenue" : graphRange === "last_month" ? "30-Day Revenue" : graphRange === "last_3_months" ? "90-Day Revenue" : "Period Revenue",
+      periodExpensesLabel: graphRange === "today" ? "Today's Costs" : graphRange === "7d" ? "7-Day Costs" : graphRange === "last_month" ? "30-Day Costs" : graphRange === "last_3_months" ? "90-Day Costs" : "Period Costs",
     };
   }, [payments, sampleOrders, purchaseOrders, expenses, currency, convertAmount, graphRange, customGraphStart, customGraphEnd]);
 
@@ -3943,7 +3943,7 @@ function AdminPageContent() {
             <CardHeader className="space-y-1">
               <CardTitle className="text-xl font-semibold tracking-tight">Sign In</CardTitle>
               <CardDescription>
-                Geben Sie Ihren administrativen Sicherheitspasscode ein, um auf das Dashboard zuzugreifen.
+                Enter your administrative passcode to unlock the Atelier console.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -4125,10 +4125,10 @@ function AdminPageContent() {
             activeTab === "error-503" ? "Dienst nicht verfügbar" : "Error aufgetreten"
           }
           desc={
-            activeTab === "error-401" ? "Bitte melden Sie sich mit den entsprechenden Zugangsdaten an, um auf diese Seite zuzugreifen." :
-            activeTab === "error-403" ? "Sie haben keine Berechtigung, diese Ressource anzuzeigen oder zu verwalten." :
-            activeTab === "error-404" ? "Die Seite oder der Datensatz, den Sie suchen, existiert nicht." :
-            activeTab === "error-500" ? "Etwas ist auf unserem Server schiefgelaufen. Bitte versuchen Sie es später erneut." :
+            activeTab === "error-401" ? "Please sign in with administrator credentials to access this section." :
+            activeTab === "error-403" ? "You do not have permissions to view or manage this resource." :
+            activeTab === "error-404" ? "The page or record you are searching for does not exist." :
+            activeTab === "error-500" ? "Something went wrong on the server. Please try again later." :
             activeTab === "error-503" ? "Der Dienst ist aufgrund von Wartungsarbeiten vorübergehend nicht verfügbar." :
             "Ein unerwarteter Error ist aufgetreten."
           }
@@ -4172,16 +4172,16 @@ function AdminPageContent() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-muted-foreground">
-                  Willkommen im Wastram Admin-Hilfecenter. Hier finden Sie Anleitungen zur Verwaltung Ihres Katalogs, zur Bearbeitung von Customersbestellungen, zur Anpassung des Designs und zur Konfiguration von Systemintegrationen.
+                  Welcome to the Wastram Admin Knowledge Base. Find guides to manage your catalog, process boutique orders, customize theme aesthetics, and configure integrations.
                 </p>
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border p-4">
                     <h3 className="font-semibold text-sm mb-1">Katalogverwaltung</h3>
-                    <p className="text-xs text-muted-foreground">Products erstellen, bearbeiten, Sichtbarkeit festlegen und Categories zuweisen.</p>
+                    <p className="text-xs text-muted-foreground">Create and edit products, configure visibility, and assign categories.</p>
                   </div>
                   <div className="rounded-lg border p-4">
                     <h3 className="font-semibold text-sm mb-1">Bestellabwicklung</h3>
-                    <p className="text-xs text-muted-foreground">Shippingstatus verfolgen, Rechnungen drucken und Paymentsnachweise erfassen.</p>
+                    <p className="text-xs text-muted-foreground">Track dispatch status, generate proforma invoices, and verify payment proofs.</p>
                   </div>
                   <div className="rounded-lg border p-4">
                     <h3 className="font-semibold text-sm mb-1">Design & Anpassung</h3>
@@ -4275,7 +4275,7 @@ function AdminPageContent() {
                         className="px-4 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider rounded-xl transition-colors cursor-pointer flex items-center gap-1.5 shadow-xs"
                       >
                         <Plus className="w-4 h-4 stroke-[2.5]" />
-                        <span>Category hinzufügen</span>
+                        <span>Add Category</span>
                       </button>
                     </div>
                   </div>
@@ -4354,7 +4354,7 @@ function AdminPageContent() {
                               type="button"
                               onClick={() => { setEditingCat(cat); setShowCatForm(true); }} 
                               className="px-4 py-2 bg-black hover:bg-neutral-800 text-white rounded-xl text-xs font-heading font-bold uppercase tracking-wider transition-colors cursor-pointer"
-                              title="Category bearbeiten"
+                              title="Edit Category"
                             >
                               Edit
                             </button>
@@ -4362,7 +4362,7 @@ function AdminPageContent() {
                               type="button"
                               onClick={() => deleteCat(cat.slug || cat.id, cat.id)} 
                               className="p-2 rounded-xl text-neutral-400 hover:text-red-600 hover:bg-red-50 transition-colors cursor-pointer" 
-                              title="Category löschen"
+                              title="Delete Category"
                             >
                               <Trash2 className="w-4 h-4" />
                             </button>
@@ -4467,7 +4467,7 @@ function AdminPageContent() {
                             Products
                           </h1>
                           <p className="text-xs text-neutral-500 font-semibold mt-1">
-                            Wählen Sie unten eine Category aus, um deren Products anzuzeigen und zu verwalten ({displayCategories.length} Categories verfügbar)
+                            Select a category below to browse and manage its styles ({displayCategories.length} categories available)
                           </p>
                         </div>
 
@@ -4489,7 +4489,7 @@ function AdminPageContent() {
                             className="px-4 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider rounded-xl transition-colors cursor-pointer flex items-center gap-1.5 shadow-xs"
                           >
                             <Plus className="w-4 h-4 stroke-[2.5]" />
-                            <span>Product hinzufügen</span>
+                            <span>Add Product</span>
                           </button>
                         </div>
                       </div>
@@ -4565,7 +4565,7 @@ function AdminPageContent() {
                                 </p>
                               </div>
                               <div className="mt-4 pt-3 border-t border-neutral-100 flex items-center justify-center gap-1.5 text-xs font-heading font-bold uppercase tracking-wider text-black group-hover:underline">
-                                <span>Products anzeigen</span>
+                                <span>View Products</span>
                                 <ArrowRight className="w-3.5 h-3.5" />
                               </div>
                             </div>
@@ -4639,7 +4639,7 @@ function AdminPageContent() {
                             <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-neutral-500" />
                             <input
                               type="text"
-                              placeholder={selectedCat ? `In ${selectedCat.name} suchen...` : (prodCategoryFilter === "unassigned" ? "Nicht zugewiesene Products..." : "Products durchsuchen...")}
+                              placeholder={selectedCat ? `Search in ${selectedCat.name}...` : (prodCategoryFilter === "unassigned" ? "Search unassigned styles..." : "Search catalog products...")}
                               value={prodSearch}
                               onChange={(e) => { setProdSearch(e.target.value); setProdCurrentPage(1); }}
                               className="bg-white border-2 border-neutral-200 focus:border-black rounded-xl pl-9 pr-3 py-2 text-xs text-black placeholder:text-neutral-400 outline-none w-44 sm:w-56 font-medium transition-colors"
@@ -4672,7 +4672,7 @@ function AdminPageContent() {
                             className="px-4 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider rounded-xl transition-colors cursor-pointer flex items-center gap-1.5 shadow-xs"
                           >
                             <Plus className="w-4 h-4 stroke-[2.5]" />
-                            <span>Product hinzufügen</span>
+                            <span>Add Product</span>
                           </button>
                         </div>
                       </div>
@@ -4695,7 +4695,7 @@ function AdminPageContent() {
                                 }
                               }}
                               className="w-4 h-4 rounded border-2 border-neutral-300 text-black focus:ring-black cursor-pointer"
-                              title="Alle Products auf dieser Seite auswählen"
+                              title="Select all products on this page"
                             />
                             <span className="text-xs font-heading font-bold text-neutral-700 hidden sm:inline select-none">
                               {selectedProdIds.length > 0 ? `${selectedProdIds.length} gewählt` : "Alle"}
@@ -4799,7 +4799,7 @@ function AdminPageContent() {
                               className="px-4 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase rounded-xl cursor-pointer flex items-center gap-1.5 shadow-xs transition-colors"
                             >
                               <Plus className="w-4 h-4 stroke-[2.5]" />
-                              <span>Product hinzufügen</span>
+                              <span>Add Product</span>
                             </button>
                           </div>
                         </div>
@@ -4828,7 +4828,7 @@ function AdminPageContent() {
                                     }}
                                     onClick={(e) => e.stopPropagation()}
                                     className="w-4 h-4 rounded border-2 border-neutral-300 text-black focus:ring-black cursor-pointer shrink-0"
-                                    title="Product auswählen"
+                                    title="Select Product"
                                   />
 
                                   <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl border-2 border-neutral-200 bg-white p-1.5 shrink-0 overflow-hidden flex items-center justify-center">
@@ -4908,7 +4908,7 @@ function AdminPageContent() {
                                     type="button"
                                     onClick={() => { setEditingProd(prod); setShowProdForm(true); }} 
                                     className="px-4 py-2 bg-black hover:bg-neutral-800 text-white rounded-xl text-xs font-heading font-bold uppercase tracking-wider transition-colors cursor-pointer"
-                                    title="Product bearbeiten"
+                                    title="Edit Product"
                                   >
                                     Edit
                                   </button>
@@ -4919,7 +4919,7 @@ function AdminPageContent() {
                                       setProductToDelete(prod);
                                     }} 
                                     className="p-2 rounded-xl text-neutral-400 hover:text-red-600 hover:bg-red-50 transition-colors cursor-pointer" 
-                                    title="Product dauerhaft löschen"
+                                    title="Permanently Delete Product"
                                   >
                                     <Trash2 className="w-4 h-4" />
                                   </button>
@@ -4971,8 +4971,8 @@ function AdminPageContent() {
                                   onChange={(e) => setBulkTargetCat(e.target.value)}
                                   className="bg-neutral-800 border border-neutral-600 text-white rounded-xl px-3 py-1.5 text-xs font-semibold outline-none cursor-pointer focus:border-white"
                                 >
-                                  <option value="">Ziel-Category wählen...</option>
-                                  <option value="unassigned">⚠️ Zuweisung aufheben (Entfernen)</option>
+                                  <option value="">Select Target Category...</option>
+                                  <option value="unassigned">⚠️ Unassign (Remove Category)</option>
                                   {displayCategories.map(cat => (
                                     <option key={cat.id} value={cat.id}>{cat.name}</option>
                                   ))}
@@ -5046,12 +5046,12 @@ function AdminPageContent() {
                             <span>{targetCategoryForAdd ? targetCategoryForAdd.name : "Gebrauchtteile"}</span>
                           </div>
                           <h2 className="text-xl sm:text-2xl font-heading font-black text-black tracking-tight">
-                            {targetCategoryForAdd ? `Product zu "${targetCategoryForAdd.name}" hinzufügen` : "Gebrauchtteil hinzufügen"}
+                            {targetCategoryForAdd ? `Add Product to "${targetCategoryForAdd.name}"` : "Add Custom Style"}
                           </h2>
                           <p className="text-xs text-neutral-500 font-medium mt-1">
                             {targetCategoryForAdd
-                              ? `Wie möchten Sie ein Product zu "${targetCategoryForAdd.name}" hinzufügen?`
-                              : "Wie möchten Sie diesen Artikel unter Gebrauchtteile anlegen?"}
+                              ? `How would you like to add a style to "${targetCategoryForAdd.name}"?`
+                              : "How would you like to configure this product?"}
                           </p>
                         </div>
 
@@ -5080,7 +5080,7 @@ function AdminPageContent() {
                                 <Plus className="w-5 h-5 stroke-[2.5]" />
                               </div>
                               <h3 className="font-heading font-black text-sm text-black">
-                                Von Grund auf neu anlegen
+                                Create from Scratch
                               </h3>
                               <p className="text-xs text-neutral-500 font-medium leading-relaxed mt-1.5">
                                 {targetCategoryForAdd
@@ -5089,7 +5089,7 @@ function AdminPageContent() {
                               </p>
                             </div>
                             <div className="mt-5 pt-3 border-t border-neutral-100 flex items-center gap-1 text-xs font-heading font-bold uppercase tracking-wider text-black group-hover:translate-x-1 transition-transform">
-                              <span>Neu erstellen</span>
+                              <span>Create New</span>
                               <ArrowRight className="w-3.5 h-3.5" />
                             </div>
                           </button>
@@ -5117,12 +5117,12 @@ function AdminPageContent() {
                               </h3>
                               <p className="text-xs text-neutral-500 font-medium leading-relaxed mt-1.5">
                                 {targetCategoryForAdd
-                                  ? `Wählen Sie aus ${unassignedProducts.length} nicht zugewiesenen Productsn und ordnen Sie es direkt zu.`
-                                  : "Wählen Sie einen bestehenden Artikel aus Ihrem Katalog. Fotos, Spezifikationen und Pricevorschlag werden automatisch übernommen."}
+                                  ? `Select from ${unassignedProducts.length} unassigned styles and associate directly.`
+                                  : "Select an existing style from your catalog. Photos, specifications, and pricing will be pre-filled."}
                               </p>
                             </div>
                             <div className="mt-5 pt-3 border-t border-neutral-100 flex items-center gap-1 text-xs font-heading font-bold uppercase tracking-wider text-black group-hover:translate-x-1 transition-transform">
-                              <span>{targetCategoryForAdd ? "Product zuweisen" : "Product auswählen"}</span>
+                              <span>{targetCategoryForAdd ? "Assign Style" : "Select Style"}</span>
                               <ArrowRight className="w-3.5 h-3.5" />
                             </div>
                           </button>
@@ -5193,12 +5193,12 @@ function AdminPageContent() {
                                 <span>{targetCategoryForAdd ? targetCategoryForAdd.name : "Katalog-Import"}</span>
                               </div>
                               <h2 className="text-lg sm:text-xl font-heading font-black text-black tracking-tight">
-                                {targetCategoryForAdd ? `Product zu "${targetCategoryForAdd.name}" zuweisen` : "Product für Gebrauchtteile auswählen"}
+                                {targetCategoryForAdd ? `Assign Style to "${targetCategoryForAdd.name}"` : "Select Style"}
                               </h2>
                               <p className="text-xs text-neutral-500 font-medium">
                                 {targetCategoryForAdd
-                                  ? `Wählen Sie ein nicht zugewiesenes Product aus, um es direkt der Category "${targetCategoryForAdd.name}" zuzuordnen.`
-                                  : "Wählen Sie ein Product aus Ihrem Shop-Katalog. Fotos, Spezifikationen und Details werden für Gebrauchtteile übernommen."}
+                                  ? `Select an unassigned product to associate directly with "${targetCategoryForAdd.name}".`
+                                  : "Select a product from your catalog to duplicate specifications and images."}
                               </p>
                             </div>
                             <button
@@ -5253,7 +5253,7 @@ function AdminPageContent() {
                             ) : availableCatalog.length === 0 ? (
                               <div className="py-16 text-center text-neutral-500 font-medium text-xs bg-neutral-50 rounded-2xl border-2 border-dashed border-neutral-200 p-8 space-y-2">
                                 <p className="text-sm font-heading font-bold text-black">No products found</p>
-                                <p>{targetCategoryForAdd ? "Es gibt derzeit keine nicht zugewiesenen Products." : "Passen Sie Ihre Suchanfrage oder den Categoryfilter oben an."}</p>
+                                <p>{targetCategoryForAdd ? "There are currently no unassigned styles." : "Refine your search query or category filter above."}</p>
                               </div>
                             ) : (
                               availableCatalog.map(p => {
@@ -5311,7 +5311,7 @@ function AdminPageContent() {
                                         onClick={async () => {
                                           try {
                                             await saveProd({ id: p.id, category_id: targetCategoryForAdd.id || targetCategoryForAdd.slug });
-                                            notifyAdmin("success", "Category zugewiesen", `"${p.name}" wurde erfolgreich "${targetCategoryForAdd.name}" zugewiesen.`);
+                                            notifyAdmin("success", "Category Assigned", `"${p.name}" assigned to "${targetCategoryForAdd.name}" successfully.`);
                                           } catch (err: any) {
                                             notifyAdmin("error", "Error bei Zuweisung", err.message || "Error beim Zuweisen der Category");
                                           }
@@ -5327,7 +5327,7 @@ function AdminPageContent() {
                                         onClick={() => handleSelectProductForUsed(p)}
                                         className="px-3.5 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider rounded-xl transition-all cursor-pointer shrink-0 flex items-center gap-1.5 shadow-xs hover:scale-102"
                                       >
-                                        <span>Als Gebrauchtteil anlegen</span>
+                                        <span>Save as Archival Style</span>
                                         <ArrowRight className="w-3.5 h-3.5" />
                                       </button>
                                     )}
@@ -5377,10 +5377,10 @@ function AdminPageContent() {
                           </div>
                           <div className="space-y-1.5 min-w-0 flex-1">
                             <h3 className="font-heading font-black text-lg text-black">
-                              Product dauerhaft löschen
+                              Permanently Delete Product
                             </h3>
                             <p className="text-sm text-neutral-800 font-semibold leading-relaxed">
-                              Möchten Sie dieses Product wirklich dauerhaft löschen?
+                              Are you sure you want to permanently delete this product?
                             </p>
                             <div className="p-3 bg-neutral-100 rounded-xl border border-neutral-200 text-xs font-mono text-black font-bold break-all">
                               {productToDelete.name}
@@ -5391,7 +5391,7 @@ function AdminPageContent() {
                               )}
                             </div>
                             <p className="text-[11px] text-red-600 font-medium leading-normal">
-                              Das Product wird vollständig von der Website, dem Admin-Bereich und aus der Datenbank gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.
+                              The product will be permanently purged from the website, admin console, and database. This action cannot be undone.
                             </p>
                           </div>
                         </div>
@@ -5453,16 +5453,16 @@ function AdminPageContent() {
                                 const res = await adminFetch(`/api/products/${encodeURIComponent(target.slug || target.id)}`, { method: "DELETE" });
                                 if (!res.ok) {
                                   const errData = await res.json().catch(() => ({}));
-                                  throw new Error(errData?.error || "Product konnte nicht gelöscht werden");
+                                  throw new Error(errData?.error || "Product could not be deleted");
                                 }
 
-                                notifyAdmin("success", "Product gelöscht", `"${target.name}" wurde dauerhaft gelöscht.`);
+                                notifyAdmin("success", "Product Deleted", `"${target.name}" permanently deleted.`);
                                 setProductToDelete(null);
                                 setDetailProduct(null);
                                 await Promise.all([fetchProducts(), fetchCategories()]);
                               } catch (err: any) {
                                 console.error("Error deleting product", err);
-                                notifyAdmin("error", "Error beim Delete des Products", err.message || "Product konnte nicht gelöscht werden", err);
+                                notifyAdmin("error", "Error beim Delete des Products", err.message || "Product could not be deleted", err);
                                 await fetchProducts();
                               } finally {
                                 setIsDeletingProd(false);
@@ -5473,12 +5473,12 @@ function AdminPageContent() {
                             {isDeletingProd ? (
                               <>
                                 <Loader2 className="w-4 h-4 animate-spin" />
-                                <span>Wird gelöscht...</span>
+                                <span>Deleting...</span>
                               </>
                             ) : (
                               <>
                                 <Trash2 className="w-4 h-4 stroke-[2]" />
-                                <span>Dauerhaft löschen</span>
+                                <span>Permanently Delete</span>
                               </>
                             )}
                           </button>
@@ -5619,7 +5619,7 @@ function AdminPageContent() {
                   },
                   {
                     id: "SHIPPED",
-                    label: "Zugestellt / Versendet",
+                    label: "Delivered / Dispatched",
                     count: sampleOrders.filter(o => {
                       const s = (o?.status || "").toLowerCase().trim();
                       return s === "shipped" || s === "dispatched" || s === "delivered" || s === "completed";
@@ -5627,7 +5627,7 @@ function AdminPageContent() {
                   },
                   {
                     id: "CANCELLED",
-                    label: "Storniert",
+                    label: "Cancelled",
                     count: sampleOrders.filter(o => {
                       const s = (o?.status || "").toLowerCase().trim();
                       return s === "cancelled" || s === "canceled" || s === "refunded" || s === "rejected";
@@ -5712,13 +5712,13 @@ function AdminPageContent() {
                             }
                           }}
                           className="w-4 h-4 rounded border-input text-primary focus:ring-ring cursor-pointer accent-primary"
-                          title="Alle sichtbaren Orders auswählen"
+                          title="Select all visible orders"
                         />
                       </TableHead>
                       <TableHead className="text-xs font-semibold w-32 whitespace-nowrap">Bestell-Nr.</TableHead>
-                      <TableHead className="text-xs font-semibold">Bestellte Artikel</TableHead>
-                      <TableHead className="text-xs font-semibold w-28 whitespace-nowrap">Datum</TableHead>
-                      <TableHead className="text-xs font-semibold w-24 text-right whitespace-nowrap">Gesamt</TableHead>
+                      <TableHead className="text-xs font-semibold">Ordered Products</TableHead>
+                      <TableHead className="text-xs font-semibold w-28 whitespace-nowrap">Date</TableHead>
+                      <TableHead className="text-xs font-semibold w-24 text-right whitespace-nowrap">Total</TableHead>
                       <TableHead className="w-[60px] text-center whitespace-nowrap">Aktion</TableHead>
                     </TableRow>
                   </TableHeader>
@@ -5731,9 +5731,9 @@ function AdminPageContent() {
                           ) : (
                             <div className="flex flex-col items-center justify-center gap-2">
                               <Package className="size-8 text-muted-foreground/50" />
-                              <p className="font-medium text-foreground">Noch keine Orders erfasst</p>
+                              <p className="font-medium text-foreground">No orders recorded yet</p>
                               <p className="text-[11px] text-muted-foreground">
-                                Verifizierte Customersbestellungen oder manuell erfasste Einträge werden hier automatisch aufgeführt.
+                                Verified boutique orders and manually generated invoices will appear here automatically.
                               </p>
                             </div>
                           )}
@@ -5845,7 +5845,7 @@ function AdminPageContent() {
                                 type="button"
                                 onClick={() => setSelectedOrderForDetail(order)}
                                 className="w-7 h-7 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground text-muted-foreground inline-flex items-center justify-center transition-all cursor-pointer shadow-2xs mx-auto"
-                                title="Bestelldetails & Actions anzeigen"
+                                title="View Order Details &amp; Actions"
                               >
                                 <Info className="w-3.5 h-3.5" />
                               </button>
@@ -5875,7 +5875,7 @@ function AdminPageContent() {
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted text-muted-foreground text-xs font-semibold shrink-0">
                   <span>Angelos Drampalis</span>
                   <span>•</span>
-                  <span>Saerbeck Meisterwerkstatt</span>
+                  <span>Jaipur Master Atelier</span>
                 </div>
               </div>
 
@@ -5900,7 +5900,7 @@ function AdminPageContent() {
                 </div>
                 <div className="space-y-1">
                   <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block">Werkstatt-Standort</span>
-                  <span className="text-xs font-bold text-foreground block">48369 Saerbeck</span>
+                  <span className="text-xs font-bold text-foreground block">Jaipur 302020</span>
                   <span className="text-[10.5px] text-muted-foreground">Welps Esch 5, Saerbox Nr-12</span>
                 </div>
               </div>
@@ -5931,11 +5931,11 @@ function AdminPageContent() {
                     } catch (e) {
                       console.warn("Could not save to backend settings", e);
                     }
-                    notifyAdmin("success", "Settings gespeichert", "Administratoreinstellungen erfolgreich gespeichert und aktiv.");
+                    notifyAdmin("success", "Settings Saved", "Administrator settings saved successfully and active.");
                   }}
                   className={btnPrimary}
                 >
-                  <Save className="w-3.5 h-3.5" /> EINSTELLUNGEN SPEICHERN
+                  <Save className="w-3.5 h-3.5" /> SAVE SETTINGS
                 </button>
               </div>
             </div>
@@ -5952,7 +5952,7 @@ function AdminPageContent() {
                     Paymentseinstellungen
                   </h1>
                   <p className="text-sm text-muted-foreground mt-1">
-                    PayPal, Stripe, Banküberweisung (IBAN) &amp; Abrechnungsoptionen konfigurieren.
+                    Configure payment gateways, wire transfers (NEFT/RTGS), and invoicing options.
                   </p>
                 </div>
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted text-muted-foreground text-xs font-semibold shrink-0">
@@ -6040,11 +6040,11 @@ function AdminPageContent() {
               <button type="submit" disabled={savingSettings} className={btnPrimary}>
                 {savingSettings ? (
                   <>
-                    <Loader2 className="w-3.5 h-3.5 animate-spin" /> WIRD GESPEICHERT...
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" /> SAVING...
                   </>
                 ) : (
                   <>
-                    <Save className="w-3.5 h-3.5" /> ZAHLUNGSEINSTELLUNGEN SPEICHERN
+                    <Save className="w-3.5 h-3.5" /> SAVE PAYMENT SETTINGS
                   </>
                 )}
               </button>
@@ -6108,7 +6108,7 @@ function AdminPageContent() {
               }}
               title={priceListStep === 1 ? "PDF-Katalog herunterladen" : "Vorschau & Verhandlungspreise anpassen"}
               subtitle={priceListStep === 1
-                ? "Wählen Sie Categories oder bestimmte Products für die B2B-Großhandelspreisliste aus."
+                ? "Select categories or specific styles for the B2B Wholesale Line Sheet."
                 : "Vorschau der nach Categories gruppierten Products mit individueller Priceanpassung vor der PDF-Generierung."}
               badge={
                 <span className="text-[10px] normal-case bg-neutral-100 text-black px-2 py-0.5 rounded-full font-medium">
@@ -6128,7 +6128,7 @@ function AdminPageContent() {
                     <div className="bg-card border border-border rounded-xl p-3.5">
                       <div className="flex items-center justify-between mb-2">
                         <label className="text-[10px] font-bold text-foreground uppercase tracking-wider block">
-                          Währungen im PDF auswählen (max. 3, Standard: EUR):
+                          Select line sheet currencies (Default: INR ₹):
                         </label>
                         <span className="text-[10px] font-bold text-accent">
                           {pdfSelectedCurrencies.length}/3 ausgewählt
@@ -6213,7 +6213,7 @@ function AdminPageContent() {
                         }`}
                       >
                         <Box className="w-3.5 h-3.5" />
-                        <span>Einzelne Products auswählen ({priceListSelectedProductIds.length})</span>
+                        <span>Select Specific Styles ({priceListSelectedProductIds.length})</span>
                       </button>
                     </div>
 
@@ -6234,7 +6234,7 @@ function AdminPageContent() {
                               }}
                               className="rounded text-accent focus:ring-accent w-4 h-4 cursor-pointer"
                             />
-                            <span className="text-xs font-bold uppercase text-foreground">Alle Categories auswählen</span>
+                            <span className="text-xs font-bold uppercase text-foreground">Select All Categories</span>
                           </label>
                           <span className="text-[10px] font-semibold text-muted-foreground">
                             {priceListSelectedCategoryIds.length} von {categories.length} ausgewählt
@@ -6270,7 +6270,7 @@ function AdminPageContent() {
                                   <div className="flex items-center justify-between gap-1">
                                     <p className="text-xs font-bold text-foreground truncate">{cat.name}</p>
                                     <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-muted text-muted-foreground">
-                                      {catProdsCount} Artikel
+                                      {catProdsCount} Styles
                                     </span>
                                   </div>
                                   <p className="text-[9.5px] text-muted-foreground font-mono mt-0.5 truncate">Abschnitt {idx + 1} • /{cat.slug}</p>
@@ -6330,7 +6330,7 @@ function AdminPageContent() {
                               }}
                               className="px-2.5 py-1 text-[10px] font-bold text-foreground bg-card hover:bg-muted border border-border rounded-md cursor-pointer transition-colors"
                             >
-                              Alle auswählen
+                              Select All
                             </button>
                             <button
                               type="button"
@@ -7047,9 +7047,9 @@ function AdminPageContent() {
                           size="sm"
                           onClick={() => setEditingOrder(selectedOrderForInvoice)}
                           className="gap-1.5 text-xs font-semibold cursor-pointer"
-                          title="Bestelldetails bearbeiten"
+                          title="Edit Order Details"
                         >
-                          <Edit className="w-3.5 h-3.5" /> Order bearbeiten
+                          <Edit className="w-3.5 h-3.5" /> Edit Order
                         </Button>
                         <Button
                           size="sm"
@@ -7072,8 +7072,8 @@ function AdminPageContent() {
                     {/* Modal Document Switcher Strip */}
                     <div className="flex items-center gap-1.5 overflow-x-auto pb-1 text-[10px] no-scrollbar">
                       {[
-                        { id: "CI", label: "Handelsrechnung" },
-                        { id: "PI", label: "Proforma-Rechnung" },
+                        { id: "CI", label: "Commercial Invoice" },
+                        { id: "PI", label: "Proforma Invoice" },
                         { id: "PL", label: "Packliste" },
                         { id: "QUOTATION", label: "Angebot" },
                         { id: "COO", label: "Ursprungszeugnis" },
@@ -7153,7 +7153,7 @@ function AdminPageContent() {
                         <label className="block text-[9.5px] font-bold text-muted-foreground uppercase tracking-wider mb-0.5">Shippingort / Herkunft</label>
                         <input
                           type="text"
-                          value={selectedOrderForInvoice.portOfLoading || "Saerbeck, Germany"}
+                          value={selectedOrderForInvoice.portOfLoading || "Jaipur, India"}
                           onChange={(e) => {
                             const val = e.target.value;
                             setSelectedOrderForInvoice((prev: any) => ({ ...prev, portOfLoading: val }));
@@ -7224,9 +7224,9 @@ function AdminPageContent() {
                            t("DOC_CI", selectedOrderForInvoice.docLanguage || docLanguage)}
                         </span>
                         <p className="font-mono text-sm font-bold text-black">{selectedOrderForInvoice.orderId}</p>
-                        <p className="text-xs text-slate-700">Datum: {selectedOrderForInvoice.date}</p>
+                        <p className="text-xs text-slate-700">Date: {selectedOrderForInvoice.date}</p>
                         <p className="text-xs text-slate-700 font-semibold">
-                          Payment: {selectedOrderForInvoice.payment?.status || (docModalType === "PI" ? t("STATUS_UNPAID", selectedOrderForInvoice.docLanguage || docLanguage) : "Bezahlt")}
+                          Payment: {selectedOrderForInvoice.payment?.status || (docModalType === "PI" ? t("STATUS_UNPAID", selectedOrderForInvoice.docLanguage || docLanguage) : "PAID")}
                         </p>
                       </div>
                     </div>
@@ -7234,7 +7234,7 @@ function AdminPageContent() {
                   {/* Bill To, Ship To & Customs Metadata */}
                   <div className="grid grid-cols-3 gap-4 bg-white p-4 border border-black rounded-xl text-xs">
                     <div>
-                      <h4 className="text-[10px] font-bold uppercase tracking-wider text-black mb-1">Rechnungsempfänger:</h4>
+                      <h4 className="text-[10px] font-bold uppercase tracking-wider text-black mb-1">Billed To / Importer:</h4>
                       <p className="font-bold text-black">{selectedOrderForInvoice.customer?.company || selectedOrderForInvoice.customer?.name}</p>
                       <p className="text-black">{selectedOrderForInvoice.customer?.name}</p>
                       <p className="text-black font-mono text-[11px] break-all">{selectedOrderForInvoice.customer?.email}</p>
@@ -7251,14 +7251,14 @@ function AdminPageContent() {
                           .filter(Boolean)
                           .join(", ")}
                       </p>
-                      <p className="font-bold text-black">{selectedOrderForInvoice.shipping?.country || "Deutschland"}</p>
-                      <p className="text-[10px] text-black mt-1 font-mono">Payment: {selectedOrderForInvoice.payment?.status || selectedOrderForInvoice.payment?.gateway || "Bezahlt"}</p>
+                      <p className="font-bold text-black">{selectedOrderForInvoice.shipping?.country || "India"}</p>
+                      <p className="text-[10px] text-black mt-1 font-mono">Payment: {selectedOrderForInvoice.payment?.status || selectedOrderForInvoice.payment?.gateway || "PAID"}</p>
                     </div>
                     <div className="border-l border-black pl-3 space-y-1">
                       <h4 className="text-[10px] font-bold uppercase tracking-wider text-black mb-1">Shipping- &amp; Bereitstellungsinformationen:</h4>
                       <p className="text-[11px]"><strong className="text-black">Kurier:</strong> <span className="font-semibold text-black">{selectedOrderForInvoice.carrierName || "DHL Paket"}</span></p>
-                      <p className="text-[11px]"><strong className="text-black">Sendungsnummer / AWB:</strong> <span className="font-mono text-black">{selectedOrderForInvoice.trackingAwbNumber || selectedOrderForInvoice.tracking_number || "AUSSTEHEND"}</span></p>
-                      <p className="text-[11px]"><strong className="text-black">Shippingort:</strong> <span className="text-black">{selectedOrderForInvoice.portOfLoading || "Saerbeck, Germany"}</span></p>
+                      <p className="text-[11px]"><strong className="text-black">Tracking / Air Waybill (AWB):</strong> <span className="font-mono text-black">{selectedOrderForInvoice.trackingAwbNumber || selectedOrderForInvoice.tracking_number || "PENDING"}</span></p>
+                      <p className="text-[11px]"><strong className="text-black">Port of Loading / Dispatch:</strong> <span className="text-black">{selectedOrderForInvoice.portOfLoading || "Jaipur, India"}</span></p>
                       {selectedOrderForInvoice.notes && (
                         <p className="text-[10px] text-black italic mt-0.5 line-clamp-2">Hinweise: {selectedOrderForInvoice.notes}</p>
                       )}
@@ -7318,7 +7318,7 @@ function AdminPageContent() {
                         return (
                           <>
                             <div className="flex justify-between text-black">
-                              <span>Zwischensumme Artikel:</span>
+                              <span>Subtotal Products:</span>
                               <span className="font-mono font-bold">
                                 {formatDocCurrency(sub, cur)}
                               </span>
@@ -7379,13 +7379,13 @@ function AdminPageContent() {
                         <strong className="text-black">Lieferung &amp; Transport:</strong> Shipping über autorisierten Kurierdienst mit offizieller Sendungsverfolgung bei Übergabe.
                       </li>
                       <li>
-                        <strong className="text-black">Qualitätssicherung &amp; Transportschäden:</strong> Vor dem Shipping sorgfältig geprüft. Eventuelle Transportschäden müssen innerhalb von <strong className="text-black">7 Kalendertagen</strong> mit Fotos/Videos beim Auspacken gemeldet werden.
+                        <strong className="text-black">Quality Assurance &amp; Transit Guarantee:</strong> Thoroughly inspected prior to international air dispatch. Any damages in transit must be reported within <strong className="text-black">7 calendar days</strong> with unboxing photographs/videos.
                       </li>
                       <li>
                         <strong className="text-black">Schutzverpackung:</strong> Verpackt in robusten Schutzkartons mit Feuchtigkeitssperre und stoßdämpfender Polsterung.
                       </li>
                       <li>
-                        <strong className="text-black">Gerichtsstand &amp; Recht:</strong> Es gilt deutsches Handelsrecht unter der Gerichtsbarkeit von Saerbeck / Steinfurt, Deutschland.
+                        <strong className="text-black">Jurisdiction &amp; Trade Terms:</strong> Governed under the commercial jurisdiction of Jaipur, Rajasthan, India.
                       </li>
                     </ol>
                   </div>
@@ -7393,9 +7393,9 @@ function AdminPageContent() {
                   {/* Authorized Declaration & Signatory Block */}
                   <div className="grid grid-cols-2 gap-4 border-t border-black pt-3 text-[10px]">
                     <div className="space-y-1 text-black">
-                      <p className="font-bold text-black uppercase text-[10px]">Rechtsverbindliche Erklärung:</p>
+                      <p className="font-bold text-black uppercase text-[10px]">Legal Trade Declaration:</p>
                       <p className="italic text-[9.5px] leading-tight">
-                        "Wir bestätigen hiermit, dass diese Rechnung den tatsächlichen Price der beschriebenen Waren ausweist, dass keine andere Rechnung ausgestellt wurde oder wird und dass alle Angaben wahrheitsgemäß und korrekt sind."
+                        "We hereby certify that this invoice shows the actual price of the described goods, that no other invoice has been or will be issued, and that all particulars are true and correct."
                       </p>
                     </div>
                     <div className="text-right flex flex-col justify-between items-end">
@@ -7403,10 +7403,10 @@ function AdminPageContent() {
                         <p className="font-bold text-black uppercase text-[10px]">Für Wastram SOUND &amp; AUDIO</p>
                         <p className="text-black text-[9px] font-semibold">Lautsprecherkomponenten &amp; Akustikteile</p>
                         <p className="text-black text-[8.5px] font-mono">USt-IdNr.: DE-Wastram-2008</p>
-                        <p className="text-black text-[8.5px]">Saerbeck, NRW, Deutschland</p>
+                        <p className="text-black text-[8.5px]">Jaipur, Rajasthan, India</p>
                       </div>
                       <div className="border-t border-black pt-1 mt-4 w-44 text-center">
-                        <p className="font-bold text-[9.5px] text-black">Rechtsverbindliche Unterschrift</p>
+                        <p className="font-bold text-[9.5px] text-black">Authorized Signature &amp; Seal</p>
                       </div>
                     </div>
                   </div>
@@ -7477,7 +7477,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
     <AdminDrawer
       isOpen={true}
       onClose={onClose}
-      title={category ? "Category bearbeiten" : "Neue Category"}
+      title={category ? "Edit Category" : "New Category"}
       subtitle="Categoriesame, Slug, Description und Anzeigeeinstellungen anpassen."
       maxWidthClass="max-w-2xl"
       backLabel="Back zu Categories"
@@ -7486,7 +7486,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
         {/* Card 1: Category Info */}
         <div className={cardClass}>
           <div>
-            <label className={labelTextClass}>Categoriesame *</label>
+            <label className={labelTextClass}>Category Name *</label>
             <input
               type="text"
               required
@@ -7525,7 +7525,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
 
         {/* Card 2: Image */}
         <div className={cardClass}>
-          <label className={labelTextClass}>Categorybild</label>
+          <label className={labelTextClass}>Category Cover Image</label>
           <MediaUploader
             value={form.image_url}
             onChange={url => setForm({ ...form, image_url: url })}
@@ -7536,7 +7536,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
         <div className={cardClass}>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className={labelTextClass}>Sichtbarkeit</label>
+              <label className={labelTextClass}>Visibility</label>
               <select
                 value={form.is_hidden ? "hidden" : "visible"}
                 onChange={e => setForm({ ...form, is_hidden: e.target.value === "hidden" })}
@@ -7547,7 +7547,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
               </select>
             </div>
             <div>
-              <label className={labelTextClass}>Sortierreihenfolge</label>
+              <label className={labelTextClass}>Display Order</label>
               <input
                 type="text"
                 inputMode="numeric"
@@ -7592,7 +7592,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
             ) : (
               <>
                 <Save className="w-4 h-4 stroke-[2]" />
-                <span>{category ? "Änderungen speichern" : "Category erstellen"}</span>
+                <span>{category ? "Save Changes" : "Create Category"}</span>
               </>
             )}
           </button>
@@ -7685,13 +7685,13 @@ function MediaUploader({ value, onChange }: { value: string; onChange: (url: str
         {uploading ? (
           <div className="flex flex-col items-center gap-2 text-black">
             <div className="w-5 h-5 border-2 border-black border-t-transparent rounded-full animate-spin" />
-            <span className="text-xs font-heading font-bold uppercase tracking-wider">Datei wird hochgeladen...</span>
+            <span className="text-xs font-heading font-bold uppercase tracking-wider">Uploading file...</span>
           </div>
         ) : (
           <div className="flex flex-col items-center gap-2 text-black">
             <Upload className="w-5 h-5 stroke-[2]" />
-            <p className="text-xs font-heading font-bold uppercase tracking-wider">Datei hierher ziehen oder zum Durchsuchen klicken</p>
-            <p className="text-[11px] text-neutral-500">JPG, PNG, WEBP oder MP4 Productmedien</p>
+            <p className="text-xs font-heading font-bold uppercase tracking-wider">Drag file here or click to browse</p>
+            <p className="text-[11px] text-neutral-500">JPG, PNG, WEBP high-resolution atelier photography</p>
           </div>
         )}
       </div>
@@ -7717,7 +7717,7 @@ function MediaUploader({ value, onChange }: { value: string; onChange: (url: str
             type="button"
             onClick={() => onChange("")}
             className="absolute top-2.5 right-2.5 z-10 bg-black hover:bg-neutral-800 text-white rounded-full p-1.5 transition-colors cursor-pointer"
-            title="Medium entfernen"
+            title="Remove Media"
           >
             <X className="w-3.5 h-3.5" />
           </button>
@@ -7755,11 +7755,11 @@ function SpecBuilder({
   };
 
   const quickChips = [
-    { label: "+ Zustand", key: "Zustand", defaultVal: "Neuware" },
+    { label: "+ Condition", key: "Condition", defaultVal: "Brand New (Artisanal)" },
     { label: "+ Maße", key: "Maße", defaultVal: "" },
     { label: "+ Material", key: "Material", defaultVal: "" },
     { label: "+ Ohm", key: "Ohm", defaultVal: "8" },
-    { label: "+ Spule Durchmesser", key: "Spule Durchmesser", defaultVal: "44,4 mm" },
+    { label: "+ Craft / Weave", key: "Craft", defaultVal: "Handloom Zari" },
     { label: "+ Part Number", key: "Part Number", defaultVal: "" },
     { label: "+ Belastbarkeit", key: "Belastbarkeit", defaultVal: "100 W" },
     { label: "+ Frequenzbereich", key: "Frequenzbereich", defaultVal: "1 kHz - 20 kHz" },
@@ -7770,15 +7770,15 @@ function SpecBuilder({
     <div className="space-y-3">
       {/* Table Header */}
       <div className="hidden sm:grid sm:grid-cols-12 gap-3 px-2 text-[11px] font-heading font-black text-neutral-500 uppercase tracking-wider">
-        <div className="sm:col-span-5">Spezifikation / Eigenschaft</div>
-        <div className="sm:col-span-6">Wert / Ausprägung</div>
-        <div className="sm:col-span-1 text-center">Aktion</div>
+        <div className="sm:col-span-5">Specification / Attribute</div>
+        <div className="sm:col-span-6">Value / Specification</div>
+        <div className="sm:col-span-1 text-center">Action</div>
       </div>
 
       {specs.length === 0 ? (
         <div className="p-4 rounded-xl border-2 border-dashed border-neutral-200 text-center bg-neutral-50/50">
-          <p className="text-xs text-neutral-500 italic py-1">Noch keine Spezifikationen hinzugefügt.</p>
-          <p className="text-[11px] text-neutral-400">Nutzen Sie den Button oder die Schnellvorlagen unten, um Spezifikationszeilen anzulegen.</p>
+          <p className="text-xs text-neutral-500 italic py-1">No specifications added yet.</p>
+          <p className="text-[11px] text-neutral-400">Use the button or quick-add tags below to add specification rows (e.g. Fabric, Seam, Lining).</p>
         </div>
       ) : (
         <div className="space-y-2">
@@ -7787,7 +7787,7 @@ function SpecBuilder({
               <div className="w-full sm:col-span-5">
                 <input
                   type="text"
-                  placeholder="z. B. Ohm, Spule Durchmesser, Part Number"
+                  placeholder="e.g. Fabric, Weave, Lining, MOQ"
                   value={spec.key}
                   onChange={e => update(i, "key", e.target.value)}
                   className="w-full bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-3.5 py-2 text-xs text-black font-semibold outline-none transition-colors"
@@ -7807,7 +7807,7 @@ function SpecBuilder({
                   type="button"
                   onClick={() => remove(i)}
                   className="p-2 rounded-xl text-neutral-400 hover:text-red-600 hover:bg-red-50 transition-colors cursor-pointer"
-                  title="Zeile entfernen"
+                  title="Remove Row"
                 >
                   <Trash2 className="w-4 h-4" />
                 </button>
@@ -7824,12 +7824,12 @@ function SpecBuilder({
           onClick={() => add("", "")}
           className="w-full py-2.5 rounded-xl border-2 border-dashed border-neutral-300 hover:border-black text-black text-xs font-heading font-bold uppercase tracking-wider transition-colors bg-white flex items-center justify-center gap-2 cursor-pointer"
         >
-          <Plus className="w-4 h-4" /> Spezifikation hinzufügen
+          <Plus className="w-4 h-4" /> Add Specification Row
         </button>
 
         <div>
           <span className="text-[10px] font-heading font-bold text-neutral-400 uppercase tracking-wider block mb-1.5">
-            Häufige Parameter schnell hinzufügen:
+            Quick-add common apparel attributes:
           </span>
           <div className="flex flex-wrap gap-1.5">
             {quickChips.map((chip) => (
@@ -7960,14 +7960,14 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
       initialSpecsRows.push({ key: "Ohm", value: initialOhm });
     }
     if (!hasKey("Spule Durchmesser") && !hasKey("Spulendurchmesser") && !hasKey("Voice Coil") && initialCoil) {
-      initialSpecsRows.push({ key: "Spule Durchmesser", value: initialCoil });
+      initialSpecsRows.push({ key: "Craft", value: initialCoil });
     }
     if (!hasKey("Part Number") && !hasKey("SKU") && initialPartNumber) {
       initialSpecsRows.push({ key: "Part Number", value: initialPartNumber });
     }
   } else {
     // New product or product without explicit technical_specs
-    initialSpecsRows.push({ key: "Zustand", value: "Neuware" });
+    initialSpecsRows.push({ key: "Condition", value: "Brand New (Artisanal)" });
     if (requiresMasseAndMaterial) {
       initialSpecsRows.push({ key: "Maße", value: "" });
       initialSpecsRows.push({ key: "Material", value: "" });
@@ -8060,7 +8060,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
     setFormError("");
 
     if (isDuplicateName) {
-      setFormError("Dieser Productname existiert bereits. Bitte wählen Sie einen anderen Namen.");
+      setFormError("This product title already exists. Please choose a distinct title.");
       setIsSubmitting(false);
       return;
     }
@@ -8146,8 +8146,8 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
     <AdminDrawer
       isOpen={true}
       onClose={onClose}
-      title={product?.id ? "Product bearbeiten" : (form.category_id === "used-parts" ? "Gebrauchtteil hinzufügen" : "Neues Product")}
-      subtitle="Productdetails, Pricee, Medien, Spezifikationen und Sichtbarkeit anpassen."
+      title={product?.id ? "Edit Product" : "Add New Product"}
+      subtitle="Customize title, prices, images, colorways, fabric specifications, and visibility."
       maxWidthClass="max-w-4xl"
       backLabel="Back zu den Productsn"
     >
@@ -8156,7 +8156,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         <div className={cardClass}>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className={labelTextClass}>Productname *</label>
+              <label className={labelTextClass}>Product Title *</label>
               <input
                 type="text"
                 required
@@ -8172,7 +8172,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
               {isDuplicateName && (
                 <div className="mt-1.5 flex items-center gap-1.5 text-xs text-red-600 font-semibold animate-fade-in">
                   <AlertCircle className="w-4 h-4 shrink-0 text-red-600" />
-                  <span>Dieser Productname existiert bereits. Bitte wählen Sie einen anderen Namen.</span>
+                  <span>This product title already exists. Please choose a distinct title.</span>
                 </div>
               )}
             </div>
@@ -8185,7 +8185,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                     onClick={onOpenSelectExisting}
                     className="text-[11px] font-heading font-bold text-neutral-600 hover:text-black underline cursor-pointer"
                   >
-                    Aus Katalog als Gebrauchtteil importieren →
+                    Import from catalog as sample style →
                   </button>
                 )}
               </div>
@@ -8211,7 +8211,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 }}
                 className={textInputClass}
               >
-                <option value="">⚠️ No Category zugewiesen (Entfernen)</option>
+                <option value="">⚠️ No Category Assigned (Remove)</option>
                 {categories.map(c => (
                   <option key={c.id} value={c.id}>
                     {c.name}
@@ -8257,17 +8257,17 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           <div>
             <div className="flex items-center gap-2 mb-1">
               <Truck className="w-4 h-4 text-[#3628e6]" />
-              <label className={labelTextClass}>Shippingkosten für diesen Artikel (Optional)</label>
+              <label className={labelTextClass}>Custom Shipping Fee for this Style (Optional)</label>
             </div>
             <p className="text-[11px] text-neutral-500 font-medium">
-              Standardmäßig gelten die globalen Tarife der Category bzw. des Landes. Geben Sie hier nur Beträge ein, wenn für diesen speziellen Artikel abweichende Shippingkosten gelten sollen (z. B. Großformat, Koffer oder Sonderposten). Leer lassen = Standardtarif.
+              By default, standard zone rates apply. Enter custom amounts only if this garment has special packaging or express rates. Leave blank for standard rates.
             </p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
             <div>
               <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇩🇪 Deutschland (₹)
+                🇮🇳 Domestic India (₹)
               </label>
               <input
                 type="text"
@@ -8412,7 +8412,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                     const newFeatured = prev.featured_image || urls[0] || "";
                     return { ...prev, gallery: updated, featured_image: newFeatured };
                   });
-                  notifyAdmin("success", "Medien hinzugefügt", `${urls.length} Datei(en) erfolgreich hochgeladen.`);
+                  notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
                 } catch (err: any) {
                   notifyAdmin("error", "Upload fehlgeschlagen", err.message || String(err), err);
                 } finally {
@@ -8445,7 +8445,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                       const newFeatured = prev.featured_image || urls[0] || "";
                       return { ...prev, gallery: updated, featured_image: newFeatured };
                     });
-                    notifyAdmin("success", "Medien hinzugefügt", `${urls.length} Datei(en) erfolgreich hochgeladen.`);
+                    notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
                   } catch (err: any) {
                     notifyAdmin("error", "Upload fehlgeschlagen", err.message || String(err), err);
                   } finally {
@@ -8458,7 +8458,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
             >
               <Upload className="w-5 h-5 text-black stroke-[2] mb-1 group-hover:scale-110 transition-transform" />
               <p className="text-xs font-heading font-bold uppercase tracking-wider text-black text-center">
-                {isGalleryUploading ? "Dateien werden hochgeladen..." : "Imageer hier ablegen oder für Upload klicken"}
+                {isGalleryUploading ? "Uploading photoshoot files..." : "Drop images here or click to upload"}
               </p>
               <p className="text-[11px] text-neutral-500 mt-0.5">JPG, PNG, WEBP oder MP4 • Mehrfachauswahl möglich</p>
             </div>
@@ -8504,7 +8504,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 }}
                 className="mt-2 w-full bg-black hover:bg-neutral-800 text-white text-[11px] font-heading font-bold uppercase tracking-wider py-1.5 rounded-lg transition-colors cursor-pointer"
               >
-                + URL hinzufügen
+                + Add Image URL
               </button>
             </div>
           </div>
@@ -8512,7 +8512,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           {/* Media Tiles Grid */}
           {form.gallery.length === 0 ? (
             <div className="py-8 text-center text-neutral-400 border border-neutral-100 rounded-xl bg-neutral-50/50">
-              <p className="text-xs font-medium">Noch keine Imageer vorhanden. Laden Sie oben Fotos hoch.</p>
+              <p className="text-xs font-medium">No images attached yet. Upload photos above.</p>
             </div>
           ) : (
             <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 pt-2">
@@ -8580,7 +8580,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                                   const updatedFeatured = (isMain || prev.featured_image === url) ? newUrl : prev.featured_image;
                                   return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured };
                                 });
-                                notifyAdmin("success", "Image ersetzt", "Das Image wurde erfolgreich ausgetauscht.");
+                                notifyAdmin("success", "Image Replaced", "Product image replaced successfully.");
                               } catch (err: any) {
                                 notifyAdmin("error", "Ersetzen fehlgeschlagen", err.message || String(err), err);
                               } finally {
@@ -8604,7 +8604,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                             });
                           }}
                           className="bg-red-500 hover:bg-red-600 text-white rounded-full p-1 shadow-sm cursor-pointer transition-colors"
-                          title="Image entfernen"
+                          title="Remove Image"
                         >
                           <X className="w-3 h-3" />
                         </button>
@@ -8632,7 +8632,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
             <div>
               <label className={labelTextClass}>Technische Spezifikationen (Artikeltabelle)</label>
               <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
-                Alle hier hinterlegten Zeilen werden 1:1 in der Spezifikationstabelle der Productdetailseite dargestellt.
+                All attributes listed here will render directly in the Product Detail specification drawer on the live store.
               </p>
             </div>
             <span className="text-[10px] font-bold uppercase tracking-wider bg-black text-white px-2.5 py-1 rounded-full flex-shrink-0">
@@ -8648,7 +8648,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         <div className={cardClass}>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label className={labelTextClass}>Sichtbarkeit</label>
+              <label className={labelTextClass}>Visibility</label>
               <select
                 value={form.is_hidden ? "hidden" : "visible"}
                 onChange={e => setForm({ ...form, is_hidden: e.target.value === "hidden" })}
@@ -8670,7 +8670,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
               </select>
             </div>
             <div>
-              <label className={labelTextClass}>Sortierreihenfolge</label>
+              <label className={labelTextClass}>Display Order</label>
               <input
                 type="text"
                 inputMode="numeric"
@@ -8699,7 +8699,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                     const val = e.target.value;
                     if (val === "CUSTOM") {
                       if (!form.tag || form.tag === "SALE" || form.tag === "BESTSELLER" || form.tag === "POPULAR") {
-                        setForm({ ...form, tag: "NEU" });
+                        setForm({ ...form, tag: "NEW" });
                       }
                     } else {
                       setForm({ ...form, tag: val });
@@ -8778,7 +8778,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
             ) : (
               <>
                 <Save className="w-4 h-4 stroke-[2]" />
-                <span>{product ? "Änderungen speichern" : "Product erstellen"}</span>
+                <span>{product ? "Save Changes" : "Create Product"}</span>
               </>
             )}
           </button>
@@ -8891,18 +8891,18 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
               <button
                 onClick={() => onEditProduct(product)}
                 className="flex items-center gap-1 px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider rounded border border-border bg-card text-muted-foreground hover:text-foreground hover:border-foreground cursor-pointer"
-                title="Productinfo bearbeiten"
+                title="Edit Product Info"
               >
-                <Edit className="w-3 h-3" /> Info bearbeiten
+                <Edit className="w-3 h-3" /> Edit Info
               </button>
               {onDeleteProduct && (
                 <button
                   type="button"
                   onClick={() => onDeleteProduct(product)}
                   className="flex items-center gap-1 px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider rounded border border-red-200 bg-red-50 text-red-600 hover:bg-red-100 hover:border-red-400 cursor-pointer transition-colors"
-                  title="Product dauerhaft löschen"
+                  title="Permanently Delete Product"
                 >
-                  <Trash2 className="w-3 h-3" /> Product löschen
+                  <Trash2 className="w-3 h-3" /> Delete Product
                 </button>
               )}
             </div>
@@ -8951,13 +8951,13 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
           <div className="flex justify-between items-center border-b border-border pb-4">
             <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider">Color Variants ({variants.length})</h3>
             <button onClick={() => { setEditingVariantId(null); setVariantForm({ name: "", specs: '{\n  "Size": "",\n  "Material": "",\n  "Power": ""\n}', stock: "", price: "", sort_order: variants.length }); setShowVariantForm(true); }} className={btnPrimary}>
-              <Plus className="w-3.5 h-3.5" /> VARIANTE HINZUFÜGEN
+              <Plus className="w-3.5 h-3.5" /> ADD COLORWAY / VARIANT
             </button>
           </div>
 
           {showVariantForm && (
             <div className="border border-border rounded-lg p-4 space-y-3 bg-muted/30">
-              <h4 className="text-xs font-bold text-foreground uppercase">{editingVariantId ? "Color Variant bearbeiten" : "Neue Color Variant"}</h4>
+              <h4 className="text-xs font-bold text-foreground uppercase">{editingVariantId ? "Edit Color Variant" : "New Color Variant"}</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <FormField label="Color Variantsname" required>
                   <input type="text" value={variantForm.name} onChange={e => setVariantForm({ ...variantForm, name: e.target.value })} className={inputClass} placeholder="z. B. Kupfer" />
@@ -8967,7 +8967,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                     <input type="text" value={variantForm.price} onChange={e => setVariantForm({ ...variantForm, price: e.target.value })} className={inputClass} placeholder="0.00" />
                   </FormField>
                   <FormField label="Inventory">
-                    <input type="text" value={variantForm.stock} onChange={e => setVariantForm({ ...variantForm, stock: e.target.value })} className={inputClass} placeholder="Menge" />
+                    <input type="text" value={variantForm.stock} onChange={e => setVariantForm({ ...variantForm, stock: e.target.value })} className={inputClass} placeholder="Stock Units" />
                   </FormField>
                 </div>
               </div>
@@ -8982,7 +8982,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
           )}
 
           {variants.length === 0 ? (
-            <p className="text-xs text-slate-700 font-medium text-center py-8">Noch keine Color Variants vorhanden. Fügen Sie oben eine hinzu.</p>
+            <p className="text-xs text-slate-700 font-medium text-center py-8">No color variants added yet. Click above to add a colorway.</p>
           ) : (
             <div className="space-y-4">
               {variants.map(v => (
@@ -9029,7 +9029,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                       ))}
                     </div>
                     <div className="flex gap-2">
-                      <input type="text" value={pnInput[v.id] || ""} onChange={e => setPnInput({ ...pnInput, [v.id]: e.target.value })} className={`${inputClass} flex-1`} placeholder="Artikelnummer hinzufügen..." onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); if (pnInput[v.id]) { onAddPartNumber(v.id, pnInput[v.id]); setPnInput({ ...pnInput, [v.id]: "" }); } } }} />
+                      <input type="text" value={pnInput[v.id] || ""} onChange={e => setPnInput({ ...pnInput, [v.id]: e.target.value })} className={`${inputClass} flex-1`} placeholder="Add SKU / Barcode..." onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); if (pnInput[v.id]) { onAddPartNumber(v.id, pnInput[v.id]); setPnInput({ ...pnInput, [v.id]: "" }); } } }} />
                       <button onClick={() => { if (pnInput[v.id]) { onAddPartNumber(v.id, pnInput[v.id]); setPnInput({ ...pnInput, [v.id]: "" }); } }} className={btnSecondary}><Plus className="w-3.5 h-3.5" /> Add</button>
                     </div>
                   </div>
@@ -9047,14 +9047,14 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
           <div className="flex gap-3 flex-wrap">
             <input type="text" value={imageUrl} onChange={e => setImageUrl(e.target.value)} className={`${inputClass} flex-1 min-w-[220px]`} placeholder="Image-URL..." />
             <input type="text" value={imageAlt} onChange={e => setImageAlt(e.target.value)} className={`${inputClass} w-[180px]`} placeholder="Alt-Text..." />
-            <button onClick={() => { if (imageUrl) { onAddImage(product.id, imageUrl, imageAlt); setImageUrl(""); setImageAlt(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> URL hinzufügen</button>
+            <button onClick={() => { if (imageUrl) { onAddImage(product.id, imageUrl, imageAlt); setImageUrl(""); setImageAlt(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> Add URL</button>
             <label className={`${btnSecondary} cursor-pointer`}>
-              <Upload className="w-3.5 h-3.5" /> {isUploading ? "Wird hochgeladen..." : "Medien hochladen"}
+              <Upload className="w-3.5 h-3.5" /> {isUploading ? "Uploading..." : "Upload Media"}
               <input type="file" multiple accept="image/*,video/*" className="hidden" onChange={(e) => onUploadMedia(product.id, e.target.files)} />
             </label>
           </div>
           {images.length === 0 ? (
-            <p className="text-xs text-slate-700 font-medium text-center py-8">Noch keine Galerie-Imageer vorhanden. Fügen Sie oben Image-URLs hinzu.</p>
+            <p className="text-xs text-slate-700 font-medium text-center py-8">No gallery photoshoot images added yet. Add image URLs above.</p>
           ) : (
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               {images.map((img, idx) => {
@@ -9110,7 +9110,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                               } else {
                                 await onSaveProduct({});
                               }
-                              notifyAdmin("success", "Image ersetzt", "Das Image wurde erfolgreich ausgetauscht.");
+                              notifyAdmin("success", "Image Replaced", "Product image replaced successfully.");
                             } catch (err: any) {
                               notifyAdmin("error", "Ersetzen fehlgeschlagen", err.message || String(err), err);
                             }
@@ -9121,7 +9121,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                         type="button"
                         onClick={() => onDeleteImage(img.id, img.url)}
                         className="w-6 h-6 rounded-full bg-red-600 hover:bg-red-700 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer shadow"
-                        title="Image löschen"
+                        title="Delete Image"
                       >
                         <X className="w-3.5 h-3.5" />
                       </button>
@@ -9158,7 +9158,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
             <button onClick={() => { if (dlUrl) { onAddDownload(product.id, dlType, dlUrl, dlTitle); setDlUrl(""); setDlTitle(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> Add</button>
           </div>
           {downloads.length === 0 ? (
-            <p className="text-xs text-muted-foreground font-medium text-center py-8">Noch keine Downloads hinzugefügt.</p>
+            <p className="text-xs text-muted-foreground font-medium text-center py-8">No downloadable lookbooks or line sheets added.</p>
           ) : (
             <div className="space-y-2">
               {downloads.map(dl => (
@@ -9190,10 +9190,10 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
             <FormField label="Antwort">
               <textarea rows={2} value={faqA} onChange={e => setFaqA(e.target.value)} className={`${inputClass} resize-none`} placeholder="Antwort eingeben..." />
             </FormField>
-            <button onClick={() => { if (faqQ && faqA) { onAddFaq(product.id, faqQ, faqA); setFaqQ(""); setFaqA(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> FAQ hinzufügen</button>
+            <button onClick={() => { if (faqQ && faqA) { onAddFaq(product.id, faqQ, faqA); setFaqQ(""); setFaqA(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> Add FAQ</button>
           </div>
           {faqs.length === 0 ? (
-            <p className="text-xs text-muted-foreground font-medium text-center py-4">Noch keine FAQs hinzugefügt.</p>
+            <p className="text-xs text-muted-foreground font-medium text-center py-4">No product FAQs added yet.</p>
           ) : (
             <div className="space-y-3">
               {faqs.map(faq => (

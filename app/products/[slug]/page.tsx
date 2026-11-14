@@ -24,15 +24,39 @@ export default function ProductDetailPage({ params }: Props) {
 
   // Sync with live product updates from admin console
   React.useEffect(() => {
-    fetch('/api/products')
-      .then(res => res.json())
-      .then(data => {
-        if (Array.isArray(data.products)) {
-          const found = data.products.find((p: NishoramaProduct) => p.slug === params.slug || p.id === params.slug);
-          if (found) setProduct(found);
-        }
-      })
-      .catch(() => {});
+    const loadLive = () => {
+      fetch(`/api/products/${encodeURIComponent(params.slug)}?t=${Date.now()}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data && !data.error && data.id) {
+            setProduct(data);
+          }
+        })
+        .catch(() => {
+          fetch(`/api/products?t=${Date.now()}`)
+            .then(res => res.json())
+            .then(data => {
+              const list = Array.isArray(data) ? data : (data?.products || []);
+              const found = list.find((p: any) => p.slug === params.slug || p.id === params.slug);
+              if (found) setProduct(found);
+            })
+            .catch(() => {});
+        });
+    };
+
+    loadLive();
+
+    try {
+      const ch1 = new BroadcastChannel("wastram_products_sync");
+      const ch2 = new BroadcastChannel("ixos_products_sync");
+      const onMsg = () => loadLive();
+      ch1.onmessage = onMsg;
+      ch2.onmessage = onMsg;
+      return () => {
+        ch1.close();
+        ch2.close();
+      };
+    } catch (_) {}
   }, [params.slug]);
 
   const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);

@@ -1,13 +1,4 @@
-import { WESTERN_DRESSES } from './western-dresses';
-import { TRADITIONAL_GOWNS } from './traditional-gowns';
-import { CORD_SETS } from './cord-sets';
-import { TOPS_SHIRTS } from './tops-shirts';
-import { ETHNIC_WEAR_SETS } from './ethnic-wear-sets';
-import { SHORT_LONG_KAFTANS } from './short-long-kaftan';
-import { UMBRELLA_DRESSES } from './umbrella-dresses';
-import { T_SHIRTS } from './t-shirts';
-import { HOODIES_SWEATSHIRTS } from './hoodies-sweatshirts';
-import { DENIM_COLLECTION } from './denim-collection';
+import { PRODUCTS, ColorVariant as ProductColorVariant } from './products';
 
 export interface ColorVariant {
   id: string;
@@ -35,20 +26,18 @@ export interface NishoramaProduct {
   sku?: string;
   createdAt?: string;
   updatedAt?: string;
+  name?: string;
+  partNumber?: string;
+  price?: number;
+  rating?: number;
+  reviewCount?: number;
+  inStock?: boolean;
+  freeShipping?: boolean;
+  brand?: string;
+  [key: string]: any;
 }
 
-export const NISHORAMA_PRODUCTS: NishoramaProduct[] = [
-  ...WESTERN_DRESSES,
-  ...TRADITIONAL_GOWNS,
-  ...CORD_SETS,
-  ...TOPS_SHIRTS,
-  ...ETHNIC_WEAR_SETS,
-  ...SHORT_LONG_KAFTANS,
-  ...UMBRELLA_DRESSES,
-  ...T_SHIRTS,
-  ...HOODIES_SWEATSHIRTS,
-  ...DENIM_COLLECTION
-];
+export const NISHORAMA_PRODUCTS: NishoramaProduct[] = PRODUCTS as unknown as NishoramaProduct[];
 
 export const NISHORAMA_STORIES = [
   {

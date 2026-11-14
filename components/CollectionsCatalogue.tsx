@@ -39,15 +39,31 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
 
   // Background fetch to ensure instant reflection of any Admin panel updates
   useEffect(() => {
-    fetch('/api/products')
-      .then(res => res.json())
-      .then(data => {
-        const prods = Array.isArray(data) ? data : (data?.products || []);
-        if (prods.length > 0) {
-          setLiveProducts(prods);
-        }
-      })
-      .catch(() => {});
+    const loadCatalog = () => {
+      fetch(`/api/products?t=${Date.now()}`)
+        .then(res => res.json())
+        .then(data => {
+          const prods = Array.isArray(data) ? data : (data?.products || []);
+          if (prods.length > 0) {
+            setLiveProducts(prods);
+          }
+        })
+        .catch(() => {});
+    };
+
+    loadCatalog();
+
+    try {
+      const ch1 = new BroadcastChannel("wastram_products_sync");
+      const ch2 = new BroadcastChannel("ixos_products_sync");
+      const onMsg = () => loadCatalog();
+      ch1.onmessage = onMsg;
+      ch2.onmessage = onMsg;
+      return () => {
+        ch1.close();
+        ch2.close();
+      };
+    } catch (_) {}
   }, []);
 
   // Synchronize category state when initialCategory prop changes (e.g. Header navigation)
