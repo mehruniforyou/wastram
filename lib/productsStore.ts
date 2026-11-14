@@ -9,7 +9,6 @@ import {
   getDocs,
   getDoc,
   setDoc,
-  deleteDoc,
 } from "firebase/firestore";
 
 export interface ProductOverride {
@@ -89,14 +88,22 @@ export async function getProductOverrides(): Promise<Record<string, ProductOverr
   const adminDb = getAdminDb();
   if (adminDb) {
     try {
-      const snap = await adminDb.collection("products").get();
-      const overrides: Record<string, ProductOverride> = {};
+      // Check master store first: orders/_products_store
+      const masterSnap = await adminDb.collection("orders").doc("_products_store").get();
+      if (masterSnap.exists) {
+        const data = masterSnap.data();
+        if (data?.products && typeof data.products === "object") {
+          inMemoryProductOverrides = { ...inMemoryProductOverrides, ...data.products };
+        }
+      }
+
+      // Check product_overrides collection
+      const snap = await adminDb.collection("product_overrides").get();
       snap.forEach((docSnap) => {
         const data = docSnap.data() as ProductOverride;
-        overrides[docSnap.id] = { ...data, id: docSnap.id };
+        inMemoryProductOverrides[docSnap.id] = { ...data, id: docSnap.id };
       });
 
-      inMemoryProductOverrides = { ...inMemoryProductOverrides, ...overrides };
       lastFirestoreFetchTime = now;
       saveOverridesToDisk(inMemoryProductOverrides);
       return inMemoryProductOverrides;
@@ -109,14 +116,22 @@ export async function getProductOverrides(): Promise<Record<string, ProductOverr
   const clientDb = getFirebaseDb();
   if (clientDb) {
     try {
-      const snap = await getDocs(collection(clientDb, "products"));
-      const overrides: Record<string, ProductOverride> = {};
+      // Check master store: orders/_products_store
+      const masterSnap = await getDoc(doc(clientDb, "orders", "_products_store"));
+      if (masterSnap.exists()) {
+        const data = masterSnap.data();
+        if (data?.products && typeof data.products === "object") {
+          inMemoryProductOverrides = { ...inMemoryProductOverrides, ...data.products };
+        }
+      }
+
+      // Check product_overrides
+      const snap = await getDocs(collection(clientDb, "product_overrides"));
       snap.forEach((docSnap) => {
         const data = docSnap.data() as ProductOverride;
-        overrides[docSnap.id] = { ...data, id: docSnap.id };
+        inMemoryProductOverrides[docSnap.id] = { ...data, id: docSnap.id };
       });
 
-      inMemoryProductOverrides = { ...inMemoryProductOverrides, ...overrides };
       lastFirestoreFetchTime = now;
       saveOverridesToDisk(inMemoryProductOverrides);
       return inMemoryProductOverrides;
@@ -152,6 +167,14 @@ export async function saveProductOverride(
   if (adminDb) {
     try {
       await adminDb.collection("products").doc(cleanId).set(updated, { merge: true });
+      await adminDb.collection("product_overrides").doc(cleanId).set(updated, { merge: true });
+      await adminDb.collection("orders").doc("_products_store").set(
+        {
+          products: inMemoryProductOverrides,
+          updated_at: now,
+        },
+        { merge: true }
+      );
     } catch (err: any) {
       console.warn("[ProductsStore] Firestore Admin write warning:", err.message);
     }
@@ -161,6 +184,11 @@ export async function saveProductOverride(
     if (clientDb) {
       try {
         await setDoc(doc(clientDb, "products", cleanId), updated, { merge: true });
+        await setDoc(doc(clientDb, "product_overrides", cleanId), updated, { merge: true });
+        await setDoc(doc(clientDb, "orders", "_products_store"), {
+          products: inMemoryProductOverrides,
+          updated_at: now,
+        }, { merge: true });
       } catch (err: any) {
         console.warn("[ProductsStore] Firestore Client write warning:", err.message);
       }
@@ -172,29 +200,49 @@ export async function saveProductOverride(
 
 export async function deleteProductOverride(productId: string): Promise<boolean> {
   const cleanId = String(productId).trim();
+  const now = new Date().toISOString();
 
-  // Mark as deleted or remove
-  if (inMemoryProductOverrides[cleanId]) {
-    inMemoryProductOverrides[cleanId].deleted = true;
-    inMemoryProductOverrides[cleanId].is_hidden = true;
-    saveOverridesToDisk(inMemoryProductOverrides);
-  }
+  // Tombstone product override (soft delete: preserves history while hiding from store)
+  const tombstone: ProductOverride = {
+    ...(inMemoryProductOverrides[cleanId] || {}),
+    id: cleanId,
+    deleted: true,
+    is_hidden: true,
+    updated_at: now,
+    updatedAt: now,
+  };
+
+  inMemoryProductOverrides[cleanId] = tombstone;
+  saveOverridesToDisk(inMemoryProductOverrides);
 
   const adminDb = getAdminDb();
   if (adminDb) {
     try {
-      await adminDb.collection("products").doc(cleanId).delete();
+      await adminDb.collection("products").doc(cleanId).set(tombstone, { merge: true });
+      await adminDb.collection("product_overrides").doc(cleanId).set(tombstone, { merge: true });
+      await adminDb.collection("orders").doc("_products_store").set(
+        {
+          products: inMemoryProductOverrides,
+          updated_at: now,
+        },
+        { merge: true }
+      );
     } catch (err: any) {
-      console.warn("[ProductsStore] Firestore Admin delete warning:", err.message);
+      console.warn("[ProductsStore] Firestore Admin tombstone write warning:", err.message);
     }
   }
 
   const clientDb = getFirebaseDb();
   if (clientDb) {
     try {
-      await deleteDoc(doc(clientDb, "products", cleanId));
+      await setDoc(doc(clientDb, "products", cleanId), tombstone, { merge: true });
+      await setDoc(doc(clientDb, "product_overrides", cleanId), tombstone, { merge: true });
+      await setDoc(doc(clientDb, "orders", "_products_store"), {
+        products: inMemoryProductOverrides,
+        updated_at: now,
+      }, { merge: true });
     } catch (err: any) {
-      console.warn("[ProductsStore] Firestore Client delete warning:", err.message);
+      console.warn("[ProductsStore] Firestore Client tombstone write warning:", err.message);
     }
   }
 
@@ -258,7 +306,9 @@ export async function getAllMergedProducts(): Promise<NishoramaProduct[]> {
         description: ovr.description || "",
         details: ovr.details || [],
         moq: ovr.moq || "20 pcs / Flexible Wholesale Pack",
-        sku: ovr.sku || id,
+        sku: ovr.sku || `WST-CUSTOM-${id.substring(0, 6)}`,
+        createdAt: ovr.createdAt || new Date().toISOString(),
+        updatedAt: ovr.updatedAt || new Date().toISOString(),
       });
     }
   }

@@ -1,25 +1,67 @@
 rules_version = '2';
 
-// Wastram Atelier - Firestore Security Rules
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Public read for products, collections, categories
+
+    // ─── 1. PRODUCTS & CATEGORIES ─────────────────────────────
+    // Public catalog reads. Writes permitted for sync. Deletes blocked.
     match /products/{productId} {
-      allow read: if true;
-      allow write: if true; // In production, restrict to authenticated admin
+      allow read, write: if true;
+      allow delete: if false;
     }
     match /categories/{categoryId} {
-      allow read: if true;
-      allow write: if true;
+      allow read, write: if true;
+      allow delete: if false;
     }
     match /product_overrides/{productId} {
       allow read, write: if true;
+      allow delete: if false;
     }
-    match /settings/{document=**} {
+    match /category_overrides/{categoryId} {
       allow read, write: if true;
+      allow delete: if false;
     }
+
+    // ─── 2. STORE MASTER SETTINGS & CACHES ────────────────────
+    match /orders/_products_store {
+      allow read, write: if true;
+      allow delete: if false;
+    }
+    match /orders/_discounts_store {
+      allow read, write: if true;
+      allow delete: if false;
+    }
+    match /orders/_reviews_store {
+      allow read, write: if true;
+      allow delete: if false;
+    }
+    match /settings/{settingId} {
+      allow read, write: if true;
+      allow delete: if false;
+    }
+
+    // ─── 3. CUSTOMER ORDERS & PAYMENTS ────────────────────────
+    // Allows checkout order creation and status updates from your API.
+    // DELETION IS PERMANENTLY BLOCKED to protect order history.
+    match /orders/{orderId} {
+      allow read, create, update: if true;
+      allow delete: if false;
+    }
+    match /payments/{paymentId} {
+      allow read, create, update: if true;
+      allow delete: if false;
+    }
+
+    // ─── 4. SUPPORT & INVENTORY ───────────────────────────────
+    match /support_tickets/{ticketId} {
+      allow read, write: if true;
+      allow delete: if false;
+    }
+
+    // ─── 5. ZERO-TRUST CATCH-ALL ──────────────────────────────
+    // Blocks access to all other paths in your database.
     match /{document=**} {
-      allow read, write: if true;
+      allow read, write: if false;
     }
   }
 }
