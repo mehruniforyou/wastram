@@ -1,6 +1,9 @@
 import React from "react";
 import AdminClientPage from "./AdminClientPage";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata = {
   title: "Wastram Atelier // Admin Console",
   description: "Administrative control center for Wastram wholesale apparel, catalog, and inventory.",
@@ -10,3 +13,4 @@ export const metadata = {
 export default function AdminPage() {
   return <AdminClientPage />;
 }
+

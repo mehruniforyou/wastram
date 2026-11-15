@@ -2102,8 +2102,14 @@ function AdminPageContent() {
       if (prod.name && typeof prod.name === "string" && prod.name.trim()) {
         const trimmed = prod.name.trim().toLowerCase();
         const duplicate = products.find(p => {
-          if (targetId && (p.id === targetId || (p as any)._id === targetId)) return false;
-          if (originalSlug && p.slug.toLowerCase() === originalSlug.toLowerCase()) return false;
+          const pId = String(p.id || (p as any)._id || "").toLowerCase();
+          const tId = String(targetId || prod.id || "").toLowerCase();
+          if (tId && pId && pId === tId) return false;
+
+          const pSlug = String(p.slug || "").toLowerCase();
+          const oSlug = String(originalSlug || prod.slug || "").toLowerCase();
+          if (oSlug && pSlug && pSlug === oSlug) return false;
+
           return p.name.trim().toLowerCase() === trimmed;
         });
         if (duplicate) {
@@ -7986,7 +7992,6 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
   }
 
   const initialTag = (product as any)?.tag || product?.seo_meta?.badge_text || "";
-  const initialShippingRates = (product as any)?.shipping_rates || {};
 
   const [form, setForm] = useState({
     name: product?.name || "",
@@ -8023,14 +8028,6 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
             images: Array.isArray(v.images) ? v.images : []
           }))
         : []),
-    shipping_rates: {
-      de: initialShippingRates.de !== undefined ? String(initialShippingRates.de) : (initialShippingRates["DE"] !== undefined ? String(initialShippingRates["DE"]) : ""),
-      eu: initialShippingRates.eu !== undefined ? String(initialShippingRates.eu) : (initialShippingRates["EU"] !== undefined ? String(initialShippingRates["EU"]) : ""),
-      gb: initialShippingRates.gb !== undefined ? String(initialShippingRates.gb) : (initialShippingRates["GB"] !== undefined ? String(initialShippingRates["GB"]) : ""),
-      us: initialShippingRates.us !== undefined ? String(initialShippingRates.us) : (initialShippingRates["US"] !== undefined ? String(initialShippingRates["US"]) : ""),
-      ca: initialShippingRates.ca !== undefined ? String(initialShippingRates.ca) : (initialShippingRates["CA"] !== undefined ? String(initialShippingRates["CA"]) : ""),
-      intl: initialShippingRates.intl !== undefined ? String(initialShippingRates.intl) : (initialShippingRates.world !== undefined ? String(initialShippingRates.world) : ""),
-    },
     sort_order: product?.sort_order ?? 0,
     seo_meta: {
       title: product?.seo_meta?.title || "",
@@ -8067,13 +8064,17 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
   );
   const [hasVariants, setHasVariants] = useState<boolean>(initialHasVariants);
 
-  const trimmedName = (form.name || "").trim();
+  const trimmedName = (form.name || "").trim().toLowerCase();
+  const currentProdId = String(product?.id || (product as any)?._id || "").toLowerCase();
+  const currentProdSlug = String(product?.slug || "").toLowerCase();
   const duplicateProduct = existingProducts.find(p => {
     if (!trimmedName) return false;
     // When editing an existing product, ignore itself
-    if (product?.id && (p.id === product.id || (p as any)._id === product.id)) return false;
-    if (product?.slug && p.slug.toLowerCase() === product.slug.toLowerCase()) return false;
-    return p.name.trim().toLowerCase() === trimmedName.toLowerCase();
+    const pId = String(p.id || (p as any)?._id || "").toLowerCase();
+    if (currentProdId && pId && pId === currentProdId) return false;
+    const pSlug = String(p.slug || "").toLowerCase();
+    if (currentProdSlug && pSlug && pSlug === currentProdSlug) return false;
+    return p.name.trim().toLowerCase() === trimmedName;
   });
   const isDuplicateName = Boolean(duplicateProduct);
 
@@ -8121,16 +8122,16 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         }
       } else {
         // Has variants - collect all images across variants + general gallery
-        finalColorVariants = form.colorVariants;
-        const allVarImages = form.colorVariants.flatMap(v => Array.isArray(v.images) ? v.images : []);
+        finalColorVariants = form.colorVariants.map(v => ({
+          ...v,
+          images: Array.isArray(v.images) ? v.images.filter(Boolean) : []
+        }));
+        const allVarImages = finalColorVariants.flatMap(v => v.images);
         for (const img of allVarImages) {
           if (!finalGallery.includes(img)) finalGallery.push(img);
         }
-        if (!finalFeatured) {
+        if (!finalFeatured || !finalGallery.includes(finalFeatured)) {
           finalFeatured = allVarImages[0] || finalGallery[0] || null;
-        }
-        if (finalFeatured && !finalGallery.includes(finalFeatured)) {
-          finalGallery = [finalFeatured, ...finalGallery];
         }
       }
 
@@ -8668,7 +8669,11 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                                   if (updatedFeatured === url) {
                                     updatedFeatured = updatedGallery.length > 0 ? updatedGallery[0] : "";
                                   }
-                                  return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured };
+                                  const updatedVariants = prev.colorVariants.map(v => ({
+                                    ...v,
+                                    images: Array.isArray(v.images) ? v.images.filter(img => img !== url) : []
+                                  }));
+                                  return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured, colorVariants: updatedVariants };
                                 });
                               }}
                               className="bg-red-500 hover:bg-red-600 text-white rounded-full p-1 shadow-sm cursor-pointer transition-colors"
@@ -8883,7 +8888,11 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                                 if (updatedFeatured === url) {
                                   updatedFeatured = updatedGallery.length > 0 ? updatedGallery[0] : "";
                                 }
-                                return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured };
+                                const updatedVariants = prev.colorVariants.map(v => ({
+                                  ...v,
+                                  images: Array.isArray(v.images) ? v.images.filter(img => img !== url) : []
+                                }));
+                                return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured, colorVariants: updatedVariants };
                               });
                             }}
                             className="bg-red-500 hover:bg-red-600 text-white rounded-full p-1 shadow-sm cursor-pointer transition-colors"
