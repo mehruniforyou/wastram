@@ -739,6 +739,9 @@ export async function getLiveProductBySlug(slug: string): Promise<Product | null
   const clean = rawClean;
   const dashedClean = rawClean.replace(/\s+/g, "-");
   const normalizedClean = rawClean.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+  const cleanBase = rawClean.replace(/-edition-\d+.*$/i, "").trim();
+  const dashedCleanBase = dashedClean.replace(/-edition-\d+.*$/i, "").trim();
+  const normalizedCleanBase = normalizedClean.replace(/-edition-\d+.*$/i, "").trim();
 
   const overrides = await getProductOverrides();
 
@@ -865,12 +868,18 @@ export async function getLiveProductBySlug(slug: string): Promise<Product | null
       pNorm === normalizedClean ||
       pPart === clean ||
       pId === clean ||
+      pSlug === cleanBase ||
+      pDashed === dashedCleanBase ||
+      pNorm === normalizedCleanBase ||
       p.aliasSlugs?.some((a) => {
         const aLower = a.toLowerCase().trim();
+        const aBase = aLower.replace(/-edition-\d+.*$/i, "").trim();
         return (
           aLower === clean ||
           aLower === dashedClean ||
-          aLower.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") === normalizedClean
+          aLower.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") === normalizedClean ||
+          aLower === cleanBase ||
+          aBase === cleanBase
         );
       })
     );

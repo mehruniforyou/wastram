@@ -22,12 +22,13 @@ export default function ProductDetailPage({ params }: Props) {
   // Read initial product and check if archived or deleted
   const initialItem = React.useMemo(() => {
     const rawSlug = decodeURIComponent(params.slug || "").toLowerCase().trim();
+    const cleanBase = rawSlug.replace(/-edition-\d+.*$/i, "").trim();
     if (typeof window !== "undefined") {
       try {
         const local = localStorage.getItem("wastram_products_overrides") || localStorage.getItem("ixos_products_overrides");
         if (local) {
           const parsed = JSON.parse(local);
-          const ovr = parsed[rawSlug] || Object.values(parsed).find((o: any) => o?.slug?.toLowerCase() === rawSlug || o?.id?.toLowerCase() === rawSlug);
+          const ovr = parsed[rawSlug] || parsed[cleanBase] || Object.values(parsed).find((o: any) => o?.slug?.toLowerCase() === rawSlug || o?.slug?.toLowerCase() === cleanBase || o?.id?.toLowerCase() === rawSlug);
           if (ovr?.deleted || ovr?.purged || ovr?.is_hidden) return null;
         }
       } catch (_) {}
@@ -36,7 +37,11 @@ export default function ProductDetailPage({ params }: Props) {
       p => p.slug?.toLowerCase() === rawSlug ||
            p.id?.toLowerCase() === rawSlug ||
            p.partNumber?.toLowerCase() === rawSlug ||
-           (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === rawSlug)
+           p.slug?.toLowerCase() === cleanBase ||
+           (p as any).aliasSlugs?.some((a: string) => {
+             const aLower = a.toLowerCase().trim();
+             return aLower === rawSlug || aLower === cleanBase || aLower.replace(/-edition-\d+.*$/i, "").trim() === cleanBase;
+           })
     );
     if (!found || (found as any).deleted || (found as any).purged || (found as any).is_hidden) return null;
     return found;
@@ -72,51 +77,53 @@ export default function ProductDetailPage({ params }: Props) {
         const res = await fetch(`/api/products/${encodeURIComponent(params.slug)}?t=${Date.now()}`);
         if (!isMounted) return;
 
-        if (res.status === 404) {
-          setIsArchived(true);
-          setProduct(null);
-          setIsLoading(false);
+        if (res.ok) {
+          const data = await res.json();
+          if (!isMounted) return;
+
+          if (data.error || data.deleted === true || data.purged === true || data.is_hidden === true) {
+            setIsArchived(true);
+            setProduct(null);
+            setIsLoading(false);
+          } else if (data && data.id) {
+            setProduct(data);
+            setIsArchived(false);
+            setIsLoading(false);
+          }
           return;
         }
 
-        const data = await res.json();
+        // If direct slug API fails, fetch catalog and find master item by slug, cleanBase, or aliasSlugs
+        const listRes = await fetch(`/api/products?t=${Date.now()}`);
+        const listData = await listRes.json();
+        const list = Array.isArray(listData) ? listData : (listData?.products || []);
+        const cleanParam = decodeURIComponent(params.slug || "").toLowerCase().trim();
+        const baseParam = cleanParam.replace(/-edition-\d+.*$/i, "").trim();
+        const found = list.find((p: any) =>
+          p.slug?.toLowerCase() === cleanParam ||
+          p.id?.toLowerCase() === cleanParam ||
+          p.slug?.toLowerCase() === baseParam ||
+          (p.partNumber || p.sku || "").toLowerCase() === cleanParam ||
+          p.aliasSlugs?.some((a: string) => {
+            const aLower = a.toLowerCase().trim();
+            return aLower === cleanParam || aLower === baseParam || aLower.replace(/-edition-\d+.*$/i, "").trim() === baseParam;
+          })
+        );
         if (!isMounted) return;
 
-        if (data.error || data.deleted === true || data.purged === true || data.is_hidden === true) {
-          setIsArchived(true);
-          setProduct(null);
-          setIsLoading(false);
-        } else if (data && data.id) {
-          setProduct(data);
-          setIsArchived(false);
-          setIsLoading(false);
-        }
-      } catch (err) {
-        if (!isMounted) return;
-        try {
-          const listRes = await fetch(`/api/products?t=${Date.now()}`);
-          const listData = await listRes.json();
-          const list = Array.isArray(listData) ? listData : (listData?.products || []);
-          const cleanParam = decodeURIComponent(params.slug || "").toLowerCase().trim();
-          const found = list.find((p: any) =>
-            p.slug?.toLowerCase() === cleanParam ||
-            p.id?.toLowerCase() === cleanParam ||
-            (p.partNumber || p.sku || "").toLowerCase() === cleanParam
-          );
-          if (!isMounted) return;
-
-          if (!found || found.deleted || found.purged || found.is_hidden) {
+        if (!found || found.deleted || found.purged || found.is_hidden) {
+          if (!initialItem) {
             setIsArchived(true);
             setProduct(null);
-          } else {
-            setProduct(found);
-            setIsArchived(false);
           }
-        } catch (_) {
-          if (!initialItem) setIsArchived(true);
-        } finally {
-          if (isMounted) setIsLoading(false);
+        } else {
+          setProduct(found);
+          setIsArchived(false);
         }
+      } catch (err) {
+        if (!initialItem) setIsArchived(true);
+      } finally {
+        if (isMounted) setIsLoading(false);
       }
     };
 
