@@ -28,24 +28,27 @@ export default function StyleHubEditorsCut() {
     <section className="container-x mt-24 md:mt-32">
       <div className="flex items-end justify-between gap-6 mb-8 md:mb-10">
         <div>
-          <div className="eyebrow mb-2.5">Editor&apos;s Cut</div>
-          <h2 className="font-display text-3xl md:text-5xl leading-[0.95] tracking-tight max-w-xl text-foreground">
+          <div className="eyebrow mb-2.5 flex items-center gap-1.5">
+            <span>✦</span>
+            <span>Editor&apos;s Cut</span>
+          </div>
+          <h2 className="font-jost font-light text-2xl sm:text-3xl md:text-4xl uppercase tracking-[0.05em] leading-snug max-w-xl text-[#171717] dark:text-foreground">
             The Featured Edit
           </h2>
         </div>
 
-        {/* Carousel Navigation Arrows */}
+        {/* Carousel Navigation Arrows - Gulmohar Pill Radii */}
         <div className="flex items-center gap-2">
           <button
             onClick={scrollLeft}
-            className="p-2.5 border border-foreground/20 hover:border-foreground text-foreground transition-colors cursor-pointer"
+            className="p-2.5 rounded-full border border-[#DEE2E6] hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] text-foreground transition-colors cursor-pointer shadow-sm hover:scale-105 active:scale-95"
             aria-label="Previous Slide"
           >
             <ChevronLeft size={16} strokeWidth={1.5} />
           </button>
           <button
             onClick={scrollRight}
-            className="p-2.5 border border-foreground/20 hover:border-foreground text-foreground transition-colors cursor-pointer"
+            className="p-2.5 rounded-full border border-[#DEE2E6] hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] text-foreground transition-colors cursor-pointer shadow-sm hover:scale-105 active:scale-95"
             aria-label="Next Slide"
           >
             <ChevronRight size={16} strokeWidth={1.5} />

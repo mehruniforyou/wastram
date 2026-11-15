@@ -109,7 +109,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             aria-label="Wastram Home"
           >
             <img
-              src="/images/brand/wastram-header-logo-trimmed.png"
+              src="/images/brand/wastram-header-logo-primary.png"
               alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
               className="h-8 sm:h-9 md:h-11 w-auto object-contain dark:brightness-125 transition-transform duration-300 group-hover:scale-102"
             />
@@ -179,7 +179,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             {/* WhatsApp Concierge Button (Desktop) */}
             <button
               onClick={handleWhatsAppConcierge}
-              className="hidden sm:inline-flex items-center gap-1.5 ml-2 px-3 py-1.5 border border-foreground/20 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] text-foreground text-[11px] uppercase tracking-widerest transition-colors cursor-pointer font-medium"
+              className="hidden sm:inline-flex items-center gap-1.5 ml-2 px-3.5 py-1.5 rounded-full border border-foreground/20 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] text-foreground text-[11px] uppercase tracking-widerest transition-colors cursor-pointer font-medium"
             >
               <MessageCircle size={13} className="text-[#25D366] shrink-0" />
               <span>Concierge</span>
@@ -208,7 +208,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                   className="block py-1"
                 >
                   <img
-                    src="/images/brand/wastram-header-logo-trimmed.png"
+                    src="/images/brand/wastram-header-logo-primary.png"
                     alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
                     className="h-8 w-auto object-contain dark:brightness-125"
                   />

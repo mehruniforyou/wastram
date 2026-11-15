@@ -81,20 +81,20 @@ function ProductsCatalogContent() {
       <main className="flex-1 pt-24 md:pt-28 pb-20">
         <div className="container-x">
           {/* Page Heading */}
-          <div className="pt-8 md:pt-12 pb-8 border-b border-foreground/10">
+          <div className="pt-8 md:pt-12 pb-8 border-b border-[#DEE2E6] dark:border-white/10">
             <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
               <span>✦</span>
               <span>The Collection</span>
             </div>
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
               <div>
-                <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-[#0B2D7F] dark:text-foreground">
+                <h1 className="font-jost font-light text-3xl sm:text-4xl md:text-5xl uppercase tracking-[0.05em] leading-[1.1] text-[#171717] dark:text-foreground">
                   {selectedCategory === 'all'
                     ? 'All Silhouettes'
                     : CATEGORIES.find((c) => c.slug === selectedCategory)?.name ||
                       'Atelier Collection'}
                 </h1>
-                <p className="mt-3 text-sm text-foreground/70 max-w-xl font-body">
+                <p className="mt-3 text-sm text-[#404040] dark:text-foreground/70 max-w-xl font-body">
                   Curated wholesale catalogue crafted in Jaipur. Each piece is tailored
                   for export-grade quality, comfort, and commercial durability.
                 </p>
@@ -107,8 +107,8 @@ function ProductsCatalogContent() {
           </div>
 
           {/* Filter Bar */}
-          <div className="py-6 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 border-b border-foreground/10">
-            {/* Category Chips (Horizontal Scroll) */}
+          <div className="py-6 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 border-b border-[#DEE2E6] dark:border-white/10">
+            {/* Category Chips (Horizontal Scroll) - Gulmohar Pill Radii */}
             <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-2 md:pb-0">
               <button
                 type="button"
@@ -116,10 +116,10 @@ function ProductsCatalogContent() {
                   setSelectedCategory('all');
                   setActiveFilter('all');
                 }}
-                className={`px-3.5 py-1.5 text-xs uppercase tracking-wider transition-all whitespace-nowrap cursor-pointer ${
+                className={`px-4 py-1.5 rounded-full text-xs uppercase tracking-wider transition-all whitespace-nowrap cursor-pointer ${
                   selectedCategory === 'all' && activeFilter === 'all'
-                    ? 'bg-[#0B2D7F] text-white font-semibold shadow-soft'
-                    : 'border border-foreground/15 text-foreground/80 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37]'
+                    ? 'bg-[#0B2D7F] text-white font-semibold shadow-sm'
+                    : 'border border-[#DEE2E6] dark:border-white/15 text-foreground/80 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37]'
                 }`}
               >
                 All Departments
@@ -133,10 +133,10 @@ function ProductsCatalogContent() {
                     setSelectedCategory(cat.slug);
                     setActiveFilter('all');
                   }}
-                  className={`px-3.5 py-1.5 text-xs uppercase tracking-wider transition-all whitespace-nowrap cursor-pointer ${
+                  className={`px-4 py-1.5 rounded-full text-xs uppercase tracking-wider transition-all whitespace-nowrap cursor-pointer ${
                     selectedCategory === cat.slug
-                      ? 'bg-[#0B2D7F] text-white font-semibold shadow-soft'
-                      : 'border border-foreground/15 text-foreground/80 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37]'
+                      ? 'bg-[#0B2D7F] text-white font-semibold shadow-sm'
+                      : 'border border-[#DEE2E6] dark:border-white/15 text-foreground/80 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37]'
                   }`}
                 >
                   {cat.name}
@@ -153,7 +153,7 @@ function ProductsCatalogContent() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}
-                className="bg-transparent border border-foreground/15 text-xs uppercase tracking-wider px-3 py-1.5 text-foreground outline-none cursor-pointer focus:border-foreground"
+                className="bg-transparent border border-[#DEE2E6] dark:border-white/15 rounded-full text-xs uppercase tracking-wider px-3.5 py-1.5 text-foreground outline-none cursor-pointer focus:border-[#0B2D7F]"
               >
                 <option value="featured" className="bg-background text-foreground">
                   Featured

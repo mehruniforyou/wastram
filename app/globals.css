@@ -6,26 +6,26 @@
 
 :root {
   color-scheme: light;
-  --background: 45 20% 98%;
-  --foreground: 223 84% 18%;
+  --background: 0 0% 100%;
+  --foreground: 0 0% 9%;
   --card: 0 0% 100%;
-  --card-foreground: 223 84% 18%;
+  --card-foreground: 0 0% 9%;
   --popover: 0 0% 100%;
-  --popover-foreground: 223 84% 18%;
+  --popover-foreground: 0 0% 9%;
   --primary: 223 84% 27%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 40 14% 95%;
-  --secondary-foreground: 223 84% 18%;
-  --muted: 40 12% 91%;
-  --muted-foreground: 223 20% 45%;
+  --secondary: 40 14% 96%;
+  --secondary-foreground: 0 0% 9%;
+  --muted: 210 14% 89%;
+  --muted-foreground: 0 0% 25%;
   --accent: 223 45% 94%;
-  --accent-foreground: 223 84% 18%;
+  --accent-foreground: 0 0% 9%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
-  --border: 223 25% 88%;
-  --input: 223 25% 88%;
+  --border: 210 14% 89%;
+  --input: 210 14% 89%;
   --ring: 223 84% 27%;
-  --radius: 0px;
+  --radius: 9999px;
   --gold: 45 64% 52%;
 
   --sidebar-background: 0 0% 99%;
@@ -34,40 +34,42 @@
   --sidebar-primary-foreground: 0 0% 98%;
   --sidebar-accent: 223 45% 94%;
   --sidebar-accent-foreground: 223 84% 18%;
-  --sidebar-border: 223 25% 88%;
+  --sidebar-border: 210 14% 89%;
   --sidebar-ring: 223 84% 27%;
   --sidebar-width: 16rem;
   --sidebar-width-mobile: 18rem;
   --sidebar-width-icon: 3rem;
 
-  --color-brand-brown: #0B2D7F;
   --color-brand-navy: #0B2D7F;
-  --color-brand-red: #F58220;
   --color-brand-gold: #D4AF37;
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-display: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-archivo: 'Manrope', sans-serif;
-  --font-jost: 'Manrope', sans-serif;
+  --color-brand-pink: #F4A7B7;
+  --color-brand-charcoal: #171717;
+  --color-brand-graphite: #404040;
+  --color-brand-outline: #DEE2E6;
+  --font-serif: 'Jost', sans-serif;
+  --font-display: 'Jost', sans-serif;
+  --font-sans: 'Jost', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-archivo: 'Jost', sans-serif;
+  --font-jost: 'Jost', sans-serif;
 }
 
 .dark {
   --background: 223 50% 6%;
-  --foreground: 40 20% 96%;
+  --foreground: 0 0% 96%;
   --card: 223 45% 9%;
-  --card-foreground: 40 20% 96%;
+  --card-foreground: 0 0% 96%;
   --popover: 223 45% 9%;
-  --popover-foreground: 40 20% 96%;
+  --popover-foreground: 0 0% 96%;
   --primary: 45 64% 52%;
   --primary-foreground: 223 84% 18%;
   --secondary: 223 30% 12%;
-  --secondary-foreground: 40 20% 96%;
+  --secondary-foreground: 0 0% 96%;
   --muted: 223 30% 15%;
-  --muted-foreground: 223 20% 65%;
+  --muted-foreground: 0 0% 65%;
   --accent: 223 30% 16%;
-  --accent-foreground: 40 20% 96%;
+  --accent-foreground: 0 0% 96%;
   --destructive: 0 62% 45%;
-  --destructive-foreground: 40 20% 96%;
+  --destructive-foreground: 0 0% 96%;
   --border: 223 30% 18%;
   --input: 223 30% 18%;
   --ring: 45 64% 52%;
@@ -95,7 +97,7 @@ html {
 }
 
 html:not(.dark) {
-  background-color: #FAF9F6;
+  background-color: #FFFFFF;
   color-scheme: light;
 }
 
@@ -106,7 +108,8 @@ html.dark {
 
 body {
   font-family: var(--font-sans);
-  color: #121212;
+  color: #171717;
+  background-color: #FFFFFF;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -432,35 +435,37 @@ body::-webkit-scrollbar-thumb {
   animation: goldGlowPulse 3s infinite;
 }
 
-/* Jost Headings and Tracking */
+/* Jost Typography System (Cloned from Gulmohar Jaipur + Wastram Brand) */
 .font-jost {
-  font-family: 'Manrope', 'Jost', sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 .heading-jost {
-  font-family: 'Manrope', 'Jost', sans-serif;
+  font-family: 'Jost', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
-/* === StyleHub Design System Tokens & Utilities === */
+/* === StyleHub & Gulmohar Design System Tokens & Utilities === */
 .font-display {
-  font-family: 'Playfair Display', ui-serif, Georgia, serif;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 0.04em;
 }
 
 .font-body {
-  font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 .eyebrow {
-  color: #7e7872;
-  color: hsl(var(--muted-foreground));
-  font-size: 0.75rem;
+  color: #D4AF37;
+  font-family: 'Jost', sans-serif;
+  font-size: 14.5px;
   font-weight: 500;
-  line-height: 1rem;
+  line-height: 1.5;
   text-transform: uppercase;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.056em;
 }
 
 .container-x {
@@ -500,11 +505,11 @@ body::-webkit-scrollbar-thumb {
 .glass-header {
   -webkit-backdrop-filter: blur(24px) saturate(140%);
   backdrop-filter: blur(24px) saturate(140%);
-  background-color: rgba(251, 250, 246, 0.88);
+  background-color: rgba(255, 255, 255, 0.94);
 }
 
 .dark .glass-header {
-  background-color: rgba(10, 10, 10, 0.88);
+  background-color: rgba(10, 10, 10, 0.92);
 }
 
 .image-zoom-wrap {
@@ -521,27 +526,30 @@ body::-webkit-scrollbar-thumb {
   transform: scale(1.05);
 }
 
+/* Gulmohar Jaipur Style Pill Controls (Full 9999px Radius) */
 .btn-primary {
   align-items: center;
   background-color: #0B2D7F;
   color: #FFFFFF;
   display: inline-flex;
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
   gap: 0.5rem;
   justify-content: center;
-  letter-spacing: 0.22em;
-  line-height: 1rem;
-  padding: 0.875rem 1.75rem;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
   text-transform: uppercase;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 10px rgba(11, 45, 127, 0.15);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 10px rgba(11, 45, 127, 0.18);
 }
 
 .btn-primary:hover {
-  transform: translateY(-1px);
+  transform: translateY(-1.5px);
   background-color: #071F59;
-  box-shadow: 0 4px 18px rgba(11, 45, 127, 0.3);
+  box-shadow: 0 6px 20px rgba(11, 45, 127, 0.32);
 }
 
 .dark .btn-primary {
@@ -560,22 +568,24 @@ body::-webkit-scrollbar-thumb {
   color: #0B2D7F;
   background-color: transparent;
   display: inline-flex;
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
   gap: 0.5rem;
   justify-content: center;
-  letter-spacing: 0.22em;
-  line-height: 1rem;
-  padding: 0.875rem 1.75rem;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
   text-transform: uppercase;
-  transition: all 0.2s ease;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .btn-outline:hover {
-  transform: translateY(-1px);
+  transform: translateY(-1.5px);
   background-color: #0B2D7F;
   color: #FFFFFF;
-  box-shadow: 0 4px 16px rgba(11, 45, 127, 0.2);
+  box-shadow: 0 6px 18px rgba(11, 45, 127, 0.22);
 }
 
 .dark .btn-outline {

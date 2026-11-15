@@ -19,7 +19,7 @@ export default function FloatingWhatsApp() {
       {/* Expanded Dialogue Card */}
       {isOpen && (
         <div
-          className="mb-3 w-80 bg-background border border-foreground/15 shadow-2xl p-5"
+          className="mb-3 w-80 bg-background border border-[#DEE2E6] dark:border-white/15 rounded-2xl shadow-2xl p-5 backdrop-blur-md"
           data-testid="floating-whatsapp-panel"
         >
           <div className="flex items-start justify-between gap-3">
@@ -44,7 +44,7 @@ export default function FloatingWhatsApp() {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 btn-primary w-full text-center flex items-center justify-center gap-2"
+            className="mt-4 btn-primary w-full text-center flex items-center justify-center gap-2 rounded-full"
           >
             <svg
               className="w-4 h-4 fill-current shrink-0"
@@ -61,7 +61,7 @@ export default function FloatingWhatsApp() {
       {/* Floating Trigger Pill */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2.5 px-4 py-3 bg-[#25D366] hover:bg-[#1EBE5D] text-white shadow-2xl transition-all duration-300 cursor-pointer"
+        className="flex items-center gap-2.5 px-5 py-3 rounded-full bg-[#25D366] hover:bg-[#1EBE5D] text-white shadow-2xl transition-all duration-300 cursor-pointer animate-whatsapp-pulse active:scale-95"
         aria-label="Open WhatsApp Concierge"
       >
         <svg

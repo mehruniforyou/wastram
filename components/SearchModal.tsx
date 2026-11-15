@@ -42,7 +42,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
 
   return (
     <div className="fixed inset-0 z-[70] flex flex-col bg-black/60 backdrop-blur-sm">
-      <div className="w-full bg-[#FAF9F6] shadow-xl p-4 md:p-8 flex flex-col gap-6 max-h-[85vh] overflow-y-auto no-scrollbar">
+      <div className="w-full bg-white shadow-xl p-4 md:p-8 flex flex-col gap-6 max-h-[85vh] overflow-y-auto no-scrollbar">
         {/* Search Input Row */}
         <div className="max-w-4xl w-full mx-auto flex items-center justify-between gap-4 border-b-2 border-[#0B2D7F] pb-3">
           <div className="flex items-center gap-3 flex-1">
@@ -55,7 +55,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
               value={query}
               onChange={e => setQuery(e.target.value)}
               placeholder="Search for Kurtis, Sets, Tops, Pants, Fabrics..."
-              className="w-full bg-transparent text-lg md:text-xl font-archivo text-[#0B2D7F] placeholder:text-black/40 focus:outline-none"
+              className="w-full bg-transparent text-lg md:text-xl font-jost text-[#0B2D7F] placeholder:text-black/40 focus:outline-none"
             />
           </div>
 
@@ -73,7 +73,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         {/* Popular Tags */}
         {!query.trim() && (
           <div className="max-w-4xl w-full mx-auto flex flex-col gap-3">
-            <span className="text-xs font-archivo uppercase tracking-wider text-black/50 font-semibold">
+            <span className="text-xs font-jost uppercase tracking-wider text-black/50 font-semibold">
               Popular Searches
             </span>
             <div className="flex flex-wrap gap-2">
@@ -81,7 +81,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 <button
                   key={tag}
                   onClick={() => setQuery(tag)}
-                  className="px-4 py-1.5 rounded-full bg-white border border-black/10 text-xs font-archivo text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white transition-all shadow-sm"
+                  className="px-4 py-1.5 rounded-full bg-white border border-[#DEE2E6] text-xs font-jost text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white transition-all shadow-sm"
                 >
                   {tag}
                 </button>
@@ -93,13 +93,13 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
         {/* Search Results */}
         {query.trim() && (
           <div className="max-w-4xl w-full mx-auto">
-            <div className="flex items-center justify-between mb-4 text-xs font-archivo text-black/60">
-              <span>{filteredProducts.length} Results for "{query}"</span>
+            <div className="flex items-center justify-between mb-4 text-xs font-jost text-black/60">
+              <span>{filteredProducts.length} Results for &ldquo;{query}&rdquo;</span>
             </div>
 
             {filteredProducts.length === 0 ? (
-              <div className="py-12 text-center text-black/50 font-archivo">
-                <p className="text-sm">No styles found matching "{query}"</p>
+              <div className="py-12 text-center text-black/50 font-jost">
+                <p className="text-sm">No styles found matching &ldquo;{query}&rdquo;</p>
                 <button
                   onClick={() => setQuery('')}
                   className="mt-3 text-xs underline font-semibold text-[#0B2D7F]"
@@ -114,7 +114,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                     key={p.id}
                     href={`/products/${p.slug}`}
                     onClick={onClose}
-                    className="group flex flex-col bg-white rounded-lg overflow-hidden border border-black/5 shadow-sm hover:shadow-md transition-shadow"
+                    className="group flex flex-col bg-white rounded-xl overflow-hidden border border-[#DEE2E6] hover:border-[#0B2D7F]/40 shadow-sm hover:shadow-md transition-all"
                   >
                     <div className="relative aspect-[3/4] bg-[#F5F5F5] overflow-hidden">
                       <img
@@ -122,19 +122,21 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         alt={p.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
-                      <span className="absolute top-2 left-2 text-[10px] bg-[#F58220] text-white font-bold px-1.5 py-0.5 rounded">
-                        {p.badge}
-                      </span>
+                      {p.badge && (
+                        <span className="absolute top-2 left-2 text-[10px] bg-[#0B2D7F] text-white font-medium px-2 py-0.5 rounded-full border border-[#D4AF37]/35 shadow-sm">
+                          {p.badge}
+                        </span>
+                      )}
                     </div>
-                    <div className="p-2.5 flex flex-col gap-1">
-                      <h4 className="text-xs font-medium font-archivo text-black/80 line-clamp-1">
+                    <div className="p-3 flex flex-col gap-1.5">
+                      <h4 className="text-xs font-normal font-jost text-[#171717] line-clamp-1">
                         {p.title}
                       </h4>
-                      <div className="flex items-center gap-2 text-xs font-archivo mt-1">
-                        <span className="px-2 py-0.5 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-[10px] font-bold uppercase tracking-wider">
-                          Show Price
+                      <div className="flex items-center gap-2 text-xs font-jost mt-1">
+                        <span className="px-3 py-1 rounded-full bg-[#25D366] text-white text-[10px] font-medium tracking-wide flex items-center gap-1 shadow-sm">
+                          Enquire Now
                         </span>
-                        <span className="text-[10px] text-black/50">• {p.moq || 'MOQ 20 pcs'}</span>
+                        <span className="text-[10px] text-[#404040]">• {p.moq || 'MOQ 20 pcs'}</span>
                       </div>
                     </div>
                   </Link>

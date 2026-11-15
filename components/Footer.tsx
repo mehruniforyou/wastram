@@ -30,19 +30,19 @@ export default function Footer() {
 
   return (
     <footer
-      className="relative mt-24 md:mt-32 border-t border-black/10 dark:border-white/10 overflow-hidden text-foreground bg-[#FAF9F5] dark:bg-[#12100E]"
+      className="relative mt-24 md:mt-32 border-t border-[#DEE2E6] dark:border-white/10 overflow-hidden text-foreground bg-white dark:bg-[#12100E]"
       data-testid="site-footer"
     >
       {/* Background Royal Heritage Illustration (User Provided Fresco) */}
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-25 dark:opacity-15 pointer-events-none"
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-35 dark:opacity-20 pointer-events-none"
         style={{
           backgroundImage: "url('/images/footer-heritage-bg.jpg')",
         }}
       />
 
       {/* Gentle Gradient Wash for Ultimate Readability */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-background/90 via-background/80 to-background/95 pointer-events-none" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/85 via-white/75 to-white/90 dark:from-black/85 dark:via-black/75 dark:to-black/90 pointer-events-none" />
 
       {/* Main Footer Container */}
       <div className="relative z-10 container-x py-16 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
@@ -161,7 +161,7 @@ export default function Footer() {
 
           <form
             onSubmit={handleSubscribe}
-            className="mt-4 flex border border-foreground/30 bg-background/70 backdrop-blur-sm focus-within:border-foreground transition-colors"
+            className="mt-4 flex rounded-full border border-[#DEE2E6] dark:border-white/15 bg-white/90 dark:bg-black/40 backdrop-blur-sm focus-within:border-[#0B2D7F] dark:focus-within:border-[#D4AF37] transition-all overflow-hidden p-1 shadow-sm"
             data-testid="newsletter-form"
           >
             <input
@@ -170,12 +170,12 @@ export default function Footer() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="buyer@boutique.com"
-              className="flex-1 bg-transparent px-3.5 py-2.5 text-xs md:text-sm outline-none text-foreground placeholder:text-foreground/40 font-body"
+              className="flex-1 bg-transparent px-4 py-2 text-xs md:text-sm outline-none text-[#171717] dark:text-foreground placeholder:text-foreground/40 font-body"
               data-testid="newsletter-email"
             />
             <button
               type="submit"
-              className="bg-foreground text-background px-5 text-[11px] uppercase tracking-widerest font-medium hover:opacity-90 transition-opacity flex items-center gap-1 shrink-0"
+              className="bg-[#0B2D7F] text-white rounded-full px-5 py-2 text-[11px] uppercase tracking-widerest font-medium hover:bg-[#071F59] transition-all flex items-center gap-1 shrink-0 shadow-sm"
               data-testid="newsletter-submit"
             >
               {isSubscribed ? (

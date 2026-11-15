@@ -22,7 +22,7 @@ export default function StyleHubCategories() {
           <Link
             key={cat.id}
             href={`/products?category=${cat.slug}`}
-            className="group image-zoom-wrap relative aspect-[3/4] bg-secondary border border-foreground/10 hover:border-[#D4AF37] transition-all duration-300 overflow-hidden block"
+            className="group image-zoom-wrap relative aspect-[3/4] bg-secondary border border-[#DEE2E6] dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] hover:shadow-cardHover transition-all duration-300 overflow-hidden block"
             data-testid={`home-cat-${cat.slug}`}
           >
             <img
@@ -36,7 +36,7 @@ export default function StyleHubCategories() {
 
             {/* Bottom Content */}
             <div className="absolute inset-x-0 bottom-0 p-3 sm:p-4 text-white">
-              <div className="font-display text-sm sm:text-base leading-tight font-medium drop-shadow-sm">
+              <div className="font-jost text-sm sm:text-base leading-tight font-medium drop-shadow-sm">
                 {cat.name}
               </div>
               <div className="mt-1 text-[10px] sm:text-[11px] text-white/80 uppercase tracking-wider flex items-center gap-1 group-hover:translate-x-1 transition-transform duration-300">

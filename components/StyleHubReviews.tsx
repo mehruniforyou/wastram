@@ -55,7 +55,7 @@ export default function StyleHubReviews() {
         {REVIEWS.map((review) => (
           <div
             key={review.id}
-            className="border border-foreground/10 p-8 bg-card flex flex-col justify-between hover:border-foreground/30 transition-colors"
+            className="border border-[#DEE2E6] dark:border-white/10 p-8 bg-card flex flex-col justify-between hover:border-[#0B2D7F]/40 dark:hover:border-[#D4AF37]/50 hover:shadow-cardHover transition-all duration-300"
             data-testid={`testimonial-${review.id}`}
           >
             <div>
@@ -72,16 +72,16 @@ export default function StyleHubReviews() {
               </div>
 
               {/* Quote */}
-              <blockquote className="font-display text-lg md:text-xl leading-relaxed text-foreground/90">
+              <blockquote className="font-jost text-base md:text-lg leading-relaxed text-[#171717] dark:text-foreground/90 font-light italic">
                 &ldquo;{review.quote}&rdquo;
               </blockquote>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-foreground/10">
-              <div className="font-display font-medium text-base text-foreground">
+            <div className="mt-8 pt-6 border-t border-[#DEE2E6] dark:border-white/10">
+              <div className="font-jost font-medium text-base text-[#171717] dark:text-foreground">
                 {review.author}
               </div>
-              <div className="mt-0.5 text-xs text-foreground/60 font-body">
+              <div className="mt-0.5 text-xs text-[#404040] dark:text-foreground/60 font-body">
                 {review.role} · {review.location}
               </div>
             </div>

@@ -24,7 +24,7 @@ export default function StyleHubSectionHeader({
           <span>✦</span>
           <span>{eyebrow}</span>
         </div>
-        <h2 className="font-display text-3xl md:text-5xl leading-[0.95] tracking-tight max-w-xl text-[#0B2D7F] dark:text-foreground">
+        <h2 className="font-jost font-light text-2xl sm:text-3xl md:text-4xl uppercase tracking-[0.05em] leading-snug max-w-xl text-[#171717] dark:text-foreground">
           {title}
         </h2>
       </div>

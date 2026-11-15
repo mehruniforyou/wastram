@@ -35,7 +35,7 @@ export default function StyleHubPromoBanner() {
               Direct Jaipur atelier sourcing for global boutique owners. Enjoy
               exclusive MOQ slabs, door-to-door air freight, and customized private labeling.
             </p>
-            <div className="mt-5 sm:mt-7 inline-block border border-white text-white px-5 sm:px-6 py-2.5 sm:py-3 text-[11px] sm:text-xs uppercase tracking-widerest font-semibold transition-all duration-200 group-hover:bg-[#D4AF37] group-hover:border-[#D4AF37] group-hover:text-[#071F59]">
+            <div className="mt-5 sm:mt-7 inline-block rounded-full border border-white text-white px-6 sm:px-8 py-2.5 sm:py-3 text-[11px] sm:text-xs uppercase tracking-widerest font-semibold transition-all duration-200 group-hover:bg-[#D4AF37] group-hover:border-[#D4AF37] group-hover:text-[#071F59]">
               View Wholesale Terms &amp; Offers →
             </div>
           </div>

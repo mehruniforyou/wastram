@@ -65,33 +65,33 @@ export default function StyleHubOffers() {
         {OFFERS.map((offer) => (
           <div
             key={offer.id}
-            className="border border-foreground/10 hover:border-[#0B2D7F]/30 dark:hover:border-[#D4AF37]/40 hover:shadow-cardHover p-8 bg-card flex flex-col justify-between transition-all duration-300"
+            className="border border-[#DEE2E6] dark:border-white/10 hover:border-[#0B2D7F]/30 dark:hover:border-[#D4AF37]/40 hover:shadow-cardHover p-8 bg-card flex flex-col justify-between transition-all duration-300"
             data-testid={`home-offer-${offer.id}`}
           >
             <div>
               <div className="eyebrow text-[#D4AF37] font-mono font-bold tracking-widest">
                 {offer.code}
               </div>
-              <h3 className="font-display text-2xl md:text-3xl mt-3 text-[#0B2D7F] dark:text-foreground leading-snug">
+              <h3 className="font-jost text-xl md:text-2xl mt-3 text-[#171717] dark:text-foreground font-light uppercase tracking-wide leading-snug">
                 {offer.title}
               </h3>
-              <p className="mt-3 text-sm text-foreground/70 leading-relaxed font-body">
+              <p className="mt-3 text-sm text-[#404040] dark:text-foreground/70 leading-relaxed font-body">
                 {offer.description}
               </p>
 
-              <div className="mt-4 p-3 bg-secondary/60 border border-foreground/5 text-xs text-foreground/90 font-medium">
+              <div className="mt-4 px-4 py-2 rounded-full bg-secondary/80 border border-[#DEE2E6]/60 dark:border-white/5 text-xs text-[#0B2D7F] dark:text-[#D4AF37] font-medium inline-block">
                 ✦ {offer.benefit}
               </div>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-foreground/10 flex items-center justify-between">
-              <span className="text-[11px] text-foreground/50 uppercase tracking-wider">
+            <div className="mt-8 pt-6 border-t border-[#DEE2E6] dark:border-white/10 flex items-center justify-between">
+              <span className="text-[11px] text-[#404040]/70 dark:text-foreground/50 uppercase tracking-wider">
                 {offer.validity}
               </span>
               <button
                 type="button"
                 onClick={() => handleClaimOffer(offer)}
-                className="text-xs uppercase tracking-widerest font-semibold link-underline text-[#0B2D7F] dark:text-[#D4AF37] hover:text-[#D4AF37] cursor-pointer"
+                className="rounded-full px-4 py-1.5 border border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37] dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-[#071F59] text-[11px] uppercase tracking-widerest font-medium transition-all cursor-pointer shadow-sm active:scale-95"
               >
                 Claim Terms →
               </button>

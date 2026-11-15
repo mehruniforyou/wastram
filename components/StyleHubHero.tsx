@@ -28,7 +28,7 @@ export default function StyleHubHero() {
               className="w-full h-full object-cover object-top"
             />
             {/* Subtle Royal Atelier Tag */}
-            <div className="absolute top-4 left-4 z-10 bg-white/95 dark:bg-[#071F59]/95 backdrop-blur-md px-3.5 py-1.5 border border-[#D4AF37]/35 shadow-soft">
+            <div className="absolute top-4 left-4 z-10 bg-white/95 dark:bg-[#071F59]/95 backdrop-blur-md px-4 py-1.5 rounded-full border border-[#D4AF37]/35 shadow-soft">
               <span className="eyebrow text-[10px] tracking-widerest text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
                 👑 Jaipur Atelier · Est. 2011
               </span>
@@ -43,7 +43,7 @@ export default function StyleHubHero() {
             <span>Autumn / Winter &apos;26 Atelier</span>
           </div>
 
-          <h1 className="font-display font-medium text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[0.92] tracking-tighter text-[#0B2D7F] dark:text-foreground">
+          <h1 className="font-jost font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.08] tracking-[0.05em] uppercase text-[#0B2D7F] dark:text-foreground">
             A quiet study
             <br />
             in form, fabric

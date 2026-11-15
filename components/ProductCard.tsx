@@ -39,7 +39,7 @@ Please share your wholesale catalog, MOQ slabs, and bulk pricing.`;
 
   return (
     <div
-      className="group block relative bg-card border border-foreground/10 hover:border-[#0B2D7F]/40 dark:hover:border-[#D4AF37]/50 hover:shadow-cardHover transition-all duration-300"
+      className="group block relative bg-card border border-[#DEE2E6] dark:border-white/10 hover:border-[#0B2D7F]/40 dark:hover:border-[#D4AF37]/50 hover:shadow-cardHover transition-all duration-300"
       data-testid={`product-card-${product.slug || product.id}`}
     >
       {/* 1. Image with StyleHub Zoom Wrap (Aspect 4/5) */}
@@ -54,10 +54,10 @@ Please share your wholesale catalog, MOQ slabs, and bulk pricing.`;
           className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105 will-change-transform"
         />
 
-        {/* Minimal Royal Badges */}
+        {/* Minimal Royal Badges - Gulmohar Pill Radii */}
         {(product.badge || product.new_arrival) && (
           <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
-            <span className="bg-[#0B2D7F] text-white text-[10px] uppercase tracking-widerest font-medium px-2 py-0.5 border border-[#D4AF37]/30 shadow-sm">
+            <span className="bg-[#0B2D7F] text-white text-[10px] uppercase tracking-widerest font-medium px-2.5 py-0.5 rounded-full border border-[#D4AF37]/30 shadow-sm">
               {product.badge || 'New'}
             </span>
           </div>
@@ -67,19 +67,19 @@ Please share your wholesale catalog, MOQ slabs, and bulk pricing.`;
       {/* 2. Product Meta & Strictly ONLY Enquire Now Button */}
       <div className="p-4 flex flex-col">
         <Link href={`/products/${product.slug}`} className="block">
-          <h3 className="font-display text-base md:text-lg leading-tight line-clamp-1 group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors">
+          <h3 className="font-jost text-[16px] font-normal leading-snug line-clamp-1 group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors text-[#171717] dark:text-foreground">
             {product.title}
           </h3>
-          <p className="mt-1 text-xs text-foreground/60 uppercase tracking-wider line-clamp-1">
+          <p className="mt-1 text-[14px] text-[#404040] dark:text-foreground/60 font-light uppercase tracking-wider line-clamp-1">
             {product.fabric || product.category || 'Jaipur Handloom'}
           </p>
         </Link>
 
-        {/* Single High-Contrast Enquire Now Button with WhatsApp Icon */}
+        {/* Single High-Contrast Enquire Now Button with WhatsApp Icon (Gulmohar Pill Shape 9999px) */}
         <button
           type="button"
           onClick={handleWhatsAppEnquiry}
-          className="mt-3.5 w-full inline-flex items-center justify-center gap-2 py-2.5 px-3 bg-[#25D366] hover:bg-[#1EBE5D] text-white text-[11px] font-semibold uppercase tracking-widerest transition-colors duration-200 cursor-pointer shadow-sm active:scale-98"
+          className="mt-3.5 w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-full bg-[#25D366] hover:bg-[#1EBE5D] text-white text-[12px] font-medium tracking-wider transition-all duration-200 cursor-pointer shadow-sm active:scale-98"
           aria-label={`Enquire about ${product.title} on WhatsApp`}
         >
           <svg
