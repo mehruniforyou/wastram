@@ -238,8 +238,8 @@ export default function EditOrderModal({
         copy[index] = {
           ...copy[index],
           productId: "custom",
-          productName: "Individuelles Spezial-Audioteil",
-          variantName: "Individuelle Spezifikation",
+          productName: "Custom Atelier Apparel Style",
+          variantName: "Custom Style Specification",
         };
         return copy;
       });
@@ -938,7 +938,7 @@ export default function EditOrderModal({
             </div>
 
             <div className="sm:col-span-2">
-              <label className={labelClass}>Interne Notizen / Technische Spezifikationen</label>
+              <label className={labelClass}>Internal Notes / Custom Specifications</label>
               <textarea
                 rows={2}
                 placeholder="e.g. Custom boutique packaging or special fabric folding instructions."

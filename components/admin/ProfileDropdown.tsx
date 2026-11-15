@@ -99,7 +99,7 @@ export function ProfileDropdown({ onSelectTab, onLogout }: ProfileDropdownProps)
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
-            <AlertDialogCancel>Abbrechen</AlertDialogCancel>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
             <AlertDialogAction
               onClick={() => {
                 setOpen(false)

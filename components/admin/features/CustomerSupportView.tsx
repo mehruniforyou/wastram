@@ -446,7 +446,7 @@ export function CustomerSupportView({
             }`}
           >
             <div className='flex items-center justify-between text-muted-foreground text-xs font-bold uppercase'>
-              <span>Alle Tickets</span>
+              <span>All Tickets</span>
               <Headphones size={15} />
             </div>
             <p className='text-2xl sm:text-3xl font-mono font-black mt-1 text-foreground'>
@@ -537,7 +537,7 @@ export function CustomerSupportView({
               onChange={(e) => setStatusFilter(e.target.value)}
               className='h-9 px-3 rounded-lg border-2 border-border bg-background text-xs font-medium cursor-pointer focus:outline-none focus:border-[#3628e6]'
             >
-              <option value='all'>Alle Status ({tickets.length})</option>
+              <option value='all'>All Statuses ({tickets.length})</option>
               <option value='open'>Open Only ({stats.open})</option>
               <option value='in_progress'>In Progress ({stats.inProgress})</option>
               <option value='resolved'>Gelöst ({stats.resolved})</option>

@@ -10,9 +10,7 @@ export default function BodyMeasurementModal() {
   if (!isSizeGuideOpen) return null;
 
   const measurementsInch = [
-    { size: 'XXS', bust: '30-32', waist: '24-26', hip: '32-34' },
-    { size: 'XS', bust: '32-34', waist: '26-28', hip: '34-36' },
-    { size: 'S', bust: '34-36', waist: '28-30', hip: '36-38' },
+        { size: 'S', bust: '34-36', waist: '28-30', hip: '36-38' },
     { size: 'M', bust: '36-38', waist: '30-32', hip: '38-40' },
     { size: 'L', bust: '38-40', waist: '32-34', hip: '40-42' },
     { size: 'XL', bust: '40-42', waist: '34-36', hip: '42-44' },
@@ -20,9 +18,7 @@ export default function BodyMeasurementModal() {
   ];
 
   const measurementsCm = [
-    { size: 'XXS', bust: '76-81', waist: '61-66', hip: '81-86' },
-    { size: 'XS', bust: '81-86', waist: '66-71', hip: '86-91' },
-    { size: 'S', bust: '86-91', waist: '71-76', hip: '91-97' },
+        { size: 'S', bust: '86-91', waist: '71-76', hip: '91-97' },
     { size: 'M', bust: '91-97', waist: '76-81', hip: '97-102' },
     { size: 'L', bust: '97-102', waist: '81-86', hip: '102-107' },
     { size: 'XL', bust: '102-107', waist: '86-91', hip: '107-112' },

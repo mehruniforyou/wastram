@@ -58,7 +58,7 @@ export async function GET(req: NextRequest) {
             mainImage: primaryImage,
             images: ovr.images || (primaryImage ? [primaryImage] : []),
             colorVariants: ovr.colorVariants || [],
-            sizes: ovr.sizes || ["XS", "S", "M", "L", "XL", "XXL"],
+            sizes: ovr.sizes || ["S", "M", "L", "XL", "XXL"],
             fabric: ovr.fabric || "Pure Handloom Silk & Cotton",
             description: ovr.description || "",
             details: ovr.details || [],

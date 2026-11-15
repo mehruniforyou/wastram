@@ -115,7 +115,7 @@ export function OrderDetailDrawer({
     : [
         {
           productName: order.productName || order.product_name || "IXOS Audio Lautsprecherteil",
-          variantName: order.variantName || "Standard-Spezifikation",
+          variantName: order.variantName || "Standard Specification",
           quantity: order.quantity || 1,
           unitPrice: order.unitPrice || (order.total ? order.total / (order.quantity || 1) : 0),
           image: order.productImage || order.image || order.featured_image || null,
@@ -331,7 +331,7 @@ export function OrderDetailDrawer({
             <div className="divide-y divide-border">
               {itemsList.map((item: any, idx: number) => {
                 const pName = item.productName || item.name || item.title || "Style";
-                const vName = item.variantName || item.variant || "Standard-Spezifikation";
+                const vName = item.variantName || item.variant || "Standard Specification";
                 const qty = Number(item.quantity) || 1;
                 const unitPrice = Number(item.unitPrice || item.price || 0);
                 const lineTotal = unitPrice * qty;

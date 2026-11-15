@@ -267,7 +267,7 @@ function SidebarConfig() {
         ))}
       </Radio>
       <div id='sidebar-description' className='sr-only'>
-        Wählen Sie zwischen eingebetteter, schwebender oder Standard-Seitenleiste
+        Choose between eingebetteter, schwebender oder Standard-Seitenleiste
       </div>
     </div>
   )
@@ -325,7 +325,7 @@ function LayoutConfig() {
         ))}
       </Radio>
       <div id='layout-description' className='sr-only'>
-        Wählen Sie zwischen ausgeklapptem Standard-, kompaktem Symbol- oder Vollansicht-Modus
+        Choose between ausgeklapptem Standard-, kompaktem Symbol- oder Vollansicht-Modus
       </div>
     </div>
   )
@@ -368,7 +368,7 @@ function DirConfig() {
         ))}
       </Radio>
       <div id='direction-description' className='sr-only'>
-        Wählen Sie zwischen Links-nach-rechts oder Rechts-nach-links
+        Choose between Links-nach-rechts oder Rechts-nach-links
       </div>
     </div>
   )

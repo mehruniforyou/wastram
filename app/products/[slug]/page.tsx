@@ -142,7 +142,7 @@ export default function ProductDetailPage({ params }: Props) {
 
   const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const [selectedSize, setSelectedSize] = useState('XS');
+  const [selectedSize, setSelectedSize] = useState('S');
   const [measurementUnit, setMeasurementUnit] = useState<'inch' | 'cm'>('inch');
 
   const hasVariants = Boolean(product?.colorVariants && product.colorVariants.length > 0);
@@ -173,11 +173,11 @@ export default function ProductDetailPage({ params }: Props) {
   const { toggleWishlist, isWishlisted, openSizeGuide, openTapAndView } = useCart();
   const wishlisted = product ? isWishlisted(product.slug) : false;
 
-  const sizes = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
+  const sizes = ['S', 'M', 'L', 'XL', 'XXL'];
 
   const measurements = measurementUnit === 'inch'
-    ? { chest: '30-32', waist: '26-28', hip: '32-34', unit: 'Inch' }
-    : { chest: '76-81', waist: '66-71', hip: '81-86', unit: 'CM' };
+    ? { chest: '34-36', waist: '28-30', hip: '36-38', unit: 'Inch' }
+    : { chest: '86-91', waist: '71-76', hip: '91-97', unit: 'CM' };
 
   const relatedProducts = NISHORAMA_PRODUCTS.filter(p => !p.deleted && !p.is_hidden && p.id !== product?.id).slice(0, 4);
 

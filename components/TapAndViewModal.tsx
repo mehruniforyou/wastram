@@ -22,7 +22,7 @@ export default function TapAndViewModal() {
   if (!tapAndViewProduct) return null;
 
   const wishlisted = isWishlisted(tapAndViewProduct.slug);
-  const sizes = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
+  const sizes = ['S', 'M', 'L', 'XL', 'XXL'];
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     const { left, top, width, height } = e.currentTarget.getBoundingClientRect();

@@ -1509,7 +1509,7 @@ export function DashboardView({
     const headers = [
       'SKU / Teilenummer',
       'Produktname',
-      'Variante / Spezifikation',
+      'Variant / Specification',
       'Units Sold (Qty)',
       'Total Sales Revenue',
       'Currency',
@@ -2291,7 +2291,7 @@ export function DashboardView({
                   title={`Export complete reports for ${activePeriodLabel}`}
                 >
                   <Download className='w-3.5 h-3.5 me-1.5 shrink-0' />
-                  Alle exportieren
+                  Export All
                 </Button>
               </div>
             </div>

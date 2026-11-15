@@ -22,7 +22,8 @@ import EditOrderModal from "./components/EditOrderModal";
 import AdminDrawer from "./components/AdminDrawer";
 import { OrderDetailDrawer } from "./components/OrderDetailDrawer";
 import { formatOrderSerialNumber, generateOrderSerialNumber } from "@/utils/orderNumber";
-import { PRODUCTS as BASE_CATALOG_PRODUCTS } from "@/data/products";
+import { PRODUCTS as BASE_CATALOG_PRODUCTS, ColorVariant } from "@/data/products";
+import ColorVariantManager from "./components/ColorVariantManager";
 import { getProductNormalizedCategoryId } from "@/data/compatibility";
 import { isSurroundProduct, isCaseOrInlayProduct } from "@/utils/productLocalization";
 import { invalidateCategoriesCache } from "@/lib/clientCategoriesCache";
@@ -141,8 +142,16 @@ interface Product {
   category_name?: string;
   gallery?: string[];
   variants?: Variant[];
+  colorVariants?: ColorVariant[] | null;
+  sizes?: string[] | null;
+  fabric?: string | null;
+  craft?: string | null;
+  regularPrice?: number | null;
+  salePrice?: number | null;
+  mainImage?: string | null;
   shipping_rates?: Record<string, number> | null;
   translations?: Record<string, any> | null;
+  [key: string]: any;
 }
 
 interface Variant {
@@ -4555,7 +4564,7 @@ function AdminPageContent() {
                         </div>
 
                         {displayCategories.map(cat => {
-                          const inMemoryCount = products.filter(p => {
+                          const inMemoryMatchingProds = products.filter(p => {
                             const pCatId = getProductNormalizedCategoryId(p);
                             const catId = cat.id.toLowerCase().trim();
                             const catSlug = cat.slug.toLowerCase().trim();
@@ -4565,9 +4574,14 @@ function AdminPageContent() {
                               (catId === "dust-caps" && (pCatId === "dust-cap" || pCatId === "dust-caps")) ||
                               (catId === "surround-repair" && (pCatId === "surround-repair" || pCatId === "surround-repairs"))
                             );
-                          }).length;
+                          });
+                          const inMemoryCount = inMemoryMatchingProds.length;
                           const count = inMemoryCount > 0 ? inMemoryCount : ((cat as any).product_count || (cat as any).itemCount || 0);
-                          const img = cat.image_url || (cat as any).image || (cat as any).heroImage;
+                          const firstProd = inMemoryMatchingProds[0] || products.find(p => {
+                            const pCatId = getProductNormalizedCategoryId(p);
+                            return pCatId === cat.id.toLowerCase().trim() || pCatId === cat.slug.toLowerCase().trim();
+                          });
+                          const img = cat.image_url || (cat as any).image || (cat as any).heroImage || (firstProd as any)?.mainImage || (firstProd as any)?.featured_image;
 
                           return (
                             <div
@@ -4811,7 +4825,7 @@ function AdminPageContent() {
                               onClick={() => { setProdCategoryFilter(""); setProdSearch(""); }}
                               className="px-4 py-2 bg-white border-2 border-neutral-200 hover:border-black text-black text-xs font-heading font-bold uppercase rounded-xl cursor-pointer transition-colors"
                             >
-                              Back zu allen Categories
+                              Back to All Categories
                             </button>
                             <button
                               type="button"
@@ -5006,7 +5020,7 @@ function AdminPageContent() {
                               <div className="flex items-center gap-2">
                                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
                                 <span className="text-xs font-heading font-black uppercase tracking-wider">
-                                  {selectedProdIds.length} {selectedProdIds.length === 1 ? "Product" : "Products"} ausgewählt
+                                  {selectedProdIds.length} {selectedProdIds.length === 1 ? "Product" : "Products"} selected
                                 </span>
                               </div>
 
@@ -5129,8 +5143,8 @@ function AdminPageContent() {
                               </h3>
                               <p className="text-xs text-neutral-500 font-medium leading-relaxed mt-1.5">
                                 {targetCategoryForAdd
-                                  ? `Beginnen Sie mit einem leeren Formular für ein neues Product direkt in "${targetCategoryForAdd.name}".`
-                                  : "Beginnen Sie mit einem leeren Formular für ein neues Teil, eigene Fotos, Spezifikationen und Gebrauchtpreis."}
+                                  ? `Start with a blank form for a new garment style directly in "${targetCategoryForAdd.name}".`
+                                  : "Start with a blank form for a new style, custom photos, specifications, and wholesale pricing."}
                               </p>
                             </div>
                             <div className="mt-5 pt-3 border-t border-neutral-100 flex items-center gap-1 text-xs font-heading font-bold uppercase tracking-wider text-black group-hover:translate-x-1 transition-transform">
@@ -5396,7 +5410,7 @@ function AdminPageContent() {
                                 }}
                                 className="px-3.5 py-1.5 rounded-xl border border-neutral-200 text-xs font-heading font-bold text-neutral-600 hover:text-black hover:border-black transition-colors cursor-pointer"
                               >
-                                ← Back zur Auswahl
+                                ← Back to Selection
                               </button>
                               <button
                                 type="button"
@@ -5713,7 +5727,7 @@ function AdminPageContent() {
                 {selectedOrderRowIds.length > 0 && (
                   <div className="px-6 py-2.5 flex items-center justify-between animate-fade-in border-b border-border/80 bg-muted/30">
                     <span className="text-xs text-muted-foreground font-medium">
-                      {selectedOrderRowIds.length} {selectedOrderRowIds.length === 1 ? "Order ausgewählt" : "Orders ausgewählt"}
+                      {selectedOrderRowIds.length} {selectedOrderRowIds.length === 1 ? "Order selected" : "Orders selected"}
                     </span>
                     <div className="flex items-center gap-2">
                       <Button
@@ -6156,14 +6170,14 @@ function AdminPageContent() {
               title={priceListStep === 1 ? "Download PDF Catalog" : "Preview & Customize Wholesale Prices"}
               subtitle={priceListStep === 1
                 ? "Select categories or specific styles for the B2B Wholesale Line Sheet."
-                : "Vorschau der nach Categories gruppierten Products mit individueller Priceanpassung vor der PDF-Generierung."}
+                : "Preview category line sheets with individual price adjustments prior to PDF generation."}
               badge={
                 <span className="text-[10px] normal-case bg-neutral-100 text-black px-2 py-0.5 rounded-full font-medium">
-                  Schritt {priceListStep} von 2
+                  Step {priceListStep} of 2
                 </span>
               }
               maxWidthClass="max-w-6xl"
-              backLabel="Back zu Productsn"
+              backLabel="Back to Products"
             >
 
                 {/* ═══════════════════════════════════════════════════════════ */}
@@ -6178,7 +6192,7 @@ function AdminPageContent() {
                           Select line sheet currencies (Default: INR ₹):
                         </label>
                         <span className="text-[10px] font-bold text-accent">
-                          {pdfSelectedCurrencies.length}/3 ausgewählt
+                          {pdfSelectedCurrencies.length}/3 selected
                         </span>
                       </div>
                       <div className="flex flex-wrap gap-2">
@@ -6284,7 +6298,7 @@ function AdminPageContent() {
                             <span className="text-xs font-bold uppercase text-foreground">Select All Categories</span>
                           </label>
                           <span className="text-[10px] font-semibold text-muted-foreground">
-                            {priceListSelectedCategoryIds.length} von {categories.length} ausgewählt
+                            {priceListSelectedCategoryIds.length} of {categories.length} selected
                           </span>
                         </div>
 
@@ -6320,7 +6334,7 @@ function AdminPageContent() {
                                       {catProdsCount} Styles
                                     </span>
                                   </div>
-                                  <p className="text-[9.5px] text-muted-foreground font-mono mt-0.5 truncate">Abschnitt {idx + 1} • /{cat.slug}</p>
+                                  <p className="text-[9.5px] text-muted-foreground font-mono mt-0.5 truncate">Section {idx + 1} • /{cat.slug}</p>
                                 </div>
                               </label>
                             );
@@ -6354,10 +6368,10 @@ function AdminPageContent() {
                         <div className="flex flex-wrap items-center justify-between gap-2 p-2.5 bg-card rounded-xl border border-border">
                           <div>
                             <p className="text-xs font-bold text-foreground">
-                              <span className="text-accent">{priceListSelectedProductIds.length}</span> Products ausgewählt
+                              <span className="text-accent">{priceListSelectedProductIds.length}</span> Styles selected
                             </p>
                             <p className="text-[9.5px] text-muted-foreground font-normal">
-                              {categories.filter(c => products.some(p => priceListSelectedProductIds.includes(p.id) && p.category_id === c.id)).length} Categories mit separaten PDF-Abschnitten
+                              {categories.filter(c => products.some(p => priceListSelectedProductIds.includes(p.id) && p.category_id === c.id)).length} categories with distinct PDF sections
                             </p>
                           </div>
                           <div className="flex items-center gap-1.5">
@@ -6442,12 +6456,12 @@ function AdminPageContent() {
                                     <div>
                                       <div className="flex items-center gap-2">
                                         <span className="text-[9.5px] font-bold px-1.5 py-0.5 rounded bg-black text-white uppercase tracking-wider">
-                                          Abschnitt {catIdx + 1}
+                                          Section {catIdx + 1}
                                         </span>
                                         <span className="text-xs font-bold text-foreground uppercase">{cat.name}</span>
                                       </div>
                                       <span className="text-[9.5px] text-slate-700">
-                                        {selectedInThisCat} von {catProds.length} Productsn ausgewählt
+                                        {selectedInThisCat} of {catProds.length} styles selected
                                       </span>
                                     </div>
                                   </div>
@@ -6974,7 +6988,7 @@ function AdminPageContent() {
                         className="py-2.5 px-4 bg-card border border-border hover:border-foreground text-foreground text-xs font-bold uppercase tracking-wider rounded-xl transition-colors flex items-center justify-center gap-2 cursor-pointer"
                       >
                         <ArrowLeft className="w-3.5 h-3.5" />
-                        <span>Back zur Auswahl</span>
+                        <span>Back to Selection</span>
                       </button>
                       <button 
                         onClick={handleGeneratePdfPriceList}
@@ -7069,15 +7083,15 @@ function AdminPageContent() {
             <AdminDrawer
               isOpen={Boolean(selectedOrderForInvoice)}
               onClose={() => setSelectedOrderForInvoice(null)}
-              title="B2B-Handelsdokumente &amp; Rechnungen"
-              subtitle={`Dokument: ${docModalType} • Bestell-Nr. ${selectedOrderForInvoice.orderId || selectedOrderForInvoice.order_number}`}
+              title="B2B Commercial Documents &amp; Invoices"
+              subtitle={`Document: ${docModalType} • Order No. ${selectedOrderForInvoice.orderId || selectedOrderForInvoice.order_number}`}
               badge={
                 <Badge variant="secondary" className="font-mono text-xs">
                   {docModalType}
                 </Badge>
               }
               maxWidthClass="max-w-6xl"
-              backLabel="Back zu Orders"
+              backLabel="Back to Orders"
             >
               <div id="printable-invoice-portal" className="text-left print:p-0 print:m-0">
                 <div id="printable-invoice-modal" className="space-y-4">
@@ -7525,9 +7539,9 @@ function CategoryFormModal({ category, onSave, onClose }: {
       isOpen={true}
       onClose={onClose}
       title={category ? "Edit Category" : "New Category"}
-      subtitle="Categoriesame, Slug, Description und Anzeigeeinstellungen anpassen."
+      subtitle="Customize category name, slug, description, and display settings."
       maxWidthClass="max-w-2xl"
-      backLabel="Back zu Categories"
+      backLabel="Back to Categories"
     >
       <form onSubmit={handleSubmit} className="space-y-5 text-xs font-sans">
         {/* Card 1: Category Info */}
@@ -7911,43 +7925,16 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
 }) {
   const specs = ((product?.technical_specs || (product as any)?.variants?.[0]?.specs || {}) as Record<string, string>);
 
-  // Extract Ohm
-  let initialOhm = (product as any)?.ohm || specs["Ohm"] || specs["ohm"] || specs["Impedanz"] || specs["Impedance"] || "";
-  if (!initialOhm && product?.name) {
-    const m = (product.name + " " + (product?.shortDescription || product?.short_desc || "")).match(/\b(\d+(?:[,.]\d+)?)\s*(?:ohm|Ω)\b/i);
-    if (m) initialOhm = `${m[1]} Ohm`;
-  }
-
-  // Extract Spule Durchmesser
-  let initialCoil = (product as any)?.craft || specs["Craft"] || specs["Weave"] || "";
-  if (!initialCoil && specs["Brand"] && /^[\d,.]+(?:\s*mm)?$/.test(specs["Brand"].trim())) {
-    initialCoil = specs["Brand"].trim();
-    if (!initialCoil.includes("mm")) initialCoil += " mm";
-  }
-  if (!initialCoil && product?.name) {
-    const m = (product.name + " " + (product?.shortDescription || product?.short_desc || "")).match(/\b(\d+(?:[,.]\d+)?)\s*(?:mm)\b/i);
-    if (m) initialCoil = `${m[1]} mm`;
-  }
-
-  // Extract Brand
-  let initialBrand = (product as any)?.brand || specs["Brand"] || "";
-  if (/^[\d,.]+(?:\s*mm)?$/.test(initialBrand.trim())) {
-    initialBrand = "Wastram";
-  }
-  if (!initialBrand) initialBrand = "Wastram";
-
-  // Extract Part Number / SKU
+  const initialBrand = product?.brand || specs["Brand"] || "Wastram Atelier";
   const initialPartNumber = (product as any)?.partNumber || (product as any)?.part_number || specs["Part Number"] || specs["SKU"] || product?.id || "";
-
-  // Extract Fitment
-  const initialFitment = (product as any)?.fitsModels || specs["Fitment"] || specs["Passend für"] || "";
+  const initialFabric = product?.fabric || specs["Fabric"] || specs["Material"] || "";
+  const initialCraft = (product as any)?.craft || specs["Craft"] || specs["Weave"] || specs["Work"] || "";
 
   // Banned / suppressed keys that should NEVER be added to the technical specs table:
   const suppressedSpecKeys = new Set([
     "brand", "marke", "hersteller", "manufacturer",
-    "fitment", "passend für", "passend fuer", "passend", "suitable for", "kompatibel mit", "kompatibel",
     "moq",
-    "warranty", "garantie", "warranty / garantie", "εγγύηση"
+    "warranty", "garantie", "warranty / garantie"
   ]);
 
   const resolvedInitialCatId = (() => {
@@ -7968,19 +7955,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
     return "";
   })();
 
-  const isSurround =
-    isSurroundProduct(product) ||
-    resolvedInitialCatId === "sicken" ||
-    resolvedInitialCatId === "surround-repair" ||
-    resolvedInitialCatId === "surrounds";
 
-  const isCaseOrInlay =
-    isCaseOrInlayProduct(product) ||
-    resolvedInitialCatId === "koffer" ||
-    resolvedInitialCatId === "inlays" ||
-    resolvedInitialCatId === "cases";
-
-  const requiresMasseAndMaterial = isSurround || isCaseOrInlay;
 
   // Build unified initial specs rows: loads all technical_specs directly into the editor table
   const initialSpecsRows: Array<{ key: string; value: string }> = [];
@@ -7989,46 +7964,25 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
   if (existingTechSpecs && typeof existingTechSpecs === "object" && Object.keys(existingTechSpecs).length > 0) {
     for (const [key, value] of Object.entries(existingTechSpecs)) {
       if (suppressedSpecKeys.has(key.toLowerCase().trim())) continue;
-      const isBlankAllowed = key.toLowerCase().trim() === "maße" || key.toLowerCase().trim() === "masse" || key.toLowerCase().trim() === "dimensions" || key.toLowerCase().trim() === "material";
-      if (value !== undefined && value !== null && (String(value).trim() !== "" || isBlankAllowed)) {
+      if (value !== undefined && value !== null && String(value).trim() !== "") {
         initialSpecsRows.push({ key, value: String(value) });
       }
     }
     const hasKey = (k: string) => initialSpecsRows.some(r => r.key.toLowerCase().trim() === k.toLowerCase().trim());
-    if (requiresMasseAndMaterial) {
-      if (!hasKey("Maße") && !hasKey("Dimensions") && !hasKey("Abmessungen") && !hasKey("masse")) {
-        initialSpecsRows.push({ key: "Maße", value: "" });
-      }
-      if (!hasKey("Material")) {
-        initialSpecsRows.push({ key: "Material", value: "" });
-      }
+    if (!hasKey("Fabric") && initialFabric) {
+      initialSpecsRows.push({ key: "Fabric", value: initialFabric });
     }
-    if (!hasKey("Ohm") && !hasKey("Impedanz") && initialOhm) {
-      initialSpecsRows.push({ key: "Ohm", value: initialOhm });
+    if (!hasKey("Craft") && initialCraft) {
+      initialSpecsRows.push({ key: "Craft", value: initialCraft });
     }
-    if (!hasKey("Spule Durchmesser") && !hasKey("Spulendurchmesser") && !hasKey("Voice Coil") && initialCoil) {
-      initialSpecsRows.push({ key: "Craft", value: initialCoil });
-    }
-    if (!hasKey("Part Number") && !hasKey("SKU") && initialPartNumber) {
-      initialSpecsRows.push({ key: "Part Number", value: initialPartNumber });
+    if (!hasKey("SKU") && !hasKey("Part Number") && initialPartNumber) {
+      initialSpecsRows.push({ key: "SKU", value: initialPartNumber });
     }
   } else {
-    // New product or product without explicit technical_specs
-    initialSpecsRows.push({ key: "Condition", value: "Brand New (Artisanal)" });
-    if (requiresMasseAndMaterial) {
-      initialSpecsRows.push({ key: "Maße", value: "" });
-      initialSpecsRows.push({ key: "Material", value: "" });
-    }
-    if (initialOhm) initialSpecsRows.push({ key: "Ohm", value: initialOhm });
-    if (initialCoil) initialSpecsRows.push({ key: "Craft", value: initialCoil });
-    if (initialPartNumber) initialSpecsRows.push({ key: "Part Number", value: initialPartNumber });
-    for (const [k, v] of Object.entries(specs)) {
-      if (suppressedSpecKeys.has(k.toLowerCase().trim())) continue;
-      const isBlankAllowed = k.toLowerCase().trim() === "maße" || k.toLowerCase().trim() === "masse" || k.toLowerCase().trim() === "dimensions" || k.toLowerCase().trim() === "material";
-      if (!initialSpecsRows.some(r => r.key.toLowerCase().trim() === k.toLowerCase().trim()) && v !== undefined && v !== null && (String(v).trim() !== "" || isBlankAllowed)) {
-        initialSpecsRows.push({ key: k, value: String(v) });
-      }
-    }
+    initialSpecsRows.push({ key: "Condition", value: "Brand New (Export Grade)" });
+    if (initialFabric) initialSpecsRows.push({ key: "Fabric", value: initialFabric });
+    if (initialCraft) initialSpecsRows.push({ key: "Craft", value: initialCraft });
+    if (initialPartNumber) initialSpecsRows.push({ key: "SKU", value: initialPartNumber });
   }
 
   const initialTag = (product as any)?.tag || product?.seo_meta?.badge_text || "";
@@ -8045,12 +7999,30 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
     tag: initialTag,
     brand: initialBrand || "Wastram",
     partNumber: initialPartNumber,
-    ohm: initialOhm,
-    spule_durchmesser: initialCoil,
+    ohm: "",
+    spule_durchmesser: "",
     fitment: "",
     applications: product?.applications || (product as any)?.fitsModels || "",
     tags: (product?.tags || []).join(", "),
     price: product?.price?.toString() || (product as any)?.variants?.[0]?.price?.toString() || "",
+    regularPrice: product?.regularPrice?.toString() || "",
+    salePrice: product?.salePrice?.toString() || product?.price?.toString() || "",
+    fabric: product?.fabric || "",
+    craft: (product as any)?.craft || "",
+    moq: product?.moq || "50 Pcs (Wholesale Pack)",
+    sizes: (Array.isArray(product?.sizes) && product!.sizes.length > 0)
+      ? product!.sizes.filter(s => ['S', 'M', 'L', 'XL', 'XXL'].includes(s.toUpperCase()))
+      : ['S', 'M', 'L', 'XL', 'XXL'],
+    colorVariants: (Array.isArray(product?.colorVariants) && product!.colorVariants.length > 0)
+      ? product!.colorVariants
+      : ((Array.isArray((product as any)?.variants) && (product as any).variants.length > 0)
+        ? (product as any).variants.map((v: any, idx: number) => ({
+            id: v.id || `var-${idx}`,
+            name: v.name || "Default Color",
+            colorCode: v.colorCode || "#1A1A1A",
+            images: Array.isArray(v.images) ? v.images : []
+          }))
+        : []),
     shipping_rates: {
       de: initialShippingRates.de !== undefined ? String(initialShippingRates.de) : (initialShippingRates["DE"] !== undefined ? String(initialShippingRates["DE"]) : ""),
       eu: initialShippingRates.eu !== undefined ? String(initialShippingRates.eu) : (initialShippingRates["EU"] !== undefined ? String(initialShippingRates["EU"]) : ""),
@@ -8122,8 +8094,8 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
       }
 
       // Sync top-level product schema attributes from technical_specs
-      const extractedOhm = technical_specs["Ohm"] || technical_specs["ohm"] || technical_specs["Impedanz"] || technical_specs["Impedance"] || null;
-      const extractedCoil = technical_specs["Craft"] || technical_specs["craft"] || technical_specs["Weave"] || null;
+      const extractedFabric = technical_specs["Fabric"] || technical_specs["fabric"] || technical_specs["Material"] || form.fabric.trim() || null;
+      const extractedCraft = technical_specs["Craft"] || technical_specs["craft"] || technical_specs["Weave"] || form.craft.trim() || null;
       const extractedPartNumber = technical_specs["Part Number"] || technical_specs["part number"] || technical_specs["SKU"] || technical_specs["sku"] || form.partNumber.trim() || product?.partNumber || null;
 
       const cleanSlug = generateProductSlug(form.name) || form.slug;
@@ -8162,10 +8134,17 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         tag: form.tag ? (form.tag as any) : undefined,
         applications: form.applications || null,
         fitsModels: null,
-        ohm: extractedOhm,
-        spule_durchmesser: extractedCoil,
+        ohm: null,
+        spule_durchmesser: null,
         tags: form.tags ? form.tags.split(",").map(t => t.trim()).filter(Boolean) : [],
-        price: form.price ? parseFloat(form.price) : null,
+        price: form.salePrice ? parseFloat(form.salePrice) : (form.price ? parseFloat(form.price) : null),
+        regularPrice: form.regularPrice ? parseFloat(form.regularPrice) : null,
+        salePrice: form.salePrice ? parseFloat(form.salePrice) : (form.price ? parseFloat(form.price) : null),
+        fabric: form.fabric || null,
+        craft: form.craft || null,
+        moq: form.moq || null,
+        sizes: form.sizes,
+        colorVariants: form.colorVariants,
         technical_specs: Object.keys(technical_specs).length > 0 ? technical_specs : null,
         shipping_rates: Object.keys(customShippingRates).length > 0 ? customShippingRates : null,
         sort_order: form.sort_order,
@@ -8196,7 +8175,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
       title={product?.id ? "Edit Product" : "Add New Product"}
       subtitle="Customize title, prices, images, colorways, fabric specifications, and visibility."
       maxWidthClass="max-w-4xl"
-      backLabel="Back zu den Productsn"
+      backLabel="Back to Products"
     >
       <form onSubmit={handleSubmit} className="space-y-5 text-xs font-sans">
         {/* Card 1: Product Basics */}
@@ -8214,7 +8193,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   setForm({ ...form, name: val, slug: autoSlug });
                 }}
                 className={`${textInputClass} ${isDuplicateName ? "border-red-500 focus:border-red-600 bg-red-50/30" : ""}`}
-                placeholder="z. B. 76,2 mm Titan-Membran"
+                placeholder="e.g. Aria Anarkali Flared Floor-Length Gown"
               />
               {isDuplicateName && (
                 <div className="mt-1.5 flex items-center gap-1.5 text-xs text-red-600 font-semibold animate-fade-in">
@@ -8241,20 +8220,6 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 onChange={e => {
                   const newCat = e.target.value;
                   setForm({ ...form, category_id: newCat });
-                  const isNewCatSurround = newCat === "sicken" || newCat === "surround-repair" || newCat.toLowerCase().includes("sicken") || newCat.toLowerCase().includes("surround");
-                  const isNewCatCaseOrInlay = newCat === "koffer" || newCat === "inlays" || newCat === "cases" || newCat.toLowerCase().includes("koffer") || newCat.toLowerCase().includes("inlay") || newCat.toLowerCase().includes("case");
-                  if (isNewCatSurround || isNewCatCaseOrInlay) {
-                    setSpecRows(prev => {
-                      const next = [...prev];
-                      if (!next.some(r => r.key.toLowerCase().trim() === "maße" || r.key.toLowerCase().trim() === "dimensions" || r.key.toLowerCase().trim() === "abmessungen" || r.key.toLowerCase().trim() === "masse")) {
-                        next.push({ key: "Maße", value: "" });
-                      }
-                      if (!next.some(r => r.key.toLowerCase().trim() === "material")) {
-                        next.push({ key: "Material", value: "" });
-                      }
-                      return next;
-                    });
-                  }
                 }}
                 className={textInputClass}
               >
@@ -8268,9 +8233,8 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
             </div>
           </div>
 
-
           <div>
-            <label className={labelTextClass}>Kurzbeschreibung</label>
+            <label className={labelTextClass}>Short Description</label>
             <textarea
               rows={2}
               value={form.short_desc}
@@ -8281,22 +8245,140 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           </div>
         </div>
 
-        {/* Card 2: Pricing */}
+        {/* Card 2: B2B Wholesale & Retail Pricing */}
         <div className={cardClass}>
-          <div>
-            <label className={labelTextClass}>Price in EUR (₹)</label>
-            <input
-              type="text"
-              inputMode="decimal"
-              value={form.price}
-              onChange={e => {
-                const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                setForm({ ...form, price: val });
-              }}
-              className={textInputClass}
-              placeholder="0.00 (leave blank for Price on Request)"
-            />
+          <div className="flex items-center justify-between pb-1 border-b border-neutral-100">
+            <label className={labelTextClass}>B2B Pricing &amp; Wholesale Rates (₹)</label>
+            <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider font-mono">INR Currency</span>
           </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
+                Wholesale Price per Piece (₹) *
+              </label>
+              <input
+                type="text"
+                inputMode="decimal"
+                value={form.salePrice || form.price}
+                onChange={e => {
+                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
+                  setForm({ ...form, price: val, salePrice: val });
+                }}
+                className={textInputClass}
+                placeholder="e.g. 1899"
+              />
+              <p className="text-[10px] text-neutral-400 mt-1">Wholesale net rate invoiced to B2B retail buyers</p>
+            </div>
+            <div>
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
+                Retail Reference / MRP Price (₹)
+              </label>
+              <input
+                type="text"
+                inputMode="decimal"
+                value={form.regularPrice}
+                onChange={e => {
+                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
+                  setForm({ ...form, regularPrice: val });
+                }}
+                className={textInputClass}
+                placeholder="e.g. 2499"
+              />
+              <p className="text-[10px] text-neutral-400 mt-1">Shown crossed out as original MRP on storefront</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 3: Garment Specifications & Sizes (Strictly S - XXL) */}
+        <div className={cardClass}>
+          <div className="flex items-center justify-between pb-1 border-b border-neutral-100">
+            <label className={labelTextClass}>Garment Sizing &amp; Fabric Details</label>
+            <span className="text-[10px] font-bold uppercase tracking-wider bg-black text-white px-2.5 py-0.5 rounded-full">
+              S to XXL Ratio
+            </span>
+          </div>
+
+          {/* Sizes Pill Selector */}
+          <div>
+            <div className="flex items-center justify-between mb-1.5">
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider">
+                Available Sizes ({form.sizes.length} active)
+              </label>
+              <button
+                type="button"
+                onClick={() => setForm({ ...form, sizes: ['S', 'M', 'L', 'XL', 'XXL'] })}
+                className="text-[10px] font-bold text-neutral-600 hover:text-black underline cursor-pointer"
+              >
+                Select All (S to XXL)
+              </button>
+            </div>
+            <div className="flex items-center gap-2 flex-wrap">
+              {(['S', 'M', 'L', 'XL', 'XXL'] as const).map(size => {
+                const isActive = form.sizes.includes(size);
+                return (
+                  <button
+                    key={size}
+                    type="button"
+                    onClick={() => {
+                      if (isActive) {
+                        if (form.sizes.length === 1) return;
+                        setForm({ ...form, sizes: form.sizes.filter(s => s !== size) });
+                      } else {
+                        setForm({ ...form, sizes: [...form.sizes, size] });
+                      }
+                    }}
+                    className={`w-12 h-10 rounded-xl font-heading font-bold text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center border-2 ${
+                      isActive
+                        ? "bg-black text-white border-black shadow-xs scale-105"
+                        : "bg-white text-neutral-600 border-neutral-200 hover:border-black"
+                    }`}
+                  >
+                    {size}
+                  </button>
+                );
+              })}
+            </div>
+            <p className="text-[10px] text-neutral-400 mt-1.5">
+              Export boutique ratio. XS and XXS are omitted per standard pre-pack guidelines.
+            </p>
+          </div>
+
+          {/* Fabric & MOQ */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-neutral-100">
+            <div>
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
+                Fabric Material
+              </label>
+              <input
+                type="text"
+                value={form.fabric}
+                onChange={e => setForm({ ...form, fabric: e.target.value })}
+                className={textInputClass}
+                placeholder="e.g. Modal Silk, Pure Cotton, Georgette, Chanderi"
+              />
+            </div>
+            <div>
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
+                Minimum Order Quantity (MOQ)
+              </label>
+              <input
+                type="text"
+                value={form.moq}
+                onChange={e => setForm({ ...form, moq: e.target.value })}
+                className={textInputClass}
+                placeholder="e.g. 50 Pcs (Wholesale Pack)"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Card 4: Colorway Variants Manager */}
+        <div className={cardClass}>
+          <ColorVariantManager
+            variants={form.colorVariants}
+            onChange={(updated) => setForm(prev => ({ ...prev, colorVariants: updated }))}
+            productId={product?.id}
+          />
         </div>
 
         {/* Card 2b: Product-Specific Shipping Rates (Optional) */}
@@ -8325,13 +8407,13 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   setForm({ ...form, shipping_rates: { ...form.shipping_rates, de: val } });
                 }}
                 className={textInputClass}
-                placeholder="0.00 (Standard: Gratis)"
+                placeholder="0.00 (Standard: Free)"
               />
             </div>
 
             <div>
               <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇪🇺 EU-Mitgliedstaaten (₹)
+                🇪🇺 European Union (₹)
               </label>
               <input
                 type="text"
@@ -8342,13 +8424,13 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   setForm({ ...form, shipping_rates: { ...form.shipping_rates, eu: val } });
                 }}
                 className={textInputClass}
-                placeholder="z. B. 9.95"
+                placeholder="e.g. 750.00"
               />
             </div>
 
             <div>
               <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇬🇧 Großbritannien (₹)
+                🇬🇧 United Kingdom (₹)
               </label>
               <input
                 type="text"
@@ -8359,7 +8441,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   setForm({ ...form, shipping_rates: { ...form.shipping_rates, gb: val } });
                 }}
                 className={textInputClass}
-                placeholder="z. B. 11.95"
+                placeholder="e.g. 950.00"
               />
             </div>
 
@@ -8376,13 +8458,13 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   setForm({ ...form, shipping_rates: { ...form.shipping_rates, us: val } });
                 }}
                 className={textInputClass}
-                placeholder="z. B. 14.95"
+                placeholder="e.g. 1150.00"
               />
             </div>
 
             <div>
               <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇨🇦 Kanada (₹)
+                🇨🇦 Canada (₹)
               </label>
               <input
                 type="text"
@@ -8393,13 +8475,13 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   setForm({ ...form, shipping_rates: { ...form.shipping_rates, ca: val } });
                 }}
                 className={textInputClass}
-                placeholder="z. B. 14.95"
+                placeholder="e.g. 1150.00"
               />
             </div>
 
             <div>
               <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🌐 Rest der Welt (₹)
+                🌐 Rest of World (₹)
               </label>
               <input
                 type="text"
@@ -8410,7 +8492,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   setForm({ ...form, shipping_rates: { ...form.shipping_rates, intl: val } });
                 }}
                 className={textInputClass}
-                placeholder="z. B. 19.95"
+                placeholder="e.g. 1450.00"
               />
             </div>
           </div>
@@ -8507,14 +8589,14 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
               <p className="text-xs font-heading font-bold uppercase tracking-wider text-black text-center">
                 {isGalleryUploading ? "Uploading photoshoot files..." : "Drop images here or click to upload"}
               </p>
-              <p className="text-[11px] text-neutral-500 mt-0.5">JPG, PNG, WEBP oder MP4 • Mehrfachauswahl möglich</p>
+              <p className="text-[11px] text-neutral-500 mt-0.5">JPG, PNG, WEBP or MP4 • Multiple files supported</p>
             </div>
 
             {/* Direct URL input */}
             <div className="border-2 border-neutral-200 rounded-xl p-3 bg-neutral-50 flex flex-col justify-between">
               <div>
                 <label className="block text-[10px] font-heading font-bold text-neutral-600 uppercase tracking-wider mb-1">
-                  Oder Image-URL einfügen
+                  Or Paste Image URL
                 </label>
                 <input
                   type="text"
@@ -8578,7 +8660,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                     <div className="absolute top-1.5 left-1.5 right-1.5 z-10 flex items-center justify-between pointer-events-none">
                       {isMain ? (
                         <span className="bg-amber-500 text-black text-[9px] font-black uppercase px-2 py-0.5 rounded shadow-sm flex items-center gap-1 pointer-events-auto">
-                          <Star className="w-2.5 h-2.5 fill-black" /> Hauptbild
+                          <Star className="w-2.5 h-2.5 fill-black" /> Cover Photo
                         </span>
                       ) : (
                         <button
@@ -8590,9 +8672,9 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                             });
                           }}
                           className="bg-white/95 hover:bg-black hover:text-white text-neutral-800 text-[9px] font-bold uppercase px-2 py-0.5 rounded shadow-sm opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer pointer-events-auto"
-                          title="Als Hauptbild festlegen"
+                          title="Set as Cover Photo"
                         >
-                          Als Hauptbild
+                          Set as Cover Photo
                         </button>
                       )}
 
@@ -8600,7 +8682,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                         {/* Replace image button */}
                         <label
                           className="bg-white/95 hover:bg-black hover:text-white text-neutral-800 rounded-full p-1 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer"
-                          title="Dieses Image austauschen"
+                          title="Replace this image"
                         >
                           <RefreshCw className="w-3 h-3" />
                           <input
@@ -8663,7 +8745,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                       {isVideo ? (
                         <video src={url} className="max-h-full max-w-full object-contain rounded" muted playsInline />
                       ) : (
-                        <img src={url} alt={`Productbild ${idx + 1}`} className="max-h-full max-w-full object-contain rounded" />
+                        <img src={url} alt={`Product Photo ${idx + 1}`} className="max-h-full max-w-full object-contain rounded" />
                       )}
                     </div>
                   </div>
@@ -8755,21 +8837,21 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   className={textInputClass}
                 >
                   <option value="">No Badge</option>
-                  <option value="SALE">SALE (Blaues Wastram Flag-Badge)</option>
-                  <option value="BESTSELLER">BESTSELLER (Schwarzes Flag-Badge mit Wastram-Punkt)</option>
-                  <option value="POPULAR">POPULAR (Schwarzes Flag-Badge)</option>
-                  <option value="CUSTOM">Benutzerdefinierter Text...</option>
+                  <option value="SALE">SALE (Blue Wastram Flag Badge)</option>
+                  <option value="BESTSELLER">BESTSELLER (Black Flag Badge with Wastram Dot)</option>
+                  <option value="POPULAR">POPULAR (Black Flag Badge)</option>
+                  <option value="CUSTOM">Custom Badge Text...</option>
                 </select>
               </div>
 
               <div>
-                <label className={labelTextClass}>Badge-Text</label>
+                <label className={labelTextClass}>Badge Text</label>
                 <input
                   type="text"
                   value={form.tag}
                   onChange={e => setForm({ ...form, tag: e.target.value.toUpperCase() })}
                   className={textInputClass}
-                  placeholder="z. B. SALE, BESTSELLER, POPULAR, EXKLUSIV"
+                  placeholder="e.g. SALE, BESTSELLER, POPULAR, SIGNATURE"
                 />
               </div>
             </div>
@@ -8919,7 +9001,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
       {/* Back + Header */}
       <div className="bg-white rounded-2xl shadow-xs border-0 p-6">
         <button onClick={onBack} className="flex items-center gap-2 text-xs font-bold text-slate-700 hover:text-black mb-4 uppercase tracking-wider cursor-pointer">
-          <ArrowLeft className="w-4 h-4" /> Back zu den Productsn
+          <ArrowLeft className="w-4 h-4" /> Back to Products
         </button>
         <div className="flex justify-between items-start">
           <div>
@@ -8973,10 +9055,10 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
       {/* Section Tabs */}
       <div className="flex gap-2 flex-wrap">
         {[
-          { id: "variants", label: "Color Variants & SKUs", icon: Tag },
-          { id: "images", label: "Image Gallery", icon: ImageIcon },
-          { id: "downloads", label: "Downloads", icon: Download },
-          { id: "faqs", label: "Häufige Fragen (FAQ)", icon: HelpCircle },
+          { id: "variants", label: "Colorway Variants", icon: Tag },
+          { id: "images", label: "Photo Gallery & Media", icon: ImageIcon },
+          { id: "downloads", label: "Lookbooks & Downloads", icon: Download },
+          { id: "faqs", label: "Frequently Asked Questions (FAQ)", icon: HelpCircle },
         ].map(tab => (
           <button
             key={tab.id}
@@ -8995,105 +9077,35 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
       {/* ─── VARIANTS SECTION ──────────────────────────────────────── */}
       {activeSection === "variants" && (
         <div className="bg-card text-card-foreground rounded-2xl shadow-xs border border-border p-6 space-y-6">
-          <div className="flex justify-between items-center border-b border-border pb-4">
-            <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider">Color Variants ({variants.length})</h3>
-            <button onClick={() => { setEditingVariantId(null); setVariantForm({ name: "", specs: '{\n  "Size": "",\n  "Material": "",\n  "Power": ""\n}', stock: "", price: "", sort_order: variants.length }); setShowVariantForm(true); }} className={btnPrimary}>
-              <Plus className="w-3.5 h-3.5" /> ADD COLORWAY / VARIANT
-            </button>
-          </div>
-
-          {showVariantForm && (
-            <div className="border border-border rounded-lg p-4 space-y-3 bg-muted/30">
-              <h4 className="text-xs font-bold text-foreground uppercase">{editingVariantId ? "Edit Color Variant" : "New Color Variant"}</h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <FormField label="Color Variantsname" required>
-                  <input type="text" value={variantForm.name} onChange={e => setVariantForm({ ...variantForm, name: e.target.value })} className={inputClass} placeholder="z. B. Kupfer" />
-                </FormField>
-                <div className="grid grid-cols-2 gap-3">
-                  <FormField label="Price (₹)">
-                    <input type="text" value={variantForm.price} onChange={e => setVariantForm({ ...variantForm, price: e.target.value })} className={inputClass} placeholder="0.00" />
-                  </FormField>
-                  <FormField label="Inventory">
-                    <input type="text" value={variantForm.stock} onChange={e => setVariantForm({ ...variantForm, stock: e.target.value })} className={inputClass} placeholder="Stock Units" />
-                  </FormField>
-                </div>
-              </div>
-              <FormField label="Spezifikationen (JSON)">
-                <textarea rows={5} value={variantForm.specs} onChange={e => setVariantForm({ ...variantForm, specs: e.target.value })} className={`${inputClass} font-mono text-[10px] resize-none`} />
-              </FormField>
-              <div className="flex gap-2 justify-end">
-                <button onClick={() => setShowVariantForm(false)} className={btnSecondary}>Cancel</button>
-                <button onClick={handleSaveVariant} className={btnPrimary}><Save className="w-3.5 h-3.5" /> Save</button>
-              </div>
-            </div>
-          )}
-
-          {variants.length === 0 ? (
-            <p className="text-xs text-slate-700 font-medium text-center py-8">No color variants added yet. Click above to add a colorway.</p>
-          ) : (
-            <div className="space-y-4">
-              {variants.map(v => (
-                <div key={v.id} className="border border-border rounded-lg p-4 space-y-3">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <h4 className="text-sm font-bold text-foreground">{v.name}</h4>
-                      <div className="flex gap-3 mt-1 text-[10px] text-muted-foreground font-medium">
-                        {v.price && <span>Price: <strong className="text-foreground font-numbers">₹{v.price}</strong></span>}
-                        {v.stock !== null && <span>Inventory: <strong className="text-foreground">{v.stock}</strong></span>}
-                      </div>
-                    </div>
-                    <div className="flex gap-1">
-                      <button onClick={() => startEditVariant(v)} className="p-1.5 rounded hover:bg-muted text-muted-foreground hover:text-foreground cursor-pointer"><Edit className="w-3.5 h-3.5" /></button>
-                      <button onClick={() => onDeleteVariant(v.id)} className="p-1.5 rounded hover:bg-destructive/10 text-muted-foreground hover:text-destructive cursor-pointer"><Trash2 className="w-3.5 h-3.5" /></button>
-                    </div>
-                  </div>
-
-                  {/* Specs table */}
-                  {v.specs && Object.keys(v.specs).length > 0 && (
-                    <div className="bg-muted/30 rounded-lg p-3">
-                      <table className="w-full text-[10px]">
-                        <tbody>
-                          {Object.entries(v.specs).map(([key, val]) => (
-                            <tr key={key} className="border-b border-border last:border-0">
-                              <td className="py-1.5 pr-4 text-muted-foreground font-medium">{key}</td>
-                              <td className="py-1.5 text-foreground font-semibold">{String(val)}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-
-                  {/* Part Numbers */}
-                  <div>
-                    <p className="text-[9px] font-bold text-foreground uppercase tracking-wider mb-2">SKU Numbers</p>
-                    <div className="flex flex-wrap gap-2 mb-2">
-                      {(v.part_numbers || []).map(pn => (
-                        <span key={pn.id} className="inline-flex items-center gap-1 text-[10px] bg-muted border border-border rounded px-2 py-1 font-mono text-foreground">
-                          {pn.code}
-                          <button onClick={() => onDeletePartNumber(pn.id)} className="text-muted-foreground hover:text-destructive cursor-pointer"><X className="w-3 h-3" /></button>
-                        </span>
-                      ))}
-                    </div>
-                    <div className="flex gap-2">
-                      <input type="text" value={pnInput[v.id] || ""} onChange={e => setPnInput({ ...pnInput, [v.id]: e.target.value })} className={`${inputClass} flex-1`} placeholder="Add SKU / Barcode..." onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); if (pnInput[v.id]) { onAddPartNumber(v.id, pnInput[v.id]); setPnInput({ ...pnInput, [v.id]: "" }); } } }} />
-                      <button onClick={() => { if (pnInput[v.id]) { onAddPartNumber(v.id, pnInput[v.id]); setPnInput({ ...pnInput, [v.id]: "" }); } }} className={btnSecondary}><Plus className="w-3.5 h-3.5" /> Add</button>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
+          <ColorVariantManager
+            variants={
+              (Array.isArray((product as any).colorVariants) && (product as any).colorVariants.length > 0)
+                ? (product as any).colorVariants
+                : ((Array.isArray(variants) && variants.length > 0)
+                  ? variants.map((v: any, idx: number) => ({
+                      id: v.id || `var-${idx}`,
+                      name: v.name || "Default Color",
+                      colorCode: v.colorCode || "#1A1A1A",
+                      images: Array.isArray(v.images) ? v.images : []
+                    }))
+                  : [])
+            }
+            onChange={async (updatedVariants) => {
+              (product as any).colorVariants = updatedVariants;
+              await onSaveProduct({ colorVariants: updatedVariants });
+            }}
+            productId={product.id}
+          />
         </div>
       )}
 
       {/* ─── IMAGES SECTION ────────────────────────────────────────── */}
       {activeSection === "images" && (
         <div className="bg-card text-card-foreground border border-border rounded-2xl p-6 space-y-6">
-          <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider border-b border-border pb-4">Galerie-Imageer ({images.length})</h3>
+          <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider border-b border-border pb-4">Photo Gallery &amp; Media ({images.length})</h3>
           <div className="flex gap-3 flex-wrap">
-            <input type="text" value={imageUrl} onChange={e => setImageUrl(e.target.value)} className={`${inputClass} flex-1 min-w-[220px]`} placeholder="Image-URL..." />
-            <input type="text" value={imageAlt} onChange={e => setImageAlt(e.target.value)} className={`${inputClass} w-[180px]`} placeholder="Alt-Text..." />
+            <input type="text" value={imageUrl} onChange={e => setImageUrl(e.target.value)} className={`${inputClass} flex-1 min-w-[220px]`} placeholder="Photo URL..." />
+            <input type="text" value={imageAlt} onChange={e => setImageAlt(e.target.value)} className={`${inputClass} w-[180px]`} placeholder="Caption / Alt text..." />
             <button onClick={() => { if (imageUrl) { onAddImage(product.id, imageUrl, imageAlt); setImageUrl(""); setImageAlt(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> Add URL</button>
             <label className={`${btnSecondary} cursor-pointer`}>
               <Upload className="w-3.5 h-3.5" /> {isUploading ? "Uploading..." : "Upload Media"}
@@ -9111,7 +9123,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                     <img src={img.url} alt={img.alt_text || ""} className="w-full aspect-square object-contain p-1" />
                     {isFeatured ? (
                       <span className="absolute top-2 left-2 z-10 bg-amber-500 text-black text-[9px] font-black uppercase px-2 py-0.5 rounded shadow flex items-center gap-1">
-                        <Star className="w-3 h-3 fill-black" /> Hauptbild
+                        <Star className="w-3 h-3 fill-black" /> Cover Photo
                       </span>
                     ) : (
                       <button
@@ -9120,15 +9132,15 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                           await onSaveProduct({ featured_image: img.url });
                         }}
                         className="absolute top-2 left-2 z-10 bg-black/80 hover:bg-black text-white text-[9px] font-bold uppercase px-2 py-0.5 rounded shadow opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer"
-                        title="Als Hauptbild festlegen"
+                        title="Set as Cover Photo"
                       >
-                        Als Hauptbild
+                        Set as Cover Photo
                       </button>
                     )}
                     <div className="absolute top-2 right-2 flex items-center gap-1 z-10">
                       <label
                         className="w-6 h-6 rounded-full bg-black/80 hover:bg-black text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer shadow"
-                        title="Image austauschen"
+                        title="Replace photo"
                       >
                         <RefreshCw className="w-3 h-3" />
                         <input
@@ -9185,22 +9197,22 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
       {/* ─── DOWNLOADS SECTION ─────────────────────────────────────── */}
       {activeSection === "downloads" && (
         <div className="bg-card text-card-foreground border border-border rounded-2xl p-6 space-y-6">
-          <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider border-b border-border pb-4">Downloads ({downloads.length})</h3>
+          <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider border-b border-border pb-4">Downloads &amp; Lookbooks ({downloads.length})</h3>
           <div className="flex gap-3 flex-wrap">
             <div className="w-[160px]">
               <AdminCustomSelect
                 value={dlType}
                 onChange={val => setDlType(val)}
                 options={[
-                  { value: "datasheet", label: "Datenblatt" },
-                  { value: "catalogue", label: "Catalog" },
-                  { value: "drawing", label: "Zeichnung / Maßblatt" },
-                  { value: "manual", label: "Anleitung / Handbuch" }
+                  { value: "datasheet", label: "Spec Sheet" },
+                  { value: "catalogue", label: "Line Sheet / Catalog" },
+                  { value: "drawing", label: "Size Chart / Spec" },
+                  { value: "manual", label: "Care Instructions" }
                 ]}
                 variant="form"
               />
             </div>
-            <input type="text" value={dlUrl} onChange={e => setDlUrl(e.target.value)} className={`${inputClass} flex-1`} placeholder="Datei-URL..." />
+            <input type="text" value={dlUrl} onChange={e => setDlUrl(e.target.value)} className={`${inputClass} flex-1`} placeholder="Document URL..." />
             <input type="text" value={dlTitle} onChange={e => setDlTitle(e.target.value)} className={`${inputClass} w-[160px]`} placeholder="Title..." />
             <button onClick={() => { if (dlUrl) { onAddDownload(product.id, dlType, dlUrl, dlTitle); setDlUrl(""); setDlTitle(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> Add</button>
           </div>
@@ -9229,13 +9241,13 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
       {/* ─── FAQS SECTION ──────────────────────────────────────────── */}
       {activeSection === "faqs" && (
         <div className="bg-card text-card-foreground border border-border rounded-2xl p-6 space-y-6">
-          <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider border-b border-border pb-4">Häufige Fragen (FAQ) ({faqs.length})</h3>
+          <h3 className="font-display text-sm font-bold text-foreground uppercase tracking-wider border-b border-border pb-4">Frequently Asked Questions (FAQ) ({faqs.length})</h3>
           <div className="space-y-3">
-            <FormField label="Frage">
-              <input type="text" value={faqQ} onChange={e => setFaqQ(e.target.value)} className={inputClass} placeholder="Frage eingeben..." />
+            <FormField label="Question">
+              <input type="text" value={faqQ} onChange={e => setFaqQ(e.target.value)} className={inputClass} placeholder="Enter question..." />
             </FormField>
-            <FormField label="Antwort">
-              <textarea rows={2} value={faqA} onChange={e => setFaqA(e.target.value)} className={`${inputClass} resize-none`} placeholder="Antwort eingeben..." />
+            <FormField label="Answer">
+              <textarea rows={2} value={faqA} onChange={e => setFaqA(e.target.value)} className={`${inputClass} resize-none`} placeholder="Enter answer..." />
             </FormField>
             <button onClick={() => { if (faqQ && faqA) { onAddFaq(product.id, faqQ, faqA); setFaqQ(""); setFaqA(""); } }} className={btnPrimary}><Plus className="w-3.5 h-3.5" /> Add FAQ</button>
           </div>

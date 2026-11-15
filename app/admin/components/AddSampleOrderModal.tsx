@@ -854,7 +854,7 @@ export default function AddSampleOrderModal({
                         </div>
                       ) : (
                         <div className="sm:col-span-3">
-                          <label className={labelClass}>Variante / Spezifikation</label>
+                          <label className={labelClass}>Variant / Colorway Specification</label>
                           {selectedProd?.variants && selectedProd.variants.length > 0 ? (
                             <AdminCustomSelect
                               value={item.variantName}
@@ -1069,7 +1069,7 @@ export default function AddSampleOrderModal({
               </div>
 
               <div className="sm:col-span-2">
-                <label className={labelClass}>Interne Notizen / Technische Spezifikationen</label>
+                <label className={labelClass}>Internal Notes / Custom Specifications</label>
                 <textarea
                   rows={2}
                   placeholder="e.g. Boutique requested pure mulmul fabric swatch and express DHL dispatch."

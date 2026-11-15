@@ -780,7 +780,7 @@ function NotificationsTab() {
           >
             <div className='flex items-center space-x-2'>
               <RadioGroupItem value='all' id='notif-all' />
-              <label htmlFor='notif-all' className='text-xs font-medium cursor-pointer'>Alle Benachrichtigungen und Aktivitäten</label>
+              <label htmlFor='notif-all' className='text-xs font-medium cursor-pointer'>All notifications and activities</label>
             </div>
             <div className='flex items-center space-x-2'>
               <RadioGroupItem value='mentions' id='notif-critical' />
@@ -1444,7 +1444,7 @@ export function SettingsView({ subTab = 'profile', onSelectTab, onLogout }: Sett
       <Main className='flex flex-1 flex-col overflow-y-auto min-h-0 pb-16 font-sans text-foreground'>
         <div className='mb-2'>
           <h1 className='text-3xl sm:text-4xl font-extrabold tracking-tight text-foreground'>
-            Einstellungen
+            Settings
           </h1>
         </div>
 
