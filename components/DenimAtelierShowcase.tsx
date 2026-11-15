@@ -2,23 +2,21 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { NISHORAMA_PRODUCTS } from '@/data/nishorama-data';
+import { DENIM_COLLECTION } from '@/data/denim-collection';
 import ProductCard from './ProductCard';
 import ScrollReveal from './ScrollReveal';
 
 export default function DenimAtelierShowcase() {
-  const spotlightDenim = NISHORAMA_PRODUCTS.filter(
-    p => !(p as any).deleted && !(p as any).is_hidden && p.category === 'denim-collection'
-  ).slice(0, 4);
+  const spotlightDenim = DENIM_COLLECTION.slice(0, 4);
 
   return (
-    <section className="w-full py-12 md:py-20 px-3.5 sm:px-6 md:px-8 bg-[#FAF9F6]">
-      <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-10">
+    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6]">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10">
         {/* Split-Screen Studio Atelier Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
           {/* Left: Atmospheric Denim Campaign Poster Card (5 Cols) */}
           <ScrollReveal direction="left" distance={28} duration={800} className="lg:col-span-5 flex">
-            <div className="relative rounded-3xl overflow-hidden shadow-soft bg-[#071F59] flex flex-col justify-between p-6 sm:p-8 md:p-12 text-white min-h-[380px] lg:min-h-[460px] w-full">
+            <div className="relative rounded-3xl overflow-hidden shadow-soft bg-[#071F59] flex flex-col justify-between p-8 md:p-12 text-white min-h-[460px] w-full">
               {/* Background Campaign Image */}
               <img
                 src="/denim-collection/IMG-20261102-WA0488.jpg.jpeg"
@@ -43,7 +41,7 @@ export default function DenimAtelierShowcase() {
                   <span className="font-serif italic text-base md:text-lg text-[#D4AF37] block mb-1">
                     Artisanal Denim Craft
                   </span>
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-normal uppercase tracking-wide leading-[1.15] text-white drop-shadow-sm">
+                  <h3 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-normal uppercase tracking-wide leading-[1.1] text-white drop-shadow-sm">
                     The Denim Atelier Edit
                   </h3>
                 </div>
@@ -51,9 +49,9 @@ export default function DenimAtelierShowcase() {
                 <div className="pt-2">
                   <Link
                     href="/collections/denim-collection"
-                    className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#FAF9F6] text-[#0B2D7F] hover:bg-white transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card active:scale-98 cursor-pointer"
+                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#FAF9F6] text-[#0B2D7F] hover:bg-white transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card active:scale-98"
                   >
-                    <span>Explore Denim Silhouettes</span>
+                    <span>Explore 140+ Denim Styles</span>
                     <span className="text-xs">&rarr;</span>
                   </Link>
                 </div>
@@ -62,7 +60,7 @@ export default function DenimAtelierShowcase() {
           </ScrollReveal>
 
           {/* Right: Curated 4-Product Mini Grid (7 Cols) */}
-          <div className="lg:col-span-7 grid grid-cols-2 gap-3 sm:gap-4 md:gap-5">
+          <div className="lg:col-span-7 grid grid-cols-2 gap-3 md:gap-5">
             {spotlightDenim.map((product, idx) => (
               <ScrollReveal
                 key={product.id || idx}

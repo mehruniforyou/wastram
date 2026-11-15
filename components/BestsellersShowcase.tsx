@@ -8,12 +8,12 @@ import ScrollReveal from './ScrollReveal';
 
 export default function BestsellersShowcase() {
   const bestsellers = NISHORAMA_PRODUCTS.filter(
-    p => !(p as any).deleted && !(p as any).is_hidden
+    p => p.badge?.includes('Bestseller') || p.badge?.includes('Export')
   ).slice(0, 4);
 
   return (
-    <section className="w-full py-12 md:py-20 px-3.5 sm:px-6 md:px-8 bg-[#FAF9F6]">
-      <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-12">
+    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6]">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10 md:gap-14">
         {/* Section Heading with Scroll Reveal */}
         <ScrollReveal direction="up" distance={20} duration={800}>
           <div className="flex flex-col items-center text-center">
@@ -30,7 +30,7 @@ export default function BestsellersShowcase() {
         </ScrollReveal>
 
         {/* 4-Podium Product Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
           {bestsellers.map((product, idx) => (
             <ScrollReveal
               key={product.id || idx}
@@ -49,8 +49,8 @@ export default function BestsellersShowcase() {
 
         {/* Minimal Luxury Atelier Credentials Bar */}
         <ScrollReveal direction="up" distance={16} duration={750} delay={100}>
-          <div className="w-full max-w-4xl mx-auto p-4 md:p-5 rounded-2xl bg-white shadow-soft flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left border border-[#E8E4DA]/60">
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 sm:gap-4 md:gap-6 text-xs font-sans text-[#0B2D7F]/80">
+          <div className="w-full max-w-4xl mx-auto p-4 md:p-5 rounded-2xl bg-white shadow-soft flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left border border-[#E8E4DA]/50">
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-4 md:gap-6 text-xs font-sans text-[#0B2D7F]/80">
               <span className="flex items-center gap-1.5 font-medium">
                 <span className="text-[#D4AF37]">&bull;</span>
                 Flexible Batch MOQ 20 Pcs
@@ -67,7 +67,7 @@ export default function BestsellersShowcase() {
 
             <Link
               href="/pages/contact"
-              className="px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] font-sans font-medium uppercase tracking-[0.12em] shadow-soft shrink-0 hover:-translate-y-0.5 cursor-pointer"
+              className="px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] font-sans font-medium uppercase tracking-[0.12em] shadow-soft shrink-0 hover:-translate-y-0.5"
             >
               Inquire for Boutiques &rarr;
             </Link>

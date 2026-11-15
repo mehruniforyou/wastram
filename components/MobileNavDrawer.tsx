@@ -116,7 +116,7 @@ export default function MobileNavDrawer({
               <svg className="w-3.5 h-3.5 text-[#0B2D7F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
-              <span>Search master collections...</span>
+              <span>Search 1,400+ styles...</span>
             </span>
             <span className="text-[10px] text-[#D4AF37] font-bold uppercase">Search</span>
           </button>
@@ -131,104 +131,104 @@ export default function MobileNavDrawer({
           <nav className="flex flex-col space-y-1">
             <Link
               href="/collections/shop-all"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-bold text-[#0B2D7F] bg-[#0B2D7F]/5 hover:bg-[#0B2D7F]/10 transition-colors"
             >
-              <span>All Master Silhouettes</span>
-              <span className="text-[10px] text-[#D4AF37] font-bold">99 Styles &rarr;</span>
+              <span>All 1,400+ Styles</span>
+              <span className="text-[10px] text-[#D4AF37] font-bold">Explore &rarr;</span>
             </Link>
 
             <Link
               href="/collections/western-dresses"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Western Dresses</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">15 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">300+</span>
             </Link>
 
             <Link
               href="/collections/denim-collection"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-bold text-[#0B2D7F] bg-[#FAF9F6] border border-[#D4AF37]/40 hover:border-[#D4AF37] transition-all"
             >
               <span className="flex items-center gap-1.5">
                 <span>Denim Collection</span>
                 <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-[#F58220]/15 text-[#F58220] font-bold">NEW</span>
               </span>
-              <span className="text-[10px] text-[#0B2D7F]/70 font-semibold">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/70 font-semibold">140+ Styles</span>
             </Link>
 
             <Link
               href="/collections/ethnic-wear-sets"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Ethnic Wear Sets</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">250+</span>
             </Link>
 
             <Link
               href="/collections/umbrella-dresses"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Umbrella Dresses</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">270+</span>
             </Link>
 
             <Link
               href="/collections/short-long-kaftan"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Short &amp; Long Kaftans</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">180+</span>
             </Link>
 
             <Link
               href="/collections/cord-sets"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Co-ord Sets</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">120+</span>
             </Link>
 
             <Link
               href="/collections/traditional-gowns"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Traditional Gowns</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">12 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">100+</span>
             </Link>
 
             <Link
               href="/collections/tops-shirts"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Tops &amp; Shirts</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">90+</span>
             </Link>
 
             <Link
               href="/collections/hoodies-sweatshirts"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>Hoodies &amp; Sweatshirts</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">40+</span>
             </Link>
 
             <Link
               href="/collections/t-shirts"
-              onClick={handleClose}
+              onClick={onClose}
               className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-semibold text-[#0B2D7F] hover:bg-[#0B2D7F]/5 transition-colors"
             >
               <span>T-Shirts</span>
-              <span className="text-[10px] text-[#0B2D7F]/50">9 Styles</span>
+              <span className="text-[10px] text-[#0B2D7F]/50">60+</span>
             </Link>
           </nav>
 

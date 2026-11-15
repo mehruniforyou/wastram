@@ -128,10 +128,10 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
       return p.category === selectedCategory || p.tab === selectedCategory;
     });
 
-    if (sortBy === 'name-asc') {
-      list = [...list].sort((a, b) => a.title.localeCompare(b.title));
-    } else if (sortBy === 'colors-high') {
-      list = [...list].sort((a, b) => ((b.colorVariants?.length || 0) - (a.colorVariants?.length || 0)));
+    if (sortBy === 'price-low') {
+      list = [...list].sort((a, b) => a.salePrice - b.salePrice);
+    } else if (sortBy === 'price-high') {
+      list = [...list].sort((a, b) => b.salePrice - a.salePrice);
     }
 
     return list;
@@ -239,8 +239,8 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
                 className="text-xs font-medium bg-white shadow-soft rounded-full px-4 py-2 text-[#0B2D7F] focus:outline-none cursor-pointer border-none"
               >
                 <option value="featured">Featured Curation</option>
-                <option value="name-asc">Alphabetical (A - Z)</option>
-                <option value="colors-high">Most Colorways</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
               </select>
             </div>
           </div>

@@ -581,9 +581,9 @@ export function applyOverrideToProduct(
 ): Product & { is_hidden?: boolean; is_featured?: boolean } {
   if (!override) return p;
 
-  const price = 0;
-  const regularPrice = 0;
-  const salePrice = 0;
+  const price = override.salePrice !== undefined ? override.salePrice : (override.price !== undefined ? override.price : (override.regularPrice !== undefined ? override.regularPrice : p.price));
+  const regularPrice = override.regularPrice !== undefined ? override.regularPrice : (p.regularPrice ?? price);
+  const salePrice = override.salePrice !== undefined ? override.salePrice : (p.salePrice ?? price);
   const stockQty = override.stock !== undefined ? override.stock : (override.stockQty !== undefined ? override.stockQty : (p.stockQty ?? 25));
   const inStock = override.inStock !== undefined ? override.inStock : (override.stock !== undefined ? override.stock > 0 : p.inStock);
   const name = override.name || override.title || p.name || (p as any).title || "Atelier Dress";
@@ -818,9 +818,9 @@ export async function getLiveProductBySlug(slug: string): Promise<Product | null
       name: matchingOverride.name || matchingOverride.title || "Custom Atelier Ensemble",
       title: matchingOverride.title || matchingOverride.name || "Custom Atelier Ensemble",
       slug: cleanCustomSlug || matchingOverride.id,
-      price: 0,
-      regularPrice: 0,
-      salePrice: 0,
+      price: matchingOverride.salePrice || matchingOverride.price || matchingOverride.regularPrice || 0,
+      regularPrice: matchingOverride.regularPrice || matchingOverride.price || 0,
+      salePrice: matchingOverride.salePrice || matchingOverride.price || 0,
       inStock: matchingOverride.inStock ?? true,
       stockQty: matchingOverride.stock ?? 25,
       rating: 5,
@@ -974,9 +974,9 @@ export async function getAllMergedProducts(options?: {
         name: ov.name || ov.title || "Custom Atelier Ensemble",
         title: ov.title || ov.name || "Custom Atelier Ensemble",
         slug: cleanCustomSlug || ov.id,
-        price: 0,
-        regularPrice: 0,
-        salePrice: 0,
+        price: ov.salePrice || ov.price || ov.regularPrice || 0,
+        regularPrice: ov.regularPrice || ov.price || 0,
+        salePrice: ov.salePrice || ov.price || 0,
         inStock: ov.inStock ?? true,
         stockQty: ov.stock ?? 25,
         rating: 5,
