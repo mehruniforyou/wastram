@@ -23,7 +23,10 @@ export async function GET(req: NextRequest) {
 
       for (const p of PRODUCTS) {
         handled.add(p.id);
-        const ovr: any = overrides[p.id] || overrides[p.slug] || {};
+        const ovr: any = overrides[p.id] || (p.slug ? overrides[p.slug] : undefined) || {};
+        // Permanently purge deleted products so they never appear anywhere in admin
+        if (ovr.deleted || ovr.purged) continue;
+
         const primaryImage = ovr.featured_image || ovr.mainImage || (ovr.images && ovr.images[0]) || p.mainImage || p.image || (p.images && p.images[0]) || "";
         all.push({
           ...applyOverrideToProduct(p, ovr),
@@ -31,13 +34,14 @@ export async function GET(req: NextRequest) {
           mainImage: primaryImage,
           is_hidden: ovr.is_hidden || false,
           is_featured: ovr.is_featured || false,
-          deleted: ovr.deleted || false,
+          deleted: false,
           isCustomProduct: false,
         });
       }
 
       for (const [id, ovr] of Object.entries(overrides)) {
         if (!handled.has(id) && ovr.isCustomProduct) {
+          if (ovr.deleted || ovr.purged) continue;
           const primaryImage = ovr.featured_image || ovr.mainImage || (ovr.images && ovr.images[0]) || "";
           all.push({
             id,
@@ -68,16 +72,22 @@ export async function GET(req: NextRequest) {
         }
       }
 
-      return NextResponse.json(all);
+      return NextResponse.json(all, {
+        headers: { "Cache-Control": "no-store, no-cache, must-revalidate" }
+      });
     }
 
-    // Public Storefront query
+    // Public Storefront query (Edge cached to save 90%+ Vercel function invocations)
     const products = await getAllMergedProducts();
     const filtered = category && category !== "all" && category !== "shop-all"
       ? products.filter((p) => (p.category || "").toLowerCase() === category.toLowerCase() || (p.tab || "").toLowerCase() === category.toLowerCase())
       : products;
 
-    return NextResponse.json(filtered);
+    return NextResponse.json(filtered, {
+      headers: {
+        "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
+      }
+    });
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }

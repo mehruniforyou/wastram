@@ -18,6 +18,12 @@ export async function GET(req: NextRequest, { params }: RouteProps) {
     const resolvedParams = await Promise.resolve(params);
     const slug = decodeURIComponent(resolvedParams.slug).toLowerCase().trim();
 
+    const overrides = await getProductOverrides();
+    const directOvr = overrides[slug] || Object.values(overrides).find((o) => o.slug?.toLowerCase() === slug || o.id?.toLowerCase() === slug);
+    if (directOvr?.deleted || directOvr?.purged) {
+      return NextResponse.json({ error: "Product not found" }, { status: 404 });
+    }
+
     const merged = await getAllMergedProducts({ includeHidden: true });
     const found = merged.find(
       (p) =>
@@ -27,11 +33,13 @@ export async function GET(req: NextRequest, { params }: RouteProps) {
         (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === slug)
     );
 
-    if (!found || found.deleted) {
+    if (!found || found.deleted || (found as any).purged) {
       return NextResponse.json({ error: "Product not found" }, { status: 404 });
     }
 
-    return NextResponse.json(found);
+    return NextResponse.json(found, {
+      headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300" }
+    });
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }

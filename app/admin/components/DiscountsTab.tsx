@@ -886,7 +886,7 @@ export default function DiscountsTab() {
               }}
               className="px-5 py-2.5 rounded-xl border-2 border-neutral-300 hover:border-black text-black text-xs font-heading font-bold uppercase tracking-wider transition-colors cursor-pointer"
             >
-              Abbrechen
+              Cancel
             </button>
             <button
               type="submit"
@@ -917,7 +917,7 @@ export default function DiscountsTab() {
                 <h3 className="font-heading font-black text-lg text-black">Delete Discount</h3>
                 <p className="text-xs text-neutral-700 font-medium leading-relaxed">
                   Are you sure you want to delete discount code{" "}
-                  <strong className="text-black font-black">&quot;{discountToDelete.code}&quot;</strong> löschen möchten?
+                  <strong className="text-black font-black">&quot;{discountToDelete.code}&quot;</strong> ?
                 </p>
                 <p className="text-[11px] text-neutral-500 leading-normal">
                   This will permanently remove this discount code. Customers will no longer be able to apply it at checkout.
@@ -932,7 +932,7 @@ export default function DiscountsTab() {
                 onClick={() => setDiscountToDelete(null)}
                 className="px-5 py-2.5 rounded-xl border-2 border-neutral-300 hover:border-black text-black text-xs font-heading font-bold uppercase tracking-wider transition-colors cursor-pointer disabled:opacity-50"
               >
-                Abbrechen
+                Cancel
               </button>
               <button
                 type="button"
@@ -940,7 +940,7 @@ export default function DiscountsTab() {
                 onClick={handleConfirmDelete}
                 className="px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs font-heading font-bold uppercase tracking-wider transition-colors cursor-pointer disabled:opacity-50 flex items-center gap-2"
               >
-                {isDeleting ? "Wird gelöscht..." : "Dauerhaft löschen"}
+                {isDeleting ? "Deleting..." : "Permanently Delete"}
               </button>
             </div>
           </div>

@@ -1188,7 +1188,7 @@ function AdminPageContent() {
       console.error("Error saving order to database:", err);
       notifyAdmin(
         "error",
-        "Error beim Save der Order",
+        "Error saving order",
         err.message || "Order could not be saved to database",
         err
       );
@@ -1640,11 +1640,34 @@ function AdminPageContent() {
       const res = await adminFetch(url);
       const data = await res.json();
       if (Array.isArray(data)) {
-        const normalized = data.map((p: any) => ({
-          ...p,
-          featured_image: p.featured_image || p.mainImage || p.image || p.images?.[0] || p.colorVariants?.[0]?.images?.[0] || "",
-          mainImage: p.mainImage || p.featured_image || p.image || p.images?.[0] || "",
-        }));
+        let localDeleted = new Set<string>();
+        try {
+          const local = localStorage.getItem("wastram_products_overrides") || localStorage.getItem("ixos_products_overrides");
+          if (local) {
+            const parsed = JSON.parse(local);
+            Object.entries<any>(parsed).forEach(([k, v]) => {
+              if (v?.deleted || v?.purged) {
+                localDeleted.add(k.toLowerCase().trim());
+                if (v.id) localDeleted.add(String(v.id).toLowerCase().trim());
+                if (v.slug) localDeleted.add(String(v.slug).toLowerCase().trim());
+              }
+            });
+          }
+        } catch (_) {}
+
+        const normalized = data
+          .filter(
+            (p: any) =>
+              !p.deleted &&
+              !p.purged &&
+              !localDeleted.has((p.id || "").toLowerCase().trim()) &&
+              !localDeleted.has((p.slug || "").toLowerCase().trim())
+          )
+          .map((p: any) => ({
+            ...p,
+            featured_image: p.featured_image || p.mainImage || p.image || p.images?.[0] || p.colorVariants?.[0]?.images?.[0] || "",
+            mainImage: p.mainImage || p.featured_image || p.image || p.images?.[0] || "",
+          }));
         setProducts(normalized);
       }
     } catch (err) { console.error("Error fetching products", err); }
@@ -2010,7 +2033,7 @@ function AdminPageContent() {
       await fetchCategories();
     } catch (err: any) {
       console.error("Error deleting category", err);
-      notifyAdmin("error", "Error beim Delete der Category", err.message || "Error beim Delete", err);
+      notifyAdmin("error", "Error deleting category", err.message || "Error deleting", err);
     }
   };
 
@@ -2045,7 +2068,7 @@ function AdminPageContent() {
       fetchCategories();
     } catch (err: any) {
       console.error("Error toggling category visibility", err);
-      notifyAdmin("error", "Error beim Refresh", err instanceof Error ? err.message : String(err), err);
+      notifyAdmin("error", "Error refreshing", err instanceof Error ? err.message : String(err), err);
     }
   };
 
@@ -2243,7 +2266,7 @@ function AdminPageContent() {
         }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data?.error || "Error beim Verschieben der Products");
+      if (!res.ok) throw new Error(data?.error || "Error moving products");
 
       const isUnassigning = bulkTargetCat === "unassigned" || bulkTargetCat === "";
       const targetCatObj = !isUnassigning
@@ -2302,7 +2325,7 @@ function AdminPageContent() {
       await Promise.all([fetchProducts(), fetchCategories()]);
     } catch (err: any) {
       console.error("Bulk move error", err);
-      notifyAdmin("error", "Error beim Verschieben", err.message || String(err), err);
+      notifyAdmin("error", "Error moving products", err.message || String(err), err);
     } finally {
       setIsBulkMoving(false);
     }
@@ -2429,8 +2452,10 @@ function AdminPageContent() {
           });
 
           if (isBaseCatalogProduct(target)) {
-            stored[target.id] = { id: target.id, slug: target.slug, deleted: true, is_hidden: true };
-            if (target.slug) stored[target.slug] = { id: target.id, slug: target.slug, deleted: true, is_hidden: true };
+            stored[target.id] = { id: target.id, slug: target.slug, deleted: true, purged: true, is_hidden: true };
+          safeSetLocalStorage("wastram_products_overrides", JSON.stringify(stored));
+            if (target.slug) stored[target.slug] = { id: target.id, slug: target.slug, deleted: true, purged: true, is_hidden: true };
+          safeSetLocalStorage("wastram_products_overrides", JSON.stringify(stored));
           }
           safeSetLocalStorage("ixos_products_overrides", JSON.stringify(stored));
           broadcastProductsUpdate();
@@ -2470,7 +2495,7 @@ function AdminPageContent() {
       fetchProducts();
     } catch (err: any) {
       console.error("Error toggling product visibility", err);
-      notifyAdmin("error", "Error beim Refresh", err instanceof Error ? err.message : String(err), err);
+      notifyAdmin("error", "Error refreshing", err instanceof Error ? err.message : String(err), err);
       fetchProducts();
     }
   };
@@ -2491,7 +2516,7 @@ function AdminPageContent() {
       fetchProducts();
     } catch (err: any) {
       console.error("Error toggling product featured state", err);
-      notifyAdmin("error", "Error beim Refresh", err instanceof Error ? err.message : String(err), err);
+      notifyAdmin("error", "Error refreshing", err instanceof Error ? err.message : String(err), err);
       fetchProducts();
     }
   };
@@ -2505,7 +2530,7 @@ function AdminPageContent() {
         body: JSON.stringify({
           ...prod,
           id: undefined,
-          name: prod.name + " (Kopie)",
+          name: prod.name + " (Copy)",
           slug: newSlug,
           category_id: prod.category_id
         })
@@ -2514,7 +2539,7 @@ function AdminPageContent() {
       fetchProducts();
     } catch (err: any) {
       console.error("Error duplicating product", err);
-      notifyAdmin("error", "Error beim Duplizieren", err instanceof Error ? err.message : String(err), err);
+      notifyAdmin("error", "Error duplicating product", err instanceof Error ? err.message : String(err), err);
     }
   };
 
@@ -2551,7 +2576,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error saving variant", err);
-      notifyAdmin("error", "Error beim Save der Color Variant", err.message || String(err), err);
+      notifyAdmin("error", "Error saving color variant", err.message || String(err), err);
     }
   };
 
@@ -2563,7 +2588,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting variant", err);
-      notifyAdmin("error", "Error beim Delete der Color Variant", err.message || String(err), err);
+      notifyAdmin("error", "Error deleting color variant", err.message || String(err), err);
     }
   };
 
@@ -2637,7 +2662,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error adding image", err);
-      notifyAdmin("error", "Error beim Add des Imagees", err.message || String(err), err);
+      notifyAdmin("error", "Error adding image", err.message || String(err), err);
     }
   };
 
@@ -2659,7 +2684,7 @@ function AdminPageContent() {
       notifyAdmin("success", "Upload Successful", `${files.length} media file(s) uploaded successfully.`);
     } catch (err: any) {
       console.error("Error uploading media", err);
-      notifyAdmin("error", "Medien-Upload fehlgeschlagen", err.message || String(err), err);
+      notifyAdmin("error", "Media upload failed", err.message || String(err), err);
     } finally {
       setIsUploading(false);
     }
@@ -2698,7 +2723,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting image", err);
-      notifyAdmin("error", "Error beim Delete des Imagees", err.message || String(err), err);
+      notifyAdmin("error", "Error deleting image", err.message || String(err), err);
     }
   };
 
@@ -2714,7 +2739,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error adding download", err);
-      notifyAdmin("error", "Error beim Add des Downloads", err.message || String(err), err);
+      notifyAdmin("error", "Error adding download", err.message || String(err), err);
     }
   };
 
@@ -2729,7 +2754,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting download", err);
-      notifyAdmin("error", "Error beim Delete des Downloads", err.message || String(err), err);
+      notifyAdmin("error", "Error deleting download", err.message || String(err), err);
     }
   };
 
@@ -2745,7 +2770,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error adding FAQ", err);
-      notifyAdmin("error", "Error beim Add der FAQ", err.message || String(err), err);
+      notifyAdmin("error", "Error adding FAQ", err.message || String(err), err);
     }
   };
 
@@ -2760,7 +2785,7 @@ function AdminPageContent() {
       if (detailProduct) loadProductDetail(detailProduct.slug);
     } catch (err: any) {
       console.error("Error deleting FAQ", err);
-      notifyAdmin("error", "Error beim Delete der FAQ", err.message || String(err), err);
+      notifyAdmin("error", "Error deleting FAQ", err.message || String(err), err);
     }
   };
 
@@ -2795,7 +2820,7 @@ function AdminPageContent() {
       await fetchOrders();
     } catch (e: any) {
       console.warn("Could not sync order status to backend:", e);
-      notifyAdmin("error", "Error beim Synchronisieren des Status", e.message || String(e), e);
+      notifyAdmin("error", "Error syncing status", e.message || String(e), e);
     }
   };
 
@@ -2822,7 +2847,7 @@ function AdminPageContent() {
       notifyAdmin("success", "Order Deleted", `Order #${orderId} deleted.`);
     } catch (err: any) {
       console.warn("Could not delete from backend:", err);
-      notifyAdmin("error", "Error beim Delete der Order", err.message || String(err), err);
+      notifyAdmin("error", "Error deleting order", err.message || String(err), err);
     }
 
     setSampleOrders(prev => {
@@ -2858,7 +2883,7 @@ function AdminPageContent() {
       notifyAdmin("success", "Order Saved", `Order #${orderId} updated successfully.`);
     } catch (e: any) {
       console.warn("Could not sync updated order to backend:", e);
-      notifyAdmin("error", "Error beim Save der Order", e.message || String(e), e);
+      notifyAdmin("error", "Error saving order", e.message || String(e), e);
     }
   };
 
@@ -4321,7 +4346,7 @@ function AdminPageContent() {
                                     ? "text-neutral-600 bg-neutral-100 border-neutral-300" 
                                     : "text-emerald-800 bg-emerald-50 border-emerald-300"
                                 }`}>
-                                  {cat.is_hidden ? "Ausgeblendet" : "Active"}
+                                  {cat.is_hidden ? "Inactive" : "Active"}
                                 </span>
                               </div>
                               <p className="text-xs text-neutral-800 font-medium line-clamp-1">
@@ -4413,6 +4438,7 @@ function AdminPageContent() {
 
               // Products filtering
               const filteredProducts = products.filter(p => {
+                if ((p as any).deleted || (p as any).purged) return false;
                 if (prodStatusFilter === "ACTIVE" && p.is_hidden) return false;
                 if (prodStatusFilter === "FEATURED" && !p.is_featured) return false;
                 if (prodStatusFilter === "HIDDEN" && !p.is_hidden) return false;
@@ -4600,7 +4626,7 @@ function AdminPageContent() {
                               </p>
                             </div>
                             <div className="mt-4 pt-3 border-t border-red-100 flex items-center justify-center gap-1.5 text-xs font-heading font-bold uppercase tracking-wider text-red-600 group-hover:underline">
-                              <span>Jetzt zuweisen</span>
+                              <span>Assign Now</span>
                               <ArrowRight className="w-3.5 h-3.5" />
                             </div>
                           </div>
@@ -4742,7 +4768,7 @@ function AdminPageContent() {
                                 : "bg-white text-black hover:bg-neutral-100 border border-neutral-200"
                             }`}
                           >
-                            Ausgeblendet ({hiddenCount})
+                            Inactive ({hiddenCount})
                           </button>
                         </div>
 
@@ -4883,13 +4909,13 @@ function AdminPageContent() {
                                             ? "text-neutral-600 bg-neutral-100 border-neutral-300 hover:bg-neutral-200" 
                                             : "text-emerald-800 bg-emerald-50 border-emerald-300 hover:bg-emerald-100"
                                         }`}
-                                        title={prod.is_hidden ? "Klicken um Product auf Active zu schalten" : "Klicken um Product auf Inactive (Ausgeblendet) zu schalten"}
+                                        title={prod.is_hidden ? "Click to set style active" : "Click to set style inactive"}
                                       >
-                                        {prod.is_hidden ? "Ausgeblendet" : "Active"}
+                                        {prod.is_hidden ? "Inactive" : "Active"}
                                       </button>
                                       {prod.is_featured && (
                                         <span className="text-[10px] font-heading font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border text-amber-800 bg-amber-50 border-amber-300">
-                                          Hervorgehoben
+                                          Featured
                                         </span>
                                       )}
                                     </div>
@@ -4899,9 +4925,9 @@ function AdminPageContent() {
                                 {/* Middle: Thinner Price Font */}
                                 <div className="shrink-0 sm:text-right" onClick={(e) => e.stopPropagation()}>
                                   <div className="font-sans font-medium text-base sm:text-lg text-black tabular-nums tracking-tight">
-                                    {prod.price !== null && prod.price !== undefined ? `₹${Number(prod.price).toFixed(2)}` : "Auf Anfrage"}
+                                    {prod.price !== null && prod.price !== undefined ? `₹${Number(prod.price).toFixed(2)}` : "Price on Request"}
                                   </div>
-                                  <span className="text-[11px] text-neutral-500 font-normal">EUR</span>
+                                  <span className="text-[11px] text-neutral-500 font-normal">INR</span>
                                 </div>
 
                                 {/* Right: Actions */}
@@ -5324,13 +5350,13 @@ function AdminPageContent() {
                                             await saveProd({ id: p.id, category_id: targetCategoryForAdd.id || targetCategoryForAdd.slug });
                                             notifyAdmin("success", "Category Assigned", `"${p.name}" assigned to "${targetCategoryForAdd.name}" successfully.`);
                                           } catch (err: any) {
-                                            notifyAdmin("error", "Error bei Zuweisung", err.message || "Error beim Zuweisen der Category");
+                                            notifyAdmin("error", "Error assigning category", err.message || "Error beim Zuweisen der Category");
                                           }
                                         }}
                                         className="px-3.5 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider rounded-xl transition-all cursor-pointer shrink-0 flex items-center gap-1.5 shadow-xs hover:scale-102"
                                       >
                                         <Plus className="w-3.5 h-3.5" />
-                                        <span>Zu {targetCategoryForAdd.name} zuweisen</span>
+                                        <span>Assign to {targetCategoryForAdd.name}</span>
                                       </button>
                                     ) : (
                                       <button
@@ -5450,8 +5476,10 @@ function AdminPageContent() {
                                   });
 
                                   if (isBaseCatalogProduct(target)) {
-                                    stored[target.id] = { id: target.id, slug: target.slug, deleted: true, is_hidden: true };
-                                    if (target.slug) stored[target.slug] = { id: target.id, slug: target.slug, deleted: true, is_hidden: true };
+                                    stored[target.id] = { id: target.id, slug: target.slug, deleted: true, purged: true, is_hidden: true };
+                                    safeSetLocalStorage("wastram_products_overrides", JSON.stringify(stored));
+                                    if (target.slug) stored[target.slug] = { id: target.id, slug: target.slug, deleted: true, purged: true, is_hidden: true };
+                                    safeSetLocalStorage("wastram_products_overrides", JSON.stringify(stored));
                                   }
                                   safeSetLocalStorage("ixos_products_overrides", JSON.stringify(stored));
                                   broadcastProductsUpdate();
@@ -7474,7 +7502,7 @@ function CategoryFormModal({ category, onSave, onClose }: {
         seo_meta: form.seo_meta.title || form.seo_meta.description ? form.seo_meta : null,
       });
     } catch (err: any) {
-      setFormError(err.message || "Error beim Save der Category");
+      setFormError(err.message || "Error saving category");
     } finally {
       setIsSubmitting(false);
     }
@@ -7640,7 +7668,7 @@ function MediaUploader({ value, onChange }: { value: string; onChange: (url: str
       }
       onChange(json.url);
     } catch (e: any) {
-      setError(e?.message || "Upload fehlgeschlagen");
+      setError(e?.message || "Upload failed");
     } finally {
       setUploading(false);
     }
@@ -8143,7 +8171,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         gallery: finalGallery,
       });
     } catch (err: any) {
-      setFormError(err.message || "Error beim Save des Products");
+      setFormError(err.message || "Error saving product");
     } finally {
       setIsSubmitting(false);
     }
@@ -8258,7 +8286,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 setForm({ ...form, price: val });
               }}
               className={textInputClass}
-              placeholder="0.00 (leer lassen für Auf Anfrage)"
+              placeholder="0.00 (leave blank for Price on Request)"
             />
           </div>
         </div>
@@ -8425,7 +8453,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   });
                   notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
                 } catch (err: any) {
-                  notifyAdmin("error", "Upload fehlgeschlagen", err.message || String(err), err);
+                  notifyAdmin("error", "Upload failed", err.message || String(err), err);
                 } finally {
                   setIsGalleryUploading(false);
                 }
@@ -8458,7 +8486,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                     });
                     notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
                   } catch (err: any) {
-                    notifyAdmin("error", "Upload fehlgeschlagen", err.message || String(err), err);
+                    notifyAdmin("error", "Upload failed", err.message || String(err), err);
                   } finally {
                     setIsGalleryUploading(false);
                   }
@@ -8582,7 +8610,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                                 const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
                                 const json = await res.json();
                                 if (!res.ok || !json.url) {
-                                  throw new Error(json?.error || "Upload fehlgeschlagen");
+                                  throw new Error(json?.error || "Upload failed");
                                 }
                                 const newUrl = json.url;
                                 setForm(prev => {
@@ -8593,7 +8621,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                                 });
                                 notifyAdmin("success", "Image Replaced", "Product image replaced successfully.");
                               } catch (err: any) {
-                                notifyAdmin("error", "Ersetzen fehlgeschlagen", err.message || String(err), err);
+                                notifyAdmin("error", "Replacement failed", err.message || String(err), err);
                               } finally {
                                 setIsGalleryUploading(false);
                               }
@@ -8670,14 +8698,14 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
               </select>
             </div>
             <div>
-              <label className={labelTextClass}>Hervorgehoben</label>
+              <label className={labelTextClass}>Featured</label>
               <select
                 value={form.is_featured ? "yes" : "no"}
                 onChange={e => setForm({ ...form, is_featured: e.target.value === "yes" })}
                 className={textInputClass}
               >
                 <option value="no">No</option>
-                <option value="yes">Yes (Hervorgehoben)</option>
+                <option value="yes">Yes (Featured)</option>
               </select>
             </div>
             <div>
@@ -9109,7 +9137,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                               const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
                               const json = await res.json();
                               if (!res.ok || !json?.url) {
-                                throw new Error(json?.error || "Image-Upload fehlgeschlagen");
+                                throw new Error(json?.error || "Image upload failed");
                               }
                               await adminFetch("/api/product-images", {
                                 method: "POST",
@@ -9123,7 +9151,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                               }
                               notifyAdmin("success", "Image Replaced", "Product image replaced successfully.");
                             } catch (err: any) {
-                              notifyAdmin("error", "Ersetzen fehlgeschlagen", err.message || String(err), err);
+                              notifyAdmin("error", "Replacement failed", err.message || String(err), err);
                             }
                           }}
                         />

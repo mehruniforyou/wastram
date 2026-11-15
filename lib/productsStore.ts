@@ -290,6 +290,7 @@ export async function deleteProductOverride(productId: string): Promise<boolean>
     slug: canonicalSlug,
     deleted: true,
     is_hidden: true,
+    purged: true,
     updated_at: now,
     updatedAt: now,
   };
@@ -379,7 +380,7 @@ export async function getAllMergedProducts(options?: { includeHidden?: boolean; 
   for (const p of PRODUCTS) {
     handledIds.add(p.id);
     const ovr = overrides[p.id] || (p.slug ? overrides[p.slug] : undefined);
-    if (ovr?.deleted) continue; // Deleted in admin
+    if (ovr?.deleted || ovr?.purged) continue; // Deleted in admin
     if (ovr?.is_hidden && !options?.includeHidden) continue; // Hidden in admin
 
     activeProducts.push(applyOverrideToProduct(p, ovr));
@@ -387,7 +388,7 @@ export async function getAllMergedProducts(options?: { includeHidden?: boolean; 
 
   // 2. Process custom products added via Admin
   for (const [id, ovr] of Object.entries(overrides)) {
-    if (!handledIds.has(id) && ovr.isCustomProduct && !ovr.deleted && !ovr.is_hidden) {
+    if (!handledIds.has(id) && ovr.isCustomProduct && !ovr.deleted && !ovr.purged && (!ovr.is_hidden || options?.includeHidden)) {
       activeProducts.push({
         id,
         name: ovr.title || "Custom Atelier Ensemble",

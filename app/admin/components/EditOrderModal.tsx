@@ -388,7 +388,7 @@ export default function EditOrderModal({
       }, 700);
     } catch (err: any) {
       console.error("Error editing order:", err);
-      const msg = err?.message || "Beim Speichern der Änderungen ist ein Fehler aufgetreten.";
+      const msg = err?.message || "An error occurred while saving order changes.";
       setErrorMsg(msg);
       notifyAdmin("error", "Error updating order", msg, err);
     } finally {
@@ -403,7 +403,7 @@ export default function EditOrderModal({
     <AdminDrawer
       isOpen={isOpen}
       onClose={onClose}
-      title="Bestelldetails bearbeiten"
+      title="Edit Order Details"
       subtitle="Adjust items, quantities, prices, customer details, and shipping."
       badge={
         <span className="text-[10px] font-mono normal-case bg-primary text-primary-foreground px-2 py-0.5 rounded-md font-bold">

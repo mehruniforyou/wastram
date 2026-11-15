@@ -386,18 +386,18 @@ export function OrderDetailDrawer({
           {/* Financial Breakdown Card */}
           <div className="rounded-xl border border-border p-4 bg-card space-y-2.5">
             <span className="text-[11px] font-bold uppercase tracking-wider text-foreground block pb-1 border-b border-border">
-              Rechnungsübersicht
+              Billing Summary
             </span>
 
             <div className="space-y-1.5 pt-1 text-xs">
               <div className="flex justify-between text-muted-foreground">
-                <span>Zwischensumme (netto):</span>
+                <span>Subtotal:</span>
                 <span className="font-mono text-foreground">
                   {currencySymbol}{(totalAmount * 0.81).toFixed(2)}
                 </span>
               </div>
               <div className="flex justify-between text-muted-foreground">
-                <span>MwSt. (19 % DE):</span>
+                <span>GST / Tax:</span>
                 <span className="font-mono text-foreground">
                   {currencySymbol}{(totalAmount * 0.19).toFixed(2)}
                 </span>
@@ -419,7 +419,7 @@ export function OrderDetailDrawer({
                 </div>
               )}
               <div className="flex justify-between items-center text-foreground font-bold text-sm pt-2 border-t border-border">
-                <span>Gesamtbetrag:</span>
+                <span>Total Amount:</span>
                 <span className="font-mono text-base text-primary">
                   {currencySymbol}{totalAmount.toFixed(2)}
                 </span>

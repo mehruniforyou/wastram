@@ -92,11 +92,11 @@ export default function ReviewsTab() {
         notifyAdmin("success", "Review deleted", "Customer review has been permanently removed.");
       } else {
         const data = await res.json().catch(() => ({}));
-        notifyAdmin("error", "Fehler beim Löschen", data.error || "Bewertung konnte nicht gelöscht werden", data);
+        notifyAdmin("error", "Error deleting review", data.error || "Review could not be deleted", data);
       }
     } catch (err: any) {
       console.error("Error deleting review:", err);
-      notifyAdmin("error", "Fehler beim Löschen", err.message || String(err), err);
+      notifyAdmin("error", "Error deleting review", err.message || String(err), err);
     }
   };
 

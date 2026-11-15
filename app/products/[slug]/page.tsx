@@ -2,6 +2,7 @@
 
 import React, { useState, useRef } from 'react';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -21,13 +22,23 @@ export default function ProductDetailPage({ params }: Props) {
   // Read initial product and check if archived or deleted
   const initialItem = React.useMemo(() => {
     const rawSlug = decodeURIComponent(params.slug || "").toLowerCase().trim();
+    if (typeof window !== "undefined") {
+      try {
+        const local = localStorage.getItem("wastram_products_overrides") || localStorage.getItem("ixos_products_overrides");
+        if (local) {
+          const parsed = JSON.parse(local);
+          const ovr = parsed[rawSlug] || Object.values(parsed).find((o: any) => o?.slug?.toLowerCase() === rawSlug || o?.id?.toLowerCase() === rawSlug);
+          if (ovr?.deleted || ovr?.purged || ovr?.is_hidden) return null;
+        }
+      } catch (_) {}
+    }
     const found = NISHORAMA_PRODUCTS.find(
       p => p.slug?.toLowerCase() === rawSlug ||
            p.id?.toLowerCase() === rawSlug ||
            p.partNumber?.toLowerCase() === rawSlug ||
            (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === rawSlug)
     );
-    if (!found || (found as any).deleted || (found as any).is_hidden) return null;
+    if (!found || (found as any).deleted || (found as any).purged || (found as any).is_hidden) return null;
     return found;
   }, [params.slug]);
 
@@ -69,7 +80,7 @@ export default function ProductDetailPage({ params }: Props) {
         const data = await res.json();
         if (!isMounted) return;
 
-        if (data.error || data.deleted === true || data.is_hidden === true) {
+        if (data.error || data.deleted === true || data.purged === true || data.is_hidden === true) {
           setIsArchived(true);
           setProduct(null);
         } else if (data && data.id) {
@@ -88,7 +99,7 @@ export default function ProductDetailPage({ params }: Props) {
           );
           if (!isMounted) return;
 
-          if (!found || found.deleted || found.is_hidden) {
+          if (!found || found.deleted || found.purged || found.is_hidden) {
             setIsArchived(true);
             setProduct(null);
           } else {
@@ -183,44 +194,9 @@ export default function ProductDetailPage({ params }: Props) {
     setActiveImageIndex(index);
   };
 
-  // If archived, deleted, or product not found
+  // If archived, deleted, or product not found -> trigger standard 404 with zero traces left
   if (isArchived || !product) {
-    return (
-      <div className="min-h-screen bg-[#FAF9F6] text-[#0B2D7F] flex flex-col justify-between font-serif selection:bg-[#B38E5D] selection:text-white">
-        <Header />
-        <main className="flex-1 flex flex-col items-center justify-center px-4 py-20 text-center max-w-xl mx-auto">
-          <div className="w-16 h-16 rounded-full bg-[#0B2D7F]/5 border border-[#0B2D7F]/15 flex items-center justify-center text-[#0B2D7F] mb-6 shadow-soft">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 opacity-70" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
-            </svg>
-          </div>
-          <span className="text-[11px] font-bold uppercase tracking-widest text-[#B38E5D] font-mono mb-2">
-            Wastram Atelier Archive
-          </span>
-          <h1 className="font-serif text-3xl sm:text-4xl font-normal text-[#0B2D7F] mb-3 uppercase tracking-wide">
-            Style Archived or Unavailable
-          </h1>
-          <p className="text-xs sm:text-sm text-[#0B2D7F]/70 max-w-md mx-auto mb-8 font-sans leading-relaxed">
-            This bespoke silhouette is no longer available in the active Wastram wholesale collection. Explore our current catalog of handcrafted pure cotton and modal silk ensembles.
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <Link
-              href="/collections/shop-all"
-              className="px-6 py-3 rounded-full bg-[#0B2D7F] text-white text-xs font-semibold uppercase tracking-wider hover:bg-[#071F59] transition-all shadow-soft"
-            >
-              Explore Wastram Collection
-            </Link>
-            <Link
-              href="/"
-              className="px-6 py-3 rounded-full border border-[#E8E4DA] bg-white text-[#0B2D7F] text-xs font-semibold uppercase tracking-wider hover:bg-[#FAF9F6] transition-all shadow-soft"
-            >
-              Return to Home
-            </Link>
-          </div>
-        </main>
-        <Footer />
-      </div>
-    );
+    notFound();
   }
 
   // Clean concise MOQ

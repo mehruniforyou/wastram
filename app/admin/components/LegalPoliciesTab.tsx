@@ -226,7 +226,7 @@ export default function LegalPoliciesTab() {
       notifyAdmin("success", "Gespeichert", `${currentTabInfo.label} aktualisiert.`);
     } catch (err: any) {
       console.error("[LegalPoliciesTab] Save error:", err);
-      notifyAdmin("error", "Speichern fehlgeschlagen", err.message || "Fehler beim Speichern.");
+      notifyAdmin("error", "Save failed", err.message || "Error saving policy.");
     } finally {
       setSaving(false);
     }
@@ -270,7 +270,7 @@ export default function LegalPoliciesTab() {
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg border border-neutral-200 bg-white hover:bg-neutral-50 text-neutral-700 transition-colors cursor-pointer"
           >
             <ExternalLink className="w-3.5 h-3.5" />
-            <span>Live ansehen</span>
+            <span>View Live</span>
           </a>
 
           <button
@@ -286,17 +286,17 @@ export default function LegalPoliciesTab() {
             {saving ? (
               <>
                 <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                <span>Wird gespeichert...</span>
+                <span>Saving...</span>
               </>
             ) : saveSuccess ? (
               <>
                 <CheckCircle2 className="w-3.5 h-3.5" />
-                <span>Gespeichert</span>
+                <span>Saved</span>
               </>
             ) : (
               <>
                 <Save className="w-3.5 h-3.5" />
-                <span>Speichern</span>
+                <span>Save Policy</span>
               </>
             )}
           </button>
@@ -504,17 +504,17 @@ export default function LegalPoliciesTab() {
             {saving ? (
               <>
                 <RefreshCw className="w-3 h-3 animate-spin" />
-                <span>Wird gespeichert...</span>
+                <span>Saving...</span>
               </>
             ) : saveSuccess ? (
               <>
                 <CheckCircle2 className="w-3 h-3" />
-                <span>Gespeichert</span>
+                <span>Saved</span>
               </>
             ) : (
               <>
                 <Save className="w-3 h-3" />
-                <span>Speichern</span>
+                <span>Save Policy</span>
               </>
             )}
           </button>
