@@ -11,26 +11,51 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme] = useState<"light" | "dark">("dark");
+  const [theme, setThemeState] = useState<"light" | "dark">("light");
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    try {
+      const savedTheme = localStorage.getItem("wastram_theme") as "light" | "dark" | null;
+      const initialTheme = savedTheme || "light";
+      setThemeState(initialTheme);
+      if (initialTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    } catch (e) {
+      // safe fallback
+    }
     setMounted(true);
-    document.documentElement.classList.add("dark");
   }, []);
 
   const setTheme = useCallback((newTheme: "light" | "dark") => {
-    // Dark mode only, do nothing
+    setThemeState(newTheme);
+    try {
+      localStorage.setItem("wastram_theme", newTheme);
+      if (newTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    } catch (e) {}
   }, []);
 
   const toggleTheme = useCallback(() => {
-    // Dark mode only, do nothing
+    setThemeState((prev) => {
+      const next = prev === "dark" ? "light" : "dark";
+      try {
+        localStorage.setItem("wastram_theme", next);
+        if (next === "dark") {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      } catch (e) {}
+      return next;
+    });
   }, []);
-
-  // Prevent flash of unstyled content
-  if (!mounted) {
-    return <>{children}</>;
-  }
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
@@ -42,9 +67,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 export function useTheme() {
   const context = useContext(ThemeContext);
   if (!context) {
-    // Safe fallback for SSG / prerendering outside ThemeProvider
     return {
-      theme: "dark" as const,
+      theme: "light" as const,
       toggleTheme: () => {},
       setTheme: () => {},
     };

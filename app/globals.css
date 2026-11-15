@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Manrope:wght@300;400;500;600;700&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,26 +6,27 @@
 
 :root {
   color-scheme: light;
-  --background: 0 0% 100%;
-  --foreground: 240 10% 3.9%;
+  --background: 45 20% 98%;
+  --foreground: 0 0% 6%;
   --card: 0 0% 100%;
-  --card-foreground: 240 10% 3.9%;
+  --card-foreground: 0 0% 6%;
   --popover: 0 0% 100%;
-  --popover-foreground: 240 10% 3.9%;
-  --primary: 221.2 83.2% 53.3%;
-  --primary-foreground: 210 40% 98%;
-  --secondary: 240 4.8% 95.9%;
-  --secondary-foreground: 240 5.9% 10%;
-  --muted: 240 4.8% 95.9%;
-  --muted-foreground: 240 3.8% 46.1%;
-  --accent: 240 4.8% 95.9%;
-  --accent-foreground: 240 5.9% 10%;
+  --popover-foreground: 0 0% 6%;
+  --primary: 0 0% 6%;
+  --primary-foreground: 45 20% 98%;
+  --secondary: 40 14% 95%;
+  --secondary-foreground: 0 0% 6%;
+  --muted: 40 12% 91%;
+  --muted-foreground: 30 5% 47%;
+  --accent: 0 0% 92%;
+  --accent-foreground: 0 0% 6%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
-  --border: 240 5.9% 90%;
-  --input: 240 5.9% 90%;
-  --ring: 240 5.9% 10%;
-  --radius: 0.625rem;
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 0 0% 6%;
+  --radius: 0px;
+  --gold: 39 42% 55%;
 
   --sidebar-background: 0 0% 99%;
   --sidebar-foreground: 240 5.3% 26.1%;
@@ -42,33 +43,33 @@
   --color-brand-brown: #0B2D7F;
   --color-brand-red: #F58220;
   --color-brand-gold: #D4AF37;
-  --font-serif: 'Jost', 'Cormorant Garamond', Georgia, serif;
-  --font-display: 'Jost', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-sans: 'Jost', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-archivo: 'Jost', sans-serif;
-  --font-jost: 'Jost', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-archivo: 'Manrope', sans-serif;
+  --font-jost: 'Manrope', sans-serif;
 }
 
 .dark {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
-  --card: 240 10% 6%;
-  --card-foreground: 0 0% 98%;
-  --popover: 240 10% 6%;
-  --popover-foreground: 0 0% 98%;
-  --primary: 217.2 91.2% 59.8%;
-  --primary-foreground: 222.2 47.4% 11.2%;
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  --background: 0 0% 6%;
+  --foreground: 40 20% 96%;
+  --card: 0 0% 8%;
+  --card-foreground: 40 20% 96%;
+  --popover: 0 0% 8%;
+  --popover-foreground: 40 20% 96%;
+  --primary: 40 20% 96%;
+  --primary-foreground: 0 0% 6%;
+  --secondary: 0 0% 12%;
+  --secondary-foreground: 40 20% 96%;
+  --muted: 0 0% 14%;
+  --muted-foreground: 30 5% 65%;
+  --accent: 0 0% 15%;
+  --accent-foreground: 40 20% 96%;
+  --destructive: 0 62% 45%;
+  --destructive-foreground: 40 20% 96%;
+  --border: 0 0% 18%;
+  --input: 0 0% 18%;
+  --ring: 40 20% 90%;
 
   --sidebar-background: 240 10% 5%;
   --sidebar-foreground: 240 4.8% 95.9%;
@@ -432,14 +433,180 @@ body::-webkit-scrollbar-thumb {
 
 /* Jost Headings and Tracking */
 .font-jost {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Manrope', 'Jost', sans-serif;
 }
 
 .heading-jost {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Manrope', 'Jost', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 400;
 }
+
+/* === StyleHub Design System Tokens & Utilities === */
+.font-display {
+  font-family: 'Playfair Display', ui-serif, Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+}
+
+.eyebrow {
+  color: #7e7872;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+}
+
+.container-x {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .container-x {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-x {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  transition: background-size 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.link-underline:hover {
+  background-size: 100% 1px;
+}
+
+.glass-header {
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
+  backdrop-filter: blur(24px) saturate(140%);
+  background-color: rgba(251, 250, 246, 0.88);
+}
+
+.dark .glass-header {
+  background-color: rgba(10, 10, 10, 0.88);
+}
+
+.image-zoom-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-zoom-wrap img {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.image-zoom-wrap:hover img {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  align-items: center;
+  background-color: #0a0a0a;
+  background-color: hsl(var(--foreground));
+  color: #fbfaf9;
+  color: hsl(var(--background));
+  display: inline-flex;
+  font-size: 0.75rem;
+  font-weight: 500;
+  gap: 0.5rem;
+  justify-content: center;
+  letter-spacing: 0.24em;
+  line-height: 1rem;
+  padding: 0.875rem 1.75rem;
+  text-transform: uppercase;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.btn-outline {
+  align-items: center;
+  border-color: #0a0a0a;
+  border-color: hsl(var(--foreground));
+  border-width: 1px;
+  color: #0a0a0a;
+  color: hsl(var(--foreground));
+  background-color: transparent;
+  display: inline-flex;
+  font-size: 0.75rem;
+  font-weight: 500;
+  gap: 0.5rem;
+  justify-content: center;
+  letter-spacing: 0.24em;
+  line-height: 1rem;
+  padding: 0.875rem 1.75rem;
+  text-transform: uppercase;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-outline:hover {
+  transform: translateY(-1px);
+  background-color: hsl(var(--foreground));
+  color: hsl(var(--background));
+}
+
+.gold {
+  color: #bc9b5c;
+  color: hsl(var(--gold));
+}
+
+.bg-gold {
+  background-color: #bc9b5c;
+  background-color: hsl(var(--gold));
+}
+
+.marquee-track {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 
 

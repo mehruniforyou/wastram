@@ -272,7 +272,7 @@ export default function ProductDetailPage({ params }: Props) {
   );
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
+    <div className="min-h-screen flex flex-col bg-background text-foreground pt-24 md:pt-28 font-sans">
       <Header
         onOpenStory={() => setIsStoryOpen(true)}
         onOpenSearch={() => setIsSearchOpen(true)}

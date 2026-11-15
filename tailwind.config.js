@@ -83,11 +83,12 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['Jost', 'var(--font-sans)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
-        serif: ['Jost', 'var(--font-serif)', '"Cormorant Garamond"', 'Playfair Display', 'serif'],
-        display: ['Jost', 'var(--font-display)', '"Playfair Display"', 'sans-serif'],
-        archivo: ['Jost', 'var(--font-archivo)', 'sans-serif'],
-        jost: ['Jost', 'sans-serif'],
+        sans: ['Manrope', 'var(--font-sans)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        serif: ['Playfair Display', 'var(--font-serif)', 'Georgia', 'serif'],
+        display: ['Playfair Display', 'var(--font-display)', 'Georgia', 'serif'],
+        body: ['Manrope', 'sans-serif'],
+        archivo: ['Manrope', 'sans-serif'],
+        jost: ['Manrope', 'sans-serif'],
       },
       boxShadow: {
         soft: '0 2px 10px rgba(11, 45, 127, 0.04)',
