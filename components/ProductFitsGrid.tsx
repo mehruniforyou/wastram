@@ -4,110 +4,129 @@ import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { NISHORAMA_PRODUCTS } from '@/data/nishorama-data';
 import ProductCard from './ProductCard';
-import ScrollReveal from './ScrollReveal';
 
 export default function ProductFitsGrid() {
-  const [activeTab, setActiveTab] = useState<string>('western-dresses');
+  const [activeTab, setActiveTab] = useState<string>('ethnic-wear-sets');
 
   const tabs = [
-    { id: 'western-dresses', label: 'Western Dresses', count: '140+' },
-    { id: 'denim-collection', label: 'Denim Collection', count: '120+' },
-    { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets', count: '180+' },
-    { id: 'umbrella-dresses', label: 'Umbrella Dresses', count: '90+' },
-    { id: 'cord-sets', label: 'Co-ord Sets', count: '110+' },
-    { id: 'short-long-kaftan', label: 'Kaftans', count: '80+' },
-    { id: 'hoodies-sweatshirts', label: 'Hoodies', count: '100+' },
-    { id: 'tops-shirts', label: 'Tops & Shirts', count: '160+' },
-    { id: 'bestsellers', label: 'Bestsellers', count: '40+' },
+    { id: 'ethnic-wear-sets', label: 'Kurta Suit Sets' },
+    { id: 'umbrella-dresses', label: 'Anarkalis & Kalidars' },
+    { id: 'cord-sets', label: 'Co-ord Sets' },
+    { id: 'short-long-kaftan', label: 'Artisanal Kaftans' },
+    { id: 'western-dresses', label: 'Western Dresses' },
+    { id: 'denim-collection', label: 'Denim Atelier' },
+    { id: 'bestsellers', label: 'Bestsellers' },
   ];
 
   const currentProducts = useMemo(() => {
-    return NISHORAMA_PRODUCTS.filter(p => {
+    return NISHORAMA_PRODUCTS.filter((p) => {
       if (activeTab === 'all') return true;
+      if (activeTab === 'ethnic-wear-sets') return p.category === 'ethnic-wear-sets';
+      if (activeTab === 'umbrella-dresses') return p.category === 'umbrella-dresses';
+      if (activeTab === 'cord-sets') return p.category === 'cord-sets';
+      if (activeTab === 'short-long-kaftan') return p.category === 'short-long-kaftan';
       if (activeTab === 'western-dresses') return p.category === 'western-dresses';
       if (activeTab === 'denim-collection') return p.category === 'denim-collection';
-      if (activeTab === 'hoodies-sweatshirts') return p.category === 'hoodies-sweatshirts';
-      if (activeTab === 't-shirts') return p.category === 't-shirts';
-      if (activeTab === 'umbrella-dresses') return p.category === 'umbrella-dresses';
-      if (activeTab === 'short-long-kaftan') return p.category === 'short-long-kaftan';
-      if (activeTab === 'ethnic-wear-sets') return p.category === 'ethnic-wear-sets';
-      if (activeTab === 'tops-shirts') return p.category === 'tops-shirts';
-      if (activeTab === 'cord-sets') return p.category === 'cord-sets';
-      if (activeTab === 'traditional-gowns') return p.category === 'traditional-gowns';
-      if (activeTab === 'bestsellers') return p.badge.includes('Bestseller');
-      return p.tab === activeTab;
-    }).slice(0, 16);
+      if (activeTab === 'bestsellers') return p.badge?.toLowerCase().includes('bestseller') || p.badge?.toLowerCase().includes('signature');
+      return p.category === activeTab;
+    }).slice(0, 12);
   }, [activeTab]);
 
-  return (
-    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6] border-t border-[#0B2D7F]/5">
-      <div className="max-w-[1540px] mx-auto flex flex-col gap-8 md:gap-12">
-        {/* Elegant Section Heading with Technical Minimalist Spec (MAE Inspired) */}
-        <ScrollReveal direction="up" distance={20} duration={800}>
-          <div className="flex flex-col items-center text-center">
-            <span className="text-[10px] font-mono tracking-[0.25em] text-[#0B2D7F]/60 uppercase mb-2">
-              JAIPUR ATELIER SPECIFICATION // 26.9124° N, 75.7873° E
-            </span>
-            <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1 flex items-center gap-2">
-              <span className="inline-block w-4 h-[1px] bg-[#D4AF37]/50" />
-              Artisanal Curation
-              <span className="inline-block w-4 h-[1px] bg-[#D4AF37]/50" />
-            </span>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.14em] uppercase text-[#0B2D7F]">
-              Featured Collections
-            </h2>
-            <div className="w-16 h-[1.5px] gold-shimmer-line mt-3 rounded-full" />
-          </div>
-        </ScrollReveal>
+  const handleWhatsAppCustomOrder = () => {
+    window.open(
+      'https://wa.me/918003088838?text=Hello%20Wastram%20Jaipur,%20I%20have%20a%20custom%20boutique%20or%20export%20inquiry.%20Please%20connect%20me%20with%20your%20Master%20Merchandiser.',
+      '_blank',
+      'noopener,noreferrer'
+    );
+  };
 
-        {/* Minimalist Technical Filter Tabs with numeric counts */}
-        <ScrollReveal direction="up" distance={16} duration={700} delay={100}>
-          <div className="flex items-center justify-center gap-2 overflow-x-auto no-scrollbar py-1 px-2">
-            {tabs.map(tab => (
+  return (
+    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-[#FAF9F6] border-t border-[#0B2D7F]/5 relative overflow-hidden">
+      <div className="max-w-[1600px] mx-auto flex flex-col gap-10 sm:gap-14">
+        {/* Section Header Matching Gulmohar Jaipur */}
+        <div className="flex flex-col items-center text-center">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="w-8 h-[1px] bg-[#D4AF37]" />
+            <span className="text-[11px] sm:text-[12px] font-jost uppercase tracking-[0.22em] text-[#0B2D7F] font-semibold">
+              Atelier Runway
+            </span>
+            <span className="w-8 h-[1px] bg-[#D4AF37]" />
+          </div>
+
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-jost font-normal text-[#071F59] uppercase tracking-[0.08em] mb-2">
+            New Arrivals &amp; Festive Drops
+          </h2>
+
+          <p className="text-xs sm:text-sm font-jost text-[#555555] max-w-xl tracking-wide">
+            Over 1,400+ Handcrafted Silhouettes • Direct Loom Sourcing • Instant WhatsApp B2B Quotes
+          </p>
+
+          {/* Decorative Gold Shimmer Accent Line */}
+          <div className="w-20 h-[1.5px] gold-shimmer-line mt-3 rounded-full" />
+        </div>
+
+        {/* Animated Interactive Tabs */}
+        <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto no-scrollbar py-1 px-1 -mx-4 sm:mx-0 px-4 sm:px-0">
+          {tabs.map((tab) => {
+            const isActive = activeTab === tab.id;
+            return (
               <button
                 key={tab.id}
+                type="button"
                 onClick={() => setActiveTab(tab.id)}
-                className={`diwali-fit-button whitespace-nowrap inline-flex items-center gap-1.5 ${
-                  activeTab === tab.id ? 'active' : ''
+                className={`px-4 sm:px-5 py-2 rounded-full text-xs sm:text-[13px] font-jost uppercase tracking-[0.1em] font-medium whitespace-nowrap transition-all duration-300 cursor-pointer ${
+                  isActive
+                    ? 'bg-[#071F59] text-white shadow-md shadow-[#071F59]/20 scale-102'
+                    : 'bg-white text-[#071F59] hover:bg-[#FAF9F6] hover:text-[#0B2D7F] border border-[#0B2D7F]/10'
                 }`}
               >
-                <span>{tab.label}</span>
-                <span className="text-[10px] opacity-60 font-mono tracking-tight">[{tab.count}]</span>
+                {tab.label}
               </button>
-            ))}
-          </div>
-        </ScrollReveal>
+            );
+          })}
+        </div>
 
-        {/* PRODUCT GRID: Desktop 4 columns, Mobile 2 columns */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 lg:gap-8">
+        {/* 4-to-5 Column Product Grid (2-Column on Mobile matching Gulmohar) */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-6 lg:gap-7 animate-fade-slide">
           {currentProducts.map((product, idx) => (
-            <ScrollReveal
-              key={product.id}
-              direction="up"
-              distance={20}
-              duration={650}
-              delay={Math.min(idx * 35, 210)}
-            >
-              <ProductCard
-                product={product}
-                priority={idx < 4}
-              />
-            </ScrollReveal>
+            <ProductCard key={product.id || idx} product={product} priority={idx < 4} />
           ))}
         </div>
 
-        {/* Minimal Luxury View All Button */}
-        <ScrollReveal direction="up" distance={16} duration={700} delay={100}>
-          <div className="flex justify-center pt-4">
+        {/* B2B Wholesale Banner Action */}
+        <div className="mt-4 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-[#071F59] via-[#0B2D7F] to-[#071F59] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-elevated border border-[#D4AF37]/30">
+          <div className="flex flex-col text-center sm:text-left">
+            <span className="text-[10px] sm:text-[11px] font-jost uppercase tracking-[0.24em] text-[#D4AF37] font-semibold mb-1">
+              Direct Manufacturer • Sanganer Textile Hub
+            </span>
+            <h3 className="text-lg sm:text-2xl font-jost uppercase tracking-[0.06em] font-normal text-white">
+              Need Custom Quantities, Colors or Private Labelling?
+            </h3>
+            <p className="text-xs sm:text-sm font-jost text-white/80 mt-1">
+              Connect directly with our Master Production Merchandiser on WhatsApp for line sheets &amp; factory rates.
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3 shrink-0 w-full sm:w-auto">
+            <button
+              type="button"
+              onClick={handleWhatsAppCustomOrder}
+              className="w-full sm:w-auto px-6 py-3 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white font-jost font-semibold text-xs sm:text-sm uppercase tracking-[0.14em] shadow-lg flex items-center justify-center gap-2 cursor-pointer transition-all active:scale-95"
+            >
+              <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.311.045-.698.057-2.228-.588-1.782-.751-2.906-2.559-2.996-2.678-.088-.119-.716-.954-.716-1.821 0-.867.453-1.294.614-1.467.161-.173.351-.216.468-.216.117 0 .234.002.336.007.108.005.253-.041.395.3.144.347.491 1.196.533 1.282.042.086.07.187.014.3-.056.113-.085.183-.17.283-.085.1-.179.224-.256.3-.085.085-.174.178-.075.348.099.17.439.723.942 1.172.646.577 1.191.756 1.361.841.17.085.27.071.37-.044.1-.115.428-.499.542-.67.114-.171.228-.143.385-.085.157.057.994.469 1.165.555.171.085.285.128.328.2.043.072.043.418-.101.823z" />
+              </svg>
+              <span>Chat with Merchandiser</span>
+            </button>
+
             <Link
               href="/collections/shop-all"
-              className="px-8 py-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card cursor-pointer inline-flex items-center gap-2 hover:-translate-y-0.5"
+              className="hidden lg:inline-flex px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-jost font-semibold text-xs uppercase tracking-[0.12em] border border-white/20 transition-all"
             >
-              <span>Explore All 1,400+ Styles</span>
-              <span>&rarr;</span>
+              View Full Index
             </Link>
           </div>
-        </ScrollReveal>
+        </div>
       </div>
     </section>
   );

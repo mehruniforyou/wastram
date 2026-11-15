@@ -4,15 +4,14 @@ import React, { useState } from 'react';
 import Header from '@/components/Header';
 import StoryViewerModal from '@/components/StoryViewerModal';
 import SearchModal from '@/components/SearchModal';
-import PromoPopupModal from '@/components/PromoPopupModal';
 import HeroSection from '@/components/HeroSection';
+import TrustBadges from '@/components/TrustBadges';
 import FeatureCategories from '@/components/FeatureCategories';
 import ProductFitsGrid from '@/components/ProductFitsGrid';
 import EditorialBanners from '@/components/EditorialBanners';
-import DenimAtelierShowcase from '@/components/DenimAtelierShowcase';
-import HeritageGalleryShowcase from '@/components/HeritageGalleryShowcase';
-import ResortFilmstripShowcase from '@/components/ResortFilmstripShowcase';
-import BestsellersShowcase from '@/components/BestsellersShowcase';
+import ShoppableReelsShowcase from '@/components/ShoppableReelsShowcase';
+import ParallaxAtelierBanner from '@/components/ParallaxAtelierBanner';
+import TestimonialsShowcase from '@/components/TestimonialsShowcase';
 import Footer from '@/components/Footer';
 
 export default function HomePage() {
@@ -20,53 +19,50 @@ export default function HomePage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <main className="min-h-screen flex flex-col bg-[#FAF9F6] w-full max-w-full overflow-x-clip">
-      {/* Interactive Navigation Header */}
+    <main className="min-h-screen flex flex-col bg-[#FAF9F6] w-full max-w-full overflow-x-clip font-jost">
+      {/* 1. Interactive Navigation Header (Gulmohar Cloned Jost Navigation + WhatsApp B2B Concierge) */}
       <Header
         onOpenStory={() => setIsStoryOpen(true)}
         onOpenSearch={() => setIsSearchOpen(true)}
       />
 
-      {/* Story Viewer Modal (Opens on Story Ring click) */}
+      {/* Story Viewer Modal */}
       <StoryViewerModal
         isOpen={isStoryOpen}
         onClose={() => setIsStoryOpen(false)}
       />
 
-      {/* Search Modal (Opens on Search icon click) */}
+      {/* Search Modal */}
       <SearchModal
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}
       />
 
-      {/* Promotional Popup Modal */}
-      <PromoPopupModal />
-
-      {/* 1. Hero Section: Cinematic Grand Portrait & Brand Statement */}
+      {/* 2. Hero Section: Auto-rotating High-Fashion Slideshow Carousel with WhatsApp Enquire CTA */}
       <HeroSection />
 
-      {/* 2. Arched Architectural Silhouette Portals */}
+      {/* 3. 5 Mughal Arch Trust & Value Proposition Badges */}
+      <TrustBadges />
+
+      {/* 4. Architectural Jharokha Category Portals (3x2 Grid) */}
       <FeatureCategories />
 
-      {/* 3. Interactive Filtered Runway Grid */}
+      {/* 5. New Arrivals & Festive Drops Tabbed Runway Grid (3:4 Cards, In-Card Carousel, S-XXL Sizes) */}
       <ProductFitsGrid />
 
-      {/* 4. Asymmetrical High-Fashion Magazine Spread */}
+      {/* 6. Asymmetrical Editorial Banners (Shaadi Edit & Ritual Ready) */}
       <EditorialBanners />
 
-      {/* 5. Split-Screen Studio Atelier Spotlight (Denim) */}
-      <DenimAtelierShowcase />
+      {/* 7. Shoppable 9:16 Video Reels Atelier */}
+      <ShoppableReelsShowcase />
 
-      {/* 6. Champagne-Tinted Royal Gallery (Heritage Needlework) */}
-      <HeritageGalleryShowcase />
+      {/* 8. Parallax Sanganer Workshop Media Spotlight */}
+      <ParallaxAtelierBanner />
 
-      {/* 7. Horizontal Lookbook Filmstrip (Resort & Co-ords) */}
-      <ResortFilmstripShowcase />
+      {/* 9. Verified Boutique Buyer Testimonials & 4.9/5 Rating Showcase */}
+      <TestimonialsShowcase />
 
-      {/* 8. Signature Atelier Creations */}
-      <BestsellersShowcase />
-
-      {/* 9. Minimal Luxury Footer */}
+      {/* 10. Rajasthani Palace Panorama Fresco Heritage Footer (Desktop & Mobile) */}
       <Footer />
     </main>
   );

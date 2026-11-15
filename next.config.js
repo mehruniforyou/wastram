@@ -4,6 +4,10 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   swcMinify: true,
+  experimental: {
+    workerThreads: false,
+    cpus: 1,
+  },
   images: {
     unoptimized: true,
   },
