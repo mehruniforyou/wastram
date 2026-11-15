@@ -1,28 +1,14 @@
 import { redirect, notFound } from "next/navigation";
-import { PRODUCTS } from "@/data/products";
 import { CATEGORIES } from "@/data/categories";
-import { getProductOverrides } from "@/lib/productsStore";
+import { getLiveProductBySlug } from "@/lib/productsStore";
 
 interface Props {
-  params: {
-    slug: string;
-  };
+  params: Promise<{ slug: string }> | { slug: string };
 }
 
 export default async function RootSlugRedirectPage({ params }: Props) {
-  const slug = decodeURIComponent(params.slug || "").trim().toLowerCase();
-
-  // Check overrides first to respect deletions & purges with 0 clues
-  const overrides = await getProductOverrides();
-  const directOvr =
-    overrides[slug] ||
-    Object.values(overrides).find(
-      (o: any) => o?.slug?.toLowerCase() === slug || o?.id?.toLowerCase() === slug
-    );
-
-  if (directOvr?.deleted || directOvr?.purged) {
-    notFound();
-  }
+  const resolvedParams = await Promise.resolve(params);
+  const slug = decodeURIComponent(resolvedParams.slug || "").trim().toLowerCase();
 
   // 1. Check if category slug
   const cat = CATEGORIES.find(
@@ -32,23 +18,12 @@ export default async function RootSlugRedirectPage({ params }: Props) {
     redirect(`/collections/${cat.slug}`);
   }
 
-  // 2. Check if product slug, ID, or SKU
-  const product = PRODUCTS.find(
-    (p) =>
-      p.slug?.toLowerCase() === slug ||
-      p.id?.toLowerCase() === slug ||
-      p.partNumber?.toLowerCase() === slug ||
-      (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === slug)
-  );
-
-  if (product) {
-    const pOvr = overrides[product.id] || (product.slug ? overrides[product.slug] : undefined);
-    if (pOvr?.deleted || pOvr?.purged) {
-      notFound();
-    }
+  // 2. Check if product slug, ID, or SKU via live products store
+  const product = await getLiveProductBySlug(slug);
+  if (product && !(product as any).deleted && !(product as any).purged) {
     redirect(`/products/${product.slug}`);
   }
 
-  // 3. Otherwise trigger standard 404
+  // 3. Otherwise trigger 404 with zero traces
   notFound();
 }

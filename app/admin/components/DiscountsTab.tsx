@@ -353,7 +353,7 @@ export default function DiscountsTab() {
         <div className="flex items-center gap-3 flex-wrap shrink-0">
           <div className="flex items-center gap-2">
             <span className="text-xs font-bold px-3 py-1.5 rounded-xl border-2 border-neutral-200 bg-white text-black">
-              {activeCount} Aktiv
+              {activeCount} Active
             </span>
             <span className="text-xs font-light px-3 py-1.5 rounded-xl border-2 border-neutral-200 bg-white text-neutral-600">
               {totalRedemptions} Eingelöst
@@ -392,7 +392,7 @@ export default function DiscountsTab() {
                 <th className="py-3.5 px-4">Discount Code</th>
                 <th className="py-3.5 px-4">Vorteil</th>
                 <th className="py-3.5 px-4">Gültig für</th>
-                <th className="py-3.5 px-4">Beschreibung</th>
+                <th className="py-3.5 px-4">Description</th>
                 <th className="py-3.5 px-4 text-center">Minimum Order Value</th>
                 <th className="py-3.5 px-4 text-center">Nutzung</th>
                 <th className="py-3.5 px-4">Gültig bis</th>
@@ -449,13 +449,9 @@ export default function DiscountsTab() {
                             </span>
                           ) : d.is_active ? (
                             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 shadow-2xs">
-                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                              Aktiv
-                            </span>
+                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />Active</span>
                           ) : (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-normal bg-neutral-100 text-neutral-500 border border-neutral-200">
-                              Inaktiv
-                            </span>
+                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-normal bg-neutral-100 text-neutral-500 border border-neutral-200">Inactive</span>
                           )}
                         </div>
                       </td>
@@ -497,14 +493,14 @@ export default function DiscountsTab() {
                       {/* ── COL 4: Applies To (Scope) ── */}
                       <td className="py-3.5 px-4 whitespace-nowrap text-xs">
                         {!d.applies_to || d.applies_to === "all" ? (
-                          <span className="font-light text-neutral-500">Gesamter Shop (Alle)</span>
+                          <span className="font-light text-neutral-500">Entire Store (All)</span>
                         ) : d.applies_to === "categories" ? (
                           <span className="font-bold text-black bg-neutral-100 px-2 py-0.5 rounded-md border border-neutral-200">
-                            {d.applicable_category_ids?.length || 0} Kategorien
+                            {d.applicable_category_ids?.length || 0} Categories
                           </span>
                         ) : (
                           <span className="font-bold text-black bg-neutral-100 px-2 py-0.5 rounded-md border border-neutral-200">
-                            {d.applicable_product_ids?.length || 0} Produkte
+                            {d.applicable_product_ids?.length || 0} Styles
                           </span>
                         )}
                       </td>
@@ -623,7 +619,7 @@ export default function DiscountsTab() {
             </div>
 
             <div>
-              <label className={labelTextClass}>Interne Beschreibung / Aktionsnotiz</label>
+              <label className={labelTextClass}>Internal Description / Campaign Note</label>
               <input
                 type="text"
                 value={formDesc}
@@ -718,9 +714,9 @@ export default function DiscountsTab() {
               <label className={labelTextClass}>Gültigkeitsbereich</label>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 mt-2">
                 {[
-                  { id: "all", label: "Alle Produkte", desc: "Gilt shopweit für das gesamte Sortiment" },
-                  { id: "categories", label: "Bestimmte Kategorien", desc: "Gilt für ausgewählte Kategorien" },
-                  { id: "products", label: "Bestimmte Produkte", desc: "Gilt für ausgewählte Einzelprodukte" },
+                  { id: "all", label: "All Products", desc: "Applies store-wide across all catalog styles" },
+                  { id: "categories", label: "Specific Categories", desc: "Applies to selected collections & categories" },
+                  { id: "products", label: "Specific Styles", desc: "Applies to selected individual products" },
                 ].map((opt) => (
                   <button
                     type="button"
@@ -744,7 +740,7 @@ export default function DiscountsTab() {
               <div className="pt-3 border-t border-neutral-100 space-y-2.5">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-black uppercase tracking-wider">
-                    Kategorien auswählen ({formSelectedCategories.length} ausgewählt)
+                    Select Categories ({formSelectedCategories.length} selected)
                   </span>
                   <div className="flex items-center gap-2">
                     <button
@@ -752,7 +748,7 @@ export default function DiscountsTab() {
                       onClick={() => setFormSelectedCategories(availableCategories.map((c) => c.id))}
                       className="text-[11px] font-bold text-black hover:underline cursor-pointer"
                     >
-                      Alle auswählen
+                      Select All
                     </button>
                     <span className="text-neutral-300">|</span>
                     <button
@@ -802,7 +798,7 @@ export default function DiscountsTab() {
               <div className="pt-3 border-t border-neutral-100 space-y-2.5">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-black uppercase tracking-wider">
-                    Produkte auswählen ({formSelectedProducts.length} ausgewählt)
+                    Select Styles ({formSelectedProducts.length} selected)
                   </span>
                   {formSelectedProducts.length > 0 && (
                     <button

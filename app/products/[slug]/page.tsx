@@ -43,7 +43,8 @@ export default function ProductDetailPage({ params }: Props) {
   }, [params.slug]);
 
   const [product, setProduct] = useState<NishoramaProduct | null>(initialItem);
-  const [isArchived, setIsArchived] = useState<boolean>(!initialItem);
+  const [isArchived, setIsArchived] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(!initialItem);
 
   // Sync with live product updates from admin console & API
   React.useEffect(() => {
@@ -74,6 +75,7 @@ export default function ProductDetailPage({ params }: Props) {
         if (res.status === 404) {
           setIsArchived(true);
           setProduct(null);
+          setIsLoading(false);
           return;
         }
 
@@ -83,9 +85,11 @@ export default function ProductDetailPage({ params }: Props) {
         if (data.error || data.deleted === true || data.purged === true || data.is_hidden === true) {
           setIsArchived(true);
           setProduct(null);
+          setIsLoading(false);
         } else if (data && data.id) {
           setProduct(data);
           setIsArchived(false);
+          setIsLoading(false);
         }
       } catch (err) {
         if (!isMounted) return;
@@ -93,9 +97,11 @@ export default function ProductDetailPage({ params }: Props) {
           const listRes = await fetch(`/api/products?t=${Date.now()}`);
           const listData = await listRes.json();
           const list = Array.isArray(listData) ? listData : (listData?.products || []);
+          const cleanParam = decodeURIComponent(params.slug || "").toLowerCase().trim();
           const found = list.find((p: any) =>
-            p.slug?.toLowerCase() === params.slug?.toLowerCase() ||
-            p.id?.toLowerCase() === params.slug?.toLowerCase()
+            p.slug?.toLowerCase() === cleanParam ||
+            p.id?.toLowerCase() === cleanParam ||
+            (p.partNumber || p.sku || "").toLowerCase() === cleanParam
           );
           if (!isMounted) return;
 
@@ -106,7 +112,11 @@ export default function ProductDetailPage({ params }: Props) {
             setProduct(found);
             setIsArchived(false);
           }
-        } catch (_) {}
+        } catch (_) {
+          if (!initialItem) setIsArchived(true);
+        } finally {
+          if (isMounted) setIsLoading(false);
+        }
       }
     };
 
@@ -137,9 +147,15 @@ export default function ProductDetailPage({ params }: Props) {
 
   const hasVariants = Boolean(product?.colorVariants && product.colorVariants.length > 0);
   const activeVariant = hasVariants ? product!.colorVariants![selectedVariantIndex] : null;
-  const activeImages = activeVariant && activeVariant.images && activeVariant.images.length > 0
+  const rawImages = activeVariant && activeVariant.images && activeVariant.images.length > 0
     ? activeVariant.images
-    : (product?.images || []);
+    : (Array.isArray((product as any)?.gallery) && (product as any).gallery.length > 0
+      ? (product as any).gallery
+      : (Array.isArray(product?.images) && product.images.length > 0
+        ? product.images
+        : ((product as any)?.featured_image ? [(product as any).featured_image] : (product?.mainImage ? [product.mainImage] : []))));
+
+  const activeImages: string[] = rawImages.map((img: any) => (typeof img === "string" ? img : img?.url || "")).filter(Boolean);
 
   // Accordion states
   const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
@@ -194,9 +210,18 @@ export default function ProductDetailPage({ params }: Props) {
     setActiveImageIndex(index);
   };
 
-  // If archived, deleted, or product not found -> trigger standard 404 with zero traces left
-  if (isArchived || !product) {
+  // If archived, deleted, or product confirmed not found -> 404 with zero traces left
+  if (isArchived) {
     notFound();
+  }
+
+  // Graceful loading state while fetching live product details
+  if (isLoading || !product) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-[#FAF9F6]">
+        <div className="w-10 h-10 border-4 border-neutral-300 border-t-black rounded-full animate-spin" />
+      </div>
+    );
   }
 
   // Clean concise MOQ

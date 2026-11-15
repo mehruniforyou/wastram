@@ -90,7 +90,7 @@ export function notifyAdmin(
 notifyAdmin.success = (titleOrMsg: string, message?: string) =>
   notifyAdmin("success", message ? titleOrMsg : "Erfolg", message || titleOrMsg);
 notifyAdmin.error = (titleOrMsg: string, message?: string) =>
-  notifyAdmin("error", message ? titleOrMsg : "Fehler", message || titleOrMsg);
+  notifyAdmin("error", message ? titleOrMsg : "Error", message || titleOrMsg);
 notifyAdmin.warning = (titleOrMsg: string, message?: string) =>
   notifyAdmin("warning", message ? titleOrMsg : "Hinweis", message || titleOrMsg);
 notifyAdmin.info = (titleOrMsg: string, message?: string) =>
@@ -250,8 +250,8 @@ function ToastCard({
           type="button"
           onClick={() => onDismiss(item.id)}
           className="text-neutral-400 hover:text-neutral-700 p-1 rounded-lg hover:bg-neutral-100 transition-colors cursor-pointer shrink-0"
-          title="Schließen"
-          aria-label="Schließen"
+          title="Close"
+          aria-label="Close"
         >
           <X className="w-4 h-4" />
         </button>

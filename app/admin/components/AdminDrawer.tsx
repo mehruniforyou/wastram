@@ -27,7 +27,7 @@ export default function AdminDrawer({
   footer,
   maxWidthClass = "max-w-5xl",
   containerId,
-  backLabel = "Zurück zur Overview",
+  backLabel = "Back to Overview",
 }: AdminDrawerProps) {
   // Lock body scroll and register Escape key listener
   useEffect(() => {
@@ -132,7 +132,7 @@ export default function AdminDrawer({
                 size="sm"
                 onClick={onClose}
                 className="gap-2 h-9 text-xs font-semibold cursor-pointer shrink-0"
-                title="Zurück"
+                title="Back"
               >
                 <ArrowLeft className="w-4 h-4" />
                 <span>{backLabel}</span>

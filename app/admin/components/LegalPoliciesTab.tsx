@@ -141,7 +141,7 @@ export default function LegalPoliciesTab() {
     if (!file) return;
 
     if (!file.name.toLowerCase().endsWith(".pdf")) {
-      notifyAdmin("error", "Ungültige Datei", "Bitte wählen Sie eine .pdf-Datei aus.");
+      notifyAdmin("error", "Invalid File", "Please select a .pdf file.");
       return;
     }
 
@@ -163,10 +163,10 @@ export default function LegalPoliciesTab() {
       setRawText(data.text);
       setHasUnsavedChanges(true);
       setViewMode("edit");
-      notifyAdmin("success", "PDF hochgeladen", `Text erfolgreich aus ${file.name} extrahiert.`);
+      notifyAdmin("success", "PDF Uploaded", `Text successfully extracted from ${file.name}.`);
     } catch (err: any) {
       console.error("[PDF Upload Error]:", err);
-      notifyAdmin("error", "Upload fehlgeschlagen", err.message || "PDF konnte nicht gelesen werden.");
+      notifyAdmin("error", "Upload Failed", err.message || "Could not parse PDF file.");
     } finally {
       setUploadingPdf(false);
       if (fileInputRef.current) fileInputRef.current.value = "";
@@ -181,7 +181,7 @@ export default function LegalPoliciesTab() {
   };
 
   const handleLoadDefaultTemplate = () => {
-    if (!confirm("Standard-Vorlage laden?")) return;
+    if (!confirm("Load standard policy template?")) return;
     const templateDoc = STARTER_TEMPLATES[activeTab] || DEFAULT_POLICIES[activeTab];
     const templateText = getPolicyGermanText(templateDoc);
     setRawText(templateText);
@@ -350,7 +350,7 @@ export default function LegalPoliciesTab() {
               ) : (
                 <>
                   <FileUp className="w-3 h-3 text-neutral-500" />
-                  <span>PDF hochladen</span>
+                  <span>Upload PDF</span>
                 </>
               )}
             </button>

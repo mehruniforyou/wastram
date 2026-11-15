@@ -144,9 +144,9 @@ export function OrderDetailDrawer({
 
   const statusDisplayMap: Record<string, string> = {
     "New Orders": "New Order",
-    "Courier Assigned": "Kurier zugewiesen",
+    "Courier Assigned": "Courier Assigned",
     "In Transit": "In Transit",
-    "Shipped": "Versendet",
+    "Shipped": "Shipped",
     "Delivered": "Delivered",
     "Cancelled": "Cancelled",
   };
@@ -155,12 +155,12 @@ export function OrderDetailDrawer({
     switch (status) {
       case "New Orders":
       case "Payment Confirmed":
-        return { label: "Zu 'Kurier zugewiesen' wechseln", next: "Courier Assigned" };
+        return { label: "Move to 'Courier Assigned'", next: "Courier Assigned" };
       case "Courier Assigned":
         return { label: "Mark as 'In Transit'", next: "In Transit" };
       case "In Transit":
       case "Shipped":
-        return { label: "Als 'Zugestellt' markieren", next: "Delivered" };
+        return { label: "Mark as 'Delivered'", next: "Delivered" };
       default:
         return null;
     }
@@ -260,11 +260,11 @@ export function OrderDetailDrawer({
               size="sm"
               onClick={onClose}
               className="h-8 px-2.5 sm:px-3 rounded-full border border-border bg-background hover:bg-muted text-foreground flex items-center gap-1.5 text-xs font-semibold transition-colors cursor-pointer shadow-2xs"
-              aria-label="Modal schließen"
-              title="Schließen (Esc)"
+              aria-label="Close modal"
+              title="Close (Esc)"
             >
               <X className="w-4 h-4" />
-              <span>Schließen</span>
+              <span>Close</span>
             </Button>
           </div>
         </header>
@@ -311,7 +311,7 @@ export function OrderDetailDrawer({
                 <option value="In Transit">In Transit</option>
                 <option value="Shipped">Versendet</option>
                 <option value="Delivered">Zugestellt</option>
-                <option value="Cancelled">Storniert</option>
+                <option value="Cancelled">Cancelled</option>
               </select>
               <ChevronDown className="w-4 h-4 absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none" />
             </div>
@@ -324,13 +324,13 @@ export function OrderDetailDrawer({
                 Ordered Products ({itemsList.length})
               </span>
               <span className="text-muted-foreground text-[11px] font-medium">
-                {itemsList.reduce((acc: number, it: any) => acc + (Number(it.quantity) || 1), 0)} Stk. gesamt
+                {itemsList.reduce((acc: number, it: any) => acc + (Number(it.quantity) || 1), 0)} pcs total
               </span>
             </div>
 
             <div className="divide-y divide-border">
               {itemsList.map((item: any, idx: number) => {
-                const pName = item.productName || item.name || item.title || "Produkt";
+                const pName = item.productName || item.name || item.title || "Style";
                 const vName = item.variantName || item.variant || "Standard-Spezifikation";
                 const qty = Number(item.quantity) || 1;
                 const unitPrice = Number(item.unitPrice || item.price || 0);
@@ -503,13 +503,13 @@ export function OrderDetailDrawer({
           <div className="rounded-xl border border-border p-4 bg-card space-y-2">
             <div className="flex items-center justify-between pb-1 border-b border-border">
               <span className="text-[11px] font-bold uppercase tracking-wider text-foreground">
-                Lieferadresse
+                Delivery Address
               </span>
               <button
                 type="button"
                 onClick={() => copyToClipboard(fullShippingAddress, "shipping")}
                 className="text-muted-foreground hover:text-foreground p-1 rounded-md hover:bg-muted transition-colors cursor-pointer flex items-center gap-1.5 text-xs font-medium"
-                title="Lieferadresse kopieren"
+                title="Copy delivery address"
               >
                 {copiedField === "shipping" ? (
                   <>
@@ -692,7 +692,7 @@ export function OrderDetailDrawer({
                 onClick={() => setIsConfirmingDelete(false)}
                 className="flex-1 text-xs font-semibold h-8.5 rounded-lg cursor-pointer"
               >
-                Abbrechen
+                Cancel
               </Button>
             </div>
           ) : (

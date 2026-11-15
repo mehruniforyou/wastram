@@ -276,7 +276,7 @@ export default function EditOrderModal({
       return;
     }
     if (items.length === 0) {
-      setErrorMsg("Bitte geben Sie mindestens einen Bestellartikel an.");
+      setErrorMsg("Please specify at least one order item.");
       return;
     }
 
@@ -294,7 +294,7 @@ export default function EditOrderModal({
       const primaryItem = normalizedItems[0];
       const itemsTitle =
         normalizedItems.length > 1
-          ? primaryItem.productName + " + " + (normalizedItems.length - 1) + " weitere Artikel"
+          ? primaryItem.productName + " + " + (normalizedItems.length - 1) + " more items"
           : primaryItem.productName;
 
       const updatedPayload = {
@@ -306,7 +306,7 @@ export default function EditOrderModal({
         productName: itemsTitle,
         variantName:
           normalizedItems.length > 1
-            ? "Sortiert (" + normalizedItems.length + " Artikel)"
+            ? "Assorted (" + normalizedItems.length + " items)"
             : primaryItem.variantName,
         quantity: normalizedItems.reduce((acc, it) => acc + it.quantity, 0),
         unitPrice: primaryItem.unitPrice,
@@ -432,7 +432,7 @@ export default function EditOrderModal({
         <div className="space-y-3">
           <div className="flex items-center gap-2 font-bold text-foreground text-xs uppercase tracking-wider">
             <Clock className="w-3.5 h-3.5 text-foreground" />
-            Order Status &amp; Währung
+            Order Status &amp; Currency
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -447,7 +447,7 @@ export default function EditOrderModal({
             </div>
 
             <div>
-              <label className={labelClass}>Währung</label>
+              <label className={labelClass}>Currency</label>
               <AdminCustomSelect
                 value={currency}
                 onChange={(val) => setCurrency(val as string)}
@@ -473,7 +473,7 @@ export default function EditOrderModal({
                   { value: "In Transit", label: "In Transit / Dispatched" },
                   { value: "Shipped", label: "Versendet" },
                   { value: "Delivered", label: "Zugestellt" },
-                  { value: "Cancelled", label: "Storniert" }
+                  { value: "Cancelled", label: "Cancelled" }
                 ]}
                 variant="form"
               />
@@ -801,7 +801,7 @@ export default function EditOrderModal({
                   { value: "PayPal", label: "PayPal" },
                   { value: "Credit / Debit Card", label: "Kredit- / Debitkarte" },
                   { value: "Cash on Delivery", label: "Nachnahme" },
-                  { value: "Manual Invoice", label: "Manuelle Rechnung" }
+                  { value: "Manual Invoice", label: "Manual Invoice" }
                 ]}
                 variant="form"
               />

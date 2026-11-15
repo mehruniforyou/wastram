@@ -168,7 +168,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
       }
     } catch (err: any) {
       console.error("[InventoryTab] Fetch error:", err);
-      notifyAdmin("error", "Verbindungsfehler", err.message || "Netzwerkfehler beim Laden.");
+      notifyAdmin("error", "Connection Error", err.message || "Network error loading inventory.");
     } finally {
       setLoading(false);
       setRefreshing(false);
@@ -657,7 +657,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                   : "text-neutral-600 hover:text-black"
               }`}
             >
-              Alle ({items.length})
+              All ({items.length})
             </button>
             <button
               type="button"
@@ -700,7 +700,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
             onChange={(e) => setCategoryFilter(e.target.value)}
             className="bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-3 py-1.5 text-xs text-black font-semibold outline-none cursor-pointer h-9"
           >
-            <option value="ALL">Alle Kategorien ({categoriesList.length})</option>
+            <option value="ALL">All Categories ({categoriesList.length})</option>
             {categoriesList.map((cat) => (
               <option key={cat} value={cat}>
                 {cat}
@@ -809,7 +809,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                     className="py-3.5 px-4 font-heading font-bold uppercase tracking-wider text-[11px] cursor-pointer hover:text-black transition-colors"
                   >
                     <div className="flex items-center gap-1.5">
-                      <span>Kategorie</span>
+                      <span>Category</span>
                       {sortField === "category" && (
                         sortDirection === "asc" ? <ArrowUp className="w-3.5 h-3.5" /> : <ArrowDown className="w-3.5 h-3.5" />
                       )}
@@ -848,7 +848,7 @@ export default function InventoryTab({ onSelectTab }: InventoryTabProps) {
                           onClick={handleDiscardAllPending}
                           disabled={isSavingPending}
                           className="px-2 py-1 text-[11px] text-neutral-500 hover:text-black font-semibold rounded-lg hover:bg-neutral-200 transition-colors cursor-pointer"
-                          title="Alle ungespeicherten Änderungen verwerfen"
+                          title="Discard all unsaved changes"
                         >
                           Verwerfen
                         </button>

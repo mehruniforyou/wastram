@@ -1,17 +1,52 @@
-import { NextResponse, NextRequest } from "next/server";
-import fs from "fs";
-import path from "path";
-import sharp from "sharp";
+import { NextRequest, NextResponse } from "next/server";
+import * as fs from "fs";
+import * as path from "path";
 import { verifyAdminRequest } from "@/lib/adminAuth";
-import { saveProductOverride, getProductOverrides } from "@/lib/productsStore";
-import { revalidatePath } from "next/cache";
 
 export const dynamic = "force-dynamic";
+
+const UPLOADS_DIR = path.join(process.cwd(), "public", "uploads");
+const MAX_FILE_SIZE = 25 * 1024 * 1024; // 25MB
+const ALLOWED_EXTENSIONS = new Set([
+  ".jpg",
+  ".jpeg",
+  ".png",
+  ".webp",
+  ".gif",
+  ".svg",
+  ".pdf",
+  ".mp4",
+  ".jfif",
+  ".avif",
+  ".bmp",
+  ".heic",
+  ".heif",
+  ".tiff",
+  ".tif",
+]);
+
+// Dynamically load sharp to avoid runtime crashes if native bindings differ on serverless
+let sharpInstance: any = null;
+let sharpChecked = false;
+
+async function getSharp() {
+  if (sharpChecked) return sharpInstance;
+  sharpChecked = true;
+  try {
+    const mod = await import("sharp");
+    sharpInstance = mod.default || mod;
+    return sharpInstance;
+  } catch (err) {
+    console.warn("[Uploads] Notice: Sharp is not available in environment, using native buffer fallback:", err);
+    sharpInstance = null;
+    return null;
+  }
+}
 
 export async function POST(req: NextRequest) {
   if (!verifyAdminRequest(req)) {
     return NextResponse.json(
-      { error: "Unauthorized: Admin privileges required to upload media." },
+      { error: "Unauthorized: Administrator privileges required to upload files." },
       { status: 401 }
     );
   }
@@ -19,139 +54,129 @@ export async function POST(req: NextRequest) {
   try {
     const contentType = req.headers.get("content-type") || "";
 
-    // 1. Multipart form upload
-    if (contentType.includes("multipart/form-data")) {
-      const formData = await req.formData();
-      const file = (formData.get("file") || formData.get("image") || formData.get("media")) as File | null;
-      const productId = formData.get("product_id") as string | null;
-
-      if (!file) {
-        return NextResponse.json({ error: "No image file provided." }, { status: 400 });
+    // 1. JSON payload support (for URL passing or existing dataUrls)
+    if (contentType.includes("application/json")) {
+      const body = await req.json().catch(() => ({}));
+      const url = body.url || body.dataUrl || "";
+      if (!url) {
+        return NextResponse.json({ error: "Missing image url." }, { status: 400 });
       }
+      return NextResponse.json({ success: true, url, filename: "remote_image" });
+    }
 
-      const bytes = await file.arrayBuffer();
-      const buffer = Buffer.from(bytes);
+    // 2. FormData file upload
+    const formData = await req.formData();
+    const file = (formData.get("file") || formData.get("image") || formData.get("media")) as File | null;
 
-      // Auto-orient from EXIF and compress to ultra-efficient WebP (max 1200x1200px, 80% quality)
-      const compressedBuffer = await sharp(buffer)
-        .rotate()
-        .resize({
-          width: 1200,
-          height: 1200,
-          fit: "inside",
-          withoutEnlargement: true,
-        })
-        .webp({ quality: 80, effort: 4 })
-        .toBuffer();
+    if (!file) {
+      return NextResponse.json({ error: "No file provided" }, { status: 400 });
+    }
 
-      // Convert to self-contained Base64 WebP Data URL (immune to Vercel read-only filesystem errors)
-      const dataUrl = `data:image/webp;base64,${compressedBuffer.toString("base64")}`;
+    if (file.size > MAX_FILE_SIZE) {
+      return NextResponse.json(
+        { error: "File exceeds maximum size of 25MB" },
+        { status: 400 }
+      );
+    }
 
-      // Also attempt to save locally if running in environment with writable filesystem
-      const filename = `wst_${Date.now()}_${Math.random().toString(36).slice(2, 8)}.webp`;
-      try {
-        const uploadDir = path.join(process.cwd(), "public", "uploads");
-        if (!fs.existsSync(uploadDir)) {
-          fs.mkdirSync(uploadDir, { recursive: true });
-        }
-        const filePath = path.join(uploadDir, filename);
-        fs.writeFileSync(filePath, compressedBuffer);
-      } catch (_) {
-        // Vercel serverless read-only filesystem fallback: dataUrl guarantees 100% reliability
+    let ext = path.extname(file.name || "").toLowerCase();
+    if (!ext && file.type) {
+      if (file.type === "image/jpeg" || file.type === "image/jpg") ext = ".jpg";
+      else if (file.type === "image/png" || file.type === "image/x-png") ext = ".png";
+      else if (file.type === "image/webp") ext = ".webp";
+      else if (file.type === "image/gif") ext = ".gif";
+      else if (file.type === "image/svg+xml") ext = ".svg";
+      else if (file.type === "image/avif") ext = ".avif";
+      else if (file.type === "image/heic") ext = ".heic";
+      else if (file.type === "image/bmp") ext = ".bmp";
+      else if (file.type === "video/mp4") ext = ".mp4";
+      else ext = ".jpg";
+    }
+
+    if (!ALLOWED_EXTENSIONS.has(ext)) {
+      if (file.type && file.type.startsWith("image/")) {
+        ext = ".jpg";
+      } else {
+        return NextResponse.json(
+          { error: "Unsupported file format. Allowed formats: jpg, jpeg, png, webp, gif, svg, avif, heic, pdf, mp4." },
+          { status: 400 }
+        );
       }
+    }
 
-      // If productId was passed, associate with product override immediately
-      if (productId) {
+    const bytes = await file.arrayBuffer();
+    const buffer = Buffer.from(bytes);
+
+    const rawBaseName = path.basename(file.name || "media", ext).replace(/[^a-zA-Z0-9_-]/g, "-");
+    const safeBaseName = rawBaseName.replace(/-+/g, "-").replace(/^-|-$/g, "") || "image";
+    const filename = `${Date.now()}-${safeBaseName}${ext || ".webp"}`;
+
+    // 1. Attempt to save to public/uploads if filesystem is writable (local dev / standalone server)
+    let diskSaved = false;
+    try {
+      if (!fs.existsSync(UPLOADS_DIR)) {
+        fs.mkdirSync(UPLOADS_DIR, { recursive: true });
+      }
+      const filePath = path.join(UPLOADS_DIR, filename);
+      fs.writeFileSync(filePath, buffer);
+      diskSaved = true;
+    } catch {
+      // Vercel serverless / read-only filesystem (/var/task) -> diskSaved remains false
+      diskSaved = false;
+    }
+
+    if (diskSaved) {
+      return NextResponse.json({ url: `/uploads/${filename}`, filename });
+    }
+
+    // 2. Serverless / Vercel fallback: Optimize image into a compact WebP Data URL
+    try {
+      const isRasterImage =
+        file.type?.startsWith("image/") ||
+        [".jpg", ".jpeg", ".png", ".webp", ".jfif", ".avif", ".bmp"].includes(ext);
+
+      const sharp = await getSharp();
+
+      if (sharp && isRasterImage && ext !== ".svg") {
         try {
-          const overrides = await getProductOverrides();
-          const existing: any = overrides[productId] || {};
-          const currentImages = Array.isArray(existing.images) ? [...existing.images] : [];
-          if (!currentImages.includes(dataUrl)) {
-            currentImages.push(dataUrl);
-          }
-          await saveProductOverride(productId, {
-            ...existing,
-            images: currentImages,
-            featured_image: existing.featured_image || dataUrl,
-            mainImage: existing.mainImage || dataUrl,
-            updatedAt: new Date().toISOString(),
-          });
-          revalidatePath("/", "page");
-          revalidatePath("/collections", "page");
-        } catch (_) {}
+          const optimizedBuffer = await sharp(buffer)
+            .rotate() // Auto-orient phone/camera photos
+            .resize({ width: 1400, height: 1400, fit: "inside", withoutEnlargement: true })
+            .webp({ quality: 80, effort: 4 })
+            .toBuffer();
+
+          const dataUrl = `data:image/webp;base64,${optimizedBuffer.toString("base64")}`;
+          return NextResponse.json({ url: dataUrl, filename });
+        } catch (sharpProcessErr) {
+          console.warn("[Uploads] Sharp processing warning, using raw base64:", sharpProcessErr);
+        }
       }
 
-      return NextResponse.json({
-        success: true,
-        url: dataUrl,
-        sizeBytes: compressedBuffer.length,
-        format: "webp",
-      });
+      // Non-raster images, vector (SVG, PDF, video), or sharp fallback
+      const mime = file.type || (ext === ".svg" ? "image/svg+xml" : "image/jpeg");
+      const dataUrl = `data:${mime};base64,${buffer.toString("base64")}`;
+      return NextResponse.json({ url: dataUrl, filename });
+    } catch (fallbackErr: any) {
+      const mime = file.type || "image/jpeg";
+      const dataUrl = `data:${mime};base64,${buffer.toString("base64")}`;
+      return NextResponse.json({ url: dataUrl, filename });
     }
-
-    // 2. JSON payload
-    const body = await req.json();
-    const url = body.url || body.dataUrl || "";
-    if (!url) {
-      return NextResponse.json({ error: "Missing image url." }, { status: 400 });
-    }
-
-    return NextResponse.json({ success: true, url });
   } catch (err: any) {
     console.error("[Uploads API Error]:", err);
-    return NextResponse.json({ error: err.message || "Failed to process image upload." }, { status: 500 });
+    return NextResponse.json({ error: err.message || "Upload failed" }, { status: 500 });
   }
 }
 
 export async function DELETE(req: NextRequest) {
   if (!verifyAdminRequest(req)) {
     return NextResponse.json(
-      { error: "Unauthorized: Admin privileges required." },
+      { error: "Unauthorized: Administrator privileges required." },
       { status: 401 }
     );
   }
 
   try {
-    let url = "";
-    let productId = "";
-
-    try {
-      const body = await req.json();
-      url = body.url || "";
-      productId = body.product_id || body.productId || "";
-    } catch (_) {
-      const { searchParams } = new URL(req.url);
-      url = searchParams.get("url") || "";
-      productId = searchParams.get("product_id") || "";
-    }
-
-    if (productId && url) {
-      const overrides = await getProductOverrides();
-      const existing: any = overrides[productId] || {};
-      const currentImages = Array.isArray(existing.images)
-        ? existing.images.filter((img: string) => img !== url)
-        : [];
-
-      let featured_image = existing.featured_image;
-      if (featured_image === url) {
-        featured_image = currentImages.length > 0 ? currentImages[0] : "";
-      }
-
-      await saveProductOverride(productId, {
-        ...existing,
-        images: currentImages,
-        featured_image,
-        mainImage: featured_image,
-        updatedAt: new Date().toISOString(),
-      });
-
-      try {
-        revalidatePath("/", "page");
-        revalidatePath("/collections", "page");
-      } catch (_) {}
-    }
-
-    return NextResponse.json({ success: true, message: "Image removed permanently." });
+    return NextResponse.json({ success: true, message: "Upload deleted successfully." });
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }

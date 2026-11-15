@@ -35,7 +35,7 @@ export default function AdminCustomSelect({
   value,
   onChange,
   options = [],
-  placeholder = "Option auswählen...",
+  placeholder = "Select option...",
   label,
   variant = "form",
   size = "md",
@@ -232,7 +232,7 @@ export default function AdminCustomSelect({
           <div className="max-h-[260px] overflow-y-auto space-y-0.5 custom-scrollbar">
             {filteredOptions.length === 0 ? (
               <div className="py-4 px-3 text-center text-xs text-muted-foreground font-medium">
-                Keine passenden Optionen
+                No matching options
               </div>
             ) : (
               filteredOptions.map((opt) => {

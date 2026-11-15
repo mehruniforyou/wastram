@@ -689,7 +689,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
   // Apply bulk rate to all European countries for the selected category
   const handleApplyBulkEuRate = (categoryId: string) => {
     if (!bulkEuFee.trim() || isNaN(Number(bulkEuFee)) || Number(bulkEuFee) < 0) {
-      notifyAdmin("warning", "Tarif erforderlich", "Bitte geben Sie einen Basispreis von 0 oder höher ein.");
+      notifyAdmin("warning", "Rate Required", "Please enter a base rate of 0 or higher.");
       return;
     }
     if (!bulkEuAdditionalFee.trim() || isNaN(Number(bulkEuAdditionalFee)) || Number(bulkEuAdditionalFee) < 0) {
@@ -744,7 +744,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
     notifyAdmin(
       "info",
       "Europa-Tarife übertragen",
-      `Alle europäischen Länder für „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
+      `All European destinations for „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
     );
   };
 
@@ -927,7 +927,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
   // Apply bulk rate to all 50 US States
   const handleApplyBulkUsRate = (categoryId: string) => {
     if (!bulkUsFee.trim() || isNaN(Number(bulkUsFee)) || Number(bulkUsFee) < 0) {
-      notifyAdmin("warning", "Tarif erforderlich", "Bitte geben Sie einen Basispreis von 0 oder höher ein.");
+      notifyAdmin("warning", "Rate Required", "Please enter a base rate of 0 or higher.");
       return;
     }
     if (!bulkUsAdditionalFee.trim() || isNaN(Number(bulkUsAdditionalFee)) || Number(bulkUsAdditionalFee) < 0) {
@@ -988,14 +988,14 @@ export default function ShippingTab({ categories: propCategories }: { categories
     notifyAdmin(
       "info",
       "USA-Tarife übertragen",
-      `Alle 50 US-Staaten für „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
+      `All 50 US states for „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
     );
   };
 
   // Apply bulk rate to all 13 Canadian provinces and territories
   const handleApplyBulkCaRate = (categoryId: string) => {
     if (!bulkCaFee.trim() || isNaN(Number(bulkCaFee)) || Number(bulkCaFee) < 0) {
-      notifyAdmin("warning", "Tarif erforderlich", "Bitte geben Sie einen Basispreis von 0 oder höher ein.");
+      notifyAdmin("warning", "Rate Required", "Please enter a base rate of 0 or higher.");
       return;
     }
     if (!bulkCaAdditionalFee.trim() || isNaN(Number(bulkCaAdditionalFee)) || Number(bulkCaAdditionalFee) < 0) {
@@ -1056,7 +1056,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
     notifyAdmin(
       "info",
       "Kanada-Tarife übertragen",
-      `Alle 13 Provinzen für „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
+      `All 13 provinces for „${currentCatRate.categoryName || categoryId}“ auf ₹${fee.toFixed(2)} (+₹${addFee.toFixed(2)}) und ${time} gesetzt.`
     );
   };
 
@@ -1065,12 +1065,12 @@ export default function ShippingTab({ categories: propCategories }: { categories
   // ═══════════════════════════════════════════════════════════════════
   const handleAddCityRate = () => {
     if (!newCityName.trim() && !newCityPostcode.trim()) {
-      notifyAdmin("warning", "Eingabe unvollständig", "Bitte geben Sie einen Stadtnamen oder eine Postleitzahl ein.");
+      notifyAdmin("warning", "Incomplete Entry", "Please enter a city name or postal code.");
       return;
     }
 
     if (!newCityFee.trim() || isNaN(Number(newCityFee)) || Number(newCityFee) < 0) {
-      notifyAdmin("warning", "Tarif erforderlich", "Bitte geben Sie einen Tarif von 0 oder höher ein (z. B. 0.00).");
+      notifyAdmin("warning", "Rate Required", "Please enter a rate of 0 or higher (e.g. 0.00).");
       return;
     }
 
@@ -1307,7 +1307,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   onClick={() => handleApplyBulkEuRate(selectedCategory.id)}
                   className="px-3 py-1 bg-black hover:bg-neutral-800 text-white rounded-lg font-bold text-xs cursor-pointer transition-colors"
                 >
-                  Auf alle 42 anwenden
+                  Apply to all 42 destinations
                 </button>
               </div>
 
@@ -1502,7 +1502,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   onClick={() => handleApplyBulkUsRate(selectedCategory.id)}
                   className="px-3 py-1 bg-black hover:bg-neutral-800 text-white rounded-lg font-bold text-xs cursor-pointer transition-colors"
                 >
-                  Auf alle 50 Staaten anwenden
+                  Apply to all 50 states
                 </button>
               </div>
 
@@ -1702,7 +1702,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
                   onClick={() => handleApplyBulkCaRate(selectedCategory.id)}
                   className="px-3 py-1 bg-black hover:bg-neutral-800 text-white rounded-lg font-bold text-xs cursor-pointer transition-colors"
                 >
-                  Auf alle 13 Provinzen anwenden
+                  Apply to all 13 provinces
                 </button>
               </div>
 
@@ -2078,7 +2078,7 @@ export default function ShippingTab({ categories: propCategories }: { categories
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2 border-b border-neutral-200">
         <div>
           <h1 className="text-2xl sm:text-3xl font-heading font-black tracking-tight text-black">
-            Shipping Rates nach Kategorie
+            Shipping Rates by Category
           </h1>
         </div>
 

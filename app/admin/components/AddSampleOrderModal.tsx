@@ -191,7 +191,7 @@ export default function AddSampleOrderModal({
     const catProducts = getProductsForCategory(selectedCatId);
 
     if (catProducts.length === 0) {
-      setCategoryNotice(`Keine Produkte für "${cat.name}" gefunden.`);
+      setCategoryNotice(`No products found for "${cat.name}".`);
       setTimeout(() => setCategoryNotice(""), 4000);
       return;
     }
@@ -199,7 +199,7 @@ export default function AddSampleOrderModal({
     const newItems: OrderItem[] = catProducts.map((p) => ({
       productId: p.id,
       productName: p.name,
-      variantName: p.variants?.[0]?.name || "Standard-Einheit",
+      variantName: p.variants?.[0]?.name || "Standard Style",
       quantity: catItemQty,
       unitPrice: p.price || p.variants?.[0]?.price || 15,
     }));
@@ -212,7 +212,7 @@ export default function AddSampleOrderModal({
           prev[0].productName === "4.5\" Premium Schaumstoffsicke" ||
           prev[0].productName === "4.5\" High Quality Foam Surround" ||
           prev[0].productName === "Sample Speaker Part" ||
-          prev[0].productName === "Muster-Lautsprecherteil")
+          prev[0].productName === "Sample Ensemble")
       ) {
         return newItems;
       }
@@ -220,7 +220,7 @@ export default function AddSampleOrderModal({
     });
 
     setCategoryNotice(
-      `Alle ${catProducts.length} Artikel aus "${cat.name}" hinzugefügt (${catItemQty} Stk. pro Artikel)!`
+      `Added all ${catProducts.length} styles from "${cat.name}" (${catItemQty} pcs per style)!`
     );
     setTimeout(() => setCategoryNotice(""), 5000);
   };
@@ -238,8 +238,8 @@ export default function AddSampleOrderModal({
 
     const bundleItem: OrderItem = {
       productId: `bundle_${cat.id}`,
-      productName: `Komplettes ${cat.name} Musterset`,
-      variantName: `Gesamtes Kategorie-Set (${catProducts.length || "Alle"} Modelle sortiert)`,
+      productName: `Full ${cat.name} Sample Pack`,
+      variantName: `Complete Category Set (${catProducts.length || "All"} Assorted Styles)`,
       quantity: catItemQty,
       unitPrice: calculatedBundlePrice > 0 ? calculatedBundlePrice : 45,
       isCategoryBundle: true,
@@ -277,8 +277,8 @@ export default function AddSampleOrderModal({
           const copy = [...prev];
           copy[index] = {
             productId: prodId,
-            productName: `Komplettes ${cat.name} Musterset`,
-            variantName: `Gesamtes Kategorie-Set (${catProducts.length || "Alle"} Modelle sortiert)`,
+            productName: `Full ${cat.name} Sample Pack`,
+            variantName: `Complete Category Set (${catProducts.length || "All"} Assorted Styles)`,
             quantity: 1,
             unitPrice: calculatedPrice > 0 ? calculatedPrice : 45,
             isCategoryBundle: true,
@@ -313,7 +313,7 @@ export default function AddSampleOrderModal({
       {
         productId: defaultProd?.id || "",
         productName: defaultProd?.name || "Muster-Lautsprecherteil",
-        variantName: defaultProd?.variants?.[0]?.name || "Evaluierungseinheit",
+        variantName: defaultProd?.variants?.[0]?.name || "Evaluation Unit",
         quantity: 2,
         unitPrice: defaultProd?.price || 15,
       },
@@ -330,7 +330,7 @@ export default function AddSampleOrderModal({
     setErrorMsg("");
 
     if (!customerName.trim()) {
-      setErrorMsg("Customer Name ist erforderlich.");
+      setErrorMsg("Customer Name is required.");
       return;
     }
     if (!customerEmail.trim()) {
@@ -342,7 +342,7 @@ export default function AddSampleOrderModal({
       return;
     }
     if (items.length === 0) {
-      setErrorMsg("Bitte fügen Sie mindestens einen Musterartikel hinzu.");
+      setErrorMsg("Please add at least one sample item.");
       return;
     }
 
@@ -359,7 +359,7 @@ export default function AddSampleOrderModal({
       const primaryItem = normalizedItems[0];
       const itemsTitle =
         normalizedItems.length > 1
-          ? `${primaryItem.productName} + ${normalizedItems.length - 1} weitere Artikel`
+          ? `${primaryItem.productName} + ${normalizedItems.length - 1} more styles`
           : primaryItem.productName;
 
       const finalOrderNumber = formatOrderSerialNumber(orderNumber);
@@ -372,7 +372,7 @@ export default function AddSampleOrderModal({
         productName: itemsTitle,
         variantName:
           normalizedItems.length > 1
-            ? `Sortierte Muster (${normalizedItems.length} Artikel)`
+            ? `Assorted Samples (${normalizedItems.length} Styles)`
             : primaryItem.variantName,
         quantity: normalizedItems.reduce((acc, it) => acc + it.quantity, 0),
         unitPrice: primaryItem.unitPrice,
@@ -520,7 +520,7 @@ export default function AddSampleOrderModal({
                 />
               </div>
               <div>
-                <label className={labelClass}>Währung</label>
+                <label className={labelClass}>Currency</label>
                 <AdminCustomSelect
                   value={currency}
                   onChange={(val) => setCurrency(val as string)}
@@ -534,17 +534,17 @@ export default function AddSampleOrderModal({
                 />
               </div>
               <div>
-                <label className={labelClass}>Bestellstatus</label>
+                <label className={labelClass}>Order Status</label>
                 <AdminCustomSelect
                   value={orderStatus}
                   onChange={(val) => setOrderStatus(val)}
                   options={[
                     { value: "Payment Confirmed", label: "New Order (Payment Confirmed)" },
-                    { value: "Courier Assigned", label: "Kurier zugewiesen" },
+                    { value: "Courier Assigned", label: "Courier Assigned" },
                     { value: "Dispatched", label: "In Transit / Dispatched" },
-                    { value: "Shipped", label: "Versendet" },
-                    { value: "Delivered", label: "Zugestellt" },
-                    { value: "Cancelled", label: "Storniert" }
+                    { value: "Shipped", label: "Shipped" },
+                    { value: "Delivered", label: "Delivered" },
+                    { value: "Cancelled", label: "Cancelled" }
                   ]}
                   variant="form"
                 />
@@ -696,7 +696,7 @@ export default function AddSampleOrderModal({
                 className="inline-flex items-center gap-1 text-xs text-primary font-bold hover:underline cursor-pointer"
               >
                 <Plus className="w-3.5 h-3.5" />
-                + Weiteren Artikel hinzufügen
+                + Add Another Style
               </button>
             </div>
 
@@ -708,11 +708,11 @@ export default function AddSampleOrderModal({
                     <Layers className="w-4 h-4 text-foreground" />
                     <span>Add entire category to order</span>
                     <span className="text-[10px] font-normal text-muted-foreground hidden sm:inline">
-                      (Alle Artikel einer Kategorie im Stapel hinzufügen)
+                      (Batch add all styles in a category)
                     </span>
                   </div>
                   <span className="text-[10px] text-muted-foreground font-mono">
-                    {categories.length} Kategorien
+                    {categories.length} Categories
                   </span>
                 </div>
 
@@ -721,12 +721,12 @@ export default function AddSampleOrderModal({
                     value={selectedCatId}
                     onChange={(val) => setSelectedCatId(val)}
                     options={[
-                      { value: "", label: "Kategorie für Stapelhinzufügung auswählen..." },
+                      { value: "", label: "Select category for batch addition..." },
                       ...categories.map((c) => {
                         const count = getProductsForCategory(c.id).length;
                         return {
                           value: c.id,
-                          label: `${c.name} (${count} Produkt${count === 1 ? "" : "e"})`
+                          label: `${c.name} (${count} Style${count === 1 ? "" : "s"})`
                         };
                       })
                     ]}
@@ -737,12 +737,12 @@ export default function AddSampleOrderModal({
                   />
 
                   <div className="flex items-center gap-1.5 bg-background border border-input rounded-xl px-2 py-1">
-                    <span className="text-[10px] font-bold text-muted-foreground uppercase">Menge/Art.:</span>
+                    <span className="text-[10px] font-bold text-muted-foreground uppercase">Qty/Style:</span>
                     <AdminCustomSelect
                       value={String(catItemQty)}
                       onChange={(val) => setCatItemQty(Number(val))}
                       options={[
-                        { value: "1", label: "1 Einheit je Artikel" },
+                        { value: "1", label: "1 unit per style" },
                         { value: "2", label: "2 units per style" },
                         { value: "4", label: "4 units per style" },
                         { value: "5", label: "5 units per style" },
@@ -760,7 +760,7 @@ export default function AddSampleOrderModal({
                     className="px-3 py-1.5 bg-primary text-primary-foreground hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-xs font-bold cursor-pointer flex items-center gap-1.5 transition-all"
                   >
                     <Plus className="w-3.5 h-3.5" />
-                    Alle Kategorie-Produkte hinzufügen
+                    Add All Category Styles
                   </button>
 
                   <button
@@ -768,10 +768,10 @@ export default function AddSampleOrderModal({
                     onClick={handleAddCategoryAsMasterBundle}
                     disabled={!selectedCatId}
                     className="px-3 py-1.5 bg-background text-foreground hover:bg-muted border border-border disabled:opacity-50 disabled:cursor-not-allowed rounded-xl text-xs font-bold cursor-pointer flex items-center gap-1.5 transition-all"
-                    title="Als 1 Paketposition hinzufügen"
+                    title="Add as 1 Bundled Package"
                   >
                     <Package className="w-3.5 h-3.5 text-foreground" />
-                    Als 1 Haupt-Paket hinzufügen
+                    Add as 1 Master Bundle
                   </button>
                 </div>
 
@@ -794,7 +794,7 @@ export default function AddSampleOrderModal({
                   >
                     <div className="flex justify-between items-center mb-1">
                       <span className="text-[10px] font-bold text-foreground uppercase tracking-wider">
-                        Artikel #{idx + 1}
+                        Style #{idx + 1}
                       </span>
                       {items.length > 1 && (
                         <button
@@ -818,8 +818,8 @@ export default function AddSampleOrderModal({
                             ...(categories && categories.length > 0
                               ? categories.map((c) => ({
                                   value: `bundle_${c.id}`,
-                                  label: `📦 Vollständiges ${c.name}-Musterset (Alle Modelle)`,
-                                  badge: "Paket",
+                                  label: `📦 Full ${c.name} Sample Pack (All Styles)`,
+                                  badge: "Bundle",
                                   badgeColor: "bg-muted text-foreground border border-border"
                                 }))
                               : []),
@@ -827,7 +827,7 @@ export default function AddSampleOrderModal({
                               value: p.id,
                               label: p.name
                             })),
-                            { value: "custom", label: "✏️ Individuelles / Prototypen-Teil" }
+                            { value: "custom", label: "✏️ Custom / Prototype Ensemble" }
                           ]}
                           variant="form"
                           searchable
@@ -1122,7 +1122,7 @@ export default function AddSampleOrderModal({
               disabled={isSubmitting}
               className="cursor-pointer"
             >
-              Abbrechen
+              Cancel
             </Button>
             <Button
               type="submit"

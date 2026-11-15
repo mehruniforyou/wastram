@@ -156,7 +156,7 @@ export default function ReviewsTab() {
       {/* ── Filter Bar ── */}
       <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
         {[
-          { id: "ALL", label: "Alle", count: reviews.length },
+          { id: "ALL", label: "All", count: reviews.length },
           { id: "Approved", label: "Freigegeben", count: approvedCount },
           { id: "Pending", label: "Ausstehend", count: pendingCount },
           { id: "Rejected", label: "Abgelehnt", count: rejectedCount },
@@ -193,7 +193,7 @@ export default function ReviewsTab() {
           </div>
         ) : filteredReviews.length === 0 ? (
           <div className="p-12 text-center text-muted-foreground">
-            Keine Bewertungen für den aktuellen Filter gefunden.
+            No reviews found for the current filter.
           </div>
         ) : (
           filteredReviews.map((r) => {
@@ -247,7 +247,7 @@ export default function ReviewsTab() {
                   <div className="flex items-center gap-3 text-[11px] text-muted-foreground pt-1 flex-wrap">
                     <span className="font-semibold text-foreground">{r.customer_name}</span>
                     {r.customer_email && <span>• {r.customer_email}</span>}
-                    <span>• Produkt: <strong className="text-foreground">{r.product_name}</strong></span>
+                    <span>• Style: <strong className="text-foreground">{r.product_name}</strong></span>
                     <span>
                       • {(() => {
                         const parsed = parseOrderTimestamp(r.created_at || r.date);

@@ -2677,7 +2677,7 @@ function AdminPageContent() {
         const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
         const json = await res.json();
         if (!res.ok || !json.url) {
-          throw new Error(json?.error || `Upload fehlgeschlagen für ${file.name}`);
+          throw new Error(json?.error || `Upload failed for ${file.name}`);
         }
         await addImage(productId, json.url, file.name);
       }
@@ -4150,19 +4150,19 @@ function AdminPageContent() {
         <ErrorView
           code={activeTab.replace("error-", "")}
           title={
-            activeTab === "error-401" ? "Nicht autorisierter Zugriff" :
-            activeTab === "error-403" ? "Zugriff verweigert" :
-            activeTab === "error-404" ? "Seite nicht gefunden" :
+            activeTab === "error-401" ? "Unauthorized Access" :
+            activeTab === "error-403" ? "Access Denied" :
+            activeTab === "error-404" ? "Page Not Found" :
             activeTab === "error-500" ? "Internal Server Error" :
-            activeTab === "error-503" ? "Dienst nicht verfügbar" : "Error aufgetreten"
+            activeTab === "error-503" ? "Service Unavailable" : "Error Occurred"
           }
           desc={
             activeTab === "error-401" ? "Please sign in with administrator credentials to access this section." :
             activeTab === "error-403" ? "You do not have permissions to view or manage this resource." :
             activeTab === "error-404" ? "The page or record you are searching for does not exist." :
             activeTab === "error-500" ? "Something went wrong on the server. Please try again later." :
-            activeTab === "error-503" ? "Der Dienst ist aufgrund von Wartungsarbeiten vorübergehend nicht verfügbar." :
-            "Ein unerwarteter Error ist aufgetreten."
+            activeTab === "error-503" ? "The service is temporarily unavailable due to scheduled maintenance." :
+            "An unexpected error has occurred."
           }
           onBack={() => handleSelectTab("overview")}
         />
@@ -4578,16 +4578,24 @@ function AdminPageContent() {
                               }}
                               className="bg-white border-2 border-neutral-200 hover:border-black rounded-2xl p-5 cursor-pointer transition-all hover:shadow-md group flex flex-col justify-between"
                             >
-                              <div className="w-24 h-24 mx-auto rounded-xl border-2 border-neutral-200 p-2 overflow-hidden flex items-center justify-center bg-white group-hover:scale-105 transition-transform">
+                              <div className="w-24 h-24 mx-auto rounded-xl border-2 border-neutral-200 p-2 overflow-hidden flex items-center justify-center bg-white group-hover:scale-105 transition-transform relative">
                                 {img ? (
                                   <img
                                     src={img}
                                     alt={cat.name}
+                                    onError={(e) => {
+                                      (e.currentTarget as HTMLElement).style.display = "none";
+                                      const fb = (e.currentTarget as HTMLElement).parentElement?.querySelector(".cat-box-fallback");
+                                      if (fb) (fb as HTMLElement).classList.remove("hidden");
+                                    }}
                                     className="w-full h-full object-cover rounded-lg"
                                   />
                                 ) : (
                                   <Box className="w-10 h-10 text-black stroke-[1.5]" />
                                 )}
+                                <div className="cat-box-fallback hidden w-full h-full items-center justify-center">
+                                  <Box className="w-10 h-10 text-black stroke-[1.5]" />
+                                </div>
                               </div>
                               <div className="mt-4 text-center">
                                 <h3 className="font-heading font-black text-base text-black line-clamp-1">
@@ -4731,7 +4739,7 @@ function AdminPageContent() {
                               title="Select all products on this page"
                             />
                             <span className="text-xs font-heading font-bold text-neutral-700 hidden sm:inline select-none">
-                              {selectedProdIds.length > 0 ? `${selectedProdIds.length} gewählt` : "Alle"}
+                              {selectedProdIds.length > 0 ? `${selectedProdIds.length} selected` : "All"}
                             </span>
                           </div>
 
@@ -4744,7 +4752,7 @@ function AdminPageContent() {
                                 : "bg-white text-black hover:bg-neutral-100 border border-neutral-200"
                             }`}
                           >
-                            Alle ({filteredProducts.length})
+                            All ({filteredProducts.length})
                           </button>
 
                           <button
@@ -5269,7 +5277,7 @@ function AdminPageContent() {
                                   onChange={e => setExistingProdCatFilter(e.target.value)}
                                   className="w-full sm:w-48 bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-3 py-2 text-xs text-black font-medium outline-none transition-colors cursor-pointer"
                                 >
-                                  <option value="all">Alle Categories ({catalogForUsedModal.length})</option>
+                                  <option value="all">All Categories ({catalogForUsedModal.length})</option>
                                   {filterCategories.map(cat => (
                                     <option key={cat.id} value={cat.slug || cat.id}>
                                       {cat.name}
@@ -5377,7 +5385,7 @@ function AdminPageContent() {
                           {/* Modal Bottom Footer */}
                           <div className="p-4 border-t border-neutral-100 bg-white flex items-center justify-between shrink-0 flex-wrap gap-2">
                             <span className="text-xs text-neutral-500 font-medium">
-                              {availableCatalog.length} {availableCatalog.length === 1 ? "Product" : "Products"} verfügbar
+                              {availableCatalog.length} {availableCatalog.length === 1 ? "Product" : "Products"} available
                             </span>
                             <div className="flex items-center gap-2">
                               <button
@@ -5626,12 +5634,12 @@ function AdminPageContent() {
                 {[
                   {
                     id: "ALL",
-                    label: "Alle Orders",
+                    label: "All Orders",
                     count: sampleOrders.length,
                   },
                   {
                     id: "NEW",
-                    label: "Neue Orders",
+                    label: "New Orders",
                     count: sampleOrders.filter(o => {
                       const s = (o?.status || "").toLowerCase().trim();
                       return (
@@ -6376,7 +6384,7 @@ function AdminPageContent() {
                               onClick={() => setPriceListSelectedProductIds([])}
                               className="px-2.5 py-1 text-[10px] font-bold text-foreground bg-card hover:bg-muted border border-border rounded-md cursor-pointer transition-colors"
                             >
-                              Auswahl aufheben
+                              Deselect All
                             </button>
                             <button
                               type="button"
@@ -6389,7 +6397,7 @@ function AdminPageContent() {
                               }}
                               className="px-2.5 py-1 text-[10px] font-bold text-slate-600 bg-white hover:bg-slate-100 border border-slate-200 rounded-md cursor-pointer transition-colors"
                             >
-                              {priceListExpandedCategoryIds.length === categories.length ? "Alle einklappen" : "Alle ausklappen"}
+                              {priceListExpandedCategoryIds.length === categories.length ? "Collapse All" : "Expand All"}
                             </button>
                           </div>
                         </div>
@@ -6763,7 +6771,7 @@ function AdminPageContent() {
                           className="inline-flex items-center gap-1.5 px-3 py-1 text-[10px] font-bold text-slate-600 hover:text-red-600 bg-white border border-slate-200 hover:border-red-200 rounded-md transition-all cursor-pointer whitespace-nowrap"
                         >
                           <RefreshCw className="w-3 h-3" />
-                          <span>Alle auf Standard zurücksetzen</span>
+                          <span>Reset All to Defaults</span>
                         </button>
                       </div>
 
@@ -7370,7 +7378,7 @@ function AdminPageContent() {
                             )}
                             {Number(selectedOrderForInvoice.taxAmount) > 0 && (
                               <div className="flex justify-between text-black">
-                                <span>Steuer / MwSt. ({selectedOrderForInvoice.taxRate || 0}%):</span>
+                                <span>Tax / GST ({selectedOrderForInvoice.taxRate || 0}%):</span>
                                 <span className="font-mono font-bold">{formatDocCurrency(Number(selectedOrderForInvoice.taxAmount), cur)}</span>
                               </div>
                             )}
@@ -7664,7 +7672,7 @@ function MediaUploader({ value, onChange }: { value: string; onChange: (url: str
       const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
       const json = await res.json();
       if (!res.ok || !json.url) {
-        throw new Error(json?.error || `Upload fehlgeschlagen (${res.status})`);
+        throw new Error(json?.error || `Upload failed (${res.status})`);
       }
       onChange(json.url);
     } catch (e: any) {
@@ -8412,14 +8420,14 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         <div className={cardClass}>
           <div className="flex items-center justify-between pb-2 border-b border-neutral-100">
             <div>
-              <label className={labelTextClass}>Product-Imageer & Medien ({form.gallery.length})</label>
+              <label className={labelTextClass}>Product Photos &amp; Media ({form.gallery.length})</label>
               <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
                 Manage all product images. The starred image is the primary cover image displayed in the store.
               </p>
             </div>
             {form.featured_image && (
               <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-black px-2.5 py-1 rounded-full flex items-center gap-1 shadow-xs">
-                <Star className="w-3 h-3 fill-black" /> 1 Hauptbild aktiv
+                <Star className="w-3 h-3 fill-black" /> 1 Featured Photo Active
               </span>
             )}
           </div>
@@ -8442,7 +8450,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                     const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
                     const json = await res.json();
                     if (!res.ok || !json.url) {
-                      throw new Error(json?.error || `Upload fehlgeschlagen für ${file.name}`);
+                      throw new Error(json?.error || `Upload failed for ${file.name}`);
                     }
                     urls.push(json.url);
                   }
