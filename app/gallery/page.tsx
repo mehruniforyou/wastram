@@ -68,8 +68,11 @@ export default function GalleryPage() {
         <div className="container-x">
           {/* Header */}
           <div className="pt-8 md:pt-12 pb-10 border-b border-foreground/10">
-            <div className="eyebrow mb-3">Atelier Photography</div>
-            <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-foreground">
+            <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
+              <span>✦</span>
+              <span>Atelier Photography</span>
+            </div>
+            <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-[#0B2D7F] dark:text-foreground">
               Inside the Atelier
             </h1>
             <p className="mt-4 text-sm md:text-base text-foreground/70 max-w-xl font-body leading-relaxed">

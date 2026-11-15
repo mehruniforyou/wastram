@@ -19,8 +19,11 @@ export default function StyleHubVisit() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-10 border-t border-foreground/10 pt-16 md:pt-20">
         {/* Left Column: Heading & Atelier Identity */}
         <div className="md:col-span-5">
-          <div className="eyebrow mb-3">Visit &amp; Consult</div>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[0.95] text-foreground tracking-tight">
+          <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
+            <span>✦</span>
+            <span>Visit &amp; Consult</span>
+          </div>
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[0.95] text-[#0B2D7F] dark:text-foreground tracking-tight">
             The Jaipur Atelier
           </h2>
           <p className="mt-4 text-foreground/70 max-w-md text-sm md:text-base font-body leading-relaxed">
@@ -43,8 +46,8 @@ export default function StyleHubVisit() {
         {/* Right Column: Workshop Details & Contact Hours */}
         <div className="md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-8 md:pl-8">
           <div>
-            <div className="flex items-center gap-2 text-foreground font-display text-lg mb-2">
-              <MapPin size={16} strokeWidth={1.5} className="shrink-0 text-foreground" />
+            <div className="flex items-center gap-2 text-[#0B2D7F] dark:text-[#D4AF37] font-display text-lg mb-2">
+              <MapPin size={16} strokeWidth={1.5} className="shrink-0" />
               <span>Location</span>
             </div>
             <p className="text-sm text-foreground/70 leading-relaxed font-body">
@@ -57,8 +60,8 @@ export default function StyleHubVisit() {
           </div>
 
           <div>
-            <div className="flex items-center gap-2 text-foreground font-display text-lg mb-2">
-              <Clock size={16} strokeWidth={1.5} className="shrink-0 text-foreground" />
+            <div className="flex items-center gap-2 text-[#0B2D7F] dark:text-[#D4AF37] font-display text-lg mb-2">
+              <Clock size={16} strokeWidth={1.5} className="shrink-0" />
               <span>Atelier Hours</span>
             </div>
             <p className="text-sm text-foreground/70 leading-relaxed font-body">

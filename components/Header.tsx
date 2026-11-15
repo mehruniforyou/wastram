@@ -10,9 +10,7 @@ import {
   Sun,
   Moon,
   Heart,
-  Shield,
   MessageCircle,
-  ExternalLink,
 } from 'lucide-react';
 import { useTheme } from '@/context/ThemeContext';
 import { useCart } from '@/context/CartContext';
@@ -76,14 +74,14 @@ export default function Header({ onOpenSearch }: HeaderProps) {
         }`}
         data-testid="site-navbar"
       >
-        {/* 1. Top Announcement Bar Matching StyleHub */}
-        <div className="border-b border-black/5 dark:border-white/5 bg-foreground text-background">
+        {/* 1. Top Announcement Bar in Wastram Deep Navy & Royal Gold */}
+        <div className="border-b border-[#D4AF37]/25 bg-[#071F59] text-white shadow-sm">
           <div className="container-x py-2 text-[10px] md:text-[11px] uppercase tracking-widerest text-center font-medium font-body flex items-center justify-center gap-2">
-            <span>Artisanal Handloom</span>
-            <span className="opacity-50">·</span>
-            <span>Direct Jaipur Atelier Sourcing</span>
-            <span className="opacity-50">·</span>
-            <span>Worldwide Boutique Air Freight</span>
+            <span>👑 Artisanal Jaipur Handlooms</span>
+            <span className="text-[#D4AF37]">✦</span>
+            <span>Direct Atelier Wholesale Sourcing</span>
+            <span className="text-[#D4AF37]">✦</span>
+            <span>Worldwide Boutique Air Cargo</span>
           </div>
         </div>
 
@@ -103,13 +101,18 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             )}
           </button>
 
-          {/* Brand Logo in Playfair Display with Gold Period */}
+          {/* Official Wastram Brand Logo */}
           <Link
             href="/"
-            className="font-display font-medium text-2xl md:text-3xl tracking-tight text-foreground"
+            className="flex items-center gap-2 group py-1"
             data-testid="nav-logo"
+            aria-label="Wastram Home"
           >
-            Wastram<span className="gold">.</span>
+            <img
+              src="/images/brand/wastram-header-logo-trimmed.png"
+              alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
+              className="h-8 sm:h-9 md:h-11 w-auto object-contain dark:brightness-125 transition-transform duration-300 group-hover:scale-102"
+            />
           </Link>
 
           {/* Desktop Center Navigation Links */}
@@ -173,23 +176,10 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               )}
             </button>
 
-            {/* Admin Console Direct Link */}
-            <Link
-              href="/admin"
-              className="p-2 text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-gold transition-colors relative flex items-center gap-1 group"
-              title="Wastram Admin Panel"
-              aria-label="Wastram Admin Panel"
-            >
-              <Shield size={18} strokeWidth={1.4} />
-              <span className="hidden xl:inline text-[10px] uppercase tracking-widerest text-foreground/60 group-hover:text-foreground">
-                Admin
-              </span>
-            </Link>
-
             {/* WhatsApp Concierge Button (Desktop) */}
             <button
               onClick={handleWhatsAppConcierge}
-              className="hidden sm:inline-flex items-center gap-1.5 ml-2 px-3 py-1.5 border border-foreground/20 hover:border-foreground text-foreground text-[11px] uppercase tracking-widerest transition-colors cursor-pointer font-medium"
+              className="hidden sm:inline-flex items-center gap-1.5 ml-2 px-3 py-1.5 border border-foreground/20 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] text-foreground text-[11px] uppercase tracking-widerest transition-colors cursor-pointer font-medium"
             >
               <MessageCircle size={13} className="text-[#25D366] shrink-0" />
               <span>Concierge</span>
@@ -215,9 +205,13 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 <Link
                   href="/"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="font-display font-medium text-2xl text-foreground"
+                  className="block py-1"
                 >
-                  Wastram<span className="gold">.</span>
+                  <img
+                    src="/images/brand/wastram-header-logo-trimmed.png"
+                    alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
+                    className="h-8 w-auto object-contain dark:brightness-125"
+                  />
                 </Link>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -247,18 +241,6 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                     {link.label}
                   </Link>
                 ))}
-                {/* Admin Link in Mobile Drawer */}
-                <Link
-                  href="/admin"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-sm uppercase tracking-widerest text-[#0B2D7F] dark:text-gold font-semibold py-1 flex items-center justify-between border-t border-foreground/10 pt-4 mt-2"
-                >
-                  <span className="flex items-center gap-2">
-                    <Shield size={16} />
-                    <span>Admin Panel</span>
-                  </span>
-                  <ExternalLink size={14} />
-                </Link>
               </nav>
             </div>
 

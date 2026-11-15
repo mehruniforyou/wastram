@@ -82,8 +82,11 @@ export default function BrandsPage() {
         <div className="container-x">
           {/* Header */}
           <div className="pt-8 md:pt-12 pb-10 border-b border-foreground/10">
-            <div className="eyebrow mb-3">Atelier Edits &amp; Fabric Houses</div>
-            <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-foreground">
+            <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
+              <span>✦</span>
+              <span>Atelier Edits &amp; Fabric Houses</span>
+            </div>
+            <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-[#0B2D7F] dark:text-foreground">
               Artisan Craft Guilds
             </h1>
             <p className="mt-4 text-sm md:text-base text-foreground/70 max-w-xl font-body leading-relaxed">
@@ -97,7 +100,7 @@ export default function BrandsPage() {
             {EDITS.map((edit) => (
               <div
                 key={edit.id}
-                className="group border border-foreground/10 bg-card hover:border-foreground/30 transition-colors flex flex-col"
+                className="group border border-foreground/10 bg-card hover:border-[#0B2D7F]/30 dark:hover:border-[#D4AF37]/40 hover:shadow-cardHover transition-all duration-300 flex flex-col"
               >
                 <div className="relative aspect-[16/10] bg-secondary image-zoom-wrap overflow-hidden">
                   <img

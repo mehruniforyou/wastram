@@ -22,7 +22,7 @@ export default function StyleHubCategories() {
           <Link
             key={cat.id}
             href={`/products?category=${cat.slug}`}
-            className="group image-zoom-wrap relative aspect-[3/4] bg-secondary border border-foreground/10 overflow-hidden block"
+            className="group image-zoom-wrap relative aspect-[3/4] bg-secondary border border-foreground/10 hover:border-[#D4AF37] transition-all duration-300 overflow-hidden block"
             data-testid={`home-cat-${cat.slug}`}
           >
             <img

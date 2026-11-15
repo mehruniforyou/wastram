@@ -65,14 +65,14 @@ export default function StyleHubOffers() {
         {OFFERS.map((offer) => (
           <div
             key={offer.id}
-            className="border border-foreground/10 p-8 bg-card flex flex-col justify-between hover:border-foreground/30 transition-colors"
+            className="border border-foreground/10 hover:border-[#0B2D7F]/30 dark:hover:border-[#D4AF37]/40 hover:shadow-cardHover p-8 bg-card flex flex-col justify-between transition-all duration-300"
             data-testid={`home-offer-${offer.id}`}
           >
             <div>
-              <div className="eyebrow gold font-mono tracking-widest">
+              <div className="eyebrow text-[#D4AF37] font-mono font-bold tracking-widest">
                 {offer.code}
               </div>
-              <h3 className="font-display text-2xl md:text-3xl mt-3 text-foreground leading-snug">
+              <h3 className="font-display text-2xl md:text-3xl mt-3 text-[#0B2D7F] dark:text-foreground leading-snug">
                 {offer.title}
               </h3>
               <p className="mt-3 text-sm text-foreground/70 leading-relaxed font-body">
@@ -91,7 +91,7 @@ export default function StyleHubOffers() {
               <button
                 type="button"
                 onClick={() => handleClaimOffer(offer)}
-                className="text-xs uppercase tracking-widerest font-medium link-underline text-foreground cursor-pointer"
+                className="text-xs uppercase tracking-widerest font-semibold link-underline text-[#0B2D7F] dark:text-[#D4AF37] hover:text-[#D4AF37] cursor-pointer"
               >
                 Claim Terms →
               </button>

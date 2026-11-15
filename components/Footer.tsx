@@ -9,7 +9,6 @@ import {
   Mail,
   Phone,
   MapPin,
-  Shield,
   ArrowRight,
   Check,
 } from 'lucide-react';
@@ -49,11 +48,17 @@ export default function Footer() {
       <div className="relative z-10 container-x py-16 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
         {/* Column 1: Brand Atelier Manifesto & Coordinates (md:col-span-4) */}
         <div className="md:col-span-4">
+          {/* Official Wastram Golden Thread Logo */}
           <Link
             href="/"
-            className="font-display text-3xl md:text-4xl tracking-tight inline-block text-foreground"
+            className="inline-block group mb-3"
+            aria-label="Wastram Home"
           >
-            Wastram<span className="gold">.</span>
+            <img
+              src="/images/brand/wastram-gold-thread-logo.png"
+              alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
+              className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
+            />
           </Link>
 
           <p className="mt-4 text-sm text-foreground/75 max-w-sm font-body leading-relaxed">
@@ -101,15 +106,6 @@ export default function Footer() {
             <li>
               <Link href="/offers" className="link-underline text-foreground/80 hover:text-foreground">
                 Wholesale Offers
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/admin"
-                className="link-underline text-[#0B2D7F] dark:text-gold font-medium flex items-center gap-1 mt-3"
-              >
-                <Shield size={13} />
-                <span>Admin Console</span>
               </Link>
             </li>
           </ul>

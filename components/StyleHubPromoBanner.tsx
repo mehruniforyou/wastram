@@ -24,15 +24,18 @@ export default function StyleHubPromoBanner() {
         {/* Text Details */}
         <div className="absolute inset-0 flex items-center p-6 sm:p-10 md:p-14 lg:p-16 text-white">
           <div className="max-w-2xl">
-            <div className="eyebrow text-white/70">Featured Wholesale Edit</div>
+            <div className="eyebrow text-[#D4AF37] font-semibold flex items-center gap-1.5">
+              <span>✦</span>
+              <span>Featured Wholesale Edit</span>
+            </div>
             <h2 className="font-display text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-2 sm:mt-3 leading-tight tracking-tight text-white drop-shadow-sm">
               Pure Mulmul &amp; Modal Silk Drops
             </h2>
-            <p className="mt-2 sm:mt-3 max-w-xl text-white/80 text-xs sm:text-sm md:text-base leading-relaxed line-clamp-2 sm:line-clamp-none">
+            <p className="mt-2 sm:mt-3 max-w-xl text-white/85 text-xs sm:text-sm md:text-base leading-relaxed line-clamp-2 sm:line-clamp-none">
               Direct Jaipur atelier sourcing for global boutique owners. Enjoy
               exclusive MOQ slabs, door-to-door air freight, and customized private labeling.
             </p>
-            <div className="mt-5 sm:mt-7 inline-block border border-white text-white px-5 sm:px-6 py-2.5 sm:py-3 text-[11px] sm:text-xs uppercase tracking-widerest font-medium transition-colors duration-200 group-hover:bg-white group-hover:text-black">
+            <div className="mt-5 sm:mt-7 inline-block border border-white text-white px-5 sm:px-6 py-2.5 sm:py-3 text-[11px] sm:text-xs uppercase tracking-widerest font-semibold transition-all duration-200 group-hover:bg-[#D4AF37] group-hover:border-[#D4AF37] group-hover:text-[#071F59]">
               View Wholesale Terms &amp; Offers →
             </div>
           </div>

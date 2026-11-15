@@ -20,8 +20,11 @@ export default function CategoriesPage() {
         <div className="container-x">
           {/* Page Heading */}
           <div className="pt-8 md:pt-12 pb-10 border-b border-foreground/10">
-            <div className="eyebrow mb-3">Departments</div>
-            <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-foreground">
+            <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
+              <span>✦</span>
+              <span>Departments</span>
+            </div>
+            <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-[#0B2D7F] dark:text-foreground">
               Curated Categories
             </h1>
             <p className="mt-4 text-sm md:text-base text-foreground/70 max-w-xl font-body leading-relaxed">
@@ -36,7 +39,7 @@ export default function CategoriesPage() {
               <Link
                 key={cat.id}
                 href={`/products?category=${cat.slug}`}
-                className="group border border-foreground/10 bg-card overflow-hidden hover:border-foreground/30 transition-all duration-300 flex flex-col"
+                className="group border border-foreground/10 bg-card overflow-hidden hover:border-[#0B2D7F]/30 dark:hover:border-[#D4AF37]/40 hover:shadow-cardHover transition-all duration-300 flex flex-col"
               >
                 {/* Image Container with Zoom */}
                 <div className="relative aspect-[4/5] bg-secondary image-zoom-wrap overflow-hidden">

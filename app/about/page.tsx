@@ -19,8 +19,11 @@ export default function AboutPage() {
         <div className="container-x">
           {/* Hero Section */}
           <div className="pt-8 md:pt-12 pb-12 border-b border-foreground/10">
-            <div className="eyebrow mb-3">The Atelier · Jaipur, Rajasthan</div>
-            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl tracking-tight leading-[0.95] text-foreground max-w-4xl">
+            <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
+              <span>✦</span>
+              <span>The Atelier · Jaipur, Rajasthan</span>
+            </div>
+            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl tracking-tight leading-[0.95] text-[#0B2D7F] dark:text-foreground max-w-4xl">
               Where heritage craft meets contemporary form.
             </h1>
             <p className="mt-6 text-sm md:text-lg text-foreground/75 max-w-2xl font-body leading-relaxed">

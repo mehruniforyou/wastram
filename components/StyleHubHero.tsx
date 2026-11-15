@@ -27,10 +27,10 @@ export default function StyleHubHero() {
               loading="eager"
               className="w-full h-full object-cover object-top"
             />
-            {/* Subtle Atelier Tag */}
-            <div className="absolute top-4 left-4 z-10 bg-background/90 backdrop-blur-md px-3 py-1.5 border border-foreground/10">
-              <span className="eyebrow text-[10px] tracking-widerest text-foreground">
-                Jaipur Atelier · Est. 2011
+            {/* Subtle Royal Atelier Tag */}
+            <div className="absolute top-4 left-4 z-10 bg-white/95 dark:bg-[#071F59]/95 backdrop-blur-md px-3.5 py-1.5 border border-[#D4AF37]/35 shadow-soft">
+              <span className="eyebrow text-[10px] tracking-widerest text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
+                👑 Jaipur Atelier · Est. 2011
               </span>
             </div>
           </div>
@@ -38,11 +38,12 @@ export default function StyleHubHero() {
 
         {/* Right Column: Editorial Typographic Copy */}
         <div className="lg:col-span-5 flex flex-col justify-end pb-2 lg:pb-6">
-          <div className="eyebrow mb-4 text-foreground/60">
-            Autumn / Winter &apos;26 Atelier
+          <div className="eyebrow mb-3 text-[#D4AF37] font-semibold tracking-widest flex items-center gap-1.5">
+            <span>✦</span>
+            <span>Autumn / Winter &apos;26 Atelier</span>
           </div>
 
-          <h1 className="font-display font-medium text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[0.92] tracking-tighter text-foreground">
+          <h1 className="font-display font-medium text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[0.92] tracking-tighter text-[#0B2D7F] dark:text-foreground">
             A quiet study
             <br />
             in form, fabric

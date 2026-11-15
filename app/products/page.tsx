@@ -82,10 +82,13 @@ function ProductsCatalogContent() {
         <div className="container-x">
           {/* Page Heading */}
           <div className="pt-8 md:pt-12 pb-8 border-b border-foreground/10">
-            <div className="eyebrow mb-3">The Collection</div>
+            <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
+              <span>✦</span>
+              <span>The Collection</span>
+            </div>
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
               <div>
-                <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-foreground">
+                <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-[#0B2D7F] dark:text-foreground">
                   {selectedCategory === 'all'
                     ? 'All Silhouettes'
                     : CATEGORIES.find((c) => c.slug === selectedCategory)?.name ||
@@ -97,7 +100,7 @@ function ProductsCatalogContent() {
                 </p>
               </div>
 
-              <div className="text-xs uppercase tracking-wider text-foreground/60 font-body">
+              <div className="text-xs uppercase tracking-wider text-[#0B2D7F] dark:text-[#D4AF37] font-semibold font-body">
                 Showing {filteredProducts.length} pieces
               </div>
             </div>
@@ -113,10 +116,10 @@ function ProductsCatalogContent() {
                   setSelectedCategory('all');
                   setActiveFilter('all');
                 }}
-                className={`px-3.5 py-1.5 text-xs uppercase tracking-wider transition-colors whitespace-nowrap cursor-pointer ${
+                className={`px-3.5 py-1.5 text-xs uppercase tracking-wider transition-all whitespace-nowrap cursor-pointer ${
                   selectedCategory === 'all' && activeFilter === 'all'
-                    ? 'bg-foreground text-background font-semibold'
-                    : 'border border-foreground/15 text-foreground/80 hover:border-foreground'
+                    ? 'bg-[#0B2D7F] text-white font-semibold shadow-soft'
+                    : 'border border-foreground/15 text-foreground/80 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37]'
                 }`}
               >
                 All Departments
@@ -130,10 +133,10 @@ function ProductsCatalogContent() {
                     setSelectedCategory(cat.slug);
                     setActiveFilter('all');
                   }}
-                  className={`px-3.5 py-1.5 text-xs uppercase tracking-wider transition-colors whitespace-nowrap cursor-pointer ${
+                  className={`px-3.5 py-1.5 text-xs uppercase tracking-wider transition-all whitespace-nowrap cursor-pointer ${
                     selectedCategory === cat.slug
-                      ? 'bg-foreground text-background font-semibold'
-                      : 'border border-foreground/15 text-foreground/80 hover:border-foreground'
+                      ? 'bg-[#0B2D7F] text-white font-semibold shadow-soft'
+                      : 'border border-foreground/15 text-foreground/80 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37]'
                   }`}
                 >
                   {cat.name}

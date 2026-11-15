@@ -7,40 +7,41 @@
 :root {
   color-scheme: light;
   --background: 45 20% 98%;
-  --foreground: 0 0% 6%;
+  --foreground: 223 84% 18%;
   --card: 0 0% 100%;
-  --card-foreground: 0 0% 6%;
+  --card-foreground: 223 84% 18%;
   --popover: 0 0% 100%;
-  --popover-foreground: 0 0% 6%;
-  --primary: 0 0% 6%;
-  --primary-foreground: 45 20% 98%;
+  --popover-foreground: 223 84% 18%;
+  --primary: 223 84% 27%;
+  --primary-foreground: 0 0% 100%;
   --secondary: 40 14% 95%;
-  --secondary-foreground: 0 0% 6%;
+  --secondary-foreground: 223 84% 18%;
   --muted: 40 12% 91%;
-  --muted-foreground: 30 5% 47%;
-  --accent: 0 0% 92%;
-  --accent-foreground: 0 0% 6%;
+  --muted-foreground: 223 20% 45%;
+  --accent: 223 45% 94%;
+  --accent-foreground: 223 84% 18%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
-  --border: 0 0% 90%;
-  --input: 0 0% 90%;
-  --ring: 0 0% 6%;
+  --border: 223 25% 88%;
+  --input: 223 25% 88%;
+  --ring: 223 84% 27%;
   --radius: 0px;
-  --gold: 39 42% 55%;
+  --gold: 45 64% 52%;
 
   --sidebar-background: 0 0% 99%;
-  --sidebar-foreground: 240 5.3% 26.1%;
-  --sidebar-primary: 221.2 83.2% 53.3%;
+  --sidebar-foreground: 223 50% 25%;
+  --sidebar-primary: 223 84% 27%;
   --sidebar-primary-foreground: 0 0% 98%;
-  --sidebar-accent: 240 4.8% 95.9%;
-  --sidebar-accent-foreground: 240 5.9% 10%;
-  --sidebar-border: 240 5.9% 90%;
-  --sidebar-ring: 217.2 91.2% 59.8%;
+  --sidebar-accent: 223 45% 94%;
+  --sidebar-accent-foreground: 223 84% 18%;
+  --sidebar-border: 223 25% 88%;
+  --sidebar-ring: 223 84% 27%;
   --sidebar-width: 16rem;
   --sidebar-width-mobile: 18rem;
   --sidebar-width-icon: 3rem;
 
   --color-brand-brown: #0B2D7F;
+  --color-brand-navy: #0B2D7F;
   --color-brand-red: #F58220;
   --color-brand-gold: #D4AF37;
   --font-serif: 'Playfair Display', Georgia, serif;
@@ -51,25 +52,25 @@
 }
 
 .dark {
-  --background: 0 0% 6%;
+  --background: 223 50% 6%;
   --foreground: 40 20% 96%;
-  --card: 0 0% 8%;
+  --card: 223 45% 9%;
   --card-foreground: 40 20% 96%;
-  --popover: 0 0% 8%;
+  --popover: 223 45% 9%;
   --popover-foreground: 40 20% 96%;
-  --primary: 40 20% 96%;
-  --primary-foreground: 0 0% 6%;
-  --secondary: 0 0% 12%;
+  --primary: 45 64% 52%;
+  --primary-foreground: 223 84% 18%;
+  --secondary: 223 30% 12%;
   --secondary-foreground: 40 20% 96%;
-  --muted: 0 0% 14%;
-  --muted-foreground: 30 5% 65%;
-  --accent: 0 0% 15%;
+  --muted: 223 30% 15%;
+  --muted-foreground: 223 20% 65%;
+  --accent: 223 30% 16%;
   --accent-foreground: 40 20% 96%;
   --destructive: 0 62% 45%;
   --destructive-foreground: 40 20% 96%;
-  --border: 0 0% 18%;
-  --input: 0 0% 18%;
-  --ring: 40 20% 90%;
+  --border: 223 30% 18%;
+  --input: 223 30% 18%;
+  --ring: 45 64% 52%;
 
   --sidebar-background: 240 10% 5%;
   --sidebar-foreground: 240 4.8% 95.9%;
@@ -522,61 +523,85 @@ body::-webkit-scrollbar-thumb {
 
 .btn-primary {
   align-items: center;
-  background-color: #0a0a0a;
-  background-color: hsl(var(--foreground));
-  color: #fbfaf9;
-  color: hsl(var(--background));
+  background-color: #0B2D7F;
+  color: #FFFFFF;
   display: inline-flex;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   gap: 0.5rem;
   justify-content: center;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.22em;
   line-height: 1rem;
   padding: 0.875rem 1.75rem;
   text-transform: uppercase;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 10px rgba(11, 45, 127, 0.15);
 }
 
 .btn-primary:hover {
   transform: translateY(-1px);
-  opacity: 0.92;
+  background-color: #071F59;
+  box-shadow: 0 4px 18px rgba(11, 45, 127, 0.3);
+}
+
+.dark .btn-primary {
+  background-color: #D4AF37;
+  color: #071F59;
+}
+
+.dark .btn-primary:hover {
+  background-color: #C29B27;
 }
 
 .btn-outline {
   align-items: center;
-  border-color: #0a0a0a;
-  border-color: hsl(var(--foreground));
-  border-width: 1px;
-  color: #0a0a0a;
-  color: hsl(var(--foreground));
+  border-color: #0B2D7F;
+  border-width: 1.5px;
+  color: #0B2D7F;
   background-color: transparent;
   display: inline-flex;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   gap: 0.5rem;
   justify-content: center;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.22em;
   line-height: 1rem;
   padding: 0.875rem 1.75rem;
   text-transform: uppercase;
-  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .btn-outline:hover {
   transform: translateY(-1px);
-  background-color: hsl(var(--foreground));
-  color: hsl(var(--background));
+  background-color: #0B2D7F;
+  color: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(11, 45, 127, 0.2);
+}
+
+.dark .btn-outline {
+  border-color: #D4AF37;
+  color: #D4AF37;
+}
+
+.dark .btn-outline:hover {
+  background-color: #D4AF37;
+  color: #071F59;
 }
 
 .gold {
-  color: #bc9b5c;
-  color: hsl(var(--gold));
+  color: #D4AF37;
 }
 
 .bg-gold {
-  background-color: #bc9b5c;
-  background-color: hsl(var(--gold));
+  background-color: #D4AF37;
+}
+
+.text-navy {
+  color: #0B2D7F;
+}
+
+.bg-navy {
+  background-color: #0B2D7F;
 }
 
 .marquee-track {

@@ -17,12 +17,12 @@ const CRAFTS = [
 
 export default function StyleHubMarquee() {
   return (
-    <section className="mt-24 md:mt-32 border-y border-black/10 dark:border-white/10 py-6 md:py-8 overflow-hidden bg-secondary/30">
-      <div className="marquee-track font-display text-lg sm:text-xl md:text-2xl tracking-widest uppercase select-none text-foreground/85">
+    <section className="mt-24 md:mt-32 border-y border-[#D4AF37]/30 py-6 md:py-8 overflow-hidden bg-[#FAF5E6]/40 dark:bg-[#071F59]/30">
+      <div className="marquee-track font-display text-lg sm:text-xl md:text-2xl tracking-widest uppercase select-none text-[#0B2D7F] dark:text-foreground">
         {[...CRAFTS, ...CRAFTS].map((craft, idx) => (
           <div key={idx} className="flex items-center gap-6 md:gap-10 shrink-0">
             <span>{craft}</span>
-            <span className="gold text-lg">·</span>
+            <span className="text-[#D4AF37] text-base">✦</span>
           </div>
         ))}
       </div>
