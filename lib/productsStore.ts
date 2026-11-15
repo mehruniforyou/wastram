@@ -130,6 +130,50 @@ function saveOverridesToDisk(overrides: Record<string, ProductOverride>): void {
   }
 }
 
+function unwrapFirestoreValue(val: any): any {
+  if (!val || typeof val !== "object") return val;
+  if (val.stringValue !== undefined) {
+    const s = val.stringValue;
+    if (typeof s === "string" && (s.startsWith("{") || s.startsWith("["))) {
+      try { return JSON.parse(s); } catch { return s; }
+    }
+    return s;
+  }
+  if (val.booleanValue !== undefined) return val.booleanValue;
+  if (val.integerValue !== undefined) return Number(val.integerValue);
+  if (val.doubleValue !== undefined) return Number(val.doubleValue);
+  if (val.nullValue !== undefined) return null;
+  if (val.arrayValue?.values) {
+    return val.arrayValue.values.map(unwrapFirestoreValue);
+  }
+  if (val.mapValue?.fields) {
+    const res: Record<string, any> = {};
+    for (const [mk, mv] of Object.entries(val.mapValue.fields)) {
+      res[mk] = unwrapFirestoreValue(mv);
+    }
+    return res;
+  }
+  return val;
+}
+
+function wrapFirestoreValue(val: any): any {
+  if (val === null || val === undefined) return { nullValue: null };
+  if (typeof val === "string") return { stringValue: val };
+  if (typeof val === "boolean") return { booleanValue: val };
+  if (typeof val === "number") return { doubleValue: val };
+  if (Array.isArray(val)) {
+    return { arrayValue: { values: val.map(wrapFirestoreValue) } };
+  }
+  if (typeof val === "object") {
+    const fields: Record<string, any> = {};
+    for (const [k, v] of Object.entries(val)) {
+      if (v !== undefined) fields[k] = wrapFirestoreValue(v);
+    }
+    return { mapValue: { fields } };
+  }
+  return { stringValue: String(val) };
+}
+
 async function fetchOverridesFromFirestoreRest(): Promise<Record<string, ProductOverride>> {
   const result: Record<string, ProductOverride> = {};
   try {
@@ -144,15 +188,15 @@ async function fetchOverridesFromFirestoreRest(): Promise<Record<string, Product
           const fields = docItem.fields || {};
           const parsed: Record<string, any> = { id: docId };
           for (const [k, v] of Object.entries<any>(fields)) {
-            if (v.stringValue !== undefined) {
-              try { parsed[k] = JSON.parse(v.stringValue); } catch { parsed[k] = v.stringValue; }
-            } else if (v.booleanValue !== undefined) {
-              parsed[k] = v.booleanValue;
-            } else if (v.doubleValue !== undefined || v.integerValue !== undefined) {
-              parsed[k] = Number(v.doubleValue ?? v.integerValue);
-            } else if (v.arrayValue?.values) {
-              parsed[k] = v.arrayValue.values.map((item: any) => item.stringValue || item);
-            }
+            parsed[k] = unwrapFirestoreValue(v);
+          }
+          if (Array.isArray(parsed.colorVariants)) {
+            parsed.colorVariants = parsed.colorVariants.map((item: any) => {
+              if (typeof item === "string") {
+                try { return JSON.parse(item); } catch { return null; }
+              }
+              return item;
+            }).filter(Boolean);
           }
           result[docId] = parsed as ProductOverride;
           const base = PRODUCTS.find((p) => p.id?.toLowerCase() === docId.toLowerCase() || p.slug?.toLowerCase() === docId.toLowerCase());
@@ -177,14 +221,7 @@ async function syncDocToFirestoreRest(collectionName: string, docId: string, dat
     const fields: Record<string, any> = {};
     for (const [k, v] of Object.entries(data)) {
       if (v === undefined) continue;
-      if (typeof v === "string") fields[k] = { stringValue: v };
-      else if (typeof v === "boolean") fields[k] = { booleanValue: v };
-      else if (typeof v === "number") fields[k] = { doubleValue: v };
-      else if (Array.isArray(v)) {
-        fields[k] = { arrayValue: { values: v.map((item) => (typeof item === "string" ? { stringValue: item } : { stringValue: JSON.stringify(item) })) } };
-      } else if (v && typeof v === "object") {
-        fields[k] = { stringValue: JSON.stringify(v) };
-      }
+      fields[k] = wrapFirestoreValue(v);
     }
     await fetch(url, {
       method: "PATCH",
@@ -670,7 +707,23 @@ export function applyOverrideToProduct(
     category_id: resolvedCategoryId,
     category_name: resolvedCategory,
     category_slug: resolvedCategoryId,
-    colorVariants: Array.isArray(override.colorVariants) ? override.colorVariants : p.colorVariants,
+    colorVariants: (() => {
+      const raw = Array.isArray(override.colorVariants) ? override.colorVariants : p.colorVariants;
+      if (!Array.isArray(raw)) return [];
+      return raw.map((item: any) => {
+        let parsed = item;
+        if (typeof item === "string") {
+          try { parsed = JSON.parse(item); } catch { return null; }
+        }
+        if (!parsed || typeof parsed !== "object") return null;
+        return {
+          id: parsed.id || `var-${Math.random().toString(36).substring(2, 7)}`,
+          name: parsed.name || "Default Colorway",
+          colorCode: parsed.colorCode || "#1A1A1A",
+          images: Array.isArray(parsed.images) ? parsed.images.filter(Boolean) : (parsed.image ? [parsed.image] : [])
+        };
+      }).filter(Boolean);
+    })(),
     sizes: Array.isArray(override.sizes) && override.sizes.length > 0 ? override.sizes : p.sizes,
     fabric: override.fabric !== undefined ? override.fabric : p.fabric,
     details: Array.isArray(override.details) ? override.details : p.details,

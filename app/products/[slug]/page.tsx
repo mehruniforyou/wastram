@@ -145,17 +145,52 @@ export default function ProductDetailPage({ params }: Props) {
   const [selectedSize, setSelectedSize] = useState('S');
   const [measurementUnit, setMeasurementUnit] = useState<'inch' | 'cm'>('inch');
 
-  const hasVariants = Boolean(product?.colorVariants && product.colorVariants.length > 0);
-  const activeVariant = hasVariants ? product!.colorVariants![selectedVariantIndex] : null;
-  const rawImages = activeVariant && activeVariant.images && activeVariant.images.length > 0
-    ? activeVariant.images
-    : (Array.isArray((product as any)?.gallery) && (product as any).gallery.length > 0
-      ? (product as any).gallery
-      : (Array.isArray(product?.images) && product.images.length > 0
-        ? product.images
-        : ((product as any)?.featured_image ? [(product as any).featured_image] : (product?.mainImage ? [product.mainImage] : []))));
+  const normalizedColorVariants = React.useMemo(() => {
+    const list = product?.colorVariants || (product as any)?.variants || [];
+    if (!Array.isArray(list)) return [];
+    return list.map((v: any) => {
+      let parsed = v;
+      if (typeof v === "string") {
+        try { parsed = JSON.parse(v); } catch { return null; }
+      }
+      if (!parsed || typeof parsed !== "object") return null;
+      return {
+        id: parsed.id || `var-${Math.random().toString(36).substring(2, 7)}`,
+        name: parsed.name || "Default Color",
+        colorCode: parsed.colorCode || "#1A1A1A",
+        images: Array.isArray(parsed.images) ? parsed.images.filter(Boolean) : (parsed.image ? [parsed.image] : [])
+      };
+    }).filter(Boolean);
+  }, [product?.colorVariants, (product as any)?.variants]);
 
-  const activeImages: string[] = rawImages.map((img: any) => (typeof img === "string" ? img : img?.url || "")).filter(Boolean);
+  const hasVariants = normalizedColorVariants.length > 0;
+  const safeVariantIndex = Math.min(selectedVariantIndex, Math.max(0, normalizedColorVariants.length - 1));
+  const activeVariant = hasVariants ? normalizedColorVariants[safeVariantIndex] : null;
+
+  // General lookbook / showcase images attached to product
+  const generalImages: string[] = React.useMemo(() => {
+    const raw = (
+      Array.isArray((product as any)?.gallery) && (product as any).gallery.length > 0
+        ? (product as any).gallery
+        : (Array.isArray(product?.images) && product.images.length > 0
+          ? product.images
+          : ((product as any)?.featured_image ? [(product as any).featured_image] : (product?.mainImage ? [product.mainImage] : [])))
+    );
+    return raw.map((img: any) => (typeof img === "string" ? img : img?.url || "")).filter(Boolean);
+  }, [product]);
+
+  // If activeVariant has images, prioritize variant photos first, then any additional general photos
+  const activeImages: string[] = React.useMemo(() => {
+    if (activeVariant && activeVariant.images && activeVariant.images.length > 0) {
+      const varImgs = activeVariant.images.map((img: any) => (typeof img === "string" ? img : img?.url || "")).filter(Boolean);
+      const combined = [...varImgs];
+      for (const g of generalImages) {
+        if (!combined.includes(g)) combined.push(g);
+      }
+      return combined.length > 0 ? combined : generalImages;
+    }
+    return generalImages.length > 0 ? generalImages : ["/umbrella-dresses/4726.jpg.jpeg"];
+  }, [activeVariant, generalImages]);
 
   // Accordion states
   const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
@@ -450,16 +485,17 @@ export default function ProductDetailPage({ params }: Props) {
                   </span>
                 </div>
                 <span className="text-[10px] text-[#0B2D7F]/60 font-mono tracking-wider uppercase">
-                  {product.colorVariants!.length} {product.colorVariants!.length === 1 ? 'Color Available' : 'Colors Available'}
+                  {normalizedColorVariants.length} {normalizedColorVariants.length === 1 ? 'Color Available' : 'Colors Available'}
                 </span>
               </div>
 
               <div className="flex items-center gap-2 flex-wrap pt-0.5">
-                {product.colorVariants!.map((variant, idx) => {
-                  const isSelected = selectedVariantIndex === idx;
+                {normalizedColorVariants.map((variant, idx) => {
+                  const isSelected = safeVariantIndex === idx;
+                  const photoCount = Array.isArray(variant.images) ? variant.images.length : 0;
                   return (
                     <button
-                      key={idx}
+                      key={variant.id || idx}
                       type="button"
                       onClick={() => {
                         setSelectedVariantIndex(idx);
@@ -479,9 +515,11 @@ export default function ProductDetailPage({ params }: Props) {
                       <span className={`text-[11px] ${isSelected ? 'font-semibold text-[#0B2D7F]' : 'font-medium text-[#0B2D7F]/75'}`}>
                         {variant.name}
                       </span>
-                      <span className="text-[10px] text-[#0B2D7F]/50">
-                        ({variant.images.length})
-                      </span>
+                      {photoCount > 0 && (
+                        <span className="text-[10px] text-[#0B2D7F]/50">
+                          ({photoCount})
+                        </span>
+                      )}
                     </button>
                   );
                 })}
@@ -539,22 +577,18 @@ export default function ProductDetailPage({ params }: Props) {
             </div>
           </div>
 
-          {/* Size Selector Pills (7 sizes) */}
-          <div className="grid grid-cols-7 gap-1.5">
+          {/* Size Selector Pills (S to XXL) */}
+          <div className="grid grid-cols-5 gap-1.5">
             {sizes.map(size => {
               const isSelected = selectedSize === size;
-              const isUnavailable = size === 'XXL';
 
               return (
                 <button
                   key={size}
                   type="button"
-                  disabled={isUnavailable}
                   onClick={() => setSelectedSize(size)}
                   className={`relative h-12 rounded-xl text-xs font-semibold transition-all flex flex-col items-center justify-center cursor-pointer ${
-                    isUnavailable
-                      ? 'bg-white text-black/25 border border-dashed border-black/15 cursor-not-allowed'
-                      : isSelected
+                    isSelected
                       ? 'bg-[#0B2D7F] text-white shadow-soft'
                       : 'bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] shadow-soft'
                   }`}
@@ -751,15 +785,15 @@ export default function ProductDetailPage({ params }: Props) {
                   Color: <span className="text-[#F58220] font-bold">{activeVariant?.name}</span>
                 </span>
                 <span className="text-[10px] text-[#0B2D7F]/60">
-                  {product.colorVariants!.length} {product.colorVariants!.length === 1 ? 'Color' : 'Colors'}
+                  {normalizedColorVariants.length} {normalizedColorVariants.length === 1 ? 'Color' : 'Colors'}
                 </span>
               </div>
               <div className="flex items-center gap-2 flex-wrap pt-0.5">
-                {product.colorVariants!.map((variant, idx) => {
-                  const isSelected = selectedVariantIndex === idx;
+                {normalizedColorVariants.map((variant, idx) => {
+                  const isSelected = safeVariantIndex === idx;
                   return (
                     <button
-                      key={idx}
+                      key={variant.id || idx}
                       type="button"
                       onClick={() => {
                         setSelectedVariantIndex(idx);

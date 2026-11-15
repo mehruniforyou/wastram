@@ -1,18 +1,17 @@
 async function run() {
-  const res = await fetch('https://www.wastram.in/admin');
+  const res = await fetch('https://www.wastram.in/admin?t=' + Date.now(), {
+    headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
+  });
   const html = await res.text();
-  console.log('HTML length:', html.length);
-  const scripts = [...html.matchAll(/src="(\/_next\/static\/[^"]+)"/g)].map(x => x[1]);
-  console.log('Scripts found:', scripts.length);
+  const scripts = [...html.matchAll(/src="(\/_next\/static\/chunks\/app\/admin\/[^"]+)"/g)].map(x => x[1]);
+  console.log('Admin scripts found:', scripts);
   for (const s of scripts) {
     const sRes = await fetch('https://www.wastram.in' + s);
     const js = await sRes.text();
-    if (js.includes('Alle Products') || js.includes('insgesamt')) {
-      console.log('FOUND German in script:', s);
-    }
-    if (js.includes('All Styles')) {
-      console.log('FOUND All Styles in script:', s);
-    }
+    console.log('Script:', s, 'Size:', js.length);
+    console.log('Has Colorway Variants:', js.includes('Colorway Variants'));
+    console.log('Has All Styles:', js.includes('All Styles'));
+    console.log('Has Alle Products:', js.includes('Alle Products'));
   }
 }
 run().catch(console.error);

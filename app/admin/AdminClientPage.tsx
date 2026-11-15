@@ -8061,6 +8061,12 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
   const [formError, setFormError] = useState("");
   const [isGalleryUploading, setIsGalleryUploading] = useState(false);
 
+  const initialHasVariants = Boolean(
+    (Array.isArray(product?.colorVariants) && product!.colorVariants.length > 0) ||
+    (Array.isArray((product as any)?.variants) && (product as any).variants.length > 0)
+  );
+  const [hasVariants, setHasVariants] = useState<boolean>(initialHasVariants);
+
   const trimmedName = (form.name || "").trim();
   const duplicateProduct = existingProducts.find(p => {
     if (!trimmedName) return false;
@@ -8100,22 +8106,32 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
 
       const cleanSlug = generateProductSlug(form.name) || form.slug;
 
-      const customShippingRates: Record<string, number> = {};
-      if (form.shipping_rates.de.trim() !== "") customShippingRates.de = Math.max(0, parseFloat(form.shipping_rates.de) || 0);
-      if (form.shipping_rates.eu.trim() !== "") customShippingRates.eu = Math.max(0, parseFloat(form.shipping_rates.eu) || 0);
-      if (form.shipping_rates.gb.trim() !== "") customShippingRates.gb = Math.max(0, parseFloat(form.shipping_rates.gb) || 0);
-      if (form.shipping_rates.us.trim() !== "") customShippingRates.us = Math.max(0, parseFloat(form.shipping_rates.us) || 0);
-      if (form.shipping_rates.ca.trim() !== "") customShippingRates.ca = Math.max(0, parseFloat(form.shipping_rates.ca) || 0);
-      if (form.shipping_rates.intl.trim() !== "") customShippingRates.intl = Math.max(0, parseFloat(form.shipping_rates.intl) || 0);
-
       let finalFeatured = form.featured_image || null;
       let finalGallery = form.gallery.filter(Boolean);
+      let finalColorVariants: ColorVariant[] = [];
 
-      if (finalFeatured && !finalGallery.includes(finalFeatured)) {
-        finalGallery = [finalFeatured, ...finalGallery];
-      }
-      if (!finalFeatured && finalGallery.length > 0) {
-        finalFeatured = finalGallery[0];
+      if (!hasVariants) {
+        // Single style - clear any color variants so PDP showcases gallery directly
+        finalColorVariants = [];
+        if (finalFeatured && !finalGallery.includes(finalFeatured)) {
+          finalGallery = [finalFeatured, ...finalGallery];
+        }
+        if (!finalFeatured && finalGallery.length > 0) {
+          finalFeatured = finalGallery[0];
+        }
+      } else {
+        // Has variants - collect all images across variants + general gallery
+        finalColorVariants = form.colorVariants;
+        const allVarImages = form.colorVariants.flatMap(v => Array.isArray(v.images) ? v.images : []);
+        for (const img of allVarImages) {
+          if (!finalGallery.includes(img)) finalGallery.push(img);
+        }
+        if (!finalFeatured) {
+          finalFeatured = allVarImages[0] || finalGallery[0] || null;
+        }
+        if (finalFeatured && !finalGallery.includes(finalFeatured)) {
+          finalGallery = [finalFeatured, ...finalGallery];
+        }
       }
 
       await onSave({
@@ -8144,9 +8160,9 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         craft: form.craft || null,
         moq: form.moq || null,
         sizes: form.sizes,
-        colorVariants: form.colorVariants,
+        colorVariants: finalColorVariants,
         technical_specs: Object.keys(technical_specs).length > 0 ? technical_specs : null,
-        shipping_rates: Object.keys(customShippingRates).length > 0 ? customShippingRates : null,
+        shipping_rates: null,
         sort_order: form.sort_order,
         seo_meta: {
           title: form.seo_meta.title || "",
@@ -8372,193 +8388,340 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           </div>
         </div>
 
-        {/* Card 4: Colorway Variants Manager */}
-        <div className={cardClass}>
-          <ColorVariantManager
-            variants={form.colorVariants}
-            onChange={(updated) => setForm(prev => ({ ...prev, colorVariants: updated }))}
-            productId={product?.id}
-          />
-        </div>
-
-        {/* Card 2b: Product-Specific Shipping Rates (Optional) */}
+        {/* Card: Product Structure & Colorways Selection */}
         <div className={cardClass}>
           <div>
-            <div className="flex items-center gap-2 mb-1">
-              <Truck className="w-4 h-4 text-[#3628e6]" />
-              <label className={labelTextClass}>Custom Shipping Fee for this Style (Optional)</label>
-            </div>
-            <p className="text-[11px] text-neutral-500 font-medium">
-              By default, standard zone rates apply. Enter custom amounts only if this garment has special packaging or express rates. Leave blank for standard rates.
+            <label className={labelTextClass}>Product Structure &amp; Colorways *</label>
+            <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
+              Choose whether this style is a single standalone piece or comes in multiple colorways.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
-            <div>
-              <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇮🇳 Domestic India (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.shipping_rates.de}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, shipping_rates: { ...form.shipping_rates, de: val } });
-                }}
-                className={textInputClass}
-                placeholder="0.00 (Standard: Free)"
-              />
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+            {/* Option A: No Variants */}
+            <button
+              type="button"
+              onClick={() => {
+                setHasVariants(false);
+                setForm(prev => ({ ...prev, colorVariants: [] }));
+              }}
+              className={`p-4 rounded-xl border-2 text-left transition-all cursor-pointer flex items-start gap-3 ${
+                !hasVariants
+                  ? "border-black bg-neutral-50 ring-2 ring-black/10"
+                  : "border-neutral-200 bg-white hover:border-neutral-400"
+              }`}
+            >
+              <div className={`w-5 h-5 rounded-full border-2 mt-0.5 flex items-center justify-center shrink-0 ${
+                !hasVariants ? "border-black bg-black text-white" : "border-neutral-300"
+              }`}>
+                {!hasVariants && <Check className="w-3 h-3 stroke-[3]" />}
+              </div>
+              <div>
+                <span className="block font-heading font-black text-xs text-black uppercase tracking-wider">
+                  No — Single Style Listing
+                </span>
+                <span className="block text-[11px] text-neutral-500 mt-1 font-medium leading-relaxed">
+                  Standalone product with no color options. Upload photoshoot photos and cover image directly.
+                </span>
+              </div>
+            </button>
 
-            <div>
-              <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇪🇺 European Union (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.shipping_rates.eu}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, shipping_rates: { ...form.shipping_rates, eu: val } });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 750.00"
-              />
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇬🇧 United Kingdom (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.shipping_rates.gb}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, shipping_rates: { ...form.shipping_rates, gb: val } });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 950.00"
-              />
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇺🇸 USA (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.shipping_rates.us}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, shipping_rates: { ...form.shipping_rates, us: val } });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 1150.00"
-              />
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🇨🇦 Canada (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.shipping_rates.ca}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, shipping_rates: { ...form.shipping_rates, ca: val } });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 1150.00"
-              />
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-bold text-neutral-700 mb-1">
-                🌐 Rest of World (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.shipping_rates.intl}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, shipping_rates: { ...form.shipping_rates, intl: val } });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 1450.00"
-              />
-            </div>
+            {/* Option B: Has Variants */}
+            <button
+              type="button"
+              onClick={() => {
+                setHasVariants(true);
+                if (form.colorVariants.length === 0) {
+                  setForm(prev => ({
+                    ...prev,
+                    colorVariants: [
+                      {
+                        id: `var-${Date.now()}`,
+                        name: "Signature Color",
+                        colorCode: "#800020",
+                        images: prev.gallery.length > 0 ? [...prev.gallery] : []
+                      }
+                    ]
+                  }));
+                }
+              }}
+              className={`p-4 rounded-xl border-2 text-left transition-all cursor-pointer flex items-start gap-3 ${
+                hasVariants
+                  ? "border-black bg-neutral-50 ring-2 ring-black/10"
+                  : "border-neutral-200 bg-white hover:border-neutral-400"
+              }`}
+            >
+              <div className={`w-5 h-5 rounded-full border-2 mt-0.5 flex items-center justify-center shrink-0 ${
+                hasVariants ? "border-black bg-black text-white" : "border-neutral-300"
+              }`}>
+                {hasVariants && <Check className="w-3 h-3 stroke-[3]" />}
+              </div>
+              <div>
+                <span className="block font-heading font-black text-xs text-black uppercase tracking-wider">
+                  Yes — Multiple Color Variants
+                </span>
+                <span className="block text-[11px] text-neutral-500 mt-1 font-medium leading-relaxed">
+                  Garment comes in multiple colorways. Photos are uploaded and organized per color variant.
+                </span>
+              </div>
+            </button>
           </div>
         </div>
 
-        {/* Card 3: Unified Product Media & Gallery Manager */}
-        <div className={cardClass}>
-          <div className="flex items-center justify-between pb-2 border-b border-neutral-100">
-            <div>
-              <label className={labelTextClass}>Product Photos &amp; Media ({form.gallery.length})</label>
-              <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
-                Manage all product images. The starred image is the primary cover image displayed in the store.
-              </p>
+        {/* If HAS VARIANTS: Render ColorVariantManager + General Lookbook Media */}
+        {hasVariants ? (
+          <>
+            <div className={cardClass}>
+              <ColorVariantManager
+                variants={form.colorVariants}
+                onChange={(updated) => setForm(prev => ({ ...prev, colorVariants: updated }))}
+                productId={product?.id}
+              />
             </div>
-            {form.featured_image && (
-              <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-black px-2.5 py-1 rounded-full flex items-center gap-1 shadow-xs">
-                <Star className="w-3 h-3 fill-black" /> 1 Featured Photo Active
-              </span>
-            )}
-          </div>
 
-          {/* Upload Drop Zone & Actions */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div
-              onDragOver={e => e.preventDefault()}
-              onDrop={async e => {
-                e.preventDefault();
-                const files = Array.from(e.dataTransfer.files);
-                if (files.length === 0) return;
-                setIsGalleryUploading(true);
-                try {
-                  const urls: string[] = [];
-                  for (const file of files) {
-                    const optimized = await optimizeImageFile(file);
-                    const formData = new FormData();
-                    formData.append("file", optimized);
-                    const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
-                    const json = await res.json();
-                    if (!res.ok || !json.url) {
-                      throw new Error(json?.error || `Upload failed for ${file.name}`);
+            {/* General Lookbook & Default Showcase Photos (Optional) */}
+            <div className={cardClass}>
+              <div className="flex items-center justify-between pb-2 border-b border-neutral-100">
+                <div>
+                  <label className={labelTextClass}>General Lookbook &amp; Default Photos ({form.gallery.length})</label>
+                  <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
+                    Upload general showcase photos (fabric close-ups, packaging, lookbook shots, or default cover photo) that display across all variants.
+                  </p>
+                </div>
+                {form.featured_image && (
+                  <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-black px-2.5 py-1 rounded-full flex items-center gap-1 shadow-xs">
+                    <Star className="w-3 h-3 fill-black" /> Cover Photo Set
+                  </span>
+                )}
+              </div>
+
+              {/* Upload Drop Zone & Actions */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div
+                  onDragOver={e => e.preventDefault()}
+                  onDrop={async e => {
+                    e.preventDefault();
+                    const files = Array.from(e.dataTransfer.files);
+                    if (files.length === 0) return;
+                    setIsGalleryUploading(true);
+                    try {
+                      const urls: string[] = [];
+                      for (const file of files) {
+                        const optimized = await optimizeImageFile(file);
+                        const formData = new FormData();
+                        formData.append("file", optimized);
+                        const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
+                        const json = await res.json();
+                        if (!res.ok || !json.url) {
+                          throw new Error(json?.error || `Upload failed for ${file.name}`);
+                        }
+                        urls.push(json.url);
+                      }
+                      setForm(prev => {
+                        const updated = [...prev.gallery, ...urls];
+                        const newFeatured = prev.featured_image || urls[0] || "";
+                        return { ...prev, gallery: updated, featured_image: newFeatured };
+                      });
+                      notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
+                    } catch (err: any) {
+                      notifyAdmin("error", "Upload failed", err.message || String(err), err);
+                    } finally {
+                      setIsGalleryUploading(false);
                     }
-                    urls.push(json.url);
-                  }
-                  setForm(prev => {
-                    const updated = [...prev.gallery, ...urls];
-                    const newFeatured = prev.featured_image || urls[0] || "";
-                    return { ...prev, gallery: updated, featured_image: newFeatured };
-                  });
-                  notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
-                } catch (err: any) {
-                  notifyAdmin("error", "Upload failed", err.message || String(err), err);
-                } finally {
-                  setIsGalleryUploading(false);
-                }
-              }}
-              onClick={() => {
-                const input = document.createElement("input");
-                input.type = "file";
-                input.multiple = true;
-                input.accept = "image/*,video/*";
-                input.onchange = async () => {
-                  if (!input.files || input.files.length === 0) return;
+                  }}
+                  onClick={() => {
+                    const input = document.createElement("input");
+                    input.type = "file";
+                    input.multiple = true;
+                    input.accept = "image/*,video/*";
+                    input.onchange = async () => {
+                      if (!input.files || input.files.length === 0) return;
+                      setIsGalleryUploading(true);
+                      try {
+                        const urls: string[] = [];
+                        for (const file of Array.from(input.files)) {
+                          const optimized = await optimizeImageFile(file);
+                          const formData = new FormData();
+                          formData.append("file", optimized);
+                          const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
+                          const json = await res.json();
+                          if (!res.ok || !json.url) {
+                            throw new Error(json?.error || `Upload failed for ${file.name}`);
+                          }
+                          urls.push(json.url);
+                        }
+                        setForm(prev => {
+                          const updated = [...prev.gallery, ...urls];
+                          const newFeatured = prev.featured_image || urls[0] || "";
+                          return { ...prev, gallery: updated, featured_image: newFeatured };
+                        });
+                        notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
+                      } catch (err: any) {
+                        notifyAdmin("error", "Upload failed", err.message || String(err), err);
+                      } finally {
+                        setIsGalleryUploading(false);
+                      }
+                    };
+                    input.click();
+                  }}
+                  className="sm:col-span-2 border-2 border-dashed border-neutral-300 hover:border-black rounded-xl p-4 flex flex-col items-center justify-center bg-white transition-colors cursor-pointer group"
+                >
+                  <Upload className="w-5 h-5 text-black stroke-[2] mb-1 group-hover:scale-110 transition-transform" />
+                  <p className="text-xs font-heading font-bold uppercase tracking-wider text-black text-center">
+                    {isGalleryUploading ? "Uploading photoshoot files..." : "Drop general lookbook photos here or click to upload"}
+                  </p>
+                  <p className="text-[11px] text-neutral-500 mt-0.5">JPG, PNG, WEBP or MP4 • Multiple files supported</p>
+                </div>
+
+                {/* Direct URL input */}
+                <div className="border-2 border-neutral-200 rounded-xl p-3 bg-neutral-50 flex flex-col justify-between">
+                  <div>
+                    <label className="block text-[10px] font-heading font-bold text-neutral-600 uppercase tracking-wider mb-1">
+                      Or Paste Image URL
+                    </label>
+                    <input
+                      type="text"
+                      id="direct-image-url-input"
+                      className="w-full bg-white border border-neutral-300 focus:border-black rounded-lg px-2.5 py-1.5 text-xs text-black outline-none transition-colors"
+                      placeholder="https://..."
+                      onKeyDown={e => {
+                        if (e.key === "Enter") {
+                          e.preventDefault();
+                          const val = (e.currentTarget.value || "").trim();
+                          if (val) {
+                            setForm(prev => {
+                              const updated = prev.gallery.includes(val) ? prev.gallery : [...prev.gallery, val];
+                              return { ...prev, gallery: updated, featured_image: prev.featured_image || val };
+                            });
+                            e.currentTarget.value = "";
+                          }
+                        }
+                      }}
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const el = document.getElementById("direct-image-url-input") as HTMLInputElement;
+                      if (el && el.value.trim()) {
+                        const val = el.value.trim();
+                        setForm(prev => {
+                          const updated = prev.gallery.includes(val) ? prev.gallery : [...prev.gallery, val];
+                          return { ...prev, gallery: updated, featured_image: prev.featured_image || val };
+                        });
+                        el.value = "";
+                      }
+                    }}
+                    className="mt-2 w-full bg-black hover:bg-neutral-800 text-white text-[11px] font-heading font-bold uppercase tracking-wider py-1.5 rounded-lg transition-colors cursor-pointer"
+                  >
+                    + Add Image URL
+                  </button>
+                </div>
+              </div>
+
+              {/* Media Tiles Grid */}
+              {form.gallery.length === 0 ? (
+                <div className="py-6 text-center text-neutral-400 border border-neutral-100 rounded-xl bg-neutral-50/50">
+                  <p className="text-xs font-medium">No general photos attached yet. (Optional)</p>
+                </div>
+              ) : (
+                <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 pt-2">
+                  {form.gallery.map((url: string, idx: number) => {
+                    const isVideo = url.startsWith("data:video/") || url.endsWith(".mp4") || url.endsWith(".webm") || url.endsWith(".ogg");
+                    const isMain = form.featured_image ? form.featured_image === url : idx === 0;
+
+                    return (
+                      <div
+                        key={`${url}-${idx}`}
+                        className={`relative rounded-xl border-2 bg-white p-2 aspect-square flex flex-col items-center justify-between overflow-hidden group transition-all shadow-xs ${
+                          isMain ? "border-amber-500 ring-2 ring-amber-400/40" : "border-neutral-200 hover:border-black"
+                        }`}
+                      >
+                        <div className="absolute top-1.5 left-1.5 right-1.5 z-10 flex items-center justify-between pointer-events-none">
+                          {isMain ? (
+                            <span className="bg-amber-500 text-black text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow-sm flex items-center gap-1">
+                              <Star className="w-2.5 h-2.5 fill-black" /> Cover
+                            </span>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setForm(prev => {
+                                  const rest = prev.gallery.filter((_, i) => i !== idx);
+                                  return { ...prev, featured_image: url, gallery: [url, ...rest] };
+                                });
+                              }}
+                              className="bg-white/95 hover:bg-black hover:text-white text-neutral-800 text-[9px] font-bold uppercase px-2 py-0.5 rounded shadow-sm opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer pointer-events-auto"
+                              title="Set as Cover Photo"
+                            >
+                              Set Cover
+                            </button>
+                          )}
+
+                          <div className="flex items-center gap-1 pointer-events-auto">
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setForm(prev => {
+                                  const updatedGallery = prev.gallery.filter((_, i) => i !== idx);
+                                  let updatedFeatured = prev.featured_image;
+                                  if (updatedFeatured === url) {
+                                    updatedFeatured = updatedGallery.length > 0 ? updatedGallery[0] : "";
+                                  }
+                                  return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured };
+                                });
+                              }}
+                              className="bg-red-500 hover:bg-red-600 text-white rounded-full p-1 shadow-sm cursor-pointer transition-colors"
+                              title="Remove Image"
+                            >
+                              <X className="w-3 h-3" />
+                            </button>
+                          </div>
+                        </div>
+
+                        <div className="w-full h-full flex items-center justify-center p-2 pt-6">
+                          {isVideo ? (
+                            <video src={url} className="max-h-full max-w-full object-contain rounded" muted playsInline />
+                          ) : (
+                            <img src={url} alt={`Photo ${idx + 1}`} className="max-h-full max-w-full object-contain rounded" />
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          </>
+        ) : (
+          /* If SINGLE STYLE (NO VARIANTS): Render Product Photos & Gallery directly */
+          <div className={cardClass}>
+            <div className="flex items-center justify-between pb-2 border-b border-neutral-100">
+              <div>
+                <label className={labelTextClass}>Product Photos &amp; Media ({form.gallery.length})</label>
+                <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
+                  Manage all product photoshoot images. The starred image is the primary cover image displayed in the store.
+                </p>
+              </div>
+              {form.featured_image && (
+                <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-500 text-black px-2.5 py-1 rounded-full flex items-center gap-1 shadow-xs">
+                  <Star className="w-3 h-3 fill-black" /> 1 Featured Photo Active
+                </span>
+              )}
+            </div>
+
+            {/* Upload Drop Zone & Actions */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div
+                onDragOver={e => e.preventDefault()}
+                onDrop={async e => {
+                  e.preventDefault();
+                  const files = Array.from(e.dataTransfer.files);
+                  if (files.length === 0) return;
                   setIsGalleryUploading(true);
                   try {
                     const urls: string[] = [];
-                    for (const file of Array.from(input.files)) {
+                    for (const file of files) {
                       const optimized = await optimizeImageFile(file);
                       const formData = new FormData();
                       formData.append("file", optimized);
@@ -8580,180 +8743,171 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   } finally {
                     setIsGalleryUploading(false);
                   }
-                };
-                input.click();
-              }}
-              className="sm:col-span-2 border-2 border-dashed border-neutral-300 hover:border-black rounded-xl p-4 flex flex-col items-center justify-center bg-white transition-colors cursor-pointer group"
-            >
-              <Upload className="w-5 h-5 text-black stroke-[2] mb-1 group-hover:scale-110 transition-transform" />
-              <p className="text-xs font-heading font-bold uppercase tracking-wider text-black text-center">
-                {isGalleryUploading ? "Uploading photoshoot files..." : "Drop images here or click to upload"}
-              </p>
-              <p className="text-[11px] text-neutral-500 mt-0.5">JPG, PNG, WEBP or MP4 • Multiple files supported</p>
-            </div>
-
-            {/* Direct URL input */}
-            <div className="border-2 border-neutral-200 rounded-xl p-3 bg-neutral-50 flex flex-col justify-between">
-              <div>
-                <label className="block text-[10px] font-heading font-bold text-neutral-600 uppercase tracking-wider mb-1">
-                  Or Paste Image URL
-                </label>
-                <input
-                  type="text"
-                  id="direct-image-url-input"
-                  className="w-full bg-white border border-neutral-300 focus:border-black rounded-lg px-2.5 py-1.5 text-xs text-black outline-none transition-colors"
-                  placeholder="https://..."
-                  onKeyDown={e => {
-                    if (e.key === "Enter") {
-                      e.preventDefault();
-                      const val = (e.currentTarget.value || "").trim();
-                      if (val) {
-                        setForm(prev => {
-                          const updated = prev.gallery.includes(val) ? prev.gallery : [...prev.gallery, val];
-                          return { ...prev, gallery: updated, featured_image: prev.featured_image || val };
-                        });
-                        e.currentTarget.value = "";
+                }}
+                onClick={() => {
+                  const input = document.createElement("input");
+                  input.type = "file";
+                  input.multiple = true;
+                  input.accept = "image/*,video/*";
+                  input.onchange = async () => {
+                    if (!input.files || input.files.length === 0) return;
+                    setIsGalleryUploading(true);
+                    try {
+                      const urls: string[] = [];
+                      for (const file of Array.from(input.files)) {
+                        const optimized = await optimizeImageFile(file);
+                        const formData = new FormData();
+                        formData.append("file", optimized);
+                        const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
+                        const json = await res.json();
+                        if (!res.ok || !json.url) {
+                          throw new Error(json?.error || `Upload failed for ${file.name}`);
+                        }
+                        urls.push(json.url);
                       }
+                      setForm(prev => {
+                        const updated = [...prev.gallery, ...urls];
+                        const newFeatured = prev.featured_image || urls[0] || "";
+                        return { ...prev, gallery: updated, featured_image: newFeatured };
+                      });
+                      notifyAdmin("success", "Media Uploaded", `${urls.length} file(s) uploaded successfully.`);
+                    } catch (err: any) {
+                      notifyAdmin("error", "Upload failed", err.message || String(err), err);
+                    } finally {
+                      setIsGalleryUploading(false);
+                    }
+                  };
+                  input.click();
+                }}
+                className="sm:col-span-2 border-2 border-dashed border-neutral-300 hover:border-black rounded-xl p-4 flex flex-col items-center justify-center bg-white transition-colors cursor-pointer group"
+              >
+                <Upload className="w-5 h-5 text-black stroke-[2] mb-1 group-hover:scale-110 transition-transform" />
+                <p className="text-xs font-heading font-bold uppercase tracking-wider text-black text-center">
+                  {isGalleryUploading ? "Uploading photoshoot files..." : "Drop images here or click to upload"}
+                </p>
+                <p className="text-[11px] text-neutral-500 mt-0.5">JPG, PNG, WEBP or MP4 • Multiple files supported</p>
+              </div>
+
+              {/* Direct URL input */}
+              <div className="border-2 border-neutral-200 rounded-xl p-3 bg-neutral-50 flex flex-col justify-between">
+                <div>
+                  <label className="block text-[10px] font-heading font-bold text-neutral-600 uppercase tracking-wider mb-1">
+                    Or Paste Image URL
+                  </label>
+                  <input
+                    type="text"
+                    id="direct-image-url-input-single"
+                    className="w-full bg-white border border-neutral-300 focus:border-black rounded-lg px-2.5 py-1.5 text-xs text-black outline-none transition-colors"
+                    placeholder="https://..."
+                    onKeyDown={e => {
+                      if (e.key === "Enter") {
+                        e.preventDefault();
+                        const val = (e.currentTarget.value || "").trim();
+                        if (val) {
+                          setForm(prev => {
+                            const updated = prev.gallery.includes(val) ? prev.gallery : [...prev.gallery, val];
+                            return { ...prev, gallery: updated, featured_image: prev.featured_image || val };
+                          });
+                          e.currentTarget.value = "";
+                        }
+                      }
+                    }}
+                  />
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    const el = document.getElementById("direct-image-url-input-single") as HTMLInputElement;
+                    if (el && el.value.trim()) {
+                      const val = el.value.trim();
+                      setForm(prev => {
+                        const updated = prev.gallery.includes(val) ? prev.gallery : [...prev.gallery, val];
+                        return { ...prev, gallery: updated, featured_image: prev.featured_image || val };
+                      });
+                      el.value = "";
                     }
                   }}
-                />
+                  className="mt-2 w-full bg-black hover:bg-neutral-800 text-white text-[11px] font-heading font-bold uppercase tracking-wider py-1.5 rounded-lg transition-colors cursor-pointer"
+                >
+                  + Add Image URL
+                </button>
               </div>
-              <button
-                type="button"
-                onClick={() => {
-                  const el = document.getElementById("direct-image-url-input") as HTMLInputElement;
-                  if (el && el.value.trim()) {
-                    const val = el.value.trim();
-                    setForm(prev => {
-                      const updated = prev.gallery.includes(val) ? prev.gallery : [...prev.gallery, val];
-                      return { ...prev, gallery: updated, featured_image: prev.featured_image || val };
-                    });
-                    el.value = "";
-                  }
-                }}
-                className="mt-2 w-full bg-black hover:bg-neutral-800 text-white text-[11px] font-heading font-bold uppercase tracking-wider py-1.5 rounded-lg transition-colors cursor-pointer"
-              >
-                + Add Image URL
-              </button>
             </div>
-          </div>
 
-          {/* Media Tiles Grid */}
-          {form.gallery.length === 0 ? (
-            <div className="py-8 text-center text-neutral-400 border border-neutral-100 rounded-xl bg-neutral-50/50">
-              <p className="text-xs font-medium">No images attached yet. Upload photos above.</p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 pt-2">
-              {form.gallery.map((url: string, idx: number) => {
-                const isVideo = url.startsWith("data:video/") || url.endsWith(".mp4") || url.endsWith(".webm") || url.endsWith(".ogg");
-                const isMain = form.featured_image ? form.featured_image === url : idx === 0;
+            {/* Media Tiles Grid */}
+            {form.gallery.length === 0 ? (
+              <div className="py-8 text-center text-neutral-400 border border-neutral-100 rounded-xl bg-neutral-50/50">
+                <p className="text-xs font-medium">No images attached yet. Upload photos above.</p>
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 pt-2">
+                {form.gallery.map((url: string, idx: number) => {
+                  const isVideo = url.startsWith("data:video/") || url.endsWith(".mp4") || url.endsWith(".webm") || url.endsWith(".ogg");
+                  const isMain = form.featured_image ? form.featured_image === url : idx === 0;
 
-                return (
-                  <div
-                    key={`${url}-${idx}`}
-                    className={`relative rounded-xl border-2 bg-white p-2 aspect-square flex flex-col items-center justify-between overflow-hidden group transition-all shadow-xs ${
-                      isMain ? "border-amber-500 ring-2 ring-amber-400/40" : "border-neutral-200 hover:border-black"
-                    }`}
-                  >
-                    {/* Top badges & controls */}
-                    <div className="absolute top-1.5 left-1.5 right-1.5 z-10 flex items-center justify-between pointer-events-none">
-                      {isMain ? (
-                        <span className="bg-amber-500 text-black text-[9px] font-black uppercase px-2 py-0.5 rounded shadow-sm flex items-center gap-1 pointer-events-auto">
-                          <Star className="w-2.5 h-2.5 fill-black" /> Cover Photo
-                        </span>
-                      ) : (
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setForm(prev => {
-                              const rest = prev.gallery.filter((_, i) => i !== idx);
-                              return { ...prev, featured_image: url, gallery: [url, ...rest] };
-                            });
-                          }}
-                          className="bg-white/95 hover:bg-black hover:text-white text-neutral-800 text-[9px] font-bold uppercase px-2 py-0.5 rounded shadow-sm opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer pointer-events-auto"
-                          title="Set as Cover Photo"
-                        >
-                          Set as Cover Photo
-                        </button>
-                      )}
-
-                      <div className="flex items-center gap-1 pointer-events-auto">
-                        {/* Replace image button */}
-                        <label
-                          className="bg-white/95 hover:bg-black hover:text-white text-neutral-800 rounded-full p-1 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer"
-                          title="Replace this image"
-                        >
-                          <RefreshCw className="w-3 h-3" />
-                          <input
-                            type="file"
-                            accept="image/*,video/*"
-                            className="hidden"
-                            onChange={async (e) => {
-                              const file = e.target.files?.[0];
-                              if (!file) return;
-                              setIsGalleryUploading(true);
-                              try {
-                                const optimized = await optimizeImageFile(file);
-                                const formData = new FormData();
-                                formData.append("file", optimized);
-                                const res = await adminFetch("/api/uploads", { method: "POST", body: formData });
-                                const json = await res.json();
-                                if (!res.ok || !json.url) {
-                                  throw new Error(json?.error || "Upload failed");
-                                }
-                                const newUrl = json.url;
-                                setForm(prev => {
-                                  const updatedGallery = [...prev.gallery];
-                                  updatedGallery[idx] = newUrl;
-                                  const updatedFeatured = (isMain || prev.featured_image === url) ? newUrl : prev.featured_image;
-                                  return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured };
-                                });
-                                notifyAdmin("success", "Image Replaced", "Product image replaced successfully.");
-                              } catch (err: any) {
-                                notifyAdmin("error", "Replacement failed", err.message || String(err), err);
-                              } finally {
-                                setIsGalleryUploading(false);
-                              }
+                  return (
+                    <div
+                      key={`${url}-${idx}`}
+                      className={`relative rounded-xl border-2 bg-white p-2 aspect-square flex flex-col items-center justify-between overflow-hidden group transition-all shadow-xs ${
+                        isMain ? "border-amber-500 ring-2 ring-amber-400/40" : "border-neutral-200 hover:border-black"
+                      }`}
+                    >
+                      <div className="absolute top-1.5 left-1.5 right-1.5 z-10 flex items-center justify-between pointer-events-none">
+                        {isMain ? (
+                          <span className="bg-amber-500 text-black text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded shadow-sm flex items-center gap-1">
+                            <Star className="w-2.5 h-2.5 fill-black" /> Cover
+                          </span>
+                        ) : (
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setForm(prev => {
+                                const rest = prev.gallery.filter((_, i) => i !== idx);
+                                return { ...prev, featured_image: url, gallery: [url, ...rest] };
+                              });
                             }}
-                          />
-                        </label>
+                            className="bg-white/95 hover:bg-black hover:text-white text-neutral-800 text-[9px] font-bold uppercase px-2 py-0.5 rounded shadow-sm opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer pointer-events-auto"
+                            title="Set as Cover Photo"
+                          >
+                            Set Cover
+                          </button>
+                        )}
 
-                        {/* Delete image button */}
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setForm(prev => {
-                              const updatedGallery = prev.gallery.filter((_, i) => i !== idx);
-                              let updatedFeatured = prev.featured_image;
-                              if (updatedFeatured === url) {
-                                updatedFeatured = updatedGallery.length > 0 ? updatedGallery[0] : "";
-                              }
-                              return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured };
-                            });
-                          }}
-                          className="bg-red-500 hover:bg-red-600 text-white rounded-full p-1 shadow-sm cursor-pointer transition-colors"
-                          title="Remove Image"
-                        >
-                          <X className="w-3 h-3" />
-                        </button>
+                        <div className="flex items-center gap-1 pointer-events-auto">
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setForm(prev => {
+                                const updatedGallery = prev.gallery.filter((_, i) => i !== idx);
+                                let updatedFeatured = prev.featured_image;
+                                if (updatedFeatured === url) {
+                                  updatedFeatured = updatedGallery.length > 0 ? updatedGallery[0] : "";
+                                }
+                                return { ...prev, gallery: updatedGallery, featured_image: updatedFeatured };
+                              });
+                            }}
+                            className="bg-red-500 hover:bg-red-600 text-white rounded-full p-1 shadow-sm cursor-pointer transition-colors"
+                            title="Remove Image"
+                          >
+                            <X className="w-3 h-3" />
+                          </button>
+                        </div>
+                      </div>
+
+                      <div className="w-full h-full flex items-center justify-center p-2 pt-6">
+                        {isVideo ? (
+                          <video src={url} className="max-h-full max-w-full object-contain rounded" muted playsInline />
+                        ) : (
+                          <img src={url} alt={`Product Photo ${idx + 1}`} className="max-h-full max-w-full object-contain rounded" />
+                        )}
                       </div>
                     </div>
-
-                    {/* Preview Content */}
-                    <div className="w-full h-full flex items-center justify-center p-2 pt-6">
-                      {isVideo ? (
-                        <video src={url} className="max-h-full max-w-full object-contain rounded" muted playsInline />
-                      ) : (
-                        <img src={url} alt={`Product Photo ${idx + 1}`} className="max-h-full max-w-full object-contain rounded" />
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
-        </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Card 5: Technical Specifications */}
         <div className={cardClass}>

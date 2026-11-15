@@ -60,6 +60,24 @@ export async function GET(req: NextRequest, { params }: RouteProps) {
       galleryUrls.unshift(featuredImage);
     }
 
+    const normalizedColorVariants = (() => {
+      const raw = (liveProd as any).colorVariants || (liveProd as any).variants || [];
+      if (!Array.isArray(raw)) return [];
+      return raw.map((item: any) => {
+        let parsed = item;
+        if (typeof item === "string") {
+          try { parsed = JSON.parse(item); } catch { return null; }
+        }
+        if (!parsed || typeof parsed !== "object") return null;
+        return {
+          id: parsed.id || `var-${Math.random().toString(36).substring(2, 7)}`,
+          name: parsed.name || "Default Colorway",
+          colorCode: parsed.colorCode || "#1A1A1A",
+          images: Array.isArray(parsed.images) ? parsed.images.filter(Boolean) : (parsed.image ? [parsed.image] : [])
+        };
+      }).filter(Boolean);
+    })();
+
     const responseData = {
       ...liveProd,
       id: liveProd.id,
@@ -90,7 +108,8 @@ export async function GET(req: NextRequest, { params }: RouteProps) {
         is_featured: url === featuredImage || (index === 0 && !featuredImage),
         sort_order: index,
       })),
-      variants: (liveProd as any).colorVariants || [],
+      colorVariants: normalizedColorVariants,
+      variants: normalizedColorVariants,
       downloads: (liveProd as any).downloads || [],
       faqs: (liveProd as any).faqs || [],
     };
