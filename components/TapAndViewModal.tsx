@@ -145,21 +145,16 @@ export default function TapAndViewModal() {
               </h2>
             </div>
 
-            {/* Show Price Button Bar */}
-            <div className="flex items-center gap-3">
-              <Link
-                href={`/products/${tapAndViewProduct.slug}`}
-                onClick={closeTapAndView}
-                className="px-4 py-1.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] font-archivo text-xs font-bold uppercase tracking-wider hover:bg-[#071F59] transition-all shadow-sm flex items-center gap-1.5"
-              >
-                <span>Show Price</span>
-              </Link>
-              <span className="text-[10px] font-bold bg-[#FAF9F6] text-[#0B2D7F] border border-black/15 px-2 py-0.5 rounded">
+            {/* Wholesale Sourcing Indicator */}
+            <div className="flex items-center gap-2.5">
+              <span className="px-3.5 py-1.5 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-[11px] font-semibold uppercase tracking-wider shadow-2xs">
+                Enquiry Wholesale
+              </span>
+              <span className="text-[10.5px] font-semibold bg-[#FAF9F6] text-[#0B2D7F] border border-[#0B2D7F]/15 px-2.5 py-1 rounded-full">
                 {tapAndViewProduct.moq || 'MOQ: 20 pcs'}
               </span>
             </div>
 
-            {/* Measurement & Size Guide Bar */}
             <div className="flex items-center justify-between pt-2 border-t border-black/10">
               <span className="text-xs font-semibold text-[#0B2D7F]">Select Size</span>
               <button
@@ -172,7 +167,7 @@ export default function TapAndViewModal() {
             </div>
 
             {/* Size Pills Grid (Exact Nishorama 8.64px roundness) */}
-            <div className="grid grid-cols-7 gap-1.5 md:gap-2">
+            <div className="grid grid-cols-5 gap-1.5 md:gap-2">
               {sizes.map(size => {
                 const isSelected = selectedSize === size;
                 return (

@@ -361,7 +361,7 @@ export default function ProductDetailPage({ params }: Props) {
             </div>
             <div className="flex">
               <span className="w-32 opacity-70 font-medium">Model Fit</span>
-              <span className="font-semibold">Model is wearing size XS</span>
+              <span className="font-semibold">Model is wearing size S</span>
             </div>
           </div>
 
@@ -602,17 +602,16 @@ export default function ProductDetailPage({ params }: Props) {
             })}
           </div>
 
-          {/* Show Price Button Bar */}
-          <div className="flex items-center justify-between py-2 border-y border-[#0B2D7F]/10">
-            <button
-              type="button"
-              onClick={() => setIsEnquiryModalOpen(true)}
-              className="flex items-center gap-2 px-5 py-2 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-xs font-medium uppercase tracking-wider transition-all shadow-soft cursor-pointer"
-            >
-              <span>Show Price</span>
-            </button>
+          {/* Wholesale Sourcing Indicator Bar */}
+          <div className="flex items-center justify-between py-2.5 px-4 bg-white rounded-2xl shadow-soft border border-[#0B2D7F]/10">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse" />
+              <span className="text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">
+                Wholesale Inquiry Only
+              </span>
+            </div>
 
-            <span className="px-3.5 py-1 bg-white text-[#0B2D7F] text-xs font-medium rounded-full shadow-soft uppercase tracking-wider">
+            <span className="px-3 py-1 bg-[#FAF9F6] text-[#0B2D7F] text-xs font-semibold rounded-full shadow-2xs uppercase tracking-wider border border-[#0B2D7F]/10">
               {displayMoq}
             </span>
           </div>
@@ -820,16 +819,15 @@ export default function ProductDetailPage({ params }: Props) {
             </div>
           )}
 
-          {/* Mobile Show Price Button Bar */}
-          <div className="flex items-center justify-between py-2 border-b border-[#0B2D7F]/10">
-            <button
-              type="button"
-              onClick={() => setIsEnquiryModalOpen(true)}
-              className="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium uppercase tracking-wider shadow-soft active:scale-95 cursor-pointer"
-            >
-              <span>Show Price</span>
-            </button>
-            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-xs font-medium rounded-full shadow-soft uppercase tracking-wider">
+          {/* Mobile Wholesale Sourcing Indicator Bar */}
+          <div className="flex items-center justify-between py-2.5 px-3.5 bg-white rounded-2xl shadow-soft border border-[#0B2D7F]/10">
+            <div className="flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse" />
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-[#0B2D7F]">
+                Wholesale Trade Only
+              </span>
+            </div>
+            <span className="px-3 py-0.5 bg-[#FAF9F6] text-[#0B2D7F] text-[10.5px] font-semibold rounded-full shadow-2xs uppercase tracking-wider border border-[#0B2D7F]/10">
               {displayMoq}
             </span>
           </div>
@@ -848,24 +846,20 @@ export default function ProductDetailPage({ params }: Props) {
             </button>
           </div>
 
-          {/* Size Pills Grid (7 columns) */}
-          <div className="grid grid-cols-7 gap-1.5">
+          {/* Size Pills Grid (5 columns for S to XXL) */}
+          <div className="grid grid-cols-5 gap-1.5">
             {sizes.map(size => {
               const isSelected = selectedSize === size;
-              const isUnavailable = size === 'XXL';
 
               return (
                 <button
                   key={size}
                   type="button"
-                  disabled={isUnavailable}
                   onClick={() => setSelectedSize(size)}
-                  className={`h-11 rounded-xl text-xs font-medium transition-all flex flex-col items-center justify-center ${
-                    isUnavailable
-                      ? 'bg-white text-black/25 border border-dashed border-black/15'
-                      : isSelected
+                  className={`h-11 rounded-xl text-xs font-semibold transition-all flex flex-col items-center justify-center cursor-pointer ${
+                    isSelected
                       ? 'bg-[#0B2D7F] text-white shadow-soft'
-                      : 'bg-white text-[#0B2D7F] shadow-soft'
+                      : 'bg-white text-[#0B2D7F] shadow-soft hover:bg-[#FAF9F6]'
                   }`}
                 >
                   <span>{size}</span>

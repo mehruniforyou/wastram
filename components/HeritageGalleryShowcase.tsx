@@ -2,18 +2,20 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ETHNIC_WEAR_SETS } from '@/data/ethnic-wear-sets';
+import { NISHORAMA_PRODUCTS } from '@/data/nishorama-data';
 import ProductCard from './ProductCard';
 import ScrollReveal from './ScrollReveal';
 
 export default function HeritageGalleryShowcase() {
-  const heritageSets = ETHNIC_WEAR_SETS.slice(0, 4);
+  const heritageSets = NISHORAMA_PRODUCTS.filter(
+    p => !(p as any).deleted && !(p as any).is_hidden && p.category === 'ethnic-wear-sets'
+  ).slice(0, 4);
 
   const romanNumerals = ['No. 01', 'No. 02', 'No. 03', 'No. 04'];
 
   return (
-    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF5E6]/35 transition-colors">
-      <div className="max-w-7xl mx-auto flex flex-col gap-10 md:gap-14">
+    <section className="w-full py-12 md:py-20 px-3.5 sm:px-6 md:px-8 bg-[#FAF5E6]/35 transition-colors">
+      <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-12">
         {/* Royal Section Heading with Scroll Reveal */}
         <ScrollReveal direction="up" distance={20} duration={800}>
           <div className="flex flex-col items-center text-center">
@@ -30,7 +32,7 @@ export default function HeritageGalleryShowcase() {
         </ScrollReveal>
 
         {/* 4 Curated Bespoke Editions with Roman Numeral Badges */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
           {heritageSets.map((product, idx) => (
             <ScrollReveal
               key={product.id || idx}

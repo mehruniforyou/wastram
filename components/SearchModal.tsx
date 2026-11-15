@@ -131,9 +131,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         {p.title}
                       </h4>
                       <div className="flex items-center gap-2 text-xs font-archivo mt-1">
-                        <span className="px-2 py-0.5 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-[10px] font-bold uppercase tracking-wider">
-                          Show Price
-                        </span>
+                        <span className="px-2.5 py-0.5 rounded-full bg-[#0B2D7F] text-white text-[9.5px] font-semibold uppercase tracking-wider">Enquire</span>
                         <span className="text-[10px] text-black/50">• {p.moq || 'MOQ 20 pcs'}</span>
                       </div>
                     </div>

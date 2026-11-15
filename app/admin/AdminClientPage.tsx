@@ -4950,12 +4950,12 @@ function AdminPageContent() {
                                   </div>
                                 </div>
 
-                                {/* Middle: Thinner Price Font */}
+                                {/* Middle: Wholesale Status & Variants count */}
                                 <div className="shrink-0 sm:text-right" onClick={(e) => e.stopPropagation()}>
-                                  <div className="font-sans font-medium text-base sm:text-lg text-black tabular-nums tracking-tight">
-                                    {prod.price !== null && prod.price !== undefined ? `₹${Number(prod.price).toFixed(2)}` : "Price on Request"}
+                                  <div className="font-sans font-semibold text-xs sm:text-sm text-[#0B2D7F] tracking-tight">
+                                    {(prod as any).colorVariants?.length ? `${(prod as any).colorVariants.length} Colorways` : "1 Style Color"}
                                   </div>
-                                  <span className="text-[11px] text-neutral-500 font-normal">INR</span>
+                                  <span className="text-[10px] text-neutral-500 font-bold uppercase tracking-wider block">Enquiry Wholesale</span>
                                 </div>
 
                                 {/* Right: Actions */}
@@ -8154,9 +8154,9 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         ohm: null,
         spule_durchmesser: null,
         tags: form.tags ? form.tags.split(",").map(t => t.trim()).filter(Boolean) : [],
-        price: form.salePrice ? parseFloat(form.salePrice) : (form.price ? parseFloat(form.price) : null),
-        regularPrice: form.regularPrice ? parseFloat(form.regularPrice) : null,
-        salePrice: form.salePrice ? parseFloat(form.salePrice) : (form.price ? parseFloat(form.price) : null),
+        price: null,
+        regularPrice: null,
+        salePrice: null,
         fabric: form.fabric || null,
         craft: form.craft || null,
         moq: form.moq || null,
@@ -8262,51 +8262,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           </div>
         </div>
 
-        {/* Card 2: B2B Wholesale & Retail Pricing */}
-        <div className={cardClass}>
-          <div className="flex items-center justify-between pb-1 border-b border-neutral-100">
-            <label className={labelTextClass}>B2B Pricing &amp; Wholesale Rates (₹)</label>
-            <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider font-mono">INR Currency</span>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
-                Wholesale Price per Piece (₹) *
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.salePrice || form.price}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, price: val, salePrice: val });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 1899"
-              />
-              <p className="text-[10px] text-neutral-400 mt-1">Wholesale net rate invoiced to B2B retail buyers</p>
-            </div>
-            <div>
-              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
-                Retail Reference / MRP Price (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.regularPrice}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, regularPrice: val });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 2499"
-              />
-              <p className="text-[10px] text-neutral-400 mt-1">Shown crossed out as original MRP on storefront</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Card 3: Garment Specifications & Sizes (Strictly S - XXL) */}
+        {/* Card 2: Garment Specifications & Sizes (Strictly S - XXL) */}
         <div className={cardClass}>
           <div className="flex items-center justify-between pb-1 border-b border-neutral-100">
             <label className={labelTextClass}>Garment Sizing &amp; Fabric Details</label>

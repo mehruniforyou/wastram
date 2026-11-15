@@ -114,9 +114,7 @@ export default function CartPage() {
                           +
                         </button>
                       </div>
-                      <span className="text-sm font-bold text-[#0B2D7F]">
-                        Show Price
-                      </span>
+                      <span className="text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">Enquiry Based</span>
                     </div>
                   </div>
                 </div>
@@ -167,8 +165,11 @@ export default function CartPage() {
               </div>
 
               <button
-                onClick={() => alert('Proceeding to payment gateway...')}
-                className="w-full mt-2 py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#e02900] text-white font-archivo font-black text-xs uppercase tracking-widest shadow-lg transition-colors"
+                onClick={() => {
+    const text = encodeURIComponent('Hello Wastram Atelier, I would like to submit my wholesale enquiry for ' + cart.length + ' selected styles.');
+    window.open('https://wa.me/918003088838?text=' + text, '_blank');
+  }}
+                className="w-full mt-2 py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-archivo font-black text-xs uppercase tracking-widest shadow-lg transition-colors"
               >
                 SUBMIT WHOLESALE ENQUIRY
               </button>
