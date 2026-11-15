@@ -134,7 +134,7 @@ function ToastCard({
     if (!item.details) return;
     try {
       await navigator.clipboard.writeText(
-        `[IXOS ADMIN DIAGNOSTIC]\nTitle: ${item.title}\nMessage: ${item.message}\nType: ${item.type}\nDetails:\n${item.details}`
+        `[WASTRAM ADMIN DIAGNOSTIC]\nTitle: ${item.title}\nMessage: ${item.message}\nType: ${item.type}\nDetails:\n${item.details}`
       );
       setCopied(true);
       setTimeout(() => setCopied(false), 2200);
@@ -147,19 +147,19 @@ function ToastCard({
     success: {
       border: "border-l-4 border-l-emerald-500 border-neutral-200 shadow-emerald-500/10",
       badge: "bg-emerald-100 text-emerald-800 border-emerald-200",
-      badgeText: "Erfolg",
+      badgeText: "Success",
       icon: <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />,
     },
     error: {
       border: "border-l-4 border-l-rose-500 border-neutral-200 shadow-rose-500/10",
       badge: "bg-rose-100 text-rose-800 border-rose-200",
-      badgeText: "Fehler",
+      badgeText: "Error",
       icon: <XCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />,
     },
     warning: {
       border: "border-l-4 border-l-amber-500 border-neutral-200 shadow-amber-500/10",
       badge: "bg-amber-100 text-amber-800 border-amber-200",
-      badgeText: "Warnung",
+      badgeText: "Warning",
       icon: <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />,
     },
     info: {
