@@ -48,16 +48,21 @@ export default function Footer() {
       <div className="relative z-10 container-x py-16 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
         {/* Column 1: Brand Atelier Manifesto & Coordinates (md:col-span-4) */}
         <div className="md:col-span-4">
-          {/* Official Wastram Golden Thread Logo */}
+          {/* Official Wastram Crest & Gold Thread Logo */}
           <Link
             href="/"
-            className="inline-block group mb-3"
+            className="inline-flex items-center gap-3 group mb-3"
             aria-label="Wastram Home"
           >
             <img
+              src="/images/brand/wastram-artisan-crest.jpg"
+              alt="Wastram Artisan Hallmark"
+              className="h-10 md:h-12 w-10 md:w-12 rounded-full object-cover border border-[#D4AF37]/40 shadow-soft transition-transform duration-300 group-hover:scale-105 shrink-0"
+            />
+            <img
               src="/images/brand/wastram-gold-thread-logo.png"
               alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-              className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
+              className="h-9 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
             />
           </Link>
 

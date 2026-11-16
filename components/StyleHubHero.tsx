@@ -27,8 +27,13 @@ export default function StyleHubHero() {
               loading="eager"
               className="w-full h-full object-cover object-top"
             />
-            {/* Subtle Royal Atelier Tag */}
-            <div className="absolute top-4 left-4 z-10 bg-white/95 dark:bg-[#071F59]/95 backdrop-blur-md px-4 py-1.5 rounded-full border border-[#D4AF37]/35 shadow-soft">
+            {/* Subtle Royal Atelier Tag with Artisan Crest */}
+            <div className="absolute top-4 left-4 z-10 bg-white/95 dark:bg-[#071F59]/95 backdrop-blur-md px-4 py-2 rounded-full border border-[#D4AF37]/35 shadow-soft flex items-center gap-2.5">
+              <img
+                src="/images/brand/wastram-artisan-crest.jpg"
+                alt="Wastram Artisan Hallmark"
+                className="w-5 h-5 rounded-full object-cover border border-[#D4AF37]/50 shadow-sm shrink-0"
+              />
               <span className="eyebrow text-[10px] tracking-widerest text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
                 👑 Jaipur Atelier · Est. 2011
               </span>

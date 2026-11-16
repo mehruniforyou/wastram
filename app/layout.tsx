@@ -43,8 +43,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/images/brand/wastram-craft-emblem.png',
-    apple: '/images/brand/wastram-craft-emblem.png',
+    icon: '/images/brand/wastram-artisan-crest.jpg',
+    apple: '/images/brand/wastram-artisan-crest.jpg',
   },
 };
 

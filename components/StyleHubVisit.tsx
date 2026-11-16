@@ -19,9 +19,16 @@ export default function StyleHubVisit() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-10 border-t border-foreground/10 pt-16 md:pt-20">
         {/* Left Column: Heading & Atelier Identity */}
         <div className="md:col-span-5">
-          <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
-            <span>✦</span>
-            <span>Visit &amp; Consult</span>
+          <div className="flex items-center gap-3 mb-4">
+            <img
+              src="/images/brand/wastram-artisan-crest.jpg"
+              alt="Wastram Artisan Hallmark"
+              className="w-10 h-10 rounded-full object-cover border border-[#D4AF37]/50 shadow-soft shrink-0"
+            />
+            <div className="eyebrow text-[#D4AF37] font-semibold flex items-center gap-1.5">
+              <span>✦</span>
+              <span>Visit &amp; Consult</span>
+            </div>
           </div>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[0.95] text-[#0B2D7F] dark:text-foreground tracking-tight">
             The Jaipur Atelier

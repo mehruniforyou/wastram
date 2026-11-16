@@ -101,17 +101,22 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             )}
           </button>
 
-          {/* Official Wastram Brand Logo */}
+          {/* Official Wastram Brand Logo with Artisan Crest */}
           <Link
             href="/"
-            className="flex items-center gap-2 group py-1"
+            className="flex items-center gap-2 sm:gap-2.5 group py-1"
             data-testid="nav-logo"
             aria-label="Wastram Home"
           >
             <img
+              src="/images/brand/wastram-artisan-crest.jpg"
+              alt="Wastram Artisan Hallmark"
+              className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 rounded-full object-cover border border-[#D4AF37]/40 shadow-soft transition-transform duration-300 group-hover:scale-105 shrink-0"
+            />
+            <img
               src="/images/brand/wastram-header-logo-primary.png"
               alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-              className="h-8 sm:h-9 md:h-11 w-auto object-contain dark:brightness-125 transition-transform duration-300 group-hover:scale-102"
+              className="h-7 sm:h-8 md:h-10 w-auto object-contain dark:brightness-125 transition-transform duration-300 group-hover:scale-102"
             />
           </Link>
 
@@ -205,12 +210,17 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 <Link
                   href="/"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block py-1"
+                  className="flex items-center gap-2.5 py-1"
                 >
+                  <img
+                    src="/images/brand/wastram-artisan-crest.jpg"
+                    alt="Wastram Artisan Hallmark"
+                    className="h-8 w-8 rounded-full object-cover border border-[#D4AF37]/40 shadow-soft shrink-0"
+                  />
                   <img
                     src="/images/brand/wastram-header-logo-primary.png"
                     alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-                    className="h-8 w-auto object-contain dark:brightness-125"
+                    className="h-7 w-auto object-contain dark:brightness-125"
                   />
                 </Link>
                 <button
