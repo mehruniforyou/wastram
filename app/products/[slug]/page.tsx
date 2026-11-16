@@ -1,14 +1,29 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import {
+  Heart,
+  MessageCircle,
+  Truck,
+  RotateCcw,
+  ShieldCheck,
+  ChevronDown,
+  Sparkles,
+  Scissors,
+  Check,
+  ChevronLeft,
+  ChevronRight,
+  Plus,
+} from 'lucide-react';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import StoryViewerModal from '@/components/StoryViewerModal';
 import SearchModal from '@/components/SearchModal';
-import B2BEnquiryModal from '@/components/B2BEnquiryModal';
+import CartDrawer from '@/components/CartDrawer';
+import SizeGuideModal from '@/components/SizeGuideModal';
+import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import ProductCard from '@/components/ProductCard';
 import { useCart } from '@/context/CartContext';
 
@@ -18,25 +33,34 @@ interface Props {
   };
 }
 
+const ALL_SIZES = ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL', '8XL'];
+
 export default function ProductDetailPage({ params }: Props) {
   // Read initial product and check if archived or deleted
   const initialItem = React.useMemo(() => {
-    const rawSlug = decodeURIComponent(params.slug || "").toLowerCase().trim();
-    if (typeof window !== "undefined") {
+    const rawSlug = decodeURIComponent(params.slug || '').toLowerCase().trim();
+    if (typeof window !== 'undefined') {
       try {
-        const local = localStorage.getItem("wastram_products_overrides") || localStorage.getItem("ixos_products_overrides");
+        const local =
+          localStorage.getItem('wastram_products_overrides') ||
+          localStorage.getItem('ixos_products_overrides');
         if (local) {
           const parsed = JSON.parse(local);
-          const ovr = parsed[rawSlug] || Object.values(parsed).find((o: any) => o?.slug?.toLowerCase() === rawSlug || o?.id?.toLowerCase() === rawSlug);
+          const ovr =
+            parsed[rawSlug] ||
+            Object.values(parsed).find(
+              (o: any) => o?.slug?.toLowerCase() === rawSlug || o?.id?.toLowerCase() === rawSlug
+            );
           if (ovr?.deleted || ovr?.purged || ovr?.is_hidden) return null;
         }
       } catch (_) {}
     }
     const found = NISHORAMA_PRODUCTS.find(
-      p => p.slug?.toLowerCase() === rawSlug ||
-           p.id?.toLowerCase() === rawSlug ||
-           p.partNumber?.toLowerCase() === rawSlug ||
-           (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === rawSlug)
+      (p) =>
+        p.slug?.toLowerCase() === rawSlug ||
+        p.id?.toLowerCase() === rawSlug ||
+        p.partNumber?.toLowerCase() === rawSlug ||
+        (p as any).aliasSlugs?.some((a: string) => a.toLowerCase() === rawSlug)
     );
     if (!found || (found as any).deleted || (found as any).purged || (found as any).is_hidden) return null;
     return found;
@@ -45,15 +69,30 @@ export default function ProductDetailPage({ params }: Props) {
   const [product, setProduct] = useState<NishoramaProduct | null>(initialItem);
   const [isArchived, setIsArchived] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(!initialItem);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [selectedSize, setSelectedSize] = useState('M');
+  const [pincode, setPincode] = useState('');
+  const [pincodeStatus, setPincodeStatus] = useState<string | null>(null);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [openAccordions, setOpenAccordions] = useState<Record<string, boolean>>({
+    fabric: true,
+    fit: false,
+    care: false,
+    wholesale: false,
+  });
+
+  const { addToCart, openCart, toggleWishlist, isWishlisted, openSizeGuide } = useCart();
+  const wishlisted = product ? isWishlisted(product.slug) : false;
 
   // Sync with live product updates from admin console & API
-  React.useEffect(() => {
+  useEffect(() => {
     let isMounted = true;
 
-    // Check localStorage overrides immediately on mount for zero-latency reflection
     try {
-      if (typeof window !== "undefined") {
-        const local = localStorage.getItem("wastram_products_overrides") || localStorage.getItem("ixos_products_overrides");
+      if (typeof window !== 'undefined') {
+        const local =
+          localStorage.getItem('wastram_products_overrides') ||
+          localStorage.getItem('ixos_products_overrides');
         if (local) {
           const parsed = JSON.parse(local);
           const slugKey = params.slug?.toLowerCase();
@@ -96,12 +135,13 @@ export default function ProductDetailPage({ params }: Props) {
         try {
           const listRes = await fetch(`/api/products?t=${Date.now()}`);
           const listData = await listRes.json();
-          const list = Array.isArray(listData) ? listData : (listData?.products || []);
-          const cleanParam = decodeURIComponent(params.slug || "").toLowerCase().trim();
-          const found = list.find((p: any) =>
-            p.slug?.toLowerCase() === cleanParam ||
-            p.id?.toLowerCase() === cleanParam ||
-            (p.partNumber || p.sku || "").toLowerCase() === cleanParam
+          const list = Array.isArray(listData) ? listData : listData?.products || [];
+          const cleanParam = decodeURIComponent(params.slug || '').toLowerCase().trim();
+          const found = list.find(
+            (p: any) =>
+              p.slug?.toLowerCase() === cleanParam ||
+              p.id?.toLowerCase() === cleanParam ||
+              (p.partNumber || p.sku || '').toLowerCase() === cleanParam
           );
           if (!isMounted) return;
 
@@ -123,8 +163,8 @@ export default function ProductDetailPage({ params }: Props) {
     loadLive();
 
     try {
-      const ch1 = new BroadcastChannel("wastram_products_sync");
-      const ch2 = new BroadcastChannel("ixos_products_sync");
+      const ch1 = new BroadcastChannel('wastram_products_sync');
+      const ch2 = new BroadcastChannel('ixos_products_sync');
       const onMsg = () => loadLive();
       ch1.onmessage = onMsg;
       ch2.onmessage = onMsg;
@@ -138,815 +178,494 @@ export default function ProductDetailPage({ params }: Props) {
         isMounted = false;
       };
     }
-  }, [params.slug]);
+  }, [params.slug, initialItem]);
 
-  const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);
-  const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const [selectedSize, setSelectedSize] = useState('S');
-  const [measurementUnit, setMeasurementUnit] = useState<'inch' | 'cm'>('inch');
-
-  const normalizedColorVariants = React.useMemo(() => {
-    const list = product?.colorVariants || (product as any)?.variants || [];
-    if (!Array.isArray(list)) return [];
-    return list.map((v: any) => {
-      let parsed = v;
-      if (typeof v === "string") {
-        try { parsed = JSON.parse(v); } catch { return null; }
-      }
-      if (!parsed || typeof parsed !== "object") return null;
-      return {
-        id: parsed.id || `var-${Math.random().toString(36).substring(2, 7)}`,
-        name: parsed.name || "Default Color",
-        colorCode: parsed.colorCode || "#1A1A1A",
-        images: Array.isArray(parsed.images) ? parsed.images.filter(Boolean) : (parsed.image ? [parsed.image] : [])
-      };
-    }).filter(Boolean);
-  }, [product?.colorVariants, (product as any)?.variants]);
-
-  const hasVariants = normalizedColorVariants.length > 0;
-  const safeVariantIndex = Math.min(selectedVariantIndex, Math.max(0, normalizedColorVariants.length - 1));
-  const activeVariant = hasVariants ? normalizedColorVariants[safeVariantIndex] : null;
-
-  // General lookbook / showcase images attached to product
-  const generalImages: string[] = React.useMemo(() => {
-    const raw = (
-      Array.isArray((product as any)?.gallery) && (product as any).gallery.length > 0
-        ? (product as any).gallery
-        : (Array.isArray(product?.images) && product.images.length > 0
-          ? product.images
-          : ((product as any)?.featured_image ? [(product as any).featured_image] : (product?.mainImage ? [product.mainImage] : [])))
-    );
-    return raw.map((img: any) => (typeof img === "string" ? img : img?.url || "")).filter(Boolean);
-  }, [product]);
-
-  // If activeVariant has images, prioritize variant photos first, then any additional general photos
-  const activeImages: string[] = React.useMemo(() => {
-    if (activeVariant && activeVariant.images && activeVariant.images.length > 0) {
-      const varImgs = activeVariant.images.map((img: any) => (typeof img === "string" ? img : img?.url || "")).filter(Boolean);
-      const combined = [...varImgs];
-      for (const g of generalImages) {
-        if (!combined.includes(g)) combined.push(g);
-      }
-      return combined.length > 0 ? combined : generalImages;
-    }
-    return generalImages.length > 0 ? generalImages : ["/umbrella-dresses/4726.jpg.jpeg"];
-  }, [activeVariant, generalImages]);
-
-  // Accordion states
-  const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
-    details: true,
-    shipping: false,
-    returns: false,
-  });
-
-  const [isStoryOpen, setIsStoryOpen] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [isEnquiryModalOpen, setIsEnquiryModalOpen] = useState(false);
-
-  const mobileCarouselRef = useRef<HTMLDivElement | null>(null);
-
-  const { toggleWishlist, isWishlisted, openSizeGuide, openTapAndView } = useCart();
-  const wishlisted = product ? isWishlisted(product.slug) : false;
-
-  const sizes = ['S', 'M', 'L', 'XL', 'XXL'];
-
-  const measurements = measurementUnit === 'inch'
-    ? { chest: '34-36', waist: '28-30', hip: '36-38', unit: 'Inch' }
-    : { chest: '86-91', waist: '71-76', hip: '91-97', unit: 'CM' };
-
-  const relatedProducts = NISHORAMA_PRODUCTS.filter(p => !p.deleted && !p.is_hidden && p.id !== product?.id).slice(0, 4);
-
-  const toggleAccordion = (key: string) => {
-    setOpenAccordions(prev => ({
-      ...prev,
-      [key]: !prev[key],
-    }));
-  };
-
-  // Mobile Horizontal Swipe Handler
-  const handleMobileScroll = () => {
-    if (!mobileCarouselRef.current) return;
-    const { scrollLeft, clientWidth } = mobileCarouselRef.current;
-    if (clientWidth > 0) {
-      const newIndex = Math.round(scrollLeft / clientWidth);
-      if (newIndex !== activeImageIndex && newIndex >= 0 && newIndex < activeImages.length) {
-        setActiveImageIndex(newIndex);
-      }
-    }
-  };
-
-  const scrollToMobileSlide = (index: number) => {
-    if (!mobileCarouselRef.current) return;
-    const clientWidth = mobileCarouselRef.current.clientWidth;
-    mobileCarouselRef.current.scrollTo({
-      left: index * clientWidth,
-      behavior: 'smooth',
-    });
-    setActiveImageIndex(index);
-  };
-
-  // If archived, deleted, or product confirmed not found -> 404 with zero traces left
   if (isArchived) {
     notFound();
   }
 
-  // Graceful loading state while fetching live product details
   if (isLoading || !product) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#FAF9F6]">
-        <div className="w-10 h-10 border-4 border-neutral-300 border-t-black rounded-full animate-spin" />
+      <div className="min-h-screen flex items-center justify-center bg-[#FCFBF7] dark:bg-[#0E0C0A]">
+        <div className="w-10 h-10 border-4 border-neutral-300 border-t-[#0B2D7F] rounded-full animate-spin" />
       </div>
     );
   }
 
-  // Clean concise MOQ
-  const rawMoq = product.moq
-    ? product.moq.includes('/')
-      ? product.moq.split('/')[0].trim()
-      : product.moq
-    : '20 pcs';
-  const displayMoq = rawMoq.toLowerCase().startsWith('moq') ? rawMoq : `MOQ ${rawMoq}`;
+  const images = (product.images && product.images.length > 0 && product.images) || [
+    product.image || '/placeholder.jpg',
+  ];
 
-  const whatsappMessage = encodeURIComponent(
-    `Hello Wastram Atelier, I am interested in boutique pricing for ${product.title} (SKU: ${product.sku || product.id}). Please share line sheets and fabric specifications.`
-  );
+  const price = product.price || 1499;
+  const regularPrice = product.regularPrice || Math.round(price * 1.33);
+  const discountPercent = Math.round(((regularPrice - price) / regularPrice) * 100);
+
+  const availableSizes =
+    product.sizes && product.sizes.length > 0 ? product.sizes : ALL_SIZES;
+
+  const toggleAccordion = (key: string) => {
+    setOpenAccordions((prev) => ({ ...prev, [key]: !prev[key] }));
+  };
+
+  const handlePincodeCheck = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (pincode.trim().length === 6 && /^\d+$/.test(pincode)) {
+      setPincodeStatus('Available! Dispatched in 2–3 days with Cash on Delivery.');
+    } else {
+      setPincodeStatus('Please enter a valid 6-digit Indian PIN code.');
+    }
+  };
+
+  const handleAddToCart = () => {
+    addToCart(product, selectedSize, 1);
+    openCart();
+  };
+
+  const handleBuyNow = () => {
+    addToCart(product, selectedSize, 1);
+    openCart();
+  };
+
+  const whatsappInquiryUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
+    `Hello Wastram Master Tailor, I have a question about ${product.title} (SKU: ${
+      product.sku || product.id
+    }, Size: ${selectedSize}). Could you assist me with fit and custom adjustments?`
+  )}`;
+
+  const relatedProducts = NISHORAMA_PRODUCTS.filter(
+    (p) => !p.deleted && !p.is_hidden && p.id !== product.id && p.category === product.category
+  ).slice(0, 4);
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground pt-24 md:pt-28 font-sans">
-      <Header
-        onOpenStory={() => setIsStoryOpen(true)}
-        onOpenSearch={() => setIsSearchOpen(true)}
-      />
+    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+      <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
-      <StoryViewerModal
-        isOpen={isStoryOpen}
-        onClose={() => setIsStoryOpen(false)}
-      />
-
-      <SearchModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-      />
-
-      {/* Breadcrumb Navigation */}
-      <div className="max-w-[1540px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-3 text-xs text-[#0B2D7F]/60 flex items-center gap-2">
-        <Link href="/" className="hover:text-[#0B2D7F] transition-colors">Home</Link>
-        <span>/</span>
-        <Link href="/collections/shop-all" className="hover:text-[#0B2D7F] transition-colors">Shop All</Link>
-        <span>/</span>
-        <span className="text-[#0B2D7F] font-medium uppercase tracking-tight truncate">{product.title}</span>
-      </div>
-
-      {/* ============================================================== */}
-      {/* DESKTOP 3-COLUMN PDP: ONLY CENTER IMAGES SCROLL, SIDES STICKY  */}
-      {/* ============================================================== */}
-      <div className="hidden lg:grid grid-cols-12 gap-6 xl:gap-8 items-start max-w-[1540px] w-full mx-auto px-6 lg:px-8 py-4">
-        {/* ========================================================== */}
-        {/* COLUMN 1: LEFT DETAILS & ACCORDIONS (STICKY PINNED)        */}
-        {/* ========================================================== */}
-        <div className="col-span-4 sticky top-24 self-start max-h-[calc(100vh-7rem)] overflow-y-auto no-scrollbar flex flex-col gap-4 py-2 pr-2">
-          {/* Badges */}
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-soft">
-              Cotton
-            </span>
-            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-soft">
-              Slim Fit
-            </span>
-            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-[11px] font-medium rounded-full shadow-soft">
-              Full sleeves
-            </span>
-          </div>
-
-          {/* Title & Official Wishlist Bookmark */}
-          <div className="flex items-start justify-between gap-3">
-            <h1 className="text-2xl xl:text-3xl font-serif font-normal text-[#0B2D7F] uppercase tracking-wide leading-tight">
-              {product.title}
-            </h1>
-
-            {/* Bookmark Wishlist Button */}
-            <button
-              type="button"
-              onClick={() => toggleWishlist(product.slug)}
-              className="w-9 h-9 rounded-full bg-white shadow-soft flex items-center justify-center text-[#0B2D7F] hover:bg-[#FAF9F6] transition-transform active:scale-90 flex-shrink-0 cursor-pointer"
-              aria-label="Save to wishlist"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="13"
-                height="18"
-                viewBox="0 0 12.39 18.53"
-                className={`transition-all ${
-                  wishlisted ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce' : 'fill-none stroke-current'
-                }`}
-              >
-                <path
-                  id="savewishlist"
-                  strokeWidth="1.3"
-                  d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
-                />
-              </svg>
-            </button>
-          </div>
-
-          {/* Specs metadata */}
-          <div className="flex flex-col gap-2 text-xs text-[#0B2D7F] py-3 border-y border-[#0B2D7F]/10">
-            <div className="flex">
-              <span className="w-32 opacity-70 font-medium">Style Category</span>
-              <span className="font-semibold capitalize">{product.category.replace(/-/g, ' ')}</span>
-            </div>
-            <div className="flex">
-              <span className="w-32 opacity-70 font-medium">Color &amp; Craft</span>
-              <span className="font-semibold">{activeVariant ? activeVariant.name : 'Artisanal Jaipuri Craft'}</span>
-            </div>
-            <div className="flex">
-              <span className="w-32 opacity-70 font-medium">Model Fit</span>
-              <span className="font-semibold">Model is wearing size XS</span>
-            </div>
-          </div>
-
-          {/* Accordions (Clean, borderless, soft shadow) */}
-          <div className="flex flex-col gap-2">
-            {/* Details & Description */}
-            <div className="bg-white rounded-2xl p-4 shadow-soft">
-              <button
-                type="button"
-                onClick={() => toggleAccordion('details')}
-                className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F] cursor-pointer"
-              >
-                <span>Details &amp; Craftsmanship</span>
-                <span className={`transition-transform duration-300 ${openAccordions.details ? 'rotate-90' : '-rotate-90'}`}>
-                  &rsaquo;
-                </span>
-              </button>
-              {openAccordions.details && (
-                <div className="text-xs text-[#0B2D7F]/80 pt-3 space-y-1.5 leading-relaxed font-sans">
-                  <p>&bull; Handcrafted pure cotton silhouette designed for supreme breathability.</p>
-                  <p>&bull; Traditional hand-block artisan motifs curated for modern elegance.</p>
-                  <p>&bull; Machine wash cold delicate cycle. Do not bleach. Dry in shade.</p>
-                </div>
-              )}
-            </div>
-
-            {/* Shipping & Delivery */}
-            <div className="bg-white rounded-2xl p-4 shadow-soft">
-              <button
-                type="button"
-                onClick={() => toggleAccordion('shipping')}
-                className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F] cursor-pointer"
-              >
-                <span>Worldwide Delivery &amp; Freight</span>
-                <span className={`transition-transform duration-300 ${openAccordions.shipping ? 'rotate-90' : '-rotate-90'}`}>
-                  &rsaquo;
-                </span>
-              </button>
-              {openAccordions.shipping && (
-                <div className="text-xs text-[#0B2D7F]/80 pt-3 space-y-1.5 leading-relaxed font-sans">
-                  <p>&bull; Fast dispatch within 24-48 business hours from Mumbai &amp; Jaipur warehouses.</p>
-                  <p>&bull; Worldwide doorstep air &amp; ocean freight dispatch (UK, US, EU, Gulf). MOQ 20 pcs.</p>
-                  <p>&bull; Air freight delivery within 4-7 business days with end-to-end tracking.</p>
-                </div>
-              )}
-            </div>
-
-            {/* Return & Exchange */}
-            <div className="bg-white rounded-2xl p-4 shadow-soft">
-              <button
-                type="button"
-                onClick={() => toggleAccordion('returns')}
-                className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F] cursor-pointer"
-              >
-                <span>Return &amp; Exchange Policy</span>
-                <span className={`transition-transform duration-300 ${openAccordions.returns ? 'rotate-90' : '-rotate-90'}`}>
-                  &rsaquo;
-                </span>
-              </button>
-              {openAccordions.returns && (
-                <div className="text-xs text-[#0B2D7F]/80 pt-3 space-y-1.5 leading-relaxed font-sans">
-                  <p>&bull; 7-day hassle-free reverse pickup exchange available directly from account.</p>
-                  <p>&bull; Easy size swap and quality assurance guarantee for wholesale orders.</p>
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* Tap & View Hint */}
-          <div className="pt-2">
-            <button
-              type="button"
-              onClick={() => openTapAndView({ ...product, images: activeImages })}
-              className="w-full py-2.5 rounded-full bg-white text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white text-xs font-medium uppercase tracking-wider shadow-soft transition-all flex items-center justify-center gap-2 cursor-pointer"
-            >
-              <span>🔍 Tap &amp; View Lightbox</span>
-            </button>
-          </div>
+      <main className="flex-1 container-x py-6 md:py-10">
+        {/* Breadcrumb Navigation */}
+        <div className="flex items-center gap-2 text-xs text-ink-500 dark:text-neutral-400 mb-6">
+          <Link href="/" className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors">
+            Home
+          </Link>
+          <span>/</span>
+          <Link
+            href={`/collections/${product.category || 'cord-sets'}`}
+            className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors capitalize"
+          >
+            {product.category?.replace(/-/g, ' ') || 'Collection'}
+          </Link>
+          <span>/</span>
+          <span className="text-[#0B2D7F] dark:text-amber-400 font-medium truncate max-w-xs">
+            {product.title}
+          </span>
         </div>
 
-        {/* ========================================================== */}
-        {/* COLUMN 2: CENTER HIGH-RES GALLERY (SCROLLABLE IMAGE LIST)  */}
-        {/* ========================================================== */}
-        <div className="col-span-4 flex flex-col gap-4">
-          {activeImages.map((img, idx) => (
-            <div
-              key={`${selectedVariantIndex}-${idx}`}
-              className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-white shadow-soft cursor-zoom-in group"
-              onClick={() => openTapAndView({ ...product, images: activeImages })}
-            >
+        {/* 2-Column Desktop Grid / 1-Column Mobile */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+          {/* ======================================================== */}
+          {/* LEFT: GALLERY WITH THUMBNAIL STRIP & ARCHED HERO IMAGE   */}
+          {/* ======================================================== */}
+          <div className="lg:col-span-7 flex flex-col-reverse md:flex-row gap-4">
+            {/* Vertical Thumbnail Strip */}
+            {images.length > 1 && (
+              <div className="flex md:flex-col gap-3 overflow-x-auto md:overflow-y-auto no-scrollbar md:w-20 shrink-0">
+                {images.map((img, idx) => (
+                  <button
+                    key={idx}
+                    type="button"
+                    onClick={() => setActiveImageIndex(idx)}
+                    className={`relative w-16 h-20 md:w-20 md:h-24 rounded-xl overflow-hidden border-2 transition-all shrink-0 cursor-pointer ${
+                      activeImageIndex === idx
+                        ? 'border-[#0B2D7F] dark:border-amber-400 shadow-sm'
+                        : 'border-transparent hover:border-ink-300 opacity-70 hover:opacity-100'
+                    }`}
+                  >
+                    <img
+                      src={img}
+                      alt={`${product.title} thumbnail ${idx + 1}`}
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {/* Main Image in Authentic Rajasthani Arch Doorway Frame */}
+            <div className="flex-1 relative aspect-[3/4] w-full overflow-hidden rajasthani-arch bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-md">
               <img
-                src={img}
-                alt={`${product.title} - ${activeVariant?.name || ''} angle ${idx + 1}`}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                loading={idx === 0 ? "eager" : "lazy"}
-                decoding="async"
+                src={images[activeImageIndex] || images[0]}
+                alt={product.title}
+                className="w-full h-full object-cover object-top transition-all duration-500"
               />
 
-              {/* Zoom overlay badge */}
-              <div className="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-white text-[10px] font-medium uppercase tracking-wider px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
-                Click to Zoom
+              {/* Floating Image Counter */}
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 dark:bg-black/80 backdrop-blur-xs text-ink-900 dark:text-white shadow-2xs">
+                {activeImageIndex + 1} / {images.length}
+              </div>
+
+              {/* Category Provenance Tag */}
+              <div className="absolute top-4 left-4">
+                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-[#0B2D7F]/90 text-white backdrop-blur-xs shadow-2xs">
+                  Sanganer Handblock
+                </span>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
 
-        {/* ========================================================== */}
-        {/* COLUMN 3: RIGHT SIZES, PRICE & PURCHASE (STICKY PINNED)    */}
-        {/* ========================================================== */}
-        <div className="col-span-4 sticky top-24 self-start max-h-[calc(100vh-7rem)] overflow-y-auto no-scrollbar flex flex-col gap-4 py-2 pl-2">
-          {/* Audited Color Variant Swatch Bar (Desktop) */}
-          {hasVariants && (
-            <div className="flex flex-col gap-2.5 bg-white p-4 rounded-2xl shadow-soft">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-[11px] font-semibold uppercase tracking-wider text-[#0B2D7F]">
-                    Colorway:
-                  </span>
-                  <span className="text-xs font-bold text-[#F58220]">
-                    {activeVariant?.name}
-                  </span>
-                </div>
-                <span className="text-[10px] text-[#0B2D7F]/60 font-mono tracking-wider uppercase">
-                  {normalizedColorVariants.length} {normalizedColorVariants.length === 1 ? 'Color Available' : 'Colors Available'}
+          {/* ======================================================== */}
+          {/* RIGHT: BUY & CONCIERGE BLOCK (STICKY PINNED)            */}
+          {/* ======================================================== */}
+          <div className="lg:col-span-5 sticky top-28 space-y-6">
+            <div>
+              <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-semibold mb-1">
+                {product.fabric || '100% PURE HANDLOOM COTTON'}
+              </p>
+              <div className="flex items-start justify-between gap-4">
+                <h1 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal leading-tight">
+                  {product.title}
+                </h1>
+                <button
+                  type="button"
+                  onClick={() => toggleWishlist(product.slug)}
+                  className="w-10 h-10 rounded-full border border-ink-200 dark:border-white/10 flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors shrink-0"
+                  aria-label="Save to wishlist"
+                >
+                  <Heart
+                    size={18}
+                    className={
+                      wishlisted
+                        ? 'fill-[#0B2D7F] text-[#0B2D7F] dark:fill-amber-400 dark:text-amber-400'
+                        : 'text-ink-600 dark:text-neutral-300'
+                    }
+                  />
+                </button>
+              </div>
+
+              {/* Price Row */}
+              <div className="mt-3 flex items-baseline gap-3">
+                <span className="font-serif text-3xl font-bold text-ink-950 dark:text-white tabular-nums">
+                  ₹{price.toLocaleString('en-IN')}
+                </span>
+                <span className="text-sm text-ink-400 line-through tabular-nums">
+                  ₹{regularPrice.toLocaleString('en-IN')}
+                </span>
+                <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300">
+                  Save {discountPercent}%
                 </span>
               </div>
 
-              <div className="flex items-center gap-2 flex-wrap pt-0.5">
-                {normalizedColorVariants.map((variant, idx) => {
-                  const isSelected = safeVariantIndex === idx;
-                  const photoCount = Array.isArray(variant.images) ? variant.images.length : 0;
-                  return (
-                    <button
-                      key={variant.id || idx}
-                      type="button"
-                      onClick={() => {
-                        setSelectedVariantIndex(idx);
-                        setActiveImageIndex(0);
-                      }}
-                      title={variant.name}
-                      className={`group relative flex items-center gap-2 px-3 py-1.5 rounded-full border transition-all cursor-pointer ${
-                        isSelected
-                          ? 'border-[#0B2D7F] bg-[#0B2D7F]/5 ring-2 ring-[#0B2D7F]/20 shadow-xs'
-                          : 'border-[#E8E4DA] bg-white hover:border-[#0B2D7F]/30 hover:bg-[#FAF9F6]'
-                      }`}
-                    >
-                      <span
-                        className="w-3.5 h-3.5 rounded-full border border-black/15 shadow-inner flex-shrink-0"
-                        style={{ backgroundColor: variant.colorCode }}
-                      />
-                      <span className={`text-[11px] ${isSelected ? 'font-semibold text-[#0B2D7F]' : 'font-medium text-[#0B2D7F]/75'}`}>
-                        {variant.name}
-                      </span>
-                      {photoCount > 0 && (
-                        <span className="text-[10px] text-[#0B2D7F]/50">
-                          ({photoCount})
-                        </span>
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Measurement Bar & Size Guide */}
-          <div className="flex items-center justify-between">
-            {/* Inches / CM Toggle */}
-            <div className="flex items-center bg-white p-1 rounded-full text-xs shadow-soft">
-              <button
-                type="button"
-                onClick={() => setMeasurementUnit('inch')}
-                className={`px-3 py-1 rounded-full font-medium transition-all cursor-pointer ${
-                  measurementUnit === 'inch' ? 'bg-[#0B2D7F] text-white shadow-soft' : 'text-[#0B2D7F]/70'
-                }`}
-              >
-                Inches
-              </button>
-              <button
-                type="button"
-                onClick={() => setMeasurementUnit('cm')}
-                className={`px-3 py-1 rounded-full font-medium transition-all cursor-pointer ${
-                  measurementUnit === 'cm' ? 'bg-[#0B2D7F] text-white shadow-soft' : 'text-[#0B2D7F]/70'
-                }`}
-              >
-                CM
-              </button>
-            </div>
-
-            {/* What's my size ? Pill */}
-            <button
-              type="button"
-              onClick={openSizeGuide}
-              className="px-3.5 py-1.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium tracking-wide transition-all shadow-soft cursor-pointer"
-            >
-              What&apos;s my size ?
-            </button>
-          </div>
-
-          {/* Body measurements row */}
-          <div className="flex items-center justify-between text-xs bg-white px-4 py-3 rounded-2xl shadow-soft text-[#0B2D7F]">
-            <div>
-              <span className="opacity-60 text-[10px] uppercase font-bold block">Chest</span>
-              <span className="font-semibold">{measurements.chest} {measurements.unit}</span>
-            </div>
-            <div>
-              <span className="opacity-60 text-[10px] uppercase font-bold block">High Waist</span>
-              <span className="font-semibold">{measurements.waist} {measurements.unit}</span>
-            </div>
-            <div>
-              <span className="opacity-60 text-[10px] uppercase font-bold block">Hip</span>
-              <span className="font-semibold">{measurements.hip} {measurements.unit}</span>
-            </div>
-          </div>
-
-          {/* Size Selector Pills (S to XXL) */}
-          <div className="grid grid-cols-5 gap-1.5">
-            {sizes.map(size => {
-              const isSelected = selectedSize === size;
-
-              return (
-                <button
-                  key={size}
-                  type="button"
-                  onClick={() => setSelectedSize(size)}
-                  className={`relative h-12 rounded-xl text-xs font-semibold transition-all flex flex-col items-center justify-center cursor-pointer ${
-                    isSelected
-                      ? 'bg-[#0B2D7F] text-white shadow-soft'
-                      : 'bg-white text-[#0B2D7F] hover:bg-[#FAF9F6] shadow-soft'
-                  }`}
-                >
-                  <span>{size}</span>
-                  {isSelected && (
-                    <span className="w-3 h-[1.5px] bg-[#D4AF37] rounded-full mt-0.5" />
-                  )}
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Show Price / MOQ Bar */}
-          <div className="flex items-center justify-between py-2 border-y border-[#DEE2E6]">
-            <button
-              type="button"
-              onClick={() => setIsEnquiryModalOpen(true)}
-              className="flex items-center gap-2 px-5 py-2 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-xs font-medium uppercase tracking-wider transition-all shadow-soft cursor-pointer"
-            >
-              <span>Enquire Wholesale Price</span>
-            </button>
-
-            <span className="px-3.5 py-1 bg-white border border-[#DEE2E6] text-[#0B2D7F] text-xs font-medium rounded-full shadow-soft uppercase tracking-wider">
-              {displayMoq}
-            </span>
-          </div>
-
-          {/* Primary Atelier Action Buttons */}
-          <div className="grid grid-cols-2 gap-2.5">
-            <button
-              type="button"
-              onClick={() => setIsEnquiryModalOpen(true)}
-              className="py-3 rounded-full bg-white border border-[#DEE2E6] text-[#0B2D7F] hover:bg-[#FAF9F6] text-xs font-medium uppercase tracking-wider transition-all shadow-soft cursor-pointer"
-            >
-              B2B Enquiry Form
-            </button>
-
-            <a
-              href={`https://wa.me/918003088838?text=${whatsappMessage}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="py-3 rounded-full bg-[#25D366] hover:bg-[#1EBE5D] text-white text-xs font-semibold uppercase tracking-wider transition-all shadow-soft flex items-center justify-center gap-1.5 text-center cursor-pointer"
-            >
-              <svg className="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.456 5.711 1.457h.004c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-              </svg>
-              <span>WhatsApp Enquire</span>
-            </a>
-          </div>
-
-          {/* Atelier Sourcing Terms Card */}
-          <div className="bg-white p-4 rounded-2xl shadow-soft flex flex-col gap-3">
-            <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">
-              <span>Atelier Sourcing Terms</span>
-              <span className="text-[10px] bg-[#FAF9F6] text-[#0B2D7F] px-2.5 py-0.5 rounded-full font-medium">
-                COUTURE STANDARD
-              </span>
-            </div>
-
-            <div className="bg-[#FAF9F6] p-3 rounded-xl flex items-center justify-between text-xs">
-              <div>
-                <span className="font-semibold text-[#0B2D7F] block">Custom Private Labelling</span>
-                <span className="text-[11px] text-[#0B2D7F]/70">Woven tags, barcode stickers &amp; custom packaging</span>
-              </div>
-              <span className="bg-[#0B2D7F] text-[#D4AF37] text-[10px] font-bold px-2 py-0.5 rounded-full">
-                AVAILABLE
-              </span>
-            </div>
-
-            <div className="grid grid-cols-2 gap-2 text-xs">
-              <div className="p-2.5 rounded-xl bg-[#FAF9F6] text-center">
-                <span className="text-[10px] text-[#0B2D7F]/60 block uppercase">Flexible Batch MOQ</span>
-                <span className="font-semibold text-[#0B2D7F] text-xs">20 Pcs / Style</span>
-              </div>
-              <div className="p-2.5 rounded-xl bg-[#FAF9F6] text-center">
-                <span className="text-[10px] text-[#0B2D7F]/60 block uppercase">Global Cargo Dispatch</span>
-                <span className="font-semibold text-[#0B2D7F] text-xs">DHL &bull; Air &bull; Sea</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ============================================================== */}
-      {/* MOBILE STACKED PDP WITH BUTTERY SMOOTH HORIZONTAL SWIPE        */}
-      {/* ============================================================== */}
-      <div className="lg:hidden w-full flex flex-col pb-8">
-        {/* Mobile Smooth Swipe Media Carousel Container */}
-        <div className="relative w-full h-[125vw] max-h-[560px] bg-white overflow-hidden rounded-b-3xl shadow-soft">
-          <div
-            ref={mobileCarouselRef}
-            onScroll={handleMobileScroll}
-            className="w-full h-full flex overflow-x-auto snap-x snap-mandatory no-scrollbar scroll-smooth"
-          >
-            {activeImages.map((img, idx) => (
-              <div
-                key={`${selectedVariantIndex}-${idx}`}
-                className="w-full h-full flex-shrink-0 snap-center relative overflow-hidden"
-                onClick={() => openTapAndView({ ...product, images: activeImages })}
-              >
-                <img
-                  src={img}
-                  alt={`${product.title} - ${activeVariant?.name || ''} angle ${idx + 1}`}
-                  className="w-full h-full object-cover"
-                  loading={idx === 0 ? "eager" : "lazy"}
-                  decoding="async"
-                />
-              </div>
-            ))}
-          </div>
-
-          {/* Slide Indicator Badge */}
-          <div className="absolute bottom-3 left-4 bg-black/60 backdrop-blur-md text-white text-[11px] font-sans font-medium px-3 py-1 rounded-full shadow-soft pointer-events-none">
-            {activeImageIndex + 1} / {activeImages.length}
-          </div>
-
-          {/* Inset Tap to Zoom Pill */}
-          <button
-            type="button"
-            onClick={() => openTapAndView({ ...product, images: activeImages })}
-            className="absolute bottom-3 right-4 bg-white/95 backdrop-blur-md shadow-soft rounded-full px-3 py-1.5 flex items-center gap-1.5 text-xs text-[#0B2D7F] font-medium active:scale-95 cursor-pointer"
-          >
-            <span>🔍 Zoom</span>
-          </button>
-
-          {/* Top Pill Badges */}
-          <div className="absolute top-3 right-3 flex items-center gap-1.5 pointer-events-none">
-            <span className="bg-white/90 backdrop-blur-md text-[#0B2D7F] text-[10px] font-medium px-2.5 py-0.5 rounded-full shadow-soft">
-              Cotton
-            </span>
-            <span className="bg-white/90 backdrop-blur-md text-[#0B2D7F] text-[10px] font-medium px-2.5 py-0.5 rounded-full shadow-soft">
-              Slim Fit
-            </span>
-          </div>
-        </div>
-
-        {/* Thumbnail Dots Bar (Interactive & Synchronized) */}
-        {activeImages.length > 1 && (
-          <div className="flex items-center justify-center gap-1.5 py-3 bg-[#FAF9F6]">
-            {activeImages.map((_, dotIdx) => (
-              <button
-                key={dotIdx}
-                type="button"
-                onClick={() => scrollToMobileSlide(dotIdx)}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  activeImageIndex === dotIdx ? 'w-5 bg-[#0B2D7F]' : 'w-1.5 bg-[#0B2D7F]/25'
-                }`}
-                aria-label={`Slide ${dotIdx + 1}`}
-              />
-            ))}
-          </div>
-        )}
-
-        {/* Mobile Info Sheet */}
-        <div className="px-4 py-5 flex flex-col gap-4">
-          {/* Title Row with Official Wishlist Bookmark */}
-          <div className="flex items-start justify-between gap-3">
-            <div>
-              <h1 className="text-xl font-serif font-normal text-[#0B2D7F] uppercase tracking-wide">
-                {product.title}
-              </h1>
-              <p className="text-xs text-[#0B2D7F]/70 mt-0.5 capitalize">
-                {product.category.replace(/-/g, ' ')} &bull; {activeVariant ? activeVariant.name : 'Handcrafted'}
+              <p className="text-xs text-ink-500 dark:text-neutral-400 mt-1">
+                Inclusive of all taxes · Free delivery on orders of ₹1,499+
               </p>
             </div>
 
-            <button
-              type="button"
-              onClick={() => toggleWishlist(product.slug)}
-              className="w-9 h-9 rounded-full bg-white shadow-soft flex items-center justify-center text-[#0B2D7F] active:scale-90"
-              aria-label="Save to wishlist"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="13"
-                height="18"
-                viewBox="0 0 12.39 18.53"
-                className={`transition-all ${
-                  wishlisted ? 'fill-[#F58220] text-[#F58220] animate-heart-bounce' : 'fill-none stroke-current'
-                }`}
-              >
-                <path
-                  id="savewishlist"
-                  strokeWidth="1.3"
-                  d="M0,2.28A2.28,2.28,0,0,1,2.28,0h7.829a2.28,2.28,0,0,1,2.28,2.28V17.716a.76.76,0,0,1-1.258.574L7.805 13.911a2.28 2.28 0 0 0 -2.438 0L1.258 18.29A.76.76 0 0 1 0 17.716Z"
-                />
-              </svg>
-            </button>
-          </div>
-
-          {/* Mobile Audited Color Variant Swatch Selector */}
-          {hasVariants && (
-            <div className="flex flex-col gap-2 bg-white p-3.5 rounded-2xl shadow-soft">
-              <div className="flex items-center justify-between text-xs">
-                <span className="font-semibold text-[#0B2D7F]">
-                  Color: <span className="text-[#F58220] font-bold">{activeVariant?.name}</span>
-                </span>
-                <span className="text-[10px] text-[#0B2D7F]/60">
-                  {normalizedColorVariants.length} {normalizedColorVariants.length === 1 ? 'Color' : 'Colors'}
-                </span>
-              </div>
-              <div className="flex items-center gap-2 flex-wrap pt-0.5">
-                {normalizedColorVariants.map((variant, idx) => {
-                  const isSelected = safeVariantIndex === idx;
-                  return (
-                    <button
-                      key={variant.id || idx}
-                      type="button"
-                      onClick={() => {
-                        setSelectedVariantIndex(idx);
-                        setActiveImageIndex(0);
-                        if (mobileCarouselRef.current) {
-                          mobileCarouselRef.current.scrollTo({ left: 0, behavior: 'smooth' });
-                        }
-                      }}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs transition-all ${
-                        isSelected
-                          ? 'border-[#0B2D7F] bg-[#0B2D7F]/5 ring-1.5 ring-[#0B2D7F]/20 font-semibold text-[#0B2D7F]'
-                          : 'border-[#E8E4DA] bg-white text-[#0B2D7F]/75'
-                      }`}
-                    >
-                      <span
-                        className="w-3.5 h-3.5 rounded-full border border-black/15 shadow-inner"
-                        style={{ backgroundColor: variant.colorCode }}
-                      />
-                      <span>{variant.name}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Mobile Show Price Button Bar */}
-          <div className="flex items-center justify-between py-2 border-b border-[#0B2D7F]/10">
-            <button
-              type="button"
-              onClick={() => setIsEnquiryModalOpen(true)}
-              className="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium uppercase tracking-wider shadow-soft active:scale-95 cursor-pointer"
-            >
-              <span>Show Price</span>
-            </button>
-            <span className="px-3 py-1 bg-white text-[#0B2D7F] text-xs font-medium rounded-full shadow-soft uppercase tracking-wider">
-              {displayMoq}
-            </span>
-          </div>
-
-          {/* Measurements & Size Guide */}
-          <div className="flex items-center justify-between bg-white px-3.5 py-2.5 rounded-2xl shadow-soft text-xs">
-            <span className="font-medium text-[#0B2D7F]">
-              Chest {measurements.chest} &bull; Waist {measurements.waist} &bull; Hip {measurements.hip}
-            </span>
-            <button
-              type="button"
-              onClick={openSizeGuide}
-              className="px-3 py-1 rounded-full bg-[#0B2D7F] text-white text-[10px] font-medium uppercase tracking-wider"
-            >
-              Size Guide
-            </button>
-          </div>
-
-          {/* Size Pills Grid (7 columns) */}
-          <div className="grid grid-cols-7 gap-1.5">
-            {sizes.map(size => {
-              const isSelected = selectedSize === size;
-              const isUnavailable = size === 'XXL';
-
-              return (
-                <button
-                  key={size}
-                  type="button"
-                  disabled={isUnavailable}
-                  onClick={() => setSelectedSize(size)}
-                  className={`h-11 rounded-xl text-xs font-medium transition-all flex flex-col items-center justify-center ${
-                    isUnavailable
-                      ? 'bg-white text-black/25 border border-dashed border-black/15'
-                      : isSelected
-                      ? 'bg-[#0B2D7F] text-white shadow-soft'
-                      : 'bg-white text-[#0B2D7F] shadow-soft'
-                  }`}
-                >
-                  <span>{size}</span>
-                  {isSelected && (
-                    <span className="w-3 h-[1.5px] bg-[#D4AF37] rounded-full mt-0.5" />
-                  )}
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Atelier Action CTAs */}
-          <div className="flex flex-col gap-2.5 pt-2">
-            <button
-              type="button"
-              onClick={() => setIsEnquiryModalOpen(true)}
-              className="w-full py-3.5 rounded-full bg-white text-[#0B2D7F] font-medium text-xs uppercase tracking-wider shadow-soft active:scale-98"
-            >
-              Inquire for Boutiques
-            </button>
-            <a
-              href={`https://wa.me/918003088838?text=${whatsappMessage}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full py-3.5 rounded-full bg-[#0B2D7F] text-white font-medium text-xs uppercase tracking-wider shadow-soft text-center flex items-center justify-center gap-1.5 active:scale-98"
-            >
-              <span>WhatsApp Concierge &rarr;</span>
-            </a>
-          </div>
-
-          {/* Atelier Sourcing Terms */}
-          <div className="bg-white p-4 rounded-2xl shadow-soft flex flex-col gap-2">
-            <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-[#0B2D7F]">
-              <span>Atelier Sourcing Terms</span>
-              <span className="text-[9px] bg-[#FAF9F6] text-[#0B2D7F] px-2 py-0.5 rounded-full font-medium">
-                COUTURE STANDARD
+            {/* Sanganer Factory Note */}
+            <div className="p-3.5 rounded-2xl bg-[#FAF9F6] dark:bg-neutral-900 border border-ink-100 dark:border-white/5 flex items-center gap-3 text-xs text-ink-700 dark:text-neutral-300">
+              <Sparkles size={16} className="text-[#C5A059] shrink-0" />
+              <span>
+                Available from our own factory in Sanganer, Jaipur. Dispatched in 2–3 working days.
               </span>
             </div>
-            <div className="bg-[#FAF9F6] p-3 rounded-xl text-xs">
-              <span className="font-semibold text-[#0B2D7F] block">Custom Private Labelling &amp; Tags</span>
-              <span className="text-[10px] text-[#0B2D7F]/70">MOQ 20 pcs/style &bull; Worldwide Doorstep Air/Sea Cargo</span>
+
+            {/* Size Selector with Size Guide Trigger */}
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-semibold uppercase tracking-wider text-ink-900 dark:text-white">
+                  Select Size (True to Body)
+                </span>
+                <button
+                  type="button"
+                  onClick={openSizeGuide}
+                  className="text-xs font-medium text-[#0B2D7F] dark:text-amber-400 underline underline-offset-4 hover:opacity-80"
+                >
+                  Size guide & measurements
+                </button>
+              </div>
+
+              <div className="flex flex-wrap gap-2">
+                {availableSizes.map((sz) => (
+                  <button
+                    key={sz}
+                    type="button"
+                    onClick={() => setSelectedSize(sz)}
+                    className={`min-w-[44px] h-11 px-3 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer ${
+                      selectedSize === sz
+                        ? 'bg-[#0B2D7F] text-white shadow-sm ring-2 ring-[#0B2D7F]/20'
+                        : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-[#0B2D7F]'
+                    }`}
+                  >
+                    {sz}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Action Buttons Stack */}
+            <div className="space-y-3 pt-2">
+              <button
+                type="button"
+                onClick={handleBuyNow}
+                className="w-full py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-sm transition-all shadow-md active:scale-98"
+              >
+                Buy Now · Size {selectedSize}
+              </button>
+
+              <button
+                type="button"
+                onClick={handleAddToCart}
+                className="w-full py-3.5 rounded-full border-2 border-[#0B2D7F] dark:border-amber-400 text-[#0B2D7F] dark:text-amber-400 font-semibold text-sm hover:bg-[#0B2D7F]/5 transition-colors"
+              >
+                Add to Bag
+              </button>
+
+              {/* Stitched Ribbon Tailor WhatsApp CTA */}
+              <a
+                href={whatsappInquiryUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3.5 rounded-2xl stitched-ribbon flex items-center justify-between gap-3 text-xs group"
+              >
+                <div className="flex items-center gap-2.5">
+                  <div className="w-8 h-8 rounded-full bg-[#25D366] text-white flex items-center justify-center shrink-0 shadow-2xs">
+                    <MessageCircle size={16} />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-emerald-950 dark:text-emerald-200">
+                      Need custom sleeve length or bust ease?
+                    </p>
+                    <p className="text-[11px] text-emerald-800 dark:text-emerald-400">
+                      Chat with our Sanganer master tailor on WhatsApp
+                    </p>
+                  </div>
+                </div>
+                <span className="font-semibold text-emerald-800 group-hover:translate-x-1 transition-transform">
+                  Chat →
+                </span>
+              </a>
+            </div>
+
+            {/* Delivery Pincode Checker */}
+            <form onSubmit={handlePincodeCheck} className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 space-y-2">
+              <span className="text-xs font-semibold text-ink-900 dark:text-white flex items-center gap-1.5">
+                <Truck size={14} className="text-[#0B2D7F] dark:text-amber-400" />
+                <span>Estimate Delivery to Your Pincode</span>
+              </span>
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  maxLength={6}
+                  placeholder="Enter 6-digit PIN"
+                  value={pincode}
+                  onChange={(e) => setPincode(e.target.value)}
+                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800 text-ink-900 dark:text-white focus:outline-none"
+                />
+                <button
+                  type="submit"
+                  className="px-4 py-2 rounded-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-950 text-xs font-medium hover:opacity-90 transition-opacity"
+                >
+                  Check
+                </button>
+              </div>
+              {pincodeStatus && (
+                <p className="text-[11px] text-[#0B2D7F] dark:text-amber-400 pt-1">
+                  {pincodeStatus}
+                </p>
+              )}
+            </form>
+
+            {/* Accordions */}
+            <div className="border-t border-ink-100 dark:border-white/10 divide-y divide-ink-100 dark:divide-white/5 text-xs font-sans">
+              {/* Accordion 1 */}
+              <div>
+                <button
+                  type="button"
+                  onClick={() => toggleAccordion('fabric')}
+                  className="w-full py-4 flex items-center justify-between text-left font-serif text-sm font-medium text-ink-950 dark:text-white"
+                >
+                  <span>Fabric & Craftsmanship</span>
+                  <ChevronDown
+                    size={16}
+                    className={`transition-transform duration-300 ${
+                      openAccordions.fabric ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+                {openAccordions.fabric && (
+                  <div className="pb-4 text-ink-600 dark:text-neutral-400 space-y-2 leading-relaxed">
+                    <p>
+                      Crafted from 100% fine cotton (60-60 cambric count) hand-block printed using wooden blocks in Sanganer, Jaipur.
+                    </p>
+                    <p>
+                      Lightweight, highly breathable, and skin-friendly for all Indian seasons. Natural vegetable dyes with colorfast lock.
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* Accordion 2 */}
+              <div>
+                <button
+                  type="button"
+                  onClick={() => toggleAccordion('fit')}
+                  className="w-full py-4 flex items-center justify-between text-left font-serif text-sm font-medium text-ink-950 dark:text-white"
+                >
+                  <span>Fit & Sizing</span>
+                  <ChevronDown
+                    size={16}
+                    className={`transition-transform duration-300 ${
+                      openAccordions.fit ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+                {openAccordions.fit && (
+                  <div className="pb-4 text-ink-600 dark:text-neutral-400 space-y-2 leading-relaxed">
+                    <p>
+                      Cut true to Indian standard sizing with 2.5 inches of comfort ease. Graded individually from XS to 8XL for proportional bust, armhole, and waist fit.
+                    </p>
+                    <p>Model is 5'7" wearing size S.</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Accordion 3 */}
+              <div>
+                <button
+                  type="button"
+                  onClick={() => toggleAccordion('care')}
+                  className="w-full py-4 flex items-center justify-between text-left font-serif text-sm font-medium text-ink-950 dark:text-white"
+                >
+                  <span>Care Instructions</span>
+                  <ChevronDown
+                    size={16}
+                    className={`transition-transform duration-300 ${
+                      openAccordions.care ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+                {openAccordions.care && (
+                  <div className="pb-4 text-ink-600 dark:text-neutral-400 space-y-2 leading-relaxed">
+                    <p>
+                      First wash dry-clean recommended. Subsequent washes: Gentle cold hand wash separately with mild liquid detergent.
+                    </p>
+                    <p>Dry in shade inside out. Warm iron on reverse side.</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Accordion 4 */}
+              <div>
+                <button
+                  type="button"
+                  onClick={() => toggleAccordion('wholesale')}
+                  className="w-full py-4 flex items-center justify-between text-left font-serif text-sm font-medium text-ink-950 dark:text-white"
+                >
+                  <span>Wholesale & Boutique Supply</span>
+                  <ChevronDown
+                    size={16}
+                    className={`transition-transform duration-300 ${
+                      openAccordions.wholesale ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+                {openAccordions.wholesale && (
+                  <div className="pb-4 text-ink-600 dark:text-neutral-400 space-y-2 leading-relaxed">
+                    <p>
+                      We supply retail boutiques and overseas labels. MOQ is 20 pieces across mixed sizes and styles. Custom labels and worldwide air freight available.
+                    </p>
+                    <Link
+                      href="/wholesale"
+                      className="text-[#0B2D7F] dark:text-amber-400 font-semibold underline underline-offset-4"
+                    >
+                      View wholesale catalog & terms →
+                    </Link>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* ============================================================== */}
-      {/* RELATED PRODUCTS RECOMMENDATION                                */}
-      {/* ============================================================== */}
-      <section className="w-full py-12 md:py-16 px-4 md:px-8 bg-[#FAF9F6]">
-        <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-10">
-          <div className="flex flex-col items-center text-center">
-            <span className="font-serif italic text-base md:text-lg text-[#D4AF37] tracking-wider mb-1">
-              Complementary Silhouettes
-            </span>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-normal tracking-[0.12em] uppercase text-[#0B2D7F]">
-              Curated Pairings
-            </h2>
-            <div className="w-12 h-[1px] bg-[#D4AF37]/60 mt-3" />
+        {/* ======================================================== */}
+        {/* WEAR IT THREE WAYS STYLING ADVICE SECTION               */}
+        {/* ======================================================== */}
+        <div className="mt-20 pt-12 border-t border-ink-100 dark:border-white/10">
+          <div className="max-w-xl mb-8">
+            <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
+              VERSATILE ATELIER STYLING
+            </p>
+            <h3 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal mt-1">
+              Wear it three ways
+            </h3>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
-            {relatedProducts.map(rel => (
-              <ProductCard key={rel.id} product={rel} />
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-ink-700 dark:text-neutral-300">
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+              <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">01</span>
+              <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
+                Minimalist Everyday
+              </h4>
+              <p className="text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
+                Style as a single piece with flat leather juttis and bare ears for summer workdays, casual café catchups, and studio hours.
+              </p>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+              <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">02</span>
+              <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
+                Festive Occasion
+              </h4>
+              <p className="text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
+                Add an organza zari dupatta, oxidised silver jhumkas, and a potli bag for temple visits, family sangeets, and festival dinners.
+              </p>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+              <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">03</span>
+              <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
+                Contemporary Fusion
+              </h4>
+              <p className="text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
+                Pair the tunic with straight-leg denim or linen trousers, rolling up the sleeves for modern fusion airport travel.
+              </p>
+            </div>
           </div>
         </div>
-      </section>
 
-      {/* B2B Enquiry Modal */}
-      <B2BEnquiryModal
-        isOpen={isEnquiryModalOpen}
-        onClose={() => setIsEnquiryModalOpen(false)}
-        product={product}
-        selectedSize={selectedSize}
-      />
+        {/* ======================================================== */}
+        {/* CROSS-SELLS: "MORE TO DISCOVER"                          */}
+        {/* ======================================================== */}
+        {relatedProducts.length > 0 && (
+          <div className="mt-20 pt-12 border-t border-ink-100 dark:border-white/10">
+            <div className="flex items-end justify-between mb-8 pb-3 border-b border-ink-100 dark:border-white/5">
+              <div>
+                <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
+                  COMPLETE YOUR WARDROBE
+                </p>
+                <h3 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal mt-1">
+                  More to discover
+                </h3>
+              </div>
+              <Link
+                href={`/collections/${product.category || 'shop-all'}`}
+                className="text-xs font-semibold text-[#0B2D7F] dark:text-amber-400 hover:opacity-80"
+              >
+                View collection →
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
+              {relatedProducts.map((rel) => (
+                <ProductCard key={rel.id} product={rel} />
+              ))}
+            </div>
+          </div>
+        )}
+      </main>
 
       <Footer />
+      <CartDrawer />
+      <SizeGuideModal />
+      <FloatingWhatsApp />
+      <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </div>
   );
 }

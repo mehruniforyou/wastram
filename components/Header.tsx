@@ -7,58 +7,59 @@ import {
   Menu,
   X,
   Search,
+  Heart,
+  ShoppingBag,
+  MessageCircle,
   Sun,
   Moon,
-  Heart,
-  MessageCircle,
+  ChevronDown,
+  ArrowRight,
+  Sparkles,
 } from 'lucide-react';
-import { useTheme } from '@/context/ThemeContext';
 import { useCart } from '@/context/CartContext';
+import { useTheme } from '@/context/ThemeContext';
 
 interface HeaderProps {
-  onOpenDrawer?: () => void;
   onOpenSearch?: () => void;
+  onOpenDrawer?: () => void;
   onOpenStory?: () => void;
 }
 
 export default function Header({ onOpenSearch }: HeaderProps) {
-  const pathname = usePathname();
-  const { theme, toggleTheme } = useTheme();
-  const { wishlist, openDrawer, openSearch: globalOpenSearch } = useCart();
-  const wishlistCount = wishlist.length;
-
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
+  const [mobileShopExpanded, setMobileShopExpanded] = useState(false);
+  const pathname = usePathname();
 
-  // Close mobile menu on page navigation
-  useEffect(() => {
-    setIsMobileMenuOpen(false);
-  }, [pathname]);
+  const { cartCount, openCart, wishlist } = useCart();
+  const { theme, toggleTheme } = useTheme();
 
-  // Handle sticky border on scroll
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 8);
+      setIsScrolled(window.scrollY > 15);
     };
-    handleScroll();
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleOpenSearch = onOpenSearch || globalOpenSearch;
+  // Close mega menu on page change
+  useEffect(() => {
+    setIsMegaMenuOpen(false);
+    setIsMobileMenuOpen(false);
+  }, [pathname]);
 
-  const navLinks = [
-    { label: 'Products', href: '/products' },
-    { label: 'Categories', href: '/categories' },
-    { label: 'Edits', href: '/brands' },
-    { label: 'Offers', href: '/offers' },
-    { label: 'Gallery', href: '/gallery' },
-    { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' },
-  ];
+  const handleOpenSearch = () => {
+    if (onOpenSearch) {
+      onOpenSearch();
+    } else {
+      window.dispatchEvent(new CustomEvent('open-search-modal'));
+    }
+  };
 
   const handleWhatsAppConcierge = () => {
-    const message = 'Hello Wastram Jaipur Atelier, I would like to enquire about your wholesale catalog and boutique sourcing.';
+    const message =
+      'Hello Wastram Jaipur Atelier, I would like to enquire about your handcrafted collections, custom sizing, and wholesale boutique orders.';
     window.open(
       `https://wa.me/918003088838?text=${encodeURIComponent(message)}`,
       '_blank',
@@ -66,23 +67,69 @@ export default function Header({ onOpenSearch }: HeaderProps) {
     );
   };
 
+  const shopByFilters = [
+    { label: 'All clothing collections', href: '/products' },
+    { label: 'Co-ord Sets', href: '/collections/cord-sets' },
+    { label: 'Ethnic Wear Sets', href: '/collections/ethnic-wear-sets' },
+    { label: 'Traditional Gowns', href: '/collections/traditional-gowns' },
+    { label: 'Western Dresses', href: '/collections/western-dresses' },
+    { label: 'Kaftans (Short & Long)', href: '/collections/short-long-kaftan' },
+    { label: 'Tops & Shirts', href: '/collections/tops-shirts' },
+    { label: 'Umbrella Dresses', href: '/collections/umbrella-dresses' },
+    { label: 'Denim Collection', href: '/collections/denim-collection' },
+    { label: 'Under ₹1,000', href: '/offers' },
+    { label: 'Sizes XS to 8XL', href: '/products' },
+    { label: 'Wholesale & Trade', href: '/wholesale' },
+  ];
+
+  const chapters = [
+    {
+      num: 'Chapter 01',
+      title: 'The Co-ord Edit',
+      desc: 'Matching sets in pure cotton & mulmul',
+      href: '/collections/cord-sets',
+      image: '/cord-sets/12550.jpg.jpeg',
+    },
+    {
+      num: 'Chapter 02',
+      title: 'Kurta Sets & Suits',
+      desc: 'Sanganer prints with organza dupattas',
+      href: '/collections/ethnic-wear-sets',
+      image: '/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg',
+    },
+    {
+      num: 'Chapter 03',
+      title: 'Dresses & Gowns',
+      desc: 'Tiered maxis & royal flared anarkalis',
+      href: '/collections/western-dresses',
+      image: '/western-dresses/10045.jpg.jpeg',
+    },
+    {
+      num: 'Chapter 04',
+      title: 'Kaftans & Tops',
+      desc: 'Everyday breezy cotton & resort wear',
+      href: '/collections/short-long-kaftan',
+      image: '/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg',
+    },
+  ];
+
   return (
     <>
       <header
-        className={`fixed top-0 inset-x-0 z-50 glass-header border-b transition-colors duration-200 ${
-          isScrolled ? 'border-black/10 dark:border-white/10' : 'border-transparent'
+        className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
+          isScrolled
+            ? 'bg-[#FCFBF7]/95 dark:bg-[#12100E]/95 backdrop-blur-md shadow-sm border-b border-[#E7E5E4] dark:border-white/10'
+            : 'bg-[#FCFBF7] dark:bg-[#12100E] border-b border-[#E7E5E4]/60 dark:border-white/5'
         }`}
         data-testid="site-navbar"
       >
-        {/* 1. Top Announcement Bar in Wastram Deep Navy & Royal Gold */}
-        <div className="border-b border-[#D4AF37]/25 bg-[#071F59] text-white shadow-sm">
-          <div className="container-x py-2 text-[10px] md:text-[11px] uppercase tracking-widerest text-center font-medium font-body flex items-center justify-center gap-2">
-            <span>👑 Artisanal Jaipur Handlooms</span>
-            <span className="text-[#D4AF37]">✦</span>
-            <span>Direct Atelier Wholesale Sourcing</span>
-            <span className="text-[#D4AF37]">✦</span>
-            <span>Worldwide Boutique Air Cargo</span>
-          </div>
+        {/* 1. Emerald Announcement Bar (Baisa Style) */}
+        <div className="bg-[#1B4332] text-white text-[11px] md:text-xs py-2 px-4 text-center font-medium font-sans tracking-wide flex items-center justify-center gap-2">
+          <span>Free delivery on orders of ₹1,499 and above</span>
+          <span className="text-[#D4AF37]">·</span>
+          <span>Made in our Jaipur factory</span>
+          <span className="text-[#D4AF37]">·</span>
+          <span className="hidden sm:inline">Worldwide Boutique Air Cargo</span>
         </div>
 
         {/* 2. Main Navigation Bar */}
@@ -104,7 +151,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
           {/* Official Wastram Brand Logo with Artisan Crest */}
           <Link
             href="/"
-            className="flex items-center gap-2 sm:gap-2.5 group py-1"
+            className="flex items-center gap-2 sm:gap-3 group py-1"
             data-testid="nav-logo"
             aria-label="Wastram Home"
           >
@@ -120,74 +167,221 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             />
           </Link>
 
-          {/* Desktop Center Navigation Links */}
-          <nav className="hidden md:flex items-center gap-6 lg:gap-8">
-            {navLinks.map((link) => {
-              const isActive = pathname === link.href;
-              return (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className={`text-xs uppercase tracking-widerest font-medium transition-colors link-underline ${
-                    isActive
-                      ? 'text-foreground font-semibold'
-                      : 'text-foreground/75 hover:text-foreground'
+          {/* Desktop Center Navigation Links (Baisa IA) */}
+          <nav className="hidden md:flex items-center gap-6 lg:gap-8 font-sans">
+            {/* Shop Dropdown Trigger */}
+            <div
+              className="relative py-2"
+              onMouseEnter={() => setIsMegaMenuOpen(true)}
+              onMouseLeave={() => setIsMegaMenuOpen(false)}
+            >
+              <button
+                type="button"
+                className={`text-[13px] uppercase tracking-wider font-medium flex items-center gap-1 transition-colors ${
+                  isMegaMenuOpen || pathname.startsWith('/collections') || pathname === '/products'
+                    ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                    : 'text-foreground/80 hover:text-foreground'
+                }`}
+                onClick={() => setIsMegaMenuOpen(!isMegaMenuOpen)}
+                aria-expanded={isMegaMenuOpen}
+              >
+                <span>Shop</span>
+                <ChevronDown
+                  size={14}
+                  className={`transition-transform duration-200 ${
+                    isMegaMenuOpen ? 'rotate-180 text-[#0B2D7F] dark:text-[#D4AF37]' : ''
                   }`}
+                />
+              </button>
+
+              {/* Full-Bleed 2-Zone Mega Menu Panel */}
+              {isMegaMenuOpen && (
+                <div
+                  className="fixed left-0 top-[104px] w-screen bg-[#FCFBF7] dark:bg-[#161412] border-b border-t border-[#E7E5E4] dark:border-white/10 shadow-elevated transition-all duration-200 z-50 animate-in fade-in slide-in-from-top-1"
+                  onMouseEnter={() => setIsMegaMenuOpen(true)}
+                  onMouseLeave={() => setIsMegaMenuOpen(false)}
                 >
-                  {link.label}
-                </Link>
-              );
-            })}
+                  <div className="container-x py-8 grid grid-cols-12 gap-8 max-w-7xl mx-auto">
+                    {/* Left Zone: Shop By Pills */}
+                    <div className="col-span-4 border-r border-[#E7E5E4] dark:border-white/10 pr-6">
+                      <div className="text-[11px] uppercase tracking-widest text-foreground/50 font-semibold mb-4">
+                        Shop By Collection
+                      </div>
+                      <div className="flex flex-wrap gap-2">
+                        {shopByFilters.map((filter) => (
+                          <Link
+                            key={filter.label}
+                            href={filter.href}
+                            className="text-xs px-3.5 py-1.5 rounded-full border border-[#E7E5E4] dark:border-white/15 bg-white/70 dark:bg-black/30 hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#D4AF37] dark:hover:text-black transition-all font-medium"
+                          >
+                            {filter.label}
+                          </Link>
+                        ))}
+                      </div>
+
+                      <div className="mt-6 pt-5 border-t border-[#E7E5E4] dark:border-white/10 flex items-center justify-between text-xs">
+                        <Link
+                          href="/products"
+                          className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37] hover:underline flex items-center gap-1"
+                        >
+                          <span>Browse all 1,400+ styles</span>
+                          <ArrowRight size={13} />
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Right Zone: 4 Editorial Chapters */}
+                    <div className="col-span-8 pl-2">
+                      <div className="flex items-center justify-between mb-4">
+                        <span className="text-[11px] uppercase tracking-widest text-foreground/50 font-semibold">
+                          The Chapters
+                        </span>
+                        <Link
+                          href="/categories"
+                          className="text-xs text-[#0B2D7F] dark:text-[#D4AF37] font-semibold hover:underline flex items-center gap-1"
+                        >
+                          <span>View All 8 Chapters</span>
+                          <ArrowRight size={12} />
+                        </Link>
+                      </div>
+
+                      <div className="grid grid-cols-4 gap-4">
+                        {chapters.map((chap) => (
+                          <Link
+                            key={chap.num}
+                            href={chap.href}
+                            className="group block"
+                          >
+                            <div className="relative aspect-[3/4] overflow-hidden rounded-xl border border-[#E7E5E4] dark:border-white/10 bg-[#FAF7F0] shadow-sm">
+                              <img
+                                src={chap.image}
+                                alt={chap.title}
+                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                              />
+                              <div className="absolute top-2 left-2 bg-white/90 dark:bg-black/80 backdrop-blur-xs px-2 py-0.5 rounded text-[10px] font-semibold tracking-wider text-[#0B2D7F] dark:text-[#D4AF37]">
+                                {chap.num}
+                              </div>
+                            </div>
+                            <h4 className="mt-2 text-xs font-semibold text-foreground group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors line-clamp-1 font-serif">
+                              {chap.title}
+                            </h4>
+                            <p className="text-[11px] text-foreground/60 line-clamp-1">
+                              {chap.desc}
+                            </p>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <Link
+              href="/rentals"
+              className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
+                pathname === '/rentals'
+                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  : 'text-foreground/80 hover:text-foreground'
+              }`}
+            >
+              Rent an outfit
+            </Link>
+
+            <Link
+              href="/custom-design"
+              className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
+                pathname === '/custom-design'
+                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  : 'text-foreground/80 hover:text-foreground'
+              }`}
+            >
+              Custom design
+            </Link>
+
+            <Link
+              href="/lookbook"
+              className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
+                pathname === '/lookbook'
+                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  : 'text-foreground/80 hover:text-foreground'
+              }`}
+            >
+              Lookbook
+            </Link>
+
+            <Link
+              href="/about"
+              className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
+                pathname === '/about'
+                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  : 'text-foreground/80 hover:text-foreground'
+              }`}
+            >
+              Our Story
+            </Link>
+
+            <Link
+              href="/wholesale"
+              className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
+                pathname === '/wholesale'
+                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  : 'text-foreground/80 hover:text-foreground'
+              }`}
+            >
+              Wholesale
+            </Link>
           </nav>
 
-          {/* Right Action Icons: Search, Theme, Wishlist, Admin Portal, WhatsApp */}
-          <div className="flex items-center gap-1 sm:gap-2">
+          {/* Right Action Icons: Search, WhatsApp Pill, Cart/Bag */}
+          <div className="flex items-center gap-1.5 sm:gap-2.5">
             {/* Live Search Trigger */}
             <button
               onClick={handleOpenSearch}
               className="p-2 text-foreground/80 hover:text-foreground transition-colors cursor-pointer"
-              aria-label="Search Collection"
+              aria-label="Search the shop"
               data-testid="search-toggle"
             >
-              <Search size={18} strokeWidth={1.4} />
+              <Search size={19} strokeWidth={1.5} />
             </button>
 
             {/* Light / Dark Mode Toggle */}
             <button
               onClick={toggleTheme}
-              className="p-2 text-foreground/80 hover:text-foreground transition-colors cursor-pointer"
+              className="p-2 text-foreground/75 hover:text-foreground transition-colors cursor-pointer"
               aria-label="Toggle Theme"
               data-testid="theme-toggle"
             >
               {theme === 'dark' ? (
-                <Sun size={18} strokeWidth={1.4} />
+                <Sun size={18} strokeWidth={1.5} />
               ) : (
-                <Moon size={18} strokeWidth={1.4} />
+                <Moon size={18} strokeWidth={1.5} />
               )}
             </button>
 
-            {/* Wishlist Drawer Trigger */}
-            <button
-              onClick={openDrawer}
-              className="p-2 text-foreground/80 hover:text-foreground transition-colors relative cursor-pointer"
-              aria-label="View Saved Items"
-              data-testid="wishlist-toggle"
-            >
-              <Heart size={18} strokeWidth={1.4} />
-              {wishlistCount > 0 && (
-                <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-foreground text-background text-[9px] font-bold flex items-center justify-center">
-                  {wishlistCount}
-                </span>
-              )}
-            </button>
-
-            {/* WhatsApp Concierge Button (Desktop) */}
+            {/* The Baisa Style WhatsApp Pill CTA */}
             <button
               onClick={handleWhatsAppConcierge}
-              className="hidden sm:inline-flex items-center gap-1.5 ml-2 px-3.5 py-1.5 rounded-full border border-foreground/20 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] text-foreground text-[11px] uppercase tracking-widerest transition-colors cursor-pointer font-medium"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-[#25D366] text-[#128C7E] bg-[#25D366]/8 hover:bg-[#25D366]/15 transition-all cursor-pointer text-xs font-medium"
+              aria-label="Chat on WhatsApp"
             >
-              <MessageCircle size={13} className="text-[#25D366] shrink-0" />
-              <span>Concierge</span>
+              <MessageCircle size={14} className="text-[#25D366] fill-[#25D366]/20" />
+              <span>WhatsApp</span>
+            </button>
+
+            {/* Cart / Bag Drawer Trigger (The Baisa Bag) */}
+            <button
+              onClick={openCart}
+              className="p-2 text-foreground/85 hover:text-foreground transition-colors relative cursor-pointer"
+              aria-label="Open Cart Bag"
+              data-testid="cart-toggle"
+            >
+              <ShoppingBag size={20} strokeWidth={1.5} />
+              {cartCount > 0 && (
+                <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-[#0B2D7F] text-white text-[9px] font-bold flex items-center justify-center shadow-xs">
+                  {cartCount}
+                </span>
+              )}
             </button>
           </div>
         </div>
@@ -195,32 +389,32 @@ export default function Header({ onOpenSearch }: HeaderProps) {
 
       {/* 3. Off-Canvas Luxury Mobile Drawer */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-40 md:hidden flex">
+        <div className="fixed inset-0 z-50 md:hidden flex">
           {/* Backdrop */}
           <div
             className="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
             onClick={() => setIsMobileMenuOpen(false)}
           />
 
-          {/* Drawer Content */}
-          <div className="relative w-4/5 max-w-sm bg-background border-r border-foreground/10 h-full p-6 flex flex-col justify-between overflow-y-auto z-50">
+          {/* Drawer Panel */}
+          <div className="relative w-5/6 max-w-sm bg-[#FCFBF7] dark:bg-[#161412] border-r border-[#E7E5E4] dark:border-white/10 h-full p-6 flex flex-col justify-between overflow-y-auto z-50 animate-in slide-in-from-left duration-200">
             <div>
-              {/* Drawer Top Header */}
-              <div className="flex items-center justify-between pb-6 border-b border-foreground/10">
+              {/* Drawer Top Header with Logo & Close */}
+              <div className="flex items-center justify-between pb-4 border-b border-[#E7E5E4] dark:border-white/10">
                 <Link
                   href="/"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="flex items-center gap-2.5 py-1"
+                  className="flex items-center gap-2"
                 >
                   <img
                     src="/images/brand/wastram-artisan-crest.png"
-                    alt="Wastram Artisan Hallmark"
-                    className="h-8 w-auto object-contain shrink-0"
+                    alt="Wastram"
+                    className="h-7 w-auto object-contain"
                   />
                   <img
                     src="/images/brand/wastram-header-logo-primary.png"
-                    alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-                    className="h-7 w-auto object-contain dark:brightness-125"
+                    alt="Wastram"
+                    className="h-6 w-auto object-contain"
                   />
                 </Link>
                 <button
@@ -232,45 +426,156 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 </button>
               </div>
 
-              {/* Navigation Links */}
-              <nav className="mt-6 flex flex-col space-y-4">
-                <Link
-                  href="/"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-sm uppercase tracking-widerest text-foreground font-medium py-1"
+              {/* In-Drawer Search Input */}
+              <div className="mt-4">
+                <div
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    handleOpenSearch();
+                  }}
+                  className="flex items-center gap-2.5 px-4 py-2.5 rounded-full border border-[#E7E5E4] dark:border-white/15 bg-white/80 dark:bg-black/30 text-xs text-foreground/60 cursor-pointer shadow-xs"
                 >
-                  Home
-                </Link>
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="text-sm uppercase tracking-widerest text-foreground/80 hover:text-foreground font-medium py-1"
+                  <Search size={15} />
+                  <span>Search the shop...</span>
+                </div>
+              </div>
+
+              {/* Navigation Links with Accordion for Shop */}
+              <nav className="mt-5 flex flex-col divide-y divide-[#E7E5E4]/60 dark:divide-white/10 font-sans">
+                {/* Shop Accordion */}
+                <div>
+                  <button
+                    onClick={() => setMobileShopExpanded(!mobileShopExpanded)}
+                    className="w-full flex items-center justify-between py-3 text-sm font-semibold text-foreground font-serif"
                   >
-                    {link.label}
-                  </Link>
-                ))}
+                    <span>Shop</span>
+                    <ChevronDown
+                      size={16}
+                      className={`transition-transform ${
+                        mobileShopExpanded ? 'rotate-180 text-[#0B2D7F]' : ''
+                      }`}
+                    />
+                  </button>
+
+                  {mobileShopExpanded && (
+                    <div className="pb-3 pl-3 space-y-2">
+                      <Link
+                        href="/products"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="block text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37] py-1"
+                      >
+                        All Clothing Collections →
+                      </Link>
+                      {shopByFilters.slice(1, 9).map((f) => (
+                        <Link
+                          key={f.label}
+                          href={f.href}
+                          onClick={() => setIsMobileMenuOpen(false)}
+                          className="block text-xs text-foreground/75 hover:text-foreground py-0.5"
+                        >
+                          {f.label}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <Link
+                  href="/rentals"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between py-3 text-sm font-semibold text-foreground font-serif"
+                >
+                  <span>Rent an outfit</span>
+                  <ArrowRight size={14} className="text-foreground/40" />
+                </Link>
+
+                <Link
+                  href="/custom-design"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between py-3 text-sm font-semibold text-foreground font-serif"
+                >
+                  <span>Custom design</span>
+                  <ArrowRight size={14} className="text-foreground/40" />
+                </Link>
+
+                <Link
+                  href="/lookbook"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between py-3 text-sm font-semibold text-foreground font-serif"
+                >
+                  <span>Lookbook</span>
+                  <ArrowRight size={14} className="text-foreground/40" />
+                </Link>
+
+                <Link
+                  href="/about"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between py-3 text-sm font-semibold text-foreground font-serif"
+                >
+                  <span>Our Story</span>
+                  <ArrowRight size={14} className="text-foreground/40" />
+                </Link>
+
+                <Link
+                  href="/wholesale"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between py-3 text-sm font-semibold text-foreground font-serif"
+                >
+                  <span>Wholesale &amp; Trade</span>
+                  <ArrowRight size={14} className="text-foreground/40" />
+                </Link>
               </nav>
+
+              {/* Quick Category Chips */}
+              <div className="mt-5">
+                <div className="text-[11px] uppercase tracking-wider text-foreground/50 font-semibold mb-2">
+                  Shop By
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  <Link
+                    href="/collections/cord-sets"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-[11px] px-3 py-1 rounded-full border border-[#E7E5E4] dark:border-white/10 bg-white/60 dark:bg-black/20"
+                  >
+                    Co-ords
+                  </Link>
+                  <Link
+                    href="/collections/ethnic-wear-sets"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-[11px] px-3 py-1 rounded-full border border-[#E7E5E4] dark:border-white/10 bg-white/60 dark:bg-black/20"
+                  >
+                    Kurta Sets
+                  </Link>
+                  <Link
+                    href="/collections/western-dresses"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-[11px] px-3 py-1 rounded-full border border-[#E7E5E4] dark:border-white/10 bg-white/60 dark:bg-black/20"
+                  >
+                    Dresses
+                  </Link>
+                  <Link
+                    href="/offers"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-[11px] px-3 py-1 rounded-full border border-[#E7E5E4] dark:border-white/10 bg-white/60 dark:bg-black/20 text-[#0B2D7F] dark:text-[#D4AF37] font-medium"
+                  >
+                    Under ₹1,000
+                  </Link>
+                </div>
+              </div>
             </div>
 
-            {/* Drawer Bottom Info */}
-            <div className="pt-6 border-t border-foreground/10 text-xs text-foreground/70 font-body space-y-3">
+            {/* Mobile Drawer Bottom WhatsApp CTA */}
+            <div className="pt-5 border-t border-[#E7E5E4] dark:border-white/10 space-y-3">
               <button
                 onClick={handleWhatsAppConcierge}
-                className="w-full btn-primary text-center flex items-center justify-center gap-2"
+                className="w-full py-2.5 px-4 rounded-full bg-[#1B4332] text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-sm"
               >
                 <MessageCircle size={15} />
-                <span>WhatsApp Atelier Concierge</span>
+                <span>Chat on WhatsApp Concierge</span>
               </button>
-
-              <div className="text-[11px] text-foreground/60 leading-relaxed pt-2">
-                Jaipur Atelier, Rajasthan 302029
-                <br />
-                Mon - Sat: 10:00 AM – 8:00 PM IST
-                <br />
-                WhatsApp: +91 80030 88838
-              </div>
+              <p className="text-[11px] text-center text-foreground/50">
+                Sanganer Factory Workshop, Jaipur · Mon-Sat 9am-8pm
+              </p>
             </div>
           </div>
         </div>

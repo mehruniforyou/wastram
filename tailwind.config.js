@@ -83,9 +83,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['Jost', 'var(--font-sans)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
-        serif: ['Jost', 'var(--font-serif)', 'serif'],
-        display: ['Jost', 'var(--font-display)', 'sans-serif'],
+        sans: ['Jost', 'Manrope', 'var(--font-sans)', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+        display: ['"Playfair Display"', 'Georgia', 'serif'],
         body: ['Jost', 'sans-serif'],
         jost: ['Jost', 'sans-serif'],
         archivo: ['Jost', 'sans-serif'],

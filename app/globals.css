@@ -46,11 +46,41 @@
   --color-brand-charcoal: #171717;
   --color-brand-graphite: #404040;
   --color-brand-outline: #DEE2E6;
-  --font-serif: 'Jost', sans-serif;
-  --font-display: 'Jost', sans-serif;
-  --font-sans: 'Jost', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Jost', 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-archivo: 'Jost', sans-serif;
   --font-jost: 'Jost', sans-serif;
+}
+
+/* Rajasthani & Mughal Arch Mask Utility */
+.rajasthani-arch {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.rajasthani-arch-subtle {
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+}
+
+/* Tailor Stitched Ribbon Effect */
+.stitched-ribbon {
+  border: 1.5px dashed #25D366;
+  background-color: rgba(37, 211, 102, 0.08);
+}
+
+.stitched-gold {
+  border: 1.5px dashed #D4AF37;
+  background-color: rgba(212, 175, 55, 0.08);
+}
+
+/* Watermark Paisley Motif Pattern */
+.bg-motif-ivory {
+  background-color: #FCFBF7;
+  background-image: radial-gradient(#0B2D7F 0.5px, transparent 0.5px), radial-gradient(#D4AF37 0.5px, #FCFBF7 0.5px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
 }
 
 .dark {

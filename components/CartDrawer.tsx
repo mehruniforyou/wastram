@@ -1,288 +1,201 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
+import { X, Plus, Minus, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
-import WastramLogo from './WastramLogo';
-import SocialIcons from './SocialIcons';
 
 export default function CartDrawer() {
   const {
-    isB2BQuoteOpen,
-    closeB2BQuote,
+    cart,
     isCartOpen,
     closeCart,
-    wishlist,
+    removeFromCart,
+    updateQuantity,
+    cartCount,
+    cartSubtotal,
   } = useCart();
 
-  const [formData, setFormData] = useState({
-    name: '',
-    company: '',
-    email: '',
-    phone: '',
-    country: 'United Kingdom',
-    volume: '20-50 pcs',
-    category: 'Western Dresses & Co-ords',
-    message: '',
-  });
+  if (!isCartOpen) return null;
 
-  const [submitted, setSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const isOpen = isB2BQuoteOpen || isCartOpen;
-  const handleClose = () => {
-    if (closeB2BQuote) closeB2BQuote();
-    if (closeCart) closeCart();
-  };
-
-  if (!isOpen) return null;
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitted(true);
-    }, 600);
-  };
-
-  const whatsappMessage = encodeURIComponent(
-    `Hello Wastram Atelier Concierge,\n\nI would like to inquire regarding boutique collections and line sheets.\nBoutique / Brand: ${formData.company || 'Private Client'}\nCountry: ${formData.country}\nExpected Quantity: ${formData.volume}\nCategory: ${formData.category}\nSelected Styles: ${wishlist.length} designs\n\nPlease share the lookbook and trade pricing.`
-  );
+  const FREE_SHIPPING_THRESHOLD = 1499;
+  const progressPercent = Math.min(100, Math.round((cartSubtotal / FREE_SHIPPING_THRESHOLD) * 100));
+  const amountNeeded = Math.max(0, FREE_SHIPPING_THRESHOLD - cartSubtotal);
 
   return (
-    <div className="fixed inset-0 z-[70] flex justify-end">
+    <div className="fixed inset-0 z-[100] flex justify-end">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
-        onClick={handleClose}
+        className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity duration-300"
+        onClick={closeCart}
       />
 
-      {/* Drawer */}
-      <div className="relative w-full max-w-md h-full bg-[#FAF9F6] shadow-2xl z-10 flex flex-col font-sans animate-slide-left overflow-y-auto no-scrollbar">
+      {/* Slide-out Drawer Panel */}
+      <div className="relative w-full max-w-md h-full bg-[#FCFBF7] dark:bg-[#12100E] shadow-2xl z-10 flex flex-col font-sans animate-slide-left border-l border-ink-200/60 dark:border-white/10">
         {/* Drawer Header */}
-        <div className="p-4 border-b border-[#0B2D7F]/10 flex items-center justify-between bg-white sticky top-0 z-20">
+        <div className="px-6 py-5 border-b border-ink-100 dark:border-white/10 flex items-center justify-between bg-white dark:bg-neutral-900 sticky top-0 z-20">
           <div className="flex items-center gap-2">
-            <WastramLogo className="h-6 w-auto" />
-            <div className="h-4 w-[1px] bg-[#0B2D7F]/20" />
-            <span className="text-xs font-serif uppercase tracking-[0.15em] text-[#0B2D7F] font-semibold">
-              Atelier &amp; Trade Concierge
-            </span>
-          </div>
-
-          <button
-            onClick={handleClose}
-            className="p-1.5 rounded-full hover:bg-black/5 text-[#0B2D7F] cursor-pointer"
-            aria-label="Close"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-
-        {/* Highlight Banner */}
-        <div className="px-4 py-3 bg-[#0B2D7F] text-white flex items-center justify-between text-xs">
-          <div>
-            <span className="font-semibold block text-[13px] tracking-wide">Jaipur Haute Textiles &amp; Bespoke Production</span>
-            <span className="text-[11px] text-white/80">Batch MOQ 20 pcs &bull; Worldwide Doorstep Delivery</span>
-          </div>
-          <span className="px-2 py-0.5 rounded-full bg-[#F58220] text-white text-[10px] font-bold uppercase">
-            Couture Standard
-          </span>
-        </div>
-
-        <div className="p-4 flex flex-col gap-4">
-          {/* Quick WhatsApp Concierge Button */}
-          <div className="p-3.5 rounded-2xl bg-white shadow-soft flex flex-col gap-2">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B2D7F]">
-              Direct Atelier Concierge
-            </span>
-            <p className="text-xs text-[#0B2D7F]/75 leading-relaxed">
-              Connect directly with our Jaipur atelier concierge for line sheets, custom craft specifications, and private label curation.
-            </p>
-            <a
-              href={`https://wa.me/918003088838?text=${whatsappMessage}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-1 w-full py-2.5 rounded-full bg-[#25D366] text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 hover:opacity-95 shadow-soft transition-all"
-            >
-              <svg className="w-4 h-4 fill-currentColor" viewBox="0 0 24 24">
-                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-              </svg>
-              <span>WhatsApp Concierge (+91 80030 88838)</span>
-            </a>
-          </div>
-
-          {/* Saved Bookmarks Notice */}
-          {wishlist.length > 0 && (
-            <div className="p-3 rounded-xl bg-white shadow-soft flex items-center justify-between text-xs">
-              <div className="flex items-center gap-2 text-[#0B2D7F]">
-                <span className="w-2 h-2 rounded-full bg-[#F58220]" />
-                <span className="font-semibold">{wishlist.length} Saved Boutique Styles</span>
-              </div>
-              <Link
-                href="/pages/swym-wishlist"
-                onClick={handleClose}
-                className="text-[#0B2D7F] font-semibold underline hover:text-[#4A7BC6]"
-              >
-                View Saved &rarr;
-              </Link>
-            </div>
-          )}
-
-          {/* Wholesale Enquiry Form */}
-          <div className="p-4 rounded-2xl bg-white shadow-soft flex flex-col gap-3">
-            <div className="flex items-center justify-between border-b border-[#0B2D7F]/10 pb-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-[#0B2D7F]">
-                Request Atelier Lookbook &amp; Line Sheet
+            <h2 className="font-serif text-2xl text-ink-950 dark:text-white font-normal">
+              Your bag
+            </h2>
+            {cartCount > 0 && (
+              <span className="text-xs px-2 py-0.5 rounded-full bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 font-medium">
+                {cartCount} {cartCount === 1 ? 'item' : 'items'}
               </span>
-            </div>
-
-            {submitted ? (
-              <div className="py-6 text-center flex flex-col items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-lg font-bold">
-                  ✓
-                </div>
-                <h4 className="font-serif text-base font-semibold text-[#0B2D7F]">
-                  Inquiry Transmitted
-                </h4>
-                <p className="text-xs text-[#0B2D7F]/70">
-                  Our atelier concierge will transmit lookbooks and trade pricing sheets to your contact within 2-4 hours.
-                </p>
-                <button
-                  type="button"
-                  onClick={() => setSubmitted(false)}
-                  className="mt-2 text-xs font-semibold text-[#0B2D7F] underline"
-                >
-                  Submit Another Inquiry
-                </button>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-2.5 text-xs">
-                <div>
-                  <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0B2D7F]/70 mb-1">
-                    Your Name *
-                  </label>
-                  <input
-                    type="text"
-                    required
-                    value={formData.name}
-                    onChange={e => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="e.g. Sarah Jenkins"
-                    className="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#0B2D7F]/15 focus:outline-none focus:border-[#0B2D7F] text-xs"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0B2D7F]/70 mb-1">
-                    Boutique / Brand Name *
-                  </label>
-                  <input
-                    type="text"
-                    required
-                    value={formData.company}
-                    onChange={e => setFormData({ ...formData, company: e.target.value })}
-                    placeholder="e.g. Silk &amp; Stone Boutique"
-                    className="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#0B2D7F]/15 focus:outline-none focus:border-[#0B2D7F] text-xs"
-                  />
-                </div>
-
-                <div className="grid grid-cols-2 gap-2">
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0B2D7F]/70 mb-1">
-                      Business Email *
-                    </label>
-                    <input
-                      type="email"
-                      required
-                      value={formData.email}
-                      onChange={e => setFormData({ ...formData, email: e.target.value })}
-                      placeholder="buyer@domain.com"
-                      className="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#0B2D7F]/15 focus:outline-none focus:border-[#0B2D7F] text-xs"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0B2D7F]/70 mb-1">
-                      WhatsApp / Phone
-                    </label>
-                    <input
-                      type="tel"
-                      value={formData.phone}
-                      onChange={e => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+44 7123 456789"
-                      className="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#0B2D7F]/15 focus:outline-none focus:border-[#0B2D7F] text-xs"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-2 gap-2">
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0B2D7F]/70 mb-1">
-                      Destination Country
-                    </label>
-                    <input
-                      type="text"
-                      value={formData.country}
-                      onChange={e => setFormData({ ...formData, country: e.target.value })}
-                      placeholder="United Kingdom, USA, etc."
-                      className="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#0B2D7F]/15 focus:outline-none focus:border-[#0B2D7F] text-xs"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0B2D7F]/70 mb-1">
-                      Target Quantity
-                    </label>
-                    <select
-                      value={formData.volume}
-                      onChange={e => setFormData({ ...formData, volume: e.target.value })}
-                      className="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#0B2D7F]/15 focus:outline-none focus:border-[#0B2D7F] text-xs"
-                    >
-                      <option value="20-50 pcs">20 - 50 pcs (Sample Curation)</option>
-                      <option value="50-200 pcs">50 - 200 pcs (Boutique Order)</option>
-                      <option value="200-500 pcs">200 - 500 pcs (Retail Collection)</option>
-                      <option value="500+ pcs">500+ pcs (Bespoke Production)</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0B2D7F]/70 mb-1">
-                    Requirements / Notes
-                  </label>
-                  <textarea
-                    rows={2}
-                    value={formData.message}
-                    onChange={e => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Specific styles, custom labels, barcode tags, or delivery deadlines..."
-                    className="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#0B2D7F]/15 focus:outline-none focus:border-[#0B2D7F] text-xs"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full mt-1 py-3 rounded-full bg-[#0B2D7F] text-white font-medium text-xs uppercase tracking-[0.12em] shadow-soft hover:bg-[#071F59] transition-all cursor-pointer"
-                >
-                  {isSubmitting ? 'Transmitting Request...' : 'Submit Boutique Inquiry'}
-                </button>
-              </form>
             )}
           </div>
 
-          {/* Social Channels in Drawer */}
-          <div className="p-3.5 rounded-2xl bg-white shadow-soft flex items-center justify-between">
-            <div>
-              <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B2D7F] block">
-                Official Channels
+          <button
+            type="button"
+            onClick={closeCart}
+            className="w-9 h-9 rounded-full flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-neutral-800 text-ink-700 dark:text-neutral-300 transition-colors"
+            aria-label="Close bag"
+          >
+            <X size={18} />
+          </button>
+        </div>
+
+        {/* Free Shipping Progress Ribbon */}
+        <div className="px-6 py-3 bg-[#FAF7F0] dark:bg-neutral-900/60 border-b border-ink-100 dark:border-white/5">
+          <p className="text-xs text-ink-800 dark:text-neutral-200 font-medium">
+            {amountNeeded > 0 ? (
+              <>
+                Add <span className="font-bold text-[#0B2D7F] dark:text-amber-400">₹{amountNeeded.toLocaleString('en-IN')}</span> more to qualify for <span className="font-semibold">Free Delivery</span>!
+              </>
+            ) : (
+              <span className="text-emerald-700 dark:text-emerald-400 font-semibold">
+                🎉 Congratulations! You have unlocked Free Delivery!
               </span>
-              <span className="text-[10px] text-[#0B2D7F]/60">Follow collections &amp; runway previews</span>
-            </div>
-            <SocialIcons iconSize={14} itemClassName="w-7 h-7 rounded-full bg-[#FAF9F6] shadow-soft flex items-center justify-center text-[#0B2D7F] hover:shadow-card transition-all" />
+            )}
+          </p>
+          <div className="mt-2 w-full h-1.5 bg-ink-200/50 dark:bg-white/10 rounded-full overflow-hidden">
+            <div
+              className="h-full bg-[#0B2D7F] dark:bg-amber-400 rounded-full transition-all duration-300"
+              style={{ width: `${progressPercent}%` }}
+            />
           </div>
         </div>
+
+        {/* Cart Items or Empty State */}
+        <div className="flex-1 overflow-y-auto p-6 space-y-4">
+          {cart.length === 0 ? (
+            <div className="h-full flex flex-col items-center justify-center text-center py-12">
+              <div className="w-16 h-16 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 mb-4">
+                <ShoppingBag size={28} />
+              </div>
+              <h3 className="font-serif text-xl text-ink-950 dark:text-white font-normal">
+                Your bag is empty
+              </h3>
+              <p className="mt-2 text-xs sm:text-sm text-ink-600 dark:text-neutral-400 max-w-xs font-sans leading-relaxed">
+                Every piece is hand-checked and shipped from our Sanganer workshop in Jaipur.
+              </p>
+              <Link
+                href="/collections/under-1000"
+                onClick={closeCart}
+                className="mt-6 px-6 py-3 rounded-full border border-ink-300 dark:border-white/20 text-ink-900 dark:text-white text-xs font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors inline-flex items-center gap-1.5"
+              >
+                <span>Start under ₹1,000</span>
+                <ArrowRight size={13} />
+              </Link>
+            </div>
+          ) : (
+            cart.map((item, idx) => {
+              const displayImage =
+                (item.product.images && item.product.images[0]) ||
+                item.product.image ||
+                '/placeholder.jpg';
+              return (
+                <div
+                  key={`${item.product.id}-${item.size}-${idx}`}
+                  className="flex gap-4 p-3 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs"
+                >
+                  <img
+                    src={displayImage}
+                    alt={item.product.title}
+                    className="w-20 h-24 object-cover object-top rounded-xl bg-neutral-100 dark:bg-neutral-800 shrink-0"
+                  />
+                  <div className="flex-1 flex flex-col justify-between">
+                    <div>
+                      <div className="flex items-start justify-between gap-2">
+                        <h4 className="font-serif text-sm text-ink-950 dark:text-white font-medium line-clamp-1">
+                          {item.product.title}
+                        </h4>
+                        <button
+                          type="button"
+                          onClick={() => removeFromCart(item.product.id, item.size)}
+                          className="text-ink-400 hover:text-red-600 transition-colors"
+                          aria-label="Remove item"
+                        >
+                          <Trash2 size={14} />
+                        </button>
+                      </div>
+                      <p className="text-xs text-ink-500 dark:text-neutral-400 mt-0.5">
+                        Size: <span className="font-semibold text-ink-800 dark:text-white">{item.size}</span>
+                      </p>
+                      <p className="text-xs font-serif font-bold text-[#0B2D7F] dark:text-amber-400 mt-1">
+                        ₹{(item.product.price || 1499).toLocaleString('en-IN')}
+                      </p>
+                    </div>
+
+                    {/* Quantity Selector */}
+                    <div className="flex items-center gap-2 mt-2">
+                      <div className="flex items-center border border-ink-200 dark:border-white/10 rounded-full bg-[#FAF9F6] dark:bg-neutral-800">
+                        <button
+                          type="button"
+                          onClick={() => updateQuantity(item.product.id, item.size, item.quantity - 1)}
+                          className="w-7 h-7 flex items-center justify-center text-ink-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded-full"
+                          aria-label="Decrease quantity"
+                        >
+                          <Minus size={12} />
+                        </button>
+                        <span className="w-8 text-center text-xs font-semibold text-ink-950 dark:text-white">
+                          {item.quantity}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => updateQuantity(item.product.id, item.size, item.quantity + 1)}
+                          className="w-7 h-7 flex items-center justify-center text-ink-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700 rounded-full"
+                          aria-label="Increase quantity"
+                        >
+                          <Plus size={12} />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })
+          )}
+        </div>
+
+        {/* Sticky Drawer Footer */}
+        {cart.length > 0 && (
+          <div className="p-6 bg-white dark:bg-neutral-900 border-t border-ink-100 dark:border-white/10 space-y-4">
+            <div className="space-y-1.5 text-xs text-ink-600 dark:text-neutral-400 font-sans">
+              <div className="flex justify-between">
+                <span>Subtotal</span>
+                <span className="font-serif font-bold text-base text-ink-950 dark:text-white">
+                  ₹{cartSubtotal.toLocaleString('en-IN')}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span>Shipping</span>
+                <span>{amountNeeded === 0 ? 'FREE' : '₹79 (or add ₹' + amountNeeded + ' for free)'}</span>
+              </div>
+              <p className="text-[11px] text-ink-500 pt-1">
+                Taxes included. Cash on Delivery available at checkout.
+              </p>
+            </div>
+
+            <Link
+              href="/cart"
+              onClick={closeCart}
+              className="w-full py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-sm font-semibold text-center block transition-all shadow-md"
+            >
+              Proceed to Bag & Checkout
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

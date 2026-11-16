@@ -2,37 +2,47 @@
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { ChevronDown, X, SlidersHorizontal, ArrowRight } from 'lucide-react';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import Header from './Header';
 import Footer from './Footer';
-import StoryViewerModal from './StoryViewerModal';
 import SearchModal from './SearchModal';
-import QuickAddModal from './QuickAddModal';
+import CartDrawer from './CartDrawer';
+import SizeGuideModal from './SizeGuideModal';
+import FloatingWhatsApp from './FloatingWhatsApp';
 import ProductCard from './ProductCard';
 
 const PAGE_SIZE = 24;
 
 const CATEGORIES = [
-  { id: 'all', label: 'All Collections' },
-  { id: 'western-dresses', label: 'Western Dresses' },
-  { id: 'denim-collection', label: 'Denim Collection' },
-  { id: 'ethnic-wear-sets', label: 'Ethnic Wear Sets' },
-  { id: 'umbrella-dresses', label: 'Umbrella Dresses' },
-  { id: 'cord-sets', label: 'Co-ord Sets' },
-  { id: 'short-long-kaftan', label: 'Kaftans' },
-  { id: 'traditional-gowns', label: 'Traditional Gowns' },
-  { id: 'tops-shirts', label: 'Tops & Shirts' },
-  { id: 'hoodies-sweatshirts', label: 'Hoodies & Sweatshirts' },
-  { id: 't-shirts', label: 'T-Shirts' },
+  { id: 'all', label: 'All Collections', chapter: 'ALL CHAPTERS' },
+  { id: 'cord-sets', label: 'Co-ord Sets', chapter: 'CHAPTER 01' },
+  { id: 'ethnic-wear-sets', label: 'Kurta Sets', chapter: 'CHAPTER 02' },
+  { id: 'western-dresses', label: 'Western Dresses', chapter: 'CHAPTER 03' },
+  { id: 'short-long-kaftan', label: 'Kaftans', chapter: 'CHAPTER 04' },
+  { id: 'tops-shirts', label: 'Tops & Shirts', chapter: 'CHAPTER 05' },
+  { id: 'traditional-gowns', label: 'Gowns & Anarkalis', chapter: 'CHAPTER 06' },
+  { id: 'umbrella-dresses', label: 'Umbrella Dresses', chapter: 'CHAPTER 07' },
+  { id: 'denim-collection', label: 'Denim Collection', chapter: 'CHAPTER 08' },
+  { id: 'under-1000', label: 'Under ₹1,000', chapter: 'BUDGET EDIT' },
+];
+
+const SIZES = ['All', 'XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL', '8XL'];
+
+const PRICE_RANGES = [
+  { id: 'all', label: 'All Prices' },
+  { id: 'under-1000', label: 'Under ₹1,000' },
+  { id: '1000-1499', label: '₹1,000 – ₹1,499' },
+  { id: '1500-plus', label: '₹1,500 and above' },
 ];
 
 export default function CollectionsCatalogue({ initialCategory = 'all' }: { initialCategory?: string }) {
   const [liveProducts, setLiveProducts] = useState<NishoramaProduct[]>(NISHORAMA_PRODUCTS);
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory);
+  const [selectedSize, setSelectedSize] = useState<string>('All');
+  const [selectedPrice, setSelectedPrice] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('featured');
-  const [isStoryOpen, setIsStoryOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [quickAddProduct, setQuickAddProduct] = useState<NishoramaProduct | null>(null);
   const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
 
   const sentinelRef = useRef<HTMLDivElement | null>(null);
@@ -41,9 +51,9 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   useEffect(() => {
     const loadCatalog = () => {
       fetch(`/api/products?t=${Date.now()}`)
-        .then(res => res.json())
-        .then(data => {
-          const prods = Array.isArray(data) ? data : (data?.products || []);
+        .then((res) => res.json())
+        .then((data) => {
+          const prods = Array.isArray(data) ? data : data?.products || [];
           if (prods.length > 0) {
             setLiveProducts(prods);
           }
@@ -54,8 +64,8 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     loadCatalog();
 
     try {
-      const ch1 = new BroadcastChannel("wastram_products_sync");
-      const ch2 = new BroadcastChannel("ixos_products_sync");
+      const ch1 = new BroadcastChannel('wastram_products_sync');
+      const ch2 = new BroadcastChannel('ixos_products_sync');
       const onMsg = () => loadCatalog();
       ch1.onmessage = onMsg;
       ch2.onmessage = onMsg;
@@ -66,17 +76,17 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     } catch (_) {}
   }, []);
 
-  // Synchronize category state when initialCategory prop changes (e.g. Header navigation)
+  // Synchronize category state when initialCategory prop changes
   useEffect(() => {
     if (initialCategory) {
       setSelectedCategory(initialCategory);
     }
   }, [initialCategory]);
 
-  // Reset pagination when category or sort changes
+  // Reset pagination when filter or sort changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [selectedCategory, sortBy]);
+  }, [selectedCategory, selectedSize, selectedPrice, sortBy]);
 
   const handleSelectCategory = (catId: string) => {
     setSelectedCategory(catId);
@@ -87,55 +97,79 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   };
 
   const filtered = useMemo(() => {
-    let list = liveProducts.filter(p => {
+    let list = liveProducts.filter((p) => {
       if ((p as any).deleted || (p as any).is_hidden) return false;
-      if (selectedCategory === 'all' || selectedCategory === 'shop-all') return true;
-      if (selectedCategory === 'western-dresses' || selectedCategory === 'dresses') return p.category === 'western-dresses';
-      if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') return p.category === 'denim-collection';
-      if (
-        selectedCategory === 'ethnic-wear-sets' ||
-        selectedCategory === 'ethnic-wear' ||
-        selectedCategory === 'ethnic-sets' ||
-        selectedCategory === '3-piece-sets' ||
-        selectedCategory === '3-piece' ||
-        selectedCategory === 'sets'
-      ) {
-        return p.category === 'ethnic-wear-sets';
+
+      // Category matching
+      if (selectedCategory !== 'all' && selectedCategory !== 'shop-all') {
+        if (selectedCategory === 'under-1000') {
+          if ((p.price && p.price > 1000) && (!p.salePrice || p.salePrice > 1000)) return false;
+        } else if (selectedCategory === 'western-dresses' || selectedCategory === 'dresses') {
+          if (p.category !== 'western-dresses') return false;
+        } else if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') {
+          if (p.category !== 'denim-collection') return false;
+        } else if (
+          selectedCategory === 'ethnic-wear-sets' ||
+          selectedCategory === 'ethnic-wear' ||
+          selectedCategory === 'ethnic-sets' ||
+          selectedCategory === '3-piece-sets' ||
+          selectedCategory === '3-piece' ||
+          selectedCategory === 'sets'
+        ) {
+          if (p.category !== 'ethnic-wear-sets') return false;
+        } else if (selectedCategory === 'umbrella-dresses' || selectedCategory === 'umbrella') {
+          if (p.category !== 'umbrella-dresses') return false;
+        } else if (
+          selectedCategory === 'cord-sets' ||
+          selectedCategory === 'co-ords' ||
+          selectedCategory === 'co-ord-sets' ||
+          selectedCategory === 'coord-sets' ||
+          selectedCategory === 'cord-set'
+        ) {
+          if (p.category !== 'cord-sets') return false;
+        } else if (selectedCategory === 'short-long-kaftan' || selectedCategory === 'kaftans' || selectedCategory === 'kaftan') {
+          if (p.category !== 'short-long-kaftan') return false;
+        } else if (
+          selectedCategory === 'traditional-gowns' ||
+          selectedCategory === 'gowns' ||
+          selectedCategory === 'kurtis' ||
+          selectedCategory === 'kurtas'
+        ) {
+          if (p.category !== 'traditional-gowns') return false;
+        } else if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') {
+          if (p.category !== 'tops-shirts') return false;
+        } else if (selectedCategory === 'bestsellers' || selectedCategory === 'most-wanted') {
+          if (!p.badge?.includes('Bestseller') && !p.is_featured) return false;
+        } else if (p.category !== selectedCategory && p.tab !== selectedCategory) {
+          return false;
+        }
       }
-      if (selectedCategory === 'umbrella-dresses' || selectedCategory === 'umbrella') return p.category === 'umbrella-dresses';
-      if (
-        selectedCategory === 'cord-sets' ||
-        selectedCategory === 'co-ords' ||
-        selectedCategory === 'co-ord-sets' ||
-        selectedCategory === 'coord-sets' ||
-        selectedCategory === 'cord-set'
-      ) {
-        return p.category === 'cord-sets';
+
+      // Price matching
+      const currentPrice = p.price || p.salePrice || 1499;
+      if (selectedPrice === 'under-1000' && currentPrice > 1000) return false;
+      if (selectedPrice === '1000-1499' && (currentPrice < 1000 || currentPrice > 1499)) return false;
+      if (selectedPrice === '1500-plus' && currentPrice < 1500) return false;
+
+      // Size matching
+      if (selectedSize !== 'All') {
+        const availableSizes = p.sizes || ['S', 'M', 'L', 'XL', '2XL'];
+        if (!availableSizes.includes(selectedSize)) return false;
       }
-      if (selectedCategory === 'short-long-kaftan' || selectedCategory === 'kaftans' || selectedCategory === 'kaftan') return p.category === 'short-long-kaftan';
-      if (
-        selectedCategory === 'traditional-gowns' ||
-        selectedCategory === 'gowns' ||
-        selectedCategory === 'kurtis' ||
-        selectedCategory === 'kurtas'
-      ) {
-        return p.category === 'traditional-gowns';
-      }
-      if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') return p.category === 'tops-shirts';
-      if (selectedCategory === 'hoodies-sweatshirts' || selectedCategory === 'hoodies' || selectedCategory === 'sweatshirts' || selectedCategory === 'hoodie') return p.category === 'hoodies-sweatshirts';
-      if (selectedCategory === 't-shirts' || selectedCategory === 'tshirts' || selectedCategory === 'tee') return p.category === 't-shirts';
-      if (selectedCategory === 'most-wanted') return p.badge?.includes('Bestseller');
-      return p.category === selectedCategory || p.tab === selectedCategory;
+
+      return true;
     });
 
     if (sortBy === 'price-low') {
-      list = [...list].sort((a, b) => a.salePrice - b.salePrice);
+      list = [...list].sort((a, b) => (a.price || a.salePrice || 0) - (b.price || b.salePrice || 0));
     } else if (sortBy === 'price-high') {
-      list = [...list].sort((a, b) => b.salePrice - a.salePrice);
+      list = [...list].sort((a, b) => (b.price || b.salePrice || 0) - (a.price || a.salePrice || 0));
+    } else if (sortBy === 'newest') {
+      list = [...list].reverse();
     }
 
     return list;
-  }, [liveProducts, selectedCategory, sortBy]);
+  }, [liveProducts, selectedCategory, selectedPrice, selectedSize, sortBy]);
 
   const visibleProducts = useMemo(() => {
     return filtered.slice(0, visibleCount);
@@ -149,7 +183,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting && visibleCount < filtered.length) {
-          setVisibleCount(prev => Math.min(prev + PAGE_SIZE, filtered.length));
+          setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, filtered.length));
         }
       },
       { rootMargin: '600px 0px' }
@@ -159,136 +193,221 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     return () => observer.disconnect();
   }, [visibleCount, filtered.length]);
 
-  const handleLoadMore = () => {
-    setVisibleCount(prev => Math.min(prev + PAGE_SIZE, filtered.length));
-  };
-
+  const currentCategoryObj = CATEGORIES.find((c) => c.id === selectedCategory);
   const currentCategoryLabel =
-    CATEGORIES.find(c => c.id === selectedCategory)?.label ||
+    currentCategoryObj?.label ||
     (selectedCategory === 'all'
       ? 'All Collections'
-      : selectedCategory.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()));
+      : selectedCategory.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()));
+
+  const activeChapter = currentCategoryObj?.chapter || 'COLLECTION EDIT';
+
+  const clearAllFilters = () => {
+    setSelectedCategory('all');
+    setSelectedSize('All');
+    setSelectedPrice('all');
+    setSortBy('featured');
+  };
+
+  const hasActiveFilters =
+    selectedCategory !== 'all' || selectedSize !== 'All' || selectedPrice !== 'all' || sortBy !== 'featured';
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground pt-24 md:pt-28 font-sans">
-      <Header
-        onOpenStory={() => setIsStoryOpen(true)}
-        onOpenSearch={() => setIsSearchOpen(true)}
-      />
+    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+      <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
-      <StoryViewerModal
-        isOpen={isStoryOpen}
-        onClose={() => setIsStoryOpen(false)}
-      />
-
-      <SearchModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-      />
-
-      <QuickAddModal
-        product={quickAddProduct}
-        onClose={() => setQuickAddProduct(null)}
-      />
-
-      <div className="max-w-[1540px] w-full mx-auto px-4 md:px-8 py-8 md:py-12 flex-1">
+      <main className="flex-1 container-x py-6 md:py-10">
         {/* Breadcrumb Navigation */}
-        <div className="flex items-center gap-2 text-xs text-[#0B2D7F]/60 mb-6">
-          <Link href="/" className="hover:text-[#0B2D7F] transition-colors">Home</Link>
+        <div className="flex items-center gap-2 text-xs text-ink-500 dark:text-neutral-400 mb-6">
+          <Link href="/" className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors">
+            Home
+          </Link>
           <span>/</span>
-          <span className="text-[#0B2D7F] font-medium capitalize">
+          <Link href="/collections/shop-all" className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors">
+            Collections
+          </Link>
+          <span>/</span>
+          <span className="text-[#0B2D7F] dark:text-amber-400 font-medium">
             {currentCategoryLabel}
           </span>
         </div>
 
-        {/* Header & Filter Controls */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 pb-4">
-          <div>
-            <span className="font-serif italic text-base text-[#D4AF37] block mb-1">
-              Curated Atelier Edit
+        {/* Hero Section with Rajasthani Arch Motifs */}
+        <div className="relative rounded-3xl overflow-hidden bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 p-6 sm:p-10 mb-8 shadow-2xs">
+          <div className="max-w-2xl">
+            <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 mb-3">
+              {activeChapter}
             </span>
-            <h1 className="text-3xl md:text-5xl font-serif font-normal text-[#0B2D7F] uppercase tracking-wide">
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink-950 dark:text-white font-normal">
               {currentCategoryLabel}
             </h1>
-            <p className="text-xs text-[#0B2D7F]/60 font-sans mt-1">
-              {filtered.length} Handcrafted Designs &bull; Flexible Boutique MOQ 20 Pcs
+            <p className="mt-3 text-xs sm:text-sm text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
+              Hand-block printed in Sanganer and tailored in our Jaipur workshop. Pure mulmul, cambric 60-60 cotton, and modal silks graded from XS to 8XL.
             </p>
+            <div className="mt-4 flex items-center gap-4 text-xs font-medium text-[#0B2D7F] dark:text-amber-400">
+              <span>{filtered.length} piece{filtered.length === 1 ? '' : 's'} available</span>
+              <span>·</span>
+              <span>Free delivery on ₹1,499+</span>
+              <span>·</span>
+              <span>Dispatched in 2–3 days</span>
+            </div>
           </div>
+        </div>
 
+        {/* Category Switcher Horizontal Pills */}
+        <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-3 mb-6">
+          {CATEGORIES.map((cat) => (
+            <button
+              key={cat.id}
+              type="button"
+              onClick={() => handleSelectCategory(cat.id)}
+              className={`px-4 py-2 rounded-full text-xs font-medium whitespace-nowrap transition-all duration-300 cursor-pointer ${
+                selectedCategory === cat.id
+                  ? 'bg-[#0B2D7F] text-white shadow-sm'
+                  : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-[#0B2D7F]'
+              }`}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+
+        {/* The Baisa Horizontal Filter Pill Bar (Size, Price, Sort) */}
+        <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 mb-8 shadow-2xs">
           <div className="flex flex-wrap items-center gap-3">
-            {/* Category Filter Pills (Minimal luxury) */}
-            <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
-              {CATEGORIES.map(cat => (
-                <button
-                  key={cat.id}
-                  onClick={() => handleSelectCategory(cat.id)}
-                  className={`diwali-fit-button whitespace-nowrap cursor-pointer ${
-                    selectedCategory === cat.id ? 'active' : ''
-                  }`}
-                >
-                  {cat.label}
-                </button>
-              ))}
+            <div className="flex items-center gap-1.5 text-xs font-medium text-ink-600 dark:text-neutral-400 mr-1">
+              <SlidersHorizontal size={14} />
+              <span>Filters:</span>
             </div>
 
-            {/* Sort By Dropdown (Soft shadow, no harsh border) */}
-            <div className="flex items-center gap-2">
+            {/* Size Dropdown */}
+            <div className="relative">
+              <select
+                value={selectedSize}
+                onChange={(e) => setSelectedSize(e.target.value)}
+                className="appearance-none text-xs font-medium bg-[#FCFBF7] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
+              >
+                {SIZES.map((sz) => (
+                  <option key={sz} value={sz}>
+                    Size: {sz}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown size={12} className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-ink-500" />
+            </div>
+
+            {/* Price Dropdown */}
+            <div className="relative">
+              <select
+                value={selectedPrice}
+                onChange={(e) => setSelectedPrice(e.target.value)}
+                className="appearance-none text-xs font-medium bg-[#FCFBF7] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
+              >
+                {PRICE_RANGES.map((pr) => (
+                  <option key={pr.id} value={pr.id}>
+                    {pr.label}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown size={12} className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-ink-500" />
+            </div>
+
+            {/* Clear Filters Button */}
+            {hasActiveFilters && (
+              <button
+                type="button"
+                onClick={clearAllFilters}
+                className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-300 hover:bg-red-100 transition-colors"
+              >
+                <span>Clear</span>
+                <X size={12} />
+              </button>
+            )}
+          </div>
+
+          {/* Sort Dropdown */}
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-ink-500 dark:text-neutral-400 hidden sm:inline">Sort by:</span>
+            <div className="relative">
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="text-xs font-medium bg-white shadow-soft rounded-full px-4 py-2 text-[#0B2D7F] focus:outline-none cursor-pointer border-none"
+                className="appearance-none text-xs font-medium bg-[#FCFBF7] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
               >
-                <option value="featured">Featured Curation</option>
+                <option value="featured">Featured</option>
+                <option value="newest">New Arrivals</option>
                 <option value="price-low">Price: Low to High</option>
                 <option value="price-high">Price: High to Low</option>
               </select>
+              <ChevronDown size={12} className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-ink-500" />
             </div>
           </div>
         </div>
 
         {/* Product Cards Grid */}
         {filtered.length === 0 ? (
-          <div className="py-20 text-center bg-white rounded-3xl shadow-soft p-8">
-            <p className="text-sm font-serif text-[#0B2D7F]">No styles found in this curation.</p>
+          <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-3xl border border-ink-100 dark:border-white/5 my-8">
+            <h3 className="font-serif text-2xl text-ink-950 dark:text-white font-normal">
+              No matching pieces found
+            </h3>
+            <p className="mt-2 text-xs sm:text-sm text-ink-600 dark:text-neutral-400 max-w-md mx-auto">
+              We couldn't find any designs matching the current size and price filters.
+            </p>
             <button
-              onClick={() => handleSelectCategory('all')}
-              className="mt-4 px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium uppercase tracking-wider shadow-soft hover:bg-[#071F59] transition-all cursor-pointer"
+              type="button"
+              onClick={clearAllFilters}
+              className="mt-6 px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium hover:bg-[#071F59] transition-colors"
             >
-              Explore All Collections
+              Reset all filters
             </button>
           </div>
         ) : (
-          <>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 lg:gap-8">
-              {visibleProducts.map((product, idx) => (
-                <ProductCard
-                  key={product.id}
-                  product={product}
-                  priority={idx < 4}
-                />
-              ))}
-            </div>
-
-            {/* Infinite Scroll Trigger Sentinel */}
-            <div ref={sentinelRef} className="h-10 w-full" />
-
-            {/* Load More Button */}
-            {visibleCount < filtered.length && (
-              <div className="flex flex-col items-center justify-center gap-2 py-10">
-                <button
-                  type="button"
-                  onClick={handleLoadMore}
-                  className="px-8 py-3.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] text-xs font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card transition-all cursor-pointer"
-                >
-                  Load More Styles ({filtered.length - visibleCount} remaining)
-                </button>
-              </div>
-            )}
-          </>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+            {visibleProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
         )}
-      </div>
+
+        {/* Infinite Scroll Sentinel */}
+        <div ref={sentinelRef} className="h-10 mt-8" />
+
+        {/* Bottom Sanganer Buying Advice & Craft Accordions */}
+        <div className="mt-20 pt-12 border-t border-ink-200/80 dark:border-white/10 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs font-sans text-ink-700 dark:text-neutral-300">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+            <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
+              Choosing Your Fit (XS to 8XL)
+            </h4>
+            <p className="leading-relaxed text-ink-600 dark:text-neutral-400">
+              All Wastram garments are graded to Indian body measurements with 2–3 inches of ease. If you are between sizes, we recommend sizing up for cotton pieces.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+            <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
+              Sanganer Handblock Care
+            </h4>
+            <p className="leading-relaxed text-ink-600 dark:text-neutral-400">
+              For initial washes, hand wash separately in cold water with mild detergent. Dry in the shade to maintain the vivid brilliance of natural vegetable pigments.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+            <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
+              Custom Necklines & Lengths
+            </h4>
+            <p className="leading-relaxed text-ink-600 dark:text-neutral-400">
+              Need custom sleeve length, feeding zippers, or an ankle-length hem? Chat with our master tailor on WhatsApp for complimentary customizations.
+            </p>
+          </div>
+        </div>
+      </main>
 
       <Footer />
+      <CartDrawer />
+      <SizeGuideModal />
+      <FloatingWhatsApp />
+      <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </div>
   );
 }
