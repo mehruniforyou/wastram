@@ -58,10 +58,10 @@ export default function FloatingWhatsApp() {
         </div>
       )}
 
-      {/* Floating Trigger Pill */}
+      {/* Floating Trigger Pill in Wastram Brand Blue */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2.5 px-5 py-3 rounded-full bg-[#25D366] hover:bg-[#1EBE5D] text-white shadow-2xl transition-all duration-300 cursor-pointer animate-whatsapp-pulse active:scale-95"
+        className="flex items-center gap-2.5 px-5 py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white shadow-2xl transition-all duration-300 cursor-pointer active:scale-95 border border-white/20"
         aria-label="Open WhatsApp Concierge"
       >
         <svg

@@ -43,7 +43,7 @@ export default function BaisaBestsellers() {
   };
 
   return (
-    <section className="py-12 md:py-20 bg-[#FCFBF7] dark:bg-[#0E0C0A] transition-colors border-y border-ink-100 dark:border-white/5">
+    <section className="py-12 md:py-20 bg-[#FFFEFE] dark:bg-[#0E0C0A] transition-colors border-y border-ink-100 dark:border-white/5">
       <div className="container-x">
         {/* Header row */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">

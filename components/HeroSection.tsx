@@ -94,7 +94,7 @@ export default function HeroSection() {
 
   return (
     <section
-      className="relative w-full overflow-hidden bg-[#FAF9F6] select-none"
+      className="relative w-full overflow-hidden bg-[#FFFEFE] select-none"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       aria-label="Wastram Jaipur Hero Showcase"
@@ -178,7 +178,7 @@ export default function HeroSection() {
             <button
               type="button"
               onClick={() => handleWhatsAppEnquiry(current.whatsappMessage)}
-              className="w-full sm:w-auto px-7 py-3 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white transition-all duration-300 font-jost font-semibold text-xs sm:text-sm uppercase tracking-[0.14em] shadow-lg flex items-center justify-center gap-2 group cursor-pointer active:scale-95"
+              className="w-full sm:w-auto px-7 py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white transition-all duration-300 font-jost font-semibold text-xs sm:text-sm uppercase tracking-[0.14em] shadow-lg flex items-center justify-center gap-2 group cursor-pointer active:scale-95"
             >
               <svg className="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
                 <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.311.045-.698.057-2.228-.588-1.782-.751-2.906-2.559-2.996-2.678-.088-.119-.716-.954-.716-1.821 0-.867.453-1.294.614-1.467.161-.173.351-.216.468-.216.117 0 .234.002.336.007.108.005.253-.041.395.3.144.347.491 1.196.533 1.282.042.086.07.187.014.3-.056.113-.085.183-.17.283-.085.1-.179.224-.256.3-.085.085-.174.178-.075.348.099.17.439.723.942 1.172.646.577 1.191.756 1.361.841.17.085.27.071.37-.044.1-.115.428-.499.542-.67.114-.171.228-.143.385-.085.157.057.994.469 1.165.555.171.085.285.128.328.2.043.072.043.418-.101.823z" />

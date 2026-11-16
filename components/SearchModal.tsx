@@ -133,7 +133,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         {p.title}
                       </h4>
                       <div className="flex items-center gap-2 text-xs font-jost mt-1">
-                        <span className="px-3 py-1 rounded-full bg-[#25D366] text-white text-[10px] font-medium tracking-wide flex items-center gap-1 shadow-sm">
+                        <span className="px-3 py-1 rounded-full bg-[#0B2D7F] text-white text-[10px] font-medium tracking-wide flex items-center gap-1 shadow-sm">
                           Enquire Now
                         </span>
                         <span className="text-[10px] text-[#404040]">• {p.moq || 'MOQ 20 pcs'}</span>

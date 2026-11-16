@@ -44,7 +44,7 @@ Please proceed with Cash on Delivery / UPI payment details.`
   )}`;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="max-w-5xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 flex-1">
@@ -88,7 +88,7 @@ Please proceed with Cash on Delivery / UPI payment details.`
                       Add <span className="font-bold text-[#0B2D7F] dark:text-amber-400">₹{remainingForFreeShipping.toLocaleString('en-IN')}</span> more for <span className="font-semibold">Free Delivery</span>!
                     </>
                   ) : (
-                    <span className="text-emerald-700 dark:text-emerald-400 font-semibold">
+                    <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
                       🎉 You have qualified for Free Delivery!
                     </span>
                   )}
@@ -142,7 +142,7 @@ Please proceed with Cash on Delivery / UPI payment details.`
                       </div>
 
                       <div className="flex items-center gap-2 mt-3">
-                        <div className="flex items-center border border-ink-200 dark:border-white/10 rounded-full bg-[#FAF9F6] dark:bg-neutral-800">
+                        <div className="flex items-center border border-ink-200 dark:border-white/10 rounded-full bg-[#FFFEFE] dark:bg-neutral-800">
                           <button
                             type="button"
                             onClick={() => updateQuantity(item.product.id, item.size, item.quantity - 1)}
@@ -182,7 +182,7 @@ Please proceed with Cash on Delivery / UPI payment details.`
                   </span>
                 </div>
                 {promoApplied && (
-                  <div className="flex justify-between text-emerald-600">
+                  <div className="flex justify-between text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
                     <span>Coupon Discount (10%)</span>
                     <span>-₹{discountAmount.toLocaleString('en-IN')}</span>
                   </div>
@@ -206,7 +206,7 @@ Please proceed with Cash on Delivery / UPI payment details.`
                   placeholder="Coupon code (e.g. FIRST10)"
                   value={promoCode}
                   onChange={(e) => setPromoCode(e.target.value)}
-                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                 />
                 <button
                   type="submit"
@@ -228,7 +228,7 @@ Please proceed with Cash on Delivery / UPI payment details.`
 
               <div className="space-y-2 pt-2 border-t border-ink-100 dark:border-white/10 text-xs text-ink-500 dark:text-neutral-400">
                 <div className="flex items-center gap-2">
-                  <ShieldCheck size={16} className="text-emerald-600 shrink-0" />
+                  <ShieldCheck size={16} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
                   <span>Cash on Delivery available on all orders</span>
                 </div>
                 <div className="flex items-center gap-2">

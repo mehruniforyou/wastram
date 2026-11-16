@@ -17,7 +17,7 @@ export default function EditorialBanners() {
   };
 
   return (
-    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-[#FAF9F6] relative overflow-hidden">
+    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-[#FFFEFE] relative overflow-hidden">
       <div className="max-w-[1600px] mx-auto flex flex-col gap-10 sm:gap-14">
         {/* Section Header */}
         <div className="flex flex-col items-center text-center">
@@ -70,7 +70,7 @@ export default function EditorialBanners() {
                 <button
                   type="button"
                   onClick={(e) => handleWhatsAppEditorial('Ritual Ready Festive Suits', e)}
-                  className="px-6 py-2.5 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white text-xs font-jost font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center gap-1.5 transition-all cursor-pointer active:scale-95"
+                  className="px-6 py-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-jost font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center gap-1.5 transition-all cursor-pointer active:scale-95"
                 >
                   <span>Enquire Edit</span>
                   <span>&rarr;</span>
@@ -116,7 +116,7 @@ export default function EditorialBanners() {
                 <button
                   type="button"
                   onClick={(e) => handleWhatsAppEditorial('Wedding Wardrobe Trousseau', e)}
-                  className="px-6 py-2.5 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white text-xs font-jost font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center gap-1.5 transition-all cursor-pointer active:scale-95"
+                  className="px-6 py-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-jost font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center gap-1.5 transition-all cursor-pointer active:scale-95"
                 >
                   <span>Enquire Edit</span>
                   <span>&rarr;</span>

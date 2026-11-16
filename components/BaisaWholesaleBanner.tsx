@@ -45,7 +45,7 @@ export default function BaisaWholesaleBanner() {
               rel="noopener noreferrer"
               className="px-6 py-3.5 rounded-full border border-white/30 hover:bg-white/10 text-white font-medium text-xs sm:text-sm transition-colors inline-flex items-center gap-2"
             >
-              <MessageCircle size={16} className="text-[#25D366]" />
+              <MessageCircle size={16} className="text-[#D4AF37]" />
               <span>WhatsApp Trade Concierge</span>
             </a>
           </div>

@@ -21,7 +21,7 @@ export default function WishlistPage() {
   const wishlistedProducts = NISHORAMA_PRODUCTS.filter(p => wishlist.includes(p.slug));
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF9F6] font-archivo">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] font-archivo">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -51,7 +51,7 @@ export default function WishlistPage() {
 
         {wishlistedProducts.length === 0 ? (
           <div className="bg-white rounded-3xl p-10 md:p-14 text-center border border-black/5 max-w-md mx-auto shadow-sm space-y-4">
-            <div className="w-14 h-14 mx-auto rounded-full bg-[#FAF9F6] flex items-center justify-center text-[#0B2D7F]/50">
+            <div className="w-14 h-14 mx-auto rounded-full bg-[#FFFEFE] flex items-center justify-center text-[#0B2D7F]/50">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -74,7 +74,7 @@ export default function WishlistPage() {
             </p>
             <Link
               href="/collections/shop-all"
-              className="inline-block mt-2 px-8 py-3 rounded-full bg-[#0B2D7F] text-[#FAF9F6] text-xs font-bold uppercase tracking-wider shadow hover:bg-[#071F59] transition-all"
+              className="inline-block mt-2 px-8 py-3 rounded-full bg-[#0B2D7F] text-[#FFFEFE] text-xs font-bold uppercase tracking-wider shadow hover:bg-[#071F59] transition-all"
             >
               Explore Collections
             </Link>
@@ -87,7 +87,7 @@ export default function WishlistPage() {
                 className="group relative flex flex-col bg-transparent"
               >
                 {/* Media Container with Exact Wastram Roundness */}
-                <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#FAF9F6] border border-[#0B2D7F]/10 rounded-[4vw] md:rounded-[1vw] overflow-hidden">
+                <div className="relative aspect-[400/700] md:aspect-[400/680] w-full bg-[#FFFEFE] border border-[#0B2D7F]/10 rounded-[4vw] md:rounded-[1vw] overflow-hidden">
                   <Link href={`/products/${p.slug}`} className="block w-full h-full">
                     <img
                       src={p.images[0]}
@@ -163,7 +163,7 @@ export default function WishlistPage() {
 
                     <Link
                       href={`/products/${p.slug}`}
-                      className="px-2.5 md:px-3 py-1 rounded-full border border-[#0B2D7F] bg-[#0B2D7F] text-[#FAF9F6] hover:bg-[#071F59] font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
+                      className="px-2.5 md:px-3 py-1 rounded-full border border-[#0B2D7F] bg-[#0B2D7F] text-[#FFFEFE] hover:bg-[#071F59] font-archivo text-[2.4vw] md:text-[0.75vw] font-semibold transition-all flex items-center gap-1 flex-shrink-0 active:scale-95 shadow-2xs"
                     >
                       <span>Enquire</span>
                     </Link>

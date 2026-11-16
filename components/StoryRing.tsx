@@ -36,7 +36,7 @@ export default function StoryRing({
       </svg>
 
       {/* Inner circular avatar displaying the HD Wastram Ornate Sewing Craft Logomark */}
-      <div className="w-[91%] h-[91%] rounded-full bg-[#FAF9F6] flex items-center justify-center z-10 shadow-soft overflow-hidden p-0.5">
+      <div className="w-[91%] h-[91%] rounded-full bg-[#FFFEFE] flex items-center justify-center z-10 shadow-soft overflow-hidden p-0.5">
         <picture className="w-full h-full flex items-center justify-center">
           <source srcSet="/images/brand/wastram-craft-emblem-hd.webp" type="image/webp" />
           <img

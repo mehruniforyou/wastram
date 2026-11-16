@@ -12,7 +12,7 @@ export default function BestsellersShowcase() {
   ).slice(0, 4);
 
   return (
-    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6]">
+    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FFFEFE]">
       <div className="max-w-7xl mx-auto flex flex-col gap-10 md:gap-14">
         {/* Section Heading with Scroll Reveal */}
         <ScrollReveal direction="up" distance={20} duration={800}>

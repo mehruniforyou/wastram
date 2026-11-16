@@ -66,7 +66,7 @@ module.exports = {
           gold: '#D4AF37',        // Premium Accent: Golden Thread (6%)
           goldMuted: '#C29B27',   // Deeper thread gold
           goldLight: '#FAF5E6',   // Champagne gold background tint
-          ivory: '#FAF9F6',       // Background: Ivory White (45%)
+          ivory: '#FFFEFE',       // Background: Pure Clean White (Sitewide)
           ceramic: '#4A7BC6',     // Supporting: Ceramic Blue (8%)
           ceramicLight: '#EEF4FC',// Ceramic Blue soft wash
           ceramicDark: '#3866AB', // Ceramic Blue interactive
@@ -76,7 +76,7 @@ module.exports = {
           red: '#F58220',
           orange: '#F58220',
           gold: '#D4AF37',
-          cream: '#FAF9F6',
+          cream: '#FFFEFE',
           grey: '#F3F4F8',
           light: '#EEF4FC',
           dark: '#071F59'

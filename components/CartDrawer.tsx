@@ -31,7 +31,7 @@ export default function CartDrawer() {
       />
 
       {/* Slide-out Drawer Panel */}
-      <div className="relative w-full max-w-md h-full bg-[#FCFBF7] dark:bg-[#12100E] shadow-2xl z-10 flex flex-col font-sans animate-slide-left border-l border-ink-200/60 dark:border-white/10">
+      <div className="relative w-full max-w-md h-full bg-[#FFFEFE] dark:bg-[#12100E] shadow-2xl z-10 flex flex-col font-sans animate-slide-left border-l border-ink-200/60 dark:border-white/10">
         {/* Drawer Header */}
         <div className="px-6 py-5 border-b border-ink-100 dark:border-white/10 flex items-center justify-between bg-white dark:bg-neutral-900 sticky top-0 z-20">
           <div className="flex items-center gap-2">
@@ -56,14 +56,14 @@ export default function CartDrawer() {
         </div>
 
         {/* Free Shipping Progress Ribbon */}
-        <div className="px-6 py-3 bg-[#FAF7F0] dark:bg-neutral-900/60 border-b border-ink-100 dark:border-white/5">
+        <div className="px-6 py-3 bg-[#FFFEFE] dark:bg-neutral-900/60 border-b border-ink-100 dark:border-white/5">
           <p className="text-xs text-ink-800 dark:text-neutral-200 font-medium">
             {amountNeeded > 0 ? (
               <>
                 Add <span className="font-bold text-[#0B2D7F] dark:text-amber-400">₹{amountNeeded.toLocaleString('en-IN')}</span> more to qualify for <span className="font-semibold">Free Delivery</span>!
               </>
             ) : (
-              <span className="text-emerald-700 dark:text-emerald-400 font-semibold">
+              <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
                 🎉 Congratulations! You have unlocked Free Delivery!
               </span>
             )}
@@ -139,7 +139,7 @@ export default function CartDrawer() {
 
                     {/* Quantity Selector */}
                     <div className="flex items-center gap-2 mt-2">
-                      <div className="flex items-center border border-ink-200 dark:border-white/10 rounded-full bg-[#FAF9F6] dark:bg-neutral-800">
+                      <div className="flex items-center border border-ink-200 dark:border-white/10 rounded-full bg-[#FFFEFE] dark:bg-neutral-800">
                         <button
                           type="button"
                           onClick={() => updateQuantity(item.product.id, item.size, item.quantity - 1)}

@@ -118,13 +118,13 @@ export default function Header({ onOpenSearch }: HeaderProps) {
       <header
         className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-[#FCFBF7]/95 dark:bg-[#12100E]/95 backdrop-blur-md shadow-sm border-b border-[#E7E5E4] dark:border-white/10'
-            : 'bg-[#FCFBF7] dark:bg-[#12100E] border-b border-[#E7E5E4]/60 dark:border-white/5'
+            ? 'bg-[#FFFEFE]/95 dark:bg-[#12100E]/95 backdrop-blur-md shadow-sm border-b border-[#E7E5E4] dark:border-white/10'
+            : 'bg-[#FFFEFE] dark:bg-[#12100E] border-b border-[#E7E5E4]/60 dark:border-white/5'
         }`}
         data-testid="site-navbar"
       >
-        {/* 1. Emerald Announcement Bar (Baisa Style) */}
-        <div className="bg-[#1B4332] text-white text-[11px] md:text-xs py-2 px-4 text-center font-medium font-sans tracking-wide flex items-center justify-center gap-2">
+        {/* 1. Brand Blue Announcement Bar */}
+        <div className="bg-[#0B2D7F] text-white text-[11px] md:text-xs py-2 px-4 text-center font-medium font-sans tracking-wide flex items-center justify-center gap-2">
           <span>Free delivery on orders of ₹1,499 and above</span>
           <span className="text-[#D4AF37]">·</span>
           <span>Made in our Jaipur factory</span>
@@ -197,7 +197,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               {/* Full-Bleed 2-Zone Mega Menu Panel */}
               {isMegaMenuOpen && (
                 <div
-                  className="fixed left-0 top-[104px] w-screen bg-[#FCFBF7] dark:bg-[#161412] border-b border-t border-[#E7E5E4] dark:border-white/10 shadow-elevated transition-all duration-200 z-50 animate-in fade-in slide-in-from-top-1"
+                  className="fixed left-0 top-[104px] w-screen bg-[#FFFEFE] dark:bg-[#161412] border-b border-t border-[#E7E5E4] dark:border-white/10 shadow-elevated transition-all duration-200 z-50 animate-in fade-in slide-in-from-top-1"
                   onMouseEnter={() => setIsMegaMenuOpen(true)}
                   onMouseLeave={() => setIsMegaMenuOpen(false)}
                 >
@@ -252,7 +252,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                             href={chap.href}
                             className="group block"
                           >
-                            <div className="relative aspect-[3/4] overflow-hidden rounded-xl border border-[#E7E5E4] dark:border-white/10 bg-[#FAF7F0] shadow-sm">
+                            <div className="relative aspect-[3/4] overflow-hidden rounded-xl border border-[#E7E5E4] dark:border-white/10 bg-[#FFFEFE] shadow-sm">
                               <img
                                 src={chap.image}
                                 alt={chap.title}
@@ -359,13 +359,13 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               )}
             </button>
 
-            {/* The Baisa Style WhatsApp Pill CTA */}
+            {/* Wastram Brand Blue WhatsApp Pill CTA */}
             <button
               onClick={handleWhatsAppConcierge}
-              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-[#25D366] text-[#128C7E] bg-[#25D366]/8 hover:bg-[#25D366]/15 transition-all cursor-pointer text-xs font-medium"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] bg-[#0B2D7F]/5 hover:bg-[#0B2D7F] hover:text-white transition-all cursor-pointer text-xs font-medium"
               aria-label="Chat on WhatsApp"
             >
-              <MessageCircle size={14} className="text-[#25D366] fill-[#25D366]/20" />
+              <MessageCircle size={14} className="text-[#0B2D7F]" />
               <span>WhatsApp</span>
             </button>
 
@@ -397,7 +397,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
           />
 
           {/* Drawer Panel */}
-          <div className="relative w-5/6 max-w-sm bg-[#FCFBF7] dark:bg-[#161412] border-r border-[#E7E5E4] dark:border-white/10 h-full p-6 flex flex-col justify-between overflow-y-auto z-50 animate-in slide-in-from-left duration-200">
+          <div className="relative w-5/6 max-w-sm bg-[#FFFEFE] dark:bg-[#161412] border-r border-[#E7E5E4] dark:border-white/10 h-full p-6 flex flex-col justify-between overflow-y-auto z-50 animate-in slide-in-from-left duration-200">
             <div>
               {/* Drawer Top Header with Logo & Close */}
               <div className="flex items-center justify-between pb-4 border-b border-[#E7E5E4] dark:border-white/10">
@@ -568,7 +568,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             <div className="pt-5 border-t border-[#E7E5E4] dark:border-white/10 space-y-3">
               <button
                 onClick={handleWhatsAppConcierge}
-                className="w-full py-2.5 px-4 rounded-full bg-[#1B4332] text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-sm"
+                className="w-full py-2.5 px-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-sm transition-colors"
               >
                 <MessageCircle size={15} />
                 <span>Chat on WhatsApp Concierge</span>

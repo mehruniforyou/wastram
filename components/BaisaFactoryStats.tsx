@@ -81,7 +81,7 @@ const ORDER_STEPS = [
 
 export default function BaisaFactoryStats() {
   return (
-    <section className="py-16 md:py-24 bg-[#FCFBF7] dark:bg-[#12100E] border-b border-ink-100 dark:border-white/5">
+    <section className="py-16 md:py-24 bg-[#FFFEFE] dark:bg-[#12100E] border-b border-ink-100 dark:border-white/5">
       {/* 1. Craft & Heritage Intro */}
       <div className="container-x mb-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
@@ -173,7 +173,7 @@ export default function BaisaFactoryStats() {
                 key={i}
                 className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs"
               >
-                <div className="w-12 h-12 rounded-full bg-[#FAF9F6] dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 shrink-0 border border-ink-100 dark:border-white/10">
+                <div className="w-12 h-12 rounded-full bg-[#FFFEFE] dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 shrink-0 border border-ink-100 dark:border-white/10 shadow-2xs">
                   <Icon size={22} />
                 </div>
                 <div>

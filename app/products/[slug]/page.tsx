@@ -186,7 +186,7 @@ export default function ProductDetailPage({ params }: Props) {
 
   if (isLoading || !product) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#FCFBF7] dark:bg-[#0E0C0A]">
+      <div className="min-h-screen flex items-center justify-center bg-[#FFFEFE] dark:bg-[#0E0C0A]">
         <div className="w-10 h-10 border-4 border-neutral-300 border-t-[#0B2D7F] rounded-full animate-spin" />
       </div>
     );
@@ -237,7 +237,7 @@ export default function ProductDetailPage({ params }: Props) {
   ).slice(0, 4);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-6 md:py-10">
@@ -348,7 +348,7 @@ export default function ProductDetailPage({ params }: Props) {
                 <span className="text-sm text-ink-400 line-through tabular-nums">
                   ₹{regularPrice.toLocaleString('en-IN')}
                 </span>
-                <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300">
+                <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-[#D4AF37]">
                   Save {discountPercent}%
                 </span>
               </div>
@@ -359,7 +359,7 @@ export default function ProductDetailPage({ params }: Props) {
             </div>
 
             {/* Sanganer Factory Note */}
-            <div className="p-3.5 rounded-2xl bg-[#FAF9F6] dark:bg-neutral-900 border border-ink-100 dark:border-white/5 flex items-center gap-3 text-xs text-ink-700 dark:text-neutral-300">
+            <div className="p-3.5 rounded-2xl bg-[#FFFEFE] dark:bg-neutral-900 border border-ink-100 dark:border-white/5 flex items-center gap-3 text-xs text-ink-700 dark:text-neutral-300 shadow-2xs">
               <Sparkles size={16} className="text-[#C5A059] shrink-0" />
               <span>
                 Available from our own factory in Sanganer, Jaipur. Dispatched in 2–3 working days.
@@ -417,34 +417,34 @@ export default function ProductDetailPage({ params }: Props) {
                 Add to Bag
               </button>
 
-              {/* Stitched Ribbon Tailor WhatsApp CTA */}
+              {/* Stitched Ribbon Tailor WhatsApp CTA in Brand Blue */}
               <a
                 href={whatsappInquiryUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3.5 rounded-2xl stitched-ribbon flex items-center justify-between gap-3 text-xs group"
+                className="p-3.5 rounded-2xl stitched-ribbon flex items-center justify-between gap-3 text-xs group transition-all hover:bg-[#0B2D7F]/10"
               >
                 <div className="flex items-center gap-2.5">
-                  <div className="w-8 h-8 rounded-full bg-[#25D366] text-white flex items-center justify-center shrink-0 shadow-2xs">
+                  <div className="w-8 h-8 rounded-full bg-[#0B2D7F] text-white flex items-center justify-center shrink-0 shadow-2xs">
                     <MessageCircle size={16} />
                   </div>
                   <div>
-                    <p className="font-semibold text-emerald-950 dark:text-emerald-200">
+                    <p className="font-semibold text-[#0B2D7F] dark:text-white">
                       Need custom sleeve length or bust ease?
                     </p>
-                    <p className="text-[11px] text-emerald-800 dark:text-emerald-400">
+                    <p className="text-[11px] text-ink-600 dark:text-neutral-400">
                       Chat with our Sanganer master tailor on WhatsApp
                     </p>
                   </div>
                 </div>
-                <span className="font-semibold text-emerald-800 group-hover:translate-x-1 transition-transform">
+                <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37] group-hover:translate-x-1 transition-transform">
                   Chat →
                 </span>
               </a>
             </div>
 
             {/* Delivery Pincode Checker */}
-            <form onSubmit={handlePincodeCheck} className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 space-y-2">
+            <form onSubmit={handlePincodeCheck} className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 space-y-2 shadow-2xs">
               <span className="text-xs font-semibold text-ink-900 dark:text-white flex items-center gap-1.5">
                 <Truck size={14} className="text-[#0B2D7F] dark:text-amber-400" />
                 <span>Estimate Delivery to Your Pincode</span>
@@ -456,7 +456,7 @@ export default function ProductDetailPage({ params }: Props) {
                   placeholder="Enter 6-digit PIN"
                   value={pincode}
                   onChange={(e) => setPincode(e.target.value)}
-                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800 text-ink-900 dark:text-white focus:outline-none"
+                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800 text-ink-900 dark:text-white focus:outline-none"
                 />
                 <button
                   type="submit"

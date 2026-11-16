@@ -108,7 +108,7 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
         {/* Story Header */}
         <div className="absolute top-7 left-4 right-4 z-20 flex items-center justify-between text-white font-sans">
           <div className="flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-full bg-[#FAF9F6] p-0.5 flex items-center justify-center overflow-hidden shadow-xs">
+            <div className="w-7 h-7 rounded-full bg-[#FFFEFE] p-0.5 flex items-center justify-center overflow-hidden shadow-xs">
               <img
                 src="/images/brand/wastram-craft-emblem.png"
                 alt="Wastram"
@@ -147,7 +147,7 @@ export default function StoryViewerModal({ isOpen, onClose }: StoryViewerModalPr
           <Link
             href="/collections/shop-all"
             onClick={handleClose}
-            className="mt-3 w-full py-3 bg-white text-[#0B2D7F] font-sans font-semibold text-center text-xs tracking-wider uppercase rounded-full hover:bg-[#FAF9F6] transition-colors"
+            className="mt-3 w-full py-3 bg-white text-[#0B2D7F] font-sans font-semibold text-center text-xs tracking-wider uppercase rounded-full hover:bg-[#FFFEFE] transition-colors"
           >
             Explore Collections &rarr;
           </Link>

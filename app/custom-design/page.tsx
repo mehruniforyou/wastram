@@ -72,7 +72,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-14">
@@ -128,7 +128,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     key={f}
                     className={`flex items-center gap-3 p-3 rounded-2xl border text-xs font-medium cursor-pointer transition-colors ${
                       fabric === f
-                        ? 'border-[#0B2D7F] bg-[#FAF9F6] dark:bg-neutral-800 dark:border-amber-400'
+                        ? 'border-[#0B2D7F] bg-[#FFFEFE] dark:bg-neutral-800 dark:border-amber-400'
                         : 'border-ink-200 dark:border-white/10 text-ink-700 dark:text-neutral-300'
                     }`}
                   >
@@ -156,7 +156,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     key={c}
                     className={`flex items-center gap-3 p-3 rounded-2xl border text-xs font-medium cursor-pointer transition-colors ${
                       craft === c
-                        ? 'border-[#0B2D7F] bg-[#FAF9F6] dark:bg-neutral-800 dark:border-amber-400'
+                        ? 'border-[#0B2D7F] bg-[#FFFEFE] dark:bg-neutral-800 dark:border-amber-400'
                         : 'border-ink-200 dark:border-white/10 text-ink-700 dark:text-neutral-300'
                     }`}
                   >
@@ -186,7 +186,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     placeholder="e.g. 38"
                     value={measurements.bust}
                     onChange={(e) => setMeasurements({ ...measurements, bust: e.target.value })}
-                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                   />
                 </div>
                 <div>
@@ -196,7 +196,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     placeholder="e.g. 32"
                     value={measurements.waist}
                     onChange={(e) => setMeasurements({ ...measurements, waist: e.target.value })}
-                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                   />
                 </div>
                 <div>
@@ -206,7 +206,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     placeholder="e.g. 42"
                     value={measurements.hips}
                     onChange={(e) => setMeasurements({ ...measurements, hips: e.target.value })}
-                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                   />
                 </div>
                 <div>
@@ -216,7 +216,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     placeholder="e.g. 48"
                     value={measurements.length}
                     onChange={(e) => setMeasurements({ ...measurements, length: e.target.value })}
-                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                    className="w-full px-3 py-2 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                   />
                 </div>
               </div>
@@ -231,7 +231,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                   placeholder="e.g. Priya Sharma"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                 />
               </div>
               <div>
@@ -241,7 +241,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                   placeholder="e.g. +91 98765 43210"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                 />
               </div>
             </div>
@@ -254,7 +254,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                 placeholder="Mention any custom sleeve style, pocket requests or specific event date..."
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
-                className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
               />
             </div>
 

@@ -13,7 +13,7 @@ export default function WishlistToast() {
     <div className="fixed bottom-5 right-4 md:right-8 z-[100] animate-toast">
       <div className="flex items-center gap-3 bg-[#0B2D7F] text-white px-4 py-2.5 rounded-full shadow-2xl border border-[#D4AF37]/40 backdrop-blur-md">
         {/* Bookmark Icon */}
-        <div className="w-6 h-6 rounded-full bg-[#FAF9F6]/10 flex items-center justify-center flex-shrink-0">
+        <div className="w-6 h-6 rounded-full bg-[#FFFEFE]/10 flex items-center justify-center flex-shrink-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="10"
@@ -32,7 +32,7 @@ export default function WishlistToast() {
         <div className="text-xs font-archivo flex items-center gap-1.5 pr-1">
           <span className="font-semibold text-white">{wishlistToast.message}</span>
           {wishlistToast.product && (
-            <span className="opacity-80 line-clamp-1 max-w-[140px] md:max-w-[200px] text-[#FAF9F6]/90">
+            <span className="opacity-80 line-clamp-1 max-w-[140px] md:max-w-[200px] text-[#FFFEFE]/90">
               • {wishlistToast.product.title}
             </span>
           )}

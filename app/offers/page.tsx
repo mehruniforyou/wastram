@@ -127,7 +127,7 @@ export default function OffersPage() {
                   <div className="mt-6 pt-6 border-t border-foreground/10 space-y-2.5">
                     {offer.perks.map((perk, i) => (
                       <div key={i} className="flex items-start gap-2.5 text-xs text-foreground/80 font-body">
-                        <CheckCircle2 size={14} className="text-[#25D366] shrink-0 mt-0.5" />
+                        <CheckCircle2 size={14} className="text-[#0B2D7F] shrink-0 mt-0.5" />
                         <span>{perk}</span>
                       </div>
                     ))}

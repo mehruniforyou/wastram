@@ -44,7 +44,7 @@ export default function SizeGuideModal() {
       />
 
       {/* Modal Dialog */}
-      <div className="relative w-full max-w-2xl max-h-[90vh] bg-[#FCFBF7] dark:bg-[#12100E] rounded-3xl shadow-2xl z-10 flex flex-col overflow-hidden border border-ink-200/60 dark:border-white/10 font-sans">
+      <div className="relative w-full max-w-2xl max-h-[90vh] bg-[#FFFEFE] dark:bg-[#12100E] rounded-3xl shadow-2xl z-10 flex flex-col overflow-hidden border border-ink-200/60 dark:border-white/10 font-sans">
         {/* Modal Header */}
         <div className="p-6 border-b border-ink-100 dark:border-white/10 flex items-start justify-between bg-white dark:bg-neutral-900">
           <div>
@@ -102,7 +102,7 @@ export default function SizeGuideModal() {
           {/* Table */}
           <div className="overflow-x-auto rounded-2xl border border-ink-100 dark:border-white/10 bg-white dark:bg-neutral-900">
             <table className="w-full text-left text-xs">
-              <thead className="bg-[#FAF7F0] dark:bg-neutral-800 text-ink-900 dark:text-white uppercase tracking-wider font-semibold">
+              <thead className="bg-[#FFFEFE] dark:bg-neutral-800 text-ink-900 dark:text-white uppercase tracking-wider font-semibold">
                 <tr>
                   <th className="p-3">Size</th>
                   <th className="p-3">Bust ({unit})</th>
@@ -129,13 +129,13 @@ export default function SizeGuideModal() {
             </table>
           </div>
 
-          {/* Tailor Concierge Box */}
-          <div className="p-4 rounded-2xl bg-[#f0fdf4] dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/40 flex items-center justify-between gap-4">
+          {/* Tailor Concierge Box in Brand Blue */}
+          <div className="p-4 rounded-2xl bg-[#0B2D7F]/5 dark:bg-neutral-800 border border-[#0B2D7F]/20 flex items-center justify-between gap-4">
             <div>
-              <p className="text-xs font-semibold text-emerald-900 dark:text-emerald-300">
+              <p className="text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">
                 Between sizes or need custom length?
               </p>
-              <p className="text-[11px] text-emerald-700 dark:text-emerald-400 mt-0.5">
+              <p className="text-[11px] text-ink-600 dark:text-neutral-400 mt-0.5">
                 Our master tailors in Jaipur customize bust ease, sleeve lengths, and kurtis to your exact brief at no extra charge.
               </p>
             </div>
@@ -143,7 +143,7 @@ export default function SizeGuideModal() {
               href="https://wa.me/918003088838?text=Hello%20Wastram%2C%20I%20need%20help%20choosing%20the%20right%20size%20for%20my%20measurements."
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded-full bg-[#25D366] text-white text-xs font-semibold hover:bg-emerald-600 transition-colors shrink-0 inline-flex items-center gap-1.5 shadow-sm"
+              className="px-4 py-2 rounded-full bg-[#0B2D7F] text-white text-xs font-semibold hover:bg-[#071F59] transition-colors shrink-0 inline-flex items-center gap-1.5 shadow-sm"
             >
               <MessageCircle size={14} />
               <span>Tailor Chat</span>

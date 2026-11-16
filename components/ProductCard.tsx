@@ -64,7 +64,7 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
       data-testid={`product-card-${product.slug || product.id}`}
     >
       {/* 1. 3:4 Portrait Image Container with Hover Zoom & Secondary Cross-fade */}
-      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-[#F7F5EE] border border-[#E7E5E4]/80 dark:border-white/10 shadow-xs">
+      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-[#FFFEFE] border border-[#E7E5E4]/80 dark:border-white/10 shadow-xs">
         <Link href={`/products/${product.slug}`} className="block w-full h-full">
           {/* Primary Main Image */}
           <img
@@ -87,15 +87,15 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
           )}
         </Link>
 
-        {/* Badges: Top Left */}
+        {/* Badges: Top Left in Brand Blue */}
         <div className="absolute top-2.5 left-2.5 flex flex-col gap-1 z-10 pointer-events-none">
           {product.badge && (
-            <span className="bg-[#800020] text-white text-[10px] uppercase tracking-wider font-semibold px-2.5 py-0.5 rounded-full shadow-xs">
+            <span className="bg-[#0B2D7F] text-white text-[10px] uppercase tracking-wider font-semibold px-2.5 py-0.5 rounded-full shadow-xs">
               {product.badge}
             </span>
           )}
           {discountPercent > 10 && !product.badge && (
-            <span className="bg-[#1B4332] text-white text-[10px] tracking-wider font-semibold px-2 py-0.5 rounded-full shadow-xs">
+            <span className="bg-[#0B2D7F] text-white text-[10px] tracking-wider font-semibold px-2 py-0.5 rounded-full shadow-xs">
               -{discountPercent}%
             </span>
           )}
@@ -111,8 +111,8 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
           }}
           className={`absolute top-2.5 right-2.5 z-10 p-2 rounded-full backdrop-blur-md transition-all duration-200 cursor-pointer shadow-xs ${
             wishlisted
-              ? 'bg-[#800020] text-white'
-              : 'bg-white/85 dark:bg-black/60 text-foreground/70 hover:text-[#800020] hover:scale-110'
+              ? 'bg-[#0B2D7F] text-white'
+              : 'bg-white/85 dark:bg-black/60 text-foreground/70 hover:text-[#0B2D7F] hover:scale-110'
           }`}
           aria-label="Save to Wishlist"
         >
@@ -159,7 +159,7 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
         <div className="mt-1 flex items-center justify-between text-[11px] text-foreground/50 font-sans">
           <span>Sizes XS–5XL</span>
           {discountPercent > 0 && (
-            <span className="text-[#800020] dark:text-[#EAA0B0] font-medium">
+            <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
               Save {discountPercent}%
             </span>
           )}
@@ -169,9 +169,9 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
         <button
           type="button"
           onClick={handleWhatsAppEnquiry}
-          className="mt-2.5 w-full py-1.5 px-3 rounded-full border border-[#25D366]/60 hover:border-[#25D366] bg-[#25D366]/5 hover:bg-[#25D366]/15 text-[#166534] dark:text-[#25D366] text-[11px] font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer"
+          className="mt-2.5 w-full py-1.5 px-3 rounded-full border border-[#0B2D7F]/40 hover:border-[#0B2D7F] bg-[#0B2D7F]/5 hover:bg-[#0B2D7F] hover:text-white text-[#0B2D7F] dark:text-[#D4AF37] text-[11px] font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer group/wa"
         >
-          <MessageCircle size={12} className="text-[#25D366]" />
+          <MessageCircle size={12} className="text-[#0B2D7F] group-hover/wa:text-white" />
           <span>Enquire on WhatsApp</span>
         </button>
       </div>

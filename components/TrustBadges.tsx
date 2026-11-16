@@ -49,7 +49,7 @@ export default function TrustBadges() {
         {TRUST_BADGES.map((badge) => (
           <div
             key={badge.id}
-            className="group relative p-5 sm:p-6 rounded-2xl bg-[#FAF9F6] border border-[#0B2D7F]/10 hover:border-[#D4AF37] transition-all duration-300 flex flex-col items-center text-center shadow-2xs hover:shadow-cardHover hover:-translate-y-1"
+            className="group relative p-5 sm:p-6 rounded-2xl bg-[#FFFEFE] border border-[#0B2D7F]/10 hover:border-[#D4AF37] transition-all duration-300 flex flex-col items-center text-center shadow-2xs hover:shadow-cardHover hover:-translate-y-1"
           >
             {/* Traditional Architectural Arch / Circle Icon Accent */}
             <div className="w-12 h-12 rounded-full bg-white shadow-soft border border-[#D4AF37]/40 flex items-center justify-center text-xl sm:text-2xl mb-3 group-hover:scale-110 transition-transform duration-300">

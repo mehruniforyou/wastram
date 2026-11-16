@@ -45,7 +45,7 @@ export default function RentalsPage() {
   )}`;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-14">
@@ -96,7 +96,7 @@ export default function RentalsPage() {
             <p className="text-[11px] text-ink-500 mt-1">Delivered 24 hrs in advance</p>
           </div>
           <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 text-center">
-            <ShieldCheck size={20} className="text-emerald-600 mx-auto mb-2" />
+            <ShieldCheck size={20} className="text-[#0B2D7F] dark:text-[#D4AF37] mx-auto mb-2" />
             <h4 className="font-serif text-sm font-medium">Stain Insurance</h4>
             <p className="text-[11px] text-ink-500 mt-1">Minor party spills covered</p>
           </div>

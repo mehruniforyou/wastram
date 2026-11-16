@@ -14,7 +14,7 @@ export default function AboutUsPage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE]">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -49,15 +49,15 @@ export default function AboutUsPage() {
             From our artisan clusters in Rajasthan and Mumbai, we celebrate age-old Indian crafts such as authentic Dabu mud-resist printing, Bagru botanical dyeing, delicate Chikankari embroidery, and fine cotton mulmul weaves. Our collections seamlessly bridge everyday versatility with head-turning festive silhouettes.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
-            <div className="p-4 rounded-xl bg-[#FAF9F6] border border-black/5 text-center">
+            <div className="p-4 rounded-xl bg-[#FFFEFE] border border-black/5 text-center">
               <span className="text-2xl font-black text-[#F58220]">100%</span>
               <p className="text-xs font-semibold mt-1">Artisanal Cotton &amp; Silk</p>
             </div>
-            <div className="p-4 rounded-xl bg-[#FAF9F6] border border-black/5 text-center">
+            <div className="p-4 rounded-xl bg-[#FFFEFE] border border-black/5 text-center">
               <span className="text-2xl font-black text-[#F58220]">Handcrafted</span>
               <p className="text-xs font-semibold mt-1">Made by Master Artisans</p>
             </div>
-            <div className="p-4 rounded-xl bg-[#FAF9F6] border border-black/5 text-center">
+            <div className="p-4 rounded-xl bg-[#FFFEFE] border border-black/5 text-center">
               <span className="text-2xl font-black text-[#F58220]">Worldwide</span>
               <p className="text-xs font-semibold mt-1">Pan-India &amp; Global Shipping</p>
             </div>

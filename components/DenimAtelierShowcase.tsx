@@ -10,7 +10,7 @@ export default function DenimAtelierShowcase() {
   const spotlightDenim = DENIM_COLLECTION.slice(0, 4);
 
   return (
-    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6]">
+    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FFFEFE]">
       <div className="max-w-7xl mx-auto flex flex-col gap-10">
         {/* Split-Screen Studio Atelier Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
@@ -49,7 +49,7 @@ export default function DenimAtelierShowcase() {
                 <div className="pt-2">
                   <Link
                     href="/collections/denim-collection"
-                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#FAF9F6] text-[#0B2D7F] hover:bg-white transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card active:scale-98"
+                    className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#FFFEFE] text-[#0B2D7F] hover:bg-white transition-all text-xs font-sans font-medium uppercase tracking-[0.15em] shadow-soft hover:shadow-card active:scale-98"
                   >
                     <span>Explore 140+ Denim Styles</span>
                     <span className="text-xs">&rarr;</span>

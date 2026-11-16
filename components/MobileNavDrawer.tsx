@@ -57,9 +57,9 @@ export default function MobileNavDrawer({
       />
 
       {/* Drawer content */}
-      <div className="relative w-[88%] max-w-[360px] h-full bg-[#FAF9F6] shadow-2xl z-10 flex flex-col overflow-y-auto no-scrollbar">
+      <div className="relative w-[88%] max-w-[360px] h-full bg-[#FFFEFE] shadow-2xl z-10 flex flex-col overflow-y-auto no-scrollbar">
         {/* Header with logo, social icons at top & close */}
-        <div className="flex items-center justify-between p-3.5 bg-[#FAF9F6] border-b border-[#0B2D7F]/10">
+        <div className="flex items-center justify-between p-3.5 bg-[#FFFEFE] border-b border-[#0B2D7F]/10">
           <Link href="/" onClick={handleClose} className="flex items-center gap-2 shrink-0 hover:opacity-90 transition-opacity" aria-label="Wastram Home">
             <picture className="w-7 h-7 sm:w-8 sm:h-8 shrink-0 flex items-center justify-center">
               <source srcSet="/images/brand/wastram-craft-emblem-hd.webp" type="image/webp" />
@@ -150,7 +150,7 @@ export default function MobileNavDrawer({
             <Link
               href="/collections/denim-collection"
               onClick={onClose}
-              className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-bold text-[#0B2D7F] bg-[#FAF9F6] border border-[#D4AF37]/40 hover:border-[#D4AF37] transition-all"
+              className="flex items-center justify-between py-2 px-3 rounded-lg text-xs font-bold text-[#0B2D7F] bg-[#FFFEFE] border border-[#D4AF37]/40 hover:border-[#D4AF37] transition-all"
             >
               <span className="flex items-center gap-1.5">
                 <span>Denim Collection</span>
@@ -255,14 +255,14 @@ export default function MobileNavDrawer({
         </div>
 
         {/* Footer Support Desk */}
-        <div className="p-4 bg-[#FAF9F6] border-t border-[#0B2D7F]/10 font-sans text-xs flex flex-col gap-2">
+        <div className="p-4 bg-[#FFFEFE] border-t border-[#0B2D7F]/10 font-sans text-xs flex flex-col gap-2">
           <div className="flex items-center justify-between text-[#0B2D7F]/80">
             <span>Customer Care:</span>
             <a href="tel:+918003088838" className="font-semibold text-[#0B2D7F]">+91 80030 88838</a>
           </div>
           <div className="flex items-center justify-between text-[#0B2D7F]/80">
             <span>WhatsApp Support:</span>
-            <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="font-semibold text-emerald-700">Chat Now</a>
+            <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#0B2D7F]">Chat Now</a>
           </div>
           <div className="flex items-center justify-between text-[#0B2D7F]/70 pt-2 text-[11px]">
             <Link href="/pages/faqs" onClick={handleClose} className="hover:text-[#0B2D7F]">FAQs</Link>

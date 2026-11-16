@@ -154,7 +154,7 @@ export default function TapAndViewModal() {
               >
                 <span>Show Price</span>
               </Link>
-              <span className="text-[10px] font-bold bg-[#FAF9F6] text-[#0B2D7F] border border-black/15 px-2 py-0.5 rounded">
+              <span className="text-[10px] font-bold bg-[#FFFEFE] text-[#0B2D7F] border border-black/15 px-2 py-0.5 rounded">
                 {tapAndViewProduct.moq || 'MOQ: 20 pcs'}
               </span>
             </div>
@@ -165,7 +165,7 @@ export default function TapAndViewModal() {
               <button
                 type="button"
                 onClick={openSizeGuide}
-                className="text-[11px] font-bold text-[#0B2D7F] bg-[#FAF9F6] px-3 py-1 rounded-full border border-black/15 hover:bg-[#0B2D7F] hover:text-white transition-all"
+                className="text-[11px] font-bold text-[#0B2D7F] bg-[#FFFEFE] px-3 py-1 rounded-full border border-black/15 hover:bg-[#0B2D7F] hover:text-white transition-all"
               >
                 What&apos;s my size ?
               </button>
@@ -219,7 +219,7 @@ export default function TapAndViewModal() {
             <Link
               href={`/products/${tapAndViewProduct.slug}`}
               onClick={closeTapAndView}
-              className="w-full py-2.5 rounded-full bg-white text-[#0B2D7F] border border-[#0B2D7F] hover:bg-[#FAF9F6] text-xs font-bold uppercase tracking-wider text-center transition-all"
+              className="w-full py-2.5 rounded-full bg-white text-[#0B2D7F] border border-[#0B2D7F] hover:bg-[#FFFEFE] text-xs font-bold uppercase tracking-wider text-center transition-all"
             >
               View Full Product Details →
             </Link>

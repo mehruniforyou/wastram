@@ -30,7 +30,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="relative mt-24 md:mt-32 overflow-hidden text-foreground bg-[#FDF9EE] dark:bg-[#12100E]"
+      className="relative mt-24 md:mt-32 overflow-hidden text-foreground bg-[#FFFEFE] dark:bg-[#12100E]"
       data-testid="site-footer"
     >
       {/* Mobile Layout Heritage Illustration (Portrait: 1024x1536 Optimized WebP, 120KB) */}
@@ -235,7 +235,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="WhatsApp Concierge"
-              className="hover:text-[#25D366] transition-colors"
+              className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
             >
               <MessageCircle size={18} strokeWidth={1.4} />
             </a>

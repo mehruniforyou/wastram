@@ -33,11 +33,11 @@ export default function BaisaUnder1000() {
   }, []);
 
   return (
-    <section className="py-14 md:py-20 bg-[#FDFBF7] dark:bg-[#100E0C] border-b border-ink-100 dark:border-white/5">
+    <section className="py-14 md:py-20 bg-[#FFFEFE] dark:bg-[#100E0C] border-b border-ink-100 dark:border-white/5">
       <div className="container-x">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-3 border-b border-ink-200/60 dark:border-white/10 gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 text-xs font-medium mb-2">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-[#D4AF37] text-xs font-medium mb-2">
               <Tag size={12} />
               <span>EVERYDAY ATELIER LUXURY</span>
             </div>

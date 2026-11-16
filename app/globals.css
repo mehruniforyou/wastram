@@ -66,8 +66,8 @@
 
 /* Tailor Stitched Ribbon Effect */
 .stitched-ribbon {
-  border: 1.5px dashed #25D366;
-  background-color: rgba(37, 211, 102, 0.08);
+  border: 1.5px dashed #0B2D7F;
+  background-color: rgba(11, 45, 127, 0.05);
 }
 
 .stitched-gold {
@@ -77,8 +77,8 @@
 
 /* Watermark Paisley Motif Pattern */
 .bg-motif-ivory {
-  background-color: #FCFBF7;
-  background-image: radial-gradient(#0B2D7F 0.5px, transparent 0.5px), radial-gradient(#D4AF37 0.5px, #FCFBF7 0.5px);
+  background-color: #FFFEFE;
+  background-image: radial-gradient(#0B2D7F 0.5px, transparent 0.5px), radial-gradient(#D4AF37 0.5px, #FFFEFE 0.5px);
   background-size: 24px 24px;
   background-position: 0 0, 12px 12px;
 }
@@ -269,7 +269,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .diwali-fit-button:hover {
-  background: #FAF9F6;
+  background: #FFFEFE;
   color: #0B2D7F;
   box-shadow: 0 4px 14px rgba(11, 45, 127, 0.08);
   transform: translateY(-1px);

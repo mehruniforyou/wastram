@@ -47,7 +47,7 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
               <Link
                 href={`/products/${product.slug}`}
                 onClick={onClose}
-                className="px-3 py-1 rounded-full bg-[#0B2D7F] text-[#FAF9F6] font-archivo text-[11px] font-bold uppercase tracking-wider hover:bg-[#071F59]"
+                className="px-3 py-1 rounded-full bg-[#0B2D7F] text-[#FFFEFE] font-archivo text-[11px] font-bold uppercase tracking-wider hover:bg-[#071F59]"
               >
                 Show Price
               </Link>
@@ -70,7 +70,7 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
                 className={`py-2 text-xs font-bold rounded-lg border transition-all ${
                   selectedSize === size
                     ? 'border-[#0B2D7F] bg-[#0B2D7F] text-white shadow-sm'
-                    : 'border-black/15 bg-[#FAF9F6] text-[#0B2D7F] hover:border-black/40'
+                    : 'border-black/15 bg-[#FFFEFE] text-[#0B2D7F] hover:border-black/40'
                 }`}
               >
                 {size}

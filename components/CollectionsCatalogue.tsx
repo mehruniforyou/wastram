@@ -213,7 +213,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     selectedCategory !== 'all' || selectedSize !== 'All' || selectedPrice !== 'all' || sortBy !== 'featured';
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-6 md:py-10">
@@ -285,7 +285,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               <select
                 value={selectedSize}
                 onChange={(e) => setSelectedSize(e.target.value)}
-                className="appearance-none text-xs font-medium bg-[#FCFBF7] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
+                className="appearance-none text-xs font-medium bg-[#FFFEFE] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
               >
                 {SIZES.map((sz) => (
                   <option key={sz} value={sz}>
@@ -301,7 +301,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               <select
                 value={selectedPrice}
                 onChange={(e) => setSelectedPrice(e.target.value)}
-                className="appearance-none text-xs font-medium bg-[#FCFBF7] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
+                className="appearance-none text-xs font-medium bg-[#FFFEFE] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
               >
                 {PRICE_RANGES.map((pr) => (
                   <option key={pr.id} value={pr.id}>
@@ -332,7 +332,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="appearance-none text-xs font-medium bg-[#FCFBF7] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
+                className="appearance-none text-xs font-medium bg-[#FFFEFE] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
               >
                 <option value="featured">Featured</option>
                 <option value="newest">New Arrivals</option>

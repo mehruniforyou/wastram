@@ -84,9 +84,9 @@ export default function FeatureCategories() {
   };
 
   return (
-    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-[#FAF9F6] relative overflow-hidden">
+    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-[#FFFEFE] relative overflow-hidden">
       {/* Subtle Jaipur Zari Mandala Background Tint */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[600px] bg-[#FAF5E6]/60 blur-3xl rounded-full pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[600px] bg-[#0B2D7F]/5 blur-3xl rounded-full pointer-events-none" />
 
       <div className="max-w-[1500px] mx-auto relative z-10 flex flex-col gap-10 sm:gap-14">
         {/* Section Header Matching Gulmohar Jaipur */}
@@ -117,7 +117,7 @@ export default function FeatureCategories() {
               className="group relative flex flex-col bg-white rounded-2xl overflow-hidden border border-[#0B2D7F]/10 hover:border-[#D4AF37] shadow-soft hover:shadow-cardHover transition-all duration-500"
             >
               {/* Image Media Container with Traditional Jharokha Arch Framing */}
-              <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#FAF9F6]">
+              <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#FFFEFE]">
                 <img
                   src={cat.image}
                   alt={cat.title}
@@ -149,7 +149,7 @@ export default function FeatureCategories() {
                   <button
                     type="button"
                     onClick={(e) => handleWhatsAppCategory(cat.title, e)}
-                    className="w-full py-2.5 rounded-full bg-[#25D366] hover:bg-[#128C7E] text-white font-jost text-[11px] font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center justify-center gap-1.5 transition-transform active:scale-95 cursor-pointer"
+                    className="w-full py-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-jost text-[11px] font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center justify-center gap-1.5 transition-transform active:scale-95 cursor-pointer"
                   >
                     <span>Enquire Wholesale</span>
                     <span>&rarr;</span>
@@ -158,7 +158,7 @@ export default function FeatureCategories() {
               </div>
 
               {/* Text Info Below Image */}
-              <div className="p-3.5 sm:p-5 flex flex-col items-center text-center bg-white transition-colors group-hover:bg-[#FAF9F6]/50">
+              <div className="p-3.5 sm:p-5 flex flex-col items-center text-center bg-white transition-colors group-hover:bg-[#FFFEFE]">
                 <h3 className="text-xs sm:text-sm lg:text-base font-jost font-medium text-[#071F59] uppercase tracking-[0.06em] group-hover:text-[#0B2D7F] transition-colors">
                   {cat.title}
                 </h3>

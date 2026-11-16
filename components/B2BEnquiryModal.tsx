@@ -48,7 +48,7 @@ export default function B2BEnquiryModal({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
       <div
-        className="relative w-full max-w-lg bg-[#FAF9F6] rounded-3xl shadow-2xl border border-black/10 overflow-hidden max-h-[92vh] flex flex-col"
+        className="relative w-full max-w-lg bg-[#FFFEFE] rounded-3xl shadow-2xl border border-black/10 overflow-hidden max-h-[92vh] flex flex-col"
         onClick={e => e.stopPropagation()}
       >
         {/* Modal Header */}
@@ -84,7 +84,7 @@ export default function B2BEnquiryModal({
                   href={`https://wa.me/918003088838?text=${whatsappMessage}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-5 py-2.5 rounded-full bg-[#25D366] text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 hover:opacity-90"
+                  className="px-5 py-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-all shadow-sm"
                 >
                   <span>Chat on WhatsApp</span>
                 </a>
@@ -114,10 +114,10 @@ export default function B2BEnquiryModal({
                   </span>
                   <h4 className="text-sm font-bold text-[#0B2D7F] truncate">{product.title}</h4>
                   <div className="flex items-center gap-2 mt-1">
-                    <span className="text-[10px] bg-[#FAF9F6] text-[#0B2D7F] px-2 py-0.5 rounded border border-black/10 font-semibold">
+                    <span className="text-[10px] bg-[#FFFEFE] text-[#0B2D7F] px-2 py-0.5 rounded border border-black/10 font-semibold">
                       Pack: {selectedSize}
                     </span>
-                    <span className="text-[10px] bg-[#FAF9F6] text-[#0B2D7F] px-2 py-0.5 rounded border border-black/10 font-semibold">
+                    <span className="text-[10px] bg-[#FFFEFE] text-[#0B2D7F] px-2 py-0.5 rounded border border-black/10 font-semibold">
                       {product.moq || 'MOQ: 20 pcs'}
                     </span>
                   </div>
@@ -251,7 +251,7 @@ export default function B2BEnquiryModal({
                     href={`https://wa.me/918003088838?text=${whatsappMessage}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="py-3 px-4 rounded-full bg-[#25D366] text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 hover:opacity-90 transition-all"
+                    className="py-3 px-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 transition-all shadow-sm"
                   >
                     <span>💬 WhatsApp</span>
                   </a>

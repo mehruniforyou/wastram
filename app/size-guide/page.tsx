@@ -41,7 +41,7 @@ export default function SizeGuidePage() {
   const [unit, setUnit] = useState<'in' | 'cm'>('in');
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-16">
@@ -89,7 +89,7 @@ export default function SizeGuidePage() {
         <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden border border-ink-100 dark:border-white/10 bg-white dark:bg-neutral-900 shadow-sm mb-16">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs sm:text-sm">
-              <thead className="bg-[#FAF7F0] dark:bg-neutral-800 text-ink-900 dark:text-white uppercase tracking-wider font-semibold border-b border-ink-100 dark:border-white/10">
+              <thead className="bg-[#FFFEFE] dark:bg-neutral-800 text-ink-900 dark:text-white uppercase tracking-wider font-semibold border-b border-ink-100 dark:border-white/10">
                 <tr>
                   <th className="p-4">Size</th>
                   <th className="p-4">Bust ({unit})</th>
@@ -122,18 +122,18 @@ export default function SizeGuidePage() {
         </div>
 
         {/* Tailor Advice */}
-        <div className="max-w-2xl mx-auto p-6 rounded-3xl bg-[#f0fdf4] dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/40 text-center">
-          <h3 className="font-serif text-xl font-medium text-emerald-950 dark:text-emerald-200 mb-2">
+        <div className="max-w-2xl mx-auto p-6 rounded-3xl bg-[#0B2D7F]/5 dark:bg-[#0B2D7F]/20 border border-[#0B2D7F]/20 dark:border-[#0B2D7F]/40 text-center">
+          <h3 className="font-serif text-xl font-medium text-[#0B2D7F] dark:text-[#D4AF37] mb-2">
             Need a Custom Fit or Sizing Help?
           </h3>
-          <p className="text-xs sm:text-sm text-emerald-800 dark:text-emerald-300 leading-relaxed font-sans mb-6">
+          <p className="text-xs sm:text-sm text-[#0B2D7F]/80 dark:text-white/80 leading-relaxed font-sans mb-6">
             Our Jaipur master tailor will guide you through accurate self-measurements, advise on ease for cotton handblocks, and provide complimentary alterations.
           </p>
           <a
             href="https://wa.me/918003088838?text=Hello%20Wastram%2C%20I%20would%20like%20guidance%20with%20finding%20the%20right%20size%20for%20my%20measurements."
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 rounded-full bg-[#25D366] text-white text-xs font-semibold hover:bg-emerald-600 transition-colors inline-flex items-center gap-2 shadow-sm"
+            className="px-6 py-3 rounded-full bg-[#0B2D7F] text-white text-xs font-semibold hover:bg-[#071F59] transition-colors inline-flex items-center gap-2 shadow-sm"
           >
             <MessageCircle size={15} />
             <span>Chat with Master Tailor</span>

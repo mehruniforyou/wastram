@@ -15,7 +15,7 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAF9F6]">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE]">
       <Header
         onOpenDrawer={() => setIsDrawerOpen(true)}
         onOpenStory={() => setIsStoryOpen(true)}
@@ -63,7 +63,7 @@ export default function ContactPage() {
               </p>
               <p>
                 <strong>WhatsApp Concierge: </strong>
-                <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="text-emerald-700 font-semibold underline">+91 80030 88838</a>
+                <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="text-[#0B2D7F] font-semibold underline">+91 80030 88838</a>
               </p>
               <p>
                 <strong>Working Hours: </strong>
@@ -75,7 +75,7 @@ export default function ContactPage() {
           {/* Form */}
           <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-black/5">
             {submitted ? (
-              <div className="py-12 text-center text-emerald-800 space-y-2">
+              <div className="py-12 text-center text-[#0B2D7F] space-y-2">
                 <span className="text-3xl">✓</span>
                 <h4 className="font-bold text-sm">Thank you for reaching out!</h4>
                 <p className="text-xs text-black/60">Our customer team will respond to your enquiry within 24 hours.</p>
@@ -84,23 +84,23 @@ export default function ContactPage() {
               <form onSubmit={e => { e.preventDefault(); setSubmitted(true); }} className="space-y-4 text-xs font-archivo">
                 <div>
                   <label className="block font-semibold text-[#0B2D7F] mb-1">Your Name</label>
-                  <input required type="text" placeholder="Enter your full name" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
+                  <input required type="text" placeholder="Enter your full name" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FFFEFE] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <div>
                   <label className="block font-semibold text-[#0B2D7F] mb-1">Email Address</label>
-                  <input required type="email" placeholder="name@example.com" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
+                  <input required type="email" placeholder="name@example.com" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FFFEFE] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <div>
                   <label className="block font-semibold text-[#0B2D7F] mb-1">Phone / WhatsApp</label>
-                  <input type="tel" placeholder="+91 98765 43210" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
+                  <input type="tel" placeholder="+91 98765 43210" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FFFEFE] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <div>
                   <label className="block font-semibold text-[#0B2D7F] mb-1">Message</label>
-                  <textarea required rows={4} placeholder="How can we help you?" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FAF9F6] focus:outline-none focus:border-[#0B2D7F]" />
+                  <textarea required rows={4} placeholder="How can we help you?" className="w-full px-3 py-2 rounded-lg border border-black/15 bg-[#FFFEFE] focus:outline-none focus:border-[#0B2D7F]" />
                 </div>
                 <button
                   type="submit"
-                  className="w-full py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-[#FAF9F6] font-bold text-xs uppercase tracking-wider transition-colors shadow-md"
+                  className="w-full py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-[#FFFEFE] font-bold text-xs uppercase tracking-wider transition-colors shadow-md"
                 >
                   Send Message
                 </button>

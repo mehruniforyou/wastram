@@ -84,7 +84,7 @@ export default function BaisaServicesGrid() {
                   <span className="font-serif text-2xl text-[#C5A059] font-light">
                     {s.step}
                   </span>
-                  <div className="w-10 h-10 rounded-full bg-[#FAF9F6] dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 group-hover:scale-110 transition-transform">
+                  <div className="w-10 h-10 rounded-full bg-[#FFFEFE] dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 group-hover:scale-110 transition-transform">
                     <Icon size={18} />
                   </div>
                 </div>

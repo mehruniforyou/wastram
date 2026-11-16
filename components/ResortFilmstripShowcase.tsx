@@ -20,7 +20,7 @@ export default function ResortFilmstripShowcase() {
   };
 
   return (
-    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FAF9F6] overflow-hidden">
+    <section className="w-full py-14 md:py-24 px-4 md:px-8 bg-[#FFFEFE] overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-10">
         {/* Header with Navigation Controls */}
         <ScrollReveal direction="up" distance={20} duration={800}>

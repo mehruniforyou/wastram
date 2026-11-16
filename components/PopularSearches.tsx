@@ -6,7 +6,7 @@ import { NISHORAMA_POPULAR_SEARCHES } from '@/data/nishorama-data';
 
 export default function PopularSearches() {
   return (
-    <section className="w-full bg-[#FAF9F6] px-4 py-8 md:py-12 font-archivo">
+    <section className="w-full bg-[#FFFEFE] px-4 py-8 md:py-12 font-archivo">
       <div className="max-w-7xl mx-auto flex flex-col gap-6">
         {Object.entries(NISHORAMA_POPULAR_SEARCHES).map(([category, items]) => (
           <div key={category} className="flex flex-col gap-2 pb-4">

@@ -73,7 +73,7 @@ const CHAPTERS: Chapter[] = [
 
 export default function BaisaChapters() {
   return (
-    <section className="py-16 md:py-24 container-x bg-[#FAF9F6] dark:bg-[#12100E] border-b border-ink-100 dark:border-white/5">
+    <section className="py-16 md:py-24 container-x bg-[#FFFEFE] dark:bg-[#12100E] border-b border-ink-100 dark:border-white/5">
       <div className="text-center max-w-2xl mx-auto mb-14">
         <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
           EXPLORE OUR COLLECTIONS

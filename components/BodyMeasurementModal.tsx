@@ -51,7 +51,7 @@ export default function BodyMeasurementModal() {
                 onClick={() => setUnit('inch')}
                 className={`px-3 py-1 rounded-full transition-all ${
                   unit === 'inch'
-                    ? 'bg-[#0B2D7F] text-[#FAF9F6] shadow-sm'
+                    ? 'bg-[#0B2D7F] text-[#FFFEFE] shadow-sm'
                     : 'text-black/60 hover:text-black'
                 }`}
               >
@@ -62,7 +62,7 @@ export default function BodyMeasurementModal() {
                 onClick={() => setUnit('cm')}
                 className={`px-3 py-1 rounded-full transition-all ${
                   unit === 'cm'
-                    ? 'bg-[#0B2D7F] text-[#FAF9F6] shadow-sm'
+                    ? 'bg-[#0B2D7F] text-[#FFFEFE] shadow-sm'
                     : 'text-black/60 hover:text-black'
                 }`}
               >
@@ -96,8 +96,8 @@ export default function BodyMeasurementModal() {
               {data.map((row, idx) => (
                 <tr
                   key={row.size}
-                  className={`border-b border-black/5 transition-colors hover:bg-[#FAF9F6] ${
-                    idx % 2 === 0 ? 'bg-white' : 'bg-[#FAF9F6]/60'
+                  className={`border-b border-black/5 transition-colors hover:bg-[#FFFEFE] ${
+                    idx % 2 === 0 ? 'bg-white' : 'bg-[#FFFEFE]'
                   }`}
                 >
                   <td className="py-2.5 px-3 font-bold text-[#0B2D7F]">{row.size}</td>

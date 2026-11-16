@@ -77,7 +77,7 @@ export default function WholesalePage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FCFBF7] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-16">
@@ -173,7 +173,7 @@ export default function WholesalePage() {
                   placeholder="e.g. Sarah Jenkins"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                 />
               </div>
               <div>
@@ -184,7 +184,7 @@ export default function WholesalePage() {
                   placeholder="e.g. Bloom & Silk Boutique"
                   value={formData.storeName}
                   onChange={(e) => setFormData({ ...formData, storeName: e.target.value })}
-                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                 />
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function WholesalePage() {
                   placeholder="buyer@boutique.com"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                 />
               </div>
               <div>
@@ -209,7 +209,7 @@ export default function WholesalePage() {
                   placeholder="+44 7123 456789"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                  className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
                 />
               </div>
             </div>
@@ -221,7 +221,7 @@ export default function WholesalePage() {
                 placeholder="e.g. United States, United Kingdom, Australia, UAE, India"
                 value={formData.country}
                 onChange={(e) => setFormData({ ...formData, country: e.target.value })}
-                className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FCFBF7] dark:bg-neutral-800"
+                className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
               />
             </div>
 
