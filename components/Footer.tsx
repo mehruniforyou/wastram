@@ -33,29 +33,30 @@ export default function Footer() {
       className="relative mt-24 md:mt-32 border-t border-[#DEE2E6] dark:border-white/10 overflow-hidden text-foreground bg-[#FDF9EE] dark:bg-[#12100E]"
       data-testid="site-footer"
     >
-      {/* Mobile Layout Heritage Illustration (Portrait: 1024x1536 Lossless Ultra-HD) */}
+      {/* Mobile Layout Heritage Illustration (Portrait: 1024x1536 Optimized WebP, 120KB) */}
       <div
         className="block md:hidden absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-100 dark:opacity-30 pointer-events-none"
         style={{
-          backgroundImage: "url('/images/footer-heritage-bg-mobile.png')",
+          backgroundImage: "url('/images/footer-heritage-bg-mobile.webp')",
         }}
       />
 
-      {/* Desktop Layout Heritage Illustration (Panoramic Landscape: 2172x724 Lossless Ultra-HD) */}
+      {/* Desktop Layout Heritage Illustration (Panoramic Landscape: 2172x724 Optimized WebP, 205KB) */}
       <div
         className="hidden md:block absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-100 dark:opacity-30 pointer-events-none"
         style={{
-          backgroundImage: "url('/images/footer-heritage-bg-desktop.png')",
+          backgroundImage: "url('/images/footer-heritage-bg-desktop.webp')",
         }}
       />
 
       {/* Dark mode ambient overlay only */}
       <div className="hidden dark:block absolute inset-0 z-0 bg-black/60 pointer-events-none" />
 
-      {/* Main Footer Container */}
-      <div className="relative z-10 container-x py-16 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
-        {/* Column 1: Brand Atelier Manifesto & Coordinates (md:col-span-4) */}
-        <div className="md:col-span-4">
+      {/* Upper Content Section (Shifted Upwards into the Clear Ivory Sky) */}
+      <div className="relative z-10 container-x pt-12 md:pt-16 pb-6">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
+          {/* Column 1: Brand Atelier Manifesto & Coordinates (md:col-span-4) */}
+          <div className="md:col-span-4">
           {/* Official Wastram Crest & Gold Thread Logo */}
           <Link
             href="/"
@@ -238,9 +239,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="relative z-10 border-t border-black/10 dark:border-white/10 py-6">
-        <div className="container-x flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-foreground/60 font-body">
+        {/* Minimal Copyright Line sitting cleanly right beneath the navigation columns */}
+        <div className="mt-8 pt-6 border-t border-[#D4AF37]/25 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-foreground/60 font-body">
           <div>
             &copy; {new Date().getFullYear()} Wastram Jaipur. All rights reserved.
           </div>
@@ -253,6 +253,12 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      {/* Dedicated Heritage Illustration Showcase Zone - ONLY the Jaipur palaces, arches, peacocks & gold border appear here */}
+      <div
+        className="relative z-0 h-44 sm:h-56 md:h-72 lg:h-84 xl:h-96 w-full pointer-events-none"
+        aria-hidden="true"
+      />
     </footer>
   );
 }
