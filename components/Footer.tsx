@@ -33,24 +33,24 @@ export default function Footer() {
       className="relative mt-24 md:mt-32 border-t border-[#DEE2E6] dark:border-white/10 overflow-hidden text-foreground bg-[#FDF9EE] dark:bg-[#12100E]"
       data-testid="site-footer"
     >
-      {/* Mobile Layout Heritage Illustration (Portrait: Hawa Mahal, Peacocks & Arches) */}
+      {/* Mobile Layout Heritage Illustration (Portrait: Hawa Mahal, Peacocks & Arches) - Full Crisp Artwork */}
       <div
-        className="block md:hidden absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-55 dark:opacity-25 pointer-events-none"
+        className="block md:hidden absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-100 dark:opacity-30 pointer-events-none"
         style={{
           backgroundImage: "url('/images/footer-heritage-bg-mobile.jpg')",
         }}
       />
 
-      {/* Desktop Layout Heritage Illustration (Panoramic Landscape) */}
+      {/* Desktop Layout Heritage Illustration (Panoramic Landscape) - Full Crisp Artwork */}
       <div
-        className="hidden md:block absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-60 dark:opacity-25 pointer-events-none"
+        className="hidden md:block absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-100 dark:opacity-30 pointer-events-none"
         style={{
           backgroundImage: "url('/images/footer-heritage-bg-desktop.jpg')",
         }}
       />
 
-      {/* Gentle Ivory Gradient Wash for Typography Readability */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#FDF9EE]/90 via-[#FDF9EE]/70 to-[#FDF9EE]/80 dark:from-[#12100E]/90 dark:via-[#12100E]/75 dark:to-[#12100E]/85 pointer-events-none" />
+      {/* Dark mode ambient overlay only */}
+      <div className="hidden dark:block absolute inset-0 z-0 bg-black/60 pointer-events-none" />
 
       {/* Main Footer Container */}
       <div className="relative z-10 container-x py-16 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
