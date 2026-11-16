@@ -109,9 +109,9 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             aria-label="Wastram Home"
           >
             <img
-              src="/images/brand/wastram-artisan-crest.jpg"
+              src="/images/brand/wastram-artisan-crest.png"
               alt="Wastram Artisan Hallmark"
-              className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 rounded-full object-cover border border-[#D4AF37]/40 shadow-soft transition-transform duration-300 group-hover:scale-105 shrink-0"
+              className="h-8 sm:h-9 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 shrink-0"
             />
             <img
               src="/images/brand/wastram-header-logo-primary.png"
@@ -213,9 +213,9 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                   className="flex items-center gap-2.5 py-1"
                 >
                   <img
-                    src="/images/brand/wastram-artisan-crest.jpg"
+                    src="/images/brand/wastram-artisan-crest.png"
                     alt="Wastram Artisan Hallmark"
-                    className="h-8 w-8 rounded-full object-cover border border-[#D4AF37]/40 shadow-soft shrink-0"
+                    className="h-8 w-auto object-contain shrink-0"
                   />
                   <img
                     src="/images/brand/wastram-header-logo-primary.png"

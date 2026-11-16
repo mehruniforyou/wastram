@@ -55,9 +55,9 @@ export default function Footer() {
             aria-label="Wastram Home"
           >
             <img
-              src="/images/brand/wastram-artisan-crest.jpg"
+              src="/images/brand/wastram-artisan-crest.png"
               alt="Wastram Artisan Hallmark"
-              className="h-10 md:h-12 w-10 md:w-12 rounded-full object-cover border border-[#D4AF37]/40 shadow-soft transition-transform duration-300 group-hover:scale-105 shrink-0"
+              className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 shrink-0"
             />
             <img
               src="/images/brand/wastram-gold-thread-logo.png"

@@ -21,9 +21,9 @@ export default function StyleHubVisit() {
         <div className="md:col-span-5">
           <div className="flex items-center gap-3 mb-4">
             <img
-              src="/images/brand/wastram-artisan-crest.jpg"
+              src="/images/brand/wastram-artisan-crest.png"
               alt="Wastram Artisan Hallmark"
-              className="w-10 h-10 rounded-full object-cover border border-[#D4AF37]/50 shadow-soft shrink-0"
+              className="w-10 h-10 object-contain shrink-0"
             />
             <div className="eyebrow text-[#D4AF37] font-semibold flex items-center gap-1.5">
               <span>✦</span>
