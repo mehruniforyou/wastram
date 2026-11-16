@@ -50,7 +50,7 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
 • Product: ${product.title}
 • Code/SKU: ${skuCode}
 • Category: ${categoryName}
-• Price: ₹${price}
+• Sourcing: Wholesale & Boutique Enquiry (MOQ: 20 pcs)
 
 Please share details regarding sizing, fabric drape, and wholesale ordering.`;
 
@@ -89,14 +89,13 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
 
         {/* Badges: Top Left in Brand Blue */}
         <div className="absolute top-2.5 left-2.5 flex flex-col gap-1 z-10 pointer-events-none">
-          {product.badge && (
+          {product.badge ? (
             <span className="bg-[#0B2D7F] text-white text-[10px] uppercase tracking-wider font-semibold px-2.5 py-0.5 rounded-full shadow-xs">
               {product.badge}
             </span>
-          )}
-          {discountPercent > 10 && !product.badge && (
-            <span className="bg-[#0B2D7F] text-white text-[10px] tracking-wider font-semibold px-2 py-0.5 rounded-full shadow-xs">
-              -{discountPercent}%
+          ) : (
+            <span className="bg-[#0B2D7F] text-white text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full shadow-xs">
+              Wholesale
             </span>
           )}
         </div>
@@ -131,7 +130,7 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
         </button>
       </div>
 
-      {/* 2. Product Meta & Pricing Information */}
+      {/* 2. Product Meta & Wholesale Sourcing Information (No Prices) */}
       <div className="pt-3 flex flex-col flex-1">
         <div className="flex items-start justify-between gap-2">
           <Link href={`/products/${product.slug}`} className="block flex-1 group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors">
@@ -140,8 +139,8 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
             </h3>
           </Link>
           <div className="text-right shrink-0">
-            <span className="text-[14px] md:text-[15px] font-semibold text-foreground font-sans tracking-tight">
-              ₹{price.toLocaleString('en-IN')}
+            <span className="text-[10px] uppercase tracking-wider font-semibold text-[#0B2D7F] dark:text-[#D4AF37] bg-[#0B2D7F]/10 dark:bg-white/10 px-2 py-0.5 rounded-full">
+              Enquiry
             </span>
           </div>
         </div>
@@ -149,20 +148,14 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
         {/* Subtitle & Size Availability */}
         <div className="mt-1 flex items-center justify-between text-xs text-foreground/60 font-sans">
           <span className="line-clamp-1">{product.fabric || product.category || 'Pure Cotton'}</span>
-          {regularPrice > price && (
-            <span className="text-[11px] line-through text-foreground/45">
-              ₹{regularPrice.toLocaleString('en-IN')}
-            </span>
-          )}
+          <span className="text-[11px] text-[#0B2D7F] dark:text-[#D4AF37] font-medium">MOQ 20 Pcs</span>
         </div>
 
-        <div className="mt-1 flex items-center justify-between text-[11px] text-foreground/50 font-sans">
-          <span>Sizes XS–5XL</span>
-          {discountPercent > 0 && (
-            <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
-              Save {discountPercent}%
-            </span>
-          )}
+        <div className="mt-1 flex items-center justify-between gap-1 text-[11px] text-foreground/50 font-sans">
+          <span className="truncate">Sizes S–XXL</span>
+          <span className="text-foreground/60 font-medium shrink-0">
+            Export Grade
+          </span>
         </div>
 
         {/* Direct WhatsApp Concierge Micro-CTA on Hover / Mobile */}

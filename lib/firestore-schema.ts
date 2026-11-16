@@ -24,7 +24,7 @@ export interface ProductDocument {
   salePrice: number;   // Wholesale discounted tier price
   images: string[];    // Top-level display images (variant 0 angles)
   colorVariants: ColorVariantDocument[]; // 1 to 5 Colorways with their multi-angle photoshoots
-  sizes: string[];     // Sizing pre-pack ratio e.g. ["XS", "S", "M", "L", "XL", "XXL"]
+  sizes: string[];     // Sizing pre-pack ratio e.g. ["S", "M", "L", "XL", "XXL"]
   fabric: string;      // Material specification e.g. "Lustrous Crepe Silk"
   description: string; // Luxury wholesale product copy
   details: string[];   // Bulleted craftsmanship details & specifications

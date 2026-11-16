@@ -86,7 +86,7 @@ export default function CraftPage() {
             Wear Handcrafted Heritage Today
           </h2>
           <p className="text-xs sm:text-sm text-white/80 max-w-xl mx-auto mb-8 font-sans">
-            Every garment in our collections is crafted by the hands of real Jaipur artisans. Dispatched directly from our Sanganer workshop with free delivery on orders ₹1,499+.
+            Every garment in our collections is crafted by the hands of real Jaipur artisans. Dispatched directly from our Sanganer workshop with worldwide boutique air cargo.
           </p>
           <Link
             href="/collections/shop-all"

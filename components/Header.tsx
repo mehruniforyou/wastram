@@ -77,8 +77,8 @@ export default function Header({ onOpenSearch }: HeaderProps) {
     { label: 'Tops & Shirts', href: '/collections/tops-shirts' },
     { label: 'Umbrella Dresses', href: '/collections/umbrella-dresses' },
     { label: 'Denim Collection', href: '/collections/denim-collection' },
-    { label: 'Under ₹1,000', href: '/offers' },
-    { label: 'Sizes XS to 8XL', href: '/products' },
+    { label: 'Atelier Edits', href: '/offers' },
+    { label: 'Sizes S to XXL', href: '/products' },
     { label: 'Wholesale & Trade', href: '/wholesale' },
   ];
 
@@ -124,12 +124,12 @@ export default function Header({ onOpenSearch }: HeaderProps) {
         data-testid="site-navbar"
       >
         {/* 1. Brand Blue Announcement Bar */}
-        <div className="bg-[#0B2D7F] text-white text-[11px] md:text-xs py-2 px-4 text-center font-medium font-sans tracking-wide flex items-center justify-center gap-2">
-          <span>Free delivery on orders of ₹1,499 and above</span>
+        <div className="bg-[#0B2D7F] text-white text-[10px] sm:text-xs py-1.5 sm:py-2 px-3 sm:px-4 text-center font-medium font-sans tracking-wide flex items-center justify-center gap-1.5 sm:gap-2 overflow-hidden whitespace-nowrap">
+          <span className="truncate">Direct Jaipur Handloom Atelier</span>
           <span className="text-[#D4AF37]">·</span>
           <span>Made in our Jaipur factory</span>
-          <span className="text-[#D4AF37]">·</span>
-          <span className="hidden sm:inline">Worldwide Boutique Air Cargo</span>
+          <span className="text-[#D4AF37] hidden md:inline">·</span>
+          <span className="hidden md:inline">Worldwide Boutique Air Cargo</span>
         </div>
 
         {/* 2. Main Navigation Bar */}
@@ -148,22 +148,17 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             )}
           </button>
 
-          {/* Official Wastram Brand Logo with Artisan Crest */}
+          {/* Official Wastram Wordmark Logo (Shifted to Leftmost with Safe Padding) */}
           <Link
             href="/"
-            className="flex items-center gap-2 sm:gap-3 group py-1"
+            className="flex items-center group py-1 pl-1 sm:pl-2"
             data-testid="nav-logo"
             aria-label="Wastram Home"
           >
             <img
-              src="/images/brand/wastram-artisan-crest.png"
-              alt="Wastram Artisan Hallmark"
-              className="h-8 sm:h-9 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 shrink-0"
-            />
-            <img
               src="/images/brand/wastram-header-logo-primary.png"
               alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-              className="h-7 sm:h-8 md:h-10 w-auto object-contain dark:brightness-125 transition-transform duration-300 group-hover:scale-102"
+              className="h-6 sm:h-8 md:h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
             />
           </Link>
 
@@ -278,14 +273,14 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             </div>
 
             <Link
-              href="/rentals"
+              href="/craft"
               className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
-                pathname === '/rentals'
+                pathname === '/craft'
                   ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
                   : 'text-foreground/80 hover:text-foreground'
               }`}
             >
-              Rent an outfit
+              Heritage Crafts
             </Link>
 
             <Link
@@ -345,24 +340,24 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               <Search size={19} strokeWidth={1.5} />
             </button>
 
-            {/* Light / Dark Mode Toggle */}
-            <button
-              onClick={toggleTheme}
-              className="p-2 text-foreground/75 hover:text-foreground transition-colors cursor-pointer"
-              aria-label="Toggle Theme"
-              data-testid="theme-toggle"
+            {/* Official Wastram Artisan Logomark (Replaces Theme Selector) */}
+            <Link
+              href="/"
+              className="p-1.5 flex items-center justify-center transition-transform hover:scale-105 shrink-0"
+              aria-label="Wastram Artisan Hallmark"
+              title="Wastram Atelier Hallmark"
             >
-              {theme === 'dark' ? (
-                <Sun size={18} strokeWidth={1.5} />
-              ) : (
-                <Moon size={18} strokeWidth={1.5} />
-              )}
-            </button>
+              <img
+                src="/images/brand/wastram-artisan-crest.png"
+                alt="Wastram Artisan Logomark"
+                className="h-6 w-6 sm:h-7 sm:w-7 object-contain"
+              />
+            </Link>
 
             {/* Wastram Brand Blue WhatsApp Pill CTA */}
             <button
               onClick={handleWhatsAppConcierge}
-              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] bg-[#0B2D7F]/5 hover:bg-[#0B2D7F] hover:text-white transition-all cursor-pointer text-xs font-medium"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] bg-[#0B2D7F]/5 hover:bg-[#0B2D7F] hover:text-white transition-all cursor-pointer text-xs font-medium"
               aria-label="Chat on WhatsApp"
             >
               <MessageCircle size={14} className="text-[#0B2D7F]" />
@@ -481,11 +476,11 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 </div>
 
                 <Link
-                  href="/rentals"
+                  href="/craft"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-between py-3 text-sm font-semibold text-foreground font-serif"
                 >
-                  <span>Rent an outfit</span>
+                  <span>Heritage Crafts</span>
                   <ArrowRight size={14} className="text-foreground/40" />
                 </Link>
 
@@ -558,7 +553,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="text-[11px] px-3 py-1 rounded-full border border-[#E7E5E4] dark:border-white/10 bg-white/60 dark:bg-black/20 text-[#0B2D7F] dark:text-[#D4AF37] font-medium"
                   >
-                    Under ₹1,000
+                    Atelier Edits
                   </Link>
                 </div>
               </div>

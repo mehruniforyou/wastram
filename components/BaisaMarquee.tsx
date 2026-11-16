@@ -4,13 +4,13 @@ import React, { useState } from 'react';
 import { Pause, Play } from 'lucide-react';
 
 const MARQUEE_ITEMS = [
-  'Free delivery on orders of ₹1,499 and above',
+  'Export-Grade Jaipur Handloom Atelier',
   'Direct from our Jaipur factory',
-  'Sizes XS to 8XL with true grading',
+  'Sizes S to XXL with true grading',
   'Hand block-printed in Sanganer',
   'Pure 60-60 Cotton & Modal Silks',
   'Worldwide Boutique Air Cargo',
-  'Cash on Delivery available across India',
+  'Flexible MOQ for Boutiques Worldwide',
   '3-Stage Quality Check on every piece',
 ];
 

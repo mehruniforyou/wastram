@@ -87,7 +87,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
           </h1>
 
           <p className="mt-4 text-sm sm:text-base text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
-            From XS to 8XL, feeding zippers, pocket additions, or custom sleeve drops — our master tailors in Sanganer craft garments made uniquely to your body.
+            From S to XXL, feeding zippers, pocket additions, or custom sleeve drops — our master tailors in Sanganer craft garments made uniquely to your body.
           </p>
         </div>
 

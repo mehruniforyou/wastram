@@ -24,23 +24,15 @@ const CATEGORIES = [
   { id: 'traditional-gowns', label: 'Gowns & Anarkalis', chapter: 'CHAPTER 06' },
   { id: 'umbrella-dresses', label: 'Umbrella Dresses', chapter: 'CHAPTER 07' },
   { id: 'denim-collection', label: 'Denim Collection', chapter: 'CHAPTER 08' },
-  { id: 'under-1000', label: 'Under ₹1,000', chapter: 'BUDGET EDIT' },
+  { id: 'under-1000', label: 'Everyday Tunics', chapter: 'ATELIER EDIT' },
 ];
 
-const SIZES = ['All', 'XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL', '8XL'];
-
-const PRICE_RANGES = [
-  { id: 'all', label: 'All Prices' },
-  { id: 'under-1000', label: 'Under ₹1,000' },
-  { id: '1000-1499', label: '₹1,000 – ₹1,499' },
-  { id: '1500-plus', label: '₹1,500 and above' },
-];
+const SIZES = ['All', 'S', 'M', 'L', 'XL', 'XXL'];
 
 export default function CollectionsCatalogue({ initialCategory = 'all' }: { initialCategory?: string }) {
   const [liveProducts, setLiveProducts] = useState<NishoramaProduct[]>(NISHORAMA_PRODUCTS);
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory);
   const [selectedSize, setSelectedSize] = useState<string>('All');
-  const [selectedPrice, setSelectedPrice] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('featured');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState<number>(PAGE_SIZE);
@@ -86,7 +78,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   // Reset pagination when filter or sort changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [selectedCategory, selectedSize, selectedPrice, sortBy]);
+  }, [selectedCategory, selectedSize, sortBy]);
 
   const handleSelectCategory = (catId: string) => {
     setSelectedCategory(catId);
@@ -103,7 +95,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
       // Category matching
       if (selectedCategory !== 'all' && selectedCategory !== 'shop-all') {
         if (selectedCategory === 'under-1000') {
-          if ((p.price && p.price > 1000) && (!p.salePrice || p.salePrice > 1000)) return false;
+          if (p.category !== 'tops-shirts' && p.category !== 'western-dresses') return false;
         } else if (selectedCategory === 'western-dresses' || selectedCategory === 'dresses') {
           if (p.category !== 'western-dresses') return false;
         } else if (selectedCategory === 'denim-collection' || selectedCategory === 'denim' || selectedCategory === 'jeans') {
@@ -145,31 +137,21 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         }
       }
 
-      // Price matching
-      const currentPrice = p.price || p.salePrice || 1499;
-      if (selectedPrice === 'under-1000' && currentPrice > 1000) return false;
-      if (selectedPrice === '1000-1499' && (currentPrice < 1000 || currentPrice > 1499)) return false;
-      if (selectedPrice === '1500-plus' && currentPrice < 1500) return false;
-
       // Size matching
       if (selectedSize !== 'All') {
-        const availableSizes = p.sizes || ['S', 'M', 'L', 'XL', '2XL'];
+        const availableSizes = p.sizes || ['S', 'M', 'L', 'XL', 'XXL'];
         if (!availableSizes.includes(selectedSize)) return false;
       }
 
       return true;
     });
 
-    if (sortBy === 'price-low') {
-      list = [...list].sort((a, b) => (a.price || a.salePrice || 0) - (b.price || b.salePrice || 0));
-    } else if (sortBy === 'price-high') {
-      list = [...list].sort((a, b) => (b.price || b.salePrice || 0) - (a.price || a.salePrice || 0));
-    } else if (sortBy === 'newest') {
+    if (sortBy === 'newest') {
       list = [...list].reverse();
     }
 
     return list;
-  }, [liveProducts, selectedCategory, selectedPrice, selectedSize, sortBy]);
+  }, [liveProducts, selectedCategory, selectedSize, sortBy]);
 
   const visibleProducts = useMemo(() => {
     return filtered.slice(0, visibleCount);
@@ -205,12 +187,11 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
   const clearAllFilters = () => {
     setSelectedCategory('all');
     setSelectedSize('All');
-    setSelectedPrice('all');
     setSortBy('featured');
   };
 
   const hasActiveFilters =
-    selectedCategory !== 'all' || selectedSize !== 'All' || selectedPrice !== 'all' || sortBy !== 'featured';
+    selectedCategory !== 'all' || selectedSize !== 'All' || sortBy !== 'featured';
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
@@ -242,12 +223,12 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               {currentCategoryLabel}
             </h1>
             <p className="mt-3 text-xs sm:text-sm text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
-              Hand-block printed in Sanganer and tailored in our Jaipur workshop. Pure mulmul, cambric 60-60 cotton, and modal silks graded from XS to 8XL.
+              Hand-block printed in Sanganer and tailored in our Jaipur workshop. Pure mulmul, cambric 60-60 cotton, and modal silks graded from S to XXL.
             </p>
             <div className="mt-4 flex items-center gap-4 text-xs font-medium text-[#0B2D7F] dark:text-amber-400">
-              <span>{filtered.length} piece{filtered.length === 1 ? '' : 's'} available</span>
+              <span>Handcrafted in Sanganer Atelier</span>
               <span>·</span>
-              <span>Free delivery on ₹1,499+</span>
+              <span>Direct Boutique Sourcing</span>
               <span>·</span>
               <span>Dispatched in 2–3 days</span>
             </div>
@@ -296,22 +277,6 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               <ChevronDown size={12} className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-ink-500" />
             </div>
 
-            {/* Price Dropdown */}
-            <div className="relative">
-              <select
-                value={selectedPrice}
-                onChange={(e) => setSelectedPrice(e.target.value)}
-                className="appearance-none text-xs font-medium bg-[#FFFEFE] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
-              >
-                {PRICE_RANGES.map((pr) => (
-                  <option key={pr.id} value={pr.id}>
-                    {pr.label}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown size={12} className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-ink-500" />
-            </div>
-
             {/* Clear Filters Button */}
             {hasActiveFilters && (
               <button
@@ -334,10 +299,8 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
                 onChange={(e) => setSortBy(e.target.value)}
                 className="appearance-none text-xs font-medium bg-[#FFFEFE] dark:bg-neutral-800 border border-ink-200 dark:border-white/10 rounded-full pl-3 pr-7 py-1.5 text-ink-900 dark:text-white focus:outline-none cursor-pointer"
               >
-                <option value="featured">Featured</option>
-                <option value="newest">New Arrivals</option>
-                <option value="price-low">Price: Low to High</option>
-                <option value="price-high">Price: High to Low</option>
+                <option value="featured">Featured Atelier Styles</option>
+                <option value="newest">New Releases</option>
               </select>
               <ChevronDown size={12} className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-ink-500" />
             </div>
@@ -376,7 +339,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         <div className="mt-20 pt-12 border-t border-ink-200/80 dark:border-white/10 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs font-sans text-ink-700 dark:text-neutral-300">
           <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
             <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
-              Choosing Your Fit (XS to 8XL)
+              Choosing Your Fit (S to XXL)
             </h4>
             <p className="leading-relaxed text-ink-600 dark:text-neutral-400">
               All Wastram garments are graded to Indian body measurements with 2–3 inches of ease. If you are between sizes, we recommend sizing up for cotton pieces.

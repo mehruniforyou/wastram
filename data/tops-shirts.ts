@@ -25,7 +25,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -68,7 +67,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -120,7 +118,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -163,7 +160,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -215,7 +211,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -258,7 +253,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -310,7 +304,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -353,7 +346,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -398,7 +390,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -441,7 +432,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -484,7 +474,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -555,7 +544,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -625,7 +613,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -695,7 +682,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -760,7 +746,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -821,7 +806,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -892,7 +876,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -948,7 +931,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1015,7 +997,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1082,7 +1063,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1149,7 +1129,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1212,7 +1191,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1290,7 +1268,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1361,7 +1338,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1431,7 +1407,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1493,7 +1468,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1554,7 +1528,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1619,7 +1592,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1690,7 +1662,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1768,7 +1739,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1835,7 +1805,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1902,7 +1871,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1958,7 +1926,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2036,7 +2003,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2107,7 +2073,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2158,7 +2123,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2201,7 +2165,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2244,7 +2207,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2287,7 +2249,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2330,7 +2291,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2384,7 +2344,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2456,7 +2415,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2528,7 +2486,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2597,7 +2554,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2669,7 +2625,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2732,7 +2687,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2818,7 +2772,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2879,7 +2832,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2924,7 +2876,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2978,7 +2929,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3039,7 +2989,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3118,7 +3067,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3161,7 +3109,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3204,7 +3151,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3247,7 +3193,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3310,7 +3255,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3368,7 +3312,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3453,7 +3396,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3518,7 +3460,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3581,7 +3522,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3635,7 +3575,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3698,7 +3637,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3752,7 +3690,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3822,7 +3759,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3865,7 +3801,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3932,7 +3867,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3975,7 +3909,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4066,7 +3999,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4113,7 +4045,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4193,7 +4124,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4251,7 +4181,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4329,7 +4258,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4407,7 +4335,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4491,7 +4418,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4567,7 +4493,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4651,7 +4576,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4723,7 +4647,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4805,7 +4728,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4875,7 +4797,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4927,7 +4848,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4999,7 +4919,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5079,7 +4998,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5131,7 +5049,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5205,7 +5122,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5279,7 +5195,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5342,7 +5257,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5407,7 +5321,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5474,7 +5387,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5539,7 +5451,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5609,7 +5520,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5685,7 +5595,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5750,7 +5659,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5811,7 +5719,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5854,7 +5761,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5897,7 +5803,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5940,7 +5845,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5983,7 +5887,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6026,7 +5929,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6069,7 +5971,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6141,7 +6042,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6184,7 +6084,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6227,7 +6126,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6270,7 +6168,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6313,7 +6210,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6356,7 +6252,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6399,7 +6294,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6451,7 +6345,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6494,7 +6387,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6537,7 +6429,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6580,7 +6471,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6623,7 +6513,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6666,7 +6555,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6709,7 +6597,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6752,7 +6639,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6795,7 +6681,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6838,7 +6723,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6881,7 +6765,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6924,7 +6807,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6967,7 +6849,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7010,7 +6891,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7053,7 +6933,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7098,7 +6977,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7143,7 +7021,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7188,7 +7065,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7270,7 +7146,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7313,7 +7188,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7398,7 +7272,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7441,7 +7314,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7486,7 +7358,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7529,7 +7400,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7572,7 +7442,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7615,7 +7484,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7658,7 +7526,6 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",

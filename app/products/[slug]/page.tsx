@@ -33,7 +33,7 @@ interface Props {
   };
 }
 
-const ALL_SIZES = ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL', '7XL', '8XL'];
+const ALL_SIZES = ['S', 'M', 'L', 'XL', 'XXL'];
 
 export default function ProductDetailPage({ params }: Props) {
   // Read initial product and check if archived or deleted
@@ -209,10 +209,10 @@ export default function ProductDetailPage({ params }: Props) {
 
   const handlePincodeCheck = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pincode.trim().length === 6 && /^\d+$/.test(pincode)) {
-      setPincodeStatus('Available! Dispatched in 2–3 days with Cash on Delivery.');
+    if (pincode.trim().length >= 4) {
+      setPincodeStatus('Verified destination! Insured air cargo dispatch in 2–3 business days with door-to-door tracking.');
     } else {
-      setPincodeStatus('Please enter a valid 6-digit Indian PIN code.');
+      setPincodeStatus('Please enter a valid PIN code or Postal Code.');
     }
   };
 
@@ -221,15 +221,16 @@ export default function ProductDetailPage({ params }: Props) {
     openCart();
   };
 
-  const handleBuyNow = () => {
-    addToCart(product, selectedSize, 1);
-    openCart();
-  };
-
   const whatsappInquiryUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
-    `Hello Wastram Master Tailor, I have a question about ${product.title} (SKU: ${
+    `Hello Wastram Jaipur Atelier, I would like to submit a wholesale boutique enquiry for ${product.title} (SKU: ${
       product.sku || product.id
-    }, Size: ${selectedSize}). Could you assist me with fit and custom adjustments?`
+    }, Preferred Size: ${selectedSize}, MOQ: 20+ pcs). Please share export tier pricing and delivery lead time.`
+  )}`;
+
+  const sampleOrderUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
+    `Hello Wastram Atelier, I would like to order a sample piece of ${product.title} (SKU: ${
+      product.sku || product.id
+    }, Size: ${selectedSize}) to inspect fabric and tailoring quality before our boutique bulk order.`
   )}`;
 
   const relatedProducts = NISHORAMA_PRODUCTS.filter(
@@ -237,12 +238,12 @@ export default function ProductDetailPage({ params }: Props) {
   ).slice(0, 4);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-28 md:pt-32 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-6 md:py-10">
         {/* Breadcrumb Navigation */}
-        <div className="flex items-center gap-2 text-xs text-ink-500 dark:text-neutral-400 mb-6">
+        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs text-ink-500 dark:text-neutral-400 mb-6">
           <Link href="/" className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors">
             Home
           </Link>
@@ -254,7 +255,7 @@ export default function ProductDetailPage({ params }: Props) {
             {product.category?.replace(/-/g, ' ') || 'Collection'}
           </Link>
           <span>/</span>
-          <span className="text-[#0B2D7F] dark:text-amber-400 font-medium truncate max-w-xs">
+          <span className="text-[#0B2D7F] dark:text-amber-400 font-medium truncate max-w-[200px] sm:max-w-xs">
             {product.title}
           </span>
         </div>
@@ -340,29 +341,40 @@ export default function ProductDetailPage({ params }: Props) {
                 </button>
               </div>
 
-              {/* Price Row */}
-              <div className="mt-3 flex items-baseline gap-3">
-                <span className="font-serif text-3xl font-bold text-ink-950 dark:text-white tabular-nums">
-                  ₹{price.toLocaleString('en-IN')}
-                </span>
-                <span className="text-sm text-ink-400 line-through tabular-nums">
-                  ₹{regularPrice.toLocaleString('en-IN')}
-                </span>
-                <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-[#D4AF37]">
-                  Save {discountPercent}%
-                </span>
+              {/* Wholesale Specifications Banner (Zero Consumer Pricing) */}
+              <div className="mt-4 p-4 rounded-2xl bg-[#0B2D7F]/5 dark:bg-white/5 border border-[#0B2D7F]/20 dark:border-white/10 space-y-2">
+                <div className="flex items-center justify-between text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">
+                  <span className="uppercase tracking-wider">Atelier Wholesale Sourcing</span>
+                  <span className="bg-[#0B2D7F] text-white px-2.5 py-0.5 rounded-full text-[10px]">
+                    B2B Direct
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-2 text-xs text-foreground/80 pt-1">
+                  <div>
+                    <span className="text-foreground/50 block text-[11px]">Wholesale MOQ</span>
+                    <span className="font-semibold text-foreground">20 Pcs / Flexible Ratio</span>
+                  </div>
+                  <div>
+                    <span className="text-foreground/50 block text-[11px]">Trade Pricing</span>
+                    <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">Available Upon Enquiry</span>
+                  </div>
+                  <div>
+                    <span className="text-foreground/50 block text-[11px]">Sizes Available</span>
+                    <span className="font-semibold text-foreground">S, M, L, XL, XXL</span>
+                  </div>
+                  <div>
+                    <span className="text-foreground/50 block text-[11px]">Atelier SKU</span>
+                    <span className="font-semibold text-foreground font-mono">{product.sku || product.id}</span>
+                  </div>
+                </div>
               </div>
-
-              <p className="text-xs text-ink-500 dark:text-neutral-400 mt-1">
-                Inclusive of all taxes · Free delivery on orders of ₹1,499+
-              </p>
             </div>
 
             {/* Sanganer Factory Note */}
             <div className="p-3.5 rounded-2xl bg-[#FFFEFE] dark:bg-neutral-900 border border-ink-100 dark:border-white/5 flex items-center gap-3 text-xs text-ink-700 dark:text-neutral-300 shadow-2xs">
               <Sparkles size={16} className="text-[#C5A059] shrink-0" />
               <span>
-                Available from our own factory in Sanganer, Jaipur. Dispatched in 2–3 working days.
+                Export-grade tailoring directly from our own workshop in Sanganer, Jaipur. Dispatched in 2–3 working days with worldwide air cargo.
               </span>
             </div>
 
@@ -370,7 +382,7 @@ export default function ProductDetailPage({ params }: Props) {
             <div className="space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-semibold uppercase tracking-wider text-ink-900 dark:text-white">
-                  Select Size (True to Body)
+                  Available Sizing Pre-Packs
                 </span>
                 <button
                   type="button"
@@ -399,23 +411,36 @@ export default function ProductDetailPage({ params }: Props) {
               </div>
             </div>
 
-            {/* Action Buttons Stack */}
+            {/* Action Buttons Stack (Redesigned for Wholesale Boutique Enquiry) */}
             <div className="space-y-3 pt-2">
-              <button
-                type="button"
-                onClick={handleBuyNow}
-                className="w-full py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-sm transition-all shadow-md active:scale-98"
+              <a
+                href={whatsappInquiryUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3.5 sm:py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-sm transition-all shadow-md active:scale-98 flex items-center justify-center gap-2"
               >
-                Buy Now · Size {selectedSize}
-              </button>
+                <MessageCircle size={17} />
+                <span>Submit Wholesale Enquiry · Size {selectedSize}</span>
+              </a>
 
-              <button
-                type="button"
-                onClick={handleAddToCart}
-                className="w-full py-3.5 rounded-full border-2 border-[#0B2D7F] dark:border-amber-400 text-[#0B2D7F] dark:text-amber-400 font-semibold text-sm hover:bg-[#0B2D7F]/5 transition-colors"
-              >
-                Add to Bag
-              </button>
+              <div className="grid grid-cols-2 gap-3">
+                <a
+                  href={sampleOrderUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-3 rounded-full border-2 border-[#0B2D7F] dark:border-white/30 text-[#0B2D7F] dark:text-white font-semibold text-xs sm:text-sm hover:bg-[#0B2D7F]/5 transition-colors text-center flex items-center justify-center gap-1.5"
+                >
+                  <span>Request Sample</span>
+                </a>
+
+                <button
+                  type="button"
+                  onClick={handleAddToCart}
+                  className="py-3 rounded-full border-2 border-[#0B2D7F]/40 dark:border-white/20 text-foreground font-semibold text-xs sm:text-sm hover:border-[#0B2D7F] transition-colors text-center"
+                >
+                  <span>Add to Quote Bag</span>
+                </button>
+              </div>
 
               {/* Stitched Ribbon Tailor WhatsApp CTA in Brand Blue */}
               <a
@@ -426,19 +451,19 @@ export default function ProductDetailPage({ params }: Props) {
               >
                 <div className="flex items-center gap-2.5">
                   <div className="w-8 h-8 rounded-full bg-[#0B2D7F] text-white flex items-center justify-center shrink-0 shadow-2xs">
-                    <MessageCircle size={16} />
+                    <Sparkles size={16} />
                   </div>
                   <div>
                     <p className="font-semibold text-[#0B2D7F] dark:text-white">
-                      Need custom sleeve length or bust ease?
+                      Custom Labeling &amp; Sizing for Boutiques
                     </p>
                     <p className="text-[11px] text-ink-600 dark:text-neutral-400">
-                      Chat with our Sanganer master tailor on WhatsApp
+                      Private labels, barcoding, and custom sleeve drops available
                     </p>
                   </div>
                 </div>
                 <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37] group-hover:translate-x-1 transition-transform">
-                  Chat →
+                  Enquire →
                 </span>
               </a>
             </div>
@@ -447,7 +472,7 @@ export default function ProductDetailPage({ params }: Props) {
             <form onSubmit={handlePincodeCheck} className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 space-y-2 shadow-2xs">
               <span className="text-xs font-semibold text-ink-900 dark:text-white flex items-center gap-1.5">
                 <Truck size={14} className="text-[#0B2D7F] dark:text-amber-400" />
-                <span>Estimate Delivery to Your Pincode</span>
+                <span>Estimate Freight &amp; Dispatch to Destination</span>
               </span>
               <div className="flex gap-2">
                 <input
@@ -519,7 +544,7 @@ export default function ProductDetailPage({ params }: Props) {
                 {openAccordions.fit && (
                   <div className="pb-4 text-ink-600 dark:text-neutral-400 space-y-2 leading-relaxed">
                     <p>
-                      Cut true to Indian standard sizing with 2.5 inches of comfort ease. Graded individually from XS to 8XL for proportional bust, armhole, and waist fit.
+                      Cut true to Indian standard sizing with 2.5 inches of comfort ease. Graded individually from S to XXL for proportional bust, armhole, and waist fit.
                     </p>
                     <p>Model is 5'7" wearing size S.</p>
                   </div>

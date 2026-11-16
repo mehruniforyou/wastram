@@ -54,119 +54,117 @@ export default function Footer() {
 
       {/* Upper Content Section (Shifted Upwards into the Clear Ivory Sky) */}
       <div className="relative z-10 container-x pt-12 md:pt-16 pb-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
           {/* Column 1: Brand Atelier Manifesto & Coordinates (md:col-span-4) */}
           <div className="md:col-span-4">
-          {/* Official Wastram Crest & Gold Thread Logo */}
-          <Link
-            href="/"
-            className="inline-flex items-center gap-3 group mb-3"
-            aria-label="Wastram Home"
-          >
-            <img
-              src="/images/brand/wastram-artisan-crest.png"
-              alt="Wastram Artisan Hallmark"
-              className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 shrink-0"
-            />
-            <img
-              src="/images/brand/wastram-gold-thread-logo.png"
-              alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-              className="h-9 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
-            />
-          </Link>
+            {/* Official Wastram Artisan Hallmark & Script Emblem Logo */}
+            <Link
+              href="/"
+              className="inline-block group mb-3"
+              aria-label="Wastram Home"
+            >
+              <img
+                src="/images/brand/wastram-footer-artisan-logo.png"
+                alt="Wastram Jaipur Atelier"
+                className="h-20 sm:h-24 md:h-28 w-auto object-contain transition-transform duration-300 group-hover:scale-103"
+              />
+            </Link>
 
-          <p className="mt-4 text-sm text-foreground/75 max-w-sm font-body leading-relaxed">
-            Direct Jaipur handloom atelier specializing in Pure Mulmul, Modal Silk,
-            Gota Patti needlework, and Sanganer block prints for high-fashion boutiques worldwide.
-          </p>
+            <p className="mt-3 text-xs sm:text-sm text-foreground/75 max-w-sm font-body leading-relaxed">
+              Direct Jaipur handloom atelier specializing in Pure Mulmul, Modal Silk,
+              Gota Patti needlework, and Sanganer block prints for high-fashion boutiques worldwide.
+            </p>
 
-          <div className="mt-6 space-y-2 text-xs md:text-sm text-foreground/70 font-body">
-            <p className="flex items-start gap-2">
-              <MapPin size={15} className="text-foreground shrink-0 mt-0.5" />
-              <span>Sanganer Textile Industrial Area, Jaipur, Rajasthan 302029</span>
-            </p>
-            <p className="flex items-center gap-2">
-              <Phone size={15} className="text-foreground shrink-0" />
-              <span>+91 80030 88838 / +91 70584 00490</span>
-            </p>
-            <p className="flex items-center gap-2">
-              <Mail size={15} className="text-foreground shrink-0" />
-              <span>hello@wastram.in · exports@wastram.in</span>
+            <div className="mt-5 space-y-1.5 text-xs sm:text-sm text-foreground/70 font-body">
+              <p className="flex items-start gap-2">
+                <MapPin size={14} className="text-foreground shrink-0 mt-0.5" />
+                <span>Sanganer Textile Industrial Area, Jaipur, Rajasthan 302029</span>
+              </p>
+              <p className="flex items-center gap-2">
+                <Phone size={14} className="text-foreground shrink-0" />
+                <span>+91 80030 88838 / +91 70584 00490</span>
+              </p>
+              <p className="flex items-center gap-2">
+                <Mail size={14} className="text-foreground shrink-0" />
+                <span>hello@wastram.in · exports@wastram.in</span>
+              </p>
+            </div>
+
+            <p className="mt-4 text-[11px] text-foreground/50 font-body">
+              &copy; {new Date().getFullYear()} Wastram Jaipur. All rights reserved.
             </p>
           </div>
 
-          <p className="mt-5 text-[11px] text-foreground/50 font-body">
-            &copy; {new Date().getFullYear()} Wastram Jaipur. All rights reserved.
-          </p>
-        </div>
+          {/* Group Column 2 & Column 3 side-by-side on mobile */}
+          <div className="grid grid-cols-2 gap-6 md:contents">
+            {/* Column 2: Shop & Collections (md:col-span-2) */}
+            <div className="md:col-span-2">
+              <div className="eyebrow mb-3 text-foreground/90 font-semibold text-xs sm:text-sm">
+                Collection
+              </div>
+              <ul className="space-y-2 text-xs sm:text-sm font-body">
+                <li>
+                  <Link href="/products" className="link-underline text-foreground/80 hover:text-foreground">
+                    All Products
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/categories" className="link-underline text-foreground/80 hover:text-foreground">
+                    Categories
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/brands" className="link-underline text-foreground/80 hover:text-foreground">
+                    Edits &amp; Fabrics
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/offers" className="link-underline text-foreground/80 hover:text-foreground">
+                    Wholesale Offers
+                  </Link>
+                </li>
+              </ul>
+            </div>
 
-        {/* Column 2: Shop & Collections (md:col-span-2) */}
-        <div className="md:col-span-2">
-          <div className="eyebrow mb-4 text-foreground/90 font-semibold">
-            Collection
+            {/* Column 3: Boutique & Atelier (md:col-span-2) */}
+            <div className="md:col-span-2">
+              <div className="eyebrow mb-3 text-foreground/90 font-semibold text-xs sm:text-sm">
+                Boutique
+              </div>
+              <ul className="space-y-2 text-xs sm:text-sm font-body">
+                <li>
+                  <Link href="/about" className="link-underline text-foreground/80 hover:text-foreground">
+                    The Atelier
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/gallery" className="link-underline text-foreground/80 hover:text-foreground">
+                    Visual Gallery
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contact" className="link-underline text-foreground/80 hover:text-foreground">
+                    Visit &amp; Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/wholesale-exports" className="link-underline text-foreground/80 hover:text-foreground">
+                    Global Air Freight
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pages/privacy-policy" className="link-underline text-foreground/60 hover:text-foreground">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pages/terms-and-conditions" className="link-underline text-foreground/60 hover:text-foreground">
+                    Terms of Supply
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
-          <ul className="space-y-2.5 text-xs md:text-sm font-body">
-            <li>
-              <Link href="/products" className="link-underline text-foreground/80 hover:text-foreground">
-                All Products
-              </Link>
-            </li>
-            <li>
-              <Link href="/categories" className="link-underline text-foreground/80 hover:text-foreground">
-                Categories
-              </Link>
-            </li>
-            <li>
-              <Link href="/brands" className="link-underline text-foreground/80 hover:text-foreground">
-                Edits &amp; Fabrics
-              </Link>
-            </li>
-            <li>
-              <Link href="/offers" className="link-underline text-foreground/80 hover:text-foreground">
-                Wholesale Offers
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Column 3: Boutique & Atelier (md:col-span-2) */}
-        <div className="md:col-span-2">
-          <div className="eyebrow mb-4 text-foreground/90 font-semibold">
-            Boutique
-          </div>
-          <ul className="space-y-2.5 text-xs md:text-sm font-body">
-            <li>
-              <Link href="/about" className="link-underline text-foreground/80 hover:text-foreground">
-                The Atelier
-              </Link>
-            </li>
-            <li>
-              <Link href="/gallery" className="link-underline text-foreground/80 hover:text-foreground">
-                Visual Gallery
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="link-underline text-foreground/80 hover:text-foreground">
-                Visit &amp; Contact
-              </Link>
-            </li>
-            <li>
-              <Link href="/wholesale-exports" className="link-underline text-foreground/80 hover:text-foreground">
-                Global Air Freight
-              </Link>
-            </li>
-            <li>
-              <Link href="/pages/privacy-policy" className="link-underline text-foreground/60 hover:text-foreground">
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link href="/pages/terms-and-conditions" className="link-underline text-foreground/60 hover:text-foreground">
-                Terms of Supply
-              </Link>
-            </li>
-          </ul>
-        </div>
 
         {/* Column 4: Newsletter & Socials (md:col-span-4) */}
         <div className="md:col-span-4">
@@ -246,7 +244,7 @@ export default function Footer() {
 
       {/* Dedicated Heritage Illustration Showcase Zone - ONLY the Jaipur palaces, arches, peacocks & gold border appear here */}
       <div
-        className="relative z-0 h-56 sm:h-64 md:h-80 lg:h-96 xl:h-[420px] w-full pointer-events-none"
+        className="relative z-0 h-40 sm:h-56 md:h-80 lg:h-96 xl:h-[420px] w-full pointer-events-none"
         aria-hidden="true"
       />
     </footer>

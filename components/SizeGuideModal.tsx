@@ -15,18 +15,11 @@ interface SizeRow {
 }
 
 const SIZE_CHART: SizeRow[] = [
-  { size: 'XS', bustInch: '32', bustCm: '81', waistInch: '26', waistCm: '66', hipInch: '35', hipCm: '89' },
   { size: 'S', bustInch: '34', bustCm: '86', waistInch: '28', waistCm: '71', hipInch: '37', hipCm: '94' },
   { size: 'M', bustInch: '36', bustCm: '91', waistInch: '30', waistCm: '76', hipInch: '39', hipCm: '99' },
   { size: 'L', bustInch: '38', bustCm: '97', waistInch: '32', waistCm: '81', hipInch: '41', hipCm: '104' },
   { size: 'XL', bustInch: '40', bustCm: '102', waistInch: '34', waistCm: '86', hipInch: '43', hipCm: '109' },
-  { size: '2XL', bustInch: '42', bustCm: '107', waistInch: '36', waistCm: '91', hipInch: '45', hipCm: '114' },
-  { size: '3XL', bustInch: '44', bustCm: '112', waistInch: '38', waistCm: '97', hipInch: '47', hipCm: '119' },
-  { size: '4XL', bustInch: '46', bustCm: '117', waistInch: '40', waistCm: '102', hipInch: '49', hipCm: '124' },
-  { size: '5XL', bustInch: '48', bustCm: '122', waistInch: '42', waistCm: '107', hipInch: '51', hipCm: '130' },
-  { size: '6XL', bustInch: '50', bustCm: '127', waistInch: '44', waistCm: '112', hipInch: '53', hipCm: '135' },
-  { size: '7XL', bustInch: '52', bustCm: '132', waistInch: '46', waistCm: '117', hipInch: '55', hipCm: '140' },
-  { size: '8XL', bustInch: '54', bustCm: '137', waistInch: '48', waistCm: '122', hipInch: '57', hipCm: '145' },
+  { size: 'XXL', bustInch: '42', bustCm: '107', waistInch: '36', waistCm: '91', hipInch: '45', hipCm: '114' },
 ];
 
 export default function SizeGuideModal() {
@@ -52,7 +45,7 @@ export default function SizeGuideModal() {
               Size guide
             </h2>
             <p className="mt-1 text-xs text-ink-600 dark:text-neutral-400">
-              Body measurements — not garment measurements. Graded true to size from XS to 8XL.
+              Body measurements — not garment measurements. Graded true to size from S to XXL.
             </p>
           </div>
 

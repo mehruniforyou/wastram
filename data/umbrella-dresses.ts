@@ -63,7 +63,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -139,7 +138,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -209,7 +207,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -283,7 +280,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -361,7 +357,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -433,7 +428,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -487,7 +481,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -556,7 +549,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -625,7 +617,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -692,7 +683,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -753,7 +743,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -818,7 +807,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -881,7 +869,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -935,7 +922,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -993,7 +979,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1063,7 +1048,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1137,7 +1121,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1212,7 +1195,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1313,7 +1295,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1395,7 +1376,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1462,7 +1442,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1553,7 +1532,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1596,7 +1574,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1639,7 +1616,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1682,7 +1658,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1734,7 +1709,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1777,7 +1751,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1820,7 +1793,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1863,7 +1835,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1915,7 +1886,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1967,7 +1937,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2010,7 +1979,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2062,7 +2030,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2105,7 +2072,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2148,7 +2114,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2191,7 +2156,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2243,7 +2207,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2286,7 +2249,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2329,7 +2291,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2372,7 +2333,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2415,7 +2375,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2458,7 +2417,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2510,7 +2468,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2553,7 +2510,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2596,7 +2552,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2639,7 +2594,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2682,7 +2636,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2725,7 +2678,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2768,7 +2720,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2811,7 +2762,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2863,7 +2813,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2924,7 +2873,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2976,7 +2924,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3019,7 +2966,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3062,7 +3008,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3105,7 +3050,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3157,7 +3101,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3218,7 +3161,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3261,7 +3203,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3304,7 +3245,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3347,7 +3287,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3399,7 +3338,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3469,7 +3407,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3512,7 +3449,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3564,7 +3500,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3625,7 +3560,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3668,7 +3602,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3711,7 +3644,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3754,7 +3686,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3806,7 +3737,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3849,7 +3779,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3892,7 +3821,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3955,7 +3883,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3998,7 +3925,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4050,7 +3976,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4102,7 +4027,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4165,7 +4089,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4208,7 +4131,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4260,7 +4182,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4312,7 +4233,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4364,7 +4284,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4407,7 +4326,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4450,7 +4368,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4493,7 +4410,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4545,7 +4461,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4588,7 +4503,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4631,7 +4545,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4674,7 +4587,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4717,7 +4629,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4760,7 +4671,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4803,7 +4713,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4864,7 +4773,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4907,7 +4815,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4950,7 +4857,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4993,7 +4899,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5045,7 +4950,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5088,7 +4992,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5131,7 +5034,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5174,7 +5076,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5217,7 +5118,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5260,7 +5160,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5321,7 +5220,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5364,7 +5262,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5407,7 +5304,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5450,7 +5346,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5513,7 +5408,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5556,7 +5450,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5599,7 +5492,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5651,7 +5543,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5694,7 +5585,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5737,7 +5627,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5798,7 +5687,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5841,7 +5729,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5884,7 +5771,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5927,7 +5813,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5979,7 +5864,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6022,7 +5906,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6065,7 +5948,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6108,7 +5990,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6160,7 +6041,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6203,7 +6083,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6255,7 +6134,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6298,7 +6176,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6359,7 +6236,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6413,7 +6289,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6465,7 +6340,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6508,7 +6382,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6551,7 +6424,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6594,7 +6466,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6646,7 +6517,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6689,7 +6559,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6741,7 +6610,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6784,7 +6652,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6827,7 +6694,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6870,7 +6736,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6913,7 +6778,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6974,7 +6838,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7017,7 +6880,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7062,7 +6924,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7105,7 +6966,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7148,7 +7008,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7191,7 +7050,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7234,7 +7092,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7277,7 +7134,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7329,7 +7185,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7372,7 +7227,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7415,7 +7269,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7476,7 +7329,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7519,7 +7371,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7571,7 +7422,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7614,7 +7464,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7657,7 +7506,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7709,7 +7557,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7761,7 +7608,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7813,7 +7659,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7856,7 +7701,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7899,7 +7743,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7942,7 +7785,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7985,7 +7827,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8028,7 +7869,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8080,7 +7920,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8123,7 +7962,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8166,7 +8004,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8218,7 +8055,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8261,7 +8097,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8306,7 +8141,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8349,7 +8183,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8392,7 +8225,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8444,7 +8276,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8500,7 +8331,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8552,7 +8382,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8604,7 +8433,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8656,7 +8484,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8699,7 +8526,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8742,7 +8568,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8785,7 +8610,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8828,7 +8652,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8889,7 +8712,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8932,7 +8754,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8984,7 +8805,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9036,7 +8856,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9079,7 +8898,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9122,7 +8940,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9165,7 +8982,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9208,7 +9024,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9251,7 +9066,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9294,7 +9108,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9337,7 +9150,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9380,7 +9192,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9441,7 +9252,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9493,7 +9303,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9563,7 +9372,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9606,7 +9414,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9649,7 +9456,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9701,7 +9507,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9744,7 +9549,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9787,7 +9591,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9839,7 +9642,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9882,7 +9684,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9925,7 +9726,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9968,7 +9768,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10011,7 +9810,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10054,7 +9852,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10097,7 +9894,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10140,7 +9936,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10201,7 +9996,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10253,7 +10047,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10305,7 +10098,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10348,7 +10140,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10391,7 +10182,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10443,7 +10233,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10495,7 +10284,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10538,7 +10326,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10583,7 +10370,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10626,7 +10412,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10671,7 +10456,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10741,7 +10525,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10784,7 +10567,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10829,7 +10611,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10872,7 +10653,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10924,7 +10704,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10967,7 +10746,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11010,7 +10788,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11053,7 +10830,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11096,7 +10872,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11139,7 +10914,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11191,7 +10965,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11234,7 +11007,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11277,7 +11049,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11320,7 +11091,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11363,7 +11133,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11406,7 +11175,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11467,7 +11235,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11532,7 +11299,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11593,7 +11359,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11636,7 +11401,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11688,7 +11452,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11731,7 +11494,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11783,7 +11545,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11844,7 +11605,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11887,7 +11647,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11930,7 +11689,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11991,7 +11749,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12043,7 +11800,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12086,7 +11842,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12129,7 +11884,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12181,7 +11935,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12224,7 +11977,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12267,7 +12019,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12310,7 +12061,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12353,7 +12103,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12405,7 +12154,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12448,7 +12196,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12500,7 +12247,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12543,7 +12289,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12586,7 +12331,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12629,7 +12373,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12672,7 +12415,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12715,7 +12457,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12767,7 +12508,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12819,7 +12559,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12862,7 +12601,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12905,7 +12643,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12948,7 +12685,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12991,7 +12727,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13034,7 +12769,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13077,7 +12811,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13138,7 +12871,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13181,7 +12913,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13251,7 +12982,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13318,7 +13048,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13361,7 +13090,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13404,7 +13132,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13447,7 +13174,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13490,7 +13216,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13533,7 +13258,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13576,7 +13300,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13619,7 +13342,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13662,7 +13384,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13705,7 +13426,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13748,7 +13468,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13791,7 +13510,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13834,7 +13552,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13877,7 +13594,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13920,7 +13636,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13963,7 +13678,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14006,7 +13720,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14049,7 +13762,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14092,7 +13804,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14135,7 +13846,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14178,7 +13888,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14221,7 +13930,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14264,7 +13972,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14307,7 +14014,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14350,7 +14056,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14393,7 +14098,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14436,7 +14140,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14479,7 +14182,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14522,7 +14224,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14565,7 +14266,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14608,7 +14308,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14651,7 +14350,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14694,7 +14392,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14737,7 +14434,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14780,7 +14476,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14823,7 +14518,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14866,7 +14560,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14909,7 +14602,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14952,7 +14644,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14995,7 +14686,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15038,7 +14728,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15081,7 +14770,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15124,7 +14812,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15167,7 +14854,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15210,7 +14896,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15253,7 +14938,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15296,7 +14980,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15339,7 +15022,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15382,7 +15064,6 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",

@@ -6,7 +6,7 @@ import { siteConfig } from '@/data/site-config';
 export const metadata: Metadata = {
   title: "Shop Handcrafted Women's Ethnic Wear from Jaipur | Wastram",
   description:
-    "Explore hand-block printed co-ords, kurta sets, western dresses, and occasion gowns crafted in our Sanganer workshop in Jaipur. Sizes XS to 8XL.",
+    "Explore hand-block printed co-ords, kurta sets, western dresses, and occasion gowns crafted in our Sanganer workshop in Jaipur. Sizes S to XXL.",
   alternates: {
     canonical: `${siteConfig.productionDomain}/shop`,
   },

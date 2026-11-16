@@ -25,7 +25,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -68,7 +67,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -111,7 +109,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -154,7 +151,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -197,7 +193,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -240,7 +235,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -283,7 +277,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -326,7 +319,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -369,7 +361,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -412,7 +403,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -455,7 +445,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -498,7 +487,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -541,7 +529,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -584,7 +571,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -627,7 +613,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -670,7 +655,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -713,7 +697,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -756,7 +739,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -799,7 +781,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -842,7 +823,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -885,7 +865,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -928,7 +907,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -971,7 +949,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1014,7 +991,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1057,7 +1033,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1100,7 +1075,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1143,7 +1117,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1186,7 +1159,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1229,7 +1201,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1272,7 +1243,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1315,7 +1285,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1367,7 +1336,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1410,7 +1378,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1453,7 +1420,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1496,7 +1462,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1539,7 +1504,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1582,7 +1546,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1625,7 +1588,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1668,7 +1630,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1711,7 +1672,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1763,7 +1723,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1806,7 +1765,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1849,7 +1807,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1892,7 +1849,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1935,7 +1891,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1978,7 +1933,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2021,7 +1975,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2064,7 +2017,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2116,7 +2068,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2159,7 +2110,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2202,7 +2152,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2245,7 +2194,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2306,7 +2254,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2349,7 +2296,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2392,7 +2338,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2435,7 +2380,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2496,7 +2440,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2539,7 +2482,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2582,7 +2524,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2625,7 +2566,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2668,7 +2608,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2711,7 +2650,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2754,7 +2692,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2797,7 +2734,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2840,7 +2776,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2883,7 +2818,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2926,7 +2860,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2978,7 +2911,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3021,7 +2953,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3064,7 +2995,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3107,7 +3037,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3150,7 +3079,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3193,7 +3121,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3236,7 +3163,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3279,7 +3205,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3322,7 +3247,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3365,7 +3289,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3408,7 +3331,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3451,7 +3373,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3494,7 +3415,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3539,7 +3459,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3582,7 +3501,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3627,7 +3545,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3670,7 +3587,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3713,7 +3629,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3756,7 +3671,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3799,7 +3713,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3842,7 +3755,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3885,7 +3797,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3930,7 +3841,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3973,7 +3883,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4018,7 +3927,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4061,7 +3969,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4104,7 +4011,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4147,7 +4053,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4190,7 +4095,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4233,7 +4137,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4276,7 +4179,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4319,7 +4221,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4364,7 +4265,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4407,7 +4307,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4450,7 +4349,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4493,7 +4391,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4536,7 +4433,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4579,7 +4475,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4624,7 +4519,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4667,7 +4561,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4710,7 +4603,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4755,7 +4647,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4798,7 +4689,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4841,7 +4731,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4884,7 +4773,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4927,7 +4815,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4972,7 +4859,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5015,7 +4901,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5060,7 +4945,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5103,7 +4987,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5148,7 +5031,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5191,7 +5073,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5234,7 +5115,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5277,7 +5157,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5329,7 +5208,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5372,7 +5250,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5424,7 +5301,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5467,7 +5343,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5519,7 +5394,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5562,7 +5436,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5614,7 +5487,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5657,7 +5529,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5702,7 +5573,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5745,7 +5615,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5797,7 +5666,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5840,7 +5708,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5892,7 +5759,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5935,7 +5801,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5987,7 +5852,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6030,7 +5894,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6075,7 +5938,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6118,7 +5980,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6161,7 +6022,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6204,7 +6064,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6247,7 +6106,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6299,7 +6157,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6351,7 +6208,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6403,7 +6259,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6455,7 +6310,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6507,7 +6361,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6559,7 +6412,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6611,7 +6463,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6656,7 +6507,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6708,7 +6558,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6764,7 +6613,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6816,7 +6664,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6868,7 +6715,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6920,7 +6766,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6972,7 +6817,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7024,7 +6868,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7069,7 +6912,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7132,7 +6974,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7184,7 +7025,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7227,7 +7067,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7297,7 +7136,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7358,7 +7196,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7401,7 +7238,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7475,7 +7311,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7549,7 +7384,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7627,7 +7461,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7705,7 +7538,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7790,7 +7622,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7854,7 +7685,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7897,7 +7727,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7942,7 +7771,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7987,7 +7815,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8032,7 +7859,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8110,7 +7936,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8155,7 +7980,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8198,7 +8022,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8241,7 +8064,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8284,7 +8106,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8329,7 +8150,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8374,7 +8194,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8419,7 +8238,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8471,7 +8289,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8523,7 +8340,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8568,7 +8384,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8620,7 +8435,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8674,7 +8488,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8723,7 +8536,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8783,7 +8595,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8826,7 +8637,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8871,7 +8681,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8918,7 +8727,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8970,7 +8778,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9013,7 +8820,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9091,7 +8897,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9171,7 +8976,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9238,7 +9042,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9290,7 +9093,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9342,7 +9144,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9396,7 +9197,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9441,7 +9241,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9486,7 +9285,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9529,7 +9327,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9572,7 +9369,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9615,7 +9411,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9658,7 +9453,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9701,7 +9495,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9744,7 +9537,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9787,7 +9579,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9830,7 +9621,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9873,7 +9663,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9916,7 +9705,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9977,7 +9765,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10058,7 +9845,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10133,7 +9919,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10176,7 +9961,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10219,7 +10003,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10262,7 +10045,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10334,7 +10116,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10414,7 +10195,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10475,7 +10255,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10549,7 +10328,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10631,7 +10409,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10709,7 +10486,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10772,7 +10548,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10843,7 +10618,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10908,7 +10682,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10971,7 +10744,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11014,7 +10786,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11057,7 +10828,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11109,7 +10879,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11152,7 +10921,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11195,7 +10963,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11238,7 +11005,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11281,7 +11047,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11324,7 +11089,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11367,7 +11131,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11410,7 +11173,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11462,7 +11224,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11514,7 +11275,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11566,7 +11326,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11629,7 +11388,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11699,7 +11457,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11771,7 +11528,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11816,7 +11572,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11910,7 +11665,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11964,7 +11718,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12013,7 +11766,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12064,7 +11816,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12120,7 +11871,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12183,7 +11933,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12244,7 +11993,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12314,7 +12062,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12401,7 +12148,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12462,7 +12208,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12546,7 +12291,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12611,7 +12355,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12681,7 +12424,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12746,7 +12488,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12830,7 +12571,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12902,7 +12642,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12988,7 +12727,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13051,7 +12789,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13129,7 +12866,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13201,7 +12937,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13255,7 +12990,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13298,7 +13032,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13361,7 +13094,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13404,7 +13136,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13447,7 +13178,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13490,7 +13220,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13533,7 +13262,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13576,7 +13304,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13619,7 +13346,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13662,7 +13388,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13705,7 +13430,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13748,7 +13472,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13791,7 +13514,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13834,7 +13556,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13877,7 +13598,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13920,7 +13640,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13963,7 +13682,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14006,7 +13724,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14049,7 +13766,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14092,7 +13808,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14135,7 +13850,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14178,7 +13892,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14221,7 +13934,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14264,7 +13976,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14307,7 +14018,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14350,7 +14060,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14393,7 +14102,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14436,7 +14144,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14479,7 +14186,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14522,7 +14228,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14565,7 +14270,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14608,7 +14312,6 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",

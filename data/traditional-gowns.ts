@@ -25,7 +25,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -70,7 +69,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -115,7 +113,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -169,7 +166,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -221,7 +217,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -273,7 +268,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -325,7 +319,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -377,7 +370,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -429,7 +421,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -481,7 +472,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -524,7 +514,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -585,7 +574,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -637,7 +625,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -689,7 +676,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -741,7 +727,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -793,7 +778,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -845,7 +829,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -906,7 +889,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -976,7 +958,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1046,7 +1027,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1098,7 +1078,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1150,7 +1129,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1202,7 +1180,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1254,7 +1231,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1299,7 +1275,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1344,7 +1319,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1396,7 +1370,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1448,7 +1421,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1500,7 +1472,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1543,7 +1514,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1617,7 +1587,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1678,7 +1647,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1755,7 +1723,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1848,7 +1815,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1908,7 +1874,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1970,7 +1935,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2056,7 +2020,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2119,7 +2082,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2162,7 +2124,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2261,7 +2222,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2304,7 +2264,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2360,7 +2319,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2403,7 +2361,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2460,7 +2417,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2514,7 +2470,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2577,7 +2532,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2626,7 +2580,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2695,7 +2648,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2759,7 +2711,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2817,7 +2768,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2886,7 +2836,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2953,7 +2902,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2996,7 +2944,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3067,7 +3014,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3123,7 +3069,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3192,7 +3137,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3257,7 +3201,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3320,7 +3263,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3398,7 +3340,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3468,7 +3409,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3540,7 +3480,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3626,7 +3565,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3704,7 +3642,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3788,7 +3725,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3853,7 +3789,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3936,7 +3871,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3988,7 +3922,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4049,7 +3982,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4110,7 +4042,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4175,7 +4106,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4238,7 +4168,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4287,7 +4216,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4343,7 +4271,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4406,7 +4333,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4480,7 +4406,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4531,7 +4456,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4580,7 +4504,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4654,7 +4577,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4730,7 +4652,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4784,7 +4705,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4829,7 +4749,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4901,7 +4820,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4966,7 +4884,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5027,7 +4944,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5070,7 +4986,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5113,7 +5028,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5160,7 +5074,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5212,7 +5125,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5279,7 +5191,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5366,7 +5277,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5420,7 +5330,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5483,7 +5392,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5530,7 +5438,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5590,7 +5497,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5633,7 +5539,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5678,7 +5583,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5727,7 +5631,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5798,7 +5701,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5869,7 +5771,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5961,7 +5862,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6038,7 +5938,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6103,7 +6002,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6155,7 +6053,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6222,7 +6119,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6299,7 +6195,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6364,7 +6259,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6425,7 +6319,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6492,7 +6385,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6579,7 +6471,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6655,7 +6546,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6726,7 +6616,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6803,7 +6692,6 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",

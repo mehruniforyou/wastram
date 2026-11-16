@@ -29,7 +29,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -72,7 +71,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -115,7 +113,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -158,7 +155,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -215,7 +211,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -301,7 +296,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -371,7 +365,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -453,7 +446,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -527,7 +519,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -589,7 +580,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -658,7 +648,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -719,7 +708,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -803,7 +791,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -868,7 +855,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -939,7 +925,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1028,7 +1013,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1114,7 +1098,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1177,7 +1160,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1244,7 +1226,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1309,7 +1290,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1374,7 +1354,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1450,7 +1429,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1524,7 +1502,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1593,7 +1570,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1660,7 +1636,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1721,7 +1696,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1799,7 +1773,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1877,7 +1850,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1938,7 +1910,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2003,7 +1974,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2079,7 +2049,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2159,7 +2128,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2247,7 +2215,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2308,7 +2275,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2371,7 +2337,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2447,7 +2412,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2519,7 +2483,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2589,7 +2552,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2658,7 +2620,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2721,7 +2682,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2794,7 +2754,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2857,7 +2816,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2918,7 +2876,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2988,7 +2945,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3068,7 +3024,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3122,7 +3077,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3196,7 +3150,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3274,7 +3227,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3326,7 +3278,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3401,7 +3352,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3462,7 +3412,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3523,7 +3472,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3605,7 +3553,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3675,7 +3622,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3727,7 +3673,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3805,7 +3750,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3877,7 +3821,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3938,7 +3881,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4012,7 +3954,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4090,7 +4031,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4142,7 +4082,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4220,7 +4159,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4292,7 +4230,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4346,7 +4283,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4428,7 +4364,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4502,7 +4437,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4571,7 +4505,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4636,7 +4569,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4699,7 +4631,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4764,7 +4695,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4831,7 +4761,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4896,7 +4825,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4959,7 +4887,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5028,7 +4955,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5093,7 +5019,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5169,7 +5094,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5245,7 +5169,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5338,7 +5261,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5387,7 +5309,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5432,7 +5353,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5475,7 +5395,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5527,7 +5446,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5588,7 +5506,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5633,7 +5550,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5696,7 +5612,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5739,7 +5654,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5793,7 +5707,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5836,7 +5749,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5888,7 +5800,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5931,7 +5842,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5974,7 +5884,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6037,7 +5946,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6080,7 +5988,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6132,7 +6039,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6175,7 +6081,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6227,7 +6132,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6288,7 +6192,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6331,7 +6234,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6405,7 +6307,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6466,7 +6367,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6520,7 +6420,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6572,7 +6471,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6633,7 +6531,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6685,7 +6582,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6759,7 +6655,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6802,7 +6697,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6883,7 +6777,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6926,7 +6819,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6998,7 +6890,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7050,7 +6941,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7093,7 +6983,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7149,7 +7038,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7212,7 +7100,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7275,7 +7162,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7338,7 +7224,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7381,7 +7266,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7451,7 +7335,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7536,7 +7419,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7599,7 +7481,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7686,7 +7567,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7749,7 +7629,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7812,7 +7691,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7884,7 +7762,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7947,7 +7824,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8012,7 +7888,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8075,7 +7950,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8136,7 +8010,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8214,7 +8087,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8277,7 +8149,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8320,7 +8191,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8403,7 +8273,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8481,7 +8350,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8546,7 +8414,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8598,7 +8465,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8668,7 +8534,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8738,7 +8603,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8820,7 +8684,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8863,7 +8726,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8933,7 +8795,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8994,7 +8855,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9048,7 +8908,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9091,7 +8950,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9170,7 +9028,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9255,7 +9112,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9322,7 +9178,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9385,7 +9240,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9467,7 +9321,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9548,7 +9401,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9620,7 +9472,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9685,7 +9536,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9728,7 +9578,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9780,7 +9629,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9850,7 +9698,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9911,7 +9758,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -9972,7 +9818,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10024,7 +9869,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10110,7 +9954,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10173,7 +10016,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10234,7 +10076,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10315,7 +10156,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10393,7 +10233,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10465,7 +10304,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10539,7 +10377,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10626,7 +10463,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10669,7 +10505,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10730,7 +10565,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10791,7 +10625,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10854,7 +10687,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10915,7 +10747,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -10976,7 +10807,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11019,7 +10849,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11073,7 +10902,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11118,7 +10946,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11161,7 +10988,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11204,7 +11030,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11247,7 +11072,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11290,7 +11114,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11333,7 +11156,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11376,7 +11198,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11419,7 +11240,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11462,7 +11282,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11505,7 +11324,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11548,7 +11366,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11591,7 +11408,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11643,7 +11459,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11686,7 +11501,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11738,7 +11552,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11801,7 +11614,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11844,7 +11656,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11887,7 +11698,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11939,7 +11749,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -11991,7 +11800,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12036,7 +11844,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12088,7 +11895,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12131,7 +11937,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12174,7 +11979,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12217,7 +12021,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12290,7 +12093,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12364,7 +12166,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12425,7 +12226,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12479,7 +12279,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12522,7 +12321,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12578,7 +12376,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12645,7 +12442,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12701,7 +12497,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12757,7 +12552,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12835,7 +12629,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12899,7 +12692,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12955,7 +12747,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13040,7 +12831,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13116,7 +12906,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13194,7 +12983,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13259,7 +13047,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13315,7 +13102,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13362,7 +13148,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13411,7 +13196,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13454,7 +13238,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13497,7 +13280,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13540,7 +13322,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13583,7 +13364,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13626,7 +13406,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13669,7 +13448,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13712,7 +13490,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13755,7 +13532,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13798,7 +13574,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13841,7 +13616,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13884,7 +13658,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13927,7 +13700,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -13970,7 +13742,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14013,7 +13784,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14056,7 +13826,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14099,7 +13868,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14142,7 +13910,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14185,7 +13952,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14228,7 +13994,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14271,7 +14036,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14314,7 +14078,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14357,7 +14120,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14400,7 +14162,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14443,7 +14204,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14486,7 +14246,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14529,7 +14288,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14572,7 +14330,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14615,7 +14372,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14658,7 +14414,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14701,7 +14456,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14744,7 +14498,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14787,7 +14540,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14830,7 +14582,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14873,7 +14624,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14916,7 +14666,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14959,7 +14708,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15002,7 +14750,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15045,7 +14792,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15088,7 +14834,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15131,7 +14876,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15174,7 +14918,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15217,7 +14960,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15260,7 +15002,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15303,7 +15044,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15346,7 +15086,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15389,7 +15128,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15432,7 +15170,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15475,7 +15212,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15518,7 +15254,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15561,7 +15296,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15604,7 +15338,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15647,7 +15380,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15690,7 +15422,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15733,7 +15464,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15776,7 +15506,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15819,7 +15548,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15862,7 +15590,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15905,7 +15632,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15948,7 +15674,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15991,7 +15716,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16034,7 +15758,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16077,7 +15800,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16120,7 +15842,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16163,7 +15884,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16206,7 +15926,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16249,7 +15968,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16292,7 +16010,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16335,7 +16052,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16378,7 +16094,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16421,7 +16136,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16464,7 +16178,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16507,7 +16220,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16550,7 +16262,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16593,7 +16304,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16636,7 +16346,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16679,7 +16388,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16722,7 +16430,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16765,7 +16472,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16808,7 +16514,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16851,7 +16556,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16894,7 +16598,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16937,7 +16640,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16980,7 +16682,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17023,7 +16724,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17066,7 +16766,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17109,7 +16808,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17152,7 +16850,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17195,7 +16892,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17238,7 +16934,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17281,7 +16976,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17324,7 +17018,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17367,7 +17060,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17410,7 +17102,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17453,7 +17144,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17496,7 +17186,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17539,7 +17228,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17582,7 +17270,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17625,7 +17312,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17668,7 +17354,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17711,7 +17396,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17754,7 +17438,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17797,7 +17480,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17849,7 +17531,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17892,7 +17573,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17935,7 +17615,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17978,7 +17657,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18021,7 +17699,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18064,7 +17741,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18107,7 +17783,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18150,7 +17825,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18193,7 +17867,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18236,7 +17909,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18279,7 +17951,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18322,7 +17993,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18365,7 +18035,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18408,7 +18077,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18451,7 +18119,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18494,7 +18161,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18546,7 +18212,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18589,7 +18254,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18632,7 +18296,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18675,7 +18338,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18718,7 +18380,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18761,7 +18422,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18804,7 +18464,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18847,7 +18506,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18890,7 +18548,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18933,7 +18590,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18976,7 +18632,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19019,7 +18674,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19062,7 +18716,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19105,7 +18758,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19148,7 +18800,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19191,7 +18842,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19234,7 +18884,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19277,7 +18926,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19320,7 +18968,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19363,7 +19010,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19406,7 +19052,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19449,7 +19094,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19492,7 +19136,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19535,7 +19178,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19578,7 +19220,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19621,7 +19262,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19664,7 +19304,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19707,7 +19346,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19750,7 +19388,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19793,7 +19430,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19845,7 +19481,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19888,7 +19523,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19931,7 +19565,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19974,7 +19607,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20017,7 +19649,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20060,7 +19691,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20103,7 +19733,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20146,7 +19775,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20189,7 +19817,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20232,7 +19859,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20275,7 +19901,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20318,7 +19943,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20361,7 +19985,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20404,7 +20027,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20447,7 +20069,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20490,7 +20111,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20533,7 +20153,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20576,7 +20195,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20619,7 +20237,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20662,7 +20279,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20705,7 +20321,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20748,7 +20363,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20791,7 +20405,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20834,7 +20447,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20877,7 +20489,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20920,7 +20531,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20963,7 +20573,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21006,7 +20615,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21049,7 +20657,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21092,7 +20699,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21135,7 +20741,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21178,7 +20783,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21221,7 +20825,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21264,7 +20867,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21307,7 +20909,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21350,7 +20951,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21393,7 +20993,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21436,7 +21035,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21479,7 +21077,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21522,7 +21119,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21565,7 +21161,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21608,7 +21203,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21651,7 +21245,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21694,7 +21287,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21737,7 +21329,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21780,7 +21371,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21823,7 +21413,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21866,7 +21455,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21909,7 +21497,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21952,7 +21539,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -21995,7 +21581,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22038,7 +21623,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22081,7 +21665,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22124,7 +21707,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22167,7 +21749,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22210,7 +21791,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22253,7 +21833,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22296,7 +21875,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22339,7 +21917,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22382,7 +21959,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22425,7 +22001,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22468,7 +22043,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22511,7 +22085,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22554,7 +22127,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22597,7 +22169,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22640,7 +22211,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22683,7 +22253,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22726,7 +22295,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22771,7 +22339,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22814,7 +22381,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22857,7 +22423,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22900,7 +22465,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22943,7 +22507,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -22986,7 +22549,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -23029,7 +22591,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -23072,7 +22633,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -23115,7 +22675,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -23158,7 +22717,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -23201,7 +22759,6 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",

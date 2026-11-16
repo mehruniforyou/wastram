@@ -63,7 +63,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -128,7 +127,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -182,7 +180,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -246,7 +243,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -295,7 +291,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -351,7 +346,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -405,7 +399,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -468,7 +461,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -563,7 +555,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -626,7 +617,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -687,7 +677,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -752,7 +741,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -801,7 +789,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -879,7 +866,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -922,7 +908,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1010,7 +995,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1071,7 +1055,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1138,7 +1121,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1213,7 +1195,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1282,7 +1263,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1368,7 +1348,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1431,7 +1410,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1502,7 +1480,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1573,7 +1550,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1651,7 +1627,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1700,7 +1675,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1771,7 +1745,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1820,7 +1793,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1898,7 +1870,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1965,7 +1936,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2032,7 +2002,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2086,7 +2055,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2153,7 +2121,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2209,7 +2176,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2292,7 +2258,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2355,7 +2320,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2402,7 +2366,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2449,7 +2412,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2510,7 +2472,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2571,7 +2532,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2640,7 +2600,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2705,7 +2664,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2765,7 +2723,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2821,7 +2778,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2879,7 +2835,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2966,7 +2921,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3009,7 +2963,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3063,7 +3016,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3141,7 +3093,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3184,7 +3135,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3240,7 +3190,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3331,7 +3280,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3413,7 +3361,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3480,7 +3427,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3554,7 +3500,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3619,7 +3564,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3662,7 +3606,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3742,7 +3685,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3798,7 +3740,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3861,7 +3802,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3940,7 +3880,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4018,7 +3957,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4092,7 +4030,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4186,7 +4123,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4249,7 +4185,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4292,7 +4227,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4335,7 +4269,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4378,7 +4311,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4421,7 +4353,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4464,7 +4395,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4507,7 +4437,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4550,7 +4479,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4593,7 +4521,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4636,7 +4563,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4679,7 +4605,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4722,7 +4647,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4765,7 +4689,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4808,7 +4731,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4851,7 +4773,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4894,7 +4815,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4937,7 +4857,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4980,7 +4899,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5023,7 +4941,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5066,7 +4983,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5109,7 +5025,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5152,7 +5067,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5195,7 +5109,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5238,7 +5151,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5281,7 +5193,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5324,7 +5235,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5367,7 +5277,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5410,7 +5319,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5453,7 +5361,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5496,7 +5403,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5539,7 +5445,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5582,7 +5487,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5625,7 +5529,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5668,7 +5571,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5711,7 +5613,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5754,7 +5655,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5797,7 +5697,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5840,7 +5739,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5883,7 +5781,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5926,7 +5823,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5969,7 +5865,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6012,7 +5907,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6055,7 +5949,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6098,7 +5991,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6141,7 +6033,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6184,7 +6075,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6227,7 +6117,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6270,7 +6159,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6313,7 +6201,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6356,7 +6243,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6399,7 +6285,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6442,7 +6327,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6485,7 +6369,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6528,7 +6411,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6571,7 +6453,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6614,7 +6495,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6657,7 +6537,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6700,7 +6579,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6743,7 +6621,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6786,7 +6663,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6829,7 +6705,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6872,7 +6747,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6915,7 +6789,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6958,7 +6831,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7001,7 +6873,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7044,7 +6915,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7087,7 +6957,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7130,7 +6999,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7173,7 +7041,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7216,7 +7083,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7259,7 +7125,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7302,7 +7167,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7345,7 +7209,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7388,7 +7251,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7431,7 +7293,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7474,7 +7335,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7517,7 +7377,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7560,7 +7419,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7603,7 +7461,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7646,7 +7503,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7689,7 +7545,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7732,7 +7587,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7775,7 +7629,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7818,7 +7671,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7861,7 +7713,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7904,7 +7755,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7947,7 +7797,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -7990,7 +7839,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8033,7 +7881,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8076,7 +7923,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8119,7 +7965,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8162,7 +8007,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8205,7 +8049,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8248,7 +8091,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8291,7 +8133,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8334,7 +8175,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8377,7 +8217,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8420,7 +8259,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8463,7 +8301,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8506,7 +8343,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8549,7 +8385,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8592,7 +8427,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8635,7 +8469,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8678,7 +8511,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8721,7 +8553,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8764,7 +8595,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -8807,7 +8637,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",

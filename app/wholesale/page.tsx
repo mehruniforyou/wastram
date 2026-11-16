@@ -18,7 +18,7 @@ const TIERS = [
     turnaround: '5 – 7 business days',
     features: [
       'Mix and match any silhouettes',
-      'Sizes XS to 8XL included',
+      'Sizes S to XXL included',
       'Quality check inspection video',
       'Door-to-door air freight tracking',
     ],

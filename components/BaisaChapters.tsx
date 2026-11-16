@@ -10,7 +10,6 @@ interface Chapter {
   subtitle: string;
   slug: string;
   image: string;
-  pieces: string;
   tag: string;
 }
 
@@ -21,7 +20,6 @@ const CHAPTERS: Chapter[] = [
     subtitle: 'Breathable 2-piece & 3-piece matched sets in handloom cotton & ikat.',
     slug: 'cord-sets',
     image: '/cord-sets/12550.jpg.jpeg',
-    pieces: '173 pieces',
     tag: 'Bestselling Silhouette',
   },
   {
@@ -30,7 +28,6 @@ const CHAPTERS: Chapter[] = [
     subtitle: 'Pure cotton kurtas with farshi salwars, straight trousers & chanderi dupattas.',
     slug: 'ethnic-wear-sets',
     image: '/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg',
-    pieces: '171 pieces',
     tag: 'Classic Atelier',
   },
   {
@@ -39,7 +36,6 @@ const CHAPTERS: Chapter[] = [
     subtitle: 'Flared maxi, tiered midi & shirt dresses tailored for effortless ease.',
     slug: 'western-dresses',
     image: '/western-dresses/10045.jpg.jpeg',
-    pieces: '443 pieces',
     tag: 'Export Grade',
   },
   {
@@ -48,7 +44,6 @@ const CHAPTERS: Chapter[] = [
     subtitle: 'Flowing bohemian loungewear with tasselled ties & Sanganeri floral prints.',
     slug: 'short-long-kaftan',
     image: '/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg',
-    pieces: '297 pieces',
     tag: 'Summer Lounge',
   },
   {
@@ -57,7 +52,6 @@ const CHAPTERS: Chapter[] = [
     subtitle: 'Block-printed peplums, mandarin collared tunics & relaxed cotton shirts.',
     slug: 'tops-shirts',
     image: '/tops-shirts/5246.jpg.jpeg',
-    pieces: '133 pieces',
     tag: 'Everyday Ease',
   },
   {
@@ -66,7 +60,6 @@ const CHAPTERS: Chapter[] = [
     subtitle: 'Floor-length flared silhouettes adorned with Gota Patti and zari needlework.',
     slug: 'traditional-gowns',
     image: '/traditional-gowns/16668.jpg.jpeg',
-    pieces: '112 pieces',
     tag: 'Occasion & Festive',
   },
 ];
@@ -110,9 +103,8 @@ export default function BaisaChapters() {
                 </span>
               </div>
 
-              {/* Pieces Count */}
-              <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white text-xs">
-                <span className="font-sans font-medium">{chapter.pieces}</span>
+              {/* Action Link */}
+              <div className="absolute bottom-4 right-4 flex items-center text-white text-xs">
                 <span className="underline decoration-white/60 underline-offset-4 group-hover:decoration-white transition-colors">
                   View Chapter →
                 </span>

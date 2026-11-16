@@ -32,16 +32,14 @@ export default function CartPage() {
   const discountAmount = promoApplied ? Math.round(cartSubtotal * 0.1) : 0;
   const finalTotal = Math.max(0, cartSubtotal - discountAmount);
 
-  const checkoutUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
-    `Hello Wastram Atelier, I would like to place an order for my shopping bag:
-${cart.map((item, i) => `${i + 1}. ${item.product.title} (Size: ${item.size}, Qty: ${item.quantity}) - ₹${item.product.price || 1499}`).join('\n')}
-
-Subtotal: ₹${cartSubtotal}
-${promoApplied ? 'Promo Applied: 10% OFF' : ''}
-Final Amount: ₹${finalTotal}
-
-Please proceed with Cash on Delivery / UPI payment details.`
-  )}`;
+  const itemsSummary = cart
+    .map(
+      (item, i) =>
+        `${i + 1}. ${item.product.title} (SKU: ${item.product.sku || item.product.id}, Size: ${item.size}, Qty: ${item.quantity})`
+    )
+    .join('\n');
+  const wholesaleMessage = `Hello Wastram Atelier, I would like to submit a wholesale enquiry for:\n${itemsSummary}\n\nPlease share wholesale tier pricing, MOQ terms, and air cargo delivery lead time.`;
+  const checkoutUrl = `https://wa.me/918003088838?text=${encodeURIComponent(wholesaleMessage)}`;
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
@@ -50,10 +48,10 @@ Please proceed with Cash on Delivery / UPI payment details.`
       <main className="max-w-5xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 flex-1">
         <div className="text-center mb-10">
           <span className="text-xs uppercase tracking-widest text-[#0B2D7F] dark:text-amber-400 font-semibold">
-            YOUR SELECTIONS
+            WHOLESALE &amp; SAMPLE SOURCING
           </span>
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink-950 dark:text-white font-normal mt-1">
-            Shopping Bag ({cartCount})
+            Enquiry Selections ({cartCount})
           </h1>
         </div>
 
@@ -63,7 +61,7 @@ Please proceed with Cash on Delivery / UPI payment details.`
               <ShoppingBag size={28} />
             </div>
             <h2 className="font-serif text-2xl font-normal text-ink-950 dark:text-white">
-              Your bag is empty
+              Your enquiry bag is empty
             </h2>
             <p className="text-xs sm:text-sm text-ink-600 dark:text-neutral-400 font-sans">
               Discover authentic handblock co-ords, kurta sets, and dresses crafted directly in our Jaipur atelier.
@@ -80,25 +78,10 @@ Please proceed with Cash on Delivery / UPI payment details.`
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             {/* Items List */}
             <div className="lg:col-span-7 space-y-4">
-              {/* Free delivery bar */}
-              <div className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
-                <p className="text-xs font-medium text-ink-800 dark:text-neutral-200">
-                  {remainingForFreeShipping > 0 ? (
-                    <>
-                      Add <span className="font-bold text-[#0B2D7F] dark:text-amber-400">₹{remainingForFreeShipping.toLocaleString('en-IN')}</span> more for <span className="font-semibold">Free Delivery</span>!
-                    </>
-                  ) : (
-                    <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
-                      🎉 You have qualified for Free Delivery!
-                    </span>
-                  )}
-                </p>
-                <div className="mt-2 w-full h-1.5 bg-neutral-100 dark:bg-neutral-800 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-[#0B2D7F] dark:bg-amber-400 rounded-full transition-all duration-300"
-                    style={{ width: `${progressPercent}%` }}
-                  />
-                </div>
+              {/* Atelier info bar */}
+              <div className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs flex items-center justify-between text-xs font-medium text-ink-800 dark:text-neutral-200">
+                <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">Direct Sanganer Atelier Supply</span>
+                <span className="text-foreground/60">Worldwide Air Cargo Dispatch</span>
               </div>
 
               {cart.map((item, idx) => {
@@ -134,10 +117,10 @@ Please proceed with Cash on Delivery / UPI payment details.`
                         </div>
 
                         <p className="text-xs text-ink-500 dark:text-neutral-400 mt-1">
-                          Size: <span className="font-semibold text-ink-900 dark:text-white">{item.size}</span>
+                          Size Pre-Pack: <span className="font-semibold text-ink-900 dark:text-white">{item.size}</span>
                         </p>
-                        <p className="font-serif font-bold text-sm text-[#0B2D7F] dark:text-amber-400 mt-1">
-                          ₹{(item.product.price || 1499).toLocaleString('en-IN')}
+                        <p className="text-xs font-semibold text-[#0B2D7F] dark:text-amber-400 mt-1">
+                          Wholesale Sourcing Item (MOQ: 20 Pcs)
                         </p>
                       </div>
 
@@ -171,50 +154,31 @@ Please proceed with Cash on Delivery / UPI payment details.`
             {/* Order Summary */}
             <div className="lg:col-span-5 bg-white dark:bg-neutral-900 rounded-3xl p-6 sm:p-8 border border-ink-100 dark:border-white/5 shadow-sm space-y-6">
               <h2 className="font-serif text-xl font-medium text-ink-950 dark:text-white">
-                Order Summary
+                Enquiry Summary
               </h2>
 
               <div className="space-y-3 text-xs sm:text-sm text-ink-600 dark:text-neutral-300 font-sans">
                 <div className="flex justify-between">
-                  <span>Subtotal</span>
-                  <span className="font-serif font-bold text-ink-950 dark:text-white">
-                    ₹{cartSubtotal.toLocaleString('en-IN')}
-                  </span>
+                  <span>Selected Styles</span>
+                  <span className="font-semibold text-ink-950 dark:text-white">{cart.length}</span>
                 </div>
-                {promoApplied && (
-                  <div className="flex justify-between text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
-                    <span>Coupon Discount (10%)</span>
-                    <span>-₹{discountAmount.toLocaleString('en-IN')}</span>
-                  </div>
-                )}
                 <div className="flex justify-between">
-                  <span>Estimated Shipping</span>
-                  <span>{remainingForFreeShipping === 0 ? 'FREE' : '₹79'}</span>
+                  <span>Total Selected Units</span>
+                  <span className="font-semibold text-ink-950 dark:text-white">{cart.reduce((s, i) => s + i.quantity, 0)}</span>
                 </div>
-                <div className="pt-3 border-t border-ink-100 dark:border-white/10 flex justify-between items-baseline">
-                  <span className="font-serif text-base font-semibold text-ink-950 dark:text-white">Total</span>
-                  <span className="font-serif text-2xl font-bold text-[#0B2D7F] dark:text-amber-400">
-                    ₹{finalTotal.toLocaleString('en-IN')}
-                  </span>
+                <div className="flex justify-between">
+                  <span>Sourcing Type</span>
+                  <span className="font-semibold text-ink-950 dark:text-white">Boutique Wholesale / Sampling</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Dispatch Window</span>
+                  <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">2–3 Business Days</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Cargo &amp; Freight</span>
+                  <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">Insured Worldwide Air Cargo</span>
                 </div>
               </div>
-
-              {/* Promo Code Input */}
-              <form onSubmit={handleApplyPromo} className="flex gap-2">
-                <input
-                  type="text"
-                  placeholder="Coupon code (e.g. FIRST10)"
-                  value={promoCode}
-                  onChange={(e) => setPromoCode(e.target.value)}
-                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800"
-                />
-                <button
-                  type="submit"
-                  className="px-4 py-2 rounded-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-950 text-xs font-semibold"
-                >
-                  Apply
-                </button>
-              </form>
 
               {/* Checkout Button */}
               <a
@@ -223,17 +187,17 @@ Please proceed with Cash on Delivery / UPI payment details.`
                 rel="noopener noreferrer"
                 className="w-full py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-sm text-center block transition-all shadow-md"
               >
-                Proceed to Checkout (COD / UPI)
+                Submit Wholesale Enquiry on WhatsApp
               </a>
 
               <div className="space-y-2 pt-2 border-t border-ink-100 dark:border-white/10 text-xs text-ink-500 dark:text-neutral-400">
                 <div className="flex items-center gap-2">
                   <ShieldCheck size={16} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
-                  <span>Cash on Delivery available on all orders</span>
+                  <span>Verified 3-stage quality checks on every garment</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Truck size={16} className="text-[#0B2D7F] dark:text-amber-400 shrink-0" />
-                  <span>Handcrafted in Jaipur · Dispatched in 2–3 days</span>
+                  <span>Handcrafted in Jaipur atelier · Worldwide air freight</span>
                 </div>
               </div>
             </div>

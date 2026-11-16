@@ -57,23 +57,10 @@ export default function CartDrawer() {
 
         {/* Free Shipping Progress Ribbon */}
         <div className="px-6 py-3 bg-[#FFFEFE] dark:bg-neutral-900/60 border-b border-ink-100 dark:border-white/5">
-          <p className="text-xs text-ink-800 dark:text-neutral-200 font-medium">
-            {amountNeeded > 0 ? (
-              <>
-                Add <span className="font-bold text-[#0B2D7F] dark:text-amber-400">₹{amountNeeded.toLocaleString('en-IN')}</span> more to qualify for <span className="font-semibold">Free Delivery</span>!
-              </>
-            ) : (
-              <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
-                🎉 Congratulations! You have unlocked Free Delivery!
-              </span>
-            )}
+          <p className="text-xs text-ink-800 dark:text-neutral-200 font-medium flex items-center justify-between">
+            <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">Jaipur Handloom Atelier Direct</span>
+            <span className="text-[11px] text-foreground/60">Worldwide Air Cargo</span>
           </p>
-          <div className="mt-2 w-full h-1.5 bg-ink-200/50 dark:bg-white/10 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-[#0B2D7F] dark:bg-amber-400 rounded-full transition-all duration-300"
-              style={{ width: `${progressPercent}%` }}
-            />
-          </div>
         </div>
 
         {/* Cart Items or Empty State */}
@@ -90,11 +77,11 @@ export default function CartDrawer() {
                 Every piece is hand-checked and shipped from our Sanganer workshop in Jaipur.
               </p>
               <Link
-                href="/collections/under-1000"
+                href="/collections/shop-all"
                 onClick={closeCart}
                 className="mt-6 px-6 py-3 rounded-full border border-ink-300 dark:border-white/20 text-ink-900 dark:text-white text-xs font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors inline-flex items-center gap-1.5"
               >
-                <span>Start under ₹1,000</span>
+                <span>Explore All Silhouettes</span>
                 <ArrowRight size={13} />
               </Link>
             </div>
@@ -132,8 +119,8 @@ export default function CartDrawer() {
                       <p className="text-xs text-ink-500 dark:text-neutral-400 mt-0.5">
                         Size: <span className="font-semibold text-ink-800 dark:text-white">{item.size}</span>
                       </p>
-                      <p className="text-xs font-serif font-bold text-[#0B2D7F] dark:text-amber-400 mt-1">
-                        ₹{(item.product.price || 1499).toLocaleString('en-IN')}
+                      <p className="text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37] mt-1">
+                        Wholesale Inquiry Item
                       </p>
                     </div>
 
@@ -173,17 +160,15 @@ export default function CartDrawer() {
           <div className="p-6 bg-white dark:bg-neutral-900 border-t border-ink-100 dark:border-white/10 space-y-4">
             <div className="space-y-1.5 text-xs text-ink-600 dark:text-neutral-400 font-sans">
               <div className="flex justify-between">
-                <span>Subtotal</span>
-                <span className="font-serif font-bold text-base text-ink-950 dark:text-white">
-                  ₹{cartSubtotal.toLocaleString('en-IN')}
-                </span>
+                <span>Order Type</span>
+                <span className="font-semibold text-ink-950 dark:text-white">Wholesale &amp; Sample Quote</span>
               </div>
               <div className="flex justify-between">
-                <span>Shipping</span>
-                <span>{amountNeeded === 0 ? 'FREE' : '₹79 (or add ₹' + amountNeeded + ' for free)'}</span>
+                <span>Freight &amp; Cargo</span>
+                <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">Worldwide Air Cargo</span>
               </div>
               <p className="text-[11px] text-ink-500 pt-1">
-                Taxes included. Cash on Delivery available at checkout.
+                Direct atelier dispatch from Sanganer, Jaipur. Final invoice provided upon inquiry confirmation.
               </p>
             </div>
 
@@ -192,7 +177,7 @@ export default function CartDrawer() {
               onClick={closeCart}
               className="w-full py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-sm font-semibold text-center block transition-all shadow-md"
             >
-              Proceed to Bag & Checkout
+              Review Quote &amp; Submit Enquiry
             </Link>
           </div>
         )}

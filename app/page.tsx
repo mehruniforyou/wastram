@@ -46,7 +46,7 @@ export default function HomePage() {
         {/* Section 6: "Your outfit, your way" 4-Service Cards */}
         <BaisaServicesGrid />
 
-        {/* Section 7: "Under ₹1,000" Starter Edit */}
+        {/* Section 7: Everyday Silhouettes Edit */}
         <BaisaUnder1000 />
 
         {/* Section 8: "In Motion" Vertical 9:16 Reels & Fabric Movement */}
@@ -65,7 +65,7 @@ export default function HomePage() {
       {/* 4. Slide-out "Your Bag" Cart Drawer */}
       <CartDrawer />
 
-      {/* 5. Interactive Size Guide Modal (XS–8XL) */}
+      {/* 5. Interactive Size Guide Modal (S–XXL) */}
       <SizeGuideModal />
 
       {/* 6. Floating WhatsApp Concierge Button */}

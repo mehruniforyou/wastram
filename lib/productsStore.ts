@@ -724,7 +724,11 @@ export function applyOverrideToProduct(
         };
       }).filter(Boolean);
     })(),
-    sizes: Array.isArray(override.sizes) && override.sizes.length > 0 ? override.sizes : p.sizes,
+    sizes: (() => {
+      const raw = Array.isArray(override.sizes) && override.sizes.length > 0 ? override.sizes : p.sizes;
+      const filtered = Array.isArray(raw) ? raw.filter(s => ['S', 'M', 'L', 'XL', 'XXL'].includes(String(s).toUpperCase())) : [];
+      return filtered.length > 0 ? filtered : ["S", "M", "L", "XL", "XXL"];
+    })(),
     fabric: override.fabric !== undefined ? override.fabric : p.fabric,
     details: Array.isArray(override.details) ? override.details : p.details,
     moq: override.moq !== undefined ? override.moq : p.moq,

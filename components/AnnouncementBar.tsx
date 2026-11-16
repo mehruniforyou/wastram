@@ -12,12 +12,12 @@ export default function AnnouncementBar() {
   }
 
   const tickerItems = [
-    { text: '✨ BUY 2 & GET ₹200 OFF | USE CODE: WASTRAM200', highlight: 'WASTRAM200' },
+    { text: '✨ DIRECT ATELIER SOURCING FOR BOUTIQUES & RESELLERS', highlight: 'DIRECT ATELIER' },
     { text: '👑 WASTRAM JAIPUR | ARTISANAL HANDLOOM & HAUTE TEXTILES', highlight: 'WASTRAM JAIPUR' },
     { text: '💬 INSTANT B2B WHOLESALE ENQUIRY ON WHATSAPP: +91 80030 88838', highlight: '+91 80030 88838' },
     { text: '★ COMPLIMENTARY ALL-INDIA SAMPLING FOR BOUTIQUES & RESELLERS', highlight: 'COMPLIMENTARY' },
     { text: '✈️ WORLDWIDE EXPRESS EXPORT DISPATCH TO 40+ COUNTRIES', highlight: 'WORLDWIDE EXPRESS' },
-    { text: '🪡 1,400+ HANDCRAFTED ETHNIC SUITS, CO-ORDS & KAFTANS', highlight: '1,400+ STYLES' },
+    { text: '🪡 HANDCRAFTED ETHNIC SUITS, CO-ORDS & KAFTANS', highlight: 'HANDCRAFTED' },
     { text: '📦 FLEXIBLE ATELIER BATCH MOQS STARTING AT 20 PCS / STYLE', highlight: 'MOQ 20 PCS' },
   ];
 

@@ -106,7 +106,7 @@ export default function StoryPage() {
           <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
             <Users size={24} className="text-[#0B2D7F] dark:text-amber-400 mb-3" />
             <h3 className="font-serif text-lg font-medium text-ink-950 dark:text-white mb-2">
-              True Inclusivity: XS to 8XL
+              True Inclusivity: S to XXL
             </h3>
             <p className="text-xs text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
               Fashion belongs to all women. We don't just scale up a small pattern — each size has its own proportional curve grading for shoulder, bust, and armholes.

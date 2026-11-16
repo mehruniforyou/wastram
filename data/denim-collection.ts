@@ -25,7 +25,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -68,7 +67,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -111,7 +109,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -154,7 +151,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -215,7 +211,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -258,7 +253,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -301,7 +295,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -344,7 +337,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -387,7 +379,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -430,7 +421,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -473,7 +463,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -516,7 +505,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -559,7 +547,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -602,7 +589,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -654,7 +640,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -697,7 +682,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -740,7 +724,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -783,7 +766,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -826,7 +808,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -869,7 +850,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -912,7 +892,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -955,7 +934,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1007,7 +985,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1050,7 +1027,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1093,7 +1069,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1136,7 +1111,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1179,7 +1153,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1222,7 +1195,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1265,7 +1237,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1308,7 +1279,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1351,7 +1321,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1394,7 +1363,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1437,7 +1405,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1480,7 +1447,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1523,7 +1489,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1566,7 +1531,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1609,7 +1573,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1652,7 +1615,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1695,7 +1657,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1738,7 +1699,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1781,7 +1741,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1824,7 +1783,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1867,7 +1825,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1910,7 +1867,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1953,7 +1909,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1996,7 +1951,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2039,7 +1993,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2082,7 +2035,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2134,7 +2086,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2177,7 +2128,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2220,7 +2170,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2263,7 +2212,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2306,7 +2254,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2349,7 +2296,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2392,7 +2338,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2435,7 +2380,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2478,7 +2422,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2521,7 +2464,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2564,7 +2506,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2607,7 +2548,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2650,7 +2590,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2693,7 +2632,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2736,7 +2674,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2788,7 +2725,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2831,7 +2767,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2874,7 +2809,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2917,7 +2851,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2960,7 +2893,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3003,7 +2935,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3046,7 +2977,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3089,7 +3019,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3134,7 +3063,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3177,7 +3105,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3220,7 +3147,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3263,7 +3189,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3306,7 +3231,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3349,7 +3273,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3392,7 +3315,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3435,7 +3357,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3478,7 +3399,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3521,7 +3441,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3573,7 +3492,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3616,7 +3534,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3661,7 +3578,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3704,7 +3620,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3747,7 +3662,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3790,7 +3704,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3833,7 +3746,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3885,7 +3797,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3928,7 +3839,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3971,7 +3881,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4014,7 +3923,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4057,7 +3965,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4100,7 +4007,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4143,7 +4049,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4186,7 +4091,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4229,7 +4133,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4272,7 +4175,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4315,7 +4217,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4358,7 +4259,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4401,7 +4301,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4446,7 +4345,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4489,7 +4387,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4532,7 +4429,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4584,7 +4480,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4638,7 +4533,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4681,7 +4575,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4724,7 +4617,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4767,7 +4659,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4810,7 +4701,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4853,7 +4743,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4896,7 +4785,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4939,7 +4827,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4982,7 +4869,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5025,7 +4911,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5068,7 +4953,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5111,7 +4995,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5154,7 +5037,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5206,7 +5088,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5249,7 +5130,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5292,7 +5172,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5335,7 +5214,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5378,7 +5256,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5421,7 +5298,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5464,7 +5340,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5507,7 +5382,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5550,7 +5424,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5593,7 +5466,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5636,7 +5508,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5679,7 +5550,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5722,7 +5592,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5765,7 +5634,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5808,7 +5676,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5851,7 +5718,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5894,7 +5760,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5937,7 +5802,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5980,7 +5844,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6032,7 +5895,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6075,7 +5937,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6118,7 +5979,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6161,7 +6021,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6204,7 +6063,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6247,7 +6105,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6290,7 +6147,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6333,7 +6189,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -6376,7 +6231,6 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",

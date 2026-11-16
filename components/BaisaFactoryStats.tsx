@@ -16,10 +16,10 @@ import {
 
 const STATS = [
   { value: '50+', label: 'Artisans & Master Tailors', sub: 'In-house Sanganer workshop' },
-  { value: '12k+', label: 'Garments Handcrafted / Mo', sub: 'Zero third-party outsourcing' },
+  { value: '100%', label: 'In-House Production', sub: 'Zero third-party outsourcing' },
   { value: '3-Stage', label: 'Rigorous Quality Checks', sub: 'Fabric, stitch & finish audit' },
-  { value: 'XS–8XL', label: 'Individual Pattern Grading', sub: 'Proportional curves for all' },
-  { value: '₹0', label: 'Middleman Markups', sub: 'Direct from atelier to you' },
+  { value: 'S–XXL', label: 'Individual Pattern Grading', sub: 'Proportional curves for all' },
+  { value: 'Direct', label: 'Factory Direct Sourcing', sub: 'From atelier to boutique' },
   { value: '2–3 Days', label: 'Rapid Dispatch', sub: 'Carefully steamed & boxed' },
 ];
 
@@ -36,7 +36,7 @@ const TRUST_BADGES = [
   },
   {
     icon: Users,
-    title: 'Sizes XS to 8XL',
+    title: 'Sizes S to XXL',
     desc: 'Unique graded patterns for every size, ensuring the right shoulder and bust drop.',
   },
   {
@@ -60,17 +60,17 @@ const ORDER_STEPS = [
   {
     step: '01',
     title: 'Pick your piece',
-    desc: 'Browse our ready styles, occasion rentals, or custom measurement options.',
+    desc: 'Browse our ready silhouettes, wholesale edits, or custom measurement options.',
   },
   {
     step: '02',
     title: 'Find your size',
-    desc: 'Use our guided 3-point size finder (chest, waist, hips) from XS up to 8XL.',
+    desc: 'Use our guided 3-point size finder (chest, waist, hips) from S up to XXL.',
   },
   {
     step: '03',
     title: 'Place your order',
-    desc: 'Choose COD or instant secure UPI/Card checkout with free delivery on ₹1,499+.',
+    desc: 'Submit your wholesale boutique enquiry or place sample orders with rapid air freight.',
   },
   {
     step: '04',

@@ -27,7 +27,7 @@ export default function BaisaWholesaleBanner() {
 
           <p className="mt-4 text-sm sm:text-base text-white/80 leading-relaxed font-sans">
             Supply your luxury boutique, resort popup, or concept store directly from our Jaipur handloom atelier. 
-            Enjoy low minimums from 20 pieces, custom label tagging, XS to 8XL grading, and insured worldwide door-to-door air freight.
+            Enjoy low minimums from 20 pieces, custom label tagging, S to XXL grading, and insured worldwide door-to-door air freight.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">

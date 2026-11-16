@@ -60,7 +60,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -138,7 +137,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -220,7 +218,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -294,7 +291,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -368,7 +364,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -446,7 +441,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -498,7 +492,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -578,7 +571,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -654,7 +646,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -708,7 +699,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -786,7 +776,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -849,7 +838,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -892,7 +880,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -935,7 +922,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -978,7 +964,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1025,7 +1010,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1068,7 +1052,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1111,7 +1094,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1154,7 +1136,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1197,7 +1178,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1240,7 +1220,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1283,7 +1262,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1326,7 +1304,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1369,7 +1346,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1412,7 +1388,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1455,7 +1430,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1498,7 +1472,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1541,7 +1514,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1584,7 +1556,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1627,7 +1598,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1670,7 +1640,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1713,7 +1682,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1756,7 +1724,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1799,7 +1766,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1842,7 +1808,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1885,7 +1850,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1928,7 +1892,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1971,7 +1934,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2014,7 +1976,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -2057,7 +2018,6 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
