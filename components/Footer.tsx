@@ -33,19 +33,19 @@ export default function Footer() {
       className="relative mt-24 md:mt-32 border-t border-[#DEE2E6] dark:border-white/10 overflow-hidden text-foreground bg-[#FDF9EE] dark:bg-[#12100E]"
       data-testid="site-footer"
     >
-      {/* Mobile Layout Heritage Illustration (Portrait: Hawa Mahal, Peacocks & Arches) - Full Crisp Artwork */}
+      {/* Mobile Layout Heritage Illustration (Portrait: 1024x1536 Lossless Ultra-HD) */}
       <div
         className="block md:hidden absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-100 dark:opacity-30 pointer-events-none"
         style={{
-          backgroundImage: "url('/images/footer-heritage-bg-mobile.jpg')",
+          backgroundImage: "url('/images/footer-heritage-bg-mobile.png')",
         }}
       />
 
-      {/* Desktop Layout Heritage Illustration (Panoramic Landscape) - Full Crisp Artwork */}
+      {/* Desktop Layout Heritage Illustration (Panoramic Landscape: 2172x724 Lossless Ultra-HD) */}
       <div
         className="hidden md:block absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-100 dark:opacity-30 pointer-events-none"
         style={{
-          backgroundImage: "url('/images/footer-heritage-bg-desktop.jpg')",
+          backgroundImage: "url('/images/footer-heritage-bg-desktop.png')",
         }}
       />
 
