@@ -30,7 +30,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="relative mt-24 md:mt-32 border-t border-[#DEE2E6] dark:border-white/10 overflow-hidden text-foreground bg-[#FDF9EE] dark:bg-[#12100E]"
+      className="relative mt-24 md:mt-32 overflow-hidden text-foreground bg-[#FDF9EE] dark:bg-[#12100E]"
       data-testid="site-footer"
     >
       {/* Mobile Layout Heritage Illustration (Portrait: 1024x1536 Optimized WebP, 120KB) */}
@@ -94,6 +94,10 @@ export default function Footer() {
               <span>hello@wastram.in · exports@wastram.in</span>
             </p>
           </div>
+
+          <p className="mt-5 text-[11px] text-foreground/50 font-body">
+            &copy; {new Date().getFullYear()} Wastram Jaipur. All rights reserved.
+          </p>
         </div>
 
         {/* Column 2: Shop & Collections (md:col-span-2) */}
@@ -238,25 +242,11 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-        {/* Minimal Copyright Line sitting cleanly right beneath the navigation columns */}
-        <div className="mt-8 pt-6 border-t border-[#D4AF37]/25 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-foreground/60 font-body">
-          <div>
-            &copy; {new Date().getFullYear()} Wastram Jaipur. All rights reserved.
-          </div>
-          <div className="flex items-center gap-2">
-            <span>Direct Atelier Handlooms</span>
-            <span>·</span>
-            <span>Est. 2011</span>
-            <span>·</span>
-            <span>Worldwide Air Freight</span>
-          </div>
-        </div>
-      </div>
+    </div>
 
       {/* Dedicated Heritage Illustration Showcase Zone - ONLY the Jaipur palaces, arches, peacocks & gold border appear here */}
       <div
-        className="relative z-0 h-44 sm:h-56 md:h-72 lg:h-84 xl:h-96 w-full pointer-events-none"
+        className="relative z-0 h-56 sm:h-64 md:h-80 lg:h-96 xl:h-[420px] w-full pointer-events-none"
         aria-hidden="true"
       />
     </footer>
