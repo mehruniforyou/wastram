@@ -67,10 +67,10 @@ export default function BaisaHero() {
           </div>
         </div>
 
-        {/* Right Column: Layered Editorial Arched Photography Frame */}
+        {/* Right Column: Layered Editorial Photography Frame */}
         <div className="lg:col-span-6 relative flex items-center justify-center w-full max-w-full overflow-hidden sm:overflow-visible py-2">
-          {/* Main Primary Model Frame (The Arched Doorway) */}
-          <div className="relative w-full max-w-[310px] sm:max-w-[380px] md:max-w-[420px] aspect-[3/4] rounded-t-[140px] rounded-b-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-[#1E1B18] bg-[#FFFEFE] z-10 group mx-auto">
+          {/* Main Primary Model Frame (Rectangular with Rounded Corners) */}
+          <div className="relative w-full max-w-[310px] sm:max-w-[380px] md:max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-[#1E1B18] bg-[#FFFEFE] z-10 group mx-auto">
             <img
               src="/western-dresses/10045.jpg.jpeg"
               alt="Wastram Jaipur Handcrafted Ethnic Wear"
@@ -100,8 +100,8 @@ export default function BaisaHero() {
             />
           </div>
 
-          {/* Tertiary Subtle Background Arch Frame */}
-          <div className="hidden lg:block absolute -left-8 top-10 w-48 aspect-[3/4] rounded-t-[100px] rounded-b-2xl overflow-hidden opacity-40 border border-[#E7E5E4] bg-[#FFFEFE] -z-0">
+          {/* Tertiary Subtle Background Frame */}
+          <div className="hidden lg:block absolute -left-8 top-10 w-48 aspect-[3/4] rounded-2xl overflow-hidden opacity-40 border border-[#E7E5E4] bg-[#FFFEFE] -z-0">
             <img
               src="/traditional-gowns/16668.jpg.jpeg"
               alt="Traditional Gown Silhouette"

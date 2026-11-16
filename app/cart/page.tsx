@@ -85,10 +85,8 @@ export default function CartPage() {
               </div>
 
               {cart.map((item, idx) => {
-                const displayImg =
-                  (item.product.images && item.product.images[0]) ||
-                  item.product.image ||
-                  '/placeholder.jpg';
+                const rawImg = (item.product.images && item.product.images[0]) || item.product.image || (item.product as any).featured_image || '/placeholder.jpg';
+                const displayImg = typeof rawImg === 'string' ? rawImg : (rawImg?.url || rawImg?.src || '/placeholder.jpg');
                 return (
                   <div
                     key={`${item.product.id}-${item.size}-${idx}`}

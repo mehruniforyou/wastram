@@ -101,7 +101,8 @@ export async function GET(req: NextRequest, { params }: RouteProps) {
       mainImage: featuredImage || (galleryUrls[0] || ""),
       featured_image: featuredImage || (galleryUrls[0] || ""),
       gallery: galleryUrls,
-      images: galleryUrls.map((url, index) => ({
+      images: galleryUrls,
+      product_images: galleryUrls.map((url, index) => ({
         id: `img-${liveProd.id}-${index}`,
         url,
         alt_text: name,

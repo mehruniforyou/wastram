@@ -15,13 +15,21 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
   const { toggleWishlist, isWishlisted, addToCart } = useCart();
   const wishlisted = isWishlisted(product.slug);
 
+  const extractImageUrl = (item: any): string => {
+    if (!item) return '';
+    if (typeof item === 'string') return item;
+    return item.url || item.src || item.image || '';
+  };
+
   const displayImage =
-    (product.images && product.images.length > 0 && product.images[0]) ||
-    product.image ||
+    extractImageUrl(product.images && product.images[0]) ||
+    extractImageUrl(product.image) ||
+    extractImageUrl((product as any).featured_image) ||
+    extractImageUrl((product as any).mainImage) ||
     '/placeholder.jpg';
 
   const hoverImage =
-    (product.images && product.images.length > 1 && product.images[1]) ||
+    extractImageUrl(product.images && product.images[1]) ||
     displayImage;
 
   const skuCode = product.sku || `WD-${String(product.id).slice(-3).padStart(3, '0')}`;

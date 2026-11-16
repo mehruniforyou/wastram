@@ -104,7 +104,13 @@ export default function B2BEnquiryModal({
               {/* Product Capsule Preview */}
               <div className="flex items-center gap-3.5 bg-white p-3 rounded-2xl border border-black/5">
                 <img
-                  src={product.images[0]}
+                  src={
+                    (typeof product.images?.[0] === 'string'
+                      ? product.images[0]
+                      : (product.images?.[0] as any)?.url) ||
+                    product.image ||
+                    '/placeholder.jpg'
+                  }
                   alt={product.title}
                   className="w-14 h-18 object-cover rounded-xl bg-neutral-100 flex-shrink-0"
                 />

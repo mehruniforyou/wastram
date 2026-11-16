@@ -38,7 +38,17 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
         {/* Product mini info */}
         <div className="flex gap-4 items-center border-b border-black/10 pb-4">
           <div className="w-16 h-20 rounded-lg overflow-hidden bg-[#F5F5F5] flex-shrink-0">
-            <img src={product.images[0]} alt={product.title} className="w-full h-full object-cover" />
+            <img
+              src={
+                (typeof product.images?.[0] === 'string'
+                  ? product.images[0]
+                  : (product.images?.[0] as any)?.url) ||
+                product.image ||
+                '/placeholder.jpg'
+              }
+              alt={product.title}
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="flex flex-col">
             <span className="text-[10px] font-bold uppercase text-[#F58220]">{product.badge}</span>

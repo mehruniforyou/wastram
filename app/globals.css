@@ -53,15 +53,13 @@
   --font-jost: 'Jost', sans-serif;
 }
 
-/* Rajasthani & Mughal Arch Mask Utility */
+/* Rectangular Cards with Modern Rounded Corners */
 .rajasthani-arch {
-  border-top-left-radius: 9999px;
-  border-top-right-radius: 9999px;
+  border-radius: 1rem;
 }
 
 .rajasthani-arch-subtle {
-  border-top-left-radius: 120px;
-  border-top-right-radius: 120px;
+  border-radius: 0.75rem;
 }
 
 /* Tailor Stitched Ribbon Effect */

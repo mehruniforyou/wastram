@@ -86,8 +86,8 @@ export default function BaisaChapters() {
             href={`/collections/${chapter.slug}`}
             className="group flex flex-col bg-white dark:bg-neutral-900 rounded-3xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-500 border border-ink-100 dark:border-white/5"
           >
-            {/* Authentic Rajasthani Arch Doorway Image Frame */}
-            <div className="relative aspect-[3/4] w-full overflow-hidden rajasthani-arch bg-neutral-100 dark:bg-neutral-800">
+            {/* Rectangular Image Frame with Rounded Corners */}
+            <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800">
               <img
                 src={chapter.image}
                 alt={chapter.title}

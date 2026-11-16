@@ -87,10 +87,8 @@ export default function CartDrawer() {
             </div>
           ) : (
             cart.map((item, idx) => {
-              const displayImage =
-                (item.product.images && item.product.images[0]) ||
-                item.product.image ||
-                '/placeholder.jpg';
+              const rawImg = (item.product.images && item.product.images[0]) || item.product.image || (item.product as any).featured_image || '/placeholder.jpg';
+              const displayImage = typeof rawImg === 'string' ? rawImg : (rawImg?.url || rawImg?.src || '/placeholder.jpg');
               return (
                 <div
                   key={`${item.product.id}-${item.size}-${idx}`}

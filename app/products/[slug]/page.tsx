@@ -192,9 +192,27 @@ export default function ProductDetailPage({ params }: Props) {
     );
   }
 
-  const images = (product.images && product.images.length > 0 && product.images) || [
-    product.image || '/placeholder.jpg',
-  ];
+  // Normalize gallery images into clean string URLs to prevent vanishing or [object Object] errors
+  const rawImages: any[] =
+    (Array.isArray(product.images) && product.images.length > 0 && product.images) ||
+    (Array.isArray((product as any).gallery) && (product as any).gallery.length > 0 && (product as any).gallery) ||
+    (Array.isArray((product as any).galleryImages) && (product as any).galleryImages.length > 0 && (product as any).galleryImages) ||
+    [product.image || (product as any).featured_image || (product as any).mainImage || '/placeholder.jpg'];
+
+  const images: string[] = rawImages
+    .map((item: any) => {
+      if (!item) return '';
+      if (typeof item === 'string') return item;
+      return item.url || item.src || item.image || '';
+    })
+    .filter((url: string) => typeof url === 'string' && url.trim().length > 0 && !url.includes('[object'));
+
+  if (images.length === 0) {
+    const fallback = product.image || (product as any).featured_image || (product as any).mainImage || '/placeholder.jpg';
+    images.push(typeof fallback === 'string' ? fallback : fallback?.url || '/placeholder.jpg');
+  }
+
+  const currentHeroImg = images[activeImageIndex] || images[0];
 
   const price = product.price || 1499;
   const regularPrice = product.regularPrice || Math.round(price * 1.33);
@@ -290,10 +308,10 @@ export default function ProductDetailPage({ params }: Props) {
               </div>
             )}
 
-            {/* Main Image in Authentic Rajasthani Arch Doorway Frame */}
-            <div className="flex-1 relative aspect-[3/4] w-full overflow-hidden rajasthani-arch bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-md">
+            {/* Main Image in Rectangular Frame with Rounded Corners */}
+            <div className="flex-1 relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-md">
               <img
-                src={images[activeImageIndex] || images[0]}
+                src={currentHeroImg}
                 alt={product.title}
                 className="w-full h-full object-cover object-top transition-all duration-500"
               />
