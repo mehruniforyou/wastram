@@ -192,37 +192,27 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
           </span>
         </div>
 
-        {/* Dual CTAs: Side-by-side on Desktop (50/50 symmetric pills) & Mobile (Enquire pill + 2x size circular WhatsApp button) */}
-        <div className="mt-2.5 flex items-center gap-2 w-full">
-          {/* Enquire Button: matches height on mobile, symmetric 50% (flex-1) on desktop */}
+        {/* Dual CTAs: Exact Symmetric Side-by-Side Pills on Both Mobile & Desktop */}
+        <div className="mt-2.5 flex items-center gap-1.5 sm:gap-2 w-full">
+          {/* Enquire Pill (50% Symmetric) */}
           <button
             type="button"
             onClick={handleOpenEnquiry}
-            className="flex-1 h-[52px] md:h-auto md:py-1.5 md:px-2.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-white dark:hover:text-neutral-950 text-xs md:text-[11px] font-medium text-center flex items-center justify-center transition-all cursor-pointer truncate shadow-2xs"
+            className="flex-1 py-1.5 px-1.5 sm:px-2.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-white dark:hover:text-neutral-950 text-[10.5px] sm:text-[11px] font-medium text-center flex items-center justify-center transition-all cursor-pointer truncate shadow-2xs"
             aria-label={`Enquire about ${product.title}`}
           >
             Enquire
           </button>
 
-          {/* WhatsApp Button Desktop: Symmetric 50% flex-1 pill with real WhatsApp logo and text */}
+          {/* WhatsApp Pill (50% Symmetric with Authentic WhatsApp Logo) */}
           <button
             type="button"
             onClick={handleWhatsAppEnquiry}
-            className="hidden md:flex flex-1 py-1.5 px-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-[11px] font-medium items-center justify-center gap-1.5 transition-all cursor-pointer shadow-2xs shrink-0"
+            className="flex-1 py-1.5 px-1.5 sm:px-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-[10.5px] sm:text-[11px] font-medium flex items-center justify-center gap-1 sm:gap-1.5 transition-all cursor-pointer shadow-2xs truncate"
             aria-label="Enquire on WhatsApp"
           >
             <WhatsAppIcon className="w-3.5 h-3.5 fill-current shrink-0" />
-            <span>WhatsApp</span>
-          </button>
-
-          {/* WhatsApp Button Mobile: 2x in size circular icon button with actual real WhatsApp logo */}
-          <button
-            type="button"
-            onClick={handleWhatsAppEnquiry}
-            className="flex md:hidden w-[52px] h-[52px] min-w-[52px] min-h-[52px] rounded-full bg-[#0B2D7F] hover:bg-[#071F59] active:scale-95 text-white items-center justify-center shrink-0 transition-all cursor-pointer shadow-sm"
-            aria-label="Enquire on WhatsApp"
-          >
-            <WhatsAppIcon className="w-7 h-7 fill-current" />
+            <span className="truncate">WhatsApp</span>
           </button>
         </div>
       </div>
