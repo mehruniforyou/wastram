@@ -226,33 +226,42 @@ export default function Header({ onOpenSearch }: HeaderProps) {
           </div>
         </div>
 
-        {/* 2. Main Navigation Bar */}
-        <div className="container-x flex items-center justify-between h-16 md:h-20">
-          {/* Mobile Hamburger Toggle */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden -ml-2 p-2 text-foreground"
-            aria-label="Toggle Navigation Menu"
-            data-testid="nav-menu-toggle"
-          >
-            {isMobileMenuOpen ? (
-              <X size={22} strokeWidth={1.5} />
-            ) : (
-              <Menu size={22} strokeWidth={1.5} />
-            )}
-          </button>
+        {/* 2. Main Navigation Bar with Symmetric Mobile Layout */}
+        <div className="container-x relative flex items-center justify-between h-16 md:h-20">
+          {/* Mobile Left Controls: Menu Toggle + Search (Balances Right Crest + Cart) */}
+          <div className="flex items-center md:hidden gap-1 -ml-2">
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="p-2 text-foreground"
+              aria-label="Toggle Navigation Menu"
+              data-testid="nav-menu-toggle"
+            >
+              {isMobileMenuOpen ? (
+                <X size={22} strokeWidth={1.5} />
+              ) : (
+                <Menu size={22} strokeWidth={1.5} />
+              )}
+            </button>
+            <button
+              onClick={handleOpenSearch}
+              className="p-2 text-foreground/80 hover:text-foreground transition-colors"
+              aria-label="Search the shop"
+            >
+              <Search size={19} strokeWidth={1.5} />
+            </button>
+          </div>
 
-          {/* Official Wastram Wordmark Logo (Shifted to Leftmost with Safe Padding) */}
+          {/* Official Wastram Wordmark Logo (Mathematically Centered on Mobile, Left-Aligned on Desktop) */}
           <Link
             href="/"
-            className="flex items-center group py-1 pl-1 sm:pl-2 shrink-0"
+            className="md:static absolute left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 flex items-center group py-1 shrink-0 z-10"
             data-testid="nav-logo"
             aria-label="Wastram Home"
           >
             <img
               src="/images/brand/wastram-header-logo-primary.png"
               alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-              className="h-8 sm:h-10 md:h-11 lg:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
+              className="h-7 sm:h-9 md:h-11 lg:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
             />
           </Link>
 
@@ -424,12 +433,12 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             </Link>
           </nav>
 
-          {/* Right Action Icons: Search, WhatsApp Pill, Cart/Bag */}
+          {/* Right Action Icons: Search (Desktop), Artisan Crest, WhatsApp Pill, Cart/Bag */}
           <div className="flex items-center gap-1.5 sm:gap-2.5">
-            {/* Live Search Trigger */}
+            {/* Live Search Trigger (Desktop only; mobile has it in the left group) */}
             <button
               onClick={handleOpenSearch}
-              className="p-2 text-foreground/80 hover:text-foreground transition-colors cursor-pointer"
+              className="hidden md:flex p-2 text-foreground/80 hover:text-foreground transition-colors cursor-pointer"
               aria-label="Search the shop"
               data-testid="search-toggle"
             >

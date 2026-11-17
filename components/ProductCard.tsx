@@ -95,15 +95,51 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
 
   return (
     <div
-      className="group relative flex flex-col bg-transparent transition-all duration-300"
+      className="group relative flex flex-col bg-white dark:bg-[#161412] rounded-2xl p-2 sm:p-2.5 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-2xs hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1 transition-all duration-300"
       data-testid={`product-card-${product.slug || product.id}`}
     >
-      {/* 1. 3:4 Portrait Image Container with Pop-out, Shadow & Minimalist Border Hover */}
-      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800 border border-neutral-200/80 dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-[#D4AF37] shadow-sm group-hover:shadow-xl group-hover:shadow-[#0B2D7F]/10 group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
+      {/* 1. 3:4 Portrait Image Container */}
+      <div className="relative aspect-[3/4] overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-800">
         {/* Shimmer Skeleton Placeholder while image loads */}
         {!imageLoaded && (
           <div className="absolute inset-0 shimmer-skeleton z-0" aria-hidden="true" />
         )}
+
+        {/* Floating Atelier Badge on top-left of image */}
+        <div className="absolute top-2 left-2 z-10 pointer-events-none">
+          <span className="px-2 py-0.5 rounded-full text-[9px] sm:text-[10px] font-semibold bg-white/95 dark:bg-black/85 backdrop-blur-xs text-[#0B2D7F] dark:text-[#D4AF37] border border-neutral-200/60 dark:border-white/10 shadow-2xs uppercase tracking-wider">
+            Atelier
+          </span>
+        </div>
+
+        {/* Floating Heart / Wishlist Button: Top Right */}
+        <button
+          type="button"
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleWishlist(product.slug);
+          }}
+          className={`absolute top-2 right-2 z-10 p-1.5 sm:p-2 rounded-full backdrop-blur-md transition-all duration-200 cursor-pointer shadow-xs ${
+            wishlisted
+              ? 'bg-[#0B2D7F] text-white shadow-md'
+              : 'bg-white/90 dark:bg-black/75 text-neutral-700 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] hover:scale-110'
+          }`}
+          aria-label="Save to Wishlist"
+        >
+          <Heart size={14} className={wishlisted ? 'fill-current' : ''} />
+        </button>
+
+        {/* Floating Quick Add Button: Bottom Right (Desktop) */}
+        <button
+          type="button"
+          onClick={handleQuickAdd}
+          className="hidden md:flex absolute bottom-2 right-2 z-10 w-8 h-8 rounded-full bg-white/95 dark:bg-[#12100E]/95 text-foreground hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#0B2D7F] dark:hover:text-white shadow-md items-center justify-center transition-all duration-300 transform opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 cursor-pointer"
+          aria-label={`Quick add ${product.title} to bag`}
+          title="Quick add to bag"
+        >
+          <Plus size={16} strokeWidth={2} />
+        </button>
 
         <Link href={`/products/${product.slug}`} className="block w-full h-full relative z-[1]">
           {/* Primary Main Image */}
@@ -127,85 +163,51 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
             />
           )}
         </Link>
-
-        {/* Floating Heart / Wishlist Button: Top Right */}
-        <button
-          type="button"
-          onClick={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            toggleWishlist(product.slug);
-          }}
-          className={`absolute top-2.5 right-2.5 z-10 p-2 rounded-full backdrop-blur-md transition-all duration-200 cursor-pointer shadow-xs ${
-            wishlisted
-              ? 'bg-[#0B2D7F] text-white shadow-md'
-              : 'bg-white/90 dark:bg-black/70 text-neutral-700 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] hover:scale-110'
-          }`}
-          aria-label="Save to Wishlist"
-        >
-          <Heart size={15} className={wishlisted ? 'fill-current' : ''} />
-        </button>
-
-        {/* Floating Quick Add Button: Bottom Right */}
-        <button
-          type="button"
-          onClick={handleQuickAdd}
-          className="absolute bottom-2.5 right-2.5 z-10 w-9 h-9 rounded-full bg-white/95 dark:bg-[#12100E]/95 text-foreground hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#0B2D7F] dark:hover:text-white shadow-md flex items-center justify-center transition-all duration-300 transform opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 cursor-pointer"
-          aria-label={`Quick add ${product.title} to bag`}
-          title="Quick add to bag"
-        >
-          <Plus size={18} strokeWidth={2} />
-        </button>
       </div>
 
-      {/* 2. Product Meta & Wholesale Sourcing Information (No Prices) */}
-      <div className="pt-3 flex flex-col flex-1">
-        <div className="flex items-start justify-between gap-2">
-          <Link href={`/products/${product.slug}`} className="block flex-1 group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors">
-            <h3 className="font-serif text-[15px] md:text-[16px] font-medium text-foreground leading-snug line-clamp-1">
+      {/* 2. Product Meta & Wholesale Sourcing Information */}
+      <div className="pt-2 sm:pt-2.5 flex flex-col flex-1 justify-between">
+        <div>
+          {/* Category & Fabric Tag */}
+          <div className="flex items-center justify-between text-[10px] sm:text-[11px] font-sans font-semibold uppercase tracking-wider text-[#0B2D7F] dark:text-[#D4AF37]">
+            <span className="truncate">{product.fabric || product.category || 'Pure Handloom'}</span>
+            <span className="text-neutral-500 dark:text-neutral-400 font-normal normal-case shrink-0">Export</span>
+          </div>
+
+          {/* Product Title */}
+          <Link href={`/products/${product.slug}`} className="block group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors mt-0.5">
+            <h3 className="font-serif text-[13px] sm:text-[15px] font-medium text-neutral-900 dark:text-white leading-snug line-clamp-1">
               {product.title}
             </h3>
           </Link>
-          <div className="text-right shrink-0">
-            <span className="text-[10px] uppercase tracking-wider font-semibold text-[#0B2D7F] dark:text-[#D4AF37] bg-[#0B2D7F]/8 dark:bg-[#D4AF37]/15 border border-[#0B2D7F]/20 dark:border-[#D4AF37]/30 px-2 py-0.5 rounded-full">
-              Enquiry
-            </span>
+
+          {/* Sizing & MOQ */}
+          <div className="mt-1 flex items-center justify-between text-[10px] sm:text-[11.5px] text-neutral-600 dark:text-neutral-400 font-sans">
+            <span className="truncate">Sizes S to XXL</span>
+            <span className="font-semibold text-neutral-900 dark:text-white shrink-0">MOQ 20 Pcs</span>
           </div>
         </div>
 
-        {/* Subtitle & Size Availability */}
-        <div className="mt-1 flex items-center justify-between text-xs text-foreground/70 font-sans">
-          <span className="line-clamp-1 text-[#0B2D7F] dark:text-[#D4AF37] font-medium">{product.fabric || product.category || 'Pure Cotton'}</span>
-          <span className="text-[11px] text-neutral-800 dark:text-neutral-200 font-medium">MOQ 20 Pcs</span>
-        </div>
-
-        <div className="mt-1 flex items-center justify-between gap-1 text-[11px] text-foreground/60 font-sans">
-          <span className="truncate">Sizes S–XXL</span>
-          <span className="text-[#D4AF37] font-semibold shrink-0">
-            Export Grade
-          </span>
-        </div>
-
-        {/* Dual CTAs: Exact Symmetric Side-by-Side Pills on Both Mobile & Desktop */}
-        <div className="mt-2.5 flex items-center gap-1.5 sm:gap-2 w-full">
-          {/* Enquire Pill (50% Symmetric) */}
+        {/* Dual CTAs: Symmetric 2-Pill Grid for Flawless Mobile & Desktop Fit */}
+        <div className="mt-2.5 grid grid-cols-2 gap-1.5 w-full">
+          {/* Enquire Pill */}
           <button
             type="button"
             onClick={handleOpenEnquiry}
-            className="flex-1 py-1.5 px-1.5 sm:px-2.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-white dark:hover:text-neutral-950 text-[10.5px] sm:text-[11px] font-medium text-center flex items-center justify-center transition-all cursor-pointer truncate shadow-2xs"
+            className="py-1.5 px-1 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-white dark:hover:text-neutral-950 text-[10px] sm:text-[11px] font-medium text-center flex items-center justify-center transition-all truncate active:scale-98"
             aria-label={`Enquire about ${product.title}`}
           >
             Enquire
           </button>
 
-          {/* WhatsApp Pill (50% Symmetric with Authentic WhatsApp Logo) */}
+          {/* WhatsApp Pill */}
           <button
             type="button"
             onClick={handleWhatsAppEnquiry}
-            className="flex-1 py-1.5 px-1.5 sm:px-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-[10.5px] sm:text-[11px] font-medium flex items-center justify-center gap-1 sm:gap-1.5 transition-all cursor-pointer shadow-2xs truncate"
+            className="py-1.5 px-1 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-[10px] sm:text-[11px] font-medium flex items-center justify-center gap-1 transition-all truncate active:scale-98 shadow-2xs"
             aria-label="Enquire on WhatsApp"
           >
-            <WhatsAppIcon className="w-3.5 h-3.5 fill-current shrink-0" />
+            <WhatsAppIcon className="w-3 h-3 fill-current shrink-0" />
             <span className="truncate">WhatsApp</span>
           </button>
         </div>

@@ -23,23 +23,25 @@ export function ShimmerBox({
  */
 export function ProductCardSkeleton() {
   return (
-    <div className="group rounded-2xl overflow-hidden border border-neutral-200/70 dark:border-white/10 bg-white dark:bg-[#161412] p-2.5 shadow-sm">
+    <div className="group rounded-2xl overflow-hidden border border-neutral-200/80 dark:border-white/10 bg-white dark:bg-[#161412] p-2 sm:p-2.5 shadow-2xs">
       {/* 3:4 Portrait Image Skeleton */}
-      <div className="relative aspect-[3/4] w-full rounded-xl overflow-hidden shimmer-skeleton mb-3">
+      <div className="relative aspect-[3/4] w-full rounded-xl overflow-hidden shimmer-skeleton mb-2">
         {/* Floating Mock Badge */}
-        <div className="absolute top-2.5 left-2.5 w-16 h-4 rounded-full bg-white/60 dark:bg-black/40" />
+        <div className="absolute top-2 left-2 w-12 h-4 rounded-full bg-white/70 dark:bg-black/40" />
       </div>
 
       {/* Typography Placeholders */}
-      <div className="px-1.5 space-y-2">
-        {/* Category Pill / Subtitle */}
-        <div className="w-24 h-3 rounded shimmer-skeleton" />
-        {/* Title */}
-        <div className="w-4/5 h-4 rounded shimmer-skeleton" />
-        {/* Sizing & Sourcing Strip */}
-        <div className="flex items-center justify-between pt-1">
-          <div className="w-16 h-3.5 rounded shimmer-skeleton" />
-          <div className="w-12 h-3.5 rounded shimmer-skeleton" />
+      <div className="space-y-1.5 px-0.5">
+        <div className="w-20 h-2.5 rounded shimmer-skeleton" />
+        <div className="w-4/5 h-3.5 rounded shimmer-skeleton" />
+        <div className="flex items-center justify-between pt-0.5">
+          <div className="w-14 h-3 rounded shimmer-skeleton" />
+          <div className="w-12 h-3 rounded shimmer-skeleton" />
+        </div>
+        {/* 2-Pill Button Placeholders */}
+        <div className="grid grid-cols-2 gap-1.5 pt-1.5">
+          <div className="h-7 rounded-full shimmer-skeleton" />
+          <div className="h-7 rounded-full shimmer-skeleton" />
         </div>
       </div>
     </div>
