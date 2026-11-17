@@ -25,45 +25,45 @@ const TRUST_BADGES = [
   {
     icon: Users,
     title: 'Sizes S to XXL',
-    desc: 'Unique graded patterns for every size, ensuring the right shoulder and bust drop.',
+    desc: 'Standard international grading ensuring accurate bust, waist, and shoulder fall.',
   },
   {
     icon: ShieldCheck,
-    title: 'Cash on Delivery',
-    desc: 'Pay safely at your doorstep across 19,000+ Indian pincodes.',
+    title: 'Low Batch MOQs',
+    desc: 'Flexible sourcing starting from 20 pieces per style with tiered volume rates.',
   },
   {
     icon: RotateCcw,
-    title: '7-Day Easy Returns',
-    desc: 'Hassle-free size exchanges and doorstep pickup if anything doesn’t fit.',
+    title: 'Export Quality Control',
+    desc: 'Pre-dispatch needle checks, colorfast dyes, and secure export-grade packaging.',
   },
   {
     icon: MessageCircle,
-    title: 'WhatsApp Concierge',
-    desc: 'Real master tailors ready to answer measurement and styling questions instantly.',
+    title: 'B2B Trade Concierge',
+    desc: 'Dedicated production desk ready for line sheets, custom tags, and air cargo quotes.',
   },
 ];
 
 const ORDER_STEPS = [
   {
     step: '01',
-    title: 'Pick your piece',
-    desc: 'Browse our ready silhouettes, wholesale edits, or custom measurement options.',
+    title: 'Select Silhouettes',
+    desc: 'Browse our ready wholesale edits or submit custom specification sheets.',
   },
   {
     step: '02',
-    title: 'Find your size',
-    desc: 'Use our guided 3-point size finder (chest, waist, hips) from S up to XXL.',
+    title: 'Size & Volume Breakdown',
+    desc: 'Choose your desired ratio of S to XXL with low minimums per colorway.',
   },
   {
     step: '03',
-    title: 'Place your order',
-    desc: 'Submit your wholesale boutique enquiry or place sample orders with rapid air freight.',
+    title: 'Factory Invoice & Proof',
+    desc: 'Receive transparent proforma with fabric certificates and lead times.',
   },
   {
     step: '04',
-    title: 'Dispatched from Sanganer',
-    desc: 'Hand-inspected, steam-pressed, and dispatched in 2–3 days with live tracking.',
+    title: 'Air Cargo Dispatch',
+    desc: 'Steam-pressed, batch-packed, and shipped door-to-door with live tracking.',
   },
 ];
 
@@ -74,13 +74,14 @@ export default function BaisaFactoryStats() {
       <div className="container-x mb-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6">
-            <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-              FIVE HUNDRED YEARS OF IT
-            </p>
-            <h2 className="mt-2 font-serif text-3xl sm:text-4xl lg:text-5xl text-ink-950 dark:text-white font-normal leading-tight">
+            <div className="section-pill mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span>Jaipur Heritage</span>
+            </div>
+            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
               The Craft of Sanganer
             </h2>
-            <p className="mt-4 text-sm sm:text-base text-ink-700 dark:text-neutral-300 font-sans leading-relaxed">
+            <p className="mt-4 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans leading-relaxed max-w-xl">
               Every print begins with seasoned teakwood blocks hand-carved by master woodworkers in Jaipur. 
               Our artisans stamp natural vegetable dyes onto pure mulmul and cambric cotton in rhythmic synchrony, 
               preserving Rajasthan’s GI-tagged heritage in modern, wearable silhouettes.
@@ -88,13 +89,13 @@ export default function BaisaFactoryStats() {
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <Link
                 href="/craft"
-                className="px-6 py-3 rounded-full bg-[#0B2D7F] text-white text-xs sm:text-sm font-medium hover:bg-[#071F59] transition-colors shadow-sm"
+                className="px-6 py-3 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white text-xs sm:text-sm font-medium transition-colors shadow-sm"
               >
                 Read our craft story
               </Link>
               <Link
                 href="/story"
-                className="px-6 py-3 rounded-full border border-ink-300 dark:border-white/20 text-ink-900 dark:text-white text-xs sm:text-sm font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+                className="px-6 py-3 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-900 dark:text-white text-xs sm:text-sm font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
               >
                 Inside the Jaipur factory
               </Link>
@@ -126,16 +127,16 @@ export default function BaisaFactoryStats() {
             return (
               <div
                 key={i}
-                className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default"
+                className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default"
               >
-                <div className="w-12 h-12 rounded-full bg-[#FFFEFE] dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 shrink-0 border border-ink-100 dark:border-white/10 shadow-2xs">
+                <div className="w-12 h-12 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-800 dark:text-neutral-200 shrink-0 border border-neutral-200/50 dark:border-white/10 shadow-2xs">
                   <Icon size={22} />
                 </div>
                 <div>
-                  <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white">
+                  <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white">
                     {b.title}
                   </h4>
-                  <p className="mt-1 text-xs text-ink-600 dark:text-neutral-400 font-sans leading-relaxed">
+                  <p className="mt-1 text-xs text-neutral-600 dark:text-neutral-400 font-sans leading-relaxed">
                     {b.desc}
                   </p>
                 </div>
@@ -148,28 +149,32 @@ export default function BaisaFactoryStats() {
       {/* 4. How Ordering Works 4-Step Timeline */}
       <div className="container-x">
         <div className="text-center max-w-xl mx-auto mb-12">
-          <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-            SIMPLE & TRANSPARENT
-          </p>
-          <h3 className="mt-1 font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal">
-            How Ordering Works
+          <div className="section-pill mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span>Order Fulfillment</span>
+          </div>
+          <h3 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
+            How Bulk Ordering Works
           </h3>
+          <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-md mx-auto">
+            A transparent 4-stage process from silhouette curation to door-to-door global air freight.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
-          {ORDER_STEPS.map((s, i) => (
+          {ORDER_STEPS.map((s) => (
             <div
               key={s.step}
-              className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between cursor-default"
+              className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between cursor-default"
             >
               <div>
-                <span className="font-serif text-2xl text-[#C5A059] font-light">
+                <span className="font-serif text-2xl text-neutral-400 dark:text-neutral-500 font-light">
                   {s.step}
                 </span>
-                <h4 className="mt-2 font-serif text-lg font-medium text-ink-950 dark:text-white">
+                <h4 className="mt-2 font-serif text-lg font-medium text-neutral-900 dark:text-white">
                   {s.title}
                 </h4>
-                <p className="mt-2 text-xs text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
+                <p className="mt-2 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
                   {s.desc}
                 </p>
               </div>

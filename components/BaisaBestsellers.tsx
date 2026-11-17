@@ -48,21 +48,22 @@ export default function BaisaBestsellers() {
         {/* Header row */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
           <div>
-            <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-              ORDERED MOST, MONTH AFTER MONTH
-            </p>
-            <h2 className="mt-1 font-serif text-3xl sm:text-4xl text-ink-950 dark:text-white font-normal">
-              Bestsellers
+            <div className="section-pill mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span>Bestselling Silhouettes</span>
+            </div>
+            <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
+              Reordered Silhouettes
             </h2>
-            <p className="mt-1.5 text-sm text-ink-500 dark:text-neutral-400 font-sans max-w-xl">
-              Signature pieces made in our Sanganer workshop — hand-block printed, true to size, dispatched in 2–3 days.
+            <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
+              Consistent top-reordered silhouettes from our Sanganer workshop — graded S to XXL with low batch MOQs.
             </p>
           </div>
 
           <div className="flex items-center gap-3">
             <Link
               href="/collections/bestsellers"
-              className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] dark:text-amber-400 hover:opacity-80 transition-opacity mr-2"
+              className="group inline-flex items-center gap-1.5 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors mr-2"
             >
               <span>All bestsellers</span>
               <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
@@ -73,7 +74,7 @@ export default function BaisaBestsellers() {
               <button
                 type="button"
                 onClick={() => scroll('left')}
-                className="w-10 h-10 rounded-full border border-ink-200 dark:border-white/10 flex items-center justify-center hover:bg-ink-100 dark:hover:bg-white/10 text-ink-800 dark:text-white transition-colors"
+                className="w-10 h-10 rounded-full border border-neutral-200 dark:border-white/10 flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-white/10 text-neutral-800 dark:text-white transition-colors"
                 aria-label="Previous bestsellers"
               >
                 <ChevronLeft size={18} />
@@ -81,7 +82,7 @@ export default function BaisaBestsellers() {
               <button
                 type="button"
                 onClick={() => scroll('right')}
-                className="w-10 h-10 rounded-full border border-ink-200 dark:border-white/10 flex items-center justify-center hover:bg-ink-100 dark:hover:bg-white/10 text-ink-800 dark:text-white transition-colors"
+                className="w-10 h-10 rounded-full border border-neutral-200 dark:border-white/10 flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-white/10 text-neutral-800 dark:text-white transition-colors"
                 aria-label="Next bestsellers"
               >
                 <ChevronRight size={18} />
@@ -107,9 +108,9 @@ export default function BaisaBestsellers() {
         </div>
 
         {/* Scroll Progress Bar */}
-        <div className="mt-6 w-full max-w-md mx-auto h-0.5 bg-ink-200/50 dark:bg-white/10 rounded-full overflow-hidden">
+        <div className="mt-6 w-full max-w-md mx-auto h-0.5 bg-neutral-200/50 dark:bg-white/10 rounded-full overflow-hidden">
           <div
-            className="h-full bg-[#0B2D7F] dark:bg-amber-400 rounded-full transition-all duration-300"
+            className="h-full bg-neutral-900 dark:bg-white rounded-full transition-all duration-300"
             style={{ width: `${Math.max(15, scrollProgress)}%` }}
           />
         </div>

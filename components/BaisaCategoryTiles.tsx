@@ -66,18 +66,22 @@ const CATEGORY_TILES: CategoryTile[] = [
 export default function BaisaCategoryTiles() {
   return (
     <section className="py-12 md:py-16 container-x">
-      <div className="flex items-end justify-between mb-8 pb-3">
+      <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-3 gap-4">
         <div>
-          <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-            CURATED EDITS FROM SANGANER
-          </p>
-          <h2 className="mt-1 font-serif text-2xl sm:text-3xl lg:text-4xl text-ink-950 dark:text-white font-normal">
-            Find your next outfit
+          <div className="section-pill mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span>Curated Silhouettes</span>
+          </div>
+          <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
+            Boutique Silhouettes
           </h2>
+          <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
+            Pure cambric cotton and artisan block prints, available for bulk supply across sizes S to XXL.
+          </p>
         </div>
         <Link
           href="/collections/shop-all"
-          className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] dark:text-amber-400 hover:opacity-80 transition-opacity"
+          className="group inline-flex items-center gap-1.5 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
         >
           <span>All collections</span>
           <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
@@ -91,7 +95,7 @@ export default function BaisaCategoryTiles() {
             href={`/collections/${cat.slug}`}
             className="group flex flex-col focus:outline-none"
           >
-            <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800 shadow-sm group-hover:shadow-xl border border-neutral-200/80 dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-amber-400 group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
+            <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800 shadow-sm group-hover:shadow-xl border border-neutral-200/80 dark:border-white/10 group-hover:border-neutral-900 dark:group-hover:border-white group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
               <img
                 src={cat.image}
                 alt={cat.name}
@@ -100,13 +104,13 @@ export default function BaisaCategoryTiles() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-40 group-hover:opacity-60 transition-opacity" />
               <div className="absolute bottom-2 left-2 right-2">
-                <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-medium bg-white/90 dark:bg-black/80 backdrop-blur-xs text-ink-900 dark:text-white truncate max-w-full">
+                <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-medium bg-white/90 dark:bg-black/80 backdrop-blur-xs text-neutral-900 dark:text-white truncate max-w-full">
                   {cat.tag}
                 </span>
               </div>
             </div>
             <div className="mt-2.5 text-center">
-              <h3 className="font-serif text-sm font-medium text-ink-950 dark:text-white group-hover:text-[#0B2D7F] dark:group-hover:text-amber-400 transition-colors">
+              <h3 className="font-serif text-sm font-medium text-neutral-900 dark:text-white group-hover:text-neutral-600 dark:group-hover:text-neutral-300 transition-colors">
                 {cat.name}
               </h3>
             </div>

@@ -45,22 +45,22 @@ export default function RentalsPage() {
   )}`;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-neutral-900 selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-14">
         {/* Hero Section */}
         <div className="max-w-3xl mx-auto text-center mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 text-xs font-semibold uppercase tracking-wider mb-4">
-            <Calendar size={14} />
-            <span>OCCASION WEAR ON YOUR TERMS</span>
+          <div className="section-pill mb-4">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span>Occasion Wardrobe</span>
           </div>
 
-          <h1 className="font-serif text-3xl sm:text-5xl text-ink-950 dark:text-white font-normal leading-tight">
+          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
             Rent an Outfit
           </h1>
 
-          <p className="mt-4 text-sm sm:text-base text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
+          <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto leading-relaxed">
             Wear opulent hand-embroidered anarkalis, festive lehengas, and silk co-ords for weddings, sangeets, and celebrations without the commitment of buying.
           </p>
 
@@ -69,14 +69,14 @@ export default function RentalsPage() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-7 py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs sm:text-sm font-semibold transition-all shadow-md inline-flex items-center gap-2"
+              className="px-7 py-3.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-xs sm:text-sm font-semibold transition-all shadow-md inline-flex items-center gap-2"
             >
               <MessageCircle size={16} />
               <span>Book via WhatsApp Concierge</span>
             </a>
             <Link
               href="#how-it-works"
-              className="px-6 py-3.5 rounded-full border border-ink-300 dark:border-white/20 text-ink-900 dark:text-white text-xs sm:text-sm font-semibold hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+              className="px-6 py-3.5 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-900 dark:text-white text-xs sm:text-sm font-semibold hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
             >
               How Rentals Work
             </Link>
@@ -85,36 +85,37 @@ export default function RentalsPage() {
 
         {/* 4 Trust Badges */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-16">
-          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 text-center">
-            <Sparkles size={20} className="text-[#C5A059] mx-auto mb-2" />
+          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/5 text-center">
+            <Sparkles size={20} className="text-neutral-700 dark:text-neutral-300 mx-auto mb-2" />
             <h4 className="font-serif text-sm font-medium">Couture Sanitized</h4>
-            <p className="text-[11px] text-ink-500 mt-1">Hospital-grade steam cleaned</p>
+            <p className="text-[11px] text-neutral-500 mt-1">Hospital-grade steam cleaned</p>
           </div>
-          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 text-center">
-            <Truck size={20} className="text-[#0B2D7F] dark:text-amber-400 mx-auto mb-2" />
+          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/5 text-center">
+            <Truck size={20} className="text-neutral-700 dark:text-neutral-300 mx-auto mb-2" />
             <h4 className="font-serif text-sm font-medium">Free Express Delivery</h4>
-            <p className="text-[11px] text-ink-500 mt-1">Delivered 24 hrs in advance</p>
+            <p className="text-[11px] text-neutral-500 mt-1">Delivered 24 hrs in advance</p>
           </div>
-          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 text-center">
-            <ShieldCheck size={20} className="text-[#0B2D7F] dark:text-[#D4AF37] mx-auto mb-2" />
+          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/5 text-center">
+            <ShieldCheck size={20} className="text-neutral-700 dark:text-neutral-300 mx-auto mb-2" />
             <h4 className="font-serif text-sm font-medium">Stain Insurance</h4>
-            <p className="text-[11px] text-ink-500 mt-1">Minor party spills covered</p>
+            <p className="text-[11px] text-neutral-500 mt-1">Minor party spills covered</p>
           </div>
-          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 text-center">
-            <RotateCcw size={20} className="text-[#C5A059] mx-auto mb-2" />
+          <div className="p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/5 text-center">
+            <RotateCcw size={20} className="text-neutral-700 dark:text-neutral-300 mx-auto mb-2" />
             <h4 className="font-serif text-sm font-medium">Zero Dry Cleaning</h4>
-            <p className="text-[11px] text-ink-500 mt-1">Simply pack & hand over</p>
+            <p className="text-[11px] text-neutral-500 mt-1">Simply pack &amp; hand over</p>
           </div>
         </div>
 
         {/* Curated Pieces for Rent */}
         <div className="mb-20">
-          <div className="flex items-end justify-between mb-8 pb-3">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-3 gap-4">
             <div>
-              <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-                POPULAR FOR OCCASIONS
-              </p>
-              <h2 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal mt-1">
+              <div className="section-pill mb-3">
+                <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+                <span>Curated Occasions</span>
+              </div>
+              <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
                 Featured Rental Silhouettes
               </h2>
             </div>
@@ -122,7 +123,7 @@ export default function RentalsPage() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs font-semibold text-[#0B2D7F] dark:text-amber-400 hover:opacity-80"
+              className="text-xs font-semibold text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
             >
               Ask for custom dates →
             </a>
@@ -134,7 +135,7 @@ export default function RentalsPage() {
               return (
                 <div
                   key={p.id}
-                  className="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between"
+                  className="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between"
                 >
                   <div className="relative aspect-[3/4] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                     <img
@@ -143,17 +144,17 @@ export default function RentalsPage() {
                       className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-3 left-3">
-                      <span className="px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-white/90 dark:bg-black/80 backdrop-blur-xs text-[#0B2D7F] dark:text-amber-400 shadow-2xs">
+                      <span className="px-2.5 py-0.5 rounded-full text-[10px] font-medium bg-neutral-900/90 text-white dark:bg-white/90 dark:text-neutral-950 backdrop-blur-xs shadow-2xs">
                         Rent from ₹599 / 3 days
                       </span>
                     </div>
                   </div>
 
                   <div className="p-4">
-                    <h3 className="font-serif text-sm font-medium text-ink-950 dark:text-white line-clamp-1">
+                    <h3 className="font-serif text-sm font-medium text-neutral-900 dark:text-white line-clamp-1">
                       {p.title}
                     </h3>
-                    <p className="text-xs text-ink-500 dark:text-neutral-400 mt-0.5">
+                    <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-0.5">
                       Retail value: ₹{(p.price || 1499).toLocaleString('en-IN')}
                     </p>
                     <a
@@ -162,7 +163,7 @@ export default function RentalsPage() {
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-3 w-full py-2 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-amber-400 dark:text-amber-400 text-xs font-semibold text-center block hover:bg-[#0B2D7F]/5 transition-colors"
+                      className="mt-3 w-full py-2 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-800 dark:text-neutral-200 text-xs font-semibold text-center block hover:border-neutral-900 dark:hover:border-white transition-colors"
                     >
                       Check Dates
                     </a>
@@ -176,10 +177,11 @@ export default function RentalsPage() {
         {/* How It Works Section */}
         <div id="how-it-works" className="py-12">
           <div className="text-center max-w-xl mx-auto mb-12">
-            <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-              SEAMLESS 4 STEPS
-            </p>
-            <h2 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal mt-1">
+            <div className="section-pill mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span>Simple Rental Process</span>
+            </div>
+            <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
               How Outfit Rental Works
             </h2>
           </div>

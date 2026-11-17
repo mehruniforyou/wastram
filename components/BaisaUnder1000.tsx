@@ -33,21 +33,21 @@ export default function BaisaUnder1000() {
       <div className="container-x">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-3 gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-[#D4AF37] text-xs font-medium mb-2">
-              <Sparkles size={12} />
-              <span>SANGANER HANDLOOM ATELIER</span>
+            <div className="section-pill mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span>Everyday Handblocks</span>
             </div>
-            <h2 className="font-serif text-3xl sm:text-4xl text-ink-950 dark:text-white font-normal">
+            <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
               Everyday Silhouettes
             </h2>
-            <p className="mt-1 text-sm text-ink-600 dark:text-neutral-400 font-sans">
-              Where most patrons start — airy cotton kurtis, breezy tunics, and everyday handblocks.
+            <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
+              Pure 60-60 cambric cotton tunics and breathable daily coords crafted for bulk boutique inventory.
             </p>
           </div>
 
           <Link
             href="/collections/shop-all"
-            className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] dark:text-amber-400 hover:opacity-80 transition-opacity"
+            className="group inline-flex items-center gap-1.5 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
           >
             <span>Explore all silhouettes</span>
             <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />

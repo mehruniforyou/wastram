@@ -194,21 +194,21 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
     selectedCategory !== 'all' || selectedSize !== 'All' || sortBy !== 'featured';
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-neutral-900 selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-6 md:py-10">
         {/* Breadcrumb Navigation */}
         <div className="flex items-center gap-2 text-xs text-ink-500 dark:text-neutral-400 mb-6">
-          <Link href="/" className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors">
+          <Link href="/" className="hover:text-neutral-900 dark:hover:text-white transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/collections/shop-all" className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors">
+          <Link href="/collections/shop-all" className="hover:text-neutral-900 dark:hover:text-white transition-colors">
             Collections
           </Link>
           <span>/</span>
-          <span className="text-[#0B2D7F] dark:text-amber-400 font-medium">
+          <span className="text-neutral-900 dark:text-white font-medium">
             {currentCategoryLabel}
           </span>
         </div>
@@ -216,21 +216,22 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         {/* Hero Section with Rajasthani Arch Motifs */}
         <div className="relative rounded-3xl overflow-hidden bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 p-6 sm:p-10 mb-8 shadow-2xs">
           <div className="max-w-2xl">
-            <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 mb-3">
-              {activeChapter}
-            </span>
+            <div className="section-pill mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span>{activeChapter}</span>
+            </div>
             <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink-950 dark:text-white font-normal">
               {currentCategoryLabel}
             </h1>
             <p className="mt-3 text-xs sm:text-sm text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
               Hand-block printed in Sanganer and tailored in our Jaipur workshop. Pure mulmul, cambric 60-60 cotton, and modal silks graded from S to XXL.
             </p>
-            <div className="mt-4 flex items-center gap-4 text-xs font-medium text-[#0B2D7F] dark:text-amber-400">
+            <div className="mt-4 flex items-center gap-4 text-xs font-medium text-neutral-500 dark:text-neutral-400">
               <span>Handcrafted in Sanganer Atelier</span>
               <span>·</span>
               <span>Direct Boutique Sourcing</span>
               <span>·</span>
-              <span>Dispatched in 2–3 days</span>
+              <span>Low Batch MOQs</span>
             </div>
           </div>
         </div>
@@ -244,8 +245,8 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               onClick={() => handleSelectCategory(cat.id)}
               className={`px-4 py-2 rounded-full text-xs font-medium whitespace-nowrap transition-all duration-300 cursor-pointer ${
                 selectedCategory === cat.id
-                  ? 'bg-[#0B2D7F] text-white shadow-sm'
-                  : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-[#0B2D7F]'
+                  ? 'bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 shadow-sm'
+                  : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-neutral-900 dark:hover:border-white'
               }`}
             >
               {cat.label}
@@ -319,7 +320,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
             <button
               type="button"
               onClick={clearAllFilters}
-              className="mt-6 px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white text-xs font-medium hover:bg-[#071F59] transition-colors"
+              className="mt-6 px-6 py-2.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-xs font-medium transition-colors"
             >
               Reset all filters
             </button>
@@ -336,30 +337,30 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         <div ref={sentinelRef} className="h-10 mt-8" />
 
         {/* Bottom Sanganer Buying Advice & Craft Accordions */}
-        <div className="mt-20 pt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs font-sans text-ink-700 dark:text-neutral-300">
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
-            <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
+        <div className="mt-20 pt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs font-sans text-neutral-700 dark:text-neutral-300">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
+            <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white mb-2">
               Choosing Your Fit (S to XXL)
             </h4>
-            <p className="leading-relaxed text-ink-600 dark:text-neutral-400">
+            <p className="leading-relaxed text-neutral-600 dark:text-neutral-400">
               All Wastram garments are graded to Indian body measurements with 2–3 inches of ease. If you are between sizes, we recommend sizing up for cotton pieces.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
-            <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
+            <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white mb-2">
               Sanganer Handblock Care
             </h4>
-            <p className="leading-relaxed text-ink-600 dark:text-neutral-400">
+            <p className="leading-relaxed text-neutral-600 dark:text-neutral-400">
               For initial washes, hand wash separately in cold water with mild detergent. Dry in the shade to maintain the vivid brilliance of natural vegetable pigments.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
-            <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
-              Custom Necklines & Lengths
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
+            <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white mb-2">
+              Custom Necklines &amp; Lengths
             </h4>
-            <p className="leading-relaxed text-ink-600 dark:text-neutral-400">
+            <p className="leading-relaxed text-neutral-600 dark:text-neutral-400">
               Need custom sleeve length, feeding zippers, or an ankle-length hem? Chat with our master tailor on WhatsApp for complimentary customizations.
             </p>
           </div>

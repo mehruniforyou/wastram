@@ -22,7 +22,7 @@ export default function HomePage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground flex flex-col font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground flex flex-col font-sans selection:bg-neutral-900 selection:text-white">
       {/* 1. Header with Announcement Bar, Mega Menu, Concierge, Cart & Mobile Drawer */}
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 

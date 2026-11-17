@@ -51,24 +51,24 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
             />
           </div>
           <div className="flex flex-col">
-            <span className="text-[10px] font-bold uppercase text-[#F58220]">{product.badge}</span>
-            <h4 className="text-sm font-semibold text-[#0B2D7F] line-clamp-1">{product.title}</h4>
+            <span className="text-[10px] font-medium uppercase tracking-wider text-neutral-500">{product.badge}</span>
+            <h4 className="text-sm font-semibold text-neutral-900 line-clamp-1">{product.title}</h4>
             <div className="flex items-center gap-2 mt-1">
               <Link
                 href={`/products/${product.slug}`}
                 onClick={onClose}
-                className="px-3 py-1 rounded-full bg-[#0B2D7F] text-[#FFFEFE] font-archivo text-[11px] font-bold uppercase tracking-wider hover:bg-[#071F59]"
+                className="px-3 py-1 rounded-full bg-neutral-900 text-white text-[11px] font-medium uppercase tracking-wider hover:bg-neutral-800 transition-colors"
               >
-                Show Price
+                Show Details
               </Link>
-              <span className="text-[11px] text-black/50">• {product.moq || 'MOQ: 20 pcs'}</span>
+              <span className="text-[11px] text-neutral-500">• {product.moq || 'MOQ: 20 pcs'}</span>
             </div>
           </div>
         </div>
 
         {/* Size Selection */}
         <div className="flex flex-col gap-2">
-          <span className="text-xs font-semibold text-[#0B2D7F] uppercase tracking-wider">
+          <span className="text-xs font-semibold text-neutral-900 uppercase tracking-wider">
             Select Size
           </span>
           <div className="grid grid-cols-3 gap-2">
@@ -77,10 +77,10 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
                 key={size}
                 type="button"
                 onClick={() => setSelectedSize(size)}
-                className={`py-2 text-xs font-bold rounded-lg border transition-all ${
+                className={`py-2 text-xs font-medium rounded-lg border transition-all ${
                   selectedSize === size
-                    ? 'border-[#0B2D7F] bg-[#0B2D7F] text-white shadow-sm'
-                    : 'border-black/15 bg-[#FFFEFE] text-[#0B2D7F] hover:border-black/40'
+                    ? 'border-neutral-900 bg-neutral-900 text-white shadow-sm'
+                    : 'border-neutral-200 bg-white text-neutral-800 hover:border-neutral-900'
                 }`}
               >
                 {size}
@@ -92,7 +92,7 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
         {/* Add to bag button */}
         <button
           onClick={handleAdd}
-          className="mt-2 w-full py-3 bg-[#0B2D7F] hover:bg-[#071F59] text-white font-bold text-xs uppercase tracking-wider rounded-full transition-all shadow-md flex items-center justify-center gap-2"
+          className="mt-2 w-full py-3 bg-neutral-900 hover:bg-neutral-800 text-white font-medium text-xs uppercase tracking-wider rounded-full transition-all shadow-md flex items-center justify-center gap-2"
         >
           <span>Add to Enquiry List</span>
         </button>

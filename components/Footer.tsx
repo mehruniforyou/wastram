@@ -169,7 +169,7 @@ export default function Footer() {
 
           <form
             onSubmit={handleSubscribe}
-            className="mt-3 sm:mt-4 flex rounded-full border border-[#DEE2E6] dark:border-white/15 bg-white/90 dark:bg-black/40 backdrop-blur-sm focus-within:border-[#0B2D7F] dark:focus-within:border-[#D4AF37] transition-all overflow-hidden p-1 shadow-sm"
+            className="mt-3 sm:mt-4 flex rounded-full border border-neutral-300 dark:border-white/15 bg-white/90 dark:bg-black/40 backdrop-blur-sm focus-within:border-neutral-900 dark:focus-within:border-white transition-all overflow-hidden p-1 shadow-sm"
             data-testid="newsletter-form"
           >
             <input
@@ -183,7 +183,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="bg-[#0B2D7F] text-white rounded-full px-5 py-2 text-[11px] uppercase tracking-widerest font-medium hover:bg-[#071F59] transition-all flex items-center gap-1 shrink-0 shadow-sm"
+              className="bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 rounded-full px-5 py-2 text-[11px] uppercase tracking-widerest font-medium transition-all flex items-center gap-1 shrink-0 shadow-sm"
               data-testid="newsletter-submit"
             >
               {isSubscribed ? (
@@ -225,7 +225,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="WhatsApp Concierge"
-              className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
+              className="hover:text-neutral-900 dark:hover:text-white transition-colors"
             >
               <MessageCircle size={18} strokeWidth={1.4} />
             </a>
@@ -238,7 +238,7 @@ export default function Footer() {
         {/* Coordinates: Address, Single Phone, Updated Email */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 flex-wrap">
           <div className="flex items-center gap-2">
-            <MapPin size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
+            <MapPin size={14} className="text-neutral-700 dark:text-neutral-300 shrink-0" />
             <span>Sanganer Textile Industrial Area, Jaipur, Rajasthan 302029</span>
           </div>
 
@@ -246,9 +246,9 @@ export default function Footer() {
 
           <a
             href="tel:+918003088838"
-            className="flex items-center gap-2 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
+            className="flex items-center gap-2 hover:text-neutral-950 dark:hover:text-white transition-colors"
           >
-            <Phone size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
+            <Phone size={14} className="text-neutral-700 dark:text-neutral-300 shrink-0" />
             <span>+91 80030 88838</span>
           </a>
 
@@ -256,9 +256,9 @@ export default function Footer() {
 
           <a
             href="mailto:marutitex@gmail.com"
-            className="flex items-center gap-2 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
+            className="flex items-center gap-2 hover:text-neutral-950 dark:hover:text-white transition-colors"
           >
-            <Mail size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
+            <Mail size={14} className="text-neutral-700 dark:text-neutral-300 shrink-0" />
             <span>marutitex@gmail.com</span>
           </a>
         </div>

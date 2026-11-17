@@ -304,7 +304,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 type="button"
                 className={`text-[13px] uppercase tracking-wider font-medium flex items-center gap-1 transition-colors ${
                   isMegaMenuOpen || pathname.startsWith('/collections') || pathname === '/products'
-                    ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                    ? 'text-neutral-900 dark:text-white font-semibold'
                     : 'text-foreground/80 hover:text-foreground'
                 }`}
                 onClick={() => setIsMegaMenuOpen(!isMegaMenuOpen)}
@@ -314,7 +314,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 <ChevronDown
                   size={14}
                   className={`transition-transform duration-200 ${
-                    isMegaMenuOpen ? 'rotate-180 text-[#0B2D7F] dark:text-[#D4AF37]' : ''
+                    isMegaMenuOpen ? 'rotate-180 text-neutral-900 dark:text-white' : ''
                   }`}
                 />
               </button>
@@ -339,7 +339,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                           <Link
                             key={filter.label}
                             href={filter.href}
-                            className="text-xs px-3.5 py-1.5 rounded-full border border-[#E7E5E4] dark:border-white/15 bg-white/70 dark:bg-black/30 hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#D4AF37] dark:hover:text-black transition-all font-medium"
+                            className="text-xs px-3.5 py-1.5 rounded-full border border-[#E7E5E4] dark:border-white/15 bg-white/70 dark:bg-black/30 hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all font-medium"
                           >
                             {filter.label}
                           </Link>
@@ -349,9 +349,9 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                       <div className="mt-6 pt-5 border-t border-[#E7E5E4] dark:border-white/10 flex items-center justify-between text-xs">
                         <Link
                           href="/products"
-                          className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37] hover:underline flex items-center gap-1"
+                          className="font-semibold text-neutral-900 dark:text-white hover:underline flex items-center gap-1"
                         >
-                          <span>Browse all 1,400+ styles</span>
+                          <span>Browse all silhouettes</span>
                           <ArrowRight size={13} />
                         </Link>
                       </div>
@@ -365,9 +365,9 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                         </span>
                         <Link
                           href="/categories"
-                          className="text-xs text-[#0B2D7F] dark:text-[#D4AF37] font-semibold hover:underline flex items-center gap-1"
+                          className="text-xs text-neutral-900 dark:text-white font-semibold hover:underline flex items-center gap-1"
                         >
-                          <span>View All 8 Chapters</span>
+                          <span>View All Chapters</span>
                           <ArrowRight size={12} />
                         </Link>
                       </div>
@@ -379,17 +379,17 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                             href={chap.href}
                             className="group block"
                           >
-                            <div className="relative aspect-[3/4] overflow-hidden rounded-xl border border-[#E7E5E4] dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-amber-400 bg-[#FFFEFE] shadow-sm group-hover:shadow-xl group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
+                            <div className="relative aspect-[3/4] overflow-hidden rounded-xl border border-[#E7E5E4] dark:border-white/10 group-hover:border-neutral-900 dark:group-hover:border-white bg-[#FFFEFE] shadow-sm group-hover:shadow-xl group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
                               <img
                                 src={chap.image}
                                 alt={chap.title}
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                               />
-                              <div className="absolute top-2 left-2 bg-white/90 dark:bg-black/80 backdrop-blur-xs px-2 py-0.5 rounded text-[10px] font-semibold tracking-wider text-[#0B2D7F] dark:text-[#D4AF37]">
+                              <div className="absolute top-2 left-2 bg-white/90 dark:bg-black/80 backdrop-blur-xs px-2 py-0.5 rounded text-[10px] font-semibold tracking-wider text-neutral-900 dark:text-white">
                                 {chap.num}
                               </div>
                             </div>
-                            <h4 className="mt-2 text-xs font-semibold text-foreground group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors line-clamp-1 font-serif">
+                            <h4 className="mt-2 text-xs font-semibold text-foreground group-hover:text-neutral-600 dark:group-hover:text-neutral-300 transition-colors line-clamp-1 font-serif">
                               {chap.title}
                             </h4>
                             <p className="text-[11px] text-foreground/60 line-clamp-1">
@@ -408,7 +408,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               href="/craft"
               className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
                 pathname === '/craft'
-                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  ? 'text-neutral-900 dark:text-white font-semibold'
                   : 'text-foreground/80 hover:text-foreground'
               }`}
             >
@@ -419,7 +419,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               href="/custom-design"
               className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
                 pathname === '/custom-design'
-                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  ? 'text-neutral-900 dark:text-white font-semibold'
                   : 'text-foreground/80 hover:text-foreground'
               }`}
             >
@@ -430,7 +430,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               href="/lookbook"
               className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
                 pathname === '/lookbook'
-                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  ? 'text-neutral-900 dark:text-white font-semibold'
                   : 'text-foreground/80 hover:text-foreground'
               }`}
             >
@@ -441,7 +441,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               href="/about"
               className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
                 pathname === '/about'
-                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  ? 'text-neutral-900 dark:text-white font-semibold'
                   : 'text-foreground/80 hover:text-foreground'
               }`}
             >
@@ -452,7 +452,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               href="/wholesale"
               className={`text-[13px] uppercase tracking-wider font-medium transition-colors ${
                 pathname === '/wholesale'
-                  ? 'text-[#0B2D7F] dark:text-[#D4AF37] font-semibold'
+                  ? 'text-neutral-900 dark:text-white font-semibold'
                   : 'text-foreground/80 hover:text-foreground'
               }`}
             >
@@ -486,13 +486,13 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               />
             </Link>
 
-            {/* Wastram Brand Blue WhatsApp Pill CTA */}
+            {/* WhatsApp Pill CTA */}
             <button
               onClick={handleWhatsAppConcierge}
-              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] bg-[#0B2D7F]/5 hover:bg-[#0B2D7F] hover:text-white transition-all cursor-pointer text-xs font-medium"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all cursor-pointer text-xs font-medium"
               aria-label="Chat on WhatsApp"
             >
-              <MessageCircle size={14} className="text-[#0B2D7F]" />
+              <MessageCircle size={14} className="text-neutral-700 dark:text-neutral-300" />
               <span>WhatsApp</span>
             </button>
 
@@ -505,7 +505,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             >
               <ShoppingBag size={20} strokeWidth={1.5} />
               {cartCount > 0 && (
-                <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-[#0B2D7F] text-white text-[9px] font-bold flex items-center justify-center shadow-xs">
+                <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-950 text-[9px] font-bold flex items-center justify-center shadow-xs">
                   {cartCount}
                 </span>
               )}
@@ -579,7 +579,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                     <ChevronDown
                       size={16}
                       className={`transition-transform ${
-                        mobileShopExpanded ? 'rotate-180 text-[#0B2D7F]' : ''
+                        mobileShopExpanded ? 'rotate-180 text-neutral-900 dark:text-white' : ''
                       }`}
                     />
                   </button>
@@ -589,7 +589,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                       <Link
                         href="/products"
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className="block text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37] py-1"
+                        className="block text-xs font-semibold text-neutral-900 dark:text-white py-1"
                       >
                         All Clothing Collections →
                       </Link>
@@ -683,7 +683,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                   <Link
                     href="/offers"
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="text-[11px] px-3 py-1 rounded-full border border-[#E7E5E4] dark:border-white/10 bg-white/60 dark:bg-black/20 text-[#0B2D7F] dark:text-[#D4AF37] font-medium"
+                    className="text-[11px] px-3 py-1 rounded-full border border-neutral-200 dark:border-white/10 bg-white/60 dark:bg-black/20 text-neutral-800 dark:text-neutral-200 font-medium"
                   >
                     Atelier Edits
                   </Link>
@@ -692,10 +692,10 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             </div>
 
             {/* Mobile Drawer Bottom WhatsApp CTA */}
-            <div className="pt-5 border-t border-[#E7E5E4] dark:border-white/10 space-y-3">
+            <div className="pt-5 border-t border-neutral-200 dark:border-white/10 space-y-3">
               <button
                 onClick={handleWhatsAppConcierge}
-                className="w-full py-2.5 px-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-sm transition-colors"
+                className="w-full py-2.5 px-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-sm transition-colors"
               >
                 <MessageCircle size={15} />
                 <span>Chat on WhatsApp Concierge</span>

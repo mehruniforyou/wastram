@@ -77,19 +77,20 @@ export default function WholesalePage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-neutral-900 selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-16">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="inline-block px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 mb-4">
-            B2B GLOBAL EXPORTS & WHOLESALE
-          </span>
-          <h1 className="font-serif text-3xl sm:text-5xl text-ink-950 dark:text-white font-normal leading-tight">
+          <div className="section-pill mb-4">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span>B2B Global Supply</span>
+          </div>
+          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
             Wholesale Sourcing for Boutiques
           </h1>
-          <p className="mt-4 text-sm sm:text-base text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
-            Source authentic Jaipur handblock textiles, co-ord sets, tiered dresses, and occasion wear directly from our Sanganer atelier without agents or broker fees.
+          <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
+            Direct Jaipur factory production for independent fashion boutiques, multi-brand retailers, and global diaspora labels.
           </p>
         </div>
 
@@ -100,12 +101,12 @@ export default function WholesalePage() {
               key={idx}
               className={`relative rounded-3xl p-8 flex flex-col justify-between transition-all duration-300 ease-out hover:-translate-y-1.5 ${
                 tier.popular
-                  ? 'bg-[#071F59] text-white shadow-xl hover:shadow-2xl border-2 border-[#D4AF37] hover:border-amber-300'
-                  : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl'
+                  ? 'bg-neutral-950 text-white shadow-xl hover:shadow-2xl border-2 border-neutral-700 hover:border-neutral-500'
+                  : 'bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl'
               }`}
             >
               {tier.popular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-3.5 py-1 rounded-full bg-[#D4AF37] text-neutral-950 text-[10px] font-bold uppercase tracking-wider shadow-sm">
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-3.5 py-1 rounded-full bg-white text-neutral-950 text-[10px] font-bold uppercase tracking-wider shadow-sm">
                   Most Popular For Boutiques
                 </div>
               )}
@@ -117,14 +118,14 @@ export default function WholesalePage() {
                 <h3 className="font-serif text-2xl font-bold mb-1">
                   {tier.moq}
                 </h3>
-                <p className={`text-xs mb-6 font-semibold ${tier.popular ? 'text-amber-300' : 'text-[#0B2D7F]'}`}>
+                <p className={`text-xs mb-6 font-semibold ${tier.popular ? 'text-neutral-300' : 'text-neutral-900 dark:text-neutral-200'}`}>
                   {tier.discount}
                 </p>
 
                 <div className="space-y-3 pt-4 text-xs">
                   {tier.features.map((f, i) => (
                     <div key={i} className="flex items-center gap-2.5">
-                      <Check size={14} className={tier.popular ? 'text-[#D4AF37]' : 'text-[#0B2D7F]'} />
+                      <Check size={14} className={tier.popular ? 'text-white' : 'text-neutral-900 dark:text-white'} />
                       <span className="opacity-90">{f}</span>
                     </div>
                   ))}
@@ -140,8 +141,8 @@ export default function WholesalePage() {
                   rel="noopener noreferrer"
                   className={`w-full py-3 rounded-full text-xs font-semibold text-center block transition-colors ${
                     tier.popular
-                      ? 'bg-[#D4AF37] hover:bg-[#bfa032] text-neutral-950'
-                      : 'bg-[#0B2D7F] hover:bg-[#071F59] text-white'
+                      ? 'bg-white hover:bg-neutral-100 text-neutral-950'
+                      : 'bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200'
                   }`}
                 >
                   Inquire for Tier
@@ -152,14 +153,14 @@ export default function WholesalePage() {
         </div>
 
         {/* Catalog Request Form */}
-        <div className="max-w-2xl mx-auto bg-white dark:bg-neutral-900 rounded-3xl p-6 sm:p-10 border border-ink-100 dark:border-white/5 shadow-md">
+        <div className="max-w-2xl mx-auto bg-white dark:bg-neutral-900 rounded-3xl p-6 sm:p-10 border border-neutral-200/80 dark:border-white/10 shadow-md">
           <div className="text-center mb-8">
-            <FileText size={24} className="text-[#0B2D7F] dark:text-amber-400 mx-auto mb-2" />
-            <h3 className="font-serif text-2xl text-ink-950 dark:text-white font-normal">
-              Request B2B Line Sheets & Catalog
+            <FileText size={24} className="text-neutral-800 dark:text-neutral-200 mx-auto mb-2" />
+            <h3 className="font-serif text-2xl text-neutral-900 dark:text-white font-normal">
+              Request B2B Line Sheets &amp; Catalog
             </h3>
-            <p className="text-xs text-ink-500 mt-1">
-              Received in your WhatsApp within 10 minutes during atelier business hours.
+            <p className="text-xs text-neutral-500 mt-1">
+              Received via WhatsApp within 10 minutes during atelier business hours.
             </p>
           </div>
 
@@ -227,7 +228,7 @@ export default function WholesalePage() {
 
             <button
               type="submit"
-              className="w-full py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-sm transition-all shadow-md flex items-center justify-center gap-2 mt-4"
+              className="w-full py-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 font-semibold text-sm transition-all shadow-md flex items-center justify-center gap-2 mt-4"
             >
               <MessageCircle size={16} />
               <span>Request Wholesale Line Sheets via WhatsApp</span>

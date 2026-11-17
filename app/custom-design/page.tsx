@@ -72,31 +72,31 @@ Please guide me on timeline, fabric swatches, and quote.`;
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-neutral-900 selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-14">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 text-xs font-semibold uppercase tracking-wider mb-4">
-            <Scissors size={14} />
-            <span>BESPOKE JAIPUR ATELIER</span>
+          <div className="section-pill mb-4">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span>Bespoke Jaipur Atelier</span>
           </div>
 
-          <h1 className="font-serif text-3xl sm:text-5xl text-ink-950 dark:text-white font-normal leading-tight">
+          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
             Custom Design Your Outfit
           </h1>
 
-          <p className="mt-4 text-sm sm:text-base text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
+          <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto leading-relaxed">
             From S to XXL, feeding zippers, pocket additions, or custom sleeve drops — our master tailors in Sanganer craft garments made uniquely to your body.
           </p>
         </div>
 
         {/* Form Container */}
-        <div className="max-w-2xl mx-auto bg-white dark:bg-neutral-900 rounded-3xl p-6 sm:p-10 border border-ink-100 dark:border-white/5 shadow-md">
+        <div className="max-w-2xl mx-auto bg-white dark:bg-neutral-900 rounded-3xl p-6 sm:p-10 border border-neutral-200/80 dark:border-white/10 shadow-md">
           <form onSubmit={handleSubmitBrief} className="space-y-8">
             {/* 1. Garment Type */}
             <div>
-              <label className="block text-xs font-semibold uppercase tracking-wider text-ink-900 dark:text-white mb-3">
+              <label className="block text-xs font-semibold uppercase tracking-wider text-neutral-900 dark:text-white mb-3">
                 1. Select Silhouette
               </label>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
@@ -107,8 +107,8 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     onClick={() => setGarment(g)}
                     className={`p-3 rounded-2xl text-xs font-medium text-left border transition-all ${
                       garment === g
-                        ? 'bg-[#0B2D7F] text-white border-[#0B2D7F] shadow-sm'
-                        : 'border-ink-200 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-[#0B2D7F]'
+                        ? 'bg-neutral-900 text-white border-neutral-900 dark:bg-white dark:text-neutral-950 dark:border-white shadow-sm'
+                        : 'border-neutral-200 dark:border-white/10 text-neutral-800 dark:text-neutral-200 hover:border-neutral-900 dark:hover:border-white'
                     }`}
                   >
                     {g}
@@ -119,7 +119,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
 
             {/* 2. Fabric Choice */}
             <div>
-              <label className="block text-xs font-semibold uppercase tracking-wider text-ink-900 dark:text-white mb-3">
+              <label className="block text-xs font-semibold uppercase tracking-wider text-neutral-900 dark:text-white mb-3">
                 2. Select Preferred Fabric
               </label>
               <div className="space-y-2">
@@ -128,8 +128,8 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     key={f}
                     className={`flex items-center gap-3 p-3 rounded-2xl border text-xs font-medium cursor-pointer transition-colors ${
                       fabric === f
-                        ? 'border-[#0B2D7F] bg-[#FFFEFE] dark:bg-neutral-800 dark:border-amber-400'
-                        : 'border-ink-200 dark:border-white/10 text-ink-700 dark:text-neutral-300'
+                        ? 'border-neutral-900 bg-neutral-50 dark:bg-neutral-800 dark:border-white'
+                        : 'border-neutral-200 dark:border-white/10 text-neutral-700 dark:text-neutral-300'
                     }`}
                   >
                     <input
@@ -137,7 +137,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                       name="fabric"
                       checked={fabric === f}
                       onChange={() => setFabric(f)}
-                      className="accent-[#0B2D7F]"
+                      className="accent-neutral-900 dark:accent-white"
                     />
                     <span>{f}</span>
                   </label>
@@ -147,7 +147,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
 
             {/* 3. Craft Choice */}
             <div>
-              <label className="block text-xs font-semibold uppercase tracking-wider text-ink-900 dark:text-white mb-3">
+              <label className="block text-xs font-semibold uppercase tracking-wider text-neutral-900 dark:text-white mb-3">
                 3. Traditional Craft & Accent
               </label>
               <div className="space-y-2">
@@ -156,8 +156,8 @@ Please guide me on timeline, fabric swatches, and quote.`;
                     key={c}
                     className={`flex items-center gap-3 p-3 rounded-2xl border text-xs font-medium cursor-pointer transition-colors ${
                       craft === c
-                        ? 'border-[#0B2D7F] bg-[#FFFEFE] dark:bg-neutral-800 dark:border-amber-400'
-                        : 'border-ink-200 dark:border-white/10 text-ink-700 dark:text-neutral-300'
+                        ? 'border-neutral-900 bg-neutral-50 dark:bg-neutral-800 dark:border-white'
+                        : 'border-neutral-200 dark:border-white/10 text-neutral-700 dark:text-neutral-300'
                     }`}
                   >
                     <input
@@ -165,7 +165,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
                       name="craft"
                       checked={craft === c}
                       onChange={() => setCraft(c)}
-                      className="accent-[#0B2D7F]"
+                      className="accent-neutral-900 dark:accent-white"
                     />
                     <span>{c}</span>
                   </label>
@@ -260,7 +260,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
 
             <button
               type="submit"
-              className="w-full py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-sm transition-all shadow-md flex items-center justify-center gap-2"
+              className="w-full py-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 font-semibold text-sm transition-all shadow-md flex items-center justify-center gap-2"
             >
               <MessageCircle size={16} />
               <span>Submit Custom Brief to Master Tailor</span>

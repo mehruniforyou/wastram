@@ -294,8 +294,8 @@ export default function ProductDetailPage({ params }: Props) {
                     onClick={() => setActiveImageIndex(idx)}
                     className={`relative w-16 h-22 md:w-20 md:h-28 rounded-xl overflow-hidden border-2 transition-all shrink-0 cursor-pointer ${
                       activeImageIndex === idx
-                        ? 'border-[#0B2D7F] dark:border-amber-400 shadow-sm'
-                        : 'border-transparent hover:border-ink-300 opacity-70 hover:opacity-100'
+                        ? 'border-neutral-900 dark:border-white shadow-sm'
+                        : 'border-transparent hover:border-neutral-300 opacity-70 hover:opacity-100'
                     }`}
                   >
                     <img
@@ -317,13 +317,13 @@ export default function ProductDetailPage({ params }: Props) {
               />
 
               {/* Floating Image Counter */}
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 dark:bg-black/80 backdrop-blur-xs text-ink-900 dark:text-white shadow-2xs">
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 dark:bg-black/80 backdrop-blur-xs text-neutral-900 dark:text-white shadow-2xs">
                 {activeImageIndex + 1} / {images.length}
               </div>
 
               {/* Category Provenance Tag */}
               <div className="absolute top-4 left-4">
-                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-[#0B2D7F]/90 text-white backdrop-blur-xs shadow-2xs">
+                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-neutral-900/90 text-white dark:bg-white/90 dark:text-neutral-950 backdrop-blur-xs shadow-2xs">
                   Sanganer Handblock
                 </span>
               </div>
@@ -335,35 +335,36 @@ export default function ProductDetailPage({ params }: Props) {
           {/* ======================================================== */}
           <div className="lg:col-span-5 sticky top-28 space-y-6">
             <div>
-              <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-semibold mb-1">
-                {product.fabric || '100% PURE HANDLOOM COTTON'}
-              </p>
+              <div className="section-pill mb-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+                <span>{product.fabric || 'Pure Handloom Cotton'}</span>
+              </div>
               <div className="flex items-start justify-between gap-4">
-                <h1 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal leading-tight">
+                <h1 className="font-serif text-2xl sm:text-3xl text-neutral-900 dark:text-white font-normal leading-tight">
                   {product.title}
                 </h1>
                 <button
                   type="button"
                   onClick={() => toggleWishlist(product.slug)}
-                  className="w-10 h-10 rounded-full border border-ink-200 dark:border-white/10 flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors shrink-0"
+                  className="w-10 h-10 rounded-full border border-neutral-200 dark:border-white/10 flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors shrink-0"
                   aria-label="Save to wishlist"
                 >
                   <Heart
                     size={18}
                     className={
                       wishlisted
-                        ? 'fill-[#0B2D7F] text-[#0B2D7F] dark:fill-amber-400 dark:text-amber-400'
-                        : 'text-ink-600 dark:text-neutral-300'
+                        ? 'fill-neutral-900 text-neutral-900 dark:fill-white dark:text-white'
+                        : 'text-neutral-500 dark:text-neutral-400'
                     }
                   />
                 </button>
               </div>
 
               {/* Wholesale Specifications Banner (Zero Consumer Pricing) */}
-              <div className="mt-4 p-4 rounded-2xl bg-[#0B2D7F]/5 dark:bg-white/5 border border-[#0B2D7F]/20 dark:border-white/10 space-y-2">
-                <div className="flex items-center justify-between text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">
+              <div className="mt-4 p-4 rounded-2xl bg-neutral-50 dark:bg-neutral-900/50 border border-neutral-200 dark:border-white/10 space-y-2">
+                <div className="flex items-center justify-between text-xs font-semibold text-neutral-900 dark:text-white">
                   <span className="uppercase tracking-wider">Atelier Wholesale Sourcing</span>
-                  <span className="bg-[#0B2D7F] text-white px-2.5 py-0.5 rounded-full text-[10px]">
+                  <span className="bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 px-2.5 py-0.5 rounded-full text-[10px]">
                     B2B Direct
                   </span>
                 </div>
@@ -374,7 +375,7 @@ export default function ProductDetailPage({ params }: Props) {
                   </div>
                   <div>
                     <span className="text-foreground/50 block text-[11px]">Trade Pricing</span>
-                    <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">Available Upon Enquiry</span>
+                    <span className="font-semibold text-neutral-900 dark:text-white">Available Upon Enquiry</span>
                   </div>
                   <div>
                     <span className="text-foreground/50 block text-[11px]">Sizes Available</span>
@@ -399,15 +400,15 @@ export default function ProductDetailPage({ params }: Props) {
             {/* Size Selector with Size Guide Trigger */}
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-semibold uppercase tracking-wider text-ink-900 dark:text-white">
+                <span className="text-xs font-semibold uppercase tracking-wider text-neutral-900 dark:text-white">
                   Available Sizing Pre-Packs
                 </span>
                 <button
                   type="button"
                   onClick={openSizeGuide}
-                  className="text-xs font-medium text-[#0B2D7F] dark:text-amber-400 underline underline-offset-4 hover:opacity-80"
+                  className="text-xs font-medium text-neutral-600 dark:text-neutral-400 underline underline-offset-4 hover:text-neutral-900 dark:hover:text-white"
                 >
-                  Size guide & measurements
+                  Size guide &amp; measurements
                 </button>
               </div>
 
@@ -419,8 +420,8 @@ export default function ProductDetailPage({ params }: Props) {
                     onClick={() => setSelectedSize(sz)}
                     className={`min-w-[44px] h-11 px-3 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer ${
                       selectedSize === sz
-                        ? 'bg-[#0B2D7F] text-white shadow-sm ring-2 ring-[#0B2D7F]/20'
-                        : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-[#0B2D7F]'
+                        ? 'bg-neutral-900 text-white shadow-sm ring-2 ring-neutral-900/20 dark:bg-white dark:text-neutral-950'
+                        : 'bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 text-neutral-800 dark:text-neutral-200 hover:border-neutral-900 dark:hover:border-white'
                     }`}
                   >
                     {sz}
@@ -429,13 +430,13 @@ export default function ProductDetailPage({ params }: Props) {
               </div>
             </div>
 
-            {/* Action Buttons Stack (Redesigned for Wholesale Boutique Enquiry) */}
+            {/* Action Buttons Stack (Clean B2B Wholesale Enquiry & Quote) */}
             <div className="space-y-3 pt-2">
               <a
                 href={whatsappInquiryUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-3.5 sm:py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-sm transition-all shadow-md active:scale-98 flex items-center justify-center gap-2"
+                className="w-full py-3.5 sm:py-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 font-semibold text-sm transition-all shadow-md active:scale-98 flex items-center justify-center gap-2"
               >
                 <MessageCircle size={17} />
                 <span>Submit Wholesale Enquiry · Size {selectedSize}</span>
@@ -446,7 +447,7 @@ export default function ProductDetailPage({ params }: Props) {
                   href={sampleOrderUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-3 rounded-full border-2 border-[#0B2D7F] dark:border-white/30 text-[#0B2D7F] dark:text-white font-semibold text-xs sm:text-sm hover:bg-[#0B2D7F]/5 transition-colors text-center flex items-center justify-center gap-1.5"
+                  className="py-3 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-800 dark:text-neutral-200 font-semibold text-xs sm:text-sm hover:border-neutral-900 dark:hover:border-white transition-colors text-center flex items-center justify-center gap-1.5"
                 >
                   <span>Request Sample</span>
                 </a>
@@ -454,42 +455,17 @@ export default function ProductDetailPage({ params }: Props) {
                 <button
                   type="button"
                   onClick={handleAddToCart}
-                  className="py-3 rounded-full border-2 border-[#0B2D7F]/40 dark:border-white/20 text-foreground font-semibold text-xs sm:text-sm hover:border-[#0B2D7F] transition-colors text-center"
+                  className="py-3 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-800 dark:text-neutral-200 font-semibold text-xs sm:text-sm hover:border-neutral-900 dark:hover:border-white transition-colors text-center"
                 >
                   <span>Add to Quote Bag</span>
                 </button>
               </div>
-
-              {/* Stitched Ribbon Tailor WhatsApp CTA in Brand Blue */}
-              <a
-                href={whatsappInquiryUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3.5 rounded-2xl stitched-ribbon flex items-center justify-between gap-3 text-xs group transition-all hover:bg-[#0B2D7F]/10"
-              >
-                <div className="flex items-center gap-2.5">
-                  <div className="w-8 h-8 rounded-full bg-[#0B2D7F] text-white flex items-center justify-center shrink-0 shadow-2xs">
-                    <Sparkles size={16} />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-[#0B2D7F] dark:text-white">
-                      Custom Labeling &amp; Sizing for Boutiques
-                    </p>
-                    <p className="text-[11px] text-ink-600 dark:text-neutral-400">
-                      Private labels, barcoding, and custom sleeve drops available
-                    </p>
-                  </div>
-                </div>
-                <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37] group-hover:translate-x-1 transition-transform">
-                  Enquire →
-                </span>
-              </a>
             </div>
 
             {/* Delivery Pincode Checker */}
-            <form onSubmit={handlePincodeCheck} className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 space-y-2 shadow-2xs">
-              <span className="text-xs font-semibold text-ink-900 dark:text-white flex items-center gap-1.5">
-                <Truck size={14} className="text-[#0B2D7F] dark:text-amber-400" />
+            <form onSubmit={handlePincodeCheck} className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 space-y-2 shadow-2xs">
+              <span className="text-xs font-semibold text-neutral-900 dark:text-white flex items-center gap-1.5">
+                <Truck size={14} className="text-neutral-700 dark:text-neutral-300" />
                 <span>Estimate Freight &amp; Dispatch to Destination</span>
               </span>
               <div className="flex gap-2">
@@ -499,7 +475,7 @@ export default function ProductDetailPage({ params }: Props) {
                   placeholder="Enter 6-digit PIN"
                   value={pincode}
                   onChange={(e) => setPincode(e.target.value)}
-                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-ink-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800 text-ink-900 dark:text-white focus:outline-none"
+                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-neutral-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800 text-neutral-900 dark:text-white focus:outline-none"
                 />
                 <button
                   type="submit"
@@ -509,7 +485,7 @@ export default function ProductDetailPage({ params }: Props) {
                 </button>
               </div>
               {pincodeStatus && (
-                <p className="text-[11px] text-[#0B2D7F] dark:text-amber-400 pt-1">
+                <p className="text-[11px] text-neutral-800 dark:text-neutral-200 pt-1">
                   {pincodeStatus}
                 </p>
               )}
@@ -632,41 +608,45 @@ export default function ProductDetailPage({ params }: Props) {
         {/* ======================================================== */}
         <div className="mt-20 pt-8">
           <div className="max-w-xl mb-8">
-            <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-              VERSATILE ATELIER STYLING
-            </p>
-            <h3 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal mt-1">
-              Wear it three ways
+            <div className="section-pill mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span>Versatile Styling</span>
+            </div>
+            <h3 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
+              Wear It Three Ways
             </h3>
+            <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
+              Versatile styling notes for daywear, occasion layering, and travel ease.
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-ink-700 dark:text-neutral-300">
-            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
-              <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">01</span>
-              <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-neutral-700 dark:text-neutral-300">
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
+              <span className="font-serif text-xl text-neutral-400 dark:text-neutral-500 font-light block mb-2">01</span>
+              <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white mb-1.5">
                 Minimalist Everyday
               </h4>
-              <p className="text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
+              <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
                 Style as a single piece with flat leather juttis and bare ears for summer workdays, casual café catchups, and studio hours.
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
-              <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">02</span>
-              <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
+              <span className="font-serif text-xl text-neutral-400 dark:text-neutral-500 font-light block mb-2">02</span>
+              <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white mb-1.5">
                 Festive Occasion
               </h4>
-              <p className="text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
+              <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
                 Add an organza zari dupatta, oxidised silver jhumkas, and a potli bag for temple visits, family sangeets, and festival dinners.
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
-              <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">03</span>
-              <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
+              <span className="font-serif text-xl text-neutral-400 dark:text-neutral-500 font-light block mb-2">03</span>
+              <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white mb-1.5">
                 Contemporary Fusion
               </h4>
-              <p className="text-ink-600 dark:text-neutral-400 leading-relaxed font-sans">
+              <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
                 Pair the tunic with straight-leg denim or linen trousers, rolling up the sleeves for modern fusion airport travel.
               </p>
             </div>
@@ -678,18 +658,22 @@ export default function ProductDetailPage({ params }: Props) {
         {/* ======================================================== */}
         {relatedProducts.length > 0 && (
           <div className="mt-20 pt-8">
-            <div className="flex items-end justify-between mb-8 pb-3">
+            <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-3 gap-4">
               <div>
-                <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-                  COMPLETE YOUR WARDROBE
-                </p>
-                <h3 className="font-serif text-2xl sm:text-3xl text-ink-950 dark:text-white font-normal mt-1">
-                  More to discover
+                <div className="section-pill mb-3">
+                  <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+                  <span>Curated Pairings</span>
+                </div>
+                <h3 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
+                  More to Discover
                 </h3>
+                <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
+                  Complementary silhouettes from our Jaipur handloom workshops.
+                </p>
               </div>
               <Link
                 href={`/collections/${product.category || 'shop-all'}`}
-                className="text-xs font-semibold text-[#0B2D7F] dark:text-amber-400 hover:opacity-80"
+                className="text-xs font-semibold text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
               >
                 View collection →
               </Link>

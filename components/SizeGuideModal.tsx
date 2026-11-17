@@ -72,7 +72,7 @@ export default function SizeGuideModal() {
                 onClick={() => setUnit('in')}
                 className={`px-3 py-1 rounded-full font-medium transition-colors ${
                   unit === 'in'
-                    ? 'bg-[#0B2D7F] text-white shadow-2xs'
+                    ? 'bg-neutral-900 text-white shadow-2xs dark:bg-white dark:text-neutral-950'
                     : 'text-ink-600 dark:text-neutral-400'
                 }`}
               >
@@ -83,7 +83,7 @@ export default function SizeGuideModal() {
                 onClick={() => setUnit('cm')}
                 className={`px-3 py-1 rounded-full font-medium transition-colors ${
                   unit === 'cm'
-                    ? 'bg-[#0B2D7F] text-white shadow-2xs'
+                    ? 'bg-neutral-900 text-white shadow-2xs dark:bg-white dark:text-neutral-950'
                     : 'text-ink-600 dark:text-neutral-400'
                 }`}
               >
@@ -122,10 +122,10 @@ export default function SizeGuideModal() {
             </table>
           </div>
 
-          {/* Tailor Concierge Box in Brand Blue */}
-          <div className="p-4 rounded-2xl bg-[#0B2D7F]/5 dark:bg-neutral-800 border border-[#0B2D7F]/20 flex items-center justify-between gap-4">
+          {/* Tailor Concierge Box */}
+          <div className="p-4 rounded-2xl bg-neutral-50 dark:bg-neutral-800 border border-neutral-200/80 dark:border-white/10 flex items-center justify-between gap-4">
             <div>
-              <p className="text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">
+              <p className="text-xs font-semibold text-neutral-900 dark:text-white">
                 Between sizes or need custom length?
               </p>
               <p className="text-[11px] text-ink-600 dark:text-neutral-400 mt-0.5">
@@ -136,7 +136,7 @@ export default function SizeGuideModal() {
               href="https://wa.me/918003088838?text=Hello%20Wastram%2C%20I%20need%20help%20choosing%20the%20right%20size%20for%20my%20measurements."
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded-full bg-[#0B2D7F] text-white text-xs font-semibold hover:bg-[#071F59] transition-colors shrink-0 inline-flex items-center gap-1.5 shadow-sm"
+              className="px-4 py-2 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-xs font-semibold transition-colors shrink-0 inline-flex items-center gap-1.5 shadow-sm"
             >
               <MessageCircle size={14} />
               <span>Tailor Chat</span>

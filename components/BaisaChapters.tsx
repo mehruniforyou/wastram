@@ -68,14 +68,15 @@ export default function BaisaChapters() {
   return (
     <section className="py-16 md:py-24 container-x bg-[#FFFEFE] dark:bg-[#12100E]">
       <div className="text-center max-w-2xl mx-auto mb-14">
-        <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-          EXPLORE OUR COLLECTIONS
-        </p>
-        <h2 className="mt-2 font-serif text-3xl sm:text-4xl lg:text-5xl text-ink-950 dark:text-white font-normal">
+        <div className="section-pill mb-3">
+          <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+          <span>Artisanal Collections</span>
+        </div>
+        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-neutral-900 dark:text-white font-normal">
           The Chapters
         </h2>
-        <p className="mt-3 text-sm md:text-base text-ink-600 dark:text-neutral-400 font-sans">
-          Each chapter represents a dedicated craft narrative from our Sanganer workshops — woven, dyed, printed, and stitched under one roof.
+        <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
+          Dedicated craft narratives from our Jaipur atelier — handloom weaving, dabu printing, and fine gota needlework.
         </p>
       </div>
 
@@ -84,7 +85,7 @@ export default function BaisaChapters() {
           <Link
             key={chapter.number}
             href={`/collections/${chapter.slug}`}
-            className="group flex flex-col bg-white dark:bg-neutral-900 rounded-3xl p-5 sm:p-6 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out"
+            className="group flex flex-col bg-white dark:bg-neutral-900 rounded-3xl p-5 sm:p-6 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out"
           >
             {/* Rectangular Image Frame with Rounded Corners */}
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800">
@@ -98,7 +99,7 @@ export default function BaisaChapters() {
 
               {/* Tag Pill */}
               <div className="absolute top-4 left-4">
-                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-white/90 dark:bg-black/80 backdrop-blur-xs text-[#0B2D7F] dark:text-amber-400 shadow-2xs">
+                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-white/95 dark:bg-black/80 backdrop-blur-xs text-neutral-800 dark:text-neutral-200 shadow-2xs">
                   {chapter.tag}
                 </span>
               </div>
@@ -114,18 +115,18 @@ export default function BaisaChapters() {
             {/* Chapter Metadata */}
             <div className="mt-5 flex-1 flex flex-col justify-between">
               <div>
-                <p className="text-[11px] tracking-[0.2em] uppercase font-sans text-[#0B2D7F] dark:text-amber-400 font-semibold">
+                <p className="text-[11px] tracking-[0.2em] uppercase font-sans text-neutral-500 dark:text-neutral-400 font-semibold">
                   {chapter.number}
                 </p>
-                <h3 className="mt-1 font-serif text-xl sm:text-2xl text-ink-950 dark:text-white group-hover:text-[#0B2D7F] dark:group-hover:text-amber-400 transition-colors">
+                <h3 className="mt-1 font-serif text-xl sm:text-2xl text-neutral-900 dark:text-white group-hover:text-neutral-600 dark:group-hover:text-neutral-300 transition-colors">
                   {chapter.title}
                 </h3>
-                <p className="mt-2 text-xs sm:text-sm text-ink-600 dark:text-neutral-400 leading-relaxed font-sans line-clamp-2">
+                <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans line-clamp-2">
                   {chapter.subtitle}
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 flex items-center justify-between text-xs font-medium text-[#0B2D7F] dark:text-amber-400">
+              <div className="mt-4 pt-3 flex items-center justify-between text-xs font-medium text-neutral-900 dark:text-white">
                 <span>Explore all styles</span>
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </div>

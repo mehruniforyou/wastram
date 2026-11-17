@@ -42,18 +42,19 @@ export default function CraftPage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-neutral-900 selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       <main className="flex-1 container-x py-8 md:py-16">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="inline-block px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 mb-4">
-            GI-TAGGED HERITAGE OF RAJASTHAN
-          </span>
-          <h1 className="font-serif text-3xl sm:text-5xl text-ink-950 dark:text-white font-normal leading-tight">
+          <div className="section-pill mb-4">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span>GI-Tagged Rajasthan Heritage</span>
+          </div>
+          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
             Five Hundred Years of It — The Craft
           </h1>
-          <p className="mt-4 text-sm sm:text-base text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
+          <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto leading-relaxed">
             The ancient art of Sanganer hand block printing is recognized globally for its crisp, delicate floral butas, curvilinear vines, and enduring natural drapes.
           </p>
         </div>
@@ -63,9 +64,9 @@ export default function CraftPage() {
           {CRAFT_STAGES.map((stage, idx) => (
             <div
               key={idx}
-              className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs flex flex-col sm:flex-row gap-6 items-start"
+              className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 shadow-2xs flex flex-col sm:flex-row gap-6 items-start"
             >
-              <span className="px-3 py-1 rounded-full text-xs font-serif font-bold text-[#0B2D7F] dark:text-amber-400 bg-[#0B2D7F]/10 dark:bg-amber-400/10 shrink-0">
+              <span className="px-3 py-1 rounded-full text-xs font-serif font-medium text-neutral-900 dark:text-white bg-neutral-100 dark:bg-neutral-800 shrink-0">
                 {stage.step}
               </span>
               <div>

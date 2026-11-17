@@ -39,7 +39,7 @@ export default function CartDrawer() {
               Your bag
             </h2>
             {cartCount > 0 && (
-              <span className="text-xs px-2 py-0.5 rounded-full bg-[#0B2D7F]/10 dark:bg-amber-400/20 text-[#0B2D7F] dark:text-amber-400 font-medium">
+              <span className="text-xs px-2 py-0.5 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 font-medium">
                 {cartCount} {cartCount === 1 ? 'item' : 'items'}
               </span>
             )}
@@ -58,7 +58,7 @@ export default function CartDrawer() {
         {/* Free Shipping Progress Ribbon */}
         <div className="px-6 py-3 bg-[#FFFEFE] dark:bg-neutral-900/60 border-b border-ink-100 dark:border-white/5">
           <p className="text-xs text-ink-800 dark:text-neutral-200 font-medium flex items-center justify-between">
-            <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">Jaipur Handloom Atelier Direct</span>
+            <span className="text-neutral-900 dark:text-white font-medium">Jaipur Handloom Atelier Direct</span>
             <span className="text-[11px] text-foreground/60">Worldwide Air Cargo</span>
           </p>
         </div>
@@ -67,7 +67,7 @@ export default function CartDrawer() {
         <div className="flex-1 overflow-y-auto p-6 space-y-4">
           {cart.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center text-center py-12">
-              <div className="w-16 h-16 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 mb-4">
+              <div className="w-16 h-16 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-800 dark:text-neutral-200 mb-4">
                 <ShoppingBag size={28} />
               </div>
               <h3 className="font-serif text-xl text-ink-950 dark:text-white font-normal">
@@ -117,7 +117,7 @@ export default function CartDrawer() {
                       <p className="text-xs text-ink-500 dark:text-neutral-400 mt-0.5">
                         Size: <span className="font-semibold text-ink-800 dark:text-white">{item.size}</span>
                       </p>
-                      <p className="text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37] mt-1">
+                      <p className="text-xs font-medium text-neutral-600 dark:text-neutral-400 mt-1">
                         Wholesale Inquiry Item
                       </p>
                     </div>
@@ -163,7 +163,7 @@ export default function CartDrawer() {
               </div>
               <div className="flex justify-between">
                 <span>Freight &amp; Cargo</span>
-                <span className="font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">Worldwide Air Cargo</span>
+                <span className="font-semibold text-neutral-800 dark:text-neutral-200">Worldwide Air Cargo</span>
               </div>
               <p className="text-[11px] text-ink-500 pt-1">
                 Direct atelier dispatch from Sanganer, Jaipur. Final invoice provided upon inquiry confirmation.
@@ -173,7 +173,7 @@ export default function CartDrawer() {
             <Link
               href="/cart"
               onClick={closeCart}
-              className="w-full py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-sm font-semibold text-center block transition-all shadow-md"
+              className="w-full py-3.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-sm font-semibold text-center block transition-all shadow-md"
             >
               Review Quote &amp; Submit Enquiry
             </Link>

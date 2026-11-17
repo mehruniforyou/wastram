@@ -55,20 +55,21 @@ export default function BaisaReels() {
     <section className="py-16 md:py-24 container-x">
       <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 pb-4 gap-4">
         <div>
-          <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
-            FILMED ON OUR REAL PIECES
-          </p>
-          <h2 className="mt-1 font-serif text-3xl sm:text-4xl lg:text-5xl text-ink-950 dark:text-white font-normal">
-            In Motion
+          <div className="section-pill mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span>Fabric in Motion</span>
+          </div>
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-neutral-900 dark:text-white font-normal">
+            Real Silhouettes &amp; Drape
           </h2>
-          <p className="mt-1.5 text-sm text-ink-600 dark:text-neutral-400 font-sans">
-            Witness how our handblock cottons drape, twirl, and breathe in natural movement.
+          <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
+            Authentic fabric movement, fall, and natural light drape filmed in our Jaipur atelier.
           </p>
         </div>
 
         <Link
           href="/lookbook"
-          className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] dark:text-amber-400 hover:opacity-80 transition-opacity"
+          className="group inline-flex items-center gap-1.5 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
         >
           <span>Explore Lookbook 2026</span>
           <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
@@ -79,7 +80,7 @@ export default function BaisaReels() {
         {REELS.map((reel) => (
           <div
             key={reel.id}
-            className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-sm hover:shadow-xl bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer"
+            className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-sm hover:shadow-xl bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer"
             onClick={() => setActiveReel(reel.id)}
           >
             {/* Background Media */}
