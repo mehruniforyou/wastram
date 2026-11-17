@@ -81,7 +81,7 @@ export default function BrandsPage() {
       <main className="flex-1 pt-24 md:pt-28 pb-24">
         <div className="container-x">
           {/* Header */}
-          <div className="pt-8 md:pt-12 pb-10 border-b border-foreground/10">
+          <div className="pt-8 md:pt-12 pb-10">
             <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
               <span>✦</span>
               <span>Atelier Edits &amp; Fabric Houses</span>
@@ -100,7 +100,7 @@ export default function BrandsPage() {
             {EDITS.map((edit) => (
               <div
                 key={edit.id}
-                className="group border border-foreground/10 bg-card hover:border-[#0B2D7F]/30 dark:hover:border-[#D4AF37]/40 hover:shadow-cardHover transition-all duration-300 flex flex-col"
+                className="group rounded-2xl border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 bg-card overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col"
               >
                 <div className="relative aspect-[16/10] bg-secondary image-zoom-wrap overflow-hidden">
                   <img
@@ -127,7 +127,7 @@ export default function BrandsPage() {
                     </p>
                   </div>
 
-                  <div className="mt-8 pt-4 border-t border-foreground/10 flex items-center justify-between">
+                  <div className="mt-8 pt-4 flex items-center justify-between">
                     <Link
                       href={`/products?category=${edit.category}`}
                       className="text-xs uppercase tracking-widerest font-medium link-underline text-foreground flex items-center gap-1.5"

@@ -81,7 +81,7 @@ const ORDER_STEPS = [
 
 export default function BaisaFactoryStats() {
   return (
-    <section className="py-16 md:py-24 bg-[#FFFEFE] dark:bg-[#12100E] border-b border-ink-100 dark:border-white/5">
+    <section className="py-16 md:py-24 bg-[#FFFEFE] dark:bg-[#12100E]">
       {/* 1. Craft & Heritage Intro */}
       <div className="container-x mb-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
@@ -171,7 +171,7 @@ export default function BaisaFactoryStats() {
             return (
               <div
                 key={i}
-                className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs"
+                className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default"
               >
                 <div className="w-12 h-12 rounded-full bg-[#FFFEFE] dark:bg-neutral-800 flex items-center justify-center text-[#0B2D7F] dark:text-amber-400 shrink-0 border border-ink-100 dark:border-white/10 shadow-2xs">
                   <Icon size={22} />
@@ -205,7 +205,7 @@ export default function BaisaFactoryStats() {
           {ORDER_STEPS.map((s, i) => (
             <div
               key={s.step}
-              className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs flex flex-col justify-between"
+              className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between cursor-default"
             >
               <div>
                 <span className="font-serif text-2xl text-[#C5A059] font-light">

@@ -56,7 +56,7 @@ const SERVICES: ServiceItem[] = [
 export default function BaisaServicesGrid() {
   return (
     <section className="py-16 md:py-24 container-x">
-      <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-4 border-b border-ink-100 dark:border-white/10 gap-4">
+      <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-4 gap-4">
         <div>
           <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
             FOUR WAYS TO WEAR WASTRAM
@@ -77,7 +77,7 @@ export default function BaisaServicesGrid() {
             <Link
               key={s.id}
               href={s.href}
-              className="group relative flex flex-col justify-between p-7 rounded-3xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group relative flex flex-col justify-between p-7 rounded-3xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out"
             >
               <div>
                 <div className="flex items-center justify-between mb-6">
@@ -97,7 +97,7 @@ export default function BaisaServicesGrid() {
                 </p>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-ink-100 dark:border-white/5 flex items-center gap-2 text-xs font-semibold text-[#0B2D7F] dark:text-amber-400">
+              <div className="mt-6 pt-4 flex items-center gap-2 text-xs font-semibold text-[#0B2D7F] dark:text-amber-400">
                 <span>{s.actionText}</span>
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </div>

@@ -67,7 +67,7 @@ export default function GalleryPage() {
       <main className="flex-1 pt-24 md:pt-28 pb-24">
         <div className="container-x">
           {/* Header */}
-          <div className="pt-8 md:pt-12 pb-10 border-b border-foreground/10">
+          <div className="pt-8 md:pt-12 pb-10">
             <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
               <span>✦</span>
               <span>Atelier Photography</span>
@@ -86,7 +86,7 @@ export default function GalleryPage() {
             {GALLERY_PICTURES.map((item, idx) => (
               <div
                 key={idx}
-                className={`group image-zoom-wrap ${item.aspect} bg-secondary border border-foreground/10 overflow-hidden relative`}
+                className={`group image-zoom-wrap ${item.aspect} bg-secondary rounded-2xl border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out overflow-hidden relative`}
               >
                 <img
                   src={item.image}

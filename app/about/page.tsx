@@ -18,7 +18,7 @@ export default function AboutPage() {
       <main className="flex-1 pt-24 md:pt-28 pb-24">
         <div className="container-x">
           {/* Hero Section */}
-          <div className="pt-8 md:pt-12 pb-12 border-b border-foreground/10">
+          <div className="pt-8 md:pt-12 pb-12">
             <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
               <span>✦</span>
               <span>The Atelier · Jaipur, Rajasthan</span>
@@ -37,7 +37,7 @@ export default function AboutPage() {
           {/* Visual Showcase (Two-Column) */}
           <div className="mt-16 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             <div className="lg:col-span-7">
-              <div className="image-zoom-wrap aspect-[4/3] bg-secondary border border-foreground/10 overflow-hidden">
+              <div className="image-zoom-wrap aspect-[4/3] bg-secondary border border-foreground/10 rounded-2xl overflow-hidden shadow-sm">
                 <img
                   src="/images/about/craft-blockprint.jpg"
                   alt="Jaipur Chippa Artisan Block Printing"
@@ -65,10 +65,10 @@ export default function AboutPage() {
           </div>
 
           {/* Pillars Grid */}
-          <div className="mt-24 pt-16 border-t border-foreground/10">
+          <div className="mt-24 pt-8">
             <div className="eyebrow mb-8">Atelier Values</div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="border border-foreground/10 p-8 bg-card">
+              <div className="rounded-2xl border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 p-8 bg-card shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
                 <div className="eyebrow gold mb-2">01 · Direct Sourcing</div>
                 <h3 className="font-display text-2xl text-foreground mb-3">Zero Middlemen</h3>
                 <p className="text-sm text-foreground/70 font-body leading-relaxed">
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="border border-foreground/10 p-8 bg-card">
+              <div className="rounded-2xl border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 p-8 bg-card shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
                 <div className="eyebrow gold mb-2">02 · Ethical Artisan Wages</div>
                 <h3 className="font-display text-2xl text-foreground mb-3">Chippa Guild Respect</h3>
                 <p className="text-sm text-foreground/70 font-body leading-relaxed">
@@ -87,7 +87,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="border border-foreground/10 p-8 bg-card">
+              <div className="rounded-2xl border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 p-8 bg-card shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
                 <div className="eyebrow gold mb-2">03 · Global Logistics</div>
                 <h3 className="font-display text-2xl text-foreground mb-3">Doorstep Air Cargo</h3>
                 <p className="text-sm text-foreground/70 font-body leading-relaxed">

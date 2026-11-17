@@ -6,7 +6,7 @@ import { ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';
 
 export default function BaisaHero() {
   return (
-    <section className="relative overflow-hidden bg-[#FFFEFE] dark:bg-[#12100E] pt-8 md:pt-12 pb-16 md:pb-24 border-b border-[#E7E5E4]/80 dark:border-white/10">
+    <section className="relative overflow-hidden bg-[#FFFEFE] dark:bg-[#12100E] pt-8 md:pt-12 pb-16 md:pb-24">
       {/* Delicate Sanganeri Block-print Paisley Watermark Motif */}
       <div
         className="absolute inset-0 z-0 opacity-[0.04] dark:opacity-[0.02] pointer-events-none bg-repeat"
@@ -51,7 +51,7 @@ export default function BaisaHero() {
           </div>
 
           {/* Trust Highlights */}
-          <div className="mt-10 pt-6 border-t border-[#E7E5E4] dark:border-white/10 flex flex-wrap items-center gap-6 text-xs text-foreground/70 font-sans">
+          <div className="mt-10 pt-4 flex flex-wrap items-center gap-6 text-xs text-foreground/70 font-sans">
             <div className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-[#0B2D7F]" />
               <span>Direct Jaipur Factory</span>
@@ -70,7 +70,7 @@ export default function BaisaHero() {
         {/* Right Column: Layered Editorial Photography Frame */}
         <div className="lg:col-span-6 relative flex items-center justify-center w-full max-w-full overflow-hidden sm:overflow-visible py-2">
           {/* Main Primary Model Frame (Rectangular with Rounded Corners) */}
-          <div className="relative w-full max-w-[310px] sm:max-w-[380px] md:max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-[#1E1B18] bg-[#FFFEFE] z-10 group mx-auto">
+          <div className="relative w-full max-w-[310px] sm:max-w-[380px] md:max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl hover:shadow-2xl border-4 border-white dark:border-[#1E1B18] hover:border-[#0B2D7F] dark:hover:border-amber-400 hover:-translate-y-1.5 bg-[#FFFEFE] z-10 group mx-auto transition-all duration-300 ease-out">
             <img
               src="/western-dresses/10045.jpg.jpeg"
               alt="Wastram Jaipur Handcrafted Ethnic Wear"
@@ -92,7 +92,7 @@ export default function BaisaHero() {
           </div>
 
           {/* Secondary Layered Overlapping Lifestyle Card */}
-          <div className="hidden md:block absolute -right-2 lg:-right-4 -bottom-6 w-40 lg:w-52 aspect-[3/4] rounded-2xl overflow-hidden shadow-xl border-4 border-white dark:border-[#1E1B18] bg-[#FFFEFE] z-20">
+          <div className="hidden md:block absolute -right-2 lg:-right-4 -bottom-6 w-40 lg:w-52 aspect-[3/4] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl border-4 border-white dark:border-[#1E1B18] hover:border-[#0B2D7F] dark:hover:border-amber-400 hover:-translate-y-1.5 bg-[#FFFEFE] z-20 transition-all duration-300 ease-out">
             <img
               src="/cord-sets/12550.jpg.jpeg"
               alt="Jaipur Cotton Co-ord"

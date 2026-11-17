@@ -62,6 +62,16 @@
   border-radius: 0.75rem;
 }
 
+/* Signature Card Hover Animation: Pop-out, Shadow, and Blue Border */
+.wastram-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.wastram-card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-color: #0B2D7F !important;
+}
+
 /* Tailor Stitched Ribbon Effect */
 .stitched-ribbon {
   border: 1.5px dashed #0B2D7F;

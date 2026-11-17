@@ -44,7 +44,7 @@ const TRUST_BADGES: TrustBadge[] = [
 
 export default function TrustBadges() {
   return (
-    <section className="w-full py-12 sm:py-16 px-4 sm:px-6 lg:px-12 bg-white border-t border-[#0B2D7F]/5 select-none">
+    <section className="w-full py-12 sm:py-16 px-4 sm:px-6 lg:px-12 bg-white select-none">
       <div className="max-w-[1500px] mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
         {TRUST_BADGES.map((badge) => (
           <div

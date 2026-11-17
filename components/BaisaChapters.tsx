@@ -66,7 +66,7 @@ const CHAPTERS: Chapter[] = [
 
 export default function BaisaChapters() {
   return (
-    <section className="py-16 md:py-24 container-x bg-[#FFFEFE] dark:bg-[#12100E] border-b border-ink-100 dark:border-white/5">
+    <section className="py-16 md:py-24 container-x bg-[#FFFEFE] dark:bg-[#12100E]">
       <div className="text-center max-w-2xl mx-auto mb-14">
         <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
           EXPLORE OUR COLLECTIONS
@@ -84,7 +84,7 @@ export default function BaisaChapters() {
           <Link
             key={chapter.number}
             href={`/collections/${chapter.slug}`}
-            className="group flex flex-col bg-white dark:bg-neutral-900 rounded-3xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-500 border border-ink-100 dark:border-white/5"
+            className="group flex flex-col bg-white dark:bg-neutral-900 rounded-3xl p-5 sm:p-6 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out"
           >
             {/* Rectangular Image Frame with Rounded Corners */}
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800">
@@ -125,7 +125,7 @@ export default function BaisaChapters() {
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 border-t border-ink-100 dark:border-white/5 flex items-center justify-between text-xs font-medium text-[#0B2D7F] dark:text-amber-400">
+              <div className="mt-4 pt-3 flex items-center justify-between text-xs font-medium text-[#0B2D7F] dark:text-amber-400">
                 <span>Explore all styles</span>
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </div>

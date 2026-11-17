@@ -32,7 +32,7 @@ export default function AnnouncementBar() {
   return (
     <div
       onClick={handleWhatsAppClick}
-      className="relative w-full overflow-hidden bg-[#071F59] text-white border-b border-[#D4AF37]/20 select-none cursor-pointer group py-2"
+      className="relative w-full overflow-hidden bg-[#071F59] text-white select-none cursor-pointer group py-2"
       title="Chat with Wastram Jaipur Wholesale Concierge on WhatsApp"
     >
       {/* Decorative Gold accent line at very top */}

@@ -53,7 +53,7 @@ export default function BaisaReels() {
 
   return (
     <section className="py-16 md:py-24 container-x">
-      <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 pb-4 border-b border-ink-100 dark:border-white/10 gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 pb-4 gap-4">
         <div>
           <p className="eyebrow text-xs tracking-[0.25em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
             FILMED ON OUR REAL PIECES
@@ -79,7 +79,7 @@ export default function BaisaReels() {
         {REELS.map((reel) => (
           <div
             key={reel.id}
-            className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-md bg-neutral-900 border border-neutral-200/40 dark:border-white/10 cursor-pointer"
+            className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-sm hover:shadow-xl bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer"
             onClick={() => setActiveReel(reel.id)}
           >
             {/* Background Media */}
@@ -109,7 +109,7 @@ export default function BaisaReels() {
               <p className="text-xs text-white/80 line-clamp-2 mb-2 font-sans font-light">
                 {reel.caption}
               </p>
-              <div className="pt-2 border-t border-white/20 flex items-center justify-between">
+              <div className="pt-2 flex items-center justify-between">
                 <div>
                   <h4 className="font-serif text-sm font-medium leading-snug line-clamp-1">
                     {reel.title}

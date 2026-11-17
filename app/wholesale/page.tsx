@@ -98,10 +98,10 @@ export default function WholesalePage() {
           {TIERS.map((tier, idx) => (
             <div
               key={idx}
-              className={`relative rounded-3xl p-8 flex flex-col justify-between transition-all ${
+              className={`relative rounded-3xl p-8 flex flex-col justify-between transition-all duration-300 ease-out hover:-translate-y-1.5 ${
                 tier.popular
-                  ? 'bg-[#071F59] text-white shadow-xl scale-102 border-2 border-[#D4AF37]'
-                  : 'bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs'
+                  ? 'bg-[#071F59] text-white shadow-xl hover:shadow-2xl border-2 border-[#D4AF37] hover:border-amber-300'
+                  : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl'
               }`}
             >
               {tier.popular && (
@@ -121,7 +121,7 @@ export default function WholesalePage() {
                   {tier.discount}
                 </p>
 
-                <div className="space-y-3 pt-4 border-t border-current/15 text-xs">
+                <div className="space-y-3 pt-4 text-xs">
                   {tier.features.map((f, i) => (
                     <div key={i} className="flex items-center gap-2.5">
                       <Check size={14} className={tier.popular ? 'text-[#D4AF37]' : 'text-[#0B2D7F]'} />

@@ -19,7 +19,7 @@ export default function CategoriesPage() {
       <main className="flex-1 pt-24 md:pt-28 pb-24">
         <div className="container-x">
           {/* Page Heading */}
-          <div className="pt-8 md:pt-12 pb-10 border-b border-foreground/10">
+          <div className="pt-8 md:pt-12 pb-10">
             <div className="eyebrow mb-3 text-[#D4AF37] font-semibold flex items-center gap-1.5">
               <span>✦</span>
               <span>Departments</span>
@@ -39,7 +39,7 @@ export default function CategoriesPage() {
               <Link
                 key={cat.id}
                 href={`/products?category=${cat.slug}`}
-                className="group border border-foreground/10 bg-card overflow-hidden hover:border-[#0B2D7F]/30 dark:hover:border-[#D4AF37]/40 hover:shadow-cardHover transition-all duration-300 flex flex-col"
+                className="group rounded-2xl border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 bg-card overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col"
               >
                 {/* Image Container with Zoom */}
                 <div className="relative aspect-[4/5] bg-secondary image-zoom-wrap overflow-hidden">
@@ -73,7 +73,7 @@ export default function CategoriesPage() {
                       'Export-grade handloom apparel tailored for boutique storefronts and resort collections.'}
                   </p>
 
-                  <div className="mt-6 pt-4 border-t border-foreground/10 flex items-center justify-between text-xs uppercase tracking-widerest font-medium text-foreground group-hover:text-[#0B2D7F] dark:group-hover:text-gold transition-colors">
+                  <div className="mt-6 pt-4 flex items-center justify-between text-xs uppercase tracking-widerest font-medium text-foreground group-hover:text-[#0B2D7F] dark:group-hover:text-gold transition-colors">
                     <span>Explore Department</span>
                     <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                   </div>

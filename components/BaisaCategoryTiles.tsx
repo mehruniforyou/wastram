@@ -66,7 +66,7 @@ const CATEGORY_TILES: CategoryTile[] = [
 export default function BaisaCategoryTiles() {
   return (
     <section className="py-12 md:py-16 container-x">
-      <div className="flex items-end justify-between mb-8 pb-3 border-b border-ink-200/60 dark:border-white/10">
+      <div className="flex items-end justify-between mb-8 pb-3">
         <div>
           <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
             CURATED EDITS FROM SANGANER
@@ -91,7 +91,7 @@ export default function BaisaCategoryTiles() {
             href={`/collections/${cat.slug}`}
             className="group flex flex-col focus:outline-none"
           >
-            <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800 shadow-sm border border-neutral-200/50 dark:border-white/5">
+            <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800 shadow-sm group-hover:shadow-xl border border-neutral-200/80 dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-amber-400 group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
               <img
                 src={cat.image}
                 alt={cat.name}

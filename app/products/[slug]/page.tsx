@@ -630,7 +630,7 @@ export default function ProductDetailPage({ params }: Props) {
         {/* ======================================================== */}
         {/* WEAR IT THREE WAYS STYLING ADVICE SECTION               */}
         {/* ======================================================== */}
-        <div className="mt-20 pt-12 border-t border-ink-100 dark:border-white/10">
+        <div className="mt-20 pt-8">
           <div className="max-w-xl mb-8">
             <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
               VERSATILE ATELIER STYLING
@@ -641,7 +641,7 @@ export default function ProductDetailPage({ params }: Props) {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-ink-700 dark:text-neutral-300">
-            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
               <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">01</span>
               <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
                 Minimalist Everyday
@@ -651,7 +651,7 @@ export default function ProductDetailPage({ params }: Props) {
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
               <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">02</span>
               <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
                 Festive Occasion
@@ -661,7 +661,7 @@ export default function ProductDetailPage({ params }: Props) {
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+            <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
               <span className="font-serif text-xl text-[#C5A059] font-light block mb-2">03</span>
               <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-1.5">
                 Contemporary Fusion
@@ -677,8 +677,8 @@ export default function ProductDetailPage({ params }: Props) {
         {/* CROSS-SELLS: "MORE TO DISCOVER"                          */}
         {/* ======================================================== */}
         {relatedProducts.length > 0 && (
-          <div className="mt-20 pt-12 border-t border-ink-100 dark:border-white/10">
-            <div className="flex items-end justify-between mb-8 pb-3 border-b border-ink-100 dark:border-white/5">
+          <div className="mt-20 pt-8">
+            <div className="flex items-end justify-between mb-8 pb-3">
               <div>
                 <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
                   COMPLETE YOUR WARDROBE

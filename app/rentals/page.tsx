@@ -109,7 +109,7 @@ export default function RentalsPage() {
 
         {/* Curated Pieces for Rent */}
         <div className="mb-20">
-          <div className="flex items-end justify-between mb-8 pb-3 border-b border-ink-100 dark:border-white/5">
+          <div className="flex items-end justify-between mb-8 pb-3">
             <div>
               <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
                 POPULAR FOR OCCASIONS
@@ -134,7 +134,7 @@ export default function RentalsPage() {
               return (
                 <div
                   key={p.id}
-                  className="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs flex flex-col justify-between"
+                  className="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between"
                 >
                   <div className="relative aspect-[3/4] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
                     <img
@@ -174,7 +174,7 @@ export default function RentalsPage() {
         </div>
 
         {/* How It Works Section */}
-        <div id="how-it-works" className="py-12 border-t border-ink-100 dark:border-white/5">
+        <div id="how-it-works" className="py-12">
           <div className="text-center max-w-xl mx-auto mb-12">
             <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-medium">
               SEAMLESS 4 STEPS

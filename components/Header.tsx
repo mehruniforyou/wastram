@@ -247,7 +247,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                             href={chap.href}
                             className="group block"
                           >
-                            <div className="relative aspect-[3/4] overflow-hidden rounded-xl border border-[#E7E5E4] dark:border-white/10 bg-[#FFFEFE] shadow-sm">
+                            <div className="relative aspect-[3/4] overflow-hidden rounded-xl border border-[#E7E5E4] dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-amber-400 bg-[#FFFEFE] shadow-sm group-hover:shadow-xl group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
                               <img
                                 src={chap.image}
                                 alt={chap.title}

@@ -41,7 +41,7 @@ export default function ProductFitsGrid() {
   };
 
   return (
-    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-[#FFFEFE] border-t border-[#0B2D7F]/5 relative overflow-hidden">
+    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-[#FFFEFE] relative overflow-hidden">
       <div className="max-w-[1600px] mx-auto flex flex-col gap-10 sm:gap-14">
         {/* Section Header Matching Gulmohar Jaipur */}
         <div className="flex flex-col items-center text-center">

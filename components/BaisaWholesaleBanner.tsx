@@ -51,7 +51,7 @@ export default function BaisaWholesaleBanner() {
           </div>
 
           {/* Quick Perks */}
-          <div className="mt-10 pt-6 border-t border-white/15 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs text-white/70">
+          <div className="mt-10 pt-4 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs text-white/70">
             <div className="flex items-center gap-2">
               <ShieldCheck size={16} className="text-[#D4AF37] shrink-0" />
               <span>MOQ from 20 pieces</span>

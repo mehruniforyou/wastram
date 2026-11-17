@@ -71,8 +71,8 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
       className="group relative flex flex-col bg-transparent transition-all duration-300"
       data-testid={`product-card-${product.slug || product.id}`}
     >
-      {/* 1. 3:4 Portrait Image Container with Hover Zoom & Secondary Cross-fade */}
-      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-[#FFFEFE] border border-[#E7E5E4]/80 dark:border-white/10 shadow-xs">
+      {/* 1. 3:4 Portrait Image Container with Pop-out, Shadow & Blue Border Hover */}
+      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-[#FFFEFE] border border-[#E7E5E4]/80 dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-amber-400 shadow-sm group-hover:shadow-xl group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
         <Link href={`/products/${product.slug}`} className="block w-full h-full">
           {/* Primary Main Image */}
           <img

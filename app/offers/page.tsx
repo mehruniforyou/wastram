@@ -85,7 +85,7 @@ export default function OffersPage() {
       <main className="flex-1 pt-24 md:pt-28 pb-24">
         <div className="container-x">
           {/* Header */}
-          <div className="pt-8 md:pt-12 pb-10 border-b border-foreground/10">
+          <div className="pt-8 md:pt-12 pb-10">
             <div className="eyebrow mb-3">Wholesale Programs</div>
             <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-[0.95] text-foreground">
               Sourcing Slabs &amp; Terms
@@ -101,7 +101,7 @@ export default function OffersPage() {
             {OFFERS.map((offer) => (
               <div
                 key={offer.code}
-                className="border border-foreground/10 p-8 md:p-10 bg-card hover:border-foreground/30 transition-colors flex flex-col justify-between"
+                className="rounded-2xl border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 p-8 md:p-10 bg-card shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between gap-4">
@@ -124,7 +124,7 @@ export default function OffersPage() {
                     {offer.description}
                   </p>
 
-                  <div className="mt-6 pt-6 border-t border-foreground/10 space-y-2.5">
+                  <div className="mt-6 pt-4 space-y-2.5">
                     {offer.perks.map((perk, i) => (
                       <div key={i} className="flex items-start gap-2.5 text-xs text-foreground/80 font-body">
                         <CheckCircle2 size={14} className="text-[#0B2D7F] shrink-0 mt-0.5" />
@@ -134,7 +134,7 @@ export default function OffersPage() {
                   </div>
                 </div>
 
-                <div className="mt-8 pt-6 border-t border-foreground/10">
+                <div className="mt-8 pt-4">
                   <button
                     type="button"
                     onClick={() => handleClaim(offer)}

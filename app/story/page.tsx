@@ -92,8 +92,8 @@ export default function StoryPage() {
         </div>
 
         {/* 3 Pillars */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10 border-t border-ink-100 dark:border-white/5">
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
             <Factory size={24} className="text-[#0B2D7F] dark:text-amber-400 mb-3" />
             <h3 className="font-serif text-lg font-medium text-ink-950 dark:text-white mb-2">
               Pure Natural Fabrics
@@ -103,7 +103,7 @@ export default function StoryPage() {
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
             <Users size={24} className="text-[#0B2D7F] dark:text-amber-400 mb-3" />
             <h3 className="font-serif text-lg font-medium text-ink-950 dark:text-white mb-2">
               True Inclusivity: S to XXL
@@ -113,7 +113,7 @@ export default function StoryPage() {
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
             <Sparkles size={24} className="text-[#C5A059] mb-3" />
             <h3 className="font-serif text-lg font-medium text-ink-950 dark:text-white mb-2">
               Direct Global Air Cargo

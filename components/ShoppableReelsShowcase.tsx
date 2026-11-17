@@ -64,7 +64,7 @@ export default function ShoppableReelsShowcase() {
   };
 
   return (
-    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-white relative overflow-hidden border-t border-[#0B2D7F]/5">
+    <section className="w-full py-16 sm:py-24 px-4 sm:px-6 lg:px-12 bg-white relative overflow-hidden">
       <div className="max-w-[1600px] mx-auto flex flex-col gap-10 sm:gap-14">
         {/* Section Header */}
         <div className="flex flex-col items-center text-center">

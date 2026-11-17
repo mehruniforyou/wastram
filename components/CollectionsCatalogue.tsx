@@ -336,8 +336,8 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         <div ref={sentinelRef} className="h-10 mt-8" />
 
         {/* Bottom Sanganer Buying Advice & Craft Accordions */}
-        <div className="mt-20 pt-12 border-t border-ink-200/80 dark:border-white/10 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs font-sans text-ink-700 dark:text-neutral-300">
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+        <div className="mt-20 pt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs font-sans text-ink-700 dark:text-neutral-300">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
             <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
               Choosing Your Fit (S to XXL)
             </h4>
@@ -346,7 +346,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
             <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
               Sanganer Handblock Care
             </h4>
@@ -355,7 +355,7 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-2xs">
+          <div className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-amber-400 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default">
             <h4 className="font-serif text-base font-medium text-ink-950 dark:text-white mb-2">
               Custom Necklines & Lengths
             </h4>
