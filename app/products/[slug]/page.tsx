@@ -256,12 +256,12 @@ export default function ProductDetailPage({ params }: Props) {
   ).slice(0, 4);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-28 md:pt-32 font-sans selection:bg-[#0B2D7F] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#FFFEFE] dark:bg-[#0E0C0A] text-foreground pt-24 md:pt-28 font-sans selection:bg-[#0B2D7F] selection:text-white">
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
-      <main className="flex-1 container-x py-6 md:py-10">
+      <main className="flex-1 container-x py-4 md:py-6">
         {/* Breadcrumb Navigation */}
-        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs text-ink-500 dark:text-neutral-400 mb-6">
+        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs text-ink-500 dark:text-neutral-400 mb-4">
           <Link href="/" className="hover:text-[#0B2D7F] dark:hover:text-amber-400 transition-colors">
             Home
           </Link>
@@ -279,20 +279,20 @@ export default function ProductDetailPage({ params }: Props) {
         </div>
 
         {/* 2-Column Desktop Grid / 1-Column Mobile */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-start">
           {/* ======================================================== */}
-          {/* LEFT: GALLERY WITH THUMBNAIL STRIP & ARCHED HERO IMAGE   */}
+          {/* LEFT: GALLERY WITH THUMBNAIL STRIP & HERO IMAGE          */}
           {/* ======================================================== */}
-          <div className="lg:col-span-7 flex flex-col-reverse md:flex-row gap-4">
+          <div className="lg:col-span-5 xl:col-span-5 flex flex-col-reverse md:flex-row gap-3 sm:gap-4 items-start">
             {/* Vertical Thumbnail Strip */}
             {images.length > 1 && (
-              <div className="flex md:flex-col gap-3 overflow-x-auto md:overflow-y-auto no-scrollbar md:w-20 shrink-0">
+              <div className="flex md:flex-col gap-2.5 overflow-x-auto md:overflow-y-auto no-scrollbar md:w-16 lg:w-18 shrink-0 max-h-[calc(100vh-190px)]">
                 {images.map((img, idx) => (
                   <button
                     key={idx}
                     type="button"
                     onClick={() => setActiveImageIndex(idx)}
-                    className={`relative w-16 h-20 md:w-20 md:h-24 rounded-xl overflow-hidden border-2 transition-all shrink-0 cursor-pointer ${
+                    className={`relative w-14 h-18 md:w-16 md:h-20 rounded-xl overflow-hidden border-2 transition-all shrink-0 cursor-pointer ${
                       activeImageIndex === idx
                         ? 'border-[#0B2D7F] dark:border-amber-400 shadow-sm'
                         : 'border-transparent hover:border-ink-300 opacity-70 hover:opacity-100'
@@ -308,8 +308,8 @@ export default function ProductDetailPage({ params }: Props) {
               </div>
             )}
 
-            {/* Main Image in Rectangular Frame with Rounded Corners */}
-            <div className="flex-1 relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-md">
+            {/* Main Image in Compact Rectangular Frame with Rounded Corners */}
+            <div className="relative aspect-[3/4] w-full max-w-[340px] sm:max-w-[390px] lg:max-w-[380px] xl:max-w-[420px] max-h-[calc(100vh-190px)] overflow-hidden rounded-2xl bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 shadow-md mx-auto md:mx-0">
               <img
                 src={currentHeroImg}
                 alt={product.title}
@@ -317,13 +317,13 @@ export default function ProductDetailPage({ params }: Props) {
               />
 
               {/* Floating Image Counter */}
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 dark:bg-black/80 backdrop-blur-xs text-ink-900 dark:text-white shadow-2xs">
+              <div className="absolute top-3 right-3 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-white/90 dark:bg-black/80 backdrop-blur-xs text-ink-900 dark:text-white shadow-2xs">
                 {activeImageIndex + 1} / {images.length}
               </div>
 
               {/* Category Provenance Tag */}
-              <div className="absolute top-4 left-4">
-                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-[#0B2D7F]/90 text-white backdrop-blur-xs shadow-2xs">
+              <div className="absolute top-3 left-3">
+                <span className="px-2.5 py-0.5 rounded-full text-[10px] font-medium bg-[#0B2D7F]/90 text-white backdrop-blur-xs shadow-2xs">
                   Sanganer Handblock
                 </span>
               </div>
@@ -333,7 +333,7 @@ export default function ProductDetailPage({ params }: Props) {
           {/* ======================================================== */}
           {/* RIGHT: BUY & CONCIERGE BLOCK (STICKY PINNED)            */}
           {/* ======================================================== */}
-          <div className="lg:col-span-5 sticky top-28 space-y-6">
+          <div className="lg:col-span-7 xl:col-span-7 sticky top-28 space-y-5">
             <div>
               <p className="eyebrow text-xs tracking-[0.2em] uppercase text-[#0B2D7F] dark:text-amber-400 font-semibold mb-1">
                 {product.fabric || '100% PURE HANDLOOM COTTON'}
