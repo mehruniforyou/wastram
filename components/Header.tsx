@@ -151,14 +151,14 @@ export default function Header({ onOpenSearch }: HeaderProps) {
           {/* Official Wastram Wordmark Logo (Shifted to Leftmost with Safe Padding) */}
           <Link
             href="/"
-            className="flex items-center group py-1 pl-1 sm:pl-2"
+            className="flex items-center group py-1 pl-1 sm:pl-2 shrink-0"
             data-testid="nav-logo"
             aria-label="Wastram Home"
           >
             <img
               src="/images/brand/wastram-header-logo-primary.png"
               alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-              className="h-6 sm:h-8 md:h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
+              className="h-8 sm:h-10 md:h-11 lg:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
             />
           </Link>
 
@@ -343,14 +343,14 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             {/* Official Wastram Artisan Logomark (Replaces Theme Selector) */}
             <Link
               href="/"
-              className="p-1.5 flex items-center justify-center transition-transform hover:scale-105 shrink-0"
+              className="p-1 flex items-center justify-center transition-transform hover:scale-105 shrink-0"
               aria-label="Wastram Artisan Hallmark"
               title="Wastram Atelier Hallmark"
             >
               <img
                 src="/images/brand/wastram-artisan-crest.png"
                 alt="Wastram Artisan Logomark"
-                className="h-6 w-6 sm:h-7 sm:w-7 object-contain"
+                className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 lg:h-11 lg:w-11 object-contain"
               />
             </Link>
 
@@ -399,17 +399,17 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 <Link
                   href="/"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="flex items-center gap-2"
+                  className="flex items-center gap-2.5"
                 >
                   <img
                     src="/images/brand/wastram-artisan-crest.png"
                     alt="Wastram"
-                    className="h-7 w-auto object-contain"
+                    className="h-9 w-9 object-contain"
                   />
                   <img
                     src="/images/brand/wastram-header-logo-primary.png"
                     alt="Wastram"
-                    className="h-6 w-auto object-contain"
+                    className="h-8 w-auto object-contain"
                   />
                 </Link>
                 <button
