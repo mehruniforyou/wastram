@@ -30,9 +30,20 @@ export default function Footer() {
 
   return (
     <footer
-      className="relative mt-24 md:mt-32 overflow-hidden text-foreground bg-[#FFFEFE] dark:bg-[#12100E]"
+      className="relative mt-16 md:mt-24 overflow-hidden text-foreground bg-[#FFFEFE] dark:bg-[#12100E]"
       data-testid="site-footer"
     >
+      {/* Rajasthani Heritage Fort Rampart Section Dividing Border (High Quality - Both Mobile & Desktop) */}
+      <div className="w-full relative z-10 overflow-hidden select-none pointer-events-none">
+        <div
+          className="w-full h-8 sm:h-11 md:h-14 lg:h-16 bg-repeat-x bg-bottom"
+          style={{
+            backgroundImage: "url('/images/rajasthan-border-divider-hd.png')",
+            backgroundSize: 'auto 100%',
+          }}
+          aria-hidden="true"
+        />
+      </div>
       {/* Mobile Layout Heritage Illustration (Portrait: 1024x1536 Optimized WebP, 120KB) */}
       <div
         className="block md:hidden absolute inset-0 z-0 bg-cover bg-bottom bg-no-repeat opacity-100 dark:opacity-30 pointer-events-none"
