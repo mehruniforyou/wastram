@@ -1,23 +1,134 @@
 {
   "wd-0001": {
-    "deleted": true,
-    "is_hidden": true,
-    "updatedAt": "2026-11-15T03:16:48.651Z",
-    "id": "wd-0001",
-    "slug": "aria-tiered-flared-maxi-dress-wd-0001",
-    "purged": true,
-    "updated_at": "2026-11-15T03:16:48.651Z"
-  },
-  "aria-tiered-flared-maxi-dress-wd-0001": {
-    "is_hidden": true,
-    "deleted": true,
-    "purged": true,
     "slug": "aria-tiered-flared-maxi-dress-wd-0001",
     "updated_at": "2026-11-15T03:16:48.651Z",
-    "id": "aria-tiered-flared-maxi-dress-wd-0001",
+    "is_hidden": true,
+    "id": "wd-0001",
+    "deleted": true,
+    "purged": true,
     "updatedAt": "2026-11-15T03:16:48.651Z"
   },
+  "aria-tiered-flared-maxi-dress-wd-0001": {
+    "slug": "aria-tiered-flared-maxi-dress-wd-0001",
+    "id": "aria-tiered-flared-maxi-dress-wd-0001",
+    "updatedAt": "2026-11-15T03:16:48.651Z",
+    "purged": true,
+    "deleted": true,
+    "is_hidden": true,
+    "updated_at": "2026-11-15T03:16:48.651Z"
+  },
   "wd-0002": {
+    "short_desc": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
+    "updatedAt": "2026-11-17T11:14:39.833Z",
+    "gallery": [
+      "/western-dresses/1806.jpg.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "tags": [],
+    "wholesaleEnquiryStatus": "Available for Bulk & Wholesale Orders",
+    "long_desc": "<p>The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.</p>",
+    "featured_image": "/western-dresses/1806.jpg.jpeg",
+    "description": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
+    "ohm": null,
+    "isHomeSpecial": false,
+    "originalSlug": "sienna-embroidered-shirtdress",
+    "freeShipping": true,
+    "isFeatured": true,
+    "spule_durchmesser": null,
+    "galleryImages": [
+      {
+        "url": "/western-dresses/1806.jpg.jpeg",
+        "caption": "Sienna Embroidered Shirtdress"
+      }
+    ],
+    "seoDescription": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
+    "inStock": true,
+    "badge": "POPULAR",
+    "categorySlug": "western-dresses",
+    "technical_specs": {
+      "Fabric": "Lustrous Crepe Georgette",
+      "Export Pack": "Individually poly-bagged master carton",
+      "SKU": "WST-WD-0002",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "XS, S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Silhouette": "Jaipur Heritage"
+    },
+    "stock": 50,
+    "category_name": "Western Dresses",
+    "regularPrice": 0,
+    "category_slug": "western-dresses",
+    "seo_meta": {
+      "hide_price": false,
+      "badge_text": "POPULAR",
+      "title": "",
+      "description": "",
+      "speaker_compatibility": null
+    },
+    "seoTitle": "Sienna Embroidered Shirtdress - Wastram Wholesale",
+    "applications": null,
+    "tag": "POPULAR",
+    "is_featured": false,
+    "category": "Western Dresses",
+    "is_hidden": true,
+    "mainImage": "/western-dresses/1806.jpg.jpeg",
+    "stockQty": 50,
+    "salePrice": 0,
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "craft": null,
+    "sku": "WST-WD-0002",
+    "fitsModels": null,
+    "images": [
+      {
+        "sort_order": 0,
+        "is_featured": true,
+        "alt_text": "Sienna Embroidered Shirtdress",
+        "id": "img-wd-0002-0",
+        "url": "/western-dresses/1806.jpg.jpeg"
+      }
+    ],
+    "deleted": true,
+    "sort_order": 0,
+    "name": "Sienna Embroidered Shirtdress",
+    "purged": true,
+    "rating": 4.9,
+    "colorVariants": [],
+    "shipping_rates": null,
+    "partNumber": "WST-WD-0002",
+    "price": 0,
+    "variants": [
+      {
+        "name": "Peach Coral",
+        "images": [
+          "/western-dresses/1806.jpg.jpeg"
+        ],
+        "id": "var-1",
+        "colorCode": "#FB923C"
+      }
+    ],
+    "image": "/western-dresses/1806.jpg.jpeg",
+    "title": "Sienna Embroidered Shirtdress",
+    "brand": "Wastram Atelier",
+    "fabric": "Lustrous Crepe Georgette",
+    "id": "wd-0002",
+    "reviewCount": 20,
+    "faqs": [],
+    "downloads": [],
+    "aliasSlugs": [
+      "product-wd-0002",
+      "sienna-embroidered-shirtdress-wd-0002",
+      "WST-WD-0002",
+      "wd-0002",
+      "sienna-embroidered-shirtdress",
+      "sienna-embroidered-shirtdress"
+    ],
+    "shortDescription": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
     "exportMarkets": [
       "United Kingdom",
       "North America",
@@ -25,20 +136,167 @@
       "Middle East",
       "Australia"
     ],
-    "freeShipping": true,
-    "ohm": null,
-    "long_desc": "<p>The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.</p>",
-    "spule_durchmesser": null,
+    "updated_at": "2026-11-17T11:14:39.833Z",
+    "categoryName": "Western Dresses",
+    "descriptionHtml": "<p>The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.</p>",
+    "category_id": "western-dresses",
+    "categoryId": "western-dresses",
+    "slug": "sienna-embroidered-shirtdress"
+  },
+  "tg-0001": {
+    "sku": "WST-TG-0001",
+    "id": "tg-0001",
+    "category": "traditional-gowns",
+    "shortDescription": "Export-grade flared floor-length Anarkali gown tailored in premium georgette and silk.",
+    "deleted": false,
+    "title": "Aria Anarkali Flared Floor-Length Gown",
+    "inStock": true,
+    "regularPrice": 0,
+    "slug": "aria-anarkali-flared-floor-length-gown-tg-0001",
+    "is_hidden": false,
+    "purged": false,
+    "price": 0,
+    "category_id": "traditional-gowns",
+    "category_slug": "traditional-gowns",
+    "updated_at": "2026-11-15T06:43:16.921Z",
+    "partNumber": "WST-TG-0001",
+    "name": "Aria Anarkali Flared Floor-Length Gown",
+    "salePrice": 0,
+    "category_name": "Traditional Gowns"
+  },
+  "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002": {
+    "slug": "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002",
+    "purged": true,
+    "name": "Sienna Tiered A-Line Washed Denim Midi Dress",
+    "deleted": true,
+    "partNumber": "WST-DNM-0002",
+    "updated_at": "2026-11-17T04:49:37.441Z",
+    "updatedAt": "2026-11-17T04:49:37.441Z",
+    "is_hidden": true,
+    "id": "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002"
+  },
+  "dnm-0001": {
+    "slug": "aria-floral-embroidered-denim-shirt-dress-dnm-0001",
+    "purged": true,
+    "name": "Aria Floral Embroidered Denim Shirt Dress",
+    "deleted": true,
+    "id": "dnm-0001",
+    "is_hidden": true,
+    "updated_at": "2026-11-17T04:49:11.471Z",
+    "partNumber": "WST-DNM-0001",
+    "updatedAt": "2026-11-17T04:49:11.471Z"
+  },
+  "dnm-0002": {
+    "name": "Sienna Tiered A-Line Washed Denim Midi Dress",
+    "deleted": true,
+    "purged": true,
+    "slug": "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002",
+    "id": "dnm-0002",
+    "is_hidden": true,
+    "updatedAt": "2026-11-17T04:49:37.441Z",
+    "partNumber": "WST-DNM-0002",
+    "updated_at": "2026-11-17T04:49:37.441Z"
+  },
+  "aria-floral-embroidered-denim-shirt-dress-dnm-0001": {
+    "updatedAt": "2026-11-17T04:49:18.952Z",
+    "id": "aria-floral-embroidered-denim-shirt-dress-dnm-0001",
+    "purged": true,
+    "is_hidden": true,
+    "name": "Aria Floral Embroidered Denim Shirt Dress",
+    "deleted": true,
+    "slug": "aria-floral-embroidered-denim-shirt-dress-dnm-0001",
+    "partNumber": "WST-DNM-0001",
+    "updated_at": "2026-11-17T04:49:18.952Z"
+  },
+  "sienna-embroidered-shirtdress": {
+    "faqs": [],
+    "seoDescription": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
+    "craft": null,
+    "categorySlug": "western-dresses",
+    "regularPrice": 0,
+    "downloads": [],
+    "applications": null,
+    "slug": "sienna-embroidered-shirtdress",
+    "technical_specs": {
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Silhouette": "Jaipur Heritage",
+      "Origin": "Jaipur Atelier, India",
+      "SKU": "WST-WD-0002",
+      "Fabric": "Lustrous Crepe Georgette",
+      "Export Pack": "Individually poly-bagged master carton",
+      "Sizes": "XS, S, M, L, XL, XXL"
+    },
     "gallery": [
       "/western-dresses/1806.jpg.jpeg"
     ],
-    "image": "/western-dresses/1806.jpg.jpeg",
-    "isHomeSpecial": false,
     "featured_image": "/western-dresses/1806.jpg.jpeg",
-    "regularPrice": 0,
-    "categorySlug": "western-dresses",
-    "shipping_rates": null,
+    "category_name": "Western Dresses",
     "badge": "POPULAR",
+    "stock": 50,
+    "category_slug": "western-dresses",
+    "isFeatured": true,
+    "sku": "WST-WD-0002",
+    "id": "sienna-embroidered-shirtdress",
+    "galleryImages": [
+      {
+        "url": "/western-dresses/1806.jpg.jpeg",
+        "caption": "Sienna Embroidered Shirtdress"
+      }
+    ],
+    "isHomeSpecial": false,
+    "seo_meta": {
+      "description": "",
+      "title": "",
+      "badge_text": "POPULAR",
+      "speaker_compatibility": null,
+      "hide_price": false
+    },
+    "seoTitle": "Sienna Embroidered Shirtdress - Wastram Wholesale",
+    "stockQty": 50,
+    "inStock": true,
+    "freeShipping": true,
+    "category_id": "western-dresses",
+    "category": "Western Dresses",
+    "name": "Sienna Embroidered Shirtdress",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "reviewCount": 20,
+    "originalSlug": "sienna-embroidered-shirtdress",
+    "short_desc": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
+    "exportMarkets": [
+      "United Kingdom",
+      "North America",
+      "Europe",
+      "Middle East",
+      "Australia"
+    ],
+    "description": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
+    "categoryId": "western-dresses",
+    "tag": "POPULAR",
+    "updated_at": "2026-11-17T11:14:39.833Z",
+    "shipping_rates": null,
+    "salePrice": 0,
+    "aliasSlugs": [
+      "product-wd-0002",
+      "sienna-embroidered-shirtdress-wd-0002",
+      "WST-WD-0002",
+      "wd-0002",
+      "sienna-embroidered-shirtdress",
+      "sienna-embroidered-shirtdress"
+    ],
+    "is_hidden": true,
+    "mainImage": "/western-dresses/1806.jpg.jpeg",
+    "spule_durchmesser": null,
+    "descriptionHtml": "<p>The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.</p>",
+    "fabric": "Lustrous Crepe Georgette",
+    "deleted": true,
+    "brand": "Wastram Atelier",
+    "categoryName": "Western Dresses",
     "variants": [
       {
         "id": "var-1",
@@ -49,304 +307,34 @@
         ]
       }
     ],
-    "id": "wd-0002",
-    "sort_order": 0,
-    "price": 0,
-    "downloads": [],
-    "category_name": "Western Dresses",
-    "wholesaleEnquiryStatus": "Available for Bulk & Wholesale Orders",
-    "categoryId": "western-dresses",
-    "faqs": [],
-    "stock": 50,
-    "tag": "POPULAR",
-    "seoTitle": "Sienna Embroidered Shirtdress - Wastram Wholesale",
-    "fitsModels": null,
-    "updatedAt": "2026-11-17T11:14:39.833Z",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "brand": "Wastram Atelier",
-    "stockQty": 50,
-    "deleted": true,
-    "short_desc": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "category_id": "western-dresses",
-    "name": "Sienna Embroidered Shirtdress",
-    "images": [
-      {
-        "sort_order": 0,
-        "alt_text": "Sienna Embroidered Shirtdress",
-        "url": "/western-dresses/1806.jpg.jpeg",
-        "id": "img-wd-0002-0",
-        "is_featured": true
-      }
-    ],
-    "categoryName": "Western Dresses",
-    "mainImage": "/western-dresses/1806.jpg.jpeg",
-    "applications": null,
-    "title": "Sienna Embroidered Shirtdress",
-    "descriptionHtml": "<p>The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.</p>",
-    "inStock": true,
     "shortDescription": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "galleryImages": [
-      {
-        "url": "/western-dresses/1806.jpg.jpeg",
-        "caption": "Sienna Embroidered Shirtdress"
-      }
-    ],
-    "purged": true,
-    "isFeatured": true,
-    "craft": null,
-    "seo_meta": {
-      "hide_price": false,
-      "title": "",
-      "badge_text": "POPULAR",
-      "description": "",
-      "speaker_compatibility": null
-    },
-    "aliasSlugs": [
-      "product-wd-0002",
-      "sienna-embroidered-shirtdress-wd-0002",
-      "WST-WD-0002",
-      "wd-0002",
-      "sienna-embroidered-shirtdress",
-      "sienna-embroidered-shirtdress"
-    ],
-    "category": "Western Dresses",
-    "reviewCount": 20,
-    "is_hidden": true,
-    "technical_specs": {
-      "Sizes": "XS, S, M, L, XL, XXL",
-      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
-      "Origin": "Jaipur Atelier, India",
-      "SKU": "WST-WD-0002",
-      "Export Pack": "Individually poly-bagged master carton",
-      "Fabric": "Lustrous Crepe Georgette",
-      "Silhouette": "Jaipur Heritage"
-    },
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "seoDescription": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "rating": 4.9,
-    "originalSlug": "sienna-embroidered-shirtdress",
-    "description": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "partNumber": "WST-WD-0002",
-    "salePrice": 0,
-    "fabric": "Lustrous Crepe Georgette",
-    "category_slug": "western-dresses",
-    "updated_at": "2026-11-17T11:14:39.833Z",
-    "colorVariants": [],
-    "is_featured": false,
-    "tags": [],
-    "slug": "sienna-embroidered-shirtdress",
-    "sku": "WST-WD-0002"
-  },
-  "tg-0001": {
-    "shortDescription": "Export-grade flared floor-length Anarkali gown tailored in premium georgette and silk.",
-    "salePrice": 0,
-    "id": "tg-0001",
-    "category_slug": "traditional-gowns",
-    "category": "traditional-gowns",
-    "updated_at": "2026-11-15T06:43:16.921Z",
-    "regularPrice": 0,
-    "inStock": true,
-    "slug": "aria-anarkali-flared-floor-length-gown-tg-0001",
-    "price": 0,
-    "name": "Aria Anarkali Flared Floor-Length Gown",
-    "sku": "WST-TG-0001",
-    "deleted": false,
-    "is_hidden": false,
-    "category_name": "Traditional Gowns",
-    "partNumber": "WST-TG-0001",
-    "title": "Aria Anarkali Flared Floor-Length Gown",
-    "purged": false,
-    "category_id": "traditional-gowns"
-  },
-  "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002": {
-    "updated_at": "2026-11-17T04:49:37.441Z",
-    "is_hidden": true,
-    "slug": "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002",
-    "id": "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002",
-    "name": "Sienna Tiered A-Line Washed Denim Midi Dress",
-    "purged": true,
-    "deleted": true,
-    "updatedAt": "2026-11-17T04:49:37.441Z",
-    "partNumber": "WST-DNM-0002"
-  },
-  "dnm-0001": {
-    "is_hidden": true,
-    "updated_at": "2026-11-17T04:49:11.471Z",
-    "purged": true,
-    "slug": "aria-floral-embroidered-denim-shirt-dress-dnm-0001",
-    "partNumber": "WST-DNM-0001",
-    "id": "dnm-0001",
-    "name": "Aria Floral Embroidered Denim Shirt Dress",
-    "updatedAt": "2026-11-17T04:49:11.471Z",
-    "deleted": true
-  },
-  "dnm-0002": {
-    "partNumber": "WST-DNM-0002",
-    "purged": true,
-    "deleted": true,
-    "is_hidden": true,
-    "updatedAt": "2026-11-17T04:49:37.441Z",
-    "id": "dnm-0002",
-    "name": "Sienna Tiered A-Line Washed Denim Midi Dress",
-    "slug": "sienna-tiered-a-line-washed-denim-midi-dress-dnm-0002",
-    "updated_at": "2026-11-17T04:49:37.441Z"
-  },
-  "aria-floral-embroidered-denim-shirt-dress-dnm-0001": {
-    "is_hidden": true,
-    "slug": "aria-floral-embroidered-denim-shirt-dress-dnm-0001",
-    "name": "Aria Floral Embroidered Denim Shirt Dress",
-    "purged": true,
-    "updated_at": "2026-11-17T04:49:18.952Z",
-    "deleted": true,
-    "id": "aria-floral-embroidered-denim-shirt-dress-dnm-0001",
-    "partNumber": "WST-DNM-0001",
-    "updatedAt": "2026-11-17T04:49:18.952Z"
-  },
-  "sienna-embroidered-shirtdress": {
-    "short_desc": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "shortDescription": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "variants": [
-      {
-        "name": "Peach Coral",
-        "colorCode": "#FB923C",
-        "images": [
-          "/western-dresses/1806.jpg.jpeg"
-        ],
-        "id": "var-1"
-      }
-    ],
-    "purged": true,
-    "craft": null,
-    "freeShipping": true,
-    "sku": "WST-WD-0002",
-    "fitsModels": null,
     "title": "Sienna Embroidered Shirtdress",
-    "regularPrice": 0,
-    "category_id": "western-dresses",
-    "category_name": "Western Dresses",
-    "categorySlug": "western-dresses",
-    "inStock": true,
-    "categoryId": "western-dresses",
-    "salePrice": 0,
-    "stockQty": 50,
-    "fabric": "Lustrous Crepe Georgette",
-    "sort_order": 0,
-    "is_hidden": true,
-    "rating": 4.9,
-    "tags": [],
-    "slug": "sienna-embroidered-shirtdress",
-    "mainImage": "/western-dresses/1806.jpg.jpeg",
-    "featured_image": "/western-dresses/1806.jpg.jpeg",
-    "id": "sienna-embroidered-shirtdress",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "isHomeSpecial": false,
-    "exportMarkets": [
-      "United Kingdom",
-      "North America",
-      "Europe",
-      "Middle East",
-      "Australia"
-    ],
-    "shipping_rates": null,
-    "seoTitle": "Sienna Embroidered Shirtdress - Wastram Wholesale",
-    "tag": "POPULAR",
-    "price": 0,
-    "updatedAt": "2026-11-17T11:14:39.833Z",
-    "technical_specs": {
-      "Export Pack": "Individually poly-bagged master carton",
-      "Fabric": "Lustrous Crepe Georgette",
-      "Silhouette": "Jaipur Heritage",
-      "Sizes": "XS, S, M, L, XL, XXL",
-      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
-      "Origin": "Jaipur Atelier, India",
-      "SKU": "WST-WD-0002"
-    },
-    "colorVariants": [],
-    "seo_meta": {
-      "title": "",
-      "speaker_compatibility": null,
-      "description": "",
-      "hide_price": false,
-      "badge_text": "POPULAR"
-    },
-    "category": "Western Dresses",
-    "updated_at": "2026-11-17T11:14:39.833Z",
-    "description": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "category_slug": "western-dresses",
-    "badge": "POPULAR",
-    "categoryName": "Western Dresses",
-    "seoDescription": "The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.",
-    "applications": null,
-    "gallery": [
-      "/western-dresses/1806.jpg.jpeg"
-    ],
-    "partNumber": "WST-WD-0002",
     "image": "/western-dresses/1806.jpg.jpeg",
     "moq": "20 pcs / Flexible Wholesale Pack",
     "is_featured": false,
-    "aliasSlugs": [
-      "product-wd-0002",
-      "sienna-embroidered-shirtdress-wd-0002",
-      "WST-WD-0002",
-      "wd-0002",
-      "sienna-embroidered-shirtdress",
-      "sienna-embroidered-shirtdress"
-    ],
-    "faqs": [],
-    "deleted": true,
-    "descriptionHtml": "<p>The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.</p>",
+    "partNumber": "WST-WD-0002",
+    "price": 0,
     "images": [
       {
-        "sort_order": 0,
+        "is_featured": true,
         "url": "/western-dresses/1806.jpg.jpeg",
         "id": "img-wd-0002-0",
-        "is_featured": true,
-        "alt_text": "Sienna Embroidered Shirtdress"
+        "alt_text": "Sienna Embroidered Shirtdress",
+        "sort_order": 0
       }
     ],
-    "brand": "Wastram Atelier",
-    "spule_durchmesser": null,
-    "isFeatured": true,
+    "rating": 4.9,
+    "colorVariants": [],
+    "purged": true,
     "ohm": null,
-    "galleryImages": [
-      {
-        "caption": "Sienna Embroidered Shirtdress",
-        "url": "/western-dresses/1806.jpg.jpeg"
-      }
-    ],
-    "downloads": [],
+    "tags": [],
     "long_desc": "<p>The Sienna Embroidered Shirtdress (WST-WD-0002) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Lustrous Crepe Georgette craftsmanship suited for global boutiques.</p>",
-    "stock": 50,
-    "name": "Sienna Embroidered Shirtdress",
+    "sort_order": 0,
     "wholesaleEnquiryStatus": "Available for Bulk & Wholesale Orders",
-    "reviewCount": 20,
-    "originalSlug": "sienna-embroidered-shirtdress"
+    "updatedAt": "2026-11-17T11:14:39.833Z",
+    "fitsModels": null
   },
   "wd-0005": {
-    "tag": "POPULAR",
-    "category": "Western Dresses",
-    "sort_order": 0,
-    "seo_meta": {
-      "speaker_compatibility": null,
-      "title": "",
-      "description": "",
-      "hide_price": false,
-      "badge_text": "POPULAR"
-    },
-    "spule_durchmesser": null,
-    "shortDescription": "The Isla Pleated Wrap Midi Dress (WST-WD-0005) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Fine Chanderi Silk with Voile Lining craftsmanship suited for global boutiques.",
     "gallery": [
       "/western-dresses/5488.jpg.jpeg",
       "/western-dresses/5487.jpg.jpeg",
@@ -357,8 +345,34 @@
       "/western-dresses/5497.jpg.jpeg",
       "/western-dresses/5498.jpg.jpeg"
     ],
-    "is_hidden": false,
+    "brand": "Wastram Atelier",
+    "salePrice": 1899,
+    "shipping_rates": null,
+    "ohm": null,
     "id": "wd-0005",
+    "category_slug": "western-dresses",
+    "is_hidden": false,
+    "category_name": "Western Dresses",
+    "originalSlug": "isla-pleated-wrap-midi-dress-wd-0005",
+    "featured_image": "/western-dresses/5488.jpg.jpeg",
+    "craft": null,
+    "tags": [],
+    "name": "Isla Pleated Wrap Midi Dress",
+    "updated_at": "2026-11-17T11:21:07.616Z",
+    "sort_order": 0,
+    "applications": null,
+    "regularPrice": 2499,
+    "short_desc": "The Isla Pleated Wrap Midi Dress (WST-WD-0005) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Fine Chanderi Silk with Voile Lining craftsmanship suited for global boutiques.",
+    "fitsModels": null,
+    "seo_meta": {
+      "description": "",
+      "hide_price": false,
+      "speaker_compatibility": null,
+      "badge_text": "POPULAR",
+      "title": ""
+    },
+    "fabric": "Fine Chanderi Silk with Voile Lining",
+    "category_id": "western-dresses",
     "sizes": [
       "S",
       "M",
@@ -366,45 +380,27 @@
       "XL",
       "XXL"
     ],
-    "name": "Isla Pleated Wrap Midi Dress",
-    "tags": [],
-    "slug": "isla-pleated-wrap-midi-dress",
-    "originalSlug": "isla-pleated-wrap-midi-dress-wd-0005",
-    "long_desc": "<p>The Isla Pleated Wrap Midi Dress (WST-WD-0005) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Fine Chanderi Silk with Voile Lining craftsmanship suited for global boutiques.</p>",
-    "brand": "Wastram Atelier",
+    "spule_durchmesser": null,
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "category_id": "western-dresses",
-    "fabric": "Fine Chanderi Silk with Voile Lining",
-    "is_featured": false,
-    "updated_at": "2026-11-17T11:21:07.616Z",
+    "slug": "isla-pleated-wrap-midi-dress",
+    "long_desc": "<p>The Isla Pleated Wrap Midi Dress (WST-WD-0005) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Fine Chanderi Silk with Voile Lining craftsmanship suited for global boutiques.</p>",
+    "tag": "POPULAR",
+    "category": "Western Dresses",
+    "price": 1899,
+    "shortDescription": "The Isla Pleated Wrap Midi Dress (WST-WD-0005) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Fine Chanderi Silk with Voile Lining craftsmanship suited for global boutiques.",
     "technical_specs": {
-      "Export Pack": "Individually poly-bagged master carton",
+      "Origin": "Jaipur Atelier, India",
+      "Sizes": "XS, S, M, L, XL, XXL",
+      "Silhouette": "Pure Artisan Weave",
+      "SKU": "WST-WD-0005",
       "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
       "Fabric": "Fine Chanderi Silk with Voile Lining",
-      "SKU": "WST-WD-0005",
-      "Origin": "Jaipur Atelier, India",
-      "Silhouette": "Pure Artisan Weave",
-      "Sizes": "XS, S, M, L, XL, XXL"
+      "Export Pack": "Individually poly-bagged master carton"
     },
     "updatedAt": "2026-11-17T11:21:07.616Z",
-    "category_name": "Western Dresses",
-    "short_desc": "The Isla Pleated Wrap Midi Dress (WST-WD-0005) is an export-grade silhouette from Wastram's premier WESTERN DRESSES wholesale catalogue. Featuring 1 signature colorway with refined tailoring, reinforced seams, and premium Fine Chanderi Silk with Voile Lining craftsmanship suited for global boutiques.",
-    "ohm": null,
-    "price": 1899,
-    "featured_image": "/western-dresses/5488.jpg.jpeg",
-    "regularPrice": 2499,
-    "category_slug": "western-dresses",
-    "salePrice": 1899,
-    "applications": null,
-    "craft": null,
-    "shipping_rates": null,
-    "fitsModels": null,
-    "partNumber": "WST-WD-0005",
     "colorVariants": [
       {
-        "colorCode": "#EA580C",
         "name": "Spiced Tangerine",
-        "id": "var-1",
         "images": [
           "/western-dresses/5487.jpg.jpeg",
           "/western-dresses/5488.jpg.jpeg",
@@ -414,8 +410,12 @@
           "/western-dresses/5496.jpg.jpeg",
           "/western-dresses/5497.jpg.jpeg",
           "/western-dresses/5498.jpg.jpeg"
-        ]
+        ],
+        "id": "var-1",
+        "colorCode": "#EA580C"
       }
-    ]
+    ],
+    "partNumber": "WST-WD-0005",
+    "is_featured": false
   }
 }

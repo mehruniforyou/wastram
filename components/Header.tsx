@@ -226,8 +226,12 @@ export default function Header({ onOpenSearch }: HeaderProps) {
           </div>
         </div>
 
-        {/* 2. Main Navigation Bar with Symmetric Mobile Layout */}
-        <div className="container-x relative flex items-center justify-between h-16 md:h-20">
+        {/* 2. Main Navigation Bar with Symmetric Mobile Layout & Smooth Scroll Contraction */}
+        <div
+          className={`container-x relative flex items-center justify-between transition-all duration-500 ease-out ${
+            isScrolled ? 'h-14 md:h-18' : 'h-18 sm:h-20 md:h-24'
+          }`}
+        >
           {/* Mobile Left Controls: Menu Toggle + Search (Balances Right Crest + Cart) */}
           <div className="flex items-center md:hidden gap-1 -ml-2">
             <button
@@ -251,7 +255,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             </button>
           </div>
 
-          {/* Official Wastram Wordmark Logo (Mathematically Centered on Mobile, Left-Aligned on Desktop) */}
+          {/* Official Wastram Wordmark Logo (Mathematically Centered on Mobile, Left-Aligned on Desktop with Smooth Size Reducing Animation) */}
           <Link
             href="/"
             className="md:static absolute left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 flex items-center group py-1 shrink-0 z-10"
@@ -261,7 +265,11 @@ export default function Header({ onOpenSearch }: HeaderProps) {
             <img
               src="/images/brand/wastram-header-logo-primary.png"
               alt="Wastram - Authentic Indian Textiles & Contemporary Fashion"
-              className="h-7 sm:h-9 md:h-11 lg:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-102"
+              className={`w-auto object-contain transition-all duration-500 ease-out will-change-transform origin-center md:origin-left group-hover:scale-102 ${
+                isScrolled
+                  ? 'h-7 sm:h-8 md:h-10 lg:h-11'
+                  : 'h-9 sm:h-10 md:h-14 lg:h-16'
+              }`}
             />
           </Link>
 
@@ -296,7 +304,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               {isMegaMenuOpen && (
                 <div
                   className={`fixed left-0 ${
-                    isScrolled ? 'top-16 md:top-20' : 'top-[100px] md:top-[112px]'
+                    isScrolled ? 'top-14 md:top-18' : 'top-[104px] md:top-[128px]'
                   } w-screen bg-[#FFFEFE] dark:bg-[#161412] border-b border-t border-[#E7E5E4] dark:border-white/10 shadow-elevated transition-all duration-200 z-50 animate-in fade-in slide-in-from-top-1`}
                   onMouseEnter={() => setIsMegaMenuOpen(true)}
                   onMouseLeave={() => setIsMegaMenuOpen(false)}

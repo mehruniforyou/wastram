@@ -1,25 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import { Plus, Trash2, Edit2, Check, X, Upload, Palette, Image as ImageIcon, Loader2 } from "lucide-react";
+import { Plus, Trash2, Edit2, Check, X, Upload, Layers, Image as ImageIcon, Loader2 } from "lucide-react";
 import { ColorVariant } from "@/data/products";
 import { adminFetch } from "../AdminClientPage";
 import { optimizeImageFile } from "@/lib/imageOptimizer";
-
-export const JAIPUR_COLOR_PRESETS = [
-  { name: "Wine Maroon", code: "#800020" },
-  { name: "Jaipur Indigo", code: "#1B2A4A" },
-  { name: "Emerald Green", code: "#004D40" },
-  { name: "Mustard Gold", code: "#D4AF37" },
-  { name: "Coral Peach", code: "#F88379" },
-  { name: "Rani Pink", code: "#C2185B" },
-  { name: "Midnight Black", code: "#1A1A1A" },
-  { name: "Ivory Pearl", code: "#FDFBF7" },
-  { name: "Sage Olive", code: "#556B2F" },
-  { name: "Terracotta Rust", code: "#B7410E" },
-  { name: "Teal Peacock", code: "#008080" },
-  { name: "Powder Blue", code: "#B0C4DE" },
-];
 
 interface ColorVariantManagerProps {
   variants: ColorVariant[];
@@ -35,7 +20,6 @@ export default function ColorVariantManager({
   const [isEditing, setIsEditing] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [variantName, setVariantName] = useState("");
-  const [variantColorCode, setVariantColorCode] = useState("#800020");
   const [variantImages, setVariantImages] = useState<string[]>([]);
   const [isUploading, setIsUploading] = useState(false);
   const [directUrl, setDirectUrl] = useState("");
@@ -43,8 +27,7 @@ export default function ColorVariantManager({
 
   const startCreate = () => {
     setEditingId(null);
-    setVariantName("");
-    setVariantColorCode("#800020");
+    setVariantName(`Styling ${variants.length + 1}`);
     setVariantImages([]);
     setDirectUrl("");
     setErrorMsg("");
@@ -54,7 +37,6 @@ export default function ColorVariantManager({
   const startEdit = (v: ColorVariant) => {
     setEditingId(v.id);
     setVariantName(v.name);
-    setVariantColorCode(v.colorCode || "#800020");
     setVariantImages(Array.isArray(v.images) ? [...v.images] : []);
     setDirectUrl("");
     setErrorMsg("");
@@ -64,7 +46,7 @@ export default function ColorVariantManager({
   const handleSave = () => {
     const trimmedName = variantName.trim();
     if (!trimmedName) {
-      setErrorMsg("Please enter a colorway name (e.g. Royal Wine Maroon).");
+      setErrorMsg("Please enter a variant / styling name (e.g. Styling 1, Look 2).");
       return;
     }
 
@@ -72,7 +54,7 @@ export default function ColorVariantManager({
     const newVariant: ColorVariant = {
       id: currentId,
       name: trimmedName,
-      colorCode: variantColorCode || "#1A1A1A",
+      colorCode: "", // No colorways needed - purely image sets
       images: variantImages,
     };
 
@@ -89,7 +71,7 @@ export default function ColorVariantManager({
   };
 
   const handleDelete = (id: string, name: string) => {
-    if (confirm(`Remove the "${name}" colorway variant?`)) {
+    if (confirm(`Remove the "${name}" styling variant?`)) {
       const updated = variants.filter((v) => v.id !== id);
       onChange(updated);
     }
@@ -126,37 +108,34 @@ export default function ColorVariantManager({
       <div className="flex items-center justify-between pb-2 border-b border-neutral-100">
         <div>
           <div className="flex items-center gap-2">
-            <Palette className="w-4 h-4 text-black stroke-[2]" />
+            <Layers className="w-4 h-4 text-[#0B2D7F] stroke-[2]" />
             <h4 className="text-xs font-heading font-black text-black uppercase tracking-wider">
-              Colorway Variants ({variants.length})
+              Styling Variants ({variants.length})
             </h4>
           </div>
           <p className="text-[11px] text-neutral-500 font-medium mt-0.5">
-            Add multiple color choices. Customers can click color swatches on the live store to switch photos.
+            Add different photoshoot sets (e.g. 3 photos for Styling 1, 4 photos for Styling 2). On the product page, customers can click &ldquo;More Stylings...&rdquo; to switch between image sets.
           </p>
         </div>
         {!isEditing && (
           <button
             type="button"
             onClick={startCreate}
-            className="px-3.5 py-1.5 bg-black hover:bg-neutral-800 text-white text-[11px] font-heading font-bold uppercase tracking-wider rounded-xl transition-all cursor-pointer flex items-center gap-1.5 shadow-xs"
+            className="px-3.5 py-1.5 bg-[#0B2D7F] hover:bg-[#071F59] text-white text-[11px] font-heading font-bold uppercase tracking-wider rounded-xl transition-all cursor-pointer flex items-center gap-1.5 shadow-xs"
           >
             <Plus className="w-3.5 h-3.5 stroke-[2.5]" />
-            <span>Add Colorway</span>
+            <span>Add Variant</span>
           </button>
         )}
       </div>
 
       {/* Editor Card */}
       {isEditing && (
-        <div className="p-4 rounded-2xl bg-neutral-50 border-2 border-black space-y-4 animate-fade-in">
+        <div className="p-4 rounded-2xl bg-neutral-50 border-2 border-[#0B2D7F] space-y-4 animate-fade-in">
           <div className="flex items-center justify-between pb-2 border-b border-neutral-200">
             <span className="text-xs font-heading font-black text-black uppercase tracking-wider flex items-center gap-2">
-              <span
-                className="w-4 h-4 rounded-full border border-neutral-300 shadow-xs inline-block"
-                style={{ backgroundColor: variantColorCode }}
-              />
-              {editingId ? "Edit Colorway" : "Create New Colorway"}
+              <Layers className="w-4 h-4 text-[#0B2D7F]" />
+              {editingId ? "Edit Styling Variant" : "Create New Styling Variant"}
             </span>
             <button
               type="button"
@@ -167,86 +146,34 @@ export default function ColorVariantManager({
             </button>
           </div>
 
-          {/* Colorway Name & Hex Picker */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div>
-              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
-                Color Name *
-              </label>
-              <input
-                type="text"
-                value={variantName}
-                onChange={(e) => {
-                  setVariantName(e.target.value);
-                  setErrorMsg("");
-                }}
-                placeholder="e.g. Royal Wine Maroon, Emerald Green"
-                className="w-full bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-3 py-2 text-xs text-black font-medium outline-none transition-colors"
-              />
-            </div>
-
-            <div>
-              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
-                Color Swatch / Hex Code
-              </label>
-              <div className="flex items-center gap-2">
-                <input
-                  type="color"
-                  value={variantColorCode}
-                  onChange={(e) => setVariantColorCode(e.target.value)}
-                  className="w-9 h-9 p-0.5 rounded-xl border-2 border-neutral-300 bg-white cursor-pointer"
-                />
-                <input
-                  type="text"
-                  value={variantColorCode}
-                  onChange={(e) => setVariantColorCode(e.target.value)}
-                  placeholder="#800020"
-                  className="flex-1 bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-3 py-2 text-xs text-black font-mono font-bold outline-none transition-colors uppercase"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Quick Presets */}
+          {/* Variant / Styling Name */}
           <div>
-            <label className="block text-[10px] font-heading font-bold text-neutral-500 uppercase tracking-wider mb-1.5">
-              Quick Jaipuri Palette Presets:
+            <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
+              Styling Variant Name *
             </label>
-            <div className="flex flex-wrap gap-1.5">
-              {JAIPUR_COLOR_PRESETS.map((preset) => (
-                <button
-                  key={preset.code}
-                  type="button"
-                  onClick={() => {
-                    setVariantColorCode(preset.code);
-                    if (!variantName.trim()) {
-                      setVariantName(preset.name);
-                    }
-                  }}
-                  className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[10px] font-medium border transition-all cursor-pointer ${
-                    variantColorCode.toLowerCase() === preset.code.toLowerCase()
-                      ? "border-black bg-white shadow-xs font-bold text-black"
-                      : "border-neutral-200 bg-white hover:border-neutral-400 text-neutral-700"
-                  }`}
-                >
-                  <span
-                    className="w-2.5 h-2.5 rounded-full border border-neutral-300 inline-block shrink-0"
-                    style={{ backgroundColor: preset.code }}
-                  />
-                  <span>{preset.name}</span>
-                </button>
-              ))}
-            </div>
+            <input
+              type="text"
+              value={variantName}
+              onChange={(e) => {
+                setVariantName(e.target.value);
+                setErrorMsg("");
+              }}
+              placeholder="e.g. Styling 1, Styling 2, Festive Look, Classic Drape"
+              className="w-full bg-white border-2 border-neutral-200 focus:border-[#0B2D7F] rounded-xl px-3 py-2 text-xs text-black font-medium outline-none transition-colors"
+            />
+            <p className="text-[10px] text-neutral-400 mt-1">
+              Displayed on the live product page in the &ldquo;More Stylings...&rdquo; selector.
+            </p>
           </div>
 
-          {/* Colorway Photos */}
+          {/* Variant Photos (Dedicated Image Set) */}
           <div className="space-y-2 pt-2 border-t border-neutral-200">
             <div className="flex items-center justify-between">
               <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider">
-                Photos for this Colorway ({variantImages.length})
+                Photos for this Styling ({variantImages.length})
               </label>
               <span className="text-[10px] text-neutral-500 font-medium">
-                When customers select this color, these photos will display on the storefront.
+                When customers click this styling on the product page, this exact image set is shown.
               </span>
             </div>
 
@@ -263,15 +190,15 @@ export default function ColorVariantManager({
                   };
                   input.click();
                 }}
-                className="sm:col-span-2 border-2 border-dashed border-neutral-300 hover:border-black rounded-xl p-3 flex items-center justify-center gap-2 bg-white cursor-pointer transition-colors"
+                className="sm:col-span-2 border-2 border-dashed border-neutral-300 hover:border-[#0B2D7F] rounded-xl p-3 flex items-center justify-center gap-2 bg-white cursor-pointer transition-colors"
               >
                 {isUploading ? (
-                  <Loader2 className="w-4 h-4 animate-spin text-black" />
+                  <Loader2 className="w-4 h-4 animate-spin text-[#0B2D7F]" />
                 ) : (
-                  <Upload className="w-4 h-4 text-black stroke-[2]" />
+                  <Upload className="w-4 h-4 text-[#0B2D7F] stroke-[2]" />
                 )}
                 <span className="text-xs font-heading font-bold uppercase tracking-wider text-black">
-                  {isUploading ? "Uploading photos..." : "Upload Colorway Photos"}
+                  {isUploading ? "Uploading photos..." : "Upload Photos for this Variant"}
                 </span>
               </div>
 
@@ -281,8 +208,8 @@ export default function ColorVariantManager({
                   type="text"
                   value={directUrl}
                   onChange={(e) => setDirectUrl(e.target.value)}
-                  placeholder="https://..."
-                  className="flex-1 bg-white border-2 border-neutral-200 focus:border-black rounded-xl px-2.5 py-1.5 text-xs text-black outline-none"
+                  placeholder="Paste image URL..."
+                  className="flex-1 bg-white border-2 border-neutral-200 focus:border-[#0B2D7F] rounded-xl px-2.5 py-1.5 text-xs text-black outline-none"
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
                       e.preventDefault();
@@ -320,7 +247,7 @@ export default function ColorVariantManager({
                   >
                     <img
                       src={imgUrl}
-                      alt={`Colorway photo ${i + 1}`}
+                      alt={`Variant photo ${i + 1}`}
                       className="w-full h-full object-cover rounded"
                     />
                     <button
@@ -331,6 +258,9 @@ export default function ColorVariantManager({
                     >
                       <X className="w-3 h-3" />
                     </button>
+                    <span className="absolute bottom-1 left-1 bg-black/70 text-white text-[9px] px-1 rounded font-mono">
+                      #{i + 1}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -353,10 +283,10 @@ export default function ColorVariantManager({
             <button
               type="button"
               onClick={handleSave}
-              className="px-5 py-2 bg-black hover:bg-neutral-800 text-white text-xs font-heading font-bold uppercase tracking-wider rounded-xl transition-colors cursor-pointer flex items-center gap-1.5 shadow-xs"
+              className="px-5 py-2 bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-heading font-bold uppercase tracking-wider rounded-xl transition-colors cursor-pointer flex items-center gap-1.5 shadow-xs"
             >
               <Check className="w-3.5 h-3.5 stroke-[2.5]" />
-              <span>{editingId ? "Update Colorway" : "Save Colorway"}</span>
+              <span>{editingId ? "Update Variant" : "Save Variant"}</span>
             </button>
           </div>
         </div>
@@ -366,7 +296,7 @@ export default function ColorVariantManager({
       {variants.length === 0 ? (
         <div className="py-6 text-center border-2 border-dashed border-neutral-200 rounded-2xl bg-neutral-50/50">
           <p className="text-xs font-medium text-neutral-500">
-            No color variants created yet. Click "+ Add Colorway" above to define colors for this style.
+            No styling variants created yet. Click &ldquo;+ Add Variant&rdquo; above to define different image sets for this product.
           </p>
         </div>
       ) : (
@@ -374,20 +304,19 @@ export default function ColorVariantManager({
           {variants.map((v) => (
             <div
               key={v.id}
-              className="p-3.5 rounded-xl border-2 border-neutral-200 hover:border-black bg-white transition-all shadow-xs flex flex-col justify-between space-y-3 group"
+              className="p-3.5 rounded-xl border-2 border-neutral-200 hover:border-[#0B2D7F] bg-white transition-all shadow-xs flex flex-col justify-between space-y-3 group"
             >
               <div className="flex items-start justify-between gap-2">
-                <div className="flex items-center gap-2.5">
-                  <span
-                    className="w-6 h-6 rounded-full border-2 border-white ring-2 ring-neutral-300 shadow-xs shrink-0"
-                    style={{ backgroundColor: v.colorCode || "#1A1A1A" }}
-                  />
+                <div className="flex items-center gap-2">
+                  <div className="w-7 h-7 rounded-lg bg-[#0B2D7F]/10 border border-[#0B2D7F]/20 flex items-center justify-center text-[#0B2D7F] shrink-0">
+                    <Layers className="w-3.5 h-3.5" />
+                  </div>
                   <div>
                     <h5 className="font-heading font-bold text-xs text-black leading-tight">
                       {v.name}
                     </h5>
-                    <span className="font-mono text-[10px] text-neutral-400 font-semibold uppercase">
-                      {v.colorCode || "#1A1A1A"}
+                    <span className="font-sans text-[10px] text-neutral-500 font-medium">
+                      {v.images?.length || 0} {v.images?.length === 1 ? 'Photo' : 'Photos'} in set
                     </span>
                   </div>
                 </div>
@@ -397,7 +326,7 @@ export default function ColorVariantManager({
                     type="button"
                     onClick={() => startEdit(v)}
                     className="p-1 text-neutral-400 hover:text-black rounded hover:bg-neutral-100 transition-colors cursor-pointer"
-                    title="Edit colorway"
+                    title="Edit variant"
                   >
                     <Edit2 className="w-3.5 h-3.5" />
                   </button>
@@ -405,7 +334,7 @@ export default function ColorVariantManager({
                     type="button"
                     onClick={() => handleDelete(v.id, v.name)}
                     className="p-1 text-neutral-400 hover:text-red-600 rounded hover:bg-red-50 transition-colors cursor-pointer"
-                    title="Delete colorway"
+                    title="Delete variant"
                   >
                     <Trash2 className="w-3.5 h-3.5" />
                   </button>
@@ -416,13 +345,13 @@ export default function ColorVariantManager({
               <div className="pt-2 border-t border-neutral-100">
                 <div className="flex items-center justify-between text-[10px] text-neutral-500 font-medium mb-1.5">
                   <span className="flex items-center gap-1">
-                    <ImageIcon className="w-3 h-3" />
-                    <span>{v.images?.length || 0} Photos</span>
+                    <ImageIcon className="w-3 h-3 text-neutral-400" />
+                    <span>Photoshoot Set</span>
                   </span>
                   <button
                     type="button"
                     onClick={() => startEdit(v)}
-                    className="text-neutral-800 hover:underline font-bold"
+                    className="text-[#0B2D7F] hover:underline font-bold"
                   >
                     Manage Photos →
                   </button>
@@ -433,7 +362,7 @@ export default function ColorVariantManager({
                     {v.images.slice(0, 4).map((img, i) => (
                       <div
                         key={i}
-                        className="w-8 h-8 rounded border border-neutral-200 overflow-hidden shrink-0 bg-neutral-50"
+                        className="w-9 h-9 rounded-lg border border-neutral-200 overflow-hidden shrink-0 bg-neutral-50"
                       >
                         <img
                           src={img}
@@ -443,13 +372,13 @@ export default function ColorVariantManager({
                       </div>
                     ))}
                     {v.images.length > 4 && (
-                      <span className="text-[10px] font-bold text-neutral-400 pl-1">
+                      <span className="text-[10px] font-bold text-neutral-500 pl-1">
                         +{v.images.length - 4}
                       </span>
                     )}
                   </div>
                 ) : (
-                  <p className="text-[10px] text-neutral-400 italic">No photos attached to this color yet</p>
+                  <p className="text-[10px] text-neutral-400 italic">No photos attached to this variant yet</p>
                 )}
               </div>
             </div>

@@ -8190,7 +8190,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
       isOpen={true}
       onClose={onClose}
       title={product?.id ? "Edit Product" : "Add New Product"}
-      subtitle="Customize title, prices, images, colorways, fabric specifications, and visibility."
+      subtitle="Customize title, images, styling variants, fabric specifications, and storefront visibility."
       maxWidthClass="max-w-4xl"
       backLabel="Back to Products"
     >
@@ -8262,51 +8262,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           </div>
         </div>
 
-        {/* Card 2: B2B Wholesale & Retail Pricing */}
-        <div className={cardClass}>
-          <div className="flex items-center justify-between pb-1 border-b border-neutral-100">
-            <label className={labelTextClass}>B2B Pricing &amp; Wholesale Rates (₹)</label>
-            <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider font-mono">INR Currency</span>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
-                Wholesale Price per Piece (₹) *
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.salePrice || form.price}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, price: val, salePrice: val });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 1899"
-              />
-              <p className="text-[10px] text-neutral-400 mt-1">Wholesale net rate invoiced to B2B retail buyers</p>
-            </div>
-            <div>
-              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
-                Retail Reference / MRP Price (₹)
-              </label>
-              <input
-                type="text"
-                inputMode="decimal"
-                value={form.regularPrice}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9.,]/g, "").replace(",", ".");
-                  setForm({ ...form, regularPrice: val });
-                }}
-                className={textInputClass}
-                placeholder="e.g. 2499"
-              />
-              <p className="text-[10px] text-neutral-400 mt-1">Shown crossed out as original MRP on storefront</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Card 3: Garment Specifications & Sizes (Strictly S - XXL) */}
+        {/* Card 2: Garment Specifications & Sizes (Strictly S - XXL) */}
         <div className={cardClass}>
           <div className="flex items-center justify-between pb-1 border-b border-neutral-100">
             <label className={labelTextClass}>Garment Sizing &amp; Fabric Details</label>
@@ -8389,12 +8345,12 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
           </div>
         </div>
 
-        {/* Card: Product Structure & Colorways Selection */}
+        {/* Card: Variants (Stylings & Photoshoot Image Sets) */}
         <div className={cardClass}>
           <div>
-            <label className={labelTextClass}>Product Structure &amp; Colorways *</label>
+            <label className={labelTextClass}>Variants</label>
             <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
-              Choose whether this style is a single standalone piece or comes in multiple colorways.
+              Choose whether this style is a single standalone piece or has multiple styling variants with distinct image sets.
             </p>
           </div>
 
@@ -8408,21 +8364,21 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
               }}
               className={`p-4 rounded-xl border-2 text-left transition-all cursor-pointer flex items-start gap-3 ${
                 !hasVariants
-                  ? "border-black bg-neutral-50 ring-2 ring-black/10"
+                  ? "border-[#0B2D7F] bg-blue-50/20 ring-2 ring-[#0B2D7F]/10"
                   : "border-neutral-200 bg-white hover:border-neutral-400"
               }`}
             >
               <div className={`w-5 h-5 rounded-full border-2 mt-0.5 flex items-center justify-center shrink-0 ${
-                !hasVariants ? "border-black bg-black text-white" : "border-neutral-300"
+                !hasVariants ? "border-[#0B2D7F] bg-[#0B2D7F] text-white" : "border-neutral-300"
               }`}>
                 {!hasVariants && <Check className="w-3 h-3 stroke-[3]" />}
               </div>
               <div>
                 <span className="block font-heading font-black text-xs text-black uppercase tracking-wider">
-                  No — Single Style Listing
+                  No &mdash; Single Style Listing
                 </span>
                 <span className="block text-[11px] text-neutral-500 mt-1 font-medium leading-relaxed">
-                  Standalone product with no color options. Upload photoshoot photos and cover image directly.
+                  Standalone product with one primary photoshoot gallery. Upload photos and cover image directly.
                 </span>
               </div>
             </button>
@@ -8437,10 +8393,16 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                     ...prev,
                     colorVariants: [
                       {
-                        id: `var-${Date.now()}`,
-                        name: "Signature Color",
-                        colorCode: "#800020",
+                        id: `var-${Date.now()}-1`,
+                        name: "Styling 1",
+                        colorCode: "",
                         images: prev.gallery.length > 0 ? [...prev.gallery] : []
+                      },
+                      {
+                        id: `var-${Date.now()}-2`,
+                        name: "Styling 2",
+                        colorCode: "",
+                        images: []
                       }
                     ]
                   }));
@@ -8448,21 +8410,21 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
               }}
               className={`p-4 rounded-xl border-2 text-left transition-all cursor-pointer flex items-start gap-3 ${
                 hasVariants
-                  ? "border-black bg-neutral-50 ring-2 ring-black/10"
+                  ? "border-[#0B2D7F] bg-blue-50/20 ring-2 ring-[#0B2D7F]/10"
                   : "border-neutral-200 bg-white hover:border-neutral-400"
               }`}
             >
               <div className={`w-5 h-5 rounded-full border-2 mt-0.5 flex items-center justify-center shrink-0 ${
-                hasVariants ? "border-black bg-black text-white" : "border-neutral-300"
+                hasVariants ? "border-[#0B2D7F] bg-[#0B2D7F] text-white" : "border-neutral-300"
               }`}>
                 {hasVariants && <Check className="w-3 h-3 stroke-[3]" />}
               </div>
               <div>
                 <span className="block font-heading font-black text-xs text-black uppercase tracking-wider">
-                  Yes — Multiple Color Variants
+                  Yes &mdash; Multiple Variants (More Stylings)
                 </span>
                 <span className="block text-[11px] text-neutral-500 mt-1 font-medium leading-relaxed">
-                  Garment comes in multiple colorways. Photos are uploaded and organized per color variant.
+                  Garment has multiple styling sets (e.g. 3 photos for Styling 1, 4 photos for Styling 2). On the product page, customers can click &ldquo;More Stylings...&rdquo; to switch between image sets.
                 </span>
               </div>
             </button>
@@ -8936,106 +8898,173 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
         </div>
 
 
-        {/* Card 7: Display, Status & Shop Flag Badge */}
+        {/* Card: Visibility, Status & Store Badging */}
         <div className={cardClass}>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="pb-2 border-b border-neutral-100">
+            <label className={labelTextClass}>Visibility, Status &amp; Store Badging</label>
+            <p className="text-[11px] text-neutral-500 font-medium -mt-0.5">
+              Configure storefront publishing status, featured showcase highlight, catalog sort order, and ribbon badges.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-1">
+            {/* 1. Catalog Visibility (Segmented Toggle) */}
             <div>
-              <label className={labelTextClass}>Visibility</label>
-              <select
-                value={form.is_hidden ? "hidden" : "visible"}
-                onChange={e => setForm({ ...form, is_hidden: e.target.value === "hidden" })}
-                className={textInputClass}
-              >
-                <option value="visible">Visible in Store (Published)</option>
-                <option value="hidden">Hidden in Store (Draft)</option>
-              </select>
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1.5">
+                Catalog Visibility
+              </label>
+              <div className="grid grid-cols-2 gap-1.5 p-1 bg-neutral-100 rounded-xl border border-neutral-200">
+                <button
+                  type="button"
+                  onClick={() => setForm({ ...form, is_hidden: false })}
+                  className={`py-2 px-2 rounded-lg text-xs font-heading font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                    !form.is_hidden
+                      ? "bg-emerald-600 text-white shadow-xs"
+                      : "text-neutral-600 hover:text-black"
+                  }`}
+                >
+                  <span className="w-2 h-2 rounded-full bg-emerald-200 inline-block" />
+                  <span>Visible</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setForm({ ...form, is_hidden: true })}
+                  className={`py-2 px-2 rounded-lg text-xs font-heading font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                    form.is_hidden
+                      ? "bg-neutral-800 text-white shadow-xs"
+                      : "text-neutral-600 hover:text-black"
+                  }`}
+                >
+                  <span className="w-2 h-2 rounded-full bg-neutral-400 inline-block" />
+                  <span>Draft</span>
+                </button>
+              </div>
+              <p className="text-[10px] text-neutral-400 mt-1">
+                {!form.is_hidden ? "Live & published in public boutique store" : "Hidden from customer storefront"}
+              </p>
             </div>
+
+            {/* 2. Featured Showcase Highlight (Segmented Toggle) */}
             <div>
-              <label className={labelTextClass}>Featured</label>
-              <select
-                value={form.is_featured ? "yes" : "no"}
-                onChange={e => setForm({ ...form, is_featured: e.target.value === "yes" })}
-                className={textInputClass}
-              >
-                <option value="no">No</option>
-                <option value="yes">Yes (Featured)</option>
-              </select>
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1.5">
+                Featured Highlight
+              </label>
+              <div className="grid grid-cols-2 gap-1.5 p-1 bg-neutral-100 rounded-xl border border-neutral-200">
+                <button
+                  type="button"
+                  onClick={() => setForm({ ...form, is_featured: true })}
+                  className={`py-2 px-2 rounded-lg text-xs font-heading font-bold transition-all cursor-pointer flex items-center justify-center gap-1 ${
+                    form.is_featured
+                      ? "bg-amber-500 text-black shadow-xs font-black"
+                      : "text-neutral-600 hover:text-black"
+                  }`}
+                >
+                  <span>★ Featured</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setForm({ ...form, is_featured: false })}
+                  className={`py-2 px-2 rounded-lg text-xs font-heading font-bold transition-all cursor-pointer flex items-center justify-center ${
+                    !form.is_featured
+                      ? "bg-white text-black shadow-xs"
+                      : "text-neutral-600 hover:text-black"
+                  }`}
+                >
+                  <span>Standard</span>
+                </button>
+              </div>
+              <p className="text-[10px] text-neutral-400 mt-1">
+                {form.is_featured ? "Pinned to Homepage Bestsellers & Featured Rails" : "Standard catalog placement"}
+              </p>
             </div>
+
+            {/* 3. Display Sort Order */}
             <div>
-              <label className={labelTextClass}>Display Order</label>
-              <input
-                type="text"
-                inputMode="numeric"
-                value={form.sort_order !== undefined && form.sort_order !== null ? form.sort_order : ""}
-                onChange={e => {
-                  const val = e.target.value.replace(/[^0-9]/g, "");
-                  setForm({ ...form, sort_order: val as any });
-                }}
-                placeholder="0"
-                className={textInputClass}
-              />
+              <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1.5">
+                Display Sort Order
+              </label>
+              <div className="flex items-center gap-2">
+                <input
+                  type="number"
+                  min="0"
+                  value={form.sort_order !== undefined && form.sort_order !== null ? form.sort_order : 0}
+                  onChange={e => {
+                    const val = parseInt(e.target.value, 10);
+                    setForm({ ...form, sort_order: isNaN(val) ? 0 : val });
+                  }}
+                  placeholder="0"
+                  className={textInputClass}
+                />
+              </div>
+              <p className="text-[10px] text-neutral-400 mt-1">Lower values appear earlier (0 = default)</p>
             </div>
           </div>
 
-          <div className="pt-2 border-t border-neutral-100 space-y-3">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className={labelTextClass}>Store Corner Ribbon Badge (e.g. Signature, Handcrafted, Bestseller)</label>
-                <select
-                  value={
-                    form.tag === "SALE" || form.tag === "BESTSELLER" || form.tag === "POPULAR" || !form.tag
-                      ? form.tag
-                      : "CUSTOM"
-                  }
-                  onChange={e => {
-                    const val = e.target.value;
-                    if (val === "CUSTOM") {
-                      if (!form.tag || form.tag === "SALE" || form.tag === "BESTSELLER" || form.tag === "POPULAR") {
-                        setForm({ ...form, tag: "NEW" });
-                      }
-                    } else {
-                      setForm({ ...form, tag: val });
-                    }
-                  }}
-                  className={textInputClass}
-                >
-                  <option value="">No Badge</option>
-                  <option value="SALE">SALE (Blue Wastram Flag Badge)</option>
-                  <option value="BESTSELLER">BESTSELLER (Black Flag Badge with Wastram Dot)</option>
-                  <option value="POPULAR">POPULAR (Black Flag Badge)</option>
-                  <option value="CUSTOM">Custom Badge Text...</option>
-                </select>
-              </div>
-
-              <div>
-                <label className={labelTextClass}>Badge Text</label>
-                <input
-                  type="text"
-                  value={form.tag}
-                  onChange={e => setForm({ ...form, tag: e.target.value.toUpperCase() })}
-                  className={textInputClass}
-                  placeholder="e.g. SALE, BESTSELLER, POPULAR, SIGNATURE"
-                />
+          {/* 4. Store Corner Ribbon Badge */}
+          <div className="pt-3 border-t border-neutral-100 space-y-3">
+            <div>
+              <label className={labelTextClass}>
+                Store Corner Ribbon Badge (e.g. Signature, Handcrafted, Bestseller)
+              </label>
+              <div className="flex flex-wrap gap-2 pt-1">
+                {[
+                  { label: "None", value: "" },
+                  { label: "POPULAR", value: "POPULAR" },
+                  { label: "BESTSELLER", value: "BESTSELLER" },
+                  { label: "SIGNATURE", value: "SIGNATURE" },
+                  { label: "HANDCRAFTED", value: "HANDCRAFTED" },
+                  { label: "NEW ARRIVAL", value: "NEW ARRIVAL" },
+                  { label: "SALE", value: "SALE" },
+                ].map(badge => {
+                  const isSelected = form.tag === badge.value;
+                  return (
+                    <button
+                      key={badge.label}
+                      type="button"
+                      onClick={() => setForm({ ...form, tag: badge.value })}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider transition-all cursor-pointer border-2 ${
+                        isSelected
+                          ? "bg-[#0B2D7F] text-white border-[#0B2D7F] shadow-xs scale-102"
+                          : "bg-white text-neutral-700 border-neutral-200 hover:border-black"
+                      }`}
+                    >
+                      {badge.label}
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
-            {/* Live Flag Badge Preview */}
+            {/* Custom text & Live Preview */}
             {form.tag && (
-              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-neutral-50 border border-neutral-200">
-                <span className="text-xs font-bold text-neutral-600">Live Preview:</span>
-                <span
-                  className={`inline-flex items-center text-white text-[10px] font-heading font-black uppercase tracking-wider px-3 py-1 rounded shadow-xs ${
-                    form.tag === "SALE" ? "bg-[#3628e6]" : "bg-black"
-                  }`}
-                >
-                  {form.tag === "BESTSELLER" && (
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#3628e6] inline-block mr-1.5 ring-1 ring-white/50" />
-                  )}
-                  {form.tag}
-                </span>
-                <span className="text-[11px] text-neutral-400 font-medium">
-                  (Displayed on product cards and detail page)
-                </span>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                <div>
+                  <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
+                    Badge Custom Text
+                  </label>
+                  <input
+                    type="text"
+                    value={form.tag}
+                    onChange={e => setForm({ ...form, tag: e.target.value.toUpperCase() })}
+                    className={textInputClass}
+                    placeholder="e.g. POPULAR, BESTSELLER, HANDCRAFTED"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-[11px] font-heading font-bold text-neutral-700 uppercase tracking-wider mb-1">
+                    Live Preview
+                  </label>
+                  <div className="flex items-center gap-3 p-2.5 rounded-xl bg-neutral-50 border-2 border-neutral-200 min-h-[44px]">
+                    <span className="inline-flex items-center text-white text-[10px] font-heading font-black uppercase tracking-wider px-2.5 py-1 rounded-md bg-[#0B2D7F] shadow-2xs">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] inline-block mr-1.5" />
+                      {form.tag}
+                    </span>
+                    <span className="text-[10.5px] text-neutral-500 font-medium truncate">
+                      (Displayed on product cards &amp; detail page)
+                    </span>
+                  </div>
+                </div>
               </div>
             )}
           </div>

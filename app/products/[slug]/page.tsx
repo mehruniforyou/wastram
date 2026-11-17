@@ -76,6 +76,7 @@ export default function ProductDetailPage({ params }: Props) {
   const [isArchived, setIsArchived] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(!initialItem);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | null>(null);
   const [selectedSize, setSelectedSize] = useState('M');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [openAccordions, setOpenAccordions] = useState<Record<string, boolean>>({
@@ -201,27 +202,69 @@ export default function ProductDetailPage({ params }: Props) {
     );
   }
 
-  // Normalize gallery images
-  const rawImages: any[] =
-    (Array.isArray(product.images) && product.images.length > 0 && product.images) ||
-    (Array.isArray((product as any).gallery) && (product as any).gallery.length > 0 && (product as any).gallery) ||
-    (Array.isArray((product as any).galleryImages) && (product as any).galleryImages.length > 0 && (product as any).galleryImages) ||
-    [product.image || (product as any).featured_image || (product as any).mainImage || '/placeholder.jpg'];
+  // Extract styling variants
+  const variants: any[] = React.useMemo(() => {
+    if (!product) return [];
+    const list: any[] =
+      (Array.isArray(product.colorVariants) && product.colorVariants.length > 0 && product.colorVariants) ||
+      (Array.isArray((product as any).variants) && (product as any).variants.length > 0 && (product as any).variants) ||
+      [];
+    return list.filter((v) => v && (Array.isArray(v.images) ? v.images.length > 0 : v.image));
+  }, [product]);
 
-  const images: string[] = rawImages
-    .map((item: any) => {
-      if (!item) return '';
-      if (typeof item === 'string') return item;
-      return item.url || item.src || item.image || '';
-    })
-    .filter((url: string) => typeof url === 'string' && url.trim().length > 0 && !url.includes('[object'));
+  // Active selected styling variant
+  const activeVariant = React.useMemo(() => {
+    if (variants.length === 0) return null;
+    if (selectedVariantId) {
+      const found = variants.find((v) => v.id === selectedVariantId);
+      if (found) return found;
+    }
+    return variants[0];
+  }, [variants, selectedVariantId]);
 
-  if (images.length === 0) {
-    const fallback = product.image || (product as any).featured_image || (product as any).mainImage || '/placeholder.jpg';
-    images.push(typeof fallback === 'string' ? fallback : fallback?.url || '/placeholder.jpg');
-  }
+  // Normalize gallery images (switches dynamically to active variant image set if present)
+  const images: string[] = React.useMemo(() => {
+    if (activeVariant && Array.isArray(activeVariant.images) && activeVariant.images.length > 0) {
+      const list = activeVariant.images
+        .map((item: any) => {
+          if (!item) return '';
+          if (typeof item === 'string') return item;
+          return item.url || item.src || item.image || '';
+        })
+        .filter((url: string) => typeof url === 'string' && url.trim().length > 0 && !url.includes('[object'));
+      if (list.length > 0) return list;
+    }
+
+    const rawImages: any[] =
+      (Array.isArray(product.images) && product.images.length > 0 && product.images) ||
+      (Array.isArray((product as any).gallery) && (product as any).gallery.length > 0 && (product as any).gallery) ||
+      (Array.isArray((product as any).galleryImages) && (product as any).galleryImages.length > 0 && (product as any).galleryImages) ||
+      [product.image || (product as any).featured_image || (product as any).mainImage || '/placeholder.jpg'];
+
+    const fallbackList = rawImages
+      .map((item: any) => {
+        if (!item) return '';
+        if (typeof item === 'string') return item;
+        return item.url || item.src || item.image || '';
+      })
+      .filter((url: string) => typeof url === 'string' && url.trim().length > 0 && !url.includes('[object'));
+
+    if (fallbackList.length === 0) {
+      const fallback = product.image || (product as any).featured_image || (product as any).mainImage || '/placeholder.jpg';
+      fallbackList.push(typeof fallback === 'string' ? fallback : fallback?.url || '/placeholder.jpg');
+    }
+    return fallbackList;
+  }, [product, activeVariant]);
 
   const currentHeroImg = images[activeImageIndex] || images[0];
+
+  const handleSelectVariant = (variantId: string) => {
+    setSelectedVariantId(variantId);
+    setActiveImageIndex(0);
+    if (mobileCarouselRef.current) {
+      mobileCarouselRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+    }
+  };
 
   const availableSizes =
     product.sizes && product.sizes.length > 0 ? product.sizes : ALL_SIZES;
@@ -239,7 +282,7 @@ export default function ProductDetailPage({ params }: Props) {
   const whatsappInquiryUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
     `Hello Wastram Jaipur Atelier, I would like to enquire about:
 • Silhouette: ${product.title}
-• SKU / Code: ${product.sku || product.id}
+• SKU / Code: ${product.sku || product.id}${activeVariant ? `\n• Styling: ${activeVariant.name}` : ''}
 • Sourcing MOQ: 20 Pcs / Style
 • Selected Size: ${selectedSize}
 
@@ -403,6 +446,64 @@ Please share the wholesale lookbook and trade quotation.`
                 </span>
               </div>
             </div>
+
+            {/* Interactive "More Stylings..." Variant Selector */}
+            {variants.length > 1 && (
+              <div className="space-y-2.5">
+                <div className="flex items-center justify-between text-xs font-sans">
+                  <span className="font-semibold uppercase tracking-wider text-neutral-800 dark:text-neutral-200">
+                    More Stylings...
+                  </span>
+                  <span className="text-[11px] text-[#0B2D7F] dark:text-[#D4AF37] font-medium">
+                    {activeVariant?.name || 'Styling 1'} ({images.length} Photos)
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-3 overflow-x-auto no-scrollbar py-1">
+                  {variants.map((v: any, idx: number) => {
+                    const isSelected = activeVariant?.id === v.id;
+                    const thumb = Array.isArray(v.images) && v.images.length > 0 ? v.images[0] : null;
+                    const photoCount = Array.isArray(v.images) ? v.images.length : (thumb ? 1 : 0);
+                    return (
+                      <button
+                        key={v.id || idx}
+                        type="button"
+                        onClick={() => handleSelectVariant(v.id)}
+                        className={`group flex items-center gap-2.5 p-2 pr-4 rounded-2xl border-2 transition-all cursor-pointer shrink-0 text-left ${
+                          isSelected
+                            ? 'border-[#0B2D7F] bg-[#0B2D7F]/5 shadow-sm dark:border-[#D4AF37] dark:bg-[#D4AF37]/10 scale-102'
+                            : 'border-neutral-200/80 bg-white dark:bg-neutral-900/60 dark:border-white/10 hover:border-neutral-300'
+                        }`}
+                      >
+                        {thumb ? (
+                          <div className="w-12 h-16 rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 border border-neutral-200/60 dark:border-white/10 shrink-0">
+                            <img
+                              src={thumb}
+                              alt={v.name || `Styling ${idx + 1}`}
+                              className="w-full h-full object-cover object-top"
+                            />
+                          </div>
+                        ) : (
+                          <div className="w-12 h-16 rounded-xl bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-xs text-neutral-400 font-mono">
+                            #{idx + 1}
+                          </div>
+                        )}
+                        <div>
+                          <span className={`block font-serif text-sm font-medium ${
+                            isSelected ? 'text-[#0B2D7F] dark:text-[#D4AF37]' : 'text-neutral-900 dark:text-white'
+                          }`}>
+                            {v.name || `Styling ${idx + 1}`}
+                          </span>
+                          <span className="block text-[11px] text-neutral-500 font-sans mt-0.5">
+                            {photoCount} {photoCount === 1 ? 'Photo' : 'Photos'}
+                          </span>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
 
             {/* Interactive Size Selector */}
             <div className="space-y-2.5">
@@ -659,6 +760,64 @@ Please share the wholesale lookbook and trade quotation.`
               </div>
             </div>
           </div>
+
+          {/* Mobile "More Stylings..." Variant Selector */}
+          {variants.length > 1 && (
+            <div className="space-y-2 pt-1">
+              <div className="flex items-center justify-between text-xs font-sans">
+                <span className="font-semibold uppercase tracking-wider text-neutral-800 dark:text-neutral-200">
+                  More Stylings...
+                </span>
+                <span className="text-[11px] text-[#0B2D7F] dark:text-[#D4AF37] font-medium">
+                  {activeVariant?.name || 'Styling 1'} ({images.length} Photos)
+                </span>
+              </div>
+
+              <div className="flex items-center gap-2.5 overflow-x-auto no-scrollbar py-1">
+                {variants.map((v: any, idx: number) => {
+                  const isSelected = activeVariant?.id === v.id;
+                  const thumb = Array.isArray(v.images) && v.images.length > 0 ? v.images[0] : null;
+                  const photoCount = Array.isArray(v.images) ? v.images.length : (thumb ? 1 : 0);
+                  return (
+                    <button
+                      key={v.id || idx}
+                      type="button"
+                      onClick={() => handleSelectVariant(v.id)}
+                      className={`group flex items-center gap-2 p-1.5 pr-3 rounded-xl border-2 transition-all cursor-pointer shrink-0 text-left ${
+                        isSelected
+                          ? 'border-[#0B2D7F] bg-[#0B2D7F]/5 shadow-xs dark:border-[#D4AF37] dark:bg-[#D4AF37]/10'
+                          : 'border-neutral-200/80 bg-white dark:bg-neutral-900/60 dark:border-white/10'
+                      }`}
+                    >
+                      {thumb ? (
+                        <div className="w-10 h-13 rounded-lg overflow-hidden bg-neutral-100 dark:bg-neutral-800 border border-neutral-200/60 dark:border-white/10 shrink-0">
+                          <img
+                            src={thumb}
+                            alt={v.name || `Styling ${idx + 1}`}
+                            className="w-full h-full object-cover object-top"
+                          />
+                        </div>
+                      ) : (
+                        <div className="w-10 h-13 rounded-lg bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-xs text-neutral-400 font-mono">
+                          #{idx + 1}
+                        </div>
+                      )}
+                      <div>
+                        <span className={`block font-serif text-xs font-medium ${
+                          isSelected ? 'text-[#0B2D7F] dark:text-[#D4AF37]' : 'text-neutral-900 dark:text-white'
+                        }`}>
+                          {v.name || `Styling ${idx + 1}`}
+                        </span>
+                        <span className="block text-[10px] text-neutral-500 font-sans mt-0.5">
+                          {photoCount} {photoCount === 1 ? 'Photo' : 'Photos'}
+                        </span>
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Sizing Selector */}
           <div className="space-y-2 pt-2">
