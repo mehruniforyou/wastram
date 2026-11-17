@@ -7,21 +7,9 @@ import {
   ShieldCheck,
   Sparkles,
   Users,
-  Clock,
   RotateCcw,
   MessageCircle,
-  CheckCircle2,
-  ArrowRight,
 } from 'lucide-react';
-
-const STATS = [
-  { value: '50+', label: 'Artisans & Master Tailors', sub: 'In-house Sanganer workshop' },
-  { value: '100%', label: 'In-House Production', sub: 'Zero third-party outsourcing' },
-  { value: '3-Stage', label: 'Rigorous Quality Checks', sub: 'Fabric, stitch & finish audit' },
-  { value: 'S–XXL', label: 'Individual Pattern Grading', sub: 'Proportional curves for all' },
-  { value: 'Direct', label: 'Factory Direct Sourcing', sub: 'From atelier to boutique' },
-  { value: '2–3 Days', label: 'Rapid Dispatch', sub: 'Carefully steamed & boxed' },
-];
 
 const TRUST_BADGES = [
   {
@@ -130,40 +118,7 @@ export default function BaisaFactoryStats() {
         </div>
       </div>
 
-      {/* 2. Deep Royal Navy / Plum Factory Stats Ribbon */}
-      <div className="bg-[#071F59] text-white py-14 shadow-inner mb-16">
-        <div className="container-x">
-          <div className="text-center max-w-xl mx-auto mb-10">
-            <span className="px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-white/10 text-amber-300 border border-white/10">
-              ATELIER FACTORY DIRECT
-            </span>
-            <h3 className="mt-2 font-serif text-2xl sm:text-3xl text-white font-normal">
-              Not mass-picked. Thoughtfully crafted.
-            </h3>
-            <p className="mt-1 text-xs sm:text-sm text-white/70 font-sans">
-              हस्तनिर्मित विरासत · आधुनिक परिधान (Handcrafted Heritage · Contemporary Silhouettes)
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8 text-center">
-            {STATS.map((stat, i) => (
-              <div key={i} className="flex flex-col items-center p-3">
-                <span className="font-serif text-3xl sm:text-4xl font-bold text-[#D4AF37] tracking-tight">
-                  {stat.value}
-                </span>
-                <span className="mt-1 font-sans text-xs sm:text-sm font-medium text-white/95">
-                  {stat.label}
-                </span>
-                <span className="mt-0.5 font-sans text-[11px] text-white/60">
-                  {stat.sub}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* 3. Six Circular Trust Badges */}
+      {/* 2. Six Circular Trust Badges */}
       <div className="container-x mb-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {TRUST_BADGES.map((b, i) => {

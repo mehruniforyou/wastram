@@ -77,7 +77,7 @@ export default function Footer() {
               <img
                 src="/images/brand/wastram-footer-artisan-logo.png"
                 alt="Wastram Jaipur Atelier"
-                className="h-20 sm:h-24 md:h-28 w-auto object-contain transition-transform duration-300 group-hover:scale-103"
+                className="h-[120px] sm:h-[144px] md:h-[168px] w-auto object-contain transition-transform duration-300 group-hover:scale-103"
               />
             </Link>
 
