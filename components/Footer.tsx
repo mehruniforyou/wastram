@@ -203,19 +203,19 @@ export default function Footer() {
           {/* Social Links & WhatsApp Direct */}
           <div className="mt-4 sm:mt-6 flex items-center gap-5 text-foreground/70">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/wastram.inn?utm_source=qr&cplk=ZnJ2NWd2M3F0OXRt"
               target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
+              rel="noopener noreferrer"
+              aria-label="Instagram @wastram.inn"
               className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
             >
               <Instagram size={18} strokeWidth={1.4} />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/1ZxpZnEMfJ/"
               target="_blank"
-              rel="noreferrer"
-              aria-label="Facebook"
+              rel="noopener noreferrer"
+              aria-label="Facebook @wastram"
               className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
             >
               <Facebook size={18} strokeWidth={1.4} />

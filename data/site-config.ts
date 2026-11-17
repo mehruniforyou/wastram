@@ -33,8 +33,8 @@ export const siteConfig: SiteConfig = {
   currencyNotice: 'Boutique pricing quoted upon inquiry based on collection selection and volume',
   moqNotice: 'Flexible Atelier Batch MOQs - Direct Concierge Communication via WhatsApp',
   socials: {
-    instagram: 'https://instagram.com/wastram_exports',
-    facebook: 'https://facebook.com/wastram',
+    instagram: 'https://www.instagram.com/wastram.inn?utm_source=qr&cplk=ZnJ2NWd2M3F0OXRt',
+    facebook: 'https://www.facebook.com/share/1ZxpZnEMfJ/',
     linkedin: 'https://linkedin.com/company/wastram',
   },
 };
