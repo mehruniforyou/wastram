@@ -13,6 +13,8 @@ import {
   Sun,
   Moon,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
   ArrowRight,
   Sparkles,
 } from 'lucide-react';
@@ -25,15 +27,65 @@ interface HeaderProps {
   onOpenStory?: () => void;
 }
 
+const ANNOUNCEMENTS = [
+  {
+    prefix: 'DIRECT ATELIER',
+    text: 'Direct Jaipur Handloom Atelier · Made in our Jaipur factory',
+    shortText: 'Direct Jaipur Handloom Atelier',
+    badge: 'Artisanal',
+  },
+  {
+    prefix: 'WORLDWIDE EXPORT',
+    text: 'Worldwide Boutique Air Cargo · Dispatch in 2–3 Days to 40+ Countries',
+    shortText: 'Worldwide Boutique Air Cargo',
+    badge: 'Air Cargo',
+  },
+  {
+    prefix: 'WHOLESALE B2B',
+    text: 'Flexible Batch Production · Wholesale MOQ Starting at 20 Pcs / Style',
+    shortText: 'Wholesale MOQ: 20 Pcs / Style',
+    badge: 'MOQ 20 Pcs',
+  },
+  {
+    prefix: 'WHATSAPP CONCIERGE',
+    text: 'Instant Wholesale Enquiries & Line Sheets on WhatsApp: +91 80030 88838',
+    shortText: 'WhatsApp B2B: +91 80030 88838',
+    badge: 'Direct Chat',
+  },
+  {
+    prefix: 'SIZING PRE-PACKS',
+    text: 'Graded Tailoring from Sizes S to XXL Available Across All Silhouettes',
+    shortText: 'Sizes S to XXL Available',
+    badge: 'S to XXL',
+  },
+  {
+    prefix: 'HERITAGE CRAFT',
+    text: 'Pure 60-60 Cambric Cotton, Modal Silks & Authentic Sanganeri Block Prints',
+    shortText: 'Pure Mulmul & Modal Silks',
+    badge: 'Handblock',
+  },
+];
+
 export default function Header({ onOpenSearch }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
   const [mobileShopExpanded, setMobileShopExpanded] = useState(false);
+  const [currentAnnouncementIndex, setCurrentAnnouncementIndex] = useState(0);
+  const [isAnnouncementPaused, setIsAnnouncementPaused] = useState(false);
   const pathname = usePathname();
 
   const { cartCount, openCart, wishlist } = useCart();
   const { theme, toggleTheme } = useTheme();
+
+  // Announcement bar animation ticker (advances every 3.6s, pauses on hover)
+  useEffect(() => {
+    if (isAnnouncementPaused) return;
+    const interval = setInterval(() => {
+      setCurrentAnnouncementIndex((prev) => (prev + 1) % ANNOUNCEMENTS.length);
+    }, 3600);
+    return () => clearInterval(interval);
+  }, [isAnnouncementPaused]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -123,13 +175,91 @@ export default function Header({ onOpenSearch }: HeaderProps) {
         }`}
         data-testid="site-navbar"
       >
-        {/* 1. Brand Blue Announcement Bar */}
-        <div className="bg-[#0B2D7F] text-white text-[10px] sm:text-xs py-1.5 sm:py-2 px-3 sm:px-4 text-center font-medium font-sans tracking-wide flex items-center justify-center gap-1.5 sm:gap-2 overflow-hidden whitespace-nowrap">
-          <span className="truncate">Direct Jaipur Handloom Atelier</span>
-          <span className="text-[#D4AF37]">·</span>
-          <span>Made in our Jaipur factory</span>
-          <span className="text-[#D4AF37] hidden md:inline">·</span>
-          <span className="hidden md:inline">Worldwide Boutique Air Cargo</span>
+        {/* 1. Brand Blue Announcement Bar with Upward Animation & Scroll-Hide */}
+        <div
+          className={`bg-[#0B2D7F] text-white transition-all duration-300 ease-in-out overflow-hidden select-none ${
+            isScrolled
+              ? 'max-h-0 opacity-0 -translate-y-full py-0 pointer-events-none'
+              : 'max-h-12 opacity-100 translate-y-0 py-1.5 sm:py-2'
+          }`}
+          onMouseEnter={() => setIsAnnouncementPaused(true)}
+          onMouseLeave={() => setIsAnnouncementPaused(false)}
+        >
+          <div className="container-x flex items-center justify-between gap-2 sm:gap-4 text-[11px] sm:text-xs">
+            {/* Left Decorative Tag */}
+            <span className="hidden lg:flex items-center gap-1.5 text-white/75 text-[10.5px] uppercase tracking-wider font-medium shrink-0">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] animate-pulse" />
+              <span>Jaipur Atelier</span>
+            </span>
+
+            {/* Center Animated Announcement Ticker */}
+            <div className="flex-1 min-w-0 flex items-center justify-center gap-1.5 sm:gap-2">
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setCurrentAnnouncementIndex((prev) => (prev - 1 + ANNOUNCEMENTS.length) % ANNOUNCEMENTS.length);
+                }}
+                className="hidden sm:flex text-white/50 hover:text-[#D4AF37] transition-colors p-0.5 cursor-pointer shrink-0"
+                aria-label="Previous announcement"
+              >
+                <ChevronLeft size={13} />
+              </button>
+
+              <div
+                onClick={handleWhatsAppConcierge}
+                className="min-w-0 max-w-2xl h-5 sm:h-6 overflow-hidden relative cursor-pointer flex items-center justify-center text-center px-1"
+                title="Click to Chat with Wastram Jaipur Atelier Concierge"
+              >
+                <div
+                  key={currentAnnouncementIndex}
+                  className="animate-in fade-in slide-in-from-bottom-2 duration-500 flex items-center justify-center gap-1.5 sm:gap-2 whitespace-nowrap group text-white font-medium tracking-wide"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] shrink-0 sm:hidden animate-pulse" />
+                  <span className="font-semibold uppercase tracking-wider text-[#D4AF37] shrink-0 text-[10px] sm:text-[11px]">
+                    {ANNOUNCEMENTS[currentAnnouncementIndex].prefix}
+                  </span>
+                  <span className="text-[#D4AF37]/70 shrink-0">·</span>
+                  <span className="truncate group-hover:underline decoration-[#D4AF37] decoration-1 underline-offset-2">
+                    <span className="sm:hidden">
+                      {ANNOUNCEMENTS[currentAnnouncementIndex].shortText}
+                    </span>
+                    <span className="hidden sm:inline">
+                      {ANNOUNCEMENTS[currentAnnouncementIndex].text}
+                    </span>
+                  </span>
+                  {ANNOUNCEMENTS[currentAnnouncementIndex].badge && (
+                    <span className="hidden md:inline-flex items-center text-[9.5px] font-semibold text-[#0B2D7F] bg-[#D4AF37] uppercase tracking-wider px-2 py-0.5 rounded-full shrink-0 ml-1">
+                      {ANNOUNCEMENTS[currentAnnouncementIndex].badge}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setCurrentAnnouncementIndex((prev) => (prev + 1) % ANNOUNCEMENTS.length);
+                }}
+                className="hidden sm:flex text-white/50 hover:text-[#D4AF37] transition-colors p-0.5 cursor-pointer shrink-0"
+                aria-label="Next announcement"
+              >
+                <ChevronRight size={13} />
+              </button>
+            </div>
+
+            {/* Right: WhatsApp B2B Quick Link */}
+            <a
+              href="https://wa.me/918003088838?text=Hello%20Wastram%20Jaipur%20Atelier,%20I%20would%20like%20to%20enquire%20about%20boutique%20sourcing."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden lg:flex items-center gap-1 text-[10.5px] text-white/80 hover:text-white uppercase tracking-wider font-semibold transition-colors shrink-0"
+            >
+              <span className="underline decoration-[#D4AF37] decoration-1 underline-offset-2">B2B Concierge</span>
+              <ArrowRight size={11} className="text-[#D4AF37]" />
+            </a>
+          </div>
         </div>
 
         {/* 2. Main Navigation Bar */}
@@ -192,7 +322,9 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               {/* Full-Bleed 2-Zone Mega Menu Panel */}
               {isMegaMenuOpen && (
                 <div
-                  className="fixed left-0 top-[104px] w-screen bg-[#FFFEFE] dark:bg-[#161412] border-b border-t border-[#E7E5E4] dark:border-white/10 shadow-elevated transition-all duration-200 z-50 animate-in fade-in slide-in-from-top-1"
+                  className={`fixed left-0 ${
+                    isScrolled ? 'top-16 md:top-20' : 'top-[100px] md:top-[112px]'
+                  } w-screen bg-[#FFFEFE] dark:bg-[#161412] border-b border-t border-[#E7E5E4] dark:border-white/10 shadow-elevated transition-all duration-200 z-50 animate-in fade-in slide-in-from-top-1`}
                   onMouseEnter={() => setIsMegaMenuOpen(true)}
                   onMouseLeave={() => setIsMegaMenuOpen(false)}
                 >
