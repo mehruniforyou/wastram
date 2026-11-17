@@ -32,8 +32,8 @@ export default function BaisaHero() {
             Direct atelier manufacturing for luxury fashion boutiques and overseas labels. Pure mulmul, modal silks, and authentic Sanganer block prints in graded sizes S to XXL.
           </p>
 
-          {/* Action Buttons */}
-          <div className="mt-8 flex flex-wrap items-center gap-4">
+          {/* Action Buttons: Placed at the bottom of the hero editorial copy */}
+          <div className="mt-8 sm:mt-10 flex flex-wrap items-center gap-4">
             <Link
               href="/products"
               className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white text-sm font-medium tracking-wide shadow-sm transition-all duration-200 active:scale-98"
@@ -48,22 +48,6 @@ export default function BaisaHero() {
             >
               <span>Wholesale &amp; Trade Terms</span>
             </Link>
-          </div>
-
-          {/* B2B Trust Highlights */}
-          <div className="mt-10 pt-2 flex flex-wrap items-center gap-6 text-xs text-neutral-500 dark:text-neutral-400 font-sans">
-            <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
-              <span>Direct Sanganer Atelier</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
-              <span>Sizes S to XXL</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
-              <span>MOQ: 20 Pcs / Style</span>
-            </div>
           </div>
         </div>
 
