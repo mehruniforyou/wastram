@@ -83,11 +83,11 @@ export default function WholesalePage() {
       <main className="flex-1 container-x py-8 md:py-16">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="section-pill mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>B2B Global Supply</span>
           </div>
-          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
-            Wholesale Sourcing for Boutiques
+          <h1 className="font-serif text-3xl sm:text-5xl text-[#0B2D7F] dark:text-white font-normal leading-tight">
+            Wholesale Sourcing &amp; <span className="text-[#D4AF37] italic font-normal">Boutique Supply.</span>
           </h1>
           <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
             Direct Jaipur factory production for independent fashion boutiques, multi-brand retailers, and global diaspora labels.

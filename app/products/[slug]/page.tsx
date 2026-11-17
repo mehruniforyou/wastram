@@ -336,11 +336,11 @@ export default function ProductDetailPage({ params }: Props) {
           <div className="lg:col-span-5 sticky top-28 space-y-6">
             <div>
               <div className="section-pill mb-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
                 <span>{product.fabric || 'Pure Handloom Cotton'}</span>
               </div>
               <div className="flex items-start justify-between gap-4">
-                <h1 className="font-serif text-2xl sm:text-3xl text-neutral-900 dark:text-white font-normal leading-tight">
+                <h1 className="font-serif text-2xl sm:text-3xl text-[#0B2D7F] dark:text-white font-normal leading-tight">
                   {product.title}
                 </h1>
                 <button
@@ -609,11 +609,11 @@ export default function ProductDetailPage({ params }: Props) {
         <div className="mt-20 pt-8">
           <div className="max-w-xl mb-8">
             <div className="section-pill mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Versatile Styling</span>
             </div>
-            <h3 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
-              Wear It Three Ways
+            <h3 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
+              Wear It Three Ways &amp; <span className="text-[#D4AF37] italic font-normal">Styling Edit.</span>
             </h3>
             <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
               Versatile styling notes for daywear, occasion layering, and travel ease.
@@ -661,11 +661,11 @@ export default function ProductDetailPage({ params }: Props) {
             <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-3 gap-4">
               <div>
                 <div className="section-pill mb-3">
-                  <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
                   <span>Curated Pairings</span>
                 </div>
-                <h3 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
-                  More to Discover
+                <h3 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
+                  More to Discover &amp; <span className="text-[#D4AF37] italic font-normal">Related Silhouettes.</span>
                 </h3>
                 <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
                   Complementary silhouettes from our Jaipur handloom workshops.

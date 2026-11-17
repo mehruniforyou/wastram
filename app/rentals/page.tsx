@@ -52,12 +52,12 @@ export default function RentalsPage() {
         {/* Hero Section */}
         <div className="max-w-3xl mx-auto text-center mb-14">
           <div className="section-pill mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Occasion Wardrobe</span>
           </div>
 
-          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
-            Rent an Outfit
+          <h1 className="font-serif text-3xl sm:text-5xl text-[#0B2D7F] dark:text-white font-normal leading-tight">
+            Rent an Outfit &amp; <span className="text-[#D4AF37] italic font-normal">Heritage Silhouettes.</span>
           </h1>
 
           <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto leading-relaxed">
@@ -112,11 +112,11 @@ export default function RentalsPage() {
           <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-3 gap-4">
             <div>
               <div className="section-pill mb-3">
-                <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
                 <span>Curated Occasions</span>
               </div>
-              <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
-                Featured Rental Silhouettes
+              <h2 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
+                Featured Rentals &amp; <span className="text-[#D4AF37] italic font-normal">Occasion Wear.</span>
               </h2>
             </div>
             <a
@@ -178,11 +178,11 @@ export default function RentalsPage() {
         <div id="how-it-works" className="py-12">
           <div className="text-center max-w-xl mx-auto mb-12">
             <div className="section-pill mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Simple Rental Process</span>
             </div>
-            <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
-              How Outfit Rental Works
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
+              How Outfit Rental Works &amp; <span className="text-[#D4AF37] italic font-normal">Atelier Guide.</span>
             </h2>
           </div>
 

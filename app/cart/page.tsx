@@ -48,11 +48,11 @@ export default function CartPage() {
       <main className="max-w-5xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 flex-1">
         <div className="text-center mb-10">
           <div className="section-pill mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Wholesale &amp; Sourcing Desk</span>
           </div>
-          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-neutral-900 dark:text-white font-normal mt-1">
-            Enquiry Selections ({cartCount})
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal mt-1">
+            Enquiry Selections &amp; <span className="text-[#D4AF37] italic font-normal">Boutique Bag ({cartCount}).</span>
           </h1>
         </div>
 

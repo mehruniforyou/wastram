@@ -50,11 +50,11 @@ export default function BaisaServicesGrid() {
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-4 gap-4">
         <div>
           <div className="section-pill mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Manufacturing &amp; Supply</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-neutral-900 dark:text-white font-normal">
-            Atelier Sourcing Capabilities
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+            Atelier Sourcing &amp; <span className="text-[#D4AF37] italic font-normal">Manufacturing.</span>
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
             Direct Jaipur factory production for independent boutiques, multi-brand retailers, and private labels.

@@ -20,11 +20,11 @@ export default function AboutPage() {
           {/* Hero Section */}
           <div className="pt-8 md:pt-12 pb-12">
             <div className="section-pill mb-4">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>The Atelier · Jaipur, Rajasthan</span>
             </div>
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl tracking-tight text-neutral-900 dark:text-white font-normal max-w-4xl">
-              Where heritage craft meets contemporary form.
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl tracking-tight text-[#0B2D7F] dark:text-white font-normal max-w-4xl">
+              Where Heritage Craft Meets &amp; <span className="text-[#D4AF37] italic font-normal">Contemporary Form.</span>
             </h1>
             <p className="mt-4 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 max-w-2xl font-sans leading-relaxed">
               Founded in 2011 in the heart of Sanganer, Wastram operates as a
@@ -47,11 +47,11 @@ export default function AboutPage() {
             </div>
             <div className="lg:col-span-5 space-y-6">
               <div className="section-pill mb-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
                 <span>The Handloom Code</span>
               </div>
-              <h2 className="font-serif text-3xl md:text-4xl text-neutral-900 dark:text-white font-normal leading-tight">
-                Slow textiles made without compromise.
+              <h2 className="font-serif text-3xl md:text-4xl text-[#0B2D7F] dark:text-white font-normal leading-tight">
+                Slow Textiles Made &amp; <span className="text-[#D4AF37] italic font-normal">Without Compromise.</span>
               </h2>
               <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
                 Every print begins with seasoned teak wood, hand-chiseled by master carvers
@@ -70,7 +70,7 @@ export default function AboutPage() {
           {/* Pillars Grid */}
           <div className="mt-24 pt-8">
             <div className="section-pill mb-8">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Atelier Values</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

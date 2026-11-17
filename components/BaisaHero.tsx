@@ -20,12 +20,12 @@ export default function BaisaHero() {
         {/* Left Column: Typographic Editorial Copy */}
         <div className="lg:col-span-6 flex flex-col justify-center">
           <div className="section-pill mb-4 self-start">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Jaipur Handloom Atelier</span>
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-neutral-900 dark:text-white font-normal leading-[1.08] tracking-tight">
-            Artisanal Handloom Textiles &amp; <span className="italic font-normal text-neutral-600 dark:text-neutral-400">Boutique Sourcing.</span>
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#0B2D7F] dark:text-white font-normal leading-[1.08] tracking-tight">
+            Artisanal Handloom Textiles &amp; <span className="italic font-normal text-[#D4AF37]">Boutique Sourcing.</span>
           </h1>
 
           <p className="mt-5 text-sm sm:text-base text-neutral-600 dark:text-neutral-400 font-sans leading-relaxed max-w-xl">
@@ -53,15 +53,15 @@ export default function BaisaHero() {
           {/* B2B Trust Highlights */}
           <div className="mt-10 pt-2 flex flex-wrap items-center gap-6 text-xs text-neutral-500 dark:text-neutral-400 font-sans">
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Direct Sanganer Atelier</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Sizes S to XXL</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>MOQ: 20 Pcs / Style</span>
             </div>
           </div>

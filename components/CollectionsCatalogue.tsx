@@ -217,11 +217,11 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
         <div className="relative rounded-3xl overflow-hidden bg-white dark:bg-neutral-900 border border-ink-100 dark:border-white/5 p-6 sm:p-10 mb-8 shadow-2xs">
           <div className="max-w-2xl">
             <div className="section-pill mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>{activeChapter}</span>
             </div>
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-ink-950 dark:text-white font-normal">
-              {currentCategoryLabel}
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+              {currentCategoryLabel} &amp; <span className="text-[#D4AF37] italic font-normal">Jaipur Edits.</span>
             </h1>
             <p className="mt-3 text-xs sm:text-sm text-ink-600 dark:text-neutral-300 font-sans leading-relaxed">
               Hand-block printed in Sanganer and tailored in our Jaipur workshop. Pure mulmul, cambric 60-60 cotton, and modal silks graded from S to XXL.

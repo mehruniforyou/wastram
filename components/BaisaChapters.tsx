@@ -69,11 +69,11 @@ export default function BaisaChapters() {
     <section className="py-16 md:py-24 container-x bg-[#FFFEFE] dark:bg-[#12100E]">
       <div className="text-center max-w-2xl mx-auto mb-14">
         <div className="section-pill mb-3">
-          <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+          <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
           <span>Artisanal Collections</span>
         </div>
-        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-neutral-900 dark:text-white font-normal">
-          The Chapters
+        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+          The Chapters &amp; <span className="text-[#D4AF37] italic font-normal">Craft Narratives.</span>
         </h2>
         <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
           Dedicated craft narratives from our Jaipur atelier — handloom weaving, dabu printing, and fine gota needlework.

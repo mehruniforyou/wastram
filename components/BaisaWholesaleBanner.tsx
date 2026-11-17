@@ -16,13 +16,13 @@ export default function BaisaWholesaleBanner() {
         <div className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.06)_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none" />
 
         <div className="relative z-10 max-w-2xl">
-          <div className="section-pill mb-4 border-white/20 bg-white/10 text-white">
-            <span className="w-1.5 h-1.5 rounded-full bg-white" />
+          <div className="section-pill mb-4 border-[#3B82F6]/40 text-white">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]" />
             <span>Global B2B Supply</span>
           </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal leading-tight text-white">
-            Direct Sourcing for Boutiques Worldwide
+            Direct Sourcing for <span className="text-[#D4AF37] italic font-normal">Boutiques Worldwide.</span>
           </h2>
 
           <p className="mt-4 text-xs sm:text-sm text-neutral-300 leading-relaxed font-sans max-w-xl">

@@ -1,10 +1,11 @@
 'use client';
 
-import React, { memo } from 'react';
+import React, { memo, useState } from 'react';
 import Link from 'next/link';
 import { Heart, Plus, MessageCircle } from 'lucide-react';
 import { NishoramaProduct } from '@/data/nishorama-data';
 import { useCart } from '@/context/CartContext';
+import B2BEnquiryModal from './B2BEnquiryModal';
 
 interface ProductCardProps {
   product: NishoramaProduct;
@@ -47,6 +48,15 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
     e.stopPropagation();
     const defaultSize = (product.sizes && product.sizes[0]) || 'M';
     addToCart(product, defaultSize, 1);
+  };
+
+  const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
+
+  // Enquiry modal handler
+  const handleOpenEnquiry = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsEnquiryOpen(true);
   };
 
   // WhatsApp Enquiry Link
@@ -166,16 +176,49 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
           </span>
         </div>
 
-        {/* Direct WhatsApp Concierge Micro-CTA on Hover / Mobile */}
-        <button
-          type="button"
-          onClick={handleWhatsAppEnquiry}
-          className="mt-2.5 w-full py-1.5 px-3 rounded-full border border-neutral-300 dark:border-white/20 hover:border-neutral-900 hover:bg-neutral-900 hover:text-white text-neutral-800 dark:text-neutral-200 text-[11px] font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer group/wa"
-        >
-          <MessageCircle size={12} className="text-neutral-700 dark:text-neutral-300 group-hover/wa:text-white" />
-          <span>Enquire on WhatsApp</span>
-        </button>
+        {/* Dual CTAs: Side-by-side on Desktop (50/50 symmetric pills) & Mobile (80% Enquire pill + 20% WhatsApp circular icon) */}
+        <div className="mt-2.5 flex items-center gap-1.5 sm:gap-2 w-full">
+          {/* Enquire Button: 80% on mobile, symmetric 50% (flex-1) on desktop */}
+          <button
+            type="button"
+            onClick={handleOpenEnquiry}
+            className="w-[78%] sm:w-[80%] md:w-auto md:flex-1 py-1.5 px-2.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-white dark:hover:text-neutral-950 text-[11px] font-medium text-center transition-all cursor-pointer truncate shadow-2xs"
+            aria-label={`Enquire about ${product.title}`}
+          >
+            Enquire
+          </button>
+
+          {/* WhatsApp Button Desktop: Symmetric 50% flex-1 pill with icon and text */}
+          <button
+            type="button"
+            onClick={handleWhatsAppEnquiry}
+            className="hidden md:flex flex-1 py-1.5 px-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-[11px] font-medium items-center justify-center gap-1.5 transition-all cursor-pointer shadow-2xs shrink-0"
+            aria-label="Enquire on WhatsApp"
+          >
+            <MessageCircle size={13} className="shrink-0" />
+            <span>WhatsApp</span>
+          </button>
+
+          {/* WhatsApp Button Mobile: 20% width circular icon button */}
+          <button
+            type="button"
+            onClick={handleWhatsAppEnquiry}
+            className="flex md:hidden w-[22%] sm:w-[20%] aspect-square max-w-[34px] rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white items-center justify-center shrink-0 transition-all cursor-pointer shadow-2xs"
+            aria-label="Enquire on WhatsApp"
+          >
+            <MessageCircle size={14} />
+          </button>
+        </div>
       </div>
+
+      {/* B2B Enquiry Modal */}
+      {isEnquiryOpen && (
+        <B2BEnquiryModal
+          isOpen={isEnquiryOpen}
+          onClose={() => setIsEnquiryOpen(false)}
+          product={product}
+        />
+      )}
     </div>
   );
 }

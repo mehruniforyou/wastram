@@ -69,11 +69,11 @@ export default function BaisaCategoryTiles() {
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-3 gap-4">
         <div>
           <div className="section-pill mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Curated Silhouettes</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-normal">
-            Boutique Silhouettes
+          <h2 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
+            Boutique Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Jaipur Edits.</span>
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
             Pure cambric cotton and artisan block prints, available for bulk supply across sizes S to XXL.

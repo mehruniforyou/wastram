@@ -48,11 +48,11 @@ export default function CraftPage() {
       <main className="flex-1 container-x py-8 md:py-16">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="section-pill mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>GI-Tagged Rajasthan Heritage</span>
           </div>
-          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
-            Five Hundred Years of It — The Craft
+          <h1 className="font-serif text-3xl sm:text-5xl text-[#0B2D7F] dark:text-white font-normal leading-tight">
+            Five Hundred Years of Heritage &amp; <span className="text-[#D4AF37] italic font-normal">The Sanganer Craft.</span>
           </h1>
           <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto leading-relaxed">
             The ancient art of Sanganer hand block printing is recognized globally for its crisp, delicate floral butas, curvilinear vines, and enduring natural drapes.
@@ -84,7 +84,7 @@ export default function CraftPage() {
         {/* CTA to Shop Collections */}
         <div className="text-center bg-[#071F59] text-white rounded-3xl p-8 sm:p-14 max-w-4xl mx-auto shadow-xl">
           <h2 className="font-serif text-2xl sm:text-4xl text-white font-normal mb-3">
-            Wear Handcrafted Heritage Today
+            Handcrafted Heritage &amp; <span className="text-[#D4AF37] italic font-normal">Boutique Sourcing.</span>
           </h2>
           <p className="text-xs sm:text-sm text-white/80 max-w-xl mx-auto mb-8 font-sans">
             Every garment in our collections is crafted by the hands of real Jaipur artisans. Dispatched directly from our Sanganer workshop with worldwide boutique air cargo.

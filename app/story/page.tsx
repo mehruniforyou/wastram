@@ -21,11 +21,11 @@ export default function StoryPage() {
         {/* Hero */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="section-pill mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Sanganer Atelier Heritage</span>
           </div>
-          <h1 className="font-serif text-3xl sm:text-5xl text-neutral-900 dark:text-white font-normal leading-tight">
-            The Wastram Story
+          <h1 className="font-serif text-3xl sm:text-5xl text-[#0B2D7F] dark:text-white font-normal leading-tight">
+            The Wastram Story &amp; <span className="text-[#D4AF37] italic font-normal">Jaipur Atelier.</span>
           </h1>
           <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto leading-relaxed">
             Bridging 500 years of Sanganer hand-block printing heritage with modern, versatile silhouettes crafted for women across the world.
@@ -36,11 +36,11 @@ export default function StoryPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-20">
           <div className="lg:col-span-6">
             <div className="section-pill mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Sanganer Lineage</span>
             </div>
-            <h2 className="font-serif text-2xl sm:text-4xl text-neutral-900 dark:text-white font-normal mb-4">
-              Where Every Block Has a Soul
+            <h2 className="font-serif text-2xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal mb-4">
+              Where Every Block &amp; <span className="text-[#D4AF37] italic font-normal">Has a Soul.</span>
             </h2>
             <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans mb-4">
               Wastram was founded in the historic artisan township of Sanganer, just south of Jaipur's walled city. 
@@ -76,11 +76,11 @@ export default function StoryPage() {
           </div>
           <div className="lg:col-span-6 order-1 lg:order-2">
             <div className="section-pill mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Transparent Atelier</span>
             </div>
-            <h2 className="font-serif text-2xl sm:text-4xl text-neutral-900 dark:text-white font-normal mb-4">
-              Own Factory, Zero Middlemen
+            <h2 className="font-serif text-2xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal mb-4">
+              Own Factory &amp; <span className="text-[#D4AF37] italic font-normal">Zero Middlemen.</span>
             </h2>
             <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans mb-4">
               Unlike typical fashion brands that subcontract orders through multiple agents, Wastram owns and operates 

@@ -56,11 +56,11 @@ export default function BaisaReels() {
       <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 pb-4 gap-4">
         <div>
           <div className="section-pill mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Fabric in Motion</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-neutral-900 dark:text-white font-normal">
-            Real Silhouettes &amp; Drape
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+            Real Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Atelier Drape.</span>
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
             Authentic fabric movement, fall, and natural light drape filmed in our Jaipur atelier.
