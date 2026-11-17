@@ -43,10 +43,10 @@ export default function BaisaBestsellers() {
   };
 
   return (
-    <section className="py-12 md:py-20 bg-[#FFFEFE] dark:bg-[#0E0C0A] transition-colors border-y border-ink-100 dark:border-white/5">
+    <section className="py-8 md:py-14 bg-[#FFFEFE] dark:bg-[#0E0C0A] transition-colors border-y border-ink-100 dark:border-white/5">
       <div className="container-x">
         {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
-        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <div className="section-pill mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Bestselling Silhouettes</span>

@@ -69,9 +69,9 @@ const ORDER_STEPS = [
 
 export default function BaisaFactoryStats() {
   return (
-    <section className="py-16 md:py-24 bg-[#FFFEFE] dark:bg-[#12100E]">
+    <section className="py-8 md:py-14 bg-[#FFFEFE] dark:bg-[#12100E]">
       {/* 1. Craft & Heritage Intro */}
-      <div className="container-x mb-16">
+      <div className="container-x mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-6">
             <div className="section-pill mb-3">
@@ -103,16 +103,16 @@ export default function BaisaFactoryStats() {
           </div>
 
           <div className="lg:col-span-6">
-            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-lg border border-neutral-200/60 dark:border-white/10">
+            <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-neutral-200/80 dark:border-white/10 group bg-neutral-900">
               <img
-                src="/cord-sets/12550.jpg.jpeg"
-                alt="Jaipur Sanganer Hand Block Printing"
-                className="h-full w-full object-cover object-center"
+                src="/images/hero/hero-main.jpg"
+                alt="Jaipur Sanganer Hand Block Printing & Handloom Atelier"
+                className="h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-serif text-sm font-medium">Sanganer Textile Craft Hub, Jaipur</p>
-                <p className="text-[11px] text-white/80">Every motif aligned and stamped by hand.</p>
+                <p className="font-serif text-sm sm:text-base font-medium">Sanganer Textile Craft Hub, Jaipur</p>
+                <p className="text-[11px] sm:text-xs text-white/80">Every motif aligned and stamped by hand on seasoned looms.</p>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function BaisaFactoryStats() {
       </div>
 
       {/* 2. Six Circular Trust Badges */}
-      <div className="container-x mb-20">
+      <div className="container-x mb-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {TRUST_BADGES.map((b, i) => {
             const Icon = b.icon;
@@ -148,7 +148,7 @@ export default function BaisaFactoryStats() {
 
       {/* 4. How Ordering Works 4-Step Timeline */}
       <div className="container-x">
-        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <div className="section-pill mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Order Fulfillment</span>

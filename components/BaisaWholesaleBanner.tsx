@@ -10,7 +10,7 @@ export default function BaisaWholesaleBanner() {
   )}`;
 
   return (
-    <section className="py-12 md:py-20 container-x">
+    <section className="py-8 md:py-14 container-x">
       <div className="relative rounded-[32px] overflow-hidden bg-gradient-to-br from-[#051336] via-[#091D4B] to-[#030B22] text-white p-7 sm:p-10 lg:p-14 shadow-2xl border border-white/15">
         {/* Subtle Heritage Jaali Texture Background */}
         <div className="absolute inset-0 bg-[radial-gradient(rgba(212,175,55,0.08)_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none" />

@@ -66,8 +66,8 @@ const CHAPTERS: Chapter[] = [
 
 export default function BaisaChapters() {
   return (
-    <section className="py-16 md:py-24 container-x bg-[#FFFEFE] dark:bg-[#12100E]">
-      <div className="text-center max-w-2xl mx-auto mb-14">
+    <section className="py-8 md:py-14 container-x bg-[#FFFEFE] dark:bg-[#12100E]">
+      <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
         <div className="section-pill mb-3">
           <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
           <span>Artisanal Collections</span>

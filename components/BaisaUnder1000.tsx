@@ -29,10 +29,10 @@ export default function BaisaUnder1000() {
   }, []);
 
   return (
-    <section className="py-14 md:py-20 bg-[#FFFEFE] dark:bg-[#100E0C]">
+    <section className="py-8 md:py-14 bg-[#FFFEFE] dark:bg-[#100E0C]">
       <div className="container-x">
         {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
-        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <div className="section-pill mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Everyday Handblocks</span>

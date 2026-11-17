@@ -6,7 +6,7 @@ import { ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';
 
 export default function BaisaHero() {
   return (
-    <section className="relative overflow-hidden bg-[#FFFEFE] dark:bg-[#12100E] pt-8 md:pt-12 pb-16 md:pb-24">
+    <section className="relative overflow-hidden bg-[#FFFEFE] dark:bg-[#12100E] pt-4 md:pt-8 pb-8 md:pb-12">
       {/* Delicate Sanganeri Block-print Paisley Watermark Motif */}
       <div
         className="absolute inset-0 z-0 opacity-[0.04] dark:opacity-[0.02] pointer-events-none bg-repeat"
