@@ -85,25 +85,6 @@ export default function Footer() {
               Direct Jaipur handloom atelier specializing in Pure Mulmul, Modal Silk,
               Gota Patti needlework, and Sanganer block prints for high-fashion boutiques worldwide.
             </p>
-
-            <div className="mt-3 sm:mt-5 space-y-1 sm:space-y-1.5 text-xs sm:text-sm text-foreground/70 font-body">
-              <p className="flex items-start gap-2">
-                <MapPin size={14} className="text-foreground shrink-0 mt-0.5" />
-                <span>Sanganer Textile Industrial Area, Jaipur, Rajasthan 302029</span>
-              </p>
-              <p className="flex items-center gap-2">
-                <Phone size={14} className="text-foreground shrink-0" />
-                <span>+91 80030 88838 / +91 70584 00490</span>
-              </p>
-              <p className="flex items-center gap-2">
-                <Mail size={14} className="text-foreground shrink-0" />
-                <span>hello@wastram.in · exports@wastram.in</span>
-              </p>
-            </div>
-
-            <p className="mt-3 sm:mt-4 text-[11px] text-foreground/50 font-body">
-              &copy; {new Date().getFullYear()} Wastram Jaipur. All rights reserved.
-            </p>
           </div>
 
           {/* Group Column 2 & Column 3 side-by-side on mobile */}
@@ -250,6 +231,42 @@ export default function Footer() {
             </a>
           </div>
         </div>
+      </div>
+
+      {/* Dedicated Coordinates & Copyright Strip (Shifted out of Column 1 for Desktop Elegance) */}
+      <div className="mt-8 md:mt-12 pt-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-foreground/75 font-body">
+        {/* Coordinates: Address, Single Phone, Updated Email */}
+        <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 flex-wrap">
+          <div className="flex items-center gap-2">
+            <MapPin size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
+            <span>Sanganer Textile Industrial Area, Jaipur, Rajasthan 302029</span>
+          </div>
+
+          <span className="hidden sm:inline text-foreground/30">·</span>
+
+          <a
+            href="tel:+918003088838"
+            className="flex items-center gap-2 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
+          >
+            <Phone size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
+            <span>+91 80030 88838</span>
+          </a>
+
+          <span className="hidden sm:inline text-foreground/30">·</span>
+
+          <a
+            href="mailto:marutitex@gmail.com"
+            className="flex items-center gap-2 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
+          >
+            <Mail size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
+            <span>marutitex@gmail.com</span>
+          </a>
+        </div>
+
+        {/* Copyright */}
+        <p className="text-[11px] text-foreground/50 shrink-0">
+          &copy; {new Date().getFullYear()} Wastram Jaipur. All rights reserved.
+        </p>
       </div>
     </div>
 
