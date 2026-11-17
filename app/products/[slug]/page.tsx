@@ -187,32 +187,37 @@ export default function ProductDetailPage({ params }: Props) {
     }
   }, [params.slug, initialItem]);
 
-  if (isArchived) {
-    notFound();
-  }
-
-  if (isLoading || !product) {
-    return (
-      <div className="min-h-screen bg-[#FFFEFE] dark:bg-[#0E0C0A]">
-        <Header onOpenSearch={() => setIsSearchOpen(true)} />
-        <main className="pt-24 md:pt-28">
-          <ProductDetailSkeleton />
-        </main>
-      </div>
-    );
-  }
-
-  // Extract styling variants
-  const variants: any[] = React.useMemo(() => {
+  // Extract and normalize styling variants (Hook must be declared before any early returns)
+  const variants = React.useMemo(() => {
     if (!product) return [];
     const list: any[] =
       (Array.isArray(product.colorVariants) && product.colorVariants.length > 0 && product.colorVariants) ||
       (Array.isArray((product as any).variants) && (product as any).variants.length > 0 && (product as any).variants) ||
       [];
-    return list.filter((v) => v && (Array.isArray(v.images) ? v.images.length > 0 : v.image));
+    return list
+      .map((v: any, idx: number) => {
+        if (!v) return null;
+        const rawImgs = Array.isArray(v.images)
+          ? v.images
+          : (v.image ? [v.image] : []);
+        const cleanImgs: string[] = rawImgs
+          .map((item: any) => {
+            if (!item) return '';
+            if (typeof item === 'string') return item;
+            return item.url || item.src || item.image || '';
+          })
+          .filter((url: string) => typeof url === 'string' && url.trim().length > 0 && !url.includes('[object'));
+
+        return {
+          id: String(v.id || `var-${idx}`),
+          name: typeof v.name === 'string' && v.name.trim() ? v.name.trim() : `Styling ${idx + 1}`,
+          images: cleanImgs,
+        };
+      })
+      .filter((v): v is { id: string; name: string; images: string[] } => Boolean(v && v.images.length > 0));
   }, [product]);
 
-  // Active selected styling variant
+  // Active selected styling variant (Hook must be declared before any early returns)
   const activeVariant = React.useMemo(() => {
     if (variants.length === 0) return null;
     if (selectedVariantId) {
@@ -222,7 +227,7 @@ export default function ProductDetailPage({ params }: Props) {
     return variants[0];
   }, [variants, selectedVariantId]);
 
-  // Normalize gallery images (switches dynamically to active variant image set if present)
+  // Normalize gallery images (Hook must be declared before any early returns)
   const images: string[] = React.useMemo(() => {
     if (activeVariant && Array.isArray(activeVariant.images) && activeVariant.images.length > 0) {
       const list = activeVariant.images
@@ -234,6 +239,8 @@ export default function ProductDetailPage({ params }: Props) {
         .filter((url: string) => typeof url === 'string' && url.trim().length > 0 && !url.includes('[object'));
       if (list.length > 0) return list;
     }
+
+    if (!product) return ['/placeholder.jpg'];
 
     const rawImages: any[] =
       (Array.isArray(product.images) && product.images.length > 0 && product.images) ||
@@ -256,7 +263,23 @@ export default function ProductDetailPage({ params }: Props) {
     return fallbackList;
   }, [product, activeVariant]);
 
-  const currentHeroImg = images[activeImageIndex] || images[0];
+  if (isArchived) {
+    notFound();
+  }
+
+  if (isLoading || !product) {
+    return (
+      <div className="min-h-screen bg-[#FFFEFE] dark:bg-[#0E0C0A]">
+        <Header onOpenSearch={() => setIsSearchOpen(true)} />
+        <main className="pt-24 md:pt-28">
+          <ProductDetailSkeleton />
+        </main>
+      </div>
+    );
+  }
+
+  const safeImageIndex = activeImageIndex >= 0 && activeImageIndex < images.length ? activeImageIndex : 0;
+  const currentHeroImg = images[safeImageIndex] || images[0] || '/placeholder.jpg';
 
   const handleSelectVariant = (variantId: string) => {
     setSelectedVariantId(variantId);
@@ -354,7 +377,7 @@ Please share the wholesale lookbook and trade quotation.`
                     type="button"
                     onClick={() => setActiveImageIndex(idx)}
                     className={`relative w-20 h-28 rounded-2xl overflow-hidden border-2 transition-all shrink-0 cursor-pointer ${
-                      activeImageIndex === idx
+                      safeImageIndex === idx
                         ? 'border-[#0B2D7F] dark:border-[#D4AF37] shadow-md scale-102'
                         : 'border-transparent hover:border-neutral-300 opacity-70 hover:opacity-100'
                     }`}
@@ -386,7 +409,7 @@ Please share the wholesale lookbook and trade quotation.`
 
               {/* Top Floating Photo Counter */}
               <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-[11px] font-sans font-medium bg-white/90 dark:bg-black/80 backdrop-blur-md text-neutral-800 dark:text-neutral-200 shadow-xs border border-white/40">
-                {activeImageIndex + 1} / {images.length}
+                {safeImageIndex + 1} / {images.length}
               </div>
             </div>
           </div>
@@ -710,7 +733,7 @@ Please share the wholesale lookbook and trade quotation.`
 
             {/* Bottom Floating Counter */}
             <div className="absolute bottom-3.5 right-3.5 px-2.5 py-0.5 rounded-full text-[10.5px] font-sans font-medium bg-black/60 backdrop-blur-md text-white shadow-xs">
-              {activeImageIndex + 1} / {images.length}
+              {safeImageIndex + 1} / {images.length}
             </div>
 
             {/* Dot Indicators */}
@@ -722,7 +745,7 @@ Please share the wholesale lookbook and trade quotation.`
                     type="button"
                     onClick={() => scrollToMobileImage(idx)}
                     className={`h-1.5 rounded-full transition-all duration-300 ${
-                      activeImageIndex === idx
+                      safeImageIndex === idx
                         ? 'w-6 bg-[#0B2D7F] dark:bg-[#D4AF37]'
                         : 'w-1.5 bg-neutral-300 dark:bg-neutral-700'
                     }`}
