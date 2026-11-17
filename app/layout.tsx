@@ -10,8 +10,8 @@ import StoryViewerModal from '@/components/StoryViewerModal';
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#FAF9F5' },
-    { media: '(prefers-color-scheme: dark)', color: '#12100E' },
+    { media: '(prefers-color-scheme: light)', color: '#0B2D7F' },
+    { media: '(prefers-color-scheme: dark)', color: '#0B2D7F' },
   ],
   width: 'device-width',
   initialScale: 1,
@@ -56,6 +56,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="theme-color" content="#0B2D7F" />
+        <meta name="msapplication-navbutton-color" content="#0B2D7F" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#0B2D7F" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

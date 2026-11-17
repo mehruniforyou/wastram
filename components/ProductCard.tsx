@@ -2,10 +2,26 @@
 
 import React, { memo, useState } from 'react';
 import Link from 'next/link';
-import { Heart, Plus, MessageCircle } from 'lucide-react';
+import { Heart, Plus } from 'lucide-react';
 import { NishoramaProduct } from '@/data/nishorama-data';
 import { useCart } from '@/context/CartContext';
 import B2BEnquiryModal from './B2BEnquiryModal';
+
+// Authentic Official WhatsApp Logo SVG Icon
+function WhatsAppIcon({ className = 'w-4 h-4 fill-current shrink-0' }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path
+        fill="currentColor"
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.456 5.711 1.457h.004c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+      />
+    </svg>
+  );
+}
 
 interface ProductCardProps {
   product: NishoramaProduct;
@@ -176,37 +192,37 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
           </span>
         </div>
 
-        {/* Dual CTAs: Side-by-side on Desktop (50/50 symmetric pills) & Mobile (80% Enquire pill + 20% WhatsApp circular icon) */}
-        <div className="mt-2.5 flex items-center gap-1.5 sm:gap-2 w-full">
-          {/* Enquire Button: 80% on mobile, symmetric 50% (flex-1) on desktop */}
+        {/* Dual CTAs: Side-by-side on Desktop (50/50 symmetric pills) & Mobile (Enquire pill + 2x size circular WhatsApp button) */}
+        <div className="mt-2.5 flex items-center gap-2 w-full">
+          {/* Enquire Button: matches height on mobile, symmetric 50% (flex-1) on desktop */}
           <button
             type="button"
             onClick={handleOpenEnquiry}
-            className="w-[78%] sm:w-[80%] md:w-auto md:flex-1 py-1.5 px-2.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-white dark:hover:text-neutral-950 text-[11px] font-medium text-center transition-all cursor-pointer truncate shadow-2xs"
+            className="flex-1 h-[52px] md:h-auto md:py-1.5 md:px-2.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-white dark:hover:text-neutral-950 text-xs md:text-[11px] font-medium text-center flex items-center justify-center transition-all cursor-pointer truncate shadow-2xs"
             aria-label={`Enquire about ${product.title}`}
           >
             Enquire
           </button>
 
-          {/* WhatsApp Button Desktop: Symmetric 50% flex-1 pill with icon and text */}
+          {/* WhatsApp Button Desktop: Symmetric 50% flex-1 pill with real WhatsApp logo and text */}
           <button
             type="button"
             onClick={handleWhatsAppEnquiry}
             className="hidden md:flex flex-1 py-1.5 px-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-[11px] font-medium items-center justify-center gap-1.5 transition-all cursor-pointer shadow-2xs shrink-0"
             aria-label="Enquire on WhatsApp"
           >
-            <MessageCircle size={13} className="shrink-0" />
+            <WhatsAppIcon className="w-3.5 h-3.5 fill-current shrink-0" />
             <span>WhatsApp</span>
           </button>
 
-          {/* WhatsApp Button Mobile: 20% width circular icon button */}
+          {/* WhatsApp Button Mobile: 2x in size circular icon button with actual real WhatsApp logo */}
           <button
             type="button"
             onClick={handleWhatsAppEnquiry}
-            className="flex md:hidden w-[22%] sm:w-[20%] aspect-square max-w-[34px] rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white items-center justify-center shrink-0 transition-all cursor-pointer shadow-2xs"
+            className="flex md:hidden w-[52px] h-[52px] min-w-[52px] min-h-[52px] rounded-full bg-[#0B2D7F] hover:bg-[#071F59] active:scale-95 text-white items-center justify-center shrink-0 transition-all cursor-pointer shadow-sm"
             aria-label="Enquire on WhatsApp"
           >
-            <MessageCircle size={14} />
+            <WhatsAppIcon className="w-7 h-7 fill-current" />
           </button>
         </div>
       </div>

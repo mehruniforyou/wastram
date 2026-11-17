@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Indian Women's Wear Wholesale & Export Manufacturer",
     start_url: '/',
     display: 'standalone',
-    background_color: '#FFFEFE',
-    theme_color: '#FFFEFE',
+    background_color: '#0B2D7F',
+    theme_color: '#0B2D7F',
     icons: [
       {
         src: '/images/brand/wastram-craft-emblem.png',
