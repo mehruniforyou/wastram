@@ -148,15 +148,15 @@ export default function BaisaFactoryStats() {
 
       {/* 4. How Ordering Works 4-Step Timeline */}
       <div className="container-x">
-        <div className="text-center max-w-xl mx-auto mb-12">
+        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
           <div className="section-pill mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Order Fulfillment</span>
           </div>
-          <h3 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
+          <h3 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
             How Bulk Ordering Works &amp; <span className="text-[#D4AF37] italic font-normal">Global Dispatch.</span>
           </h3>
-          <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-md mx-auto">
+          <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
             A transparent 4-stage process from silhouette curation to door-to-door global air freight.
           </p>
         </div>

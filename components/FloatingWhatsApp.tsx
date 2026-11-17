@@ -58,14 +58,14 @@ export default function FloatingWhatsApp() {
         </div>
       )}
 
-      {/* Floating Trigger Pill on Desktop, Circular FAB on Mobile */}
+      {/* Floating Trigger Pill on Desktop, Circular FAB on Mobile (2x Larger on Mobile Layout) */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-12 h-12 sm:w-auto sm:h-auto sm:px-5 sm:py-3 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 shadow-2xl transition-all duration-300 cursor-pointer active:scale-95 border border-neutral-700 dark:border-white/20 flex items-center justify-center gap-2.5"
+        className="w-14 h-14 sm:w-auto sm:h-auto sm:px-5 sm:py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white shadow-2xl shadow-[#0B2D7F]/30 transition-all duration-300 cursor-pointer active:scale-95 border-2 border-white/20 sm:border sm:border-white/20 flex items-center justify-center gap-2.5"
         aria-label="Open WhatsApp Concierge"
       >
         <svg
-          className="w-5 h-5 fill-current shrink-0"
+          className="w-7 h-7 sm:w-5 sm:h-5 fill-[#25D366] shrink-0"
           viewBox="0 0 24 24"
           aria-hidden="true"
         >

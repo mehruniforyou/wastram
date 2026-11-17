@@ -7,6 +7,7 @@ import WishlistToast from '@/components/WishlistToast';
 import TapAndViewModal from '@/components/TapAndViewModal';
 import BodyMeasurementModal from '@/components/BodyMeasurementModal';
 import StoryViewerModal from '@/components/StoryViewerModal';
+import CurtainIntro from '@/components/CurtainIntro';
 
 export const viewport: Viewport = {
   themeColor: [
@@ -69,6 +70,7 @@ export default function RootLayout({
       <body className="bg-background text-foreground font-sans antialiased selection:bg-[#0B2D7F] selection:text-white w-full">
         <ThemeProvider>
           <CartProvider>
+            <CurtainIntro />
             {children}
             <CartDrawer />
             <StoryViewerModal />

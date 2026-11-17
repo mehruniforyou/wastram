@@ -45,47 +45,45 @@ export default function BaisaBestsellers() {
   return (
     <section className="py-12 md:py-20 bg-[#FFFEFE] dark:bg-[#0E0C0A] transition-colors border-y border-ink-100 dark:border-white/5">
       <div className="container-x">
-        {/* Header row */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
-          <div>
-            <div className="section-pill mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
-              <span>Bestselling Silhouettes</span>
-            </div>
-            <h2 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
-              Reordered Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Atelier Staples.</span>
-            </h2>
-            <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
-              Consistent top-reordered silhouettes from our Sanganer workshop — graded S to XXL with low batch MOQs.
-            </p>
+        {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
+        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+          <div className="section-pill mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
+            <span>Bestselling Silhouettes</span>
           </div>
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+            Reordered Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Atelier Staples.</span>
+          </h2>
+          <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
+            Consistent top-reordered silhouettes from our Sanganer workshop — graded S to XXL with low batch MOQs.
+          </p>
 
-          <div className="flex items-center gap-3">
+          <div className="mt-5 flex items-center justify-center gap-4">
             <Link
               href="/collections/bestsellers"
-              className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] dark:hover:text-[#F3E5AB] transition-colors mr-2"
+              className="group inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] transition-colors"
             >
               <span>All bestsellers</span>
-              <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+              <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
             </Link>
 
             {/* Circular Carousel Controls */}
-            <div className="hidden sm:flex items-center gap-2">
+            <div className="hidden sm:flex items-center gap-2 pl-3 border-l border-neutral-300 dark:border-white/15">
               <button
                 type="button"
                 onClick={() => scroll('left')}
-                className="w-10 h-10 rounded-full border border-[#0B2D7F]/30 hover:border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37]/40 dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 flex items-center justify-center transition-all shadow-xs"
+                className="w-8 h-8 rounded-full border border-[#0B2D7F]/30 hover:border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37]/40 dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 flex items-center justify-center transition-all shadow-xs cursor-pointer"
                 aria-label="Previous bestsellers"
               >
-                <ChevronLeft size={18} />
+                <ChevronLeft size={16} />
               </button>
               <button
                 type="button"
                 onClick={() => scroll('right')}
-                className="w-10 h-10 rounded-full border border-[#0B2D7F]/30 hover:border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37]/40 dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 flex items-center justify-center transition-all shadow-xs"
+                className="w-8 h-8 rounded-full border border-[#0B2D7F]/30 hover:border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37]/40 dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 flex items-center justify-center transition-all shadow-xs cursor-pointer"
                 aria-label="Next bestsellers"
               >
-                <ChevronRight size={18} />
+                <ChevronRight size={16} />
               </button>
             </div>
           </div>

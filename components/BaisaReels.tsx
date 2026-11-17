@@ -53,27 +53,27 @@ export default function BaisaReels() {
 
   return (
     <section className="py-16 md:py-24 container-x">
-      <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 pb-4 gap-4">
-        <div>
-          <div className="section-pill mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
-            <span>Fabric in Motion</span>
-          </div>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
-            Real Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Atelier Drape.</span>
-          </h2>
-          <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
-            Authentic fabric movement, fall, and natural light drape filmed in our Jaipur atelier.
-          </p>
+      {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
+      <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <div className="section-pill mb-3">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
+          <span>Fabric in Motion</span>
         </div>
-
-        <Link
-          href="/lookbook"
-          className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] dark:hover:text-[#F3E5AB] transition-colors"
-        >
-          <span>Explore Lookbook 2026</span>
-          <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
-        </Link>
+        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+          Real Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Atelier Drape.</span>
+        </h2>
+        <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
+          Authentic fabric movement, fall, and natural light drape filmed in our Jaipur atelier.
+        </p>
+        <div className="mt-4">
+          <Link
+            href="/lookbook"
+            className="group inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] transition-colors"
+          >
+            <span>Explore Lookbook 2026</span>
+            <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
       </div>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">

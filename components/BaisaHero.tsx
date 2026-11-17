@@ -32,8 +32,24 @@ export default function BaisaHero() {
             Direct atelier manufacturing for luxury fashion boutiques and overseas labels. Pure mulmul, modal silks, and authentic Sanganer block prints in graded sizes S to XXL.
           </p>
 
-          {/* Action Buttons: Placed at the bottom of the hero editorial copy */}
-          <div className="mt-8 sm:mt-10 flex flex-wrap items-center gap-4">
+          {/* Sourcing Proof Points Strip (Placed Above the CTAs) */}
+          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2.5 text-xs sm:text-sm font-sans text-neutral-700 dark:text-neutral-300">
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F] dark:bg-[#D4AF37]" />
+              <span>Direct Sanganer Atelier</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F] dark:bg-[#D4AF37]" />
+              <span>Sizes S to XXL</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F] dark:bg-[#D4AF37]" />
+              <span>MOQ: 20 Pcs / Style</span>
+            </div>
+          </div>
+
+          {/* Action Buttons: Placed at the very bottom of this editorial column */}
+          <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link
               href="/products"
               className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-sm font-medium tracking-wide shadow-md shadow-[#0B2D7F]/25 transition-all duration-200 active:scale-98"

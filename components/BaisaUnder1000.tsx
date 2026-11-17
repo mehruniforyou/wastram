@@ -31,27 +31,27 @@ export default function BaisaUnder1000() {
   return (
     <section className="py-14 md:py-20 bg-[#FFFEFE] dark:bg-[#100E0C]">
       <div className="container-x">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 pb-3 gap-4">
-          <div>
-            <div className="section-pill mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
-              <span>Everyday Handblocks</span>
-            </div>
-            <h2 className="font-serif text-3xl sm:text-4xl text-[#0B2D7F] dark:text-white font-normal">
-              Everyday Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Daily Co-ords.</span>
-            </h2>
-            <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
-              Pure 60-60 cambric cotton tunics and breathable daily coords crafted for bulk boutique inventory.
-            </p>
+        {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
+        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+          <div className="section-pill mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
+            <span>Everyday Handblocks</span>
           </div>
-
-          <Link
-            href="/collections/shop-all"
-            className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] dark:hover:text-[#F3E5AB] transition-colors"
-          >
-            <span>Explore all silhouettes</span>
-            <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
-          </Link>
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+            Everyday Silhouettes &amp; <span className="text-[#D4AF37] italic font-normal">Daily Co-ords.</span>
+          </h2>
+          <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
+            Pure 60-60 cambric cotton tunics and breathable daily coords crafted for bulk boutique inventory.
+          </p>
+          <div className="mt-4">
+            <Link
+              href="/collections/shop-all"
+              className="group inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] transition-colors"
+            >
+              <span>Explore all silhouettes</span>
+              <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">

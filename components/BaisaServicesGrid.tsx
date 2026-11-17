@@ -47,19 +47,18 @@ const SERVICES: ServiceItem[] = [
 export default function BaisaServicesGrid() {
   return (
     <section className="py-16 md:py-24 container-x">
-      <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-4 gap-4">
-        <div>
-          <div className="section-pill mb-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
-            <span>Manufacturing &amp; Supply</span>
-          </div>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
-            Atelier Sourcing &amp; <span className="text-[#D4AF37] italic font-normal">Manufacturing.</span>
-          </h2>
-          <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl">
-            Direct Jaipur factory production for independent boutiques, multi-brand retailers, and private labels.
-          </p>
+      {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
+      <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <div className="section-pill mb-3">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
+          <span>Manufacturing &amp; Supply</span>
         </div>
+        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#0B2D7F] dark:text-white font-normal">
+          Atelier Sourcing &amp; <span className="text-[#D4AF37] italic font-normal">Manufacturing.</span>
+        </h2>
+        <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
+          Direct Jaipur factory production for independent boutiques, multi-brand retailers, and private labels.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
