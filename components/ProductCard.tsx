@@ -98,7 +98,7 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
       data-testid={`product-card-${product.slug || product.id}`}
     >
       {/* 1. 3:4 Portrait Image Container with Pop-out, Shadow & Minimalist Border Hover */}
-      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-[#FFFEFE] border border-neutral-200/80 dark:border-white/10 group-hover:border-neutral-900 dark:group-hover:border-white shadow-sm group-hover:shadow-xl group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
+      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-[#FFFEFE] border border-neutral-200/80 dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-[#D4AF37] shadow-sm group-hover:shadow-xl group-hover:shadow-[#0B2D7F]/10 group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
         <Link href={`/products/${product.slug}`} className="block w-full h-full">
           {/* Primary Main Image */}
           <img
@@ -121,19 +121,6 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
           )}
         </Link>
 
-        {/* Badges: Top Left in Refined Editorial Black */}
-        <div className="absolute top-2.5 left-2.5 flex flex-col gap-1 z-10 pointer-events-none">
-          {product.badge ? (
-            <span className="bg-neutral-900/90 text-white text-[10px] uppercase tracking-wider font-medium px-2.5 py-0.5 rounded-full shadow-xs backdrop-blur-xs">
-              {product.badge}
-            </span>
-          ) : (
-            <span className="bg-neutral-900/90 text-white text-[10px] uppercase tracking-wider font-medium px-2 py-0.5 rounded-full shadow-xs backdrop-blur-xs">
-              Wholesale
-            </span>
-          )}
-        </div>
-
         {/* Floating Heart / Wishlist Button: Top Right */}
         <button
           type="button"
@@ -144,8 +131,8 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
           }}
           className={`absolute top-2.5 right-2.5 z-10 p-2 rounded-full backdrop-blur-md transition-all duration-200 cursor-pointer shadow-xs ${
             wishlisted
-              ? 'bg-neutral-900 text-white dark:bg-white dark:text-neutral-950'
-              : 'bg-white/90 dark:bg-black/70 text-neutral-700 hover:text-neutral-950 hover:scale-110'
+              ? 'bg-[#0B2D7F] text-white shadow-md'
+              : 'bg-white/90 dark:bg-black/70 text-neutral-700 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] hover:scale-110'
           }`}
           aria-label="Save to Wishlist"
         >
@@ -156,7 +143,7 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
         <button
           type="button"
           onClick={handleQuickAdd}
-          className="absolute bottom-2.5 right-2.5 z-10 w-9 h-9 rounded-full bg-white/95 dark:bg-[#12100E]/95 text-foreground hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black shadow-md flex items-center justify-center transition-all duration-300 transform opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 cursor-pointer"
+          className="absolute bottom-2.5 right-2.5 z-10 w-9 h-9 rounded-full bg-white/95 dark:bg-[#12100E]/95 text-foreground hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#0B2D7F] dark:hover:text-white shadow-md flex items-center justify-center transition-all duration-300 transform opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 cursor-pointer"
           aria-label={`Quick add ${product.title} to bag`}
           title="Quick add to bag"
         >
@@ -167,27 +154,27 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
       {/* 2. Product Meta & Wholesale Sourcing Information (No Prices) */}
       <div className="pt-3 flex flex-col flex-1">
         <div className="flex items-start justify-between gap-2">
-          <Link href={`/products/${product.slug}`} className="block flex-1 group-hover:text-neutral-600 dark:group-hover:text-neutral-300 transition-colors">
+          <Link href={`/products/${product.slug}`} className="block flex-1 group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors">
             <h3 className="font-serif text-[15px] md:text-[16px] font-medium text-foreground leading-snug line-clamp-1">
               {product.title}
             </h3>
           </Link>
           <div className="text-right shrink-0">
-            <span className="text-[10px] uppercase tracking-wider font-medium text-neutral-700 dark:text-neutral-300 bg-neutral-100 dark:bg-white/10 px-2 py-0.5 rounded-full">
+            <span className="text-[10px] uppercase tracking-wider font-semibold text-[#0B2D7F] dark:text-[#D4AF37] bg-[#0B2D7F]/8 dark:bg-[#D4AF37]/15 border border-[#0B2D7F]/20 dark:border-[#D4AF37]/30 px-2 py-0.5 rounded-full">
               Enquiry
             </span>
           </div>
         </div>
 
         {/* Subtitle & Size Availability */}
-        <div className="mt-1 flex items-center justify-between text-xs text-foreground/60 font-sans">
-          <span className="line-clamp-1">{product.fabric || product.category || 'Pure Cotton'}</span>
+        <div className="mt-1 flex items-center justify-between text-xs text-foreground/70 font-sans">
+          <span className="line-clamp-1 text-[#0B2D7F] dark:text-[#D4AF37] font-medium">{product.fabric || product.category || 'Pure Cotton'}</span>
           <span className="text-[11px] text-neutral-800 dark:text-neutral-200 font-medium">MOQ 20 Pcs</span>
         </div>
 
-        <div className="mt-1 flex items-center justify-between gap-1 text-[11px] text-foreground/50 font-sans">
+        <div className="mt-1 flex items-center justify-between gap-1 text-[11px] text-foreground/60 font-sans">
           <span className="truncate">Sizes S–XXL</span>
-          <span className="text-foreground/60 font-medium shrink-0">
+          <span className="text-[#D4AF37] font-semibold shrink-0">
             Export Grade
           </span>
         </div>

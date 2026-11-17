@@ -79,7 +79,7 @@ export default function CartDrawer() {
               <Link
                 href="/collections/shop-all"
                 onClick={closeCart}
-                className="mt-6 px-6 py-3 rounded-full border border-ink-300 dark:border-white/20 text-ink-900 dark:text-white text-xs font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors inline-flex items-center gap-1.5"
+                className="mt-6 px-6 py-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37] dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 text-xs font-semibold transition-all inline-flex items-center gap-1.5 shadow-xs"
               >
                 <span>Explore All Silhouettes</span>
                 <ArrowRight size={13} />
@@ -173,7 +173,7 @@ export default function CartDrawer() {
             <Link
               href="/cart"
               onClick={closeCart}
-              className="w-full py-3.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-sm font-semibold text-center block transition-all shadow-md"
+              className="w-full py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white dark:bg-[#D4AF37] dark:text-neutral-950 dark:hover:bg-[#C5A059] text-sm font-semibold text-center block transition-all shadow-md shadow-[#0B2D7F]/25 cursor-pointer"
             >
               Review Quote &amp; Submit Enquiry
             </Link>

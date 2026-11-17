@@ -47,7 +47,7 @@ export default function BaisaUnder1000() {
 
           <Link
             href="/collections/shop-all"
-            className="group inline-flex items-center gap-1.5 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
+            className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] dark:hover:text-[#F3E5AB] transition-colors"
           >
             <span>Explore all silhouettes</span>
             <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />

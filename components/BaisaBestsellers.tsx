@@ -63,7 +63,7 @@ export default function BaisaBestsellers() {
           <div className="flex items-center gap-3">
             <Link
               href="/collections/bestsellers"
-              className="group inline-flex items-center gap-1.5 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors mr-2"
+              className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] dark:hover:text-[#F3E5AB] transition-colors mr-2"
             >
               <span>All bestsellers</span>
               <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
@@ -74,7 +74,7 @@ export default function BaisaBestsellers() {
               <button
                 type="button"
                 onClick={() => scroll('left')}
-                className="w-10 h-10 rounded-full border border-neutral-200 dark:border-white/10 flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-white/10 text-neutral-800 dark:text-white transition-colors"
+                className="w-10 h-10 rounded-full border border-[#0B2D7F]/30 hover:border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37]/40 dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 flex items-center justify-center transition-all shadow-xs"
                 aria-label="Previous bestsellers"
               >
                 <ChevronLeft size={18} />
@@ -82,7 +82,7 @@ export default function BaisaBestsellers() {
               <button
                 type="button"
                 onClick={() => scroll('right')}
-                className="w-10 h-10 rounded-full border border-neutral-200 dark:border-white/10 flex items-center justify-center hover:bg-neutral-100 dark:hover:bg-white/10 text-neutral-800 dark:text-white transition-colors"
+                className="w-10 h-10 rounded-full border border-[#0B2D7F]/30 hover:border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37]/40 dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 flex items-center justify-center transition-all shadow-xs"
                 aria-label="Next bestsellers"
               >
                 <ChevronRight size={18} />
@@ -110,7 +110,7 @@ export default function BaisaBestsellers() {
         {/* Scroll Progress Bar */}
         <div className="mt-6 w-full max-w-md mx-auto h-0.5 bg-neutral-200/50 dark:bg-white/10 rounded-full overflow-hidden">
           <div
-            className="h-full bg-neutral-900 dark:bg-white rounded-full transition-all duration-300"
+            className="h-full bg-gradient-to-r from-[#0B2D7F] via-[#2563EB] to-[#D4AF37] rounded-full transition-all duration-300"
             style={{ width: `${Math.max(15, scrollProgress)}%` }}
           />
         </div>

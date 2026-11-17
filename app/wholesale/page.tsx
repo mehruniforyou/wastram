@@ -106,26 +106,26 @@ export default function WholesalePage() {
               }`}
             >
               {tier.popular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-3.5 py-1 rounded-full bg-white text-neutral-950 text-[10px] font-bold uppercase tracking-wider shadow-sm">
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-3.5 py-1 rounded-full bg-[#D4AF37] text-neutral-950 text-[10px] font-bold uppercase tracking-wider shadow-sm">
                   Most Popular For Boutiques
                 </div>
               )}
 
               <div>
-                <span className="text-xs font-serif font-bold uppercase tracking-wider block mb-1 opacity-80">
+                <span className="text-xs font-serif font-bold uppercase tracking-wider block mb-1 text-[#D4AF37]">
                   {tier.tier}
                 </span>
                 <h3 className="font-serif text-2xl font-bold mb-1">
                   {tier.moq}
                 </h3>
-                <p className={`text-xs mb-6 font-semibold ${tier.popular ? 'text-neutral-300' : 'text-neutral-900 dark:text-neutral-200'}`}>
+                <p className={`text-xs mb-6 font-semibold ${tier.popular ? 'text-neutral-300' : 'text-[#0B2D7F] dark:text-[#D4AF37]'}`}>
                   {tier.discount}
                 </p>
 
                 <div className="space-y-3 pt-4 text-xs">
                   {tier.features.map((f, i) => (
                     <div key={i} className="flex items-center gap-2.5">
-                      <Check size={14} className={tier.popular ? 'text-white' : 'text-neutral-900 dark:text-white'} />
+                      <Check size={14} className="text-[#D4AF37] shrink-0" />
                       <span className="opacity-90">{f}</span>
                     </div>
                   ))}
@@ -139,10 +139,10 @@ export default function WholesalePage() {
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`w-full py-3 rounded-full text-xs font-semibold text-center block transition-colors ${
+                  className={`w-full py-3 rounded-full text-xs font-semibold text-center block transition-all shadow-xs ${
                     tier.popular
-                      ? 'bg-white hover:bg-neutral-100 text-neutral-950'
-                      : 'bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200'
+                      ? 'bg-[#D4AF37] hover:bg-[#C5A059] text-neutral-950 shadow-md shadow-[#D4AF37]/25'
+                      : 'bg-[#0B2D7F] hover:bg-[#071F59] text-white dark:bg-[#D4AF37] dark:text-neutral-950 shadow-md shadow-[#0B2D7F]/20'
                   }`}
                 >
                   Inquire for Tier
@@ -228,7 +228,7 @@ export default function WholesalePage() {
 
             <button
               type="submit"
-              className="w-full py-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 font-semibold text-sm transition-all shadow-md flex items-center justify-center gap-2 mt-4"
+              className="w-full py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white dark:bg-[#D4AF37] dark:text-neutral-950 dark:hover:bg-[#C5A059] font-semibold text-sm transition-all shadow-md shadow-[#0B2D7F]/25 flex items-center justify-center gap-2 mt-4 cursor-pointer"
             >
               <MessageCircle size={16} />
               <span>Request Wholesale Line Sheets via WhatsApp</span>

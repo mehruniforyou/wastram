@@ -85,7 +85,7 @@ export default function BaisaChapters() {
           <Link
             key={chapter.number}
             href={`/collections/${chapter.slug}`}
-            className="group flex flex-col bg-white dark:bg-neutral-900 rounded-3xl p-5 sm:p-6 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out"
+            className="group flex flex-col bg-white dark:bg-neutral-900 rounded-3xl p-5 sm:p-6 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out"
           >
             {/* Rectangular Image Frame with Rounded Corners */}
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800">
@@ -99,7 +99,7 @@ export default function BaisaChapters() {
 
               {/* Tag Pill */}
               <div className="absolute top-4 left-4">
-                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-white/95 dark:bg-black/80 backdrop-blur-xs text-neutral-800 dark:text-neutral-200 shadow-2xs">
+                <span className="px-3 py-1 rounded-full text-[11px] font-semibold bg-[#0B2D7F] text-white dark:bg-[#D4AF37] dark:text-neutral-950 backdrop-blur-xs shadow-xs">
                   {chapter.tag}
                 </span>
               </div>
@@ -115,10 +115,10 @@ export default function BaisaChapters() {
             {/* Chapter Metadata */}
             <div className="mt-5 flex-1 flex flex-col justify-between">
               <div>
-                <p className="text-[11px] tracking-[0.2em] uppercase font-sans text-neutral-500 dark:text-neutral-400 font-semibold">
+                <p className="text-[11px] tracking-[0.2em] uppercase font-sans text-[#D4AF37] font-bold">
                   {chapter.number}
                 </p>
-                <h3 className="mt-1 font-serif text-xl sm:text-2xl text-neutral-900 dark:text-white group-hover:text-neutral-600 dark:group-hover:text-neutral-300 transition-colors">
+                <h3 className="mt-1 font-serif text-xl sm:text-2xl text-neutral-900 dark:text-white group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors">
                   {chapter.title}
                 </h3>
                 <p className="mt-2 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans line-clamp-2">
@@ -126,7 +126,7 @@ export default function BaisaChapters() {
                 </p>
               </div>
 
-              <div className="mt-4 pt-3 flex items-center justify-between text-xs font-medium text-neutral-900 dark:text-white">
+              <div className="mt-4 pt-3 flex items-center justify-between text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37]">
                 <span>Explore all styles</span>
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </div>

@@ -89,13 +89,13 @@ export default function BaisaFactoryStats() {
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <Link
                 href="/craft"
-                className="px-6 py-3 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white text-xs sm:text-sm font-medium transition-colors shadow-sm"
+                className="px-6 py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs sm:text-sm font-medium transition-colors shadow-md shadow-[#0B2D7F]/20"
               >
                 Read our craft story
               </Link>
               <Link
                 href="/story"
-                className="px-6 py-3 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-900 dark:text-white text-xs sm:text-sm font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+                className="px-6 py-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white text-xs sm:text-sm font-medium hover:bg-[#0B2D7F]/5 dark:hover:bg-neutral-800 transition-colors"
               >
                 Inside the Jaipur factory
               </Link>
@@ -127,9 +127,9 @@ export default function BaisaFactoryStats() {
             return (
               <div
                 key={i}
-                className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default"
+                className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default"
               >
-                <div className="w-12 h-12 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-800 dark:text-neutral-200 shrink-0 border border-neutral-200/50 dark:border-white/10 shadow-2xs">
+                <div className="w-12 h-12 rounded-full bg-[#0B2D7F]/8 dark:bg-[#D4AF37]/15 text-[#0B2D7F] dark:text-[#D4AF37] flex items-center justify-center shrink-0 border border-[#0B2D7F]/20 dark:border-[#D4AF37]/30 shadow-xs">
                   <Icon size={22} />
                 </div>
                 <div>
@@ -165,10 +165,10 @@ export default function BaisaFactoryStats() {
           {ORDER_STEPS.map((s) => (
             <div
               key={s.step}
-              className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between cursor-default"
+              className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between cursor-default"
             >
               <div>
-                <span className="font-serif text-2xl text-neutral-400 dark:text-neutral-500 font-light">
+                <span className="font-serif text-2xl text-[#D4AF37] font-semibold">
                   {s.step}
                 </span>
                 <h4 className="mt-2 font-serif text-lg font-medium text-neutral-900 dark:text-white">

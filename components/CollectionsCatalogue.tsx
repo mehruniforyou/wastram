@@ -245,8 +245,8 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
               onClick={() => handleSelectCategory(cat.id)}
               className={`px-4 py-2 rounded-full text-xs font-medium whitespace-nowrap transition-all duration-300 cursor-pointer ${
                 selectedCategory === cat.id
-                  ? 'bg-neutral-900 text-white dark:bg-white dark:text-neutral-950 shadow-sm'
-                  : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-neutral-900 dark:hover:border-white'
+                  ? 'bg-[#0B2D7F] text-white shadow-md shadow-[#0B2D7F]/20 font-semibold'
+                  : 'bg-white dark:bg-neutral-900 border border-ink-200/80 dark:border-white/10 text-ink-800 dark:text-neutral-200 hover:border-[#0B2D7F] hover:text-[#0B2D7F] dark:hover:border-[#D4AF37] dark:hover:text-[#D4AF37]'
               }`}
             >
               {cat.label}

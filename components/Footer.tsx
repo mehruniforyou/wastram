@@ -91,27 +91,27 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-4 sm:gap-6 md:contents">
             {/* Column 2: Shop & Collections (md:col-span-2) */}
             <div className="md:col-span-2">
-              <div className="eyebrow mb-2 sm:mb-3 text-foreground/90 font-semibold text-xs sm:text-sm">
+              <div className="eyebrow mb-2 sm:mb-3 text-[#0B2D7F] dark:text-[#D4AF37] font-semibold text-xs sm:text-sm">
                 Collection
               </div>
               <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm font-body">
                 <li>
-                  <Link href="/products" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/products" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     All Products
                   </Link>
                 </li>
                 <li>
-                  <Link href="/categories" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/categories" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Categories
                   </Link>
                 </li>
                 <li>
-                  <Link href="/brands" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/brands" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Edits &amp; Fabrics
                   </Link>
                 </li>
                 <li>
-                  <Link href="/offers" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/offers" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Wholesale Offers
                   </Link>
                 </li>
@@ -120,37 +120,37 @@ export default function Footer() {
 
             {/* Column 3: Boutique & Atelier (md:col-span-2) */}
             <div className="md:col-span-2">
-              <div className="eyebrow mb-2 sm:mb-3 text-foreground/90 font-semibold text-xs sm:text-sm">
+              <div className="eyebrow mb-2 sm:mb-3 text-[#0B2D7F] dark:text-[#D4AF37] font-semibold text-xs sm:text-sm">
                 Boutique
               </div>
               <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm font-body">
                 <li>
-                  <Link href="/about" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/about" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     The Atelier
                   </Link>
                 </li>
                 <li>
-                  <Link href="/gallery" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/gallery" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Visual Gallery
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/contact" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Visit &amp; Contact
                   </Link>
                 </li>
                 <li>
-                  <Link href="/wholesale-exports" className="link-underline text-foreground/80 hover:text-foreground">
+                  <Link href="/wholesale-exports" className="link-underline text-foreground/80 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Global Air Freight
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pages/privacy-policy" className="link-underline text-foreground/60 hover:text-foreground">
+                  <Link href="/pages/privacy-policy" className="link-underline text-foreground/60 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pages/terms-and-conditions" className="link-underline text-foreground/60 hover:text-foreground">
+                  <Link href="/pages/terms-and-conditions" className="link-underline text-foreground/60 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors">
                     Terms of Supply
                   </Link>
                 </li>
@@ -160,7 +160,7 @@ export default function Footer() {
 
         {/* Column 4: Newsletter & Socials (md:col-span-4) */}
         <div className="md:col-span-4">
-          <div className="eyebrow mb-2 sm:mb-4 text-foreground/90 font-semibold">
+          <div className="eyebrow mb-2 sm:mb-4 text-[#0B2D7F] dark:text-[#D4AF37] font-semibold">
             Boutique Newsletter
           </div>
           <p className="text-xs md:text-sm text-foreground/75 font-body leading-relaxed">
@@ -169,7 +169,7 @@ export default function Footer() {
 
           <form
             onSubmit={handleSubscribe}
-            className="mt-3 sm:mt-4 flex rounded-full border border-neutral-300 dark:border-white/15 bg-white/90 dark:bg-black/40 backdrop-blur-sm focus-within:border-neutral-900 dark:focus-within:border-white transition-all overflow-hidden p-1 shadow-sm"
+            className="mt-3 sm:mt-4 flex rounded-full border border-neutral-300 dark:border-white/15 bg-white/90 dark:bg-black/40 backdrop-blur-sm focus-within:border-[#0B2D7F] dark:focus-within:border-[#D4AF37] transition-all overflow-hidden p-1 shadow-sm"
             data-testid="newsletter-form"
           >
             <input
@@ -183,7 +183,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 rounded-full px-5 py-2 text-[11px] uppercase tracking-widerest font-medium transition-all flex items-center gap-1 shrink-0 shadow-sm"
+              className="bg-[#0B2D7F] hover:bg-[#071F59] text-white dark:bg-[#D4AF37] dark:text-neutral-950 dark:hover:bg-[#C5A059] rounded-full px-5 py-2 text-[11px] uppercase tracking-widerest font-semibold transition-all flex items-center gap-1 shrink-0 shadow-md shadow-[#0B2D7F]/20 cursor-pointer"
               data-testid="newsletter-submit"
             >
               {isSubscribed ? (
@@ -207,7 +207,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
-              className="hover:text-foreground transition-colors"
+              className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
             >
               <Instagram size={18} strokeWidth={1.4} />
             </a>
@@ -216,7 +216,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="Facebook"
-              className="hover:text-foreground transition-colors"
+              className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
             >
               <Facebook size={18} strokeWidth={1.4} />
             </a>
@@ -225,7 +225,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="WhatsApp Concierge"
-              className="hover:text-neutral-900 dark:hover:text-white transition-colors"
+              className="hover:text-[#25D366] transition-colors"
             >
               <MessageCircle size={18} strokeWidth={1.4} />
             </a>
@@ -238,7 +238,7 @@ export default function Footer() {
         {/* Coordinates: Address, Single Phone, Updated Email */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 flex-wrap">
           <div className="flex items-center gap-2">
-            <MapPin size={14} className="text-neutral-700 dark:text-neutral-300 shrink-0" />
+            <MapPin size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
             <span>Sanganer Textile Industrial Area, Jaipur, Rajasthan 302029</span>
           </div>
 
@@ -246,9 +246,9 @@ export default function Footer() {
 
           <a
             href="tel:+918003088838"
-            className="flex items-center gap-2 hover:text-neutral-950 dark:hover:text-white transition-colors"
+            className="flex items-center gap-2 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
           >
-            <Phone size={14} className="text-neutral-700 dark:text-neutral-300 shrink-0" />
+            <Phone size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
             <span>+91 80030 88838</span>
           </a>
 
@@ -256,9 +256,9 @@ export default function Footer() {
 
           <a
             href="mailto:marutitex@gmail.com"
-            className="flex items-center gap-2 hover:text-neutral-950 dark:hover:text-white transition-colors"
+            className="flex items-center gap-2 hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] transition-colors"
           >
-            <Mail size={14} className="text-neutral-700 dark:text-neutral-300 shrink-0" />
+            <Mail size={14} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
             <span>marutitex@gmail.com</span>
           </a>
         </div>

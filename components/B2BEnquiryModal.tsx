@@ -52,16 +52,16 @@ export default function B2BEnquiryModal({
         onClick={e => e.stopPropagation()}
       >
         {/* Modal Header */}
-        <div className="bg-neutral-950 text-white px-6 py-4 flex items-center justify-between border-b border-neutral-800">
+        <div className="bg-[#0B2D7F] text-white px-6 py-4 flex items-center justify-between border-b border-[#071F59]">
           <div className="flex flex-col">
-            <span className="text-[10px] uppercase tracking-widest text-neutral-400 font-semibold">
+            <span className="text-[10px] uppercase tracking-widest text-[#D4AF37] font-semibold">
               Jaipur Atelier Manufacturing
             </span>
-            <h2 className="text-lg font-serif font-normal tracking-wide">Boutique Sourcing Inquiry</h2>
+            <h2 className="text-lg font-serif font-normal tracking-wide text-white">Boutique Sourcing Inquiry</h2>
           </div>
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors text-lg"
+            className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors text-lg cursor-pointer"
             aria-label="Close modal"
           >
             ✕
@@ -249,7 +249,7 @@ export default function B2BEnquiryModal({
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="flex-1 py-3 rounded-full bg-neutral-900 text-white hover:bg-neutral-800 font-semibold text-xs uppercase tracking-wider transition-all shadow-md disabled:opacity-50"
+                    className="flex-1 py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] font-semibold text-xs uppercase tracking-wider transition-all shadow-md shadow-[#0B2D7F]/25 disabled:opacity-50 cursor-pointer"
                   >
                     {isSubmitting ? 'Transmitting Inquiry...' : 'Submit Boutique Inquiry'}
                   </button>
@@ -257,7 +257,7 @@ export default function B2BEnquiryModal({
                     href={`https://wa.me/918003088838?text=${whatsappMessage}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="py-3 px-4 rounded-full border border-neutral-300 hover:border-neutral-900 text-neutral-800 font-semibold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 transition-all shadow-xs"
+                    className="py-3 px-4 rounded-full border border-[#25D366] text-[#25D366] hover:bg-[#25D366]/10 font-semibold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 transition-all shadow-xs"
                   >
                     <span>WhatsApp</span>
                   </a>

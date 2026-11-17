@@ -36,7 +36,7 @@ export default function BaisaHero() {
           <div className="mt-8 sm:mt-10 flex flex-wrap items-center gap-4">
             <Link
               href="/products"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white text-sm font-medium tracking-wide shadow-sm transition-all duration-200 active:scale-98"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-sm font-medium tracking-wide shadow-md shadow-[#0B2D7F]/25 transition-all duration-200 active:scale-98"
             >
               <span>Explore collection</span>
               <ArrowRight size={15} />
@@ -44,7 +44,7 @@ export default function BaisaHero() {
 
             <Link
               href="/wholesale"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-900 dark:text-white hover:bg-neutral-100 dark:hover:bg-neutral-800 text-sm font-medium tracking-wide transition-all duration-200"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F]/5 text-sm font-medium tracking-wide transition-all duration-200"
             >
               <span>Wholesale &amp; Trade Terms</span>
             </Link>
@@ -54,7 +54,7 @@ export default function BaisaHero() {
         {/* Right Column: Layered Editorial Photography Frame */}
         <div className="lg:col-span-6 relative flex items-center justify-center w-full max-w-full overflow-hidden sm:overflow-visible py-2">
           {/* Main Primary Model Frame (Rectangular with Rounded Corners) */}
-          <div className="relative w-full max-w-[310px] sm:max-w-[380px] md:max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl border border-neutral-200 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white hover:-translate-y-1.5 bg-[#FFFEFE] z-10 group mx-auto transition-all duration-300 ease-out">
+          <div className="relative w-full max-w-[310px] sm:max-w-[380px] md:max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl border border-neutral-200 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] hover:-translate-y-1.5 bg-[#FFFEFE] z-10 group mx-auto transition-all duration-300 ease-out">
             <img
               src="/western-dresses/10045.jpg.jpeg"
               alt="Wastram Jaipur Handcrafted Ethnic Wear"
@@ -64,19 +64,19 @@ export default function BaisaHero() {
             {/* Floating Live Product Tag Pill at bottom of frame */}
             <Link
               href="/collections/cord-sets"
-              className="absolute bottom-4 left-3 right-3 sm:left-4 sm:right-4 bg-white/95 dark:bg-[#12100E]/95 backdrop-blur-md py-2 sm:py-2.5 px-3 sm:px-4 rounded-full border border-neutral-200 dark:border-white/15 shadow-sm flex items-center justify-between text-[11px] sm:text-xs font-sans text-neutral-900 dark:text-white hover:border-neutral-900 transition-colors"
+              className="absolute bottom-4 left-3 right-3 sm:left-4 sm:right-4 bg-white/95 dark:bg-[#12100E]/95 backdrop-blur-md py-2 sm:py-2.5 px-3 sm:px-4 rounded-full border border-neutral-200 dark:border-white/15 shadow-sm flex items-center justify-between text-[11px] sm:text-xs font-sans text-neutral-900 dark:text-white hover:border-[#0B2D7F] transition-colors"
             >
               <div className="flex items-center gap-1.5 sm:gap-2 truncate">
-                <span className="w-2 h-2 rounded-full bg-neutral-900 dark:bg-white shrink-0" />
+                <span className="w-2 h-2 rounded-full bg-[#0B2D7F] shrink-0" />
                 <span className="font-medium truncate">Morpankh Ikat Co-ord</span>
-                <span className="text-neutral-500 dark:text-neutral-400">· Atelier Batch</span>
+                <span className="text-[#0B2D7F] dark:text-[#D4AF37] font-medium">· Atelier Batch</span>
               </div>
-              <ArrowRight size={13} className="shrink-0 text-neutral-400" />
+              <ArrowRight size={13} className="shrink-0 text-[#0B2D7F]" />
             </Link>
           </div>
 
           {/* Secondary Layered Overlapping Lifestyle Card */}
-          <div className="hidden md:block absolute -right-2 lg:-right-4 -bottom-6 w-40 lg:w-52 aspect-[3/4] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl border-4 border-white dark:border-[#1E1B18] hover:border-neutral-900 dark:hover:border-white hover:-translate-y-1.5 bg-[#FFFEFE] z-20 transition-all duration-300 ease-out">
+          <div className="hidden md:block absolute -right-2 lg:-right-4 -bottom-6 w-40 lg:w-52 aspect-[3/4] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl border-4 border-white dark:border-[#1E1B18] hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] hover:-translate-y-1.5 bg-[#FFFEFE] z-20 transition-all duration-300 ease-out">
             <img
               src="/cord-sets/12550.jpg.jpeg"
               alt="Jaipur Cotton Co-ord"

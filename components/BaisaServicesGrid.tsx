@@ -69,19 +69,19 @@ export default function BaisaServicesGrid() {
             <Link
               key={s.id}
               href={s.href}
-              className="group relative flex flex-col justify-between p-7 sm:p-8 rounded-3xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out"
+              className="group relative flex flex-col justify-between p-7 sm:p-8 rounded-3xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out"
             >
               <div>
                 <div className="flex items-center justify-between mb-6">
-                  <span className="font-serif text-2xl text-neutral-400 dark:text-neutral-500 font-light">
+                  <span className="font-serif text-2xl text-[#D4AF37] font-semibold">
                     {s.step}
                   </span>
-                  <div className="w-10 h-10 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-800 dark:text-white group-hover:scale-110 transition-transform">
+                  <div className="w-10 h-10 rounded-full bg-[#0B2D7F]/8 dark:bg-[#D4AF37]/15 text-[#0B2D7F] dark:text-[#D4AF37] border border-[#0B2D7F]/15 dark:border-[#D4AF37]/30 flex items-center justify-center group-hover:scale-110 transition-transform">
                     <Icon size={18} />
                   </div>
                 </div>
 
-                <h3 className="font-serif text-xl sm:text-2xl text-neutral-900 dark:text-white group-hover:text-neutral-600 dark:group-hover:text-neutral-300 transition-colors">
+                <h3 className="font-serif text-xl sm:text-2xl text-neutral-900 dark:text-white group-hover:text-[#0B2D7F] dark:group-hover:text-[#D4AF37] transition-colors">
                   {s.title}
                 </h3>
                 <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
@@ -89,7 +89,7 @@ export default function BaisaServicesGrid() {
                 </p>
               </div>
 
-              <div className="mt-8 pt-4 border-t border-neutral-100 dark:border-white/5 flex items-center justify-between text-xs font-medium text-neutral-900 dark:text-white">
+              <div className="mt-8 pt-4 border-t border-neutral-100 dark:border-white/5 flex items-center justify-between text-xs font-semibold text-[#0B2D7F] dark:text-[#D4AF37] group-hover:text-[#071F59]">
                 <span>{s.actionText}</span>
                 <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </div>

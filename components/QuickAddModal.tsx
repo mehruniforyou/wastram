@@ -57,7 +57,7 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
               <Link
                 href={`/products/${product.slug}`}
                 onClick={onClose}
-                className="px-3 py-1 rounded-full bg-neutral-900 text-white text-[11px] font-medium uppercase tracking-wider hover:bg-neutral-800 transition-colors"
+                className="px-3 py-1 rounded-full bg-[#0B2D7F] text-white text-[11px] font-semibold uppercase tracking-wider hover:bg-[#071F59] transition-colors shadow-xs"
               >
                 Show Details
               </Link>
@@ -79,8 +79,8 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
                 onClick={() => setSelectedSize(size)}
                 className={`py-2 text-xs font-medium rounded-lg border transition-all ${
                   selectedSize === size
-                    ? 'border-neutral-900 bg-neutral-900 text-white shadow-sm'
-                    : 'border-neutral-200 bg-white text-neutral-800 hover:border-neutral-900'
+                    ? 'border-[#0B2D7F] bg-[#0B2D7F] text-white shadow-sm'
+                    : 'border-neutral-200 bg-white text-neutral-800 hover:border-[#0B2D7F]'
                 }`}
               >
                 {size}
@@ -92,7 +92,7 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
         {/* Add to bag button */}
         <button
           onClick={handleAdd}
-          className="mt-2 w-full py-3 bg-neutral-900 hover:bg-neutral-800 text-white font-medium text-xs uppercase tracking-wider rounded-full transition-all shadow-md flex items-center justify-center gap-2"
+          className="mt-2 w-full py-3 bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-xs uppercase tracking-wider rounded-full transition-all shadow-md shadow-[#0B2D7F]/25 flex items-center justify-center gap-2 cursor-pointer"
         >
           <span>Add to Enquiry List</span>
         </button>

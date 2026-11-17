@@ -323,7 +323,7 @@ export default function ProductDetailPage({ params }: Props) {
 
               {/* Category Provenance Tag */}
               <div className="absolute top-4 left-4">
-                <span className="px-3 py-1 rounded-full text-[11px] font-medium bg-neutral-900/90 text-white dark:bg-white/90 dark:text-neutral-950 backdrop-blur-xs shadow-2xs">
+                <span className="px-3 py-1 rounded-full text-[11px] font-semibold bg-[#0B2D7F] text-white backdrop-blur-xs shadow-xs">
                   Sanganer Handblock
                 </span>
               </div>
@@ -420,8 +420,8 @@ export default function ProductDetailPage({ params }: Props) {
                     onClick={() => setSelectedSize(sz)}
                     className={`min-w-[44px] h-11 px-3 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer ${
                       selectedSize === sz
-                        ? 'bg-neutral-900 text-white shadow-sm ring-2 ring-neutral-900/20 dark:bg-white dark:text-neutral-950'
-                        : 'bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 text-neutral-800 dark:text-neutral-200 hover:border-neutral-900 dark:hover:border-white'
+                        ? 'bg-[#0B2D7F] text-white shadow-md ring-2 ring-[#0B2D7F]/25 dark:bg-[#D4AF37] dark:text-neutral-950'
+                        : 'bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 text-neutral-800 dark:text-neutral-200 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37]'
                     }`}
                   >
                     {sz}
@@ -436,7 +436,7 @@ export default function ProductDetailPage({ params }: Props) {
                 href={whatsappInquiryUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-3.5 sm:py-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 font-semibold text-sm transition-all shadow-md active:scale-98 flex items-center justify-center gap-2"
+                className="w-full py-3.5 sm:py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white dark:bg-[#D4AF37] dark:text-neutral-950 dark:hover:bg-[#C5A059] font-semibold text-sm transition-all shadow-md shadow-[#0B2D7F]/25 active:scale-98 flex items-center justify-center gap-2 cursor-pointer"
               >
                 <svg
                   className="w-4 h-4 fill-current shrink-0"
@@ -456,7 +456,7 @@ export default function ProductDetailPage({ params }: Props) {
                   href={sampleOrderUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-3 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-800 dark:text-neutral-200 font-semibold text-xs sm:text-sm hover:border-neutral-900 dark:hover:border-white transition-colors text-center flex items-center justify-center gap-1.5"
+                  className="py-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-[#D4AF37] dark:text-[#D4AF37] font-semibold text-xs sm:text-sm hover:bg-[#0B2D7F]/5 dark:hover:bg-[#D4AF37]/10 transition-colors text-center flex items-center justify-center gap-1.5"
                 >
                   <span>Request Sample</span>
                 </a>
@@ -464,7 +464,7 @@ export default function ProductDetailPage({ params }: Props) {
                 <button
                   type="button"
                   onClick={handleAddToCart}
-                  className="py-3 rounded-full border border-neutral-300 dark:border-white/20 text-neutral-800 dark:text-neutral-200 font-semibold text-xs sm:text-sm hover:border-neutral-900 dark:hover:border-white transition-colors text-center"
+                  className="py-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-[#D4AF37] dark:text-[#D4AF37] font-semibold text-xs sm:text-sm hover:bg-[#0B2D7F]/5 dark:hover:bg-[#D4AF37]/10 transition-colors text-center cursor-pointer"
                 >
                   <span>Add to Quote Bag</span>
                 </button>
@@ -474,7 +474,7 @@ export default function ProductDetailPage({ params }: Props) {
             {/* Delivery Pincode Checker */}
             <form onSubmit={handlePincodeCheck} className="p-4 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 space-y-2 shadow-2xs">
               <span className="text-xs font-semibold text-neutral-900 dark:text-white flex items-center gap-1.5">
-                <Truck size={14} className="text-neutral-700 dark:text-neutral-300" />
+                <Truck size={14} className="text-[#0B2D7F] dark:text-[#D4AF37]" />
                 <span>Estimate Freight &amp; Dispatch to Destination</span>
               </span>
               <div className="flex gap-2">
@@ -484,11 +484,11 @@ export default function ProductDetailPage({ params }: Props) {
                   placeholder="Enter 6-digit PIN"
                   value={pincode}
                   onChange={(e) => setPincode(e.target.value)}
-                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-neutral-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800 text-neutral-900 dark:text-white focus:outline-none"
+                  className="flex-1 px-3.5 py-2 text-xs rounded-full border border-neutral-200 dark:border-white/10 bg-[#FFFEFE] dark:bg-neutral-800 text-neutral-900 dark:text-white focus:outline-none focus:border-[#0B2D7F]"
                 />
                 <button
                   type="submit"
-                  className="px-4 py-2 rounded-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-950 text-xs font-medium hover:opacity-90 transition-opacity"
+                  className="px-4 py-2 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-semibold transition-all shadow-xs cursor-pointer"
                 >
                   Check
                 </button>

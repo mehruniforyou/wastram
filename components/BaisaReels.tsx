@@ -69,7 +69,7 @@ export default function BaisaReels() {
 
         <Link
           href="/lookbook"
-          className="group inline-flex items-center gap-1.5 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
+          className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0B2D7F] hover:text-[#071F59] dark:text-[#D4AF37] dark:hover:text-[#F3E5AB] transition-colors"
         >
           <span>Explore Lookbook 2026</span>
           <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
@@ -80,7 +80,7 @@ export default function BaisaReels() {
         {REELS.map((reel) => (
           <div
             key={reel.id}
-            className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-sm hover:shadow-xl bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-neutral-900 dark:hover:border-white hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer"
+            className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-sm hover:shadow-xl bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer"
             onClick={() => setActiveReel(reel.id)}
           >
             {/* Background Media */}
@@ -94,7 +94,7 @@ export default function BaisaReels() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30" />
 
             {/* Floating Play Badge */}
-            <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white border border-white/20 group-hover:bg-white group-hover:text-black transition-colors">
+            <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white border border-white/20 group-hover:bg-[#0B2D7F] group-hover:text-white group-hover:border-[#0B2D7F] transition-colors">
               <Play size={14} className="ml-0.5 fill-current" />
             </div>
 

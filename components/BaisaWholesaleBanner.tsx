@@ -32,7 +32,7 @@ export default function BaisaWholesaleBanner() {
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link
               href="/wholesale"
-              className="px-7 py-3.5 rounded-full bg-white hover:bg-neutral-100 text-neutral-950 font-medium text-xs sm:text-sm transition-all duration-300 shadow-sm inline-flex items-center gap-2 group"
+              className="px-7 py-3.5 rounded-full bg-[#D4AF37] hover:bg-[#C5A059] text-neutral-950 font-semibold text-xs sm:text-sm transition-all duration-300 shadow-lg shadow-[#D4AF37]/20 inline-flex items-center gap-2 group"
             >
               <span>Explore Trade Terms</span>
               <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
@@ -42,25 +42,25 @@ export default function BaisaWholesaleBanner() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3.5 rounded-full border border-white/25 hover:bg-white/10 text-white font-medium text-xs sm:text-sm transition-colors inline-flex items-center gap-2"
+              className="px-6 py-3.5 rounded-full border border-white/25 hover:bg-[#25D366]/15 hover:border-[#25D366] text-white font-medium text-xs sm:text-sm transition-all inline-flex items-center gap-2"
             >
-              <MessageCircle size={15} className="text-white" />
+              <MessageCircle size={15} className="text-[#25D366]" />
               <span>WhatsApp Trade Desk</span>
             </a>
           </div>
 
           {/* Quick Perks */}
-          <div className="mt-10 pt-4 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs text-neutral-400">
+          <div className="mt-10 pt-4 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs text-neutral-300">
             <div className="flex items-center gap-2">
-              <ShieldCheck size={15} className="text-white shrink-0" />
+              <ShieldCheck size={15} className="text-[#D4AF37] shrink-0" />
               <span>MOQ from 20 pieces</span>
             </div>
             <div className="flex items-center gap-2">
-              <ShieldCheck size={15} className="text-white shrink-0" />
+              <ShieldCheck size={15} className="text-[#D4AF37] shrink-0" />
               <span>Door-to-door Air Cargo</span>
             </div>
             <div className="flex items-center gap-2 col-span-2 sm:col-span-1">
-              <ShieldCheck size={15} className="text-white shrink-0" />
+              <ShieldCheck size={15} className="text-[#D4AF37] shrink-0" />
               <span>Custom Label Tagging</span>
             </div>
           </div>
