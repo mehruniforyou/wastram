@@ -67,6 +67,7 @@ function ProductCardComponent({ product, priority = false }: ProductCardProps) {
   };
 
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   // Enquiry modal handler
   const handleOpenEnquiry = (e: React.MouseEvent) => {
@@ -98,16 +99,22 @@ Please share details regarding sizing, fabric drape, and wholesale ordering.`;
       data-testid={`product-card-${product.slug || product.id}`}
     >
       {/* 1. 3:4 Portrait Image Container with Pop-out, Shadow & Minimalist Border Hover */}
-      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-[#FFFEFE] border border-neutral-200/80 dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-[#D4AF37] shadow-sm group-hover:shadow-xl group-hover:shadow-[#0B2D7F]/10 group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
-        <Link href={`/products/${product.slug}`} className="block w-full h-full">
+      <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800 border border-neutral-200/80 dark:border-white/10 group-hover:border-[#0B2D7F] dark:group-hover:border-[#D4AF37] shadow-sm group-hover:shadow-xl group-hover:shadow-[#0B2D7F]/10 group-hover:-translate-y-1.5 transition-all duration-300 ease-out">
+        {/* Shimmer Skeleton Placeholder while image loads */}
+        {!imageLoaded && (
+          <div className="absolute inset-0 shimmer-skeleton z-0" aria-hidden="true" />
+        )}
+
+        <Link href={`/products/${product.slug}`} className="block w-full h-full relative z-[1]">
           {/* Primary Main Image */}
           <img
             src={displayImage}
             alt={product.title}
             loading={priority ? 'eager' : 'lazy'}
+            onLoad={() => setImageLoaded(true)}
             className={`w-full h-full object-cover object-top transition-all duration-700 ease-out will-change-transform group-hover:scale-105 ${
-              hoverImage !== displayImage ? 'group-hover:opacity-0' : ''
-            }`}
+              imageLoaded ? 'opacity-100' : 'opacity-0'
+            } ${hoverImage !== displayImage ? 'group-hover:opacity-0' : ''}`}
           />
 
           {/* Secondary Alternate Image on Hover */}

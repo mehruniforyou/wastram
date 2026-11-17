@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import type { Metadata } from 'next';
 import CollectionsCatalogue from '@/components/CollectionsCatalogue';
+import { CollectionGridSkeleton } from '@/components/BrandedSkeleton';
 
 interface Props {
   params: {
@@ -129,16 +130,7 @@ export default function CategoryPage({ params }: Props) {
   const mappedCategory = CATEGORY_MAP[normalizedCategory] || normalizedCategory;
 
   return (
-    <Suspense
-      fallback={
-        <div className="py-24 text-center text-[#0B2D7F] font-serif">
-          <div className="w-8 h-8 border-2 border-[#0B2D7F] border-t-[#D4AF37] rounded-full animate-spin mx-auto mb-3" />
-          <p className="text-xs font-sans uppercase tracking-widest text-[#0B2D7F]/70">
-            Loading Wastram Atelier Collection...
-          </p>
-        </div>
-      }
-    >
+    <Suspense fallback={<CollectionGridSkeleton count={8} />}>
       <CollectionsCatalogue initialCategory={mappedCategory} />
     </Suspense>
   );

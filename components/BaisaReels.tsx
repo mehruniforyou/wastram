@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Play, Volume2, VolumeX, ArrowRight } from 'lucide-react';
+import ScrollReveal from '@/components/ScrollReveal';
 
 interface ReelItem {
   id: string;
@@ -54,7 +55,7 @@ export default function BaisaReels() {
   return (
     <section className="py-8 md:py-14 container-x">
       {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
-      <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
+      <ScrollReveal direction="up" duration={800} className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
         <div className="section-pill mb-3">
           <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
           <span>Fabric in Motion</span>
@@ -74,61 +75,68 @@ export default function BaisaReels() {
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
           </Link>
         </div>
-      </div>
+      </ScrollReveal>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-        {REELS.map((reel) => (
-          <div
+        {REELS.map((reel, i) => (
+          <ScrollReveal
             key={reel.id}
-            className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-sm hover:shadow-xl bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer"
-            onClick={() => setActiveReel(reel.id)}
+            direction="up"
+            delay={i * 90}
+            duration={800}
+            className="h-full"
           >
-            {/* Background Media */}
-            <img
-              src={reel.thumbnail}
-              alt={reel.title}
-              className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
-            />
+            <div
+              className="group relative aspect-[9/16] w-full rounded-3xl overflow-hidden shadow-sm hover:shadow-xl bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer"
+              onClick={() => setActiveReel(reel.id)}
+            >
+              {/* Background Media */}
+              <img
+                src={reel.thumbnail}
+                alt={reel.title}
+                className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+              />
 
-            {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30" />
+              {/* Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30" />
 
-            {/* Floating Play Badge */}
-            <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white border border-white/20 group-hover:bg-[#0B2D7F] group-hover:text-white group-hover:border-[#0B2D7F] transition-colors">
-              <Play size={14} className="ml-0.5 fill-current" />
-            </div>
+              {/* Floating Play Badge */}
+              <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/40 backdrop-blur-md flex items-center justify-center text-white border border-white/20 group-hover:bg-[#0B2D7F] group-hover:text-white group-hover:border-[#0B2D7F] transition-colors">
+                <Play size={14} className="ml-0.5 fill-current" />
+              </div>
 
-            {/* Top Category Badge */}
-            <div className="absolute top-4 left-4">
-              <span className="px-2.5 py-1 rounded-full text-[10px] font-medium uppercase tracking-wider bg-white/20 backdrop-blur-md text-white border border-white/20">
-                {reel.category}
-              </span>
-            </div>
+              {/* Top Category Badge */}
+              <div className="absolute top-4 left-4">
+                <span className="px-2.5 py-1 rounded-full text-[10px] font-medium uppercase tracking-wider bg-white/20 backdrop-blur-md text-white border border-white/20">
+                  {reel.category}
+                </span>
+              </div>
 
-            {/* Bottom Caption & Product Link */}
-            <div className="absolute bottom-4 left-4 right-4 text-white">
-              <p className="text-xs text-white/80 line-clamp-2 mb-2 font-sans font-light">
-                {reel.caption}
-              </p>
-              <div className="pt-2 flex items-center justify-between">
-                <div>
-                  <h4 className="font-serif text-sm font-medium leading-snug line-clamp-1">
-                    {reel.title}
-                  </h4>
-                  <p className="text-[11px] text-amber-200">
-                    Sanganer Atelier
-                  </p>
+              {/* Bottom Caption & Product Link */}
+              <div className="absolute bottom-4 left-4 right-4 text-white">
+                <p className="text-xs text-white/80 line-clamp-2 mb-2 font-sans font-light">
+                  {reel.caption}
+                </p>
+                <div className="pt-2 flex items-center justify-between">
+                  <div>
+                    <h4 className="font-serif text-sm font-medium leading-snug line-clamp-1">
+                      {reel.title}
+                    </h4>
+                    <p className="text-[11px] text-amber-200">
+                      Sanganer Atelier
+                    </p>
+                  </div>
+                  <Link
+                    href={`/collections/${reel.slug}`}
+                    onClick={(e) => e.stopPropagation()}
+                    className="px-2.5 py-1 rounded-full bg-white text-ink-950 text-[11px] font-medium hover:bg-neutral-200 transition-colors shadow-2xs"
+                  >
+                    Explore
+                  </Link>
                 </div>
-                <Link
-                  href={`/collections/${reel.slug}`}
-                  onClick={(e) => e.stopPropagation()}
-                  className="px-2.5 py-1 rounded-full bg-white text-ink-950 text-[11px] font-medium hover:bg-neutral-200 transition-colors shadow-2xs"
-                >
-                  Explore
-                </Link>
               </div>
             </div>
-          </div>
+          </ScrollReveal>
         ))}
       </div>
     </section>

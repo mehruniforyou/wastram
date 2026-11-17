@@ -11,6 +11,7 @@ import CartDrawer from './CartDrawer';
 import SizeGuideModal from './SizeGuideModal';
 import FloatingWhatsApp from './FloatingWhatsApp';
 import ProductCard from './ProductCard';
+import ScrollReveal from './ScrollReveal';
 
 const PAGE_SIZE = 24;
 
@@ -327,8 +328,15 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
           </div>
         ) : (
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-            {visibleProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+            {visibleProducts.map((product, i) => (
+              <ScrollReveal
+                key={product.id}
+                direction="up"
+                delay={(i % 4) * 60}
+                duration={750}
+              >
+                <ProductCard product={product} />
+              </ScrollReveal>
             ))}
           </div>
         )}

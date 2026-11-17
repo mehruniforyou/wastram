@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export default function BaisaHero() {
   return (
@@ -18,7 +19,7 @@ export default function BaisaHero() {
 
       <div className="container-x relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
         {/* Left Column: Typographic Editorial Copy */}
-        <div className="lg:col-span-6 flex flex-col justify-center">
+        <ScrollReveal direction="up" duration={800} className="lg:col-span-6 flex flex-col justify-center">
           <div className="section-pill mb-4 self-start">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Jaipur Handloom Atelier</span>
@@ -65,10 +66,10 @@ export default function BaisaHero() {
               <span>Wholesale &amp; Trade Terms</span>
             </Link>
           </div>
-        </div>
+        </ScrollReveal>
 
         {/* Right Column: Layered Editorial Photography Frame */}
-        <div className="lg:col-span-6 relative flex items-center justify-center w-full max-w-full overflow-hidden sm:overflow-visible py-2">
+        <ScrollReveal direction="scale" delay={150} duration={900} className="lg:col-span-6 relative flex items-center justify-center w-full max-w-full overflow-hidden sm:overflow-visible py-2">
           {/* Main Primary Model Frame (Rectangular with Rounded Corners) */}
           <div className="relative w-full max-w-[310px] sm:max-w-[380px] md:max-w-[420px] aspect-[3/4] rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl border border-neutral-200 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] hover:-translate-y-1.5 bg-[#FFFEFE] z-10 group mx-auto transition-all duration-300 ease-out">
             <img
@@ -108,7 +109,7 @@ export default function BaisaHero() {
               className="w-full h-full object-cover object-top grayscale"
             />
           </div>
-        </div>
+        </ScrollReveal>
       </div>
     </section>
   );

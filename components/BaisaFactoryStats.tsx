@@ -10,6 +10,7 @@ import {
   RotateCcw,
   MessageCircle,
 } from 'lucide-react';
+import ScrollReveal from '@/components/ScrollReveal';
 
 const TRUST_BADGES = [
   {
@@ -73,7 +74,7 @@ export default function BaisaFactoryStats() {
       {/* 1. Craft & Heritage Intro */}
       <div className="container-x mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-          <div className="lg:col-span-6">
+          <ScrollReveal direction="up" duration={800} className="lg:col-span-6">
             <div className="section-pill mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
               <span>Jaipur Heritage</span>
@@ -100,9 +101,9 @@ export default function BaisaFactoryStats() {
                 Inside the Jaipur factory
               </Link>
             </div>
-          </div>
+          </ScrollReveal>
 
-          <div className="lg:col-span-6">
+          <ScrollReveal direction="scale" delay={150} duration={850} className="lg:col-span-6">
             <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-neutral-200/80 dark:border-white/10 group bg-neutral-900">
               <img
                 src="/images/hero/hero-main.jpg"
@@ -115,7 +116,7 @@ export default function BaisaFactoryStats() {
                 <p className="text-[11px] sm:text-xs text-white/80">Every motif aligned and stamped by hand on seasoned looms.</p>
               </div>
             </div>
-          </div>
+          </ScrollReveal>
         </div>
       </div>
 
@@ -125,22 +126,29 @@ export default function BaisaFactoryStats() {
           {TRUST_BADGES.map((b, i) => {
             const Icon = b.icon;
             return (
-              <div
+              <ScrollReveal
                 key={i}
-                className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default"
+                direction="up"
+                delay={i * 70}
+                duration={750}
+                className="h-full"
               >
-                <div className="w-12 h-12 rounded-full bg-[#0B2D7F]/8 dark:bg-[#D4AF37]/15 text-[#0B2D7F] dark:text-[#D4AF37] flex items-center justify-center shrink-0 border border-[#0B2D7F]/20 dark:border-[#D4AF37]/30 shadow-xs">
-                  <Icon size={22} />
+                <div
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-default h-full"
+                >
+                  <div className="w-12 h-12 rounded-full bg-[#0B2D7F]/8 dark:bg-[#D4AF37]/15 text-[#0B2D7F] dark:text-[#D4AF37] flex items-center justify-center shrink-0 border border-[#0B2D7F]/20 dark:border-[#D4AF37]/30 shadow-xs">
+                    <Icon size={22} />
+                  </div>
+                  <div>
+                    <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white">
+                      {b.title}
+                    </h4>
+                    <p className="mt-1 text-xs text-neutral-600 dark:text-neutral-400 font-sans leading-relaxed">
+                      {b.desc}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-serif text-base font-medium text-neutral-900 dark:text-white">
-                    {b.title}
-                  </h4>
-                  <p className="mt-1 text-xs text-neutral-600 dark:text-neutral-400 font-sans leading-relaxed">
-                    {b.desc}
-                  </p>
-                </div>
-              </div>
+              </ScrollReveal>
             );
           })}
         </div>
@@ -148,7 +156,7 @@ export default function BaisaFactoryStats() {
 
       {/* 4. How Ordering Works 4-Step Timeline */}
       <div className="container-x">
-        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
+        <ScrollReveal direction="up" duration={800} className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <div className="section-pill mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Order Fulfillment</span>
@@ -159,26 +167,33 @@ export default function BaisaFactoryStats() {
           <p className="mt-3 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans max-w-xl mx-auto">
             A transparent 4-stage process from silhouette curation to door-to-door global air freight.
           </p>
-        </div>
+        </ScrollReveal>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
-          {ORDER_STEPS.map((s) => (
-            <div
+          {ORDER_STEPS.map((s, i) => (
+            <ScrollReveal
               key={s.step}
-              className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between cursor-default"
+              direction="up"
+              delay={i * 90}
+              duration={800}
+              className="h-full"
             >
-              <div>
-                <span className="font-serif text-2xl text-[#D4AF37] font-semibold">
-                  {s.step}
-                </span>
-                <h4 className="mt-2 font-serif text-lg font-medium text-neutral-900 dark:text-white">
-                  {s.title}
-                </h4>
-                <p className="mt-2 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
-                  {s.desc}
-                </p>
+              <div
+                className="relative p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] shadow-sm hover:shadow-xl hover:shadow-[#0B2D7F]/10 hover:-translate-y-1.5 transition-all duration-300 ease-out flex flex-col justify-between cursor-default h-full"
+              >
+                <div>
+                  <span className="font-serif text-2xl text-[#D4AF37] font-semibold">
+                    {s.step}
+                  </span>
+                  <h4 className="mt-2 font-serif text-lg font-medium text-neutral-900 dark:text-white">
+                    {s.title}
+                  </h4>
+                  <p className="mt-2 text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-sans">
+                    {s.desc}
+                  </p>
+                </div>
               </div>
-            </div>
+            </ScrollReveal>
           ))}
         </div>
       </div>

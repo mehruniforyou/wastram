@@ -8,6 +8,7 @@ import TapAndViewModal from '@/components/TapAndViewModal';
 import BodyMeasurementModal from '@/components/BodyMeasurementModal';
 import StoryViewerModal from '@/components/StoryViewerModal';
 import CurtainIntro from '@/components/CurtainIntro';
+import NavigationProgressBar from '@/components/NavigationProgressBar';
 
 export const viewport: Viewport = {
   themeColor: [
@@ -68,6 +69,7 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-background text-foreground font-sans antialiased selection:bg-[#0B2D7F] selection:text-white w-full">
+        <NavigationProgressBar />
         <ThemeProvider>
           <CartProvider>
             <CurtainIntro />

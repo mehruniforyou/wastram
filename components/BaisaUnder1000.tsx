@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import ProductCard from './ProductCard';
+import ScrollReveal from '@/components/ScrollReveal';
+import { ProductCardSkeleton } from '@/components/BrandedSkeleton';
 
 export default function BaisaUnder1000() {
   const [products, setProducts] = useState<NishoramaProduct[]>([]);
@@ -32,7 +34,7 @@ export default function BaisaUnder1000() {
     <section className="py-8 md:py-14 bg-[#FFFEFE] dark:bg-[#100E0C]">
       <div className="container-x">
         {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
-        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
+        <ScrollReveal direction="up" duration={800} className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <div className="section-pill mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Everyday Handblocks</span>
@@ -52,12 +54,16 @@ export default function BaisaUnder1000() {
               <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
-        </div>
+        </ScrollReveal>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-          {products.map((p) => (
-            <ProductCard key={p.id} product={p} />
-          ))}
+          {products.length === 0
+            ? [...Array(8)].map((_, i) => <ProductCardSkeleton key={i} />)
+            : products.map((p, i) => (
+                <ScrollReveal key={p.id} direction="up" delay={(i % 4) * 80} duration={800}>
+                  <ProductCard product={p} />
+                </ScrollReveal>
+              ))}
         </div>
       </div>
     </section>

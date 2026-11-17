@@ -19,6 +19,7 @@ import SizeGuideModal from '@/components/SizeGuideModal';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import ProductCard from '@/components/ProductCard';
 import { useCart } from '@/context/CartContext';
+import { ProductDetailSkeleton } from '@/components/BrandedSkeleton';
 
 // Authentic Official WhatsApp Logo SVG Icon
 function WhatsAppIcon({ className = 'w-4 h-4 fill-current shrink-0' }: { className?: string }) {
@@ -191,8 +192,11 @@ export default function ProductDetailPage({ params }: Props) {
 
   if (isLoading || !product) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#FFFEFE] dark:bg-[#0E0C0A]">
-        <div className="w-10 h-10 border-4 border-neutral-300 border-t-[#0B2D7F] rounded-full animate-spin" />
+      <div className="min-h-screen bg-[#FFFEFE] dark:bg-[#0E0C0A]">
+        <Header onOpenSearch={() => setIsSearchOpen(true)} />
+        <main className="pt-24 md:pt-28">
+          <ProductDetailSkeleton />
+        </main>
       </div>
     );
   }

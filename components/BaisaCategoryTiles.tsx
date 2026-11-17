@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import ScrollReveal from '@/components/ScrollReveal';
 
 interface CategoryTile {
   name: string;
@@ -85,7 +86,7 @@ export default function BaisaCategoryTiles() {
   return (
     <section className="py-8 md:py-14 container-x">
       {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
-      <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
+      <ScrollReveal direction="up" duration={800} className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
         <div className="section-pill mb-3">
           <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
           <span>Curated Silhouettes</span>
@@ -105,20 +106,20 @@ export default function BaisaCategoryTiles() {
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
           </Link>
         </div>
-      </div>
+      </ScrollReveal>
 
       {/* Desktop Layout: Authentic Nishorama 4-Column Editorial Mosaic (600px Height) */}
       <div className="hidden lg:grid lg:grid-cols-12 gap-3.5 lg:gap-4.5 items-stretch h-[600px]">
         {/* Column 1 (3 Cols): Left Tall Bookend */}
-        <div className="lg:col-span-3 h-full">
+        <ScrollReveal direction="up" delay={0} duration={800} className="lg:col-span-3 h-full">
           <NishoramaCategoryCard
             cat={COL1_HERO}
             className="w-full h-full rounded-[32px]"
           />
-        </div>
+        </ScrollReveal>
 
         {/* Column 2 (2 Cols): Stacked Portrait Pair */}
-        <div className="lg:col-span-2 flex flex-col gap-3.5 lg:gap-4.5 h-full">
+        <ScrollReveal direction="up" delay={100} duration={800} className="lg:col-span-2 flex flex-col gap-3.5 lg:gap-4.5 h-full">
           <NishoramaCategoryCard
             cat={COL2_TOP}
             className="flex-1 rounded-[28px]"
@@ -127,10 +128,10 @@ export default function BaisaCategoryTiles() {
             cat={COL2_BOTTOM}
             className="flex-1 rounded-[28px]"
           />
-        </div>
+        </ScrollReveal>
 
         {/* Column 3 (3 Cols): Asymmetric Stacked Pair */}
-        <div className="lg:col-span-3 flex flex-col gap-3.5 lg:gap-4.5 h-full">
+        <ScrollReveal direction="up" delay={200} duration={800} className="lg:col-span-3 flex flex-col gap-3.5 lg:gap-4.5 h-full">
           <NishoramaCategoryCard
             cat={COL3_TOP}
             className="h-[57%] rounded-[28px]"
@@ -139,15 +140,15 @@ export default function BaisaCategoryTiles() {
             cat={COL3_BOTTOM}
             className="h-[43%] rounded-[28px]"
           />
-        </div>
+        </ScrollReveal>
 
         {/* Column 4 (4 Cols): Prominent Hero Card with Large Curved Corner */}
-        <div className="lg:col-span-4 h-full">
+        <ScrollReveal direction="up" delay={300} duration={800} className="lg:col-span-4 h-full">
           <NishoramaCategoryCard
             cat={COL4_HERO}
             className="w-full h-full rounded-[36px] rounded-tl-[64px]"
           />
-        </div>
+        </ScrollReveal>
       </div>
 
       {/* Mobile & Tablet Layout: Curated 2-Column Pinterest/Editorial Flow (< 1024px) */}

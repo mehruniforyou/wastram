@@ -712,5 +712,151 @@ body::-webkit-scrollbar-thumb {
   scrollbar-width: none;
 }
 
+/* =========================================================================
+   WASTRAM LUXURY BRANDED LOADING & SKELETON STYLES
+   ========================================================================= */
+
+@keyframes shimmerWave {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: #f1f2f6;
+}
+
+.dark .shimmer-skeleton {
+  background-color: #1e1b18;
+}
+
+.shimmer-skeleton::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.65) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: shimmerWave 1.8s infinite ease-in-out;
+  pointer-events: none;
+}
+
+.dark .shimmer-skeleton::after {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(212, 175, 55, 0.12) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+@keyframes crestFloatGlow {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.3));
+  }
+  50% {
+    transform: translateY(-4px) scale(1.03);
+    filter: drop-shadow(0 0 26px rgba(212, 175, 55, 0.65));
+  }
+}
+
+.crest-glow-anim {
+  animation: crestFloatGlow 2.6s ease-in-out infinite;
+}
+
+@keyframes spinnerRotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.gold-spinner {
+  border: 2.5px solid rgba(212, 175, 55, 0.2);
+  border-top-color: #D4AF37;
+  border-right-color: #0B2D7F;
+  border-radius: 50%;
+  animation: spinnerRotate 0.9s cubic-bezier(0.5, 0.1, 0.5, 0.9) infinite;
+}
+
+@keyframes navProgressShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.nav-progress-bar {
+  background: linear-gradient(90deg, #0B2D7F 0%, #D4AF37 50%, #0B2D7F 100%);
+  background-size: 200% 100%;
+  animation: navProgressShimmer 1.6s linear infinite;
+}
+
+/* =========================================================================
+   WASTRAM LUXURY SCROLL REVEAL ANIMATIONS
+   ========================================================================= */
+
+.reveal-init {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-init.reveal-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-32px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-left.reveal-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(32px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-right.reveal-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-scale.reveal-in {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+
 
 

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import ProductCard from './ProductCard';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export default function BaisaBestsellers() {
   const [products, setProducts] = useState<NishoramaProduct[]>(NISHORAMA_PRODUCTS.slice(0, 12));
@@ -46,7 +47,7 @@ export default function BaisaBestsellers() {
     <section className="py-8 md:py-14 bg-[#FFFEFE] dark:bg-[#0E0C0A] transition-colors border-y border-ink-100 dark:border-white/5">
       <div className="container-x">
         {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
-        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
+        <ScrollReveal direction="up" duration={800} className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <div className="section-pill mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0B2D7F]" />
             <span>Bestselling Silhouettes</span>
@@ -87,23 +88,25 @@ export default function BaisaBestsellers() {
               </button>
             </div>
           </div>
-        </div>
+        </ScrollReveal>
 
         {/* Snap Horizontal Carousel */}
-        <div
-          ref={scrollRef}
-          onScroll={handleScroll}
-          className="flex gap-4 sm:gap-6 overflow-x-auto pb-4 no-scrollbar snap-x snap-mandatory"
-        >
-          {products.map((prod) => (
-            <div
-              key={prod.id}
-              className="w-[260px] sm:w-[280px] lg:w-[300px] flex-shrink-0 snap-start"
-            >
-              <ProductCard product={prod} />
-            </div>
-          ))}
-        </div>
+        <ScrollReveal direction="up" delay={150} duration={850}>
+          <div
+            ref={scrollRef}
+            onScroll={handleScroll}
+            className="flex gap-4 sm:gap-6 overflow-x-auto pb-4 no-scrollbar snap-x snap-mandatory"
+          >
+            {products.map((prod) => (
+              <div
+                key={prod.id}
+                className="w-[260px] sm:w-[280px] lg:w-[300px] flex-shrink-0 snap-start"
+              >
+                <ProductCard product={prod} />
+              </div>
+            ))}
+          </div>
+        </ScrollReveal>
 
         {/* Scroll Progress Bar */}
         <div className="mt-6 w-full max-w-md mx-auto h-0.5 bg-neutral-200/50 dark:bg-white/10 rounded-full overflow-hidden">
