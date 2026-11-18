@@ -9,7 +9,6 @@ import Footer from './Footer';
 import SearchModal from './SearchModal';
 import CartDrawer from './CartDrawer';
 import SizeGuideModal from './SizeGuideModal';
-import FloatingWhatsApp from './FloatingWhatsApp';
 import ProductCard from './ProductCard';
 import ScrollReveal from './ScrollReveal';
 
@@ -378,7 +377,6 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
       <Footer />
       <CartDrawer />
       <SizeGuideModal />
-      <FloatingWhatsApp />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </div>
   );

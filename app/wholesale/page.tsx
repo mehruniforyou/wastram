@@ -20,7 +20,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CartDrawer from '@/components/CartDrawer';
 import SizeGuideModal from '@/components/SizeGuideModal';
-import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import SearchModal from '@/components/SearchModal';
 import ScrollReveal from '@/components/ScrollReveal';
 
@@ -488,7 +487,6 @@ Please share the current wholesale catalog and wholesale price sheet.`;
       <Footer />
       <CartDrawer />
       <SizeGuideModal />
-      <FloatingWhatsApp />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </div>
   );

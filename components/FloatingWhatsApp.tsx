@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { X, Plus, Phone, Mail } from 'lucide-react';
 
 interface FloatingWhatsAppProps {
@@ -20,8 +21,15 @@ function WhatsAppIcon({ className = 'w-5 h-5 fill-current shrink-0' }: { classNa
 }
 
 export default function FloatingWhatsApp({ className = '' }: FloatingWhatsAppProps) {
+  const pathname = usePathname();
   const [isDesktopOpen, setIsDesktopOpen] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+
+  // STRICT RULE: Use this bottom right widget ONLY at the home page ('/')
+  // Never render on Product Cards pages, main product pages, or any other subpages
+  if (pathname !== '/') {
+    return null;
+  }
 
   const whatsappUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
     'Hello Wastram Jaipur Atelier, I am interested in wholesale boutique sourcing and would like to review your catalog.'

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+
 import SearchModal from '@/components/SearchModal';
 import { CATEGORIES } from '@/data/categories';
 import { ArrowRight } from 'lucide-react';
@@ -85,7 +85,7 @@ export default function CategoriesPage() {
       </main>
 
       <Footer />
-      <FloatingWhatsApp />
+
       <SearchModal
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}

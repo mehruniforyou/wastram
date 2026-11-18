@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+
 import SearchModal from '@/components/SearchModal';
 
 const GALLERY_PICTURES = [
@@ -111,7 +111,7 @@ export default function GalleryPage() {
       </main>
 
       <Footer />
-      <FloatingWhatsApp />
+
       <SearchModal
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}

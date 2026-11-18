@@ -48,7 +48,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
   const [isTransitioning, setIsTransitioning] = useState(true);
   const pathname = usePathname();
 
-  const { cartCount, openCart, wishlist } = useCart();
+  const { cartCount, openCart, wishlist, openStory } = useCart();
   const { theme, toggleTheme } = useTheme();
 
   // Announcement bar animation ticker (advances every 3.5s, smooth upward hiding animation, pauses on hover)
@@ -453,19 +453,21 @@ export default function Header({ onOpenSearch }: HeaderProps) {
               <Search size={19} strokeWidth={1.5} />
             </button>
 
-            {/* Official Wastram Artisan Logomark (Replaces Theme Selector) */}
-            <Link
-              href="/"
-              className="p-1 flex items-center justify-center transition-transform hover:scale-105 shrink-0"
+            {/* Official Wastram Artisan Logomark — clicking opens visual showcases */}
+            <button
+              type="button"
+              onClick={openStory}
+              className="relative p-1 flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95 shrink-0 cursor-pointer focus:outline-none group"
               aria-label="Wastram Artisan Hallmark"
-              title="Wastram Atelier Hallmark"
+              title="Wastram Atelier"
             >
+              <span className="absolute inset-0 rounded-full border border-[#D4AF37]/50 scale-95 group-hover:scale-110 transition-transform duration-300 pointer-events-none" />
               <img
                 src="/images/brand/wastram-artisan-crest.png"
                 alt="Wastram Artisan Logomark"
-                className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 lg:h-11 lg:w-11 object-contain"
+                className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 lg:h-11 lg:w-11 object-contain pointer-events-none drop-shadow-xs"
               />
-            </Link>
+            </button>
 
             {/* WhatsApp Pill CTA */}
             <button

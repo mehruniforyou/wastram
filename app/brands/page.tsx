@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+
 import SearchModal from '@/components/SearchModal';
 import { ArrowRight, Sparkles } from 'lucide-react';
 
@@ -144,7 +144,7 @@ export default function BrandsPage() {
       </main>
 
       <Footer />
-      <FloatingWhatsApp />
+
       <SearchModal
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}

@@ -16,7 +16,6 @@ import Footer from '@/components/Footer';
 import SearchModal from '@/components/SearchModal';
 import CartDrawer from '@/components/CartDrawer';
 import SizeGuideModal from '@/components/SizeGuideModal';
-import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import ProductCard from '@/components/ProductCard';
 import { useCart } from '@/context/CartContext';
 import { ProductDetailSkeleton } from '@/components/BrandedSkeleton';
@@ -1110,7 +1109,6 @@ Please share the wholesale lookbook and trade quotation.`
       <Footer />
       <CartDrawer />
       <SizeGuideModal />
-      <FloatingWhatsApp className="bottom-20 right-4 sm:bottom-5 sm:right-5" />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </div>
   );

@@ -44,92 +44,65 @@ export const NISHORAMA_STORIES = [
     id: 1,
     title: 'WESTERN DRESSES',
     image: '/western-dresses/1668.jpg.jpeg',
-    subtitle: '260+ Signature Designs',
-    tag: 'NEW'
+    subtitle: 'Tiered Silhouettes in 100% Cambric',
+    tag: 'NEW ARRIVAL',
+    href: '/collections/western-dresses'
   },
   {
     id: 2,
-    title: 'TIERED MAXI',
-    image: '/western-dresses/5494.jpg.jpeg',
-    subtitle: 'Silk Crepe & Georgette',
-    tag: 'BESTSELLER'
+    title: 'CO-ORD SETS',
+    image: '/cord-sets/12550.jpg.jpeg',
+    subtitle: 'Tailored 2-Piece & 3-Piece Suites',
+    tag: 'ATELIER EDIT',
+    href: '/collections/cord-sets'
   },
   {
     id: 3,
-    title: 'SLIP & COWL',
-    image: '/western-dresses/10096.jpg.jpeg',
-    subtitle: 'Evening & Occasion',
-    tag: 'TRENDING'
+    title: 'TRADITIONAL GOWNS',
+    image: '/traditional-gowns/16668.jpg.jpeg',
+    subtitle: '5-Meter Sweeping Gota Patti Flair',
+    tag: 'ROYAL JAIPUR',
+    href: '/collections/traditional-gowns'
   },
   {
     id: 4,
-    title: 'RESORT WEAR',
-    image: '/western-dresses/10426.jpg.jpeg',
-    subtitle: 'Boutique Collection',
-    tag: 'WHOLESALE'
+    title: 'RESORT KAFTANS',
+    image: '/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg',
+    subtitle: 'River-Washed Mulmul & Artisanal Ties',
+    tag: 'FEATHERLIGHT',
+    href: '/collections/short-long-kaftan'
   },
   {
     id: 5,
-    title: 'TRADITIONAL GOWNS',
-    image: '/traditional-gowns/16668.jpg.jpeg',
-    subtitle: 'Regal Kalidar Gowns',
-    tag: 'ROYAL'
+    title: 'UMBRELLA DRESSES',
+    image: '/umbrella-dresses/4726.jpg.jpeg',
+    subtitle: 'Full 360° Circular Motion Flare',
+    tag: 'HANDBLOCK',
+    href: '/collections/umbrella-dresses'
   },
   {
     id: 6,
-    title: 'CO-ORD SETS',
-    image: '/cord-sets/_MG_7607.JPG.jpeg',
-    subtitle: '110+ Designer Sets',
-    tag: 'NEW'
+    title: 'TOPS & TUNICS',
+    image: '/tops-shirts/IMG-20250122-WA0005.jpg.jpeg',
+    subtitle: 'Hand-Carved Sanganer Teakwood Butis',
+    tag: 'DAILY COMFORT',
+    href: '/collections/tops-shirts'
   },
   {
     id: 7,
-    title: 'TOPS & SHIRTS',
-    image: '/tops-shirts/IMG-20250122-WA0005.jpg.jpeg',
-    subtitle: '120+ Designer Tops & Shirts',
-    tag: 'NEW'
+    title: 'TIERED MAXI',
+    image: '/western-dresses/5494.jpg.jpeg',
+    subtitle: 'Silk Crepe & Georgette Flounces',
+    tag: 'BESTSELLER',
+    href: '/collections/western-dresses'
   },
   {
     id: 8,
-    title: 'ETHNIC WEAR SETS',
-    image: '/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg',
-    subtitle: '100+ Regal 3-Piece Sets',
-    tag: 'ROYAL'
-  },
-  {
-    id: 9,
-    title: 'SHORT & LONG KAFTAN',
-    image: '/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg',
-    subtitle: '150+ Resort & Maxi Kaftans',
-    tag: 'NEW'
-  },
-  {
-    id: 10,
-    title: 'UMBRELLA DRESSES',
-    image: '/umbrella-dresses/4726.jpg.jpeg',
-    subtitle: '315+ Flared Umbrella Styles',
-    tag: 'NEW'
-  },
-  {
-    id: 11,
-    title: 'T-SHIRTS',
-    image: '/t-shirts/13665.jpg.jpeg',
-    subtitle: '50+ Heavyweight Streetwear Tees',
-    tag: 'NEW'
-  },
-  {
-    id: 12,
-    title: 'HOODIES & SWEATSHIRTS',
-    image: '/hoodies-sweatshirts/16885.jpg.jpeg',
-    subtitle: '40+ Heavyweight Streetwear Hoodies',
-    tag: 'NEW'
-  },
-  {
-    id: 13,
-    title: 'DENIM COLLECTION',
+    title: 'DENIM WEAVES',
     image: '/denim-collection/IMG-20261102-WA0252.jpg.jpeg',
-    subtitle: '140+ Premium Rigid & Stretch Denim Styles',
-    tag: 'NEW'
+    subtitle: 'Indigo Dyed Heritage Looms',
+    tag: 'ATELIER CRAFT',
+    href: '/collections/denim-collection'
   }
 ];
 
