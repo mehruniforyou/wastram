@@ -1110,7 +1110,7 @@ Please share the wholesale lookbook and trade quotation.`
       <Footer />
       <CartDrawer />
       <SizeGuideModal />
-      <FloatingWhatsApp />
+      <FloatingWhatsApp className="bottom-20 right-4 sm:bottom-5 sm:right-5" />
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </div>
   );
