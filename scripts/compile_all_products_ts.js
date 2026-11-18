@@ -63,7 +63,7 @@ function main() {
           name: p.title,
           title: p.title,
           slug: p.slug,
-          aliasSlugs: [`product-${p.id}`],
+          aliasSlugs: Array.from(new Set([...(p.aliasSlugs || []), `product-${p.id}`, p.id])),
           price: price,
           regularPrice: price + 600,
           salePrice: price,
