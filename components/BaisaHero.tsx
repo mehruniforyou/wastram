@@ -110,7 +110,7 @@ export default function BaisaHero() {
               href="/products"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs sm:text-sm font-medium tracking-wide shadow-md shadow-[#0B2D7F]/25 transition-all duration-200 active:scale-98"
             >
-              <span>Explore collection</span>
+              <span>Explore</span>
               <ArrowRight size={15} />
             </Link>
 
@@ -118,7 +118,7 @@ export default function BaisaHero() {
               href="/wholesale"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-white/30 dark:text-white hover:bg-[#0B2D7F]/5 text-xs sm:text-sm font-medium tracking-wide transition-all duration-200"
             >
-              <span>Wholesale &amp; Trade Terms</span>
+              <span>Wholesale</span>
             </Link>
           </div>
         </ScrollReveal>

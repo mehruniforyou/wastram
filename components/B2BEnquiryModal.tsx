@@ -86,7 +86,7 @@ export default function B2BEnquiryModal({
                   rel="noopener noreferrer"
                   className="px-5 py-2.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-2 transition-all shadow-sm"
                 >
-                  <span>Chat on WhatsApp</span>
+                  <span>WhatsApp</span>
                 </a>
                 <button
                   onClick={() => {
@@ -251,7 +251,7 @@ export default function B2BEnquiryModal({
                     disabled={isSubmitting}
                     className="flex-1 py-3 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] font-semibold text-xs uppercase tracking-wider transition-all shadow-md shadow-[#0B2D7F]/25 disabled:opacity-50 cursor-pointer"
                   >
-                    {isSubmitting ? 'Transmitting Inquiry...' : 'Submit Boutique Inquiry'}
+                    {isSubmitting ? 'Transmitting...' : 'Submit'}
                   </button>
                   <a
                     href={`https://wa.me/918003088838?text=${whatsappMessage}`}

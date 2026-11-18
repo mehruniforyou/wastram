@@ -94,7 +94,7 @@ export default function QuickAddModal({ product, onClose }: QuickAddModalProps) 
           onClick={handleAdd}
           className="mt-2 w-full py-3 bg-[#0B2D7F] hover:bg-[#071F59] text-white font-semibold text-xs uppercase tracking-wider rounded-full transition-all shadow-md shadow-[#0B2D7F]/25 flex items-center justify-center gap-2 cursor-pointer"
         >
-          <span>Add to Enquiry List</span>
+          <span>Add</span>
         </button>
       </div>
     </div>

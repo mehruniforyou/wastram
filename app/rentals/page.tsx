@@ -72,7 +72,7 @@ export default function RentalsPage() {
               className="px-7 py-3.5 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-xs sm:text-sm font-semibold transition-all shadow-md inline-flex items-center gap-2"
             >
               <MessageCircle size={16} />
-              <span>Book via WhatsApp Concierge</span>
+              <span>Book</span>
             </a>
             <Link
               href="#how-it-works"

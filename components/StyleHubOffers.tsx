@@ -93,7 +93,7 @@ export default function StyleHubOffers() {
                 onClick={() => handleClaimOffer(offer)}
                 className="rounded-full px-4 py-1.5 border border-[#0B2D7F] text-[#0B2D7F] hover:bg-[#0B2D7F] hover:text-white dark:border-[#D4AF37] dark:text-[#D4AF37] dark:hover:bg-[#D4AF37] dark:hover:text-[#071F59] text-[11px] uppercase tracking-widerest font-medium transition-all cursor-pointer shadow-sm active:scale-95"
               >
-                Claim Terms →
+                Claim →
               </button>
             </div>
           </div>

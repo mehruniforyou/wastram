@@ -45,7 +45,7 @@ export default function StyleHubVisit() {
               className="btn-primary"
             >
               <MessageSquare size={14} className="shrink-0" />
-              <span>Schedule Atelier Appointment</span>
+              <span>Book</span>
             </button>
           </div>
         </div>

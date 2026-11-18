@@ -233,7 +233,7 @@ export default function ContactPage() {
                     className="w-full btn-primary flex items-center justify-center gap-2 cursor-pointer"
                   >
                     <Send size={14} />
-                    <span>Send Sourcing Inquiry to WhatsApp</span>
+                    <span>Send</span>
                   </button>
                 </div>
               </form>

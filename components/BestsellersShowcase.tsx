@@ -69,7 +69,7 @@ export default function BestsellersShowcase() {
               href="/pages/contact"
               className="px-6 py-2.5 rounded-full bg-[#0B2D7F] text-white hover:bg-[#071F59] transition-all text-[11px] font-sans font-medium uppercase tracking-[0.12em] shadow-soft shrink-0 hover:-translate-y-0.5"
             >
-              Inquire for Boutiques &rarr;
+              Inquire &rarr;
             </Link>
           </div>
         </ScrollReveal>

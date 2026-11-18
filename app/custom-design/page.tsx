@@ -263,7 +263,7 @@ Please guide me on timeline, fabric swatches, and quote.`;
               className="w-full py-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 font-semibold text-sm transition-all shadow-md flex items-center justify-center gap-2"
             >
               <MessageCircle size={16} />
-              <span>Submit Custom Brief to Master Tailor</span>
+              <span>Submit</span>
             </button>
           </form>
         </div>

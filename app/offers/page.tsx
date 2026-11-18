@@ -141,7 +141,7 @@ export default function OffersPage() {
                     className="w-full btn-primary flex items-center justify-center gap-2 cursor-pointer"
                   >
                     <MessageCircle size={15} />
-                    <span>Inquire via WhatsApp</span>
+                    <span>WhatsApp</span>
                   </button>
                 </div>
               </div>

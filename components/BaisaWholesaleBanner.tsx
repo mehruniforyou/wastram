@@ -47,7 +47,7 @@ export default function BaisaWholesaleBanner() {
                   href="/wholesale"
                   className="px-7 py-3.5 rounded-full bg-[#D4AF37] hover:bg-[#C5A059] text-neutral-950 font-semibold text-xs sm:text-sm transition-all duration-300 shadow-lg shadow-[#D4AF37]/25 inline-flex items-center gap-2 group active:scale-98"
                 >
-                  <span>Explore Trade Terms</span>
+                  <span>Explore</span>
                   <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
                 </Link>
 
@@ -58,7 +58,7 @@ export default function BaisaWholesaleBanner() {
                   className="px-6 py-3.5 rounded-full border border-white/25 hover:border-[#25D366] hover:bg-[#25D366]/15 text-white font-medium text-xs sm:text-sm transition-all inline-flex items-center gap-2 group active:scale-98"
                 >
                   <MessageCircle size={15} className="text-[#25D366] transition-transform group-hover:scale-110" />
-                  <span>WhatsApp Trade Desk</span>
+                  <span>WhatsApp</span>
                 </a>
               </div>
 

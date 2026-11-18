@@ -139,7 +139,7 @@ export default function SizeGuideModal() {
               className="px-4 py-2 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-xs font-semibold transition-colors shrink-0 inline-flex items-center gap-1.5 shadow-sm"
             >
               <MessageCircle size={14} />
-              <span>Tailor Chat</span>
+              <span>WhatsApp</span>
             </a>
           </div>
         </div>

@@ -72,7 +72,7 @@ export default function EditorialBanners() {
                   onClick={(e) => handleWhatsAppEditorial('Ritual Ready Festive Suits', e)}
                   className="px-6 py-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-jost font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center gap-1.5 transition-all cursor-pointer active:scale-95"
                 >
-                  <span>Enquire Edit</span>
+                  <span>Enquire</span>
                   <span>&rarr;</span>
                 </button>
 
@@ -80,7 +80,7 @@ export default function EditorialBanners() {
                   href="/collections/ethnic-wear-sets"
                   className="px-5 py-2.5 rounded-full bg-white/20 hover:bg-white text-white hover:text-[#071F59] text-xs font-jost font-semibold uppercase tracking-[0.12em] backdrop-blur-md transition-all"
                 >
-                  View Lookbook
+                  Lookbook
                 </Link>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function EditorialBanners() {
                   onClick={(e) => handleWhatsAppEditorial('Wedding Wardrobe Trousseau', e)}
                   className="px-6 py-2.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-jost font-semibold uppercase tracking-[0.12em] shadow-lg flex items-center gap-1.5 transition-all cursor-pointer active:scale-95"
                 >
-                  <span>Enquire Edit</span>
+                  <span>Enquire</span>
                   <span>&rarr;</span>
                 </button>
 
@@ -126,7 +126,7 @@ export default function EditorialBanners() {
                   href="/collections/umbrella-dresses"
                   className="px-5 py-2.5 rounded-full bg-white/20 hover:bg-white text-white hover:text-[#071F59] text-xs font-jost font-semibold uppercase tracking-[0.12em] backdrop-blur-md transition-all"
                 >
-                  View Lookbook
+                  Lookbook
                 </Link>
               </div>
             </div>

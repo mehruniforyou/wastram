@@ -231,7 +231,7 @@ export default function WholesalePage() {
               className="w-full py-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white dark:bg-[#D4AF37] dark:text-neutral-950 dark:hover:bg-[#C5A059] font-semibold text-sm transition-all shadow-md shadow-[#0B2D7F]/25 flex items-center justify-center gap-2 mt-4 cursor-pointer"
             >
               <MessageCircle size={16} />
-              <span>Request Wholesale Line Sheets via WhatsApp</span>
+              <span>WhatsApp</span>
             </button>
           </form>
         </div>

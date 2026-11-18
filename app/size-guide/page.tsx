@@ -130,7 +130,7 @@ export default function SizeGuidePage() {
             className="px-6 py-3 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 text-xs font-semibold transition-colors inline-flex items-center gap-2 shadow-sm"
           >
             <MessageCircle size={15} />
-            <span>Chat with Master Tailor</span>
+            <span>WhatsApp</span>
           </a>
         </div>
       </main>

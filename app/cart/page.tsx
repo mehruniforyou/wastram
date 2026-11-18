@@ -186,7 +186,7 @@ export default function CartPage() {
                 rel="noopener noreferrer"
                 className="w-full py-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200 font-semibold text-sm text-center block transition-all shadow-md"
               >
-                Submit Wholesale Enquiry on WhatsApp
+                WhatsApp
               </a>
 
               <div className="space-y-2 pt-2 border-t border-neutral-200 dark:border-white/10 text-xs text-neutral-500 dark:text-neutral-400">

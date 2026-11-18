@@ -679,7 +679,7 @@ export default function Header({ onOpenSearch }: HeaderProps) {
                 className="w-full py-2.5 px-4 rounded-full bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-semibold flex items-center justify-center gap-2 shadow-sm transition-colors"
               >
                 <MessageCircle size={15} />
-                <span>Chat on WhatsApp Concierge</span>
+                <span>WhatsApp</span>
               </button>
               <p className="text-[11px] text-center text-foreground/50">
                 Sanganer Factory Workshop, Jaipur · Mon-Sat 9am-8pm

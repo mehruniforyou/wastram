@@ -213,7 +213,7 @@ export default function TapAndViewModal() {
               }}
               className="w-full py-3.5 rounded-full bg-[#0B2D7F] text-[#D4AF37] hover:bg-[#071F59] text-xs font-bold uppercase tracking-wider transition-all shadow-md flex items-center justify-center gap-2"
             >
-              <span>Add to Enquiry List • Size {selectedSize}</span>
+              <span>Add • {selectedSize}</span>
             </button>
 
             <Link
@@ -221,7 +221,7 @@ export default function TapAndViewModal() {
               onClick={closeTapAndView}
               className="w-full py-2.5 rounded-full bg-white text-[#0B2D7F] border border-[#0B2D7F] hover:bg-[#FFFEFE] text-xs font-bold uppercase tracking-wider text-center transition-all"
             >
-              View Full Product Details →
+              Details →
             </Link>
           </div>
         </div>

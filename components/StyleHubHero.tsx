@@ -68,13 +68,13 @@ export default function StyleHubHero() {
               href="/products"
               className="btn-primary"
             >
-              Explore Collection
+              Explore
             </Link>
             <button
               onClick={handleWhatsAppBooking}
               className="btn-outline cursor-pointer"
             >
-              Book Atelier Consultation
+              Book
             </button>
           </div>
 

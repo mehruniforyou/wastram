@@ -42,7 +42,7 @@ export default function FloatingWhatsApp({ className = '' }: FloatingWhatsAppPro
   const mobileCtas = [
     {
       id: 'email',
-      label: 'Email Sourcing',
+      label: 'Email',
       href: 'mailto:marutitex@gmail.com?subject=Wastram%20Jaipur%20Wholesale%20%26%20Boutique%20Sourcing%20Inquiry',
       icon: <Mail className="w-5 h-5 text-neutral-950 stroke-[2.2]" />,
       bgClass: 'bg-[#D4AF37] hover:bg-[#c39e29] text-neutral-950 shadow-[#D4AF37]/35 border-[#D4AF37]',
@@ -51,7 +51,7 @@ export default function FloatingWhatsApp({ className = '' }: FloatingWhatsAppPro
     },
     {
       id: 'phone',
-      label: 'Call Atelier',
+      label: 'Call',
       href: 'tel:+918003088838',
       icon: <Phone className="w-5 h-5 text-white stroke-[2.2]" />,
       bgClass: 'bg-[#0B2D7F] hover:bg-[#071F59] text-white shadow-[#0B2D7F]/40 border-white/20',
@@ -60,7 +60,7 @@ export default function FloatingWhatsApp({ className = '' }: FloatingWhatsAppPro
     },
     {
       id: 'whatsapp',
-      label: 'WhatsApp Concierge',
+      label: 'WhatsApp',
       href: whatsappUrl,
       icon: <WhatsAppIcon className="w-6 h-6 fill-white shrink-0" />,
       bgClass: 'bg-[#25D366] hover:bg-[#20ba59] text-white shadow-[#25D366]/40 border-white/20',
@@ -122,7 +122,7 @@ export default function FloatingWhatsApp({ className = '' }: FloatingWhatsAppPro
                 className="mt-4 bg-neutral-900 hover:bg-neutral-800 text-white dark:bg-white dark:text-neutral-950 w-full text-center flex items-center justify-center gap-2 rounded-full py-2.5 text-sm font-medium transition-colors"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-current shrink-0" />
-                <span>Start WhatsApp Chat</span>
+                <span>WhatsApp</span>
               </a>
             </div>
           )}
@@ -135,7 +135,7 @@ export default function FloatingWhatsApp({ className = '' }: FloatingWhatsAppPro
           >
             <WhatsAppIcon className="w-5 h-5 fill-[#25D366] shrink-0" />
             <span className="text-xs uppercase tracking-wider font-semibold">
-              Chat on WhatsApp
+              WhatsApp
             </span>
           </button>
         </div>

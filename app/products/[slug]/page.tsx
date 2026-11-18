@@ -561,9 +561,9 @@ Please share the wholesale lookbook and trade quotation.`
               </div>
             </div>
 
-            {/* Exactly Two Symmetric CTAs (WhatsApp Trade Desk & Add to Quote Bag) */}
+            {/* Exactly Two Symmetric CTAs (WhatsApp & Add) */}
             <div className="grid grid-cols-2 gap-3.5 pt-2">
-              {/* CTA 1: WhatsApp Trade Desk (Primary #0B2D7F) */}
+              {/* CTA 1: WhatsApp (Primary #0B2D7F) */}
               <a
                 href={whatsappInquiryUrl}
                 target="_blank"
@@ -571,17 +571,17 @@ Please share the wholesale lookbook and trade quotation.`
                 className="py-3.5 px-4 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs sm:text-sm font-medium flex items-center justify-center gap-2 shadow-md shadow-[#0B2D7F]/20 transition-all active:scale-98 cursor-pointer truncate"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-[#25D366] shrink-0" />
-                <span className="truncate">WhatsApp Trade Desk</span>
+                <span className="truncate">WhatsApp</span>
               </a>
 
-              {/* CTA 2: Add to Quote Bag (Symmetric Outline) */}
+              {/* CTA 2: Add (Symmetric Outline) */}
               <button
                 type="button"
                 onClick={handleAddToCart}
                 className="py-3.5 px-4 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-[#D4AF37] dark:text-[#D4AF37] hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition-all active:scale-98 cursor-pointer truncate"
               >
                 <ShoppingBag size={15} className="shrink-0" />
-                <span className="truncate">Add to Quote Bag</span>
+                <span className="truncate">Add</span>
               </button>
             </div>
 
@@ -884,7 +884,7 @@ Please share the wholesale lookbook and trade quotation.`
               className="py-3 px-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-medium flex items-center justify-center gap-1.5 shadow-md shadow-[#0B2D7F]/20 active:scale-98 cursor-pointer truncate"
             >
               <WhatsAppIcon className="w-4 h-4 fill-[#25D366] shrink-0" />
-              <span className="truncate">WhatsApp Trade</span>
+              <span className="truncate">WhatsApp</span>
             </a>
 
             <button
@@ -893,7 +893,7 @@ Please share the wholesale lookbook and trade quotation.`
               className="py-3 px-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-[#D4AF37] dark:text-[#D4AF37] hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 text-xs font-medium flex items-center justify-center gap-1.5 active:scale-98 cursor-pointer truncate"
             >
               <ShoppingBag size={14} className="shrink-0" />
-              <span className="truncate">Add to Quote Bag</span>
+              <span className="truncate">Add</span>
             </button>
           </div>
 
@@ -1007,7 +1007,7 @@ Please share the wholesale lookbook and trade quotation.`
               className="flex-1 py-3 px-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-semibold flex items-center justify-center gap-1.5 shadow-md shadow-[#0B2D7F]/20 active:scale-98 cursor-pointer truncate"
             >
               <WhatsAppIcon className="w-4 h-4 fill-[#25D366] shrink-0" />
-              <span className="truncate">WhatsApp Trade</span>
+              <span className="truncate">WhatsApp</span>
             </a>
 
             <button
@@ -1016,7 +1016,7 @@ Please share the wholesale lookbook and trade quotation.`
               className="flex-1 py-3 px-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-[#D4AF37] dark:text-[#D4AF37] hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 text-xs font-semibold flex items-center justify-center gap-1.5 active:scale-98 cursor-pointer truncate"
             >
               <ShoppingBag size={14} className="shrink-0" />
-              <span className="truncate">Quote Bag</span>
+              <span className="truncate">Add</span>
             </button>
           </div>
         </div>

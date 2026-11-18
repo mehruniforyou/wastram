@@ -175,7 +175,7 @@ export default function CartDrawer() {
               onClick={closeCart}
               className="w-full py-3.5 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white dark:bg-[#D4AF37] dark:text-neutral-950 dark:hover:bg-[#C5A059] text-sm font-semibold text-center block transition-all shadow-md shadow-[#0B2D7F]/25 cursor-pointer"
             >
-              Review Quote &amp; Submit Enquiry
+              Quote
             </Link>
           </div>
         )}

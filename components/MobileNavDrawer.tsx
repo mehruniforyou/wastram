@@ -262,7 +262,7 @@ export default function MobileNavDrawer({
           </div>
           <div className="flex items-center justify-between text-[#0B2D7F]/80">
             <span>WhatsApp Support:</span>
-            <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#0B2D7F]">Chat Now</a>
+            <a href="https://wa.me/918003088838" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#0B2D7F]">WhatsApp</a>
           </div>
           <div className="flex items-center justify-between text-[#0B2D7F]/70 pt-2 text-[11px]">
             <Link href="/pages/faqs" onClick={handleClose} className="hover:text-[#0B2D7F]">FAQs</Link>

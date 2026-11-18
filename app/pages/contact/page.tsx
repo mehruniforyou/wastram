@@ -102,7 +102,7 @@ export default function ContactPage() {
                   type="submit"
                   className="w-full py-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-[#FFFEFE] font-bold text-xs uppercase tracking-wider transition-colors shadow-md"
                 >
-                  Send Message
+                  Send
                 </button>
               </form>
             )}
