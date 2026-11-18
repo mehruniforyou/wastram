@@ -72,6 +72,7 @@ const CATEGORY_MAP: Record<string, string> = {
 
   // 8. Tops & Shirts
   'tops-shirts': 'tops-shirts',
+  'tops-and-shirts': 'tops-shirts',
   'tops': 'tops-shirts',
   'shirts': 'tops-shirts',
   'corset-tops': 'tops-shirts',
@@ -81,6 +82,7 @@ const CATEGORY_MAP: Record<string, string> = {
 
   // 9. Hoodies & Sweatshirts
   'hoodies-sweatshirts': 'hoodies-sweatshirts',
+  'hoodies-and-sweatshirts': 'hoodies-sweatshirts',
   'hoodies': 'hoodies-sweatshirts',
   'sweatshirts': 'hoodies-sweatshirts',
 

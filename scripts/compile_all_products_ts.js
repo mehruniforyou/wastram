@@ -48,7 +48,7 @@ function main() {
     const filePath = path.join(__dirname, '..', 'data', f);
     if (!fs.existsSync(filePath)) continue;
     const content = fs.readFileSync(filePath, 'utf8');
-    const match = content.match(/export const [A-Z_]+: NishoramaProduct\[] = (\[[\s\S]*?\]);\s*$/);
+    const match = content.match(/export const [A-Z_]+: NishoramaProduct\[] = (\[[\s\S]*?\]);/);
     if (match) {
       const items = JSON.parse(match[1]);
       for (const p of items) {
