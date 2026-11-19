@@ -1,8 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { getAdminDb } from '@/lib/firebaseAdmin';
+import { getFirebaseDb } from '@/lib/firebaseClient';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
 
-// Storage file for Image Productisation state
+// Storage file for Image Productisation state (local dev fallback)
 const DATA_FILE = path.join(process.cwd(), 'data', 'image-productisation.json');
 
 export interface VariantSubset {
@@ -53,15 +56,75 @@ const CATEGORY_DEFINITIONS = [
   { id: 'mix-category-product-images', name: 'Mix Category Images', folder: 'mix-category-product-images' },
 ];
 
-function readStore(): ProductisationStore {
+let inMemoryProductisationStore: ProductisationStore | null = null;
+let lastStoreLoadedTime = 0;
+const STORE_CACHE_TTL = 5 * 1000; // 5 seconds
+
+async function readStore(): Promise<ProductisationStore> {
+  const now = Date.now();
+  if (inMemoryProductisationStore && now - lastStoreLoadedTime < STORE_CACHE_TTL) {
+    return inMemoryProductisationStore;
+  }
+
+  // 1. Try Firestore Admin SDK (Primary production storage on Vercel)
+  try {
+    const adminDb = getAdminDb();
+    if (adminDb) {
+      const snap = await adminDb.collection('orders').doc('_image_productisation_store').get();
+      if (snap.exists) {
+        const data = snap.data() as ProductisationStore;
+        if (data && Array.isArray(data.groups)) {
+          inMemoryProductisationStore = {
+            groups: data.groups,
+            categoriesState: data.categoriesState || {},
+            updatedAt: data.updatedAt || new Date().toISOString()
+          };
+          lastStoreLoadedTime = now;
+          return inMemoryProductisationStore;
+        }
+      }
+    }
+  } catch (err: any) {
+    console.warn('[ImageProductisation] Firestore Admin read notice:', err.message);
+  }
+
+  // 2. Try Firebase Client SDK
+  try {
+    const clientDb = getFirebaseDb();
+    if (clientDb) {
+      const snap = await getDoc(doc(clientDb, 'orders', '_image_productisation_store'));
+      if (snap.exists()) {
+        const data = snap.data() as ProductisationStore;
+        if (data && Array.isArray(data.groups)) {
+          inMemoryProductisationStore = {
+            groups: data.groups,
+            categoriesState: data.categoriesState || {},
+            updatedAt: data.updatedAt || new Date().toISOString()
+          };
+          lastStoreLoadedTime = now;
+          return inMemoryProductisationStore;
+        }
+      }
+    }
+  } catch (err: any) {
+    console.warn('[ImageProductisation] Firebase Client read notice:', err.message);
+  }
+
+  // 3. Fallback to local disk file (Development environment)
   try {
     if (fs.existsSync(DATA_FILE)) {
       const content = fs.readFileSync(DATA_FILE, 'utf8');
-      return JSON.parse(content);
+      const parsed = JSON.parse(content);
+      if (parsed && Array.isArray(parsed.groups)) {
+        inMemoryProductisationStore = parsed;
+        lastStoreLoadedTime = now;
+        return parsed;
+      }
     }
-  } catch (err) {
-    console.error('Error reading image-productisation.json:', err);
+  } catch (err: any) {
+    console.warn('[ImageProductisation] Disk read notice:', err.message);
   }
+
   return {
     groups: [],
     categoriesState: {},
@@ -69,14 +132,36 @@ function readStore(): ProductisationStore {
   };
 }
 
-function writeStore(store: ProductisationStore) {
+async function writeStore(store: ProductisationStore): Promise<void> {
+  inMemoryProductisationStore = store;
+  lastStoreLoadedTime = Date.now();
+
+  // 1. Save to Firestore Admin SDK (Primary)
+  try {
+    const adminDb = getAdminDb();
+    if (adminDb) {
+      await adminDb.collection('orders').doc('_image_productisation_store').set(store, { merge: true });
+    }
+  } catch (err: any) {
+    console.warn('[ImageProductisation] Firestore Admin write notice:', err.message);
+  }
+
+  // 2. Save to Firebase Client SDK
+  try {
+    const clientDb = getFirebaseDb();
+    if (clientDb) {
+      await setDoc(doc(clientDb, 'orders', '_image_productisation_store'), store, { merge: true });
+    }
+  } catch (err: any) {
+    console.warn('[ImageProductisation] Firebase Client write notice:', err.message);
+  }
+
+  // 3. Save to local disk (safely ignored in read-only Vercel environments)
   try {
     const dir = path.dirname(DATA_FILE);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(DATA_FILE, JSON.stringify(store, null, 2), 'utf8');
-  } catch (err) {
-    console.error('Error writing image-productisation.json:', err);
-  }
+  } catch (_) {}
 }
 
 // Scan public folder for all available images
@@ -115,7 +200,7 @@ function scanCategoryImages() {
 export async function GET(req: NextRequest) {
   try {
     const imagesByCategory = scanCategoryImages();
-    const store = readStore();
+    const store = await readStore();
 
     // Ensure all categories have a state entry
     for (const cat of CATEGORY_DEFINITIONS) {
@@ -148,7 +233,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const currentStore = readStore();
+    const currentStore = await readStore();
 
     if (body.action === 'save') {
       const updatedStore: ProductisationStore = {
@@ -156,7 +241,7 @@ export async function POST(req: NextRequest) {
         categoriesState: body.categoriesState || currentStore.categoriesState,
         updatedAt: new Date().toISOString()
       };
-      writeStore(updatedStore);
+      await writeStore(updatedStore);
       return NextResponse.json({ success: true, updatedAt: updatedStore.updatedAt });
     }
 
@@ -169,7 +254,7 @@ export async function POST(req: NextRequest) {
         categoriesState: body.data.categoriesState || {},
         updatedAt: new Date().toISOString()
       };
-      writeStore(importedStore);
+      await writeStore(importedStore);
       return NextResponse.json({ success: true, message: 'Backup successfully imported', updatedAt: importedStore.updatedAt });
     }
 
@@ -186,7 +271,7 @@ export async function POST(req: NextRequest) {
         currentStore.categoriesState[categoryId].lastUpdated = new Date().toISOString();
       }
       currentStore.updatedAt = new Date().toISOString();
-      writeStore(currentStore);
+      await writeStore(currentStore);
       return NextResponse.json({ success: true, message: `Category ${categoryId} reset to unproductised state` });
     }
 

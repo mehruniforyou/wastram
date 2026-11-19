@@ -128,17 +128,65 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
     triggerAutoSave(previous.groups, previous.categoriesState);
   };
 
-  // Fetch initial data
+  const LOCAL_STORAGE_KEY = 'wastram_image_productisation_v1';
+
+  // Fetch initial data with instant localStorage hydration
   const fetchData = async () => {
     setLoading(true);
+    let localStore: { groups: ProductGroup[]; categoriesState: Record<string, CategoryState>; updatedAt?: string } | null = null;
+    try {
+      if (typeof window !== 'undefined') {
+        const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (parsed && Array.isArray(parsed.groups)) {
+            localStore = parsed;
+            // Pre-populate UI immediately from local storage so user never sees a flash of empty groups on refresh
+            setGroups(parsed.groups);
+            if (parsed.categoriesState) setCategoriesState(parsed.categoriesState);
+          }
+        }
+      }
+    } catch (_) {}
+
     try {
       const res = await fetch('/api/admin/image-productisation');
       const data = await res.json();
       if (data.success) {
         setCategories(data.categories || []);
         setImagesByCategory(data.imagesByCategory || {});
-        setGroups(data.groups || []);
-        setCategoriesState(data.categoriesState || {});
+
+        const serverGroups = Array.isArray(data.groups) ? data.groups : [];
+        const localGroups = localStore && Array.isArray(localStore.groups) ? localStore.groups : [];
+
+        if (serverGroups.length > 0) {
+          const serverTime = data.updatedAt ? new Date(data.updatedAt).getTime() : 0;
+          const localTime = localStore?.updatedAt ? new Date(localStore.updatedAt).getTime() : 0;
+
+          if (localGroups.length > 0 && localTime > serverTime + 1000) {
+            setGroups(localGroups);
+            if (localStore?.categoriesState) setCategoriesState(localStore.categoriesState);
+            triggerAutoSave(localGroups, localStore?.categoriesState || {}, true);
+          } else {
+            setGroups(serverGroups);
+            setCategoriesState(data.categoriesState || {});
+            try {
+              localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({
+                groups: serverGroups,
+                categoriesState: data.categoriesState || {},
+                updatedAt: data.updatedAt || new Date().toISOString()
+              }));
+            } catch (_) {}
+          }
+        } else if (localGroups.length > 0) {
+          setGroups(localGroups);
+          if (localStore?.categoriesState) setCategoriesState(localStore.categoriesState);
+          triggerAutoSave(localGroups, localStore?.categoriesState || {}, true);
+        } else {
+          setGroups([]);
+          setCategoriesState(data.categoriesState || {});
+        }
+
         if (data.categories && data.categories.length > 0 && !data.categories.some((c: any) => c.id === activeCatId)) {
           setActiveCatId(data.categories[0].id);
         }
@@ -154,11 +202,28 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
     fetchData();
   }, []);
 
-  // Auto-save logic (debounced)
+  // Auto-save logic (Immediate localStorage + Debounced Cloud Firestore save)
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const triggerAutoSave = useCallback((updatedGroups: ProductGroup[], updatedCatState: Record<string, CategoryState>) => {
+  const triggerAutoSave = useCallback((updatedGroups: ProductGroup[], updatedCatState: Record<string, CategoryState>, immediate = false) => {
+    const timestamp = new Date().toISOString();
+
+    // 1. Synchronously persist to browser localStorage immediately (0ms delay)
+    try {
+      if (typeof window !== 'undefined') {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({
+          groups: updatedGroups,
+          categoriesState: updatedCatState,
+          updatedAt: timestamp
+        }));
+      }
+    } catch (e) {
+      console.warn('LocalStorage save failed:', e);
+    }
+
+    // 2. Debounced save to Firestore Cloud Database
     if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
-    saveTimeoutRef.current = setTimeout(async () => {
+
+    const executeCloudSave = async () => {
       setSaving(true);
       try {
         const res = await fetch('/api/admin/image-productisation', {
@@ -175,12 +240,37 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
           setTimeout(() => setSaveSuccessToast(false), 2000);
         }
       } catch (e) {
-        console.error('Auto-save failed:', e);
+        console.error('Cloud auto-save failed:', e);
       } finally {
         setSaving(false);
       }
-    }, 800);
+    };
+
+    if (immediate) {
+      executeCloudSave();
+    } else {
+      saveTimeoutRef.current = setTimeout(executeCloudSave, 600);
+    }
   }, []);
+
+  const handleForceSave = () => {
+    triggerAutoSave(groups, categoriesState, true);
+  };
+
+  // Safe beforeunload handler to flush state on tab close
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      try {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({
+          groups,
+          categoriesState,
+          updatedAt: new Date().toISOString()
+        }));
+      } catch (_) {}
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [groups, categoriesState]);
 
   // Update groups helper with auto-save & history
   const updateGroupsAndSave = (updater: (prev: ProductGroup[]) => ProductGroup[]) => {
@@ -764,6 +854,29 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
 
           {/* Action buttons & Backup */}
           <div className="flex items-center gap-2">
+            {saving ? (
+              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs font-bold">
+                <Loader2 className="w-3.5 h-3.5 animate-spin text-amber-600" />
+                <span className="hidden sm:inline">Saving to Cloud...</span>
+                <span className="sm:hidden">Saving...</span>
+              </div>
+            ) : saveSuccessToast ? (
+              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold">
+                <Check className="w-3.5 h-3.5 text-emerald-600 stroke-[3]" />
+                <span className="hidden sm:inline">Saved to Cloud</span>
+              </div>
+            ) : (
+              <button
+                type="button"
+                onClick={handleForceSave}
+                className="px-3.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-heading font-bold rounded-xl transition-all flex items-center gap-1.5 shadow-xs cursor-pointer"
+                title="Save workspace immediately to Cloud Firestore and Local Storage"
+              >
+                <Save className="w-3.5 h-3.5" />
+                <span>Save Workspace</span>
+              </button>
+            )}
+
             {history.length > 0 && (
               <button
                 type="button"
