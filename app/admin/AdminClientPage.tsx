@@ -17,6 +17,7 @@ import DiscountsTab from "./components/DiscountsTab";
 import ReviewsTab from "./components/ReviewsTab";
 import ShippingTab from "./components/ShippingTab";
 import LegalPoliciesTab from "./components/LegalPoliciesTab";
+import ImageProductisationPage from "./image-productisation/page";
 import AddSampleOrderModal from "./components/AddSampleOrderModal";
 import EditOrderModal from "./components/EditOrderModal";
 import AdminDrawer from "./components/AdminDrawer";
@@ -3745,6 +3746,7 @@ function AdminPageContent() {
         {
           items: [
             { id: "products", label: "Products", icon: Cpu, desc: "Lautsprecherkomponenten, Inventory & Pricee" },
+            { id: "image-productisation", label: "Image Productisation", icon: ImageIcon, desc: "Manual photo grouping into product & variant subsets" },
             { id: "inventory", label: "Inventory", icon: Boxes, desc: "Stock levels, thresholds & inventory management" },
             { id: "categories", label: "Categories", icon: Layers, desc: "Catalog taxonomy & collections" },
             { id: "discounts", label: "Discounts", icon: Percent, desc: "Promo codes & promotions" },
@@ -6165,6 +6167,13 @@ function AdminPageContent() {
           {activeTab === "legal-policies" && (
             <div className="animate-fade-in">
               <LegalPoliciesTab />
+            </div>
+          )}
+
+          {/* ─── IMAGE PRODUCTISATION TAB ─────────────────────────── */}
+          {activeTab === "image-productisation" && (
+            <div className="animate-fade-in -mx-4 -my-6 sm:-mx-8">
+              <ImageProductisationPage onBack={() => setActiveTab("products")} />
             </div>
           )}
 
