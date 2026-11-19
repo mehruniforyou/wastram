@@ -706,10 +706,14 @@ export function applyOverrideToProduct(
     brand: override.brand || p.brand || "Wastram Atelier",
     partNumber: override.partNumber || override.sku || p.partNumber || (p as any).sku,
     sku: override.sku || override.partNumber || (p as any).sku || p.partNumber,
-    category: resolvedCategory,
+    category: resolvedCategoryId,
     category_id: resolvedCategoryId,
+    categoryId: resolvedCategoryId,
     category_name: resolvedCategory,
+    categoryName: resolvedCategory,
     category_slug: resolvedCategoryId,
+    categorySlug: resolvedCategoryId,
+    tab: resolvedCategoryId,
     colorVariants: (() => {
       const raw = Array.isArray(override.colorVariants) ? override.colorVariants : p.colorVariants;
       if (!Array.isArray(raw)) return [];

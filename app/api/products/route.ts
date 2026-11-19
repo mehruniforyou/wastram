@@ -93,7 +93,30 @@ export async function GET(req: NextRequest) {
     // Public Storefront query (Edge cached to save 90%+ Vercel function invocations)
     const products = await getAllMergedProducts();
     const filtered = category && category !== "all" && category !== "shop-all"
-      ? products.filter((p) => (p.category || "").toLowerCase() === category.toLowerCase() || (p.tab || "").toLowerCase() === category.toLowerCase())
+      ? products.filter((p) => {
+          const cat = (p.category || "").toLowerCase();
+          const catId = ((p as any).category_id || (p as any).categoryId || "").toLowerCase();
+          const catSlug = ((p as any).category_slug || "").toLowerCase();
+          const catName = ((p as any).category_name || "").toLowerCase();
+          const tab = ((p as any).tab || "").toLowerCase();
+          const query = category.toLowerCase().trim();
+          const queryDashed = query.replace(/\s+/g, "-");
+          const querySpaced = query.replace(/-/g, " ");
+
+          return (
+            cat === query ||
+            cat === queryDashed ||
+            cat === querySpaced ||
+            catId === query ||
+            catId === queryDashed ||
+            catSlug === query ||
+            catSlug === queryDashed ||
+            catName === query ||
+            catName === querySpaced ||
+            tab === query ||
+            tab === queryDashed
+          );
+        })
       : products;
 
     return NextResponse.json(filtered, {

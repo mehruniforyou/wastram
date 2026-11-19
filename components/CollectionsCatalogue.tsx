@@ -127,7 +127,10 @@ export default function CollectionsCatalogue({ initialCategory = 'all' }: { init
           selectedCategory === 'kurtis' ||
           selectedCategory === 'kurtas'
         ) {
-          if (p.category !== 'traditional-gowns') return false;
+          const cat = (p.category || '').toLowerCase();
+          const catId = ((p as any).category_id || (p as any).categoryId || '').toLowerCase();
+          const tab = ((p as any).tab || '').toLowerCase();
+          if (cat !== 'traditional-gowns' && cat !== 'traditional gowns' && catId !== 'traditional-gowns' && tab !== 'traditional-gowns') return false;
         } else if (selectedCategory === 'tops-shirts' || selectedCategory === 'tops' || selectedCategory === 'shirts') {
           if (p.category !== 'tops-shirts') return false;
         } else if (selectedCategory === 'bestsellers' || selectedCategory === 'most-wanted') {
