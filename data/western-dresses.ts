@@ -1,12 +1,15 @@
-// Wastram Atelier — western-dresses catalogue (consolidated 12 canonical products)
+// Wastram Atelier — western-dresses catalogue (Reconstructed 187 Individual Products)
 import { NishoramaProduct } from './nishorama-data';
 
 export const WESTERN_DRESSES: NishoramaProduct[] = [
   {
-    "id": "wd-0001",
-    "title": "Floral Tiered Sundress",
-    "slug": "floral-tiered-sundress",
+    "id": "wd-0001-v1",
+    "title": "Warm Caramel Floral Tiered Sundress",
+    "slug": "warm-caramel-floral-tiered-sundress",
     "aliasSlugs": [
+      "wd-0001-v1",
+      "warm-caramel-floral-tiered-sundress",
+      "floral-tiered-sundress-var-1",
       "aditi-floral-printed-tiered-sundress-with-pockets",
       "ahsaas-floral-printed-tiered-sundress-with-pockets",
       "ananya-floral-printed-tiered-sundress-with-pockets",
@@ -428,332 +431,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-wd-0022",
       "zoya-floral-printed-tiered-sundress-with-pockets"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772125783.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772128137.jpg.jpeg",
-      "/western-dresses/1806.jpg.jpeg",
-      "/western-dresses/5488.jpg.jpeg",
-      "/western-dresses/5601.jpg.jpeg",
-      "/western-dresses/5602.jpg.jpeg",
-      "/western-dresses/5603.jpg.jpeg",
-      "/western-dresses/5679.jpg.jpeg",
-      "/western-dresses/5758.jpg.jpeg",
-      "/western-dresses/5759.jpg.jpeg",
-      "/western-dresses/5760.jpg.jpeg",
-      "/western-dresses/5794.jpg.jpeg",
-      "/western-dresses/5795.jpg.jpeg",
-      "/western-dresses/5869.jpg.jpeg",
-      "/western-dresses/5870.jpg.jpeg",
-      "/western-dresses/5943.jpg.jpeg",
-      "/western-dresses/5944.jpg.jpeg",
-      "/western-dresses/5965.jpg.jpeg",
-      "/western-dresses/5966.jpg.jpeg",
-      "/western-dresses/5967.jpg.jpeg",
-      "/western-dresses/6056.jpg.jpeg",
-      "/western-dresses/6057.jpg.jpeg",
-      "/western-dresses/6092.jpg.jpeg",
-      "/western-dresses/6116.jpg.jpeg",
-      "/western-dresses/6117.jpg.jpeg",
-      "/western-dresses/6144.jpg.jpeg",
-      "/western-dresses/6176.jpg.jpeg",
-      "/western-dresses/6205.jpg.jpeg",
-      "/western-dresses/6206.jpg.jpeg",
-      "/western-dresses/6232.jpg.jpeg",
-      "/western-dresses/6269.jpg.jpeg",
-      "/western-dresses/6270.jpg.jpeg",
-      "/western-dresses/6272.jpg.jpeg",
-      "/western-dresses/6311.jpg.jpeg",
-      "/western-dresses/6348.jpg.jpeg",
-      "/western-dresses/6372.jpg.jpeg",
-      "/western-dresses/6373.jpg.jpeg",
-      "/western-dresses/6400.jpg.jpeg",
-      "/western-dresses/6401.jpg.jpeg",
-      "/western-dresses/6526.jpg.jpeg",
-      "/western-dresses/9696.jpg.jpeg",
-      "/western-dresses/9935.jpg.jpeg",
-      "/western-dresses/10277.jpg.jpeg",
-      "/western-dresses/10634.jpg.jpeg",
-      "/western-dresses/10871.jpg.jpeg",
-      "/western-dresses/10872.jpg.jpeg",
-      "/western-dresses/10950.jpg.jpeg",
-      "/western-dresses/11085.jpg.jpeg",
-      "/western-dresses/11086.jpg.jpeg",
-      "/western-dresses/11179.jpg.jpeg",
-      "/western-dresses/11267.jpg.jpeg",
-      "/western-dresses/11316.jpg.jpeg",
-      "/western-dresses/11399.jpg.jpeg",
-      "/western-dresses/11493.jpg.jpeg",
-      "/western-dresses/11533.jpg.jpeg",
-      "/western-dresses/11534.jpg.jpeg",
-      "/western-dresses/11535.jpg.jpeg",
-      "/western-dresses/11671.jpg.jpeg",
-      "/western-dresses/11782.jpg.jpeg",
-      "/western-dresses/11839.jpg.jpeg",
-      "/western-dresses/11929.jpg.jpeg",
-      "/western-dresses/11930.jpg.jpeg",
-      "/western-dresses/11931.jpg.jpeg",
-      "/western-dresses/12108.jpg.jpeg",
-      "/western-dresses/12153.jpg.jpeg",
-      "/western-dresses/12155.jpg.jpeg",
-      "/western-dresses/12256.jpg.jpeg",
-      "/western-dresses/12334.jpg.jpeg",
-      "/western-dresses/12470.jpg.jpeg",
-      "/western-dresses/12944.jpg.jpeg",
-      "/western-dresses/13356.jpg.jpeg",
-      "/western-dresses/13649.jpg.jpeg",
-      "/western-dresses/13650.jpg.jpeg",
-      "/western-dresses/16728.jpg.jpeg",
-      "/western-dresses/61299.jpg.jpeg",
-      "/western-dresses/70751.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0146.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0796.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1631.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2121.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2712.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2712.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3312.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4142.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4737.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5398.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5766.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6426.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6995.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6995.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7394.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7394.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8132.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8646.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8646.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9302.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9302.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9775.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9775.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772125783.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772128137.jpg.jpeg",
-          "/western-dresses/1806.jpg.jpeg",
-          "/western-dresses/5488.jpg.jpeg",
-          "/western-dresses/5758.jpg.jpeg",
-          "/western-dresses/5759.jpg.jpeg",
-          "/western-dresses/5760.jpg.jpeg",
-          "/western-dresses/5869.jpg.jpeg",
-          "/western-dresses/5870.jpg.jpeg",
-          "/western-dresses/5943.jpg.jpeg",
-          "/western-dresses/5944.jpg.jpeg",
-          "/western-dresses/6056.jpg.jpeg",
-          "/western-dresses/6116.jpg.jpeg",
-          "/western-dresses/6205.jpg.jpeg",
-          "/western-dresses/6206.jpg.jpeg",
-          "/western-dresses/6269.jpg.jpeg",
-          "/western-dresses/6270.jpg.jpeg",
-          "/western-dresses/6272.jpg.jpeg",
-          "/western-dresses/6311.jpg.jpeg",
-          "/western-dresses/6401.jpg.jpeg",
-          "/western-dresses/9696.jpg.jpeg",
-          "/western-dresses/10277.jpg.jpeg",
-          "/western-dresses/10634.jpg.jpeg",
-          "/western-dresses/11085.jpg.jpeg",
-          "/western-dresses/11086.jpg.jpeg",
-          "/western-dresses/11179.jpg.jpeg",
-          "/western-dresses/11534.jpg.jpeg",
-          "/western-dresses/11535.jpg.jpeg",
-          "/western-dresses/11671.jpg.jpeg",
-          "/western-dresses/11782.jpg.jpeg",
-          "/western-dresses/11930.jpg.jpeg",
-          "/western-dresses/12256.jpg.jpeg",
-          "/western-dresses/12470.jpg.jpeg",
-          "/western-dresses/12944.jpg.jpeg",
-          "/western-dresses/13356.jpg.jpeg",
-          "/western-dresses/13649.jpg.jpeg",
-          "/western-dresses/13650.jpg.jpeg",
-          "/western-dresses/61299.jpg.jpeg",
-          "/western-dresses/70751.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1631.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2121.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4142.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5766.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6426.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7394.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/5601.jpg.jpeg",
-          "/western-dresses/5602.jpg.jpeg",
-          "/western-dresses/5603.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8646.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5679.jpg.jpeg",
-          "/western-dresses/5794.jpg.jpeg",
-          "/western-dresses/5795.jpg.jpeg",
-          "/western-dresses/6144.jpg.jpeg",
-          "/western-dresses/6372.jpg.jpeg",
-          "/western-dresses/6526.jpg.jpeg",
-          "/western-dresses/9935.jpg.jpeg",
-          "/western-dresses/12108.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4737.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5965.jpg.jpeg",
-          "/western-dresses/5966.jpg.jpeg",
-          "/western-dresses/5967.jpg.jpeg",
-          "/western-dresses/6057.jpg.jpeg",
-          "/western-dresses/6232.jpg.jpeg",
-          "/western-dresses/6400.jpg.jpeg",
-          "/western-dresses/10871.jpg.jpeg",
-          "/western-dresses/10872.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0796.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3312.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5398.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8132.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6092.jpg.jpeg",
-          "/western-dresses/6176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6117.jpg.jpeg",
-          "/western-dresses/6348.jpg.jpeg",
-          "/western-dresses/11399.jpg.jpeg",
-          "/western-dresses/11533.jpg.jpeg",
-          "/western-dresses/11929.jpg.jpeg",
-          "/western-dresses/12153.jpg.jpeg",
-          "/western-dresses/12155.jpg.jpeg",
-          "/western-dresses/12334.jpg.jpeg",
-          "/western-dresses/16728.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/6373.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/10950.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/11267.jpg.jpeg",
-          "/western-dresses/11493.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0146.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6995.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6995.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/11316.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9302.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9302.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/11839.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/11931.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2712.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2712.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9775.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9775.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -761,26 +449,1728 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Floral Tiered Sundress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 113 photographic views, tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
-    "details": [
-      "Authentic Floral Tiered Sundress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Cotton 60:60 with Soft Garment Wash with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
+    "images": [
+      "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772125783.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772128137.jpg.jpeg",
+      "/western-dresses/1806.jpg.jpeg",
+      "/western-dresses/5488.jpg.jpeg",
+      "/western-dresses/5758.jpg.jpeg",
+      "/western-dresses/5759.jpg.jpeg",
+      "/western-dresses/5760.jpg.jpeg",
+      "/western-dresses/5869.jpg.jpeg",
+      "/western-dresses/5870.jpg.jpeg",
+      "/western-dresses/5943.jpg.jpeg",
+      "/western-dresses/5944.jpg.jpeg",
+      "/western-dresses/6056.jpg.jpeg",
+      "/western-dresses/6116.jpg.jpeg",
+      "/western-dresses/6205.jpg.jpeg",
+      "/western-dresses/6206.jpg.jpeg",
+      "/western-dresses/6269.jpg.jpeg",
+      "/western-dresses/6270.jpg.jpeg",
+      "/western-dresses/6272.jpg.jpeg",
+      "/western-dresses/6311.jpg.jpeg",
+      "/western-dresses/6401.jpg.jpeg",
+      "/western-dresses/9696.jpg.jpeg",
+      "/western-dresses/10277.jpg.jpeg",
+      "/western-dresses/10634.jpg.jpeg",
+      "/western-dresses/11085.jpg.jpeg",
+      "/western-dresses/11086.jpg.jpeg",
+      "/western-dresses/11179.jpg.jpeg",
+      "/western-dresses/11534.jpg.jpeg",
+      "/western-dresses/11535.jpg.jpeg",
+      "/western-dresses/11671.jpg.jpeg",
+      "/western-dresses/11782.jpg.jpeg",
+      "/western-dresses/11930.jpg.jpeg",
+      "/western-dresses/12256.jpg.jpeg",
+      "/western-dresses/12470.jpg.jpeg",
+      "/western-dresses/12944.jpg.jpeg",
+      "/western-dresses/13356.jpg.jpeg",
+      "/western-dresses/13649.jpg.jpeg",
+      "/western-dresses/13650.jpg.jpeg",
+      "/western-dresses/61299.jpg.jpeg",
+      "/western-dresses/70751.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1631.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2121.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4142.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5766.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6426.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7394.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7394.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0001",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772125783.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772128137.jpg.jpeg",
+      "/western-dresses/1806.jpg.jpeg",
+      "/western-dresses/5488.jpg.jpeg",
+      "/western-dresses/5758.jpg.jpeg",
+      "/western-dresses/5759.jpg.jpeg",
+      "/western-dresses/5760.jpg.jpeg",
+      "/western-dresses/5869.jpg.jpeg",
+      "/western-dresses/5870.jpg.jpeg",
+      "/western-dresses/5943.jpg.jpeg",
+      "/western-dresses/5944.jpg.jpeg",
+      "/western-dresses/6056.jpg.jpeg",
+      "/western-dresses/6116.jpg.jpeg",
+      "/western-dresses/6205.jpg.jpeg",
+      "/western-dresses/6206.jpg.jpeg",
+      "/western-dresses/6269.jpg.jpeg",
+      "/western-dresses/6270.jpg.jpeg",
+      "/western-dresses/6272.jpg.jpeg",
+      "/western-dresses/6311.jpg.jpeg",
+      "/western-dresses/6401.jpg.jpeg",
+      "/western-dresses/9696.jpg.jpeg",
+      "/western-dresses/10277.jpg.jpeg",
+      "/western-dresses/10634.jpg.jpeg",
+      "/western-dresses/11085.jpg.jpeg",
+      "/western-dresses/11086.jpg.jpeg",
+      "/western-dresses/11179.jpg.jpeg",
+      "/western-dresses/11534.jpg.jpeg",
+      "/western-dresses/11535.jpg.jpeg",
+      "/western-dresses/11671.jpg.jpeg",
+      "/western-dresses/11782.jpg.jpeg",
+      "/western-dresses/11930.jpg.jpeg",
+      "/western-dresses/12256.jpg.jpeg",
+      "/western-dresses/12470.jpg.jpeg",
+      "/western-dresses/12944.jpg.jpeg",
+      "/western-dresses/13356.jpg.jpeg",
+      "/western-dresses/13649.jpg.jpeg",
+      "/western-dresses/13650.jpg.jpeg",
+      "/western-dresses/61299.jpg.jpeg",
+      "/western-dresses/70751.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1631.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2121.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4142.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5766.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6426.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7394.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7394.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772121145.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772125783.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772128137.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/1806.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5488.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5758.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5759.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5760.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5869.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5870.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5943.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5944.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6056.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6116.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6205.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6206.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6269.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6270.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6272.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6311.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6401.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9696.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10277.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10634.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11085.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11086.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11179.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11534.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11535.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11671.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11782.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11930.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12256.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12470.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12944.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13356.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13649.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13650.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/61299.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/70751.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1631.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2121.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4142.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5766.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-49",
+        "name": "Styling 49",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-50",
+        "name": "Styling 50",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6426.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-51",
+        "name": "Styling 51",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-52",
+        "name": "Styling 52",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7394.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-53",
+        "name": "Styling 53",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7394.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0002",
-    "title": "Sleeveless Column Dress",
-    "slug": "sleeveless-column-dress",
+    "id": "wd-0001-v2",
+    "title": "Midnight Navy Floral Tiered Sundress",
+    "slug": "midnight-navy-floral-tiered-sundress",
     "aliasSlugs": [
+      "wd-0001-v2",
+      "midnight-navy-floral-tiered-sundress",
+      "floral-tiered-sundress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5601.jpg.jpeg",
+    "mainImage": "/western-dresses/5601.jpg.jpeg",
+    "images": [
+      "/western-dresses/5601.jpg.jpeg",
+      "/western-dresses/5602.jpg.jpeg",
+      "/western-dresses/5603.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8646.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5601.jpg.jpeg",
+      "/western-dresses/5602.jpg.jpeg",
+      "/western-dresses/5603.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8646.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/5601.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/5602.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/5603.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8646.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v3",
+    "title": "Pebble Grey Floral Tiered Sundress",
+    "slug": "pebble-grey-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v3",
+      "pebble-grey-floral-tiered-sundress",
+      "floral-tiered-sundress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5679.jpg.jpeg",
+    "mainImage": "/western-dresses/5679.jpg.jpeg",
+    "images": [
+      "/western-dresses/5679.jpg.jpeg",
+      "/western-dresses/5794.jpg.jpeg",
+      "/western-dresses/5795.jpg.jpeg",
+      "/western-dresses/6144.jpg.jpeg",
+      "/western-dresses/6372.jpg.jpeg",
+      "/western-dresses/6526.jpg.jpeg",
+      "/western-dresses/9935.jpg.jpeg",
+      "/western-dresses/12108.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4737.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5679.jpg.jpeg",
+      "/western-dresses/5794.jpg.jpeg",
+      "/western-dresses/5795.jpg.jpeg",
+      "/western-dresses/6144.jpg.jpeg",
+      "/western-dresses/6372.jpg.jpeg",
+      "/western-dresses/6526.jpg.jpeg",
+      "/western-dresses/9935.jpg.jpeg",
+      "/western-dresses/12108.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4737.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5679.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5794.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5795.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6144.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6372.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6526.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9935.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12108.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4737.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v4",
+    "title": "Ivory Cream Floral Tiered Sundress",
+    "slug": "ivory-cream-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v4",
+      "ivory-cream-floral-tiered-sundress",
+      "floral-tiered-sundress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5965.jpg.jpeg",
+    "mainImage": "/western-dresses/5965.jpg.jpeg",
+    "images": [
+      "/western-dresses/5965.jpg.jpeg",
+      "/western-dresses/5966.jpg.jpeg",
+      "/western-dresses/5967.jpg.jpeg",
+      "/western-dresses/6057.jpg.jpeg",
+      "/western-dresses/6232.jpg.jpeg",
+      "/western-dresses/6400.jpg.jpeg",
+      "/western-dresses/10871.jpg.jpeg",
+      "/western-dresses/10872.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0796.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3312.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5398.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8132.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5965.jpg.jpeg",
+      "/western-dresses/5966.jpg.jpeg",
+      "/western-dresses/5967.jpg.jpeg",
+      "/western-dresses/6057.jpg.jpeg",
+      "/western-dresses/6232.jpg.jpeg",
+      "/western-dresses/6400.jpg.jpeg",
+      "/western-dresses/10871.jpg.jpeg",
+      "/western-dresses/10872.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0796.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3312.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5398.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8132.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5965.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5966.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5967.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6057.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6232.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6400.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/10871.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/10872.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0796.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3312.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8132.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v5",
+    "title": "Charcoal Slate Floral Tiered Sundress",
+    "slug": "charcoal-slate-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v5",
+      "charcoal-slate-floral-tiered-sundress",
+      "floral-tiered-sundress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6092.jpg.jpeg",
+    "mainImage": "/western-dresses/6092.jpg.jpeg",
+    "images": [
+      "/western-dresses/6092.jpg.jpeg",
+      "/western-dresses/6176.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6092.jpg.jpeg",
+      "/western-dresses/6176.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6092.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6176.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v6",
+    "title": "Blush Rose Floral Tiered Sundress",
+    "slug": "blush-rose-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v6",
+      "blush-rose-floral-tiered-sundress",
+      "floral-tiered-sundress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6117.jpg.jpeg",
+    "mainImage": "/western-dresses/6117.jpg.jpeg",
+    "images": [
+      "/western-dresses/6117.jpg.jpeg",
+      "/western-dresses/6348.jpg.jpeg",
+      "/western-dresses/11399.jpg.jpeg",
+      "/western-dresses/11533.jpg.jpeg",
+      "/western-dresses/11929.jpg.jpeg",
+      "/western-dresses/12153.jpg.jpeg",
+      "/western-dresses/12155.jpg.jpeg",
+      "/western-dresses/12334.jpg.jpeg",
+      "/western-dresses/16728.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6117.jpg.jpeg",
+      "/western-dresses/6348.jpg.jpeg",
+      "/western-dresses/11399.jpg.jpeg",
+      "/western-dresses/11533.jpg.jpeg",
+      "/western-dresses/11929.jpg.jpeg",
+      "/western-dresses/12153.jpg.jpeg",
+      "/western-dresses/12155.jpg.jpeg",
+      "/western-dresses/12334.jpg.jpeg",
+      "/western-dresses/16728.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6117.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6348.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11399.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11533.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11929.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12153.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12155.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12334.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/16728.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v7",
+    "title": "Sand Ochre Floral Tiered Sundress",
+    "slug": "sand-ochre-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v7",
+      "sand-ochre-floral-tiered-sundress",
+      "floral-tiered-sundress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6373.jpg.jpeg",
+    "mainImage": "/western-dresses/6373.jpg.jpeg",
+    "images": [
+      "/western-dresses/6373.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6373.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/6373.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v8",
+    "title": "Lavender Violet Floral Tiered Sundress",
+    "slug": "lavender-violet-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v8",
+      "lavender-violet-floral-tiered-sundress",
+      "floral-tiered-sundress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10950.jpg.jpeg",
+    "mainImage": "/western-dresses/10950.jpg.jpeg",
+    "images": [
+      "/western-dresses/10950.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10950.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/10950.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v9",
+    "title": "Mustard Gold Floral Tiered Sundress",
+    "slug": "mustard-gold-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v9",
+      "mustard-gold-floral-tiered-sundress",
+      "floral-tiered-sundress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11267.jpg.jpeg",
+    "mainImage": "/western-dresses/11267.jpg.jpeg",
+    "images": [
+      "/western-dresses/11267.jpg.jpeg",
+      "/western-dresses/11493.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0146.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6995.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6995.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11267.jpg.jpeg",
+      "/western-dresses/11493.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0146.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6995.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6995.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/11267.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/11493.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0146.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6995.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6995.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v10",
+    "title": "Rust Terracotta Floral Tiered Sundress",
+    "slug": "rust-terracotta-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v10",
+      "rust-terracotta-floral-tiered-sundress",
+      "floral-tiered-sundress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11316.jpg.jpeg",
+    "mainImage": "/western-dresses/11316.jpg.jpeg",
+    "images": [
+      "/western-dresses/11316.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9302.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9302.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11316.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9302.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9302.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11316.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9302.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9302.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v11",
+    "title": "Scarlet Red Floral Tiered Sundress",
+    "slug": "scarlet-red-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v11",
+      "scarlet-red-floral-tiered-sundress",
+      "floral-tiered-sundress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11839.jpg.jpeg",
+    "mainImage": "/western-dresses/11839.jpg.jpeg",
+    "images": [
+      "/western-dresses/11839.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11839.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/11839.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v12",
+    "title": "Sunset Tangerine Floral Tiered Sundress",
+    "slug": "sunset-tangerine-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v12",
+      "sunset-tangerine-floral-tiered-sundress",
+      "floral-tiered-sundress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11931.jpg.jpeg",
+    "mainImage": "/western-dresses/11931.jpg.jpeg",
+    "images": [
+      "/western-dresses/11931.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2712.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2712.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11931.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2712.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2712.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/11931.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2712.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2712.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0001-v13",
+    "title": "Orchid Pink Floral Tiered Sundress",
+    "slug": "orchid-pink-floral-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0001-v13",
+      "orchid-pink-floral-tiered-sundress",
+      "floral-tiered-sundress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA9775.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA9775.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA9775.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9775.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA9775.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9775.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9775.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9775.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Floral Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Floral Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0001-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v1",
+    "title": "Warm Caramel Sleeveless Column Dress",
+    "slug": "warm-caramel-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v1",
+      "warm-caramel-sleeveless-column-dress",
+      "sleeveless-column-dress-var-1",
       "aditi-minimalist-column-cut-sleeveless-dress",
       "ahsaas-minimalist-column-cut-sleeveless-dress",
       "alia-minimalist-column-cut-sleeveless-dress",
@@ -1204,11 +2594,26 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-edition-9-wd-0193",
       "zoya-minimalist-column-cut-sleeveless-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/FB_IMG_1765772130401.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1765772130401.jpg.jpeg",
     "images": [
       "/western-dresses/FB_IMG_1765772130401.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772133882.jpg.jpeg",
@@ -1216,85 +2621,33 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/5490.jpg.jpeg",
       "/western-dresses/5612.jpg.jpeg",
       "/western-dresses/5680.jpg.jpeg",
-      "/western-dresses/5761.jpg.jpeg",
-      "/western-dresses/5762.jpg.jpeg",
-      "/western-dresses/5796.jpg.jpeg",
-      "/western-dresses/5871.jpg.jpeg",
-      "/western-dresses/5947.jpg.jpeg",
-      "/western-dresses/5948.jpg.jpeg",
-      "/western-dresses/5949.jpg.jpeg",
-      "/western-dresses/5977.jpg.jpeg",
-      "/western-dresses/5978.jpg.jpeg",
-      "/western-dresses/5981.jpg.jpeg",
-      "/western-dresses/5982.jpg.jpeg",
-      "/western-dresses/6058.jpg.jpeg",
-      "/western-dresses/6059.jpg.jpeg",
-      "/western-dresses/6060.jpg.jpeg",
-      "/western-dresses/6061.jpg.jpeg",
       "/western-dresses/6093.jpg.jpeg",
-      "/western-dresses/6127.jpg.jpeg",
-      "/western-dresses/6146.jpg.jpeg",
-      "/western-dresses/6147.jpg.jpeg",
-      "/western-dresses/6177.jpg.jpeg",
       "/western-dresses/6207.jpg.jpeg",
       "/western-dresses/6208.jpg.jpeg",
       "/western-dresses/6234.jpg.jpeg",
       "/western-dresses/6239.jpg.jpeg",
       "/western-dresses/6240.jpg.jpeg",
       "/western-dresses/6241.jpg.jpeg",
-      "/western-dresses/6282.jpg.jpeg",
-      "/western-dresses/6283.jpg.jpeg",
-      "/western-dresses/6313.jpg.jpeg",
       "/western-dresses/6314.jpg.jpeg",
-      "/western-dresses/6349.jpg.jpeg",
-      "/western-dresses/6374.jpg.jpeg",
       "/western-dresses/6404.jpg.jpeg",
-      "/western-dresses/9559.jpg.jpeg",
-      "/western-dresses/9560.jpg (1).jpeg",
-      "/western-dresses/9560.jpg%20(1).jpeg",
-      "/western-dresses/9560.jpg.jpeg",
-      "/western-dresses/9709.jpg.jpeg",
-      "/western-dresses/9710.jpg.jpeg",
-      "/western-dresses/9936.jpg.jpeg",
       "/western-dresses/10278.jpg.jpeg",
-      "/western-dresses/10635.jpg.jpeg",
       "/western-dresses/10875.jpg.jpeg",
-      "/western-dresses/10964.jpg.jpeg",
       "/western-dresses/11088.jpg.jpeg",
-      "/western-dresses/11197.jpg.jpeg",
       "/western-dresses/11268.jpg.jpeg",
       "/western-dresses/11269.jpg.jpeg",
-      "/western-dresses/11317.jpg.jpeg",
       "/western-dresses/11319.jpg.jpeg",
       "/western-dresses/11318.jpg.jpeg",
-      "/western-dresses/11401.jpg.jpeg",
       "/western-dresses/11494.jpg.jpeg",
-      "/western-dresses/11536.jpg.jpeg",
-      "/western-dresses/11685.jpg.jpeg",
-      "/western-dresses/11790.jpg.jpeg",
       "/western-dresses/11840.jpg.jpeg",
       "/western-dresses/11841.jpg.jpeg",
       "/western-dresses/11932.jpg.jpeg",
-      "/western-dresses/12121.jpg.jpeg",
-      "/western-dresses/12156.jpg.jpeg",
-      "/western-dresses/12157.jpg.jpeg",
       "/western-dresses/12257.jpg.jpeg",
-      "/western-dresses/12361.jpg.jpeg",
-      "/western-dresses/12477.jpg.jpeg",
-      "/western-dresses/12479.jpg.jpeg",
       "/western-dresses/12980.jpg.jpeg",
       "/western-dresses/13374.jpg.jpeg",
-      "/western-dresses/14308.jpg.jpeg",
-      "/western-dresses/14309.jpg.jpeg",
       "/western-dresses/16729.jpg.jpeg",
       "/western-dresses/61302.jpg.jpeg",
       "/western-dresses/70752.jpg.jpeg",
       "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0160.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0162.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA0999.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg",
@@ -1305,274 +2658,470 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/dresses-images/IMG-20261103-WA2777.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA3470.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA3470.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4306.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4753.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5430.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5891.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA6534.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7003.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7003.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7404.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7404.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA8157.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8157.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8699.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8699.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9381.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9891.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9891.jpg.jpeg"
+      "/western-dresses/dresses-images/IMG-20261103-WA8157.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/FB_IMG_1765772130401.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772133882.jpg.jpeg",
+      "/western-dresses/1886.jpg.jpeg",
+      "/western-dresses/5490.jpg.jpeg",
+      "/western-dresses/5612.jpg.jpeg",
+      "/western-dresses/5680.jpg.jpeg",
+      "/western-dresses/6093.jpg.jpeg",
+      "/western-dresses/6207.jpg.jpeg",
+      "/western-dresses/6208.jpg.jpeg",
+      "/western-dresses/6234.jpg.jpeg",
+      "/western-dresses/6239.jpg.jpeg",
+      "/western-dresses/6240.jpg.jpeg",
+      "/western-dresses/6241.jpg.jpeg",
+      "/western-dresses/6314.jpg.jpeg",
+      "/western-dresses/6404.jpg.jpeg",
+      "/western-dresses/10278.jpg.jpeg",
+      "/western-dresses/10875.jpg.jpeg",
+      "/western-dresses/11088.jpg.jpeg",
+      "/western-dresses/11268.jpg.jpeg",
+      "/western-dresses/11269.jpg.jpeg",
+      "/western-dresses/11319.jpg.jpeg",
+      "/western-dresses/11318.jpg.jpeg",
+      "/western-dresses/11494.jpg.jpeg",
+      "/western-dresses/11840.jpg.jpeg",
+      "/western-dresses/11841.jpg.jpeg",
+      "/western-dresses/11932.jpg.jpeg",
+      "/western-dresses/12257.jpg.jpeg",
+      "/western-dresses/12980.jpg.jpeg",
+      "/western-dresses/13374.jpg.jpeg",
+      "/western-dresses/16729.jpg.jpeg",
+      "/western-dresses/61302.jpg.jpeg",
+      "/western-dresses/70752.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0999.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1689.jpg (1).jpeg",
+      "/western-dresses/IMG-20261103-WA2258.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2258.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2777.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2777.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3470.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3470.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6534.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8157.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8157.jpg.jpeg"
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Warm Caramel",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772130401.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772133882.jpg.jpeg",
-          "/western-dresses/1886.jpg.jpeg",
-          "/western-dresses/5490.jpg.jpeg",
-          "/western-dresses/5612.jpg.jpeg",
-          "/western-dresses/5680.jpg.jpeg",
-          "/western-dresses/6093.jpg.jpeg",
-          "/western-dresses/6207.jpg.jpeg",
-          "/western-dresses/6208.jpg.jpeg",
-          "/western-dresses/6234.jpg.jpeg",
-          "/western-dresses/6239.jpg.jpeg",
-          "/western-dresses/6240.jpg.jpeg",
-          "/western-dresses/6241.jpg.jpeg",
-          "/western-dresses/6314.jpg.jpeg",
-          "/western-dresses/6404.jpg.jpeg",
-          "/western-dresses/10278.jpg.jpeg",
-          "/western-dresses/10875.jpg.jpeg",
-          "/western-dresses/11088.jpg.jpeg",
-          "/western-dresses/11268.jpg.jpeg",
-          "/western-dresses/11269.jpg.jpeg",
-          "/western-dresses/11319.jpg.jpeg",
-          "/western-dresses/11318.jpg.jpeg",
-          "/western-dresses/11494.jpg.jpeg",
-          "/western-dresses/11840.jpg.jpeg",
-          "/western-dresses/11841.jpg.jpeg",
-          "/western-dresses/11932.jpg.jpeg",
-          "/western-dresses/12257.jpg.jpeg",
-          "/western-dresses/12980.jpg.jpeg",
-          "/western-dresses/13374.jpg.jpeg",
-          "/western-dresses/16729.jpg.jpeg",
-          "/western-dresses/61302.jpg.jpeg",
-          "/western-dresses/70752.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0999.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1689.jpg (1).jpeg",
-          "/western-dresses/IMG-20261103-WA2258.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2258.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2777.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2777.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3470.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3470.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6534.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8157.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772130401.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772133882.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/1886.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5490.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5612.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5680.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6093.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6207.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6208.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6234.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6239.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6240.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6241.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6314.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6404.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10278.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10875.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11088.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11268.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11269.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11319.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11318.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11494.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11840.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11841.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11932.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12257.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12980.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13374.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16729.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/61302.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/70752.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0999.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1689.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2258.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2258.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2777.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2777.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3470.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3470.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6534.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8157.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
           "/western-dresses/dresses-images/IMG-20261103-WA8157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/5761.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/5762.jpg.jpeg",
-          "/western-dresses/5871.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5796.jpg.jpeg",
-          "/western-dresses/6127.jpg.jpeg",
-          "/western-dresses/10635.jpg.jpeg",
-          "/western-dresses/11536.jpg.jpeg",
-          "/western-dresses/12156.jpg.jpeg",
-          "/western-dresses/12157.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8699.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8699.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5947.jpg.jpeg",
-          "/western-dresses/5949.jpg.jpeg",
-          "/western-dresses/5977.jpg.jpeg",
-          "/western-dresses/5978.jpg.jpeg",
-          "/western-dresses/5981.jpg.jpeg",
-          "/western-dresses/5982.jpg.jpeg",
-          "/western-dresses/6058.jpg.jpeg",
-          "/western-dresses/6059.jpg.jpeg",
-          "/western-dresses/6060.jpg.jpeg",
-          "/western-dresses/6061.jpg.jpeg",
-          "/western-dresses/6146.jpg.jpeg",
-          "/western-dresses/6177.jpg.jpeg",
-          "/western-dresses/9559.jpg.jpeg",
-          "/western-dresses/9560.jpg (1).jpeg",
-          "/western-dresses/9560.jpg.jpeg",
-          "/western-dresses/12121.jpg.jpeg",
-          "/western-dresses/12361.jpg.jpeg",
-          "/western-dresses/12477.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4753.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9891.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9891.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5948.jpg.jpeg",
-          "/western-dresses/6313.jpg.jpeg",
-          "/western-dresses/9709.jpg.jpeg",
-          "/western-dresses/9710.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4306.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5430.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5891.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7404.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6147.jpg.jpeg",
-          "/western-dresses/11197.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7003.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7003.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/western-dresses/6282.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/western-dresses/6283.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/6349.jpg.jpeg",
-          "/western-dresses/11317.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/6374.jpg.jpeg",
-          "/western-dresses/9936.jpg.jpeg",
-          "/western-dresses/11685.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0162.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/western-dresses/9560.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/10964.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/western-dresses/11401.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/11790.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0160.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/12479.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/14308.jpg.jpeg",
-          "/western-dresses/14309.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-18",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9381.jpg.jpeg"
         ]
       }
     ],
+    "description": "Authentic Warm Caramel Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v2",
+    "title": "Sunset Tangerine Sleeveless Column Dress",
+    "slug": "sunset-tangerine-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v2",
+      "sunset-tangerine-sleeveless-column-dress",
+      "sleeveless-column-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1580,26 +3129,1486 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Sleeveless Column Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 117 photographic views, tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
-    "details": [
-      "Authentic Sleeveless Column Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/5761.jpg.jpeg",
+    "mainImage": "/western-dresses/5761.jpg.jpeg",
+    "images": [
+      "/western-dresses/5761.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0002",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/5761.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5761.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V2",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0003",
-    "title": "Ruffle Hem Asymmetric Dress",
-    "slug": "ruffle-hem-asymmetric-dress",
+    "id": "wd-0002-v3",
+    "title": "Rust Terracotta Sleeveless Column Dress",
+    "slug": "rust-terracotta-sleeveless-column-dress",
     "aliasSlugs": [
+      "wd-0002-v3",
+      "rust-terracotta-sleeveless-column-dress",
+      "sleeveless-column-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5762.jpg.jpeg",
+    "mainImage": "/western-dresses/5762.jpg.jpeg",
+    "images": [
+      "/western-dresses/5762.jpg.jpeg",
+      "/western-dresses/5871.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5762.jpg.jpeg",
+      "/western-dresses/5871.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5762.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5871.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v4",
+    "title": "Blush Rose Sleeveless Column Dress",
+    "slug": "blush-rose-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v4",
+      "blush-rose-sleeveless-column-dress",
+      "sleeveless-column-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5796.jpg.jpeg",
+    "mainImage": "/western-dresses/5796.jpg.jpeg",
+    "images": [
+      "/western-dresses/5796.jpg.jpeg",
+      "/western-dresses/6127.jpg.jpeg",
+      "/western-dresses/10635.jpg.jpeg",
+      "/western-dresses/11536.jpg.jpeg",
+      "/western-dresses/12156.jpg.jpeg",
+      "/western-dresses/12157.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8699.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8699.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5796.jpg.jpeg",
+      "/western-dresses/6127.jpg.jpeg",
+      "/western-dresses/10635.jpg.jpeg",
+      "/western-dresses/11536.jpg.jpeg",
+      "/western-dresses/12156.jpg.jpeg",
+      "/western-dresses/12157.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8699.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8699.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5796.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6127.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/10635.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11536.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12156.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12157.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8699.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8699.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v5",
+    "title": "Pebble Grey Sleeveless Column Dress",
+    "slug": "pebble-grey-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v5",
+      "pebble-grey-sleeveless-column-dress",
+      "sleeveless-column-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5947.jpg.jpeg",
+    "mainImage": "/western-dresses/5947.jpg.jpeg",
+    "images": [
+      "/western-dresses/5947.jpg.jpeg",
+      "/western-dresses/5949.jpg.jpeg",
+      "/western-dresses/5977.jpg.jpeg",
+      "/western-dresses/5978.jpg.jpeg",
+      "/western-dresses/5981.jpg.jpeg",
+      "/western-dresses/5982.jpg.jpeg",
+      "/western-dresses/6058.jpg.jpeg",
+      "/western-dresses/6059.jpg.jpeg",
+      "/western-dresses/6060.jpg.jpeg",
+      "/western-dresses/6061.jpg.jpeg",
+      "/western-dresses/6146.jpg.jpeg",
+      "/western-dresses/6177.jpg.jpeg",
+      "/western-dresses/9559.jpg.jpeg",
+      "/western-dresses/9560.jpg (1).jpeg",
+      "/western-dresses/9560.jpg.jpeg",
+      "/western-dresses/12121.jpg.jpeg",
+      "/western-dresses/12361.jpg.jpeg",
+      "/western-dresses/12477.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4753.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9891.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9891.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5947.jpg.jpeg",
+      "/western-dresses/5949.jpg.jpeg",
+      "/western-dresses/5977.jpg.jpeg",
+      "/western-dresses/5978.jpg.jpeg",
+      "/western-dresses/5981.jpg.jpeg",
+      "/western-dresses/5982.jpg.jpeg",
+      "/western-dresses/6058.jpg.jpeg",
+      "/western-dresses/6059.jpg.jpeg",
+      "/western-dresses/6060.jpg.jpeg",
+      "/western-dresses/6061.jpg.jpeg",
+      "/western-dresses/6146.jpg.jpeg",
+      "/western-dresses/6177.jpg.jpeg",
+      "/western-dresses/9559.jpg.jpeg",
+      "/western-dresses/9560.jpg (1).jpeg",
+      "/western-dresses/9560.jpg.jpeg",
+      "/western-dresses/12121.jpg.jpeg",
+      "/western-dresses/12361.jpg.jpeg",
+      "/western-dresses/12477.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4753.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9891.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9891.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5947.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5949.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5977.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5978.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5981.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5982.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6058.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6059.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6060.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6061.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6146.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6177.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9559.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9560.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9560.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12121.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12361.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12477.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4753.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9891.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9891.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v6",
+    "title": "Ivory Cream Sleeveless Column Dress",
+    "slug": "ivory-cream-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v6",
+      "ivory-cream-sleeveless-column-dress",
+      "sleeveless-column-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5948.jpg.jpeg",
+    "mainImage": "/western-dresses/5948.jpg.jpeg",
+    "images": [
+      "/western-dresses/5948.jpg.jpeg",
+      "/western-dresses/6313.jpg.jpeg",
+      "/western-dresses/9709.jpg.jpeg",
+      "/western-dresses/9710.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4306.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5430.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5891.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7404.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7404.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5948.jpg.jpeg",
+      "/western-dresses/6313.jpg.jpeg",
+      "/western-dresses/9709.jpg.jpeg",
+      "/western-dresses/9710.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4306.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5430.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5891.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7404.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7404.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5948.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6313.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/9709.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/9710.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4306.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5430.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5891.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7404.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7404.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v7",
+    "title": "Charcoal Slate Sleeveless Column Dress",
+    "slug": "charcoal-slate-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v7",
+      "charcoal-slate-sleeveless-column-dress",
+      "sleeveless-column-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6147.jpg.jpeg",
+    "mainImage": "/western-dresses/6147.jpg.jpeg",
+    "images": [
+      "/western-dresses/6147.jpg.jpeg",
+      "/western-dresses/11197.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7003.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7003.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6147.jpg.jpeg",
+      "/western-dresses/11197.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7003.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7003.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6147.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/11197.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7003.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7003.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v8",
+    "title": "Aqua Marine Sleeveless Column Dress",
+    "slug": "aqua-marine-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v8",
+      "aqua-marine-sleeveless-column-dress",
+      "sleeveless-column-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6282.jpg.jpeg",
+    "mainImage": "/western-dresses/6282.jpg.jpeg",
+    "images": [
+      "/western-dresses/6282.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6282.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/western-dresses/6282.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v9",
+    "title": "Indigo Royal Sleeveless Column Dress",
+    "slug": "indigo-royal-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v9",
+      "indigo-royal-sleeveless-column-dress",
+      "sleeveless-column-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6283.jpg.jpeg",
+    "mainImage": "/western-dresses/6283.jpg.jpeg",
+    "images": [
+      "/western-dresses/6283.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6283.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/western-dresses/6283.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v10",
+    "title": "Scarlet Red Sleeveless Column Dress",
+    "slug": "scarlet-red-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v10",
+      "scarlet-red-sleeveless-column-dress",
+      "sleeveless-column-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6349.jpg.jpeg",
+    "mainImage": "/western-dresses/6349.jpg.jpeg",
+    "images": [
+      "/western-dresses/6349.jpg.jpeg",
+      "/western-dresses/11317.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6349.jpg.jpeg",
+      "/western-dresses/11317.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/6349.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/11317.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v11",
+    "title": "Sand Ochre Sleeveless Column Dress",
+    "slug": "sand-ochre-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v11",
+      "sand-ochre-sleeveless-column-dress",
+      "sleeveless-column-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6374.jpg.jpeg",
+    "mainImage": "/western-dresses/6374.jpg.jpeg",
+    "images": [
+      "/western-dresses/6374.jpg.jpeg",
+      "/western-dresses/9936.jpg.jpeg",
+      "/western-dresses/11685.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0162.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6374.jpg.jpeg",
+      "/western-dresses/9936.jpg.jpeg",
+      "/western-dresses/11685.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0162.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/6374.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/9936.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/11685.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0162.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v12",
+    "title": "Artisan Earth Sleeveless Column Dress",
+    "slug": "artisan-earth-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v12",
+      "artisan-earth-sleeveless-column-dress",
+      "sleeveless-column-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/9560.jpg%20(1).jpeg",
+    "mainImage": "/western-dresses/9560.jpg%20(1).jpeg",
+    "images": [
+      "/western-dresses/9560.jpg%20(1).jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/9560.jpg%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/western-dresses/9560.jpg%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v13",
+    "title": "Midnight Navy Sleeveless Column Dress",
+    "slug": "midnight-navy-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v13",
+      "midnight-navy-sleeveless-column-dress",
+      "sleeveless-column-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10964.jpg.jpeg",
+    "mainImage": "/western-dresses/10964.jpg.jpeg",
+    "images": [
+      "/western-dresses/10964.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10964.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/10964.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v14",
+    "title": "Teal Slate Sleeveless Column Dress",
+    "slug": "teal-slate-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v14",
+      "teal-slate-sleeveless-column-dress",
+      "sleeveless-column-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11401.jpg.jpeg",
+    "mainImage": "/western-dresses/11401.jpg.jpeg",
+    "images": [
+      "/western-dresses/11401.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11401.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/western-dresses/11401.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v15",
+    "title": "Mustard Gold Sleeveless Column Dress",
+    "slug": "mustard-gold-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v15",
+      "mustard-gold-sleeveless-column-dress",
+      "sleeveless-column-dress-var-15"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11790.jpg.jpeg",
+    "mainImage": "/western-dresses/11790.jpg.jpeg",
+    "images": [
+      "/western-dresses/11790.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0160.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11790.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0160.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/11790.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0160.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v16",
+    "title": "Lavender Violet Sleeveless Column Dress",
+    "slug": "lavender-violet-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v16",
+      "lavender-violet-sleeveless-column-dress",
+      "sleeveless-column-dress-var-16"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12479.jpg.jpeg",
+    "mainImage": "/western-dresses/12479.jpg.jpeg",
+    "images": [
+      "/western-dresses/12479.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12479.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/12479.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v17",
+    "title": "Midnight Black Sleeveless Column Dress",
+    "slug": "midnight-black-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v17",
+      "midnight-black-sleeveless-column-dress",
+      "sleeveless-column-dress-var-17"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/14308.jpg.jpeg",
+    "mainImage": "/western-dresses/14308.jpg.jpeg",
+    "images": [
+      "/western-dresses/14308.jpg.jpeg",
+      "/western-dresses/14309.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/14308.jpg.jpeg",
+      "/western-dresses/14309.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/14308.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/14309.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0002-v18",
+    "title": "Steel Slate Sleeveless Column Dress",
+    "slug": "steel-slate-sleeveless-column-dress",
+    "aliasSlugs": [
+      "wd-0002-v18",
+      "steel-slate-sleeveless-column-dress",
+      "sleeveless-column-dress-var-18"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9381.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9381.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9381.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9381.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Sleeveless Column Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Sleeveless Column Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0002-V18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v1",
+    "title": "Warm Caramel Ruffle Hem Asymmetric Dress",
+    "slug": "warm-caramel-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v1",
+      "warm-caramel-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-1",
       "aditi-asymmetric-ruffle-hemline-cocktail-dress",
       "ahsaas-asymmetric-ruffle-hemline-cocktail-dress",
       "alanna-asymmetric-ruffle-hemline-cocktail-dress",
@@ -2030,11 +5039,26 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-wd-0022",
       "zoya-asymmetric-ruffle-hemline-cocktail-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/FB_IMG_1765772137336.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1765772137336.jpg.jpeg",
     "images": [
       "/western-dresses/FB_IMG_1765772137336.jpg.jpeg",
       "/western-dresses/1999.jpg.jpeg",
@@ -2043,346 +5067,576 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/5496.jpg.jpeg",
       "/western-dresses/5497.jpg.jpeg",
       "/western-dresses/5498.jpg.jpeg",
-      "/western-dresses/5621.jpg.jpeg",
-      "/western-dresses/5622.jpg.jpeg",
-      "/western-dresses/5623.jpg.jpeg",
       "/western-dresses/5685.jpg.jpeg",
-      "/western-dresses/5763.jpg.jpeg",
-      "/western-dresses/5764.jpg.jpeg",
-      "/western-dresses/5766.jpg.jpeg",
-      "/western-dresses/5767.jpg.jpeg",
-      "/western-dresses/5765.jpg.jpeg",
-      "/western-dresses/5768.jpg.jpeg",
-      "/western-dresses/5797.jpg.jpeg",
       "/western-dresses/5800.jpg.jpeg",
       "/western-dresses/5801.jpg.jpeg",
-      "/western-dresses/5873.jpg.jpeg",
-      "/western-dresses/5950.jpg.jpeg",
-      "/western-dresses/5983.jpg.jpeg",
       "/western-dresses/5984.jpg.jpeg",
       "/western-dresses/5985.jpg.jpeg",
-      "/western-dresses/5987.jpg.jpeg",
-      "/western-dresses/5988.jpg.jpeg",
-      "/western-dresses/6064.jpg.jpeg",
       "/western-dresses/6094.jpg.jpeg",
       "/western-dresses/6128.jpg.jpeg",
       "/western-dresses/6129.jpg.jpeg",
       "/western-dresses/6148.jpg.jpeg",
       "/western-dresses/6178.jpg.jpeg",
-      "/western-dresses/6209.jpg.jpeg",
-      "/western-dresses/6244.jpg.jpeg",
       "/western-dresses/6245.jpg.jpeg",
       "/western-dresses/6286.jpg.jpeg",
       "/western-dresses/6287.jpg.jpeg",
-      "/western-dresses/6315.jpg.jpeg",
-      "/western-dresses/6316.jpg.jpeg",
       "/western-dresses/6351.jpg.jpeg",
       "/western-dresses/6352.jpg.jpeg",
       "/western-dresses/6353.jpg.jpeg",
-      "/western-dresses/6376.jpg.jpeg",
-      "/western-dresses/6406.jpg.jpeg",
-      "/western-dresses/6407.jpg.jpeg",
-      "/western-dresses/9582.jpg.jpeg",
-      "/western-dresses/9713.jpg.jpeg",
       "/western-dresses/9995.jpg.jpeg",
-      "/western-dresses/10310.jpg.jpeg",
-      "/western-dresses/10311.jpg.jpeg",
       "/western-dresses/10636.jpg.jpeg",
       "/western-dresses/10637.jpg.jpeg",
-      "/western-dresses/10880.jpg.jpeg",
       "/western-dresses/10973.jpg.jpeg",
-      "/western-dresses/11092.jpg.jpeg",
-      "/western-dresses/11198.jpg.jpeg",
-      "/western-dresses/11270.jpg.jpeg",
       "/western-dresses/11332.jpg.jpeg",
-      "/western-dresses/11403.jpg.jpeg",
-      "/western-dresses/11497.jpg.jpeg",
       "/western-dresses/11576.jpg.jpeg",
-      "/western-dresses/11690.jpg.jpeg",
       "/western-dresses/11691.jpg.jpeg",
-      "/western-dresses/11791.jpg.jpeg",
-      "/western-dresses/11792.jpg.jpeg",
-      "/western-dresses/11844.jpg.jpeg",
       "/western-dresses/11954.jpg.jpeg",
-      "/western-dresses/12123.jpg.jpeg",
       "/western-dresses/12124.jpg.jpeg",
-      "/western-dresses/12158.jpg.jpeg",
-      "/western-dresses/12259.jpg.jpeg",
       "/western-dresses/12260.jpg.jpeg",
-      "/western-dresses/12362.jpg.jpeg",
       "/western-dresses/12363.jpg.jpeg",
-      "/western-dresses/12480.jpg.jpeg",
       "/western-dresses/13010.jpg.jpeg",
       "/western-dresses/13414.jpg.jpeg",
-      "/western-dresses/14364.jpg.jpeg",
       "/western-dresses/16730.jpg.jpeg",
       "/western-dresses/61305.jpg.jpeg",
-      "/western-dresses/61310.jpg.jpeg",
       "/western-dresses/70753.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg",
       "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0222.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0222.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1025.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1697.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA2263.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA2263.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2781.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2781.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA2783.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2785.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA3643.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA3643.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4313.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4313.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA4886.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA4886.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5450.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5958.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5958.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6539.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA7012.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA7012.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA7514.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA7514.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8164.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8164.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8804.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8804.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9408.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9899.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9899.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/FB_IMG_1765772137336.jpg.jpeg",
+      "/western-dresses/1999.jpg.jpeg",
+      "/western-dresses/5494.jpg.jpeg",
+      "/western-dresses/5495.jpg.jpeg",
+      "/western-dresses/5496.jpg.jpeg",
+      "/western-dresses/5497.jpg.jpeg",
+      "/western-dresses/5498.jpg.jpeg",
+      "/western-dresses/5685.jpg.jpeg",
+      "/western-dresses/5800.jpg.jpeg",
+      "/western-dresses/5801.jpg.jpeg",
+      "/western-dresses/5984.jpg.jpeg",
+      "/western-dresses/5985.jpg.jpeg",
+      "/western-dresses/6094.jpg.jpeg",
+      "/western-dresses/6128.jpg.jpeg",
+      "/western-dresses/6129.jpg.jpeg",
+      "/western-dresses/6148.jpg.jpeg",
+      "/western-dresses/6178.jpg.jpeg",
+      "/western-dresses/6245.jpg.jpeg",
+      "/western-dresses/6286.jpg.jpeg",
+      "/western-dresses/6287.jpg.jpeg",
+      "/western-dresses/6351.jpg.jpeg",
+      "/western-dresses/6352.jpg.jpeg",
+      "/western-dresses/6353.jpg.jpeg",
+      "/western-dresses/9995.jpg.jpeg",
+      "/western-dresses/10636.jpg.jpeg",
+      "/western-dresses/10637.jpg.jpeg",
+      "/western-dresses/10973.jpg.jpeg",
+      "/western-dresses/11332.jpg.jpeg",
+      "/western-dresses/11576.jpg.jpeg",
+      "/western-dresses/11691.jpg.jpeg",
+      "/western-dresses/11954.jpg.jpeg",
+      "/western-dresses/12124.jpg.jpeg",
+      "/western-dresses/12260.jpg.jpeg",
+      "/western-dresses/12363.jpg.jpeg",
+      "/western-dresses/13010.jpg.jpeg",
+      "/western-dresses/13414.jpg.jpeg",
+      "/western-dresses/16730.jpg.jpeg",
+      "/western-dresses/61305.jpg.jpeg",
+      "/western-dresses/70753.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2263.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2263.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2783.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3643.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3643.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4886.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4886.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7012.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7012.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7514.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7514.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA9899.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA9899.jpg.jpeg"
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Warm Caramel",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772137336.jpg.jpeg",
-          "/western-dresses/1999.jpg.jpeg",
-          "/western-dresses/5494.jpg.jpeg",
-          "/western-dresses/5495.jpg.jpeg",
-          "/western-dresses/5496.jpg.jpeg",
-          "/western-dresses/5497.jpg.jpeg",
-          "/western-dresses/5498.jpg.jpeg",
-          "/western-dresses/5685.jpg.jpeg",
-          "/western-dresses/5800.jpg.jpeg",
-          "/western-dresses/5801.jpg.jpeg",
-          "/western-dresses/5984.jpg.jpeg",
-          "/western-dresses/5985.jpg.jpeg",
-          "/western-dresses/6094.jpg.jpeg",
-          "/western-dresses/6128.jpg.jpeg",
-          "/western-dresses/6129.jpg.jpeg",
-          "/western-dresses/6148.jpg.jpeg",
-          "/western-dresses/6178.jpg.jpeg",
-          "/western-dresses/6245.jpg.jpeg",
-          "/western-dresses/6286.jpg.jpeg",
-          "/western-dresses/6287.jpg.jpeg",
-          "/western-dresses/6351.jpg.jpeg",
-          "/western-dresses/6352.jpg.jpeg",
-          "/western-dresses/6353.jpg.jpeg",
-          "/western-dresses/9995.jpg.jpeg",
-          "/western-dresses/10636.jpg.jpeg",
-          "/western-dresses/10637.jpg.jpeg",
-          "/western-dresses/10973.jpg.jpeg",
-          "/western-dresses/11332.jpg.jpeg",
-          "/western-dresses/11576.jpg.jpeg",
-          "/western-dresses/11691.jpg.jpeg",
-          "/western-dresses/11954.jpg.jpeg",
-          "/western-dresses/12124.jpg.jpeg",
-          "/western-dresses/12260.jpg.jpeg",
-          "/western-dresses/12363.jpg.jpeg",
-          "/western-dresses/13010.jpg.jpeg",
-          "/western-dresses/13414.jpg.jpeg",
-          "/western-dresses/16730.jpg.jpeg",
-          "/western-dresses/61305.jpg.jpeg",
-          "/western-dresses/70753.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2263.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2263.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2783.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3643.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3643.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4886.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4886.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7012.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7012.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7514.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7514.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9899.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772137336.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/1999.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5494.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5495.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5496.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5497.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5498.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5685.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5800.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5801.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5984.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5985.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6094.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6128.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6129.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6148.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6178.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6245.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6286.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6287.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6351.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6352.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6353.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9995.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10636.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10637.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10973.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11332.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11576.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11691.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11954.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12124.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12260.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12363.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13010.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13414.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16730.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/61305.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/70753.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2263.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2263.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2783.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3643.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3643.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4886.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4886.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-49",
+        "name": "Styling 49",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7012.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-50",
+        "name": "Styling 50",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7012.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-51",
+        "name": "Styling 51",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7514.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-52",
+        "name": "Styling 52",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7514.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-53",
+        "name": "Styling 53",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9899.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-54",
+        "name": "Styling 54",
+        "colorCode": "#D97706",
+        "images": [
           "/western-dresses/dresses-images/IMG-20261103-WA9899.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5621.jpg.jpeg",
-          "/western-dresses/5622.jpg.jpeg",
-          "/western-dresses/5623.jpg.jpeg",
-          "/western-dresses/5768.jpg.jpeg",
-          "/western-dresses/5797.jpg.jpeg",
-          "/western-dresses/5987.jpg.jpeg",
-          "/western-dresses/5988.jpg.jpeg",
-          "/western-dresses/6209.jpg.jpeg",
-          "/western-dresses/6244.jpg.jpeg",
-          "/western-dresses/9582.jpg.jpeg",
-          "/western-dresses/10880.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8164.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8164.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5763.jpg.jpeg",
-          "/western-dresses/5764.jpg.jpeg",
-          "/western-dresses/5766.jpg.jpeg",
-          "/western-dresses/5767.jpg.jpeg",
-          "/western-dresses/5873.jpg.jpeg",
-          "/western-dresses/5983.jpg.jpeg",
-          "/western-dresses/11690.jpg.jpeg",
-          "/western-dresses/11844.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5450.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6539.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8804.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8804.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/5765.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1697.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5958.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5958.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/5950.jpg.jpeg",
-          "/western-dresses/6376.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0222.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0222.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6064.jpg.jpeg",
-          "/western-dresses/11270.jpg.jpeg",
-          "/western-dresses/11497.jpg.jpeg",
-          "/western-dresses/11791.jpg.jpeg",
-          "/western-dresses/12123.jpg.jpeg",
-          "/western-dresses/12158.jpg.jpeg",
-          "/western-dresses/12259.jpg.jpeg",
-          "/western-dresses/61310.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1025.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2785.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4313.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/6315.jpg.jpeg",
-          "/western-dresses/6316.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6406.jpg.jpeg",
-          "/western-dresses/6407.jpg.jpeg",
-          "/western-dresses/14364.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/9713.jpg.jpeg",
-          "/western-dresses/10310.jpg.jpeg",
-          "/western-dresses/10311.jpg.jpeg",
-          "/western-dresses/11198.jpg.jpeg",
-          "/western-dresses/12362.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/11092.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/11403.jpg.jpeg",
-          "/western-dresses/12480.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/western-dresses/11792.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2781.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2781.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9408.jpg.jpeg"
         ]
       }
     ],
+    "description": "Authentic Warm Caramel Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v2",
+    "title": "Pebble Grey Ruffle Hem Asymmetric Dress",
+    "slug": "pebble-grey-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v2",
+      "pebble-grey-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -2390,26 +5644,1288 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Ruffle Hem Asymmetric Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 123 photographic views, tailored in Belgian Linen Cotton Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Belgian Linen Cotton Blend",
-    "details": [
-      "Authentic Ruffle Hem Asymmetric Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Belgian Linen Cotton Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/5621.jpg.jpeg",
+    "mainImage": "/western-dresses/5621.jpg.jpeg",
+    "images": [
+      "/western-dresses/5621.jpg.jpeg",
+      "/western-dresses/5622.jpg.jpeg",
+      "/western-dresses/5623.jpg.jpeg",
+      "/western-dresses/5768.jpg.jpeg",
+      "/western-dresses/5797.jpg.jpeg",
+      "/western-dresses/5987.jpg.jpeg",
+      "/western-dresses/5988.jpg.jpeg",
+      "/western-dresses/6209.jpg.jpeg",
+      "/western-dresses/6244.jpg.jpeg",
+      "/western-dresses/9582.jpg.jpeg",
+      "/western-dresses/10880.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8164.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8164.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0003",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/5621.jpg.jpeg",
+      "/western-dresses/5622.jpg.jpeg",
+      "/western-dresses/5623.jpg.jpeg",
+      "/western-dresses/5768.jpg.jpeg",
+      "/western-dresses/5797.jpg.jpeg",
+      "/western-dresses/5987.jpg.jpeg",
+      "/western-dresses/5988.jpg.jpeg",
+      "/western-dresses/6209.jpg.jpeg",
+      "/western-dresses/6244.jpg.jpeg",
+      "/western-dresses/9582.jpg.jpeg",
+      "/western-dresses/10880.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8164.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8164.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5621.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5622.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5623.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5768.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5797.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5987.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5988.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6209.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6244.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9582.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10880.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8164.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8164.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V2",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0004",
-    "title": "Tiered Cotton Midi Dress",
-    "slug": "tiered-cotton-midi-dress",
+    "id": "wd-0003-v3",
+    "title": "Ivory Cream Ruffle Hem Asymmetric Dress",
+    "slug": "ivory-cream-ruffle-hem-asymmetric-dress",
     "aliasSlugs": [
+      "wd-0003-v3",
+      "ivory-cream-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5763.jpg.jpeg",
+    "mainImage": "/western-dresses/5763.jpg.jpeg",
+    "images": [
+      "/western-dresses/5763.jpg.jpeg",
+      "/western-dresses/5764.jpg.jpeg",
+      "/western-dresses/5766.jpg.jpeg",
+      "/western-dresses/5767.jpg.jpeg",
+      "/western-dresses/5873.jpg.jpeg",
+      "/western-dresses/5983.jpg.jpeg",
+      "/western-dresses/11690.jpg.jpeg",
+      "/western-dresses/11844.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5450.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6539.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8804.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8804.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5763.jpg.jpeg",
+      "/western-dresses/5764.jpg.jpeg",
+      "/western-dresses/5766.jpg.jpeg",
+      "/western-dresses/5767.jpg.jpeg",
+      "/western-dresses/5873.jpg.jpeg",
+      "/western-dresses/5983.jpg.jpeg",
+      "/western-dresses/11690.jpg.jpeg",
+      "/western-dresses/11844.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5450.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6539.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8804.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8804.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5763.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5764.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5766.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5767.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5873.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5983.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/11690.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/11844.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5450.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6539.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8804.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8804.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v4",
+    "title": "Mustard Gold Ruffle Hem Asymmetric Dress",
+    "slug": "mustard-gold-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v4",
+      "mustard-gold-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5765.jpg.jpeg",
+    "mainImage": "/western-dresses/5765.jpg.jpeg",
+    "images": [
+      "/western-dresses/5765.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1697.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5958.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5958.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5765.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1697.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5958.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5958.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/5765.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1697.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5958.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5958.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v5",
+    "title": "Scarlet Red Ruffle Hem Asymmetric Dress",
+    "slug": "scarlet-red-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v5",
+      "scarlet-red-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5950.jpg.jpeg",
+    "mainImage": "/western-dresses/5950.jpg.jpeg",
+    "images": [
+      "/western-dresses/5950.jpg.jpeg",
+      "/western-dresses/6376.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0222.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0222.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5950.jpg.jpeg",
+      "/western-dresses/6376.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0222.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0222.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/5950.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/6376.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0222.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0222.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v6",
+    "title": "Blush Rose Ruffle Hem Asymmetric Dress",
+    "slug": "blush-rose-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v6",
+      "blush-rose-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6064.jpg.jpeg",
+    "mainImage": "/western-dresses/6064.jpg.jpeg",
+    "images": [
+      "/western-dresses/6064.jpg.jpeg",
+      "/western-dresses/11270.jpg.jpeg",
+      "/western-dresses/11497.jpg.jpeg",
+      "/western-dresses/11791.jpg.jpeg",
+      "/western-dresses/12123.jpg.jpeg",
+      "/western-dresses/12158.jpg.jpeg",
+      "/western-dresses/12259.jpg.jpeg",
+      "/western-dresses/61310.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1025.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2785.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4313.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4313.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6064.jpg.jpeg",
+      "/western-dresses/11270.jpg.jpeg",
+      "/western-dresses/11497.jpg.jpeg",
+      "/western-dresses/11791.jpg.jpeg",
+      "/western-dresses/12123.jpg.jpeg",
+      "/western-dresses/12158.jpg.jpeg",
+      "/western-dresses/12259.jpg.jpeg",
+      "/western-dresses/61310.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1025.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2785.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4313.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4313.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6064.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11270.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11497.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11791.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12123.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12158.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12259.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/61310.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1025.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2785.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4313.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4313.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v7",
+    "title": "Ruby Crimson Ruffle Hem Asymmetric Dress",
+    "slug": "ruby-crimson-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v7",
+      "ruby-crimson-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6315.jpg.jpeg",
+    "mainImage": "/western-dresses/6315.jpg.jpeg",
+    "images": [
+      "/western-dresses/6315.jpg.jpeg",
+      "/western-dresses/6316.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6315.jpg.jpeg",
+      "/western-dresses/6316.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/6315.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/6316.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v8",
+    "title": "Rust Terracotta Ruffle Hem Asymmetric Dress",
+    "slug": "rust-terracotta-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v8",
+      "rust-terracotta-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6406.jpg.jpeg",
+    "mainImage": "/western-dresses/6406.jpg.jpeg",
+    "images": [
+      "/western-dresses/6406.jpg.jpeg",
+      "/western-dresses/6407.jpg.jpeg",
+      "/western-dresses/14364.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6406.jpg.jpeg",
+      "/western-dresses/6407.jpg.jpeg",
+      "/western-dresses/14364.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6406.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6407.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/14364.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v9",
+    "title": "Sand Ochre Ruffle Hem Asymmetric Dress",
+    "slug": "sand-ochre-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v9",
+      "sand-ochre-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/9713.jpg.jpeg",
+    "mainImage": "/western-dresses/9713.jpg.jpeg",
+    "images": [
+      "/western-dresses/9713.jpg.jpeg",
+      "/western-dresses/10310.jpg.jpeg",
+      "/western-dresses/10311.jpg.jpeg",
+      "/western-dresses/11198.jpg.jpeg",
+      "/western-dresses/12362.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/9713.jpg.jpeg",
+      "/western-dresses/10310.jpg.jpeg",
+      "/western-dresses/10311.jpg.jpeg",
+      "/western-dresses/11198.jpg.jpeg",
+      "/western-dresses/12362.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/9713.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/10310.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/10311.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/11198.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/12362.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v10",
+    "title": "Charcoal Slate Ruffle Hem Asymmetric Dress",
+    "slug": "charcoal-slate-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v10",
+      "charcoal-slate-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11092.jpg.jpeg",
+    "mainImage": "/western-dresses/11092.jpg.jpeg",
+    "images": [
+      "/western-dresses/11092.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11092.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/11092.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v11",
+    "title": "Sunset Tangerine Ruffle Hem Asymmetric Dress",
+    "slug": "sunset-tangerine-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v11",
+      "sunset-tangerine-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11403.jpg.jpeg",
+    "mainImage": "/western-dresses/11403.jpg.jpeg",
+    "images": [
+      "/western-dresses/11403.jpg.jpeg",
+      "/western-dresses/12480.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11403.jpg.jpeg",
+      "/western-dresses/12480.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/11403.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/12480.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v12",
+    "title": "Aqua Marine Ruffle Hem Asymmetric Dress",
+    "slug": "aqua-marine-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v12",
+      "aqua-marine-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11792.jpg.jpeg",
+    "mainImage": "/western-dresses/11792.jpg.jpeg",
+    "images": [
+      "/western-dresses/11792.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11792.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/western-dresses/11792.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v13",
+    "title": "Sky Azure Ruffle Hem Asymmetric Dress",
+    "slug": "sky-azure-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v13",
+      "sky-azure-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA2781.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA2781.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA2781.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2781.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA2781.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2781.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2781.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2781.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0003-v14",
+    "title": "Midnight Navy Ruffle Hem Asymmetric Dress",
+    "slug": "midnight-navy-ruffle-hem-asymmetric-dress",
+    "aliasSlugs": [
+      "wd-0003-v14",
+      "midnight-navy-ruffle-hem-asymmetric-dress",
+      "ruffle-hem-asymmetric-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9408.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9408.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9408.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9408.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Ruffle Hem Asymmetric Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Ruffle Hem Asymmetric Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0003-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v1",
+    "title": "Warm Caramel Tiered Cotton Midi Dress",
+    "slug": "warm-caramel-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v1",
+      "warm-caramel-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-1",
       "aaliyah-tiered-flared-cotton-midi-dress",
       "aanya-tiered-flared-cotton-midi-dress",
       "aditi-tiered-flared-cotton-midi-dress",
@@ -2820,321 +7336,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-wd-0022",
       "zoya-tiered-flared-cotton-midi-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
-      "/western-dresses/4393.jpg.jpeg",
-      "/western-dresses/4394.jpg.jpeg",
-      "/western-dresses/5540.jpg.jpeg",
-      "/western-dresses/5541.jpg.jpeg",
-      "/western-dresses/5542.jpg.jpeg",
-      "/western-dresses/5543.jpg.jpeg",
-      "/western-dresses/5632.jpg.jpeg",
-      "/western-dresses/5637.jpg.jpeg",
-      "/western-dresses/5640.jpg.jpeg",
-      "/western-dresses/5686.jpg.jpeg",
-      "/western-dresses/5773.jpg.jpeg",
-      "/western-dresses/5774.jpg.jpeg",
-      "/western-dresses/5813.jpg.jpeg",
-      "/western-dresses/5874.jpg.jpeg",
-      "/western-dresses/5951.jpg.jpeg",
-      "/western-dresses/5989.jpg.jpeg",
-      "/western-dresses/6078.jpg.jpeg",
-      "/western-dresses/6095.jpg.jpeg",
-      "/western-dresses/6130.jpg.jpeg",
-      "/western-dresses/6150.jpg.jpeg",
-      "/western-dresses/6180.jpg.jpeg",
-      "/western-dresses/6210.jpg.jpeg",
-      "/western-dresses/6246.jpg.jpeg",
-      "/western-dresses/6247.jpg.jpeg",
-      "/western-dresses/6289.jpg.jpeg",
-      "/western-dresses/6317.jpg.jpeg",
-      "/western-dresses/6354.jpg.jpeg",
-      "/western-dresses/6356.jpg.jpeg",
-      "/western-dresses/6381.jpg.jpeg",
-      "/western-dresses/6479.jpg.jpeg",
-      "/western-dresses/9583.jpg.jpeg",
-      "/western-dresses/9733.jpg.jpeg",
-      "/western-dresses/9996.jpg.jpeg",
-      "/western-dresses/10312.jpg.jpeg",
-      "/western-dresses/10638.jpg.jpeg",
-      "/western-dresses/10882.jpg.jpeg",
-      "/western-dresses/10976.jpg.jpeg",
-      "/western-dresses/11093.jpg.jpeg",
-      "/western-dresses/11202.jpg.jpeg",
-      "/western-dresses/11204.jpg.jpeg",
-      "/western-dresses/11271.jpg.jpeg",
-      "/western-dresses/11272.jpg.jpeg",
-      "/western-dresses/11355.jpg.jpeg",
-      "/western-dresses/11356.jpg.jpeg",
-      "/western-dresses/11404.jpg.jpeg",
-      "/western-dresses/11498.jpg.jpeg",
-      "/western-dresses/11596.jpg.jpeg",
-      "/western-dresses/11597.jpg.jpeg",
-      "/western-dresses/11692.jpg.jpeg",
-      "/western-dresses/11793.jpg.jpeg",
-      "/western-dresses/11883.jpg.jpeg",
-      "/western-dresses/11888.jpg.jpeg",
-      "/western-dresses/12001.jpg.jpeg",
-      "/western-dresses/12126.jpg.jpeg",
-      "/western-dresses/12202.jpg.jpeg",
-      "/western-dresses/12262.jpg.jpeg",
-      "/western-dresses/12368.jpg.jpeg",
-      "/western-dresses/12482.jpg.jpeg",
-      "/western-dresses/12483.jpg.jpeg",
-      "/western-dresses/13030.jpg.jpeg",
-      "/western-dresses/13415.jpg.jpeg",
-      "/western-dresses/14375.jpg.jpeg",
-      "/western-dresses/16772.jpg.jpeg",
-      "/western-dresses/61314.jpg.jpeg",
-      "/western-dresses/70754.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0237.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1062.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1711.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2356.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2356.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2929.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3667.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4347.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4347.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4908.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5465.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6013.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6013.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6544.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7049.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7532.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8180.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8881.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8881.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9416.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9969.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9969.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9974.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
-          "/western-dresses/5540.jpg.jpeg",
-          "/western-dresses/5541.jpg.jpeg",
-          "/western-dresses/5542.jpg.jpeg",
-          "/western-dresses/5543.jpg.jpeg",
-          "/western-dresses/5640.jpg.jpeg",
-          "/western-dresses/5951.jpg.jpeg",
-          "/western-dresses/5989.jpg.jpeg",
-          "/western-dresses/6078.jpg.jpeg",
-          "/western-dresses/6130.jpg.jpeg",
-          "/western-dresses/6210.jpg.jpeg",
-          "/western-dresses/6246.jpg.jpeg",
-          "/western-dresses/6247.jpg.jpeg",
-          "/western-dresses/6289.jpg.jpeg",
-          "/western-dresses/6356.jpg.jpeg",
-          "/western-dresses/9733.jpg.jpeg",
-          "/western-dresses/10312.jpg.jpeg",
-          "/western-dresses/11202.jpg.jpeg",
-          "/western-dresses/11204.jpg.jpeg",
-          "/western-dresses/11272.jpg.jpeg",
-          "/western-dresses/11355.jpg.jpeg",
-          "/western-dresses/11356.jpg.jpeg",
-          "/western-dresses/11692.jpg.jpeg",
-          "/western-dresses/11883.jpg.jpeg",
-          "/western-dresses/12202.jpg.jpeg",
-          "/western-dresses/13030.jpg.jpeg",
-          "/western-dresses/13415.jpg.jpeg",
-          "/western-dresses/61314.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0237.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1062.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2929.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3667.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5465.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6544.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7532.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8180.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/4393.jpg.jpeg",
-          "/western-dresses/6095.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1711.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4908.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7049.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9416.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9969.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9969.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/4394.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4347.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4347.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5632.jpg.jpeg",
-          "/western-dresses/5686.jpg.jpeg",
-          "/western-dresses/5773.jpg.jpeg",
-          "/western-dresses/5774.jpg.jpeg",
-          "/western-dresses/5813.jpg.jpeg",
-          "/western-dresses/6150.jpg.jpeg",
-          "/western-dresses/6180.jpg.jpeg",
-          "/western-dresses/6354.jpg.jpeg",
-          "/western-dresses/9583.jpg.jpeg",
-          "/western-dresses/11271.jpg.jpeg",
-          "/western-dresses/11596.jpg.jpeg",
-          "/western-dresses/11888.jpg.jpeg",
-          "/western-dresses/12368.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5637.jpg.jpeg",
-          "/western-dresses/6381.jpg.jpeg",
-          "/western-dresses/10882.jpg.jpeg",
-          "/western-dresses/11093.jpg.jpeg",
-          "/western-dresses/11498.jpg.jpeg",
-          "/western-dresses/11597.jpg.jpeg",
-          "/western-dresses/11793.jpg.jpeg",
-          "/western-dresses/12482.jpg.jpeg",
-          "/western-dresses/12483.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8881.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8881.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/5874.jpg.jpeg",
-          "/western-dresses/14375.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6317.jpg.jpeg",
-          "/western-dresses/6479.jpg.jpeg",
-          "/western-dresses/10638.jpg.jpeg",
-          "/western-dresses/70754.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2356.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/9996.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9974.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/10976.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/11404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/12001.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/western-dresses/12126.jpg.jpeg",
-          "/western-dresses/12262.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/16772.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6013.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6013.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -3142,26 +7354,1685 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Tiered Cotton Midi Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 104 photographic views, tailored in Belgian Linen Cotton Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Belgian Linen Cotton Blend",
-    "details": [
-      "Authentic Tiered Cotton Midi Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Belgian Linen Cotton Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
+    "images": [
+      "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
+      "/western-dresses/5540.jpg.jpeg",
+      "/western-dresses/5541.jpg.jpeg",
+      "/western-dresses/5542.jpg.jpeg",
+      "/western-dresses/5543.jpg.jpeg",
+      "/western-dresses/5640.jpg.jpeg",
+      "/western-dresses/5951.jpg.jpeg",
+      "/western-dresses/5989.jpg.jpeg",
+      "/western-dresses/6078.jpg.jpeg",
+      "/western-dresses/6130.jpg.jpeg",
+      "/western-dresses/6210.jpg.jpeg",
+      "/western-dresses/6246.jpg.jpeg",
+      "/western-dresses/6247.jpg.jpeg",
+      "/western-dresses/6289.jpg.jpeg",
+      "/western-dresses/6356.jpg.jpeg",
+      "/western-dresses/9733.jpg.jpeg",
+      "/western-dresses/10312.jpg.jpeg",
+      "/western-dresses/11202.jpg.jpeg",
+      "/western-dresses/11204.jpg.jpeg",
+      "/western-dresses/11272.jpg.jpeg",
+      "/western-dresses/11355.jpg.jpeg",
+      "/western-dresses/11356.jpg.jpeg",
+      "/western-dresses/11692.jpg.jpeg",
+      "/western-dresses/11883.jpg.jpeg",
+      "/western-dresses/12202.jpg.jpeg",
+      "/western-dresses/13030.jpg.jpeg",
+      "/western-dresses/13415.jpg.jpeg",
+      "/western-dresses/61314.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0237.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1062.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2929.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3667.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5465.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6544.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7532.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8180.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0004",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
+      "/western-dresses/5540.jpg.jpeg",
+      "/western-dresses/5541.jpg.jpeg",
+      "/western-dresses/5542.jpg.jpeg",
+      "/western-dresses/5543.jpg.jpeg",
+      "/western-dresses/5640.jpg.jpeg",
+      "/western-dresses/5951.jpg.jpeg",
+      "/western-dresses/5989.jpg.jpeg",
+      "/western-dresses/6078.jpg.jpeg",
+      "/western-dresses/6130.jpg.jpeg",
+      "/western-dresses/6210.jpg.jpeg",
+      "/western-dresses/6246.jpg.jpeg",
+      "/western-dresses/6247.jpg.jpeg",
+      "/western-dresses/6289.jpg.jpeg",
+      "/western-dresses/6356.jpg.jpeg",
+      "/western-dresses/9733.jpg.jpeg",
+      "/western-dresses/10312.jpg.jpeg",
+      "/western-dresses/11202.jpg.jpeg",
+      "/western-dresses/11204.jpg.jpeg",
+      "/western-dresses/11272.jpg.jpeg",
+      "/western-dresses/11355.jpg.jpeg",
+      "/western-dresses/11356.jpg.jpeg",
+      "/western-dresses/11692.jpg.jpeg",
+      "/western-dresses/11883.jpg.jpeg",
+      "/western-dresses/12202.jpg.jpeg",
+      "/western-dresses/13030.jpg.jpeg",
+      "/western-dresses/13415.jpg.jpeg",
+      "/western-dresses/61314.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0237.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1062.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2929.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3667.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5465.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6544.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7532.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8180.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772140613.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5540.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5541.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5542.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5543.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5640.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5951.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5989.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6078.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6130.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6210.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6246.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6247.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6289.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6356.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9733.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10312.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11202.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11204.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11272.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11355.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11356.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11692.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11883.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12202.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13030.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13415.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/61314.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0237.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1062.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2929.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3667.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5465.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6544.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7532.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8180.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0005",
-    "title": "Balloon Sleeve Babydoll Dress",
-    "slug": "balloon-sleeve-babydoll-dress",
+    "id": "wd-0004-v2",
+    "title": "Ivory Cream Tiered Cotton Midi Dress",
+    "slug": "ivory-cream-tiered-cotton-midi-dress",
     "aliasSlugs": [
+      "wd-0004-v2",
+      "ivory-cream-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4393.jpg.jpeg",
+    "mainImage": "/western-dresses/4393.jpg.jpeg",
+    "images": [
+      "/western-dresses/4393.jpg.jpeg",
+      "/western-dresses/6095.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1711.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4908.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7049.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9416.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9969.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9969.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4393.jpg.jpeg",
+      "/western-dresses/6095.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1711.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4908.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7049.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9416.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9969.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9969.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/4393.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6095.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1711.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4908.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7049.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9416.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9969.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9969.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v3",
+    "title": "Orchid Pink Tiered Cotton Midi Dress",
+    "slug": "orchid-pink-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v3",
+      "orchid-pink-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4394.jpg.jpeg",
+    "mainImage": "/western-dresses/4394.jpg.jpeg",
+    "images": [
+      "/western-dresses/4394.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4347.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4347.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4394.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4347.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4347.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/4394.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4347.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4347.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v4",
+    "title": "Pebble Grey Tiered Cotton Midi Dress",
+    "slug": "pebble-grey-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v4",
+      "pebble-grey-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5632.jpg.jpeg",
+    "mainImage": "/western-dresses/5632.jpg.jpeg",
+    "images": [
+      "/western-dresses/5632.jpg.jpeg",
+      "/western-dresses/5686.jpg.jpeg",
+      "/western-dresses/5773.jpg.jpeg",
+      "/western-dresses/5774.jpg.jpeg",
+      "/western-dresses/5813.jpg.jpeg",
+      "/western-dresses/6150.jpg.jpeg",
+      "/western-dresses/6180.jpg.jpeg",
+      "/western-dresses/6354.jpg.jpeg",
+      "/western-dresses/9583.jpg.jpeg",
+      "/western-dresses/11271.jpg.jpeg",
+      "/western-dresses/11596.jpg.jpeg",
+      "/western-dresses/11888.jpg.jpeg",
+      "/western-dresses/12368.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5632.jpg.jpeg",
+      "/western-dresses/5686.jpg.jpeg",
+      "/western-dresses/5773.jpg.jpeg",
+      "/western-dresses/5774.jpg.jpeg",
+      "/western-dresses/5813.jpg.jpeg",
+      "/western-dresses/6150.jpg.jpeg",
+      "/western-dresses/6180.jpg.jpeg",
+      "/western-dresses/6354.jpg.jpeg",
+      "/western-dresses/9583.jpg.jpeg",
+      "/western-dresses/11271.jpg.jpeg",
+      "/western-dresses/11596.jpg.jpeg",
+      "/western-dresses/11888.jpg.jpeg",
+      "/western-dresses/12368.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5632.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5686.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5773.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5774.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5813.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6150.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6180.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6354.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9583.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11271.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11596.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11888.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12368.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v5",
+    "title": "Blush Rose Tiered Cotton Midi Dress",
+    "slug": "blush-rose-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v5",
+      "blush-rose-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5637.jpg.jpeg",
+    "mainImage": "/western-dresses/5637.jpg.jpeg",
+    "images": [
+      "/western-dresses/5637.jpg.jpeg",
+      "/western-dresses/6381.jpg.jpeg",
+      "/western-dresses/10882.jpg.jpeg",
+      "/western-dresses/11093.jpg.jpeg",
+      "/western-dresses/11498.jpg.jpeg",
+      "/western-dresses/11597.jpg.jpeg",
+      "/western-dresses/11793.jpg.jpeg",
+      "/western-dresses/12482.jpg.jpeg",
+      "/western-dresses/12483.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8881.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8881.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5637.jpg.jpeg",
+      "/western-dresses/6381.jpg.jpeg",
+      "/western-dresses/10882.jpg.jpeg",
+      "/western-dresses/11093.jpg.jpeg",
+      "/western-dresses/11498.jpg.jpeg",
+      "/western-dresses/11597.jpg.jpeg",
+      "/western-dresses/11793.jpg.jpeg",
+      "/western-dresses/12482.jpg.jpeg",
+      "/western-dresses/12483.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8881.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8881.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5637.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6381.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/10882.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11093.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11498.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11597.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11793.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12482.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12483.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FB7185",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8881.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8881.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v6",
+    "title": "Ruby Crimson Tiered Cotton Midi Dress",
+    "slug": "ruby-crimson-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v6",
+      "ruby-crimson-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5874.jpg.jpeg",
+    "mainImage": "/western-dresses/5874.jpg.jpeg",
+    "images": [
+      "/western-dresses/5874.jpg.jpeg",
+      "/western-dresses/14375.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5874.jpg.jpeg",
+      "/western-dresses/14375.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/5874.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/14375.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v7",
+    "title": "Rust Terracotta Tiered Cotton Midi Dress",
+    "slug": "rust-terracotta-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v7",
+      "rust-terracotta-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6317.jpg.jpeg",
+    "mainImage": "/western-dresses/6317.jpg.jpeg",
+    "images": [
+      "/western-dresses/6317.jpg.jpeg",
+      "/western-dresses/6479.jpg.jpeg",
+      "/western-dresses/10638.jpg.jpeg",
+      "/western-dresses/70754.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2356.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2356.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6317.jpg.jpeg",
+      "/western-dresses/6479.jpg.jpeg",
+      "/western-dresses/10638.jpg.jpeg",
+      "/western-dresses/70754.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2356.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2356.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6317.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6479.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/10638.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/70754.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2356.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2356.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v8",
+    "title": "Sand Ochre Tiered Cotton Midi Dress",
+    "slug": "sand-ochre-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v8",
+      "sand-ochre-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/9996.jpg.jpeg",
+    "mainImage": "/western-dresses/9996.jpg.jpeg",
+    "images": [
+      "/western-dresses/9996.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9974.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/9996.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9974.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/9996.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9974.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v9",
+    "title": "Charcoal Slate Tiered Cotton Midi Dress",
+    "slug": "charcoal-slate-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v9",
+      "charcoal-slate-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10976.jpg.jpeg",
+    "mainImage": "/western-dresses/10976.jpg.jpeg",
+    "images": [
+      "/western-dresses/10976.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10976.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/10976.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v10",
+    "title": "Lavender Violet Tiered Cotton Midi Dress",
+    "slug": "lavender-violet-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v10",
+      "lavender-violet-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11404.jpg.jpeg",
+    "mainImage": "/western-dresses/11404.jpg.jpeg",
+    "images": [
+      "/western-dresses/11404.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11404.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/11404.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v11",
+    "title": "Midnight Black Tiered Cotton Midi Dress",
+    "slug": "midnight-black-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v11",
+      "midnight-black-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12001.jpg.jpeg",
+    "mainImage": "/western-dresses/12001.jpg.jpeg",
+    "images": [
+      "/western-dresses/12001.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12001.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/12001.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v12",
+    "title": "Sage Olive Tiered Cotton Midi Dress",
+    "slug": "sage-olive-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v12",
+      "sage-olive-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12126.jpg.jpeg",
+    "mainImage": "/western-dresses/12126.jpg.jpeg",
+    "images": [
+      "/western-dresses/12126.jpg.jpeg",
+      "/western-dresses/12262.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12126.jpg.jpeg",
+      "/western-dresses/12262.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/12126.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/12262.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v13",
+    "title": "Sunset Tangerine Tiered Cotton Midi Dress",
+    "slug": "sunset-tangerine-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v13",
+      "sunset-tangerine-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/16772.jpg.jpeg",
+    "mainImage": "/western-dresses/16772.jpg.jpeg",
+    "images": [
+      "/western-dresses/16772.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/16772.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/16772.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0004-v14",
+    "title": "Mustard Gold Tiered Cotton Midi Dress",
+    "slug": "mustard-gold-tiered-cotton-midi-dress",
+    "aliasSlugs": [
+      "wd-0004-v14",
+      "mustard-gold-tiered-cotton-midi-dress",
+      "tiered-cotton-midi-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA6013.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA6013.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA6013.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6013.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA6013.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6013.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6013.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6013.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Tiered Cotton Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Tiered Cotton Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0004-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v1",
+    "title": "Warm Caramel Balloon Sleeve Babydoll Dress",
+    "slug": "warm-caramel-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v1",
+      "warm-caramel-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-1",
       "aaliyah-balloon-sleeve-empire-waist-babydoll-dress",
       "aanya-balloon-sleeve-empire-waist-babydoll-dress",
       "aditi-balloon-sleeve-empire-waist-babydoll-dress",
@@ -3582,114 +9453,68 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-edition-7-wd-0160",
       "zoe-smocked-bodice-sun-dress-edition-8-wd-0178"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/FB_IMG_1765772187012.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1765772187012.jpg.jpeg",
     "images": [
       "/western-dresses/FB_IMG_1765772187012.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772191648.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772197221.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772199699.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772202261.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772204382.jpg.jpeg",
       "/western-dresses/FB_IMG_1765772206472.jpg.jpeg",
-      "/western-dresses/4440.jpg.jpeg",
-      "/western-dresses/5544.jpg.jpeg",
       "/western-dresses/5545.jpg.jpeg",
       "/western-dresses/5546.jpg.jpeg",
       "/western-dresses/5547.jpg.jpeg",
       "/western-dresses/5548.jpg.jpeg",
       "/western-dresses/5549.jpg.jpeg",
       "/western-dresses/5641.jpg.jpeg",
-      "/western-dresses/5688.jpg.jpeg",
-      "/western-dresses/5775.jpg.jpeg",
-      "/western-dresses/5776.jpg.jpeg",
-      "/western-dresses/5777.jpg.jpeg",
-      "/western-dresses/5778.jpg.jpeg",
-      "/western-dresses/5821.jpg.jpeg",
-      "/western-dresses/5875.jpg.jpeg",
       "/western-dresses/5876.jpg.jpeg",
-      "/western-dresses/5952.jpg.jpeg",
-      "/western-dresses/5953.jpg.jpeg",
-      "/western-dresses/5990.jpg.jpeg",
       "/western-dresses/6079.jpg.jpeg",
       "/western-dresses/6080.jpg.jpeg",
       "/western-dresses/6096.jpg.jpeg",
       "/western-dresses/6131.jpg.jpeg",
-      "/western-dresses/6151.jpg.jpeg",
       "/western-dresses/6181.jpg.jpeg",
       "/western-dresses/6182.jpg.jpeg",
-      "/western-dresses/6211.jpg.jpeg",
-      "/western-dresses/6248.jpg.jpeg",
       "/western-dresses/6252.jpg.jpeg",
       "/western-dresses/6290.jpg.jpeg",
       "/western-dresses/6318.jpg.jpeg",
-      "/western-dresses/6357.jpg.jpeg",
       "/western-dresses/6382.jpg.jpeg",
       "/western-dresses/6480.jpg.jpeg",
-      "/western-dresses/9635.jpg.jpeg",
-      "/western-dresses/9759.jpg.jpeg",
       "/western-dresses/9760.jpg (1).jpeg",
-      "/western-dresses/9760.jpg%20(1).jpeg",
       "/western-dresses/9760.jpg.jpeg",
-      "/western-dresses/9998.jpg.jpeg",
-      "/western-dresses/10355.jpg.jpeg",
-      "/western-dresses/10676.jpg (1).jpeg",
-      "/western-dresses/10676.jpg%20(1).jpeg",
-      "/western-dresses/10676.jpg.jpeg",
-      "/western-dresses/10883.jpg.jpeg",
-      "/western-dresses/10977.jpg.jpeg",
-      "/western-dresses/11094.jpg.jpeg",
-      "/western-dresses/11205.jpg.jpeg",
-      "/western-dresses/11273.jpg.jpeg",
-      "/western-dresses/11366.jpg.jpeg",
       "/western-dresses/11405.jpg.jpeg",
       "/western-dresses/11499.jpg.jpeg",
-      "/western-dresses/11598.jpg.jpeg",
-      "/western-dresses/11694.jpg.jpeg",
       "/western-dresses/11794.jpg.jpeg",
       "/western-dresses/11893.jpg.jpeg",
-      "/western-dresses/12002.jpg.jpeg",
       "/western-dresses/12138.jpg.jpeg",
       "/western-dresses/12203.jpg.jpeg",
       "/western-dresses/12306.jpg.jpeg",
       "/western-dresses/12369.jpg.jpeg",
       "/western-dresses/12537.jpg.jpeg",
-      "/western-dresses/13056.jpg.jpeg",
       "/western-dresses/13510.jpg.jpeg",
-      "/western-dresses/14787.jpg.jpeg",
-      "/western-dresses/16840.jpg.jpeg",
-      "/western-dresses/16843.jpg.jpeg",
       "/western-dresses/16844.jpg.jpeg",
       "/western-dresses/16845.jpg.jpeg",
-      "/western-dresses/61317.jpg.jpeg",
-      "/western-dresses/70755.jpg.jpeg",
-      "/western-dresses/70756.jpg.jpeg",
-      "/western-dresses/70757.jpg.jpeg",
-      "/western-dresses/70758.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0252.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0252.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1129.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1884.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA1886.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2364.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2943.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2943.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3716.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4376.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4940.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4940.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA5518.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA5518.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA6020.jpg.jpeg",
@@ -3700,256 +9525,522 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA7543.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA7543.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8206.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8206.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA8931.jpg (1).jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8931.jpg (1).jpeg",
-      "/western-dresses/IMG-20261103-WA9428.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9999.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9999.jpg.jpeg"
+      "/western-dresses/dresses-images/IMG-20261103-WA8931.jpg (1).jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/FB_IMG_1765772187012.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772191648.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772197221.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772199699.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772202261.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772204382.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772206472.jpg.jpeg",
+      "/western-dresses/5545.jpg.jpeg",
+      "/western-dresses/5546.jpg.jpeg",
+      "/western-dresses/5547.jpg.jpeg",
+      "/western-dresses/5548.jpg.jpeg",
+      "/western-dresses/5549.jpg.jpeg",
+      "/western-dresses/5641.jpg.jpeg",
+      "/western-dresses/5876.jpg.jpeg",
+      "/western-dresses/6079.jpg.jpeg",
+      "/western-dresses/6080.jpg.jpeg",
+      "/western-dresses/6096.jpg.jpeg",
+      "/western-dresses/6131.jpg.jpeg",
+      "/western-dresses/6181.jpg.jpeg",
+      "/western-dresses/6182.jpg.jpeg",
+      "/western-dresses/6252.jpg.jpeg",
+      "/western-dresses/6290.jpg.jpeg",
+      "/western-dresses/6318.jpg.jpeg",
+      "/western-dresses/6382.jpg.jpeg",
+      "/western-dresses/6480.jpg.jpeg",
+      "/western-dresses/9760.jpg (1).jpeg",
+      "/western-dresses/9760.jpg.jpeg",
+      "/western-dresses/11405.jpg.jpeg",
+      "/western-dresses/11499.jpg.jpeg",
+      "/western-dresses/11794.jpg.jpeg",
+      "/western-dresses/11893.jpg.jpeg",
+      "/western-dresses/12138.jpg.jpeg",
+      "/western-dresses/12203.jpg.jpeg",
+      "/western-dresses/12306.jpg.jpeg",
+      "/western-dresses/12369.jpg.jpeg",
+      "/western-dresses/12537.jpg.jpeg",
+      "/western-dresses/13510.jpg.jpeg",
+      "/western-dresses/16844.jpg.jpeg",
+      "/western-dresses/16845.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1886.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5518.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5518.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6020.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6020.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6574.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6574.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7050.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7543.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7543.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8931.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8931.jpg (1).jpeg"
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Warm Caramel",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772187012.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772191648.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772197221.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772199699.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772202261.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772204382.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772206472.jpg.jpeg",
-          "/western-dresses/5545.jpg.jpeg",
-          "/western-dresses/5546.jpg.jpeg",
-          "/western-dresses/5547.jpg.jpeg",
-          "/western-dresses/5548.jpg.jpeg",
-          "/western-dresses/5549.jpg.jpeg",
-          "/western-dresses/5641.jpg.jpeg",
-          "/western-dresses/5876.jpg.jpeg",
-          "/western-dresses/6079.jpg.jpeg",
-          "/western-dresses/6080.jpg.jpeg",
-          "/western-dresses/6096.jpg.jpeg",
-          "/western-dresses/6131.jpg.jpeg",
-          "/western-dresses/6181.jpg.jpeg",
-          "/western-dresses/6182.jpg.jpeg",
-          "/western-dresses/6252.jpg.jpeg",
-          "/western-dresses/6290.jpg.jpeg",
-          "/western-dresses/6318.jpg.jpeg",
-          "/western-dresses/6382.jpg.jpeg",
-          "/western-dresses/6480.jpg.jpeg",
-          "/western-dresses/9760.jpg (1).jpeg",
-          "/western-dresses/9760.jpg.jpeg",
-          "/western-dresses/11405.jpg.jpeg",
-          "/western-dresses/11499.jpg.jpeg",
-          "/western-dresses/11794.jpg.jpeg",
-          "/western-dresses/11893.jpg.jpeg",
-          "/western-dresses/12138.jpg.jpeg",
-          "/western-dresses/12203.jpg.jpeg",
-          "/western-dresses/12306.jpg.jpeg",
-          "/western-dresses/12369.jpg.jpeg",
-          "/western-dresses/12537.jpg.jpeg",
-          "/western-dresses/13510.jpg.jpeg",
-          "/western-dresses/16844.jpg.jpeg",
-          "/western-dresses/16845.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1886.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5518.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5518.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6020.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6020.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6574.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6574.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7050.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7543.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7543.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8931.jpg (1).jpeg",
+          "/western-dresses/FB_IMG_1765772187012.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772191648.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772197221.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772199699.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772202261.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772204382.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772206472.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5545.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5546.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5547.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5548.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5549.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5641.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5876.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6079.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6080.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6096.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6131.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6181.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6182.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6252.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6290.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6318.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6382.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6480.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9760.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9760.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11405.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11499.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11794.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11893.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12138.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12203.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12306.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12369.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12537.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13510.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16844.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16845.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1886.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5518.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5518.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6020.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6020.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6574.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6574.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7050.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-49",
+        "name": "Styling 49",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-50",
+        "name": "Styling 50",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7543.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-51",
+        "name": "Styling 51",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7543.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-52",
+        "name": "Styling 52",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8931.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-53",
+        "name": "Styling 53",
+        "colorCode": "#D97706",
+        "images": [
           "/western-dresses/dresses-images/IMG-20261103-WA8931.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
-          "/western-dresses/9998.jpg.jpeg",
-          "/western-dresses/11273.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/4440.jpg.jpeg",
-          "/western-dresses/5952.jpg.jpeg",
-          "/western-dresses/5953.jpg.jpeg",
-          "/western-dresses/16840.jpg.jpeg",
-          "/western-dresses/16843.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5544.jpg.jpeg",
-          "/western-dresses/5775.jpg.jpeg",
-          "/western-dresses/5776.jpg.jpeg",
-          "/western-dresses/5777.jpg.jpeg",
-          "/western-dresses/5778.jpg.jpeg",
-          "/western-dresses/5990.jpg.jpeg",
-          "/western-dresses/6151.jpg.jpeg",
-          "/western-dresses/6211.jpg.jpeg",
-          "/western-dresses/6248.jpg.jpeg",
-          "/western-dresses/6357.jpg.jpeg",
-          "/western-dresses/11205.jpg.jpeg",
-          "/western-dresses/11366.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2364.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4376.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8206.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8206.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/5688.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5821.jpg.jpeg",
-          "/western-dresses/5875.jpg.jpeg",
-          "/western-dresses/10883.jpg.jpeg",
-          "/western-dresses/11094.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/9635.jpg.jpeg",
-          "/western-dresses/9759.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0252.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0252.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/western-dresses/9760.jpg%20(1).jpeg",
-          "/western-dresses/10676.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/western-dresses/10355.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/10676.jpg (1).jpeg",
-          "/western-dresses/10676.jpg.jpeg",
-          "/western-dresses/10977.jpg.jpeg",
-          "/western-dresses/70757.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/11598.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2943.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2943.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Emerald Green",
-        "colorCode": "#16A34A",
-        "images": [
-          "/western-dresses/11694.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/12002.jpg.jpeg",
-          "/western-dresses/13056.jpg.jpeg",
-          "/western-dresses/14787.jpg.jpeg",
-          "/western-dresses/61317.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/70755.jpg.jpeg",
-          "/western-dresses/70756.jpg.jpeg",
-          "/western-dresses/70758.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1129.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3716.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9428.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9999.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1884.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4940.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4940.jpg.jpeg"
         ]
       }
     ],
+    "description": "Authentic Warm Caramel Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v2",
+    "title": "Scarlet Red Balloon Sleeve Babydoll Dress",
+    "slug": "scarlet-red-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v2",
+      "scarlet-red-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -3957,26 +10048,1409 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Balloon Sleeve Babydoll Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 120 photographic views, tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
-    "details": [
-      "Authentic Balloon Sleeve Babydoll Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
+    "images": [
+      "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
+      "/western-dresses/9998.jpg.jpeg",
+      "/western-dresses/11273.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0005",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
+      "/western-dresses/9998.jpg.jpeg",
+      "/western-dresses/11273.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/FB_IMG_1765772189075.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/9998.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/11273.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V2",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0006",
-    "title": "Schiffli Embroidered Shirt Dress",
-    "slug": "schiffli-embroidered-shirt-dress",
+    "id": "wd-0005-v3",
+    "title": "Sunset Tangerine Balloon Sleeve Babydoll Dress",
+    "slug": "sunset-tangerine-balloon-sleeve-babydoll-dress",
     "aliasSlugs": [
+      "wd-0005-v3",
+      "sunset-tangerine-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4440.jpg.jpeg",
+    "mainImage": "/western-dresses/4440.jpg.jpeg",
+    "images": [
+      "/western-dresses/4440.jpg.jpeg",
+      "/western-dresses/5952.jpg.jpeg",
+      "/western-dresses/5953.jpg.jpeg",
+      "/western-dresses/16840.jpg.jpeg",
+      "/western-dresses/16843.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4440.jpg.jpeg",
+      "/western-dresses/5952.jpg.jpeg",
+      "/western-dresses/5953.jpg.jpeg",
+      "/western-dresses/16840.jpg.jpeg",
+      "/western-dresses/16843.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/4440.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5952.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5953.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/16840.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/16843.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v4",
+    "title": "Pebble Grey Balloon Sleeve Babydoll Dress",
+    "slug": "pebble-grey-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v4",
+      "pebble-grey-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5544.jpg.jpeg",
+    "mainImage": "/western-dresses/5544.jpg.jpeg",
+    "images": [
+      "/western-dresses/5544.jpg.jpeg",
+      "/western-dresses/5775.jpg.jpeg",
+      "/western-dresses/5776.jpg.jpeg",
+      "/western-dresses/5777.jpg.jpeg",
+      "/western-dresses/5778.jpg.jpeg",
+      "/western-dresses/5990.jpg.jpeg",
+      "/western-dresses/6151.jpg.jpeg",
+      "/western-dresses/6211.jpg.jpeg",
+      "/western-dresses/6248.jpg.jpeg",
+      "/western-dresses/6357.jpg.jpeg",
+      "/western-dresses/11205.jpg.jpeg",
+      "/western-dresses/11366.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2364.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4376.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8206.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8206.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5544.jpg.jpeg",
+      "/western-dresses/5775.jpg.jpeg",
+      "/western-dresses/5776.jpg.jpeg",
+      "/western-dresses/5777.jpg.jpeg",
+      "/western-dresses/5778.jpg.jpeg",
+      "/western-dresses/5990.jpg.jpeg",
+      "/western-dresses/6151.jpg.jpeg",
+      "/western-dresses/6211.jpg.jpeg",
+      "/western-dresses/6248.jpg.jpeg",
+      "/western-dresses/6357.jpg.jpeg",
+      "/western-dresses/11205.jpg.jpeg",
+      "/western-dresses/11366.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2364.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4376.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8206.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8206.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5544.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5775.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5776.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5777.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5778.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5990.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6151.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6211.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6248.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6357.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11205.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11366.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2364.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4376.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8206.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8206.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v5",
+    "title": "Midnight Navy Balloon Sleeve Babydoll Dress",
+    "slug": "midnight-navy-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v5",
+      "midnight-navy-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5688.jpg.jpeg",
+    "mainImage": "/western-dresses/5688.jpg.jpeg",
+    "images": [
+      "/western-dresses/5688.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5688.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/5688.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v6",
+    "title": "Blush Rose Balloon Sleeve Babydoll Dress",
+    "slug": "blush-rose-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v6",
+      "blush-rose-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5821.jpg.jpeg",
+    "mainImage": "/western-dresses/5821.jpg.jpeg",
+    "images": [
+      "/western-dresses/5821.jpg.jpeg",
+      "/western-dresses/5875.jpg.jpeg",
+      "/western-dresses/10883.jpg.jpeg",
+      "/western-dresses/11094.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5821.jpg.jpeg",
+      "/western-dresses/5875.jpg.jpeg",
+      "/western-dresses/10883.jpg.jpeg",
+      "/western-dresses/11094.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5821.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5875.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/10883.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11094.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v7",
+    "title": "Sand Ochre Balloon Sleeve Babydoll Dress",
+    "slug": "sand-ochre-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v7",
+      "sand-ochre-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/9635.jpg.jpeg",
+    "mainImage": "/western-dresses/9635.jpg.jpeg",
+    "images": [
+      "/western-dresses/9635.jpg.jpeg",
+      "/western-dresses/9759.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0252.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0252.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/9635.jpg.jpeg",
+      "/western-dresses/9759.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0252.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0252.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/9635.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/9759.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0252.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0252.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v8",
+    "title": "Artisan Earth Balloon Sleeve Babydoll Dress",
+    "slug": "artisan-earth-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v8",
+      "artisan-earth-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/9760.jpg%20(1).jpeg",
+    "mainImage": "/western-dresses/9760.jpg%20(1).jpeg",
+    "images": [
+      "/western-dresses/9760.jpg%20(1).jpeg",
+      "/western-dresses/10676.jpg%20(1).jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/9760.jpg%20(1).jpeg",
+      "/western-dresses/10676.jpg%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/western-dresses/9760.jpg%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/western-dresses/10676.jpg%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v9",
+    "title": "Berry Magenta Balloon Sleeve Babydoll Dress",
+    "slug": "berry-magenta-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v9",
+      "berry-magenta-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10355.jpg.jpeg",
+    "mainImage": "/western-dresses/10355.jpg.jpeg",
+    "images": [
+      "/western-dresses/10355.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10355.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/western-dresses/10355.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v10",
+    "title": "Ruby Crimson Balloon Sleeve Babydoll Dress",
+    "slug": "ruby-crimson-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v10",
+      "ruby-crimson-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10676.jpg (1).jpeg",
+    "mainImage": "/western-dresses/10676.jpg (1).jpeg",
+    "images": [
+      "/western-dresses/10676.jpg (1).jpeg",
+      "/western-dresses/10676.jpg.jpeg",
+      "/western-dresses/10977.jpg.jpeg",
+      "/western-dresses/70757.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10676.jpg (1).jpeg",
+      "/western-dresses/10676.jpg.jpeg",
+      "/western-dresses/10977.jpg.jpeg",
+      "/western-dresses/70757.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/10676.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/10676.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/10977.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/70757.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v11",
+    "title": "Mustard Gold Balloon Sleeve Babydoll Dress",
+    "slug": "mustard-gold-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v11",
+      "mustard-gold-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11598.jpg.jpeg",
+    "mainImage": "/western-dresses/11598.jpg.jpeg",
+    "images": [
+      "/western-dresses/11598.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2943.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2943.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11598.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2943.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2943.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/11598.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2943.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2943.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v12",
+    "title": "Emerald Green Balloon Sleeve Babydoll Dress",
+    "slug": "emerald-green-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v12",
+      "emerald-green-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11694.jpg.jpeg",
+    "mainImage": "/western-dresses/11694.jpg.jpeg",
+    "images": [
+      "/western-dresses/11694.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11694.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#16A34A",
+        "images": [
+          "/western-dresses/11694.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Emerald Green Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Emerald Green Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v13",
+    "title": "Rust Terracotta Balloon Sleeve Babydoll Dress",
+    "slug": "rust-terracotta-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v13",
+      "rust-terracotta-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12002.jpg.jpeg",
+    "mainImage": "/western-dresses/12002.jpg.jpeg",
+    "images": [
+      "/western-dresses/12002.jpg.jpeg",
+      "/western-dresses/13056.jpg.jpeg",
+      "/western-dresses/14787.jpg.jpeg",
+      "/western-dresses/61317.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12002.jpg.jpeg",
+      "/western-dresses/13056.jpg.jpeg",
+      "/western-dresses/14787.jpg.jpeg",
+      "/western-dresses/61317.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/12002.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/13056.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/14787.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/61317.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v14",
+    "title": "Midnight Black Balloon Sleeve Babydoll Dress",
+    "slug": "midnight-black-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v14",
+      "midnight-black-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/70755.jpg.jpeg",
+    "mainImage": "/western-dresses/70755.jpg.jpeg",
+    "images": [
+      "/western-dresses/70755.jpg.jpeg",
+      "/western-dresses/70756.jpg.jpeg",
+      "/western-dresses/70758.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/70755.jpg.jpeg",
+      "/western-dresses/70756.jpg.jpeg",
+      "/western-dresses/70758.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/70755.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/70756.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/70758.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v15",
+    "title": "Deep Teal Balloon Sleeve Babydoll Dress",
+    "slug": "deep-teal-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v15",
+      "deep-teal-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-15"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg",
+    "mainImage": "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg",
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg"
+    ],
+    "gallery": [
+      "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA3294.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v16",
+    "title": "Ivory Cream Balloon Sleeve Babydoll Dress",
+    "slug": "ivory-cream-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v16",
+      "ivory-cream-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-16"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA1129.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA1129.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA1129.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3716.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9428.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9999.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9999.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA1129.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3716.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9428.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9999.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9999.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1129.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3716.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9428.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9999.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9999.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0005-v17",
+    "title": "Orchid Pink Balloon Sleeve Babydoll Dress",
+    "slug": "orchid-pink-balloon-sleeve-babydoll-dress",
+    "aliasSlugs": [
+      "wd-0005-v17",
+      "orchid-pink-balloon-sleeve-babydoll-dress",
+      "balloon-sleeve-babydoll-dress-var-17"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA1884.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA1884.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA1884.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4940.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4940.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA1884.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4940.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4940.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1884.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4940.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4940.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Balloon Sleeve Babydoll Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Balloon Sleeve Babydoll Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0005-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v1",
+    "title": "Warm Caramel Schiffli Embroidered Shirt Dress",
+    "slug": "warm-caramel-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v1",
+      "warm-caramel-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-1",
       "aaliyah-schiffli-embroidered-button-down-shirt-dress",
       "aanya-schiffli-embroidered-button-down-shirt-dress",
       "aditi-schiffli-embroidered-button-down-shirt-dress",
@@ -4397,382 +11871,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-edition-5-wd-0118",
       "zoe-smocked-bodice-sun-dress-edition-7-wd-0160"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772409459.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772412140.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772417000.jpg.jpeg",
-      "/western-dresses/FB_IMG_1765772420306.jpg.jpeg",
-      "/western-dresses/4494.jpg.jpeg",
-      "/western-dresses/4495.jpg.jpeg",
-      "/western-dresses/5550.jpg.jpeg",
-      "/western-dresses/5642.jpg.jpeg",
-      "/western-dresses/5643.jpg.jpeg",
-      "/western-dresses/5694.jpg.jpeg",
-      "/western-dresses/5695.jpg.jpeg",
-      "/western-dresses/5696.jpg.jpeg",
-      "/western-dresses/5697.jpg.jpeg",
-      "/western-dresses/5781.jpg.jpeg",
-      "/western-dresses/5822.jpg.jpeg",
-      "/western-dresses/5878.jpg.jpeg",
-      "/western-dresses/5879.jpg.jpeg",
-      "/western-dresses/5881.jpg.jpeg",
-      "/western-dresses/5882.jpg.jpeg",
-      "/western-dresses/5954.jpg.jpeg",
-      "/western-dresses/5992.jpg.jpeg",
-      "/western-dresses/5996.jpg.jpeg",
-      "/western-dresses/6081.jpg.jpeg",
-      "/western-dresses/6082.jpg.jpeg",
-      "/western-dresses/6097.jpg.jpeg",
-      "/western-dresses/6098.jpg.jpeg",
-      "/western-dresses/6099.jpg.jpeg",
-      "/western-dresses/6132.jpg.jpeg",
-      "/western-dresses/6152.jpg.jpeg",
-      "/western-dresses/6183.jpg.jpeg",
-      "/western-dresses/6184.jpg.jpeg",
-      "/western-dresses/6186.jpg.jpeg",
-      "/western-dresses/6212.jpg.jpeg",
-      "/western-dresses/6253.jpg.jpeg",
-      "/western-dresses/6254.jpg.jpeg",
-      "/western-dresses/6291.jpg.jpeg",
-      "/western-dresses/6292.jpg.jpeg",
-      "/western-dresses/6319.jpg.jpeg",
-      "/western-dresses/6358.jpg.jpeg",
-      "/western-dresses/6359.jpg.jpeg",
-      "/western-dresses/6361.jpg.jpeg",
-      "/western-dresses/6360.jpg.jpeg",
-      "/western-dresses/6383.jpg.jpeg",
-      "/western-dresses/6384.jpg.jpeg",
-      "/western-dresses/6481.jpg.jpeg",
-      "/western-dresses/6482.jpg.jpeg",
-      "/western-dresses/9636.jpg.jpeg",
-      "/western-dresses/9775.jpg.jpeg",
-      "/western-dresses/10045.jpg.jpeg",
-      "/western-dresses/10356.jpg.jpeg",
-      "/western-dresses/10686.jpg.jpeg",
-      "/western-dresses/10687.jpg.jpeg",
-      "/western-dresses/10884.jpg.jpeg",
-      "/western-dresses/10978.jpg.jpeg",
-      "/western-dresses/10979.jpg.jpeg",
-      "/western-dresses/11095.jpg.jpeg",
-      "/western-dresses/11207.jpg.jpeg",
-      "/western-dresses/11274.jpg.jpeg",
-      "/western-dresses/11367.jpg.jpeg",
-      "/western-dresses/11406.jpg.jpeg",
-      "/western-dresses/11500.jpg.jpeg",
-      "/western-dresses/11599.jpg.jpeg",
-      "/western-dresses/11720.jpg.jpeg",
-      "/western-dresses/11721.jpg.jpeg",
-      "/western-dresses/11795.jpg.jpeg",
-      "/western-dresses/11796.jpg.jpeg",
-      "/western-dresses/11894.jpg.jpeg",
-      "/western-dresses/11895.jpg.jpeg",
-      "/western-dresses/12016.jpg.jpeg",
-      "/western-dresses/12020.jpg.jpeg",
-      "/western-dresses/12141.jpg.jpeg",
-      "/western-dresses/12213.jpg.jpeg",
-      "/western-dresses/12316.jpg.jpeg",
-      "/western-dresses/12373.jpg.jpeg",
-      "/western-dresses/12538.jpg.jpeg",
-      "/western-dresses/13115.jpg.jpeg",
-      "/western-dresses/13511.jpg.jpeg",
-      "/western-dresses/14927.jpg.jpeg",
-      "/western-dresses/16872.jpg.jpeg",
-      "/western-dresses/16874.jpg.jpeg",
-      "/western-dresses/16875.jpg.jpeg",
-      "/western-dresses/16876.jpg.jpeg",
-      "/western-dresses/16877.jpg.jpeg",
-      "/western-dresses/16879.jpg.jpeg",
-      "/western-dresses/61320.jpg.jpeg",
-      "/western-dresses/61323.jpg.jpeg",
-      "/western-dresses/IMG_20251207_220600.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0334.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0334.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1305.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1912.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2441.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2984.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3906.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3906.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4398.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5012.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5526.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6044.jpg (1).jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg",
-      "/western-dresses/IMG-20261103-WA6610.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6612.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6612.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7051.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7051.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7584.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7584.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8303.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8938.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9450.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9450.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772409459.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772412140.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772417000.jpg.jpeg",
-          "/western-dresses/FB_IMG_1765772420306.jpg.jpeg",
-          "/western-dresses/5550.jpg.jpeg",
-          "/western-dresses/5642.jpg.jpeg",
-          "/western-dresses/5643.jpg.jpeg",
-          "/western-dresses/5694.jpg.jpeg",
-          "/western-dresses/5695.jpg.jpeg",
-          "/western-dresses/5696.jpg.jpeg",
-          "/western-dresses/5697.jpg.jpeg",
-          "/western-dresses/5954.jpg.jpeg",
-          "/western-dresses/6081.jpg.jpeg",
-          "/western-dresses/6082.jpg.jpeg",
-          "/western-dresses/6183.jpg.jpeg",
-          "/western-dresses/6212.jpg.jpeg",
-          "/western-dresses/6292.jpg.jpeg",
-          "/western-dresses/6358.jpg.jpeg",
-          "/western-dresses/6359.jpg.jpeg",
-          "/western-dresses/6383.jpg.jpeg",
-          "/western-dresses/6384.jpg.jpeg",
-          "/western-dresses/9636.jpg.jpeg",
-          "/western-dresses/10978.jpg.jpeg",
-          "/western-dresses/10979.jpg.jpeg",
-          "/western-dresses/11274.jpg.jpeg",
-          "/western-dresses/11367.jpg.jpeg",
-          "/western-dresses/11500.jpg.jpeg",
-          "/western-dresses/11894.jpg.jpeg",
-          "/western-dresses/11895.jpg.jpeg",
-          "/western-dresses/12141.jpg.jpeg",
-          "/western-dresses/13115.jpg.jpeg",
-          "/western-dresses/13511.jpg.jpeg",
-          "/western-dresses/16874.jpg.jpeg",
-          "/western-dresses/16875.jpg.jpeg",
-          "/western-dresses/16876.jpg.jpeg",
-          "/western-dresses/16877.jpg.jpeg",
-          "/western-dresses/16879.jpg.jpeg",
-          "/western-dresses/61323.jpg.jpeg",
-          "/western-dresses/IMG_20251207_220600.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1912.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4398.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6044.jpg (1).jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg",
-          "/western-dresses/IMG-20261103-WA8303.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/4494.jpg.jpeg",
-          "/western-dresses/5822.jpg.jpeg",
-          "/western-dresses/5878.jpg.jpeg",
-          "/western-dresses/5879.jpg.jpeg",
-          "/western-dresses/5881.jpg.jpeg",
-          "/western-dresses/5882.jpg.jpeg",
-          "/western-dresses/5992.jpg.jpeg",
-          "/western-dresses/6097.jpg.jpeg",
-          "/western-dresses/6099.jpg.jpeg",
-          "/western-dresses/6253.jpg.jpeg",
-          "/western-dresses/6291.jpg.jpeg",
-          "/western-dresses/6360.jpg.jpeg",
-          "/western-dresses/9775.jpg.jpeg",
-          "/western-dresses/10686.jpg.jpeg",
-          "/western-dresses/10884.jpg.jpeg",
-          "/western-dresses/11599.jpg.jpeg",
-          "/western-dresses/11720.jpg.jpeg",
-          "/western-dresses/11721.jpg.jpeg",
-          "/western-dresses/11796.jpg.jpeg",
-          "/western-dresses/12016.jpg.jpeg",
-          "/western-dresses/12020.jpg.jpeg",
-          "/western-dresses/12213.jpg.jpeg",
-          "/western-dresses/61320.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9450.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9450.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/4495.jpg.jpeg",
-          "/western-dresses/12316.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1305.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2441.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5012.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6610.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6612.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6612.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5781.jpg.jpeg",
-          "/western-dresses/5996.jpg.jpeg",
-          "/western-dresses/6361.jpg.jpeg",
-          "/western-dresses/11095.jpg.jpeg",
-          "/western-dresses/11207.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/6098.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2984.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6132.jpg.jpeg",
-          "/western-dresses/6184.jpg.jpeg",
-          "/western-dresses/10356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/western-dresses/6152.jpg.jpeg",
-          "/western-dresses/6186.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/6254.jpg.jpeg",
-          "/western-dresses/10045.jpg.jpeg",
-          "/western-dresses/10687.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6319.jpg.jpeg",
-          "/western-dresses/6482.jpg.jpeg",
-          "/western-dresses/11406.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/6481.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/11795.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3906.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3906.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/12373.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/12538.jpg.jpeg",
-          "/western-dresses/14927.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0334.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0334.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/16872.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5526.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7051.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7584.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7584.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8938.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -4780,26 +11889,2026 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Schiffli Embroidered Shirt Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 124 photographic views, tailored in Lightweight Flowing Rayon Georgette with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Lightweight Flowing Rayon Georgette",
-    "details": [
-      "Authentic Schiffli Embroidered Shirt Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Lightweight Flowing Rayon Georgette with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
+    "images": [
+      "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772409459.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772412140.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772417000.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772420306.jpg.jpeg",
+      "/western-dresses/5550.jpg.jpeg",
+      "/western-dresses/5642.jpg.jpeg",
+      "/western-dresses/5643.jpg.jpeg",
+      "/western-dresses/5694.jpg.jpeg",
+      "/western-dresses/5695.jpg.jpeg",
+      "/western-dresses/5696.jpg.jpeg",
+      "/western-dresses/5697.jpg.jpeg",
+      "/western-dresses/5954.jpg.jpeg",
+      "/western-dresses/6081.jpg.jpeg",
+      "/western-dresses/6082.jpg.jpeg",
+      "/western-dresses/6183.jpg.jpeg",
+      "/western-dresses/6212.jpg.jpeg",
+      "/western-dresses/6292.jpg.jpeg",
+      "/western-dresses/6358.jpg.jpeg",
+      "/western-dresses/6359.jpg.jpeg",
+      "/western-dresses/6383.jpg.jpeg",
+      "/western-dresses/6384.jpg.jpeg",
+      "/western-dresses/9636.jpg.jpeg",
+      "/western-dresses/10978.jpg.jpeg",
+      "/western-dresses/10979.jpg.jpeg",
+      "/western-dresses/11274.jpg.jpeg",
+      "/western-dresses/11367.jpg.jpeg",
+      "/western-dresses/11500.jpg.jpeg",
+      "/western-dresses/11894.jpg.jpeg",
+      "/western-dresses/11895.jpg.jpeg",
+      "/western-dresses/12141.jpg.jpeg",
+      "/western-dresses/13115.jpg.jpeg",
+      "/western-dresses/13511.jpg.jpeg",
+      "/western-dresses/16874.jpg.jpeg",
+      "/western-dresses/16875.jpg.jpeg",
+      "/western-dresses/16876.jpg.jpeg",
+      "/western-dresses/16877.jpg.jpeg",
+      "/western-dresses/16879.jpg.jpeg",
+      "/western-dresses/61323.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220600.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1912.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4398.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6044.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg",
+      "/western-dresses/IMG-20261103-WA8303.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0006",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772409459.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772412140.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772417000.jpg.jpeg",
+      "/western-dresses/FB_IMG_1765772420306.jpg.jpeg",
+      "/western-dresses/5550.jpg.jpeg",
+      "/western-dresses/5642.jpg.jpeg",
+      "/western-dresses/5643.jpg.jpeg",
+      "/western-dresses/5694.jpg.jpeg",
+      "/western-dresses/5695.jpg.jpeg",
+      "/western-dresses/5696.jpg.jpeg",
+      "/western-dresses/5697.jpg.jpeg",
+      "/western-dresses/5954.jpg.jpeg",
+      "/western-dresses/6081.jpg.jpeg",
+      "/western-dresses/6082.jpg.jpeg",
+      "/western-dresses/6183.jpg.jpeg",
+      "/western-dresses/6212.jpg.jpeg",
+      "/western-dresses/6292.jpg.jpeg",
+      "/western-dresses/6358.jpg.jpeg",
+      "/western-dresses/6359.jpg.jpeg",
+      "/western-dresses/6383.jpg.jpeg",
+      "/western-dresses/6384.jpg.jpeg",
+      "/western-dresses/9636.jpg.jpeg",
+      "/western-dresses/10978.jpg.jpeg",
+      "/western-dresses/10979.jpg.jpeg",
+      "/western-dresses/11274.jpg.jpeg",
+      "/western-dresses/11367.jpg.jpeg",
+      "/western-dresses/11500.jpg.jpeg",
+      "/western-dresses/11894.jpg.jpeg",
+      "/western-dresses/11895.jpg.jpeg",
+      "/western-dresses/12141.jpg.jpeg",
+      "/western-dresses/13115.jpg.jpeg",
+      "/western-dresses/13511.jpg.jpeg",
+      "/western-dresses/16874.jpg.jpeg",
+      "/western-dresses/16875.jpg.jpeg",
+      "/western-dresses/16876.jpg.jpeg",
+      "/western-dresses/16877.jpg.jpeg",
+      "/western-dresses/16879.jpg.jpeg",
+      "/western-dresses/61323.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220600.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1912.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4398.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6044.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg",
+      "/western-dresses/IMG-20261103-WA8303.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772406910.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772409459.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772412140.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772417000.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1765772420306.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5550.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5642.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5643.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5694.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5695.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5696.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5697.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5954.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6081.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6082.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6183.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6212.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6292.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6358.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6359.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6383.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6384.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9636.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10978.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10979.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11274.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11367.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11500.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11894.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11895.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12141.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13115.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13511.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16874.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16875.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16876.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16877.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16879.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/61323.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG_20251207_220600.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1912.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6044.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8303.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0007",
-    "title": "Flutter Sleeve Tiered Sundress",
-    "slug": "flutter-sleeve-tiered-sundress",
+    "id": "wd-0006-v2",
+    "title": "Pebble Grey Schiffli Embroidered Shirt Dress",
+    "slug": "pebble-grey-schiffli-embroidered-shirt-dress",
     "aliasSlugs": [
+      "wd-0006-v2",
+      "pebble-grey-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4494.jpg.jpeg",
+    "mainImage": "/western-dresses/4494.jpg.jpeg",
+    "images": [
+      "/western-dresses/4494.jpg.jpeg",
+      "/western-dresses/5822.jpg.jpeg",
+      "/western-dresses/5878.jpg.jpeg",
+      "/western-dresses/5879.jpg.jpeg",
+      "/western-dresses/5881.jpg.jpeg",
+      "/western-dresses/5882.jpg.jpeg",
+      "/western-dresses/5992.jpg.jpeg",
+      "/western-dresses/6097.jpg.jpeg",
+      "/western-dresses/6099.jpg.jpeg",
+      "/western-dresses/6253.jpg.jpeg",
+      "/western-dresses/6291.jpg.jpeg",
+      "/western-dresses/6360.jpg.jpeg",
+      "/western-dresses/9775.jpg.jpeg",
+      "/western-dresses/10686.jpg.jpeg",
+      "/western-dresses/10884.jpg.jpeg",
+      "/western-dresses/11599.jpg.jpeg",
+      "/western-dresses/11720.jpg.jpeg",
+      "/western-dresses/11721.jpg.jpeg",
+      "/western-dresses/11796.jpg.jpeg",
+      "/western-dresses/12016.jpg.jpeg",
+      "/western-dresses/12020.jpg.jpeg",
+      "/western-dresses/12213.jpg.jpeg",
+      "/western-dresses/61320.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9450.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9450.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4494.jpg.jpeg",
+      "/western-dresses/5822.jpg.jpeg",
+      "/western-dresses/5878.jpg.jpeg",
+      "/western-dresses/5879.jpg.jpeg",
+      "/western-dresses/5881.jpg.jpeg",
+      "/western-dresses/5882.jpg.jpeg",
+      "/western-dresses/5992.jpg.jpeg",
+      "/western-dresses/6097.jpg.jpeg",
+      "/western-dresses/6099.jpg.jpeg",
+      "/western-dresses/6253.jpg.jpeg",
+      "/western-dresses/6291.jpg.jpeg",
+      "/western-dresses/6360.jpg.jpeg",
+      "/western-dresses/9775.jpg.jpeg",
+      "/western-dresses/10686.jpg.jpeg",
+      "/western-dresses/10884.jpg.jpeg",
+      "/western-dresses/11599.jpg.jpeg",
+      "/western-dresses/11720.jpg.jpeg",
+      "/western-dresses/11721.jpg.jpeg",
+      "/western-dresses/11796.jpg.jpeg",
+      "/western-dresses/12016.jpg.jpeg",
+      "/western-dresses/12020.jpg.jpeg",
+      "/western-dresses/12213.jpg.jpeg",
+      "/western-dresses/61320.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9450.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9450.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/4494.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5822.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5878.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5879.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5881.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5882.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5992.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6097.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6099.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6253.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6291.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6360.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9775.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10686.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10884.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11599.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11720.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11721.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11796.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12016.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12020.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12213.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/61320.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9450.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9450.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v3",
+    "title": "Ivory Cream Schiffli Embroidered Shirt Dress",
+    "slug": "ivory-cream-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v3",
+      "ivory-cream-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4495.jpg.jpeg",
+    "mainImage": "/western-dresses/4495.jpg.jpeg",
+    "images": [
+      "/western-dresses/4495.jpg.jpeg",
+      "/western-dresses/12316.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1305.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2441.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5012.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6610.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6612.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6612.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4495.jpg.jpeg",
+      "/western-dresses/12316.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1305.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2441.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5012.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6610.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6612.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6612.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/4495.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/12316.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1305.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2441.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5012.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6610.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6612.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6612.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v4",
+    "title": "Blush Rose Schiffli Embroidered Shirt Dress",
+    "slug": "blush-rose-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v4",
+      "blush-rose-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5781.jpg.jpeg",
+    "mainImage": "/western-dresses/5781.jpg.jpeg",
+    "images": [
+      "/western-dresses/5781.jpg.jpeg",
+      "/western-dresses/5996.jpg.jpeg",
+      "/western-dresses/6361.jpg.jpeg",
+      "/western-dresses/11095.jpg.jpeg",
+      "/western-dresses/11207.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5781.jpg.jpeg",
+      "/western-dresses/5996.jpg.jpeg",
+      "/western-dresses/6361.jpg.jpeg",
+      "/western-dresses/11095.jpg.jpeg",
+      "/western-dresses/11207.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5781.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5996.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6361.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11095.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11207.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v5",
+    "title": "Sand Ochre Schiffli Embroidered Shirt Dress",
+    "slug": "sand-ochre-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v5",
+      "sand-ochre-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6098.jpg.jpeg",
+    "mainImage": "/western-dresses/6098.jpg.jpeg",
+    "images": [
+      "/western-dresses/6098.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2984.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6098.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2984.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/6098.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2984.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v6",
+    "title": "Charcoal Slate Schiffli Embroidered Shirt Dress",
+    "slug": "charcoal-slate-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v6",
+      "charcoal-slate-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6132.jpg.jpeg",
+    "mainImage": "/western-dresses/6132.jpg.jpeg",
+    "images": [
+      "/western-dresses/6132.jpg.jpeg",
+      "/western-dresses/6184.jpg.jpeg",
+      "/western-dresses/10356.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6132.jpg.jpeg",
+      "/western-dresses/6184.jpg.jpeg",
+      "/western-dresses/10356.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6132.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6184.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/10356.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v7",
+    "title": "Sage Olive Schiffli Embroidered Shirt Dress",
+    "slug": "sage-olive-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v7",
+      "sage-olive-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6152.jpg.jpeg",
+    "mainImage": "/western-dresses/6152.jpg.jpeg",
+    "images": [
+      "/western-dresses/6152.jpg.jpeg",
+      "/western-dresses/6186.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6152.jpg.jpeg",
+      "/western-dresses/6186.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/6152.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/6186.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v8",
+    "title": "Steel Slate Schiffli Embroidered Shirt Dress",
+    "slug": "steel-slate-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v8",
+      "steel-slate-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6254.jpg.jpeg",
+    "mainImage": "/western-dresses/6254.jpg.jpeg",
+    "images": [
+      "/western-dresses/6254.jpg.jpeg",
+      "/western-dresses/10045.jpg.jpeg",
+      "/western-dresses/10687.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6254.jpg.jpeg",
+      "/western-dresses/10045.jpg.jpeg",
+      "/western-dresses/10687.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/6254.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/10045.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/10687.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v9",
+    "title": "Rust Terracotta Schiffli Embroidered Shirt Dress",
+    "slug": "rust-terracotta-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v9",
+      "rust-terracotta-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6319.jpg.jpeg",
+    "mainImage": "/western-dresses/6319.jpg.jpeg",
+    "images": [
+      "/western-dresses/6319.jpg.jpeg",
+      "/western-dresses/6482.jpg.jpeg",
+      "/western-dresses/11406.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6319.jpg.jpeg",
+      "/western-dresses/6482.jpg.jpeg",
+      "/western-dresses/11406.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6319.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6482.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11406.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v10",
+    "title": "Ruby Crimson Schiffli Embroidered Shirt Dress",
+    "slug": "ruby-crimson-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v10",
+      "ruby-crimson-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6481.jpg.jpeg",
+    "mainImage": "/western-dresses/6481.jpg.jpeg",
+    "images": [
+      "/western-dresses/6481.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6481.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/6481.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v11",
+    "title": "Orchid Pink Schiffli Embroidered Shirt Dress",
+    "slug": "orchid-pink-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v11",
+      "orchid-pink-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11795.jpg.jpeg",
+    "mainImage": "/western-dresses/11795.jpg.jpeg",
+    "images": [
+      "/western-dresses/11795.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3906.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3906.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11795.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3906.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3906.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/11795.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3906.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3906.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v12",
+    "title": "Lavender Violet Schiffli Embroidered Shirt Dress",
+    "slug": "lavender-violet-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v12",
+      "lavender-violet-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12373.jpg.jpeg",
+    "mainImage": "/western-dresses/12373.jpg.jpeg",
+    "images": [
+      "/western-dresses/12373.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12373.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/12373.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v13",
+    "title": "Midnight Black Schiffli Embroidered Shirt Dress",
+    "slug": "midnight-black-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v13",
+      "midnight-black-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12538.jpg.jpeg",
+    "mainImage": "/western-dresses/12538.jpg.jpeg",
+    "images": [
+      "/western-dresses/12538.jpg.jpeg",
+      "/western-dresses/14927.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0334.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0334.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12538.jpg.jpeg",
+      "/western-dresses/14927.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0334.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0334.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/12538.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/14927.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0334.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0334.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v14",
+    "title": "Sunset Tangerine Schiffli Embroidered Shirt Dress",
+    "slug": "sunset-tangerine-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v14",
+      "sunset-tangerine-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/16872.jpg.jpeg",
+    "mainImage": "/western-dresses/16872.jpg.jpeg",
+    "images": [
+      "/western-dresses/16872.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/16872.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/16872.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v15",
+    "title": "Mustard Gold Schiffli Embroidered Shirt Dress",
+    "slug": "mustard-gold-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v15",
+      "mustard-gold-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-15"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA5526.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA5526.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA5526.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7051.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7051.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA5526.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7051.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7051.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5526.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7051.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7051.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v16",
+    "title": "Aqua Marine Schiffli Embroidered Shirt Dress",
+    "slug": "aqua-marine-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v16",
+      "aqua-marine-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-16"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA7584.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA7584.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA7584.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7584.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA7584.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7584.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7584.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7584.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0006-v17",
+    "title": "Scarlet Red Schiffli Embroidered Shirt Dress",
+    "slug": "scarlet-red-schiffli-embroidered-shirt-dress",
+    "aliasSlugs": [
+      "wd-0006-v17",
+      "scarlet-red-schiffli-embroidered-shirt-dress",
+      "schiffli-embroidered-shirt-dress-var-17"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Lightweight Flowing Rayon Georgette",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8938.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8938.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8938.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8938.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Schiffli Embroidered Shirt Dress handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Flowing Rayon Georgette with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Schiffli Embroidered Shirt Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Flowing Rayon Georgette with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0006-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v1",
+    "title": "Blush Rose Flutter Sleeve Tiered Sundress",
+    "slug": "blush-rose-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v1",
+      "blush-rose-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-1",
       "aaliyah-tiered-flutter-sleeve-midi-sundress",
       "aanya-tiered-flutter-sleeve-midi-sundress",
       "aditi-tiered-flutter-sleeve-midi-sundress",
@@ -5205,316 +14314,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-edition-5-wd-0118",
       "zoe-smocked-bodice-sun-dress-edition-7-wd-0160"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
-      "/western-dresses/FB_IMG_1781793223709.jpg.jpeg",
-      "/western-dresses/4530.jpg.jpeg",
-      "/western-dresses/4531.jpg.jpeg",
-      "/western-dresses/5551.jpg.jpeg",
-      "/western-dresses/5552.jpg.jpeg",
-      "/western-dresses/5553.jpg.jpeg",
-      "/western-dresses/5554.jpg.jpeg",
-      "/western-dresses/5555.jpg.jpeg",
-      "/western-dresses/5644.jpg.jpeg",
-      "/western-dresses/5707.jpg.jpeg",
-      "/western-dresses/5708.jpg.jpeg",
-      "/western-dresses/5782.jpg.jpeg",
-      "/western-dresses/5855.jpg.jpeg",
-      "/western-dresses/5883.jpg.jpeg",
-      "/western-dresses/5885.jpg.jpeg",
-      "/western-dresses/5955.jpg.jpeg",
-      "/western-dresses/5956.jpg.jpeg",
-      "/western-dresses/6029.jpg.jpeg",
-      "/western-dresses/6083.jpg.jpeg",
-      "/western-dresses/6103.jpg.jpeg",
-      "/western-dresses/6133.jpg.jpeg",
-      "/western-dresses/6153.jpg.jpeg",
-      "/western-dresses/6187.jpg.jpeg",
-      "/western-dresses/6188.jpg.jpeg",
-      "/western-dresses/6213.jpg.jpeg",
-      "/western-dresses/6257.jpg.jpeg",
-      "/western-dresses/6293.jpg.jpeg",
-      "/western-dresses/6294.jpg.jpeg",
-      "/western-dresses/6321.jpg.jpeg",
-      "/western-dresses/6362.jpg.jpeg",
-      "/western-dresses/6385.jpg.jpeg",
-      "/western-dresses/6485.jpg.jpeg",
-      "/western-dresses/9638.jpg.jpeg",
-      "/western-dresses/9799.jpg.jpeg",
-      "/western-dresses/10096.jpg.jpeg",
-      "/western-dresses/10097.jpg.jpeg",
-      "/western-dresses/10098.jpg.jpeg",
-      "/western-dresses/10426.jpg.jpeg",
-      "/western-dresses/10427.jpg.jpeg",
-      "/western-dresses/10428.jpg.jpeg",
-      "/western-dresses/10699.jpg.jpeg",
-      "/western-dresses/10702.jpg.jpeg",
-      "/western-dresses/10885.jpg.jpeg",
-      "/western-dresses/10981.jpg.jpeg",
-      "/western-dresses/10982.jpg.jpeg",
-      "/western-dresses/11156.jpg.jpeg",
-      "/western-dresses/11209.jpg.jpeg",
-      "/western-dresses/11300.jpg.jpeg",
-      "/western-dresses/11373.jpg.jpeg",
-      "/western-dresses/11407.jpg.jpeg",
-      "/western-dresses/11409.jpg.jpeg",
-      "/western-dresses/11520.jpg.jpeg",
-      "/western-dresses/11600.jpg.jpeg",
-      "/western-dresses/11722.jpg.jpeg",
-      "/western-dresses/11723.jpg.jpeg",
-      "/western-dresses/11830.jpg.jpeg",
-      "/western-dresses/11896.jpg.jpeg",
-      "/western-dresses/12021.jpg.jpeg",
-      "/western-dresses/12142.jpg.jpeg",
-      "/western-dresses/12144.jpg.jpeg",
-      "/western-dresses/12223.jpg.jpeg",
-      "/western-dresses/12317.jpg.jpeg",
-      "/western-dresses/12374.jpg.jpeg",
-      "/western-dresses/12539.jpg.jpeg",
-      "/western-dresses/13149.jpg.jpeg",
-      "/western-dresses/13512.jpg.jpeg",
-      "/western-dresses/14961.jpg.jpeg",
-      "/western-dresses/55723.jpg.jpeg",
-      "/western-dresses/67785.jpg.jpeg",
-      "/western-dresses/IMG_20251207_220614.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0358.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1338.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1915.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2562.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3024.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3918.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg",
-      "/western-dresses/IMG-20261103-WA5033.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5033.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5551.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5551.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6080.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6080.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6623.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7097.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7678.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7678.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8373.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8951.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8951.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9465.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
-          "/western-dresses/FB_IMG_1781793223709.jpg.jpeg",
-          "/western-dresses/6188.jpg.jpeg",
-          "/western-dresses/6321.jpg.jpeg",
-          "/western-dresses/10885.jpg.jpeg",
-          "/western-dresses/11409.jpg.jpeg",
-          "/western-dresses/11520.jpg.jpeg",
-          "/western-dresses/11600.jpg.jpeg",
-          "/western-dresses/67785.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/4530.jpg.jpeg",
-          "/western-dresses/4531.jpg.jpeg",
-          "/western-dresses/5955.jpg.jpeg",
-          "/western-dresses/5956.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5551.jpg.jpeg",
-          "/western-dresses/5552.jpg.jpeg",
-          "/western-dresses/5553.jpg.jpeg",
-          "/western-dresses/5554.jpg.jpeg",
-          "/western-dresses/5555.jpg.jpeg",
-          "/western-dresses/5707.jpg.jpeg",
-          "/western-dresses/5708.jpg.jpeg",
-          "/western-dresses/5855.jpg.jpeg",
-          "/western-dresses/5883.jpg.jpeg",
-          "/western-dresses/6029.jpg.jpeg",
-          "/western-dresses/6103.jpg.jpeg",
-          "/western-dresses/6293.jpg.jpeg",
-          "/western-dresses/6294.jpg.jpeg",
-          "/western-dresses/6362.jpg.jpeg",
-          "/western-dresses/6385.jpg.jpeg",
-          "/western-dresses/6485.jpg.jpeg",
-          "/western-dresses/9638.jpg.jpeg",
-          "/western-dresses/10096.jpg.jpeg",
-          "/western-dresses/10097.jpg.jpeg",
-          "/western-dresses/10098.jpg.jpeg",
-          "/western-dresses/10427.jpg.jpeg",
-          "/western-dresses/10428.jpg.jpeg",
-          "/western-dresses/10699.jpg.jpeg",
-          "/western-dresses/10702.jpg.jpeg",
-          "/western-dresses/10981.jpg.jpeg",
-          "/western-dresses/11156.jpg.jpeg",
-          "/western-dresses/11209.jpg.jpeg",
-          "/western-dresses/11407.jpg.jpeg",
-          "/western-dresses/11830.jpg.jpeg",
-          "/western-dresses/11896.jpg.jpeg",
-          "/western-dresses/12021.jpg.jpeg",
-          "/western-dresses/12144.jpg.jpeg",
-          "/western-dresses/12317.jpg.jpeg",
-          "/western-dresses/12374.jpg.jpeg",
-          "/western-dresses/13149.jpg.jpeg",
-          "/western-dresses/13512.jpg.jpeg",
-          "/western-dresses/55723.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0358.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1338.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1915.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3024.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg",
-          "/western-dresses/IMG-20261103-WA5033.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5033.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/5644.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5782.jpg.jpeg",
-          "/western-dresses/5885.jpg.jpeg",
-          "/western-dresses/6083.jpg.jpeg",
-          "/western-dresses/6133.jpg.jpeg",
-          "/western-dresses/6153.jpg.jpeg",
-          "/western-dresses/6257.jpg.jpeg",
-          "/western-dresses/9799.jpg.jpeg",
-          "/western-dresses/11373.jpg.jpeg",
-          "/western-dresses/12142.jpg.jpeg",
-          "/western-dresses/IMG_20251207_220614.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3918.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7678.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/6187.jpg.jpeg",
-          "/western-dresses/10426.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8951.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8951.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6213.jpg.jpeg",
-          "/western-dresses/11723.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/10982.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2562.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6623.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7097.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8373.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/11300.jpg.jpeg",
-          "/western-dresses/11722.jpg.jpeg",
-          "/western-dresses/12539.jpg.jpeg",
-          "/western-dresses/14961.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/12223.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5551.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5551.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6080.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6080.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9465.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -5522,26 +14332,1648 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Flutter Sleeve Tiered Sundress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 105 photographic views, tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
-    "details": [
-      "Authentic Flutter Sleeve Tiered Sundress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Cotton 60:60 with Soft Garment Wash with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
+    "images": [
+      "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
+      "/western-dresses/FB_IMG_1781793223709.jpg.jpeg",
+      "/western-dresses/6188.jpg.jpeg",
+      "/western-dresses/6321.jpg.jpeg",
+      "/western-dresses/10885.jpg.jpeg",
+      "/western-dresses/11409.jpg.jpeg",
+      "/western-dresses/11520.jpg.jpeg",
+      "/western-dresses/11600.jpg.jpeg",
+      "/western-dresses/67785.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0007",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
+      "/western-dresses/FB_IMG_1781793223709.jpg.jpeg",
+      "/western-dresses/6188.jpg.jpeg",
+      "/western-dresses/6321.jpg.jpeg",
+      "/western-dresses/10885.jpg.jpeg",
+      "/western-dresses/11409.jpg.jpeg",
+      "/western-dresses/11520.jpg.jpeg",
+      "/western-dresses/11600.jpg.jpeg",
+      "/western-dresses/67785.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/FB_IMG_1781793222301.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/FB_IMG_1781793223709.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6188.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6321.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/10885.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11409.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11520.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11600.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/67785.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0008",
-    "title": "Smocked Waist A-Line Dress",
-    "slug": "smocked-waist-a-line-dress",
+    "id": "wd-0007-v2",
+    "title": "Sunset Tangerine Flutter Sleeve Tiered Sundress",
+    "slug": "sunset-tangerine-flutter-sleeve-tiered-sundress",
     "aliasSlugs": [
+      "wd-0007-v2",
+      "sunset-tangerine-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4530.jpg.jpeg",
+    "mainImage": "/western-dresses/4530.jpg.jpeg",
+    "images": [
+      "/western-dresses/4530.jpg.jpeg",
+      "/western-dresses/4531.jpg.jpeg",
+      "/western-dresses/5955.jpg.jpeg",
+      "/western-dresses/5956.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4530.jpg.jpeg",
+      "/western-dresses/4531.jpg.jpeg",
+      "/western-dresses/5955.jpg.jpeg",
+      "/western-dresses/5956.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/4530.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/4531.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5955.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5956.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v3",
+    "title": "Warm Caramel Flutter Sleeve Tiered Sundress",
+    "slug": "warm-caramel-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v3",
+      "warm-caramel-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5551.jpg.jpeg",
+    "mainImage": "/western-dresses/5551.jpg.jpeg",
+    "images": [
+      "/western-dresses/5551.jpg.jpeg",
+      "/western-dresses/5552.jpg.jpeg",
+      "/western-dresses/5553.jpg.jpeg",
+      "/western-dresses/5554.jpg.jpeg",
+      "/western-dresses/5555.jpg.jpeg",
+      "/western-dresses/5707.jpg.jpeg",
+      "/western-dresses/5708.jpg.jpeg",
+      "/western-dresses/5855.jpg.jpeg",
+      "/western-dresses/5883.jpg.jpeg",
+      "/western-dresses/6029.jpg.jpeg",
+      "/western-dresses/6103.jpg.jpeg",
+      "/western-dresses/6293.jpg.jpeg",
+      "/western-dresses/6294.jpg.jpeg",
+      "/western-dresses/6362.jpg.jpeg",
+      "/western-dresses/6385.jpg.jpeg",
+      "/western-dresses/6485.jpg.jpeg",
+      "/western-dresses/9638.jpg.jpeg",
+      "/western-dresses/10096.jpg.jpeg",
+      "/western-dresses/10097.jpg.jpeg",
+      "/western-dresses/10098.jpg.jpeg",
+      "/western-dresses/10427.jpg.jpeg",
+      "/western-dresses/10428.jpg.jpeg",
+      "/western-dresses/10699.jpg.jpeg",
+      "/western-dresses/10702.jpg.jpeg",
+      "/western-dresses/10981.jpg.jpeg",
+      "/western-dresses/11156.jpg.jpeg",
+      "/western-dresses/11209.jpg.jpeg",
+      "/western-dresses/11407.jpg.jpeg",
+      "/western-dresses/11830.jpg.jpeg",
+      "/western-dresses/11896.jpg.jpeg",
+      "/western-dresses/12021.jpg.jpeg",
+      "/western-dresses/12144.jpg.jpeg",
+      "/western-dresses/12317.jpg.jpeg",
+      "/western-dresses/12374.jpg.jpeg",
+      "/western-dresses/13149.jpg.jpeg",
+      "/western-dresses/13512.jpg.jpeg",
+      "/western-dresses/55723.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0358.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1338.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1915.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3024.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg",
+      "/western-dresses/IMG-20261103-WA5033.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5033.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5551.jpg.jpeg",
+      "/western-dresses/5552.jpg.jpeg",
+      "/western-dresses/5553.jpg.jpeg",
+      "/western-dresses/5554.jpg.jpeg",
+      "/western-dresses/5555.jpg.jpeg",
+      "/western-dresses/5707.jpg.jpeg",
+      "/western-dresses/5708.jpg.jpeg",
+      "/western-dresses/5855.jpg.jpeg",
+      "/western-dresses/5883.jpg.jpeg",
+      "/western-dresses/6029.jpg.jpeg",
+      "/western-dresses/6103.jpg.jpeg",
+      "/western-dresses/6293.jpg.jpeg",
+      "/western-dresses/6294.jpg.jpeg",
+      "/western-dresses/6362.jpg.jpeg",
+      "/western-dresses/6385.jpg.jpeg",
+      "/western-dresses/6485.jpg.jpeg",
+      "/western-dresses/9638.jpg.jpeg",
+      "/western-dresses/10096.jpg.jpeg",
+      "/western-dresses/10097.jpg.jpeg",
+      "/western-dresses/10098.jpg.jpeg",
+      "/western-dresses/10427.jpg.jpeg",
+      "/western-dresses/10428.jpg.jpeg",
+      "/western-dresses/10699.jpg.jpeg",
+      "/western-dresses/10702.jpg.jpeg",
+      "/western-dresses/10981.jpg.jpeg",
+      "/western-dresses/11156.jpg.jpeg",
+      "/western-dresses/11209.jpg.jpeg",
+      "/western-dresses/11407.jpg.jpeg",
+      "/western-dresses/11830.jpg.jpeg",
+      "/western-dresses/11896.jpg.jpeg",
+      "/western-dresses/12021.jpg.jpeg",
+      "/western-dresses/12144.jpg.jpeg",
+      "/western-dresses/12317.jpg.jpeg",
+      "/western-dresses/12374.jpg.jpeg",
+      "/western-dresses/13149.jpg.jpeg",
+      "/western-dresses/13512.jpg.jpeg",
+      "/western-dresses/55723.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0358.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1338.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1915.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3024.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg",
+      "/western-dresses/IMG-20261103-WA5033.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5033.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5551.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5552.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5553.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5554.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5555.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5707.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5708.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5855.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5883.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6029.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6103.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6293.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6294.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6362.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6385.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6485.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9638.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10096.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10097.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10098.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10427.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10428.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10699.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10702.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10981.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11156.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11209.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11407.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11830.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11896.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12021.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12144.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12317.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12374.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13149.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13512.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/55723.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0358.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1338.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1915.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3024.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-49",
+        "name": "Styling 49",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5033.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-50",
+        "name": "Styling 50",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5033.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v4",
+    "title": "Midnight Black Flutter Sleeve Tiered Sundress",
+    "slug": "midnight-black-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v4",
+      "midnight-black-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5644.jpg.jpeg",
+    "mainImage": "/western-dresses/5644.jpg.jpeg",
+    "images": [
+      "/western-dresses/5644.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5644.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/5644.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v5",
+    "title": "Pebble Grey Flutter Sleeve Tiered Sundress",
+    "slug": "pebble-grey-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v5",
+      "pebble-grey-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5782.jpg.jpeg",
+    "mainImage": "/western-dresses/5782.jpg.jpeg",
+    "images": [
+      "/western-dresses/5782.jpg.jpeg",
+      "/western-dresses/5885.jpg.jpeg",
+      "/western-dresses/6083.jpg.jpeg",
+      "/western-dresses/6133.jpg.jpeg",
+      "/western-dresses/6153.jpg.jpeg",
+      "/western-dresses/6257.jpg.jpeg",
+      "/western-dresses/9799.jpg.jpeg",
+      "/western-dresses/11373.jpg.jpeg",
+      "/western-dresses/12142.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220614.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3918.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7678.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7678.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5782.jpg.jpeg",
+      "/western-dresses/5885.jpg.jpeg",
+      "/western-dresses/6083.jpg.jpeg",
+      "/western-dresses/6133.jpg.jpeg",
+      "/western-dresses/6153.jpg.jpeg",
+      "/western-dresses/6257.jpg.jpeg",
+      "/western-dresses/9799.jpg.jpeg",
+      "/western-dresses/11373.jpg.jpeg",
+      "/western-dresses/12142.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220614.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3918.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7678.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7678.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5782.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5885.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6083.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6133.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6153.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6257.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9799.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11373.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12142.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG_20251207_220614.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3918.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7678.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7678.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v6",
+    "title": "Sand Ochre Flutter Sleeve Tiered Sundress",
+    "slug": "sand-ochre-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v6",
+      "sand-ochre-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6187.jpg.jpeg",
+    "mainImage": "/western-dresses/6187.jpg.jpeg",
+    "images": [
+      "/western-dresses/6187.jpg.jpeg",
+      "/western-dresses/10426.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8951.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8951.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6187.jpg.jpeg",
+      "/western-dresses/10426.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8951.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8951.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/6187.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/10426.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8951.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8951.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v7",
+    "title": "Charcoal Slate Flutter Sleeve Tiered Sundress",
+    "slug": "charcoal-slate-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v7",
+      "charcoal-slate-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6213.jpg.jpeg",
+    "mainImage": "/western-dresses/6213.jpg.jpeg",
+    "images": [
+      "/western-dresses/6213.jpg.jpeg",
+      "/western-dresses/11723.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6213.jpg.jpeg",
+      "/western-dresses/11723.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6213.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/11723.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v8",
+    "title": "Ivory Cream Flutter Sleeve Tiered Sundress",
+    "slug": "ivory-cream-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v8",
+      "ivory-cream-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10982.jpg.jpeg",
+    "mainImage": "/western-dresses/10982.jpg.jpeg",
+    "images": [
+      "/western-dresses/10982.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2562.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6623.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7097.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8373.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10982.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2562.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6623.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7097.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8373.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/10982.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2562.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6623.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7097.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8373.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v9",
+    "title": "Rust Terracotta Flutter Sleeve Tiered Sundress",
+    "slug": "rust-terracotta-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v9",
+      "rust-terracotta-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11300.jpg.jpeg",
+    "mainImage": "/western-dresses/11300.jpg.jpeg",
+    "images": [
+      "/western-dresses/11300.jpg.jpeg",
+      "/western-dresses/11722.jpg.jpeg",
+      "/western-dresses/12539.jpg.jpeg",
+      "/western-dresses/14961.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11300.jpg.jpeg",
+      "/western-dresses/11722.jpg.jpeg",
+      "/western-dresses/12539.jpg.jpeg",
+      "/western-dresses/14961.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11300.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11722.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/12539.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/14961.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v10",
+    "title": "Scarlet Red Flutter Sleeve Tiered Sundress",
+    "slug": "scarlet-red-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v10",
+      "scarlet-red-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12223.jpg.jpeg",
+    "mainImage": "/western-dresses/12223.jpg.jpeg",
+    "images": [
+      "/western-dresses/12223.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12223.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/12223.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v11",
+    "title": "Midnight Navy Flutter Sleeve Tiered Sundress",
+    "slug": "midnight-navy-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v11",
+      "midnight-navy-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA5551.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA5551.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA5551.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5551.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA5551.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5551.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5551.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5551.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v12",
+    "title": "Sky Azure Flutter Sleeve Tiered Sundress",
+    "slug": "sky-azure-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v12",
+      "sky-azure-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA6080.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA6080.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA6080.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6080.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA6080.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6080.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6080.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6080.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0007-v13",
+    "title": "Orchid Pink Flutter Sleeve Tiered Sundress",
+    "slug": "orchid-pink-flutter-sleeve-tiered-sundress",
+    "aliasSlugs": [
+      "wd-0007-v13",
+      "orchid-pink-flutter-sleeve-tiered-sundress",
+      "flutter-sleeve-tiered-sundress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Cotton 60:60 with Soft Garment Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9465.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9465.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9465.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9465.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Flutter Sleeve Tiered Sundress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Cotton 60:60 with Soft Garment Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Flutter Sleeve Tiered Sundress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Cotton 60:60 with Soft Garment Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0007-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v1",
+    "title": "Blush Rose Smocked Waist A-Line Dress",
+    "slug": "blush-rose-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v1",
+      "blush-rose-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-1",
       "aaliyah-smocked-waist-a-line-silhouette-dress",
       "aanya-smocked-waist-a-line-silhouette-dress",
       "aditi-smocked-waist-a-line-silhouette-dress",
@@ -5947,361 +16379,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-edition-7-wd-0160",
       "zoya-smocked-waist-a-line-silhouette-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
-      "/western-dresses/FB_IMG_1781793227598.jpg.jpeg",
-      "/western-dresses/4579.jpg.jpeg",
-      "/western-dresses/5562.jpg.jpeg",
-      "/western-dresses/5658.jpg.jpeg",
-      "/western-dresses/5659.jpg.jpeg",
-      "/western-dresses/5660.jpg.jpeg",
-      "/western-dresses/5661.jpg.jpeg",
-      "/western-dresses/5662.jpg.jpeg",
-      "/western-dresses/5663.jpg.jpeg",
-      "/western-dresses/5664.jpg.jpeg",
-      "/western-dresses/5665.jpg.jpeg",
-      "/western-dresses/5666.jpg.jpeg",
-      "/western-dresses/5667.jpg.jpeg",
-      "/western-dresses/5709.jpg.jpeg",
-      "/western-dresses/5783.jpg.jpeg",
-      "/western-dresses/5856.jpg.jpeg",
-      "/western-dresses/5857.jpg.jpeg",
-      "/western-dresses/5886.jpg.jpeg",
-      "/western-dresses/5887.jpg.jpeg",
-      "/western-dresses/5957.jpg.jpeg",
-      "/western-dresses/5958.jpg.jpeg",
-      "/western-dresses/5959.jpg.jpeg",
-      "/western-dresses/6030.jpg.jpeg",
-      "/western-dresses/6085.jpg.jpeg",
-      "/western-dresses/6104.jpg.jpeg",
-      "/western-dresses/6105.jpg.jpeg",
-      "/western-dresses/6106.jpg.jpeg",
-      "/western-dresses/6134.jpg.jpeg",
-      "/western-dresses/6135.jpg.jpeg",
-      "/western-dresses/6154.jpg.jpeg",
-      "/western-dresses/6189.jpg.jpeg",
-      "/western-dresses/6214.jpg.jpeg",
-      "/western-dresses/6258.jpg.jpeg",
-      "/western-dresses/6296.jpg.jpeg",
-      "/western-dresses/6297.jpg.jpeg",
-      "/western-dresses/6327.jpg.jpeg",
-      "/western-dresses/6364.jpg.jpeg",
-      "/western-dresses/6386.jpg.jpeg",
-      "/western-dresses/6486.jpg.jpeg",
-      "/western-dresses/9651.jpg.jpeg",
-      "/western-dresses/9800.jpg.jpeg",
-      "/western-dresses/9802.jpg.jpeg",
-      "/western-dresses/9803.jpg.jpeg",
-      "/western-dresses/10099.jpg.jpeg",
-      "/western-dresses/10100.jpg.jpeg",
-      "/western-dresses/10429.jpg.jpeg",
-      "/western-dresses/10746.jpg.jpeg",
-      "/western-dresses/10748.jpg.jpeg",
-      "/western-dresses/10886.jpg.jpeg",
-      "/western-dresses/11046.jpg.jpeg",
-      "/western-dresses/11168.jpg.jpeg",
-      "/western-dresses/11210.jpg.jpeg",
-      "/western-dresses/11303.jpg.jpeg",
-      "/western-dresses/11304.jpg.jpeg",
-      "/western-dresses/11374.jpg.jpeg",
-      "/western-dresses/11410.jpg.jpeg",
-      "/western-dresses/11521.jpg.jpeg",
-      "/western-dresses/11601.jpg.jpeg",
-      "/western-dresses/11729.jpg.jpeg",
-      "/western-dresses/11730.jpg.jpeg",
-      "/western-dresses/11831.jpg.jpeg",
-      "/western-dresses/11915.jpg.jpeg",
-      "/western-dresses/12022.jpg.jpeg",
-      "/western-dresses/12145.jpg.jpeg",
-      "/western-dresses/12224.jpg.jpeg",
-      "/western-dresses/12325.jpg.jpeg",
-      "/western-dresses/12375.jpg.jpeg",
-      "/western-dresses/12376.jpg (1).jpeg",
-      "/western-dresses/12376.jpg%20(1).jpeg",
-      "/western-dresses/12376.jpg.jpeg",
-      "/western-dresses/12623.jpg.jpeg",
-      "/western-dresses/13201.jpg.jpeg",
-      "/western-dresses/13523.jpg.jpeg",
-      "/western-dresses/16211.jpg.jpeg",
-      "/western-dresses/16213.jpg.jpeg",
-      "/western-dresses/16214.jpg.jpeg",
-      "/western-dresses/16215.jpg.jpeg",
-      "/western-dresses/16212.jpg.jpeg",
-      "/western-dresses/55726.jpg.jpeg",
-      "/western-dresses/67789.jpg.jpeg",
-      "/western-dresses/67792.jpg.jpeg",
-      "/western-dresses/IMG_20251207_220627.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0501.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1379.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1990.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2576.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3067.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3928.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4565.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4565.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5042.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5042.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5573.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5573.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6147.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6663.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6663.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7171.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7171.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7859.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8496.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9059.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9059.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9466.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
-          "/western-dresses/FB_IMG_1781793227598.jpg.jpeg",
-          "/western-dresses/5662.jpg.jpeg",
-          "/western-dresses/5663.jpg.jpeg",
-          "/western-dresses/5664.jpg.jpeg",
-          "/western-dresses/11210.jpg.jpeg",
-          "/western-dresses/11601.jpg.jpeg",
-          "/western-dresses/12224.jpg.jpeg",
-          "/western-dresses/16212.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6147.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7171.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7171.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/4579.jpg.jpeg",
-          "/western-dresses/5709.jpg.jpeg",
-          "/western-dresses/6297.jpg.jpeg",
-          "/western-dresses/9800.jpg.jpeg",
-          "/western-dresses/9802.jpg.jpeg",
-          "/western-dresses/9803.jpg.jpeg",
-          "/western-dresses/11046.jpg.jpeg",
-          "/western-dresses/11729.jpg.jpeg",
-          "/western-dresses/11730.jpg.jpeg",
-          "/western-dresses/16211.jpg.jpeg",
-          "/western-dresses/16213.jpg.jpeg",
-          "/western-dresses/16214.jpg.jpeg",
-          "/western-dresses/16215.jpg.jpeg",
-          "/western-dresses/IMG_20251207_220627.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1379.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2576.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/5562.jpg.jpeg",
-          "/western-dresses/5887.jpg.jpeg",
-          "/western-dresses/5959.jpg.jpeg",
-          "/western-dresses/6104.jpg.jpeg",
-          "/western-dresses/6105.jpg.jpeg",
-          "/western-dresses/6327.jpg.jpeg",
-          "/western-dresses/10429.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5042.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5042.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5658.jpg.jpeg",
-          "/western-dresses/5659.jpg.jpeg",
-          "/western-dresses/5660.jpg.jpeg",
-          "/western-dresses/5661.jpg.jpeg",
-          "/western-dresses/5665.jpg.jpeg",
-          "/western-dresses/5666.jpg.jpeg",
-          "/western-dresses/5667.jpg.jpeg",
-          "/western-dresses/5856.jpg.jpeg",
-          "/western-dresses/5857.jpg.jpeg",
-          "/western-dresses/6030.jpg.jpeg",
-          "/western-dresses/6085.jpg.jpeg",
-          "/western-dresses/6134.jpg.jpeg",
-          "/western-dresses/6135.jpg.jpeg",
-          "/western-dresses/6189.jpg.jpeg",
-          "/western-dresses/6258.jpg.jpeg",
-          "/western-dresses/6296.jpg.jpeg",
-          "/western-dresses/6386.jpg.jpeg",
-          "/western-dresses/6486.jpg.jpeg",
-          "/western-dresses/10100.jpg.jpeg",
-          "/western-dresses/10746.jpg.jpeg",
-          "/western-dresses/10748.jpg.jpeg",
-          "/western-dresses/11168.jpg.jpeg",
-          "/western-dresses/11374.jpg.jpeg",
-          "/western-dresses/11521.jpg.jpeg",
-          "/western-dresses/11915.jpg.jpeg",
-          "/western-dresses/12145.jpg.jpeg",
-          "/western-dresses/12325.jpg.jpeg",
-          "/western-dresses/12376.jpg (1).jpeg",
-          "/western-dresses/12376.jpg.jpeg",
-          "/western-dresses/12623.jpg.jpeg",
-          "/western-dresses/13201.jpg.jpeg",
-          "/western-dresses/13523.jpg.jpeg",
-          "/western-dresses/67789.jpg.jpeg",
-          "/western-dresses/67792.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1990.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3067.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9466.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5783.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0501.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3928.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7859.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9059.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/5886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/5957.jpg.jpeg",
-          "/western-dresses/5958.jpg.jpeg",
-          "/western-dresses/55726.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6106.jpg.jpeg",
-          "/western-dresses/6154.jpg.jpeg",
-          "/western-dresses/11831.jpg.jpeg",
-          "/western-dresses/12022.jpg.jpeg",
-          "/western-dresses/12375.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/6214.jpg.jpeg",
-          "/western-dresses/6364.jpg.jpeg",
-          "/western-dresses/10099.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6663.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6663.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/9651.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8496.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/10886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/11303.jpg.jpeg",
-          "/western-dresses/11304.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/western-dresses/11410.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/western-dresses/12376.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4565.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4565.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5573.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5573.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -6309,26 +16397,1909 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Smocked Waist A-Line Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 117 photographic views, tailored in Soft Modal Satin with Fluid Drape with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Soft Modal Satin with Fluid Drape",
-    "details": [
-      "Authentic Smocked Waist A-Line Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Soft Modal Satin with Fluid Drape with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
+    "images": [
+      "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
+      "/western-dresses/FB_IMG_1781793227598.jpg.jpeg",
+      "/western-dresses/5662.jpg.jpeg",
+      "/western-dresses/5663.jpg.jpeg",
+      "/western-dresses/5664.jpg.jpeg",
+      "/western-dresses/11210.jpg.jpeg",
+      "/western-dresses/11601.jpg.jpeg",
+      "/western-dresses/12224.jpg.jpeg",
+      "/western-dresses/16212.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6147.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7171.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7171.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0008",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
+      "/western-dresses/FB_IMG_1781793227598.jpg.jpeg",
+      "/western-dresses/5662.jpg.jpeg",
+      "/western-dresses/5663.jpg.jpeg",
+      "/western-dresses/5664.jpg.jpeg",
+      "/western-dresses/11210.jpg.jpeg",
+      "/western-dresses/11601.jpg.jpeg",
+      "/western-dresses/12224.jpg.jpeg",
+      "/western-dresses/16212.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6147.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7171.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7171.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/FB_IMG_1781793225924.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/FB_IMG_1781793227598.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5662.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5663.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5664.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11210.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11601.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12224.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/16212.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6147.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7171.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7171.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0009",
-    "title": "Fit & Flare Sweetheart Neckline Midi Dress",
-    "slug": "fit-flare-sweetheart-neckline-midi-dress",
+    "id": "wd-0008-v2",
+    "title": "Pebble Grey Smocked Waist A-Line Dress",
+    "slug": "pebble-grey-smocked-waist-a-line-dress",
     "aliasSlugs": [
+      "wd-0008-v2",
+      "pebble-grey-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4579.jpg.jpeg",
+    "mainImage": "/western-dresses/4579.jpg.jpeg",
+    "images": [
+      "/western-dresses/4579.jpg.jpeg",
+      "/western-dresses/5709.jpg.jpeg",
+      "/western-dresses/6297.jpg.jpeg",
+      "/western-dresses/9800.jpg.jpeg",
+      "/western-dresses/9802.jpg.jpeg",
+      "/western-dresses/9803.jpg.jpeg",
+      "/western-dresses/11046.jpg.jpeg",
+      "/western-dresses/11729.jpg.jpeg",
+      "/western-dresses/11730.jpg.jpeg",
+      "/western-dresses/16211.jpg.jpeg",
+      "/western-dresses/16213.jpg.jpeg",
+      "/western-dresses/16214.jpg.jpeg",
+      "/western-dresses/16215.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220627.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1379.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2576.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4579.jpg.jpeg",
+      "/western-dresses/5709.jpg.jpeg",
+      "/western-dresses/6297.jpg.jpeg",
+      "/western-dresses/9800.jpg.jpeg",
+      "/western-dresses/9802.jpg.jpeg",
+      "/western-dresses/9803.jpg.jpeg",
+      "/western-dresses/11046.jpg.jpeg",
+      "/western-dresses/11729.jpg.jpeg",
+      "/western-dresses/11730.jpg.jpeg",
+      "/western-dresses/16211.jpg.jpeg",
+      "/western-dresses/16213.jpg.jpeg",
+      "/western-dresses/16214.jpg.jpeg",
+      "/western-dresses/16215.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220627.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1379.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2576.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/4579.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5709.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6297.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9800.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9802.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9803.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11046.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11729.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11730.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/16211.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/16213.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/16214.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/16215.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG_20251207_220627.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1379.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2576.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v3",
+    "title": "Rust Terracotta Smocked Waist A-Line Dress",
+    "slug": "rust-terracotta-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v3",
+      "rust-terracotta-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5562.jpg.jpeg",
+    "mainImage": "/western-dresses/5562.jpg.jpeg",
+    "images": [
+      "/western-dresses/5562.jpg.jpeg",
+      "/western-dresses/5887.jpg.jpeg",
+      "/western-dresses/5959.jpg.jpeg",
+      "/western-dresses/6104.jpg.jpeg",
+      "/western-dresses/6105.jpg.jpeg",
+      "/western-dresses/6327.jpg.jpeg",
+      "/western-dresses/10429.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5042.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5042.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5562.jpg.jpeg",
+      "/western-dresses/5887.jpg.jpeg",
+      "/western-dresses/5959.jpg.jpeg",
+      "/western-dresses/6104.jpg.jpeg",
+      "/western-dresses/6105.jpg.jpeg",
+      "/western-dresses/6327.jpg.jpeg",
+      "/western-dresses/10429.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5042.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5042.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5562.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5887.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5959.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6104.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6105.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6327.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/10429.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5042.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5042.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v4",
+    "title": "Warm Caramel Smocked Waist A-Line Dress",
+    "slug": "warm-caramel-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v4",
+      "warm-caramel-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5658.jpg.jpeg",
+    "mainImage": "/western-dresses/5658.jpg.jpeg",
+    "images": [
+      "/western-dresses/5658.jpg.jpeg",
+      "/western-dresses/5659.jpg.jpeg",
+      "/western-dresses/5660.jpg.jpeg",
+      "/western-dresses/5661.jpg.jpeg",
+      "/western-dresses/5665.jpg.jpeg",
+      "/western-dresses/5666.jpg.jpeg",
+      "/western-dresses/5667.jpg.jpeg",
+      "/western-dresses/5856.jpg.jpeg",
+      "/western-dresses/5857.jpg.jpeg",
+      "/western-dresses/6030.jpg.jpeg",
+      "/western-dresses/6085.jpg.jpeg",
+      "/western-dresses/6134.jpg.jpeg",
+      "/western-dresses/6135.jpg.jpeg",
+      "/western-dresses/6189.jpg.jpeg",
+      "/western-dresses/6258.jpg.jpeg",
+      "/western-dresses/6296.jpg.jpeg",
+      "/western-dresses/6386.jpg.jpeg",
+      "/western-dresses/6486.jpg.jpeg",
+      "/western-dresses/10100.jpg.jpeg",
+      "/western-dresses/10746.jpg.jpeg",
+      "/western-dresses/10748.jpg.jpeg",
+      "/western-dresses/11168.jpg.jpeg",
+      "/western-dresses/11374.jpg.jpeg",
+      "/western-dresses/11521.jpg.jpeg",
+      "/western-dresses/11915.jpg.jpeg",
+      "/western-dresses/12145.jpg.jpeg",
+      "/western-dresses/12325.jpg.jpeg",
+      "/western-dresses/12376.jpg (1).jpeg",
+      "/western-dresses/12376.jpg.jpeg",
+      "/western-dresses/12623.jpg.jpeg",
+      "/western-dresses/13201.jpg.jpeg",
+      "/western-dresses/13523.jpg.jpeg",
+      "/western-dresses/67789.jpg.jpeg",
+      "/western-dresses/67792.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1990.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3067.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9466.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5658.jpg.jpeg",
+      "/western-dresses/5659.jpg.jpeg",
+      "/western-dresses/5660.jpg.jpeg",
+      "/western-dresses/5661.jpg.jpeg",
+      "/western-dresses/5665.jpg.jpeg",
+      "/western-dresses/5666.jpg.jpeg",
+      "/western-dresses/5667.jpg.jpeg",
+      "/western-dresses/5856.jpg.jpeg",
+      "/western-dresses/5857.jpg.jpeg",
+      "/western-dresses/6030.jpg.jpeg",
+      "/western-dresses/6085.jpg.jpeg",
+      "/western-dresses/6134.jpg.jpeg",
+      "/western-dresses/6135.jpg.jpeg",
+      "/western-dresses/6189.jpg.jpeg",
+      "/western-dresses/6258.jpg.jpeg",
+      "/western-dresses/6296.jpg.jpeg",
+      "/western-dresses/6386.jpg.jpeg",
+      "/western-dresses/6486.jpg.jpeg",
+      "/western-dresses/10100.jpg.jpeg",
+      "/western-dresses/10746.jpg.jpeg",
+      "/western-dresses/10748.jpg.jpeg",
+      "/western-dresses/11168.jpg.jpeg",
+      "/western-dresses/11374.jpg.jpeg",
+      "/western-dresses/11521.jpg.jpeg",
+      "/western-dresses/11915.jpg.jpeg",
+      "/western-dresses/12145.jpg.jpeg",
+      "/western-dresses/12325.jpg.jpeg",
+      "/western-dresses/12376.jpg (1).jpeg",
+      "/western-dresses/12376.jpg.jpeg",
+      "/western-dresses/12623.jpg.jpeg",
+      "/western-dresses/13201.jpg.jpeg",
+      "/western-dresses/13523.jpg.jpeg",
+      "/western-dresses/67789.jpg.jpeg",
+      "/western-dresses/67792.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1990.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3067.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9466.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5658.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5659.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5660.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5661.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5665.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5666.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5667.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5856.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5857.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6030.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6085.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6134.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6135.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6189.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6258.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6296.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6386.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6486.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10100.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10746.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10748.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11168.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11374.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11521.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11915.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12145.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12325.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12376.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12376.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12623.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13201.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13523.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/67789.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/67792.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1990.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3067.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9466.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v5",
+    "title": "Ivory Cream Smocked Waist A-Line Dress",
+    "slug": "ivory-cream-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v5",
+      "ivory-cream-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5783.jpg.jpeg",
+    "mainImage": "/western-dresses/5783.jpg.jpeg",
+    "images": [
+      "/western-dresses/5783.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0501.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3928.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7859.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9059.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9059.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5783.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0501.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3928.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7859.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9059.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9059.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5783.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0501.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3928.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7859.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9059.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9059.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v6",
+    "title": "Ruby Crimson Smocked Waist A-Line Dress",
+    "slug": "ruby-crimson-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v6",
+      "ruby-crimson-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5886.jpg.jpeg",
+    "mainImage": "/western-dresses/5886.jpg.jpeg",
+    "images": [
+      "/western-dresses/5886.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5886.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/5886.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v7",
+    "title": "Sunset Tangerine Smocked Waist A-Line Dress",
+    "slug": "sunset-tangerine-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v7",
+      "sunset-tangerine-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5957.jpg.jpeg",
+    "mainImage": "/western-dresses/5957.jpg.jpeg",
+    "images": [
+      "/western-dresses/5957.jpg.jpeg",
+      "/western-dresses/5958.jpg.jpeg",
+      "/western-dresses/55726.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5957.jpg.jpeg",
+      "/western-dresses/5958.jpg.jpeg",
+      "/western-dresses/55726.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5957.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5958.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/55726.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v8",
+    "title": "Charcoal Slate Smocked Waist A-Line Dress",
+    "slug": "charcoal-slate-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v8",
+      "charcoal-slate-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6106.jpg.jpeg",
+    "mainImage": "/western-dresses/6106.jpg.jpeg",
+    "images": [
+      "/western-dresses/6106.jpg.jpeg",
+      "/western-dresses/6154.jpg.jpeg",
+      "/western-dresses/11831.jpg.jpeg",
+      "/western-dresses/12022.jpg.jpeg",
+      "/western-dresses/12375.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6106.jpg.jpeg",
+      "/western-dresses/6154.jpg.jpeg",
+      "/western-dresses/11831.jpg.jpeg",
+      "/western-dresses/12022.jpg.jpeg",
+      "/western-dresses/12375.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6106.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6154.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/11831.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/12022.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/12375.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v9",
+    "title": "Sand Ochre Smocked Waist A-Line Dress",
+    "slug": "sand-ochre-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v9",
+      "sand-ochre-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6214.jpg.jpeg",
+    "mainImage": "/western-dresses/6214.jpg.jpeg",
+    "images": [
+      "/western-dresses/6214.jpg.jpeg",
+      "/western-dresses/6364.jpg.jpeg",
+      "/western-dresses/10099.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6663.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6663.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6214.jpg.jpeg",
+      "/western-dresses/6364.jpg.jpeg",
+      "/western-dresses/10099.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6663.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6663.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/6214.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/6364.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/10099.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6663.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6663.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v10",
+    "title": "Mustard Gold Smocked Waist A-Line Dress",
+    "slug": "mustard-gold-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v10",
+      "mustard-gold-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/9651.jpg.jpeg",
+    "mainImage": "/western-dresses/9651.jpg.jpeg",
+    "images": [
+      "/western-dresses/9651.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8496.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/9651.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8496.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/9651.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8496.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v11",
+    "title": "Scarlet Red Smocked Waist A-Line Dress",
+    "slug": "scarlet-red-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v11",
+      "scarlet-red-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10886.jpg.jpeg",
+    "mainImage": "/western-dresses/10886.jpg.jpeg",
+    "images": [
+      "/western-dresses/10886.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10886.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/10886.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v12",
+    "title": "Midnight Navy Smocked Waist A-Line Dress",
+    "slug": "midnight-navy-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v12",
+      "midnight-navy-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11303.jpg.jpeg",
+    "mainImage": "/western-dresses/11303.jpg.jpeg",
+    "images": [
+      "/western-dresses/11303.jpg.jpeg",
+      "/western-dresses/11304.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11303.jpg.jpeg",
+      "/western-dresses/11304.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/11303.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/11304.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v13",
+    "title": "Sage Olive Smocked Waist A-Line Dress",
+    "slug": "sage-olive-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v13",
+      "sage-olive-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11410.jpg.jpeg",
+    "mainImage": "/western-dresses/11410.jpg.jpeg",
+    "images": [
+      "/western-dresses/11410.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11410.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/11410.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v14",
+    "title": "Artisan Earth Smocked Waist A-Line Dress",
+    "slug": "artisan-earth-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v14",
+      "artisan-earth-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12376.jpg%20(1).jpeg",
+    "mainImage": "/western-dresses/12376.jpg%20(1).jpeg",
+    "images": [
+      "/western-dresses/12376.jpg%20(1).jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12376.jpg%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/western-dresses/12376.jpg%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v15",
+    "title": "Steel Slate Smocked Waist A-Line Dress",
+    "slug": "steel-slate-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v15",
+      "steel-slate-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-15"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA4565.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA4565.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA4565.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4565.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA4565.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4565.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4565.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4565.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0008-v16",
+    "title": "Sky Azure Smocked Waist A-Line Dress",
+    "slug": "sky-azure-smocked-waist-a-line-dress",
+    "aliasSlugs": [
+      "wd-0008-v16",
+      "sky-azure-smocked-waist-a-line-dress",
+      "smocked-waist-a-line-dress-var-16"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA5573.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA5573.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA5573.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5573.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA5573.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5573.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5573.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5573.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Smocked Waist A-Line Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Smocked Waist A-Line Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0008-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v1",
+    "title": "Warm Caramel Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "warm-caramel-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v1",
+      "warm-caramel-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-1",
       "aaliyah-fit-flare-sweetheart-neckline-midi-dress",
       "aanya-fit-flare-sweetheart-neckline-midi-dress",
       "aditi-fit-flare-sweetheart-neckline-midi-dress",
@@ -6736,339 +18707,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-edition-7-wd-0160",
       "zoya-fit-flare-sweetheart-neckline-midi-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
-      "/western-dresses/4669.jpg.jpeg",
-      "/western-dresses/4670.jpg.jpeg",
-      "/western-dresses/5566.jpg.jpeg",
-      "/western-dresses/5567.jpg.jpeg",
-      "/western-dresses/5568.jpg.jpeg",
-      "/western-dresses/5570.jpg.jpeg",
-      "/western-dresses/5571.jpg.jpeg",
-      "/western-dresses/5572.jpg.jpeg",
-      "/western-dresses/5574.jpg.jpeg",
-      "/western-dresses/5575.jpg.jpeg",
-      "/western-dresses/5577.jpg.jpeg",
-      "/western-dresses/5580.jpg.jpeg",
-      "/western-dresses/5569.jpg.jpeg",
-      "/western-dresses/5573.jpg.jpeg",
-      "/western-dresses/5668.jpg.jpeg",
-      "/western-dresses/5710.jpg.jpeg",
-      "/western-dresses/5711.jpg.jpeg",
-      "/western-dresses/5784.jpg.jpeg",
-      "/western-dresses/5785.jpg.jpeg",
-      "/western-dresses/5858.jpg.jpeg",
-      "/western-dresses/5859.jpg.jpeg",
-      "/western-dresses/5888.jpg.jpeg",
-      "/western-dresses/5960.jpg.jpeg",
-      "/western-dresses/6031.jpg.jpeg",
-      "/western-dresses/6032.jpg.jpeg",
-      "/western-dresses/6034.jpg.jpeg",
-      "/western-dresses/6035.jpg.jpeg",
-      "/western-dresses/6036.jpg.jpeg",
-      "/western-dresses/6086.jpg.jpeg",
-      "/western-dresses/6107.jpg.jpeg",
-      "/western-dresses/6137.jpg.jpeg",
-      "/western-dresses/6139.jpg.jpeg",
-      "/western-dresses/6155.jpg.jpeg",
-      "/western-dresses/6191.jpg.jpeg",
-      "/western-dresses/6193.jpg.jpeg",
-      "/western-dresses/6215.jpg.jpeg",
-      "/western-dresses/6259.jpg.jpeg",
-      "/western-dresses/6298.jpg.jpeg",
-      "/western-dresses/6300.jpg.jpeg",
-      "/western-dresses/6301.jpg.jpeg",
-      "/western-dresses/6302.jpg.jpeg",
-      "/western-dresses/6303.jpg.jpeg",
-      "/western-dresses/6328.jpg.jpeg",
-      "/western-dresses/6329.jpg.jpeg",
-      "/western-dresses/6365.jpg.jpeg",
-      "/western-dresses/6387.jpg.jpeg",
-      "/western-dresses/6388.jpg.jpeg",
-      "/western-dresses/6389.jpg.jpeg",
-      "/western-dresses/6487.jpg.jpeg",
-      "/western-dresses/6488.jpg.jpeg",
-      "/western-dresses/6489.jpg.jpeg",
-      "/western-dresses/9652.jpg.jpeg",
-      "/western-dresses/9818.jpg.jpeg",
-      "/western-dresses/10101.jpg.jpeg",
-      "/western-dresses/10430.jpg.jpeg",
-      "/western-dresses/10779.jpg.jpeg",
-      "/western-dresses/10887.jpg.jpeg",
-      "/western-dresses/10888.jpg.jpeg",
-      "/western-dresses/11053.jpg.jpeg",
-      "/western-dresses/11169.jpg.jpeg",
-      "/western-dresses/11212.jpg.jpeg",
-      "/western-dresses/11308.jpg.jpeg",
-      "/western-dresses/11309.jpg.jpeg",
-      "/western-dresses/11375.jpg.jpeg",
-      "/western-dresses/11412.jpg.jpeg",
-      "/western-dresses/11528.jpg.jpeg",
-      "/western-dresses/11602.jpg.jpeg",
-      "/western-dresses/11732.jpg.jpeg",
-      "/western-dresses/11832.jpg.jpeg",
-      "/western-dresses/11917.jpg.jpeg",
-      "/western-dresses/12049.jpg.jpeg",
-      "/western-dresses/12053.jpg.jpeg",
-      "/western-dresses/12146.jpg.jpeg",
-      "/western-dresses/12225.jpg.jpeg",
-      "/western-dresses/12326.jpg.jpeg",
-      "/western-dresses/12437.jpg.jpeg",
-      "/western-dresses/12822.jpg.jpeg",
-      "/western-dresses/13260.jpg.jpeg",
-      "/western-dresses/13560.jpg.jpeg",
-      "/western-dresses/16216.jpg.jpeg",
-      "/western-dresses/16217.jpg.jpeg",
-      "/western-dresses/55729.jpg.jpeg",
-      "/western-dresses/55735.jpg.jpeg",
-      "/western-dresses/67795.jpg.jpeg",
-      "/western-dresses/IMG_20251207_220638.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0553.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1396.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1396.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2006.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2646.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3126.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3126.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3950.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4588.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5102.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5575.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5575.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6185.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6679.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7252.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7252.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7888.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8500.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8500.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9119.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9119.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9483.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9483.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
-          "/western-dresses/5566.jpg.jpeg",
-          "/western-dresses/5567.jpg.jpeg",
-          "/western-dresses/5571.jpg.jpeg",
-          "/western-dresses/5572.jpg.jpeg",
-          "/western-dresses/5574.jpg.jpeg",
-          "/western-dresses/5575.jpg.jpeg",
-          "/western-dresses/5577.jpg.jpeg",
-          "/western-dresses/5580.jpg.jpeg",
-          "/western-dresses/5573.jpg.jpeg",
-          "/western-dresses/5785.jpg.jpeg",
-          "/western-dresses/5858.jpg.jpeg",
-          "/western-dresses/5859.jpg.jpeg",
-          "/western-dresses/5888.jpg.jpeg",
-          "/western-dresses/6086.jpg.jpeg",
-          "/western-dresses/6139.jpg.jpeg",
-          "/western-dresses/6155.jpg.jpeg",
-          "/western-dresses/6215.jpg.jpeg",
-          "/western-dresses/6300.jpg.jpeg",
-          "/western-dresses/6301.jpg.jpeg",
-          "/western-dresses/6302.jpg.jpeg",
-          "/western-dresses/6303.jpg.jpeg",
-          "/western-dresses/6328.jpg.jpeg",
-          "/western-dresses/6387.jpg.jpeg",
-          "/western-dresses/6388.jpg.jpeg",
-          "/western-dresses/6389.jpg.jpeg",
-          "/western-dresses/6487.jpg.jpeg",
-          "/western-dresses/6488.jpg.jpeg",
-          "/western-dresses/6489.jpg.jpeg",
-          "/western-dresses/10430.jpg.jpeg",
-          "/western-dresses/10888.jpg.jpeg",
-          "/western-dresses/11169.jpg.jpeg",
-          "/western-dresses/11375.jpg.jpeg",
-          "/western-dresses/11602.jpg.jpeg",
-          "/western-dresses/11832.jpg.jpeg",
-          "/western-dresses/12049.jpg.jpeg",
-          "/western-dresses/12437.jpg.jpeg",
-          "/western-dresses/12822.jpg.jpeg",
-          "/western-dresses/13260.jpg.jpeg",
-          "/western-dresses/13560.jpg.jpeg",
-          "/western-dresses/55729.jpg.jpeg",
-          "/western-dresses/55735.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4588.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6185.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7888.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8500.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/4669.jpg.jpeg",
-          "/western-dresses/9652.jpg.jpeg",
-          "/western-dresses/11309.jpg.jpeg",
-          "/western-dresses/11528.jpg.jpeg",
-          "/western-dresses/12146.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/4670.jpg.jpeg",
-          "/western-dresses/5960.jpg.jpeg",
-          "/western-dresses/11212.jpg.jpeg",
-          "/western-dresses/11412.jpg.jpeg",
-          "/western-dresses/11917.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2646.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3950.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9483.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9483.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5568.jpg.jpeg",
-          "/western-dresses/5570.jpg.jpeg",
-          "/western-dresses/5569.jpg.jpeg",
-          "/western-dresses/5710.jpg.jpeg",
-          "/western-dresses/6329.jpg.jpeg",
-          "/western-dresses/10101.jpg.jpeg",
-          "/western-dresses/10887.jpg.jpeg",
-          "/western-dresses/11053.jpg.jpeg",
-          "/western-dresses/11308.jpg.jpeg",
-          "/western-dresses/11732.jpg.jpeg",
-          "/western-dresses/16216.jpg.jpeg",
-          "/western-dresses/16217.jpg.jpeg",
-          "/western-dresses/67795.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1396.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1396.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/western-dresses/5668.jpg.jpeg",
-          "/western-dresses/10779.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9119.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9119.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5711.jpg.jpeg",
-          "/western-dresses/5784.jpg.jpeg",
-          "/western-dresses/6137.jpg.jpeg",
-          "/western-dresses/6298.jpg.jpeg",
-          "/western-dresses/6365.jpg.jpeg",
-          "/western-dresses/9818.jpg.jpeg",
-          "/western-dresses/12053.jpg.jpeg",
-          "/western-dresses/12225.jpg.jpeg",
-          "/western-dresses/IMG_20251207_220638.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0553.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2006.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5102.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5575.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5575.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/6031.jpg.jpeg",
-          "/western-dresses/6032.jpg.jpeg",
-          "/western-dresses/6034.jpg.jpeg",
-          "/western-dresses/6035.jpg.jpeg",
-          "/western-dresses/6036.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6679.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6107.jpg.jpeg",
-          "/western-dresses/6191.jpg.jpeg",
-          "/western-dresses/6259.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/western-dresses/6193.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/12326.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3126.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3126.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7252.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7252.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7076,26 +18725,1751 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Fit & Flare Sweetheart Neckline Midi Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 120 photographic views, tailored in Belgian Linen Cotton Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Belgian Linen Cotton Blend",
-    "details": [
-      "Authentic Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Belgian Linen Cotton Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
+    "images": [
+      "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
+      "/western-dresses/5566.jpg.jpeg",
+      "/western-dresses/5567.jpg.jpeg",
+      "/western-dresses/5571.jpg.jpeg",
+      "/western-dresses/5572.jpg.jpeg",
+      "/western-dresses/5574.jpg.jpeg",
+      "/western-dresses/5575.jpg.jpeg",
+      "/western-dresses/5577.jpg.jpeg",
+      "/western-dresses/5580.jpg.jpeg",
+      "/western-dresses/5573.jpg.jpeg",
+      "/western-dresses/5785.jpg.jpeg",
+      "/western-dresses/5858.jpg.jpeg",
+      "/western-dresses/5859.jpg.jpeg",
+      "/western-dresses/5888.jpg.jpeg",
+      "/western-dresses/6086.jpg.jpeg",
+      "/western-dresses/6139.jpg.jpeg",
+      "/western-dresses/6155.jpg.jpeg",
+      "/western-dresses/6215.jpg.jpeg",
+      "/western-dresses/6300.jpg.jpeg",
+      "/western-dresses/6301.jpg.jpeg",
+      "/western-dresses/6302.jpg.jpeg",
+      "/western-dresses/6303.jpg.jpeg",
+      "/western-dresses/6328.jpg.jpeg",
+      "/western-dresses/6387.jpg.jpeg",
+      "/western-dresses/6388.jpg.jpeg",
+      "/western-dresses/6389.jpg.jpeg",
+      "/western-dresses/6487.jpg.jpeg",
+      "/western-dresses/6488.jpg.jpeg",
+      "/western-dresses/6489.jpg.jpeg",
+      "/western-dresses/10430.jpg.jpeg",
+      "/western-dresses/10888.jpg.jpeg",
+      "/western-dresses/11169.jpg.jpeg",
+      "/western-dresses/11375.jpg.jpeg",
+      "/western-dresses/11602.jpg.jpeg",
+      "/western-dresses/11832.jpg.jpeg",
+      "/western-dresses/12049.jpg.jpeg",
+      "/western-dresses/12437.jpg.jpeg",
+      "/western-dresses/12822.jpg.jpeg",
+      "/western-dresses/13260.jpg.jpeg",
+      "/western-dresses/13560.jpg.jpeg",
+      "/western-dresses/55729.jpg.jpeg",
+      "/western-dresses/55735.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4588.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6185.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7888.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8500.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8500.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0009",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
+      "/western-dresses/5566.jpg.jpeg",
+      "/western-dresses/5567.jpg.jpeg",
+      "/western-dresses/5571.jpg.jpeg",
+      "/western-dresses/5572.jpg.jpeg",
+      "/western-dresses/5574.jpg.jpeg",
+      "/western-dresses/5575.jpg.jpeg",
+      "/western-dresses/5577.jpg.jpeg",
+      "/western-dresses/5580.jpg.jpeg",
+      "/western-dresses/5573.jpg.jpeg",
+      "/western-dresses/5785.jpg.jpeg",
+      "/western-dresses/5858.jpg.jpeg",
+      "/western-dresses/5859.jpg.jpeg",
+      "/western-dresses/5888.jpg.jpeg",
+      "/western-dresses/6086.jpg.jpeg",
+      "/western-dresses/6139.jpg.jpeg",
+      "/western-dresses/6155.jpg.jpeg",
+      "/western-dresses/6215.jpg.jpeg",
+      "/western-dresses/6300.jpg.jpeg",
+      "/western-dresses/6301.jpg.jpeg",
+      "/western-dresses/6302.jpg.jpeg",
+      "/western-dresses/6303.jpg.jpeg",
+      "/western-dresses/6328.jpg.jpeg",
+      "/western-dresses/6387.jpg.jpeg",
+      "/western-dresses/6388.jpg.jpeg",
+      "/western-dresses/6389.jpg.jpeg",
+      "/western-dresses/6487.jpg.jpeg",
+      "/western-dresses/6488.jpg.jpeg",
+      "/western-dresses/6489.jpg.jpeg",
+      "/western-dresses/10430.jpg.jpeg",
+      "/western-dresses/10888.jpg.jpeg",
+      "/western-dresses/11169.jpg.jpeg",
+      "/western-dresses/11375.jpg.jpeg",
+      "/western-dresses/11602.jpg.jpeg",
+      "/western-dresses/11832.jpg.jpeg",
+      "/western-dresses/12049.jpg.jpeg",
+      "/western-dresses/12437.jpg.jpeg",
+      "/western-dresses/12822.jpg.jpeg",
+      "/western-dresses/13260.jpg.jpeg",
+      "/western-dresses/13560.jpg.jpeg",
+      "/western-dresses/55729.jpg.jpeg",
+      "/western-dresses/55735.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4588.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6185.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7888.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8500.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8500.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/FB_IMG_1789315348897.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5566.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5567.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5571.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5572.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5574.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5575.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5577.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5580.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5573.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5785.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5858.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5859.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5888.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6086.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6139.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6155.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6215.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6300.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6301.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6302.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6303.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6328.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6387.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6388.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6389.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6487.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6488.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6489.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10430.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10888.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11169.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11375.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11602.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11832.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12049.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12437.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12822.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13260.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13560.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/55729.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/55735.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4588.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6185.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7888.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-49",
+        "name": "Styling 49",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-50",
+        "name": "Styling 50",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8500.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-51",
+        "name": "Styling 51",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8500.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0010",
-    "title": "Handcrafted Linen Tie-Belt Shift Dress",
-    "slug": "handcrafted-linen-tie-belt-shift-dress",
+    "id": "wd-0009-v2",
+    "title": "Sand Ochre Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "sand-ochre-fit-flare-sweetheart-neckline-midi-dress",
     "aliasSlugs": [
+      "wd-0009-v2",
+      "sand-ochre-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4669.jpg.jpeg",
+    "mainImage": "/western-dresses/4669.jpg.jpeg",
+    "images": [
+      "/western-dresses/4669.jpg.jpeg",
+      "/western-dresses/9652.jpg.jpeg",
+      "/western-dresses/11309.jpg.jpeg",
+      "/western-dresses/11528.jpg.jpeg",
+      "/western-dresses/12146.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4669.jpg.jpeg",
+      "/western-dresses/9652.jpg.jpeg",
+      "/western-dresses/11309.jpg.jpeg",
+      "/western-dresses/11528.jpg.jpeg",
+      "/western-dresses/12146.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/4669.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/9652.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/11309.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/11528.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/12146.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v3",
+    "title": "Ivory Cream Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "ivory-cream-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v3",
+      "ivory-cream-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4670.jpg.jpeg",
+    "mainImage": "/western-dresses/4670.jpg.jpeg",
+    "images": [
+      "/western-dresses/4670.jpg.jpeg",
+      "/western-dresses/5960.jpg.jpeg",
+      "/western-dresses/11212.jpg.jpeg",
+      "/western-dresses/11412.jpg.jpeg",
+      "/western-dresses/11917.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3950.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9483.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9483.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4670.jpg.jpeg",
+      "/western-dresses/5960.jpg.jpeg",
+      "/western-dresses/11212.jpg.jpeg",
+      "/western-dresses/11412.jpg.jpeg",
+      "/western-dresses/11917.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3950.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9483.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9483.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/4670.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5960.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/11212.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/11412.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/11917.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3950.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9483.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9483.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v4",
+    "title": "Blush Rose Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "blush-rose-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v4",
+      "blush-rose-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5568.jpg.jpeg",
+    "mainImage": "/western-dresses/5568.jpg.jpeg",
+    "images": [
+      "/western-dresses/5568.jpg.jpeg",
+      "/western-dresses/5570.jpg.jpeg",
+      "/western-dresses/5569.jpg.jpeg",
+      "/western-dresses/5710.jpg.jpeg",
+      "/western-dresses/6329.jpg.jpeg",
+      "/western-dresses/10101.jpg.jpeg",
+      "/western-dresses/10887.jpg.jpeg",
+      "/western-dresses/11053.jpg.jpeg",
+      "/western-dresses/11308.jpg.jpeg",
+      "/western-dresses/11732.jpg.jpeg",
+      "/western-dresses/16216.jpg.jpeg",
+      "/western-dresses/16217.jpg.jpeg",
+      "/western-dresses/67795.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1396.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1396.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5568.jpg.jpeg",
+      "/western-dresses/5570.jpg.jpeg",
+      "/western-dresses/5569.jpg.jpeg",
+      "/western-dresses/5710.jpg.jpeg",
+      "/western-dresses/6329.jpg.jpeg",
+      "/western-dresses/10101.jpg.jpeg",
+      "/western-dresses/10887.jpg.jpeg",
+      "/western-dresses/11053.jpg.jpeg",
+      "/western-dresses/11308.jpg.jpeg",
+      "/western-dresses/11732.jpg.jpeg",
+      "/western-dresses/16216.jpg.jpeg",
+      "/western-dresses/16217.jpg.jpeg",
+      "/western-dresses/67795.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1396.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1396.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5568.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5570.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5569.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5710.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6329.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/10101.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/10887.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11053.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11308.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11732.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/16216.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/16217.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/67795.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1396.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1396.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v5",
+    "title": "Berry Magenta Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "berry-magenta-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v5",
+      "berry-magenta-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5668.jpg.jpeg",
+    "mainImage": "/western-dresses/5668.jpg.jpeg",
+    "images": [
+      "/western-dresses/5668.jpg.jpeg",
+      "/western-dresses/10779.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9119.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9119.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5668.jpg.jpeg",
+      "/western-dresses/10779.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9119.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9119.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/western-dresses/5668.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#831843",
+        "images": [
+          "/western-dresses/10779.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#831843",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9119.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#831843",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9119.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v6",
+    "title": "Pebble Grey Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "pebble-grey-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v6",
+      "pebble-grey-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5711.jpg.jpeg",
+    "mainImage": "/western-dresses/5711.jpg.jpeg",
+    "images": [
+      "/western-dresses/5711.jpg.jpeg",
+      "/western-dresses/5784.jpg.jpeg",
+      "/western-dresses/6137.jpg.jpeg",
+      "/western-dresses/6298.jpg.jpeg",
+      "/western-dresses/6365.jpg.jpeg",
+      "/western-dresses/9818.jpg.jpeg",
+      "/western-dresses/12053.jpg.jpeg",
+      "/western-dresses/12225.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220638.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0553.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2006.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5102.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5575.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5575.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5711.jpg.jpeg",
+      "/western-dresses/5784.jpg.jpeg",
+      "/western-dresses/6137.jpg.jpeg",
+      "/western-dresses/6298.jpg.jpeg",
+      "/western-dresses/6365.jpg.jpeg",
+      "/western-dresses/9818.jpg.jpeg",
+      "/western-dresses/12053.jpg.jpeg",
+      "/western-dresses/12225.jpg.jpeg",
+      "/western-dresses/IMG_20251207_220638.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0553.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2006.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5102.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5575.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5575.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5711.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5784.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6137.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6298.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6365.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9818.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12053.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12225.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG_20251207_220638.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0553.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2006.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5102.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5575.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5575.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v7",
+    "title": "Sunset Tangerine Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "sunset-tangerine-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v7",
+      "sunset-tangerine-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6031.jpg.jpeg",
+    "mainImage": "/western-dresses/6031.jpg.jpeg",
+    "images": [
+      "/western-dresses/6031.jpg.jpeg",
+      "/western-dresses/6032.jpg.jpeg",
+      "/western-dresses/6034.jpg.jpeg",
+      "/western-dresses/6035.jpg.jpeg",
+      "/western-dresses/6036.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6679.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6031.jpg.jpeg",
+      "/western-dresses/6032.jpg.jpeg",
+      "/western-dresses/6034.jpg.jpeg",
+      "/western-dresses/6035.jpg.jpeg",
+      "/western-dresses/6036.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6679.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/6031.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/6032.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/6034.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/6035.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/6036.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6679.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v8",
+    "title": "Charcoal Slate Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "charcoal-slate-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v8",
+      "charcoal-slate-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6107.jpg.jpeg",
+    "mainImage": "/western-dresses/6107.jpg.jpeg",
+    "images": [
+      "/western-dresses/6107.jpg.jpeg",
+      "/western-dresses/6191.jpg.jpeg",
+      "/western-dresses/6259.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6107.jpg.jpeg",
+      "/western-dresses/6191.jpg.jpeg",
+      "/western-dresses/6259.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6107.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6191.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6259.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v9",
+    "title": "Sage Olive Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "sage-olive-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v9",
+      "sage-olive-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6193.jpg.jpeg",
+    "mainImage": "/western-dresses/6193.jpg.jpeg",
+    "images": [
+      "/western-dresses/6193.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6193.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/6193.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v10",
+    "title": "Lavender Violet Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "lavender-violet-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v10",
+      "lavender-violet-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12326.jpg.jpeg",
+    "mainImage": "/western-dresses/12326.jpg.jpeg",
+    "images": [
+      "/western-dresses/12326.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12326.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/12326.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v11",
+    "title": "Mustard Gold Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "mustard-gold-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v11",
+      "mustard-gold-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA3126.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA3126.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA3126.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3126.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA3126.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3126.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3126.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3126.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0009-v12",
+    "title": "Midnight Black Fit & Flare Sweetheart Neckline Midi Dress",
+    "slug": "midnight-black-fit-flare-sweetheart-neckline-midi-dress",
+    "aliasSlugs": [
+      "wd-0009-v12",
+      "midnight-black-fit-flare-sweetheart-neckline-midi-dress",
+      "fit-flare-sweetheart-neckline-midi-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Belgian Linen Cotton Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA7252.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA7252.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA7252.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7252.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA7252.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7252.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7252.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7252.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Fit & Flare Sweetheart Neckline Midi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Belgian Linen Cotton Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Fit & Flare Sweetheart Neckline Midi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Belgian Linen Cotton Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0009-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v1",
+    "title": "Blush Rose Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "blush-rose-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v1",
+      "blush-rose-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-1",
       "aaliyah-handcrafted-linen-tie-belt-shift-dress",
       "aanya-handcrafted-linen-tie-belt-shift-dress",
       "ahsaas-handcrafted-linen-tie-belt-shift-dress",
@@ -7523,15 +20897,251 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-wd-0022",
       "zoya-handcrafted-linen-tie-belt-shift-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
+    "mainImage": "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
     "images": [
       "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
       "/western-dresses/FB_IMG_1789315352815.jpg.jpeg",
+      "/western-dresses/6170.jpg.jpeg",
+      "/western-dresses/11055.jpg.jpeg",
+      "/western-dresses/11733.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1442.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4605.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4605.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
+      "/western-dresses/FB_IMG_1789315352815.jpg.jpeg",
+      "/western-dresses/6170.jpg.jpeg",
+      "/western-dresses/11055.jpg.jpeg",
+      "/western-dresses/11733.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1442.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4605.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4605.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/FB_IMG_1789315350685.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/FB_IMG_1789315352815.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6170.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11055.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11733.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1442.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4605.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4605.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v2",
+    "title": "Sunset Tangerine Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "sunset-tangerine-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v2",
+      "sunset-tangerine-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4694.jpg.jpeg",
+    "mainImage": "/western-dresses/4694.jpg.jpeg",
+    "images": [
       "/western-dresses/4694.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5145.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4694.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5145.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/4694.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5145.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v3",
+    "title": "Warm Caramel Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "warm-caramel-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v3",
+      "warm-caramel-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5581.jpg.jpeg",
+    "mainImage": "/western-dresses/5581.jpg.jpeg",
+    "images": [
       "/western-dresses/5581.jpg.jpeg",
       "/western-dresses/5582.jpg.jpeg",
       "/western-dresses/5583.jpg.jpeg",
@@ -7540,359 +21150,565 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "/western-dresses/5669.jpg.jpeg",
       "/western-dresses/5670.jpg.jpeg",
       "/western-dresses/5712.jpg.jpeg",
-      "/western-dresses/5715.jpg.jpeg",
       "/western-dresses/5717.jpg.jpeg",
-      "/western-dresses/5713.jpg.jpeg",
-      "/western-dresses/5714.jpg.jpeg",
-      "/western-dresses/5786.jpg.jpeg",
       "/western-dresses/5787.jpg.jpeg",
       "/western-dresses/5788.jpg.jpeg",
       "/western-dresses/5789.jpg.jpeg",
-      "/western-dresses/5790.jpg.jpeg",
-      "/western-dresses/5864.jpg.jpeg",
-      "/western-dresses/5889.jpg.jpeg",
-      "/western-dresses/5890.jpg.jpeg",
-      "/western-dresses/5891.jpg.jpeg",
       "/western-dresses/5892.jpg.jpeg",
-      "/western-dresses/5893.jpg.jpeg",
       "/western-dresses/5894.jpg.jpeg",
-      "/western-dresses/5895.jpg.jpeg",
       "/western-dresses/5896.jpg.jpeg",
       "/western-dresses/5897.jpg.jpeg",
       "/western-dresses/5898.jpg.jpeg",
       "/western-dresses/5899.jpg.jpeg",
-      "/western-dresses/5900.jpg.jpeg",
       "/western-dresses/5961.jpg.jpeg",
-      "/western-dresses/6037.jpg.jpeg",
-      "/western-dresses/6087.jpg.jpeg",
-      "/western-dresses/6108.jpg.jpeg",
       "/western-dresses/6140.jpg.jpeg",
-      "/western-dresses/6156.jpg.jpeg",
-      "/western-dresses/6161.jpg.jpeg",
-      "/western-dresses/6170.jpg.jpeg",
-      "/western-dresses/6163.jpg.jpeg",
       "/western-dresses/6194.jpg.jpeg",
-      "/western-dresses/6216.jpg.jpeg",
-      "/western-dresses/6260.jpg.jpeg",
-      "/western-dresses/6304.jpg.jpeg",
-      "/western-dresses/6330.jpg.jpeg",
       "/western-dresses/6338.jpg.jpeg",
       "/western-dresses/6339.jpg.jpeg",
       "/western-dresses/6366.jpg.jpeg",
       "/western-dresses/6367.jpg.jpeg",
       "/western-dresses/6391.jpg.jpeg",
-      "/western-dresses/6392.jpg.jpeg",
-      "/western-dresses/6393.jpg.jpeg",
       "/western-dresses/6394.jpg.jpeg",
-      "/western-dresses/6490.jpg.jpeg",
-      "/western-dresses/9666.jpg.jpeg",
-      "/western-dresses/9843.jpg.jpeg",
-      "/western-dresses/10198.jpg.jpeg",
       "/western-dresses/10200.jpg.jpeg",
-      "/western-dresses/10431.jpg.jpeg",
-      "/western-dresses/10840.jpg.jpeg",
-      "/western-dresses/10841.jpg.jpeg",
       "/western-dresses/10929.jpg.jpeg",
-      "/western-dresses/11054.jpg.jpeg",
-      "/western-dresses/11055.jpg.jpeg",
-      "/western-dresses/11173.jpg.jpeg",
       "/western-dresses/11249.jpg.jpeg",
-      "/western-dresses/11313.jpg.jpeg",
-      "/western-dresses/11394.jpg.jpeg",
-      "/western-dresses/11437.jpg.jpeg",
       "/western-dresses/11530.jpg.jpeg",
-      "/western-dresses/11638.jpg.jpeg",
-      "/western-dresses/11733.jpg.jpeg",
-      "/western-dresses/11834.jpg.jpeg",
       "/western-dresses/11920.jpg.jpeg",
       "/western-dresses/12055.jpg.jpeg",
-      "/western-dresses/12056.jpg.jpeg",
       "/western-dresses/12057.jpg.jpeg",
-      "/western-dresses/12149.jpg.jpeg",
       "/western-dresses/12245.jpg.jpeg",
-      "/western-dresses/12327.jpg.jpeg",
       "/western-dresses/12438.jpg.jpeg",
       "/western-dresses/12445.jpg.jpeg",
       "/western-dresses/12832.jpg.jpeg",
-      "/western-dresses/13294.jpg.jpeg",
       "/western-dresses/13581.jpg.jpeg",
-      "/western-dresses/16218.jpg.jpeg",
-      "/western-dresses/16219.jpg.jpeg",
       "/western-dresses/59327.jpg.jpeg",
-      "/western-dresses/67798.jpg.jpeg",
-      "/western-dresses/67801.jpg.jpeg",
-      "/western-dresses/67804.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg",
       "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0596.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1442.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2034.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2656.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3130.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA3957.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4605.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4605.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5145.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA5636.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA6383.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6821.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA7294.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA7294.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA7922.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA7922.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8544.jpg (1).jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg",
-      "/western-dresses/IMG-20261103-WA9199.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9520.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9520.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5581.jpg.jpeg",
+      "/western-dresses/5582.jpg.jpeg",
+      "/western-dresses/5583.jpg.jpeg",
+      "/western-dresses/5584.jpg.jpeg",
+      "/western-dresses/5585.jpg.jpeg",
+      "/western-dresses/5669.jpg.jpeg",
+      "/western-dresses/5670.jpg.jpeg",
+      "/western-dresses/5712.jpg.jpeg",
+      "/western-dresses/5717.jpg.jpeg",
+      "/western-dresses/5787.jpg.jpeg",
+      "/western-dresses/5788.jpg.jpeg",
+      "/western-dresses/5789.jpg.jpeg",
+      "/western-dresses/5892.jpg.jpeg",
+      "/western-dresses/5894.jpg.jpeg",
+      "/western-dresses/5896.jpg.jpeg",
+      "/western-dresses/5897.jpg.jpeg",
+      "/western-dresses/5898.jpg.jpeg",
+      "/western-dresses/5899.jpg.jpeg",
+      "/western-dresses/5961.jpg.jpeg",
+      "/western-dresses/6140.jpg.jpeg",
+      "/western-dresses/6194.jpg.jpeg",
+      "/western-dresses/6338.jpg.jpeg",
+      "/western-dresses/6339.jpg.jpeg",
+      "/western-dresses/6366.jpg.jpeg",
+      "/western-dresses/6367.jpg.jpeg",
+      "/western-dresses/6391.jpg.jpeg",
+      "/western-dresses/6394.jpg.jpeg",
+      "/western-dresses/10200.jpg.jpeg",
+      "/western-dresses/10929.jpg.jpeg",
+      "/western-dresses/11249.jpg.jpeg",
+      "/western-dresses/11530.jpg.jpeg",
+      "/western-dresses/11920.jpg.jpeg",
+      "/western-dresses/12055.jpg.jpeg",
+      "/western-dresses/12057.jpg.jpeg",
+      "/western-dresses/12245.jpg.jpeg",
+      "/western-dresses/12438.jpg.jpeg",
+      "/western-dresses/12445.jpg.jpeg",
+      "/western-dresses/12832.jpg.jpeg",
+      "/western-dresses/13581.jpg.jpeg",
+      "/western-dresses/59327.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3957.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5636.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6383.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7294.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7294.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7922.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7922.jpg.jpeg",
       "/western-dresses/IMG-20261103-WA9520.jpg.jpeg",
       "/western-dresses/dresses-images/IMG-20261103-WA9520.jpg.jpeg"
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
-          "/western-dresses/FB_IMG_1789315352815.jpg.jpeg",
-          "/western-dresses/6170.jpg.jpeg",
-          "/western-dresses/11055.jpg.jpeg",
-          "/western-dresses/11733.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1442.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4605.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4605.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/4694.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5145.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Warm Caramel",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/5581.jpg.jpeg",
-          "/western-dresses/5582.jpg.jpeg",
-          "/western-dresses/5583.jpg.jpeg",
-          "/western-dresses/5584.jpg.jpeg",
-          "/western-dresses/5585.jpg.jpeg",
-          "/western-dresses/5669.jpg.jpeg",
-          "/western-dresses/5670.jpg.jpeg",
-          "/western-dresses/5712.jpg.jpeg",
-          "/western-dresses/5717.jpg.jpeg",
-          "/western-dresses/5787.jpg.jpeg",
-          "/western-dresses/5788.jpg.jpeg",
-          "/western-dresses/5789.jpg.jpeg",
-          "/western-dresses/5892.jpg.jpeg",
-          "/western-dresses/5894.jpg.jpeg",
-          "/western-dresses/5896.jpg.jpeg",
-          "/western-dresses/5897.jpg.jpeg",
-          "/western-dresses/5898.jpg.jpeg",
-          "/western-dresses/5899.jpg.jpeg",
-          "/western-dresses/5961.jpg.jpeg",
-          "/western-dresses/6140.jpg.jpeg",
-          "/western-dresses/6194.jpg.jpeg",
-          "/western-dresses/6338.jpg.jpeg",
-          "/western-dresses/6339.jpg.jpeg",
-          "/western-dresses/6366.jpg.jpeg",
-          "/western-dresses/6367.jpg.jpeg",
-          "/western-dresses/6391.jpg.jpeg",
-          "/western-dresses/6394.jpg.jpeg",
-          "/western-dresses/10200.jpg.jpeg",
-          "/western-dresses/10929.jpg.jpeg",
-          "/western-dresses/11249.jpg.jpeg",
-          "/western-dresses/11530.jpg.jpeg",
-          "/western-dresses/11920.jpg.jpeg",
-          "/western-dresses/12055.jpg.jpeg",
-          "/western-dresses/12057.jpg.jpeg",
-          "/western-dresses/12245.jpg.jpeg",
-          "/western-dresses/12438.jpg.jpeg",
-          "/western-dresses/12445.jpg.jpeg",
-          "/western-dresses/12832.jpg.jpeg",
-          "/western-dresses/13581.jpg.jpeg",
-          "/western-dresses/59327.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3957.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5636.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6383.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7294.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7294.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7922.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7922.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9520.jpg.jpeg",
+          "/western-dresses/5581.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5582.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5583.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5584.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5585.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5669.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5670.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5712.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5717.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5787.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5788.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5789.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5892.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5894.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5896.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5897.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5898.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5899.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5961.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6140.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6194.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6338.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6339.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6366.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6367.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6391.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6394.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10200.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10929.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11249.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11530.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11920.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12055.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12057.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12245.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12438.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12445.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12832.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13581.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/59327.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3957.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5636.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6383.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7294.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-49",
+        "name": "Styling 49",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7294.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-50",
+        "name": "Styling 50",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7922.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-51",
+        "name": "Styling 51",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7922.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-52",
+        "name": "Styling 52",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9520.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-53",
+        "name": "Styling 53",
+        "colorCode": "#D97706",
+        "images": [
           "/western-dresses/dresses-images/IMG-20261103-WA9520.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5715.jpg.jpeg",
-          "/western-dresses/5713.jpg.jpeg",
-          "/western-dresses/5714.jpg.jpeg",
-          "/western-dresses/5790.jpg.jpeg",
-          "/western-dresses/5889.jpg.jpeg",
-          "/western-dresses/5890.jpg.jpeg",
-          "/western-dresses/5891.jpg.jpeg",
-          "/western-dresses/5893.jpg.jpeg",
-          "/western-dresses/5895.jpg.jpeg",
-          "/western-dresses/5900.jpg.jpeg",
-          "/western-dresses/6087.jpg.jpeg",
-          "/western-dresses/6156.jpg.jpeg",
-          "/western-dresses/6161.jpg.jpeg",
-          "/western-dresses/6163.jpg.jpeg",
-          "/western-dresses/6330.jpg.jpeg",
-          "/western-dresses/6392.jpg.jpeg",
-          "/western-dresses/6393.jpg.jpeg",
-          "/western-dresses/9666.jpg.jpeg",
-          "/western-dresses/10198.jpg.jpeg",
-          "/western-dresses/10840.jpg.jpeg",
-          "/western-dresses/10841.jpg.jpeg",
-          "/western-dresses/11313.jpg.jpeg",
-          "/western-dresses/12327.jpg.jpeg",
-          "/western-dresses/16218.jpg.jpeg",
-          "/western-dresses/16219.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6821.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8544.jpg (1).jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5786.jpg.jpeg",
-          "/western-dresses/5864.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0596.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2034.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2656.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3130.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9199.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/6037.jpg.jpeg",
-          "/western-dresses/9843.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6108.jpg.jpeg",
-          "/western-dresses/6490.jpg.jpeg",
-          "/western-dresses/11394.jpg.jpeg",
-          "/western-dresses/11638.jpg.jpeg",
-          "/western-dresses/11834.jpg.jpeg",
-          "/western-dresses/13294.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6216.jpg.jpeg",
-          "/western-dresses/6304.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/6260.jpg.jpeg",
-          "/western-dresses/12056.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/10431.jpg.jpeg",
-          "/western-dresses/11054.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/western-dresses/11173.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/11437.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/12149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/67798.jpg.jpeg",
-          "/western-dresses/67801.jpg.jpeg",
-          "/western-dresses/67804.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg"
         ]
       }
     ],
+    "description": "Authentic Warm Caramel Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v4",
+    "title": "Pebble Grey Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "pebble-grey-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v4",
+      "pebble-grey-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7900,26 +21716,1171 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Handcrafted Linen Tie-Belt Shift Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 128 photographic views, tailored in Soft Modal Satin with Fluid Drape with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Soft Modal Satin with Fluid Drape",
-    "details": [
-      "Authentic Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Soft Modal Satin with Fluid Drape with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/5715.jpg.jpeg",
+    "mainImage": "/western-dresses/5715.jpg.jpeg",
+    "images": [
+      "/western-dresses/5715.jpg.jpeg",
+      "/western-dresses/5713.jpg.jpeg",
+      "/western-dresses/5714.jpg.jpeg",
+      "/western-dresses/5790.jpg.jpeg",
+      "/western-dresses/5889.jpg.jpeg",
+      "/western-dresses/5890.jpg.jpeg",
+      "/western-dresses/5891.jpg.jpeg",
+      "/western-dresses/5893.jpg.jpeg",
+      "/western-dresses/5895.jpg.jpeg",
+      "/western-dresses/5900.jpg.jpeg",
+      "/western-dresses/6087.jpg.jpeg",
+      "/western-dresses/6156.jpg.jpeg",
+      "/western-dresses/6161.jpg.jpeg",
+      "/western-dresses/6163.jpg.jpeg",
+      "/western-dresses/6330.jpg.jpeg",
+      "/western-dresses/6392.jpg.jpeg",
+      "/western-dresses/6393.jpg.jpeg",
+      "/western-dresses/9666.jpg.jpeg",
+      "/western-dresses/10198.jpg.jpeg",
+      "/western-dresses/10840.jpg.jpeg",
+      "/western-dresses/10841.jpg.jpeg",
+      "/western-dresses/11313.jpg.jpeg",
+      "/western-dresses/12327.jpg.jpeg",
+      "/western-dresses/16218.jpg.jpeg",
+      "/western-dresses/16219.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6821.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8544.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0010",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/5715.jpg.jpeg",
+      "/western-dresses/5713.jpg.jpeg",
+      "/western-dresses/5714.jpg.jpeg",
+      "/western-dresses/5790.jpg.jpeg",
+      "/western-dresses/5889.jpg.jpeg",
+      "/western-dresses/5890.jpg.jpeg",
+      "/western-dresses/5891.jpg.jpeg",
+      "/western-dresses/5893.jpg.jpeg",
+      "/western-dresses/5895.jpg.jpeg",
+      "/western-dresses/5900.jpg.jpeg",
+      "/western-dresses/6087.jpg.jpeg",
+      "/western-dresses/6156.jpg.jpeg",
+      "/western-dresses/6161.jpg.jpeg",
+      "/western-dresses/6163.jpg.jpeg",
+      "/western-dresses/6330.jpg.jpeg",
+      "/western-dresses/6392.jpg.jpeg",
+      "/western-dresses/6393.jpg.jpeg",
+      "/western-dresses/9666.jpg.jpeg",
+      "/western-dresses/10198.jpg.jpeg",
+      "/western-dresses/10840.jpg.jpeg",
+      "/western-dresses/10841.jpg.jpeg",
+      "/western-dresses/11313.jpg.jpeg",
+      "/western-dresses/12327.jpg.jpeg",
+      "/western-dresses/16218.jpg.jpeg",
+      "/western-dresses/16219.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6821.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8544.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5715.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5713.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5714.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5790.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5889.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5890.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5891.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5893.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5895.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5900.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6087.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6156.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6161.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6163.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6330.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6392.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6393.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/9666.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10198.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10840.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10841.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11313.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12327.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/16218.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/16219.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6821.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8544.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V4",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0011",
-    "title": "Pleated Wrap V-Neck Resort Maxi Dress",
-    "slug": "pleated-wrap-v-neck-resort-maxi-dress",
+    "id": "wd-0010-v5",
+    "title": "Ivory Cream Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "ivory-cream-handcrafted-linen-tie-belt-shift-dress",
     "aliasSlugs": [
+      "wd-0010-v5",
+      "ivory-cream-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5786.jpg.jpeg",
+    "mainImage": "/western-dresses/5786.jpg.jpeg",
+    "images": [
+      "/western-dresses/5786.jpg.jpeg",
+      "/western-dresses/5864.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0596.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2034.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2656.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3130.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9199.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5786.jpg.jpeg",
+      "/western-dresses/5864.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0596.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2034.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2656.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3130.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9199.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5786.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5864.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0596.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2034.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2656.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3130.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9199.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v6",
+    "title": "Mustard Gold Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "mustard-gold-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v6",
+      "mustard-gold-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6037.jpg.jpeg",
+    "mainImage": "/western-dresses/6037.jpg.jpeg",
+    "images": [
+      "/western-dresses/6037.jpg.jpeg",
+      "/western-dresses/9843.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6037.jpg.jpeg",
+      "/western-dresses/9843.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/6037.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/9843.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v7",
+    "title": "Rust Terracotta Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "rust-terracotta-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v7",
+      "rust-terracotta-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6108.jpg.jpeg",
+    "mainImage": "/western-dresses/6108.jpg.jpeg",
+    "images": [
+      "/western-dresses/6108.jpg.jpeg",
+      "/western-dresses/6490.jpg.jpeg",
+      "/western-dresses/11394.jpg.jpeg",
+      "/western-dresses/11638.jpg.jpeg",
+      "/western-dresses/11834.jpg.jpeg",
+      "/western-dresses/13294.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6108.jpg.jpeg",
+      "/western-dresses/6490.jpg.jpeg",
+      "/western-dresses/11394.jpg.jpeg",
+      "/western-dresses/11638.jpg.jpeg",
+      "/western-dresses/11834.jpg.jpeg",
+      "/western-dresses/13294.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6108.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6490.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11394.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11638.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11834.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/13294.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v8",
+    "title": "Charcoal Slate Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "charcoal-slate-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v8",
+      "charcoal-slate-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6216.jpg.jpeg",
+    "mainImage": "/western-dresses/6216.jpg.jpeg",
+    "images": [
+      "/western-dresses/6216.jpg.jpeg",
+      "/western-dresses/6304.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6216.jpg.jpeg",
+      "/western-dresses/6304.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6216.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6304.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v9",
+    "title": "Sand Ochre Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "sand-ochre-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v9",
+      "sand-ochre-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6260.jpg.jpeg",
+    "mainImage": "/western-dresses/6260.jpg.jpeg",
+    "images": [
+      "/western-dresses/6260.jpg.jpeg",
+      "/western-dresses/12056.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6260.jpg.jpeg",
+      "/western-dresses/12056.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/6260.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/12056.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v10",
+    "title": "Scarlet Red Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "scarlet-red-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v10",
+      "scarlet-red-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/10431.jpg.jpeg",
+    "mainImage": "/western-dresses/10431.jpg.jpeg",
+    "images": [
+      "/western-dresses/10431.jpg.jpeg",
+      "/western-dresses/11054.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/10431.jpg.jpeg",
+      "/western-dresses/11054.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/10431.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/11054.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v11",
+    "title": "Aqua Marine Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "aqua-marine-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v11",
+      "aqua-marine-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11173.jpg.jpeg",
+    "mainImage": "/western-dresses/11173.jpg.jpeg",
+    "images": [
+      "/western-dresses/11173.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11173.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/western-dresses/11173.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v12",
+    "title": "Ruby Crimson Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "ruby-crimson-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v12",
+      "ruby-crimson-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11437.jpg.jpeg",
+    "mainImage": "/western-dresses/11437.jpg.jpeg",
+    "images": [
+      "/western-dresses/11437.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11437.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/11437.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v13",
+    "title": "Lavender Violet Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "lavender-violet-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v13",
+      "lavender-violet-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12149.jpg.jpeg",
+    "mainImage": "/western-dresses/12149.jpg.jpeg",
+    "images": [
+      "/western-dresses/12149.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12149.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/12149.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v14",
+    "title": "Steel Slate Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "steel-slate-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v14",
+      "steel-slate-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/67798.jpg.jpeg",
+    "mainImage": "/western-dresses/67798.jpg.jpeg",
+    "images": [
+      "/western-dresses/67798.jpg.jpeg",
+      "/western-dresses/67801.jpg.jpeg",
+      "/western-dresses/67804.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/67798.jpg.jpeg",
+      "/western-dresses/67801.jpg.jpeg",
+      "/western-dresses/67804.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/67798.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/67801.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/67804.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0010-v15",
+    "title": "Deep Teal Handcrafted Linen Tie-Belt Shift Dress",
+    "slug": "deep-teal-handcrafted-linen-tie-belt-shift-dress",
+    "aliasSlugs": [
+      "wd-0010-v15",
+      "deep-teal-handcrafted-linen-tie-belt-shift-dress",
+      "handcrafted-linen-tie-belt-shift-dress-var-15"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg",
+    "mainImage": "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg",
+    "images": [
+      "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg"
+    ],
+    "gallery": [
+      "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8810.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Handcrafted Linen Tie-Belt Shift Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Handcrafted Linen Tie-Belt Shift Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0010-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v1",
+    "title": "Warm Caramel Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "warm-caramel-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v1",
+      "warm-caramel-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-1",
       "aaliyah-pleated-wrap-v-neck-resort-maxi-dress",
       "aanya-pleated-wrap-v-neck-resort-maxi-dress",
       "ahsaas-pleated-wrap-v-neck-resort-maxi-dress",
@@ -8345,379 +23306,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-wd-0022",
       "zoya-pleated-wrap-v-neck-resort-maxi-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/1668.jpg.jpeg",
-      "/western-dresses/4695.jpg.jpeg",
-      "/western-dresses/5586.jpg.jpeg",
-      "/western-dresses/5671.jpg.jpeg",
-      "/western-dresses/5751.jpg.jpeg",
-      "/western-dresses/5752.jpg.jpeg",
-      "/western-dresses/5753.jpg.jpeg",
-      "/western-dresses/5754.jpg.jpeg",
-      "/western-dresses/5755.jpg.jpeg",
-      "/western-dresses/5791.jpg.jpeg",
-      "/western-dresses/5865.jpg.jpeg",
-      "/western-dresses/5901.jpg.jpeg",
-      "/western-dresses/5902.jpg.jpeg",
-      "/western-dresses/5903.jpg.jpeg",
-      "/western-dresses/5962.jpg.jpeg",
-      "/western-dresses/5963.jpg.jpeg",
-      "/western-dresses/6038.jpg.jpeg",
-      "/western-dresses/6039.jpg.jpeg",
-      "/western-dresses/6040.jpg.jpeg",
-      "/western-dresses/6046.jpg.jpeg",
-      "/western-dresses/6047.jpg.jpeg",
-      "/western-dresses/6088.jpg.jpeg",
-      "/western-dresses/6089.jpg.jpeg",
-      "/western-dresses/6109.jpg.jpeg",
-      "/western-dresses/6141.jpg.jpeg",
-      "/western-dresses/6171.jpg.jpeg",
-      "/western-dresses/6172.jpg.jpeg",
-      "/western-dresses/6195.jpg.jpeg",
-      "/western-dresses/6217.jpg.jpeg",
-      "/western-dresses/6218.jpg.jpeg",
-      "/western-dresses/6219.jpg.jpeg",
-      "/western-dresses/6261.jpg.jpeg",
-      "/western-dresses/6262.jpg.jpeg",
-      "/western-dresses/6263.jpg.jpeg",
-      "/western-dresses/6305.jpg.jpeg",
-      "/western-dresses/6306.jpg.jpeg",
-      "/western-dresses/6346.jpg.jpeg",
-      "/western-dresses/6369.jpg.jpeg",
-      "/western-dresses/6395.jpg.jpeg",
-      "/western-dresses/6396.jpg.jpeg",
-      "/western-dresses/6397.jpg.jpeg",
-      "/western-dresses/6493.jpg.jpeg",
-      "/western-dresses/6495.jpg.jpeg",
-      "/western-dresses/9670.jpg.jpeg",
-      "/western-dresses/9671.jpg.jpeg",
-      "/western-dresses/9845.jpg.jpeg",
-      "/western-dresses/10201.jpg.jpeg",
-      "/western-dresses/10457.jpg.jpeg",
-      "/western-dresses/10846.jpg.jpeg",
-      "/western-dresses/10848.jpg.jpeg",
-      "/western-dresses/10942.jpg.jpeg",
-      "/western-dresses/10948.jpg.jpeg",
-      "/western-dresses/11076.jpg.jpeg",
-      "/western-dresses/11174.jpg.jpeg",
-      "/western-dresses/11260.jpg.jpeg",
-      "/western-dresses/11314.jpg.jpeg",
-      "/western-dresses/11397.jpg.jpeg",
-      "/western-dresses/11438.jpg.jpeg",
-      "/western-dresses/11531.jpg.jpeg",
-      "/western-dresses/11641.jpg.jpeg",
-      "/western-dresses/11773.jpg.jpeg",
-      "/western-dresses/11837.jpg.jpeg",
-      "/western-dresses/11921.jpg.jpeg",
-      "/western-dresses/12061.jpg.jpeg",
-      "/western-dresses/12150.jpg.jpeg",
-      "/western-dresses/12254.jpg.jpeg",
-      "/western-dresses/12330.jpg.jpeg",
-      "/western-dresses/12331.jpg.jpeg",
-      "/western-dresses/12332.jpg.jpeg",
-      "/western-dresses/12446.jpg.jpeg",
-      "/western-dresses/12447.jpg.jpeg",
-      "/western-dresses/12448.jpg.jpeg",
-      "/western-dresses/12833.jpg.jpeg",
-      "/western-dresses/13323.jpg.jpeg",
-      "/western-dresses/13629.jpg.jpeg",
-      "/western-dresses/16646.jpg.jpeg",
-      "/western-dresses/16647.jpg.jpeg",
-      "/western-dresses/16650.jpg.jpeg",
-      "/western-dresses/16651.jpg.jpeg",
-      "/western-dresses/16652.jpg.jpeg",
-      "/western-dresses/59330.jpg.jpeg",
-      "/western-dresses/67807.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0620.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1473.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2070.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2070.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2666.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2666.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA3190.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4059.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4064.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4669.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5152.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5646.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6395.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6874.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6874.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7366.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7366.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7985.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8560.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8560.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9264.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9264.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9576.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/1668.jpg.jpeg",
-          "/western-dresses/5586.jpg.jpeg",
-          "/western-dresses/5751.jpg.jpeg",
-          "/western-dresses/5752.jpg.jpeg",
-          "/western-dresses/5753.jpg.jpeg",
-          "/western-dresses/5754.jpg.jpeg",
-          "/western-dresses/5755.jpg.jpeg",
-          "/western-dresses/6088.jpg.jpeg",
-          "/western-dresses/6089.jpg.jpeg",
-          "/western-dresses/6171.jpg.jpeg",
-          "/western-dresses/6172.jpg.jpeg",
-          "/western-dresses/6217.jpg.jpeg",
-          "/western-dresses/6218.jpg.jpeg",
-          "/western-dresses/6262.jpg.jpeg",
-          "/western-dresses/6263.jpg.jpeg",
-          "/western-dresses/6305.jpg.jpeg",
-          "/western-dresses/6396.jpg.jpeg",
-          "/western-dresses/6397.jpg.jpeg",
-          "/western-dresses/6495.jpg.jpeg",
-          "/western-dresses/9671.jpg.jpeg",
-          "/western-dresses/10846.jpg.jpeg",
-          "/western-dresses/10848.jpg.jpeg",
-          "/western-dresses/11260.jpg.jpeg",
-          "/western-dresses/11397.jpg.jpeg",
-          "/western-dresses/11773.jpg.jpeg",
-          "/western-dresses/12332.jpg.jpeg",
-          "/western-dresses/13323.jpg.jpeg",
-          "/western-dresses/16646.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0620.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA3190.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5152.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5646.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6395.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7985.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8560.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8560.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/4695.jpg.jpeg",
-          "/western-dresses/5963.jpg.jpeg",
-          "/western-dresses/6038.jpg.jpeg",
-          "/western-dresses/6040.jpg.jpeg",
-          "/western-dresses/6047.jpg.jpeg",
-          "/western-dresses/12446.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1473.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4064.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9576.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/5671.jpg.jpeg",
-          "/western-dresses/10457.jpg.jpeg",
-          "/western-dresses/11314.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/5791.jpg.jpeg",
-          "/western-dresses/5901.jpg.jpeg",
-          "/western-dresses/5902.jpg.jpeg",
-          "/western-dresses/6261.jpg.jpeg",
-          "/western-dresses/11076.jpg.jpeg",
-          "/western-dresses/59330.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/5865.jpg.jpeg",
-          "/western-dresses/9670.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5903.jpg.jpeg",
-          "/western-dresses/6493.jpg.jpeg",
-          "/western-dresses/9845.jpg.jpeg",
-          "/western-dresses/10948.jpg.jpeg",
-          "/western-dresses/11531.jpg.jpeg",
-          "/western-dresses/12150.jpg.jpeg",
-          "/western-dresses/12330.jpg.jpeg",
-          "/western-dresses/12331.jpg.jpeg",
-          "/western-dresses/16647.jpg.jpeg",
-          "/western-dresses/16650.jpg.jpeg",
-          "/western-dresses/16651.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5962.jpg.jpeg",
-          "/western-dresses/6039.jpg.jpeg",
-          "/western-dresses/6046.jpg.jpeg",
-          "/western-dresses/6109.jpg.jpeg",
-          "/western-dresses/6141.jpg.jpeg",
-          "/western-dresses/6219.jpg.jpeg",
-          "/western-dresses/6306.jpg.jpeg",
-          "/western-dresses/6369.jpg.jpeg",
-          "/western-dresses/10201.jpg.jpeg",
-          "/western-dresses/10942.jpg.jpeg",
-          "/western-dresses/11921.jpg.jpeg",
-          "/western-dresses/12061.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4059.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4669.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/6195.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/western-dresses/6346.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6395.jpg.jpeg",
-          "/western-dresses/13629.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2070.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2070.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/11174.jpg.jpeg",
-          "/western-dresses/16652.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2666.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2666.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/11438.jpg.jpeg",
-          "/western-dresses/12833.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/western-dresses/11641.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/11837.jpg.jpeg",
-          "/western-dresses/12254.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7366.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7366.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/western-dresses/12447.jpg.jpeg",
-          "/western-dresses/12448.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/67807.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6874.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6874.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-18",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9264.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9264.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -8725,26 +23324,2023 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Pleated Wrap V-Neck Resort Maxi Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 119 photographic views, tailored in Soft Modal Satin with Fluid Drape with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Soft Modal Satin with Fluid Drape",
-    "details": [
-      "Authentic Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Soft Modal Satin with Fluid Drape with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/1668.jpg.jpeg",
+    "mainImage": "/western-dresses/1668.jpg.jpeg",
+    "images": [
+      "/western-dresses/1668.jpg.jpeg",
+      "/western-dresses/5586.jpg.jpeg",
+      "/western-dresses/5751.jpg.jpeg",
+      "/western-dresses/5752.jpg.jpeg",
+      "/western-dresses/5753.jpg.jpeg",
+      "/western-dresses/5754.jpg.jpeg",
+      "/western-dresses/5755.jpg.jpeg",
+      "/western-dresses/6088.jpg.jpeg",
+      "/western-dresses/6089.jpg.jpeg",
+      "/western-dresses/6171.jpg.jpeg",
+      "/western-dresses/6172.jpg.jpeg",
+      "/western-dresses/6217.jpg.jpeg",
+      "/western-dresses/6218.jpg.jpeg",
+      "/western-dresses/6262.jpg.jpeg",
+      "/western-dresses/6263.jpg.jpeg",
+      "/western-dresses/6305.jpg.jpeg",
+      "/western-dresses/6396.jpg.jpeg",
+      "/western-dresses/6397.jpg.jpeg",
+      "/western-dresses/6495.jpg.jpeg",
+      "/western-dresses/9671.jpg.jpeg",
+      "/western-dresses/10846.jpg.jpeg",
+      "/western-dresses/10848.jpg.jpeg",
+      "/western-dresses/11260.jpg.jpeg",
+      "/western-dresses/11397.jpg.jpeg",
+      "/western-dresses/11773.jpg.jpeg",
+      "/western-dresses/12332.jpg.jpeg",
+      "/western-dresses/13323.jpg.jpeg",
+      "/western-dresses/16646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0620.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3190.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5152.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6395.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7985.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8560.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8560.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0011",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/western-dresses/1668.jpg.jpeg",
+      "/western-dresses/5586.jpg.jpeg",
+      "/western-dresses/5751.jpg.jpeg",
+      "/western-dresses/5752.jpg.jpeg",
+      "/western-dresses/5753.jpg.jpeg",
+      "/western-dresses/5754.jpg.jpeg",
+      "/western-dresses/5755.jpg.jpeg",
+      "/western-dresses/6088.jpg.jpeg",
+      "/western-dresses/6089.jpg.jpeg",
+      "/western-dresses/6171.jpg.jpeg",
+      "/western-dresses/6172.jpg.jpeg",
+      "/western-dresses/6217.jpg.jpeg",
+      "/western-dresses/6218.jpg.jpeg",
+      "/western-dresses/6262.jpg.jpeg",
+      "/western-dresses/6263.jpg.jpeg",
+      "/western-dresses/6305.jpg.jpeg",
+      "/western-dresses/6396.jpg.jpeg",
+      "/western-dresses/6397.jpg.jpeg",
+      "/western-dresses/6495.jpg.jpeg",
+      "/western-dresses/9671.jpg.jpeg",
+      "/western-dresses/10846.jpg.jpeg",
+      "/western-dresses/10848.jpg.jpeg",
+      "/western-dresses/11260.jpg.jpeg",
+      "/western-dresses/11397.jpg.jpeg",
+      "/western-dresses/11773.jpg.jpeg",
+      "/western-dresses/12332.jpg.jpeg",
+      "/western-dresses/13323.jpg.jpeg",
+      "/western-dresses/16646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0620.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA3190.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5152.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6395.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7985.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8560.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8560.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/1668.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5586.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5751.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5752.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5753.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5754.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5755.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6088.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6089.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6171.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6172.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6217.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6218.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6262.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6263.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6305.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6396.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6397.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6495.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9671.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10846.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10848.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11260.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11397.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11773.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12332.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/13323.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0620.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3190.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5152.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6395.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7985.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8560.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8560.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "wd-0012",
-    "title": "Draped Silk Cowl Neck Evening Dress",
-    "slug": "draped-silk-cowl-neck-evening-dress",
+    "id": "wd-0011-v2",
+    "title": "Ivory Cream Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "ivory-cream-pleated-wrap-v-neck-resort-maxi-dress",
     "aliasSlugs": [
+      "wd-0011-v2",
+      "ivory-cream-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/4695.jpg.jpeg",
+    "mainImage": "/western-dresses/4695.jpg.jpeg",
+    "images": [
+      "/western-dresses/4695.jpg.jpeg",
+      "/western-dresses/5963.jpg.jpeg",
+      "/western-dresses/6038.jpg.jpeg",
+      "/western-dresses/6040.jpg.jpeg",
+      "/western-dresses/6047.jpg.jpeg",
+      "/western-dresses/12446.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1473.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4064.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9576.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/4695.jpg.jpeg",
+      "/western-dresses/5963.jpg.jpeg",
+      "/western-dresses/6038.jpg.jpeg",
+      "/western-dresses/6040.jpg.jpeg",
+      "/western-dresses/6047.jpg.jpeg",
+      "/western-dresses/12446.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1473.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4064.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9576.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/4695.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/5963.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6038.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6040.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6047.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/12446.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1473.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4064.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9576.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v3",
+    "title": "Ruby Crimson Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "ruby-crimson-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v3",
+      "ruby-crimson-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5671.jpg.jpeg",
+    "mainImage": "/western-dresses/5671.jpg.jpeg",
+    "images": [
+      "/western-dresses/5671.jpg.jpeg",
+      "/western-dresses/10457.jpg.jpeg",
+      "/western-dresses/11314.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5671.jpg.jpeg",
+      "/western-dresses/10457.jpg.jpeg",
+      "/western-dresses/11314.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/5671.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/10457.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/11314.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v4",
+    "title": "Rust Terracotta Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "rust-terracotta-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v4",
+      "rust-terracotta-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5791.jpg.jpeg",
+    "mainImage": "/western-dresses/5791.jpg.jpeg",
+    "images": [
+      "/western-dresses/5791.jpg.jpeg",
+      "/western-dresses/5901.jpg.jpeg",
+      "/western-dresses/5902.jpg.jpeg",
+      "/western-dresses/6261.jpg.jpeg",
+      "/western-dresses/11076.jpg.jpeg",
+      "/western-dresses/59330.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5791.jpg.jpeg",
+      "/western-dresses/5901.jpg.jpeg",
+      "/western-dresses/5902.jpg.jpeg",
+      "/western-dresses/6261.jpg.jpeg",
+      "/western-dresses/11076.jpg.jpeg",
+      "/western-dresses/59330.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5791.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5901.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/5902.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6261.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/11076.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/59330.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v5",
+    "title": "Scarlet Red Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "scarlet-red-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v5",
+      "scarlet-red-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5865.jpg.jpeg",
+    "mainImage": "/western-dresses/5865.jpg.jpeg",
+    "images": [
+      "/western-dresses/5865.jpg.jpeg",
+      "/western-dresses/9670.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5865.jpg.jpeg",
+      "/western-dresses/9670.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/5865.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/9670.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v6",
+    "title": "Blush Rose Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "blush-rose-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v6",
+      "blush-rose-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5903.jpg.jpeg",
+    "mainImage": "/western-dresses/5903.jpg.jpeg",
+    "images": [
+      "/western-dresses/5903.jpg.jpeg",
+      "/western-dresses/6493.jpg.jpeg",
+      "/western-dresses/9845.jpg.jpeg",
+      "/western-dresses/10948.jpg.jpeg",
+      "/western-dresses/11531.jpg.jpeg",
+      "/western-dresses/12150.jpg.jpeg",
+      "/western-dresses/12330.jpg.jpeg",
+      "/western-dresses/12331.jpg.jpeg",
+      "/western-dresses/16647.jpg.jpeg",
+      "/western-dresses/16650.jpg.jpeg",
+      "/western-dresses/16651.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5903.jpg.jpeg",
+      "/western-dresses/6493.jpg.jpeg",
+      "/western-dresses/9845.jpg.jpeg",
+      "/western-dresses/10948.jpg.jpeg",
+      "/western-dresses/11531.jpg.jpeg",
+      "/western-dresses/12150.jpg.jpeg",
+      "/western-dresses/12330.jpg.jpeg",
+      "/western-dresses/12331.jpg.jpeg",
+      "/western-dresses/16647.jpg.jpeg",
+      "/western-dresses/16650.jpg.jpeg",
+      "/western-dresses/16651.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5903.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6493.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/9845.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/10948.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11531.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12150.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12330.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12331.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/16647.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/16650.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/16651.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#FB7185",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v7",
+    "title": "Pebble Grey Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "pebble-grey-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v7",
+      "pebble-grey-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5962.jpg.jpeg",
+    "mainImage": "/western-dresses/5962.jpg.jpeg",
+    "images": [
+      "/western-dresses/5962.jpg.jpeg",
+      "/western-dresses/6039.jpg.jpeg",
+      "/western-dresses/6046.jpg.jpeg",
+      "/western-dresses/6109.jpg.jpeg",
+      "/western-dresses/6141.jpg.jpeg",
+      "/western-dresses/6219.jpg.jpeg",
+      "/western-dresses/6306.jpg.jpeg",
+      "/western-dresses/6369.jpg.jpeg",
+      "/western-dresses/10201.jpg.jpeg",
+      "/western-dresses/10942.jpg.jpeg",
+      "/western-dresses/11921.jpg.jpeg",
+      "/western-dresses/12061.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4059.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4669.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5962.jpg.jpeg",
+      "/western-dresses/6039.jpg.jpeg",
+      "/western-dresses/6046.jpg.jpeg",
+      "/western-dresses/6109.jpg.jpeg",
+      "/western-dresses/6141.jpg.jpeg",
+      "/western-dresses/6219.jpg.jpeg",
+      "/western-dresses/6306.jpg.jpeg",
+      "/western-dresses/6369.jpg.jpeg",
+      "/western-dresses/10201.jpg.jpeg",
+      "/western-dresses/10942.jpg.jpeg",
+      "/western-dresses/11921.jpg.jpeg",
+      "/western-dresses/12061.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4059.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4669.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5962.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6039.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6046.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6109.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6141.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6219.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6306.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6369.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10201.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10942.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11921.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12061.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4059.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4669.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v8",
+    "title": "Mustard Gold Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "mustard-gold-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v8",
+      "mustard-gold-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6195.jpg.jpeg",
+    "mainImage": "/western-dresses/6195.jpg.jpeg",
+    "images": [
+      "/western-dresses/6195.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6195.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/6195.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v9",
+    "title": "Aqua Marine Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "aqua-marine-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v9",
+      "aqua-marine-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6346.jpg.jpeg",
+    "mainImage": "/western-dresses/6346.jpg.jpeg",
+    "images": [
+      "/western-dresses/6346.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6346.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/western-dresses/6346.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v10",
+    "title": "Charcoal Slate Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "charcoal-slate-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v10",
+      "charcoal-slate-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6395.jpg.jpeg",
+    "mainImage": "/western-dresses/6395.jpg.jpeg",
+    "images": [
+      "/western-dresses/6395.jpg.jpeg",
+      "/western-dresses/13629.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2070.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2070.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6395.jpg.jpeg",
+      "/western-dresses/13629.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2070.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2070.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6395.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/13629.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2070.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2070.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v11",
+    "title": "Orchid Pink Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "orchid-pink-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v11",
+      "orchid-pink-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11174.jpg.jpeg",
+    "mainImage": "/western-dresses/11174.jpg.jpeg",
+    "images": [
+      "/western-dresses/11174.jpg.jpeg",
+      "/western-dresses/16652.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2666.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2666.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11174.jpg.jpeg",
+      "/western-dresses/16652.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2666.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2666.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/11174.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/16652.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2666.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2666.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v12",
+    "title": "Sunset Tangerine Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "sunset-tangerine-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v12",
+      "sunset-tangerine-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11438.jpg.jpeg",
+    "mainImage": "/western-dresses/11438.jpg.jpeg",
+    "images": [
+      "/western-dresses/11438.jpg.jpeg",
+      "/western-dresses/12833.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11438.jpg.jpeg",
+      "/western-dresses/12833.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/11438.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/12833.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v13",
+    "title": "Teal Slate Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "teal-slate-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v13",
+      "teal-slate-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11641.jpg.jpeg",
+    "mainImage": "/western-dresses/11641.jpg.jpeg",
+    "images": [
+      "/western-dresses/11641.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11641.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/western-dresses/11641.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v14",
+    "title": "Lavender Violet Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "lavender-violet-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v14",
+      "lavender-violet-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11837.jpg.jpeg",
+    "mainImage": "/western-dresses/11837.jpg.jpeg",
+    "images": [
+      "/western-dresses/11837.jpg.jpeg",
+      "/western-dresses/12254.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7366.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7366.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11837.jpg.jpeg",
+      "/western-dresses/12254.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7366.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7366.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/11837.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/12254.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7366.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7366.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v15",
+    "title": "Sage Olive Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "sage-olive-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v15",
+      "sage-olive-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-15"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12447.jpg.jpeg",
+    "mainImage": "/western-dresses/12447.jpg.jpeg",
+    "images": [
+      "/western-dresses/12447.jpg.jpeg",
+      "/western-dresses/12448.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12447.jpg.jpeg",
+      "/western-dresses/12448.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/12447.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/12448.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v16",
+    "title": "Steel Slate Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "steel-slate-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v16",
+      "steel-slate-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-16"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/67807.jpg.jpeg",
+    "mainImage": "/western-dresses/67807.jpg.jpeg",
+    "images": [
+      "/western-dresses/67807.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/67807.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/67807.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v17",
+    "title": "Plum Wine Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "plum-wine-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v17",
+      "plum-wine-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-17"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA6874.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA6874.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA6874.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6874.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA6874.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6874.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#581C87",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6874.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#581C87",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6874.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0011-v18",
+    "title": "Sky Azure Pleated Wrap V-Neck Resort Maxi Dress",
+    "slug": "sky-azure-pleated-wrap-v-neck-resort-maxi-dress",
+    "aliasSlugs": [
+      "wd-0011-v18",
+      "sky-azure-pleated-wrap-v-neck-resort-maxi-dress",
+      "pleated-wrap-v-neck-resort-maxi-dress-var-18"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Soft Modal Satin with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA9264.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA9264.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA9264.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9264.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA9264.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9264.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9264.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9264.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Pleated Wrap V-Neck Resort Maxi Dress handcrafted at Wastram's Jaipur atelier. Tailored in Soft Modal Satin with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Pleated Wrap V-Neck Resort Maxi Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Soft Modal Satin with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0011-V18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v1",
+    "title": "Pebble Grey Draped Silk Cowl Neck Evening Dress",
+    "slug": "pebble-grey-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v1",
+      "pebble-grey-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-1",
       "aaliyah-draped-silk-cowl-neck-evening-dress",
       "aanya-draped-silk-cowl-neck-evening-dress",
       "ahsaas-draped-silk-cowl-neck-evening-dress",
@@ -9180,417 +25776,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "zoe-smocked-bodice-sun-dress-wd-0022",
       "zoya-draped-silk-cowl-neck-evening-dress"
     ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
     "tab": "western-dresses",
-    "category": "western-dresses",
     "badge": "Atelier Bestseller",
     "regularPrice": 2499,
     "salePrice": 1899,
-    "images": [
-      "/western-dresses/1669.jpg.jpeg",
-      "/western-dresses/1670.jpg.jpeg",
-      "/western-dresses/5487.jpg.jpeg",
-      "/western-dresses/5593.jpg.jpeg",
-      "/western-dresses/5595.jpg.jpeg",
-      "/western-dresses/5596.jpg.jpeg",
-      "/western-dresses/5594.jpg.jpeg",
-      "/western-dresses/5672.jpg.jpeg",
-      "/western-dresses/5674.jpg.jpeg",
-      "/western-dresses/5675.jpg.jpeg",
-      "/western-dresses/5676.jpg.jpeg",
-      "/western-dresses/5677.jpg.jpeg",
-      "/western-dresses/5678.jpg.jpeg",
-      "/western-dresses/5757.jpg.jpeg",
-      "/western-dresses/5792.jpg.jpeg",
-      "/western-dresses/5793.jpg.jpeg",
-      "/western-dresses/5866.jpg.jpeg",
-      "/western-dresses/5867.jpg.jpeg",
-      "/western-dresses/5868.jpg.jpeg",
-      "/western-dresses/5941.jpg (1).jpeg",
-      "/western-dresses/5941.jpg.jpeg",
-      "/western-dresses/5942.jpg (1).jpeg",
-      "/western-dresses/5942.jpg.jpeg",
-      "/western-dresses/5964.jpg.jpeg",
-      "/western-dresses/6048.jpg.jpeg",
-      "/western-dresses/6049.jpg.jpeg",
-      "/western-dresses/6051.jpg.jpeg",
-      "/western-dresses/6050.jpg.jpeg",
-      "/western-dresses/6052.jpg.jpeg",
-      "/western-dresses/6053.jpg.jpeg",
-      "/western-dresses/6054.jpg.jpeg",
-      "/western-dresses/6055.jpg.jpeg",
-      "/western-dresses/6090.jpg.jpeg",
-      "/western-dresses/6114.jpg.jpeg",
-      "/western-dresses/6115.jpg.jpeg",
-      "/western-dresses/6142.jpg.jpeg",
-      "/western-dresses/6143.jpg.jpeg",
-      "/western-dresses/6174.jpg.jpeg",
-      "/western-dresses/6175.jpg.jpeg",
-      "/western-dresses/6204.jpg.jpeg",
-      "/western-dresses/6221.jpg.jpeg",
-      "/western-dresses/6222.jpg.jpeg",
-      "/western-dresses/6264.jpg.jpeg",
-      "/western-dresses/6268.jpg.jpeg",
-      "/western-dresses/6307.jpg.jpeg",
-      "/western-dresses/6308.jpg.jpeg",
-      "/western-dresses/6347.jpg.jpeg",
-      "/western-dresses/6370.jpg.jpeg",
-      "/western-dresses/6371.jpg.jpeg",
-      "/western-dresses/6398.jpg.jpeg",
-      "/western-dresses/6513.jpg.jpeg",
-      "/western-dresses/6514.jpg.jpeg",
-      "/western-dresses/6515.jpg.jpeg",
-      "/western-dresses/9673.jpg.jpeg",
-      "/western-dresses/9896.jpg.jpeg",
-      "/western-dresses/10235.jpg.jpeg",
-      "/western-dresses/10241.jpg.jpeg",
-      "/western-dresses/10242.jpg.jpeg",
-      "/western-dresses/10633.jpg.jpeg",
-      "/western-dresses/10866.jpg.jpeg",
-      "/western-dresses/10949.jpg.jpeg",
-      "/western-dresses/11079.jpg.jpeg",
-      "/western-dresses/11175.jpg.jpeg",
-      "/western-dresses/11176.jpg.jpeg",
-      "/western-dresses/11261.jpg.jpeg",
-      "/western-dresses/11266.jpg.jpeg",
-      "/western-dresses/11315.jpg.jpeg",
-      "/western-dresses/11398.jpg.jpeg",
-      "/western-dresses/11485.jpg.jpeg",
-      "/western-dresses/11486.jpg.jpeg",
-      "/western-dresses/11532.jpg.jpeg",
-      "/western-dresses/11642.jpg.jpeg",
-      "/western-dresses/11775.jpg.jpeg",
-      "/western-dresses/11838.jpg.jpeg",
-      "/western-dresses/11927.jpg.jpeg",
-      "/western-dresses/11928.jpg.jpeg",
-      "/western-dresses/12107.jpg.jpeg",
-      "/western-dresses/12151.jpg.jpeg",
-      "/western-dresses/12152.jpg.jpeg",
-      "/western-dresses/12255.jpg.jpeg",
-      "/western-dresses/12333.jpg.jpeg",
-      "/western-dresses/12466.jpg.jpeg",
-      "/western-dresses/12887.jpg.jpeg",
-      "/western-dresses/12888.jpg.jpeg",
-      "/western-dresses/13345.jpg.jpeg",
-      "/western-dresses/13632.jpg.jpeg",
-      "/western-dresses/16653.jpg.jpeg",
-      "/western-dresses/16654.jpg.jpeg",
-      "/western-dresses/16658.jpg.jpeg",
-      "/western-dresses/16659.jpg.jpeg",
-      "/western-dresses/59333.jpg.jpeg",
-      "/western-dresses/59336.jpg.jpeg",
-      "/western-dresses/68015.jpg.jpeg",
-      "/western-dresses/68018.jpg.jpeg",
-      "/western-dresses/68021.jpg.jpeg",
-      "/western-dresses/68024.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA0646.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA1584.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2087.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA2711.jpg (1).jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg",
-      "/western-dresses/IMG-20261103-WA3311.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4140.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4140.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA4719.jpg (1).jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA4719.jpg (1).jpeg",
-      "/western-dresses/IMG-20261103-WA5294.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA5701.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6421.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA6893.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA6893.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA7377.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8087.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8087.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA8635.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA8635.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9273.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9273.jpg.jpeg",
-      "/western-dresses/IMG-20261103-WA9701.jpg.jpeg",
-      "/western-dresses/dresses-images/IMG-20261103-WA9701.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/1669.jpg.jpeg",
-          "/western-dresses/5594.jpg.jpeg",
-          "/western-dresses/5757.jpg.jpeg",
-          "/western-dresses/6048.jpg.jpeg",
-          "/western-dresses/6049.jpg.jpeg",
-          "/western-dresses/6051.jpg.jpeg",
-          "/western-dresses/6268.jpg.jpeg",
-          "/western-dresses/6307.jpg.jpeg",
-          "/western-dresses/6513.jpg.jpeg",
-          "/western-dresses/6514.jpg.jpeg",
-          "/western-dresses/6515.jpg.jpeg",
-          "/western-dresses/10949.jpg.jpeg",
-          "/western-dresses/11266.jpg.jpeg",
-          "/western-dresses/11486.jpg.jpeg",
-          "/western-dresses/11838.jpg.jpeg",
-          "/western-dresses/12107.jpg.jpeg",
-          "/western-dresses/16654.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA1584.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5701.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6421.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/1670.jpg.jpeg",
-          "/western-dresses/6054.jpg.jpeg",
-          "/western-dresses/6055.jpg.jpeg",
-          "/western-dresses/6308.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8087.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5487.jpg.jpeg",
-          "/western-dresses/5593.jpg.jpeg",
-          "/western-dresses/5595.jpg.jpeg",
-          "/western-dresses/5596.jpg.jpeg",
-          "/western-dresses/5672.jpg.jpeg",
-          "/western-dresses/5674.jpg.jpeg",
-          "/western-dresses/5675.jpg.jpeg",
-          "/western-dresses/5676.jpg.jpeg",
-          "/western-dresses/5677.jpg.jpeg",
-          "/western-dresses/5678.jpg.jpeg",
-          "/western-dresses/5866.jpg.jpeg",
-          "/western-dresses/5867.jpg.jpeg",
-          "/western-dresses/5941.jpg (1).jpeg",
-          "/western-dresses/5941.jpg.jpeg",
-          "/western-dresses/5942.jpg (1).jpeg",
-          "/western-dresses/5942.jpg.jpeg",
-          "/western-dresses/6050.jpg.jpeg",
-          "/western-dresses/6052.jpg.jpeg",
-          "/western-dresses/6053.jpg.jpeg",
-          "/western-dresses/6090.jpg.jpeg",
-          "/western-dresses/6114.jpg.jpeg",
-          "/western-dresses/6115.jpg.jpeg",
-          "/western-dresses/6174.jpg.jpeg",
-          "/western-dresses/6175.jpg.jpeg",
-          "/western-dresses/6347.jpg.jpeg",
-          "/western-dresses/6371.jpg.jpeg",
-          "/western-dresses/9673.jpg.jpeg",
-          "/western-dresses/10633.jpg.jpeg",
-          "/western-dresses/11079.jpg.jpeg",
-          "/western-dresses/11176.jpg.jpeg",
-          "/western-dresses/11261.jpg.jpeg",
-          "/western-dresses/11398.jpg.jpeg",
-          "/western-dresses/11775.jpg.jpeg",
-          "/western-dresses/11927.jpg.jpeg",
-          "/western-dresses/12333.jpg.jpeg",
-          "/western-dresses/12887.jpg.jpeg",
-          "/western-dresses/12888.jpg.jpeg",
-          "/western-dresses/16653.jpg.jpeg",
-          "/western-dresses/59333.jpg.jpeg",
-          "/western-dresses/59336.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA0646.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2711.jpg (1).jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg",
-          "/western-dresses/IMG-20261103-WA3311.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA4719.jpg (1).jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4719.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5792.jpg.jpeg",
-          "/western-dresses/5793.jpg.jpeg",
-          "/western-dresses/6204.jpg.jpeg",
-          "/western-dresses/11175.jpg.jpeg",
-          "/western-dresses/11315.jpg.jpeg",
-          "/western-dresses/12152.jpg.jpeg",
-          "/western-dresses/12255.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA2087.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA8635.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA8635.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/5868.jpg.jpeg",
-          "/western-dresses/12151.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9701.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/5964.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Forest Emerald",
-        "colorCode": "#14532D",
-        "images": [
-          "/western-dresses/6142.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/6143.jpg.jpeg",
-          "/western-dresses/9896.jpg.jpeg",
-          "/western-dresses/11928.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA5294.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA9273.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA9273.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6221.jpg.jpeg",
-          "/western-dresses/6264.jpg.jpeg",
-          "/western-dresses/10866.jpg.jpeg",
-          "/western-dresses/13632.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/6222.jpg.jpeg",
-          "/western-dresses/6370.jpg.jpeg",
-          "/western-dresses/10235.jpg.jpeg",
-          "/western-dresses/10241.jpg.jpeg",
-          "/western-dresses/10242.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6398.jpg.jpeg",
-          "/western-dresses/11532.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA7377.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/11485.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/western-dresses/11642.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/12466.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/western-dresses/13345.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/16658.jpg.jpeg",
-          "/western-dresses/16659.jpg.jpeg",
-          "/western-dresses/IMG-20261103-WA6893.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA6893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/western-dresses/68015.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-18",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/western-dresses/68018.jpg.jpeg",
-          "/western-dresses/68021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-19",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/68024.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-20",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4140.jpg.jpeg",
-          "/western-dresses/dresses-images/IMG-20261103-WA4140.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -9598,19 +25794,2227 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Draped Silk Cowl Neck Evening Dress is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 131 photographic views, tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
-    "details": [
-      "Authentic Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/western-dresses/1669.jpg.jpeg",
+    "mainImage": "/western-dresses/1669.jpg.jpeg",
+    "images": [
+      "/western-dresses/1669.jpg.jpeg",
+      "/western-dresses/5594.jpg.jpeg",
+      "/western-dresses/5757.jpg.jpeg",
+      "/western-dresses/6048.jpg.jpeg",
+      "/western-dresses/6049.jpg.jpeg",
+      "/western-dresses/6051.jpg.jpeg",
+      "/western-dresses/6268.jpg.jpeg",
+      "/western-dresses/6307.jpg.jpeg",
+      "/western-dresses/6513.jpg.jpeg",
+      "/western-dresses/6514.jpg.jpeg",
+      "/western-dresses/6515.jpg.jpeg",
+      "/western-dresses/10949.jpg.jpeg",
+      "/western-dresses/11266.jpg.jpeg",
+      "/western-dresses/11486.jpg.jpeg",
+      "/western-dresses/11838.jpg.jpeg",
+      "/western-dresses/12107.jpg.jpeg",
+      "/western-dresses/16654.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1584.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5701.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6421.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg"
     ],
+    "gallery": [
+      "/western-dresses/1669.jpg.jpeg",
+      "/western-dresses/5594.jpg.jpeg",
+      "/western-dresses/5757.jpg.jpeg",
+      "/western-dresses/6048.jpg.jpeg",
+      "/western-dresses/6049.jpg.jpeg",
+      "/western-dresses/6051.jpg.jpeg",
+      "/western-dresses/6268.jpg.jpeg",
+      "/western-dresses/6307.jpg.jpeg",
+      "/western-dresses/6513.jpg.jpeg",
+      "/western-dresses/6514.jpg.jpeg",
+      "/western-dresses/6515.jpg.jpeg",
+      "/western-dresses/10949.jpg.jpeg",
+      "/western-dresses/11266.jpg.jpeg",
+      "/western-dresses/11486.jpg.jpeg",
+      "/western-dresses/11838.jpg.jpeg",
+      "/western-dresses/12107.jpg.jpeg",
+      "/western-dresses/16654.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA1584.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5701.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6421.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/1669.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5594.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/5757.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6048.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6049.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6051.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6268.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6307.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6513.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6514.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/6515.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/10949.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11266.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11486.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/11838.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/12107.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/16654.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA1584.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5701.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6421.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v2",
+    "title": "Ivory Cream Draped Silk Cowl Neck Evening Dress",
+    "slug": "ivory-cream-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v2",
+      "ivory-cream-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-2"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-WD-0012",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/1670.jpg.jpeg",
+    "mainImage": "/western-dresses/1670.jpg.jpeg",
+    "images": [
+      "/western-dresses/1670.jpg.jpeg",
+      "/western-dresses/6054.jpg.jpeg",
+      "/western-dresses/6055.jpg.jpeg",
+      "/western-dresses/6308.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8087.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8087.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/1670.jpg.jpeg",
+      "/western-dresses/6054.jpg.jpeg",
+      "/western-dresses/6055.jpg.jpeg",
+      "/western-dresses/6308.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8087.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8087.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/1670.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6054.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6055.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/6308.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8087.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8087.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v3",
+    "title": "Warm Caramel Draped Silk Cowl Neck Evening Dress",
+    "slug": "warm-caramel-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v3",
+      "warm-caramel-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-3"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5487.jpg.jpeg",
+    "mainImage": "/western-dresses/5487.jpg.jpeg",
+    "images": [
+      "/western-dresses/5487.jpg.jpeg",
+      "/western-dresses/5593.jpg.jpeg",
+      "/western-dresses/5595.jpg.jpeg",
+      "/western-dresses/5596.jpg.jpeg",
+      "/western-dresses/5672.jpg.jpeg",
+      "/western-dresses/5674.jpg.jpeg",
+      "/western-dresses/5675.jpg.jpeg",
+      "/western-dresses/5676.jpg.jpeg",
+      "/western-dresses/5677.jpg.jpeg",
+      "/western-dresses/5678.jpg.jpeg",
+      "/western-dresses/5866.jpg.jpeg",
+      "/western-dresses/5867.jpg.jpeg",
+      "/western-dresses/5941.jpg (1).jpeg",
+      "/western-dresses/5941.jpg.jpeg",
+      "/western-dresses/5942.jpg (1).jpeg",
+      "/western-dresses/5942.jpg.jpeg",
+      "/western-dresses/6050.jpg.jpeg",
+      "/western-dresses/6052.jpg.jpeg",
+      "/western-dresses/6053.jpg.jpeg",
+      "/western-dresses/6090.jpg.jpeg",
+      "/western-dresses/6114.jpg.jpeg",
+      "/western-dresses/6115.jpg.jpeg",
+      "/western-dresses/6174.jpg.jpeg",
+      "/western-dresses/6175.jpg.jpeg",
+      "/western-dresses/6347.jpg.jpeg",
+      "/western-dresses/6371.jpg.jpeg",
+      "/western-dresses/9673.jpg.jpeg",
+      "/western-dresses/10633.jpg.jpeg",
+      "/western-dresses/11079.jpg.jpeg",
+      "/western-dresses/11176.jpg.jpeg",
+      "/western-dresses/11261.jpg.jpeg",
+      "/western-dresses/11398.jpg.jpeg",
+      "/western-dresses/11775.jpg.jpeg",
+      "/western-dresses/11927.jpg.jpeg",
+      "/western-dresses/12333.jpg.jpeg",
+      "/western-dresses/12887.jpg.jpeg",
+      "/western-dresses/12888.jpg.jpeg",
+      "/western-dresses/16653.jpg.jpeg",
+      "/western-dresses/59333.jpg.jpeg",
+      "/western-dresses/59336.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2711.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg",
+      "/western-dresses/IMG-20261103-WA3311.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4719.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4719.jpg (1).jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5487.jpg.jpeg",
+      "/western-dresses/5593.jpg.jpeg",
+      "/western-dresses/5595.jpg.jpeg",
+      "/western-dresses/5596.jpg.jpeg",
+      "/western-dresses/5672.jpg.jpeg",
+      "/western-dresses/5674.jpg.jpeg",
+      "/western-dresses/5675.jpg.jpeg",
+      "/western-dresses/5676.jpg.jpeg",
+      "/western-dresses/5677.jpg.jpeg",
+      "/western-dresses/5678.jpg.jpeg",
+      "/western-dresses/5866.jpg.jpeg",
+      "/western-dresses/5867.jpg.jpeg",
+      "/western-dresses/5941.jpg (1).jpeg",
+      "/western-dresses/5941.jpg.jpeg",
+      "/western-dresses/5942.jpg (1).jpeg",
+      "/western-dresses/5942.jpg.jpeg",
+      "/western-dresses/6050.jpg.jpeg",
+      "/western-dresses/6052.jpg.jpeg",
+      "/western-dresses/6053.jpg.jpeg",
+      "/western-dresses/6090.jpg.jpeg",
+      "/western-dresses/6114.jpg.jpeg",
+      "/western-dresses/6115.jpg.jpeg",
+      "/western-dresses/6174.jpg.jpeg",
+      "/western-dresses/6175.jpg.jpeg",
+      "/western-dresses/6347.jpg.jpeg",
+      "/western-dresses/6371.jpg.jpeg",
+      "/western-dresses/9673.jpg.jpeg",
+      "/western-dresses/10633.jpg.jpeg",
+      "/western-dresses/11079.jpg.jpeg",
+      "/western-dresses/11176.jpg.jpeg",
+      "/western-dresses/11261.jpg.jpeg",
+      "/western-dresses/11398.jpg.jpeg",
+      "/western-dresses/11775.jpg.jpeg",
+      "/western-dresses/11927.jpg.jpeg",
+      "/western-dresses/12333.jpg.jpeg",
+      "/western-dresses/12887.jpg.jpeg",
+      "/western-dresses/12888.jpg.jpeg",
+      "/western-dresses/16653.jpg.jpeg",
+      "/western-dresses/59333.jpg.jpeg",
+      "/western-dresses/59336.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA0646.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2711.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg",
+      "/western-dresses/IMG-20261103-WA3311.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA4719.jpg (1).jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4719.jpg (1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5487.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5593.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5595.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5596.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5672.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5674.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5675.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5676.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5677.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5678.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5866.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5867.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5941.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5941.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5942.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/5942.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6050.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6052.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-19",
+        "name": "Styling 19",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6053.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-20",
+        "name": "Styling 20",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6090.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-21",
+        "name": "Styling 21",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6114.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-22",
+        "name": "Styling 22",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6115.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-23",
+        "name": "Styling 23",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6174.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-24",
+        "name": "Styling 24",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6175.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-25",
+        "name": "Styling 25",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6347.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-26",
+        "name": "Styling 26",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/6371.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-27",
+        "name": "Styling 27",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/9673.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-28",
+        "name": "Styling 28",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/10633.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-29",
+        "name": "Styling 29",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11079.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-30",
+        "name": "Styling 30",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11176.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-31",
+        "name": "Styling 31",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11261.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-32",
+        "name": "Styling 32",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-33",
+        "name": "Styling 33",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11775.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-34",
+        "name": "Styling 34",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/11927.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-35",
+        "name": "Styling 35",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12333.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-36",
+        "name": "Styling 36",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12887.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-37",
+        "name": "Styling 37",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/12888.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-38",
+        "name": "Styling 38",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/16653.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-39",
+        "name": "Styling 39",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/59333.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-40",
+        "name": "Styling 40",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/59336.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-41",
+        "name": "Styling 41",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-42",
+        "name": "Styling 42",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA0646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-43",
+        "name": "Styling 43",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-44",
+        "name": "Styling 44",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2711.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-45",
+        "name": "Styling 45",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-46",
+        "name": "Styling 46",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA3311.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-47",
+        "name": "Styling 47",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-48",
+        "name": "Styling 48",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4719.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-49",
+        "name": "Styling 49",
+        "colorCode": "#D97706",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4719.jpg (1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v4",
+    "title": "Blush Rose Draped Silk Cowl Neck Evening Dress",
+    "slug": "blush-rose-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v4",
+      "blush-rose-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-4"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5792.jpg.jpeg",
+    "mainImage": "/western-dresses/5792.jpg.jpeg",
+    "images": [
+      "/western-dresses/5792.jpg.jpeg",
+      "/western-dresses/5793.jpg.jpeg",
+      "/western-dresses/6204.jpg.jpeg",
+      "/western-dresses/11175.jpg.jpeg",
+      "/western-dresses/11315.jpg.jpeg",
+      "/western-dresses/12152.jpg.jpeg",
+      "/western-dresses/12255.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2087.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8635.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8635.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5792.jpg.jpeg",
+      "/western-dresses/5793.jpg.jpeg",
+      "/western-dresses/6204.jpg.jpeg",
+      "/western-dresses/11175.jpg.jpeg",
+      "/western-dresses/11315.jpg.jpeg",
+      "/western-dresses/12152.jpg.jpeg",
+      "/western-dresses/12255.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA2087.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA8635.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA8635.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5792.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/5793.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/6204.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11175.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/11315.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12152.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/12255.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA2087.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/IMG-20261103-WA8635.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#FB7185",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA8635.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v5",
+    "title": "Sunset Tangerine Draped Silk Cowl Neck Evening Dress",
+    "slug": "sunset-tangerine-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v5",
+      "sunset-tangerine-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-5"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5868.jpg.jpeg",
+    "mainImage": "/western-dresses/5868.jpg.jpeg",
+    "images": [
+      "/western-dresses/5868.jpg.jpeg",
+      "/western-dresses/12151.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9701.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9701.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5868.jpg.jpeg",
+      "/western-dresses/12151.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9701.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9701.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/5868.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/12151.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9701.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9701.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v6",
+    "title": "Mustard Gold Draped Silk Cowl Neck Evening Dress",
+    "slug": "mustard-gold-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v6",
+      "mustard-gold-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-6"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/5964.jpg.jpeg",
+    "mainImage": "/western-dresses/5964.jpg.jpeg",
+    "images": [
+      "/western-dresses/5964.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/5964.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/western-dresses/5964.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v7",
+    "title": "Forest Emerald Draped Silk Cowl Neck Evening Dress",
+    "slug": "forest-emerald-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v7",
+      "forest-emerald-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-7"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6142.jpg.jpeg",
+    "mainImage": "/western-dresses/6142.jpg.jpeg",
+    "images": [
+      "/western-dresses/6142.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6142.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#14532D",
+        "images": [
+          "/western-dresses/6142.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Forest Emerald Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Forest Emerald Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v8",
+    "title": "Scarlet Red Draped Silk Cowl Neck Evening Dress",
+    "slug": "scarlet-red-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v8",
+      "scarlet-red-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-8"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6143.jpg.jpeg",
+    "mainImage": "/western-dresses/6143.jpg.jpeg",
+    "images": [
+      "/western-dresses/6143.jpg.jpeg",
+      "/western-dresses/9896.jpg.jpeg",
+      "/western-dresses/11928.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5294.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9273.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9273.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6143.jpg.jpeg",
+      "/western-dresses/9896.jpg.jpeg",
+      "/western-dresses/11928.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA5294.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA9273.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA9273.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/6143.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/9896.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/11928.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/IMG-20261103-WA5294.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/IMG-20261103-WA9273.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#DC2626",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA9273.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v9",
+    "title": "Rust Terracotta Draped Silk Cowl Neck Evening Dress",
+    "slug": "rust-terracotta-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v9",
+      "rust-terracotta-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-9"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6221.jpg.jpeg",
+    "mainImage": "/western-dresses/6221.jpg.jpeg",
+    "images": [
+      "/western-dresses/6221.jpg.jpeg",
+      "/western-dresses/6264.jpg.jpeg",
+      "/western-dresses/10866.jpg.jpeg",
+      "/western-dresses/13632.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6221.jpg.jpeg",
+      "/western-dresses/6264.jpg.jpeg",
+      "/western-dresses/10866.jpg.jpeg",
+      "/western-dresses/13632.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6221.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/6264.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/10866.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/western-dresses/13632.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v10",
+    "title": "Ruby Crimson Draped Silk Cowl Neck Evening Dress",
+    "slug": "ruby-crimson-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v10",
+      "ruby-crimson-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-10"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6222.jpg.jpeg",
+    "mainImage": "/western-dresses/6222.jpg.jpeg",
+    "images": [
+      "/western-dresses/6222.jpg.jpeg",
+      "/western-dresses/6370.jpg.jpeg",
+      "/western-dresses/10235.jpg.jpeg",
+      "/western-dresses/10241.jpg.jpeg",
+      "/western-dresses/10242.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6222.jpg.jpeg",
+      "/western-dresses/6370.jpg.jpeg",
+      "/western-dresses/10235.jpg.jpeg",
+      "/western-dresses/10241.jpg.jpeg",
+      "/western-dresses/10242.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/6222.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/6370.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/10235.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/10241.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#991B1B",
+        "images": [
+          "/western-dresses/10242.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v11",
+    "title": "Charcoal Slate Draped Silk Cowl Neck Evening Dress",
+    "slug": "charcoal-slate-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v11",
+      "charcoal-slate-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-11"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/6398.jpg.jpeg",
+    "mainImage": "/western-dresses/6398.jpg.jpeg",
+    "images": [
+      "/western-dresses/6398.jpg.jpeg",
+      "/western-dresses/11532.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7377.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/6398.jpg.jpeg",
+      "/western-dresses/11532.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA7377.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/6398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/11532.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/IMG-20261103-WA7377.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v12",
+    "title": "Sand Ochre Draped Silk Cowl Neck Evening Dress",
+    "slug": "sand-ochre-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v12",
+      "sand-ochre-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-12"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11485.jpg.jpeg",
+    "mainImage": "/western-dresses/11485.jpg.jpeg",
+    "images": [
+      "/western-dresses/11485.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11485.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/western-dresses/11485.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v13",
+    "title": "Sage Olive Draped Silk Cowl Neck Evening Dress",
+    "slug": "sage-olive-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v13",
+      "sage-olive-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-13"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/11642.jpg.jpeg",
+    "mainImage": "/western-dresses/11642.jpg.jpeg",
+    "images": [
+      "/western-dresses/11642.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/11642.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/western-dresses/11642.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v14",
+    "title": "Midnight Navy Draped Silk Cowl Neck Evening Dress",
+    "slug": "midnight-navy-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v14",
+      "midnight-navy-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-14"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/12466.jpg.jpeg",
+    "mainImage": "/western-dresses/12466.jpg.jpeg",
+    "images": [
+      "/western-dresses/12466.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/12466.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/western-dresses/12466.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v15",
+    "title": "Berry Magenta Draped Silk Cowl Neck Evening Dress",
+    "slug": "berry-magenta-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v15",
+      "berry-magenta-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-15"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/13345.jpg.jpeg",
+    "mainImage": "/western-dresses/13345.jpg.jpeg",
+    "images": [
+      "/western-dresses/13345.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/13345.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/western-dresses/13345.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v16",
+    "title": "Orchid Pink Draped Silk Cowl Neck Evening Dress",
+    "slug": "orchid-pink-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v16",
+      "orchid-pink-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-16"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/16658.jpg.jpeg",
+    "mainImage": "/western-dresses/16658.jpg.jpeg",
+    "images": [
+      "/western-dresses/16658.jpg.jpeg",
+      "/western-dresses/16659.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6893.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6893.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/16658.jpg.jpeg",
+      "/western-dresses/16659.jpg.jpeg",
+      "/western-dresses/IMG-20261103-WA6893.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA6893.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/16658.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/16659.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/IMG-20261103-WA6893.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA6893.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v17",
+    "title": "Sky Azure Draped Silk Cowl Neck Evening Dress",
+    "slug": "sky-azure-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v17",
+      "sky-azure-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-17"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/68015.jpg.jpeg",
+    "mainImage": "/western-dresses/68015.jpg.jpeg",
+    "images": [
+      "/western-dresses/68015.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/68015.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/western-dresses/68015.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v18",
+    "title": "Indigo Royal Draped Silk Cowl Neck Evening Dress",
+    "slug": "indigo-royal-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v18",
+      "indigo-royal-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-18"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/68018.jpg.jpeg",
+    "mainImage": "/western-dresses/68018.jpg.jpeg",
+    "images": [
+      "/western-dresses/68018.jpg.jpeg",
+      "/western-dresses/68021.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/68018.jpg.jpeg",
+      "/western-dresses/68021.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/western-dresses/68018.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/western-dresses/68021.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v19",
+    "title": "Steel Slate Draped Silk Cowl Neck Evening Dress",
+    "slug": "steel-slate-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v19",
+      "steel-slate-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-19"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/68024.jpg.jpeg",
+    "mainImage": "/western-dresses/68024.jpg.jpeg",
+    "images": [
+      "/western-dresses/68024.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/68024.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/western-dresses/68024.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V19",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "wd-0012-v20",
+    "title": "Midnight Black Draped Silk Cowl Neck Evening Dress",
+    "slug": "midnight-black-draped-silk-cowl-neck-evening-dress",
+    "aliasSlugs": [
+      "wd-0012-v20",
+      "midnight-black-draped-silk-cowl-neck-evening-dress",
+      "draped-silk-cowl-neck-evening-dress-var-20"
+    ],
+    "category": "Western Dresses",
+    "category_id": "western-dresses",
+    "category_name": "Western Dresses",
+    "category_slug": "western-dresses",
+    "tab": "western-dresses",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2499,
+    "salePrice": 1899,
+    "price": 1899,
+    "fabric": "Pure Mulmul Cotton with Hand-Blocked Motifs",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/western-dresses/IMG-20261103-WA4140.jpg.jpeg",
+    "mainImage": "/western-dresses/IMG-20261103-WA4140.jpg.jpeg",
+    "images": [
+      "/western-dresses/IMG-20261103-WA4140.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4140.jpg.jpeg"
+    ],
+    "gallery": [
+      "/western-dresses/IMG-20261103-WA4140.jpg.jpeg",
+      "/western-dresses/dresses-images/IMG-20261103-WA4140.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/IMG-20261103-WA4140.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/western-dresses/dresses-images/IMG-20261103-WA4140.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Draped Silk Cowl Neck Evening Dress handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Hand-Blocked Motifs with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Draped Silk Cowl Neck Evening Dress crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton with Hand-Blocked Motifs with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-WD-0012-V20",
+    "inStock": true,
+    "stockQty": 50
   }
 ];

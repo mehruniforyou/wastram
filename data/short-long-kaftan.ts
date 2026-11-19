@@ -1,12 +1,15 @@
-﻿// Wastram Atelier â€” short-long-kaftan catalogue (consolidated 12 canonical products)
+// Wastram Atelier — short-long-kaftan catalogue (Reconstructed 173 Individual Products)
 import { NishoramaProduct } from './nishorama-data';
 
 export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
   {
-    "id": "kf-0001",
-    "title": "Bandhani Silk Kimono Kaftan",
-    "slug": "bandhani-silk-kimono-kaftan",
+    "id": "kf-0001-v1",
+    "title": "Steel Slate Bandhani Silk Kimono Kaftan",
+    "slug": "steel-slate-bandhani-silk-kimono-kaftan",
     "aliasSlugs": [
+      "kf-0001-v1",
+      "steel-slate-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-1",
       "ananya-bandhani-modal-silk-kimono-sleeve-maxi-kaftan",
       "aria-bandhani-modal-silk-kimono-sleeve-maxi-kaftan",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-15-sk-0127",
@@ -203,203 +206,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "yami-bandhani-modal-silk-kimono-sleeve-maxi-kaftan",
       "zoya-bandhani-modal-silk-kimono-sleeve-maxi-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg",
-      "/short-long-kaftan/FB_IMG_1684589219084.jpg%20(1).jpeg",
-      "/short-long-kaftan/FB_IMG_1684589219084.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641836259.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349911386.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722018740289.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722018742733.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024386589.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1781723119261.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1781723121097.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1781723122908.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535300630.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535425779.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536097773.jpg.jpeg",
-      "/short-long-kaftan/0299833f15c90c0a52c6f7ccf9ad987a_2.jpg.jpeg",
-      "/short-long-kaftan/2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg",
-      "/short-long-kaftan/4b63a5097689988a0499ca40ac6373a4_2.jpg.jpeg",
-      "/short-long-kaftan/6288be65095fad1f521e0850e1c89ad6_2.jpg.jpeg",
-      "/short-long-kaftan/798a62020c353bd206f5a55c27679a58.jpg.jpeg",
-      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374 (1).jpg.jpeg",
-      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374%20(1).jpg.jpeg",
-      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374_2.jpg.jpeg",
-      "/short-long-kaftan/b3a12cd847cc87a9a84867f8a9d94160_2.jpg.jpeg",
-      "/short-long-kaftan/db9aebb2832c860884a8ec5b83fc31d4_2.jpg.jpeg",
-      "/short-long-kaftan/eb26d74a2e9d5b3adb45dd77cacef44d_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2692.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2692.JPG.jpeg",
-      "/short-long-kaftan/_MG_3079.JPG.jpeg",
-      "/short-long-kaftan/_MG_3080.JPG.jpeg",
-      "/short-long-kaftan/_MG_3081.JPG.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1043(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1043.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1043_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1114_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0133.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0078.jpg.jpeg",
-      "/short-long-kaftan/dresses-images/IMG-20261103-WA8575.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA3638.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9593.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535300630.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535425779.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536097773.jpg.jpeg",
-          "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374 (1).jpg.jpeg",
-          "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_3079.JPG.jpeg",
-          "/short-long-kaftan/_MG_3080.JPG.jpeg",
-          "/short-long-kaftan/_MG_3081.JPG.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA3638.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA9593.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg",
-          "/short-long-kaftan/FB_IMG_1684589219084.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1781723119261.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1043(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1043.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1043_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589219084.jpg%20(1).jpeg",
-          "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374%20(1).jpg.jpeg",
-          "/short-long-kaftan/_MG_2692.JPG%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1695641836259.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722018740289.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722018742733.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg",
-          "/short-long-kaftan/b3a12cd847cc87a9a84867f8a9d94160_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1711349911386.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024386589.jpg.jpeg",
-          "/short-long-kaftan/2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg",
-          "/short-long-kaftan/eb26d74a2e9d5b3adb45dd77cacef44d_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1781723121097.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1781723122908.jpg.jpeg",
-          "/short-long-kaftan/4b63a5097689988a0499ca40ac6373a4_2.jpg.jpeg",
-          "/short-long-kaftan/6288be65095fad1f521e0850e1c89ad6_2.jpg.jpeg",
-          "/short-long-kaftan/dresses-images/IMG-20261103-WA8575.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/0299833f15c90c0a52c6f7ccf9ad987a_2.jpg.jpeg",
-          "/short-long-kaftan/db9aebb2832c860884a8ec5b83fc31d4_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/short-long-kaftan/798a62020c353bd206f5a55c27679a58.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/_MG_2692.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1114_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0133.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/short-long-kaftan/IMG-20261005-WA0078.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -407,26 +224,1095 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Bandhani Silk Kimono Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 45 photographic views, tailored in Lightweight Modal Satin Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Lightweight Modal Satin Blend",
-    "details": [
-      "Authentic Bandhani Silk Kimono Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Lightweight Modal Satin Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0001",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0002",
-    "title": "Chikankari Embroidered Kaftan",
-    "slug": "chikankari-embroidered-kaftan",
+    "id": "kf-0001-v2",
+    "title": "Warm Caramel Bandhani Silk Kimono Kaftan",
+    "slug": "warm-caramel-bandhani-silk-kimono-kaftan",
     "aliasSlugs": [
+      "kf-0001-v2",
+      "warm-caramel-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535300630.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535425779.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536097773.jpg.jpeg",
+      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374 (1).jpg.jpeg",
+      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_3079.JPG.jpeg",
+      "/short-long-kaftan/_MG_3080.JPG.jpeg",
+      "/short-long-kaftan/_MG_3081.JPG.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3638.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9593.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535300630.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535425779.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536097773.jpg.jpeg",
+      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374 (1).jpg.jpeg",
+      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_3079.JPG.jpeg",
+      "/short-long-kaftan/_MG_3080.JPG.jpeg",
+      "/short-long-kaftan/_MG_3081.JPG.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3638.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9593.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535300630.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535425779.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536097773.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/_MG_3079.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/_MG_3080.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/_MG_3081.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA3638.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA9593.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v3",
+    "title": "Pebble Grey Bandhani Silk Kimono Kaftan",
+    "slug": "pebble-grey-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v3",
+      "pebble-grey-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg",
+      "/short-long-kaftan/FB_IMG_1684589219084.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1781723119261.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1043(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1043.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1043_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg",
+      "/short-long-kaftan/FB_IMG_1684589219084.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1781723119261.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1043(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1043.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1043_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589219084.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1781723119261.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1043(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1043.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1043_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v4",
+    "title": "Artisan Earth Bandhani Silk Kimono Kaftan",
+    "slug": "artisan-earth-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v4",
+      "artisan-earth-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589219084.jpg%20(1).jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589219084.jpg%20(1).jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589219084.jpg%20(1).jpeg",
+      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2692.JPG%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589219084.jpg%20(1).jpeg",
+      "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2692.JPG%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589219084.jpg%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/9e799087a9f54cc5a5c80bd3071c0374%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2692.JPG%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v5",
+    "title": "Blush Rose Bandhani Silk Kimono Kaftan",
+    "slug": "blush-rose-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v5",
+      "blush-rose-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1695641836259.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722018740289.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722018742733.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1695641836259.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722018740289.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722018742733.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641836259.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722018740289.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722018742733.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v6",
+    "title": "Charcoal Slate Bandhani Silk Kimono Kaftan",
+    "slug": "charcoal-slate-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v6",
+      "charcoal-slate-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg",
+      "/short-long-kaftan/b3a12cd847cc87a9a84867f8a9d94160_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg",
+      "/short-long-kaftan/b3a12cd847cc87a9a84867f8a9d94160_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/b3a12cd847cc87a9a84867f8a9d94160_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v7",
+    "title": "Mustard Gold Bandhani Silk Kimono Kaftan",
+    "slug": "mustard-gold-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v7",
+      "mustard-gold-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1711349911386.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1711349911386.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1711349911386.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024386589.jpg.jpeg",
+      "/short-long-kaftan/2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg",
+      "/short-long-kaftan/eb26d74a2e9d5b3adb45dd77cacef44d_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1711349911386.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024386589.jpg.jpeg",
+      "/short-long-kaftan/2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg",
+      "/short-long-kaftan/eb26d74a2e9d5b3adb45dd77cacef44d_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349911386.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024386589.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/eb26d74a2e9d5b3adb45dd77cacef44d_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v8",
+    "title": "Sand Ochre Bandhani Silk Kimono Kaftan",
+    "slug": "sand-ochre-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v8",
+      "sand-ochre-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1781723121097.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1781723121097.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1781723121097.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1781723122908.jpg.jpeg",
+      "/short-long-kaftan/4b63a5097689988a0499ca40ac6373a4_2.jpg.jpeg",
+      "/short-long-kaftan/6288be65095fad1f521e0850e1c89ad6_2.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA8575.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1781723121097.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1781723122908.jpg.jpeg",
+      "/short-long-kaftan/4b63a5097689988a0499ca40ac6373a4_2.jpg.jpeg",
+      "/short-long-kaftan/6288be65095fad1f521e0850e1c89ad6_2.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA8575.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1781723121097.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1781723122908.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/4b63a5097689988a0499ca40ac6373a4_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/6288be65095fad1f521e0850e1c89ad6_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/dresses-images/IMG-20261103-WA8575.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v9",
+    "title": "Aqua Marine Bandhani Silk Kimono Kaftan",
+    "slug": "aqua-marine-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v9",
+      "aqua-marine-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/0299833f15c90c0a52c6f7ccf9ad987a_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/0299833f15c90c0a52c6f7ccf9ad987a_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/0299833f15c90c0a52c6f7ccf9ad987a_2.jpg.jpeg",
+      "/short-long-kaftan/db9aebb2832c860884a8ec5b83fc31d4_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/0299833f15c90c0a52c6f7ccf9ad987a_2.jpg.jpeg",
+      "/short-long-kaftan/db9aebb2832c860884a8ec5b83fc31d4_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/0299833f15c90c0a52c6f7ccf9ad987a_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/db9aebb2832c860884a8ec5b83fc31d4_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v10",
+    "title": "Indigo Royal Bandhani Silk Kimono Kaftan",
+    "slug": "indigo-royal-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v10",
+      "indigo-royal-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/798a62020c353bd206f5a55c27679a58.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/798a62020c353bd206f5a55c27679a58.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/798a62020c353bd206f5a55c27679a58.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/798a62020c353bd206f5a55c27679a58.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/798a62020c353bd206f5a55c27679a58.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v11",
+    "title": "Sunset Tangerine Bandhani Silk Kimono Kaftan",
+    "slug": "sunset-tangerine-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v11",
+      "sunset-tangerine-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2692.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2692.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2692.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2692.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2692.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v12",
+    "title": "Berry Magenta Bandhani Silk Kimono Kaftan",
+    "slug": "berry-magenta-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v12",
+      "berry-magenta-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1114_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1114_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1114_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v13",
+    "title": "Orchid Pink Bandhani Silk Kimono Kaftan",
+    "slug": "orchid-pink-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v13",
+      "orchid-pink-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0133.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0133.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0133.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0001-v14",
+    "title": "Scarlet Red Bandhani Silk Kimono Kaftan",
+    "slug": "scarlet-red-bandhani-silk-kimono-kaftan",
+    "aliasSlugs": [
+      "kf-0001-v14",
+      "scarlet-red-bandhani-silk-kimono-kaftan",
+      "bandhani-silk-kimono-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20261005-WA0078.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20261005-WA0078.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20261005-WA0078.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20261005-WA0078.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0078.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Bandhani Silk Kimono Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Bandhani Silk Kimono Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0001-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v1",
+    "title": "Sage Olive Chikankari Embroidered Kaftan",
+    "slug": "sage-olive-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v1",
+      "sage-olive-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-1",
       "ananya-chikankari-hand-embroidered-relaxed-fit-kaftan",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-23-sk-0201",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-29-edition-2-sk-0263",
@@ -644,233 +1530,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "tamannaah-chikankari-hand-embroidered-relaxed-fit-kaftan",
       "zoya-chikankari-hand-embroidered-relaxed-fit-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061009608.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061500163.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349914089.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360286419.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360288829.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024418251.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1783346460423.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1783346462032.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1783346464192.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535448346.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg",
-      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99 (1).jpg.jpeg",
-      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99%20(1).jpg.jpeg",
-      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99_2.jpg.jpeg",
-      "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg",
-      "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb_2.jpg.jpeg",
-      "/short-long-kaftan/4c536dab63b903987f04e1f455c684bb_2.jpg.jpeg",
-      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2 (1).jpg.jpeg",
-      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2%20(1).jpg.jpeg",
-      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2-1.jpg.jpeg",
-      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2_2.jpg.jpeg",
-      "/short-long-kaftan/7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg",
-      "/short-long-kaftan/9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg",
-      "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2-1.jpg.jpeg",
-      "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2_2.jpg.jpeg",
-      "/short-long-kaftan/dbbc8d0decd2b24165e1e85ac6dccfb8_1.jpg.jpeg",
-      "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c-1.jpg.jpeg",
-      "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2699.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2699.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2699.JPG.jpeg",
-      "/short-long-kaftan/_MG_2701.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2701.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2701.JPG.jpeg",
-      "/short-long-kaftan/_MG_2702.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2702.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2702.JPG.jpeg",
-      "/short-long-kaftan/_MG_2703.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2703.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2703.JPG.jpeg",
-      "/short-long-kaftan/_MG_3082.JPG.jpeg",
-      "/short-long-kaftan/_MG_3083.JPG.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1044.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1044_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1045(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1045.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1045_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1117_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1117_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0079.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0019.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA3661.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9639.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061009608.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722360286419.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722360288829.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1783346460423.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1783346462032.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1783346464192.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535448346.jpg.jpeg",
-          "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99 (1).jpg.jpeg",
-          "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99_2.jpg.jpeg",
-          "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2-1.jpg.jpeg",
-          "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2_2.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA0019.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024418251.jpg.jpeg",
-          "/short-long-kaftan/dbbc8d0decd2b24165e1e85ac6dccfb8_1.jpg.jpeg",
-          "/short-long-kaftan/_MG_3082.JPG.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1117_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1117_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061500163.jpg.jpeg",
-          "/short-long-kaftan/7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261005-WA0079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1711349914089.jpg.jpeg",
-          "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c-1.jpg.jpeg",
-          "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
-          "/short-long-kaftan/4c536dab63b903987f04e1f455c684bb_2.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA9639.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99%20(1).jpg.jpeg",
-          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2%20(1).jpg.jpeg",
-          "/short-long-kaftan/_MG_2699.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2701.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2702.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2703.JPG%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg",
-          "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb_2.jpg.jpeg",
-          "/short-long-kaftan/9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_2699.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2699.JPG.jpeg",
-          "/short-long-kaftan/_MG_2701.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2701.JPG.jpeg",
-          "/short-long-kaftan/_MG_2702.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2702.JPG.jpeg",
-          "/short-long-kaftan/_MG_2703.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2703.JPG.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA3661.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2 (1).jpg.jpeg",
-          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2-1.jpg.jpeg",
-          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/short-long-kaftan/_MG_3083.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1044.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1044_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1045(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1045.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1045_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -878,26 +1548,1245 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Chikankari Embroidered Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 60 photographic views, tailored in Chanderi Silk with Full Soft Lining with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Chanderi Silk with Full Soft Lining",
-    "details": [
-      "Authentic Chikankari Embroidered Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Chanderi Silk with Full Soft Lining with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0002",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0003",
-    "title": "Schiffli Scalloped Hem Kaftan",
-    "slug": "schiffli-scalloped-hem-kaftan",
+    "id": "kf-0002-v2",
+    "title": "Warm Caramel Chikankari Embroidered Kaftan",
+    "slug": "warm-caramel-chikankari-embroidered-kaftan",
     "aliasSlugs": [
+      "kf-0002-v2",
+      "warm-caramel-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061009608.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360286419.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360288829.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346460423.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346462032.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346464192.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535448346.jpg.jpeg",
+      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99 (1).jpg.jpeg",
+      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99_2.jpg.jpeg",
+      "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2-1.jpg.jpeg",
+      "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0019.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061009608.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360286419.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360288829.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346460423.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346462032.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346464192.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535448346.jpg.jpeg",
+      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99 (1).jpg.jpeg",
+      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99_2.jpg.jpeg",
+      "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2-1.jpg.jpeg",
+      "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0019.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061009608.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360286419.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360288829.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1783346460423.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1783346462032.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1783346464192.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535448346.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/b4cfec990c421e645a251d73e3af73e2_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA0019.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v3",
+    "title": "Charcoal Slate Chikankari Embroidered Kaftan",
+    "slug": "charcoal-slate-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v3",
+      "charcoal-slate-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024418251.jpg.jpeg",
+      "/short-long-kaftan/dbbc8d0decd2b24165e1e85ac6dccfb8_1.jpg.jpeg",
+      "/short-long-kaftan/_MG_3082.JPG.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1117_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1117_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024418251.jpg.jpeg",
+      "/short-long-kaftan/dbbc8d0decd2b24165e1e85ac6dccfb8_1.jpg.jpeg",
+      "/short-long-kaftan/_MG_3082.JPG.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1117_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1117_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024418251.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/dbbc8d0decd2b24165e1e85ac6dccfb8_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/_MG_3082.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1117_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1117_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v4",
+    "title": "Scarlet Red Chikankari Embroidered Kaftan",
+    "slug": "scarlet-red-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v4",
+      "scarlet-red-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061500163.jpg.jpeg",
+      "/short-long-kaftan/7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0079.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061500163.jpg.jpeg",
+      "/short-long-kaftan/7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0079.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061500163.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0079.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v5",
+    "title": "Pebble Grey Chikankari Embroidered Kaftan",
+    "slug": "pebble-grey-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v5",
+      "pebble-grey-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1711349914089.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1711349914089.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1711349914089.jpg.jpeg",
+      "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c-1.jpg.jpeg",
+      "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1711349914089.jpg.jpeg",
+      "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c-1.jpg.jpeg",
+      "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349914089.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/f149db79a71778f4b30e54fc2d1e204c_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v6",
+    "title": "Blush Rose Chikankari Embroidered Kaftan",
+    "slug": "blush-rose-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v6",
+      "blush-rose-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
+      "/short-long-kaftan/4c536dab63b903987f04e1f455c684bb_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9639.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
+      "/short-long-kaftan/4c536dab63b903987f04e1f455c684bb_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9639.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/4c536dab63b903987f04e1f455c684bb_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA9639.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v7",
+    "title": "Teal Slate Chikankari Embroidered Kaftan",
+    "slug": "teal-slate-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v7",
+      "teal-slate-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v8",
+    "title": "Artisan Earth Chikankari Embroidered Kaftan",
+    "slug": "artisan-earth-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v8",
+      "artisan-earth-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99%20(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99%20(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99%20(1).jpg.jpeg",
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2699.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2701.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2702.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2703.JPG%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99%20(1).jpg.jpeg",
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2699.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2701.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2702.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2703.JPG%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/032621e28c4f0e9eeb934ff61354cd99%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2699.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2701.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2702.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2703.JPG%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v9",
+    "title": "Aqua Marine Chikankari Embroidered Kaftan",
+    "slug": "aqua-marine-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v9",
+      "aqua-marine-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg",
+      "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb_2.jpg.jpeg",
+      "/short-long-kaftan/9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2699.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2699.JPG.jpeg",
+      "/short-long-kaftan/_MG_2701.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2701.JPG.jpeg",
+      "/short-long-kaftan/_MG_2702.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2702.JPG.jpeg",
+      "/short-long-kaftan/_MG_2703.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2703.JPG.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3661.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg",
+      "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb_2.jpg.jpeg",
+      "/short-long-kaftan/9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2699.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2699.JPG.jpeg",
+      "/short-long-kaftan/_MG_2701.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2701.JPG.jpeg",
+      "/short-long-kaftan/_MG_2702.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2702.JPG.jpeg",
+      "/short-long-kaftan/_MG_2703.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2703.JPG.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3661.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2699.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2699.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2701.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2701.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2702.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2702.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2703.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2703.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA3661.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v10",
+    "title": "Sand Ochre Chikankari Embroidered Kaftan",
+    "slug": "sand-ochre-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v10",
+      "sand-ochre-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2 (1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2 (1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2 (1).jpg.jpeg",
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2-1.jpg.jpeg",
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2 (1).jpg.jpeg",
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2-1.jpg.jpeg",
+      "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/64b8b979566e5d405db75de5d84bb0e2_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v11",
+    "title": "Steel Slate Chikankari Embroidered Kaftan",
+    "slug": "steel-slate-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v11",
+      "steel-slate-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_3083.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_3083.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_3083.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_3083.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/_MG_3083.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v12",
+    "title": "Indigo Royal Chikankari Embroidered Kaftan",
+    "slug": "indigo-royal-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v12",
+      "indigo-royal-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1044.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1044_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1044.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1044_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1044.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1044_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v13",
+    "title": "Deep Teal Chikankari Embroidered Kaftan",
+    "slug": "deep-teal-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v13",
+      "deep-teal-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1045(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1045(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1045(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1045.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1045_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1045(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1045.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1045_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1045(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1045.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1045_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0002-v14",
+    "title": "Lavender Violet Chikankari Embroidered Kaftan",
+    "slug": "lavender-violet-chikankari-embroidered-kaftan",
+    "aliasSlugs": [
+      "kf-0002-v14",
+      "lavender-violet-chikankari-embroidered-kaftan",
+      "chikankari-embroidered-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Chikankari Embroidered Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Chikankari Embroidered Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0002-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v1",
+    "title": "Warm Caramel Schiffli Scalloped Hem Kaftan",
+    "slug": "warm-caramel-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v1",
+      "warm-caramel-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-1",
       "anushka-schiffli-embroidered-scalloped-hem-resort-kaftan",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-11-sk-0091",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-24-sk-0210",
@@ -1124,13 +3013,234 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "zara-schiffli-embroidered-scalloped-hem-resort-kaftan",
       "zoya-schiffli-embroidered-scalloped-hem-resort-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1655805387851.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1655805387851.jpg.jpeg",
     "images": [
       "/short-long-kaftan/FB_IMG_1655805387851.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1690178776804.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346465887.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535364884.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535368242.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536116715.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536120251.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536122180.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536124159.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536126181.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536144429.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536146518.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536148459.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536150451.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536154156.jpg.jpeg",
+      "/short-long-kaftan/f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1655805387851.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1690178776804.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346465887.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535364884.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535368242.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536116715.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536120251.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536122180.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536124159.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536126181.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536144429.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536146518.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536148459.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536150451.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536154156.jpg.jpeg",
+      "/short-long-kaftan/f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805387851.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1690178776804.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1783346465887.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535364884.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535368242.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536116715.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536120251.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536122180.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536124159.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536126181.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536144429.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536146518.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536148459.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536150451.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536154156.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v2",
+    "title": "Pebble Grey Schiffli Scalloped Hem Kaftan",
+    "slug": "pebble-grey-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v2",
+      "pebble-grey-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1655805428269.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1655805428269.jpg.jpeg",
+    "images": [
       "/short-long-kaftan/FB_IMG_1655805428269.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1655805428269_1.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1655805431250.jpg.jpeg",
@@ -1141,262 +3251,163 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "/short-long-kaftan/FB_IMG_1655805436545_1.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1655805439194.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1655805439194_1.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1690178776804.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061502466.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349916766.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360502991.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1741024420498.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1783346465887.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535364884.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535366577.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535368242.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536116715.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536120251.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536122180.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536124159.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536126181.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536144429.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536146518.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536148459.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536150451.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536152279.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536154156.jpg.jpeg",
-      "/short-long-kaftan/05dbdaa6daee33cad00f07b97f6ff364_2.jpg.jpeg",
       "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55-1.jpg.jpeg",
-      "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55_2.jpg.jpeg",
-      "/short-long-kaftan/4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg",
-      "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg",
-      "/short-long-kaftan/7bb51d2ac2488c14bc25620cf183d40e.jpg.jpeg",
-      "/short-long-kaftan/a23c46e1cc4471c0e70bba0c11396abc.jpg.jpeg",
-      "/short-long-kaftan/b92a63ae0b698080ba9bfd21b4d84164_2.jpg.jpeg",
-      "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg",
-      "/short-long-kaftan/f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg",
-      "/short-long-kaftan/_MG_2710.JPG.jpeg",
-      "/short-long-kaftan/_MG_2711.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2711.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2711.JPG.jpeg",
-      "/short-long-kaftan/_MG_2712.JPG.jpeg",
-      "/short-long-kaftan/_MG_2713.JPG.jpeg",
-      "/short-long-kaftan/_MG_2714.JPG.jpeg",
-      "/short-long-kaftan/_MG_3084.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_3084.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_3084.JPG.jpeg",
-      "/short-long-kaftan/_MG_3086.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_3086.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_3086.JPG.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1049(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1049.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1049_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1118_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1121_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1122_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1123_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0150.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0154.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0013.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0014.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0120.jpg%20(1).jpeg",
-      "/mix-category-product-images/IMG-20261104-WA4039.jpg.jpeg"
+      "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1655805428269.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805428269_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805431250.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805431250_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805433807.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805433807_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805436545.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805436545_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805439194.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805439194_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024420498.jpg.jpeg",
+      "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55-1.jpg.jpeg",
+      "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55_2.jpg.jpeg"
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1655805387851.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1690178776804.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1783346465887.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535364884.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535368242.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536116715.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536120251.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536122180.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536124159.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536126181.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536144429.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536146518.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536148459.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536150451.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536154156.jpg.jpeg",
-          "/short-long-kaftan/f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/short-long-kaftan/FB_IMG_1655805428269.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805428269_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805431250.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805431250_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805433807.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805433807_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805436545.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805436545_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805439194.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805439194_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024420498.jpg.jpeg",
-          "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55-1.jpg.jpeg",
+          "/short-long-kaftan/FB_IMG_1655805428269.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805428269_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805431250.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805431250_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805433807.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805433807_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805436545.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805436545_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805439194.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805439194_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024420498.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#94A3B8",
+        "images": [
           "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061502466.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535366577.jpg.jpeg",
-          "/short-long-kaftan/4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0150.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1711349916766.jpg.jpeg",
-          "/short-long-kaftan/a23c46e1cc4471c0e70bba0c11396abc.jpg.jpeg",
-          "/short-long-kaftan/_MG_3084.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_3084.JPG.jpeg",
-          "/short-long-kaftan/_MG_3086.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_3086.JPG.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1049(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1049.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1049_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1118_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261008-WA0013.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722360502991.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1121_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261008-WA0014.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA4039.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793536152279.jpg.jpeg",
-          "/short-long-kaftan/05dbdaa6daee33cad00f07b97f6ff364_2.jpg.jpeg",
-          "/short-long-kaftan/7bb51d2ac2488c14bc25620cf183d40e.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg",
-          "/short-long-kaftan/b92a63ae0b698080ba9bfd21b4d84164_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/short-long-kaftan/_MG_2710.JPG.jpeg",
-          "/short-long-kaftan/_MG_2711.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2711.JPG.jpeg",
-          "/short-long-kaftan/_MG_2712.JPG.jpeg",
-          "/short-long-kaftan/_MG_2713.JPG.jpeg",
-          "/short-long-kaftan/_MG_2714.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/_MG_2711.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_3084.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_3086.JPG%20(1).jpeg",
-          "/mix-category-product-images/IMG-20261104-WA0120.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Bronze Ochre",
-        "colorCode": "#854D0E",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1122_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Forest Emerald",
-        "colorCode": "#14532D",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1123_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0154.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg"
         ]
       }
     ],
+    "description": "Authentic Pebble Grey Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v3",
+    "title": "Sand Ochre Schiffli Scalloped Hem Kaftan",
+    "slug": "sand-ochre-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v3",
+      "sand-ochre-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1404,26 +3415,1115 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Schiffli Scalloped Hem Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 76 photographic views, tailored in Lightweight Modal Satin Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Lightweight Modal Satin Blend",
-    "details": [
-      "Authentic Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Lightweight Modal Satin Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061502466.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535366577.jpg.jpeg",
+      "/short-long-kaftan/4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0150.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0003",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061502466.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535366577.jpg.jpeg",
+      "/short-long-kaftan/4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0150.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061502466.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535366577.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0150.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V3",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0004",
-    "title": "Handblock Cotton Drawstring Kaftan",
-    "slug": "handblock-cotton-drawstring-kaftan",
+    "id": "kf-0003-v4",
+    "title": "Aqua Marine Schiffli Scalloped Hem Kaftan",
+    "slug": "aqua-marine-schiffli-scalloped-hem-kaftan",
     "aliasSlugs": [
+      "kf-0003-v4",
+      "aqua-marine-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v5",
+    "title": "Charcoal Slate Schiffli Scalloped Hem Kaftan",
+    "slug": "charcoal-slate-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v5",
+      "charcoal-slate-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349916766.jpg.jpeg",
+      "/short-long-kaftan/a23c46e1cc4471c0e70bba0c11396abc.jpg.jpeg",
+      "/short-long-kaftan/_MG_3084.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3084.JPG.jpeg",
+      "/short-long-kaftan/_MG_3086.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3086.JPG.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1049(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1049.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1049_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1118_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0013.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349916766.jpg.jpeg",
+      "/short-long-kaftan/a23c46e1cc4471c0e70bba0c11396abc.jpg.jpeg",
+      "/short-long-kaftan/_MG_3084.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3084.JPG.jpeg",
+      "/short-long-kaftan/_MG_3086.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3086.JPG.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1049(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1049.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1049_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1118_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0013.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349916766.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/a23c46e1cc4471c0e70bba0c11396abc.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/_MG_3084.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/_MG_3084.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/_MG_3086.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/_MG_3086.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1049(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1049.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1049_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1118_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0013.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v6",
+    "title": "Deep Teal Schiffli Scalloped Hem Kaftan",
+    "slug": "deep-teal-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v6",
+      "deep-teal-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360502991.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1121_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0014.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360502991.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1121_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0014.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360502991.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1121_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0014.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v7",
+    "title": "Sunset Tangerine Schiffli Scalloped Hem Kaftan",
+    "slug": "sunset-tangerine-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v7",
+      "sunset-tangerine-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4039.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4039.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA4039.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v8",
+    "title": "Blush Rose Schiffli Scalloped Hem Kaftan",
+    "slug": "blush-rose-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v8",
+      "blush-rose-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793536152279.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793536152279.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793536152279.jpg.jpeg",
+      "/short-long-kaftan/05dbdaa6daee33cad00f07b97f6ff364_2.jpg.jpeg",
+      "/short-long-kaftan/7bb51d2ac2488c14bc25620cf183d40e.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793536152279.jpg.jpeg",
+      "/short-long-kaftan/05dbdaa6daee33cad00f07b97f6ff364_2.jpg.jpeg",
+      "/short-long-kaftan/7bb51d2ac2488c14bc25620cf183d40e.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536152279.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/05dbdaa6daee33cad00f07b97f6ff364_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/7bb51d2ac2488c14bc25620cf183d40e.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v9",
+    "title": "Indigo Royal Schiffli Scalloped Hem Kaftan",
+    "slug": "indigo-royal-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v9",
+      "indigo-royal-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg",
+      "/short-long-kaftan/b92a63ae0b698080ba9bfd21b4d84164_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg",
+      "/short-long-kaftan/b92a63ae0b698080ba9bfd21b4d84164_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/b92a63ae0b698080ba9bfd21b4d84164_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v10",
+    "title": "Mustard Gold Schiffli Scalloped Hem Kaftan",
+    "slug": "mustard-gold-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v10",
+      "mustard-gold-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v11",
+    "title": "Rust Terracotta Schiffli Scalloped Hem Kaftan",
+    "slug": "rust-terracotta-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v11",
+      "rust-terracotta-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2710.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2710.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2710.JPG.jpeg",
+      "/short-long-kaftan/_MG_2711.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2711.JPG.jpeg",
+      "/short-long-kaftan/_MG_2712.JPG.jpeg",
+      "/short-long-kaftan/_MG_2713.JPG.jpeg",
+      "/short-long-kaftan/_MG_2714.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2710.JPG.jpeg",
+      "/short-long-kaftan/_MG_2711.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2711.JPG.jpeg",
+      "/short-long-kaftan/_MG_2712.JPG.jpeg",
+      "/short-long-kaftan/_MG_2713.JPG.jpeg",
+      "/short-long-kaftan/_MG_2714.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/_MG_2710.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/_MG_2711.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/_MG_2711.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/_MG_2712.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/_MG_2713.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/_MG_2714.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v12",
+    "title": "Artisan Earth Schiffli Scalloped Hem Kaftan",
+    "slug": "artisan-earth-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v12",
+      "artisan-earth-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2711.JPG%20(1).jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2711.JPG%20(1).jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2711.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_3084.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_3086.JPG%20(1).jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0120.jpg%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2711.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_3084.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_3086.JPG%20(1).jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0120.jpg%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2711.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_3084.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_3086.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA0120.jpg%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v13",
+    "title": "Bronze Ochre Schiffli Scalloped Hem Kaftan",
+    "slug": "bronze-ochre-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v13",
+      "bronze-ochre-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1122_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1122_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#854D0E",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#854D0E",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1122_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Bronze Ochre Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Bronze Ochre Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v14",
+    "title": "Forest Emerald Schiffli Scalloped Hem Kaftan",
+    "slug": "forest-emerald-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v14",
+      "forest-emerald-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1123_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1123_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#14532D",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#14532D",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1123_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Forest Emerald Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Forest Emerald Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v15",
+    "title": "Orchid Pink Schiffli Scalloped Hem Kaftan",
+    "slug": "orchid-pink-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v15",
+      "orchid-pink-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-15"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0154.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0154.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0154.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0003-v16",
+    "title": "Midnight Navy Schiffli Scalloped Hem Kaftan",
+    "slug": "midnight-navy-schiffli-scalloped-hem-kaftan",
+    "aliasSlugs": [
+      "kf-0003-v16",
+      "midnight-navy-schiffli-scalloped-hem-kaftan",
+      "schiffli-scalloped-hem-kaftan-var-16"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Schiffli Scalloped Hem Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Schiffli Scalloped Hem Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0003-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v1",
+    "title": "Pebble Grey Handblock Cotton Drawstring Kaftan",
+    "slug": "pebble-grey-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v1",
+      "pebble-grey-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-1",
       "ahsaas-pure-cotton-hand-block-print-drawstring-long-kaftan",
       "anushka-pure-cotton-hand-block-print-drawstring-long-kaftan",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-16-sk-0136",
@@ -1608,180 +4708,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "zara-pure-cotton-hand-block-print-drawstring-long-kaftan",
       "zoya-pure-cotton-hand-block-print-drawstring-long-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1655805492404.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061176172.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349919063.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349921320.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360513533.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024422614.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1783346467696.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535370381.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535372033.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535451644.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535453522.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536156296.jpg.jpeg",
-      "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg",
-      "/short-long-kaftan/387579ebaeebe52b01dad5dec46be5c6.jpg.jpeg",
-      "/short-long-kaftan/517c72d965bb94864d547f3049506841_2.jpg.jpeg",
-      "/short-long-kaftan/69be14608a5d35858e2e475863051c57-1.jpg.jpeg",
-      "/short-long-kaftan/69be14608a5d35858e2e475863051c57_2.jpg.jpeg",
-      "/short-long-kaftan/81b18921f2ec317ea00106715b1cc6d2_1.jpg.jpeg",
-      "/short-long-kaftan/a3906bd88ece6b559292e5858e8ea412_2.jpg.jpeg",
-      "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e-1.jpg.jpeg",
-      "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e_2.jpg.jpeg",
-      "/short-long-kaftan/ddb0758d1649714658a6d0a4e05f6262_2.jpg.jpeg",
-      "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92-1.jpg.jpeg",
-      "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2739.JPG.jpeg",
-      "/short-long-kaftan/_MG_3087.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_3087.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_3087.JPG.jpeg",
-      "/short-long-kaftan/_MG_3088.JPG.jpeg",
-      "/short-long-kaftan/_MG_3090.JPG.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1051(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1051.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1051_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20231115-WA0042.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0123.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0124.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0125.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0126.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0016.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0736.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA4339.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1655805492404.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061176172.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1711349921320.jpg.jpeg",
-          "/short-long-kaftan/69be14608a5d35858e2e475863051c57-1.jpg.jpeg",
-          "/short-long-kaftan/69be14608a5d35858e2e475863051c57_2.jpg.jpeg",
-          "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e-1.jpg.jpeg",
-          "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg",
-          "/short-long-kaftan/517c72d965bb94864d547f3049506841_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536156296.jpg.jpeg",
-          "/short-long-kaftan/a3906bd88ece6b559292e5858e8ea412_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1051(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1051.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1051_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20231115-WA0042.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1711349919063.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024422614.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1783346467696.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535370381.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535372033.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535451644.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535453522.jpg.jpeg",
-          "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92-1.jpg.jpeg",
-          "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92_2.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA0736.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA4339.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722360513533.jpg.jpeg",
-          "/short-long-kaftan/_MG_3087.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_3087.JPG.jpeg",
-          "/short-long-kaftan/_MG_3088.JPG.jpeg",
-          "/short-long-kaftan/_MG_3090.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg",
-          "/short-long-kaftan/387579ebaeebe52b01dad5dec46be5c6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/short-long-kaftan/81b18921f2ec317ea00106715b1cc6d2_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261008-WA0016.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/short-long-kaftan/ddb0758d1649714658a6d0a4e05f6262_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261003-WA0124.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261003-WA0125.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/short-long-kaftan/_MG_2739.JPG.jpeg",
-          "/short-long-kaftan/IMG-20261003-WA0123.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/_MG_3087.JPG%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/IMG-20261003-WA0126.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1789,26 +4726,944 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Handblock Cotton Drawstring Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 44 photographic views, tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
-    "details": [
-      "Authentic Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1655805492404.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1655805492404.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1655805492404.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061176172.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349921320.jpg.jpeg",
+      "/short-long-kaftan/69be14608a5d35858e2e475863051c57-1.jpg.jpeg",
+      "/short-long-kaftan/69be14608a5d35858e2e475863051c57_2.jpg.jpeg",
+      "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e-1.jpg.jpeg",
+      "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e_2.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0004",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1655805492404.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061176172.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349921320.jpg.jpeg",
+      "/short-long-kaftan/69be14608a5d35858e2e475863051c57-1.jpg.jpeg",
+      "/short-long-kaftan/69be14608a5d35858e2e475863051c57_2.jpg.jpeg",
+      "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e-1.jpg.jpeg",
+      "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805492404.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061176172.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349921320.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/69be14608a5d35858e2e475863051c57-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/69be14608a5d35858e2e475863051c57_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/c056f0261d58dbaaa3234de9840e832e_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0005",
-    "title": "Draped Asymmetric Long Kaftan",
-    "slug": "draped-asymmetric-long-kaftan",
+    "id": "kf-0004-v2",
+    "title": "Teal Slate Handblock Cotton Drawstring Kaftan",
+    "slug": "teal-slate-handblock-cotton-drawstring-kaftan",
     "aliasSlugs": [
+      "kf-0004-v2",
+      "teal-slate-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg",
+      "/short-long-kaftan/517c72d965bb94864d547f3049506841_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg",
+      "/short-long-kaftan/517c72d965bb94864d547f3049506841_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/517c72d965bb94864d547f3049506841_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v3",
+    "title": "Blush Rose Handblock Cotton Drawstring Kaftan",
+    "slug": "blush-rose-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v3",
+      "blush-rose-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536156296.jpg.jpeg",
+      "/short-long-kaftan/a3906bd88ece6b559292e5858e8ea412_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1051(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1051.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1051_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0042.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536156296.jpg.jpeg",
+      "/short-long-kaftan/a3906bd88ece6b559292e5858e8ea412_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1051(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1051.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1051_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0042.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536156296.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/a3906bd88ece6b559292e5858e8ea412_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1051(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1051.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1051_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20231115-WA0042.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v4",
+    "title": "Warm Caramel Handblock Cotton Drawstring Kaftan",
+    "slug": "warm-caramel-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v4",
+      "warm-caramel-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1711349919063.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1711349919063.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1711349919063.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024422614.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346467696.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535370381.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535372033.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535451644.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535453522.jpg.jpeg",
+      "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92-1.jpg.jpeg",
+      "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0736.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4339.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1711349919063.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024422614.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346467696.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535370381.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535372033.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535451644.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535453522.jpg.jpeg",
+      "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92-1.jpg.jpeg",
+      "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0736.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA4339.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349919063.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024422614.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1783346467696.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535370381.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535372033.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535451644.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535453522.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA0736.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA4339.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v5",
+    "title": "Plum Wine Handblock Cotton Drawstring Kaftan",
+    "slug": "plum-wine-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v5",
+      "plum-wine-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360513533.jpg.jpeg",
+      "/short-long-kaftan/_MG_3087.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3087.JPG.jpeg",
+      "/short-long-kaftan/_MG_3088.JPG.jpeg",
+      "/short-long-kaftan/_MG_3090.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360513533.jpg.jpeg",
+      "/short-long-kaftan/_MG_3087.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3087.JPG.jpeg",
+      "/short-long-kaftan/_MG_3088.JPG.jpeg",
+      "/short-long-kaftan/_MG_3090.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#581C87",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#581C87",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360513533.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#581C87",
+        "images": [
+          "/short-long-kaftan/_MG_3087.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#581C87",
+        "images": [
+          "/short-long-kaftan/_MG_3087.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#581C87",
+        "images": [
+          "/short-long-kaftan/_MG_3088.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#581C87",
+        "images": [
+          "/short-long-kaftan/_MG_3090.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v6",
+    "title": "Orchid Pink Handblock Cotton Drawstring Kaftan",
+    "slug": "orchid-pink-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v6",
+      "orchid-pink-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg",
+      "/short-long-kaftan/387579ebaeebe52b01dad5dec46be5c6.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg",
+      "/short-long-kaftan/387579ebaeebe52b01dad5dec46be5c6.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/387579ebaeebe52b01dad5dec46be5c6.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v7",
+    "title": "Indigo Royal Handblock Cotton Drawstring Kaftan",
+    "slug": "indigo-royal-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v7",
+      "indigo-royal-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/81b18921f2ec317ea00106715b1cc6d2_1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/81b18921f2ec317ea00106715b1cc6d2_1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/81b18921f2ec317ea00106715b1cc6d2_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0016.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/81b18921f2ec317ea00106715b1cc6d2_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0016.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/81b18921f2ec317ea00106715b1cc6d2_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0016.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v8",
+    "title": "Ruby Crimson Handblock Cotton Drawstring Kaftan",
+    "slug": "ruby-crimson-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v8",
+      "ruby-crimson-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/ddb0758d1649714658a6d0a4e05f6262_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/ddb0758d1649714658a6d0a4e05f6262_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/ddb0758d1649714658a6d0a4e05f6262_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0124.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0125.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/ddb0758d1649714658a6d0a4e05f6262_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0124.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0125.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/ddb0758d1649714658a6d0a4e05f6262_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0124.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0125.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v9",
+    "title": "Scarlet Red Handblock Cotton Drawstring Kaftan",
+    "slug": "scarlet-red-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v9",
+      "scarlet-red-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2739.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2739.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2739.JPG.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0123.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2739.JPG.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0123.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/_MG_2739.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0123.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v10",
+    "title": "Artisan Earth Handblock Cotton Drawstring Kaftan",
+    "slug": "artisan-earth-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v10",
+      "artisan-earth-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_3087.JPG%20(1).jpeg",
+    "mainImage": "/short-long-kaftan/_MG_3087.JPG%20(1).jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_3087.JPG%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_3087.JPG%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_3087.JPG%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0004-v11",
+    "title": "Charcoal Slate Handblock Cotton Drawstring Kaftan",
+    "slug": "charcoal-slate-handblock-cotton-drawstring-kaftan",
+    "aliasSlugs": [
+      "kf-0004-v11",
+      "charcoal-slate-handblock-cotton-drawstring-kaftan",
+      "handblock-cotton-drawstring-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20261003-WA0126.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20261003-WA0126.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20261003-WA0126.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20261003-WA0126.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0126.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Handblock Cotton Drawstring Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Handblock Cotton Drawstring Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0004-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v1",
+    "title": "Warm Caramel Draped Asymmetric Long Kaftan",
+    "slug": "warm-caramel-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v1",
+      "warm-caramel-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-1",
       "ahsaas-artisanal-draped-asymmetric-silhouette-long-kaftan",
       "anushka-artisanal-draped-asymmetric-silhouette-long-kaftan",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-16-sk-0136",
@@ -1987,196 +5842,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "vamika-artisanal-draped-asymmetric-silhouette-long-kaftan",
       "zara-artisanal-draped-asymmetric-silhouette-long-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1655805539143.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1655805561746.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1655805565882.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1690178781209.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061563712.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349923870.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360609530.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024424725.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1783346469663.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1783346471907.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536000555.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536002432.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536004245.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536022937.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536158205.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536160414.jpg.jpeg",
-      "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg",
-      "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c-1.jpg.jpeg",
-      "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c_2.jpg.jpeg",
-      "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
-      "/short-long-kaftan/6b98f49029aa7bf65653a50a8e328875.jpg.jpeg",
-      "/short-long-kaftan/82b5abfe54d9b312c529e44f93eadce1_2.jpg.jpeg",
-      "/short-long-kaftan/a554f248180a1651981a37a88904cb10-1.jpg.jpeg",
-      "/short-long-kaftan/a554f248180a1651981a37a88904cb10_2.jpg.jpeg",
-      "/short-long-kaftan/c293d5c71c3d81d7552c2833995a612e_2.jpg.jpeg",
-      "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg",
-      "/short-long-kaftan/f787c3c7639788d8dcb0ed04c16e369b_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2746.JPG.jpeg",
-      "/short-long-kaftan/_MG_2747.JPG.jpeg",
-      "/short-long-kaftan/_MG_2748.JPG.jpeg",
-      "/short-long-kaftan/_MG_2749.JPG.jpeg",
-      "/short-long-kaftan/IMG_20250112_174958.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1055(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1055.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1055_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20231115-WA0045.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0127.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0017.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0794.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA5283.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1655805539143.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1690178781209.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1783346471907.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536000555.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536002432.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536004245.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536022937.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536158205.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536160414.jpg.jpeg",
-          "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c-1.jpg.jpeg",
-          "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c_2.jpg.jpeg",
-          "/short-long-kaftan/6b98f49029aa7bf65653a50a8e328875.jpg.jpeg",
-          "/short-long-kaftan/f787c3c7639788d8dcb0ed04c16e369b_2.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA0794.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1655805561746.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1655805565882.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1711349923870.jpg.jpeg",
-          "/short-long-kaftan/82b5abfe54d9b312c529e44f93eadce1_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_2746.JPG.jpeg",
-          "/short-long-kaftan/_MG_2747.JPG.jpeg",
-          "/short-long-kaftan/_MG_2748.JPG.jpeg",
-          "/short-long-kaftan/_MG_2749.JPG.jpeg",
-          "/short-long-kaftan/IMG-20261003-WA0127.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061563712.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722360609530.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1783346469663.jpg.jpeg",
-          "/short-long-kaftan/a554f248180a1651981a37a88904cb10-1.jpg.jpeg",
-          "/short-long-kaftan/a554f248180a1651981a37a88904cb10_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1055(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1055.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1055_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1741024424725.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg",
-          "/short-long-kaftan/IMG_20250112_174958.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA5283.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20231115-WA0045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/c293d5c71c3d81d7552c2833995a612e_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/short-long-kaftan/IMG-20261008-WA0017.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -2184,26 +5860,1048 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Draped Asymmetric Long Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 45 photographic views, tailored in Lightweight Modal Satin Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Lightweight Modal Satin Blend",
-    "details": [
-      "Authentic Draped Asymmetric Long Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Lightweight Modal Satin Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1655805539143.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1655805539143.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1655805539143.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1690178781209.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346471907.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536000555.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536002432.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536004245.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536022937.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536158205.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536160414.jpg.jpeg",
+      "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c-1.jpg.jpeg",
+      "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c_2.jpg.jpeg",
+      "/short-long-kaftan/6b98f49029aa7bf65653a50a8e328875.jpg.jpeg",
+      "/short-long-kaftan/f787c3c7639788d8dcb0ed04c16e369b_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0794.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0005",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1655805539143.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1690178781209.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346471907.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536000555.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536002432.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536004245.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536022937.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536158205.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536160414.jpg.jpeg",
+      "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c-1.jpg.jpeg",
+      "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c_2.jpg.jpeg",
+      "/short-long-kaftan/6b98f49029aa7bf65653a50a8e328875.jpg.jpeg",
+      "/short-long-kaftan/f787c3c7639788d8dcb0ed04c16e369b_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA0794.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805539143.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1690178781209.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1783346471907.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536000555.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536002432.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536004245.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536022937.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536158205.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536160414.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/3a3f5b3d82c52cbadcc31f6e254b8a0c_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/6b98f49029aa7bf65653a50a8e328875.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/f787c3c7639788d8dcb0ed04c16e369b_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA0794.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0006",
-    "title": "Tiered Georgette Maxi Kaftan",
-    "slug": "tiered-georgette-maxi-kaftan",
+    "id": "kf-0005-v2",
+    "title": "Blush Rose Draped Asymmetric Long Kaftan",
+    "slug": "blush-rose-draped-asymmetric-long-kaftan",
     "aliasSlugs": [
+      "kf-0005-v2",
+      "blush-rose-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1655805561746.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1655805561746.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1655805561746.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805565882.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349923870.jpg.jpeg",
+      "/short-long-kaftan/82b5abfe54d9b312c529e44f93eadce1_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2746.JPG.jpeg",
+      "/short-long-kaftan/_MG_2747.JPG.jpeg",
+      "/short-long-kaftan/_MG_2748.JPG.jpeg",
+      "/short-long-kaftan/_MG_2749.JPG.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0127.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1655805561746.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1655805565882.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349923870.jpg.jpeg",
+      "/short-long-kaftan/82b5abfe54d9b312c529e44f93eadce1_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2746.JPG.jpeg",
+      "/short-long-kaftan/_MG_2747.JPG.jpeg",
+      "/short-long-kaftan/_MG_2748.JPG.jpeg",
+      "/short-long-kaftan/_MG_2749.JPG.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0127.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805561746.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1655805565882.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349923870.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/82b5abfe54d9b312c529e44f93eadce1_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/_MG_2746.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/_MG_2747.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/_MG_2748.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/_MG_2749.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0127.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v3",
+    "title": "Pebble Grey Draped Asymmetric Long Kaftan",
+    "slug": "pebble-grey-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v3",
+      "pebble-grey-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061563712.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360609530.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346469663.jpg.jpeg",
+      "/short-long-kaftan/a554f248180a1651981a37a88904cb10-1.jpg.jpeg",
+      "/short-long-kaftan/a554f248180a1651981a37a88904cb10_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061563712.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360609530.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1783346469663.jpg.jpeg",
+      "/short-long-kaftan/a554f248180a1651981a37a88904cb10-1.jpg.jpeg",
+      "/short-long-kaftan/a554f248180a1651981a37a88904cb10_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061563712.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360609530.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1783346469663.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/a554f248180a1651981a37a88904cb10-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/a554f248180a1651981a37a88904cb10_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v4",
+    "title": "Charcoal Slate Draped Asymmetric Long Kaftan",
+    "slug": "charcoal-slate-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v4",
+      "charcoal-slate-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1055(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1055.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1055_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1055(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1055.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1055_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1055(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1055.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1055_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v5",
+    "title": "Ruby Crimson Draped Asymmetric Long Kaftan",
+    "slug": "ruby-crimson-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v5",
+      "ruby-crimson-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v6",
+    "title": "Steel Slate Draped Asymmetric Long Kaftan",
+    "slug": "steel-slate-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v6",
+      "steel-slate-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1741024424725.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1741024424725.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1741024424725.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1741024424725.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024424725.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v7",
+    "title": "Sunset Tangerine Draped Asymmetric Long Kaftan",
+    "slug": "sunset-tangerine-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v7",
+      "sunset-tangerine-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v8",
+    "title": "Sand Ochre Draped Asymmetric Long Kaftan",
+    "slug": "sand-ochre-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v8",
+      "sand-ochre-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v9",
+    "title": "Aqua Marine Draped Asymmetric Long Kaftan",
+    "slug": "aqua-marine-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v9",
+      "aqua-marine-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg",
+      "/short-long-kaftan/IMG_20250112_174958.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5283.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg",
+      "/short-long-kaftan/IMG_20250112_174958.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5283.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG_20250112_174958.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA5283.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v10",
+    "title": "Mustard Gold Draped Asymmetric Long Kaftan",
+    "slug": "mustard-gold-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v10",
+      "mustard-gold-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0045.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0045.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20231115-WA0045.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v11",
+    "title": "Orchid Pink Draped Asymmetric Long Kaftan",
+    "slug": "orchid-pink-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v11",
+      "orchid-pink-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/c293d5c71c3d81d7552c2833995a612e_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/c293d5c71c3d81d7552c2833995a612e_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/c293d5c71c3d81d7552c2833995a612e_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/c293d5c71c3d81d7552c2833995a612e_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/c293d5c71c3d81d7552c2833995a612e_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v12",
+    "title": "Indigo Royal Draped Asymmetric Long Kaftan",
+    "slug": "indigo-royal-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v12",
+      "indigo-royal-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0005-v13",
+    "title": "Teal Slate Draped Asymmetric Long Kaftan",
+    "slug": "teal-slate-draped-asymmetric-long-kaftan",
+    "aliasSlugs": [
+      "kf-0005-v13",
+      "teal-slate-draped-asymmetric-long-kaftan",
+      "draped-asymmetric-long-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20261008-WA0017.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20261008-WA0017.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20261008-WA0017.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20261008-WA0017.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0017.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Draped Asymmetric Long Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Draped Asymmetric Long Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0005-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v1",
+    "title": "Scarlet Red Tiered Georgette Maxi Kaftan",
+    "slug": "scarlet-red-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v1",
+      "scarlet-red-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-1",
       "aditi-flowing-georgette-tiered-floor-length-kaftan",
       "ahsaas-flowing-georgette-tiered-floor-length-kaftan",
       "anushka-flowing-georgette-tiered-floor-length-kaftan",
@@ -2400,226 +7098,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "tanvi-flowing-georgette-tiered-floor-length-kaftan",
       "zara-flowing-georgette-tiered-floor-length-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1659589020956.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061180954.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061190091.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061192566.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349926108.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360611558.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024427054.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024436811.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024429601.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024441564.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024443915.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024454132.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024456295.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024449273.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535375636.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535377262.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536027945.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536162556.jpg.jpeg",
-      "/short-long-kaftan/0b98b871526a158d621b68d74c954c4b.jpg.jpeg",
-      "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51-1.jpg.jpeg",
-      "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51_2.jpg.jpeg",
-      "/short-long-kaftan/55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg",
-      "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb-1.jpg.jpeg",
-      "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb_2.jpg.jpeg",
-      "/short-long-kaftan/8a3eb0d8fcdf83dc2bba55c8e8e0f9d1_2.jpg.jpeg",
-      "/short-long-kaftan/a5b37718706c9a97ab0e4eeef7b4f7ea_1.jpg.jpeg",
-      "/short-long-kaftan/c2be4a4f457b03ae03c64aa3939212fc_2.jpg.jpeg",
-      "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d-1.jpg.jpeg",
-      "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d_2.jpg.jpeg",
-      "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e-1.jpg.jpeg",
-      "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2750.JPG.jpeg",
-      "/short-long-kaftan/IMG_20250112_175019.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1056(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1056.jpg (1).jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1056.jpg%20(1).jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1056.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1056_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20231115-WA0047.jpg.jpeg",
-      "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg",
-      "/short-long-kaftan/IMG-20231115-WA0049.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0128.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0018.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0019.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261008-WA0020.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA5362.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg",
-          "/short-long-kaftan/a5b37718706c9a97ab0e4eeef7b4f7ea_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20231115-WA0047.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1659589020956.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061180954.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1711349926108.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024436811.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024456295.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536027945.jpg.jpeg",
-          "/short-long-kaftan/IMG-20231115-WA0049.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg",
-          "/short-long-kaftan/c2be4a4f457b03ae03c64aa3939212fc_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061190091.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061192566.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024449273.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535375636.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535377262.jpg.jpeg",
-          "/short-long-kaftan/0b98b871526a158d621b68d74c954c4b.jpg.jpeg",
-          "/short-long-kaftan/55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA5362.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg",
-          "/short-long-kaftan/8a3eb0d8fcdf83dc2bba55c8e8e0f9d1_2.jpg.jpeg",
-          "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d-1.jpg.jpeg",
-          "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261003-WA0128.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024427054.jpg.jpeg",
-          "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51-1.jpg.jpeg",
-          "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_2750.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1722360611558.jpg.jpeg",
-          "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb-1.jpg.jpeg",
-          "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261008-WA0018.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261008-WA0019.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261008-WA0020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1741024429601.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536162556.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Forest Emerald",
-        "colorCode": "#14532D",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1741024441564.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024443915.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1741024454132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e-1.jpg.jpeg",
-          "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e_2.jpg.jpeg",
-          "/short-long-kaftan/IMG_20250112_175019.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1056(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1056.jpg (1).jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1056.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1056_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1056.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -2627,26 +7116,1222 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Tiered Georgette Maxi Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 53 photographic views, tailored in Lightweight Modal Satin Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Lightweight Modal Satin Blend",
-    "details": [
-      "Authentic Tiered Georgette Maxi Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Lightweight Modal Satin Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg",
+      "/short-long-kaftan/a5b37718706c9a97ab0e4eeef7b4f7ea_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0047.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0006",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg",
+      "/short-long-kaftan/a5b37718706c9a97ab0e4eeef7b4f7ea_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0047.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/a5b37718706c9a97ab0e4eeef7b4f7ea_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/IMG-20231115-WA0047.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0007",
-    "title": "Organza Bordered Festive Kaftan",
-    "slug": "organza-bordered-festive-kaftan",
+    "id": "kf-0006-v2",
+    "title": "Charcoal Slate Tiered Georgette Maxi Kaftan",
+    "slug": "charcoal-slate-tiered-georgette-maxi-kaftan",
     "aliasSlugs": [
+      "kf-0006-v2",
+      "charcoal-slate-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1659589020956.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1659589020956.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1659589020956.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061180954.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349926108.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024436811.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024456295.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536027945.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0049.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1659589020956.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061180954.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349926108.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024436811.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024456295.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536027945.jpg.jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0049.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1659589020956.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061180954.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349926108.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024436811.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024456295.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536027945.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20231115-WA0049.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v3",
+    "title": "Sand Ochre Tiered Georgette Maxi Kaftan",
+    "slug": "sand-ochre-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v3",
+      "sand-ochre-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg",
+      "/short-long-kaftan/c2be4a4f457b03ae03c64aa3939212fc_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg",
+      "/short-long-kaftan/c2be4a4f457b03ae03c64aa3939212fc_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/c2be4a4f457b03ae03c64aa3939212fc_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v4",
+    "title": "Warm Caramel Tiered Georgette Maxi Kaftan",
+    "slug": "warm-caramel-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v4",
+      "warm-caramel-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061190091.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061192566.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024449273.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535375636.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535377262.jpg.jpeg",
+      "/short-long-kaftan/0b98b871526a158d621b68d74c954c4b.jpg.jpeg",
+      "/short-long-kaftan/55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5362.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061190091.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061192566.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024449273.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535375636.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535377262.jpg.jpeg",
+      "/short-long-kaftan/0b98b871526a158d621b68d74c954c4b.jpg.jpeg",
+      "/short-long-kaftan/55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5362.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061190091.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061192566.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024449273.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535375636.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535377262.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/0b98b871526a158d621b68d74c954c4b.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA5362.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v5",
+    "title": "Pebble Grey Tiered Georgette Maxi Kaftan",
+    "slug": "pebble-grey-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v5",
+      "pebble-grey-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg",
+      "/short-long-kaftan/8a3eb0d8fcdf83dc2bba55c8e8e0f9d1_2.jpg.jpeg",
+      "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d-1.jpg.jpeg",
+      "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0128.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg",
+      "/short-long-kaftan/8a3eb0d8fcdf83dc2bba55c8e8e0f9d1_2.jpg.jpeg",
+      "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d-1.jpg.jpeg",
+      "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0128.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/8a3eb0d8fcdf83dc2bba55c8e8e0f9d1_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/de7c4042690ddc654b1ffb5d0f3a864d_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0128.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v6",
+    "title": "Blush Rose Tiered Georgette Maxi Kaftan",
+    "slug": "blush-rose-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v6",
+      "blush-rose-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024427054.jpg.jpeg",
+      "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51-1.jpg.jpeg",
+      "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2750.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024427054.jpg.jpeg",
+      "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51-1.jpg.jpeg",
+      "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2750.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024427054.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/_MG_2750.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v7",
+    "title": "Aqua Marine Tiered Georgette Maxi Kaftan",
+    "slug": "aqua-marine-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v7",
+      "aqua-marine-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1722360611558.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1722360611558.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1722360611558.jpg.jpeg",
+      "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb-1.jpg.jpeg",
+      "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0018.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0019.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0020.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1722360611558.jpg.jpeg",
+      "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb-1.jpg.jpeg",
+      "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0018.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0019.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261008-WA0020.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360611558.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/70c3aa6f2e2c4a97e8420a25f3216aeb_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0018.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0019.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG-20261008-WA0020.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v8",
+    "title": "Steel Slate Tiered Georgette Maxi Kaftan",
+    "slug": "steel-slate-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v8",
+      "steel-slate-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1741024429601.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1741024429601.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1741024429601.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536162556.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1741024429601.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536162556.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024429601.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536162556.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v9",
+    "title": "Forest Emerald Tiered Georgette Maxi Kaftan",
+    "slug": "forest-emerald-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v9",
+      "forest-emerald-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1741024441564.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1741024441564.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1741024441564.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024443915.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1741024441564.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024443915.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#14532D",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024441564.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#14532D",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024443915.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Forest Emerald Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Forest Emerald Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v10",
+    "title": "Deep Teal Tiered Georgette Maxi Kaftan",
+    "slug": "deep-teal-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v10",
+      "deep-teal-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1741024454132.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1741024454132.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1741024454132.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1741024454132.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024454132.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v11",
+    "title": "Rust Terracotta Tiered Georgette Maxi Kaftan",
+    "slug": "rust-terracotta-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v11",
+      "rust-terracotta-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v12",
+    "title": "Orchid Pink Tiered Georgette Maxi Kaftan",
+    "slug": "orchid-pink-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v12",
+      "orchid-pink-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e-1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e-1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e-1.jpg.jpeg",
+      "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e_2.jpg.jpeg",
+      "/short-long-kaftan/IMG_20250112_175019.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056.jpg (1).jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e-1.jpg.jpeg",
+      "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e_2.jpg.jpeg",
+      "/short-long-kaftan/IMG_20250112_175019.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056.jpg (1).jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1056_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/f9ce6d02b91a1adfd32248699c8c979e_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG_20250112_175019.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1056(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1056.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1056.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1056_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v13",
+    "title": "Artisan Earth Tiered Georgette Maxi Kaftan",
+    "slug": "artisan-earth-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v13",
+      "artisan-earth-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1056.jpg%20(1).jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1056.jpg%20(1).jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1056.jpg%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1056.jpg%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1056.jpg%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v14",
+    "title": "Lavender Violet Tiered Georgette Maxi Kaftan",
+    "slug": "lavender-violet-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v14",
+      "lavender-violet-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0006-v15",
+    "title": "Sunset Tangerine Tiered Georgette Maxi Kaftan",
+    "slug": "sunset-tangerine-tiered-georgette-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0006-v15",
+      "sunset-tangerine-tiered-georgette-maxi-kaftan",
+      "tiered-georgette-maxi-kaftan-var-15"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Lightweight Modal Satin Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg",
+    "mainImage": "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg",
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg"
+    ],
+    "gallery": [
+      "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA1124.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Tiered Georgette Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Lightweight Modal Satin Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Tiered Georgette Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lightweight Modal Satin Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0006-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v1",
+    "title": "Charcoal Slate Organza Bordered Festive Kaftan",
+    "slug": "charcoal-slate-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v1",
+      "charcoal-slate-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-1",
       "aditi-organza-bordered-festive-silk-kaftan-gown",
       "alia-organza-bordered-festive-silk-kaftan-gown",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-17-sk-0145",
@@ -2852,241 +8537,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "tanvi-organza-bordered-festive-silk-kaftan-gown",
       "zehra-organza-bordered-festive-silk-kaftan-gown"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1659589026603.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1659589028983.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1659589033350.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061195342.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158111969.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158114236.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156759821.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156759821_1.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722360637940.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024458490.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024463116.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785152911304.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535379346.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536030009.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536164615.jpg.jpeg",
-      "/short-long-kaftan/10456305283aae1141b20d050a9b858a-1.jpg.jpeg",
-      "/short-long-kaftan/10456305283aae1141b20d050a9b858a_2.jpg.jpeg",
-      "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8-1.jpg.jpeg",
-      "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8_2.jpg.jpeg",
-      "/short-long-kaftan/5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg",
-      "/short-long-kaftan/71b203f6869b90afe1ce8ea1066e044d.jpg.jpeg",
-      "/short-long-kaftan/8d2819d45bb3e5ef41ca188eec7477bc.jpg.jpeg",
-      "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3-1.jpg.jpeg",
-      "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3_2.jpg.jpeg",
-      "/short-long-kaftan/c40dbfcc1e8c18864a25e19e8c956d04_2.jpg.jpeg",
-      "/short-long-kaftan/dfde8450228a2ea04e93b0723eb77ef6.jpg.jpeg",
-      "/short-long-kaftan/fe81f630c7e0a1257a084008fb7f303a_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2792.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2792.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2792.JPG.jpeg",
-      "/short-long-kaftan/_MG_2793.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2793.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2793.JPG.jpeg",
-      "/short-long-kaftan/_MG_2794.JPG.jpeg",
-      "/short-long-kaftan/_MG_2795.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2795.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2795.JPG.jpeg",
-      "/short-long-kaftan/_MG_2796.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2796.JPG%20(1).jpeg",
-      "/short-long-kaftan/IMG_20250112_175034.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1079.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1079_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1085.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1085_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1087.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1087_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1089.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1089_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1081.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1081_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1084.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1084_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20231115-WA0051.jpg.jpeg",
-      "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0129.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0309.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0310.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0311.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0312.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1220.jpg%20(1).jpeg",
-      "/mix-category-product-images/IMG-20261104-WA5532.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1659589026603.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1659589028983.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1659589033350.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061195342.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785152911304.jpg.jpeg",
-          "/short-long-kaftan/8d2819d45bb3e5ef41ca188eec7477bc.jpg.jpeg",
-          "/short-long-kaftan/c40dbfcc1e8c18864a25e19e8c956d04_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1707158114236.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535379346.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536030009.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1085.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1085_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1087.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1087_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1707158111969.jpg.jpeg",
-          "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1720156759821.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1720156759821_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024458490.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024463116.jpg.jpeg",
-          "/short-long-kaftan/5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1081.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1081_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1084.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1084_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722360637940.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1089.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1089_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793536164615.jpg.jpeg",
-          "/short-long-kaftan/71b203f6869b90afe1ce8ea1066e044d.jpg.jpeg",
-          "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3-1.jpg.jpeg",
-          "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3_2.jpg.jpeg",
-          "/short-long-kaftan/dfde8450228a2ea04e93b0723eb77ef6.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA5532.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/10456305283aae1141b20d050a9b858a-1.jpg.jpeg",
-          "/short-long-kaftan/10456305283aae1141b20d050a9b858a_2.jpg.jpeg",
-          "/short-long-kaftan/fe81f630c7e0a1257a084008fb7f303a_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_2792.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2792.JPG.jpeg",
-          "/short-long-kaftan/_MG_2793.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2793.JPG.jpeg",
-          "/short-long-kaftan/_MG_2794.JPG.jpeg",
-          "/short-long-kaftan/_MG_2795.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2795.JPG.jpeg",
-          "/short-long-kaftan/_MG_2796.JPG (1).jpeg",
-          "/short-long-kaftan/IMG-20231115-WA0051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8-1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261003-WA0129.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/_MG_2792.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2793.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2795.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2796.JPG%20(1).jpeg",
-          "/mix-category-product-images/IMG-20261104-WA1220.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/IMG_20250112_175034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1079.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1079_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/short-long-kaftan/IMG-20261022-WA0309.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261022-WA0310.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261022-WA0311.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261022-WA0312.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -3094,26 +8555,1285 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Organza Bordered Festive Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 64 photographic views, tailored in Chanderi Silk with Full Soft Lining with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Chanderi Silk with Full Soft Lining",
-    "details": [
-      "Authentic Organza Bordered Festive Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Chanderi Silk with Full Soft Lining with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1659589026603.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1659589026603.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1659589026603.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1659589028983.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1659589033350.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061195342.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785152911304.jpg.jpeg",
+      "/short-long-kaftan/8d2819d45bb3e5ef41ca188eec7477bc.jpg.jpeg",
+      "/short-long-kaftan/c40dbfcc1e8c18864a25e19e8c956d04_2.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0007",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1659589026603.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1659589028983.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1659589033350.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061195342.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785152911304.jpg.jpeg",
+      "/short-long-kaftan/8d2819d45bb3e5ef41ca188eec7477bc.jpg.jpeg",
+      "/short-long-kaftan/c40dbfcc1e8c18864a25e19e8c956d04_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1659589026603.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1659589028983.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1659589033350.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061195342.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785152911304.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/8d2819d45bb3e5ef41ca188eec7477bc.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/c40dbfcc1e8c18864a25e19e8c956d04_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0008",
-    "title": "Tassel-Tie Bohemian Short Kaftan",
-    "slug": "tassel-tie-bohemian-short-kaftan",
+    "id": "kf-0007-v2",
+    "title": "Warm Caramel Organza Bordered Festive Kaftan",
+    "slug": "warm-caramel-organza-bordered-festive-kaftan",
     "aliasSlugs": [
+      "kf-0007-v2",
+      "warm-caramel-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158114236.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535379346.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536030009.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1085.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1085_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1087.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1087_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158114236.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535379346.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536030009.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1085.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1085_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1087.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1087_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158114236.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535379346.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536030009.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1085.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1085_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1087.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1087_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v3",
+    "title": "Sage Olive Organza Bordered Festive Kaftan",
+    "slug": "sage-olive-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v3",
+      "sage-olive-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1707158111969.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1707158111969.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1707158111969.jpg.jpeg",
+      "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1707158111969.jpg.jpeg",
+      "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158111969.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v4",
+    "title": "Mustard Gold Organza Bordered Festive Kaftan",
+    "slug": "mustard-gold-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v4",
+      "mustard-gold-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1720156759821.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1720156759821.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1720156759821.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156759821_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024458490.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024463116.jpg.jpeg",
+      "/short-long-kaftan/5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1081.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1081_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1084.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1084_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1720156759821.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156759821_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024458490.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024463116.jpg.jpeg",
+      "/short-long-kaftan/5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1081.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1081_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1084.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1084_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156759821.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156759821_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024458490.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024463116.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1081.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1081_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1084.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1084_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v5",
+    "title": "Sand Ochre Organza Bordered Festive Kaftan",
+    "slug": "sand-ochre-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v5",
+      "sand-ochre-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360637940.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722360637940.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722360637940.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v6",
+    "title": "Rust Terracotta Organza Bordered Festive Kaftan",
+    "slug": "rust-terracotta-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v6",
+      "rust-terracotta-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1089.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1089_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1089.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1089_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1089.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1089_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v7",
+    "title": "Blush Rose Organza Bordered Festive Kaftan",
+    "slug": "blush-rose-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v7",
+      "blush-rose-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793536164615.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793536164615.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793536164615.jpg.jpeg",
+      "/short-long-kaftan/71b203f6869b90afe1ce8ea1066e044d.jpg.jpeg",
+      "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3-1.jpg.jpeg",
+      "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3_2.jpg.jpeg",
+      "/short-long-kaftan/dfde8450228a2ea04e93b0723eb77ef6.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5532.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793536164615.jpg.jpeg",
+      "/short-long-kaftan/71b203f6869b90afe1ce8ea1066e044d.jpg.jpeg",
+      "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3-1.jpg.jpeg",
+      "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3_2.jpg.jpeg",
+      "/short-long-kaftan/dfde8450228a2ea04e93b0723eb77ef6.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5532.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536164615.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/71b203f6869b90afe1ce8ea1066e044d.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/a5ef7f8a5721307e7e188b4f22dd00c3_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/dfde8450228a2ea04e93b0723eb77ef6.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA5532.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v8",
+    "title": "Aqua Marine Organza Bordered Festive Kaftan",
+    "slug": "aqua-marine-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v8",
+      "aqua-marine-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/10456305283aae1141b20d050a9b858a-1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/10456305283aae1141b20d050a9b858a-1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/10456305283aae1141b20d050a9b858a-1.jpg.jpeg",
+      "/short-long-kaftan/10456305283aae1141b20d050a9b858a_2.jpg.jpeg",
+      "/short-long-kaftan/fe81f630c7e0a1257a084008fb7f303a_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2792.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2792.JPG.jpeg",
+      "/short-long-kaftan/_MG_2793.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2793.JPG.jpeg",
+      "/short-long-kaftan/_MG_2794.JPG.jpeg",
+      "/short-long-kaftan/_MG_2795.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2795.JPG.jpeg",
+      "/short-long-kaftan/_MG_2796.JPG (1).jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0051.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/10456305283aae1141b20d050a9b858a-1.jpg.jpeg",
+      "/short-long-kaftan/10456305283aae1141b20d050a9b858a_2.jpg.jpeg",
+      "/short-long-kaftan/fe81f630c7e0a1257a084008fb7f303a_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2792.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2792.JPG.jpeg",
+      "/short-long-kaftan/_MG_2793.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2793.JPG.jpeg",
+      "/short-long-kaftan/_MG_2794.JPG.jpeg",
+      "/short-long-kaftan/_MG_2795.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2795.JPG.jpeg",
+      "/short-long-kaftan/_MG_2796.JPG (1).jpeg",
+      "/short-long-kaftan/IMG-20231115-WA0051.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/10456305283aae1141b20d050a9b858a-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/10456305283aae1141b20d050a9b858a_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/fe81f630c7e0a1257a084008fb7f303a_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2792.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2792.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2793.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2793.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2794.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2795.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2795.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2796.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG-20231115-WA0051.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v9",
+    "title": "Pebble Grey Organza Bordered Festive Kaftan",
+    "slug": "pebble-grey-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v9",
+      "pebble-grey-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8-1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8-1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8-1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0129.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8-1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0129.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/432bb9ddca173a2b6c8e0864b6cfb1a8-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0129.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v10",
+    "title": "Artisan Earth Organza Bordered Festive Kaftan",
+    "slug": "artisan-earth-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v10",
+      "artisan-earth-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2792.JPG%20(1).jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2792.JPG%20(1).jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2792.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2793.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2795.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2796.JPG%20(1).jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1220.jpg%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2792.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2793.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2795.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2796.JPG%20(1).jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1220.jpg%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2792.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2793.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2795.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2796.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA1220.jpg%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v11",
+    "title": "Sunset Tangerine Organza Bordered Festive Kaftan",
+    "slug": "sunset-tangerine-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v11",
+      "sunset-tangerine-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG_20250112_175034.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG_20250112_175034.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG_20250112_175034.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG_20250112_175034.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/IMG_20250112_175034.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v12",
+    "title": "Scarlet Red Organza Bordered Festive Kaftan",
+    "slug": "scarlet-red-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v12",
+      "scarlet-red-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1079.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1079.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1079.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1079_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1079.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1079_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1079.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1079_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v13",
+    "title": "Orchid Pink Organza Bordered Festive Kaftan",
+    "slug": "orchid-pink-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v13",
+      "orchid-pink-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0007-v14",
+    "title": "Deep Teal Organza Bordered Festive Kaftan",
+    "slug": "deep-teal-organza-bordered-festive-kaftan",
+    "aliasSlugs": [
+      "kf-0007-v14",
+      "deep-teal-organza-bordered-festive-kaftan",
+      "organza-bordered-festive-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Chanderi Silk with Full Soft Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20261022-WA0309.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20261022-WA0309.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20261022-WA0309.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0310.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0311.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0312.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20261022-WA0309.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0310.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0311.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0312.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0309.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0310.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0311.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0312.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Organza Bordered Festive Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Chanderi Silk with Full Soft Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Organza Bordered Festive Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Chanderi Silk with Full Soft Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0007-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v1",
+    "title": "Scarlet Red Tassel-Tie Bohemian Short Kaftan",
+    "slug": "scarlet-red-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v1",
+      "scarlet-red-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-1",
       "aditi-handcrafted-tassel-tie-bohemian-summer-short-kaftan",
       "alia-handcrafted-tassel-tie-bohemian-summer-short-kaftan",
       "aria-hand-blocked-drawstring-silk-kaftan-edition-19-sk-0164",
@@ -3322,29 +10042,570 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "trisha-handcrafted-tassel-tie-bohemian-summer-short-kaftan",
       "zehra-handcrafted-tassel-tie-bohemian-summer-short-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1659589035158.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1659589035158.jpg.jpeg",
     "images": [
-      "/short-long-kaftan/FB_IMG_1659589035158.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1659589035158.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1659589035158.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1659589035158.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v2",
+    "title": "Sand Ochre Tassel-Tie Bohemian Short Kaftan",
+    "slug": "sand-ochre-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v2",
+      "sand-ochre-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641799281.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641799281.jpg.jpeg",
+    "images": [
       "/short-long-kaftan/FB_IMG_1695641799281.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158122099.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641799281.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158122099.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641799281.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158122099.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v3",
+    "title": "Blush Rose Tassel-Tie Bohemian Short Kaftan",
+    "slug": "blush-rose-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v3",
+      "blush-rose-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061199963.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061199963.jpg.jpeg",
+    "images": [
       "/short-long-kaftan/FB_IMG_1700061199963.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156762489.jpg.jpeg",
+      "/short-long-kaftan/451bfca8945a98951a56be2c76768fdf_2.jpg.jpeg",
+      "/short-long-kaftan/e21bddccf3b4370960ab27b2ba9ac3f2_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1090.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1090_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0130.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0321.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061199963.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156762489.jpg.jpeg",
+      "/short-long-kaftan/451bfca8945a98951a56be2c76768fdf_2.jpg.jpeg",
+      "/short-long-kaftan/e21bddccf3b4370960ab27b2ba9ac3f2_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1090.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1090_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261003-WA0130.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0321.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061199963.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156762489.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/451bfca8945a98951a56be2c76768fdf_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/e21bddccf3b4370960ab27b2ba9ac3f2_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1090.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1090_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20261003-WA0130.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0321.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v4",
+    "title": "Charcoal Slate Tassel-Tie Bohemian Short Kaftan",
+    "slug": "charcoal-slate-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v4",
+      "charcoal-slate-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061212317.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061212317.jpg.jpeg",
+    "images": [
       "/short-long-kaftan/FB_IMG_1700061212317.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1700061214784.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1094.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1094_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061212317.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061214784.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1094.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1094_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061212317.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061214784.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1094.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1094_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v5",
+    "title": "Pebble Grey Tassel-Tie Bohemian Short Kaftan",
+    "slug": "pebble-grey-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v5",
+      "pebble-grey-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061217946.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061217946.jpg.jpeg",
+    "images": [
       "/short-long-kaftan/FB_IMG_1700061217946.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158122099.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156762489.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722473536620.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1722473539047.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722473541684.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722473534202.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1741762980618.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1741762982373.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1741762984160.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1741762986001.jpg.jpeg",
+      "/short-long-kaftan/c44597bdf61c317d5d02cc20e425bd31.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0084.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061217946.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722473539047.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741762980618.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741762982373.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741762984160.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741762986001.jpg.jpeg",
+      "/short-long-kaftan/c44597bdf61c317d5d02cc20e425bd31.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0084.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061217946.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722473539047.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741762980618.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741762982373.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741762984160.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741762986001.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/c44597bdf61c317d5d02cc20e425bd31.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0084.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v6",
+    "title": "Ivory Cream Tassel-Tie Bohemian Short Kaftan",
+    "slug": "ivory-cream-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v6",
+      "ivory-cream-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722473536620.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722473541684.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722473536620.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722473541684.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722473536620.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722473541684.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v7",
+    "title": "Warm Caramel Tassel-Tie Bohemian Short Kaftan",
+    "slug": "warm-caramel-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v7",
+      "warm-caramel-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1722473534202.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1722473534202.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1722473534202.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1785152913079.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1793535381355.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1793535383175.jpg.jpeg",
@@ -3357,223 +10618,190 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "/short-long-kaftan/FB_IMG_1793536052573.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1793536054683.jpg.jpeg",
       "/short-long-kaftan/FB_IMG_1793536056609.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536166638.jpg.jpeg",
-      "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg",
-      "/short-long-kaftan/451bfca8945a98951a56be2c76768fdf_2.jpg.jpeg",
-      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8 (1).jpg.jpeg",
-      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8%20(1).jpg.jpeg",
-      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8-1.jpg.jpeg",
-      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8_2.jpg.jpeg",
-      "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg",
-      "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b_2.jpg.jpeg",
       "/short-long-kaftan/8fd3fc05ac36acefa1ddbddea7f41a9f.jpg.jpeg",
-      "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg",
-      "/short-long-kaftan/c44597bdf61c317d5d02cc20e425bd31.jpg.jpeg",
-      "/short-long-kaftan/e21bddccf3b4370960ab27b2ba9ac3f2_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2662.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2662.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2662.JPG.jpeg",
-      "/short-long-kaftan/_MG_2663.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2663.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2663.JPG.jpeg",
-      "/short-long-kaftan/_MG_2664.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2664.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2664.JPG.jpeg",
-      "/short-long-kaftan/_MG_2665.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2665.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2665.JPG.jpeg",
-      "/short-long-kaftan/_MG_2796.JPG.jpeg",
       "/short-long-kaftan/IMG_20250112_175049.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1090.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1090_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1091.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1091_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1093.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1093_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1094.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1094_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0084.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261003-WA0130.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0321.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1574.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA5760.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1722473534202.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785152913079.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535381355.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535383175.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536040056.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536041982.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536044390.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536046366.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536048473.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536050398.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536052573.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536054683.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536056609.jpg.jpeg",
+      "/short-long-kaftan/8fd3fc05ac36acefa1ddbddea7f41a9f.jpg.jpeg",
+      "/short-long-kaftan/IMG_20250112_175049.jpg.jpeg",
       "/mix-category-product-images/IMG-20261104-WA5760.jpg.jpeg"
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1659589035158.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641799281.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1707158122099.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061199963.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1720156762489.jpg.jpeg",
-          "/short-long-kaftan/451bfca8945a98951a56be2c76768fdf_2.jpg.jpeg",
-          "/short-long-kaftan/e21bddccf3b4370960ab27b2ba9ac3f2_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1090.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1090_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261003-WA0130.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261022-WA0321.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061212317.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061214784.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1094.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1094_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061217946.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722473539047.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741762980618.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741762982373.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741762984160.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741762986001.jpg.jpeg",
-          "/short-long-kaftan/c44597bdf61c317d5d02cc20e425bd31.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722473536620.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722473541684.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Warm Caramel",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/short-long-kaftan/FB_IMG_1722473534202.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785152913079.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535381355.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535383175.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536040056.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536041982.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536044390.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536046366.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536048473.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536050398.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536052573.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536054683.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536056609.jpg.jpeg",
-          "/short-long-kaftan/8fd3fc05ac36acefa1ddbddea7f41a9f.jpg.jpeg",
-          "/short-long-kaftan/IMG_20250112_175049.jpg.jpeg",
+          "/short-long-kaftan/FB_IMG_1722473534202.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785152913079.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535381355.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535383175.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536040056.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536041982.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536044390.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536046366.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536048473.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536050398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536052573.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536054683.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536056609.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/8fd3fc05ac36acefa1ddbddea7f41a9f.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/IMG_20250112_175049.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
           "/mix-category-product-images/IMG-20261104-WA5760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793536166638.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8 (1).jpg.jpeg",
-          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8-1.jpg.jpeg",
-          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8%20(1).jpg.jpeg",
-          "/short-long-kaftan/_MG_2662.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2663.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2664.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2665.JPG%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg",
-          "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_2662.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2662.JPG.jpeg",
-          "/short-long-kaftan/_MG_2663.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2663.JPG.jpeg",
-          "/short-long-kaftan/_MG_2664.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2664.JPG.jpeg",
-          "/short-long-kaftan/_MG_2665.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2665.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1091.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1091_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/_MG_2796.JPG.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA1574.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Forest Emerald",
-        "colorCode": "#14532D",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1093.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1093_1.jpg.jpeg"
         ]
       }
     ],
+    "description": "Authentic Warm Caramel Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v8",
+    "title": "Midnight Navy Tassel-Tie Bohemian Short Kaftan",
+    "slug": "midnight-navy-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v8",
+      "midnight-navy-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -3581,26 +10809,633 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Tassel-Tie Bohemian Short Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 69 photographic views, tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
-    "details": [
-      "Authentic Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1793536166638.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793536166638.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793536166638.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0008",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793536166638.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536166638.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V8",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0009",
-    "title": "High-Slit Draped Silk Resort Maxi Kaftan",
-    "slug": "high-slit-draped-silk-resort-maxi-kaftan",
+    "id": "kf-0008-v9",
+    "title": "Deep Teal Tassel-Tie Bohemian Short Kaftan",
+    "slug": "deep-teal-tassel-tie-bohemian-short-kaftan",
     "aliasSlugs": [
+      "kf-0008-v9",
+      "deep-teal-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v10",
+    "title": "Sage Olive Tassel-Tie Bohemian Short Kaftan",
+    "slug": "sage-olive-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v10",
+      "sage-olive-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8 (1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8 (1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8 (1).jpg.jpeg",
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8-1.jpg.jpeg",
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8 (1).jpg.jpeg",
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8-1.jpg.jpeg",
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v11",
+    "title": "Artisan Earth Tassel-Tie Bohemian Short Kaftan",
+    "slug": "artisan-earth-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v11",
+      "artisan-earth-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8%20(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8%20(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2662.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2663.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2664.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2665.JPG%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2662.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2663.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2664.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2665.JPG%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/5a15ab3f1e5ea2862ed8a6b49b33d9c8%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2662.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2663.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2664.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2665.JPG%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v12",
+    "title": "Orchid Pink Tassel-Tie Bohemian Short Kaftan",
+    "slug": "orchid-pink-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v12",
+      "orchid-pink-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg",
+      "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2662.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2662.JPG.jpeg",
+      "/short-long-kaftan/_MG_2663.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2663.JPG.jpeg",
+      "/short-long-kaftan/_MG_2664.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2664.JPG.jpeg",
+      "/short-long-kaftan/_MG_2665.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2665.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg",
+      "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_2662.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2662.JPG.jpeg",
+      "/short-long-kaftan/_MG_2663.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2663.JPG.jpeg",
+      "/short-long-kaftan/_MG_2664.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2664.JPG.jpeg",
+      "/short-long-kaftan/_MG_2665.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2665.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2662.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2662.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2663.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2663.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2664.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2664.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2665.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2665.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v13",
+    "title": "Mustard Gold Tassel-Tie Bohemian Short Kaftan",
+    "slug": "mustard-gold-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v13",
+      "mustard-gold-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1091.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1091_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1091.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1091_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1091.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1091_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v14",
+    "title": "Aqua Marine Tassel-Tie Bohemian Short Kaftan",
+    "slug": "aqua-marine-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v14",
+      "aqua-marine-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2796.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2796.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2796.JPG.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1574.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2796.JPG.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1574.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/_MG_2796.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA1574.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0008-v15",
+    "title": "Forest Emerald Tassel-Tie Bohemian Short Kaftan",
+    "slug": "forest-emerald-tassel-tie-bohemian-short-kaftan",
+    "aliasSlugs": [
+      "kf-0008-v15",
+      "forest-emerald-tassel-tie-bohemian-short-kaftan",
+      "tassel-tie-bohemian-short-kaftan-var-15"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Mulmul Cotton 60:60 with Soft Wash",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1093.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1093.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1093.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1093_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1093.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1093_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#14532D",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1093.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#14532D",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1093_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Forest Emerald Tassel-Tie Bohemian Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton 60:60 with Soft Wash with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Forest Emerald Tassel-Tie Bohemian Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Mulmul Cotton 60:60 with Soft Wash with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0008-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v1",
+    "title": "Steel Slate High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "steel-slate-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v1",
+      "steel-slate-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-1",
       "aanya-high-slit-draped-silk-resort-maxi-kaftan",
       "aditi-high-slit-draped-silk-resort-maxi-kaftan",
       "alanna-high-slit-draped-silk-resort-maxi-kaftan",
@@ -3776,196 +11611,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "vanya-high-slit-draped-silk-resort-maxi-kaftan",
       "zehra-high-slit-draped-silk-resort-maxi-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1684589183630.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158124869.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156764441.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156764441_1.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722535913836.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722535916779.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1768632527500.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154010654.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535385149.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535389050.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536058704.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536060794.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536065426.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536184884.jpg.jpeg",
-      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859 (1).jpg.jpeg",
-      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859%20(1).jpg.jpeg",
-      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859_2.jpg.jpeg",
-      "/short-long-kaftan/47f070228178ce23bb28ece3c8387e80_1.jpg.jpeg",
-      "/short-long-kaftan/5b5a89a8e21e9c6f81ea2ed6de3066e5_2.jpg.jpeg",
-      "/short-long-kaftan/751a42df73332193b2c6bfee7c5f8d20_2.jpg.jpeg",
-      "/short-long-kaftan/919976d5cc5670f4a0bc9d021afd4c15_2.jpg.jpeg",
-      "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg",
-      "/short-long-kaftan/c8fe288c29af436f4f97156da1766afc_1.jpg.jpeg",
-      "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg",
-      "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2667.JPG.jpeg",
-      "/short-long-kaftan/_MG_3062.JPG.jpeg",
-      "/short-long-kaftan/_MG_3063.JPG.jpeg",
-      "/short-long-kaftan/_MG_3064.JPG.jpeg",
-      "/short-long-kaftan/_MG_3065.JPG.jpeg",
-      "/short-long-kaftan/_MG_3066.JPG.jpeg",
-      "/short-long-kaftan/IMG_20250112_175103.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0101.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0072.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0322.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0323.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261022-WA0324.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1581.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA6323.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1684589183630.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722535913836.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722535916779.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536184884.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261022-WA0322.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1707158124869.jpg.jpeg",
-          "/short-long-kaftan/47f070228178ce23bb28ece3c8387e80_1.jpg.jpeg",
-          "/short-long-kaftan/c8fe288c29af436f4f97156da1766afc_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261022-WA0323.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261022-WA0324.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1720156764441.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1720156764441_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154010654.jpg.jpeg",
-          "/short-long-kaftan/751a42df73332193b2c6bfee7c5f8d20_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0101.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1768632527500.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535385149.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536058704.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536060794.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536065426.jpg.jpeg",
-          "/short-long-kaftan/1bf62bad541e76be3396a778563ac859 (1).jpg.jpeg",
-          "/short-long-kaftan/1bf62bad541e76be3396a778563ac859_2.jpg.jpeg",
-          "/short-long-kaftan/5b5a89a8e21e9c6f81ea2ed6de3066e5_2.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA1581.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA6323.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535389050.jpg.jpeg",
-          "/short-long-kaftan/_MG_2667.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/1bf62bad541e76be3396a778563ac859%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/short-long-kaftan/919976d5cc5670f4a0bc9d021afd4c15_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261005-WA0072.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg",
-          "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/short-long-kaftan/_MG_3062.JPG.jpeg",
-          "/short-long-kaftan/_MG_3063.JPG.jpeg",
-          "/short-long-kaftan/_MG_3064.JPG.jpeg",
-          "/short-long-kaftan/_MG_3065.JPG.jpeg",
-          "/short-long-kaftan/_MG_3066.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/IMG_20250112_175103.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -3973,26 +11629,1048 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The High-Slit Draped Silk Resort Maxi Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 45 photographic views, tailored in Artisanal Georgette with Fluid Drape with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Artisanal Georgette with Fluid Drape",
-    "details": [
-      "Authentic High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Artisanal Georgette with Fluid Drape with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1684589183630.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0009",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1684589183630.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589183630.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0010",
-    "title": "Printed Satin Crepe Belted Evening Kaftan",
-    "slug": "printed-satin-crepe-belted-evening-kaftan",
+    "id": "kf-0009-v2",
+    "title": "Sunset Tangerine High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "sunset-tangerine-high-slit-draped-silk-resort-maxi-kaftan",
     "aliasSlugs": [
+      "kf-0009-v2",
+      "sunset-tangerine-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722535913836.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722535916779.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536184884.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0322.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722535913836.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722535916779.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536184884.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0322.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722535913836.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722535916779.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536184884.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0322.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v3",
+    "title": "Pebble Grey High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "pebble-grey-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v3",
+      "pebble-grey-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158124869.jpg.jpeg",
+      "/short-long-kaftan/47f070228178ce23bb28ece3c8387e80_1.jpg.jpeg",
+      "/short-long-kaftan/c8fe288c29af436f4f97156da1766afc_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0323.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0324.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158124869.jpg.jpeg",
+      "/short-long-kaftan/47f070228178ce23bb28ece3c8387e80_1.jpg.jpeg",
+      "/short-long-kaftan/c8fe288c29af436f4f97156da1766afc_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0323.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261022-WA0324.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158124869.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/47f070228178ce23bb28ece3c8387e80_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/c8fe288c29af436f4f97156da1766afc_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0323.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20261022-WA0324.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v4",
+    "title": "Charcoal Slate High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "charcoal-slate-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v4",
+      "charcoal-slate-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156764441.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156764441_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154010654.jpg.jpeg",
+      "/short-long-kaftan/751a42df73332193b2c6bfee7c5f8d20_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0101.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156764441.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156764441_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154010654.jpg.jpeg",
+      "/short-long-kaftan/751a42df73332193b2c6bfee7c5f8d20_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0101.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156764441.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156764441_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154010654.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/751a42df73332193b2c6bfee7c5f8d20_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0101.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v5",
+    "title": "Warm Caramel High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "warm-caramel-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v5",
+      "warm-caramel-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1768632527500.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1768632527500.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1768632527500.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535385149.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536058704.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536060794.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536065426.jpg.jpeg",
+      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859 (1).jpg.jpeg",
+      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859_2.jpg.jpeg",
+      "/short-long-kaftan/5b5a89a8e21e9c6f81ea2ed6de3066e5_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1581.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6323.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1768632527500.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535385149.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536058704.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536060794.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536065426.jpg.jpeg",
+      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859 (1).jpg.jpeg",
+      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859_2.jpg.jpeg",
+      "/short-long-kaftan/5b5a89a8e21e9c6f81ea2ed6de3066e5_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1581.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA6323.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1768632527500.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535385149.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536058704.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536060794.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536065426.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/1bf62bad541e76be3396a778563ac859 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/1bf62bad541e76be3396a778563ac859_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/5b5a89a8e21e9c6f81ea2ed6de3066e5_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA1581.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA6323.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v6",
+    "title": "Orchid Pink High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "orchid-pink-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v6",
+      "orchid-pink-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535389050.jpg.jpeg",
+      "/short-long-kaftan/_MG_2667.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535389050.jpg.jpeg",
+      "/short-long-kaftan/_MG_2667.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535389050.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_2667.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v7",
+    "title": "Artisan Earth High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "artisan-earth-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v7",
+      "artisan-earth-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/1bf62bad541e76be3396a778563ac859%20(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/1bf62bad541e76be3396a778563ac859%20(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/1bf62bad541e76be3396a778563ac859%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/1bf62bad541e76be3396a778563ac859%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v8",
+    "title": "Teal Slate High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "teal-slate-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v8",
+      "teal-slate-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/919976d5cc5670f4a0bc9d021afd4c15_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/919976d5cc5670f4a0bc9d021afd4c15_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/919976d5cc5670f4a0bc9d021afd4c15_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0072.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/919976d5cc5670f4a0bc9d021afd4c15_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0072.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/919976d5cc5670f4a0bc9d021afd4c15_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0072.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v9",
+    "title": "Sage Olive High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "sage-olive-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v9",
+      "sage-olive-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v10",
+    "title": "Blush Rose High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "blush-rose-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v10",
+      "blush-rose-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg",
+      "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg",
+      "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v11",
+    "title": "Berry Magenta High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "berry-magenta-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v11",
+      "berry-magenta-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_3062.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_3062.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_3062.JPG.jpeg",
+      "/short-long-kaftan/_MG_3063.JPG.jpeg",
+      "/short-long-kaftan/_MG_3064.JPG.jpeg",
+      "/short-long-kaftan/_MG_3065.JPG.jpeg",
+      "/short-long-kaftan/_MG_3066.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_3062.JPG.jpeg",
+      "/short-long-kaftan/_MG_3063.JPG.jpeg",
+      "/short-long-kaftan/_MG_3064.JPG.jpeg",
+      "/short-long-kaftan/_MG_3065.JPG.jpeg",
+      "/short-long-kaftan/_MG_3066.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/_MG_3062.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/_MG_3063.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/_MG_3064.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/_MG_3065.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/_MG_3066.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v12",
+    "title": "Aqua Marine High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "aqua-marine-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v12",
+      "aqua-marine-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG_20250112_175103.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG_20250112_175103.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG_20250112_175103.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG_20250112_175103.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG_20250112_175103.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0009-v13",
+    "title": "Mustard Gold High-Slit Draped Silk Resort Maxi Kaftan",
+    "slug": "mustard-gold-high-slit-draped-silk-resort-maxi-kaftan",
+    "aliasSlugs": [
+      "kf-0009-v13",
+      "mustard-gold-high-slit-draped-silk-resort-maxi-kaftan",
+      "high-slit-draped-silk-resort-maxi-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold High-Slit Draped Silk Resort Maxi Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold High-Slit Draped Silk Resort Maxi Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0009-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v1",
+    "title": "Sand Ochre Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "sand-ochre-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v1",
+      "sand-ochre-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-1",
       "aaliyah-printed-satin-crepe-belted-evening-kaftan",
       "aanya-printed-satin-crepe-belted-evening-kaftan",
       "alanna-printed-satin-crepe-belted-evening-kaftan",
@@ -4186,284 +12864,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "vanya-printed-satin-crepe-belted-evening-kaftan",
       "yami-printed-satin-crepe-belted-evening-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641816561.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158127928.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158130313.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158132766.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156766297.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156766297_1.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156768481.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156768481_1.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024368891.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1768632530350.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154025474.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154027222.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154016302.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154018359.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154020702.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154023486.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536068446.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536071278.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536073403.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536076111.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536077444.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536186482.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536188701.jpg.jpeg",
-      "/short-long-kaftan/205b1f4c8ff568ff374347babeeabc9c_2.jpg.jpeg",
-      "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg",
-      "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
-      "/short-long-kaftan/7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg",
-      "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg",
-      "/short-long-kaftan/a8695a5ae6aada0ca3c059ec63e6ef4a_1.jpg.jpeg",
-      "/short-long-kaftan/d7c7e1e584b436601ebd35a8688c8e13_2.jpg.jpeg",
-      "/short-long-kaftan/e2a3a99c2a0e02abdb1f1849f145bfcb.jpg.jpeg",
-      "/short-long-kaftan/_MG_2668.JPG.jpeg",
-      "/short-long-kaftan/_MG_2669.JPG.jpeg",
-      "/short-long-kaftan/_MG_2670.JPG.jpeg",
-      "/short-long-kaftan/_MG_2671.JPG.jpeg",
-      "/short-long-kaftan/_MG_3067.JPG.jpeg",
-      "/short-long-kaftan/_MG_3068.JPG.jpeg",
-      "/short-long-kaftan/_MG_3069.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_3069.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_3069.JPG.jpeg",
-      "/short-long-kaftan/_MG_3070.JPG.jpeg",
-      "/short-long-kaftan/_MG_3071.JPG.jpeg",
-      "/short-long-kaftan/_MG_3072.JPG.jpeg",
-      "/short-long-kaftan/_MG_3073.JPG.jpeg",
-      "/short-long-kaftan/_MG_3074.JPG.jpeg",
-      "/short-long-kaftan/_MG_3075.JPG.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1034.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1034_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1097_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1098_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1098_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1100_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1100_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0073.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0074.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0075.jpg.jpeg",
-      "/short-long-kaftan/dresses-images/IMG-20261103-WA1191.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1709.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA8059.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154018359.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg",
-          "/short-long-kaftan/_MG_3068.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1097_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1098_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1098_2.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA1709.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg",
-          "/short-long-kaftan/_MG_2668.JPG.jpeg",
-          "/short-long-kaftan/_MG_2669.JPG.jpeg",
-          "/short-long-kaftan/_MG_2670.JPG.jpeg",
-          "/short-long-kaftan/_MG_3072.JPG.jpeg",
-          "/short-long-kaftan/_MG_3073.JPG.jpeg",
-          "/short-long-kaftan/_MG_3074.JPG.jpeg",
-          "/short-long-kaftan/_MG_3075.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641816561.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1707158130313.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1768632530350.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154025474.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154027222.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154016302.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536068446.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536071278.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536073403.jpg.jpeg",
-          "/short-long-kaftan/205b1f4c8ff568ff374347babeeabc9c_2.jpg.jpeg",
-          "/short-long-kaftan/7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg",
-          "/short-long-kaftan/dresses-images/IMG-20261103-WA1191.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg",
-          "/short-long-kaftan/a8695a5ae6aada0ca3c059ec63e6ef4a_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1707158127928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Bronze Ochre",
-        "colorCode": "#854D0E",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1707158132766.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1100_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1100_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1720156766297.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1720156766297_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1741024368891.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154023486.jpg.jpeg",
-          "/short-long-kaftan/d7c7e1e584b436601ebd35a8688c8e13_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_3067.JPG.jpeg",
-          "/short-long-kaftan/_MG_3069.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_3069.JPG.jpeg",
-          "/short-long-kaftan/_MG_3070.JPG.jpeg",
-          "/short-long-kaftan/_MG_3071.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1720156768481.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1720156768481_1.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154020702.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536076111.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536077444.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536186482.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536188701.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA8059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Emerald Green",
-        "colorCode": "#16A34A",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg",
-          "/short-long-kaftan/e2a3a99c2a0e02abdb1f1849f145bfcb.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261005-WA0074.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261005-WA0075.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20261005-WA0073.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/short-long-kaftan/_MG_2671.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/_MG_3069.JPG%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-18",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1034.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1034_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-19",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -4471,26 +12882,1560 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Printed Satin Crepe Belted Evening Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 68 photographic views, tailored in Pure Handloom Cotton with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Handloom Cotton",
-    "details": [
-      "Authentic Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Handloom Cotton with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154018359.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0010",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154018359.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154018359.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0011",
-    "title": "Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
-    "slug": "chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "id": "kf-0010-v2",
+    "title": "Blush Rose Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "blush-rose-printed-satin-crepe-belted-evening-kaftan",
     "aliasSlugs": [
+      "kf-0010-v2",
+      "blush-rose-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg",
+      "/short-long-kaftan/_MG_3068.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg",
+      "/short-long-kaftan/_MG_3068.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/_MG_3068.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v3",
+    "title": "Charcoal Slate Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "charcoal-slate-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v3",
+      "charcoal-slate-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1097_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1098_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1098_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1709.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1097_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1098_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1098_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA1709.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1097_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1098_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1098_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA1709.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v4",
+    "title": "Ruby Crimson Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "ruby-crimson-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v4",
+      "ruby-crimson-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg",
+      "/short-long-kaftan/_MG_2668.JPG.jpeg",
+      "/short-long-kaftan/_MG_2669.JPG.jpeg",
+      "/short-long-kaftan/_MG_2670.JPG.jpeg",
+      "/short-long-kaftan/_MG_3072.JPG.jpeg",
+      "/short-long-kaftan/_MG_3073.JPG.jpeg",
+      "/short-long-kaftan/_MG_3074.JPG.jpeg",
+      "/short-long-kaftan/_MG_3075.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg",
+      "/short-long-kaftan/_MG_2668.JPG.jpeg",
+      "/short-long-kaftan/_MG_2669.JPG.jpeg",
+      "/short-long-kaftan/_MG_2670.JPG.jpeg",
+      "/short-long-kaftan/_MG_3072.JPG.jpeg",
+      "/short-long-kaftan/_MG_3073.JPG.jpeg",
+      "/short-long-kaftan/_MG_3074.JPG.jpeg",
+      "/short-long-kaftan/_MG_3075.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/_MG_2668.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/_MG_2669.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/_MG_2670.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/_MG_3072.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/_MG_3073.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/_MG_3074.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#991B1B",
+        "images": [
+          "/short-long-kaftan/_MG_3075.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v5",
+    "title": "Warm Caramel Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "warm-caramel-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v5",
+      "warm-caramel-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641816561.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641816561.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1695641816561.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158130313.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1768632530350.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154025474.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154027222.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154016302.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536068446.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536071278.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536073403.jpg.jpeg",
+      "/short-long-kaftan/205b1f4c8ff568ff374347babeeabc9c_2.jpg.jpeg",
+      "/short-long-kaftan/7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA1191.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641816561.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1707158130313.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1768632530350.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154025474.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154027222.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154016302.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536068446.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536071278.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536073403.jpg.jpeg",
+      "/short-long-kaftan/205b1f4c8ff568ff374347babeeabc9c_2.jpg.jpeg",
+      "/short-long-kaftan/7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA1191.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641816561.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158130313.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1768632530350.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154025474.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154027222.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154016302.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536068446.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536071278.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536073403.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/205b1f4c8ff568ff374347babeeabc9c_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/dresses-images/IMG-20261103-WA1191.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v6",
+    "title": "Scarlet Red Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "scarlet-red-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v6",
+      "scarlet-red-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg",
+      "/short-long-kaftan/a8695a5ae6aada0ca3c059ec63e6ef4a_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg",
+      "/short-long-kaftan/a8695a5ae6aada0ca3c059ec63e6ef4a_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/short-long-kaftan/a8695a5ae6aada0ca3c059ec63e6ef4a_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v7",
+    "title": "Sage Olive Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "sage-olive-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v7",
+      "sage-olive-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1707158127928.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1707158127928.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1707158127928.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1707158127928.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158127928.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v8",
+    "title": "Bronze Ochre Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "bronze-ochre-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v8",
+      "bronze-ochre-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1707158132766.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1707158132766.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1707158132766.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1100_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1100_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1707158132766.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1100_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1100_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#854D0E",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158132766.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#854D0E",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1100_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#854D0E",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1100_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Bronze Ochre Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Bronze Ochre Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v9",
+    "title": "Orchid Pink Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "orchid-pink-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v9",
+      "orchid-pink-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1720156766297.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1720156766297.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1720156766297.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156766297_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024368891.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154023486.jpg.jpeg",
+      "/short-long-kaftan/d7c7e1e584b436601ebd35a8688c8e13_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_3067.JPG.jpeg",
+      "/short-long-kaftan/_MG_3069.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3069.JPG.jpeg",
+      "/short-long-kaftan/_MG_3070.JPG.jpeg",
+      "/short-long-kaftan/_MG_3071.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1720156766297.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156766297_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1741024368891.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154023486.jpg.jpeg",
+      "/short-long-kaftan/d7c7e1e584b436601ebd35a8688c8e13_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_3067.JPG.jpeg",
+      "/short-long-kaftan/_MG_3069.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_3069.JPG.jpeg",
+      "/short-long-kaftan/_MG_3070.JPG.jpeg",
+      "/short-long-kaftan/_MG_3071.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156766297.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156766297_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024368891.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154023486.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/d7c7e1e584b436601ebd35a8688c8e13_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_3067.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_3069.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_3069.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_3070.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/_MG_3071.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v10",
+    "title": "Pebble Grey Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "pebble-grey-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v10",
+      "pebble-grey-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1720156768481.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1720156768481.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1720156768481.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156768481_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154020702.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1720156768481.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156768481_1.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154020702.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156768481.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156768481_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154020702.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v11",
+    "title": "Sunset Tangerine Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "sunset-tangerine-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v11",
+      "sunset-tangerine-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536076111.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536077444.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536186482.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536188701.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8059.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536076111.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536077444.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536186482.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536188701.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA8059.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536076111.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536077444.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536186482.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536188701.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#EA580C",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA8059.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v12",
+    "title": "Emerald Green Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "emerald-green-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v12",
+      "emerald-green-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#16A34A",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Emerald Green Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Emerald Green Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v13",
+    "title": "Indigo Royal Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "indigo-royal-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v13",
+      "indigo-royal-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg",
+      "/short-long-kaftan/e2a3a99c2a0e02abdb1f1849f145bfcb.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg",
+      "/short-long-kaftan/e2a3a99c2a0e02abdb1f1849f145bfcb.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/e2a3a99c2a0e02abdb1f1849f145bfcb.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v14",
+    "title": "Aqua Marine Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "aqua-marine-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v14",
+      "aqua-marine-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0074.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0075.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0074.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0075.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0074.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0075.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v15",
+    "title": "Teal Slate Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "teal-slate-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v15",
+      "teal-slate-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-15"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0073.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0073.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0073.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v16",
+    "title": "Rust Terracotta Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "rust-terracotta-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v16",
+      "rust-terracotta-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-16"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2671.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2671.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2671.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2671.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/_MG_2671.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v17",
+    "title": "Artisan Earth Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "artisan-earth-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v17",
+      "artisan-earth-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-17"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_3069.JPG%20(1).jpeg",
+    "mainImage": "/short-long-kaftan/_MG_3069.JPG%20(1).jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_3069.JPG%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_3069.JPG%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_3069.JPG%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v18",
+    "title": "Mustard Gold Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "mustard-gold-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v18",
+      "mustard-gold-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-18"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1034.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1034_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1034.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1034_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1034.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1034_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0010-v19",
+    "title": "Berry Magenta Printed Satin Crepe Belted Evening Kaftan",
+    "slug": "berry-magenta-printed-satin-crepe-belted-evening-kaftan",
+    "aliasSlugs": [
+      "kf-0010-v19",
+      "berry-magenta-printed-satin-crepe-belted-evening-kaftan",
+      "printed-satin-crepe-belted-evening-kaftan-var-19"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Printed Satin Crepe Belted Evening Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Printed Satin Crepe Belted Evening Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0010-V19",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v1",
+    "title": "Sage Olive Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "sage-olive-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v1",
+      "sage-olive-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-1",
       "aaliyah-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
       "aanya-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
       "alanna-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
@@ -4693,231 +14638,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "vanya-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
       "yami-chanderi-silk-embroidered-v-neck-resort-short-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641821133.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061227185.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1720156770600_1.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024371570.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024381617.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1768632555692.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1768632559845.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1768632572895.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1785154029287.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535398981.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535400667.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535402434.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536092379.jpg.jpeg",
-      "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg",
-      "/short-long-kaftan/235b8cffd8d1408537bc5ce658d10228_2.jpg.jpeg",
-      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9 (1).jpg.jpeg",
-      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9%20(1).jpg.jpeg",
-      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9-1.jpg.jpeg",
-      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9_2.jpg.jpeg",
-      "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658-1.jpg.jpeg",
-      "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658_2.jpg.jpeg",
-      "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01-1.jpg.jpeg",
-      "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01_2.jpg.jpeg",
-      "/short-long-kaftan/984a2240420b951bef1ffe7210234321_2.jpg.jpeg",
-      "/short-long-kaftan/a9833f2ad1cb8d129f3467495d5ebb40.jpg.jpeg",
-      "/short-long-kaftan/d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg",
-      "/short-long-kaftan/e6fea89a488d34b6165240ebb2ae04be_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2673.JPG.jpeg",
-      "/short-long-kaftan/_MG_2674.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2674.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2674.JPG.jpeg",
-      "/short-long-kaftan/_MG_2676.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2676.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2676.JPG.jpeg",
-      "/short-long-kaftan/_MG_3077.JPG.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1035(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1035.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1035_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1107_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1107_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0112.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0114.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0076.jpg.jpeg",
-      "/short-long-kaftan/dresses-images/IMG-20261103-WA3164.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA2793.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1700061227185.jpg.jpeg",
-          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9 (1).jpg.jpeg",
-          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9-1.jpg.jpeg",
-          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9_2.jpg.jpeg",
-          "/short-long-kaftan/dresses-images/IMG-20261103-WA3164.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641821133.jpg.jpeg",
-          "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01-1.jpg.jpeg",
-          "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0112.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0114.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793536092379.jpg.jpeg",
-          "/short-long-kaftan/984a2240420b951bef1ffe7210234321_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1720156770600_1.jpg.jpeg",
-          "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658-1.jpg.jpeg",
-          "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1741024371570.jpg.jpeg",
-          "/short-long-kaftan/235b8cffd8d1408537bc5ce658d10228_2.jpg.jpeg",
-          "/short-long-kaftan/e6fea89a488d34b6165240ebb2ae04be_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1741024381617.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1768632572895.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1785154029287.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535398981.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535400667.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535402434.jpg.jpeg",
-          "/short-long-kaftan/d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg",
-          "/short-long-kaftan/_MG_3077.JPG.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1107_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1107_2.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA2793.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1768632555692.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1768632559845.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg",
-          "/short-long-kaftan/a9833f2ad1cb8d129f3467495d5ebb40.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9%20(1).jpg.jpeg",
-          "/short-long-kaftan/_MG_2674.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2676.JPG%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/_MG_2673.JPG.jpeg",
-          "/short-long-kaftan/_MG_2674.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2674.JPG.jpeg",
-          "/short-long-kaftan/_MG_2676.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2676.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/short-long-kaftan/IMG-20230802-WA1035(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1035.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1035_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/short-long-kaftan/IMG-20261005-WA0076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -4925,26 +14656,1259 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Chanderi Silk Embroidered V-Neck Resort Short Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 52 photographic views, tailored in Artisanal Georgette with Fluid Drape with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Artisanal Georgette with Fluid Drape",
-    "details": [
-      "Authentic Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Artisanal Georgette with Fluid Drape with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0011",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "kf-0012",
-    "title": "Pure Mulmul Cotton Breathable Lounge Short Kaftan",
-    "slug": "pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "id": "kf-0011-v2",
+    "title": "Sand Ochre Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "sand-ochre-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
     "aliasSlugs": [
+      "kf-0011-v2",
+      "sand-ochre-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061227185.jpg.jpeg",
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9 (1).jpg.jpeg",
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9-1.jpg.jpeg",
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9_2.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA3164.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1700061227185.jpg.jpeg",
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9 (1).jpg.jpeg",
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9-1.jpg.jpeg",
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9_2.jpg.jpeg",
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA3164.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061227185.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/dresses-images/IMG-20261103-WA3164.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v3",
+    "title": "Pebble Grey Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "pebble-grey-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v3",
+      "pebble-grey-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641821133.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641821133.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1695641821133.jpg.jpeg",
+      "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01-1.jpg.jpeg",
+      "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0112.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0114.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641821133.jpg.jpeg",
+      "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01-1.jpg.jpeg",
+      "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0112.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0114.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641821133.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/784a1c1f35e847bc4744ec6ce72dcc01_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0112.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0114.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v4",
+    "title": "Charcoal Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "charcoal-slate-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v4",
+      "charcoal-slate-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536092379.jpg.jpeg",
+      "/short-long-kaftan/984a2240420b951bef1ffe7210234321_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793536092379.jpg.jpeg",
+      "/short-long-kaftan/984a2240420b951bef1ffe7210234321_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536092379.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/984a2240420b951bef1ffe7210234321_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v5",
+    "title": "Rust Terracotta Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "rust-terracotta-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v5",
+      "rust-terracotta-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v6",
+    "title": "Teal Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "teal-slate-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v6",
+      "teal-slate-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156770600_1.jpg.jpeg",
+      "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658-1.jpg.jpeg",
+      "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1720156770600_1.jpg.jpeg",
+      "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658-1.jpg.jpeg",
+      "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1720156770600_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/602f277d73055c8f8fb9236e72a65658_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v7",
+    "title": "Mustard Gold Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "mustard-gold-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v7",
+      "mustard-gold-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1741024371570.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1741024371570.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1741024371570.jpg.jpeg",
+      "/short-long-kaftan/235b8cffd8d1408537bc5ce658d10228_2.jpg.jpeg",
+      "/short-long-kaftan/e6fea89a488d34b6165240ebb2ae04be_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1741024371570.jpg.jpeg",
+      "/short-long-kaftan/235b8cffd8d1408537bc5ce658d10228_2.jpg.jpeg",
+      "/short-long-kaftan/e6fea89a488d34b6165240ebb2ae04be_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024371570.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/235b8cffd8d1408537bc5ce658d10228_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/e6fea89a488d34b6165240ebb2ae04be_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v8",
+    "title": "Warm Caramel Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "warm-caramel-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v8",
+      "warm-caramel-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1741024381617.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1741024381617.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1741024381617.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1768632572895.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154029287.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535398981.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535400667.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535402434.jpg.jpeg",
+      "/short-long-kaftan/d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg",
+      "/short-long-kaftan/_MG_3077.JPG.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1107_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1107_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA2793.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1741024381617.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1768632572895.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1785154029287.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535398981.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535400667.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535402434.jpg.jpeg",
+      "/short-long-kaftan/d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg",
+      "/short-long-kaftan/_MG_3077.JPG.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1107_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1107_2.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA2793.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024381617.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1768632572895.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1785154029287.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535398981.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535400667.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535402434.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/_MG_3077.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1107_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1107_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA2793.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v9",
+    "title": "Ivory Cream Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "ivory-cream-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v9",
+      "ivory-cream-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1768632555692.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1768632555692.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1768632555692.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1768632559845.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1768632555692.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1768632559845.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1768632555692.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1768632559845.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v10",
+    "title": "Indigo Royal Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "indigo-royal-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v10",
+      "indigo-royal-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg",
+      "/short-long-kaftan/a9833f2ad1cb8d129f3467495d5ebb40.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg",
+      "/short-long-kaftan/a9833f2ad1cb8d129f3467495d5ebb40.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/short-long-kaftan/a9833f2ad1cb8d129f3467495d5ebb40.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v11",
+    "title": "Artisan Earth Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "artisan-earth-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v11",
+      "artisan-earth-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9%20(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9%20(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2674.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2676.JPG%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9%20(1).jpg.jpeg",
+      "/short-long-kaftan/_MG_2674.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2676.JPG%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2674.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2676.JPG%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v12",
+    "title": "Sunset Tangerine Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "sunset-tangerine-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v12",
+      "sunset-tangerine-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2673.JPG.jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2673.JPG.jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2673.JPG.jpeg",
+      "/short-long-kaftan/_MG_2674.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2674.JPG.jpeg",
+      "/short-long-kaftan/_MG_2676.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2676.JPG.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2673.JPG.jpeg",
+      "/short-long-kaftan/_MG_2674.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2674.JPG.jpeg",
+      "/short-long-kaftan/_MG_2676.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2676.JPG.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2673.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2674.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2674.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2676.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2676.JPG.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v13",
+    "title": "Steel Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "steel-slate-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v13",
+      "steel-slate-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20230802-WA1035(1).jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20230802-WA1035(1).jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20230802-WA1035(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1035.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1035_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20230802-WA1035(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1035.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1035_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1035(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1035.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1035_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v14",
+    "title": "Blush Rose Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "blush-rose-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v14",
+      "blush-rose-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-14"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v15",
+    "title": "Berry Magenta Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "berry-magenta-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v15",
+      "berry-magenta-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-15"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/IMG-20261005-WA0076.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/IMG-20261005-WA0076.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/IMG-20261005-WA0076.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/IMG-20261005-WA0076.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0076.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0011-v16",
+    "title": "Aqua Marine Chanderi Silk Embroidered V-Neck Resort Short Kaftan",
+    "slug": "aqua-marine-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+    "aliasSlugs": [
+      "kf-0011-v16",
+      "aqua-marine-chanderi-silk-embroidered-v-neck-resort-short-kaftan",
+      "chanderi-silk-embroidered-v-neck-resort-short-kaftan-var-16"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Artisanal Georgette with Fluid Drape",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg",
+    "mainImage": "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg",
+    "images": [
+      "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg"
+    ],
+    "gallery": [
+      "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA8083.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Chanderi Silk Embroidered V-Neck Resort Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Artisanal Georgette with Fluid Drape with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Chanderi Silk Embroidered V-Neck Resort Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Artisanal Georgette with Fluid Drape with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0011-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v1",
+    "title": "Blush Rose Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "blush-rose-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v1",
+      "blush-rose-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-1",
       "aaliyah-pure-mulmul-cotton-breathable-lounge-short-kaftan",
       "aanya-pure-mulmul-cotton-breathable-lounge-short-kaftan",
       "ananya-pure-mulmul-cotton-breathable-lounge-short-kaftan",
@@ -5144,208 +16108,17 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "vanya-pure-mulmul-cotton-breathable-lounge-short-kaftan",
       "yami-pure-mulmul-cotton-breathable-lounge-short-kaftan"
     ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
     "tab": "short-long-kaftan",
-    "category": "short-long-kaftan",
     "badge": "Resort Essential",
     "regularPrice": 2299,
     "salePrice": 1699,
-    "images": [
-      "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1695641826204.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349906639.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1711349908995.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722016481541.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1722016483980.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1741024384106.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1781723116780.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535295209.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535421802.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793535424075.jpg.jpeg",
-      "/short-long-kaftan/FB_IMG_1793536095608.jpg.jpeg",
-      "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
-      "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg",
-      "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6_2.jpg.jpeg",
-      "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
-      "/short-long-kaftan/614df56bbdae8419b571bca9c066515b_2.jpg.jpeg",
-      "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714-1.jpg.jpeg",
-      "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714_2.jpg.jpeg",
-      "/short-long-kaftan/9b98d56f2bb48d5f61b9600cde8c1453.jpg.jpeg",
-      "/short-long-kaftan/ab35190b4a62128eeaae5b06e6ecd040_2.jpg.jpeg",
-      "/short-long-kaftan/da1236a3905329472f22c964f9f53d47-1.jpg.jpeg",
-      "/short-long-kaftan/da1236a3905329472f22c964f9f53d47_2.jpg.jpeg",
-      "/short-long-kaftan/e834f2c46235743ba45cb2425bd9b95a_2.jpg.jpeg",
-      "/short-long-kaftan/_MG_2689.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2689.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2689.JPG (2).jpeg",
-      "/short-long-kaftan/_MG_2689.JPG%20(2).jpeg",
-      "/short-long-kaftan/_MG_2689.JPG.jpeg",
-      "/short-long-kaftan/_MG_2690.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2690.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2690.JPG.jpeg",
-      "/short-long-kaftan/_MG_2691.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_2691.JPG%20(1).jpeg",
-      "/short-long-kaftan/_MG_2691.JPG.jpeg",
-      "/short-long-kaftan/_MG_2692.JPG (1).jpeg",
-      "/short-long-kaftan/_MG_3078.JPG.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1036(1).jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1036.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1036_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1112_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1112_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1113_1.jpg.jpeg",
-      "/short-long-kaftan/IMG-20230802-WA1113_2.jpg.jpeg",
-      "/short-long-kaftan/IMG-20250405-WA0118.jpg.jpeg",
-      "/short-long-kaftan/IMG-20261005-WA0077.jpg.jpeg",
-      "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA3207.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9207.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg",
-          "/short-long-kaftan/614df56bbdae8419b571bca9c066515b_2.jpg.jpeg",
-          "/short-long-kaftan/_MG_3078.JPG.jpeg",
-          "/short-long-kaftan/IMG-20261005-WA0077.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1695641826204.jpg.jpeg",
-          "/short-long-kaftan/da1236a3905329472f22c964f9f53d47-1.jpg.jpeg",
-          "/short-long-kaftan/da1236a3905329472f22c964f9f53d47_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1113_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1113_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1112_1.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1112_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722016481541.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1722016483980.jpg.jpeg",
-          "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714-1.jpg.jpeg",
-          "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714_2.jpg.jpeg",
-          "/short-long-kaftan/9b98d56f2bb48d5f61b9600cde8c1453.jpg.jpeg",
-          "/short-long-kaftan/ab35190b4a62128eeaae5b06e6ecd040_2.jpg.jpeg",
-          "/short-long-kaftan/IMG-20250405-WA0118.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1711349906639.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1711349908995.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1781723116780.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535295209.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535421802.jpg.jpeg",
-          "/short-long-kaftan/FB_IMG_1793535424075.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA3207.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA9207.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1741024384106.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/short-long-kaftan/FB_IMG_1793536095608.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1036(1).jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1036.jpg.jpeg",
-          "/short-long-kaftan/IMG-20230802-WA1036_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg",
-          "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
-          "/short-long-kaftan/_MG_2689.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2689.JPG (2).jpeg",
-          "/short-long-kaftan/_MG_2689.JPG.jpeg",
-          "/short-long-kaftan/_MG_2690.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2690.JPG.jpeg",
-          "/short-long-kaftan/_MG_2691.JPG (1).jpeg",
-          "/short-long-kaftan/_MG_2691.JPG.jpeg",
-          "/short-long-kaftan/_MG_2692.JPG (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/short-long-kaftan/e834f2c46235743ba45cb2425bd9b95a_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/short-long-kaftan/_MG_2689.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2689.JPG%20(2).jpeg",
-          "/short-long-kaftan/_MG_2690.JPG%20(1).jpeg",
-          "/short-long-kaftan/_MG_2691.JPG%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -5353,22 +16126,1100 @@ export const SHORT_LONG_KAFTANS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Pure Mulmul Cotton Breathable Lounge Short Kaftan is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 51 photographic views, tailored in Pure Handloom Cotton with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Handloom Cotton",
-    "details": [
-      "Authentic Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Handloom Cotton with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg",
+      "/short-long-kaftan/614df56bbdae8419b571bca9c066515b_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_3078.JPG.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0077.jpg.jpeg"
     ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg",
+      "/short-long-kaftan/614df56bbdae8419b571bca9c066515b_2.jpg.jpeg",
+      "/short-long-kaftan/_MG_3078.JPG.jpeg",
+      "/short-long-kaftan/IMG-20261005-WA0077.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/614df56bbdae8419b571bca9c066515b_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/_MG_3078.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/short-long-kaftan/IMG-20261005-WA0077.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v2",
+    "title": "Sand Ochre Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "sand-ochre-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v2",
+      "sand-ochre-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-2"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-KF-0012",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1695641826204.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1695641826204.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1695641826204.jpg.jpeg",
+      "/short-long-kaftan/da1236a3905329472f22c964f9f53d47-1.jpg.jpeg",
+      "/short-long-kaftan/da1236a3905329472f22c964f9f53d47_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1113_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1113_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1695641826204.jpg.jpeg",
+      "/short-long-kaftan/da1236a3905329472f22c964f9f53d47-1.jpg.jpeg",
+      "/short-long-kaftan/da1236a3905329472f22c964f9f53d47_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1113_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1113_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1695641826204.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/da1236a3905329472f22c964f9f53d47-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/da1236a3905329472f22c964f9f53d47_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1113_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1113_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v3",
+    "title": "Charcoal Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "charcoal-slate-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v3",
+      "charcoal-slate-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-3"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1112_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1112_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1112_1.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1112_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1112_1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1112_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v4",
+    "title": "Pebble Grey Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "pebble-grey-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v4",
+      "pebble-grey-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-4"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722016481541.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722016483980.jpg.jpeg",
+      "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714-1.jpg.jpeg",
+      "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714_2.jpg.jpeg",
+      "/short-long-kaftan/9b98d56f2bb48d5f61b9600cde8c1453.jpg.jpeg",
+      "/short-long-kaftan/ab35190b4a62128eeaae5b06e6ecd040_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0118.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722016481541.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1722016483980.jpg.jpeg",
+      "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714-1.jpg.jpeg",
+      "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714_2.jpg.jpeg",
+      "/short-long-kaftan/9b98d56f2bb48d5f61b9600cde8c1453.jpg.jpeg",
+      "/short-long-kaftan/ab35190b4a62128eeaae5b06e6ecd040_2.jpg.jpeg",
+      "/short-long-kaftan/IMG-20250405-WA0118.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722016481541.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1722016483980.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/9b98d56f2bb48d5f61b9600cde8c1453.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/ab35190b4a62128eeaae5b06e6ecd040_2.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/short-long-kaftan/IMG-20250405-WA0118.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v5",
+    "title": "Warm Caramel Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "warm-caramel-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v5",
+      "warm-caramel-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-5"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1711349906639.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1711349906639.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1711349906639.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349908995.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1781723116780.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535295209.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535421802.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535424075.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3207.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9207.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1711349906639.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1711349908995.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1781723116780.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535295209.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535421802.jpg.jpeg",
+      "/short-long-kaftan/FB_IMG_1793535424075.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA3207.jpg.jpeg",
+      "/mix-category-product-images/IMG-20261104-WA9207.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349906639.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1711349908995.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1781723116780.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535295209.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535421802.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793535424075.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA3207.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/mix-category-product-images/IMG-20261104-WA9207.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v6",
+    "title": "Steel Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "steel-slate-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v6",
+      "steel-slate-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-6"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1741024384106.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1741024384106.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1741024384106.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1741024384106.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1741024384106.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v7",
+    "title": "Aqua Marine Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "aqua-marine-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v7",
+      "aqua-marine-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-7"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/FB_IMG_1793536095608.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/FB_IMG_1793536095608.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/FB_IMG_1793536095608.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/FB_IMG_1793536095608.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/short-long-kaftan/FB_IMG_1793536095608.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v8",
+    "title": "Orchid Pink Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "orchid-pink-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v8",
+      "orchid-pink-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-8"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1036(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1036.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1036_1.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1036(1).jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1036.jpg.jpeg",
+      "/short-long-kaftan/IMG-20230802-WA1036_1.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1036(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1036.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/short-long-kaftan/IMG-20230802-WA1036_1.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v9",
+    "title": "Teal Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "teal-slate-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v9",
+      "teal-slate-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-9"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg",
+      "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg",
+      "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#0E7490",
+        "images": [
+          "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v10",
+    "title": "Sunset Tangerine Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "sunset-tangerine-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v10",
+      "sunset-tangerine-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-10"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
+      "/short-long-kaftan/_MG_2689.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2689.JPG (2).jpeg",
+      "/short-long-kaftan/_MG_2689.JPG.jpeg",
+      "/short-long-kaftan/_MG_2690.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2690.JPG.jpeg",
+      "/short-long-kaftan/_MG_2691.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2691.JPG.jpeg",
+      "/short-long-kaftan/_MG_2692.JPG (1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
+      "/short-long-kaftan/_MG_2689.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2689.JPG (2).jpeg",
+      "/short-long-kaftan/_MG_2689.JPG.jpeg",
+      "/short-long-kaftan/_MG_2690.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2690.JPG.jpeg",
+      "/short-long-kaftan/_MG_2691.JPG (1).jpeg",
+      "/short-long-kaftan/_MG_2691.JPG.jpeg",
+      "/short-long-kaftan/_MG_2692.JPG (1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2689.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2689.JPG (2).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2689.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2690.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2690.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2691.JPG (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2691.JPG.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#EA580C",
+        "images": [
+          "/short-long-kaftan/_MG_2692.JPG (1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v11",
+    "title": "Mustard Gold Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "mustard-gold-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v11",
+      "mustard-gold-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-11"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/e834f2c46235743ba45cb2425bd9b95a_2.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/e834f2c46235743ba45cb2425bd9b95a_2.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/e834f2c46235743ba45cb2425bd9b95a_2.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/e834f2c46235743ba45cb2425bd9b95a_2.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/short-long-kaftan/e834f2c46235743ba45cb2425bd9b95a_2.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v12",
+    "title": "Artisan Earth Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "artisan-earth-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v12",
+      "artisan-earth-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-12"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/_MG_2689.JPG%20(1).jpeg",
+    "mainImage": "/short-long-kaftan/_MG_2689.JPG%20(1).jpeg",
+    "images": [
+      "/short-long-kaftan/_MG_2689.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2689.JPG%20(2).jpeg",
+      "/short-long-kaftan/_MG_2690.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2691.JPG%20(1).jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/_MG_2689.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2689.JPG%20(2).jpeg",
+      "/short-long-kaftan/_MG_2690.JPG%20(1).jpeg",
+      "/short-long-kaftan/_MG_2691.JPG%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2689.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2689.JPG%20(2).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2690.JPG%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/short-long-kaftan/_MG_2691.JPG%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "kf-0012-v13",
+    "title": "Ivory Cream Pure Mulmul Cotton Breathable Lounge Short Kaftan",
+    "slug": "ivory-cream-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+    "aliasSlugs": [
+      "kf-0012-v13",
+      "ivory-cream-pure-mulmul-cotton-breathable-lounge-short-kaftan",
+      "pure-mulmul-cotton-breathable-lounge-short-kaftan-var-13"
+    ],
+    "category": "Short & Long Kaftans",
+    "category_id": "short-long-kaftan",
+    "category_name": "Short & Long Kaftans",
+    "category_slug": "short-long-kaftan",
+    "tab": "short-long-kaftan",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 2299,
+    "salePrice": 1699,
+    "price": 1699,
+    "fabric": "Pure Handloom Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg",
+    "mainImage": "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg",
+    "images": [
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg"
+    ],
+    "gallery": [
+      "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/short-long-kaftan/dresses-images/IMG-20261103-WA5899.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Pure Mulmul Cotton Breathable Lounge Short Kaftan handcrafted at Wastram's Jaipur atelier. Tailored in Pure Handloom Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Pure Mulmul Cotton Breathable Lounge Short Kaftan crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Handloom Cotton with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-KF-0012-V13",
+    "inStock": true,
+    "stockQty": 50
   }
 ];
 
 export const SHORT_LONG_KAFTAN = SHORT_LONG_KAFTANS;
-

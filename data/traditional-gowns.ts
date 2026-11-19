@@ -1,12 +1,3600 @@
-// Wastram Atelier — traditional-gowns catalogue (consolidated 12 canonical products)
+// Wastram Atelier — traditional-gowns catalogue (Reconstructed 216 Individual Products)
 import { NishoramaProduct } from './nishorama-data';
 
 export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
   {
-    "id": "tg-0001",
-    "title": "Mirror Work Draped Anarkali",
-    "slug": "mirror-work-draped-anarkali",
+    "id": "prod-Rust-Terracotta-Silk-Cape-Kalida-5879",
+    "title": "Rust Terracotta Silk Cape Kalidar Gown",
+    "slug": "rust-terracotta-silk-cape-kalidar-gown",
     "aliasSlugs": [
+      "prod-Rust-Terracotta-Silk-Cape-Kalida-5879",
+      "rust-terracotta-silk-cape-kalidar-gown",
+      "rust-terracotta-silk-cape-kalidar-gown"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "POPULAR",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1795063385153-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795063385153-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795063416779-kxip",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "The Silk Cape Kalidar Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 54 photographic views, tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
+    "details": [
+      "Authentic Rust Terracotta Silk Cape Kalidar Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
+      "Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision anatomical grading across sizes S to XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "sku": "WST-TG-RUST-TERRACOTTA",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "prod-Silk-Cape-Kalidar-Gown-Pebble-Gr-1838",
+    "title": "Silk Cape Kalidar Gown - Pebble Grey",
+    "slug": "silk-cape-kalidar-gown-pebble-grey",
+    "aliasSlugs": [
+      "prod-Silk-Cape-Kalidar-Gown-Pebble-Gr-1838",
+      "silk-cape-kalidar-gown-pebble-grey",
+      "silk-cape-kalidar-gown-pebble-grey"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "POPULAR",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg",
+      "/traditional-gowns/16849.jpg.jpeg",
+      "/traditional-gowns/16850.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg",
+      "/traditional-gowns/16849.jpg.jpeg",
+      "/traditional-gowns/16850.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1795063079534-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795063079534-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795063125199-o7kk",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16849.jpg.jpeg",
+          "/traditional-gowns/16850.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795063344582-vt7o",
+        "name": "Styling 4",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "The Silk Cape Kalidar Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 54 photographic views, tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
+    "details": [
+      "Authentic Silk Cape Kalidar Gown - Pebble Grey handcrafted at Wastram's Sanganer, Jaipur atelier",
+      "Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision anatomical grading across sizes S to XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "sku": "WST-TG-PEBBLE-GREY",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-ruby-crimson-chikankari-hand-emb-1",
+    "title": "Ruby Crimson Chikankari Hand-Embroidered Regal Gown",
+    "slug": "ruby-crimson-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-ruby-crimson-chikankari-hand-emb-1",
+      "ruby-crimson-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-0"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Bestseller",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781723131578.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781723131578.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781723131578.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781723131578.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781723131578.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-RUBY-CRIMSON-CHIKANKARI-HAND-EMB-1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-warm-caramel-chikankari-hand-emb-2",
+    "title": "Warm Caramel Chikankari Hand-Embroidered Regal Gown",
+    "slug": "warm-caramel-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-warm-caramel-chikankari-hand-emb-2",
+      "warm-caramel-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-1"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Bestseller",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0247.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0249.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0247.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0249.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0247.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0249.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-WARM-CARAMEL-CHIKANKARI-HAND-EMB-2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-berry-magenta-chikankari-hand-em-3",
+    "title": "Berry Magenta Chikankari Hand-Embroidered Regal Gown",
+    "slug": "berry-magenta-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-berry-magenta-chikankari-hand-em-3",
+      "berry-magenta-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Bestseller",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-BERRY-MAGENTA-CHIKANKARI-HAND-EM-3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-blush-rose-chikankari-hand-embro-4",
+    "title": "Blush Rose Chikankari Hand-Embroidered Regal Gown",
+    "slug": "blush-rose-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-blush-rose-chikankari-hand-embro-4",
+      "blush-rose-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261029-WA0050.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261029-WA0050.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261029-WA0050.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261029-WA0050.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261029-WA0050.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-BLUSH-ROSE-CHIKANKARI-HAND-EMBRO-4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-ivory-cream-chikankari-hand-embr-5",
+    "title": "Ivory Cream Chikankari Hand-Embroidered Regal Gown",
+    "slug": "ivory-cream-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-ivory-cream-chikankari-hand-embr-5",
+      "ivory-cream-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529730046.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529730046.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529730046.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529730046.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529730046.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-IVORY-CREAM-CHIKANKARI-HAND-EMBR-5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-lavender-violet-chikankari-hand--6",
+    "title": "Lavender Violet Chikankari Hand-Embroidered Regal Gown",
+    "slug": "lavender-violet-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-lavender-violet-chikankari-hand--6",
+      "lavender-violet-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789494072402.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789494072402.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789494072402.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789494072402.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494072402.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-LAVENDER-VIOLET-CHIKANKARI-HAND--6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-midnight-black-chikankari-hand-e-7",
+    "title": "Midnight Black Chikankari Hand-Embroidered Regal Gown",
+    "slug": "midnight-black-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-midnight-black-chikankari-hand-e-7",
+      "midnight-black-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529219448.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529219448.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529219448.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-MIDNIGHT-BLACK-CHIKANKARI-HAND-E-7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-sunset-tangerine-chikankari-hand-8",
+    "title": "Sunset Tangerine Chikankari Hand-Embroidered Regal Gown",
+    "slug": "sunset-tangerine-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-sunset-tangerine-chikankari-hand-8",
+      "sunset-tangerine-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529957697.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529957697.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529957697.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529957697.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529957697.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-SUNSET-TANGERINE-CHIKANKARI-HAND-8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-plum-wine-chikankari-hand-embroi-9",
+    "title": "Plum Wine Chikankari Hand-Embroidered Regal Gown",
+    "slug": "plum-wine-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-plum-wine-chikankari-hand-embroi-9",
+      "plum-wine-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0080.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0080.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0080.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0080.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0080.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-PLUM-WINE-CHIKANKARI-HAND-EMBROI-9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-charcoal-slate-chikankari-hand-e-10",
+    "title": "Charcoal Slate Chikankari Hand-Embroidered Regal Gown",
+    "slug": "charcoal-slate-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-charcoal-slate-chikankari-hand-e-10",
+      "charcoal-slate-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0034.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0034.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0034.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0034.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0034.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHARCOAL-SLATE-CHIKANKARI-HAND-E-10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-forest-emerald-chikankari-hand-e-11",
+    "title": "Forest Emerald Chikankari Hand-Embroidered Regal Gown",
+    "slug": "forest-emerald-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-forest-emerald-chikankari-hand-e-11",
+      "forest-emerald-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676130475314.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676130475314.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676130475314.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676130475314.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676130475314.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Forest Emerald Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Forest Emerald Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-FOREST-EMERALD-CHIKANKARI-HAND-E-11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-orchid-pink-chikankari-hand-embr-12",
+    "title": "Orchid Pink Chikankari Hand-Embroidered Regal Gown",
+    "slug": "orchid-pink-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-orchid-pink-chikankari-hand-embr-12",
+      "orchid-pink-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16739.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16739.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16739.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16739.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16739.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-ORCHID-PINK-CHIKANKARI-HAND-EMBR-12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-aqua-marine-chikankari-hand-embr-13",
+    "title": "Aqua Marine Chikankari Hand-Embroidered Regal Gown",
+    "slug": "aqua-marine-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-aqua-marine-chikankari-hand-embr-13",
+      "aqua-marine-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16790.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16790.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16790.jpg.jpeg",
+      "/traditional-gowns/16792.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16790.jpg.jpeg",
+      "/traditional-gowns/16792.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16790.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16792.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-AQUA-MARINE-CHIKANKARI-HAND-EMBR-13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-pebble-grey-chikankari-hand-embr-14",
+    "title": "Pebble Grey Chikankari Hand-Embroidered Regal Gown",
+    "slug": "pebble-grey-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-pebble-grey-chikankari-hand-embr-14",
+      "pebble-grey-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1671790684345.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1671790684345.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1671790684345.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1671790684345.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoFix_1671790684345.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-PEBBLE-GREY-CHIKANKARI-HAND-EMBR-14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-deep-teal-chikankari-hand-embroi-15",
+    "title": "Deep Teal Chikankari Hand-Embroidered Regal Gown",
+    "slug": "deep-teal-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-deep-teal-chikankari-hand-embroi-15",
+      "deep-teal-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325609300.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325609300.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325609300.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-DEEP-TEAL-CHIKANKARI-HAND-EMBROI-15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-artisan-earth-chikankari-hand-em-16",
+    "title": "Artisan Earth Chikankari Hand-Embroidered Regal Gown",
+    "slug": "artisan-earth-chikankari-hand-embroidered-regal-gown",
+    "aliasSlugs": [
+      "tg-artisan-earth-chikankari-hand-em-16",
+      "artisan-earth-chikankari-hand-embroidered-regal-gown",
+      "chikankari-hand-embroidered-regal-gown-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0015%20(1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0015%20(1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0015%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0015%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0015%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Chikankari Hand-Embroidered Regal Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-ARTISAN-EARTH-CHIKANKARI-HAND-EM-16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-17",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 17",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-17",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-17",
+      "chikankari-hand-embroidered-regal-gown-edition-17",
+      "chikankari-hand-embroidered-regal-gown-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789316452963.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789316456054.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789316471364.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789316452963.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789316456054.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789316471364.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789316452963.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789316456054.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789316471364.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 17 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 17 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-18",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 18",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-18",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-18",
+      "chikankari-hand-embroidered-regal-gown-edition-18",
+      "chikankari-hand-embroidered-regal-gown-var-17"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 18 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 18 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-19",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 19",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-19",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-19",
+      "chikankari-hand-embroidered-regal-gown-edition-19",
+      "chikankari-hand-embroidered-regal-gown-var-18"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16824.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16824.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16824.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16824.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16824.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 19 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 19 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-19",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-20",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 20",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-20",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-20",
+      "chikankari-hand-embroidered-regal-gown-edition-20",
+      "chikankari-hand-embroidered-regal-gown-var-19"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793392250.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793392250.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793392250.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 20 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 20 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-20",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-21",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 21",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-21",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-21",
+      "chikankari-hand-embroidered-regal-gown-edition-21",
+      "chikankari-hand-embroidered-regal-gown-var-20"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529221416.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529221416.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529221416.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529221416.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529221416.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 21 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 21 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-21",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-22",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 22",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-22",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-22",
+      "chikankari-hand-embroidered-regal-gown-edition-22",
+      "chikankari-hand-embroidered-regal-gown-var-21"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG_20230124_222544.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG_20230124_222544.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG_20230124_222544.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG_20230124_222544.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222544.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 22 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 22 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-22",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-23",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 23",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-23",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-23",
+      "chikankari-hand-embroidered-regal-gown-edition-23",
+      "chikankari-hand-embroidered-regal-gown-var-22"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16738.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16738.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16738.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16738.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16738.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 23 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 23 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-23",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-24",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 24",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-24",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-24",
+      "chikankari-hand-embroidered-regal-gown-edition-24",
+      "chikankari-hand-embroidered-regal-gown-var-23"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676132366853.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676132366853.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676132366853.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676132366853.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676132366853.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 24 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 24 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-24",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-25",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 25",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-25",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-25",
+      "chikankari-hand-embroidered-regal-gown-edition-25",
+      "chikankari-hand-embroidered-regal-gown-var-24"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0057.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0057.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0057.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0057.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0057.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 25 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 25 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-25",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-26",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 26",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-26",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-26",
+      "chikankari-hand-embroidered-regal-gown-edition-26",
+      "chikankari-hand-embroidered-regal-gown-var-25"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16691.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16691.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16691.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16691.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16691.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 26 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 26 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-26",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chikankari-hand-embroidered-rega-27",
+    "title": "Chikankari Hand-Embroidered Regal Gown — Edition 27",
+    "slug": "chikankari-hand-embroidered-regal-gown-edition-27",
+    "aliasSlugs": [
+      "tg-chikankari-hand-embroidered-rega-27",
+      "chikankari-hand-embroidered-regal-gown-edition-27",
+      "chikankari-hand-embroidered-regal-gown-var-26"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16736.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16736.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16736.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16736.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16736.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 27 handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chikankari Hand-Embroidered Regal Gown — Edition 27 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHIKANKARI-HAND-EMBROIDERED-REGA-27",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-warm-caramel-chanderi-silk-gota--1",
+    "title": "Warm Caramel Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "warm-caramel-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-warm-caramel-chanderi-silk-gota--1",
+      "warm-caramel-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-0"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Bestseller",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529212558.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529212558.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529212558.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-WARM-CARAMEL-CHANDERI-SILK-GOTA--1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-scarlet-red-chanderi-silk-gota-p-2",
+    "title": "Scarlet Red Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "scarlet-red-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-scarlet-red-chanderi-silk-gota-p-2",
+      "scarlet-red-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-1"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Bestseller",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0242.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0242.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0242.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0242.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0242.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-SCARLET-RED-CHANDERI-SILK-GOTA-P-2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-sunset-tangerine-chanderi-silk-g-3",
+    "title": "Sunset Tangerine Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "sunset-tangerine-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-sunset-tangerine-chanderi-silk-g-3",
+      "sunset-tangerine-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Bestseller",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0053.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0053.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0053.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0053.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0053.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-SUNSET-TANGERINE-CHANDERI-SILK-G-3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-lavender-violet-chanderi-silk-go-4",
+    "title": "Lavender Violet Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "lavender-violet-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-lavender-violet-chanderi-silk-go-4",
+      "lavender-violet-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789494070108.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789494070108.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789494070108.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789494070108.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494070108.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-LAVENDER-VIOLET-CHANDERI-SILK-GO-4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-charcoal-slate-chanderi-silk-got-5",
+    "title": "Charcoal Slate Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "charcoal-slate-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-charcoal-slate-chanderi-silk-got-5",
+      "charcoal-slate-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676132168004.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676132168004.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676132168004.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676132168004.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676132168004.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHARCOAL-SLATE-CHANDERI-SILK-GOT-5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-pebble-grey-chanderi-silk-gota-p-6",
+    "title": "Pebble Grey Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "pebble-grey-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-pebble-grey-chanderi-silk-gota-p-6",
+      "pebble-grey-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-PEBBLE-GREY-CHANDERI-SILK-GOTA-P-6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-midnight-black-chanderi-silk-got-7",
+    "title": "Midnight Black Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "midnight-black-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-midnight-black-chanderi-silk-got-7",
+      "midnight-black-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16688.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16688.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16688.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16688.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16688.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-MIDNIGHT-BLACK-CHANDERI-SILK-GOT-7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-orchid-pink-chanderi-silk-gota-p-8",
+    "title": "Orchid Pink Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "orchid-pink-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-orchid-pink-chanderi-silk-gota-p-8",
+      "orchid-pink-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16735.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16735.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16735.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16735.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16735.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-ORCHID-PINK-CHANDERI-SILK-GOTA-P-8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-artisan-earth-chanderi-silk-gota-9",
+    "title": "Artisan Earth Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "artisan-earth-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-artisan-earth-chanderi-silk-gota-9",
+      "artisan-earth-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoStudio_1668325538949%20(1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoStudio_1668325538949%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoStudio_1668325538949%20(1).jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoStudio_1668325538949%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325538949%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-ARTISAN-EARTH-CHANDERI-SILK-GOTA-9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-indigo-royal-chanderi-silk-gota--10",
+    "title": "Indigo Royal Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "indigo-royal-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-indigo-royal-chanderi-silk-gota--10",
+      "indigo-royal-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16788.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16788.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16788.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16788.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16788.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-INDIGO-ROYAL-CHANDERI-SILK-GOTA--10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-sand-ochre-chanderi-silk-gota-pa-11",
+    "title": "Sand Ochre Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "sand-ochre-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-sand-ochre-chanderi-silk-gota-pa-11",
+      "sand-ochre-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16822.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16822.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16822.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16822.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16822.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-SAND-OCHRE-CHANDERI-SILK-GOTA-PA-11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-ivory-cream-chanderi-silk-gota-p-12",
+    "title": "Ivory Cream Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "ivory-cream-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-ivory-cream-chanderi-silk-gota-p-12",
+      "ivory-cream-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG_20230124_222513.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG_20230124_222513.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG_20230124_222513.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG_20230124_222513.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222513.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-IVORY-CREAM-CHANDERI-SILK-GOTA-P-12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-blush-rose-chanderi-silk-gota-pa-13",
+    "title": "Blush Rose Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "blush-rose-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-blush-rose-chanderi-silk-gota-pa-13",
+      "blush-rose-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1671790585714.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1671790585714.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1671790585714.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1671790585714.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoFix_1671790585714.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-BLUSH-ROSE-CHANDERI-SILK-GOTA-PA-13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-forest-emerald-chanderi-silk-got-14",
+    "title": "Forest Emerald Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "forest-emerald-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-forest-emerald-chanderi-silk-got-14",
+      "forest-emerald-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676130388413.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676130388413.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676130388413.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676130388413.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676130388413.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Forest Emerald Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Forest Emerald Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-FOREST-EMERALD-CHANDERI-SILK-GOT-14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-ruby-crimson-chanderi-silk-gota--15",
+    "title": "Ruby Crimson Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "ruby-crimson-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-ruby-crimson-chanderi-silk-gota--15",
+      "ruby-crimson-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0079.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0079.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0079.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0079.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0079.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-RUBY-CRIMSON-CHANDERI-SILK-GOTA--15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-rust-terracotta-chanderi-silk-go-16",
+    "title": "Rust Terracotta Chanderi Silk Gota Patti Floor-Length Gown",
+    "slug": "rust-terracotta-chanderi-silk-gota-patti-floor-length-gown",
+    "aliasSlugs": [
+      "tg-rust-terracotta-chanderi-silk-go-16",
+      "rust-terracotta-chanderi-silk-gota-patti-floor-length-gown",
+      "chanderi-silk-gota-patti-floor-length-gown-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg",
+      "/traditional-gowns/IMG-20261023-WA0068.jpg.jpeg",
+      "/traditional-gowns/IMG-20261023-WA0069.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg",
+      "/traditional-gowns/IMG-20261023-WA0068.jpg.jpeg",
+      "/traditional-gowns/IMG-20261023-WA0069.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261023-WA0068.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20261023-WA0069.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Chanderi Silk Gota Patti Floor-Length Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-RUST-TERRACOTTA-CHANDERI-SILK-GO-16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-17",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 17",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-17",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-17",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-17",
+      "chanderi-silk-gota-patti-floor-length-gown-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237525312.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237528700.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237537480.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237550781.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237525312.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237528700.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237537480.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237550781.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237525312.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237528700.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237537480.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237550781.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 17 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 17 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-18",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 18",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-18",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-18",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-18",
+      "chanderi-silk-gota-patti-floor-length-gown-var-17"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237535297.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237541516.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237531490.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237535297.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237541516.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237531490.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237535297.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237541516.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237531490.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 18 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 18 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-19",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 19",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-19",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-19",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-19",
+      "chanderi-silk-gota-patti-floor-length-gown-var-18"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793388935.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793388935.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793388935.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 19 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 19 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-19",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-20",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 20",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-20",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-20",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-20",
+      "chanderi-silk-gota-patti-floor-length-gown-var-19"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529949767.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529951814.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529953927.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529949767.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529951814.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529953927.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529949767.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529951814.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529953927.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 20 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 20 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-20",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-21",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 21",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-21",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-21",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-21",
+      "chanderi-silk-gota-patti-floor-length-gown-var-20"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16783.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16783.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16783.jpg.jpeg",
+      "/traditional-gowns/16784.jpg.jpeg",
+      "/traditional-gowns/16787.jpg (1).jpeg",
+      "/traditional-gowns/16787.jpg%20(1).jpeg",
+      "/traditional-gowns/16787.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16783.jpg.jpeg",
+      "/traditional-gowns/16784.jpg.jpeg",
+      "/traditional-gowns/16787.jpg (1).jpeg",
+      "/traditional-gowns/16787.jpg%20(1).jpeg",
+      "/traditional-gowns/16787.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16783.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16784.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16787.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16787.jpg%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/16787.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 21 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 21 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-21",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-22",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 22",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-22",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-22",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-22",
+      "chanderi-silk-gota-patti-floor-length-gown-var-21"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529725382.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529728103.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529725382.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529728103.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529725382.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529728103.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 22 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 22 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-22",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-23",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 23",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-23",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-23",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-23",
+      "chanderi-silk-gota-patti-floor-length-gown-var-22"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781723129200.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781723129200.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781723129200.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781723129200.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781723129200.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 23 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 23 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-23",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-24",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 24",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-24",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-24",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-24",
+      "chanderi-silk-gota-patti-floor-length-gown-var-23"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789315974471.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789315974471.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789315974471.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789315974471.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315974471.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 24 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 24 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-24",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-25",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 25",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-25",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-25",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-25",
+      "chanderi-silk-gota-patti-floor-length-gown-var-24"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529715945.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529715945.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529715945.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 25 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 25 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-25",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-26",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 26",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-26",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-26",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-26",
+      "chanderi-silk-gota-patti-floor-length-gown-var-25"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0029%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0029%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0029%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 26 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 26 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-26",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-chanderi-silk-gota-patti-floor-l-27",
+    "title": "Chanderi Silk Gota Patti Floor-Length Gown — Edition 27",
+    "slug": "chanderi-silk-gota-patti-floor-length-gown-edition-27",
+    "aliasSlugs": [
+      "tg-chanderi-silk-gota-patti-floor-l-27",
+      "chanderi-silk-gota-patti-floor-length-gown-edition-27",
+      "chanderi-silk-gota-patti-floor-length-gown-var-26"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0014.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0014.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0014.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0014.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0014.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 27 handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL.",
+    "details": [
+      "Authentic Chanderi Silk Gota Patti Floor-Length Gown — Edition 27 crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium fabric with colour-fast finish",
+      "Precision curve grading across sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-CHANDERI-SILK-GOTA-PATTI-FLOOR-L-27",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v1",
+    "title": "Pebble Grey Mirror Work Draped Anarkali",
+    "slug": "pebble-grey-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v1",
+      "pebble-grey-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-1",
       "ananya-handcrafted-mirror-work-draped-royal-gown",
       "aria-anarkali-flared-floor-length-gown-edition-2-tg-0013",
       "aria-anarkali-flared-floor-length-gown-edition-5-tg-0050",
@@ -158,235 +3746,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-banarasi-silk-sweep-flare-gown-edition-7-tg-0090",
       "zara-banarasi-silk-sweep-flare-gown-edition-8-tg-0104"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1763368265896.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1763368267747.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793398128.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793399496.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237567955.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237570157.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237572104.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493954547.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494082204.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494084298.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494096819.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494101227.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529286397.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529804850.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529962053.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529964028.jpg.jpeg",
-      "/traditional-gowns/16692.jpg.jpeg",
-      "/traditional-gowns/16740.jpg.jpeg",
-      "/traditional-gowns/16796.jpg.jpeg",
-      "/traditional-gowns/16847.jpg.jpeg",
-      "/traditional-gowns/16848.jpg (1).jpeg",
-      "/traditional-gowns/16848.jpg%20(1).jpeg",
-      "/traditional-gowns/16848.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222557.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671790767873.jpeg",
-      "/traditional-gowns/PhotoFix_1676130645136.jpeg",
-      "/traditional-gowns/PhotoFix_1676132467332.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0001 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0001%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0001.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0016 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0016%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0016.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0036 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0036%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0036.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0037 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0037%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0037.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0060.jpg.jpeg",
-      "/traditional-gowns/IMG-20261008-WA0061.jpg.jpeg",
-      "/traditional-gowns/IMG-20261008-WA0062.jpg.jpeg",
-      "/traditional-gowns/IMG-20261008-WA0063.jpg.jpeg",
-      "/traditional-gowns/IMG-20261008-WA0065.jpg.jpeg",
-      "/traditional-gowns/IMG-20261008-WA0066.jpg.jpeg",
-      "/traditional-gowns/IMG-20261008-WA0064.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0256.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1763368267747.jpg.jpeg",
-          "/traditional-gowns/IMG-20261008-WA0064.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1763368265896.jpg.jpeg",
-          "/traditional-gowns/IMG_20230124_222557.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1671790767873.jpeg",
-          "/traditional-gowns/IMG-20261008-WA0063.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781793398128.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781793399496.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494096819.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494101227.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0036 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0036.jpg.jpeg",
-          "/traditional-gowns/IMG-20261008-WA0061.jpg.jpeg",
-          "/traditional-gowns/IMG-20261008-WA0062.jpg.jpeg",
-          "/traditional-gowns/IMG-20261008-WA0065.jpg.jpeg",
-          "/traditional-gowns/IMG-20261008-WA0066.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0256.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237567955.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237570157.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237572104.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494082204.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494084298.jpg.jpeg",
-          "/traditional-gowns/16740.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493954547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg",
-          "/traditional-gowns/16848.jpg (1).jpeg",
-          "/traditional-gowns/16848.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0037 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0037.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529804850.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529286397.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529962053.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529964028.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0016 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0016.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16692.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/traditional-gowns/16796.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/16847.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/16848.jpg%20(1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0001%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0016%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0036%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0037%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676130645136.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676132467332.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0001 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0001.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0060.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -394,26 +3764,1279 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Mirror Work Draped Anarkali is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 54 photographic views, tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
-    "details": [
-      "Authentic Mirror Work Draped Anarkali handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1763368267747.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0064.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0001",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1763368267747.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0064.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763368267747.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20261008-WA0064.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0002",
-    "title": "Silk Cape Kalidar Gown",
-    "slug": "silk-cape-kalidar-gown",
+    "id": "tg-0001-v2",
+    "title": "Ivory Cream Mirror Work Draped Anarkali",
+    "slug": "ivory-cream-mirror-work-draped-anarkali",
     "aliasSlugs": [
+      "tg-0001-v2",
+      "ivory-cream-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1763368265896.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222557.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671790767873.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0063.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1763368265896.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222557.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671790767873.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0063.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763368265896.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222557.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/PhotoFix_1671790767873.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20261008-WA0063.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v3",
+    "title": "Warm Caramel Mirror Work Draped Anarkali",
+    "slug": "warm-caramel-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v3",
+      "warm-caramel-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793398128.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793399496.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494096819.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494101227.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0036 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0036.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0061.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0062.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0065.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0066.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0256.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793398128.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793399496.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494096819.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494101227.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0036 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0036.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0061.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0062.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0065.jpg.jpeg",
+      "/traditional-gowns/IMG-20261008-WA0066.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0256.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793398128.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793399496.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494096819.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494101227.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0036 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0036.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261008-WA0061.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261008-WA0062.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261008-WA0065.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261008-WA0066.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0256.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v4",
+    "title": "Scarlet Red Mirror Work Draped Anarkali",
+    "slug": "scarlet-red-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v4",
+      "scarlet-red-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237567955.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237570157.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237572104.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494082204.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494084298.jpg.jpeg",
+      "/traditional-gowns/16740.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237567955.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237570157.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237572104.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494082204.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494084298.jpg.jpeg",
+      "/traditional-gowns/16740.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237567955.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237570157.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237572104.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494082204.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494084298.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/16740.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v5",
+    "title": "Indigo Royal Mirror Work Draped Anarkali",
+    "slug": "indigo-royal-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v5",
+      "indigo-royal-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493954547.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493954547.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493954547.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493954547.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493954547.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v6",
+    "title": "Blush Rose Mirror Work Draped Anarkali",
+    "slug": "blush-rose-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v6",
+      "blush-rose-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg",
+      "/traditional-gowns/16848.jpg (1).jpeg",
+      "/traditional-gowns/16848.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0037 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0037.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg",
+      "/traditional-gowns/16848.jpg (1).jpeg",
+      "/traditional-gowns/16848.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0037 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0037.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16848.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16848.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0037 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0037.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v7",
+    "title": "Sunset Tangerine Mirror Work Draped Anarkali",
+    "slug": "sunset-tangerine-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v7",
+      "sunset-tangerine-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529804850.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529804850.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529804850.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v8",
+    "title": "Rust Terracotta Mirror Work Draped Anarkali",
+    "slug": "rust-terracotta-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v8",
+      "rust-terracotta-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529286397.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529286397.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529286397.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529286397.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529286397.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v9",
+    "title": "Mustard Gold Mirror Work Draped Anarkali",
+    "slug": "mustard-gold-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v9",
+      "mustard-gold-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529962053.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529964028.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0016 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0016.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529962053.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529964028.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0016 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0016.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529962053.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529964028.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0016 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0016.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v10",
+    "title": "Orchid Pink Mirror Work Draped Anarkali",
+    "slug": "orchid-pink-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v10",
+      "orchid-pink-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16692.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16692.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16692.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16692.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16692.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v11",
+    "title": "Steel Slate Mirror Work Draped Anarkali",
+    "slug": "steel-slate-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v11",
+      "steel-slate-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16796.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16796.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16796.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16796.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/traditional-gowns/16796.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v12",
+    "title": "Charcoal Slate Mirror Work Draped Anarkali",
+    "slug": "charcoal-slate-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v12",
+      "charcoal-slate-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16847.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16847.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16847.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16847.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/16847.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v13",
+    "title": "Artisan Earth Mirror Work Draped Anarkali",
+    "slug": "artisan-earth-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v13",
+      "artisan-earth-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16848.jpg%20(1).jpeg",
+    "mainImage": "/traditional-gowns/16848.jpg%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/16848.jpg%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0001%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0016%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0036%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0037%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16848.jpg%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0001%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0016%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0036%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0037%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/16848.jpg%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0001%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0016%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0036%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0037%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v14",
+    "title": "Deep Teal Mirror Work Draped Anarkali",
+    "slug": "deep-teal-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v14",
+      "deep-teal-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676130645136.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676130645136.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676130645136.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676130645136.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676130645136.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v15",
+    "title": "Midnight Black Mirror Work Draped Anarkali",
+    "slug": "midnight-black-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v15",
+      "midnight-black-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676132467332.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676132467332.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676132467332.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0001 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0001.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676132467332.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0001 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0001.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676132467332.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0001 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0001.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0001-v16",
+    "title": "Ruby Crimson Mirror Work Draped Anarkali",
+    "slug": "ruby-crimson-mirror-work-draped-anarkali",
+    "aliasSlugs": [
+      "tg-0001-v16",
+      "ruby-crimson-mirror-work-draped-anarkali",
+      "mirror-work-draped-anarkali-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0060.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0060.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0060.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0060.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0060.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Mirror Work Draped Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Mirror Work Draped Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0001-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v1",
+    "title": "Warm Caramel Silk Cape Kalidar Gown",
+    "slug": "warm-caramel-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v1",
+      "warm-caramel-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-1",
       "ananya-artisanal-draped-silk-cape-kalidar-gown",
       "aria-anarkali-flared-floor-length-gown-edition-5-tg-0050",
       "aria-anarkali-flared-floor-length-gown-edition-9-tg-0109",
@@ -561,235 +5184,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-banarasi-silk-sweep-flare-gown-edition-8-tg-0104",
       "zoya-artisanal-draped-silk-cape-kalidar-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1763923106749.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793405019.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237575892.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529172352.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529301555.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529305558.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529806910.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529808811.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529810744.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529812697.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026525239.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026527752.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg",
-      "/traditional-gowns/16693.jpg.jpeg",
-      "/traditional-gowns/16741.jpg.jpeg",
-      "/traditional-gowns/16797.jpg.jpeg",
-      "/traditional-gowns/16798.jpg.jpeg",
-      "/traditional-gowns/16804.jpg.jpeg",
-      "/traditional-gowns/16803.jpg.jpeg",
-      "/traditional-gowns/16849.jpg.jpeg",
-      "/traditional-gowns/16850.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222621.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671790865490.jpeg",
-      "/traditional-gowns/PhotoFix_1676130755557.jpeg",
-      "/traditional-gowns/PhotoFix_1676132595429.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0003 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0003%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0003.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0017%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0017.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0038 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0038%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0038.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg",
-      "/traditional-gowns/IMG-20261006-WA0065.jpg%20(1).jpeg",
-      "/traditional-gowns/IMG-20261006-WA0065.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0086.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0087.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0088.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0259.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1763923106749.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529172352.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529301555.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529305558.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529806910.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529808811.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529810744.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529812697.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026525239.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026527752.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0087.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0088.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg",
-          "/traditional-gowns/16849.jpg.jpeg",
-          "/traditional-gowns/16850.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781793405019.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237575892.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg",
-          "/traditional-gowns/16741.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg",
-          "/traditional-gowns/16693.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1671790865490.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/16797.jpg.jpeg",
-          "/traditional-gowns/16798.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/traditional-gowns/16804.jpg.jpeg",
-          "/traditional-gowns/16803.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222621.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0038 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0038.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676130755557.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676132595429.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0003 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0003.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0003%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0017%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0038%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0065.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0017.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg",
-          "/traditional-gowns/IMG-20261006-WA0065.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/traditional-gowns/IMG-20261019-WA0259.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -797,26 +5202,1279 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Silk Cape Kalidar Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 54 photographic views, tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
-    "details": [
-      "Authentic Silk Cape Kalidar Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1763923106749.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529172352.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529301555.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529305558.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529806910.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529808811.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529810744.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529812697.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026525239.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026527752.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0087.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0088.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0002",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1763923106749.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529172352.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529301555.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529305558.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529806910.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529808811.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529810744.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529812697.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026525239.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026527752.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0087.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0088.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763923106749.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529172352.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529301555.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529305558.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529806910.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529808811.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529810744.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529812697.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026525239.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026527752.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0087.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0088.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0003",
-    "title": "Bandhani Silk Anarkali Gown",
-    "slug": "bandhani-silk-anarkali-gown",
+    "id": "tg-0002-v2",
+    "title": "Pebble Grey Silk Cape Kalidar Gown",
+    "slug": "pebble-grey-silk-cape-kalidar-gown",
     "aliasSlugs": [
+      "tg-0002-v2",
+      "pebble-grey-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg",
+      "/traditional-gowns/16849.jpg.jpeg",
+      "/traditional-gowns/16850.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg",
+      "/traditional-gowns/16849.jpg.jpeg",
+      "/traditional-gowns/16850.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/16849.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/16850.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v3",
+    "title": "Rust Terracotta Silk Cape Kalidar Gown",
+    "slug": "rust-terracotta-silk-cape-kalidar-gown-1",
+    "aliasSlugs": [
+      "tg-0002-v3",
+      "rust-terracotta-silk-cape-kalidar-gown-1",
+      "silk-cape-kalidar-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v4",
+    "title": "Sage Olive Silk Cape Kalidar Gown",
+    "slug": "sage-olive-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v4",
+      "sage-olive-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781793405019.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781793405019.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781793405019.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781793405019.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781793405019.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v5",
+    "title": "Berry Magenta Silk Cape Kalidar Gown",
+    "slug": "berry-magenta-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v5",
+      "berry-magenta-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237575892.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237575892.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237575892.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237575892.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237575892.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v6",
+    "title": "Charcoal Slate Silk Cape Kalidar Gown",
+    "slug": "charcoal-slate-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v6",
+      "charcoal-slate-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg",
+      "/traditional-gowns/16741.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg",
+      "/traditional-gowns/16741.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/16741.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v7",
+    "title": "Blush Rose Silk Cape Kalidar Gown",
+    "slug": "blush-rose-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v7",
+      "blush-rose-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg",
+      "/traditional-gowns/16693.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671790865490.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg",
+      "/traditional-gowns/16693.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671790865490.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16693.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/PhotoFix_1671790865490.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v8",
+    "title": "Midnight Navy Silk Cape Kalidar Gown",
+    "slug": "midnight-navy-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v8",
+      "midnight-navy-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16797.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16797.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16797.jpg.jpeg",
+      "/traditional-gowns/16798.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16797.jpg.jpeg",
+      "/traditional-gowns/16798.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/16797.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/16798.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v9",
+    "title": "Plum Wine Silk Cape Kalidar Gown",
+    "slug": "plum-wine-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v9",
+      "plum-wine-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16804.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16804.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16804.jpg.jpeg",
+      "/traditional-gowns/16803.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16804.jpg.jpeg",
+      "/traditional-gowns/16803.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#581C87",
+        "images": [
+          "/traditional-gowns/16804.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#581C87",
+        "images": [
+          "/traditional-gowns/16803.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v10",
+    "title": "Ivory Cream Silk Cape Kalidar Gown",
+    "slug": "ivory-cream-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v10",
+      "ivory-cream-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG_20230124_222621.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG_20230124_222621.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG_20230124_222621.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0038 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0038.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG_20230124_222621.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0038 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0038.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222621.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0038 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0038.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v11",
+    "title": "Deep Teal Silk Cape Kalidar Gown",
+    "slug": "deep-teal-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v11",
+      "deep-teal-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676130755557.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676130755557.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676130755557.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676130755557.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676130755557.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v12",
+    "title": "Midnight Black Silk Cape Kalidar Gown",
+    "slug": "midnight-black-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v12",
+      "midnight-black-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676132595429.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676132595429.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676132595429.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0003 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0003.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676132595429.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0003 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0003.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676132595429.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0003 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0003.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v13",
+    "title": "Artisan Earth Silk Cape Kalidar Gown",
+    "slug": "artisan-earth-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v13",
+      "artisan-earth-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0003%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0017%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0038%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0065.jpg%20(1).jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0003%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0017%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0038%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0065.jpg%20(1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0003%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0017%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0038%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0065.jpg%20(1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v14",
+    "title": "Scarlet Red Silk Cape Kalidar Gown",
+    "slug": "scarlet-red-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v14",
+      "scarlet-red-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0017.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0017.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0017.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v15",
+    "title": "Sunset Tangerine Silk Cape Kalidar Gown",
+    "slug": "sunset-tangerine-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v15",
+      "sunset-tangerine-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg",
+      "/traditional-gowns/IMG-20261006-WA0065.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0086.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg",
+      "/traditional-gowns/IMG-20261006-WA0065.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0086.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0065.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0086.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0002-v16",
+    "title": "Sky Azure Silk Cape Kalidar Gown",
+    "slug": "sky-azure-silk-cape-kalidar-gown",
+    "aliasSlugs": [
+      "tg-0002-v16",
+      "sky-azure-silk-cape-kalidar-gown",
+      "silk-cape-kalidar-gown-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0259.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0259.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0259.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0259.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0259.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Silk Cape Kalidar Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Silk Cape Kalidar Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0002-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v1",
+    "title": "Charcoal Slate Bandhani Silk Anarkali Gown",
+    "slug": "charcoal-slate-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v1",
+      "charcoal-slate-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-1",
       "aria-anarkali-flared-floor-length-gown-edition-3-tg-0025",
       "aria-anarkali-flared-floor-length-gown-edition-5-tg-0050",
       "aria-anarkali-flared-floor-length-gown-edition-7-tg-0078",
@@ -974,67 +6632,321 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-banarasi-silk-sweep-flare-gown-edition-5-tg-0062",
       "zoya-bandhani-silk-grand-volume-traditional-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg",
     "images": [
       "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529174518.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529174518.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529174518.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v2",
+    "title": "Pebble Grey Bandhani Silk Anarkali Gown",
+    "slug": "pebble-grey-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v2",
+      "pebble-grey-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg",
+    "images": [
       "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1781725807269.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1781725811879.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1781725814791.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0042 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0042.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725807269.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725811879.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725814791.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0042 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0042.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725807269.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725811879.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725814791.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0042 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0042.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v3",
+    "title": "Ivory Cream Bandhani Silk Anarkali Gown",
+    "slug": "ivory-cream-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v3",
+      "ivory-cream-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222642.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0041 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0041.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222642.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0041 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0041.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222642.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0041 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0041.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v4",
+    "title": "Warm Caramel Bandhani Silk Anarkali Gown",
+    "slug": "warm-caramel-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v4",
+      "warm-caramel-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg",
+    "images": [
       "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1784869230496.jpg (1).jpeg",
-      "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg",
       "/traditional-gowns/FB_IMG_1784869230496.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1784869242953.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1785237580275.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493963995.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529174518.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1789529539241.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1789529824845.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1789529826904.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026542108.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026544295.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026546742.jpg.jpeg",
-      "/traditional-gowns/16695.jpg.jpeg",
-      "/traditional-gowns/16742.jpg.jpeg",
-      "/traditional-gowns/16805.jpg.jpeg",
-      "/traditional-gowns/16806.jpg.jpeg",
-      "/traditional-gowns/16807.jpg.jpeg",
-      "/traditional-gowns/16880.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222642.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674386366650%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1674386366650.jpeg",
-      "/traditional-gowns/PhotoFix_1676130855569.jpeg",
-      "/traditional-gowns/PhotoFix_1676132952869.jpeg",
       "/traditional-gowns/IMG-20230131-WA0007 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0007%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0008 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0008%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0008.jpg.jpeg",
       "/traditional-gowns/IMG-20230202-WA0018 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0018%20(1).jpg.jpeg",
       "/traditional-gowns/IMG-20230202-WA0018.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0039 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0039%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0039.jpg.jpeg",
       "/traditional-gowns/IMG-20230202-WA0040 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0040%20(1).jpg.jpeg",
       "/traditional-gowns/IMG-20230202-WA0040.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0041 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0041%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0041.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0042 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0042%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0042.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0070.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0089.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0090.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0091.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0092.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0260.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1784869230496.jpg (1).jpeg",
+      "/traditional-gowns/FB_IMG_1784869230496.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1784869242953.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785237580275.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529539241.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529824845.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529826904.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0007 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0018 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0018.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0040 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0040.jpg.jpeg",
       "/traditional-gowns/IMG-20261014-WA0089.jpg.jpeg",
       "/traditional-gowns/IMG-20261014-WA0090.jpg.jpeg",
       "/traditional-gowns/IMG-20261014-WA0091.jpg.jpeg",
@@ -1043,157 +6955,182 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529174518.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725807269.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725811879.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725814791.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0042 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0042.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg",
-          "/traditional-gowns/IMG_20230124_222642.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0041 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0041.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Warm Caramel",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1784869230496.jpg (1).jpeg",
-          "/traditional-gowns/FB_IMG_1784869230496.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1784869242953.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237580275.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529539241.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529824845.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529826904.jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0007 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0018 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0018.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0040 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0040.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0089.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0090.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0091.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0092.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784869230496.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784869230496.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784869242953.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237580275.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529539241.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529824845.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529826904.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0007 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0018 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0018.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-12",
+        "name": "Styling 12",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0040 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-13",
+        "name": "Styling 13",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0040.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-14",
+        "name": "Styling 14",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0089.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-15",
+        "name": "Styling 15",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0090.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-16",
+        "name": "Styling 16",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0091.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-17",
+        "name": "Styling 17",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0092.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-18",
+        "name": "Styling 18",
+        "colorCode": "#D97706",
+        "images": [
           "/traditional-gowns/IMG-20261019-WA0260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg",
-          "/traditional-gowns/PhotoFix_1674386366650%20(1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0007%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0008%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0018%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0039%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0040%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0041%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0042%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789493963995.jpg.jpeg",
-          "/traditional-gowns/16807.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026542108.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026544295.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026546742.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16695.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16742.jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0008 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0008.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0039 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0039.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/16805.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676130855569.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/16806.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/16880.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676132952869.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg",
-          "/traditional-gowns/PhotoFix_1674386366650.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0070.jpg.jpeg"
         ]
       }
     ],
+    "description": "Authentic Warm Caramel Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v5",
+    "title": "Artisan Earth Bandhani Silk Anarkali Gown",
+    "slug": "artisan-earth-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v5",
+      "artisan-earth-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1201,26 +7138,710 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Bandhani Silk Anarkali Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 60 photographic views, tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
-    "details": [
-      "Authentic Bandhani Silk Anarkali Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386366650%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0007%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0008%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0018%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0039%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0040%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0041%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0042%20(1).jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0003",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386366650%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0007%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0008%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0018%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0039%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0040%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0041%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0042%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386366650%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0007%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0008%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0018%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0039%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0040%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0041%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0042%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V5",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0004",
-    "title": "Zari Embroidered Kalidar Anarkali",
-    "slug": "zari-embroidered-kalidar-anarkali",
+    "id": "tg-0003-v6",
+    "title": "Indigo Royal Bandhani Silk Anarkali Gown",
+    "slug": "indigo-royal-bandhani-silk-anarkali-gown",
     "aliasSlugs": [
+      "tg-0003-v6",
+      "indigo-royal-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789493963995.jpg.jpeg",
+      "/traditional-gowns/16807.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789493963995.jpg.jpeg",
+      "/traditional-gowns/16807.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493963995.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/16807.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v7",
+    "title": "Mustard Gold Bandhani Silk Anarkali Gown",
+    "slug": "mustard-gold-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v7",
+      "mustard-gold-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026542108.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026544295.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026546742.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026542108.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026544295.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026546742.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026542108.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026544295.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026546742.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v8",
+    "title": "Orchid Pink Bandhani Silk Anarkali Gown",
+    "slug": "orchid-pink-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v8",
+      "orchid-pink-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16695.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16695.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16695.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16695.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16695.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v9",
+    "title": "Blush Rose Bandhani Silk Anarkali Gown",
+    "slug": "blush-rose-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v9",
+      "blush-rose-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16742.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16742.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16742.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0008 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0008.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0039 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0039.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16742.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0008 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0008.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0039 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0039.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16742.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0008 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0008.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0039 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0039.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v10",
+    "title": "Midnight Black Bandhani Silk Anarkali Gown",
+    "slug": "midnight-black-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v10",
+      "midnight-black-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16805.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16805.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16805.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676130855569.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16805.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676130855569.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/16805.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676130855569.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v11",
+    "title": "Midnight Navy Bandhani Silk Anarkali Gown",
+    "slug": "midnight-navy-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v11",
+      "midnight-navy-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16806.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16806.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16806.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16806.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/16806.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v12",
+    "title": "Scarlet Red Bandhani Silk Anarkali Gown",
+    "slug": "scarlet-red-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v12",
+      "scarlet-red-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16880.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16880.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16880.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676132952869.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16880.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676132952869.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/16880.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676132952869.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0003-v13",
+    "title": "Plum Wine Bandhani Silk Anarkali Gown",
+    "slug": "plum-wine-bandhani-silk-anarkali-gown",
+    "aliasSlugs": [
+      "tg-0003-v13",
+      "plum-wine-bandhani-silk-anarkali-gown",
+      "bandhani-silk-anarkali-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Pure Chanderi Silk with Heavy Zari Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386366650.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0070.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386366650.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0070.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#581C87",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#581C87",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386366650.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#581C87",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0070.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Bandhani Silk Anarkali Gown handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Heavy Zari Embroidery with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Bandhani Silk Anarkali Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Pure Chanderi Silk with Heavy Zari Embroidery with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0003-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v1",
+    "title": "Warm Caramel Zari Embroidered Kalidar Anarkali",
+    "slug": "warm-caramel-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v1",
+      "warm-caramel-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-1",
       "ahsaas-royal-kalidar-zari-embroidered-anarkali-gown",
       "anushka-royal-kalidar-zari-embroidered-anarkali-gown",
       "aria-anarkali-flared-floor-length-gown-edition-7-edition-2-tg-0079",
@@ -1370,231 +7991,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-royal-kalidar-zari-embroidered-anarkali-gown",
       "zoya-royal-kalidar-zari-embroidered-anarkali-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725838765.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725842486.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725844483.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237582579.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493976493.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529176653.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529541083.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529828976.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026555046.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026556715.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1791026558746.jpg.jpeg",
-      "/traditional-gowns/16697.jpg.jpeg",
-      "/traditional-gowns/16698.jpg.jpeg",
-      "/traditional-gowns/16700.jpg.jpeg",
-      "/traditional-gowns/16743.jpg.jpeg",
-      "/traditional-gowns/16808.jpg.jpeg",
-      "/traditional-gowns/16881.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222701.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1674386488702 (2).jpeg",
-      "/traditional-gowns/PhotoFix_1674386488702%20(2).jpeg",
-      "/traditional-gowns/PhotoFix_1674386488702.jpeg",
-      "/traditional-gowns/PhotoFix_1676131019889.jpeg",
-      "/traditional-gowns/PhotoFix_1676131144426.jpeg",
-      "/traditional-gowns/PhotoFix_1676133105980.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0009 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0009%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0009.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0020 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0020%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0020.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0043 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0043%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0043.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0044 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0044%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0044.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0045 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0045%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0045.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0071.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0225.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0226.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0227.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0228.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0262.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0263.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725838765.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725844483.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529176653.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529541083.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0043 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0043.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725842486.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0020 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg",
-          "/traditional-gowns/16743.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237582579.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493976493.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529828976.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026555046.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026556715.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1791026558746.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676131019889.jpeg",
-          "/traditional-gowns/PhotoFix_1676131144426.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0009 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0009.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16697.jpg.jpeg",
-          "/traditional-gowns/16698.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/16700.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676133105980.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0071.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16808.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0044 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0044.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0045 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/16881.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0225.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0226.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0227.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0228.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg",
-          "/traditional-gowns/PhotoFix_1674386488702 (2).jpeg",
-          "/traditional-gowns/PhotoFix_1674386488702.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg",
-          "/traditional-gowns/PhotoFix_1674386488702%20(2).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0009%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0020%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0043%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0044%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0045%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/traditional-gowns/IMG-20261019-WA0262.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/traditional-gowns/IMG-20261019-WA0263.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1602,26 +8009,1259 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Zari Embroidered Kalidar Anarkali is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 52 photographic views, tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Banarasi Brocade with Satin Crepe Lining",
-    "details": [
-      "Authentic Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Banarasi Brocade with Satin Crepe Lining with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725838765.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725844483.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529176653.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529541083.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0043 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0043.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0004",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725838765.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725844483.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529176653.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529541083.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0043 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0043.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725838765.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725844483.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529176653.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529541083.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0043 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0043.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0005",
-    "title": "Angrakha Flared Silk Anarkali",
-    "slug": "angrakha-flared-silk-anarkali",
+    "id": "tg-0004-v2",
+    "title": "Sand Ochre Zari Embroidered Kalidar Anarkali",
+    "slug": "sand-ochre-zari-embroidered-kalidar-anarkali",
     "aliasSlugs": [
+      "tg-0004-v2",
+      "sand-ochre-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725842486.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0020 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0020.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725842486.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0020 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0020.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725842486.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0020 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0020.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v3",
+    "title": "Charcoal Slate Zari Embroidered Kalidar Anarkali",
+    "slug": "charcoal-slate-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v3",
+      "charcoal-slate-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg",
+      "/traditional-gowns/16743.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg",
+      "/traditional-gowns/16743.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/16743.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v4",
+    "title": "Ruby Crimson Zari Embroidered Kalidar Anarkali",
+    "slug": "ruby-crimson-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v4",
+      "ruby-crimson-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237582579.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237582579.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237582579.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237582579.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785237582579.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v5",
+    "title": "Pebble Grey Zari Embroidered Kalidar Anarkali",
+    "slug": "pebble-grey-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v5",
+      "pebble-grey-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493976493.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493976493.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493976493.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493976493.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493976493.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v6",
+    "title": "Sunset Tangerine Zari Embroidered Kalidar Anarkali",
+    "slug": "sunset-tangerine-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v6",
+      "sunset-tangerine-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529828976.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529828976.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529828976.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529828976.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529828976.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v7",
+    "title": "Midnight Black Zari Embroidered Kalidar Anarkali",
+    "slug": "midnight-black-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v7",
+      "midnight-black-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026555046.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026556715.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026558746.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131019889.jpeg",
+      "/traditional-gowns/PhotoFix_1676131144426.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0009 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0009.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026555046.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026556715.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1791026558746.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131019889.jpeg",
+      "/traditional-gowns/PhotoFix_1676131144426.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0009 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0009.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026555046.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026556715.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1791026558746.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676131019889.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676131144426.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0009 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0009.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v8",
+    "title": "Orchid Pink Zari Embroidered Kalidar Anarkali",
+    "slug": "orchid-pink-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v8",
+      "orchid-pink-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16697.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16697.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16697.jpg.jpeg",
+      "/traditional-gowns/16698.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16697.jpg.jpeg",
+      "/traditional-gowns/16698.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16697.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16698.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v9",
+    "title": "Scarlet Red Zari Embroidered Kalidar Anarkali",
+    "slug": "scarlet-red-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v9",
+      "scarlet-red-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16700.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16700.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16700.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676133105980.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0071.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16700.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676133105980.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0071.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/16700.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676133105980.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0071.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v10",
+    "title": "Blush Rose Zari Embroidered Kalidar Anarkali",
+    "slug": "blush-rose-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v10",
+      "blush-rose-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16808.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16808.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16808.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0044 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0044.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0045 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0045.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16808.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0044 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0044.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0045 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0045.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16808.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0044 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0044.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0045 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0045.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v11",
+    "title": "Mustard Gold Zari Embroidered Kalidar Anarkali",
+    "slug": "mustard-gold-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v11",
+      "mustard-gold-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16881.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16881.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16881.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0225.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0226.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0227.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0228.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16881.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0225.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0226.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0227.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0228.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/16881.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0225.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0226.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0227.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0228.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v12",
+    "title": "Ivory Cream Zari Embroidered Kalidar Anarkali",
+    "slug": "ivory-cream-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v12",
+      "ivory-cream-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG_20230124_222701.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG_20230124_222701.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG_20230124_222701.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG_20230124_222701.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222701.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v13",
+    "title": "Midnight Navy Zari Embroidered Kalidar Anarkali",
+    "slug": "midnight-navy-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v13",
+      "midnight-navy-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386488702 (2).jpeg",
+      "/traditional-gowns/PhotoFix_1674386488702.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386488702 (2).jpeg",
+      "/traditional-gowns/PhotoFix_1674386488702.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386488702 (2).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386488702.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v14",
+    "title": "Artisan Earth Zari Embroidered Kalidar Anarkali",
+    "slug": "artisan-earth-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v14",
+      "artisan-earth-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386488702%20(2).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0009%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0020%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0043%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0044%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0045%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg",
+      "/traditional-gowns/PhotoFix_1674386488702%20(2).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0009%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0020%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0043%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0044%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0045%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386488702%20(2).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0009%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0020%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0043%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0044%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0045%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v15",
+    "title": "Sky Azure Zari Embroidered Kalidar Anarkali",
+    "slug": "sky-azure-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v15",
+      "sky-azure-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0262.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0262.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0262.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0262.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0262.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0004-v16",
+    "title": "Steel Slate Zari Embroidered Kalidar Anarkali",
+    "slug": "steel-slate-zari-embroidered-kalidar-anarkali",
+    "aliasSlugs": [
+      "tg-0004-v16",
+      "steel-slate-zari-embroidered-kalidar-anarkali",
+      "zari-embroidered-kalidar-anarkali-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Banarasi Brocade with Satin Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0263.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0263.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0263.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0263.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0263.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Zari Embroidered Kalidar Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Banarasi Brocade with Satin Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Zari Embroidered Kalidar Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Banarasi Brocade with Satin Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0004-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v1",
+    "title": "Pebble Grey Angrakha Flared Silk Anarkali",
+    "slug": "pebble-grey-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v1",
+      "pebble-grey-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-1",
       "ahsaas-heritage-angrakha-flared-silk-anarkali-gown",
       "anushka-heritage-angrakha-flared-silk-anarkali-gown",
       "aria-anarkali-flared-floor-length-gown-edition-7-edition-2-tg-0079",
@@ -1767,248 +9407,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-banarasi-silk-sweep-flare-gown-edition-5-tg-0062",
       "zara-heritage-angrakha-flared-silk-anarkali-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725868543.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725871300.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914080776.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785295969093.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785295973601.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493979121.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529566331.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529568440.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529570716.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529834848.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529838723.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529840760.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529882800.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529884672.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529886390.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529888190.jpg.jpeg",
-      "/traditional-gowns/16668.jpg.jpeg",
-      "/traditional-gowns/16671.jpg.jpeg",
-      "/traditional-gowns/16672.jpg.jpeg",
-      "/traditional-gowns/16701.jpg.jpeg",
-      "/traditional-gowns/16744.jpg.jpeg",
-      "/traditional-gowns/16809.jpg.jpeg",
-      "/traditional-gowns/16882.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222720.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1674386561965 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1676131229302.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325127972 (1) (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325127972%20(1)%20(1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325127972 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325127972%20(1).jpeg",
-      "/traditional-gowns/IMG-20230131-WA0010 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0010%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0010.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0021%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0021.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0009.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0010.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0011.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0012.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0015.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0018.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0014.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0016.jpg.jpeg",
-      "/traditional-gowns/IMG-20251124-WA0019.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0072.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0232.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0233.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0234.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0266.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725868543.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725871300.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785295969093.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0010.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0014.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0016.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0019.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0266.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914080776.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg",
-          "/traditional-gowns/16744.jpg.jpeg",
-          "/traditional-gowns/16809.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0018.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785295973601.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529882800.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529884672.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529886390.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529888190.jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0010 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0010.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493979121.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0072.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0232.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0233.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0234.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg",
-          "/traditional-gowns/16668.jpg.jpeg",
-          "/traditional-gowns/16671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529566331.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529568440.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529570716.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529834848.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529838723.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529840760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/traditional-gowns/16672.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/16701.jpg.jpeg",
-          "/traditional-gowns/16882.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222720.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0009.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0012.jpg.jpeg",
-          "/traditional-gowns/IMG-20251124-WA0015.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386561965 (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325127972%20(1)%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325127972%20(1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0010%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0021%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676131229302.jpeg",
-          "/traditional-gowns/PhotoStudio_1668325127972 (1) (1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325127972 (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/traditional-gowns/IMG-20251124-WA0011.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -2016,26 +9425,1356 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Angrakha Flared Silk Anarkali is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 57 photographic views, tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
-    "details": [
-      "Authentic Angrakha Flared Silk Anarkali handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725868543.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725871300.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785295969093.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0010.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0014.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0016.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0019.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0266.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0005",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725868543.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725871300.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1785295969093.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0010.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0014.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0016.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0019.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0266.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725868543.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725871300.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785295969093.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0010.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0014.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0016.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0019.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0266.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0006",
-    "title": "Banarasi Brocade Festive Gown",
-    "slug": "banarasi-brocade-festive-gown",
+    "id": "tg-0005-v2",
+    "title": "Sunset Tangerine Angrakha Flared Silk Anarkali",
+    "slug": "sunset-tangerine-angrakha-flared-silk-anarkali",
     "aliasSlugs": [
+      "tg-0005-v2",
+      "sunset-tangerine-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784914080776.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784914080776.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784914080776.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784914080776.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914080776.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v3",
+    "title": "Orchid Pink Angrakha Flared Silk Anarkali",
+    "slug": "orchid-pink-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v3",
+      "orchid-pink-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg",
+      "/traditional-gowns/16744.jpg.jpeg",
+      "/traditional-gowns/16809.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0018.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg",
+      "/traditional-gowns/16744.jpg.jpeg",
+      "/traditional-gowns/16809.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0018.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16744.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16809.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0018.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v4",
+    "title": "Teal Slate Angrakha Flared Silk Anarkali",
+    "slug": "teal-slate-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v4",
+      "teal-slate-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785295973601.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785295973601.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785295973601.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785295973601.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785295973601.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v5",
+    "title": "Blush Rose Angrakha Flared Silk Anarkali",
+    "slug": "blush-rose-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v5",
+      "blush-rose-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529882800.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529884672.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529886390.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529888190.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0010 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0010.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529882800.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529884672.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529886390.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529888190.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0010 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0010.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529882800.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529884672.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529886390.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529888190.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0010 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0010.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v6",
+    "title": "Rust Terracotta Angrakha Flared Silk Anarkali",
+    "slug": "rust-terracotta-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v6",
+      "rust-terracotta-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493979121.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493979121.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493979121.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493979121.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493979121.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v7",
+    "title": "Charcoal Slate Angrakha Flared Silk Anarkali",
+    "slug": "charcoal-slate-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v7",
+      "charcoal-slate-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0072.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0232.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0233.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0234.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0072.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0232.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0233.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0234.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0072.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0232.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0233.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0234.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v8",
+    "title": "Indigo Royal Angrakha Flared Silk Anarkali",
+    "slug": "indigo-royal-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v8",
+      "indigo-royal-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg",
+      "/traditional-gowns/16668.jpg.jpeg",
+      "/traditional-gowns/16671.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg",
+      "/traditional-gowns/16668.jpg.jpeg",
+      "/traditional-gowns/16671.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/16668.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/16671.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v9",
+    "title": "Warm Caramel Angrakha Flared Silk Anarkali",
+    "slug": "warm-caramel-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v9",
+      "warm-caramel-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529566331.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529568440.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529570716.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529834848.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529838723.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529840760.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529566331.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529568440.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529570716.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529834848.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529838723.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529840760.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529566331.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529568440.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529570716.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529834848.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529838723.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529840760.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v10",
+    "title": "Plum Wine Angrakha Flared Silk Anarkali",
+    "slug": "plum-wine-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v10",
+      "plum-wine-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16672.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16672.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16672.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16672.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#581C87",
+        "images": [
+          "/traditional-gowns/16672.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v11",
+    "title": "Scarlet Red Angrakha Flared Silk Anarkali",
+    "slug": "scarlet-red-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v11",
+      "scarlet-red-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16701.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16701.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16701.jpg.jpeg",
+      "/traditional-gowns/16882.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16701.jpg.jpeg",
+      "/traditional-gowns/16882.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/16701.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/16882.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v12",
+    "title": "Ivory Cream Angrakha Flared Silk Anarkali",
+    "slug": "ivory-cream-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v12",
+      "ivory-cream-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG_20230124_222720.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG_20230124_222720.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG_20230124_222720.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0009.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0012.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0015.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG_20230124_222720.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0009.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0012.jpg.jpeg",
+      "/traditional-gowns/IMG-20251124-WA0015.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222720.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0009.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0012.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0015.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v13",
+    "title": "Midnight Navy Angrakha Flared Silk Anarkali",
+    "slug": "midnight-navy-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v13",
+      "midnight-navy-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674386561965 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674386561965 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674386561965 (1).jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674386561965 (1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386561965 (1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v14",
+    "title": "Artisan Earth Angrakha Flared Silk Anarkali",
+    "slug": "artisan-earth-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v14",
+      "artisan-earth-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972%20(1)%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0010%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0021%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972%20(1)%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0010%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0021%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325127972%20(1)%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325127972%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0010%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0021%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v15",
+    "title": "Midnight Black Angrakha Flared Silk Anarkali",
+    "slug": "midnight-black-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v15",
+      "midnight-black-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1676131229302.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1676131229302.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1676131229302.jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972 (1) (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972 (1).jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1676131229302.jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972 (1) (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325127972 (1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676131229302.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325127972 (1) (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325127972 (1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v16",
+    "title": "Aqua Marine Angrakha Flared Silk Anarkali",
+    "slug": "aqua-marine-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v16",
+      "aqua-marine-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0021.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0021.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0021.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0005-v17",
+    "title": "Sand Ochre Angrakha Flared Silk Anarkali",
+    "slug": "sand-ochre-angrakha-flared-silk-anarkali",
+    "aliasSlugs": [
+      "tg-0005-v17",
+      "sand-ochre-angrakha-flared-silk-anarkali",
+      "angrakha-flared-silk-anarkali-var-17"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20251124-WA0011.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20251124-WA0011.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20251124-WA0011.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20251124-WA0011.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#CA8A04",
+        "images": [
+          "/traditional-gowns/IMG-20251124-WA0011.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sand Ochre Angrakha Flared Silk Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sand Ochre Angrakha Flared Silk Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0005-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v1",
+    "title": "Warm Caramel Banarasi Brocade Festive Gown",
+    "slug": "warm-caramel-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v1",
+      "warm-caramel-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-1",
       "ahsaas-brocade-banarasi-festive-kalidar-gown",
       "anushka-brocade-banarasi-festive-kalidar-gown",
       "aria-anarkali-flared-floor-length-gown-edition-7-edition-2-tg-0079",
@@ -2180,223 +10919,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-banarasi-silk-sweep-flare-gown-edition-5-tg-0062",
       "zara-brocade-banarasi-festive-kalidar-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725873208.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914082764.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315794880.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315796678.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529573200.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529902508.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529904560.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529907680.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529910933.jpg.jpeg",
-      "/traditional-gowns/16673.jpg.jpeg",
-      "/traditional-gowns/16702.jpg.jpeg",
-      "/traditional-gowns/16703.jpg.jpeg",
-      "/traditional-gowns/16745.jpg.jpeg",
-      "/traditional-gowns/16746.jpg.jpeg",
-      "/traditional-gowns/16747.jpg.jpeg",
-      "/traditional-gowns/16812.jpg.jpeg",
-      "/traditional-gowns/18254.jpg.jpeg",
-      "/traditional-gowns/18255.jpg.jpeg",
-      "/traditional-gowns/18256.jpg.jpeg",
-      "/traditional-gowns/18257.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222735.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1674386651444 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1676131362916.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325200238 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325200238%20(1).jpeg",
-      "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0011%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0011.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0022 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0022%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0041.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0073.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0074.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0235.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0267.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725873208.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529902508.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529904560.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529907680.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529910933.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0074.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914082764.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789315794880.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789315796678.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0041.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg",
-          "/traditional-gowns/18254.jpg.jpeg",
-          "/traditional-gowns/18255.jpg.jpeg",
-          "/traditional-gowns/18256.jpg.jpeg",
-          "/traditional-gowns/18257.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg",
-          "/traditional-gowns/16702.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529573200.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/16673.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1674386651444 (1).jpeg",
-          "/traditional-gowns/PhotoFix_1676131362916.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/16703.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/traditional-gowns/16745.jpg.jpeg",
-          "/traditional-gowns/16746.jpg.jpeg",
-          "/traditional-gowns/16747.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16812.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222735.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325200238%20(1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0011%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0022%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325200238 (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0011.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0022 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0073.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0235.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-18",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/traditional-gowns/IMG-20261019-WA0267.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -2404,26 +10937,1243 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Banarasi Brocade Festive Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 41 photographic views, tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
-    "details": [
-      "Authentic Banarasi Brocade Festive Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Lustrous Raw Silk with Micro Crepe Lining with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725873208.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529902508.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529904560.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529907680.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529910933.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0074.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0006",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725873208.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529902508.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529904560.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529907680.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529910933.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0074.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725873208.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529902508.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529904560.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529907680.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529910933.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0074.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0007",
-    "title": "Velvet Sequin Gala Gown",
-    "slug": "velvet-sequin-gala-gown",
+    "id": "tg-0006-v2",
+    "title": "Sage Olive Banarasi Brocade Festive Gown",
+    "slug": "sage-olive-banarasi-brocade-festive-gown",
     "aliasSlugs": [
+      "tg-0006-v2",
+      "sage-olive-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784914082764.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784914082764.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784914082764.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784914082764.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914082764.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v3",
+    "title": "Rust Terracotta Banarasi Brocade Festive Gown",
+    "slug": "rust-terracotta-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v3",
+      "rust-terracotta-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315794880.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315796678.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0041.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315794880.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315796678.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0041.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315794880.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315796678.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0041.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v4",
+    "title": "Pebble Grey Banarasi Brocade Festive Gown",
+    "slug": "pebble-grey-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v4",
+      "pebble-grey-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg",
+      "/traditional-gowns/18254.jpg.jpeg",
+      "/traditional-gowns/18255.jpg.jpeg",
+      "/traditional-gowns/18256.jpg.jpeg",
+      "/traditional-gowns/18257.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg",
+      "/traditional-gowns/18254.jpg.jpeg",
+      "/traditional-gowns/18255.jpg.jpeg",
+      "/traditional-gowns/18256.jpg.jpeg",
+      "/traditional-gowns/18257.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/18254.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/18255.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/18256.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/18257.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v5",
+    "title": "Berry Magenta Banarasi Brocade Festive Gown",
+    "slug": "berry-magenta-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v5",
+      "berry-magenta-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg",
+      "/traditional-gowns/16702.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg",
+      "/traditional-gowns/16702.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#831843",
+        "images": [
+          "/traditional-gowns/16702.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v6",
+    "title": "Blush Rose Banarasi Brocade Festive Gown",
+    "slug": "blush-rose-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v6",
+      "blush-rose-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529573200.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529573200.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529573200.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529573200.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529573200.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v7",
+    "title": "Midnight Navy Banarasi Brocade Festive Gown",
+    "slug": "midnight-navy-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v7",
+      "midnight-navy-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16673.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16673.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16673.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1674386651444 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1676131362916.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16673.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1674386651444 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1676131362916.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/16673.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386651444 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676131362916.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v8",
+    "title": "Mustard Gold Banarasi Brocade Festive Gown",
+    "slug": "mustard-gold-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v8",
+      "mustard-gold-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16703.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16703.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16703.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16703.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/16703.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v9",
+    "title": "Aqua Marine Banarasi Brocade Festive Gown",
+    "slug": "aqua-marine-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v9",
+      "aqua-marine-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16745.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16745.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16745.jpg.jpeg",
+      "/traditional-gowns/16746.jpg.jpeg",
+      "/traditional-gowns/16747.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16745.jpg.jpeg",
+      "/traditional-gowns/16746.jpg.jpeg",
+      "/traditional-gowns/16747.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/16745.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/16746.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/16747.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v10",
+    "title": "Orchid Pink Banarasi Brocade Festive Gown",
+    "slug": "orchid-pink-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v10",
+      "orchid-pink-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16812.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16812.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16812.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16812.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16812.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v11",
+    "title": "Ivory Cream Banarasi Brocade Festive Gown",
+    "slug": "ivory-cream-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v11",
+      "ivory-cream-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG_20230124_222735.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG_20230124_222735.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG_20230124_222735.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG_20230124_222735.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222735.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v12",
+    "title": "Artisan Earth Banarasi Brocade Festive Gown",
+    "slug": "artisan-earth-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v12",
+      "artisan-earth-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325200238%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0011%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0022%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325200238%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0011%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0022%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325200238%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0011%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0022%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v13",
+    "title": "Midnight Black Banarasi Brocade Festive Gown",
+    "slug": "midnight-black-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v13",
+      "midnight-black-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoStudio_1668325200238 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoStudio_1668325200238 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoStudio_1668325200238 (1).jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoStudio_1668325200238 (1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325200238 (1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v14",
+    "title": "Scarlet Red Banarasi Brocade Festive Gown",
+    "slug": "scarlet-red-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v14",
+      "scarlet-red-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0011.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0011.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0011.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v15",
+    "title": "Charcoal Slate Banarasi Brocade Festive Gown",
+    "slug": "charcoal-slate-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v15",
+      "charcoal-slate-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0022 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0022 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0022 (1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0022 (1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0022 (1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v16",
+    "title": "Sunset Tangerine Banarasi Brocade Festive Gown",
+    "slug": "sunset-tangerine-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v16",
+      "sunset-tangerine-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0073.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0073.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0073.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v17",
+    "title": "Deep Teal Banarasi Brocade Festive Gown",
+    "slug": "deep-teal-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v17",
+      "deep-teal-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-17"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261014-WA0235.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261014-WA0235.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261014-WA0235.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261014-WA0235.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0235.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0006-v18",
+    "title": "Steel Slate Banarasi Brocade Festive Gown",
+    "slug": "steel-slate-banarasi-brocade-festive-gown",
+    "aliasSlugs": [
+      "tg-0006-v18",
+      "steel-slate-banarasi-brocade-festive-gown",
+      "banarasi-brocade-festive-gown-var-18"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0267.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0267.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0267.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0267.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0267.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Banarasi Brocade Festive Gown handcrafted at Wastram's Jaipur atelier. Tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Banarasi Brocade Festive Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Lustrous Raw Silk with Micro Crepe Lining with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0006-V18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v1",
+    "title": "Pebble Grey Velvet Sequin Gala Gown",
+    "slug": "pebble-grey-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v1",
+      "pebble-grey-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-1",
       "aditi-sequinned-velvet-bordered-grand-gala-gown",
       "aria-anarkali-flared-floor-length-gown-edition-6-tg-0066",
       "aria-anarkali-flared-floor-length-gown-edition-7-edition-2-tg-0079",
@@ -2577,218 +12327,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "tg-0271",
       "zehra-sequinned-velvet-bordered-grand-gala-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725882640.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725884976.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914148613.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914150601.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914152644.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789493999393.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494001626.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529193136.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529599970.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529601903.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529619511.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529621270.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529623083.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529624893.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529653883.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529655745.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg",
-      "/traditional-gowns/16676.jpg.jpeg",
-      "/traditional-gowns/16704.jpg.jpeg",
-      "/traditional-gowns/16773.jpg.jpeg",
-      "/traditional-gowns/16814.jpg.jpeg",
-      "/traditional-gowns/16815.jpg.jpeg",
-      "/traditional-gowns/18258.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671172223617.jpeg",
-      "/traditional-gowns/PhotoFix_1674388637817 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388637817.jpeg",
-      "/traditional-gowns/PhotoFix_1676131482383.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325261605 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325261605%20(1).jpeg",
-      "/traditional-gowns/IMG-20230131-WA0012 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0012%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0012.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0023%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0023.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0042.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0075.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0236.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0237.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0238.jpg.jpeg",
-      "/traditional-gowns/IMG-20261014-WA0239.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0276.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725882640.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725884976.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1784914148613.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1784914150601.jpg.jpeg",
-          "/traditional-gowns/16704.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0042.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Forest Emerald",
-        "colorCode": "#14532D",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914152644.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1671172223617.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0236.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0237.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0238.jpg.jpeg",
-          "/traditional-gowns/IMG-20261014-WA0239.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789493999393.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494001626.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529619511.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529621270.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529623083.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529624893.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529653883.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529655745.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529193136.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529599970.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529601903.jpg.jpeg",
-          "/traditional-gowns/18258.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676131482383.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1674388637817 (1).jpeg",
-          "/traditional-gowns/PhotoFix_1674388637817.jpeg",
-          "/traditional-gowns/PhotoStudio_1668325261605 (1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0012 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/traditional-gowns/16676.jpg.jpeg",
-          "/traditional-gowns/16773.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/traditional-gowns/16814.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16815.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325261605%20(1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0012%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0023%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0023.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0075.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/traditional-gowns/IMG-20261019-WA0276.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -2796,26 +12345,1182 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Velvet Sequin Gala Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 49 photographic views, tailored in Rich Modal Silk Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Rich Modal Silk Blend",
-    "details": [
-      "Authentic Velvet Sequin Gala Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Rich Modal Silk Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725882640.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725884976.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0007",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725882640.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725884976.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725882640.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725884976.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0008",
-    "title": "Organza Tiered Anarkali",
-    "slug": "organza-tiered-anarkali",
+    "id": "tg-0007-v2",
+    "title": "Sunset Tangerine Velvet Sequin Gala Gown",
+    "slug": "sunset-tangerine-velvet-sequin-gala-gown",
     "aliasSlugs": [
+      "tg-0007-v2",
+      "sunset-tangerine-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1784914148613.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1784914150601.jpg.jpeg",
+      "/traditional-gowns/16704.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0042.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1784914148613.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1784914150601.jpg.jpeg",
+      "/traditional-gowns/16704.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0042.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914148613.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914150601.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/16704.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0042.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v3",
+    "title": "Forest Emerald Velvet Sequin Gala Gown",
+    "slug": "forest-emerald-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v3",
+      "forest-emerald-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784914152644.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784914152644.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784914152644.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784914152644.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#14532D",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914152644.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Forest Emerald Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Forest Emerald Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v4",
+    "title": "Scarlet Red Velvet Sequin Gala Gown",
+    "slug": "scarlet-red-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v4",
+      "scarlet-red-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671172223617.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0236.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0237.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0238.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0239.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671172223617.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0236.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0237.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0238.jpg.jpeg",
+      "/traditional-gowns/IMG-20261014-WA0239.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/PhotoFix_1671172223617.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0236.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0237.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0238.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261014-WA0239.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v5",
+    "title": "Warm Caramel Velvet Sequin Gala Gown",
+    "slug": "warm-caramel-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v5",
+      "warm-caramel-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789493999393.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494001626.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529619511.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529621270.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529623083.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529624893.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529653883.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529655745.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789493999393.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494001626.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529619511.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529621270.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529623083.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529624893.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529653883.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529655745.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789493999393.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494001626.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529619511.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529621270.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529623083.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529624893.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529653883.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529655745.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v6",
+    "title": "Midnight Navy Velvet Sequin Gala Gown",
+    "slug": "midnight-navy-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v6",
+      "midnight-navy-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529193136.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529193136.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529193136.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v7",
+    "title": "Blush Rose Velvet Sequin Gala Gown",
+    "slug": "blush-rose-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v7",
+      "blush-rose-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529599970.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529601903.jpg.jpeg",
+      "/traditional-gowns/18258.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131482383.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529599970.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529601903.jpg.jpeg",
+      "/traditional-gowns/18258.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131482383.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529599970.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529601903.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/18258.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676131482383.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v8",
+    "title": "Midnight Black Velvet Sequin Gala Gown",
+    "slug": "midnight-black-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v8",
+      "midnight-black-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1674388637817 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388637817.jpeg",
+      "/traditional-gowns/PhotoStudio_1668325261605 (1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0012 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0012.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1674388637817 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388637817.jpeg",
+      "/traditional-gowns/PhotoStudio_1668325261605 (1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0012 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0012.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388637817 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388637817.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325261605 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0012 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0012.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v9",
+    "title": "Aqua Marine Velvet Sequin Gala Gown",
+    "slug": "aqua-marine-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v9",
+      "aqua-marine-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16676.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16676.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16676.jpg.jpeg",
+      "/traditional-gowns/16773.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16676.jpg.jpeg",
+      "/traditional-gowns/16773.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/16676.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/16773.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v10",
+    "title": "Plum Wine Velvet Sequin Gala Gown",
+    "slug": "plum-wine-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v10",
+      "plum-wine-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16814.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16814.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16814.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16814.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#581C87",
+        "images": [
+          "/traditional-gowns/16814.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v11",
+    "title": "Orchid Pink Velvet Sequin Gala Gown",
+    "slug": "orchid-pink-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v11",
+      "orchid-pink-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16815.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16815.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16815.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16815.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16815.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v12",
+    "title": "Artisan Earth Velvet Sequin Gala Gown",
+    "slug": "artisan-earth-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v12",
+      "artisan-earth-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325261605%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0012%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0023%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325261605%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0012%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0023%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325261605%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0012%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0023%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v13",
+    "title": "Mustard Gold Velvet Sequin Gala Gown",
+    "slug": "mustard-gold-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v13",
+      "mustard-gold-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0023.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0023.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0023.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v14",
+    "title": "Charcoal Slate Velvet Sequin Gala Gown",
+    "slug": "charcoal-slate-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v14",
+      "charcoal-slate-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0075.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0075.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0075.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0075.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0075.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0007-v15",
+    "title": "Indigo Royal Velvet Sequin Gala Gown",
+    "slug": "indigo-royal-velvet-sequin-gala-gown",
+    "aliasSlugs": [
+      "tg-0007-v15",
+      "indigo-royal-velvet-sequin-gala-gown",
+      "velvet-sequin-gala-gown-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0276.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0276.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0276.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0276.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0276.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Velvet Sequin Gala Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Velvet Sequin Gala Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0007-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v1",
+    "title": "Warm Caramel Organza Tiered Anarkali",
+    "slug": "warm-caramel-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v1",
+      "warm-caramel-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-1",
       "aditi-organza-tiered-heritage-anarkali-gown",
       "alia-organza-tiered-heritage-anarkali-gown",
       "aria-anarkali-flared-floor-length-gown-edition-4-tg-0038",
@@ -2955,210 +13660,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-banarasi-silk-sweep-flare-gown-tg-0010",
       "zehra-organza-tiered-heritage-anarkali-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1767274444451.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1767274446609.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1767274449064.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725892510.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725894839.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315951076.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494026816.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494028886.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494030630.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529204548.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529926308.jpg.jpeg",
-      "/traditional-gowns/16677.jpg.jpeg",
-      "/traditional-gowns/16678.jpg.jpeg",
-      "/traditional-gowns/16682.jpg.jpeg",
-      "/traditional-gowns/16683.jpg.jpeg",
-      "/traditional-gowns/16684.jpg.jpeg",
-      "/traditional-gowns/16705.jpg.jpeg",
-      "/traditional-gowns/16775.jpg.jpeg",
-      "/traditional-gowns/16816.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222412.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671172320301.jpeg",
-      "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388778011.jpeg",
-      "/traditional-gowns/PhotoFix_1676131592395.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325315297 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325315297%20(1).jpeg",
-      "/traditional-gowns/IMG-20230131-WA0013 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0013%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0013.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0026 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0026%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0043.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0044.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0076.jpg.jpeg",
-      "/traditional-gowns/IMG-20261015-WA0147.jpg.jpeg",
-      "/traditional-gowns/IMG-20261015-WA0148.jpg.jpeg",
-      "/traditional-gowns/IMG-20261015-WA0149.jpg.jpeg",
-      "/traditional-gowns/IMG-20261015-WA0151.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0278.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1767274444451.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1767274446609.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1767274449064.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725892510.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725894839.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529204548.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0044.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789315951076.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1671172320301.jpeg",
-          "/traditional-gowns/IMG-20261015-WA0147.jpg.jpeg",
-          "/traditional-gowns/IMG-20261015-WA0148.jpg.jpeg",
-          "/traditional-gowns/IMG-20261015-WA0149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494026816.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494028886.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494030630.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529926308.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg",
-          "/traditional-gowns/16816.jpg.jpeg",
-          "/traditional-gowns/PhotoStudio_1668325315297 (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/16677.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/16678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16682.jpg.jpeg",
-          "/traditional-gowns/16684.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16683.jpg.jpeg",
-          "/traditional-gowns/16775.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676131592395.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0013 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0013.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0278.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/traditional-gowns/16705.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222412.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg",
-          "/traditional-gowns/PhotoFix_1674388778011.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0076.jpg.jpeg",
-          "/traditional-gowns/IMG-20261015-WA0151.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325315297%20(1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0013%20(1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0026%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0026 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0043.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -3166,26 +13678,1142 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Organza Tiered Anarkali is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 45 photographic views, tailored in Rich Modal Silk Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Rich Modal Silk Blend",
-    "details": [
-      "Authentic Organza Tiered Anarkali handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Rich Modal Silk Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1767274444451.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1767274446609.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1767274449064.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725892510.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725894839.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529204548.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0008",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1767274444451.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1767274446609.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1767274449064.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725892510.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725894839.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529204548.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1767274444451.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1767274446609.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1767274449064.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725892510.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725894839.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529204548.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0009",
-    "title": "Flared Raw Silk Festive Court Gown",
-    "slug": "flared-raw-silk-festive-court-gown",
+    "id": "tg-0008-v2",
+    "title": "Sunset Tangerine Organza Tiered Anarkali",
+    "slug": "sunset-tangerine-organza-tiered-anarkali",
     "aliasSlugs": [
+      "tg-0008-v2",
+      "sunset-tangerine-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0044.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0044.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0044.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v3",
+    "title": "Scarlet Red Organza Tiered Anarkali",
+    "slug": "scarlet-red-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v3",
+      "scarlet-red-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315951076.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671172320301.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0147.jpg.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0148.jpg.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0149.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315951076.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671172320301.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0147.jpg.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0148.jpg.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0149.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315951076.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/PhotoFix_1671172320301.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261015-WA0147.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261015-WA0148.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/IMG-20261015-WA0149.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v4",
+    "title": "Ivory Cream Organza Tiered Anarkali",
+    "slug": "ivory-cream-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v4",
+      "ivory-cream-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494026816.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494028886.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494030630.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529926308.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494026816.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494028886.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494030630.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529926308.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494026816.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494028886.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494030630.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529926308.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v5",
+    "title": "Midnight Black Organza Tiered Anarkali",
+    "slug": "midnight-black-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v5",
+      "midnight-black-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg",
+      "/traditional-gowns/16816.jpg.jpeg",
+      "/traditional-gowns/PhotoStudio_1668325315297 (1).jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg",
+      "/traditional-gowns/16816.jpg.jpeg",
+      "/traditional-gowns/PhotoStudio_1668325315297 (1).jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/16816.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325315297 (1).jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v6",
+    "title": "Charcoal Slate Organza Tiered Anarkali",
+    "slug": "charcoal-slate-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v6",
+      "charcoal-slate-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16677.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16677.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16677.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16677.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/16677.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v7",
+    "title": "Midnight Navy Organza Tiered Anarkali",
+    "slug": "midnight-navy-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v7",
+      "midnight-navy-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16678.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16678.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16678.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16678.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/16678.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v8",
+    "title": "Orchid Pink Organza Tiered Anarkali",
+    "slug": "orchid-pink-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v8",
+      "orchid-pink-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16682.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16682.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16682.jpg.jpeg",
+      "/traditional-gowns/16684.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16682.jpg.jpeg",
+      "/traditional-gowns/16684.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16682.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DB2777",
+        "images": [
+          "/traditional-gowns/16684.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Orchid Pink Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Orchid Pink Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v9",
+    "title": "Blush Rose Organza Tiered Anarkali",
+    "slug": "blush-rose-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v9",
+      "blush-rose-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16683.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16683.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16683.jpg.jpeg",
+      "/traditional-gowns/16775.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131592395.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0013 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0013.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0278.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16683.jpg.jpeg",
+      "/traditional-gowns/16775.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131592395.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0013 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0013.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0278.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16683.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16775.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676131592395.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0013 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0013.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0278.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v10",
+    "title": "Berry Magenta Organza Tiered Anarkali",
+    "slug": "berry-magenta-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v10",
+      "berry-magenta-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16705.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16705.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16705.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16705.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#831843",
+        "images": [
+          "/traditional-gowns/16705.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Berry Magenta Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v11",
+    "title": "Pebble Grey Organza Tiered Anarkali",
+    "slug": "pebble-grey-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v11",
+      "pebble-grey-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG_20230124_222412.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG_20230124_222412.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG_20230124_222412.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG_20230124_222412.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222412.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v12",
+    "title": "Ruby Crimson Organza Tiered Anarkali",
+    "slug": "ruby-crimson-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v12",
+      "ruby-crimson-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388778011.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0076.jpg.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0151.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388778011.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0076.jpg.jpeg",
+      "/traditional-gowns/IMG-20261015-WA0151.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388778011.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0076.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/IMG-20261015-WA0151.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v13",
+    "title": "Artisan Earth Organza Tiered Anarkali",
+    "slug": "artisan-earth-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v13",
+      "artisan-earth-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325315297%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0013%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0026%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325315297%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0013%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0026%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325315297%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0013%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0026%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v14",
+    "title": "Aqua Marine Organza Tiered Anarkali",
+    "slug": "aqua-marine-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v14",
+      "aqua-marine-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0026 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0026 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0026 (1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0026 (1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#06B6D4",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0026 (1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Aqua Marine Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0008-v15",
+    "title": "Rust Terracotta Organza Tiered Anarkali",
+    "slug": "rust-terracotta-organza-tiered-anarkali",
+    "aliasSlugs": [
+      "tg-0008-v15",
+      "rust-terracotta-organza-tiered-anarkali",
+      "organza-tiered-anarkali-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0043.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0043.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0043.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0043.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#C2410C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0043.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Rust Terracotta Organza Tiered Anarkali handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Organza Tiered Anarkali crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0008-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v1",
+    "title": "Ivory Cream Flared Raw Silk Festive Court Gown",
+    "slug": "ivory-cream-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v1",
+      "ivory-cream-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-1",
       "aditi-flared-raw-silk-festive-court-gown",
       "alanna-flared-raw-silk-festive-court-gown",
       "alia-flared-raw-silk-festive-court-gown",
@@ -3324,198 +14952,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "zara-banarasi-silk-sweep-flare-gown-tg-0010",
       "zehra-flared-raw-silk-festive-court-gown"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1768410504256.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1768410508671.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1768410512429.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725897496.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781725900255.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1784914156432.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315953139.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315969081.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494037928.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494039797.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494041950.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494044053.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529206227.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529208390.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529702460.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg",
-      "/traditional-gowns/16685.jpg.jpeg",
-      "/traditional-gowns/16706.jpg.jpeg",
-      "/traditional-gowns/16776.jpg.jpeg",
-      "/traditional-gowns/16818.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222432.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671172432823.jpeg",
-      "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388877459.jpeg",
-      "/traditional-gowns/PhotoFix_1676131922495.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325392554%20(1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325392554.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0014 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230131-WA0014%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0027.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0077.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0213.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0297.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1768410504256.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1768410508671.jpg.jpeg",
-          "/traditional-gowns/IMG_20230124_222432.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0213.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725897496.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781725900255.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789315953139.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789315969081.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494037928.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494039797.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494041950.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494044053.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529206227.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529208390.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1768410512429.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529702460.jpg.jpeg",
-          "/traditional-gowns/16818.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Sage Olive",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914156432.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg",
-          "/traditional-gowns/IMG-20230131-WA0014 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/16685.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16706.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676131922495.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Mustard Gold",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/16776.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/PhotoFix_1671172432823.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg",
-          "/traditional-gowns/PhotoFix_1674388877459.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325392554%20(1).jpeg",
-          "/traditional-gowns/IMG-20230131-WA0014%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325392554.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0027.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0077.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/traditional-gowns/IMG-20261019-WA0297.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -3523,26 +14970,1082 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "description": "The Flared Raw Silk Festive Court Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 39 photographic views, tailored in Rich Modal Silk Blend with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Rich Modal Silk Blend",
-    "details": [
-      "Authentic Flared Raw Silk Festive Court Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Rich Modal Silk Blend with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1768410504256.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1768410508671.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222432.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0213.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0009",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1768410504256.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1768410508671.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222432.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0213.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1768410504256.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1768410508671.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222432.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0213.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "tg-0010",
-    "title": "Embroidered Yoke Pleated Georgette Gown",
-    "slug": "embroidered-yoke-pleated-georgette-gown",
+    "id": "tg-0009-v2",
+    "title": "Warm Caramel Flared Raw Silk Festive Court Gown",
+    "slug": "warm-caramel-flared-raw-silk-festive-court-gown",
     "aliasSlugs": [
+      "tg-0009-v2",
+      "warm-caramel-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725897496.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725900255.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315953139.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315969081.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494037928.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494039797.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494041950.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494044053.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529206227.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529208390.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725897496.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781725900255.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315953139.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315969081.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494037928.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494039797.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494041950.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494044053.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529206227.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529208390.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725897496.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781725900255.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315953139.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315969081.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494037928.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494039797.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494041950.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-9",
+        "name": "Styling 9",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494044053.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-10",
+        "name": "Styling 10",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529206227.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-11",
+        "name": "Styling 11",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529208390.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v3",
+    "title": "Pebble Grey Flared Raw Silk Festive Court Gown",
+    "slug": "pebble-grey-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v3",
+      "pebble-grey-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1768410512429.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529702460.jpg.jpeg",
+      "/traditional-gowns/16818.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1768410512429.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529702460.jpg.jpeg",
+      "/traditional-gowns/16818.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1768410512429.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529702460.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/16818.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v4",
+    "title": "Sage Olive Flared Raw Silk Festive Court Gown",
+    "slug": "sage-olive-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v4",
+      "sage-olive-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1784914156432.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1784914156432.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1784914156432.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1784914156432.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#4D7C0F",
+        "images": [
+          "/traditional-gowns/FB_IMG_1784914156432.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sage Olive Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sage Olive Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v5",
+    "title": "Midnight Black Flared Raw Silk Festive Court Gown",
+    "slug": "midnight-black-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v5",
+      "midnight-black-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0014 (1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg",
+      "/traditional-gowns/IMG-20230131-WA0014 (1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0014 (1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v6",
+    "title": "Midnight Navy Flared Raw Silk Festive Court Gown",
+    "slug": "midnight-navy-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v6",
+      "midnight-navy-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16685.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16685.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16685.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16685.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/traditional-gowns/16685.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v7",
+    "title": "Blush Rose Flared Raw Silk Festive Court Gown",
+    "slug": "blush-rose-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v7",
+      "blush-rose-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16706.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16706.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16706.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131922495.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16706.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676131922495.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16706.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/PhotoFix_1676131922495.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v8",
+    "title": "Mustard Gold Flared Raw Silk Festive Court Gown",
+    "slug": "mustard-gold-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v8",
+      "mustard-gold-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16776.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16776.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16776.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16776.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EAB308",
+        "images": [
+          "/traditional-gowns/16776.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Mustard Gold Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v9",
+    "title": "Scarlet Red Flared Raw Silk Festive Court Gown",
+    "slug": "scarlet-red-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v9",
+      "scarlet-red-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1671172432823.jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1671172432823.jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1671172432823.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1671172432823.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/PhotoFix_1671172432823.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Scarlet Red Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v10",
+    "title": "Ruby Crimson Flared Raw Silk Festive Court Gown",
+    "slug": "ruby-crimson-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v10",
+      "ruby-crimson-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388877459.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388877459.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388877459.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v11",
+    "title": "Artisan Earth Flared Raw Silk Festive Court Gown",
+    "slug": "artisan-earth-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v11",
+      "artisan-earth-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325392554%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0014%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325392554%20(1).jpeg",
+      "/traditional-gowns/IMG-20230131-WA0014%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325392554%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230131-WA0014%20(1).jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Artisan Earth Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v12",
+    "title": "Deep Teal Flared Raw Silk Festive Court Gown",
+    "slug": "deep-teal-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v12",
+      "deep-teal-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325392554.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325392554.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#115E59",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#115E59",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325392554.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v13",
+    "title": "Charcoal Slate Flared Raw Silk Festive Court Gown",
+    "slug": "charcoal-slate-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v13",
+      "charcoal-slate-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0027.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0027.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0027.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0027.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0027.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v14",
+    "title": "Sunset Tangerine Flared Raw Silk Festive Court Gown",
+    "slug": "sunset-tangerine-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v14",
+      "sunset-tangerine-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0077.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0077.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0077.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0009-v15",
+    "title": "Steel Slate Flared Raw Silk Festive Court Gown",
+    "slug": "steel-slate-flared-raw-silk-festive-court-gown",
+    "aliasSlugs": [
+      "tg-0009-v15",
+      "steel-slate-flared-raw-silk-festive-court-gown",
+      "flared-raw-silk-festive-court-gown-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Rich Modal Silk Blend",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20261019-WA0297.jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20261019-WA0297.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20261019-WA0297.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20261019-WA0297.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/traditional-gowns/IMG-20261019-WA0297.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Flared Raw Silk Festive Court Gown handcrafted at Wastram's Jaipur atelier. Tailored in Rich Modal Silk Blend with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Flared Raw Silk Festive Court Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Rich Modal Silk Blend with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0009-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v1",
+    "title": "Warm Caramel Embroidered Yoke Pleated Georgette Gown",
+    "slug": "warm-caramel-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v1",
+      "warm-caramel-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-1",
       "aaliyah-embroidered-yoke-pleated-georgette-gown",
       "aanya-embroidered-yoke-pleated-georgette-gown",
       "alanna-embroidered-yoke-pleated-georgette-gown",
@@ -3690,1053 +16193,1438 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
       "vanya-embroidered-yoke-pleated-georgette-gown",
       "zara-banarasi-silk-sweep-flare-gown-edition-7-tg-0090"
     ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
     "tab": "traditional-gowns",
-    "category": "traditional-gowns",
     "badge": "Royal Jaipur",
     "regularPrice": 4099,
     "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg",
     "images": [
       "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1781694722195.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781694726119.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781726260429.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1781726299666.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1781726314239.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781726316997.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781726318365.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315972756.jpg (1).jpeg",
-      "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg",
-      "/traditional-gowns/FB_IMG_1789315972756.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494058690.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494060865.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494066635.jpg.jpeg",
       "/traditional-gowns/FB_IMG_1789529210230.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529707048.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg",
-      "/traditional-gowns/16686.jpg.jpeg",
-      "/traditional-gowns/16687.jpg.jpeg",
-      "/traditional-gowns/16707.jpg (1).jpeg",
-      "/traditional-gowns/16707.jpg%20(1).jpeg",
-      "/traditional-gowns/16707.jpg.jpeg",
-      "/traditional-gowns/16708.jpg.jpeg",
-      "/traditional-gowns/16710.jpg.jpeg",
-      "/traditional-gowns/16712.jpg.jpeg",
-      "/traditional-gowns/16713.jpg.jpeg",
-      "/traditional-gowns/16779.jpg.jpeg",
-      "/traditional-gowns/16782.jpg.jpeg",
-      "/traditional-gowns/16819.jpg.jpeg",
-      "/traditional-gowns/16821.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222452.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671172569539.jpeg",
-      "/traditional-gowns/PhotoFix_1674388966706 (1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388966706%20(1).jpeg",
-      "/traditional-gowns/PhotoFix_1674388966706.jpeg",
-      "/traditional-gowns/PhotoFix_1676132042346.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325458579%20(1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325458579.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0013 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0013%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0013.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0028%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0028.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0051.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0078.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0237.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0238.jpg.jpeg",
-      "/traditional-gowns/IMG-20261023-WA0066.jpg.jpeg"
+      "/traditional-gowns/FB_IMG_1789529707048.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781694722195.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726299666.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726314239.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529210230.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789529707048.jpg.jpeg"
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Warm Caramel",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781694722195.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781726299666.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781726314239.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529210230.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781694722195.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781726299666.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781726314239.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#D97706",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789529210230.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#D97706",
+        "images": [
           "/traditional-gowns/FB_IMG_1789529707048.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Warm Caramel Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v2",
+    "title": "Charcoal Slate Embroidered Yoke Pleated Georgette Gown",
+    "slug": "charcoal-slate-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v2",
+      "charcoal-slate-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-2"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0051.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0078.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0051.jpg.jpeg",
+      "/traditional-gowns/IMG-20261006-WA0078.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-2",
-        "name": "Charcoal Slate",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0051.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#334155",
+        "images": [
+          "/traditional-gowns/IMG-20261006-WA0051.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#334155",
+        "images": [
           "/traditional-gowns/IMG-20261006-WA0078.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Charcoal Slate Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v3",
+    "title": "Pebble Grey Embroidered Yoke Pleated Georgette Gown",
+    "slug": "pebble-grey-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v3",
+      "pebble-grey-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-3"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726260429.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726316997.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726318365.jpg.jpeg",
+      "/traditional-gowns/16708.jpg.jpeg",
+      "/traditional-gowns/16710.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726260429.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726316997.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1781726318365.jpg.jpeg",
+      "/traditional-gowns/16708.jpg.jpeg",
+      "/traditional-gowns/16710.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-3",
-        "name": "Pebble Grey",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781726260429.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781726316997.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781726318365.jpg.jpeg",
-          "/traditional-gowns/16708.jpg.jpeg",
-          "/traditional-gowns/16710.jpg.jpeg"
+          "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg"
         ]
       },
       {
-        "id": "var-4",
-        "name": "Rust Terracotta",
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781726260429.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781726316997.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/FB_IMG_1781726318365.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/16708.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/traditional-gowns/16710.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v4",
+    "title": "Rust Terracotta Embroidered Yoke Pleated Georgette Gown",
+    "slug": "rust-terracotta-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v4",
+      "rust-terracotta-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-4"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1781694726119.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1781694726119.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1781694726119.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1781694726119.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
           "/traditional-gowns/FB_IMG_1781694726119.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Rust Terracotta Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Rust Terracotta Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v5",
+    "title": "Ruby Crimson Embroidered Yoke Pleated Georgette Gown",
+    "slug": "ruby-crimson-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v5",
+      "ruby-crimson-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-5"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0013 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0013.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0013 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0013.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-5",
-        "name": "Ruby Crimson",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0013 (1).jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#991B1B",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0013 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#991B1B",
+        "images": [
           "/traditional-gowns/IMG-20230202-WA0013.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Ruby Crimson Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v6",
+    "title": "Scarlet Red Embroidered Yoke Pleated Georgette Gown",
+    "slug": "scarlet-red-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v6",
+      "scarlet-red-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-6"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315972756.jpg (1).jpeg",
+      "/traditional-gowns/FB_IMG_1789315972756.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671172569539.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789315972756.jpg (1).jpeg",
+      "/traditional-gowns/FB_IMG_1789315972756.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1671172569539.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-6",
-        "name": "Scarlet Red",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789315972756.jpg (1).jpeg",
-          "/traditional-gowns/FB_IMG_1789315972756.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315972756.jpg (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#DC2626",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789315972756.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#DC2626",
+        "images": [
           "/traditional-gowns/PhotoFix_1671172569539.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Scarlet Red Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Scarlet Red Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v7",
+    "title": "Artisan Earth Embroidered Yoke Pleated Georgette Gown",
+    "slug": "artisan-earth-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v7",
+      "artisan-earth-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-7"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg",
+      "/traditional-gowns/16707.jpg%20(1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388966706%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325458579%20(1).jpeg",
+      "/traditional-gowns/IMG-20230202-WA0013%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0028%20(1).jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg",
+      "/traditional-gowns/16707.jpg%20(1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388966706%20(1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325458579%20(1).jpeg",
+      "/traditional-gowns/IMG-20230202-WA0013%20(1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0028%20(1).jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-7",
-        "name": "Artisan Earth",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg",
-          "/traditional-gowns/16707.jpg%20(1).jpeg",
-          "/traditional-gowns/PhotoFix_1674388966706%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325458579%20(1).jpeg",
-          "/traditional-gowns/IMG-20230202-WA0013%20(1).jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/16707.jpg%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388966706%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325458579%20(1).jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#8B7355",
+        "images": [
+          "/traditional-gowns/IMG-20230202-WA0013%20(1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#8B7355",
+        "images": [
           "/traditional-gowns/IMG-20230202-WA0028%20(1).jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Artisan Earth Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Artisan Earth Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v8",
+    "title": "Ivory Cream Embroidered Yoke Pleated Georgette Gown",
+    "slug": "ivory-cream-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v8",
+      "ivory-cream-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-8"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494058690.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494060865.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222452.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494058690.jpg.jpeg",
+      "/traditional-gowns/FB_IMG_1789494060865.jpg.jpeg",
+      "/traditional-gowns/IMG_20230124_222452.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-8",
-        "name": "Ivory Cream",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494058690.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789494060865.jpg.jpeg",
-          "/traditional-gowns/IMG_20230124_222452.jpg.jpeg"
+          "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg"
         ]
       },
       {
-        "id": "var-9",
-        "name": "Sky Azure",
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494058690.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/FB_IMG_1789494060865.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/traditional-gowns/IMG_20230124_222452.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v9",
+    "title": "Sky Azure Embroidered Yoke Pleated Georgette Gown",
+    "slug": "sky-azure-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v9",
+      "sky-azure-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-9"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789494066635.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789494066635.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789494066635.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789494066635.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
           "/traditional-gowns/FB_IMG_1789494066635.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Sky Azure Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v10",
+    "title": "Mustard Gold Embroidered Yoke Pleated Georgette Gown",
+    "slug": "mustard-gold-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v10",
+      "mustard-gold-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-10"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg",
+    "mainImage": "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg",
+      "/traditional-gowns/16821.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg",
+      "/traditional-gowns/16821.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-10",
-        "name": "Mustard Gold",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EAB308",
+        "images": [
           "/traditional-gowns/16821.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Mustard Gold Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Mustard Gold Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V10",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v11",
+    "title": "Blush Rose Embroidered Yoke Pleated Georgette Gown",
+    "slug": "blush-rose-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v11",
+      "blush-rose-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-11"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16686.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16686.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16686.jpg.jpeg",
+      "/traditional-gowns/16687.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676132042346.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16686.jpg.jpeg",
+      "/traditional-gowns/16687.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1676132042346.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-11",
-        "name": "Blush Rose",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/16686.jpg.jpeg",
-          "/traditional-gowns/16687.jpg.jpeg",
+          "/traditional-gowns/16686.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FB7185",
+        "images": [
+          "/traditional-gowns/16687.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FB7185",
+        "images": [
           "/traditional-gowns/PhotoFix_1676132042346.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Blush Rose Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V11",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v12",
+    "title": "Sunset Tangerine Embroidered Yoke Pleated Georgette Gown",
+    "slug": "sunset-tangerine-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v12",
+      "sunset-tangerine-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-12"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16707.jpg (1).jpeg",
+    "mainImage": "/traditional-gowns/16707.jpg (1).jpeg",
+    "images": [
+      "/traditional-gowns/16707.jpg (1).jpeg",
+      "/traditional-gowns/16707.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16707.jpg (1).jpeg",
+      "/traditional-gowns/16707.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-12",
-        "name": "Sunset Tangerine",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/16707.jpg (1).jpeg",
-          "/traditional-gowns/16707.jpg.jpeg"
+          "/traditional-gowns/16707.jpg (1).jpeg"
         ]
       },
       {
-        "id": "var-13",
-        "name": "Berry Magenta",
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#EA580C",
+        "images": [
+          "/traditional-gowns/16707.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sunset Tangerine Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sunset Tangerine Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V12",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v13",
+    "title": "Berry Magenta Embroidered Yoke Pleated Georgette Gown",
+    "slug": "berry-magenta-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v13",
+      "berry-magenta-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-13"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16712.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16712.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16712.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16712.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
           "/traditional-gowns/16712.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Berry Magenta Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Berry Magenta Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V13",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v14",
+    "title": "Aqua Marine Embroidered Yoke Pleated Georgette Gown",
+    "slug": "aqua-marine-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v14",
+      "aqua-marine-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-14"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16713.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16713.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16713.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16713.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-14",
-        "name": "Aqua Marine",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
           "/traditional-gowns/16713.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Aqua Marine Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Aqua Marine Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V14",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v15",
+    "title": "Indigo Royal Embroidered Yoke Pleated Georgette Gown",
+    "slug": "indigo-royal-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v15",
+      "indigo-royal-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-15"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16779.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16779.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16779.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0238.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16779.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0238.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-15",
-        "name": "Indigo Royal",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/traditional-gowns/16779.jpg.jpeg",
+          "/traditional-gowns/16779.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
           "/traditional-gowns/IMG-20261019-WA0238.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Indigo Royal Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V15",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v16",
+    "title": "Steel Slate Embroidered Yoke Pleated Georgette Gown",
+    "slug": "steel-slate-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v16",
+      "steel-slate-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-16"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16782.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16782.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16782.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0237.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16782.jpg.jpeg",
+      "/traditional-gowns/IMG-20261019-WA0237.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-16",
-        "name": "Steel Slate",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/traditional-gowns/16782.jpg.jpeg",
+          "/traditional-gowns/16782.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
           "/traditional-gowns/IMG-20261019-WA0237.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Steel Slate Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V16",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v17",
+    "title": "Midnight Black Embroidered Yoke Pleated Georgette Gown",
+    "slug": "midnight-black-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v17",
+      "midnight-black-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-17"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/16819.jpg.jpeg",
+    "mainImage": "/traditional-gowns/16819.jpg.jpeg",
+    "images": [
+      "/traditional-gowns/16819.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1674388966706 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388966706.jpeg",
+      "/traditional-gowns/IMG-20261023-WA0066.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/16819.jpg.jpeg",
+      "/traditional-gowns/PhotoFix_1674388966706 (1).jpeg",
+      "/traditional-gowns/PhotoFix_1674388966706.jpeg",
+      "/traditional-gowns/IMG-20261023-WA0066.jpg.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-17",
-        "name": "Midnight Black",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/16819.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1674388966706 (1).jpeg",
-          "/traditional-gowns/PhotoFix_1674388966706.jpeg",
+          "/traditional-gowns/16819.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388966706 (1).jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#18181B",
+        "images": [
+          "/traditional-gowns/PhotoFix_1674388966706.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#18181B",
+        "images": [
           "/traditional-gowns/IMG-20261023-WA0066.jpg.jpeg"
         ]
-      },
+      }
+    ],
+    "description": "Authentic Midnight Black Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V17",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v18",
+    "title": "Deep Teal Embroidered Yoke Pleated Georgette Gown",
+    "slug": "deep-teal-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v18",
+      "deep-teal-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-18"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg",
+    "mainImage": "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg",
+    "images": [
+      "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325458579.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg",
+      "/traditional-gowns/PhotoStudio_1668325458579.jpeg"
+    ],
+    "colorVariants": [
       {
-        "id": "var-18",
-        "name": "Deep Teal",
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
-          "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325458579.jpeg"
+          "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg"
         ]
       },
       {
-        "id": "var-19",
-        "name": "Teal Slate",
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#115E59",
+        "images": [
+          "/traditional-gowns/PhotoStudio_1668325458579.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Deep Teal Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Deep Teal Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-TG-0010-V18",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "tg-0010-v19",
+    "title": "Teal Slate Embroidered Yoke Pleated Georgette Gown",
+    "slug": "teal-slate-embroidered-yoke-pleated-georgette-gown",
+    "aliasSlugs": [
+      "tg-0010-v19",
+      "teal-slate-embroidered-yoke-pleated-georgette-gown",
+      "embroidered-yoke-pleated-georgette-gown-var-19"
+    ],
+    "category": "Traditional Gowns",
+    "category_id": "traditional-gowns",
+    "category_name": "Traditional Gowns",
+    "category_slug": "traditional-gowns",
+    "tab": "traditional-gowns",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 4099,
+    "salePrice": 3499,
+    "price": 3499,
+    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "featured_image": "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg",
+    "mainImage": "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg",
+    "images": [
+      "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0028.jpg.jpeg"
+    ],
+    "gallery": [
+      "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg",
+      "/traditional-gowns/IMG-20230202-WA0028.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#0E7490",
+        "images": [
           "/traditional-gowns/IMG-20230202-WA0028.jpg.jpeg"
         ]
       }
     ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "The Embroidered Yoke Pleated Georgette Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 55 photographic views, tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
+    "description": "Authentic Teal Slate Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Jaipur atelier. Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical curve grading across sizes S to XXL.",
     "details": [
-      "Authentic Embroidered Yoke Pleated Georgette Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+      "Authentic Teal Slate Embroidered Yoke Pleated Georgette Gown crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0010",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
-  },
-  {
-    "id": "tg-0011",
-    "title": "Chanderi Silk Gota Patti Floor-Length Gown",
-    "slug": "chanderi-silk-gota-patti-floor-length-gown",
-    "aliasSlugs": [
-      "aaliyah-chanderi-silk-gota-patti-floor-length-gown",
-      "aanya-chanderi-silk-gota-patti-floor-length-gown",
-      "alanna-chanderi-silk-gota-patti-floor-length-gown",
-      "aria-anarkali-flared-floor-length-gown-edition-5-tg-0050",
-      "aria-anarkali-flared-floor-length-gown-edition-6-tg-0066",
-      "aria-chanderi-silk-gota-patti-floor-length-gown",
-      "bhumi-chanderi-silk-gota-patti-floor-length-gown",
-      "chloe-gota-patti-festive-gown-edition-5-tg-0055",
-      "disha-chanderi-silk-gota-patti-floor-length-gown",
-      "diya-chanderi-silk-gota-patti-floor-length-gown",
-      "elena-chanderi-zari-work-gown-edition-4-tg-0040",
-      "elena-chanderi-zari-work-gown-edition-5-tg-0052",
-      "freya-layered-royal-kalidar-gown-edition-4-tg-0044",
-      "freya-layered-royal-kalidar-gown-edition-5-edition-3-tg-0058",
-      "freya-layered-royal-kalidar-gown-edition-8-tg-0100",
-      "hansika-chanderi-silk-gota-patti-floor-length-gown",
-      "isla-tilla-embroidered-silk-gown-edition-4-tg-0042",
-      "kaia-hand-blocked-heritage-kalidar-gown-edition-5-tg-0063",
-      "lavanya-chanderi-silk-gota-patti-floor-length-gown",
-      "luna-zardozi-handcrafted-anarkali-gown-edition-3-tg-0034",
-      "mansi-chanderi-silk-gota-patti-floor-length-gown",
-      "maya-brocade-yoke-flared-gown-edition-2-tg-0020",
-      "maya-brocade-yoke-flared-gown-edition-3-tg-0033",
-      "maya-brocade-yoke-flared-gown-edition-8-edition-2-tg-0102",
-      "mila-resham-floral-embroidered-gown-edition-7-tg-0083",
-      "mila-resham-floral-embroidered-gown-edition-8-tg-0096",
-      "mrinal-chanderi-silk-gota-patti-floor-length-gown",
-      "niharika-chanderi-silk-gota-patti-floor-length-gown",
-      "nova-sequined-floor-sweeping-gown-edition-5-tg-0064",
-      "nova-sequined-floor-sweeping-gown-edition-6-tg-0077",
-      "nova-sequined-floor-sweeping-gown-edition-8-edition-2-tg-0108",
-      "nova-sequined-floor-sweeping-gown-tg-0012",
-      "palak-chanderi-silk-gota-patti-floor-length-gown",
-      "product-tg-0011",
-      "product-tg-0012",
-      "product-tg-0020",
-      "product-tg-0023",
-      "product-tg-0033",
-      "product-tg-0034",
-      "product-tg-0035",
-      "product-tg-0040",
-      "product-tg-0042",
-      "product-tg-0044",
-      "product-tg-0047",
-      "product-tg-0050",
-      "product-tg-0052",
-      "product-tg-0055",
-      "product-tg-0058",
-      "product-tg-0059",
-      "product-tg-0062",
-      "product-tg-0063",
-      "product-tg-0064",
-      "product-tg-0066",
-      "product-tg-0071",
-      "product-tg-0077",
-      "product-tg-0083",
-      "product-tg-0090",
-      "product-tg-0095",
-      "product-tg-0096",
-      "product-tg-0100",
-      "product-tg-0102",
-      "product-tg-0107",
-      "product-tg-0108",
-      "product-tg-0110",
-      "product-tg-0111",
-      "product-tg-0119",
-      "product-tg-0131",
-      "product-tg-0143",
-      "product-tg-0155",
-      "product-tg-0167",
-      "product-tg-0179",
-      "product-tg-0191",
-      "product-tg-0203",
-      "product-tg-0215",
-      "product-tg-0227",
-      "product-tg-0239",
-      "product-tg-0251",
-      "product-tg-0263",
-      "product-tg-0275",
-      "raashii-chanderi-silk-gota-patti-floor-length-gown",
-      "saanvi-chanderi-silk-gota-patti-floor-length-gown",
-      "sara-chanderi-silk-gota-patti-floor-length-gown",
-      "sienna-embroidered-kalidar-festive-gown-edition-9-edition-2-tg-0111",
-      "sienna-embroidered-kalidar-festive-gown-edition-9-tg-0110",
-      "sitara-chanderi-silk-gota-patti-floor-length-gown",
-      "siya-chanderi-silk-gota-patti-floor-length-gown",
-      "tanya-chanderi-silk-gota-patti-floor-length-gown",
-      "tara-chanderi-silk-gota-patti-floor-length-gown",
-      "tg-0011",
-      "tg-0012",
-      "tg-0020",
-      "tg-0023",
-      "tg-0033",
-      "tg-0034",
-      "tg-0035",
-      "tg-0040",
-      "tg-0042",
-      "tg-0044",
-      "tg-0047",
-      "tg-0050",
-      "tg-0052",
-      "tg-0055",
-      "tg-0058",
-      "tg-0059",
-      "tg-0062",
-      "tg-0063",
-      "tg-0064",
-      "tg-0066",
-      "tg-0071",
-      "tg-0077",
-      "tg-0083",
-      "tg-0090",
-      "tg-0095",
-      "tg-0096",
-      "tg-0100",
-      "tg-0102",
-      "tg-0107",
-      "tg-0108",
-      "tg-0110",
-      "tg-0111",
-      "tg-0119",
-      "tg-0131",
-      "tg-0143",
-      "tg-0155",
-      "tg-0167",
-      "tg-0179",
-      "tg-0191",
-      "tg-0203",
-      "tg-0215",
-      "tg-0227",
-      "tg-0239",
-      "tg-0251",
-      "tg-0263",
-      "tg-0275",
-      "trisha-chanderi-silk-gota-patti-floor-length-gown",
-      "vanya-chanderi-silk-gota-patti-floor-length-gown",
-      "yami-chanderi-silk-gota-patti-floor-length-gown",
-      "zara-banarasi-silk-sweep-flare-gown-edition-4-tg-0047",
-      "zara-banarasi-silk-sweep-flare-gown-edition-5-tg-0062",
-      "zara-banarasi-silk-sweep-flare-gown-edition-7-tg-0090"
-    ],
-    "tab": "traditional-gowns",
-    "category": "traditional-gowns",
-    "badge": "Royal Jaipur",
-    "regularPrice": 4099,
-    "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1781723129200.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793388935.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237525312.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237528700.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237531490.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237535297.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237537480.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237541516.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237550781.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789315974471.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494070108.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529212558.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529715945.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529725382.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529728103.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529949767.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529951814.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529953927.jpg.jpeg",
-      "/traditional-gowns/16688.jpg.jpeg",
-      "/traditional-gowns/16735.jpg.jpeg",
-      "/traditional-gowns/16783.jpg.jpeg",
-      "/traditional-gowns/16784.jpg.jpeg",
-      "/traditional-gowns/16787.jpg (1).jpeg",
-      "/traditional-gowns/16787.jpg%20(1).jpeg",
-      "/traditional-gowns/16787.jpg.jpeg",
-      "/traditional-gowns/16788.jpg.jpeg",
-      "/traditional-gowns/16822.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222513.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671790585714.jpeg",
-      "/traditional-gowns/PhotoFix_1676130388413.jpeg",
-      "/traditional-gowns/PhotoFix_1676132168004.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325538949 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325538949%20(1).jpeg",
-      "/traditional-gowns/IMG-20230202-WA0014.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0029%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0053.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0079.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0242.jpg.jpeg",
-      "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg",
-      "/traditional-gowns/IMG-20261023-WA0068.jpg.jpeg",
-      "/traditional-gowns/IMG-20261023-WA0069.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781723129200.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781793388935.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529725382.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529728103.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Scarlet Red",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237525312.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237528700.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237531490.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237535297.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237537480.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237541516.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789315974471.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0242.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237550781.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494070108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529212558.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529949767.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529951814.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529953927.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676132168004.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529715945.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/16688.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16735.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/16783.jpg.jpeg",
-          "/traditional-gowns/16784.jpg.jpeg",
-          "/traditional-gowns/16787.jpg (1).jpeg",
-          "/traditional-gowns/16787.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/16787.jpg%20(1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325538949%20(1).jpeg",
-          "/traditional-gowns/IMG-20230202-WA0029%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/traditional-gowns/16788.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Sand Ochre",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/traditional-gowns/16822.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0014.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222513.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/PhotoFix_1671790585714.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Forest Emerald",
-        "colorCode": "#14532D",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676130388413.jpeg"
-        ]
-      },
-      {
-        "id": "var-17",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325538949 (1).jpeg"
-        ]
-      },
-      {
-        "id": "var-18",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-19",
-        "name": "Rust Terracotta",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg",
-          "/traditional-gowns/IMG-20261023-WA0068.jpg.jpeg",
-          "/traditional-gowns/IMG-20261023-WA0069.jpg.jpeg"
-        ]
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "The Chanderi Silk Gota Patti Floor-Length Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 49 photographic views, tailored in Lustrous Raw Silk with Micro Crepe Lining with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Lustrous Raw Silk with Micro Crepe Lining",
-    "details": [
-      "Authentic Chanderi Silk Gota Patti Floor-Length Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Lustrous Raw Silk with Micro Crepe Lining with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
-    ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0011",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
-  },
-  {
-    "id": "tg-0012",
-    "title": "Chikankari Hand-Embroidered Regal Gown",
-    "slug": "chikankari-hand-embroidered-regal-gown",
-    "aliasSlugs": [
-      "aaliyah-chikankari-hand-embroidered-regal-gown",
-      "aanya-chikankari-hand-embroidered-regal-gown",
-      "ananya-chikankari-hand-embroidered-regal-gown",
-      "aria-anarkali-flared-floor-length-gown-edition-2-tg-0013",
-      "aria-anarkali-flared-floor-length-gown-edition-5-tg-0050",
-      "aria-anarkali-flared-floor-length-gown-edition-6-tg-0066",
-      "aria-chikankari-hand-embroidered-regal-gown",
-      "bhavya-chikankari-hand-embroidered-regal-gown",
-      "bhumi-chikankari-hand-embroidered-regal-gown",
-      "chloe-gota-patti-festive-gown-edition-4-tg-0043",
-      "chloe-gota-patti-festive-gown-edition-5-tg-0055",
-      "diya-chikankari-hand-embroidered-regal-gown",
-      "elena-chanderi-zari-work-gown-edition-4-tg-0040",
-      "elena-chanderi-zari-work-gown-edition-5-tg-0052",
-      "freya-layered-royal-kalidar-gown-edition-4-tg-0044",
-      "freya-layered-royal-kalidar-gown-edition-5-edition-3-tg-0058",
-      "freya-layered-royal-kalidar-gown-edition-8-tg-0100",
-      "isla-tilla-embroidered-silk-gown-edition-8-tg-0097",
-      "janvi-chikankari-hand-embroidered-regal-gown",
-      "kiara-chikankari-hand-embroidered-regal-gown",
-      "luna-zardozi-handcrafted-anarkali-gown-edition-3-tg-0034",
-      "luna-zardozi-handcrafted-anarkali-gown-edition-8-tg-0103",
-      "maya-brocade-yoke-flared-gown-edition-2-tg-0020",
-      "maya-brocade-yoke-flared-gown-edition-3-tg-0033",
-      "maya-brocade-yoke-flared-gown-edition-8-edition-2-tg-0102",
-      "mila-resham-floral-embroidered-gown-edition-7-tg-0083",
-      "mrinal-chikankari-hand-embroidered-regal-gown",
-      "niharika-chikankari-hand-embroidered-regal-gown",
-      "nova-sequined-floor-sweeping-gown-edition-5-tg-0064",
-      "nova-sequined-floor-sweeping-gown-edition-6-tg-0077",
-      "nova-sequined-floor-sweeping-gown-edition-8-edition-2-tg-0108",
-      "nova-sequined-floor-sweeping-gown-tg-0012",
-      "palak-chikankari-hand-embroidered-regal-gown",
-      "product-tg-0012",
-      "product-tg-0013",
-      "product-tg-0020",
-      "product-tg-0024",
-      "product-tg-0033",
-      "product-tg-0034",
-      "product-tg-0036",
-      "product-tg-0040",
-      "product-tg-0043",
-      "product-tg-0044",
-      "product-tg-0047",
-      "product-tg-0048",
-      "product-tg-0050",
-      "product-tg-0052",
-      "product-tg-0055",
-      "product-tg-0058",
-      "product-tg-0060",
-      "product-tg-0062",
-      "product-tg-0064",
-      "product-tg-0066",
-      "product-tg-0072",
-      "product-tg-0077",
-      "product-tg-0083",
-      "product-tg-0084",
-      "product-tg-0090",
-      "product-tg-0096",
-      "product-tg-0097",
-      "product-tg-0100",
-      "product-tg-0102",
-      "product-tg-0103",
-      "product-tg-0108",
-      "product-tg-0111",
-      "product-tg-0120",
-      "product-tg-0132",
-      "product-tg-0144",
-      "product-tg-0156",
-      "product-tg-0168",
-      "product-tg-0180",
-      "product-tg-0192",
-      "product-tg-0204",
-      "product-tg-0216",
-      "product-tg-0228",
-      "product-tg-0240",
-      "product-tg-0252",
-      "product-tg-0264",
-      "product-tg-0276",
-      "raashii-chikankari-hand-embroidered-regal-gown",
-      "roohi-chikankari-hand-embroidered-regal-gown",
-      "saanvi-chikankari-hand-embroidered-regal-gown",
-      "sanya-chikankari-hand-embroidered-regal-gown",
-      "sara-chikankari-hand-embroidered-regal-gown",
-      "sienna-chikankari-hand-embroidered-regal-gown",
-      "sienna-embroidered-kalidar-festive-gown-edition-9-edition-2-tg-0111",
-      "siya-chikankari-hand-embroidered-regal-gown",
-      "taapsee-chikankari-hand-embroidered-regal-gown",
-      "tanya-chikankari-hand-embroidered-regal-gown",
-      "tg-0012",
-      "tg-0013",
-      "tg-0020",
-      "tg-0024",
-      "tg-0033",
-      "tg-0034",
-      "tg-0036",
-      "tg-0040",
-      "tg-0043",
-      "tg-0044",
-      "tg-0047",
-      "tg-0048",
-      "tg-0050",
-      "tg-0052",
-      "tg-0055",
-      "tg-0058",
-      "tg-0060",
-      "tg-0062",
-      "tg-0064",
-      "tg-0066",
-      "tg-0072",
-      "tg-0077",
-      "tg-0083",
-      "tg-0084",
-      "tg-0090",
-      "tg-0096",
-      "tg-0097",
-      "tg-0100",
-      "tg-0102",
-      "tg-0103",
-      "tg-0108",
-      "tg-0111",
-      "tg-0120",
-      "tg-0132",
-      "tg-0144",
-      "tg-0156",
-      "tg-0168",
-      "tg-0180",
-      "tg-0192",
-      "tg-0204",
-      "tg-0216",
-      "tg-0228",
-      "tg-0240",
-      "tg-0252",
-      "tg-0264",
-      "tg-0276",
-      "vanya-chikankari-hand-embroidered-regal-gown",
-      "yami-chikankari-hand-embroidered-regal-gown",
-      "zara-banarasi-silk-sweep-flare-gown-edition-4-tg-0047",
-      "zara-banarasi-silk-sweep-flare-gown-edition-5-tg-0062",
-      "zara-banarasi-silk-sweep-flare-gown-edition-7-tg-0090"
-    ],
-    "tab": "traditional-gowns",
-    "category": "traditional-gowns",
-    "badge": "Royal Jaipur",
-    "regularPrice": 4099,
-    "salePrice": 3499,
-    "images": [
-      "/traditional-gowns/FB_IMG_1781723131578.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1781793392250.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789316452963.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789316456054.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789316471364.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789494072402.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529219448.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529221416.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529730046.jpg.jpeg",
-      "/traditional-gowns/FB_IMG_1789529957697.jpg.jpeg",
-      "/traditional-gowns/16691.jpg.jpeg",
-      "/traditional-gowns/16736.jpg.jpeg",
-      "/traditional-gowns/16738.jpg.jpeg",
-      "/traditional-gowns/16739.jpg.jpeg",
-      "/traditional-gowns/16790.jpg.jpeg",
-      "/traditional-gowns/16792.jpg.jpeg",
-      "/traditional-gowns/16824.jpg.jpeg",
-      "/traditional-gowns/IMG_20230124_222544.jpg.jpeg",
-      "/traditional-gowns/PhotoFix_1671790684345.jpeg",
-      "/traditional-gowns/PhotoFix_1676130475314.jpeg",
-      "/traditional-gowns/PhotoFix_1676132366853.jpeg",
-      "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325609300%20(1).jpeg",
-      "/traditional-gowns/PhotoStudio_1668325609300.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0015 (1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0015%20(1).jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0015.jpg.jpeg",
-      "/traditional-gowns/IMG-20230202-WA0034.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0057.jpg.jpeg",
-      "/traditional-gowns/IMG-20261006-WA0080.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0247.jpg.jpeg",
-      "/traditional-gowns/IMG-20261019-WA0249.jpg.jpeg",
-      "/traditional-gowns/IMG-20261029-WA0050.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781723131578.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0015 (1).jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0015.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1781793392250.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529221416.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0247.jpg.jpeg",
-          "/traditional-gowns/IMG-20261019-WA0249.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Berry Magenta",
-        "colorCode": "#831843",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
-          "/traditional-gowns/16824.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789316452963.jpg.jpeg",
-          "/traditional-gowns/IMG-20261029-WA0050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789316456054.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789316471364.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529730046.jpg.jpeg",
-          "/traditional-gowns/IMG_20230124_222544.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494072402.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg",
-          "/traditional-gowns/FB_IMG_1789529219448.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676132366853.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Sunset Tangerine",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529957697.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0057.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/traditional-gowns/16691.jpg.jpeg",
-          "/traditional-gowns/IMG-20261006-WA0080.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-10",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/16736.jpg.jpeg",
-          "/traditional-gowns/IMG-20230202-WA0034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-11",
-        "name": "Forest Emerald",
-        "colorCode": "#14532D",
-        "images": [
-          "/traditional-gowns/16738.jpg.jpeg",
-          "/traditional-gowns/PhotoFix_1676130475314.jpeg"
-        ]
-      },
-      {
-        "id": "var-12",
-        "name": "Orchid Pink",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16739.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-13",
-        "name": "Aqua Marine",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/traditional-gowns/16790.jpg.jpeg",
-          "/traditional-gowns/16792.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-14",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/PhotoFix_1671790684345.jpeg"
-        ]
-      },
-      {
-        "id": "var-15",
-        "name": "Deep Teal",
-        "colorCode": "#115E59",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg",
-          "/traditional-gowns/PhotoStudio_1668325609300.jpeg"
-        ]
-      },
-      {
-        "id": "var-16",
-        "name": "Artisan Earth",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325609300%20(1).jpeg",
-          "/traditional-gowns/IMG-20230202-WA0015%20(1).jpg.jpeg"
-        ]
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "description": "The Chikankari Hand-Embroidered Regal Gown is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 39 photographic views, tailored in Fine Mulmul Cotton with Elaborate Gota Patti with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "Fine Mulmul Cotton with Elaborate Gota Patti",
-    "details": [
-      "Authentic Chikankari Hand-Embroidered Regal Gown handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in Fine Mulmul Cotton with Elaborate Gota Patti with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
-    ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-TG-0012",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "sku": "WST-TG-0010-V19",
+    "inStock": true,
+    "stockQty": 50
   }
 ];

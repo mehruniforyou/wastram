@@ -1,12 +1,15 @@
-// Wastram Atelier — denim-collection catalogue (consolidated 12 canonical products)
+// Wastram Atelier — denim-collection catalogue (Reconstructed 81 Individual Products)
 import { NishoramaProduct } from './nishorama-data';
 
 export const DENIM_COLLECTION: NishoramaProduct[] = [
   {
-    "id": "dn-0001",
-    "title": "Raw Indigo Tapered Jeans",
-    "slug": "raw-indigo-tapered-jeans",
+    "id": "dn-0001-v1",
+    "title": "Midnight Navy Raw Indigo Tapered Jeans",
+    "slug": "midnight-navy-raw-indigo-tapered-jeans",
     "aliasSlugs": [
+      "dn-0001-v1",
+      "midnight-navy-raw-indigo-tapered-jeans",
+      "raw-indigo-tapered-jeans-var-1",
       "ananya-raw-indigo-relaxed-tapered-denim-pants",
       "aria-floral-embroidered-denim-shirt-dress-dnm-0001",
       "aria-floral-embroidered-denim-shirt-dress-edition-17-dnm-0145",
@@ -92,92 +95,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "tanya-raw-indigo-relaxed-tapered-denim-pants",
       "yami-raw-indigo-relaxed-tapered-denim-pants"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1020.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1565.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2367.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3261.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4149.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4896.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5642.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6714.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7573.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8377.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9076.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9783.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA9380.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA1020.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1565.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA5642.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8377.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2367.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4149.jpg.jpeg",
-          "/denim-collection/IMG-20261103-WA9380.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3261.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6714.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7573.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA9783.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -185,26 +113,456 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Raw Indigo Tapered Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 14 photographic views, tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
-    "details": [
-      "Authentic Raw Indigo Tapered Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1020.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4896.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0001",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1020.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4896.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0252.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1020.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4896.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Raw Indigo Tapered Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Raw Indigo Tapered Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0001-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0002",
-    "title": "Straight-Leg Vintage Jeans",
-    "slug": "straight-leg-vintage-jeans",
+    "id": "dn-0001-v2",
+    "title": "Pebble Grey Raw Indigo Tapered Jeans",
+    "slug": "pebble-grey-raw-indigo-tapered-jeans",
     "aliasSlugs": [
+      "dn-0001-v2",
+      "pebble-grey-raw-indigo-tapered-jeans",
+      "raw-indigo-tapered-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1565.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1565.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1565.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5642.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8377.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1565.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5642.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8377.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1565.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5642.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8377.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Raw Indigo Tapered Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Raw Indigo Tapered Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0001-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0001-v3",
+    "title": "Indigo Royal Raw Indigo Tapered Jeans",
+    "slug": "indigo-royal-raw-indigo-tapered-jeans",
+    "aliasSlugs": [
+      "dn-0001-v3",
+      "indigo-royal-raw-indigo-tapered-jeans",
+      "raw-indigo-tapered-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA2367.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA2367.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA2367.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4149.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA9380.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA2367.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4149.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA9380.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2367.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4149.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261103-WA9380.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Raw Indigo Tapered Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Raw Indigo Tapered Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0001-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0001-v4",
+    "title": "Ivory Cream Raw Indigo Tapered Jeans",
+    "slug": "ivory-cream-raw-indigo-tapered-jeans",
+    "aliasSlugs": [
+      "dn-0001-v4",
+      "ivory-cream-raw-indigo-tapered-jeans",
+      "raw-indigo-tapered-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA3261.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA3261.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA3261.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9076.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA3261.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9076.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3261.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9076.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Raw Indigo Tapered Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Raw Indigo Tapered Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0001-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0001-v5",
+    "title": "Teal Slate Raw Indigo Tapered Jeans",
+    "slug": "teal-slate-raw-indigo-tapered-jeans",
+    "aliasSlugs": [
+      "dn-0001-v5",
+      "teal-slate-raw-indigo-tapered-jeans",
+      "raw-indigo-tapered-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6714.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6714.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6714.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6714.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6714.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Raw Indigo Tapered Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Raw Indigo Tapered Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0001-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0001-v6",
+    "title": "Warm Caramel Raw Indigo Tapered Jeans",
+    "slug": "warm-caramel-raw-indigo-tapered-jeans",
+    "aliasSlugs": [
+      "dn-0001-v6",
+      "warm-caramel-raw-indigo-tapered-jeans",
+      "raw-indigo-tapered-jeans-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA7573.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA7573.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA7573.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA7573.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7573.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Raw Indigo Tapered Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Raw Indigo Tapered Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0001-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0001-v7",
+    "title": "Sky Azure Raw Indigo Tapered Jeans",
+    "slug": "sky-azure-raw-indigo-tapered-jeans",
+    "aliasSlugs": [
+      "dn-0001-v7",
+      "sky-azure-raw-indigo-tapered-jeans",
+      "raw-indigo-tapered-jeans-var-7"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA9783.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA9783.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA9783.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA9783.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9783.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Raw Indigo Tapered Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Raw Indigo Tapered Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0001-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0002-v1",
+    "title": "Midnight Navy Straight-Leg Vintage Jeans",
+    "slug": "midnight-navy-straight-leg-vintage-jeans",
+    "aliasSlugs": [
+      "dn-0002-v1",
+      "midnight-navy-straight-leg-vintage-jeans",
+      "straight-leg-vintage-jeans-var-1",
       "ananya-classic-straight-leg-vintage-denim",
       "aria-floral-embroidered-denim-shirt-dress-edition-6-dnm-0046",
       "bhavya-classic-straight-leg-vintage-denim",
@@ -290,80 +648,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "taapsee-classic-straight-leg-vintage-denim",
       "tamannaah-classic-straight-leg-vintage-denim"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1075.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1579.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2384.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3293.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4188.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4984.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5814.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6808.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7677.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7681.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8395.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9097.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9844.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA9870.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA1075.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4188.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4984.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA6808.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7677.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7681.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1579.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA2384.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9844.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3293.jpg.jpeg",
-          "/denim-collection/IMG-20261103-WA9870.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5814.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8395.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -371,26 +666,372 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Straight-Leg Vintage Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 15 photographic views, tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
-    "details": [
-      "Authentic Straight-Leg Vintage Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1075.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4188.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4984.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6808.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7677.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7681.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9097.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0002",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1075.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4188.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4984.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6808.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7677.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7681.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9097.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0296.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1075.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4188.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4984.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6808.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7677.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7681.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-8",
+        "name": "Styling 8",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9097.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Straight-Leg Vintage Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Straight-Leg Vintage Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0002-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0003",
-    "title": "High-Waisted Indigo Jeans",
-    "slug": "high-waisted-indigo-jeans",
+    "id": "dn-0002-v2",
+    "title": "Pebble Grey Straight-Leg Vintage Jeans",
+    "slug": "pebble-grey-straight-leg-vintage-jeans",
     "aliasSlugs": [
+      "dn-0002-v2",
+      "pebble-grey-straight-leg-vintage-jeans",
+      "straight-leg-vintage-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1579.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1579.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1579.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2384.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9844.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1579.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2384.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9844.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1579.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2384.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9844.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Straight-Leg Vintage Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Straight-Leg Vintage Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0002-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0002-v3",
+    "title": "Indigo Royal Straight-Leg Vintage Jeans",
+    "slug": "indigo-royal-straight-leg-vintage-jeans",
+    "aliasSlugs": [
+      "dn-0002-v3",
+      "indigo-royal-straight-leg-vintage-jeans",
+      "straight-leg-vintage-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA3293.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA3293.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA3293.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA9870.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA3293.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA9870.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3293.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261103-WA9870.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Straight-Leg Vintage Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Straight-Leg Vintage Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0002-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0002-v4",
+    "title": "Sky Azure Straight-Leg Vintage Jeans",
+    "slug": "sky-azure-straight-leg-vintage-jeans",
+    "aliasSlugs": [
+      "dn-0002-v4",
+      "sky-azure-straight-leg-vintage-jeans",
+      "straight-leg-vintage-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA5814.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA5814.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA5814.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA5814.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5814.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Straight-Leg Vintage Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Straight-Leg Vintage Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0002-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0002-v5",
+    "title": "Ivory Cream Straight-Leg Vintage Jeans",
+    "slug": "ivory-cream-straight-leg-vintage-jeans",
+    "aliasSlugs": [
+      "dn-0002-v5",
+      "ivory-cream-straight-leg-vintage-jeans",
+      "straight-leg-vintage-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA8395.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA8395.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA8395.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA8395.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8395.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Straight-Leg Vintage Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Straight-Leg Vintage Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0002-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0003-v1",
+    "title": "Midnight Navy High-Waisted Indigo Jeans",
+    "slug": "midnight-navy-high-waisted-indigo-jeans",
+    "aliasSlugs": [
+      "dn-0003-v1",
+      "midnight-navy-high-waisted-indigo-jeans",
+      "high-waisted-indigo-jeans-var-1",
       "aria-floral-embroidered-denim-shirt-dress-edition-11-dnm-0091",
       "aria-floral-embroidered-denim-shirt-dress-edition-16-dnm-0136",
       "charu-clean-cut-high-waisted-indigo-denim",
@@ -470,83 +1111,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "tamannaah-clean-cut-high-waisted-indigo-denim",
       "zoya-clean-cut-high-waisted-indigo-denim"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1128.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2487.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3337.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4237.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5022.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5833.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6887.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7753.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8416.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9138.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9902.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA1128.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA2487.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA3337.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8416.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9902.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA5833.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4237.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA5022.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7753.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA9138.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -554,26 +1129,399 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The High-Waisted Indigo Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 13 photographic views, tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
-    "details": [
-      "Authentic High-Waisted Indigo Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 14 Oz Japanese Selvedge Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1128.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2487.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3337.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8416.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9902.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0003",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1128.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2487.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3337.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8416.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9902.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0346.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1128.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2487.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3337.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8416.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9902.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy High-Waisted Indigo Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy High-Waisted Indigo Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0003-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0004",
-    "title": "High-Rise Flared Jeans",
-    "slug": "high-rise-flared-jeans",
+    "id": "dn-0003-v2",
+    "title": "Warm Caramel High-Waisted Indigo Jeans",
+    "slug": "warm-caramel-high-waisted-indigo-jeans",
     "aliasSlugs": [
+      "dn-0003-v2",
+      "warm-caramel-high-waisted-indigo-jeans",
+      "high-waisted-indigo-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5833.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5833.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1589.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5833.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel High-Waisted Indigo Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel High-Waisted Indigo Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0003-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0003-v3",
+    "title": "Pebble Grey High-Waisted Indigo Jeans",
+    "slug": "pebble-grey-high-waisted-indigo-jeans",
+    "aliasSlugs": [
+      "dn-0003-v3",
+      "pebble-grey-high-waisted-indigo-jeans",
+      "high-waisted-indigo-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA4237.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA4237.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA4237.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5022.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA4237.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5022.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4237.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5022.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey High-Waisted Indigo Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey High-Waisted Indigo Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0003-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0003-v4",
+    "title": "Indigo Royal High-Waisted Indigo Jeans",
+    "slug": "indigo-royal-high-waisted-indigo-jeans",
+    "aliasSlugs": [
+      "dn-0003-v4",
+      "indigo-royal-high-waisted-indigo-jeans",
+      "high-waisted-indigo-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6887.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6887.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6887.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6887.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6887.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal High-Waisted Indigo Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal High-Waisted Indigo Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0003-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0003-v5",
+    "title": "Sky Azure High-Waisted Indigo Jeans",
+    "slug": "sky-azure-high-waisted-indigo-jeans",
+    "aliasSlugs": [
+      "dn-0003-v5",
+      "sky-azure-high-waisted-indigo-jeans",
+      "high-waisted-indigo-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA7753.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA7753.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA7753.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA7753.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7753.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure High-Waisted Indigo Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure High-Waisted Indigo Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0003-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0003-v6",
+    "title": "Ivory Cream High-Waisted Indigo Jeans",
+    "slug": "ivory-cream-high-waisted-indigo-jeans",
+    "aliasSlugs": [
+      "dn-0003-v6",
+      "ivory-cream-high-waisted-indigo-jeans",
+      "high-waisted-indigo-jeans-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA9138.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA9138.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA9138.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA9138.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9138.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream High-Waisted Indigo Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream High-Waisted Indigo Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0003-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0004-v1",
+    "title": "Warm Caramel High-Rise Flared Jeans",
+    "slug": "warm-caramel-high-rise-flared-jeans",
+    "aliasSlugs": [
+      "dn-0004-v1",
+      "warm-caramel-high-rise-flared-jeans",
+      "high-rise-flared-jeans-var-1",
       "aria-floral-embroidered-denim-shirt-dress-edition-10-dnm-0082",
       "chloe-relaxed-belted-indigo-denim-midi-dress-edition-13-dnm-0114",
       "chloe-relaxed-belted-indigo-denim-midi-dress-edition-3-dnm-0024",
@@ -653,83 +1601,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "suhana-high-rise-vintage-flared-denim-jeans",
       "zoya-high-rise-vintage-flared-denim-jeans"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1208.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1622.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2520.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3421.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4321.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5040.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6021.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6977.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7835.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8436.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9252.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9933.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA1208.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA5040.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8436.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1622.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7835.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9933.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2520.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3421.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4321.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA6977.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA9252.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -737,26 +1619,399 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The High-Rise Flared Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 13 photographic views, tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "11.5 Oz Organic Eco-Washed Denim",
-    "details": [
-      "Authentic High-Rise Flared Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 11.5 Oz Organic Eco-Washed Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1208.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5040.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8436.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0004",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1208.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5040.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8436.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0449.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1208.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5040.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8436.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel High-Rise Flared Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel High-Rise Flared Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0004-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0005",
-    "title": "Stonewash Slouchy Denim",
-    "slug": "stonewash-slouchy-denim",
+    "id": "dn-0004-v2",
+    "title": "Midnight Navy High-Rise Flared Jeans",
+    "slug": "midnight-navy-high-rise-flared-jeans",
     "aliasSlugs": [
+      "dn-0004-v2",
+      "midnight-navy-high-rise-flared-jeans",
+      "high-rise-flared-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1622.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1622.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1622.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7835.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9933.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1622.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7835.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9933.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1622.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7835.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9933.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy High-Rise Flared Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy High-Rise Flared Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0004-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0004-v3",
+    "title": "Charcoal Slate High-Rise Flared Jeans",
+    "slug": "charcoal-slate-high-rise-flared-jeans",
+    "aliasSlugs": [
+      "dn-0004-v3",
+      "charcoal-slate-high-rise-flared-jeans",
+      "high-rise-flared-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA2520.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA2520.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA2520.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA2520.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2520.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate High-Rise Flared Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate High-Rise Flared Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0004-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0004-v4",
+    "title": "Ivory Cream High-Rise Flared Jeans",
+    "slug": "ivory-cream-high-rise-flared-jeans",
+    "aliasSlugs": [
+      "dn-0004-v4",
+      "ivory-cream-high-rise-flared-jeans",
+      "high-rise-flared-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA3421.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA3421.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA3421.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4321.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6977.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA3421.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4321.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6977.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3421.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4321.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6977.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream High-Rise Flared Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream High-Rise Flared Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0004-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0004-v5",
+    "title": "Pebble Grey High-Rise Flared Jeans",
+    "slug": "pebble-grey-high-rise-flared-jeans",
+    "aliasSlugs": [
+      "dn-0004-v5",
+      "pebble-grey-high-rise-flared-jeans",
+      "high-rise-flared-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6021.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6021.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6021.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6021.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6021.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey High-Rise Flared Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey High-Rise Flared Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0004-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0004-v6",
+    "title": "Sky Azure High-Rise Flared Jeans",
+    "slug": "sky-azure-high-rise-flared-jeans",
+    "aliasSlugs": [
+      "dn-0004-v6",
+      "sky-azure-high-rise-flared-jeans",
+      "high-rise-flared-jeans-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA9252.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA9252.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA9252.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA9252.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9252.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure High-Rise Flared Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure High-Rise Flared Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0004-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0005-v1",
+    "title": "Indigo Royal Stonewash Slouchy Denim",
+    "slug": "indigo-royal-stonewash-slouchy-denim",
+    "aliasSlugs": [
+      "dn-0005-v1",
+      "indigo-royal-stonewash-slouchy-denim",
+      "stonewash-slouchy-denim-var-1",
       "anushka-stone-washed-slouchy-skate-denim-trousers",
       "aria-floral-embroidered-denim-shirt-dress-edition-10-dnm-0082",
       "aria-floral-embroidered-denim-shirt-dress-edition-5-dnm-0037",
@@ -836,92 +2091,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "vamika-stone-washed-slouchy-skate-denim-trousers",
       "zara-stone-washed-slouchy-skate-denim-trousers"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0479.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1240.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1758.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2568.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3494.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3496.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4410.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5103.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6026.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7007.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7846.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8536.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9287.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9978.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0479.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA2568.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1240.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1758.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA5103.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7007.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7846.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9287.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3494.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4410.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6026.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8536.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -929,26 +2109,456 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Stonewash Slouchy Denim is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 14 photographic views, tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
-    "details": [
-      "Authentic Stonewash Slouchy Denim handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 14 Oz Japanese Selvedge Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0479.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0479.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0479.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2568.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0005",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0479.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2568.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0479.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2568.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Stonewash Slouchy Denim handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Stonewash Slouchy Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0005-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0006",
-    "title": "Acid-Wash Barrel Leg Jeans",
-    "slug": "acid-wash-barrel-leg-jeans",
+    "id": "dn-0005-v2",
+    "title": "Steel Slate Stonewash Slouchy Denim",
+    "slug": "steel-slate-stonewash-slouchy-denim",
     "aliasSlugs": [
+      "dn-0005-v2",
+      "steel-slate-stonewash-slouchy-denim",
+      "stonewash-slouchy-denim-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1240.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1240.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1240.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1240.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1240.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Stonewash Slouchy Denim handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Stonewash Slouchy Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0005-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0005-v3",
+    "title": "Midnight Navy Stonewash Slouchy Denim",
+    "slug": "midnight-navy-stonewash-slouchy-denim",
+    "aliasSlugs": [
+      "dn-0005-v3",
+      "midnight-navy-stonewash-slouchy-denim",
+      "stonewash-slouchy-denim-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1758.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1758.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1758.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5103.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7007.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7846.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9287.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9978.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1758.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5103.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7007.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7846.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9287.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9978.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1758.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5103.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7007.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7846.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9287.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9978.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Stonewash Slouchy Denim handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Stonewash Slouchy Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0005-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0005-v4",
+    "title": "Ivory Cream Stonewash Slouchy Denim",
+    "slug": "ivory-cream-stonewash-slouchy-denim",
+    "aliasSlugs": [
+      "dn-0005-v4",
+      "ivory-cream-stonewash-slouchy-denim",
+      "stonewash-slouchy-denim-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA3494.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA3494.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA3494.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA3494.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3494.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Stonewash Slouchy Denim handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Stonewash Slouchy Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0005-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0005-v5",
+    "title": "Pebble Grey Stonewash Slouchy Denim",
+    "slug": "pebble-grey-stonewash-slouchy-denim",
+    "aliasSlugs": [
+      "dn-0005-v5",
+      "pebble-grey-stonewash-slouchy-denim",
+      "stonewash-slouchy-denim-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA3496.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA3496.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA3496.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA3496.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3496.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Stonewash Slouchy Denim handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Stonewash Slouchy Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0005-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0005-v6",
+    "title": "Blush Rose Stonewash Slouchy Denim",
+    "slug": "blush-rose-stonewash-slouchy-denim",
+    "aliasSlugs": [
+      "dn-0005-v6",
+      "blush-rose-stonewash-slouchy-denim",
+      "stonewash-slouchy-denim-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA4410.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA4410.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA4410.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA4410.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4410.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Stonewash Slouchy Denim handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Stonewash Slouchy Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0005-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0005-v7",
+    "title": "Sky Azure Stonewash Slouchy Denim",
+    "slug": "sky-azure-stonewash-slouchy-denim",
+    "aliasSlugs": [
+      "dn-0005-v7",
+      "sky-azure-stonewash-slouchy-denim",
+      "stonewash-slouchy-denim-var-7"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "14 Oz Japanese Selvedge Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6026.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6026.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6026.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8536.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6026.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8536.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6026.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8536.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Stonewash Slouchy Denim handcrafted at Wastram's Jaipur atelier. Tailored in 14 Oz Japanese Selvedge Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Stonewash Slouchy Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 14 Oz Japanese Selvedge Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0005-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0006-v1",
+    "title": "Midnight Navy Acid-Wash Barrel Leg Jeans",
+    "slug": "midnight-navy-acid-wash-barrel-leg-jeans",
+    "aliasSlugs": [
+      "dn-0006-v1",
+      "midnight-navy-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-1",
       "ahsaas-acid-washed-barrel-leg-slouchy-jeans",
       "anushka-acid-washed-barrel-leg-slouchy-jeans",
       "aria-floral-embroidered-denim-shirt-dress-edition-15-dnm-0127",
@@ -1028,97 +2638,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "sienna-tiered-a-line-washed-denim-midi-dress-edition-5-dnm-0038",
       "zara-acid-washed-barrel-leg-slouchy-jeans"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0487.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1242.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1779.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2629.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4517.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5108.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6040.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7149.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7852.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8684.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9390.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9988.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0487.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1242.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1779.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9988.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2629.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8684.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4517.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5108.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA6040.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7852.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/denim-collection/IMG-20261102-WA9390.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -1126,26 +2656,493 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Acid-Wash Barrel Leg Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 13 photographic views, tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
-    "details": [
-      "Authentic Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0487.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0487.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0487.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7149.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0006",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0487.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7149.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0487.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7149.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0007",
-    "title": "Kick-Flare Raw Hem Jeans",
-    "slug": "kick-flare-raw-hem-jeans",
+    "id": "dn-0006-v2",
+    "title": "Teal Slate Acid-Wash Barrel Leg Jeans",
+    "slug": "teal-slate-acid-wash-barrel-leg-jeans",
     "aliasSlugs": [
+      "dn-0006-v2",
+      "teal-slate-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1242.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1242.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1242.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1242.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1242.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0006-v3",
+    "title": "Ivory Cream Acid-Wash Barrel Leg Jeans",
+    "slug": "ivory-cream-acid-wash-barrel-leg-jeans",
+    "aliasSlugs": [
+      "dn-0006-v3",
+      "ivory-cream-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1779.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1779.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1779.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9988.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1779.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9988.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1779.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9988.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0006-v4",
+    "title": "Midnight Black Acid-Wash Barrel Leg Jeans",
+    "slug": "midnight-black-acid-wash-barrel-leg-jeans",
+    "aliasSlugs": [
+      "dn-0006-v4",
+      "midnight-black-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA2629.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA2629.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA2629.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA2629.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2629.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0006-v5",
+    "title": "Sky Azure Acid-Wash Barrel Leg Jeans",
+    "slug": "sky-azure-acid-wash-barrel-leg-jeans",
+    "aliasSlugs": [
+      "dn-0006-v5",
+      "sky-azure-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8684.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8684.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3547.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8684.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0006-v6",
+    "title": "Blush Rose Acid-Wash Barrel Leg Jeans",
+    "slug": "blush-rose-acid-wash-barrel-leg-jeans",
+    "aliasSlugs": [
+      "dn-0006-v6",
+      "blush-rose-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA4517.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA4517.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA4517.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA4517.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4517.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0006-v7",
+    "title": "Pebble Grey Acid-Wash Barrel Leg Jeans",
+    "slug": "pebble-grey-acid-wash-barrel-leg-jeans",
+    "aliasSlugs": [
+      "dn-0006-v7",
+      "pebble-grey-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-7"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA5108.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA5108.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA5108.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6040.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7852.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA5108.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6040.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7852.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5108.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6040.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7852.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0006-v8",
+    "title": "Steel Slate Acid-Wash Barrel Leg Jeans",
+    "slug": "steel-slate-acid-wash-barrel-leg-jeans",
+    "aliasSlugs": [
+      "dn-0006-v8",
+      "steel-slate-acid-wash-barrel-leg-jeans",
+      "acid-wash-barrel-leg-jeans-var-8"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA9390.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA9390.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA9390.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA9390.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9390.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Acid-Wash Barrel Leg Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Acid-Wash Barrel Leg Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0006-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0007-v1",
+    "title": "Teal Slate Kick-Flare Raw Hem Jeans",
+    "slug": "teal-slate-kick-flare-raw-hem-jeans",
+    "aliasSlugs": [
+      "dn-0007-v1",
+      "teal-slate-kick-flare-raw-hem-jeans",
+      "kick-flare-raw-hem-jeans-var-1",
       "aria-floral-embroidered-denim-shirt-dress-edition-9-dnm-0073",
       "avani-cropped-kick-flare-raw-hem-denim-jeans",
       "chloe-relaxed-belted-indigo-denim-midi-dress-edition-6-dnm-0051",
@@ -1225,92 +3222,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "sienna-tiered-a-line-washed-denim-midi-dress-edition-15-dnm-0128",
       "tanvi-cropped-kick-flare-raw-hem-denim-jeans"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0488.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1840.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2692.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3592.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4555.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5215.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6169.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6173.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7160.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7885.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8747.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9517.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA1162.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0488.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA5215.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1840.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA2692.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA6169.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7160.jpg.jpeg",
-          "/denim-collection/IMG-20261103-WA1162.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3592.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4555.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8747.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6173.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7885.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Ruby Crimson",
-        "colorCode": "#991B1B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA9517.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -1318,26 +3240,456 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Kick-Flare Raw Hem Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 14 photographic views, tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
-    "details": [
-      "Authentic Kick-Flare Raw Hem Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0488.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0488.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0488.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0007",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0488.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0488.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Kick-Flare Raw Hem Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Kick-Flare Raw Hem Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0007-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0008",
-    "title": "Distressed Boyfriend Jeans",
-    "slug": "distressed-boyfriend-jeans",
+    "id": "dn-0007-v2",
+    "title": "Ivory Cream Kick-Flare Raw Hem Jeans",
+    "slug": "ivory-cream-kick-flare-raw-hem-jeans",
     "aliasSlugs": [
+      "dn-0007-v2",
+      "ivory-cream-kick-flare-raw-hem-jeans",
+      "kick-flare-raw-hem-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5215.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5215.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1254.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5215.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Kick-Flare Raw Hem Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Kick-Flare Raw Hem Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0007-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0007-v3",
+    "title": "Pebble Grey Kick-Flare Raw Hem Jeans",
+    "slug": "pebble-grey-kick-flare-raw-hem-jeans",
+    "aliasSlugs": [
+      "dn-0007-v3",
+      "pebble-grey-kick-flare-raw-hem-jeans",
+      "kick-flare-raw-hem-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1840.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1840.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1840.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2692.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6169.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7160.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA1162.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1840.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2692.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6169.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7160.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA1162.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1840.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2692.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6169.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7160.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261103-WA1162.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Kick-Flare Raw Hem Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Kick-Flare Raw Hem Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0007-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0007-v4",
+    "title": "Midnight Navy Kick-Flare Raw Hem Jeans",
+    "slug": "midnight-navy-kick-flare-raw-hem-jeans",
+    "aliasSlugs": [
+      "dn-0007-v4",
+      "midnight-navy-kick-flare-raw-hem-jeans",
+      "kick-flare-raw-hem-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA3592.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA3592.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA3592.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4555.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8747.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA3592.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4555.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8747.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3592.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4555.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8747.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Kick-Flare Raw Hem Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Kick-Flare Raw Hem Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0007-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0007-v5",
+    "title": "Steel Slate Kick-Flare Raw Hem Jeans",
+    "slug": "steel-slate-kick-flare-raw-hem-jeans",
+    "aliasSlugs": [
+      "dn-0007-v5",
+      "steel-slate-kick-flare-raw-hem-jeans",
+      "kick-flare-raw-hem-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6173.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6173.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6173.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6173.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6173.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Kick-Flare Raw Hem Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Kick-Flare Raw Hem Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0007-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0007-v6",
+    "title": "Warm Caramel Kick-Flare Raw Hem Jeans",
+    "slug": "warm-caramel-kick-flare-raw-hem-jeans",
+    "aliasSlugs": [
+      "dn-0007-v6",
+      "warm-caramel-kick-flare-raw-hem-jeans",
+      "kick-flare-raw-hem-jeans-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA7885.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA7885.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA7885.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA7885.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7885.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Kick-Flare Raw Hem Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Kick-Flare Raw Hem Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0007-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0007-v7",
+    "title": "Ruby Crimson Kick-Flare Raw Hem Jeans",
+    "slug": "ruby-crimson-kick-flare-raw-hem-jeans",
+    "aliasSlugs": [
+      "dn-0007-v7",
+      "ruby-crimson-kick-flare-raw-hem-jeans",
+      "kick-flare-raw-hem-jeans-var-7"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA9517.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA9517.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA9517.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA9517.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#991B1B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9517.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ruby Crimson Kick-Flare Raw Hem Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ruby Crimson Kick-Flare Raw Hem Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0007-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0008-v1",
+    "title": "Pebble Grey Distressed Boyfriend Jeans",
+    "slug": "pebble-grey-distressed-boyfriend-jeans",
+    "aliasSlugs": [
+      "dn-0008-v1",
+      "pebble-grey-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-1",
       "aditi-boyfriend-fit-distressed-everyday-denim",
       "aria-floral-embroidered-denim-shirt-dress-edition-14-dnm-0118",
       "aria-floral-embroidered-denim-shirt-dress-edition-4-dnm-0028",
@@ -1417,99 +3769,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "sienna-tiered-a-line-washed-denim-midi-dress-edition-9-dnm-0074",
       "tanvi-boyfriend-fit-distressed-everyday-denim"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0835.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1272.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1868.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3695.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4596.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5251.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6251.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7196.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7887.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7890.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8829.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9549.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA2865.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0835.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8829.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1272.jpg.jpeg",
-          "/denim-collection/IMG-20261103-WA2865.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1868.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA3695.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7887.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7890.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9549.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4596.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5251.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6251.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Charcoal Slate",
-        "colorCode": "#334155",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7196.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -1517,26 +3787,503 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Distressed Boyfriend Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 14 photographic views, tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
-    "details": [
-      "Authentic Distressed Boyfriend Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0835.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0835.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0835.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8829.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0008",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0835.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8829.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0835.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8829.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0009",
-    "title": "Paperbag Waist Denim",
-    "slug": "paperbag-waist-denim",
+    "id": "dn-0008-v2",
+    "title": "Ivory Cream Distressed Boyfriend Jeans",
+    "slug": "ivory-cream-distressed-boyfriend-jeans",
     "aliasSlugs": [
+      "dn-0008-v2",
+      "ivory-cream-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1272.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1272.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1272.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA2865.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1272.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA2865.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1272.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261103-WA2865.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0008-v3",
+    "title": "Indigo Royal Distressed Boyfriend Jeans",
+    "slug": "indigo-royal-distressed-boyfriend-jeans",
+    "aliasSlugs": [
+      "dn-0008-v3",
+      "indigo-royal-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1868.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1868.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1868.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1868.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1868.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0008-v4",
+    "title": "Midnight Navy Distressed Boyfriend Jeans",
+    "slug": "midnight-navy-distressed-boyfriend-jeans",
+    "aliasSlugs": [
+      "dn-0008-v4",
+      "midnight-navy-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3695.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7887.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7890.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9549.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3695.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7887.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7890.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9549.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2703.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3695.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7887.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7890.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9549.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0008-v5",
+    "title": "Sky Azure Distressed Boyfriend Jeans",
+    "slug": "sky-azure-distressed-boyfriend-jeans",
+    "aliasSlugs": [
+      "dn-0008-v5",
+      "sky-azure-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA4596.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA4596.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA4596.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA4596.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4596.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0008-v6",
+    "title": "Blush Rose Distressed Boyfriend Jeans",
+    "slug": "blush-rose-distressed-boyfriend-jeans",
+    "aliasSlugs": [
+      "dn-0008-v6",
+      "blush-rose-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA5251.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA5251.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA5251.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA5251.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5251.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0008-v7",
+    "title": "Steel Slate Distressed Boyfriend Jeans",
+    "slug": "steel-slate-distressed-boyfriend-jeans",
+    "aliasSlugs": [
+      "dn-0008-v7",
+      "steel-slate-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-7"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6251.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6251.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6251.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6251.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6251.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0008-v8",
+    "title": "Charcoal Slate Distressed Boyfriend Jeans",
+    "slug": "charcoal-slate-distressed-boyfriend-jeans",
+    "aliasSlugs": [
+      "dn-0008-v8",
+      "charcoal-slate-distressed-boyfriend-jeans",
+      "distressed-boyfriend-jeans-var-8"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA7196.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA7196.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA7196.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA7196.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#334155",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7196.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Charcoal Slate Distressed Boyfriend Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Charcoal Slate Distressed Boyfriend Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0008-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0009-v1",
+    "title": "Midnight Navy Paperbag Waist Denim",
+    "slug": "midnight-navy-paperbag-waist-denim",
+    "aliasSlugs": [
+      "dn-0009-v1",
+      "midnight-navy-paperbag-waist-denim",
+      "paperbag-waist-denim-var-1",
       "aditi-draped-belted-paperbag-waist-denim",
       "alia-draped-belted-paperbag-waist-denim",
       "aria-floral-embroidered-denim-shirt-dress-edition-8-dnm-0064",
@@ -1616,90 +4363,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "simran-draped-belted-paperbag-waist-denim",
       "zehra-draped-belted-paperbag-waist-denim"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1319.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1894.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2999.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3752.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4597.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5378.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6342.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7426.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8075.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8880.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9562.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA4084.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7426.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8880.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1319.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA3752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1894.jpg.jpeg",
-          "/denim-collection/IMG-20261103-WA4084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2999.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4597.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Lavender Violet",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5378.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6342.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8075.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -1707,26 +4381,446 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Paperbag Waist Denim is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 13 photographic views, tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "11.5 Oz Organic Eco-Washed Denim",
-    "details": [
-      "Authentic Paperbag Waist Denim handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 11.5 Oz Organic Eco-Washed Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7426.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8880.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0009",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7426.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8880.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0865.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7426.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8880.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Paperbag Waist Denim handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Paperbag Waist Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0009-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0010",
-    "title": "Cargo Pocket Denim Jeans",
-    "slug": "cargo-pocket-denim-jeans",
+    "id": "dn-0009-v2",
+    "title": "Warm Caramel Paperbag Waist Denim",
+    "slug": "warm-caramel-paperbag-waist-denim",
     "aliasSlugs": [
+      "dn-0009-v2",
+      "warm-caramel-paperbag-waist-denim",
+      "paperbag-waist-denim-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1319.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1319.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1319.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3752.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1319.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3752.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1319.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3752.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Paperbag Waist Denim handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Paperbag Waist Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0009-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0009-v3",
+    "title": "Pebble Grey Paperbag Waist Denim",
+    "slug": "pebble-grey-paperbag-waist-denim",
+    "aliasSlugs": [
+      "dn-0009-v3",
+      "pebble-grey-paperbag-waist-denim",
+      "paperbag-waist-denim-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1894.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1894.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1894.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA4084.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1894.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA4084.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1894.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261103-WA4084.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Paperbag Waist Denim handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Paperbag Waist Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0009-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0009-v4",
+    "title": "Indigo Royal Paperbag Waist Denim",
+    "slug": "indigo-royal-paperbag-waist-denim",
+    "aliasSlugs": [
+      "dn-0009-v4",
+      "indigo-royal-paperbag-waist-denim",
+      "paperbag-waist-denim-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA2999.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA2999.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA2999.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4597.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA2999.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4597.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2999.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4597.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Paperbag Waist Denim handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Paperbag Waist Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0009-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0009-v5",
+    "title": "Lavender Violet Paperbag Waist Denim",
+    "slug": "lavender-violet-paperbag-waist-denim",
+    "aliasSlugs": [
+      "dn-0009-v5",
+      "lavender-violet-paperbag-waist-denim",
+      "paperbag-waist-denim-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA5378.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA5378.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA5378.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA5378.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#7C3AED",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5378.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Lavender Violet Paperbag Waist Denim handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Lavender Violet Paperbag Waist Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0009-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0009-v6",
+    "title": "Ivory Cream Paperbag Waist Denim",
+    "slug": "ivory-cream-paperbag-waist-denim",
+    "aliasSlugs": [
+      "dn-0009-v6",
+      "ivory-cream-paperbag-waist-denim",
+      "paperbag-waist-denim-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6342.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6342.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6342.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9562.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6342.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9562.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6342.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9562.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Paperbag Waist Denim handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Paperbag Waist Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0009-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0009-v7",
+    "title": "Steel Slate Paperbag Waist Denim",
+    "slug": "steel-slate-paperbag-waist-denim",
+    "aliasSlugs": [
+      "dn-0009-v7",
+      "steel-slate-paperbag-waist-denim",
+      "paperbag-waist-denim-var-7"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "11.5 Oz Organic Eco-Washed Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA8075.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA8075.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA8075.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA8075.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8075.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Paperbag Waist Denim handcrafted at Wastram's Jaipur atelier. Tailored in 11.5 Oz Organic Eco-Washed Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Paperbag Waist Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 11.5 Oz Organic Eco-Washed Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0009-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0010-v1",
+    "title": "Indigo Royal Cargo Pocket Denim Jeans",
+    "slug": "indigo-royal-cargo-pocket-denim-jeans",
+    "aliasSlugs": [
+      "dn-0010-v1",
+      "indigo-royal-cargo-pocket-denim-jeans",
+      "cargo-pocket-denim-jeans-var-1",
       "alia-utility-cargo-pocket-relaxed-denim-jeans",
       "aria-floral-embroidered-denim-shirt-dress-edition-3-dnm-0019",
       "arya-utility-cargo-pocket-relaxed-denim-jeans",
@@ -1806,76 +4900,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "tara-utility-cargo-pocket-relaxed-denim-jeans",
       "trisha-utility-cargo-pocket-relaxed-denim-jeans"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1972.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3034.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3941.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4628.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5416.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6451.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7453.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8110.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8888.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9657.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA6232.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA6451.jpg.jpeg",
-          "/denim-collection/IMG-20261103-WA6232.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA3034.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA3941.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4628.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA5416.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7453.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9657.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1972.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8110.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Sky Azure",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8888.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -1883,26 +4918,352 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Cargo Pocket Denim Jeans is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 13 photographic views, tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
-    "details": [
-      "Authentic Cargo Pocket Denim Jeans handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6451.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA6232.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0010",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6451.jpg.jpeg",
+      "/denim-collection/IMG-20261103-WA6232.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0916.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6451.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261103-WA6232.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Cargo Pocket Denim Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Cargo Pocket Denim Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0010-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0011",
-    "title": "Wide-Leg Selvedge Denim",
-    "slug": "wide-leg-selvedge-denim",
+    "id": "dn-0010-v2",
+    "title": "Midnight Navy Cargo Pocket Denim Jeans",
+    "slug": "midnight-navy-cargo-pocket-denim-jeans",
     "aliasSlugs": [
+      "dn-0010-v2",
+      "midnight-navy-cargo-pocket-denim-jeans",
+      "cargo-pocket-denim-jeans-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3034.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3941.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4628.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5416.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7453.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9657.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3034.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3941.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4628.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA5416.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7453.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9657.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1404.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3034.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3941.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4628.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5416.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7453.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9657.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Cargo Pocket Denim Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Cargo Pocket Denim Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0010-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0010-v3",
+    "title": "Pebble Grey Cargo Pocket Denim Jeans",
+    "slug": "pebble-grey-cargo-pocket-denim-jeans",
+    "aliasSlugs": [
+      "dn-0010-v3",
+      "pebble-grey-cargo-pocket-denim-jeans",
+      "cargo-pocket-denim-jeans-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1972.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1972.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1972.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1972.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1972.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Cargo Pocket Denim Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Cargo Pocket Denim Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0010-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0010-v4",
+    "title": "Steel Slate Cargo Pocket Denim Jeans",
+    "slug": "steel-slate-cargo-pocket-denim-jeans",
+    "aliasSlugs": [
+      "dn-0010-v4",
+      "steel-slate-cargo-pocket-denim-jeans",
+      "cargo-pocket-denim-jeans-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA8110.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA8110.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA8110.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA8110.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8110.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Cargo Pocket Denim Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Cargo Pocket Denim Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0010-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0010-v5",
+    "title": "Sky Azure Cargo Pocket Denim Jeans",
+    "slug": "sky-azure-cargo-pocket-denim-jeans",
+    "aliasSlugs": [
+      "dn-0010-v5",
+      "sky-azure-cargo-pocket-denim-jeans",
+      "cargo-pocket-denim-jeans-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13 Oz Vintage Acid-Washed Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA8888.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA8888.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA8888.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA8888.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#38BDF8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8888.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Sky Azure Cargo Pocket Denim Jeans handcrafted at Wastram's Jaipur atelier. Tailored in 13 Oz Vintage Acid-Washed Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Sky Azure Cargo Pocket Denim Jeans crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13 Oz Vintage Acid-Washed Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0010-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v1",
+    "title": "Plum Wine Wide-Leg Selvedge Denim",
+    "slug": "plum-wine-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v1",
+      "plum-wine-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-1",
       "aanya-wide-leg-rigid-selvedge-denim-trousers",
       "alanna-wide-leg-rigid-selvedge-denim-trousers",
       "aria-floral-embroidered-denim-shirt-dress-edition-13-dnm-0109",
@@ -1982,104 +5343,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "trisha-wide-leg-rigid-selvedge-denim-trousers",
       "vanya-wide-leg-rigid-selvedge-denim-trousers"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA0992.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1475.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2031.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3167.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4045.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4659.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5555.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6504.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7483.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8225.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9739.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA7271.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Plum Wine",
-        "colorCode": "#581C87",
-        "images": [
-          "/denim-collection/IMG-20261102-WA0992.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Teal Slate",
-        "colorCode": "#0E7490",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1475.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2031.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA3167.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4659.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA6504.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7483.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-7",
-        "name": "Warm Caramel",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8225.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-8",
-        "name": "Steel Slate",
-        "colorCode": "#475569",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9739.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-9",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/denim-collection/IMG-20261103-WA7271.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -2087,26 +5361,540 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Wide-Leg Selvedge Denim is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 13 photographic views, tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
-    "details": [
-      "Authentic Wide-Leg Selvedge Denim handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA0992.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA0992.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA0992.jpg.jpeg"
     ],
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0011",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA0992.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#581C87",
+        "images": [
+          "/denim-collection/IMG-20261102-WA0992.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Plum Wine Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Plum Wine Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V1",
+    "inStock": true,
+    "stockQty": 50
   },
   {
-    "id": "dn-0012",
-    "title": "Pleated Wide-Leg Denim",
-    "slug": "pleated-wide-leg-denim",
+    "id": "dn-0011-v2",
+    "title": "Teal Slate Wide-Leg Selvedge Denim",
+    "slug": "teal-slate-wide-leg-selvedge-denim",
     "aliasSlugs": [
+      "dn-0011-v2",
+      "teal-slate-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA1475.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1475.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1475.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1475.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#0E7490",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1475.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Teal Slate Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Teal Slate Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v3",
+    "title": "Midnight Navy Wide-Leg Selvedge Denim",
+    "slug": "midnight-navy-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v3",
+      "midnight-navy-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA2031.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA2031.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA2031.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3167.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4659.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6504.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA2031.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3167.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4659.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA6504.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2031.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3167.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4659.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6504.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v4",
+    "title": "Ivory Cream Wide-Leg Selvedge Denim",
+    "slug": "ivory-cream-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v4",
+      "ivory-cream-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA4045.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA4045.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA4045.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA4045.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4045.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v5",
+    "title": "Midnight Black Wide-Leg Selvedge Denim",
+    "slug": "midnight-black-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v5",
+      "midnight-black-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA5555.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA5555.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA5555.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA5555.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5555.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v6",
+    "title": "Pebble Grey Wide-Leg Selvedge Denim",
+    "slug": "pebble-grey-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v6",
+      "pebble-grey-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA7483.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA7483.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA7483.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA7483.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7483.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V6",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v7",
+    "title": "Warm Caramel Wide-Leg Selvedge Denim",
+    "slug": "warm-caramel-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v7",
+      "warm-caramel-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-7"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA8225.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA8225.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA8225.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA8225.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#D97706",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8225.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Warm Caramel Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Warm Caramel Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V7",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v8",
+    "title": "Steel Slate Wide-Leg Selvedge Denim",
+    "slug": "steel-slate-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v8",
+      "steel-slate-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-8"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9739.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9739.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8902.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#475569",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9739.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Steel Slate Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Steel Slate Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V8",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0011-v9",
+    "title": "Blush Rose Wide-Leg Selvedge Denim",
+    "slug": "blush-rose-wide-leg-selvedge-denim",
+    "aliasSlugs": [
+      "dn-0011-v9",
+      "blush-rose-wide-leg-selvedge-denim",
+      "wide-leg-selvedge-denim-var-9"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "13.5 Oz 100% Rigid Ring-Spun Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261103-WA7271.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261103-WA7271.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261103-WA7271.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261103-WA7271.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/denim-collection/IMG-20261103-WA7271.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Wide-Leg Selvedge Denim handcrafted at Wastram's Jaipur atelier. Tailored in 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Wide-Leg Selvedge Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 13.5 Oz 100% Rigid Ring-Spun Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0011-V9",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0012-v1",
+    "title": "Midnight Navy Pleated Wide-Leg Denim",
+    "slug": "midnight-navy-pleated-wide-leg-denim",
+    "aliasSlugs": [
+      "dn-0012-v1",
+      "midnight-navy-pleated-wide-leg-denim",
+      "pleated-wide-leg-denim-var-1",
       "aaliyah-pleated-wide-leg-tailored-denim",
       "aanya-pleated-wide-leg-tailored-denim",
       "aria-floral-embroidered-denim-shirt-dress-edition-12-dnm-0100",
@@ -2186,83 +5974,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "vanya-pleated-wide-leg-tailored-denim",
       "yami-pleated-wide-leg-tailored-denim"
     ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
     "tab": "denim-collection",
-    "category": "denim-collection",
     "badge": "Selvedge Craft",
     "regularPrice": 3099,
     "salePrice": 2499,
-    "images": [
-      "/denim-collection/IMG-20261102-WA1008.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA1496.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA2242.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA3194.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4082.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA4763.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA5568.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA6710.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA7500.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8355.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA8986.jpg.jpeg",
-      "/denim-collection/IMG-20261102-WA9761.jpg.jpeg",
-      "/denim-collection/IMG-20261103-WA7841.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Midnight Navy",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1008.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA1496.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA2242.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA3194.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA4763.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA7500.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA8355.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-2",
-        "name": "Ivory Cream",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4082.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-3",
-        "name": "Indigo Royal",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5568.jpg.jpeg",
-          "/denim-collection/IMG-20261102-WA9761.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-4",
-        "name": "Pebble Grey",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6710.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-5",
-        "name": "Midnight Black",
-        "colorCode": "#18181B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8986.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "var-6",
-        "name": "Blush Rose",
-        "colorCode": "#FB7185",
-        "images": [
-          "/denim-collection/IMG-20261103-WA7841.jpg.jpeg"
-        ]
-      }
-    ],
+    "price": 2499,
+    "fabric": "12 Oz Comfort-Stretch Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "28",
       "30",
@@ -2270,19 +5992,389 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
       "34",
       "36"
     ],
-    "description": "The Pleated Wide-Leg Denim is an export-grade silhouette handcrafted at Wastram's Jaipur atelier. Available in 13 photographic views, tailored in 12 Oz Comfort-Stretch Cotton Denim with precision anatomical grading across sizes S to XXL. Reinforced French seams, artisanal colour-fast finishing, and flexible wholesale MOQ for boutique supply.",
-    "fabric": "12 Oz Comfort-Stretch Cotton Denim",
-    "details": [
-      "Authentic Pleated Wide-Leg Denim handcrafted at Wastram's Sanganer, Jaipur atelier",
-      "Tailored in 12 Oz Comfort-Stretch Cotton Denim with colour-fast herbal and reactive dyes",
-      "Precision anatomical grading: S (36\"), M (38\"), L (40\"), XL (42\"), XXL (44\")",
-      "Reinforced French seams and double-needle topstitching throughout",
-      "Wholesale export MOQ: 20 pieces per style with flexible size breakdown",
-      "Custom bespoke options: sleeve length, pocket placements, private labelling"
+    "featured_image": "/denim-collection/IMG-20261102-WA1008.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA1008.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA1008.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1496.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2242.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3194.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4763.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7500.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8355.jpg.jpeg"
     ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA1008.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA1496.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA2242.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA3194.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA4763.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA7500.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA8355.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1008.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA1496.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-3",
+        "name": "Styling 3",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA2242.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-4",
+        "name": "Styling 4",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA3194.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-5",
+        "name": "Styling 5",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4763.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-6",
+        "name": "Styling 6",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA7500.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-7",
+        "name": "Styling 7",
+        "colorCode": "#1E1B4B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8355.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Navy Pleated Wide-Leg Denim handcrafted at Wastram's Jaipur atelier. Tailored in 12 Oz Comfort-Stretch Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Navy Pleated Wide-Leg Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 12 Oz Comfort-Stretch Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0012-V1",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0012-v2",
+    "title": "Ivory Cream Pleated Wide-Leg Denim",
+    "slug": "ivory-cream-pleated-wide-leg-denim",
+    "aliasSlugs": [
+      "dn-0012-v2",
+      "ivory-cream-pleated-wide-leg-denim",
+      "pleated-wide-leg-denim-var-2"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "12 Oz Comfort-Stretch Cotton Denim",
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sku": "WST-DN-0012",
-    "createdAt": "2026-11-18T12:00:00Z",
-    "updatedAt": "2026-11-18T12:00:00Z"
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA4082.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA4082.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA4082.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA4082.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FAF7F2",
+        "images": [
+          "/denim-collection/IMG-20261102-WA4082.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Ivory Cream Pleated Wide-Leg Denim handcrafted at Wastram's Jaipur atelier. Tailored in 12 Oz Comfort-Stretch Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Ivory Cream Pleated Wide-Leg Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 12 Oz Comfort-Stretch Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0012-V2",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0012-v3",
+    "title": "Indigo Royal Pleated Wide-Leg Denim",
+    "slug": "indigo-royal-pleated-wide-leg-denim",
+    "aliasSlugs": [
+      "dn-0012-v3",
+      "indigo-royal-pleated-wide-leg-denim",
+      "pleated-wide-leg-denim-var-3"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "12 Oz Comfort-Stretch Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA5568.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA5568.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA5568.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9761.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA5568.jpg.jpeg",
+      "/denim-collection/IMG-20261102-WA9761.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA5568.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "view-2",
+        "name": "Styling 2",
+        "colorCode": "#1D4ED8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA9761.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Indigo Royal Pleated Wide-Leg Denim handcrafted at Wastram's Jaipur atelier. Tailored in 12 Oz Comfort-Stretch Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Indigo Royal Pleated Wide-Leg Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 12 Oz Comfort-Stretch Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0012-V3",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0012-v4",
+    "title": "Pebble Grey Pleated Wide-Leg Denim",
+    "slug": "pebble-grey-pleated-wide-leg-denim",
+    "aliasSlugs": [
+      "dn-0012-v4",
+      "pebble-grey-pleated-wide-leg-denim",
+      "pleated-wide-leg-denim-var-4"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "12 Oz Comfort-Stretch Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA6710.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA6710.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA6710.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA6710.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#94A3B8",
+        "images": [
+          "/denim-collection/IMG-20261102-WA6710.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Pebble Grey Pleated Wide-Leg Denim handcrafted at Wastram's Jaipur atelier. Tailored in 12 Oz Comfort-Stretch Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Pebble Grey Pleated Wide-Leg Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 12 Oz Comfort-Stretch Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0012-V4",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0012-v5",
+    "title": "Midnight Black Pleated Wide-Leg Denim",
+    "slug": "midnight-black-pleated-wide-leg-denim",
+    "aliasSlugs": [
+      "dn-0012-v5",
+      "midnight-black-pleated-wide-leg-denim",
+      "pleated-wide-leg-denim-var-5"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "12 Oz Comfort-Stretch Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261102-WA8986.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261102-WA8986.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261102-WA8986.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261102-WA8986.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#18181B",
+        "images": [
+          "/denim-collection/IMG-20261102-WA8986.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Midnight Black Pleated Wide-Leg Denim handcrafted at Wastram's Jaipur atelier. Tailored in 12 Oz Comfort-Stretch Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Midnight Black Pleated Wide-Leg Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 12 Oz Comfort-Stretch Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0012-V5",
+    "inStock": true,
+    "stockQty": 50
+  },
+  {
+    "id": "dn-0012-v6",
+    "title": "Blush Rose Pleated Wide-Leg Denim",
+    "slug": "blush-rose-pleated-wide-leg-denim",
+    "aliasSlugs": [
+      "dn-0012-v6",
+      "blush-rose-pleated-wide-leg-denim",
+      "pleated-wide-leg-denim-var-6"
+    ],
+    "category": "Denim Collection",
+    "category_id": "denim-collection",
+    "category_name": "Denim Collection",
+    "category_slug": "denim-collection",
+    "tab": "denim-collection",
+    "badge": "Atelier Exclusive",
+    "regularPrice": 3099,
+    "salePrice": 2499,
+    "price": 2499,
+    "fabric": "12 Oz Comfort-Stretch Cotton Denim",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "featured_image": "/denim-collection/IMG-20261103-WA7841.jpg.jpeg",
+    "mainImage": "/denim-collection/IMG-20261103-WA7841.jpg.jpeg",
+    "images": [
+      "/denim-collection/IMG-20261103-WA7841.jpg.jpeg"
+    ],
+    "gallery": [
+      "/denim-collection/IMG-20261103-WA7841.jpg.jpeg"
+    ],
+    "colorVariants": [
+      {
+        "id": "view-1",
+        "name": "Styling 1",
+        "colorCode": "#FB7185",
+        "images": [
+          "/denim-collection/IMG-20261103-WA7841.jpg.jpeg"
+        ]
+      }
+    ],
+    "description": "Authentic Blush Rose Pleated Wide-Leg Denim handcrafted at Wastram's Jaipur atelier. Tailored in 12 Oz Comfort-Stretch Cotton Denim with precision anatomical curve grading across sizes S to XXL.",
+    "details": [
+      "Authentic Blush Rose Pleated Wide-Leg Denim crafted in Sanganer, Jaipur atelier",
+      "Available with exact matching photographic views",
+      "Tailored in premium 12 Oz Comfort-Stretch Cotton Denim with colour-fast finish",
+      "Precision curve grading across standard sizes S, M, L, XL, XXL",
+      "Flexible wholesale export MOQ: 20 pieces per style"
+    ],
+    "sku": "WST-DN-0012-V6",
+    "inStock": true,
+    "stockQty": 50
   }
 ];
