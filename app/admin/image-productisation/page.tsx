@@ -92,6 +92,9 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
   const [poolSearch, setPoolSearch] = useState('');
   const [poolSort, setPoolSort] = useState<'name_asc' | 'name_desc' | 'unproductised_first'>('unproductised_first');
   const [selectedImageUrls, setSelectedImageUrls] = useState<Set<string>>(new Set());
+  const [poolPage, setPoolPage] = useState<number>(1);
+  const [poolPageSize, setPoolPageSize] = useState<number>(48);
+  const [failedImageUrls, setFailedImageUrls] = useState<Set<string>>(new Set());
 
   // Groups Pane Filter & Expanded state
   const [groupSearch, setGroupSearch] = useState('');
@@ -337,6 +340,19 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
 
     return sorted;
   }, [currentCategoryImages, poolFilter, poolSearch, poolSort, imageAssignmentMap]);
+
+  // Reset pool page on filter/category changes
+  useEffect(() => {
+    setPoolPage(1);
+  }, [activeCatId, poolFilter, poolSearch, poolSort, poolPageSize]);
+
+  // Paginated Pool Images
+  const totalPoolPages = poolPageSize === 0 ? 1 : Math.max(1, Math.ceil(filteredPoolImages.length / poolPageSize));
+  const paginatedPoolImages = useMemo(() => {
+    if (poolPageSize === 0) return filteredPoolImages;
+    const start = (poolPage - 1) * poolPageSize;
+    return filteredPoolImages.slice(start, start + poolPageSize);
+  }, [filteredPoolImages, poolPage, poolPageSize]);
 
   // Filtered Groups
   const filteredGroups = useMemo(() => {
@@ -1014,18 +1030,43 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
               <div className="flex items-center gap-1.5 text-xs">
                 <button
                   type="button"
+                  onClick={() => {
+                    const pageItems = poolPageSize === 0 ? filteredPoolImages : paginatedPoolImages;
+                    setSelectedImageUrls((prev) => {
+                      const next = new Set(prev);
+                      pageItems.forEach((img) => next.add(img.url));
+                      return next;
+                    });
+                  }}
+                  className="px-2.5 py-1 bg-neutral-100 hover:bg-neutral-200 rounded-lg text-neutral-700 font-semibold cursor-pointer"
+                  title="Select all images on current page"
+                >
+                  Select Page
+                </button>
+                <button
+                  type="button"
                   onClick={handleSelectAllVisible}
-                  className="px-2.5 py-1 bg-neutral-100 hover:bg-neutral-200 rounded-lg text-neutral-700 font-semibold"
+                  className="px-2.5 py-1 bg-neutral-100 hover:bg-neutral-200 rounded-lg text-neutral-700 font-semibold cursor-pointer"
+                  title="Select all filtered images in this category"
                 >
                   Select All
                 </button>
                 <button
                   type="button"
                   onClick={handleInvertSelection}
-                  className="px-2.5 py-1 bg-neutral-100 hover:bg-neutral-200 rounded-lg text-neutral-700 font-semibold"
+                  className="px-2.5 py-1 bg-neutral-100 hover:bg-neutral-200 rounded-lg text-neutral-700 font-semibold cursor-pointer"
                 >
                   Invert
                 </button>
+                {selectedImageUrls.size > 0 && (
+                  <button
+                    type="button"
+                    onClick={handleClearSelection}
+                    className="px-2.5 py-1 bg-neutral-200 hover:bg-neutral-300 rounded-lg text-neutral-800 font-bold cursor-pointer"
+                  >
+                    Clear ({selectedImageUrls.size})
+                  </button>
+                )}
               </div>
             </div>
 
@@ -1106,86 +1147,209 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
               <p className="text-xs font-heading font-bold text-neutral-600">No images match current filter/search.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-h-[720px] overflow-y-auto pr-1">
-              {filteredPoolImages.map((img) => {
-                const isSelected = selectedImageUrls.has(img.url);
-                const assignment = imageAssignmentMap.get(img.url);
+            <div className="space-y-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-h-[640px] overflow-y-auto pr-1">
+                {paginatedPoolImages.map((img) => {
+                  const isSelected = selectedImageUrls.has(img.url);
+                  const assignment = imageAssignmentMap.get(img.url);
+                  const isBroken = failedImageUrls.has(img.url);
 
-                return (
-                  <div
-                    key={img.url}
-                    onClick={() => handleToggleSelectImage(img.url)}
-                    className={`group relative rounded-xl border-2 overflow-hidden transition-all cursor-pointer bg-neutral-100 flex flex-col ${
-                      isSelected
-                        ? 'border-[#0B2D7F] ring-2 ring-[#0B2D7F]/30 shadow-md'
-                        : assignment?.state === 'productised'
-                        ? 'border-blue-300'
-                        : assignment?.state === 'variant'
-                        ? 'border-purple-300'
-                        : 'border-neutral-200 hover:border-neutral-400'
-                    }`}
-                  >
-                    {/* Image Thumbnail */}
-                    <div className="aspect-square relative bg-neutral-200/50 overflow-hidden">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={img.url}
-                        alt={img.filename}
-                        loading="lazy"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
+                  return (
+                    <div
+                      key={img.url}
+                      onClick={() => handleToggleSelectImage(img.url)}
+                      className={`group relative rounded-xl border-2 overflow-hidden transition-all cursor-pointer bg-neutral-100 flex flex-col ${
+                        isSelected
+                          ? 'border-[#0B2D7F] ring-2 ring-[#0B2D7F]/30 shadow-md'
+                          : assignment?.state === 'productised'
+                          ? 'border-blue-300'
+                          : assignment?.state === 'variant'
+                          ? 'border-purple-300'
+                          : 'border-neutral-200 hover:border-neutral-400'
+                      }`}
+                    >
+                      {/* Image Thumbnail */}
+                      <div className="aspect-square relative bg-neutral-200/60 overflow-hidden flex items-center justify-center">
+                        {isBroken ? (
+                          <div className="p-3 text-center flex flex-col items-center justify-center gap-1.5 w-full h-full bg-neutral-50 text-neutral-400">
+                            <ImageIcon className="w-6 h-6 opacity-60" />
+                            <span className="text-[9px] font-mono text-neutral-500 break-all line-clamp-2 px-1">
+                              {img.filename}
+                            </span>
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setFailedImageUrls((prev) => {
+                                  const next = new Set(prev);
+                                  next.delete(img.url);
+                                  return next;
+                                });
+                              }}
+                              className="px-2 py-0.5 text-[9px] font-bold text-[#0B2D7F] hover:underline bg-white border border-neutral-200 rounded shadow-2xs"
+                            >
+                              Retry
+                            </button>
+                          </div>
+                        ) : (
+                          /* eslint-disable-next-line @next/next/no-img-element */
+                          <img
+                            src={encodeURI(img.url)}
+                            alt={img.filename}
+                            loading="lazy"
+                            onError={() => {
+                              setFailedImageUrls((prev) => new Set(prev).add(img.url));
+                            }}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                          />
+                        )}
 
-                      {/* Selection Checkbox */}
-                      <div className="absolute top-2 left-2 z-10">
-                        <div
-                          className={`w-5 h-5 rounded-md flex items-center justify-center transition-colors ${
-                            isSelected ? 'bg-[#0B2D7F] text-white shadow-xs' : 'bg-white/80 border border-neutral-300'
-                          }`}
+                        {/* Selection Checkbox */}
+                        <div className="absolute top-2 left-2 z-10">
+                          <div
+                            className={`w-5 h-5 rounded-md flex items-center justify-center transition-colors ${
+                              isSelected ? 'bg-[#0B2D7F] text-white shadow-xs' : 'bg-white/80 border border-neutral-300'
+                            }`}
+                          >
+                            {isSelected && <Check className="w-3.5 h-3.5 stroke-[3]" />}
+                          </div>
+                        </div>
+
+                        {/* Zoom Preview Button */}
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setPreviewImage(img.url);
+                          }}
+                          className="absolute top-2 right-2 p-1 rounded-md bg-black/60 text-white hover:bg-black transition-colors opacity-0 group-hover:opacity-100"
+                          title="Full-size Preview"
                         >
-                          {isSelected && <Check className="w-3.5 h-3.5 stroke-[3]" />}
+                          <Maximize2 className="w-3.5 h-3.5" />
+                        </button>
+
+                        {/* State Pill */}
+                        <div className="absolute bottom-2 left-2 right-2">
+                          {assignment?.state === 'productised' ? (
+                            <span className="block truncate px-1.5 py-0.5 rounded-md bg-blue-600/90 text-white text-[9px] font-heading font-black uppercase tracking-wider text-center shadow-xs">
+                              {assignment.groupName || 'Grouped'}
+                            </span>
+                          ) : assignment?.state === 'variant' ? (
+                            <span className="block truncate px-1.5 py-0.5 rounded-md bg-purple-600/90 text-white text-[9px] font-heading font-black uppercase tracking-wider text-center shadow-xs">
+                              {assignment.variantName || 'Variant'}
+                            </span>
+                          ) : (
+                            <span className="block truncate px-1.5 py-0.5 rounded-md bg-amber-500/90 text-white text-[9px] font-heading font-black uppercase tracking-wider text-center shadow-xs">
+                              Unproductised
+                            </span>
+                          )}
                         </div>
                       </div>
 
-                      {/* Zoom Preview Button */}
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setPreviewImage(img.url);
-                        }}
-                        className="absolute top-2 right-2 p-1 rounded-md bg-black/60 text-white hover:bg-black transition-colors opacity-0 group-hover:opacity-100"
-                        title="Full-size Preview"
-                      >
-                        <Maximize2 className="w-3.5 h-3.5" />
-                      </button>
-
-                      {/* State Pill */}
-                      <div className="absolute bottom-2 left-2 right-2">
-                        {assignment?.state === 'productised' ? (
-                          <span className="block truncate px-1.5 py-0.5 rounded-md bg-blue-600/90 text-white text-[9px] font-heading font-black uppercase tracking-wider text-center shadow-xs">
-                            {assignment.groupName || 'Grouped'}
-                          </span>
-                        ) : assignment?.state === 'variant' ? (
-                          <span className="block truncate px-1.5 py-0.5 rounded-md bg-purple-600/90 text-white text-[9px] font-heading font-black uppercase tracking-wider text-center shadow-xs">
-                            {assignment.variantName || 'Variant'}
-                          </span>
-                        ) : (
-                          <span className="block truncate px-1.5 py-0.5 rounded-md bg-amber-500/90 text-white text-[9px] font-heading font-black uppercase tracking-wider text-center shadow-xs">
-                            Unproductised
-                          </span>
-                        )}
+                      {/* Filename Caption */}
+                      <div className="p-2 bg-white flex-1 flex flex-col justify-center border-t border-neutral-100">
+                        <span className="text-[10px] font-mono text-neutral-700 truncate block" title={img.filename}>
+                          {img.filename}
+                        </span>
                       </div>
                     </div>
+                  );
+                })}
+              </div>
 
-                    {/* Filename Caption */}
-                    <div className="p-2 bg-white flex-1 flex flex-col justify-center">
-                      <span className="text-[10px] font-mono text-neutral-700 truncate block" title={img.filename}>
-                        {img.filename}
-                      </span>
+              {/* ── Image Pool Pagination Bar ── */}
+              {filteredPoolImages.length > 0 && (
+                <div className="pt-3 border-t border-neutral-200 flex flex-wrap items-center justify-between gap-3 text-xs">
+                  <div className="flex items-center gap-2.5 text-neutral-600 font-medium">
+                    <span>
+                      Showing {poolPageSize === 0 ? 1 : Math.min((poolPage - 1) * poolPageSize + 1, filteredPoolImages.length)}–
+                      {poolPageSize === 0 ? filteredPoolImages.length : Math.min(poolPage * poolPageSize, filteredPoolImages.length)} of {filteredPoolImages.length} images
+                    </span>
+                    <span className="text-neutral-300">|</span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-[11px] text-neutral-500">Per page:</span>
+                      <select
+                        value={poolPageSize}
+                        onChange={(e) => {
+                          setPoolPageSize(Number(e.target.value));
+                          setPoolPage(1);
+                        }}
+                        className="bg-white border border-neutral-200 rounded-lg px-2 py-1 text-xs font-bold text-black outline-none cursor-pointer"
+                      >
+                        <option value={24}>24</option>
+                        <option value={48}>48 (Fast)</option>
+                        <option value={96}>96</option>
+                        <option value={192}>192</option>
+                        <option value={0}>All ({filteredPoolImages.length})</option>
+                      </select>
                     </div>
                   </div>
-                );
-              })}
+
+                  {totalPoolPages > 1 && (
+                    <div className="flex items-center gap-1">
+                      <button
+                        type="button"
+                        disabled={poolPage <= 1}
+                        onClick={() => setPoolPage((p) => Math.max(1, p - 1))}
+                        className="px-2.5 py-1 rounded-lg border border-neutral-200 bg-white hover:bg-neutral-50 disabled:opacity-40 disabled:cursor-not-allowed font-bold cursor-pointer text-xs"
+                      >
+                        Prev
+                      </button>
+
+                      <div className="flex items-center gap-1">
+                        {Array.from({ length: Math.min(5, totalPoolPages) }, (_, i) => {
+                          let pageNum =
+                            poolPage <= 3
+                              ? i + 1
+                              : poolPage >= totalPoolPages - 2
+                              ? totalPoolPages - 4 + i
+                              : poolPage - 2 + i;
+                          if (pageNum < 1 || pageNum > totalPoolPages) return null;
+                          return (
+                            <button
+                              key={pageNum}
+                              type="button"
+                              onClick={() => setPoolPage(pageNum)}
+                              className={`w-7 h-7 rounded-lg text-xs font-bold flex items-center justify-center transition-colors cursor-pointer ${
+                                poolPage === pageNum
+                                  ? 'bg-[#0B2D7F] text-white shadow-xs'
+                                  : 'bg-white border border-neutral-200 text-black hover:bg-neutral-50'
+                              }`}
+                            >
+                              {pageNum}
+                            </button>
+                          );
+                        })}
+                        {totalPoolPages > 5 && poolPage < totalPoolPages - 2 && (
+                          <>
+                            <span className="px-1 text-neutral-400">...</span>
+                            <button
+                              type="button"
+                              onClick={() => setPoolPage(totalPoolPages)}
+                              className={`w-7 h-7 rounded-lg text-xs font-bold flex items-center justify-center transition-colors cursor-pointer ${
+                                poolPage === totalPoolPages
+                                  ? 'bg-[#0B2D7F] text-white shadow-xs'
+                                  : 'bg-white border border-neutral-200 text-black hover:bg-neutral-50'
+                              }`}
+                            >
+                              {totalPoolPages}
+                            </button>
+                          </>
+                        )}
+                      </div>
+
+                      <button
+                        type="button"
+                        disabled={poolPage >= totalPoolPages}
+                        onClick={() => setPoolPage((p) => Math.min(totalPoolPages, p + 1))}
+                        className="px-2.5 py-1 rounded-lg border border-neutral-200 bg-white hover:bg-neutral-50 disabled:opacity-40 disabled:cursor-not-allowed font-bold cursor-pointer text-xs"
+                      >
+                        Next
+                      </button>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           )}
         </section>
@@ -1349,7 +1513,8 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                                   className="group/img relative aspect-square rounded-lg border border-neutral-200 overflow-hidden bg-neutral-100"
                                 >
                                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                                  <img src={url} alt="img" className="w-full h-full object-cover" />
+                                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                                  <img src={encodeURI(url)} alt="img" className="w-full h-full object-cover" />
 
                                   {/* Overlay Controls */}
                                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover/img:opacity-100 transition-opacity flex flex-col justify-between p-1">
@@ -1467,7 +1632,8 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                                           className="group/vimg relative aspect-square rounded-md border border-purple-200 overflow-hidden bg-white"
                                         >
                                           {/* eslint-disable-next-line @next/next/no-img-element */}
-                                          <img src={url} alt="vimg" className="w-full h-full object-cover" />
+                                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                                          <img src={encodeURI(url)} alt="vimg" className="w-full h-full object-cover" />
 
                                           {/* Overlay Controls */}
                                           <div className="absolute inset-0 bg-black/60 opacity-0 group-hover/vimg:opacity-100 transition-opacity flex flex-col justify-between p-1">
@@ -1540,7 +1706,8 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
             </div>
             <div className="p-4 bg-neutral-100 flex items-center justify-center overflow-auto flex-1">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={previewImage} alt="preview" className="max-w-full max-h-[70vh] object-contain rounded-lg" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={encodeURI(previewImage)} alt="preview" className="max-w-full max-h-[70vh] object-contain rounded-lg" />
             </div>
           </div>
         </div>

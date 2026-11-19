@@ -530,6 +530,11 @@ export default function ColorVariantManager({
         local[newProductId] = newProductPayload;
         local[finalSlug] = newProductPayload;
         safeSetLocalStorage("ixos_products_overrides", JSON.stringify(local));
+
+        const localWastram = JSON.parse(localStorage.getItem("wastram_products_overrides") || "{}");
+        localWastram[newProductId] = newProductPayload;
+        localWastram[finalSlug] = newProductPayload;
+        safeSetLocalStorage("wastram_products_overrides", JSON.stringify(localWastram));
       } catch (_) {}
 
       // Broadcast update to all admin tabs

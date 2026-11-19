@@ -24,6 +24,7 @@ import AdminDrawer from "./components/AdminDrawer";
 import { OrderDetailDrawer } from "./components/OrderDetailDrawer";
 import { formatOrderSerialNumber, generateOrderSerialNumber } from "@/utils/orderNumber";
 import { PRODUCTS as BASE_CATALOG_PRODUCTS, ColorVariant } from "@/data/products";
+import { CATEGORIES as DEFAULT_CATEGORIES } from "@/data/categories";
 import ColorVariantManager from "./components/ColorVariantManager";
 import { getProductNormalizedCategoryId } from "@/data/compatibility";
 import { isSurroundProduct, isCaseOrInlayProduct } from "@/utils/productLocalization";
@@ -775,11 +776,25 @@ function AdminPageContent() {
   }, []);
 
   const unassignedProducts = useMemo(() => {
+    const allCats = categories.length > 0 ? categories : DEFAULT_CATEGORIES;
     return products.filter((p) => {
       const catId = getProductNormalizedCategoryId(p);
-      return !catId || catId === "" || catId === "none" || catId === "unassigned";
+      if (catId && catId !== "none" && catId !== "unassigned") {
+        return false;
+      }
+      const rawCat = (p.category_name || (typeof p.category === "string" ? p.category : p.category?.name) || "").toLowerCase().trim();
+      if (rawCat && rawCat !== "none" && rawCat !== "unassigned") {
+        const isMatch = allCats.some(
+          (c) =>
+            c.id.toLowerCase() === rawCat ||
+            c.slug.toLowerCase() === rawCat ||
+            c.name.toLowerCase() === rawCat
+        );
+        if (isMatch) return false;
+      }
+      return true;
     });
-  }, [products]);
+  }, [products, categories]);
 
   // Product detail editing
   const [detailProduct, setDetailProduct] = useState<Product | null>(null);
@@ -4916,13 +4931,39 @@ function AdminPageContent() {
                                     </h3>
                                     <div className="text-xs text-neutral-800 font-semibold flex items-center gap-2 flex-wrap">
                                       {(() => {
+                                        const allCats = categories.length > 0 ? categories : DEFAULT_CATEGORIES;
                                         const normCatId = getProductNormalizedCategoryId(prod);
-                                        const matchedCat = categories.find(c => 
+                                        let matchedCat = allCats.find(c => 
                                           c.id.toLowerCase() === normCatId.toLowerCase() || 
                                           c.slug.toLowerCase() === normCatId.toLowerCase() ||
                                           c.name.toLowerCase() === normCatId.toLowerCase()
                                         );
-                                        if (!normCatId || normCatId === "none" || normCatId === "unassigned" || (!matchedCat && !prod.category && !prod.category_name)) {
+
+                                        if (!matchedCat) {
+                                          const rawCat = (prod.category_name || (typeof prod.category === "string" ? prod.category : prod.category?.name) || "").toLowerCase().trim();
+                                          if (rawCat && rawCat !== "none" && rawCat !== "unassigned") {
+                                            matchedCat = allCats.find(c => 
+                                              c.id.toLowerCase() === rawCat || 
+                                              c.slug.toLowerCase() === rawCat || 
+                                              c.name.toLowerCase() === rawCat
+                                            );
+                                          }
+                                        }
+
+                                        if (!matchedCat && prod.name) {
+                                          const nLower = prod.name.toLowerCase();
+                                          if (nLower.includes("gown") || nLower.includes("anarkali")) {
+                                            matchedCat = allCats.find(c => c.id === "traditional-gowns");
+                                          } else if (nLower.includes("kaftan")) {
+                                            matchedCat = allCats.find(c => c.id === "short-long-kaftan");
+                                          } else if (nLower.includes("cord") || nLower.includes("co-ord")) {
+                                            matchedCat = allCats.find(c => c.id === "cord-sets");
+                                          } else if (nLower.includes("western") || nLower.includes("dress")) {
+                                            matchedCat = allCats.find(c => c.id === "western-dresses");
+                                          }
+                                        }
+
+                                        if (!matchedCat && (!normCatId || normCatId === "none" || normCatId === "unassigned") && !prod.category && !prod.category_name) {
                                           return <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>;
                                         }
                                         return (
@@ -7969,19 +8010,34 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
 
   const resolvedInitialCatId = (() => {
     if (!product) return "";
+    const allCats = categories.length > 0 ? categories : DEFAULT_CATEGORIES;
     const rawCatId = product.category_id;
-    if (rawCatId === "" || rawCatId === "none" || rawCatId === "unassigned") {
-      return "";
+    if (rawCatId && rawCatId !== "none" && rawCatId !== "unassigned") {
+      const match = allCats.find(c => c.id.toLowerCase() === String(rawCatId).toLowerCase() || c.slug.toLowerCase() === String(rawCatId).toLowerCase() || c.name.toLowerCase() === String(rawCatId).toLowerCase());
+      if (match) return match.id;
     }
-    const directId = product.category_id || (product as any)?.category?.id || (product as any)?.category?.slug;
+    const directId = (product as any)?.category?.id || (product as any)?.category?.slug;
     if (directId) {
-      const match = categories.find(c => c.id.toLowerCase() === String(directId).toLowerCase() || c.slug.toLowerCase() === String(directId).toLowerCase() || c.name.toLowerCase() === String(directId).toLowerCase());
+      const match = allCats.find(c => c.id.toLowerCase() === String(directId).toLowerCase() || c.slug.toLowerCase() === String(directId).toLowerCase() || c.name.toLowerCase() === String(directId).toLowerCase());
       if (match) return match.id;
     }
     const normId = getProductNormalizedCategoryId(product);
-    if (!normId) return "";
-    const matchNorm = categories.find(c => c.id.toLowerCase() === normId.toLowerCase() || c.slug.toLowerCase() === normId.toLowerCase() || c.name.toLowerCase() === normId.toLowerCase());
-    if (matchNorm) return matchNorm.id;
+    if (normId && normId !== "none" && normId !== "unassigned") {
+      const matchNorm = allCats.find(c => c.id.toLowerCase() === normId.toLowerCase() || c.slug.toLowerCase() === normId.toLowerCase() || c.name.toLowerCase() === normId.toLowerCase());
+      if (matchNorm) return matchNorm.id;
+    }
+    const rawName = (product.category_name || (typeof product.category === "string" ? product.category : product.category?.name) || "").toLowerCase().trim();
+    if (rawName && rawName !== "none" && rawName !== "unassigned") {
+      const matchRaw = allCats.find(c => c.id.toLowerCase() === rawName || c.slug.toLowerCase() === rawName || c.name.toLowerCase() === rawName);
+      if (matchRaw) return matchRaw.id;
+    }
+    if (product.name) {
+      const nLower = product.name.toLowerCase();
+      if (nLower.includes("gown") || nLower.includes("anarkali")) return "traditional-gowns";
+      if (nLower.includes("kaftan")) return "short-long-kaftan";
+      if (nLower.includes("cord") || nLower.includes("co-ord")) return "cord-sets";
+      if (nLower.includes("western") || nLower.includes("dress")) return "western-dresses";
+    }
     return "";
   })();
 
@@ -8077,6 +8133,22 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
       return res;
     })()
   });
+
+  // Ensure category_id stays synchronized when categories load
+  useEffect(() => {
+    if (!form.category_id && product) {
+      const allCats = categories.length > 0 ? categories : DEFAULT_CATEGORIES;
+      const target = allCats.find(c => 
+        (product.category_id && c.id.toLowerCase() === String(product.category_id).toLowerCase()) ||
+        (product.category_name && c.name.toLowerCase() === String(product.category_name).toLowerCase()) ||
+        ((product as any).category && typeof (product as any).category === "string" && (c.name.toLowerCase() === String((product as any).category).toLowerCase() || c.id.toLowerCase() === String((product as any).category).toLowerCase())) ||
+        (product.name && product.name.toLowerCase().includes(c.name.toLowerCase()))
+      );
+      if (target) {
+        setForm(prev => ({ ...prev, category_id: target.id }));
+      }
+    }
+  }, [categories, product, form.category_id]);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formError, setFormError] = useState("");
@@ -9250,12 +9322,27 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
           <div>
             <p className="text-[9px] font-bold uppercase tracking-widest">
               {(() => {
+                const allCats = categories.length > 0 ? categories : DEFAULT_CATEGORIES;
                 const normCatId = getProductNormalizedCategoryId(product);
-                if (!normCatId) {
+                let matchedCat = allCats.find(c => 
+                  c.id.toLowerCase() === normCatId.toLowerCase() || 
+                  c.slug.toLowerCase() === normCatId.toLowerCase() || 
+                  c.name.toLowerCase() === normCatId.toLowerCase()
+                );
+                if (!matchedCat) {
+                  const rawCat = (product.category_name || (typeof product.category === "string" ? product.category : product.category?.name) || "").toLowerCase().trim();
+                  if (rawCat && rawCat !== "none" && rawCat !== "unassigned") {
+                    matchedCat = allCats.find(c => 
+                      c.id.toLowerCase() === rawCat || 
+                      c.slug.toLowerCase() === rawCat || 
+                      c.name.toLowerCase() === rawCat
+                    );
+                  }
+                }
+                if (!matchedCat && (!normCatId || normCatId === "none" || normCatId === "unassigned") && !product.category && !product.category_name) {
                   return <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>;
                 }
-                const cat = categories.find(c => c.id.toLowerCase() === normCatId.toLowerCase() || c.slug.toLowerCase() === normCatId.toLowerCase() || c.name.toLowerCase() === normCatId.toLowerCase());
-                return <span className="text-slate-800">{cat?.name || normCatId}</span>;
+                return <span className="text-slate-800">{matchedCat?.name || product.category_name || (typeof product.category === "string" ? product.category : matchedCat?.name || normCatId)}</span>;
               })()}
             </p>
             <div className="flex items-center gap-3">
