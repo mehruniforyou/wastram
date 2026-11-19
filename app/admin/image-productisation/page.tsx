@@ -33,7 +33,8 @@ import {
   Loader2,
   Boxes,
   HelpCircle,
-  Star
+  Star,
+  RefreshCw
 } from 'lucide-react';
 
 interface VariantSubset {
@@ -75,6 +76,34 @@ interface ImageItem {
   url: string;
   categoryId: string;
   categoryName: string;
+}
+
+// Generate guaranteed collision-free IDs
+function generateGroupId(categoryId: string): string {
+  const catPart = (categoryId || 'grp').slice(0, 4);
+  const rand = Math.random().toString(36).slice(2, 9);
+  return `pg-${catPart}-${Date.now()}-${rand}`;
+}
+
+function generateVariantId(): string {
+  const rand = Math.random().toString(36).slice(2, 9);
+  return `var-${Date.now()}-${rand}`;
+}
+
+// Generate strictly unique sequential product group names based on highest existing group number
+function getNextProductGroupName(categoryGroups: ProductGroup[]): string {
+  let maxNum = 0;
+  for (const g of categoryGroups) {
+    const match = g.name.match(/Product Group\s+(\d+)/i);
+    if (match) {
+      const num = parseInt(match[1], 10);
+      if (!isNaN(num) && num > maxNum) {
+        maxNum = num;
+      }
+    }
+  }
+  const nextNum = maxNum + 1;
+  return `Product Group ${String(nextNum).padStart(3, '0')}`;
 }
 
 export default function ImageProductisationPage({ onBack }: { onBack?: () => void } = {}) {
@@ -162,32 +191,63 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
         const serverGroups = Array.isArray(data.groups) ? data.groups : [];
         const localGroups = localStore && Array.isArray(localStore.groups) ? localStore.groups : [];
 
-        if (serverGroups.length > 0) {
-          const serverTime = data.updatedAt ? new Date(data.updatedAt).getTime() : 0;
-          const localTime = localStore?.updatedAt ? new Date(localStore.updatedAt).getTime() : 0;
-
-          if (localGroups.length > 0 && localTime > serverTime + 1000) {
-            setGroups(localGroups);
-            if (localStore?.categoriesState) setCategoriesState(localStore.categoriesState);
-            triggerAutoSave(localGroups, localStore?.categoriesState || {}, true);
-          } else {
-            setGroups(serverGroups);
-            setCategoriesState(data.categoriesState || {});
-            try {
-              localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({
-                groups: serverGroups,
-                categoriesState: data.categoriesState || {},
-                updatedAt: data.updatedAt || new Date().toISOString()
-              }));
-            } catch (_) {}
+        // Check if local groups have duplicate name anomaly (e.g. from DOM input reuse glitch)
+        const localNameDuplicates = (() => {
+          if (!localGroups.length) return false;
+          const seen = new Set<string>();
+          for (const g of localGroups) {
+            const key = `${g.categoryId}::${g.name}`;
+            if (seen.has(key)) return true;
+            seen.add(key);
           }
-        } else if (localGroups.length > 0) {
-          setGroups(localGroups);
-          if (localStore?.categoriesState) setCategoriesState(localStore.categoriesState);
-          triggerAutoSave(localGroups, localStore?.categoriesState || {}, true);
+          return false;
+        })();
+
+        let resolvedGroups: ProductGroup[] = [];
+        if (localNameDuplicates && serverGroups.length > 0) {
+          // Discard contaminated local storage with duplicate names, restore pristine server groups
+          resolvedGroups = serverGroups;
+        } else if (serverGroups.length === 0) {
+          resolvedGroups = localGroups;
+        } else if (localGroups.length === 0) {
+          resolvedGroups = serverGroups;
         } else {
-          setGroups([]);
-          setCategoriesState(data.categoriesState || {});
+          // Robust ID-based union merge:
+          // Keep all server groups, and preserve any local group created or updated more recently
+          const map = new Map<string, ProductGroup>();
+          for (const g of serverGroups) {
+            map.set(g.id, g);
+          }
+          for (const g of localGroups) {
+            if (!map.has(g.id)) {
+              map.set(g.id, g);
+            } else {
+              const serverG = map.get(g.id)!;
+              const localTime = g.updatedAt ? new Date(g.updatedAt).getTime() : 0;
+              const serverTime = serverG.updatedAt ? new Date(serverG.updatedAt).getTime() : 0;
+              if (localTime > serverTime) {
+                map.set(g.id, g);
+              }
+            }
+          }
+          resolvedGroups = Array.from(map.values());
+        }
+
+        setGroups(resolvedGroups);
+        const resolvedCatState = { ...(data.categoriesState || {}), ...(localStore?.categoriesState || {}) };
+        setCategoriesState(resolvedCatState);
+
+        try {
+          localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({
+            groups: resolvedGroups,
+            categoriesState: resolvedCatState,
+            updatedAt: new Date().toISOString()
+          }));
+        } catch (_) {}
+
+        // If client had offline additions, push the merged set to cloud
+        if (resolvedGroups.length > serverGroups.length) {
+          triggerAutoSave(resolvedGroups, resolvedCatState, true);
         }
 
         if (data.categories && data.categories.length > 0 && !data.categories.some((c: any) => c.id === activeCatId)) {
@@ -495,10 +555,8 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
       return;
     }
 
-    const nextIndex = currentCategoryGroups.length + 1;
-    const paddedIndex = String(nextIndex).padStart(3, '0');
-    const newGroupId = `pg-${activeCatId.slice(0, 4)}-${Date.now().toString().slice(-4)}`;
-    const newGroupName = `Product Group ${paddedIndex}`;
+    const newGroupId = generateGroupId(activeCatId);
+    const newGroupName = getNextProductGroupName(currentCategoryGroups);
 
     // Remove selected images from any previous groups first
     updateGroupsAndSave((prev) => {
@@ -562,9 +620,10 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
 
   // Group Management Actions
   const handleRenameGroup = (groupId: string, newName: string) => {
-    if (!newName.trim()) return;
+    const trimmed = newName.trim();
+    if (!trimmed) return;
     updateGroupsAndSave((prev) =>
-      prev.map((g) => (g.id === groupId ? { ...g, name: newName.trim(), updatedAt: new Date().toISOString() } : g))
+      prev.map((g) => (g.id === groupId && g.name !== trimmed ? { ...g, name: trimmed, updatedAt: new Date().toISOString() } : g))
     );
   };
 
@@ -655,7 +714,7 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
     if (!targetGroup) return;
     const vIndex = (targetGroup.variants || []).length + 1;
     const newVariant: VariantSubset = {
-      id: `var-${Date.now().toString().slice(-4)}-${vIndex}`,
+      id: `${generateVariantId()}-${vIndex}`,
       name: `Variant ${String.fromCharCode(64 + vIndex)}`,
       colorCode: '#1A1A1A',
       images: []
@@ -674,13 +733,14 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
   };
 
   const handleRenameVariant = (groupId: string, variantId: string, newName: string) => {
-    if (!newName.trim()) return;
+    const trimmed = newName.trim();
+    if (!trimmed) return;
     updateGroupsAndSave((prev) =>
       prev.map((g) => {
         if (g.id !== groupId) return g;
         return {
           ...g,
-          variants: g.variants.map((v) => (v.id === variantId ? { ...v, name: newName.trim() } : v)),
+          variants: g.variants.map((v) => (v.id === variantId && v.name !== trimmed ? { ...v, name: trimmed } : v)),
           updatedAt: new Date().toISOString()
         };
       })
@@ -835,6 +895,30 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
     e.target.value = '';
   };
 
+  const handleSyncFromCloud = async () => {
+    if (!confirm('Sync workspace directly from Cloud Firestore? This will reload the latest pristine cloud data.')) return;
+    setLoading(true);
+    try {
+      const res = await fetch('/api/admin/image-productisation');
+      const data = await res.json();
+      if (data.success && Array.isArray(data.groups)) {
+        setGroups(data.groups);
+        if (data.categoriesState) setCategoriesState(data.categoriesState);
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({
+          groups: data.groups,
+          categoriesState: data.categoriesState || {},
+          updatedAt: data.updatedAt || new Date().toISOString()
+        }));
+        setSaveSuccessToast(true);
+        setTimeout(() => setSaveSuccessToast(false), 2000);
+      }
+    } catch (e: any) {
+      alert('Failed to sync from cloud: ' + e.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-neutral-50 flex flex-col items-center justify-center p-6">
@@ -962,6 +1046,16 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
               <span className="hidden sm:inline">Restore</span>
               <input type="file" accept=".json" onChange={handleImportBackup} className="hidden" />
             </label>
+
+            <button
+              type="button"
+              onClick={handleSyncFromCloud}
+              className="px-3 py-1.5 bg-white border border-neutral-300 hover:border-black text-black text-xs font-heading font-bold rounded-xl transition-all flex items-center gap-1.5 shadow-xs cursor-pointer"
+              title="Force reload latest groupings directly from Cloud Firestore"
+            >
+              <RefreshCw className="w-3.5 h-3.5 text-blue-600" />
+              <span className="hidden sm:inline">Sync Cloud</span>
+            </button>
 
             <button
               type="button"
@@ -1543,11 +1637,11 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
             <button
               type="button"
               onClick={() => {
-                const nextIndex = currentCategoryGroups.length + 1;
-                const newGroupId = `pg-${activeCatId.slice(0, 4)}-${Date.now().toString().slice(-4)}`;
+                const newGroupId = generateGroupId(activeCatId);
+                const newGroupName = getNextProductGroupName(currentCategoryGroups);
                 const newGroup: ProductGroup = {
                   id: newGroupId,
-                  name: `Product Group ${String(nextIndex).padStart(3, '0')}`,
+                  name: newGroupName,
                   categoryId: activeCatId,
                   generalImages: [],
                   variants: [],
@@ -1651,9 +1745,22 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                         )}
 
                         <input
+                          key={`grp-name-${group.id}`}
                           type="text"
                           defaultValue={group.name}
-                          onBlur={(e) => handleRenameGroup(group.id, e.target.value)}
+                          onBlur={(e) => {
+                            const val = e.target.value.trim();
+                            if (val && val !== group.name) {
+                              handleRenameGroup(group.id, val);
+                            } else if (!val) {
+                              e.target.value = group.name;
+                            }
+                          }}
+                          onKeyDown={(e) => {
+                            if (e.key === 'Enter') {
+                              e.currentTarget.blur();
+                            }
+                          }}
                           className="font-heading font-black text-xs text-black bg-transparent border-b border-transparent hover:border-neutral-400 focus:border-black outline-none px-1 py-0.5 flex-1 min-w-0"
                           title="Click to rename group"
                         />
@@ -1879,9 +1986,22 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                                         )}
 
                                         <input
+                                          key={`var-name-${v.id}`}
                                           type="text"
                                           defaultValue={v.name}
-                                          onBlur={(e) => handleRenameVariant(group.id, v.id, e.target.value)}
+                                          onBlur={(e) => {
+                                            const val = e.target.value.trim();
+                                            if (val && val !== v.name) {
+                                              handleRenameVariant(group.id, v.id, val);
+                                            } else if (!val) {
+                                              e.target.value = v.name;
+                                            }
+                                          }}
+                                          onKeyDown={(e) => {
+                                            if (e.key === 'Enter') {
+                                              e.currentTarget.blur();
+                                            }
+                                          }}
                                           className="font-heading font-black text-[11px] text-purple-900 bg-transparent border-b border-transparent hover:border-purple-300 focus:border-purple-700 outline-none px-1 py-0.5 flex-1 min-w-0"
                                           title="Click to rename variant"
                                         />
