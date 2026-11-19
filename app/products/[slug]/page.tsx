@@ -9,6 +9,8 @@ import {
   ChevronLeft,
   ChevronRight,
   ShoppingBag,
+  Sparkles,
+  ArrowRight,
 } from 'lucide-react';
 import { NISHORAMA_PRODUCTS, NishoramaProduct } from '@/data/nishorama-data';
 import Header from '@/components/Header';
@@ -311,6 +313,23 @@ export default function ProductDetailPage({ params }: Props) {
 Please share the wholesale lookbook and trade quotation.`
   )}`;
 
+  // Customisations & Bespoke Sales Consultation Link
+  const customisationSalesUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
+    `Hello Wastram Sales Team, I would like to enquire about Customisations / Bespoke Production for:
+• Silhouette: ${product.title}
+• SKU / Code: ${product.sku || product.id}${activeVariant ? `\n• Styling: ${activeVariant.name}` : ''}
+• Base Size: ${selectedSize}
+
+I am looking to customise:
+• Custom Sizing / Grading
+• Custom Colorway or Block Print Pattern
+• Custom Fabric / Material Blend
+• Private Labelling & Custom Tagging
+• Bulk Volume / Flexible MOQ
+
+Please connect me with a bespoke production specialist.`
+  )}`;
+
   const relatedProducts = NISHORAMA_PRODUCTS.filter(
     (p) => !p.deleted && !p.is_hidden && p.id !== product.id && p.category === product.category
   ).slice(0, 4);
@@ -582,6 +601,32 @@ Please share the wholesale lookbook and trade quotation.`
                 <ShoppingBag size={15} className="shrink-0" />
                 <span className="truncate">Add</span>
               </button>
+            </div>
+
+            {/* Need Customisations? Talk to Sales Now CTA */}
+            <div className="pt-2">
+              <a
+                href={customisationSalesUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3 px-4 rounded-full border border-neutral-300 dark:border-white/15 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] bg-neutral-50/70 hover:bg-[#0B2D7F]/5 dark:bg-neutral-900/60 dark:hover:bg-[#D4AF37]/5 text-neutral-800 dark:text-neutral-200 text-xs sm:text-[13px] font-medium flex items-center justify-center gap-2 transition-all active:scale-98 shadow-2xs group cursor-pointer"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-[#0B2D7F] dark:text-[#D4AF37] shrink-0 group-hover:rotate-12 transition-transform" />
+                <span>Need Customisations?</span>
+                <span className="font-bold text-[#0B2D7F] dark:text-[#D4AF37] flex items-center gap-1">
+                  Talk to Sales Now
+                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                </span>
+              </a>
+              <div className="flex items-center justify-between text-[10px] text-neutral-500 dark:text-neutral-400 font-sans px-2 pt-1.5">
+                <span>Custom sizing, fabrics &amp; private labelling</span>
+                <Link
+                  href="/custom-design"
+                  className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] underline underline-offset-2 font-medium"
+                >
+                  Atelier Bespoke Guide →
+                </Link>
+              </div>
             </div>
 
             {/* Minimal Accordions */}
@@ -896,6 +941,32 @@ Please share the wholesale lookbook and trade quotation.`
             </button>
           </div>
 
+          {/* Need Customisations? Talk to Sales Now CTA (Mobile Inline) */}
+          <div className="pt-2">
+            <a
+              href={customisationSalesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-2.5 px-3 rounded-full border border-neutral-300 dark:border-white/15 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] bg-neutral-50/70 hover:bg-[#0B2D7F]/5 dark:bg-neutral-900/60 dark:hover:bg-[#D4AF37]/5 text-neutral-800 dark:text-neutral-200 text-xs font-medium flex items-center justify-center gap-1.5 transition-all active:scale-98 shadow-2xs group cursor-pointer"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-[#0B2D7F] dark:text-[#D4AF37] shrink-0 group-hover:rotate-12 transition-transform" />
+              <span>Need Customisations?</span>
+              <span className="font-bold text-[#0B2D7F] dark:text-[#D4AF37] flex items-center gap-0.5">
+                Talk to Sales Now
+                <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+              </span>
+            </a>
+            <div className="flex items-center justify-between text-[10px] text-neutral-500 dark:text-neutral-400 font-sans px-2 pt-1">
+              <span>Custom sizing, fabrics &amp; private label</span>
+              <Link
+                href="/custom-design"
+                className="hover:text-[#0B2D7F] dark:hover:text-[#D4AF37] underline underline-offset-2 font-medium"
+              >
+                Bespoke Guide →
+              </Link>
+            </div>
+          </div>
+
           {/* Minimal Mobile Accordions */}
           <div className="border-t border-neutral-200/80 dark:border-white/10 divide-y divide-neutral-200/80 dark:divide-white/10 text-xs font-sans pt-2">
             <div>
@@ -997,26 +1068,41 @@ Please share the wholesale lookbook and trade quotation.`
             </div>
           </div>
 
-          {/* Fixed Sticky Bottom Mobile Bar with Exactly Two Symmetric CTAs */}
-          <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-[#12100E]/95 backdrop-blur-md border-t border-neutral-200/80 dark:border-white/10 px-4 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-2xl flex items-center gap-3">
-            <a
-              href={whatsappInquiryUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 py-3 px-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-semibold flex items-center justify-center gap-1.5 shadow-md shadow-[#0B2D7F]/20 active:scale-98 cursor-pointer truncate"
-            >
-              <WhatsAppIcon className="w-4 h-4 fill-[#25D366] shrink-0" />
-              <span className="truncate">WhatsApp</span>
-            </a>
+          {/* Fixed Sticky Bottom Mobile Bar with Symmetric CTAs & Customisation Ticker */}
+          <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-[#12100E]/95 backdrop-blur-md border-t border-neutral-200/80 dark:border-white/10 px-4 pt-2.5 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-2xl flex flex-col gap-2">
+            <div className="flex items-center justify-between text-[11px] font-sans px-1">
+              <span className="text-neutral-500 dark:text-neutral-400">Need Customisations?</span>
+              <a
+                href={customisationSalesUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-[#0B2D7F] dark:text-[#D4AF37] hover:underline flex items-center gap-1"
+              >
+                <span>Talk to Sales Now</span>
+                <ArrowRight className="w-3 h-3" />
+              </a>
+            </div>
 
-            <button
-              type="button"
-              onClick={handleAddToCart}
-              className="flex-1 py-3 px-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-[#D4AF37] dark:text-[#D4AF37] hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 text-xs font-semibold flex items-center justify-center gap-1.5 active:scale-98 cursor-pointer truncate"
-            >
-              <ShoppingBag size={14} className="shrink-0" />
-              <span className="truncate">Add</span>
-            </button>
+            <div className="flex items-center gap-3">
+              <a
+                href={whatsappInquiryUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 py-3 px-3 rounded-full bg-[#0B2D7F] hover:bg-[#071F59] text-white text-xs font-semibold flex items-center justify-center gap-1.5 shadow-md shadow-[#0B2D7F]/20 active:scale-98 cursor-pointer truncate"
+              >
+                <WhatsAppIcon className="w-4 h-4 fill-[#25D366] shrink-0" />
+                <span className="truncate">WhatsApp</span>
+              </a>
+
+              <button
+                type="button"
+                onClick={handleAddToCart}
+                className="flex-1 py-3 px-3 rounded-full border border-[#0B2D7F] text-[#0B2D7F] dark:border-[#D4AF37] dark:text-[#D4AF37] hover:bg-[#0B2D7F] hover:text-white dark:hover:bg-[#D4AF37] dark:hover:text-neutral-950 text-xs font-semibold flex items-center justify-center gap-1.5 active:scale-98 cursor-pointer truncate"
+              >
+                <ShoppingBag size={14} className="shrink-0" />
+                <span className="truncate">Add</span>
+              </button>
+            </div>
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import {
   Plus,
   Trash2,
@@ -16,6 +16,10 @@ import {
   CheckCircle2,
   ArrowRight,
   Copy,
+  Search,
+  CheckSquare,
+  Square,
+  Images,
 } from "lucide-react";
 import { ColorVariant } from "@/data/products";
 import { adminFetch } from "../AdminClientPage";
@@ -58,6 +62,7 @@ interface ColorVariantManagerProps {
   productId?: string;
   parentProduct?: ParentProductInfo;
   onProductCreated?: (newProduct: any) => Promise<void> | void;
+  existingProducts?: any[];
 }
 
 export default function ColorVariantManager({
@@ -66,6 +71,7 @@ export default function ColorVariantManager({
   productId,
   parentProduct,
   onProductCreated,
+  existingProducts = [],
 }: ColorVariantManagerProps) {
   const [isEditing, setIsEditing] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
@@ -90,6 +96,170 @@ export default function ColorVariantManager({
     slug: string;
     url: string;
   } | null>(null);
+
+  // Existing Images Picker Modal State
+  const [existingPickerOpen, setExistingPickerOpen] = useState(false);
+  const [existingTab, setExistingTab] = useState<"thisProduct" | "catalog">("thisProduct");
+  const [catalogSearch, setCatalogSearch] = useState("");
+  const [selectedExistingUrls, setSelectedExistingUrls] = useState<Set<string>>(new Set());
+  const [catalogProducts, setCatalogProducts] = useState<any[]>(existingProducts || []);
+  const [isLoadingCatalog, setIsLoadingCatalog] = useState(false);
+
+  // Keep catalog products synced
+  useEffect(() => {
+    if (existingProducts && existingProducts.length > 0) {
+      setCatalogProducts(existingProducts);
+    }
+  }, [existingProducts]);
+
+  // Fetch catalog products on-demand if catalog tab is opened and list is empty
+  useEffect(() => {
+    if (
+      existingPickerOpen &&
+      existingTab === "catalog" &&
+      catalogProducts.length === 0 &&
+      !isLoadingCatalog
+    ) {
+      setIsLoadingCatalog(true);
+      adminFetch("/api/products?includeHidden=true")
+        .then((res) => res.json())
+        .then((data) => {
+          const prods = Array.isArray(data) ? data : data?.products || [];
+          setCatalogProducts(prods);
+        })
+        .catch((err) => console.error("Error fetching catalog images:", err))
+        .finally(() => setIsLoadingCatalog(false));
+    }
+  }, [existingPickerOpen, existingTab, catalogProducts.length, isLoadingCatalog]);
+
+  // Compute all existing images belonging to this product
+  const thisProductImages = useMemo(() => {
+    const list: { url: string; label: string }[] = [];
+    const seen = new Set<string>();
+
+    const addImg = (url: any, label: string) => {
+      if (!url) return;
+      const cleanUrl =
+        typeof url === "string"
+          ? url.trim()
+          : typeof url?.url === "string"
+          ? url.url.trim()
+          : typeof url?.src === "string"
+          ? url.src.trim()
+          : "";
+      if (cleanUrl && !seen.has(cleanUrl)) {
+        seen.add(cleanUrl);
+        list.push({ url: cleanUrl, label });
+      }
+    };
+
+    if (parentProduct?.featured_image) addImg(parentProduct.featured_image, "Cover Photo");
+    if (parentProduct?.mainImage && parentProduct.mainImage !== parentProduct.featured_image) {
+      addImg(parentProduct.mainImage, "Main Image");
+    }
+
+    if (Array.isArray(parentProduct?.gallery)) {
+      parentProduct.gallery.forEach((img, idx) => addImg(img, `Gallery #${idx + 1}`));
+    }
+    if (Array.isArray(parentProduct?.images)) {
+      parentProduct.images.forEach((img, idx) => addImg(img, `Photo #${idx + 1}`));
+    }
+
+    // Images from other styling variants
+    if (Array.isArray(variants)) {
+      variants.forEach((v) => {
+        if (Array.isArray(v.images)) {
+          v.images.forEach((img, idx) => addImg(img, `${v.name || "Variant"} #${idx + 1}`));
+        }
+      });
+    }
+
+    return list;
+  }, [parentProduct, variants]);
+
+  // Compute catalog image items (searchable)
+  const catalogImageItems = useMemo(() => {
+    const list: { url: string; label: string; productName: string }[] = [];
+    const seen = new Set<string>();
+    const query = catalogSearch.toLowerCase().trim();
+
+    for (const prod of catalogProducts) {
+      const pName = prod.name || prod.title || "";
+      const pCat = prod.category_name || prod.category || "";
+      if (query && !pName.toLowerCase().includes(query) && !pCat.toLowerCase().includes(query)) {
+        continue;
+      }
+
+      const addProdImg = (url: any, label: string) => {
+        if (!url) return;
+        const cleanUrl =
+          typeof url === "string"
+            ? url.trim()
+            : typeof url?.url === "string"
+            ? url.url.trim()
+            : typeof url?.src === "string"
+            ? url.src.trim()
+            : "";
+        if (cleanUrl && !seen.has(cleanUrl)) {
+          seen.add(cleanUrl);
+          list.push({ url: cleanUrl, label, productName: pName });
+        }
+      };
+
+      if (prod.featured_image) addProdImg(prod.featured_image, "Cover");
+      if (prod.mainImage && prod.mainImage !== prod.featured_image) addProdImg(prod.mainImage, "Main");
+      if (Array.isArray(prod.gallery)) prod.gallery.forEach((img: any) => addProdImg(img, "Gallery"));
+      if (Array.isArray(prod.images)) prod.images.forEach((img: any) => addProdImg(img, "Photo"));
+      if (Array.isArray(prod.colorVariants)) {
+        prod.colorVariants.forEach((cv: any) => {
+          if (Array.isArray(cv.images)) cv.images.forEach((img: any) => addProdImg(img, cv.name || "Variant"));
+        });
+      }
+    }
+    return list;
+  }, [catalogProducts, catalogSearch]);
+
+  const handleOpenExistingPicker = () => {
+    setSelectedExistingUrls(new Set());
+    setCatalogSearch("");
+    setExistingTab("thisProduct");
+    setExistingPickerOpen(true);
+  };
+
+  const toggleSelectExisting = (url: string) => {
+    setSelectedExistingUrls((prev) => {
+      const next = new Set(prev);
+      if (next.has(url)) {
+        next.delete(url);
+      } else {
+        next.add(url);
+      }
+      return next;
+    });
+  };
+
+  const handleSelectAllVisible = () => {
+    const list = existingTab === "thisProduct" ? thisProductImages : catalogImageItems;
+    const urls = list.map((item) => item.url);
+    setSelectedExistingUrls(new Set(urls));
+  };
+
+  const handleDeselectAll = () => {
+    setSelectedExistingUrls(new Set());
+  };
+
+  const handleAddSelectedImages = () => {
+    if (selectedExistingUrls.size === 0) return;
+    const toAdd = Array.from(selectedExistingUrls).filter((url) => !variantImages.includes(url));
+    setVariantImages((prev) => [...prev, ...toAdd]);
+    notifyAdmin(
+      "success",
+      "Photos Added to Styling",
+      `Added ${toAdd.length} existing photo(s) to "${variantName || "Variant"}"`
+    );
+    setExistingPickerOpen(false);
+    setSelectedExistingUrls(new Set());
+  };
 
   const getParentTitle = () => {
     return (parentProduct?.name || parentProduct?.title || "").trim();
@@ -424,8 +594,8 @@ export default function ColorVariantManager({
               </span>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-              {/* Drop / Upload */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              {/* Drop / Upload from Device */}
               <div
                 onClick={() => {
                   const input = document.createElement("input");
@@ -437,51 +607,84 @@ export default function ColorVariantManager({
                   };
                   input.click();
                 }}
-                className="sm:col-span-2 border-2 border-dashed border-neutral-300 hover:border-[#0B2D7F] rounded-xl p-3 flex items-center justify-center gap-2 bg-white cursor-pointer transition-colors"
+                className="border-2 border-dashed border-neutral-300 hover:border-[#0B2D7F] rounded-xl p-3 flex items-center gap-2.5 bg-white cursor-pointer transition-all hover:bg-neutral-50/60 group"
               >
-                {isUploading ? (
-                  <Loader2 className="w-4 h-4 animate-spin text-[#0B2D7F]" />
-                ) : (
-                  <Upload className="w-4 h-4 text-[#0B2D7F] stroke-[2]" />
-                )}
-                <span className="text-xs font-heading font-bold uppercase tracking-wider text-black">
-                  {isUploading ? "Uploading photos..." : "Upload Photos for this Variant"}
-                </span>
+                <div className="w-8 h-8 rounded-lg bg-neutral-100 group-hover:bg-[#0B2D7F]/10 text-[#0B2D7F] flex items-center justify-center shrink-0 transition-colors">
+                  {isUploading ? (
+                    <Loader2 className="w-4 h-4 animate-spin text-[#0B2D7F]" />
+                  ) : (
+                    <Upload className="w-4 h-4 stroke-[2.2] group-hover:scale-110 transition-transform" />
+                  )}
+                </div>
+                <div className="min-w-0">
+                  <span className="text-xs font-heading font-bold uppercase tracking-wider text-black block">
+                    {isUploading ? "Uploading photos..." : "Upload Photos"}
+                  </span>
+                  <span className="text-[10px] text-neutral-400 font-medium block">
+                    From computer / device
+                  </span>
+                </div>
               </div>
 
-              {/* URL Input */}
-              <div className="flex gap-1.5">
-                <input
-                  type="text"
-                  value={directUrl}
-                  onChange={(e) => setDirectUrl(e.target.value)}
-                  placeholder="Paste image URL..."
-                  className="flex-1 bg-white border-2 border-neutral-200 focus:border-[#0B2D7F] rounded-xl px-2.5 py-1.5 text-xs text-black outline-none"
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter") {
-                      e.preventDefault();
-                      const val = directUrl.trim();
-                      if (val) {
-                        setVariantImages((prev) => [...prev, val]);
-                        setDirectUrl("");
-                      }
-                    }
-                  }}
-                />
-                <button
-                  type="button"
-                  onClick={() => {
+              {/* Upload / Select from Existing Product Images */}
+              <button
+                type="button"
+                onClick={handleOpenExistingPicker}
+                className="border-2 border-indigo-200 hover:border-[#0B2D7F] bg-indigo-50/40 hover:bg-indigo-50/80 rounded-xl p-3 flex items-center gap-2.5 text-left cursor-pointer transition-all group shadow-2xs"
+              >
+                <div className="w-8 h-8 rounded-lg bg-[#0B2D7F] text-white flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform shadow-xs">
+                  <Images className="w-4 h-4 stroke-[2.2]" />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-xs font-heading font-black uppercase tracking-wider text-[#0B2D7F] truncate">
+                      From Existing Images
+                    </span>
+                    {thisProductImages.length > 0 && (
+                      <span className="bg-[#0B2D7F] text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full shrink-0">
+                        {thisProductImages.length}
+                      </span>
+                    )}
+                  </div>
+                  <span className="text-[10px] text-neutral-600 font-medium block truncate">
+                    Pick from cover, gallery or catalog
+                  </span>
+                </div>
+              </button>
+            </div>
+
+            {/* Direct URL Input */}
+            <div className="flex gap-1.5 pt-0.5">
+              <input
+                type="text"
+                value={directUrl}
+                onChange={(e) => setDirectUrl(e.target.value)}
+                placeholder="Or paste external image URL..."
+                className="flex-1 bg-white border-2 border-neutral-200 focus:border-[#0B2D7F] rounded-xl px-2.5 py-1.5 text-xs text-black outline-none"
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
                     const val = directUrl.trim();
                     if (val) {
                       setVariantImages((prev) => [...prev, val]);
                       setDirectUrl("");
                     }
-                  }}
-                  className="px-3 py-1.5 bg-black hover:bg-neutral-800 text-white text-[11px] font-bold rounded-xl cursor-pointer"
-                >
-                  Add
-                </button>
-              </div>
+                  }
+                }}
+              />
+              <button
+                type="button"
+                onClick={() => {
+                  const val = directUrl.trim();
+                  if (val) {
+                    setVariantImages((prev) => [...prev, val]);
+                    setDirectUrl("");
+                  }
+                }}
+                className="px-3 py-1.5 bg-black hover:bg-neutral-800 text-white text-[11px] font-bold rounded-xl cursor-pointer"
+              >
+                Add URL
+              </button>
             </div>
 
             {/* Thumbnail Preview Grid */}
@@ -896,6 +1099,297 @@ export default function ColorVariantManager({
                 </div>
               </div>
             )}
+          </div>
+        </div>
+      )}
+
+      {/* ─── SELECT FROM EXISTING PRODUCT IMAGES MODAL ──────────────────────── */}
+      {existingPickerOpen && (
+        <div className="fixed inset-0 z-[75] flex items-center justify-center bg-black/60 backdrop-blur-xs p-4 animate-fade-in">
+          <div className="bg-white border-2 border-black rounded-2xl max-w-4xl w-full max-h-[88vh] flex flex-col shadow-2xl relative overflow-hidden animate-scale-up">
+            {/* Header */}
+            <div className="flex items-center justify-between p-4 sm:p-5 border-b border-neutral-200 bg-white shrink-0">
+              <div className="flex items-center gap-2.5">
+                <div className="w-9 h-9 rounded-xl bg-[#0B2D7F] text-white flex items-center justify-center shrink-0">
+                  <Images className="w-5 h-5 stroke-[2]" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-black text-sm text-black uppercase tracking-wider">
+                    Select from Existing Product Images
+                  </h3>
+                  <p className="text-[11px] text-neutral-500 font-medium">
+                    Pick photos already in the product or catalogue to attach to &ldquo;{variantName || "Styling Variant"}&rdquo;.
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setExistingPickerOpen(false)}
+                className="text-neutral-400 hover:text-black p-1.5 rounded-lg hover:bg-neutral-100 transition-colors cursor-pointer"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Tabs & Search Bar */}
+            <div className="p-3 sm:px-5 bg-neutral-50 border-b border-neutral-200 shrink-0 space-y-2.5">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                {/* Tabs */}
+                <div className="flex items-center gap-1.5 bg-neutral-200/70 p-1 rounded-xl">
+                  <button
+                    type="button"
+                    onClick={() => setExistingTab("thisProduct")}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-heading font-bold uppercase tracking-wider transition-all cursor-pointer flex items-center gap-1.5 ${
+                      existingTab === "thisProduct"
+                        ? "bg-white text-black shadow-xs"
+                        : "text-neutral-600 hover:text-black"
+                    }`}
+                  >
+                    <span>This Product&apos;s Photos</span>
+                    <span
+                      className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                        existingTab === "thisProduct"
+                          ? "bg-[#0B2D7F] text-white"
+                          : "bg-neutral-300 text-neutral-700"
+                      }`}
+                    >
+                      {thisProductImages.length}
+                    </span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setExistingTab("catalog")}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-heading font-bold uppercase tracking-wider transition-all cursor-pointer flex items-center gap-1.5 ${
+                      existingTab === "catalog"
+                        ? "bg-white text-black shadow-xs"
+                        : "text-neutral-600 hover:text-black"
+                    }`}
+                  >
+                    <span>All Catalogue Photos</span>
+                    {catalogProducts.length > 0 && (
+                      <span
+                        className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                          existingTab === "catalog"
+                            ? "bg-[#0B2D7F] text-white"
+                            : "bg-neutral-300 text-neutral-700"
+                        }`}
+                      >
+                        {catalogImageItems.length}
+                      </span>
+                    )}
+                  </button>
+                </div>
+
+                {/* Quick Selection Buttons */}
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={handleSelectAllVisible}
+                    className="px-2.5 py-1 text-[11px] font-heading font-bold text-[#0B2D7F] hover:bg-blue-50 rounded-lg cursor-pointer transition-colors"
+                  >
+                    Select All
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleDeselectAll}
+                    disabled={selectedExistingUrls.size === 0}
+                    className="px-2.5 py-1 text-[11px] font-heading font-bold text-neutral-500 hover:text-black disabled:opacity-40 rounded-lg cursor-pointer transition-colors"
+                  >
+                    Clear Selection
+                  </button>
+                  {selectedExistingUrls.size > 0 && (
+                    <span className="bg-[#0B2D7F] text-white text-[11px] font-bold px-2 py-0.5 rounded-full">
+                      {selectedExistingUrls.size} selected
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* Search Bar (Shown on Catalog Tab) */}
+              {existingTab === "catalog" && (
+                <div className="relative">
+                  <Search className="w-4 h-4 text-neutral-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    value={catalogSearch}
+                    onChange={(e) => setCatalogSearch(e.target.value)}
+                    placeholder="Search catalogue photos by product title or category..."
+                    className="w-full pl-9 pr-3 py-2 bg-white border border-neutral-300 focus:border-[#0B2D7F] rounded-xl text-xs text-black outline-none transition-colors"
+                  />
+                </div>
+              )}
+            </div>
+
+            {/* Image Grid Content */}
+            <div className="flex-1 overflow-y-auto p-4 sm:p-5">
+              {isLoadingCatalog && existingTab === "catalog" ? (
+                <div className="py-16 text-center space-y-2">
+                  <Loader2 className="w-6 h-6 animate-spin text-[#0B2D7F] mx-auto" />
+                  <p className="text-xs text-neutral-500 font-medium">
+                    Loading catalogue images from Wastram...
+                  </p>
+                </div>
+              ) : existingTab === "thisProduct" ? (
+                thisProductImages.length === 0 ? (
+                  <div className="py-16 text-center space-y-2 border-2 border-dashed border-neutral-200 rounded-xl">
+                    <ImageIcon className="w-8 h-8 text-neutral-300 mx-auto" />
+                    <p className="text-xs text-neutral-600 font-semibold">
+                      No photos attached to this product yet.
+                    </p>
+                    <p className="text-[11px] text-neutral-400 max-w-sm mx-auto">
+                      Upload photos to this variant, set a cover image in the product form, or switch to the &ldquo;All Catalogue Photos&rdquo; tab above.
+                    </p>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+                    {thisProductImages.map((item, idx) => {
+                      const isSelected = selectedExistingUrls.has(item.url);
+                      const isAlreadyInVariant = variantImages.includes(item.url);
+
+                      return (
+                        <div
+                          key={`this-${item.url}-${idx}`}
+                          onClick={() => toggleSelectExisting(item.url)}
+                          className={`group relative aspect-square rounded-xl border-2 transition-all cursor-pointer overflow-hidden bg-neutral-100 ${
+                            isSelected
+                              ? "border-[#0B2D7F] ring-2 ring-[#0B2D7F]/20 shadow-md"
+                              : "border-neutral-200 hover:border-neutral-400"
+                          }`}
+                        >
+                          <img
+                            src={item.url}
+                            alt={item.label}
+                            className={`w-full h-full object-cover transition-transform group-hover:scale-105 ${
+                              isSelected ? "brightness-95" : ""
+                            }`}
+                          />
+
+                          {/* Checkbox badge */}
+                          <div
+                            className={`absolute top-2 right-2 w-6 h-6 rounded-full flex items-center justify-center transition-all ${
+                              isSelected
+                                ? "bg-[#0B2D7F] text-white shadow-sm"
+                                : "bg-white/80 border border-neutral-300 text-transparent hover:border-[#0B2D7F]"
+                            }`}
+                          >
+                            <Check className="w-3.5 h-3.5 stroke-[3]" />
+                          </div>
+
+                          {/* Source Label Badge */}
+                          <div className="absolute bottom-1.5 left-1.5 right-1.5 flex flex-col gap-0.5">
+                            <span className="bg-black/75 backdrop-blur-xs text-white text-[9px] font-mono px-1.5 py-0.5 rounded truncate">
+                              {item.label}
+                            </span>
+                            {isAlreadyInVariant && (
+                              <span className="bg-emerald-600/90 text-white text-[9px] font-bold px-1.5 py-0.2 rounded flex items-center gap-1 w-fit">
+                                <Check className="w-2.5 h-2.5 stroke-[3]" />
+                                <span>In Variant</span>
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )
+              ) : catalogImageItems.length === 0 ? (
+                <div className="py-16 text-center space-y-2 border-2 border-dashed border-neutral-200 rounded-xl">
+                  <ImageIcon className="w-8 h-8 text-neutral-300 mx-auto" />
+                  <p className="text-xs text-neutral-600 font-semibold">
+                    No images match your search.
+                  </p>
+                  <p className="text-[11px] text-neutral-400">
+                    Try searching for another product name or clear the search query.
+                  </p>
+                </div>
+              ) : (
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+                  {catalogImageItems.map((item, idx) => {
+                    const isSelected = selectedExistingUrls.has(item.url);
+                    const isAlreadyInVariant = variantImages.includes(item.url);
+
+                    return (
+                      <div
+                        key={`cat-${item.url}-${idx}`}
+                        onClick={() => toggleSelectExisting(item.url)}
+                        className={`group relative aspect-square rounded-xl border-2 transition-all cursor-pointer overflow-hidden bg-neutral-100 ${
+                          isSelected
+                            ? "border-[#0B2D7F] ring-2 ring-[#0B2D7F]/20 shadow-md"
+                            : "border-neutral-200 hover:border-neutral-400"
+                        }`}
+                      >
+                        <img
+                          src={item.url}
+                          alt={item.label}
+                          className={`w-full h-full object-cover transition-transform group-hover:scale-105 ${
+                            isSelected ? "brightness-95" : ""
+                          }`}
+                        />
+
+                        {/* Checkbox badge */}
+                        <div
+                          className={`absolute top-2 right-2 w-6 h-6 rounded-full flex items-center justify-center transition-all ${
+                            isSelected
+                              ? "bg-[#0B2D7F] text-white shadow-sm"
+                              : "bg-white/80 border border-neutral-300 text-transparent hover:border-[#0B2D7F]"
+                          }`}
+                        >
+                          <Check className="w-3.5 h-3.5 stroke-[3]" />
+                        </div>
+
+                        {/* Product Title / Label Badge */}
+                        <div className="absolute bottom-1.5 left-1.5 right-1.5 flex flex-col gap-0.5">
+                          <span className="bg-black/80 backdrop-blur-xs text-white text-[9px] font-heading font-bold px-1.5 py-0.5 rounded truncate">
+                            {item.productName || item.label}
+                          </span>
+                          {isAlreadyInVariant && (
+                            <span className="bg-emerald-600/90 text-white text-[9px] font-bold px-1.5 py-0.2 rounded flex items-center gap-1 w-fit">
+                              <Check className="w-2.5 h-2.5 stroke-[3]" />
+                              <span>In Variant</span>
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+
+            {/* Footer */}
+            <div className="flex items-center justify-between p-4 sm:p-5 border-t border-neutral-200 bg-white shrink-0">
+              <div className="text-xs font-medium text-neutral-600">
+                {selectedExistingUrls.size === 0 ? (
+                  <span>Click images above to select</span>
+                ) : (
+                  <span className="font-bold text-[#0B2D7F]">
+                    {selectedExistingUrls.size} {selectedExistingUrls.size === 1 ? "photo" : "photos"} selected
+                  </span>
+                )}
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setExistingPickerOpen(false)}
+                  className="px-4 py-2 border-2 border-neutral-200 hover:border-black rounded-xl text-xs font-heading font-bold uppercase tracking-wider text-black transition-colors cursor-pointer"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  onClick={handleAddSelectedImages}
+                  disabled={selectedExistingUrls.size === 0}
+                  className="px-5 py-2 bg-[#0B2D7F] hover:bg-[#071F59] disabled:opacity-40 text-white text-xs font-heading font-black uppercase tracking-wider rounded-xl transition-all cursor-pointer flex items-center gap-2 shadow-xs"
+                >
+                  <Check className="w-4 h-4 stroke-[2.5]" />
+                  <span>
+                    Add Selected ({selectedExistingUrls.size})
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}

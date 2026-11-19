@@ -5570,6 +5570,7 @@ function AdminPageContent() {
               downloads={detailDownloads}
               faqs={detailFaqs}
               categories={categories}
+              existingProducts={products}
               onBack={() => setDetailProduct(null)}
               onDeleteProduct={(prod) => setProductToDelete(prod)}
               onProductCreated={async () => { await fetchProducts(); }}
@@ -8467,6 +8468,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                   images: form.gallery,
                 }}
                 onProductCreated={onProductCreated}
+                existingProducts={existingProducts}
               />
             </div>
 
@@ -9140,13 +9142,14 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
 // ═══════════════════════════════════════════════════════════════════
 // PRODUCT DETAIL EDITOR (Variants, Images, Downloads, FAQs)
 // ═══════════════════════════════════════════════════════════════════
-function ProductDetailEditor({ product, variants, images, downloads, faqs, categories, onBack, onSaveProduct, onSaveVariant, onDeleteVariant, onAddPartNumber, onDeletePartNumber, onAddImage, onDeleteImage, onAddDownload, onDeleteDownload, onAddFaq, onDeleteFaq, onUploadMedia, isUploading, onEditProduct, onDeleteProduct, onProductCreated }: {
+function ProductDetailEditor({ product, variants, images, downloads, faqs, categories, existingProducts = [], onBack, onSaveProduct, onSaveVariant, onDeleteVariant, onAddPartNumber, onDeletePartNumber, onAddImage, onDeleteImage, onAddDownload, onDeleteDownload, onAddFaq, onDeleteFaq, onUploadMedia, isUploading, onEditProduct, onDeleteProduct, onProductCreated }: {
   product: Product;
   variants: Variant[];
   images: ProductImage[];
   downloads: DownloadItem[];
   faqs: FAQ[];
   categories: Category[];
+  existingProducts?: Product[];
   onBack: () => void;
   onSaveProduct: (data: Partial<Product>) => Promise<void>;
   onSaveVariant: (variant: Partial<Variant>) => Promise<void>;
@@ -9318,6 +9321,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
             productId={product.id}
             parentProduct={product}
             onProductCreated={onProductCreated}
+            existingProducts={existingProducts}
           />
         </div>
       )}
