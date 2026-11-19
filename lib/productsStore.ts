@@ -753,7 +753,41 @@ export async function getLiveProductBySlug(slug: string): Promise<Product | null
 
   const overrides = await getProductOverrides();
 
-  // 1. Look for matching override first (handles products with customized slugs, IDs, or SKUs)
+  // 1. Look for matching canonical product from static catalogue first
+  const baseProd = PRODUCTS.find((p) => {
+    const pSlug = p.slug.toLowerCase().trim();
+    const pDashed = pSlug.replace(/\s+/g, "-");
+    const pNorm = pSlug.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    const pId = p.id.toLowerCase().trim();
+    const pPart = (p.partNumber || (p as any).sku || "").toLowerCase().trim();
+
+    return (
+      pSlug === clean ||
+      pDashed === dashedClean ||
+      pNorm === normalizedClean ||
+      pPart === clean ||
+      pId === clean ||
+      p.aliasSlugs?.some((a) => {
+        const aLower = a.toLowerCase().trim();
+        return (
+          aLower === clean ||
+          aLower === dashedClean ||
+          aLower.replace(/\s+/g, "-") === dashedClean ||
+          aLower.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") === normalizedClean
+        );
+      })
+    );
+  });
+
+  if (baseProd) {
+    const ov = overrides[baseProd.id] || (baseProd.slug ? overrides[baseProd.slug] : undefined);
+    if (ov?.deleted || ov?.purged) {
+      return null;
+    }
+    return applyOverrideToProduct(baseProd, ov);
+  }
+
+  // 2. Custom product added via admin
   const overrideValues = Object.values(overrides);
   let matchingOverride = overrideValues.find((o) => {
     const oSlug = (o.slug || "").toLowerCase().trim();
@@ -784,25 +818,11 @@ export async function getLiveProductBySlug(slug: string): Promise<Product | null
     });
   }
 
-  // If permanently deleted, return null immediately (instant 404, no clues remain)
   if (matchingOverride?.deleted || matchingOverride?.purged) {
     return null;
   }
 
   if (matchingOverride) {
-    const baseProd = PRODUCTS.find(
-      (p) =>
-        p.id.toLowerCase() === matchingOverride!.id.toLowerCase() ||
-        p.slug.toLowerCase() === (matchingOverride!.slug || "").toLowerCase() ||
-        (matchingOverride!.partNumber && (p.partNumber || (p as any).sku || "").toLowerCase() === matchingOverride!.partNumber.toLowerCase()) ||
-        p.aliasSlugs?.some((a) => a.toLowerCase() === matchingOverride!.id.toLowerCase())
-    );
-
-    if (baseProd) {
-      return applyOverrideToProduct(baseProd, matchingOverride);
-    }
-
-    // Custom product added via admin
     const cleanCustomSlug = (matchingOverride.slug || matchingOverride.id).trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
     const rawCat = matchingOverride.category_id !== undefined ? matchingOverride.category_id : matchingOverride.category;
     const strRaw = String(rawCat ?? "").trim();
@@ -863,49 +883,6 @@ export async function getLiveProductBySlug(slug: string): Promise<Product | null
       details: matchingOverride.details || [],
       moq: matchingOverride.moq || "20 pcs / Flexible Wholesale Pack",
     } as any;
-  }
-
-  // 2. Check static PRODUCTS
-  const staticProduct = PRODUCTS.find((p) => {
-    const pSlug = p.slug.toLowerCase().trim();
-    const pDashed = pSlug.replace(/\s+/g, "-");
-    const pNorm = pSlug.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-    const pId = p.id.toLowerCase().trim();
-    const pPart = (p.partNumber || (p as any).sku || "").toLowerCase().trim();
-
-    return (
-      pSlug === clean ||
-      pDashed === dashedClean ||
-      pNorm === normalizedClean ||
-      pPart === clean ||
-      pId === clean ||
-      p.aliasSlugs?.some((a) => {
-        const aLower = a.toLowerCase().trim();
-        return (
-          aLower === clean ||
-          aLower === dashedClean ||
-          aLower.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") === normalizedClean
-        );
-      })
-    );
-  });
-
-  if (staticProduct) {
-    const ov =
-      overrides[staticProduct.id] ||
-      overrides[staticProduct.slug] ||
-      Object.values(overrides).find(
-        (o) =>
-          (o.slug && o.slug.toLowerCase().trim() === staticProduct.slug.toLowerCase().trim()) ||
-          (o.id && o.id.toLowerCase().trim() === staticProduct.id.toLowerCase().trim()) ||
-          (o.partNumber && o.partNumber.toLowerCase().trim() === (staticProduct.partNumber || "").toLowerCase().trim())
-      );
-
-    if (ov?.deleted || ov?.purged) {
-      return null;
-    }
-
-    return applyOverrideToProduct(staticProduct, ov);
   }
 
   return null;
