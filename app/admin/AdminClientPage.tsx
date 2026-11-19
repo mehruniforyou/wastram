@@ -9339,6 +9339,18 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                     );
                   }
                 }
+                if (!matchedCat && product.name) {
+                  const nLower = product.name.toLowerCase();
+                  if (nLower.includes("gown") || nLower.includes("anarkali")) {
+                    matchedCat = allCats.find(c => c.id === "traditional-gowns");
+                  } else if (nLower.includes("kaftan")) {
+                    matchedCat = allCats.find(c => c.id === "short-long-kaftan");
+                  } else if (nLower.includes("cord") || nLower.includes("co-ord")) {
+                    matchedCat = allCats.find(c => c.id === "cord-sets");
+                  } else if (nLower.includes("western") || nLower.includes("dress")) {
+                    matchedCat = allCats.find(c => c.id === "western-dresses");
+                  }
+                }
                 if (!matchedCat && (!normCatId || normCatId === "none" || normCatId === "unassigned") && !product.category && !product.category_name) {
                   return <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>;
                 }
