@@ -216,7 +216,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -277,26 +277,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/IMG-20261019-WA0247.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/IMG-20261019-WA0246.jpg.jpeg",
+          "/traditional-gowns/IMG-20261019-WA0247.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0249.jpg.jpeg"
         ]
       }
@@ -352,18 +338,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
         ]
       }
@@ -417,7 +396,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -474,7 +453,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -531,7 +510,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -590,18 +569,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529217721.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529219448.jpg.jpeg"
         ]
       }
@@ -655,7 +627,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -712,7 +684,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -769,7 +741,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -826,7 +798,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -883,7 +855,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -942,18 +914,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/16790.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/16790.jpg.jpeg",
           "/traditional-gowns/16792.jpg.jpeg"
         ]
       }
@@ -1007,7 +972,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1066,18 +1031,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/PhotoStudio_1668325609300 (1).jpeg",
           "/traditional-gowns/PhotoStudio_1668325609300.jpeg"
         ]
       }
@@ -1131,7 +1089,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1194,34 +1152,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789316452963.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789316456054.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789316450904.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789316452963.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789316456054.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789316471364.jpg.jpeg"
         ]
       }
@@ -1277,18 +1214,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785237557760.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1785237559393.jpg.jpeg"
         ]
       }
@@ -1342,7 +1272,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1401,18 +1331,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781793390515.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1781793392250.jpg.jpeg"
         ]
       }
@@ -1466,7 +1389,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1523,7 +1446,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1580,7 +1503,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1637,7 +1560,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1694,7 +1617,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1751,7 +1674,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1808,7 +1731,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1867,18 +1790,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529215013.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529212558.jpg.jpeg"
         ]
       }
@@ -1932,7 +1848,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -1989,7 +1905,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2046,7 +1962,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2103,7 +2019,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2160,7 +2076,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2217,7 +2133,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2274,7 +2190,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2331,7 +2247,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2388,7 +2304,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2445,7 +2361,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2502,7 +2418,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2559,7 +2475,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2616,7 +2532,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2673,7 +2589,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -2734,26 +2650,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/IMG-20261023-WA0068.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/IMG-20261023-WA0067.jpg.jpeg",
+          "/traditional-gowns/IMG-20261023-WA0068.jpg.jpeg",
           "/traditional-gowns/IMG-20261023-WA0069.jpg.jpeg"
         ]
       }
@@ -2815,42 +2717,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237525312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237528700.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237537480.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785237521033.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237525312.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237528700.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237537480.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1785237550781.jpg.jpeg"
         ]
       }
@@ -2910,34 +2784,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237535297.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237541516.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785237518788.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237535297.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237541516.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1785237531490.jpg.jpeg"
         ]
       }
@@ -2993,18 +2846,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781793387102.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1781793388935.jpg.jpeg"
         ]
       }
@@ -3064,34 +2910,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529949767.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529951814.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529947748.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529949767.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529951814.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529953927.jpg.jpeg"
         ]
       }
@@ -3153,42 +2978,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/16783.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/16784.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/16787.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/16787.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/16783.jpg.jpeg",
+          "/traditional-gowns/16784.jpg.jpeg",
+          "/traditional-gowns/16787.jpg (1).jpeg",
+          "/traditional-gowns/16787.jpg%20(1).jpeg",
           "/traditional-gowns/16787.jpg.jpeg"
         ]
       }
@@ -3246,26 +3043,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529725382.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529723499.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529725382.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529728103.jpg.jpeg"
         ]
       }
@@ -3319,7 +3102,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -3376,7 +3159,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -3435,18 +3218,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529711330.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529715945.jpg.jpeg"
         ]
       }
@@ -3502,18 +3278,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
-          "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1A1A1A",
-        "images": [
+          "/traditional-gowns/IMG-20230202-WA0029 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0029%20(1).jpg.jpeg"
         ]
       }
@@ -3567,7 +3336,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1A1A1A",
         "images": [
@@ -3778,26 +3547,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763368267747.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1763368261871.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1763368267747.jpg.jpeg",
           "/traditional-gowns/IMG-20261008-WA0064.jpg.jpeg"
         ]
       }
@@ -3859,42 +3614,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763368265896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222557.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/PhotoFix_1671790767873.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/traditional-gowns/FB_IMG_1763368263922.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1763368265896.jpg.jpeg",
+          "/traditional-gowns/IMG_20230124_222557.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1671790767873.jpeg",
           "/traditional-gowns/IMG-20261008-WA0063.jpg.jpeg"
         ]
       }
@@ -3970,98 +3697,21 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781793398128.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781793399496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494096819.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494101227.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0036 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0036.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261008-WA0061.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261008-WA0062.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261008-WA0065.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261008-WA0066.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781723134040.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781793398128.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781793399496.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494096819.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494101227.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0036 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0036.jpg.jpeg",
+          "/traditional-gowns/IMG-20261008-WA0061.jpg.jpeg",
+          "/traditional-gowns/IMG-20261008-WA0062.jpg.jpeg",
+          "/traditional-gowns/IMG-20261008-WA0065.jpg.jpeg",
+          "/traditional-gowns/IMG-20261008-WA0066.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0256.jpg.jpeg"
         ]
       }
@@ -4127,58 +3777,16 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237567955.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237570157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237572104.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494082204.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494084298.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785237561289.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237567955.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237570157.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237572104.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494082204.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494084298.jpg.jpeg",
           "/traditional-gowns/16740.jpg.jpeg"
         ]
       }
@@ -4232,7 +3840,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -4297,42 +3905,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16848.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16848.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0037 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789494086212.jpg.jpeg",
+          "/traditional-gowns/16848.jpg (1).jpeg",
+          "/traditional-gowns/16848.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0037 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0037.jpg.jpeg"
         ]
       }
@@ -4388,18 +3968,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789494099022.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529804850.jpg.jpeg"
         ]
       }
@@ -4453,7 +4026,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -4518,42 +4091,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529962053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529964028.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0016 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EAB308",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529959947.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529962053.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529964028.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0016 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0016.jpg.jpeg"
         ]
       }
@@ -4607,7 +4152,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -4664,7 +4209,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -4721,7 +4266,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -4786,42 +4331,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/16848.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0001%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0016%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0036%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/16848.jpg%20(1).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0001%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0016%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0036%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0037%20(1).jpg.jpeg"
         ]
       }
@@ -4875,7 +4392,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -4936,26 +4453,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/PhotoFix_1676132467332.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0001 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/PhotoFix_1676132467332.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0001 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0001.jpg.jpeg"
         ]
       }
@@ -5009,7 +4512,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -5236,106 +4739,22 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1763923106749.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529172352.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529301555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529305558.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529806910.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529808811.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529810744.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529812697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026525239.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026527752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1763923104162.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1763923106749.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529172352.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529301555.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529305558.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529806910.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529808811.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529810744.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529812697.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1791026525239.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1791026527752.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0087.jpg.jpeg",
           "/traditional-gowns/IMG-20261014-WA0088.jpg.jpeg"
         ]
       }
@@ -5399,50 +4818,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/16849.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1763923109776.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781793407060.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529168640.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529170340.jpg.jpeg",
+          "/traditional-gowns/16849.jpg.jpeg",
           "/traditional-gowns/16850.jpg.jpeg"
         ]
       }
@@ -5506,50 +4890,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#C2410C",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781723136212.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529303831.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529308041.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529310232.jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0002 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0002.jpg.jpeg"
         ]
       }
@@ -5603,7 +4952,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -5660,7 +5009,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -5719,18 +5068,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789493957095.jpg.jpeg",
           "/traditional-gowns/16741.jpg.jpeg"
         ]
       }
@@ -5788,26 +5130,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16693.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/FB_IMG_1791026529645.jpg.jpeg",
+          "/traditional-gowns/16693.jpg.jpeg",
           "/traditional-gowns/PhotoFix_1671790865490.jpeg"
         ]
       }
@@ -5863,18 +5191,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/traditional-gowns/16797.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/traditional-gowns/16797.jpg.jpeg",
           "/traditional-gowns/16798.jpg.jpeg"
         ]
       }
@@ -5930,18 +5251,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
-          "/traditional-gowns/16804.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#581C87",
-        "images": [
+          "/traditional-gowns/16804.jpg.jpeg",
           "/traditional-gowns/16803.jpg.jpeg"
         ]
       }
@@ -5999,26 +5313,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/IMG_20230124_222621.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0038 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/traditional-gowns/IMG_20230124_222621.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0038 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0038.jpg.jpeg"
         ]
       }
@@ -6072,7 +5372,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -6133,26 +5433,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/PhotoFix_1676132595429.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0003 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/PhotoFix_1676132595429.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0003 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0003.jpg.jpeg"
         ]
       }
@@ -6214,42 +5500,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0003%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0017%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0038%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/IMG-20230131-WA0002%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0003%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0017%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0038%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0065.jpg%20(1).jpeg"
         ]
       }
@@ -6305,18 +5563,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/IMG-20230202-WA0017 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0017.jpg.jpeg"
         ]
       }
@@ -6374,26 +5625,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0065.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
+          "/traditional-gowns/IMG-20261006-WA0065.jpg (1).jpeg",
+          "/traditional-gowns/IMG-20261006-WA0065.jpg.jpeg",
           "/traditional-gowns/IMG-20261014-WA0086.jpg.jpeg"
         ]
       }
@@ -6447,7 +5684,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -6662,18 +5899,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/traditional-gowns/FB_IMG_1763923115471.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529174518.jpg.jpeg"
         ]
       }
@@ -6737,50 +5967,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725807269.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725811879.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725814791.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0042 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781725804517.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725807269.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725811879.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725814791.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0042 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0042.jpg.jpeg"
         ]
       }
@@ -6840,34 +6035,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222642.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0041 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781725810074.jpg.jpeg",
+          "/traditional-gowns/IMG_20230124_222642.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0041 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0041.jpg.jpeg"
         ]
       }
@@ -6955,146 +6129,27 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784869230496.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784869230496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784869242953.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785237580275.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529539241.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529824845.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529826904.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0007 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0018 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0018.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0040 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0040.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0089.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0090.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0091.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0092.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1784868828164.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1784869230496.jpg (1).jpeg",
+          "/traditional-gowns/FB_IMG_1784869230496.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1784869242953.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785237580275.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529539241.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529824845.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529826904.jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0007 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0018 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0018.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0040 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0040.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0089.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0090.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0091.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0092.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0260.jpg.jpeg"
         ]
       }
@@ -7164,74 +6219,18 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386366650%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0007%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0008%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0018%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0039%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0040%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0041%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/FB_IMG_1784869230496.jpg%20(1).jpeg",
+          "/traditional-gowns/PhotoFix_1674386366650%20(1).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0007%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0008%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0018%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0039%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0040%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0041%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0042%20(1).jpg.jpeg"
         ]
       }
@@ -7289,26 +6288,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493963995.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789493960406.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789493963995.jpg.jpeg",
           "/traditional-gowns/16807.jpg.jpeg"
         ]
       }
@@ -7368,34 +6353,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026542108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026544295.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
+          "/traditional-gowns/FB_IMG_1791026540050.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1791026542108.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1791026544295.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1791026546742.jpg.jpeg"
         ]
       }
@@ -7449,7 +6413,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -7514,42 +6478,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/16742.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0008 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0008.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0039 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/16742.jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0008 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0008.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0039 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0039.jpg.jpeg"
         ]
       }
@@ -7605,18 +6541,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/16805.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/16805.jpg.jpeg",
           "/traditional-gowns/PhotoFix_1676130855569.jpeg"
         ]
       }
@@ -7670,7 +6599,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -7729,18 +6658,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/16880.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/16880.jpg.jpeg",
           "/traditional-gowns/PhotoFix_1676132952869.jpeg"
         ]
       }
@@ -7798,26 +6720,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
-          "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#581C87",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386366650.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#581C87",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674386366650 (1).jpeg",
+          "/traditional-gowns/PhotoFix_1674386366650.jpeg",
           "/traditional-gowns/IMG-20261006-WA0070.jpg.jpeg"
         ]
       }
@@ -8031,58 +6939,16 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725838765.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725844483.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529176653.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529541083.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0043 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1765778341020.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725838765.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725844483.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529176653.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529541083.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0043 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0043.jpg.jpeg"
         ]
       }
@@ -8142,34 +7008,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725842486.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0020 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781725840588.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725842486.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0020 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0020.jpg.jpeg"
         ]
       }
@@ -8225,18 +7070,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/traditional-gowns/FB_IMG_1784869247461.jpg.jpeg",
           "/traditional-gowns/16743.jpg.jpeg"
         ]
       }
@@ -8290,7 +7128,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -8347,7 +7185,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -8404,7 +7242,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -8475,66 +7313,17 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026555046.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026556715.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/FB_IMG_1791026558746.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676131019889.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676131144426.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0009 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/FB_IMG_1791026552946.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1791026555046.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1791026556715.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1791026558746.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1676131019889.jpeg",
+          "/traditional-gowns/PhotoFix_1676131144426.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0009 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0009.jpg.jpeg"
         ]
       }
@@ -8590,18 +7379,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/traditional-gowns/16697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/traditional-gowns/16697.jpg.jpeg",
           "/traditional-gowns/16698.jpg.jpeg"
         ]
       }
@@ -8659,26 +7441,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/16700.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676133105980.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/16700.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1676133105980.jpeg",
           "/traditional-gowns/IMG-20261006-WA0071.jpg.jpeg"
         ]
       }
@@ -8740,42 +7508,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/16808.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0044 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0044.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0045 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/16808.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0044 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0044.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0045 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0045.jpg.jpeg"
         ]
       }
@@ -8837,42 +7577,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/traditional-gowns/16881.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0225.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0226.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0227.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EAB308",
-        "images": [
+          "/traditional-gowns/16881.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0225.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0226.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0227.jpg.jpeg",
           "/traditional-gowns/IMG-20261014-WA0228.jpg.jpeg"
         ]
       }
@@ -8926,7 +7638,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -8987,26 +7699,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386488702 (2).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674386488702 (1).jpeg",
+          "/traditional-gowns/PhotoFix_1674386488702 (2).jpeg",
           "/traditional-gowns/PhotoFix_1674386488702.jpeg"
         ]
       }
@@ -9072,58 +7770,16 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386488702%20(2).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0009%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0020%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0043%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0044%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674386488702%20(1).jpeg",
+          "/traditional-gowns/PhotoFix_1674386488702%20(2).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0009%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0020%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0043%20(1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0044%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0045%20(1).jpg.jpeg"
         ]
       }
@@ -9177,7 +7833,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -9234,7 +7890,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -9451,74 +8107,18 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725868543.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725871300.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1785295969093.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/IMG-20251124-WA0010.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/IMG-20251124-WA0014.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/IMG-20251124-WA0016.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/IMG-20251124-WA0019.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1765778343575.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725868543.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725871300.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1785295969093.jpg.jpeg",
+          "/traditional-gowns/IMG-20251124-WA0010.jpg.jpeg",
+          "/traditional-gowns/IMG-20251124-WA0014.jpg.jpeg",
+          "/traditional-gowns/IMG-20251124-WA0016.jpg.jpeg",
+          "/traditional-gowns/IMG-20251124-WA0019.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0266.jpg.jpeg"
         ]
       }
@@ -9572,7 +8172,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -9635,34 +8235,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16744.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/traditional-gowns/16809.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785295971366.jpg.jpeg",
+          "/traditional-gowns/16744.jpg.jpeg",
+          "/traditional-gowns/16809.jpg.jpeg",
           "/traditional-gowns/IMG-20251124-WA0018.jpg.jpeg"
         ]
       }
@@ -9716,7 +8295,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -9785,58 +8364,16 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529882800.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529884672.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529886390.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529888190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0010 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785295975560.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529882800.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529884672.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529886390.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529888190.jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0010 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0010.jpg.jpeg"
         ]
       }
@@ -9890,7 +8427,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -9955,42 +8492,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0072.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0232.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0233.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#334155",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789493981345.jpg.jpeg",
+          "/traditional-gowns/IMG-20261006-WA0072.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0232.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0233.jpg.jpeg",
           "/traditional-gowns/IMG-20261014-WA0234.jpg.jpeg"
         ]
       }
@@ -10048,26 +8557,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/traditional-gowns/16668.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529187299.jpg.jpeg",
+          "/traditional-gowns/16668.jpg.jpeg",
           "/traditional-gowns/16671.jpg.jpeg"
         ]
       }
@@ -10133,58 +8628,16 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529566331.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529568440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529570716.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529834848.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529838723.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529542831.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529566331.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529568440.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529570716.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529834848.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529838723.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529840760.jpg.jpeg"
         ]
       }
@@ -10238,7 +8691,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -10297,18 +8750,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/16701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/16701.jpg.jpeg",
           "/traditional-gowns/16882.jpg.jpeg"
         ]
       }
@@ -10368,34 +8814,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/IMG_20230124_222720.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG-20251124-WA0009.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG-20251124-WA0012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/traditional-gowns/IMG_20230124_222720.jpg.jpeg",
+          "/traditional-gowns/IMG-20251124-WA0009.jpg.jpeg",
+          "/traditional-gowns/IMG-20251124-WA0012.jpg.jpeg",
           "/traditional-gowns/IMG-20251124-WA0015.jpg.jpeg"
         ]
       }
@@ -10449,7 +8874,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -10514,42 +8939,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325127972%20(1)%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325127972%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0010%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674386561965%20(1).jpeg",
+          "/traditional-gowns/PhotoStudio_1668325127972%20(1)%20(1).jpeg",
+          "/traditional-gowns/PhotoStudio_1668325127972%20(1).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0010%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0021%20(1).jpg.jpeg"
         ]
       }
@@ -10607,26 +9004,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/PhotoFix_1676131229302.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325127972 (1) (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/PhotoFix_1676131229302.jpeg",
+          "/traditional-gowns/PhotoStudio_1668325127972 (1) (1).jpeg",
           "/traditional-gowns/PhotoStudio_1668325127972 (1).jpeg"
         ]
       }
@@ -10682,18 +9065,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/traditional-gowns/IMG-20230202-WA0021 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0021.jpg.jpeg"
         ]
       }
@@ -10747,7 +9123,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -10959,58 +9335,16 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725873208.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529902508.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529904560.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529907680.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529910933.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1765778374144.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725873208.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529902508.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529904560.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529907680.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529910933.jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0074.jpg.jpeg"
         ]
       }
@@ -11064,7 +9398,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -11127,34 +9461,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315794880.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315796678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789315793039.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315794880.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315796678.jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0041.jpg.jpeg"
         ]
       }
@@ -11216,42 +9529,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/18254.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/18255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/18256.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789493983053.jpg.jpeg",
+          "/traditional-gowns/18254.jpg.jpeg",
+          "/traditional-gowns/18255.jpg.jpeg",
+          "/traditional-gowns/18256.jpg.jpeg",
           "/traditional-gowns/18257.jpg.jpeg"
         ]
       }
@@ -11307,18 +9592,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#831843",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529188676.jpg.jpeg",
           "/traditional-gowns/16702.jpg.jpeg"
         ]
       }
@@ -11372,7 +9650,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -11433,26 +9711,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/traditional-gowns/16673.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674386651444 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/traditional-gowns/16673.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1674386651444 (1).jpeg",
           "/traditional-gowns/PhotoFix_1676131362916.jpeg"
         ]
       }
@@ -11506,7 +9770,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -11567,26 +9831,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/traditional-gowns/16745.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/traditional-gowns/16746.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/traditional-gowns/16745.jpg.jpeg",
+          "/traditional-gowns/16746.jpg.jpeg",
           "/traditional-gowns/16747.jpg.jpeg"
         ]
       }
@@ -11640,7 +9890,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -11697,7 +9947,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -11760,34 +10010,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325200238%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0011%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674386651444%20(1).jpeg",
+          "/traditional-gowns/PhotoStudio_1668325200238%20(1).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0011%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0022%20(1).jpg.jpeg"
         ]
       }
@@ -11841,7 +10070,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -11900,18 +10129,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/IMG-20230131-WA0011 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0011.jpg.jpeg"
         ]
       }
@@ -11965,7 +10187,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -12024,18 +10246,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/traditional-gowns/IMG-20261006-WA0039.jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0073.jpg.jpeg"
         ]
       }
@@ -12089,7 +10304,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -12146,7 +10361,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -12359,26 +10574,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725882640.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1765778379371.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725882640.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1781725884976.jpg.jpeg"
         ]
       }
@@ -12440,42 +10641,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914148613.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/FB_IMG_1784914150601.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
-          "/traditional-gowns/16704.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EA580C",
-        "images": [
+          "/traditional-gowns/FB_IMG_1784914129454.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1784914148613.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1784914150601.jpg.jpeg",
+          "/traditional-gowns/16704.jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0042.jpg.jpeg"
         ]
       }
@@ -12529,7 +10702,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
@@ -12596,50 +10769,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/PhotoFix_1671172223617.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0236.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0237.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/IMG-20261014-WA0238.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789315946307.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1671172223617.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0236.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0237.jpg.jpeg",
+          "/traditional-gowns/IMG-20261014-WA0238.jpg.jpeg",
           "/traditional-gowns/IMG-20261014-WA0239.jpg.jpeg"
         ]
       }
@@ -12709,74 +10847,18 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789493999393.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494001626.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529619511.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529621270.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529623083.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529624893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529653883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789493997427.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789493999393.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494001626.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529619511.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529621270.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529623083.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529624893.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529653883.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529655745.jpg.jpeg"
         ]
       }
@@ -12832,18 +10914,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529191398.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529193136.jpg.jpeg"
         ]
       }
@@ -12905,42 +10980,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529599970.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529601903.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/18258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529598132.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529599970.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529601903.jpg.jpeg",
+          "/traditional-gowns/18258.jpg.jpeg",
           "/traditional-gowns/PhotoFix_1676131482383.jpeg"
         ]
       }
@@ -13004,50 +11051,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388637817 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388637817.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325261605 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0012 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529923851.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1674388637817 (1).jpeg",
+          "/traditional-gowns/PhotoFix_1674388637817.jpeg",
+          "/traditional-gowns/PhotoStudio_1668325261605 (1).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0012 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0012.jpg.jpeg"
         ]
       }
@@ -13103,18 +11115,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/traditional-gowns/16676.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/traditional-gowns/16676.jpg.jpeg",
           "/traditional-gowns/16773.jpg.jpeg"
         ]
       }
@@ -13168,7 +11173,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -13225,7 +11230,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -13288,34 +11293,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325261605%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0012%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674388637817%20(1).jpeg",
+          "/traditional-gowns/PhotoStudio_1668325261605%20(1).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0012%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0023%20(1).jpg.jpeg"
         ]
       }
@@ -13371,18 +11355,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/traditional-gowns/IMG-20230202-WA0023 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0023.jpg.jpeg"
         ]
       }
@@ -13436,7 +11413,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -13493,7 +11470,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -13700,58 +11677,16 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1767274444451.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1767274446609.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1767274449064.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725892510.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725894839.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1767274442768.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1767274444451.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1767274446609.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1767274449064.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725892510.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725894839.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529204548.jpg.jpeg"
         ]
       }
@@ -13807,18 +11742,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/traditional-gowns/FB_IMG_1784914154633.jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0044.jpg.jpeg"
         ]
       }
@@ -13882,50 +11810,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315951076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/PhotoFix_1671172320301.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/IMG-20261015-WA0147.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/IMG-20261015-WA0148.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789315949244.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315951076.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1671172320301.jpeg",
+          "/traditional-gowns/IMG-20261015-WA0147.jpg.jpeg",
+          "/traditional-gowns/IMG-20261015-WA0148.jpg.jpeg",
           "/traditional-gowns/IMG-20261015-WA0149.jpg.jpeg"
         ]
       }
@@ -13987,42 +11880,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494026816.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494028886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494030630.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789494024860.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494026816.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494028886.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494030630.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529926308.jpg.jpeg"
         ]
       }
@@ -14080,26 +11945,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/16816.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529657657.jpg.jpeg",
+          "/traditional-gowns/16816.jpg.jpeg",
           "/traditional-gowns/PhotoStudio_1668325315297 (1).jpeg"
         ]
       }
@@ -14153,7 +12004,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -14210,7 +12061,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -14269,18 +12120,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/traditional-gowns/16682.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/traditional-gowns/16682.jpg.jpeg",
           "/traditional-gowns/16684.jpg.jpeg"
         ]
       }
@@ -14344,50 +12188,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/16683.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16775.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/PhotoFix_1676131592395.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0013 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0013.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/16683.jpg.jpeg",
+          "/traditional-gowns/16775.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1676131592395.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0013 (1).jpg.jpeg",
+          "/traditional-gowns/IMG-20230131-WA0013.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0278.jpg.jpeg"
         ]
       }
@@ -14441,7 +12250,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -14498,7 +12307,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -14561,34 +12370,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388778011.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#991B1B",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674388778011 (1).jpeg",
+          "/traditional-gowns/PhotoFix_1674388778011.jpeg",
+          "/traditional-gowns/IMG-20261006-WA0076.jpg.jpeg",
           "/traditional-gowns/IMG-20261015-WA0151.jpg.jpeg"
         ]
       }
@@ -14648,34 +12436,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325315297%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230131-WA0013%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674388778011%20(1).jpeg",
+          "/traditional-gowns/PhotoStudio_1668325315297%20(1).jpeg",
+          "/traditional-gowns/IMG-20230131-WA0013%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0026%20(1).jpg.jpeg"
         ]
       }
@@ -14729,7 +12496,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -14786,7 +12553,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -14988,42 +12755,14 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1768410504256.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1768410508671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/IMG_20230124_222432.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/traditional-gowns/FB_IMG_1768410502230.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1768410504256.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1768410508671.jpg.jpeg",
+          "/traditional-gowns/IMG_20230124_222432.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0213.jpg.jpeg"
         ]
       }
@@ -15097,90 +12836,20 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725897496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781725900255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315953139.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315969081.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494037928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494039797.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494041950.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494044053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529206227.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1768410506437.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725897496.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781725900255.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315953139.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315969081.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494037928.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494039797.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494041950.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494044053.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529206227.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529208390.jpg.jpeg"
         ]
       }
@@ -15240,34 +12909,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1768410512429.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529702460.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1768410510569.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1768410512429.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529702460.jpg.jpeg",
           "/traditional-gowns/16818.jpg.jpeg"
         ]
       }
@@ -15321,7 +12969,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -15380,18 +13028,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529932360.jpg.jpeg",
           "/traditional-gowns/IMG-20230131-WA0014 (1).jpg.jpeg"
         ]
       }
@@ -15445,7 +13086,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -15504,18 +13145,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/16706.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/16706.jpg.jpeg",
           "/traditional-gowns/PhotoFix_1676131922495.jpeg"
         ]
       }
@@ -15569,7 +13203,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -15626,7 +13260,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -15685,18 +13319,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674388877459 (1).jpeg",
           "/traditional-gowns/PhotoFix_1674388877459.jpeg"
         ]
       }
@@ -15754,26 +13381,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325392554%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/PhotoFix_1674388877459%20(1).jpeg",
+          "/traditional-gowns/PhotoStudio_1668325392554%20(1).jpeg",
           "/traditional-gowns/IMG-20230131-WA0014%20(1).jpg.jpeg"
         ]
       }
@@ -15829,18 +13442,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
-          "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#115E59",
-        "images": [
+          "/traditional-gowns/PhotoStudio_1668325392554 (1).jpeg",
           "/traditional-gowns/PhotoStudio_1668325392554.jpeg"
         ]
       }
@@ -15894,7 +13500,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -15953,18 +13559,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/traditional-gowns/IMG-20261006-WA0050.jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0077.jpg.jpeg"
         ]
       }
@@ -16018,7 +13617,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -16231,50 +13830,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781694722195.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781726299666.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781726314239.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789529210230.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781694706861.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781694722195.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781726299666.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781726314239.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789529210230.jpg.jpeg",
           "/traditional-gowns/FB_IMG_1789529707048.jpg.jpeg"
         ]
       }
@@ -16332,26 +13896,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/traditional-gowns/IMG-20261006-WA0051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781694711153.jpg.jpeg",
+          "/traditional-gowns/IMG-20261006-WA0051.jpg.jpeg",
           "/traditional-gowns/IMG-20261006-WA0078.jpg.jpeg"
         ]
       }
@@ -16415,50 +13965,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781726260429.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781726316997.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/FB_IMG_1781726318365.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/traditional-gowns/16708.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/traditional-gowns/FB_IMG_1781694718293.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781726260429.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781726316997.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1781726318365.jpg.jpeg",
+          "/traditional-gowns/16708.jpg.jpeg",
           "/traditional-gowns/16710.jpg.jpeg"
         ]
       }
@@ -16512,7 +14027,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -16573,26 +14088,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0013 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
+          "/traditional-gowns/FB_IMG_1785237515492.jpg.jpeg",
+          "/traditional-gowns/IMG-20230202-WA0013 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0013.jpg.jpeg"
         ]
       }
@@ -16652,34 +14153,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315972756.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789315972756.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789315970939.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789315972756.jpg (1).jpeg",
+          "/traditional-gowns/FB_IMG_1789315972756.jpg.jpeg",
           "/traditional-gowns/PhotoFix_1671172569539.jpeg"
         ]
       }
@@ -16743,50 +14223,15 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/16707.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388966706%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/PhotoStudio_1668325458579%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
-          "/traditional-gowns/IMG-20230202-WA0013%20(1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#8B7355",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789315972756.jpg%20(1).jpeg",
+          "/traditional-gowns/16707.jpg%20(1).jpeg",
+          "/traditional-gowns/PhotoFix_1674388966706%20(1).jpeg",
+          "/traditional-gowns/PhotoStudio_1668325458579%20(1).jpeg",
+          "/traditional-gowns/IMG-20230202-WA0013%20(1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0028%20(1).jpg.jpeg"
         ]
       }
@@ -16846,34 +14291,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494058690.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/traditional-gowns/FB_IMG_1789494060865.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789494056780.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494058690.jpg.jpeg",
+          "/traditional-gowns/FB_IMG_1789494060865.jpg.jpeg",
           "/traditional-gowns/IMG_20230124_222452.jpg.jpeg"
         ]
       }
@@ -16927,7 +14351,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -16986,18 +14410,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/traditional-gowns/FB_IMG_1789529939818.jpg.jpeg",
           "/traditional-gowns/16821.jpg.jpeg"
         ]
       }
@@ -17055,26 +14472,12 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/traditional-gowns/16686.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/traditional-gowns/16687.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/traditional-gowns/16686.jpg.jpeg",
+          "/traditional-gowns/16687.jpg.jpeg",
           "/traditional-gowns/PhotoFix_1676132042346.jpeg"
         ]
       }
@@ -17130,18 +14533,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/traditional-gowns/16707.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/traditional-gowns/16707.jpg (1).jpeg",
           "/traditional-gowns/16707.jpg.jpeg"
         ]
       }
@@ -17195,7 +14591,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -17252,7 +14648,7 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -17311,18 +14707,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/traditional-gowns/16779.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/traditional-gowns/16779.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0238.jpg.jpeg"
         ]
       }
@@ -17378,18 +14767,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/traditional-gowns/16782.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/traditional-gowns/16782.jpg.jpeg",
           "/traditional-gowns/IMG-20261019-WA0237.jpg.jpeg"
         ]
       }
@@ -17449,34 +14831,13 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/traditional-gowns/16819.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388966706 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
-          "/traditional-gowns/PhotoFix_1674388966706.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#18181B",
-        "images": [
+          "/traditional-gowns/16819.jpg.jpeg",
+          "/traditional-gowns/PhotoFix_1674388966706 (1).jpeg",
+          "/traditional-gowns/PhotoFix_1674388966706.jpeg",
           "/traditional-gowns/IMG-20261023-WA0066.jpg.jpeg"
         ]
       }
@@ -17532,18 +14893,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
-          "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#115E59",
-        "images": [
+          "/traditional-gowns/PhotoStudio_1668325458579 (1).jpeg",
           "/traditional-gowns/PhotoStudio_1668325458579.jpeg"
         ]
       }
@@ -17599,18 +14953,11 @@ export const TRADITIONAL_GOWNS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/traditional-gowns/IMG-20230202-WA0028 (1).jpg.jpeg",
           "/traditional-gowns/IMG-20230202-WA0028.jpg.jpeg"
         ]
       }

@@ -258,7 +258,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -323,42 +323,14 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762586259.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762586259.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1752.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1752.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5255.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5255.jpg.jpeg"
         ]
       }
@@ -432,90 +404,20 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762588061.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4894.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA0178.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6684.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6684.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8495.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762588061.jpg.jpeg",
+          "/umbrella-dresses/4894.jpg.jpeg",
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA0178.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0307.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0307.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0978.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0978.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6684.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6684.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8495.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8495.jpg.jpeg"
         ]
       }
@@ -571,18 +473,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/4726.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/4726.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA4078.jpg.jpeg"
         ]
       }
@@ -690,226 +585,37 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/5102.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA7592.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1217.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1217.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1968.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1968.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3206.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3206.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3679.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3679.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4619.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4619.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4932.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4932.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5979.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5979.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8126.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8126.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9584.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9584.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA0016.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/5102.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA7592.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1217.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1217.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1968.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1968.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3206.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3206.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3679.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3679.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3883.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3883.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4619.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4619.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4932.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4932.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5979.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5979.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7108.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7108.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8126.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8126.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9190.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9190.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9584.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9584.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261104-WA0016.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA3546.jpg.jpeg"
         ]
       }
@@ -965,18 +671,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0625.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0625.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0625.jpg.jpeg"
         ]
       }
@@ -1050,90 +749,20 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1370.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1370.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2865.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2865.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5658.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5658.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7853.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7853.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8755.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8755.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1370.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1370.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2865.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2865.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5658.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5658.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7853.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7853.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8755.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8755.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA8110.jpg.jpeg"
         ]
       }
@@ -1193,34 +822,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA2446.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2446.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#0E7490",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4243.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#0E7490",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA2446.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2446.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4243.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4243.jpg.jpeg"
         ]
       }
@@ -1276,18 +884,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6347.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6347.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6347.jpg.jpeg"
         ]
       }
@@ -1343,18 +944,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7586.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7586.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7586.jpg.jpeg"
         ]
       }
@@ -1659,122 +1253,24 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1681114138871.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762590349.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4898.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3247.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3247.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8813.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8813.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8815.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8815.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA4218.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1681114138871.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762590349.jpg.jpeg",
+          "/umbrella-dresses/4898.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0327.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0327.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1999.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1999.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3247.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3247.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8813.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8813.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8815.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8815.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261104-WA4218.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA8308.jpg.jpeg"
         ]
       }
@@ -1892,266 +1388,42 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/4727.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/4728.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/4895.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA7724.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1826.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1826.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2873.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2873.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2878.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2878.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5761.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5761.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6379.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6379.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6715.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6715.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7590.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7590.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8136.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8136.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8497.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8497.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8499.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8499.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9288.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9288.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9589.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9589.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/4727.jpg.jpeg",
+          "/umbrella-dresses/4728.jpg.jpeg",
+          "/umbrella-dresses/4895.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA7724.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1020.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1020.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1826.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1826.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2873.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2873.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2878.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2878.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5338.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5338.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5761.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5761.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6379.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6379.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6715.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6715.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7590.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7590.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8136.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8136.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8497.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8497.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8499.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8499.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9288.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9288.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9589.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9589.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA0066.jpg.jpeg"
         ]
       }
@@ -2211,34 +1483,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/4896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA0179.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2447.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/4896.jpg.jpeg",
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA0179.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2447.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2447.jpg.jpeg"
         ]
       }
@@ -2292,7 +1543,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -2351,18 +1602,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0678.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0678.jpg.jpeg"
         ]
       }
@@ -2418,18 +1662,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1236.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1236.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1236.jpg.jpeg"
         ]
       }
@@ -2497,66 +1734,17 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3702.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3702.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3903.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3903.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4947.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1428.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1428.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3702.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3702.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3903.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3903.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4947.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4947.jpg.jpeg"
         ]
       }
@@ -2612,18 +1800,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4261.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4261.jpg.jpeg"
         ]
       }
@@ -2679,18 +1860,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4668.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4668.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4668.jpg.jpeg"
         ]
       }
@@ -2746,18 +1920,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6007.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6007.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6007.jpg.jpeg"
         ]
       }
@@ -2813,18 +1980,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7177.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7177.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7177.jpg.jpeg"
         ]
       }
@@ -2880,18 +2040,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7866.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7866.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7866.jpg.jpeg"
         ]
       }
@@ -3179,50 +2332,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/FB_IMG_1681114141791.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762592157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/4735.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/4736.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3273.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1681114141791.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762592157.jpg.jpeg",
+          "/umbrella-dresses/4735.jpg.jpeg",
+          "/umbrella-dresses/4736.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3273.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3273.jpg.jpeg"
         ]
       }
@@ -3296,90 +2414,20 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762593957.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4729.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4730.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4960.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4961.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4963.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4964.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4272.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4272.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA0667.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762593957.jpg.jpeg",
+          "/umbrella-dresses/4729.jpg.jpeg",
+          "/umbrella-dresses/4730.jpg.jpeg",
+          "/umbrella-dresses/4960.jpg.jpeg",
+          "/umbrella-dresses/4961.jpg.jpeg",
+          "/umbrella-dresses/4963.jpg.jpeg",
+          "/umbrella-dresses/4964.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4272.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4272.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261104-WA0667.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA4589.jpg.jpeg"
         ]
       }
@@ -3495,258 +2543,41 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/4731.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/4732.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/4733.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/4734.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA1003.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA7751.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0737.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0737.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1029.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1029.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1462.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1462.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5344.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5344.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5769.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5769.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6748.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6748.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7878.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7878.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8505.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8505.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9298.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/4731.jpg.jpeg",
+          "/umbrella-dresses/4732.jpg.jpeg",
+          "/umbrella-dresses/4733.jpg.jpeg",
+          "/umbrella-dresses/4734.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA1003.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA7751.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0338.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0338.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0737.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0737.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1029.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1029.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1462.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1462.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2900.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2900.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3908.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3908.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5344.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5344.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5769.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5769.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6748.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6748.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7878.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7878.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7883.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7883.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8505.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8505.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9298.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9298.jpg.jpeg"
         ]
       }
@@ -3802,18 +2633,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/umbrella-dresses/4969.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/umbrella-dresses/4969.jpg.jpeg",
           "/umbrella-dresses/dresses-images/IMG-20261103-WA0181.jpg.jpeg"
         ]
       }
@@ -3869,18 +2693,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA0180.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA0180.jpg.jpeg",
           "/umbrella-dresses/dresses-images/IMG-20261103-WA0183.jpg.jpeg"
         ]
       }
@@ -3934,7 +2751,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -4021,130 +2838,25 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1238.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1238.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1835.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1835.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4676.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4676.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4983.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4983.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6026.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6026.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7225.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7225.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8823.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1238.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1238.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1835.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1835.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2020.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2020.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4676.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4676.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4983.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4983.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6026.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6026.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7225.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7225.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8823.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8823.jpg.jpeg"
         ]
       }
@@ -4204,34 +2916,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA2505.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2505.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3709.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA2505.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2505.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3709.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3709.jpg.jpeg"
         ]
       }
@@ -4287,18 +2978,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6440.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6440.jpg.jpeg"
         ]
       }
@@ -4362,50 +3046,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7643.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7643.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8154.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8154.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9708.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7643.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7643.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8154.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8154.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9708.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9708.jpg.jpeg"
         ]
       }
@@ -4459,7 +3108,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -4738,7 +3387,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -4847,218 +3496,36 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1696664562201.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1696664565051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1696664567236.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1696664571194.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762596295.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4737.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4970.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4971.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4972.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4973.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4974.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4975.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4976.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4977.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1847.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1847.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3955.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3955.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4281.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4281.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1696664562201.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1696664565051.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1696664567236.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1696664571194.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762596295.jpg.jpeg",
+          "/umbrella-dresses/4737.jpg.jpeg",
+          "/umbrella-dresses/4970.jpg.jpeg",
+          "/umbrella-dresses/4971.jpg.jpeg",
+          "/umbrella-dresses/4972.jpg.jpeg",
+          "/umbrella-dresses/4973.jpg.jpeg",
+          "/umbrella-dresses/4974.jpg.jpeg",
+          "/umbrella-dresses/4975.jpg.jpeg",
+          "/umbrella-dresses/4976.jpg.jpeg",
+          "/umbrella-dresses/4977.jpg.jpeg",
+          "/umbrella-dresses/4978.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1847.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1847.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3955.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3955.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4281.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4281.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7900.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7900.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8176.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8176.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8888.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8888.jpg.jpeg"
         ]
       }
@@ -5112,7 +3579,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
@@ -5169,7 +3636,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -5238,58 +3705,16 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA0187.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0763.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0763.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7271.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7271.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9738.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA0187.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0763.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0763.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7271.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7271.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9738.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9738.jpg.jpeg"
         ]
       }
@@ -5375,138 +3800,26 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0368.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0368.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1249.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1249.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2530.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2530.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3281.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3281.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6044.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6044.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8510.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8510.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0368.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0368.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1249.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1249.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2530.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2530.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3281.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3281.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6044.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6044.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6045.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6045.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6050.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6050.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8510.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8510.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA4958.jpg.jpeg"
         ]
       }
@@ -5580,90 +3893,20 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1522.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1522.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5416.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5416.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6463.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6463.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1045.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1045.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1522.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1522.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2050.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2050.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5416.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5416.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6463.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6463.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA0785.jpg.jpeg"
         ]
       }
@@ -5719,18 +3962,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA2922.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA2922.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2922.jpg.jpeg"
         ]
       }
@@ -5790,34 +4026,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA3745.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3745.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5775.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA3745.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3745.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5775.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5775.jpg.jpeg"
         ]
       }
@@ -5877,34 +4092,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4705.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4705.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4992.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4705.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4705.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4992.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4992.jpg.jpeg"
         ]
       }
@@ -5960,18 +4154,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6799.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6799.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6799.jpg.jpeg"
         ]
       }
@@ -6027,18 +4214,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7652.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7652.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7652.jpg.jpeg"
         ]
       }
@@ -6094,18 +4274,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA9312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#831843",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA9312.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9312.jpg.jpeg"
         ]
       }
@@ -6397,98 +4570,21 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1698290204991.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1698290208695.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1698290210615.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4738.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4979.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2945.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2945.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7323.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7323.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1698290204991.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1698290208695.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1698290210615.jpg.jpeg",
+          "/umbrella-dresses/4738.jpg.jpeg",
+          "/umbrella-dresses/4979.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2945.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2945.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5440.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5440.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7323.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7323.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA5099.jpg.jpeg"
         ]
       }
@@ -6542,7 +4638,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -6603,26 +4699,12 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762598132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7681.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762598132.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7681.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7681.jpg.jpeg"
         ]
       }
@@ -6680,26 +4762,12 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA1856.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2544.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA1856.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2544.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2544.jpg.jpeg"
         ]
       }
@@ -6805,218 +4873,36 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA8209.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0774.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0774.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1538.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1538.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1858.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1858.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2124.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2124.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4719.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4719.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5015.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5015.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6070.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6070.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6477.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6477.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8189.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8189.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8514.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8514.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9342.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9342.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9765.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8209.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0774.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0774.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1079.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1079.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1538.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1538.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1858.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1858.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2124.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2124.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4719.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4719.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5015.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5015.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6070.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6070.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6477.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6477.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8189.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8189.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8514.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8514.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9342.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9342.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9765.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9765.jpg.jpeg"
         ]
       }
@@ -7078,42 +4964,14 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA0190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0382.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0382.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1253.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA0190.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0382.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0382.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1253.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1253.jpg.jpeg"
         ]
       }
@@ -7181,66 +5039,17 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1857.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1857.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3996.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3996.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5781.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5781.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6805.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1857.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1857.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3996.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3996.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5781.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5781.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6805.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6805.jpg.jpeg"
         ]
       }
@@ -7304,50 +5113,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA3282.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3282.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3796.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3796.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7913.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA3282.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3282.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3796.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3796.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7913.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7913.jpg.jpeg"
         ]
       }
@@ -7403,18 +5177,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4282.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4282.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4282.jpg.jpeg"
         ]
       }
@@ -7470,18 +5237,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA8894.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA8894.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8894.jpg.jpeg"
         ]
       }
@@ -7537,18 +5297,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA9345.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA9345.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9345.jpg.jpeg"
         ]
       }
@@ -7602,7 +5355,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -7938,234 +5691,38 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762532346.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762535775.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762537501.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4832.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4833.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4980.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4981.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4982.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4983.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4984.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4985.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261102-WA2384.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261102-WA2384.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0388.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0388.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0815.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0815.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1098.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1098.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4733.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4733.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6563.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6563.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7919.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7919.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8544.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762532346.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762535775.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762537501.jpg.jpeg",
+          "/umbrella-dresses/4832.jpg.jpeg",
+          "/umbrella-dresses/4833.jpg.jpeg",
+          "/umbrella-dresses/4980.jpg.jpeg",
+          "/umbrella-dresses/4981.jpg.jpeg",
+          "/umbrella-dresses/4982.jpg.jpeg",
+          "/umbrella-dresses/4983.jpg.jpeg",
+          "/umbrella-dresses/4984.jpg.jpeg",
+          "/umbrella-dresses/4985.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261102-WA2384.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261102-WA2384.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0388.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0388.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0815.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0815.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1098.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1098.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4733.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4733.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6563.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6563.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7327.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7327.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7919.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7919.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8544.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8544.jpg.jpeg"
         ]
       }
@@ -8237,82 +5794,19 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762599938.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/4986.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2650.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2650.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2966.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2966.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9823.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762599938.jpg.jpeg",
+          "/umbrella-dresses/4986.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2650.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2650.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2966.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2966.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6886.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6886.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9823.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9823.jpg.jpeg"
         ]
       }
@@ -8422,234 +5916,38 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/IMG-20261102-WA8436.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261102-WA8436.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1864.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1864.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2964.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2964.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3800.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3800.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4007.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4007.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4406.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4406.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5499.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5499.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5803.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5803.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6568.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6568.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8931.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8931.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/IMG-20261102-WA8436.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261102-WA8436.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1547.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1547.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1864.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1864.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2964.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2964.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3800.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3800.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4007.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4007.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4406.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4406.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5021.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5021.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5499.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5499.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5500.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5500.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5803.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5803.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6568.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6568.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8931.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8931.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9357.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9357.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA1292.jpg.jpeg"
         ]
       }
@@ -8709,34 +6007,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0218.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0218.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6123.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0218.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0218.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6123.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6123.jpg.jpeg"
         ]
       }
@@ -8792,18 +6069,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1260.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1260.jpg.jpeg"
         ]
       }
@@ -8859,18 +6129,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA2125.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA2125.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2125.jpg.jpeg"
         ]
       }
@@ -8926,18 +6189,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA3357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA3357.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3357.jpg.jpeg"
         ]
       }
@@ -8993,18 +6249,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7724.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7724.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7724.jpg.jpeg"
         ]
       }
@@ -9060,18 +6309,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA8257.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA8257.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8257.jpg.jpeg"
         ]
       }
@@ -9125,7 +6367,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -9416,50 +6658,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762539223.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762602307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5809.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5809.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9914.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762539223.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762602307.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5809.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5809.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9914.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9914.jpg.jpeg"
         ]
       }
@@ -9517,26 +6724,12 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762604274.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4423.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762604274.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4423.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4423.jpg.jpeg"
         ]
       }
@@ -9632,178 +6825,31 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/4834.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/4987.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA3436.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0846.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0846.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1133.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1133.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1610.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1610.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2655.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2655.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2976.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2976.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5517.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5517.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7333.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7333.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7944.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7944.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/4834.jpg.jpeg",
+          "/umbrella-dresses/4987.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA3436.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0846.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0846.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1132.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1132.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1133.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1133.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1610.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1610.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2655.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2655.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2976.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2976.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5517.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5517.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7333.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7333.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7944.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7944.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA6639.jpg.jpeg"
         ]
       }
@@ -9865,42 +6911,14 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA8929.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8276.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8276.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9399.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EAB308",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA8929.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8276.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8276.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9399.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9399.jpg.jpeg"
         ]
       }
@@ -9964,50 +6982,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0229.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0229.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3824.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3824.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6951.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0229.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0229.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3824.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3824.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6951.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6951.jpg.jpeg"
         ]
       }
@@ -10071,50 +7054,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0412.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0412.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4043.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4043.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8980.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0412.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0412.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4043.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4043.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8980.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8980.jpg.jpeg"
         ]
       }
@@ -10174,34 +7122,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8572.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1261.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1261.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8572.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8572.jpg.jpeg"
         ]
       }
@@ -10275,90 +7202,20 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1875.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1875.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2183.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2183.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2290.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2290.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4046.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4046.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA4736.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6129.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1875.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1875.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2183.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2183.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2290.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2290.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4046.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4046.jpg.jpeg",
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA4736.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6129.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6129.jpg.jpeg"
         ]
       }
@@ -10414,18 +7271,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA3378.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA3378.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3378.jpg.jpeg"
         ]
       }
@@ -10485,34 +7335,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA5069.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5069.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8570.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA5069.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5069.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8570.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8570.jpg.jpeg"
         ]
       }
@@ -10568,18 +7397,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6577.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6577.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6577.jpg.jpeg"
         ]
       }
@@ -10635,18 +7457,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7728.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7728.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7728.jpg.jpeg"
         ]
       }
@@ -10700,7 +7515,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -11016,162 +7831,29 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762541218.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762543086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762544904.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762547104.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762548874.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762557491.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762559739.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762561563.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762563364.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762566020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762613498.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2986.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2986.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5901.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762541218.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762543086.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762544904.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762547104.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762548874.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762557491.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762559739.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762561563.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762563364.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762566020.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762613498.jpg.jpeg",
+          "/umbrella-dresses/5076.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2986.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2986.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4084.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4084.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5555.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5555.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5901.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5901.jpg.jpeg"
         ]
       }
@@ -11231,34 +7913,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762607903.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762616331.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762607903.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762616331.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0012.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0012.jpg.jpeg"
         ]
       }
@@ -11322,50 +7983,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762609801.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762611604.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6975.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6975.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DB2777",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9412.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762609801.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762611604.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6975.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6975.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9412.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9412.jpg.jpeg"
         ]
       }
@@ -11471,218 +8097,36 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/4835.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0461.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0461.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1276.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1276.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1644.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1644.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2682.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2682.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3841.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3841.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4738.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4738.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7372.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7372.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7966.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7966.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8590.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8590.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9032.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9032.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9941.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/4835.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0461.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0461.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1276.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1276.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1644.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1644.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1887.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1887.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2682.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2682.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3841.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3841.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4738.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4738.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7372.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7372.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7752.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7752.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7966.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7966.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8590.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8590.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9032.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9032.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9941.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9941.jpg.jpeg"
         ]
       }
@@ -11736,7 +8180,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -11793,7 +8237,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
@@ -11854,26 +8298,12 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA3458.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6600.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA3458.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6600.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6600.jpg.jpeg"
         ]
       }
@@ -11929,18 +8359,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0230.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0230.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0230.jpg.jpeg"
         ]
       }
@@ -11998,26 +8421,12 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA0847.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3414.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA0847.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3414.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3414.jpg.jpeg"
         ]
       }
@@ -12073,18 +8482,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1155.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#581C87",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1155.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1155.jpg.jpeg"
         ]
       }
@@ -12140,18 +8542,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA2352.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA2352.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2352.jpg.jpeg"
         ]
       }
@@ -12207,18 +8602,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4424.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4424.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4424.jpg.jpeg"
         ]
       }
@@ -12278,34 +8666,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA5078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA5078.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5078.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8356.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8356.jpg.jpeg"
         ]
       }
@@ -12363,26 +8730,12 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6193.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6193.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6193.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6193.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA2084.jpg.jpeg"
         ]
       }
@@ -12436,7 +8789,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -12774,226 +9127,37 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762568069.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762618279.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762620085.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762621859.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762623562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762626777.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762631851.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4837.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4838.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4840.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4841.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5081.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5082.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5083.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5085.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6197.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6197.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7380.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7380.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8604.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8604.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762568069.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762618279.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762620085.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762621859.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762623562.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762626777.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762631851.jpg.jpeg",
+          "/umbrella-dresses/4837.jpg.jpeg",
+          "/umbrella-dresses/4838.jpg.jpeg",
+          "/umbrella-dresses/4840.jpg.jpeg",
+          "/umbrella-dresses/4841.jpg.jpeg",
+          "/umbrella-dresses/5081.jpg.jpeg",
+          "/umbrella-dresses/5082.jpg.jpeg",
+          "/umbrella-dresses/5083.jpg.jpeg",
+          "/umbrella-dresses/5084.jpg.jpeg",
+          "/umbrella-dresses/5085.jpg.jpeg",
+          "/umbrella-dresses/5086.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1313.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1313.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5562.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5562.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6197.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6197.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7380.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7380.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8604.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8604.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA2169.jpg.jpeg"
         ]
       }
@@ -13085,162 +9249,29 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA3968.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0054.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0054.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0889.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0889.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3457.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3457.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4446.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4446.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5905.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5905.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6602.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6602.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9953.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9953.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA3968.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0054.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0054.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0889.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0889.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3050.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3050.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3457.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3457.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4446.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4446.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5905.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5905.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6602.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6602.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8357.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8357.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9953.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9953.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA6823.jpg.jpeg"
         ]
       }
@@ -13316,98 +9347,21 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0248.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0248.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4158.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4158.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5134.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5134.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7774.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7774.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9036.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0053.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0053.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0248.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0248.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4158.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4158.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5134.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5134.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7774.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7774.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9036.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9036.jpg.jpeg"
         ]
       }
@@ -13463,18 +9417,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0502.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0502.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0502.jpg.jpeg"
         ]
       }
@@ -13538,50 +9485,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EA580C",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4748.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#EA580C",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1157.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1157.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1893.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1893.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4748.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4748.jpg.jpeg"
         ]
       }
@@ -13645,50 +9557,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1683.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1683.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2700.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2700.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9443.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1683.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1683.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2700.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2700.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9443.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9443.jpg.jpeg"
         ]
       }
@@ -13744,18 +9621,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA2381.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA2381.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2381.jpg.jpeg"
         ]
       }
@@ -13811,18 +9681,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA3845.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA3845.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3845.jpg.jpeg"
         ]
       }
@@ -13882,34 +9745,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7777.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6978.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6978.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7777.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7777.jpg.jpeg"
         ]
       }
@@ -13965,18 +9807,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA8000.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA8000.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8000.jpg.jpeg"
         ]
       }
@@ -14270,98 +10105,21 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762569928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1162.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1162.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1690.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1690.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3061.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3061.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3849.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3849.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4167.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762569928.jpg.jpeg",
+          "/umbrella-dresses/5087.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1162.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1162.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1690.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1690.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3061.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3061.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3849.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3849.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4167.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4167.jpg.jpeg"
         ]
       }
@@ -14473,242 +10231,39 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762633502.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0254.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0254.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0543.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0543.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0902.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0902.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1687.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1687.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1689.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1689.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1904.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1904.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2711.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2711.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3460.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3460.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5938.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5938.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7450.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7450.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8609.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8609.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9959.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9959.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762633502.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0254.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0254.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0543.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0543.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0902.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0902.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1687.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1687.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1689.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1689.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1904.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1904.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2394.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2394.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2711.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2711.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3460.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3460.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5938.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5938.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7450.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7450.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8609.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8609.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9500.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9500.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9959.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9959.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA2457.jpg.jpeg"
         ]
       }
@@ -14762,7 +10317,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -14823,26 +10378,12 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA4798.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7834.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA4798.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7834.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7834.jpg.jpeg"
         ]
       }
@@ -14898,18 +10439,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0086.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0086.jpg.jpeg"
         ]
       }
@@ -14977,66 +10511,17 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1320.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1320.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6241.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6241.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8014.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0900.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0900.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1320.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1320.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6241.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6241.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8014.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8014.jpg.jpeg"
         ]
       }
@@ -15104,66 +10589,17 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4467.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4467.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5146.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5146.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7447.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7447.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9048.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4467.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4467.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5146.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5146.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7447.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7447.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9048.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9048.jpg.jpeg"
         ]
       }
@@ -15227,50 +10663,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5593.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5593.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6665.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4760.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4760.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5593.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5593.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6665.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6665.jpg.jpeg"
         ]
       }
@@ -15326,18 +10727,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7007.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7007.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7007.jpg.jpeg"
         ]
       }
@@ -15393,18 +10787,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA8359.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#16A34A",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA8359.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8359.jpg.jpeg"
         ]
       }
@@ -15458,7 +10845,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -15779,154 +11166,28 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762571785.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762635163.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762637308.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762639066.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4843.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/4844.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5088.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5089.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5090.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5091.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5092.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0290.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0290.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/dresses-images/IMG-20261103-WA0969.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2424.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2424.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3874.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3874.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762571785.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762635163.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762637308.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762639066.jpg.jpeg",
+          "/umbrella-dresses/4843.jpg.jpeg",
+          "/umbrella-dresses/4844.jpg.jpeg",
+          "/umbrella-dresses/5088.jpg.jpeg",
+          "/umbrella-dresses/5089.jpg.jpeg",
+          "/umbrella-dresses/5090.jpg.jpeg",
+          "/umbrella-dresses/5091.jpg.jpeg",
+          "/umbrella-dresses/5092.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0290.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0290.jpg.jpeg",
+          "/umbrella-dresses/dresses-images/IMG-20261103-WA0969.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2424.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2424.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3874.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3874.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA7870.jpg.jpeg"
         ]
       }
@@ -16032,218 +11293,36 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762573602.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA5068.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1360.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1360.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3577.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3577.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5179.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5179.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5635.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5635.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5944.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5944.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7036.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7036.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8654.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8654.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9066.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9066.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9965.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9965.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762573602.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA5068.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1360.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1360.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1908.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1908.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3577.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3577.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4190.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4190.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5179.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5179.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5635.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5635.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5944.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5944.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7036.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7036.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8654.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8654.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9066.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9066.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9547.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9547.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9965.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9965.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA3229.jpg.jpeg"
         ]
       }
@@ -16299,18 +11378,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762642249.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762642249.jpg.jpeg",
           "/umbrella-dresses/FB_IMG_1741762644103.jpg.jpeg"
         ]
       }
@@ -16384,90 +11456,20 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762645992.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3074.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3074.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6672.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6672.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7841.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7841.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8651.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762645992.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1701.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1701.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3074.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3074.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6672.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6672.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7841.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7841.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8651.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8651.jpg.jpeg"
         ]
       }
@@ -16523,18 +11525,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0127.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0127.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0127.jpg.jpeg"
         ]
       }
@@ -16614,114 +11609,23 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0580.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0580.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0970.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0970.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2755.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2755.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4519.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4519.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4814.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4814.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8029.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8029.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8486.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0580.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0580.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0970.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0970.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2755.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2755.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4519.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4519.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4814.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4814.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8029.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8029.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8486.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8486.jpg.jpeg"
         ]
       }
@@ -16777,18 +11681,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1184.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#16A34A",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1184.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1184.jpg.jpeg"
         ]
       }
@@ -16844,18 +11741,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6293.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6293.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6293.jpg.jpeg"
         ]
       }
@@ -16911,18 +11801,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA7508.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA7508.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7508.jpg.jpeg"
         ]
       }
@@ -16978,18 +11861,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA8655.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA8655.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8655.jpg.jpeg"
         ]
       }
@@ -17317,218 +12193,36 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762575528.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762577799.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762579598.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762581453.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762583207.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762647826.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762649579.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762651384.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762653574.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5093.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5094.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5095.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5096.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5098.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5099.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5100.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/5101.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA2821.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2821.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5652.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5652.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7851.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7851.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9995.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9995.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762575528.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762577799.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762579598.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762581453.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762583207.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762647826.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762649579.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762651384.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762653574.jpg.jpeg",
+          "/umbrella-dresses/5093.jpg.jpeg",
+          "/umbrella-dresses/5094.jpg.jpeg",
+          "/umbrella-dresses/5095.jpg.jpeg",
+          "/umbrella-dresses/5096.jpg.jpeg",
+          "/umbrella-dresses/5097.jpg.jpeg",
+          "/umbrella-dresses/5098.jpg.jpeg",
+          "/umbrella-dresses/5099.jpg.jpeg",
+          "/umbrella-dresses/5100.jpg.jpeg",
+          "/umbrella-dresses/5101.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA2821.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2821.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5652.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5652.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7851.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7851.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9995.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9995.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA3294.jpg.jpeg"
         ]
       }
@@ -17588,34 +12282,13 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/umbrella-dresses/FB_IMG_1741762657016.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762658821.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#0E7490",
-        "images": [
-          "/umbrella-dresses/FB_IMG_1741762660836.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#0E7490",
-        "images": [
+          "/umbrella-dresses/FB_IMG_1741762657016.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762658821.jpg.jpeg",
+          "/umbrella-dresses/FB_IMG_1741762660836.jpg.jpeg",
           "/umbrella-dresses/FB_IMG_1741762655293.jpg.jpeg"
         ]
       }
@@ -17677,42 +12350,14 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/umbrella-dresses/4892.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA0304.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0304.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5204.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/umbrella-dresses/4892.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA0304.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0304.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5204.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5204.jpg.jpeg"
         ]
       }
@@ -17774,42 +12419,14 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/umbrella-dresses/4893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1959.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1959.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3083.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/umbrella-dresses/4893.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1959.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1959.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3083.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3083.jpg.jpeg"
         ]
       }
@@ -17863,7 +12480,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
@@ -17920,7 +12537,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -17977,7 +12594,7 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -18050,74 +12667,18 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0617.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0617.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA1195.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1195.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA3881.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3881.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0617.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0617.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA1195.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1195.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3646.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3646.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA3881.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA3881.jpg.jpeg",
           "/umbrella-dresses/dresses-images/IMG-20261103-WA8111.jpg.jpeg"
         ]
       }
@@ -18199,122 +12760,24 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA0975.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0975.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4592.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4592.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA5965.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5965.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA6678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7094.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7094.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA7556.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7556.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8487.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8487.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA0975.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA0975.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4592.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4592.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA5965.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA5965.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA6678.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6678.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7094.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7094.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA7556.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA7556.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8487.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8487.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA8070.jpg.jpeg"
         ]
       }
@@ -18370,18 +12833,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1362.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1362.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1362.jpg.jpeg"
         ]
       }
@@ -18445,50 +12901,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA1744.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1744.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA4226.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4226.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EAB308",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#EAB308",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA1744.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA1744.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA4226.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4226.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9555.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9555.jpg.jpeg"
         ]
       }
@@ -18552,50 +12973,15 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA2440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA8697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/umbrella-dresses/IMG-20261103-WA9137.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA2440.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA2440.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA8697.jpg.jpeg",
+          "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA8697.jpg.jpeg",
+          "/umbrella-dresses/IMG-20261103-WA9137.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA9137.jpg.jpeg"
         ]
       }
@@ -18651,18 +13037,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA4824.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA4824.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA4824.jpg.jpeg"
         ]
       }
@@ -18718,18 +13097,11 @@ export const UMBRELLA_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/umbrella-dresses/IMG-20261103-WA6331.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/umbrella-dresses/IMG-20261103-WA6331.jpg.jpeg",
           "/umbrella-dresses/new-umbrella-dress/IMG-20261103-WA6331.jpg.jpeg"
         ]
       }

@@ -563,426 +563,62 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772121145.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772125783.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772128137.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/1806.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5488.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5758.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5759.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5869.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5870.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5943.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5944.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6056.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6116.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6205.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6206.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6269.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6270.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6272.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6311.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6401.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9696.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10277.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10634.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11085.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11179.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11534.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11535.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11782.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11930.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12256.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12470.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12944.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13649.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13650.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/61299.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/70751.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1631.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2121.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4142.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5766.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-49",
-        "name": "Styling 49",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-50",
-        "name": "Styling 50",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6426.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-51",
-        "name": "Styling 51",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-52",
-        "name": "Styling 52",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-53",
-        "name": "Styling 53",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/FB_IMG_1765772121145.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772125783.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772128137.jpg.jpeg",
+          "/western-dresses/1806.jpg.jpeg",
+          "/western-dresses/5488.jpg.jpeg",
+          "/western-dresses/5758.jpg.jpeg",
+          "/western-dresses/5759.jpg.jpeg",
+          "/western-dresses/5760.jpg.jpeg",
+          "/western-dresses/5869.jpg.jpeg",
+          "/western-dresses/5870.jpg.jpeg",
+          "/western-dresses/5943.jpg.jpeg",
+          "/western-dresses/5944.jpg.jpeg",
+          "/western-dresses/6056.jpg.jpeg",
+          "/western-dresses/6116.jpg.jpeg",
+          "/western-dresses/6205.jpg.jpeg",
+          "/western-dresses/6206.jpg.jpeg",
+          "/western-dresses/6269.jpg.jpeg",
+          "/western-dresses/6270.jpg.jpeg",
+          "/western-dresses/6272.jpg.jpeg",
+          "/western-dresses/6311.jpg.jpeg",
+          "/western-dresses/6401.jpg.jpeg",
+          "/western-dresses/9696.jpg.jpeg",
+          "/western-dresses/10277.jpg.jpeg",
+          "/western-dresses/10634.jpg.jpeg",
+          "/western-dresses/11085.jpg.jpeg",
+          "/western-dresses/11086.jpg.jpeg",
+          "/western-dresses/11179.jpg.jpeg",
+          "/western-dresses/11534.jpg.jpeg",
+          "/western-dresses/11535.jpg.jpeg",
+          "/western-dresses/11671.jpg.jpeg",
+          "/western-dresses/11782.jpg.jpeg",
+          "/western-dresses/11930.jpg.jpeg",
+          "/western-dresses/12256.jpg.jpeg",
+          "/western-dresses/12470.jpg.jpeg",
+          "/western-dresses/12944.jpg.jpeg",
+          "/western-dresses/13356.jpg.jpeg",
+          "/western-dresses/13649.jpg.jpeg",
+          "/western-dresses/13650.jpg.jpeg",
+          "/western-dresses/61299.jpg.jpeg",
+          "/western-dresses/70751.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA1041.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1631.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1631.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2121.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2121.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4142.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4142.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5766.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5766.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6426.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6426.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7394.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7394.jpg.jpeg"
         ]
       }
@@ -1044,42 +680,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/western-dresses/5601.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/5602.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/5603.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/western-dresses/5601.jpg.jpeg",
+          "/western-dresses/5602.jpg.jpeg",
+          "/western-dresses/5603.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8646.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8646.jpg.jpeg"
         ]
       }
@@ -1151,82 +759,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5679.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5794.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5795.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6144.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6372.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6526.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9935.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4737.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5679.jpg.jpeg",
+          "/western-dresses/5794.jpg.jpeg",
+          "/western-dresses/5795.jpg.jpeg",
+          "/western-dresses/6144.jpg.jpeg",
+          "/western-dresses/6372.jpg.jpeg",
+          "/western-dresses/6526.jpg.jpeg",
+          "/western-dresses/9935.jpg.jpeg",
+          "/western-dresses/12108.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4737.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4737.jpg.jpeg"
         ]
       }
@@ -1310,130 +855,25 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/5965.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5966.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5967.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6057.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6232.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6400.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/10871.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/10872.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0796.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/5965.jpg.jpeg",
+          "/western-dresses/5966.jpg.jpeg",
+          "/western-dresses/5967.jpg.jpeg",
+          "/western-dresses/6057.jpg.jpeg",
+          "/western-dresses/6232.jpg.jpeg",
+          "/western-dresses/6400.jpg.jpeg",
+          "/western-dresses/10871.jpg.jpeg",
+          "/western-dresses/10872.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0796.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0796.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3312.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3312.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5398.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5398.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8132.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8132.jpg.jpeg"
         ]
       }
@@ -1489,18 +929,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6092.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6092.jpg.jpeg",
           "/western-dresses/6176.jpg.jpeg"
         ]
       }
@@ -1570,74 +1003,18 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/6117.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6348.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11399.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11533.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11929.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12153.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12155.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12334.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/6117.jpg.jpeg",
+          "/western-dresses/6348.jpg.jpeg",
+          "/western-dresses/11399.jpg.jpeg",
+          "/western-dresses/11533.jpg.jpeg",
+          "/western-dresses/11929.jpg.jpeg",
+          "/western-dresses/12153.jpg.jpeg",
+          "/western-dresses/12155.jpg.jpeg",
+          "/western-dresses/12334.jpg.jpeg",
           "/western-dresses/16728.jpg.jpeg"
         ]
       }
@@ -1691,7 +1068,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -1748,7 +1125,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -1817,58 +1194,16 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/11267.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/11493.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0146.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6995.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/11267.jpg.jpeg",
+          "/western-dresses/11493.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA5884.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0146.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0146.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6995.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6995.jpg.jpeg"
         ]
       }
@@ -1926,26 +1261,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/11316.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9302.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/11316.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9302.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9302.jpg.jpeg"
         ]
       }
@@ -1999,7 +1320,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -2060,26 +1381,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/11931.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2712.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/11931.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2712.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2712.jpg.jpeg"
         ]
       }
@@ -2135,18 +1442,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/western-dresses/IMG-20261103-WA9775.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/western-dresses/IMG-20261103-WA9775.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9775.jpg.jpeg"
         ]
       }
@@ -2714,378 +2014,56 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772130401.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772133882.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/1886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5490.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5612.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5680.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6093.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6207.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6208.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6234.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6239.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6240.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6241.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6314.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10278.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10875.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11088.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11268.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11269.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11319.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11318.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11494.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11840.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11841.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11932.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12257.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12980.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13374.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16729.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/61302.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/70752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1689.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2777.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2777.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3470.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3470.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6534.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/FB_IMG_1765772130401.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772133882.jpg.jpeg",
+          "/western-dresses/1886.jpg.jpeg",
+          "/western-dresses/5490.jpg.jpeg",
+          "/western-dresses/5612.jpg.jpeg",
+          "/western-dresses/5680.jpg.jpeg",
+          "/western-dresses/6093.jpg.jpeg",
+          "/western-dresses/6207.jpg.jpeg",
+          "/western-dresses/6208.jpg.jpeg",
+          "/western-dresses/6234.jpg.jpeg",
+          "/western-dresses/6239.jpg.jpeg",
+          "/western-dresses/6240.jpg.jpeg",
+          "/western-dresses/6241.jpg.jpeg",
+          "/western-dresses/6314.jpg.jpeg",
+          "/western-dresses/6404.jpg.jpeg",
+          "/western-dresses/10278.jpg.jpeg",
+          "/western-dresses/10875.jpg.jpeg",
+          "/western-dresses/11088.jpg.jpeg",
+          "/western-dresses/11268.jpg.jpeg",
+          "/western-dresses/11269.jpg.jpeg",
+          "/western-dresses/11319.jpg.jpeg",
+          "/western-dresses/11318.jpg.jpeg",
+          "/western-dresses/11494.jpg.jpeg",
+          "/western-dresses/11840.jpg.jpeg",
+          "/western-dresses/11841.jpg.jpeg",
+          "/western-dresses/11932.jpg.jpeg",
+          "/western-dresses/12257.jpg.jpeg",
+          "/western-dresses/12980.jpg.jpeg",
+          "/western-dresses/13374.jpg.jpeg",
+          "/western-dresses/16729.jpg.jpeg",
+          "/western-dresses/61302.jpg.jpeg",
+          "/western-dresses/70752.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA1415.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0999.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0999.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1689.jpg (1).jpeg",
+          "/western-dresses/IMG-20261103-WA2258.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2258.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2777.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2777.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3470.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3470.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6534.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6534.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8157.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8157.jpg.jpeg"
         ]
       }
@@ -3139,7 +2117,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -3198,18 +2176,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/5762.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/5762.jpg.jpeg",
           "/western-dresses/5871.jpg.jpeg"
         ]
       }
@@ -3277,66 +2248,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/5796.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6127.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/10635.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11536.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8699.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/5796.jpg.jpeg",
+          "/western-dresses/6127.jpg.jpeg",
+          "/western-dresses/10635.jpg.jpeg",
+          "/western-dresses/11536.jpg.jpeg",
+          "/western-dresses/12156.jpg.jpeg",
+          "/western-dresses/12157.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8699.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8699.jpg.jpeg"
         ]
       }
@@ -3432,178 +2354,31 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5947.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5949.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5977.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5981.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5982.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6058.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6060.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6061.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6146.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6177.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9559.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9560.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9560.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12121.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12361.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12477.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4753.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9891.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5947.jpg.jpeg",
+          "/western-dresses/5949.jpg.jpeg",
+          "/western-dresses/5977.jpg.jpeg",
+          "/western-dresses/5978.jpg.jpeg",
+          "/western-dresses/5981.jpg.jpeg",
+          "/western-dresses/5982.jpg.jpeg",
+          "/western-dresses/6058.jpg.jpeg",
+          "/western-dresses/6059.jpg.jpeg",
+          "/western-dresses/6060.jpg.jpeg",
+          "/western-dresses/6061.jpg.jpeg",
+          "/western-dresses/6146.jpg.jpeg",
+          "/western-dresses/6177.jpg.jpeg",
+          "/western-dresses/9559.jpg.jpeg",
+          "/western-dresses/9560.jpg (1).jpeg",
+          "/western-dresses/9560.jpg.jpeg",
+          "/western-dresses/12121.jpg.jpeg",
+          "/western-dresses/12361.jpg.jpeg",
+          "/western-dresses/12477.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4753.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4753.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9891.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9891.jpg.jpeg"
         ]
       }
@@ -3679,98 +2454,21 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/5948.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/9709.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/9710.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4306.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5430.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5891.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/5948.jpg.jpeg",
+          "/western-dresses/6313.jpg.jpeg",
+          "/western-dresses/9709.jpg.jpeg",
+          "/western-dresses/9710.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4306.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4306.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5430.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5430.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5891.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5891.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7404.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7404.jpg.jpeg"
         ]
       }
@@ -3832,42 +2530,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6147.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/11197.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7003.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6147.jpg.jpeg",
+          "/western-dresses/11197.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA6033.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7003.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7003.jpg.jpeg"
         ]
       }
@@ -3921,7 +2591,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -3978,7 +2648,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -4037,18 +2707,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/western-dresses/6349.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/western-dresses/6349.jpg.jpeg",
           "/western-dresses/11317.jpg.jpeg"
         ]
       }
@@ -4110,42 +2773,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/6374.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/9936.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/11685.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0162.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/6374.jpg.jpeg",
+          "/western-dresses/9936.jpg.jpeg",
+          "/western-dresses/11685.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0162.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA0162.jpg.jpeg"
         ]
       }
@@ -4199,7 +2834,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -4256,7 +2891,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -4313,7 +2948,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -4374,26 +3009,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/11790.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0160.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/11790.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0160.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA0160.jpg.jpeg"
         ]
       }
@@ -4447,7 +3068,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -4506,18 +3127,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/western-dresses/14308.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/western-dresses/14308.jpg.jpeg",
           "/western-dresses/14309.jpg.jpeg"
         ]
       }
@@ -4573,18 +3187,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/western-dresses/IMG-20261103-WA9381.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9381.jpg.jpeg"
         ]
       }
@@ -5173,434 +3780,63 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772137336.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/1999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5494.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5495.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5497.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5498.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5685.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5800.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5801.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5984.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5985.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6094.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6128.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6129.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6148.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6178.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6245.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6286.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6287.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6351.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6352.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6353.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9995.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10636.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10637.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10973.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11332.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11576.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11691.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11954.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12124.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12363.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13010.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13414.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16730.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/61305.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/70753.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2263.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2263.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2783.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3643.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3643.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-49",
-        "name": "Styling 49",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-50",
-        "name": "Styling 50",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-51",
-        "name": "Styling 51",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7514.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-52",
-        "name": "Styling 52",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7514.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-53",
-        "name": "Styling 53",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9899.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-54",
-        "name": "Styling 54",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/FB_IMG_1765772137336.jpg.jpeg",
+          "/western-dresses/1999.jpg.jpeg",
+          "/western-dresses/5494.jpg.jpeg",
+          "/western-dresses/5495.jpg.jpeg",
+          "/western-dresses/5496.jpg.jpeg",
+          "/western-dresses/5497.jpg.jpeg",
+          "/western-dresses/5498.jpg.jpeg",
+          "/western-dresses/5685.jpg.jpeg",
+          "/western-dresses/5800.jpg.jpeg",
+          "/western-dresses/5801.jpg.jpeg",
+          "/western-dresses/5984.jpg.jpeg",
+          "/western-dresses/5985.jpg.jpeg",
+          "/western-dresses/6094.jpg.jpeg",
+          "/western-dresses/6128.jpg.jpeg",
+          "/western-dresses/6129.jpg.jpeg",
+          "/western-dresses/6148.jpg.jpeg",
+          "/western-dresses/6178.jpg.jpeg",
+          "/western-dresses/6245.jpg.jpeg",
+          "/western-dresses/6286.jpg.jpeg",
+          "/western-dresses/6287.jpg.jpeg",
+          "/western-dresses/6351.jpg.jpeg",
+          "/western-dresses/6352.jpg.jpeg",
+          "/western-dresses/6353.jpg.jpeg",
+          "/western-dresses/9995.jpg.jpeg",
+          "/western-dresses/10636.jpg.jpeg",
+          "/western-dresses/10637.jpg.jpeg",
+          "/western-dresses/10973.jpg.jpeg",
+          "/western-dresses/11332.jpg.jpeg",
+          "/western-dresses/11576.jpg.jpeg",
+          "/western-dresses/11691.jpg.jpeg",
+          "/western-dresses/11954.jpg.jpeg",
+          "/western-dresses/12124.jpg.jpeg",
+          "/western-dresses/12260.jpg.jpeg",
+          "/western-dresses/12363.jpg.jpeg",
+          "/western-dresses/13010.jpg.jpeg",
+          "/western-dresses/13414.jpg.jpeg",
+          "/western-dresses/16730.jpg.jpeg",
+          "/western-dresses/61305.jpg.jpeg",
+          "/western-dresses/70753.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA7190.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2263.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2263.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2783.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2783.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3643.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3643.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4886.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4886.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7012.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7012.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7514.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7514.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9899.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9899.jpg.jpeg"
         ]
       }
@@ -5678,106 +3914,22 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5621.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5622.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5623.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5768.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5797.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5987.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5988.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6209.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6244.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9582.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10880.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8164.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5621.jpg.jpeg",
+          "/western-dresses/5622.jpg.jpeg",
+          "/western-dresses/5623.jpg.jpeg",
+          "/western-dresses/5768.jpg.jpeg",
+          "/western-dresses/5797.jpg.jpeg",
+          "/western-dresses/5987.jpg.jpeg",
+          "/western-dresses/5988.jpg.jpeg",
+          "/western-dresses/6209.jpg.jpeg",
+          "/western-dresses/6244.jpg.jpeg",
+          "/western-dresses/9582.jpg.jpeg",
+          "/western-dresses/10880.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8164.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8164.jpg.jpeg"
         ]
       }
@@ -5857,114 +4009,23 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/5763.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5764.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5766.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5767.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5873.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5983.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/11690.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/11844.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5450.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6539.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8804.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/5763.jpg.jpeg",
+          "/western-dresses/5764.jpg.jpeg",
+          "/western-dresses/5766.jpg.jpeg",
+          "/western-dresses/5767.jpg.jpeg",
+          "/western-dresses/5873.jpg.jpeg",
+          "/western-dresses/5983.jpg.jpeg",
+          "/western-dresses/11690.jpg.jpeg",
+          "/western-dresses/11844.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5450.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5450.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6539.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6539.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8804.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8804.jpg.jpeg"
         ]
       }
@@ -6028,50 +4089,15 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/5765.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5958.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/5765.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA1756.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1697.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1697.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5958.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA5958.jpg.jpeg"
         ]
       }
@@ -6131,34 +4157,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/western-dresses/5950.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/6376.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0222.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
+          "/western-dresses/5950.jpg.jpeg",
+          "/western-dresses/6376.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0222.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA0222.jpg.jpeg"
         ]
       }
@@ -6238,114 +4243,23 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/6064.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11270.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11497.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11791.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12123.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12158.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12259.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/61310.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1025.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2785.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/6064.jpg.jpeg",
+          "/western-dresses/11270.jpg.jpeg",
+          "/western-dresses/11497.jpg.jpeg",
+          "/western-dresses/11791.jpg.jpeg",
+          "/western-dresses/12123.jpg.jpeg",
+          "/western-dresses/12158.jpg.jpeg",
+          "/western-dresses/12259.jpg.jpeg",
+          "/western-dresses/61310.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1025.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1025.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2785.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2785.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4313.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4313.jpg.jpeg"
         ]
       }
@@ -6401,18 +4315,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/western-dresses/6315.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/western-dresses/6315.jpg.jpeg",
           "/western-dresses/6316.jpg.jpeg"
         ]
       }
@@ -6470,26 +4377,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/6406.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6407.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/6406.jpg.jpeg",
+          "/western-dresses/6407.jpg.jpeg",
           "/western-dresses/14364.jpg.jpeg"
         ]
       }
@@ -6551,42 +4444,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/9713.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/10310.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/10311.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/11198.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/9713.jpg.jpeg",
+          "/western-dresses/10310.jpg.jpeg",
+          "/western-dresses/10311.jpg.jpeg",
+          "/western-dresses/11198.jpg.jpeg",
           "/western-dresses/12362.jpg.jpeg"
         ]
       }
@@ -6640,7 +4505,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -6699,18 +4564,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/11403.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/11403.jpg.jpeg",
           "/western-dresses/12480.jpg.jpeg"
         ]
       }
@@ -6764,7 +4622,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -6823,18 +4681,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
-          "/western-dresses/IMG-20261103-WA2781.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#38BDF8",
-        "images": [
+          "/western-dresses/IMG-20261103-WA2781.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2781.jpg.jpeg"
         ]
       }
@@ -6890,18 +4741,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/western-dresses/IMG-20261103-WA9408.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9408.jpg.jpeg"
         ]
       }
@@ -7450,354 +5294,53 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772140613.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5540.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5541.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5542.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5543.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5640.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5951.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5989.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6130.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6210.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6246.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6247.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6289.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9733.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11202.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11204.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11272.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11355.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11692.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12202.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13030.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13415.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/61314.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0237.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1062.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2929.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3667.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5465.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6544.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7532.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8180.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/FB_IMG_1765772140613.jpg.jpeg",
+          "/western-dresses/5540.jpg.jpeg",
+          "/western-dresses/5541.jpg.jpeg",
+          "/western-dresses/5542.jpg.jpeg",
+          "/western-dresses/5543.jpg.jpeg",
+          "/western-dresses/5640.jpg.jpeg",
+          "/western-dresses/5951.jpg.jpeg",
+          "/western-dresses/5989.jpg.jpeg",
+          "/western-dresses/6078.jpg.jpeg",
+          "/western-dresses/6130.jpg.jpeg",
+          "/western-dresses/6210.jpg.jpeg",
+          "/western-dresses/6246.jpg.jpeg",
+          "/western-dresses/6247.jpg.jpeg",
+          "/western-dresses/6289.jpg.jpeg",
+          "/western-dresses/6356.jpg.jpeg",
+          "/western-dresses/9733.jpg.jpeg",
+          "/western-dresses/10312.jpg.jpeg",
+          "/western-dresses/11202.jpg.jpeg",
+          "/western-dresses/11204.jpg.jpeg",
+          "/western-dresses/11272.jpg.jpeg",
+          "/western-dresses/11355.jpg.jpeg",
+          "/western-dresses/11356.jpg.jpeg",
+          "/western-dresses/11692.jpg.jpeg",
+          "/western-dresses/11883.jpg.jpeg",
+          "/western-dresses/12202.jpg.jpeg",
+          "/western-dresses/13030.jpg.jpeg",
+          "/western-dresses/13415.jpg.jpeg",
+          "/western-dresses/61314.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0237.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0237.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1062.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1062.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2929.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2929.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3667.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3667.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5465.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5465.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6544.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6544.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7532.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7532.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8180.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8180.jpg.jpeg"
         ]
       }
@@ -7873,98 +5416,21 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/4393.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6095.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1711.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7049.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9416.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9969.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/4393.jpg.jpeg",
+          "/western-dresses/6095.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1711.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1711.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4908.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4908.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7049.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7049.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9416.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA9416.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9969.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9969.jpg.jpeg"
         ]
       }
@@ -8022,26 +5488,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/western-dresses/4394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4347.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
+          "/western-dresses/4394.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4347.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4347.jpg.jpeg"
         ]
       }
@@ -8121,114 +5573,23 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5632.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5686.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5773.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5774.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5813.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6150.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6180.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6354.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9583.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11271.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11596.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12368.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5632.jpg.jpeg",
+          "/western-dresses/5686.jpg.jpeg",
+          "/western-dresses/5773.jpg.jpeg",
+          "/western-dresses/5774.jpg.jpeg",
+          "/western-dresses/5813.jpg.jpeg",
+          "/western-dresses/6150.jpg.jpeg",
+          "/western-dresses/6180.jpg.jpeg",
+          "/western-dresses/6354.jpg.jpeg",
+          "/western-dresses/9583.jpg.jpeg",
+          "/western-dresses/11271.jpg.jpeg",
+          "/western-dresses/11596.jpg.jpeg",
+          "/western-dresses/11888.jpg.jpeg",
+          "/western-dresses/12368.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA7388.jpg.jpeg"
         ]
       }
@@ -8304,98 +5665,21 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/5637.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6381.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/10882.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11093.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11498.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11597.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11793.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12482.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12483.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8881.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/5637.jpg.jpeg",
+          "/western-dresses/6381.jpg.jpeg",
+          "/western-dresses/10882.jpg.jpeg",
+          "/western-dresses/11093.jpg.jpeg",
+          "/western-dresses/11498.jpg.jpeg",
+          "/western-dresses/11597.jpg.jpeg",
+          "/western-dresses/11793.jpg.jpeg",
+          "/western-dresses/12482.jpg.jpeg",
+          "/western-dresses/12483.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA2857.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8881.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8881.jpg.jpeg"
         ]
       }
@@ -8451,18 +5735,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/western-dresses/5874.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/western-dresses/5874.jpg.jpeg",
           "/western-dresses/14375.jpg.jpeg"
         ]
       }
@@ -8526,50 +5803,15 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/6317.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6479.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/10638.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/70754.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/6317.jpg.jpeg",
+          "/western-dresses/6479.jpg.jpeg",
+          "/western-dresses/10638.jpg.jpeg",
+          "/western-dresses/70754.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2356.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2356.jpg.jpeg"
         ]
       }
@@ -8627,26 +5869,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/9996.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9974.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/9996.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9974.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9974.jpg.jpeg"
         ]
       }
@@ -8700,7 +5928,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -8757,7 +5985,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -8814,7 +6042,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -8873,18 +6101,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/western-dresses/12126.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/western-dresses/12126.jpg.jpeg",
           "/western-dresses/12262.jpg.jpeg"
         ]
       }
@@ -8938,7 +6159,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -8997,18 +6218,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/IMG-20261103-WA6013.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/IMG-20261103-WA6013.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6013.jpg.jpeg"
         ]
       }
@@ -9585,426 +6799,62 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772187012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772191648.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772197221.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772199699.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772202261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772204382.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772206472.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5545.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5546.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5548.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5549.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5641.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5876.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6080.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6096.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6131.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6181.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6182.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6252.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6290.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6318.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6382.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6480.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9760.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11405.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11499.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11794.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12138.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12203.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12306.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12369.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12537.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13510.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16844.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16845.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5518.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5518.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6574.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6574.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-49",
-        "name": "Styling 49",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-50",
-        "name": "Styling 50",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7543.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-51",
-        "name": "Styling 51",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7543.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-52",
-        "name": "Styling 52",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8931.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-53",
-        "name": "Styling 53",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/FB_IMG_1765772187012.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772191648.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772197221.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772199699.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772202261.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772204382.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772206472.jpg.jpeg",
+          "/western-dresses/5545.jpg.jpeg",
+          "/western-dresses/5546.jpg.jpeg",
+          "/western-dresses/5547.jpg.jpeg",
+          "/western-dresses/5548.jpg.jpeg",
+          "/western-dresses/5549.jpg.jpeg",
+          "/western-dresses/5641.jpg.jpeg",
+          "/western-dresses/5876.jpg.jpeg",
+          "/western-dresses/6079.jpg.jpeg",
+          "/western-dresses/6080.jpg.jpeg",
+          "/western-dresses/6096.jpg.jpeg",
+          "/western-dresses/6131.jpg.jpeg",
+          "/western-dresses/6181.jpg.jpeg",
+          "/western-dresses/6182.jpg.jpeg",
+          "/western-dresses/6252.jpg.jpeg",
+          "/western-dresses/6290.jpg.jpeg",
+          "/western-dresses/6318.jpg.jpeg",
+          "/western-dresses/6382.jpg.jpeg",
+          "/western-dresses/6480.jpg.jpeg",
+          "/western-dresses/9760.jpg (1).jpeg",
+          "/western-dresses/9760.jpg.jpeg",
+          "/western-dresses/11405.jpg.jpeg",
+          "/western-dresses/11499.jpg.jpeg",
+          "/western-dresses/11794.jpg.jpeg",
+          "/western-dresses/11893.jpg.jpeg",
+          "/western-dresses/12138.jpg.jpeg",
+          "/western-dresses/12203.jpg.jpeg",
+          "/western-dresses/12306.jpg.jpeg",
+          "/western-dresses/12369.jpg.jpeg",
+          "/western-dresses/12537.jpg.jpeg",
+          "/western-dresses/13510.jpg.jpeg",
+          "/western-dresses/16844.jpg.jpeg",
+          "/western-dresses/16845.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1886.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1886.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5518.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5518.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6020.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6020.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6574.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6574.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7050.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7050.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7543.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7543.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8931.jpg (1).jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8931.jpg (1).jpeg"
         ]
       }
@@ -10062,26 +6912,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/western-dresses/FB_IMG_1765772189075.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/9998.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/western-dresses/FB_IMG_1765772189075.jpg.jpeg",
+          "/western-dresses/9998.jpg.jpeg",
           "/western-dresses/11273.jpg.jpeg"
         ]
       }
@@ -10143,42 +6979,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/4440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/5952.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/5953.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/16840.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/4440.jpg.jpeg",
+          "/western-dresses/5952.jpg.jpeg",
+          "/western-dresses/5953.jpg.jpeg",
+          "/western-dresses/16840.jpg.jpeg",
           "/western-dresses/16843.jpg.jpeg"
         ]
       }
@@ -10266,146 +7074,27 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5544.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5775.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5776.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5777.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5778.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5990.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6151.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6211.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6248.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11205.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11366.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2364.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4376.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8206.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5544.jpg.jpeg",
+          "/western-dresses/5775.jpg.jpeg",
+          "/western-dresses/5776.jpg.jpeg",
+          "/western-dresses/5777.jpg.jpeg",
+          "/western-dresses/5778.jpg.jpeg",
+          "/western-dresses/5990.jpg.jpeg",
+          "/western-dresses/6151.jpg.jpeg",
+          "/western-dresses/6211.jpg.jpeg",
+          "/western-dresses/6248.jpg.jpeg",
+          "/western-dresses/6357.jpg.jpeg",
+          "/western-dresses/11205.jpg.jpeg",
+          "/western-dresses/11366.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2364.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2364.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4376.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4376.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8206.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8206.jpg.jpeg"
         ]
       }
@@ -10459,7 +7148,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -10524,42 +7213,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/5821.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5875.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/10883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11094.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/5821.jpg.jpeg",
+          "/western-dresses/5875.jpg.jpeg",
+          "/western-dresses/10883.jpg.jpeg",
+          "/western-dresses/11094.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA7542.jpg.jpeg"
         ]
       }
@@ -10619,34 +7280,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/9635.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/9759.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0252.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/9635.jpg.jpeg",
+          "/western-dresses/9759.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0252.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA0252.jpg.jpeg"
         ]
       }
@@ -10702,18 +7342,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/western-dresses/9760.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
+          "/western-dresses/9760.jpg%20(1).jpeg",
           "/western-dresses/10676.jpg%20(1).jpeg"
         ]
       }
@@ -10767,7 +7400,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -10830,34 +7463,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/western-dresses/10676.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/10676.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/10977.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#991B1B",
-        "images": [
+          "/western-dresses/10676.jpg (1).jpeg",
+          "/western-dresses/10676.jpg.jpeg",
+          "/western-dresses/10977.jpg.jpeg",
           "/western-dresses/70757.jpg.jpeg"
         ]
       }
@@ -10915,26 +7527,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/11598.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2943.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/11598.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2943.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2943.jpg.jpeg"
         ]
       }
@@ -10988,7 +7586,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
@@ -11051,34 +7649,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/12002.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/13056.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/14787.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/12002.jpg.jpeg",
+          "/western-dresses/13056.jpg.jpeg",
+          "/western-dresses/14787.jpg.jpeg",
           "/western-dresses/61317.jpg.jpeg"
         ]
       }
@@ -11136,26 +7713,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/western-dresses/70755.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/70756.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/western-dresses/70755.jpg.jpeg",
+          "/western-dresses/70756.jpg.jpeg",
           "/western-dresses/70758.jpg.jpeg"
         ]
       }
@@ -11209,7 +7772,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -11280,66 +7843,17 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/IMG-20261103-WA1129.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3716.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/IMG-20261103-WA1129.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1129.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3716.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3716.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9428.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA9428.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9999.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9999.jpg.jpeg"
         ]
       }
@@ -11399,34 +7913,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/western-dresses/IMG-20261103-WA1884.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4940.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
+          "/western-dresses/IMG-20261103-WA1884.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1884.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4940.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4940.jpg.jpeg"
         ]
       }
@@ -11993,386 +8486,57 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1765772406910.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772409459.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772412140.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772417000.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/FB_IMG_1765772420306.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5550.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5642.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5643.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5694.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5695.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5696.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5954.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6081.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6082.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6183.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6212.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6292.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6358.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6359.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6383.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6384.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9636.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10978.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10979.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11274.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11367.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11894.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11895.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12141.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13115.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13511.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16874.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16875.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16876.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16877.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16879.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/61323.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG_20251207_220600.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1912.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6044.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8303.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/FB_IMG_1765772406910.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772409459.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772412140.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772417000.jpg.jpeg",
+          "/western-dresses/FB_IMG_1765772420306.jpg.jpeg",
+          "/western-dresses/5550.jpg.jpeg",
+          "/western-dresses/5642.jpg.jpeg",
+          "/western-dresses/5643.jpg.jpeg",
+          "/western-dresses/5694.jpg.jpeg",
+          "/western-dresses/5695.jpg.jpeg",
+          "/western-dresses/5696.jpg.jpeg",
+          "/western-dresses/5697.jpg.jpeg",
+          "/western-dresses/5954.jpg.jpeg",
+          "/western-dresses/6081.jpg.jpeg",
+          "/western-dresses/6082.jpg.jpeg",
+          "/western-dresses/6183.jpg.jpeg",
+          "/western-dresses/6212.jpg.jpeg",
+          "/western-dresses/6292.jpg.jpeg",
+          "/western-dresses/6358.jpg.jpeg",
+          "/western-dresses/6359.jpg.jpeg",
+          "/western-dresses/6383.jpg.jpeg",
+          "/western-dresses/6384.jpg.jpeg",
+          "/western-dresses/9636.jpg.jpeg",
+          "/western-dresses/10978.jpg.jpeg",
+          "/western-dresses/10979.jpg.jpeg",
+          "/western-dresses/11274.jpg.jpeg",
+          "/western-dresses/11367.jpg.jpeg",
+          "/western-dresses/11500.jpg.jpeg",
+          "/western-dresses/11894.jpg.jpeg",
+          "/western-dresses/11895.jpg.jpeg",
+          "/western-dresses/12141.jpg.jpeg",
+          "/western-dresses/13115.jpg.jpeg",
+          "/western-dresses/13511.jpg.jpeg",
+          "/western-dresses/16874.jpg.jpeg",
+          "/western-dresses/16875.jpg.jpeg",
+          "/western-dresses/16876.jpg.jpeg",
+          "/western-dresses/16877.jpg.jpeg",
+          "/western-dresses/16879.jpg.jpeg",
+          "/western-dresses/61323.jpg.jpeg",
+          "/western-dresses/IMG_20251207_220600.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1912.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1912.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4398.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4398.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6044.jpg (1).jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6044.jpg (1).jpeg",
+          "/western-dresses/IMG-20261103-WA8303.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8303.jpg.jpeg"
         ]
       }
@@ -12474,202 +8638,34 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/4494.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5822.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5878.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5879.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5881.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5882.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5992.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6099.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6253.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6291.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6360.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9775.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10686.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10884.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11599.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11720.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11721.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11796.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12016.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12213.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/61320.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9450.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/4494.jpg.jpeg",
+          "/western-dresses/5822.jpg.jpeg",
+          "/western-dresses/5878.jpg.jpeg",
+          "/western-dresses/5879.jpg.jpeg",
+          "/western-dresses/5881.jpg.jpeg",
+          "/western-dresses/5882.jpg.jpeg",
+          "/western-dresses/5992.jpg.jpeg",
+          "/western-dresses/6097.jpg.jpeg",
+          "/western-dresses/6099.jpg.jpeg",
+          "/western-dresses/6253.jpg.jpeg",
+          "/western-dresses/6291.jpg.jpeg",
+          "/western-dresses/6360.jpg.jpeg",
+          "/western-dresses/9775.jpg.jpeg",
+          "/western-dresses/10686.jpg.jpeg",
+          "/western-dresses/10884.jpg.jpeg",
+          "/western-dresses/11599.jpg.jpeg",
+          "/western-dresses/11720.jpg.jpeg",
+          "/western-dresses/11721.jpg.jpeg",
+          "/western-dresses/11796.jpg.jpeg",
+          "/western-dresses/12016.jpg.jpeg",
+          "/western-dresses/12020.jpg.jpeg",
+          "/western-dresses/12213.jpg.jpeg",
+          "/western-dresses/61320.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9450.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9450.jpg.jpeg"
         ]
       }
@@ -12745,98 +8741,21 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/4495.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/12316.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1305.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2441.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6610.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6612.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/4495.jpg.jpeg",
+          "/western-dresses/12316.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1305.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1305.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2441.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2441.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5012.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5012.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6610.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6610.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6612.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6612.jpg.jpeg"
         ]
       }
@@ -12898,42 +8817,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/5781.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5996.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6361.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11095.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/5781.jpg.jpeg",
+          "/western-dresses/5996.jpg.jpeg",
+          "/western-dresses/6361.jpg.jpeg",
+          "/western-dresses/11095.jpg.jpeg",
           "/western-dresses/11207.jpg.jpeg"
         ]
       }
@@ -12995,42 +8886,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/6098.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2984.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/6098.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA3807.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA8134.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2984.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2984.jpg.jpeg"
         ]
       }
@@ -13088,26 +8951,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6184.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6132.jpg.jpeg",
+          "/western-dresses/6184.jpg.jpeg",
           "/western-dresses/10356.jpg.jpeg"
         ]
       }
@@ -13163,18 +9012,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/western-dresses/6152.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/western-dresses/6152.jpg.jpeg",
           "/western-dresses/6186.jpg.jpeg"
         ]
       }
@@ -13232,26 +9074,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/western-dresses/6254.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/10045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#475569",
-        "images": [
+          "/western-dresses/6254.jpg.jpeg",
+          "/western-dresses/10045.jpg.jpeg",
           "/western-dresses/10687.jpg.jpeg"
         ]
       }
@@ -13309,26 +9137,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/6319.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6482.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/6319.jpg.jpeg",
+          "/western-dresses/6482.jpg.jpeg",
           "/western-dresses/11406.jpg.jpeg"
         ]
       }
@@ -13382,7 +9196,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -13443,26 +9257,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/western-dresses/11795.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3906.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
+          "/western-dresses/11795.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3906.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA3906.jpg.jpeg"
         ]
       }
@@ -13516,7 +9316,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -13579,34 +9379,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/western-dresses/12538.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/14927.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0334.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#18181B",
-        "images": [
+          "/western-dresses/12538.jpg.jpeg",
+          "/western-dresses/14927.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0334.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA0334.jpg.jpeg"
         ]
       }
@@ -13660,7 +9439,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -13723,34 +9502,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/IMG-20261103-WA5526.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/IMG-20261103-WA5526.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5526.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7051.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7051.jpg.jpeg"
         ]
       }
@@ -13806,18 +9564,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/western-dresses/IMG-20261103-WA7584.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/western-dresses/IMG-20261103-WA7584.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7584.jpg.jpeg"
         ]
       }
@@ -13873,18 +9624,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/western-dresses/IMG-20261103-WA8938.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8938.jpg.jpeg"
         ]
       }
@@ -14358,74 +10102,18 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/FB_IMG_1781793222301.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/FB_IMG_1781793223709.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6188.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6321.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/10885.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11409.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11520.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11600.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/FB_IMG_1781793222301.jpg.jpeg",
+          "/western-dresses/FB_IMG_1781793223709.jpg.jpeg",
+          "/western-dresses/6188.jpg.jpeg",
+          "/western-dresses/6321.jpg.jpeg",
+          "/western-dresses/10885.jpg.jpeg",
+          "/western-dresses/11409.jpg.jpeg",
+          "/western-dresses/11520.jpg.jpeg",
+          "/western-dresses/11600.jpg.jpeg",
           "/western-dresses/67785.jpg.jpeg"
         ]
       }
@@ -14485,34 +10173,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/4530.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/4531.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/5955.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/4530.jpg.jpeg",
+          "/western-dresses/4531.jpg.jpeg",
+          "/western-dresses/5955.jpg.jpeg",
           "/western-dresses/5956.jpg.jpeg"
         ]
       }
@@ -14664,402 +10331,59 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/5551.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5552.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5553.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5554.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5707.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5708.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5855.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6029.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6103.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6293.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6294.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6362.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6385.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6485.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9638.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10096.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10098.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10427.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10699.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10702.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10981.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11209.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11407.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11830.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12144.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12317.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12374.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13512.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/55723.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0358.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1915.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3024.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-49",
-        "name": "Styling 49",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5033.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-50",
-        "name": "Styling 50",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/5551.jpg.jpeg",
+          "/western-dresses/5552.jpg.jpeg",
+          "/western-dresses/5553.jpg.jpeg",
+          "/western-dresses/5554.jpg.jpeg",
+          "/western-dresses/5555.jpg.jpeg",
+          "/western-dresses/5707.jpg.jpeg",
+          "/western-dresses/5708.jpg.jpeg",
+          "/western-dresses/5855.jpg.jpeg",
+          "/western-dresses/5883.jpg.jpeg",
+          "/western-dresses/6029.jpg.jpeg",
+          "/western-dresses/6103.jpg.jpeg",
+          "/western-dresses/6293.jpg.jpeg",
+          "/western-dresses/6294.jpg.jpeg",
+          "/western-dresses/6362.jpg.jpeg",
+          "/western-dresses/6385.jpg.jpeg",
+          "/western-dresses/6485.jpg.jpeg",
+          "/western-dresses/9638.jpg.jpeg",
+          "/western-dresses/10096.jpg.jpeg",
+          "/western-dresses/10097.jpg.jpeg",
+          "/western-dresses/10098.jpg.jpeg",
+          "/western-dresses/10427.jpg.jpeg",
+          "/western-dresses/10428.jpg.jpeg",
+          "/western-dresses/10699.jpg.jpeg",
+          "/western-dresses/10702.jpg.jpeg",
+          "/western-dresses/10981.jpg.jpeg",
+          "/western-dresses/11156.jpg.jpeg",
+          "/western-dresses/11209.jpg.jpeg",
+          "/western-dresses/11407.jpg.jpeg",
+          "/western-dresses/11830.jpg.jpeg",
+          "/western-dresses/11896.jpg.jpeg",
+          "/western-dresses/12021.jpg.jpeg",
+          "/western-dresses/12144.jpg.jpeg",
+          "/western-dresses/12317.jpg.jpeg",
+          "/western-dresses/12374.jpg.jpeg",
+          "/western-dresses/13149.jpg.jpeg",
+          "/western-dresses/13512.jpg.jpeg",
+          "/western-dresses/55723.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA8188.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0358.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0358.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1338.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1338.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1915.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1915.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3024.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3024.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4446.jpg (1).jpeg",
+          "/western-dresses/IMG-20261103-WA5033.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA5033.jpg.jpeg"
         ]
       }
@@ -15113,7 +10437,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -15198,122 +10522,24 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5782.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5885.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6083.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6133.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6153.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6257.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9799.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11373.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12142.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG_20251207_220614.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3918.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5782.jpg.jpeg",
+          "/western-dresses/5885.jpg.jpeg",
+          "/western-dresses/6083.jpg.jpeg",
+          "/western-dresses/6133.jpg.jpeg",
+          "/western-dresses/6153.jpg.jpeg",
+          "/western-dresses/6257.jpg.jpeg",
+          "/western-dresses/9799.jpg.jpeg",
+          "/western-dresses/11373.jpg.jpeg",
+          "/western-dresses/12142.jpg.jpeg",
+          "/western-dresses/IMG_20251207_220614.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA4233.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3918.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3918.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7678.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7678.jpg.jpeg"
         ]
       }
@@ -15373,34 +10599,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/6187.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/10426.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8951.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/6187.jpg.jpeg",
+          "/western-dresses/10426.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8951.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8951.jpg.jpeg"
         ]
       }
@@ -15456,18 +10661,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6213.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6213.jpg.jpeg",
           "/western-dresses/11723.jpg.jpeg"
         ]
       }
@@ -15537,74 +10735,18 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/10982.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6623.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8373.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/10982.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2562.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2562.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6623.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6623.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7097.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7097.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8373.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8373.jpg.jpeg"
         ]
       }
@@ -15664,34 +10806,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/11300.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/11722.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/12539.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/11300.jpg.jpeg",
+          "/western-dresses/11722.jpg.jpeg",
+          "/western-dresses/12539.jpg.jpeg",
           "/western-dresses/14961.jpg.jpeg"
         ]
       }
@@ -15745,7 +10866,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -15804,18 +10925,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/western-dresses/IMG-20261103-WA5551.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/western-dresses/IMG-20261103-WA5551.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA5551.jpg.jpeg"
         ]
       }
@@ -15871,18 +10985,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
-          "/western-dresses/IMG-20261103-WA6080.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#38BDF8",
-        "images": [
+          "/western-dresses/IMG-20261103-WA6080.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6080.jpg.jpeg"
         ]
       }
@@ -15938,18 +11045,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/western-dresses/IMG-20261103-WA9465.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9465.jpg.jpeg"
         ]
       }
@@ -16431,106 +11531,22 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/FB_IMG_1781793225924.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/FB_IMG_1781793227598.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5662.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5663.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5664.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11210.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11601.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12224.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/16212.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6147.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7171.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/FB_IMG_1781793225924.jpg.jpeg",
+          "/western-dresses/FB_IMG_1781793227598.jpg.jpeg",
+          "/western-dresses/5662.jpg.jpeg",
+          "/western-dresses/5663.jpg.jpeg",
+          "/western-dresses/5664.jpg.jpeg",
+          "/western-dresses/11210.jpg.jpeg",
+          "/western-dresses/11601.jpg.jpeg",
+          "/western-dresses/12224.jpg.jpeg",
+          "/western-dresses/16212.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6147.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6147.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7171.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7171.jpg.jpeg"
         ]
       }
@@ -16620,154 +11636,28 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/4579.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5709.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6297.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9800.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9802.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9803.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11046.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11729.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11730.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/16211.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/16213.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/16214.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/16215.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG_20251207_220627.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1379.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2576.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/4579.jpg.jpeg",
+          "/western-dresses/5709.jpg.jpeg",
+          "/western-dresses/6297.jpg.jpeg",
+          "/western-dresses/9800.jpg.jpeg",
+          "/western-dresses/9802.jpg.jpeg",
+          "/western-dresses/9803.jpg.jpeg",
+          "/western-dresses/11046.jpg.jpeg",
+          "/western-dresses/11729.jpg.jpeg",
+          "/western-dresses/11730.jpg.jpeg",
+          "/western-dresses/16211.jpg.jpeg",
+          "/western-dresses/16213.jpg.jpeg",
+          "/western-dresses/16214.jpg.jpeg",
+          "/western-dresses/16215.jpg.jpeg",
+          "/western-dresses/IMG_20251207_220627.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA8435.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1379.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1379.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2576.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2576.jpg.jpeg"
         ]
       }
@@ -16837,74 +11727,18 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/5562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/5887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/5959.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6104.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6105.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/10429.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5042.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/5562.jpg.jpeg",
+          "/western-dresses/5887.jpg.jpeg",
+          "/western-dresses/5959.jpg.jpeg",
+          "/western-dresses/6104.jpg.jpeg",
+          "/western-dresses/6105.jpg.jpeg",
+          "/western-dresses/6327.jpg.jpeg",
+          "/western-dresses/10429.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5042.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA5042.jpg.jpeg"
         ]
       }
@@ -17038,330 +11872,50 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/5658.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5659.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5660.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5661.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5665.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5666.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5667.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5856.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5857.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6030.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6085.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6134.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6135.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6189.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6296.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6386.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6486.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10100.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10746.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10748.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11168.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11374.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11521.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11915.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12145.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12325.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12376.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12376.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12623.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13201.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13523.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/67789.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/67792.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1990.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3067.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9466.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/5658.jpg.jpeg",
+          "/western-dresses/5659.jpg.jpeg",
+          "/western-dresses/5660.jpg.jpeg",
+          "/western-dresses/5661.jpg.jpeg",
+          "/western-dresses/5665.jpg.jpeg",
+          "/western-dresses/5666.jpg.jpeg",
+          "/western-dresses/5667.jpg.jpeg",
+          "/western-dresses/5856.jpg.jpeg",
+          "/western-dresses/5857.jpg.jpeg",
+          "/western-dresses/6030.jpg.jpeg",
+          "/western-dresses/6085.jpg.jpeg",
+          "/western-dresses/6134.jpg.jpeg",
+          "/western-dresses/6135.jpg.jpeg",
+          "/western-dresses/6189.jpg.jpeg",
+          "/western-dresses/6258.jpg.jpeg",
+          "/western-dresses/6296.jpg.jpeg",
+          "/western-dresses/6386.jpg.jpeg",
+          "/western-dresses/6486.jpg.jpeg",
+          "/western-dresses/10100.jpg.jpeg",
+          "/western-dresses/10746.jpg.jpeg",
+          "/western-dresses/10748.jpg.jpeg",
+          "/western-dresses/11168.jpg.jpeg",
+          "/western-dresses/11374.jpg.jpeg",
+          "/western-dresses/11521.jpg.jpeg",
+          "/western-dresses/11915.jpg.jpeg",
+          "/western-dresses/12145.jpg.jpeg",
+          "/western-dresses/12325.jpg.jpeg",
+          "/western-dresses/12376.jpg (1).jpeg",
+          "/western-dresses/12376.jpg.jpeg",
+          "/western-dresses/12623.jpg.jpeg",
+          "/western-dresses/13201.jpg.jpeg",
+          "/western-dresses/13523.jpg.jpeg",
+          "/western-dresses/67789.jpg.jpeg",
+          "/western-dresses/67792.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA4357.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1990.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1990.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3067.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3067.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9466.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9466.jpg.jpeg"
         ]
       }
@@ -17431,74 +11985,18 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/5783.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0501.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7859.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/5783.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0501.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0501.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3928.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3928.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7859.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7859.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9059.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9059.jpg.jpeg"
         ]
       }
@@ -17552,7 +12050,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -17613,26 +12111,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/5957.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/5958.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/5957.jpg.jpeg",
+          "/western-dresses/5958.jpg.jpeg",
           "/western-dresses/55726.jpg.jpeg"
         ]
       }
@@ -17694,42 +12178,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6106.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6154.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/11831.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/12022.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6106.jpg.jpeg",
+          "/western-dresses/6154.jpg.jpeg",
+          "/western-dresses/11831.jpg.jpeg",
+          "/western-dresses/12022.jpg.jpeg",
           "/western-dresses/12375.jpg.jpeg"
         ]
       }
@@ -17791,42 +12247,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/6214.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/6364.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/10099.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6663.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/6214.jpg.jpeg",
+          "/western-dresses/6364.jpg.jpeg",
+          "/western-dresses/10099.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6663.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6663.jpg.jpeg"
         ]
       }
@@ -17884,26 +12312,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/9651.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/9651.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8496.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8496.jpg.jpeg"
         ]
       }
@@ -17957,7 +12371,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -18016,18 +12430,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/western-dresses/11303.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/western-dresses/11303.jpg.jpeg",
           "/western-dresses/11304.jpg.jpeg"
         ]
       }
@@ -18081,7 +12488,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -18138,7 +12545,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -18197,18 +12604,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/western-dresses/IMG-20261103-WA4565.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/western-dresses/IMG-20261103-WA4565.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4565.jpg.jpeg"
         ]
       }
@@ -18264,18 +12664,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
-          "/western-dresses/IMG-20261103-WA5573.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#38BDF8",
-        "images": [
+          "/western-dresses/IMG-20261103-WA5573.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA5573.jpg.jpeg"
         ]
       }
@@ -18835,410 +13228,60 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/FB_IMG_1789315348897.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5566.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5567.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5571.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5572.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5574.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5575.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5577.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5580.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5573.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5785.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5858.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5859.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6139.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6155.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6215.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6300.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6301.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6302.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6303.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6328.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6387.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6388.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6389.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6487.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6488.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6489.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10430.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11169.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11375.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11602.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11832.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12049.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12437.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12822.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13560.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/55729.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/55735.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4588.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6185.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-49",
-        "name": "Styling 49",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-50",
-        "name": "Styling 50",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-51",
-        "name": "Styling 51",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/FB_IMG_1789315348897.jpg.jpeg",
+          "/western-dresses/5566.jpg.jpeg",
+          "/western-dresses/5567.jpg.jpeg",
+          "/western-dresses/5571.jpg.jpeg",
+          "/western-dresses/5572.jpg.jpeg",
+          "/western-dresses/5574.jpg.jpeg",
+          "/western-dresses/5575.jpg.jpeg",
+          "/western-dresses/5577.jpg.jpeg",
+          "/western-dresses/5580.jpg.jpeg",
+          "/western-dresses/5573.jpg.jpeg",
+          "/western-dresses/5785.jpg.jpeg",
+          "/western-dresses/5858.jpg.jpeg",
+          "/western-dresses/5859.jpg.jpeg",
+          "/western-dresses/5888.jpg.jpeg",
+          "/western-dresses/6086.jpg.jpeg",
+          "/western-dresses/6139.jpg.jpeg",
+          "/western-dresses/6155.jpg.jpeg",
+          "/western-dresses/6215.jpg.jpeg",
+          "/western-dresses/6300.jpg.jpeg",
+          "/western-dresses/6301.jpg.jpeg",
+          "/western-dresses/6302.jpg.jpeg",
+          "/western-dresses/6303.jpg.jpeg",
+          "/western-dresses/6328.jpg.jpeg",
+          "/western-dresses/6387.jpg.jpeg",
+          "/western-dresses/6388.jpg.jpeg",
+          "/western-dresses/6389.jpg.jpeg",
+          "/western-dresses/6487.jpg.jpeg",
+          "/western-dresses/6488.jpg.jpeg",
+          "/western-dresses/6489.jpg.jpeg",
+          "/western-dresses/10430.jpg.jpeg",
+          "/western-dresses/10888.jpg.jpeg",
+          "/western-dresses/11169.jpg.jpeg",
+          "/western-dresses/11375.jpg.jpeg",
+          "/western-dresses/11602.jpg.jpeg",
+          "/western-dresses/11832.jpg.jpeg",
+          "/western-dresses/12049.jpg.jpeg",
+          "/western-dresses/12437.jpg.jpeg",
+          "/western-dresses/12822.jpg.jpeg",
+          "/western-dresses/13260.jpg.jpeg",
+          "/western-dresses/13560.jpg.jpeg",
+          "/western-dresses/55729.jpg.jpeg",
+          "/western-dresses/55735.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA8769.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4588.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4588.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6185.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6185.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7888.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7888.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8500.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8500.jpg.jpeg"
         ]
       }
@@ -19300,42 +13343,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/4669.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/9652.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/11309.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/western-dresses/11528.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/4669.jpg.jpeg",
+          "/western-dresses/9652.jpg.jpeg",
+          "/western-dresses/11309.jpg.jpeg",
+          "/western-dresses/11528.jpg.jpeg",
           "/western-dresses/12146.jpg.jpeg"
         ]
       }
@@ -19409,90 +13424,20 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/4670.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5960.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/11212.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/11412.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/11917.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3950.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9483.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/4670.jpg.jpeg",
+          "/western-dresses/5960.jpg.jpeg",
+          "/western-dresses/11212.jpg.jpeg",
+          "/western-dresses/11412.jpg.jpeg",
+          "/western-dresses/11917.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2646.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2646.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3950.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3950.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9483.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9483.jpg.jpeg"
         ]
       }
@@ -19574,122 +13519,24 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/5568.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5570.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5569.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5710.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6329.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/10101.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/10887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11308.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11732.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/16216.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/16217.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/67795.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1396.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/5568.jpg.jpeg",
+          "/western-dresses/5570.jpg.jpeg",
+          "/western-dresses/5569.jpg.jpeg",
+          "/western-dresses/5710.jpg.jpeg",
+          "/western-dresses/6329.jpg.jpeg",
+          "/western-dresses/10101.jpg.jpeg",
+          "/western-dresses/10887.jpg.jpeg",
+          "/western-dresses/11053.jpg.jpeg",
+          "/western-dresses/11308.jpg.jpeg",
+          "/western-dresses/11732.jpg.jpeg",
+          "/western-dresses/16216.jpg.jpeg",
+          "/western-dresses/16217.jpg.jpeg",
+          "/western-dresses/67795.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1396.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA1396.jpg.jpeg"
         ]
       }
@@ -19749,34 +13596,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
-          "/western-dresses/5668.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#831843",
-        "images": [
-          "/western-dresses/10779.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#831843",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9119.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#831843",
-        "images": [
+          "/western-dresses/5668.jpg.jpeg",
+          "/western-dresses/10779.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9119.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9119.jpg.jpeg"
         ]
       }
@@ -19864,146 +13690,27 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5711.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5784.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6137.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6298.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6365.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9818.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12225.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG_20251207_220638.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0553.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2006.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5102.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5575.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5711.jpg.jpeg",
+          "/western-dresses/5784.jpg.jpeg",
+          "/western-dresses/6137.jpg.jpeg",
+          "/western-dresses/6298.jpg.jpeg",
+          "/western-dresses/6365.jpg.jpeg",
+          "/western-dresses/9818.jpg.jpeg",
+          "/western-dresses/12053.jpg.jpeg",
+          "/western-dresses/12225.jpg.jpeg",
+          "/western-dresses/IMG_20251207_220638.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA4365.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0553.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0553.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2006.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2006.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5102.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5102.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5575.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA5575.jpg.jpeg"
         ]
       }
@@ -20069,58 +13776,16 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/6031.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/6032.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/6034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/6035.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/6036.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6679.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/6031.jpg.jpeg",
+          "/western-dresses/6032.jpg.jpeg",
+          "/western-dresses/6034.jpg.jpeg",
+          "/western-dresses/6035.jpg.jpeg",
+          "/western-dresses/6036.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6679.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6679.jpg.jpeg"
         ]
       }
@@ -20178,26 +13843,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6107.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/6191.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6107.jpg.jpeg",
+          "/western-dresses/6191.jpg.jpeg",
           "/western-dresses/6259.jpg.jpeg"
         ]
       }
@@ -20251,7 +13902,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -20308,7 +13959,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -20367,18 +14018,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/IMG-20261103-WA3126.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/IMG-20261103-WA3126.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA3126.jpg.jpeg"
         ]
       }
@@ -20434,18 +14078,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/western-dresses/IMG-20261103-WA7252.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/western-dresses/IMG-20261103-WA7252.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7252.jpg.jpeg"
         ]
       }
@@ -20943,82 +14580,19 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/FB_IMG_1789315350685.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/FB_IMG_1789315352815.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6170.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11055.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11733.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1442.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4605.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/FB_IMG_1789315350685.jpg.jpeg",
+          "/western-dresses/FB_IMG_1789315352815.jpg.jpeg",
+          "/western-dresses/6170.jpg.jpeg",
+          "/western-dresses/11055.jpg.jpeg",
+          "/western-dresses/11733.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA0173.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1442.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1442.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4605.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4605.jpg.jpeg"
         ]
       }
@@ -21076,26 +14650,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/4694.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5145.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/4694.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5145.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA5145.jpg.jpeg"
         ]
       }
@@ -21253,426 +14813,62 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/5581.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5582.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5583.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5584.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5585.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5669.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5670.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5712.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5717.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5787.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5788.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5789.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5892.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5894.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5897.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5898.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5899.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5961.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6140.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6194.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6339.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6366.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6367.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6391.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10200.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10929.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11249.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11530.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11920.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12055.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12057.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12245.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12438.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12445.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12832.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13581.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/59327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3957.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5636.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6383.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7294.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-49",
-        "name": "Styling 49",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7294.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-50",
-        "name": "Styling 50",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7922.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-51",
-        "name": "Styling 51",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7922.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-52",
-        "name": "Styling 52",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9520.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-53",
-        "name": "Styling 53",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/5581.jpg.jpeg",
+          "/western-dresses/5582.jpg.jpeg",
+          "/western-dresses/5583.jpg.jpeg",
+          "/western-dresses/5584.jpg.jpeg",
+          "/western-dresses/5585.jpg.jpeg",
+          "/western-dresses/5669.jpg.jpeg",
+          "/western-dresses/5670.jpg.jpeg",
+          "/western-dresses/5712.jpg.jpeg",
+          "/western-dresses/5717.jpg.jpeg",
+          "/western-dresses/5787.jpg.jpeg",
+          "/western-dresses/5788.jpg.jpeg",
+          "/western-dresses/5789.jpg.jpeg",
+          "/western-dresses/5892.jpg.jpeg",
+          "/western-dresses/5894.jpg.jpeg",
+          "/western-dresses/5896.jpg.jpeg",
+          "/western-dresses/5897.jpg.jpeg",
+          "/western-dresses/5898.jpg.jpeg",
+          "/western-dresses/5899.jpg.jpeg",
+          "/western-dresses/5961.jpg.jpeg",
+          "/western-dresses/6140.jpg.jpeg",
+          "/western-dresses/6194.jpg.jpeg",
+          "/western-dresses/6338.jpg.jpeg",
+          "/western-dresses/6339.jpg.jpeg",
+          "/western-dresses/6366.jpg.jpeg",
+          "/western-dresses/6367.jpg.jpeg",
+          "/western-dresses/6391.jpg.jpeg",
+          "/western-dresses/6394.jpg.jpeg",
+          "/western-dresses/10200.jpg.jpeg",
+          "/western-dresses/10929.jpg.jpeg",
+          "/western-dresses/11249.jpg.jpeg",
+          "/western-dresses/11530.jpg.jpeg",
+          "/western-dresses/11920.jpg.jpeg",
+          "/western-dresses/12055.jpg.jpeg",
+          "/western-dresses/12057.jpg.jpeg",
+          "/western-dresses/12245.jpg.jpeg",
+          "/western-dresses/12438.jpg.jpeg",
+          "/western-dresses/12445.jpg.jpeg",
+          "/western-dresses/12832.jpg.jpeg",
+          "/western-dresses/13581.jpg.jpeg",
+          "/western-dresses/59327.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA4389.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3957.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3957.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5636.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5636.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6383.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6383.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7294.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7294.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7922.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7922.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9520.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9520.jpg.jpeg"
         ]
       }
@@ -21782,234 +14978,38 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5715.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5713.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5714.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5790.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5889.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5890.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5891.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5895.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6161.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6163.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6330.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6392.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6393.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/9666.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10198.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10840.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10841.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/16218.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/16219.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6821.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8544.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5715.jpg.jpeg",
+          "/western-dresses/5713.jpg.jpeg",
+          "/western-dresses/5714.jpg.jpeg",
+          "/western-dresses/5790.jpg.jpeg",
+          "/western-dresses/5889.jpg.jpeg",
+          "/western-dresses/5890.jpg.jpeg",
+          "/western-dresses/5891.jpg.jpeg",
+          "/western-dresses/5893.jpg.jpeg",
+          "/western-dresses/5895.jpg.jpeg",
+          "/western-dresses/5900.jpg.jpeg",
+          "/western-dresses/6087.jpg.jpeg",
+          "/western-dresses/6156.jpg.jpeg",
+          "/western-dresses/6161.jpg.jpeg",
+          "/western-dresses/6163.jpg.jpeg",
+          "/western-dresses/6330.jpg.jpeg",
+          "/western-dresses/6392.jpg.jpeg",
+          "/western-dresses/6393.jpg.jpeg",
+          "/western-dresses/9666.jpg.jpeg",
+          "/western-dresses/10198.jpg.jpeg",
+          "/western-dresses/10840.jpg.jpeg",
+          "/western-dresses/10841.jpg.jpeg",
+          "/western-dresses/11313.jpg.jpeg",
+          "/western-dresses/12327.jpg.jpeg",
+          "/western-dresses/16218.jpg.jpeg",
+          "/western-dresses/16219.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6821.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6821.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8544.jpg (1).jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8544.jpg (1).jpeg"
         ]
       }
@@ -22085,98 +15085,21 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/5786.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5864.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0596.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2656.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3130.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9199.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/5786.jpg.jpeg",
+          "/western-dresses/5864.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0596.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0596.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2034.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2034.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2656.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2656.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3130.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3130.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9199.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9199.jpg.jpeg"
         ]
       }
@@ -22232,18 +15155,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/6037.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/6037.jpg.jpeg",
           "/western-dresses/9843.jpg.jpeg"
         ]
       }
@@ -22307,50 +15223,15 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/6108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6490.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/11394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/11638.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/11834.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/6108.jpg.jpeg",
+          "/western-dresses/6490.jpg.jpeg",
+          "/western-dresses/11394.jpg.jpeg",
+          "/western-dresses/11638.jpg.jpeg",
+          "/western-dresses/11834.jpg.jpeg",
           "/western-dresses/13294.jpg.jpeg"
         ]
       }
@@ -22406,18 +15287,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6216.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6216.jpg.jpeg",
           "/western-dresses/6304.jpg.jpeg"
         ]
       }
@@ -22473,18 +15347,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/6260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/6260.jpg.jpeg",
           "/western-dresses/12056.jpg.jpeg"
         ]
       }
@@ -22540,18 +15407,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/western-dresses/10431.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/western-dresses/10431.jpg.jpeg",
           "/western-dresses/11054.jpg.jpeg"
         ]
       }
@@ -22605,7 +15465,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -22662,7 +15522,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -22719,7 +15579,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -22780,26 +15640,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/western-dresses/67798.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
-          "/western-dresses/67801.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#475569",
-        "images": [
+          "/western-dresses/67798.jpg.jpeg",
+          "/western-dresses/67801.jpg.jpeg",
           "/western-dresses/67804.jpg.jpeg"
         ]
       }
@@ -22853,7 +15699,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -23416,338 +16262,51 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/1668.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5586.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5751.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5752.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5753.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5754.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5755.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6088.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6089.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6171.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6172.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6217.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6218.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6262.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6263.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6305.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6396.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6397.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6495.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10846.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10848.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11397.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11773.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12332.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/13323.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0620.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5152.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6395.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7985.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8560.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/1668.jpg.jpeg",
+          "/western-dresses/5586.jpg.jpeg",
+          "/western-dresses/5751.jpg.jpeg",
+          "/western-dresses/5752.jpg.jpeg",
+          "/western-dresses/5753.jpg.jpeg",
+          "/western-dresses/5754.jpg.jpeg",
+          "/western-dresses/5755.jpg.jpeg",
+          "/western-dresses/6088.jpg.jpeg",
+          "/western-dresses/6089.jpg.jpeg",
+          "/western-dresses/6171.jpg.jpeg",
+          "/western-dresses/6172.jpg.jpeg",
+          "/western-dresses/6217.jpg.jpeg",
+          "/western-dresses/6218.jpg.jpeg",
+          "/western-dresses/6262.jpg.jpeg",
+          "/western-dresses/6263.jpg.jpeg",
+          "/western-dresses/6305.jpg.jpeg",
+          "/western-dresses/6396.jpg.jpeg",
+          "/western-dresses/6397.jpg.jpeg",
+          "/western-dresses/6495.jpg.jpeg",
+          "/western-dresses/9671.jpg.jpeg",
+          "/western-dresses/10846.jpg.jpeg",
+          "/western-dresses/10848.jpg.jpeg",
+          "/western-dresses/11260.jpg.jpeg",
+          "/western-dresses/11397.jpg.jpeg",
+          "/western-dresses/11773.jpg.jpeg",
+          "/western-dresses/12332.jpg.jpeg",
+          "/western-dresses/13323.jpg.jpeg",
+          "/western-dresses/16646.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0620.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0620.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA3190.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3190.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5152.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5152.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5646.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5646.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6395.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA6395.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7985.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA7985.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8560.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8560.jpg.jpeg"
         ]
       }
@@ -23823,98 +16382,21 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/4695.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/5963.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6038.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6040.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6047.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/12446.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1473.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4064.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9576.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/4695.jpg.jpeg",
+          "/western-dresses/5963.jpg.jpeg",
+          "/western-dresses/6038.jpg.jpeg",
+          "/western-dresses/6040.jpg.jpeg",
+          "/western-dresses/6047.jpg.jpeg",
+          "/western-dresses/12446.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1473.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1473.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4064.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4064.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9576.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9576.jpg.jpeg"
         ]
       }
@@ -23972,26 +16454,12 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/western-dresses/5671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/10457.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
+          "/western-dresses/5671.jpg.jpeg",
+          "/western-dresses/10457.jpg.jpeg",
           "/western-dresses/11314.jpg.jpeg"
         ]
       }
@@ -24055,50 +16523,15 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/5791.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/5901.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/5902.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/11076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/5791.jpg.jpeg",
+          "/western-dresses/5901.jpg.jpeg",
+          "/western-dresses/5902.jpg.jpeg",
+          "/western-dresses/6261.jpg.jpeg",
+          "/western-dresses/11076.jpg.jpeg",
           "/western-dresses/59330.jpg.jpeg"
         ]
       }
@@ -24154,18 +16587,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/western-dresses/5865.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/western-dresses/5865.jpg.jpeg",
           "/western-dresses/9670.jpg.jpeg"
         ]
       }
@@ -24241,98 +16667,21 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/5903.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6493.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/9845.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/10948.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11531.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12150.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12330.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12331.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/16647.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/16650.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/16651.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/5903.jpg.jpeg",
+          "/western-dresses/6493.jpg.jpeg",
+          "/western-dresses/9845.jpg.jpeg",
+          "/western-dresses/10948.jpg.jpeg",
+          "/western-dresses/11531.jpg.jpeg",
+          "/western-dresses/12150.jpg.jpeg",
+          "/western-dresses/12330.jpg.jpeg",
+          "/western-dresses/12331.jpg.jpeg",
+          "/western-dresses/16647.jpg.jpeg",
+          "/western-dresses/16650.jpg.jpeg",
+          "/western-dresses/16651.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA4807.jpg.jpeg"
         ]
       }
@@ -24416,130 +16765,25 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/5962.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6039.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6046.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6109.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6141.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6219.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6306.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6369.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10201.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10942.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11921.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12061.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4669.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/5962.jpg.jpeg",
+          "/western-dresses/6039.jpg.jpeg",
+          "/western-dresses/6046.jpg.jpeg",
+          "/western-dresses/6109.jpg.jpeg",
+          "/western-dresses/6141.jpg.jpeg",
+          "/western-dresses/6219.jpg.jpeg",
+          "/western-dresses/6306.jpg.jpeg",
+          "/western-dresses/6369.jpg.jpeg",
+          "/western-dresses/10201.jpg.jpeg",
+          "/western-dresses/10942.jpg.jpeg",
+          "/western-dresses/11921.jpg.jpeg",
+          "/western-dresses/12061.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4059.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA4059.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4669.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4669.jpg.jpeg"
         ]
       }
@@ -24595,18 +16839,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/6195.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/6195.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA8834.jpg.jpeg"
         ]
       }
@@ -24660,7 +16897,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -24725,42 +16962,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6395.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/13629.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2070.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6395.jpg.jpeg",
+          "/western-dresses/13629.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA0255.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2070.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2070.jpg.jpeg"
         ]
       }
@@ -24820,34 +17029,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/western-dresses/11174.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/16652.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2666.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
+          "/western-dresses/11174.jpg.jpeg",
+          "/western-dresses/16652.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2666.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA2666.jpg.jpeg"
         ]
       }
@@ -24903,18 +17091,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/11438.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/11438.jpg.jpeg",
           "/western-dresses/12833.jpg.jpeg"
         ]
       }
@@ -24968,7 +17149,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -25031,34 +17212,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/western-dresses/11837.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/12254.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7366.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/western-dresses/11837.jpg.jpeg",
+          "/western-dresses/12254.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7366.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7366.jpg.jpeg"
         ]
       }
@@ -25114,18 +17274,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/western-dresses/12447.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/western-dresses/12447.jpg.jpeg",
           "/western-dresses/12448.jpg.jpeg"
         ]
       }
@@ -25179,7 +17332,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -25238,18 +17391,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
-          "/western-dresses/IMG-20261103-WA6874.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#581C87",
-        "images": [
+          "/western-dresses/IMG-20261103-WA6874.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6874.jpg.jpeg"
         ]
       }
@@ -25305,18 +17451,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
-          "/western-dresses/IMG-20261103-WA9264.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#38BDF8",
-        "images": [
+          "/western-dresses/IMG-20261103-WA9264.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9264.jpg.jpeg"
         ]
       }
@@ -25848,186 +17987,32 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/western-dresses/1669.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5594.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/5757.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6048.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6049.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6268.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6513.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6514.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/6515.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/10949.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11266.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11486.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/11838.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/12107.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/16654.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA1584.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6421.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/western-dresses/1669.jpg.jpeg",
+          "/western-dresses/5594.jpg.jpeg",
+          "/western-dresses/5757.jpg.jpeg",
+          "/western-dresses/6048.jpg.jpeg",
+          "/western-dresses/6049.jpg.jpeg",
+          "/western-dresses/6051.jpg.jpeg",
+          "/western-dresses/6268.jpg.jpeg",
+          "/western-dresses/6307.jpg.jpeg",
+          "/western-dresses/6513.jpg.jpeg",
+          "/western-dresses/6514.jpg.jpeg",
+          "/western-dresses/6515.jpg.jpeg",
+          "/western-dresses/10949.jpg.jpeg",
+          "/western-dresses/11266.jpg.jpeg",
+          "/western-dresses/11486.jpg.jpeg",
+          "/western-dresses/11838.jpg.jpeg",
+          "/western-dresses/12107.jpg.jpeg",
+          "/western-dresses/16654.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA1584.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA1584.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5701.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5701.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6421.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6421.jpg.jpeg"
         ]
       }
@@ -26091,50 +18076,15 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/western-dresses/1670.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6054.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6055.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/6308.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/western-dresses/1670.jpg.jpeg",
+          "/western-dresses/6054.jpg.jpeg",
+          "/western-dresses/6055.jpg.jpeg",
+          "/western-dresses/6308.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8087.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8087.jpg.jpeg"
         ]
       }
@@ -26284,394 +18234,58 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/western-dresses/5487.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5593.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5595.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5596.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5672.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5674.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5675.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5676.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5677.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5866.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5867.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5941.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5941.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5942.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/5942.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6052.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6090.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6114.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6115.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6174.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6175.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6347.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-26",
-        "name": "Styling 26",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/6371.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-27",
-        "name": "Styling 27",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/9673.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-28",
-        "name": "Styling 28",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/10633.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-29",
-        "name": "Styling 29",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-30",
-        "name": "Styling 30",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-31",
-        "name": "Styling 31",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-32",
-        "name": "Styling 32",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-33",
-        "name": "Styling 33",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11775.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-34",
-        "name": "Styling 34",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/11927.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-35",
-        "name": "Styling 35",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12333.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-36",
-        "name": "Styling 36",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-37",
-        "name": "Styling 37",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/12888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-38",
-        "name": "Styling 38",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/16653.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-39",
-        "name": "Styling 39",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/59333.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-40",
-        "name": "Styling 40",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/59336.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-41",
-        "name": "Styling 41",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-42",
-        "name": "Styling 42",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA0646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-43",
-        "name": "Styling 43",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-44",
-        "name": "Styling 44",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2711.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-45",
-        "name": "Styling 45",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-46",
-        "name": "Styling 46",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA3311.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-47",
-        "name": "Styling 47",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-48",
-        "name": "Styling 48",
-        "colorCode": "#D97706",
-        "images": [
-          "/western-dresses/IMG-20261103-WA4719.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-49",
-        "name": "Styling 49",
-        "colorCode": "#D97706",
-        "images": [
+          "/western-dresses/5487.jpg.jpeg",
+          "/western-dresses/5593.jpg.jpeg",
+          "/western-dresses/5595.jpg.jpeg",
+          "/western-dresses/5596.jpg.jpeg",
+          "/western-dresses/5672.jpg.jpeg",
+          "/western-dresses/5674.jpg.jpeg",
+          "/western-dresses/5675.jpg.jpeg",
+          "/western-dresses/5676.jpg.jpeg",
+          "/western-dresses/5677.jpg.jpeg",
+          "/western-dresses/5678.jpg.jpeg",
+          "/western-dresses/5866.jpg.jpeg",
+          "/western-dresses/5867.jpg.jpeg",
+          "/western-dresses/5941.jpg (1).jpeg",
+          "/western-dresses/5941.jpg.jpeg",
+          "/western-dresses/5942.jpg (1).jpeg",
+          "/western-dresses/5942.jpg.jpeg",
+          "/western-dresses/6050.jpg.jpeg",
+          "/western-dresses/6052.jpg.jpeg",
+          "/western-dresses/6053.jpg.jpeg",
+          "/western-dresses/6090.jpg.jpeg",
+          "/western-dresses/6114.jpg.jpeg",
+          "/western-dresses/6115.jpg.jpeg",
+          "/western-dresses/6174.jpg.jpeg",
+          "/western-dresses/6175.jpg.jpeg",
+          "/western-dresses/6347.jpg.jpeg",
+          "/western-dresses/6371.jpg.jpeg",
+          "/western-dresses/9673.jpg.jpeg",
+          "/western-dresses/10633.jpg.jpeg",
+          "/western-dresses/11079.jpg.jpeg",
+          "/western-dresses/11176.jpg.jpeg",
+          "/western-dresses/11261.jpg.jpeg",
+          "/western-dresses/11398.jpg.jpeg",
+          "/western-dresses/11775.jpg.jpeg",
+          "/western-dresses/11927.jpg.jpeg",
+          "/western-dresses/12333.jpg.jpeg",
+          "/western-dresses/12887.jpg.jpeg",
+          "/western-dresses/12888.jpg.jpeg",
+          "/western-dresses/16653.jpg.jpeg",
+          "/western-dresses/59333.jpg.jpeg",
+          "/western-dresses/59336.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA0512.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA0646.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA0646.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2711.jpg (1).jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2711.jpg (1).jpeg",
+          "/western-dresses/IMG-20261103-WA3311.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA3311.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA4719.jpg (1).jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4719.jpg (1).jpeg"
         ]
       }
@@ -26745,90 +18359,20 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/western-dresses/5792.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/5793.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/6204.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11175.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/11315.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12152.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/12255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA2087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#FB7185",
-        "images": [
-          "/western-dresses/IMG-20261103-WA8635.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#FB7185",
-        "images": [
+          "/western-dresses/5792.jpg.jpeg",
+          "/western-dresses/5793.jpg.jpeg",
+          "/western-dresses/6204.jpg.jpeg",
+          "/western-dresses/11175.jpg.jpeg",
+          "/western-dresses/11315.jpg.jpeg",
+          "/western-dresses/12152.jpg.jpeg",
+          "/western-dresses/12255.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA2087.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA2087.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA8635.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA8635.jpg.jpeg"
         ]
       }
@@ -26888,34 +18432,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/western-dresses/5868.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/12151.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9701.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
+          "/western-dresses/5868.jpg.jpeg",
+          "/western-dresses/12151.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9701.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9701.jpg.jpeg"
         ]
       }
@@ -26971,18 +18494,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/western-dresses/5964.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/western-dresses/5964.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA5734.jpg.jpeg"
         ]
       }
@@ -27036,7 +18552,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
@@ -27105,58 +18621,16 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/western-dresses/6143.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/9896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/11928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/IMG-20261103-WA5294.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
-          "/western-dresses/IMG-20261103-WA9273.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#DC2626",
-        "images": [
+          "/western-dresses/6143.jpg.jpeg",
+          "/western-dresses/9896.jpg.jpeg",
+          "/western-dresses/11928.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA5294.jpg.jpeg",
+          "/western-dresses/dresses-images/IMG-20261103-WA5294.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA9273.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA9273.jpg.jpeg"
         ]
       }
@@ -27216,34 +18690,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/western-dresses/6221.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/6264.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/western-dresses/10866.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
+          "/western-dresses/6221.jpg.jpeg",
+          "/western-dresses/6264.jpg.jpeg",
+          "/western-dresses/10866.jpg.jpeg",
           "/western-dresses/13632.jpg.jpeg"
         ]
       }
@@ -27305,42 +18758,14 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/western-dresses/6222.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/6370.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/10235.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#991B1B",
-        "images": [
-          "/western-dresses/10241.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#991B1B",
-        "images": [
+          "/western-dresses/6222.jpg.jpeg",
+          "/western-dresses/6370.jpg.jpeg",
+          "/western-dresses/10235.jpg.jpeg",
+          "/western-dresses/10241.jpg.jpeg",
           "/western-dresses/10242.jpg.jpeg"
         ]
       }
@@ -27400,34 +18825,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/western-dresses/6398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/11532.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/western-dresses/IMG-20261103-WA7377.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
+          "/western-dresses/6398.jpg.jpeg",
+          "/western-dresses/11532.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA7377.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA7377.jpg.jpeg"
         ]
       }
@@ -27483,18 +18887,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/western-dresses/11485.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/western-dresses/11485.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9926.jpg.jpeg"
         ]
       }
@@ -27548,7 +18945,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -27605,7 +19002,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -27662,7 +19059,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -27725,34 +19122,13 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/western-dresses/16658.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/16659.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/western-dresses/IMG-20261103-WA6893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
+          "/western-dresses/16658.jpg.jpeg",
+          "/western-dresses/16659.jpg.jpeg",
+          "/western-dresses/IMG-20261103-WA6893.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA6893.jpg.jpeg"
         ]
       }
@@ -27806,7 +19182,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -27865,18 +19241,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/western-dresses/68018.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/western-dresses/68018.jpg.jpeg",
           "/western-dresses/68021.jpg.jpeg"
         ]
       }
@@ -27930,7 +19299,7 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -27989,18 +19358,11 @@ export const WESTERN_DRESSES: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/western-dresses/IMG-20261103-WA4140.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/western-dresses/IMG-20261103-WA4140.jpg.jpeg",
           "/western-dresses/dresses-images/IMG-20261103-WA4140.jpg.jpeg"
         ]
       }

@@ -127,26 +127,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA0252.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1020.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA1020.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA4896.jpg.jpeg"
         ]
       }
@@ -204,26 +190,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/denim-collection/IMG-20261102-WA1565.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5642.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1565.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA5642.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8377.jpg.jpeg"
         ]
       }
@@ -281,26 +253,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/denim-collection/IMG-20261102-WA2367.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA2367.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4149.jpg.jpeg",
           "/denim-collection/IMG-20261103-WA9380.jpg.jpeg"
         ]
       }
@@ -356,18 +314,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/denim-collection/IMG-20261102-WA3261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/denim-collection/IMG-20261102-WA3261.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9076.jpg.jpeg"
         ]
       }
@@ -421,7 +372,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -478,7 +429,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -535,7 +486,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -690,66 +641,17 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA0296.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1075.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4188.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4984.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6808.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7677.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7681.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA1075.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4188.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4984.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA6808.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7677.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7681.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9097.jpg.jpeg"
         ]
       }
@@ -807,26 +709,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/denim-collection/IMG-20261102-WA1579.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2384.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1579.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA2384.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9844.jpg.jpeg"
         ]
       }
@@ -882,18 +770,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/denim-collection/IMG-20261102-WA3293.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA3293.jpg.jpeg",
           "/denim-collection/IMG-20261103-WA9870.jpg.jpeg"
         ]
       }
@@ -947,7 +828,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -1004,7 +885,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -1149,50 +1030,15 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA0346.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1128.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2487.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3337.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA8416.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA1128.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA2487.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA3337.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA8416.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9902.jpg.jpeg"
         ]
       }
@@ -1248,18 +1094,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/denim-collection/IMG-20261102-WA1589.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA5833.jpg.jpeg"
         ]
       }
@@ -1315,18 +1154,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/denim-collection/IMG-20261102-WA4237.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA4237.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA5022.jpg.jpeg"
         ]
       }
@@ -1380,7 +1212,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -1437,7 +1269,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -1494,7 +1326,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -1635,34 +1467,13 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/denim-collection/IMG-20261102-WA0449.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1208.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5040.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA1208.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA5040.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8436.jpg.jpeg"
         ]
       }
@@ -1720,26 +1531,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA1622.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7835.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1622.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7835.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9933.jpg.jpeg"
         ]
       }
@@ -1793,7 +1590,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -1854,26 +1651,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/denim-collection/IMG-20261102-WA3421.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4321.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/denim-collection/IMG-20261102-WA3421.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4321.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA6977.jpg.jpeg"
         ]
       }
@@ -1927,7 +1710,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -1984,7 +1767,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -2121,18 +1904,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/denim-collection/IMG-20261102-WA0479.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0479.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA2568.jpg.jpeg"
         ]
       }
@@ -2186,7 +1962,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -2253,50 +2029,15 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA1758.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5103.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7007.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7846.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA9287.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1758.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA5103.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7007.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7846.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA9287.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9978.jpg.jpeg"
         ]
       }
@@ -2350,7 +2091,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -2407,7 +2148,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -2464,7 +2205,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -2523,18 +2264,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
-          "/denim-collection/IMG-20261102-WA6026.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#38BDF8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA6026.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8536.jpg.jpeg"
         ]
       }
@@ -2668,18 +2402,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA0487.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0487.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA7149.jpg.jpeg"
         ]
       }
@@ -2733,7 +2460,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -2792,18 +2519,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/denim-collection/IMG-20261102-WA1779.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1779.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9988.jpg.jpeg"
         ]
       }
@@ -2857,7 +2577,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -2916,18 +2636,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
-          "/denim-collection/IMG-20261102-WA3547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#38BDF8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8684.jpg.jpeg"
         ]
       }
@@ -2981,7 +2694,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -3042,26 +2755,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/denim-collection/IMG-20261102-WA5108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6040.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA5108.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA6040.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA7852.jpg.jpeg"
         ]
       }
@@ -3115,7 +2814,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -3250,7 +2949,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -3309,18 +3008,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/denim-collection/IMG-20261102-WA1254.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA5215.jpg.jpeg"
         ]
       }
@@ -3382,42 +3074,14 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/denim-collection/IMG-20261102-WA1840.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2692.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6169.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7160.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1840.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA2692.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA6169.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7160.jpg.jpeg",
           "/denim-collection/IMG-20261103-WA1162.jpg.jpeg"
         ]
       }
@@ -3475,26 +3139,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA3592.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA3592.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4555.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8747.jpg.jpeg"
         ]
       }
@@ -3548,7 +3198,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -3605,7 +3255,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -3662,7 +3312,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -3799,18 +3449,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/denim-collection/IMG-20261102-WA0835.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0835.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8829.jpg.jpeg"
         ]
       }
@@ -3866,18 +3509,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/denim-collection/IMG-20261102-WA1272.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1272.jpg.jpeg",
           "/denim-collection/IMG-20261103-WA2865.jpg.jpeg"
         ]
       }
@@ -3931,7 +3567,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -3996,42 +3632,14 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA2703.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3695.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7890.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA3695.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7887.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7890.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9549.jpg.jpeg"
         ]
       }
@@ -4085,7 +3693,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -4142,7 +3750,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -4199,7 +3807,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -4256,7 +3864,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -4395,26 +4003,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA0865.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7426.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7426.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8880.jpg.jpeg"
         ]
       }
@@ -4470,18 +4064,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/denim-collection/IMG-20261102-WA1319.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1319.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA3752.jpg.jpeg"
         ]
       }
@@ -4537,18 +4124,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/denim-collection/IMG-20261102-WA1894.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1894.jpg.jpeg",
           "/denim-collection/IMG-20261103-WA4084.jpg.jpeg"
         ]
       }
@@ -4604,18 +4184,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/denim-collection/IMG-20261102-WA2999.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA2999.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA4597.jpg.jpeg"
         ]
       }
@@ -4669,7 +4242,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -4728,18 +4301,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/denim-collection/IMG-20261102-WA6342.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/denim-collection/IMG-20261102-WA6342.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9562.jpg.jpeg"
         ]
       }
@@ -4793,7 +4359,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -4932,26 +4498,12 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/denim-collection/IMG-20261102-WA0916.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/denim-collection/IMG-20261102-WA6451.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA6451.jpg.jpeg",
           "/denim-collection/IMG-20261103-WA6232.jpg.jpeg"
         ]
       }
@@ -5017,58 +4569,16 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA1404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3941.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4628.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA5416.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7453.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA3034.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA3941.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4628.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA5416.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7453.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9657.jpg.jpeg"
         ]
       }
@@ -5122,7 +4632,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -5179,7 +4689,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -5236,7 +4746,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -5371,7 +4881,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -5428,7 +4938,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -5491,34 +5001,13 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA2031.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3167.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4659.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA2031.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA3167.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4659.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA6504.jpg.jpeg"
         ]
       }
@@ -5572,7 +5061,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -5629,7 +5118,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -5686,7 +5175,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -5743,7 +5232,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -5802,18 +5291,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/denim-collection/IMG-20261102-WA8902.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9739.jpg.jpeg"
         ]
       }
@@ -5867,7 +5349,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -6014,58 +5496,16 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/denim-collection/IMG-20261102-WA1008.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA1496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA2242.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA3194.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA4763.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/denim-collection/IMG-20261102-WA7500.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/denim-collection/IMG-20261102-WA1008.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA1496.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA2242.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA3194.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA4763.jpg.jpeg",
+          "/denim-collection/IMG-20261102-WA7500.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA8355.jpg.jpeg"
         ]
       }
@@ -6119,7 +5559,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -6178,18 +5618,11 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/denim-collection/IMG-20261102-WA5568.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/denim-collection/IMG-20261102-WA5568.jpg.jpeg",
           "/denim-collection/IMG-20261102-WA9761.jpg.jpeg"
         ]
       }
@@ -6243,7 +5676,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -6300,7 +5733,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -6357,7 +5790,7 @@ export const DENIM_COLLECTION: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [

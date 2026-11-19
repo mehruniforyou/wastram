@@ -206,90 +206,20 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1655805484177.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1655805487198.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1655805489760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1655805492404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1655805495098.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5288.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5325.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5326.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20261023-WA0079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20261023-WA0080.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1655805484177.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1655805487198.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1655805489760.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1655805492404.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1655805495098.jpg.jpeg",
+          "/tops-shirts/5288.jpg.jpeg",
+          "/tops-shirts/5325.jpg.jpeg",
+          "/tops-shirts/5326.jpg.jpeg",
+          "/tops-shirts/IMG-20261023-WA0079.jpg.jpeg",
+          "/tops-shirts/IMG-20261023-WA0080.jpg.jpeg",
           "/tops-shirts/IMG-20261027-WA0039.jpg.jpeg"
         ]
       }
@@ -355,58 +285,16 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1734516811451.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1734516813406.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1734516819125.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/5373.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/5374.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261005-WA0081.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516811451.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1734516813406.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1734516819125.jpg.jpeg",
+          "/tops-shirts/5373.jpg.jpeg",
+          "/tops-shirts/5374.jpg.jpeg",
+          "/tops-shirts/IMG-20261005-WA0081.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0102.jpg.jpeg"
         ]
       }
@@ -462,18 +350,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
-          "/tops-shirts/FB_IMG_1766593449223.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#16A34A",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593449223.jpg.jpeg",
           "/tops-shirts/FB_IMG_1766593450876.jpg.jpeg"
         ]
       }
@@ -529,18 +410,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/tops-shirts/FB_IMG_1780915661798.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/tops-shirts/FB_IMG_1780915661798.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0103.jpg.jpeg"
         ]
       }
@@ -596,18 +470,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/tops-shirts/FB_IMG_1783351937530.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/tops-shirts/FB_IMG_1783351937530.jpg.jpeg",
           "/tops-shirts/IMG_20250122_100521.jpg.jpeg"
         ]
       }
@@ -663,18 +530,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/tops-shirts/FB_IMG_1789558210633.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/tops-shirts/FB_IMG_1789558210633.jpg.jpeg",
           "/tops-shirts/5261.jpg.jpeg"
         ]
       }
@@ -734,34 +594,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1789572672520.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789645737702.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/a96aae9274134f54d195150b25ea9d1f.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572672520.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789645737702.jpg.jpeg",
+          "/tops-shirts/a96aae9274134f54d195150b25ea9d1f.jpg.jpeg",
           "/tops-shirts/IMG-20261023-WA0078.jpg.jpeg"
         ]
       }
@@ -817,18 +656,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/56e1f3c5fe553e221b0824492a532140.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/56e1f3c5fe553e221b0824492a532140.jpg.jpeg",
           "/tops-shirts/5308.jpg.jpeg"
         ]
       }
@@ -890,42 +722,14 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/tops-shirts/_MG_3056.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3058.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3060.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3061.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/tops-shirts/_MG_3056.JPG.jpeg",
+          "/tops-shirts/_MG_3058.JPG.jpeg",
+          "/tops-shirts/_MG_3060.JPG.jpeg",
+          "/tops-shirts/_MG_3061.JPG.jpeg",
           "/tops-shirts/IMG-20261008-WA0028.jpg.jpeg"
         ]
       }
@@ -979,7 +783,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -1040,26 +844,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/tops-shirts/IMG-20261031-WA0077.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/IMG-20261031-WA0078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/tops-shirts/IMG-20261031-WA0077.jpg.jpeg",
+          "/tops-shirts/IMG-20261031-WA0078.jpg.jpeg",
           "/tops-shirts/IMG-20261031-WA0079.jpg.jpeg"
         ]
       }
@@ -1289,42 +1079,14 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/tops-shirts/FB_IMG_1700480923804.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
-          "/tops-shirts/FB_IMG_1700480923804.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#0E7490",
-        "images": [
-          "/tops-shirts/FB_IMG_1700480925850.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#0E7490",
-        "images": [
-          "/tops-shirts/FB_IMG_1700480925850.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#0E7490",
-        "images": [
+          "/tops-shirts/FB_IMG_1700480923804.jpg (1).jpeg",
+          "/tops-shirts/FB_IMG_1700480923804.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1700480925850.jpg (1).jpeg",
+          "/tops-shirts/FB_IMG_1700480925850.jpg.jpeg",
           "/tops-shirts/IMG-20261027-WA0040.jpg.jpeg"
         ]
       }
@@ -1382,26 +1144,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/tops-shirts/FB_IMG_1700480923804.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/tops-shirts/FB_IMG_1700480925850.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
+          "/tops-shirts/FB_IMG_1700480923804.jpg%20(1).jpeg",
+          "/tops-shirts/FB_IMG_1700480925850.jpg%20(1).jpeg",
           "/tops-shirts/FB_IMG_1786467700762.jpg%20(1).jpeg"
         ]
       }
@@ -1467,58 +1215,16 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1734516821169.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1780915663799.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0106.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0110.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0112.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0113.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516821169.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1780915663799.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0106.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0110.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0112.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0113.jpg.jpeg",
           "/tops-shirts/IMG-20261023-WA0081.jpg.jpeg"
         ]
       }
@@ -1582,50 +1288,15 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1766593453410.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1766593455454.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5290.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0109.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593453410.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1766593455454.jpg.jpeg",
+          "/tops-shirts/5290.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0109.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0108.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0111.jpg.jpeg"
         ]
       }
@@ -1703,106 +1374,22 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1786467678971.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467685614.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467689174.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467700761.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467700762.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467700762.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467700764.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467706553.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467713094.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467715442.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1786467718421.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20261014-WA0185.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1786467678971.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467685614.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467689174.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467700761.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467700762.jpg (1).jpeg",
+          "/tops-shirts/FB_IMG_1786467700762.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467700764.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467706553.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467713094.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467715442.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1786467718421.jpg.jpeg",
+          "/tops-shirts/IMG-20261014-WA0185.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0104.jpg.jpeg"
         ]
       }
@@ -1862,34 +1449,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/tops-shirts/FB_IMG_1789558215798.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/tops-shirts/FB_IMG_1789558218530.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/tops-shirts/FB_IMG_1789558221255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
+          "/tops-shirts/FB_IMG_1789558215798.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789558218530.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789558221255.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0105.jpg.jpeg"
         ]
       }
@@ -1945,18 +1511,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/tops-shirts/FB_IMG_1789572674526.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572674526.jpg.jpeg",
           "/tops-shirts/5262.jpg.jpeg"
         ]
       }
@@ -2020,50 +1579,15 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1789645739542.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789645741493.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/ae4669d40c5f0118f7dcd4be38c04532_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/IMG-20261027-WA0043.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/IMG-20261027-WA0041.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1789645739542.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789645741493.jpg.jpeg",
+          "/tops-shirts/ae4669d40c5f0118f7dcd4be38c04532_2.jpg.jpeg",
+          "/tops-shirts/IMG-20261027-WA0043.jpg.jpeg",
+          "/tops-shirts/IMG-20261027-WA0041.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA0306.jpg.jpeg"
         ]
       }
@@ -2119,18 +1643,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/tops-shirts/6cb5b0330e08e0d44d7463f4422e4bd6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/tops-shirts/6cb5b0330e08e0d44d7463f4422e4bd6.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0107.jpg.jpeg"
         ]
       }
@@ -2186,18 +1703,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/tops-shirts/5246.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/tops-shirts/5246.jpg.jpeg",
           "/tops-shirts/5309.jpg.jpeg"
         ]
       }
@@ -2257,34 +1767,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/5327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/IMG-20261005-WA0082.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/IMG-20261005-WA0083.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/5327.jpg.jpeg",
+          "/tops-shirts/IMG-20261005-WA0082.jpg.jpeg",
+          "/tops-shirts/IMG-20261005-WA0083.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0114.jpg.jpeg"
         ]
       }
@@ -2338,7 +1827,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -2395,7 +1884,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -2454,18 +1943,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/tops-shirts/IMG_20250122_100541.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/tops-shirts/IMG_20250122_100541.jpg.jpeg",
           "/tops-shirts/IMG-20261027-WA0042.jpg.jpeg"
         ]
       }
@@ -2519,7 +2001,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -2730,26 +2212,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/tops-shirts/FB_IMG_1706681620884.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
-          "/tops-shirts/FB_IMG_1706681622541.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#0E7490",
-        "images": [
+          "/tops-shirts/FB_IMG_1706681620884.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1706681622541.jpg.jpeg",
           "/tops-shirts/5328.jpg.jpeg"
         ]
       }
@@ -2813,50 +2281,15 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1734516823280.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1734516825164.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1734516827041.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261005-WA0085.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261014-WA0187.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516823280.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1734516825164.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1734516827041.jpg.jpeg",
+          "/tops-shirts/IMG-20261005-WA0085.jpg.jpeg",
+          "/tops-shirts/IMG-20261014-WA0187.jpg.jpeg",
           "/tops-shirts/IMG-20261027-WA0054.jpg.jpeg"
         ]
       }
@@ -2936,114 +2369,23 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1766593457561.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1780915666280.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/0610c6174614f291513c41721f074b4f.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/be2d623898d82af16f8fdb559905e9ef.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5292.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261005-WA0084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0116.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0117.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0118.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0119.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0120.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261027-WA0051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261027-WA0052.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593457561.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1780915666280.jpg.jpeg",
+          "/tops-shirts/0610c6174614f291513c41721f074b4f.jpg.jpeg",
+          "/tops-shirts/be2d623898d82af16f8fdb559905e9ef.jpg.jpeg",
+          "/tops-shirts/5292.jpg.jpeg",
+          "/tops-shirts/IMG-20261005-WA0084.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0116.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0117.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0118.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0119.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0120.jpg.jpeg",
+          "/tops-shirts/IMG-20261027-WA0051.jpg.jpeg",
+          "/tops-shirts/IMG-20261027-WA0052.jpg.jpeg",
           "/tops-shirts/IMG-20261027-WA0053.jpg.jpeg"
         ]
       }
@@ -3099,18 +2441,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1786468315951.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1786468315951.jpg.jpeg",
           "/tops-shirts/IMG-20261023-WA0082.jpg.jpeg"
         ]
       }
@@ -3176,58 +2511,16 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1789558238647.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789558240859.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789558242552.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789558245972.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789558248107.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/5355.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1789558238647.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789558240859.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789558242552.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789558245972.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789558248107.jpg.jpeg",
+          "/tops-shirts/5355.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA3406.jpg.jpeg"
         ]
       }
@@ -3281,7 +2574,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -3338,7 +2631,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -3395,7 +2688,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -3452,7 +2745,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -3511,18 +2804,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/5291.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/5291.jpg.jpeg",
           "/tops-shirts/5376.jpg.jpeg"
         ]
       }
@@ -3576,7 +2862,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -3633,7 +2919,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -3690,7 +2976,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -3911,66 +3197,17 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1706681624214.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572496811.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572498810.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572501090.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572504923.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572508546.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/IMG-20261014-WA0188.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1706681624214.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572496811.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572498810.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572501090.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572504923.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572508546.jpg.jpeg",
+          "/tops-shirts/IMG-20261014-WA0188.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA3520.jpg.jpeg"
         ]
       }
@@ -4024,7 +3261,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -4085,26 +3322,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/FB_IMG_1737652101593.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/5275.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/FB_IMG_1737652101593.jpg.jpeg",
+          "/tops-shirts/5275.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0125.jpg.jpeg"
         ]
       }
@@ -4158,7 +3381,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -4231,74 +3454,18 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1766593595926.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1766593599893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1766593649256.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1766593652199.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/5356.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/5357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261005-WA0086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0123.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593595926.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1766593599893.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1766593649256.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1766593652199.jpg.jpeg",
+          "/tops-shirts/5356.jpg.jpeg",
+          "/tops-shirts/5357.jpg.jpeg",
+          "/tops-shirts/IMG-20261005-WA0086.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0123.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0126.jpg.jpeg"
         ]
       }
@@ -4358,34 +3525,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1766593654240.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572710403.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG_20250122_100756.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593654240.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572710403.jpg.jpeg",
+          "/tops-shirts/IMG_20250122_100756.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0124.jpg.jpeg"
         ]
       }
@@ -4439,7 +3585,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -4512,74 +3658,18 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/tops-shirts/FB_IMG_1788980212340.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/FB_IMG_1788980214532.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/FB_IMG_1788980216711.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/FB_IMG_1788980219089.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0121.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0122.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/IMG-20261028-WA0100.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/IMG-20261028-WA0102.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#DC2626",
-        "images": [
+          "/tops-shirts/FB_IMG_1788980212340.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1788980214532.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1788980216711.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1788980219089.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0121.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0122.jpg.jpeg",
+          "/tops-shirts/IMG-20261028-WA0100.jpg.jpeg",
+          "/tops-shirts/IMG-20261028-WA0102.jpg.jpeg",
           "/tops-shirts/IMG-20261028-WA0103.jpg.jpeg"
         ]
       }
@@ -4637,26 +3727,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/tops-shirts/0ed7122bd8c92c7cc5ebe5eae2141326.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/tops-shirts/7fb6b493279d4b74eb076c4b17143ac1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
+          "/tops-shirts/0ed7122bd8c92c7cc5ebe5eae2141326.jpg.jpeg",
+          "/tops-shirts/7fb6b493279d4b74eb076c4b17143ac1.jpg.jpeg",
           "/tops-shirts/IMG-20261028-WA0101.jpg.jpeg"
         ]
       }
@@ -4710,7 +3786,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -4767,7 +3843,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -4826,18 +3902,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/tops-shirts/5293.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/tops-shirts/5293.jpg.jpeg",
           "/tops-shirts/IMG-20261023-WA0083.jpg.jpeg"
         ]
       }
@@ -4893,18 +3962,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/tops-shirts/5313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/tops-shirts/5313.jpg.jpeg",
           "/tops-shirts/5329.jpg.jpeg"
         ]
       }
@@ -4958,7 +4020,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -5017,18 +4079,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/tops-shirts/IMG-20261023-WA0084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/tops-shirts/IMG-20261023-WA0084.jpg.jpeg",
           "/tops-shirts/IMG-20261023-WA0085.jpg.jpeg"
         ]
       }
@@ -5228,18 +4283,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
-          "/tops-shirts/FB_IMG_1734502811511.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#14532D",
-        "images": [
+          "/tops-shirts/FB_IMG_1734502811511.jpg.jpeg",
           "/tops-shirts/5294.jpg.jpeg"
         ]
       }
@@ -5297,26 +4345,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/FB_IMG_1734502813795.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/c8fa8e44b35c7702a31d4b04f99684cc.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/FB_IMG_1734502813795.jpg.jpeg",
+          "/tops-shirts/c8fa8e44b35c7702a31d4b04f99684cc.jpg.jpeg",
           "/tops-shirts/5379.jpg.jpeg"
         ]
       }
@@ -5370,7 +4404,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -5439,58 +4473,16 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1770571172877.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1770571175265.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1770571178984.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572558670.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5279.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5314.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1770571172877.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1770571175265.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1770571178984.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572558670.jpg.jpeg",
+          "/tops-shirts/5279.jpg.jpeg",
+          "/tops-shirts/5314.jpg.jpeg",
           "/tops-shirts/5332.jpg.jpeg"
         ]
       }
@@ -5544,7 +4536,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -5601,7 +4593,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -5688,130 +4680,25 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1789572571935.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572573977.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/144441d233a4e64a3cd7fa5ea9b47dd5_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5358.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG_20250122_101504.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG_20250122_101504.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261005-WA0087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261014-WA0189.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261014-WA0190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0127.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0128.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0129.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0130.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0131.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261028-WA0124.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572571935.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572573977.jpg.jpeg",
+          "/tops-shirts/144441d233a4e64a3cd7fa5ea9b47dd5_1.jpg.jpeg",
+          "/tops-shirts/5358.jpg.jpeg",
+          "/tops-shirts/IMG_20250122_101504.jpg (1).jpeg",
+          "/tops-shirts/IMG_20250122_101504.jpg.jpeg",
+          "/tops-shirts/IMG-20261005-WA0087.jpg.jpeg",
+          "/tops-shirts/IMG-20261014-WA0189.jpg.jpeg",
+          "/tops-shirts/IMG-20261014-WA0190.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0127.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0128.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0129.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0130.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0131.jpg.jpeg",
+          "/tops-shirts/IMG-20261028-WA0124.jpg.jpeg",
           "/tops-shirts/IMG-20261028-WA0125.jpg.jpeg"
         ]
       }
@@ -5867,18 +4754,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1789572713031.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572713031.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA7036.jpg.jpeg"
         ]
       }
@@ -5934,18 +4814,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/82e8fc2ad2c2c9e2b75e66a5f82aacea.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/82e8fc2ad2c2c9e2b75e66a5f82aacea.jpg.jpeg",
           "/tops-shirts/5249.jpg.jpeg"
         ]
       }
@@ -5999,7 +4872,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -6056,7 +4929,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -6119,34 +4992,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/tops-shirts/IMG-20261024-WA0026.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/tops-shirts/IMG-20261024-WA0027.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
-          "/tops-shirts/IMG-20261024-WA0029.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#991B1B",
-        "images": [
+          "/tops-shirts/IMG-20261024-WA0026.jpg.jpeg",
+          "/tops-shirts/IMG-20261024-WA0027.jpg.jpeg",
+          "/tops-shirts/IMG-20261024-WA0029.jpg.jpeg",
           "/tops-shirts/IMG-20261024-WA0028.jpg.jpeg"
         ]
       }
@@ -6374,34 +5226,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1734502815911.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1781108370675.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/5333.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1734502815911.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1781108370675.jpg.jpeg",
+          "/tops-shirts/5333.jpg.jpeg",
           "/tops-shirts/IMG-20261014-WA0192.jpg.jpeg"
         ]
       }
@@ -6455,7 +5286,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -6560,202 +5391,34 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1771218410404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218415176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218417759.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218422046.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218425755.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218427958.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218427958.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218431230.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218431230.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218433751.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1781108368722.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1788980235053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5397.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5399.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0005.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0005.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-18",
-        "name": "Styling 18",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0005_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-19",
-        "name": "Styling 19",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0008.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-20",
-        "name": "Styling 20",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0008.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-21",
-        "name": "Styling 21",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0008_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-22",
-        "name": "Styling 22",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0011.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-23",
-        "name": "Styling 23",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0011.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-24",
-        "name": "Styling 24",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0011_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-25",
-        "name": "Styling 25",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1771218410404.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218415176.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218417759.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218422046.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218425755.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218427958.jpg (1).jpeg",
+          "/tops-shirts/FB_IMG_1771218427958.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218431230.jpg (1).jpeg",
+          "/tops-shirts/FB_IMG_1771218431230.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218433751.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1781108368722.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1788980235053.jpg.jpeg",
+          "/tops-shirts/5397.jpg.jpeg",
+          "/tops-shirts/5398.jpg.jpeg",
+          "/tops-shirts/5399.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0005.jpg (1).jpeg",
+          "/tops-shirts/IMG-20250122-WA0005.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0005_1.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0008.jpg (1).jpeg",
+          "/tops-shirts/IMG-20250122-WA0008.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0008_1.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0011.jpg (1).jpeg",
+          "/tops-shirts/IMG-20250122-WA0011.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0011_1.jpg.jpeg",
           "/tops-shirts/IMG-20261014-WA0191.jpg.jpeg"
         ]
       }
@@ -6817,42 +5480,14 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/tops-shirts/FB_IMG_1771218427958.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218431230.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0005.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0008.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
+          "/tops-shirts/FB_IMG_1771218427958.jpg%20(1).jpeg",
+          "/tops-shirts/FB_IMG_1771218431230.jpg%20(1).jpeg",
+          "/tops-shirts/IMG-20250122-WA0005.jpg%20(1).jpeg",
+          "/tops-shirts/IMG-20250122-WA0008.jpg%20(1).jpeg",
           "/tops-shirts/IMG-20250122-WA0011.jpg%20(1).jpeg"
         ]
       }
@@ -6912,34 +5547,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1789572576064.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/8a5c8ea6ebf5344349056fb5715eb55b_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/cec0c4a661f561baabb741a03ebdbf7a_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572576064.jpg.jpeg",
+          "/tops-shirts/8a5c8ea6ebf5344349056fb5715eb55b_1.jpg.jpeg",
+          "/tops-shirts/cec0c4a661f561baabb741a03ebdbf7a_1.jpg.jpeg",
           "/tops-shirts/IMG-20261008-WA0021.jpg.jpeg"
         ]
       }
@@ -6993,7 +5607,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -7050,7 +5664,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -7107,7 +5721,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -7168,26 +5782,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/155afcfbd999101b8ddd0702f7711c3d.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5280.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/155afcfbd999101b8ddd0702f7711c3d.jpg.jpeg",
+          "/tops-shirts/5280.jpg.jpeg",
           "/tops-shirts/5315.jpg.jpeg"
         ]
       }
@@ -7243,18 +5843,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/tops-shirts/5250.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/tops-shirts/5250.jpg.jpeg",
           "/tops-shirts/5296.jpg.jpeg"
         ]
       }
@@ -7308,7 +5901,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -7365,7 +5958,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -7422,7 +6015,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -7479,7 +6072,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -7542,34 +6135,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/tops-shirts/IMG-20261024-WA0030.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/tops-shirts/IMG-20261024-WA0031.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/tops-shirts/IMG-20261024-WA0032.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
+          "/tops-shirts/IMG-20261024-WA0030.jpg.jpeg",
+          "/tops-shirts/IMG-20261024-WA0031.jpg.jpeg",
+          "/tops-shirts/IMG-20261024-WA0032.jpg.jpeg",
           "/tops-shirts/IMG-20261024-WA0033.jpg.jpeg"
         ]
       }
@@ -7625,18 +6197,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
-          "/tops-shirts/IMG-20261028-WA0126.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#14532D",
-        "images": [
+          "/tops-shirts/IMG-20261028-WA0126.jpg.jpeg",
           "/tops-shirts/IMG-20261028-WA0127.jpg.jpeg"
         ]
       }
@@ -7834,7 +6399,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -7891,7 +6456,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
@@ -7948,7 +6513,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -8017,58 +6582,16 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1771218436345.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771218438744.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1788980237237.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5334.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0015.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0015.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1771218436345.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771218438744.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1788980237237.jpg.jpeg",
+          "/tops-shirts/5334.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0015.jpg (1).jpeg",
+          "/tops-shirts/IMG-20250122-WA0015.jpg.jpeg",
           "/tops-shirts/IMG-20250122-WA0015_1.jpg.jpeg"
         ]
       }
@@ -8126,26 +6649,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1781723149158.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1781723151405.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1781723149158.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1781723151405.jpg.jpeg",
           "/tops-shirts/5360.jpg.jpeg"
         ]
       }
@@ -8203,26 +6712,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1788980239280.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/5252.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1788980239280.jpg.jpeg",
+          "/tops-shirts/5252.jpg.jpeg",
           "/tops-shirts/5297.jpg.jpeg"
         ]
       }
@@ -8278,18 +6773,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/tops-shirts/FB_IMG_1789572579166.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572579166.jpg.jpeg",
           "/tops-shirts/FB_IMG_1789572765654.jpg.jpeg"
         ]
       }
@@ -8347,26 +6835,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/tops-shirts/FB_IMG_1789572584626.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
-          "/tops-shirts/5318.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#475569",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572584626.jpg.jpeg",
+          "/tops-shirts/5318.jpg.jpeg",
           "/tops-shirts/IMG-20261008-WA0022.jpg.jpeg"
         ]
       }
@@ -8422,18 +6896,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/tops-shirts/1c8a6c7ecba9ff8c8bfa5184dbfd75bf.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/tops-shirts/1c8a6c7ecba9ff8c8bfa5184dbfd75bf.jpg.jpeg",
           "/tops-shirts/5253.jpg.jpeg"
         ]
       }
@@ -8487,7 +6954,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -8548,26 +7015,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/dbded9834417e58aa467216443242718.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0133.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/dbded9834417e58aa467216443242718.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0133.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0134.jpg.jpeg"
         ]
       }
@@ -8627,34 +7080,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/tops-shirts/5281.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/tops-shirts/IMG-20261015-WA0113.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/tops-shirts/IMG-20261015-WA0114.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/tops-shirts/5281.jpg.jpeg",
+          "/tops-shirts/IMG-20261015-WA0113.jpg.jpeg",
+          "/tops-shirts/IMG-20261015-WA0114.jpg.jpeg",
           "/tops-shirts/IMG-20261015-WA0115.jpg.jpeg"
         ]
       }
@@ -8708,7 +7140,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -8765,7 +7197,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -8822,7 +7254,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -8881,18 +7313,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/tops-shirts/IMG-20261024-WA0060.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/tops-shirts/IMG-20261024-WA0060.jpg.jpeg",
           "/tops-shirts/IMG-20261024-WA0061.jpg.jpeg"
         ]
       }
@@ -8946,7 +7371,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -9147,7 +7572,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -9220,74 +7645,18 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1742603071891.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1771508188414.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1788980242942.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5300.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5335.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0017.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0017.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20250122-WA0017_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1742603071891.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771508188414.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1788980242942.jpg.jpeg",
+          "/tops-shirts/5300.jpg.jpeg",
+          "/tops-shirts/5335.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0017.jpg (1).jpeg",
+          "/tops-shirts/IMG-20250122-WA0017.jpg.jpeg",
+          "/tops-shirts/IMG-20250122-WA0017_1.jpg.jpeg",
           "/tops-shirts/IMG-20261015-WA0116.jpg.jpeg"
         ]
       }
@@ -9347,34 +7716,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1771508180086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1771508182546.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/tops-shirts/FB_IMG_1771508186192.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1771508180086.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771508182546.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1771508186192.jpg.jpeg",
           "/tops-shirts/FB_IMG_1771508190978.jpg.jpeg"
         ]
       }
@@ -9432,26 +7780,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/tops-shirts/FB_IMG_1781723153203.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/tops-shirts/IMG-20261008-WA0023.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/tops-shirts/FB_IMG_1781723153203.jpg.jpeg",
+          "/tops-shirts/IMG-20261008-WA0023.jpg.jpeg",
           "/tops-shirts/IMG-20261028-WA0129.jpg.jpeg"
         ]
       }
@@ -9515,50 +7849,15 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1789572588883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572775388.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/25eb727ab8037267dc9a2d3a48598ecb.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/8ddaf3020e591113259ebfc8bcba2cb9.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5282.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572588883.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572775388.jpg.jpeg",
+          "/tops-shirts/25eb727ab8037267dc9a2d3a48598ecb.jpg.jpeg",
+          "/tops-shirts/8ddaf3020e591113259ebfc8bcba2cb9.jpg.jpeg",
+          "/tops-shirts/5282.jpg.jpeg",
           "/tops-shirts/IMG-20261019-WA0135.jpg.jpeg"
         ]
       }
@@ -9614,18 +7913,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/tops-shirts/e3f7d57a69dc5fd5c67b3a5f9a30618d.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/tops-shirts/e3f7d57a69dc5fd5c67b3a5f9a30618d.jpg.jpeg",
           "/tops-shirts/IMG-20261024-WA0062.jpg.jpeg"
         ]
       }
@@ -9679,7 +7971,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -9736,7 +8028,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -9793,7 +8085,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -9850,7 +8142,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -9907,7 +8199,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -10107,18 +8399,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1734516638765.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516638765.jpg.jpeg",
           "/tops-shirts/49d901e5396553c83152f3c44bfb1746.jpg.jpeg"
         ]
       }
@@ -10172,7 +8457,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -10233,26 +8518,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1777964263793.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5362.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1777964263793.jpg.jpeg",
+          "/tops-shirts/5362.jpg.jpeg",
           "/tops-shirts/5363.jpg.jpeg"
         ]
       }
@@ -10308,18 +8579,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/tops-shirts/FB_IMG_1781793142196.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/tops-shirts/FB_IMG_1781793142196.jpg.jpeg",
           "/tops-shirts/FB_IMG_1781793143630.jpg.jpeg"
         ]
       }
@@ -10373,7 +8637,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -10440,50 +8704,15 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/tops-shirts/FB_IMG_1789572591579.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
-          "/tops-shirts/f1003872d50f3466acd40d9376d34083_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#475569",
-        "images": [
-          "/tops-shirts/IMG-20261018-WA0102.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#475569",
-        "images": [
-          "/tops-shirts/IMG-20261024-WA0063.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#475569",
-        "images": [
-          "/tops-shirts/IMG-20261024-WA0064.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#475569",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572591579.jpg.jpeg",
+          "/tops-shirts/f1003872d50f3466acd40d9376d34083_2.jpg.jpeg",
+          "/tops-shirts/IMG-20261018-WA0102.jpg.jpeg",
+          "/tops-shirts/IMG-20261024-WA0063.jpg.jpeg",
+          "/tops-shirts/IMG-20261024-WA0064.jpg.jpeg",
           "/tops-shirts/IMG-20261024-WA0065.jpg.jpeg"
         ]
       }
@@ -10549,58 +8778,16 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/tops-shirts/FB_IMG_1789572778678.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/tops-shirts/5255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/tops-shirts/IMG_20250122_100349.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
-          "/tops-shirts/IMG-20261003-WA0131.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#C2410C",
-        "images": [
-          "/tops-shirts/IMG-20261003-WA0132.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#C2410C",
-        "images": [
-          "/tops-shirts/IMG-20261003-WA0133.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#C2410C",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572778678.jpg.jpeg",
+          "/tops-shirts/5255.jpg.jpeg",
+          "/tops-shirts/IMG_20250122_100349.jpg.jpeg",
+          "/tops-shirts/IMG-20261003-WA0131.jpg.jpeg",
+          "/tops-shirts/IMG-20261003-WA0132.jpg.jpeg",
+          "/tops-shirts/IMG-20261003-WA0133.jpg.jpeg",
           "/tops-shirts/IMG-20261003-WA0134.jpg.jpeg"
         ]
       }
@@ -10654,7 +8841,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -10713,18 +8900,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/tops-shirts/5283.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/tops-shirts/5283.jpg.jpeg",
           "/tops-shirts/5301.jpg.jpeg"
         ]
       }
@@ -10778,7 +8958,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -10837,18 +9017,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/tops-shirts/5336.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/tops-shirts/5336.jpg.jpeg",
           "/tops-shirts/5364.jpg.jpeg"
         ]
       }
@@ -10902,7 +9075,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -10961,18 +9134,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/tops-shirts/IMG-20261018-WA0104.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/tops-shirts/IMG-20261018-WA0104.jpg.jpeg",
           "/tops-shirts/IMG-20261028-WA0130.jpg.jpeg"
         ]
       }
@@ -11026,7 +9192,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -11250,114 +9416,23 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1734516642715.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1788980247467.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572594787.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572630412.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572632939.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789572657325.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/9e932fdfada900e035b4209137727876 (1).jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/9e932fdfada900e035b4209137727876.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/f72b011e1bc8545ea83ab4b15a207207.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5284.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5285.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261018-WA0105.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261021-WA0032.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516642715.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1788980247467.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572594787.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572630412.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572632939.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789572657325.jpg.jpeg",
+          "/tops-shirts/9e932fdfada900e035b4209137727876 (1).jpg.jpeg",
+          "/tops-shirts/9e932fdfada900e035b4209137727876.jpg.jpeg",
+          "/tops-shirts/f72b011e1bc8545ea83ab4b15a207207.jpg.jpeg",
+          "/tops-shirts/5284.jpg.jpeg",
+          "/tops-shirts/5285.jpg.jpeg",
+          "/tops-shirts/IMG-20261018-WA0105.jpg.jpeg",
+          "/tops-shirts/IMG-20261021-WA0032.jpg.jpeg",
           "/tops-shirts/IMG-20261021-WA0034.jpg.jpeg"
         ]
       }
@@ -11413,18 +9488,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/tops-shirts/FB_IMG_1766593396800.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593396800.jpg.jpeg",
           "/tops-shirts/FB_IMG_1789572647721.jpg.jpeg"
         ]
       }
@@ -11478,7 +9546,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
@@ -11535,7 +9603,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -11600,42 +9668,14 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1777964266164.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1781793145540.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5303.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5365.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1777964266164.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1781793145540.jpg.jpeg",
+          "/tops-shirts/5303.jpg.jpeg",
+          "/tops-shirts/5365.jpg.jpeg",
           "/tops-shirts/IMG-20261024-WA0066.jpg.jpeg"
         ]
       }
@@ -11689,7 +9729,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -11750,26 +9790,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/50fe8244dbde4022a135389aec5f5a07.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/5337.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/50fe8244dbde4022a135389aec5f5a07.jpg.jpeg",
+          "/tops-shirts/5337.jpg.jpeg",
           "/tops-shirts/IMG-20261008-WA0025.jpg.jpeg"
         ]
       }
@@ -11823,7 +9849,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -11880,7 +9906,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -11943,34 +9969,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/tops-shirts/5321.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/tops-shirts/IMG-20261003-WA0135.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/tops-shirts/IMG-20261003-WA0136.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
+          "/tops-shirts/5321.jpg.jpeg",
+          "/tops-shirts/IMG-20261003-WA0135.jpg.jpeg",
+          "/tops-shirts/IMG-20261003-WA0136.jpg.jpeg",
           "/tops-shirts/IMG-20261003-WA0137.jpg.jpeg"
         ]
       }
@@ -12024,7 +10029,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -12081,7 +10086,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -12311,114 +10316,23 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1734516646363.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1766593418854.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1777964273405.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1777964278193.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1777964275966.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1781793148078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/9f393081de287fc54c9a871befe147cd_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5304.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5305.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5306.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5339.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5366.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/IMG-20261021-WA0035.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516646363.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1766593418854.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1777964273405.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1777964278193.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1777964275966.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1781793148078.jpg.jpeg",
+          "/tops-shirts/9f393081de287fc54c9a871befe147cd_2.jpg.jpeg",
+          "/tops-shirts/5304.jpg.jpeg",
+          "/tops-shirts/5305.jpg.jpeg",
+          "/tops-shirts/5306.jpg.jpeg",
+          "/tops-shirts/5339.jpg.jpeg",
+          "/tops-shirts/5366.jpg.jpeg",
+          "/tops-shirts/IMG-20261021-WA0035.jpg.jpeg",
           "/tops-shirts/IMG-20261021-WA0036.jpg.jpeg"
         ]
       }
@@ -12476,26 +10390,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/FB_IMG_1766593413710.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/IMG-20261018-WA0106.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593413710.jpg.jpeg",
+          "/tops-shirts/IMG-20261018-WA0106.jpg.jpeg",
           "/tops-shirts/IMG-20261018-WA0107.jpg.jpeg"
         ]
       }
@@ -12557,42 +10457,14 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1777964268436.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1789645726078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1789645728291.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1789645730440.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1777964268436.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789645726078.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789645728291.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789645730440.jpg.jpeg",
           "/tops-shirts/IMG_20250122_100437.jpg.jpeg"
         ]
       }
@@ -12660,66 +10532,17 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1777964271045.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1777964280231.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/FB_IMG_1789315348897.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/5338.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261003-WA0138.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261027-WA0036.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1777964271045.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1777964280231.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789315348897.jpg.jpeg",
+          "/tops-shirts/5258.jpg.jpeg",
+          "/tops-shirts/5338.jpg.jpeg",
+          "/tops-shirts/IMG-20261003-WA0138.jpg.jpeg",
+          "/tops-shirts/IMG-20261027-WA0036.jpg.jpeg",
           "/tops-shirts/IMG-20261027-WA0037.jpg.jpeg"
         ]
       }
@@ -12773,7 +10596,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -12834,26 +10657,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/tops-shirts/51cf89711881e68e20a6de2bdecad6f8.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/tops-shirts/IMG-20261031-WA0073.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
+          "/tops-shirts/51cf89711881e68e20a6de2bdecad6f8.jpg.jpeg",
+          "/tops-shirts/IMG-20261031-WA0073.jpg.jpeg",
           "/tops-shirts/IMG-20261031-WA0074.jpg.jpeg"
         ]
       }
@@ -12913,34 +10722,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/tops-shirts/_MG_0822.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_0824.JPG (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_0824.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/tops-shirts/_MG_0822.JPG.jpeg",
+          "/tops-shirts/_MG_0824.JPG (1).jpeg",
+          "/tops-shirts/_MG_0824.JPG.jpeg",
           "/tops-shirts/_MG_0825.JPG.jpeg"
         ]
       }
@@ -12994,7 +10782,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -13051,7 +10839,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -13108,7 +10896,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -13167,18 +10955,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/tops-shirts/5322.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/tops-shirts/5322.jpg.jpeg",
           "/tops-shirts/IMG-20261031-WA0072.jpg.jpeg"
         ]
       }
@@ -13232,7 +11013,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -13291,18 +11072,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/tops-shirts/IMG-20261018-WA0108.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/tops-shirts/IMG-20261018-WA0108.jpg.jpeg",
           "/tops-shirts/IMG-20261031-WA0075.jpg.jpeg"
         ]
       }
@@ -13356,7 +11130,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -13561,26 +11335,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/tops-shirts/FB_IMG_1734516648311.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/tops-shirts/IMG-20261019-WA0101.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516648311.jpg.jpeg",
+          "/tops-shirts/IMG-20261019-WA0101.jpg.jpeg",
           "/tops-shirts/IMG-20261027-WA0038.jpg.jpeg"
         ]
       }
@@ -13652,82 +11412,19 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/tops-shirts/FB_IMG_1734516650107.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/FB_IMG_1783351930948.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5324.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5348.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5349.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5350.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5351.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/tops-shirts/5370.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/tops-shirts/FB_IMG_1734516650107.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1783351930948.jpg.jpeg",
+          "/tops-shirts/5260.jpg.jpeg",
+          "/tops-shirts/5324.jpg.jpeg",
+          "/tops-shirts/5348.jpg.jpeg",
+          "/tops-shirts/5349.jpg.jpeg",
+          "/tops-shirts/5350.jpg.jpeg",
+          "/tops-shirts/5351.jpg.jpeg",
+          "/tops-shirts/5370.jpg.jpeg",
           "/tops-shirts/5372.jpg.jpeg"
         ]
       }
@@ -13795,66 +11492,17 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/tops-shirts/FB_IMG_1766593425038.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1780915657051.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1780915659639.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1789315350685.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/FB_IMG_1789315352815.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG_20250122_100457.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/tops-shirts/IMG-20261021-WA0038.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593425038.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1780915657051.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1780915659639.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789315350685.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1789315352815.jpg.jpeg",
+          "/tops-shirts/IMG_20250122_100457.jpg.jpeg",
+          "/tops-shirts/IMG-20261021-WA0038.jpg.jpeg",
           "/tops-shirts/IMG-20261021-WA0039.jpg.jpeg"
         ]
       }
@@ -13914,34 +11562,13 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/tops-shirts/FB_IMG_1766593434772.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/FB_IMG_1766593440179.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/tops-shirts/FB_IMG_1766593441952.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
+          "/tops-shirts/FB_IMG_1766593434772.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1766593440179.jpg.jpeg",
+          "/tops-shirts/FB_IMG_1766593441952.jpg.jpeg",
           "/tops-shirts/FB_IMG_1766593443916.jpg.jpeg"
         ]
       }
@@ -13997,18 +11624,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/tops-shirts/FB_IMG_1783351934428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/tops-shirts/FB_IMG_1783351934428.jpg.jpeg",
           "/tops-shirts/FB_IMG_1789645735825.jpg.jpeg"
         ]
       }
@@ -14066,26 +11686,12 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/tops-shirts/FB_IMG_1789572669954.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/tops-shirts/5287.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/tops-shirts/FB_IMG_1789572669954.jpg.jpeg",
+          "/tops-shirts/5287.jpg.jpeg",
           "/tops-shirts/5307.jpg.jpeg"
         ]
       }
@@ -14139,7 +11745,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
@@ -14198,18 +11804,11 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/tops-shirts/a07c76b68802ce6e71557a52ba3c8d1b.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/tops-shirts/a07c76b68802ce6e71557a52ba3c8d1b.jpg.jpeg",
           "/tops-shirts/IMG-20261031-WA0076.jpg.jpeg"
         ]
       }
@@ -14277,66 +11876,17 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/tops-shirts/_MG_3045.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3047.JPG (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3047.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3049.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3050.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3051.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/tops-shirts/_MG_3052.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/tops-shirts/_MG_3045.JPG.jpeg",
+          "/tops-shirts/_MG_3047.JPG (1).jpeg",
+          "/tops-shirts/_MG_3047.JPG.jpeg",
+          "/tops-shirts/_MG_3049.JPG.jpeg",
+          "/tops-shirts/_MG_3050.JPG.jpeg",
+          "/tops-shirts/_MG_3051.JPG.jpeg",
+          "/tops-shirts/_MG_3052.JPG.jpeg",
           "/tops-shirts/_MG_3053.JPG.jpeg"
         ]
       }
@@ -14390,7 +11940,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -14447,7 +11997,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -14504,7 +12054,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -14561,7 +12111,7 @@ export const TOPS_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [

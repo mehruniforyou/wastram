@@ -190,7 +190,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -251,26 +251,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
           "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
         ]
       }
@@ -342,82 +328,19 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA5211.jpg.jpeg"
         ]
       }
@@ -475,26 +398,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#831843",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#831843",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg"
         ]
       }
@@ -550,18 +459,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9411.jpg.jpeg"
         ]
       }
@@ -623,42 +525,14 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA1689.jpg.jpeg"
         ]
       }
@@ -720,42 +594,14 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EA580C",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg"
         ]
       }
@@ -817,42 +663,14 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1720.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1720.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6340.jpg.jpeg"
         ]
       }
@@ -906,7 +724,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -963,7 +781,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -1022,18 +840,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA7791.jpg.jpeg"
         ]
       }
@@ -1089,18 +900,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3307.jpg.jpeg"
         ]
       }
@@ -1154,7 +958,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -1355,7 +1159,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -1412,7 +1216,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -1493,106 +1297,22 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5236.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5236.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA6993.jpg.jpeg"
         ]
       }
@@ -1666,90 +1386,20 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7993.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#DC2626",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA1711.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7993.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261104-WA1711.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA7565.jpg.jpeg"
         ]
       }
@@ -1805,18 +1455,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg"
         ]
       }
@@ -1872,18 +1515,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#854D0E",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg"
         ]
       }
@@ -1945,42 +1581,14 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg"
         ]
       }
@@ -2036,18 +1644,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg"
         ]
       }
@@ -2103,18 +1704,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg"
         ]
       }
@@ -2178,50 +1772,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0445.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2002.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0445.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2002.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9432.jpg.jpeg"
         ]
       }
@@ -2277,18 +1836,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3448.jpg.jpeg"
         ]
       }
@@ -2505,58 +2057,16 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg"
         ]
       }
@@ -2616,34 +2126,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg"
         ]
       }
@@ -2699,18 +2188,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg"
         ]
       }
@@ -2764,7 +2246,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -2845,106 +2327,22 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9452.jpg.jpeg"
         ]
       }
@@ -3000,18 +2398,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#831843",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg"
         ]
       }
@@ -3065,7 +2456,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -3122,7 +2513,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -3195,74 +2586,18 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#334155",
-        "images": [
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg"
         ]
       }
@@ -3316,7 +2651,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -3377,26 +2712,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5318.jpg.jpeg"
         ]
       }
@@ -3450,7 +2771,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -3509,18 +2830,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0599.jpg.jpeg"
         ]
       }
@@ -3576,18 +2890,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA8191.jpg.jpeg"
         ]
       }
@@ -3647,34 +2954,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3558.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3558.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7009.jpg.jpeg"
         ]
       }
@@ -3728,7 +3014,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -3785,7 +3071,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -3994,66 +3280,17 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA8421.jpg.jpeg"
         ]
       }
@@ -4139,138 +3376,26 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA2228.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7034.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA8231.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA2228.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7034.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA8231.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA2721.jpg.jpeg"
         ]
       }
@@ -4340,74 +3465,18 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0671.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4229.jpg.jpeg"
         ]
       }
@@ -4467,34 +3536,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA5509.jpg.jpeg"
         ]
       }
@@ -4548,7 +3596,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -4605,7 +3653,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -4662,7 +3710,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -4719,7 +3767,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -4776,7 +3824,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -4835,18 +3883,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg"
         ]
       }
@@ -4902,18 +3943,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9550.jpg.jpeg"
         ]
       }
@@ -5113,34 +4147,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg"
         ]
       }
@@ -5194,7 +4207,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -5283,138 +4296,26 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA5596.jpg.jpeg"
         ]
       }
@@ -5474,34 +4375,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4258.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA2760.jpg.jpeg"
         ]
       }
@@ -5555,7 +4435,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -5616,26 +4496,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2380.jpg.jpeg"
         ]
       }
@@ -5689,7 +4555,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -5746,7 +4612,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -5813,50 +4679,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0726.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7221.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0726.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7221.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8373.jpg.jpeg"
         ]
       }
@@ -5912,18 +4743,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9743.jpg.jpeg"
         ]
       }
@@ -5977,7 +4801,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
@@ -6195,50 +5019,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2623.jpg.jpeg"
         ]
       }
@@ -6318,114 +5107,23 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7246.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8387.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7246.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8387.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9787.jpg.jpeg"
         ]
       }
@@ -6489,50 +5187,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg"
         ]
       }
@@ -6586,7 +5249,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
@@ -6643,7 +5306,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -6712,58 +5375,16 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg",
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA8553.jpg.jpeg"
         ]
       }
@@ -6821,26 +5442,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4295.jpg.jpeg"
         ]
       }
@@ -6898,26 +5505,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg"
         ]
       }
@@ -6971,7 +5564,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -7028,7 +5621,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -7087,18 +5680,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0768.jpg.jpeg"
         ]
       }
@@ -7154,18 +5740,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5604.jpg.jpeg"
         ]
       }
@@ -7219,7 +5798,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -7423,18 +6002,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1767272868674.jpg.jpeg"
         ]
       }
@@ -7494,34 +6066,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5653.jpg.jpeg"
         ]
       }
@@ -7575,7 +6126,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -7634,18 +6185,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg"
         ]
       }
@@ -7701,18 +6245,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg"
         ]
       }
@@ -7788,98 +6325,21 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA2747.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA2747.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4313.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9970.jpg.jpeg"
         ]
       }
@@ -7933,7 +6393,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -7990,7 +6450,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -8047,7 +6507,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
@@ -8110,34 +6570,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EA580C",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg"
         ]
       }
@@ -8193,18 +6632,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0834.jpg.jpeg"
         ]
       }
@@ -8260,18 +6692,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7263.jpg.jpeg"
         ]
       }
@@ -8327,18 +6752,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8443.jpg.jpeg"
         ]
       }
@@ -8392,7 +6810,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -8449,7 +6867,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -8650,7 +7068,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -8709,18 +7127,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg"
         ]
       }
@@ -8776,18 +7187,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA9638.jpg.jpeg"
         ]
       }
@@ -8843,18 +7247,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA5744.jpg.jpeg"
         ]
       }
@@ -8920,58 +7317,16 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4498.jpg.jpeg"
         ]
       }
@@ -9029,26 +7384,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg"
         ]
       }
@@ -9104,18 +7445,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg"
         ]
       }
@@ -9171,18 +7505,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg"
         ]
       }
@@ -9250,66 +7577,17 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7268.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8548.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9972.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7268.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8548.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9972.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA4859.jpg.jpeg"
         ]
       }
@@ -9373,50 +7651,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0851.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0851.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA2876.jpg.jpeg"
         ]
       }
@@ -9470,7 +7713,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -9527,7 +7770,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -9586,18 +7829,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg"
         ]
       }
@@ -9803,66 +8039,17 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2983.jpg.jpeg"
         ]
       }
@@ -9918,18 +8105,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg"
         ]
       }
@@ -9985,18 +8165,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg"
         ]
       }
@@ -10062,58 +8235,16 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#C2410C",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA4608.jpg.jpeg"
         ]
       }
@@ -10167,7 +8298,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -10234,50 +8365,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1264.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA0186.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1264.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261104-WA0186.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA9769.jpg.jpeg"
         ]
       }
@@ -10335,26 +8431,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg"
         ]
       }
@@ -10408,7 +8490,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -10467,18 +8549,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg"
         ]
       }
@@ -10532,7 +8607,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -10599,50 +8674,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5864.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7324.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5864.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7324.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8626.jpg.jpeg"
         ]
       }
@@ -10696,7 +8736,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -10924,114 +8964,23 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1548.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1548.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA5898.jpg.jpeg"
         ]
       }
@@ -11091,34 +9040,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914675145.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914681181.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#18181B",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914675145.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914681181.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1784914685472.jpg.jpeg"
         ]
       }
@@ -11178,34 +9106,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA3006.jpg.jpeg"
         ]
       }
@@ -11273,66 +9180,17 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA5890.jpg.jpeg"
         ]
       }
@@ -11386,7 +9244,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -11443,7 +9301,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -11502,18 +9360,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg"
         ]
       }
@@ -11567,7 +9418,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -11628,26 +9479,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg"
         ]
       }
@@ -11703,18 +9540,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#14532D",
         "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#14532D",
-        "images": [
+          "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA9834.jpg.jpeg"
         ]
       }
@@ -11768,7 +9598,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -11829,26 +9659,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8879.jpg.jpeg"
         ]
       }
@@ -11908,34 +9724,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4671.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7505.jpg.jpeg"
         ]
       }
@@ -11989,7 +9784,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -12225,138 +10020,26 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-12",
-        "name": "Styling 12",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-13",
-        "name": "Styling 13",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-14",
-        "name": "Styling 14",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-15",
-        "name": "Styling 15",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-16",
-        "name": "Styling 16",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-17",
-        "name": "Styling 17",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9125.jpg.jpeg"
         ]
       }
@@ -12416,34 +10099,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7641.jpg.jpeg"
         ]
       }
@@ -12497,7 +10159,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -12558,26 +10220,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#991B1B",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg"
         ]
       }
@@ -12631,7 +10279,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
@@ -12690,18 +10338,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#4D7C0F",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg"
         ]
       }
@@ -12763,42 +10404,14 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315523527.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315554276.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315523527.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315554276.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0081.jpg.jpeg"
         ]
       }
@@ -12852,7 +10465,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -12913,26 +10526,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5906.jpg.jpeg"
         ]
       }
@@ -12990,26 +10589,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EA580C",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg"
         ]
       }
@@ -13065,18 +10650,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg"
         ]
       }
@@ -13134,26 +10712,12 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg"
         ]
       }
@@ -13213,34 +10777,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0082.jpg.jpeg"
         ]
       }
@@ -13306,58 +10849,16 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1564.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4876.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1564.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3156.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4876.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA0715.jpg.jpeg"
         ]
       }
@@ -13411,7 +10912,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -13609,18 +11110,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg"
         ]
       }
@@ -13684,50 +11178,15 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg"
         ]
       }
@@ -13801,90 +11260,20 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#DC2626",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg"
         ]
       }
@@ -13958,90 +11347,20 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA9262.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA9262.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA1646.jpg.jpeg"
         ]
       }
@@ -14103,42 +11422,14 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#DB2777",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg"
         ]
       }
@@ -14198,34 +11489,13 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
           "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3163.jpg.jpeg"
         ]
       }
@@ -14281,18 +11551,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg"
         ]
       }
@@ -14346,7 +11609,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -14405,18 +11668,11 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA1696.jpg.jpeg"
         ]
       }
@@ -14470,7 +11726,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -14527,7 +11783,7 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -14592,42 +11848,14 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6199.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7700.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6199.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
+          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7700.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA6747.jpg.jpeg"
         ]
       }

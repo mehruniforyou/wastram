@@ -124,7 +124,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -191,50 +191,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/cord-sets/FB_IMG_1775737280048.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/cord-sets/FB_IMG_1783842016216.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
-          "/cord-sets/FB_IMG_1783842019531.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#18181B",
-        "images": [
-          "/cord-sets/FB_IMG_1783842021643.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#18181B",
-        "images": [
-          "/cord-sets/FB_IMG_1783842023607.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#18181B",
-        "images": [
+          "/cord-sets/FB_IMG_1775737280048.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783842016216.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783842019531.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783842021643.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783842023607.jpg.jpeg",
           "/cord-sets/FB_IMG_1783842025418.jpg.jpeg"
         ]
       }
@@ -288,7 +253,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -359,66 +324,17 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1784915410018.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1784915411443.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/1614eab2eb9f28eaae48564302536d0c_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/12618.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/IMG-20261016-WA0066.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/IMG-20261016-WA0067.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/IMG-20261016-WA0068.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1784915410018.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784915411443.jpg.jpeg",
+          "/cord-sets/1614eab2eb9f28eaae48564302536d0c_1.jpg.jpeg",
+          "/cord-sets/12618.jpg.jpeg",
+          "/cord-sets/IMG-20261016-WA0066.jpg.jpeg",
+          "/cord-sets/IMG-20261016-WA0067.jpg.jpeg",
+          "/cord-sets/IMG-20261016-WA0068.jpg.jpeg",
           "/cord-sets/IMG-20261016-WA0069.jpg.jpeg"
         ]
       }
@@ -480,42 +396,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1784915413555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1784915415119.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7628.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7629.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1784915413555.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784915415119.jpg.jpeg",
+          "/cord-sets/_MG_7628.JPG.jpeg",
+          "/cord-sets/_MG_7629.JPG.jpeg",
           "/cord-sets/_MG_7630.JPG.jpeg"
         ]
       }
@@ -569,7 +457,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -628,18 +516,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/_MG_7627.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/_MG_7627.JPG.jpeg",
           "/mix-category-product-images/IMG-20261102-WA2646.jpg.jpeg"
         ]
       }
@@ -693,7 +574,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -754,26 +635,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/67789.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/67792.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/67789.jpg.jpeg",
+          "/cord-sets/67792.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA6305.jpg.jpeg"
         ]
       }
@@ -827,7 +694,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -970,26 +837,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/FB_IMG_1702537566967.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/FB_IMG_1783923185395.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/FB_IMG_1702537566967.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783923185395.jpg.jpeg",
           "/cord-sets/FB_IMG_1783923200359.jpg.jpeg"
         ]
       }
@@ -1051,42 +904,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1775887024558.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1775887029015.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1783923192417.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1784915537968.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1775887024558.jpg.jpeg",
+          "/cord-sets/FB_IMG_1775887029015.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783923192417.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784915537968.jpg.jpeg",
           "/cord-sets/213c9d6ec18a5a627dc3413be5e7faf5_1.jpg.jpeg"
         ]
       }
@@ -1142,18 +967,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1775887026751.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1775887026751.jpg.jpeg",
           "/cord-sets/67795.jpg.jpeg"
         ]
       }
@@ -1213,34 +1031,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1783923187974.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/12651.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/dresses-images/IMG-20261103-WA0387.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1783923187974.jpg.jpeg",
+          "/cord-sets/12651.jpg.jpeg",
+          "/cord-sets/dresses-images/IMG-20261103-WA0387.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA6351.jpg.jpeg"
         ]
       }
@@ -1294,7 +1091,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -1351,7 +1148,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -1418,50 +1215,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/cord-sets/FB_IMG_1789558215798.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/cord-sets/FB_IMG_1789558218530.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
-          "/cord-sets/FB_IMG_1789558221255.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#EAB308",
-        "images": [
-          "/cord-sets/IMG-20261016-WA0070.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#EAB308",
-        "images": [
-          "/cord-sets/IMG-20261016-WA0071.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#EAB308",
-        "images": [
+          "/cord-sets/FB_IMG_1789558215798.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789558218530.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789558221255.jpg.jpeg",
+          "/cord-sets/IMG-20261016-WA0070.jpg.jpeg",
+          "/cord-sets/IMG-20261016-WA0071.jpg.jpeg",
           "/cord-sets/IMG-20261016-WA0073.jpg.jpeg"
         ]
       }
@@ -1515,7 +1277,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -1572,7 +1334,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -1631,18 +1393,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/cord-sets/IMG-20261016-WA0072.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/cord-sets/IMG-20261016-WA0072.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA2772.jpg.jpeg"
         ]
       }
@@ -1778,7 +1533,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -1835,7 +1590,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -1892,7 +1647,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -1949,7 +1704,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -2006,7 +1761,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -2069,34 +1824,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/cord-sets/FB_IMG_1789558261821.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/cord-sets/FB_IMG_1789558269684.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/cord-sets/13312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/cord-sets/FB_IMG_1789558261821.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789558269684.jpg.jpeg",
+          "/cord-sets/13312.jpg.jpeg",
           "/cord-sets/dresses-images/IMG-20261103-WA6234.jpg.jpeg"
         ]
       }
@@ -2150,7 +1884,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -2213,34 +1947,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/_MG_7632.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7633.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7634.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/_MG_7632.JPG.jpeg",
+          "/cord-sets/_MG_7633.JPG.jpeg",
+          "/cord-sets/_MG_7634.JPG.jpeg",
           "/cord-sets/_MG_7635.JPG.jpeg"
         ]
       }
@@ -2304,50 +2017,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/_MG_7636.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/12785.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0279.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0282.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0283.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/_MG_7636.JPG.jpeg",
+          "/cord-sets/12785.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0279.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0282.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0283.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA2849.jpg.jpeg"
         ]
       }
@@ -2405,26 +2083,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/cord-sets/67798.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
-          "/cord-sets/67801.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#475569",
-        "images": [
+          "/cord-sets/67798.jpg.jpeg",
+          "/cord-sets/67801.jpg.jpeg",
           "/cord-sets/67804.jpg.jpeg"
         ]
       }
@@ -2478,7 +2142,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -2623,26 +2287,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1702537575055.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1775887033069.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1702537575055.jpg.jpeg",
+          "/cord-sets/FB_IMG_1775887033069.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0288.jpg.jpeg"
         ]
       }
@@ -2706,50 +2356,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1783923267621.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1783923272614.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/12813.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0285.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0289.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1783923267621.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783923272614.jpg.jpeg",
+          "/cord-sets/12813.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0285.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0289.jpg.jpeg",
           "/cord-sets/dresses-images/IMG-20261103-WA9636.jpg.jpeg"
         ]
       }
@@ -2813,50 +2428,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1784915541501.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/8e120b5438c644800a750a62ad8c3263_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7637.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7638.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7639.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1784915541501.jpg.jpeg",
+          "/cord-sets/8e120b5438c644800a750a62ad8c3263_1.jpg.jpeg",
+          "/cord-sets/_MG_7637.JPG.jpeg",
+          "/cord-sets/_MG_7638.JPG.jpeg",
+          "/cord-sets/_MG_7639.JPG.jpeg",
           "/cord-sets/_MG_7640.JPG.jpeg"
         ]
       }
@@ -2910,7 +2490,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -2967,7 +2547,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -3024,7 +2604,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -3081,7 +2661,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -3138,7 +2718,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -3285,34 +2865,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1702537577211.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/12881.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0295.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1702537577211.jpg.jpeg",
+          "/cord-sets/12881.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0295.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA4028.jpg.jpeg"
         ]
       }
@@ -3378,58 +2937,16 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1777916921884.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1777916957490.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1777916959674.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1777916961890.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1784915545429.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/Screenshot_2026-05-04-22-27-43-29_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1777916921884.jpg.jpeg",
+          "/cord-sets/FB_IMG_1777916957490.jpg.jpeg",
+          "/cord-sets/FB_IMG_1777916959674.jpg.jpeg",
+          "/cord-sets/FB_IMG_1777916961890.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784915545429.jpg.jpeg",
+          "/cord-sets/Screenshot_2026-05-04-22-27-43-29_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0294.jpg.jpeg"
         ]
       }
@@ -3483,7 +3000,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -3544,26 +3061,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1783923279088.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/a4430c43cc8ea250fc2ceb5f2a1fcce4_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1783923279088.jpg.jpeg",
+          "/cord-sets/a4430c43cc8ea250fc2ceb5f2a1fcce4_1.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA0404.jpg.jpeg"
         ]
       }
@@ -3621,26 +3124,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/FB_IMG_1784915543621.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/FB_IMG_1784915548275.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/FB_IMG_1784915543621.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784915548275.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0292.jpg.jpeg"
         ]
       }
@@ -3694,7 +3183,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -3751,7 +3240,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#16A34A",
         "images": [
@@ -3808,7 +3297,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -3865,7 +3354,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -4010,7 +3499,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -4083,74 +3572,18 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1702537581970.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1784625621987.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1785150079816.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1785150081811.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1785150083580.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1785150085375.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0300.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0304.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1702537581970.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784625621987.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785150079816.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785150081811.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785150083580.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785150085375.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0300.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0304.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0305.jpg.jpeg"
         ]
       }
@@ -4224,90 +3657,20 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1777919217383.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1777919219505.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1777919221708.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/acee05de0a78bde3d36ddb4693b8678a_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7653.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7654.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7655.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7656.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0301.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0307.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1777919217383.jpg.jpeg",
+          "/cord-sets/FB_IMG_1777919219505.jpg.jpeg",
+          "/cord-sets/FB_IMG_1777919221708.jpg.jpeg",
+          "/cord-sets/acee05de0a78bde3d36ddb4693b8678a_1.jpg.jpeg",
+          "/cord-sets/_MG_7653.JPG.jpeg",
+          "/cord-sets/_MG_7654.JPG.jpeg",
+          "/cord-sets/_MG_7655.JPG.jpeg",
+          "/cord-sets/_MG_7656.JPG.jpeg",
+          "/cord-sets/IMG-20261019-WA0301.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0307.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA0505.jpg.jpeg"
         ]
       }
@@ -4361,7 +3724,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -4418,7 +3781,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -4487,58 +3850,16 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/12899.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13444.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/Screenshot_2026-05-04-22-27-47-36_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0303.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0308.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0309.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/12899.jpg.jpeg",
+          "/cord-sets/13444.jpg.jpeg",
+          "/cord-sets/Screenshot_2026-05-04-22-27-47-36_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0303.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0308.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0309.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0311.jpg.jpeg"
         ]
       }
@@ -4592,7 +3913,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -4649,7 +3970,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -4790,7 +4111,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -4849,18 +4170,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1704904323981.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1704904323981.jpg.jpeg",
           "/cord-sets/FB_IMG_1784625624844.jpg.jpeg"
         ]
       }
@@ -4916,18 +4230,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/FB_IMG_1779114303497.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/FB_IMG_1779114303497.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0312.jpg.jpeg"
         ]
       }
@@ -4993,58 +4300,16 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1785237436135.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237437705.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1789572672520.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/_MG_7657.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/_MG_7663.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13459.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1785237436135.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237437705.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789572672520.jpg.jpeg",
+          "/cord-sets/_MG_7657.JPG.jpeg",
+          "/cord-sets/_MG_7663.JPG.jpeg",
+          "/cord-sets/13459.jpg.jpeg",
           "/cord-sets/Screenshot_2026-05-04-22-27-49-95_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
         ]
       }
@@ -5098,7 +4363,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -5169,66 +4434,17 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/_MG_7658.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7659.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7660.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7662.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7664.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7665.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7666.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/_MG_7658.JPG.jpeg",
+          "/cord-sets/_MG_7659.JPG.jpeg",
+          "/cord-sets/_MG_7660.JPG.jpeg",
+          "/cord-sets/_MG_7662.JPG.jpeg",
+          "/cord-sets/_MG_7664.JPG.jpeg",
+          "/cord-sets/_MG_7665.JPG.jpeg",
+          "/cord-sets/_MG_7666.JPG.jpeg",
           "/cord-sets/_MG_7667.JPG.jpeg"
         ]
       }
@@ -5284,18 +4500,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
-          "/cord-sets/12959.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#115E59",
-        "images": [
+          "/cord-sets/12959.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA4299.jpg.jpeg"
         ]
       }
@@ -5349,7 +4558,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -5406,7 +4615,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -5549,18 +4758,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/cord-sets/FB_IMG_1704904327152.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/cord-sets/FB_IMG_1704904327152.jpg.jpeg",
           "/cord-sets/FB_IMG_1785237439954.jpg.jpeg"
         ]
       }
@@ -5628,66 +4830,17 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1779114334917.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1784625638762.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1784625641362.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/12960.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/Screenshot_2026-05-04-22-27-53-71_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0315.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0316.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1779114334917.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784625638762.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784625641362.jpg.jpeg",
+          "/cord-sets/12960.jpg.jpeg",
+          "/cord-sets/Screenshot_2026-05-04-22-27-53-71_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0315.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0316.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA5281.jpg.jpeg"
         ]
       }
@@ -5743,18 +4896,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1784625627096.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1784625627096.jpg.jpeg",
           "/cord-sets/13462.jpg.jpeg"
         ]
       }
@@ -5808,7 +4954,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
@@ -5865,7 +5011,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -5922,7 +5068,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -5979,7 +5125,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -6036,7 +5182,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -6182,18 +5328,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/cord-sets/FB_IMG_1713081158765.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/cord-sets/FB_IMG_1713081158765.jpg.jpeg",
           "/cord-sets/FB_IMG_1789572677949.jpg.jpeg"
         ]
       }
@@ -6247,7 +5386,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -6310,34 +5449,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/FB_IMG_1779114340406.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/FB_IMG_1779114342702.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/FB_IMG_1779114342702.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/FB_IMG_1779114340406.jpg.jpeg",
+          "/cord-sets/FB_IMG_1779114342702.jpg (1).jpeg",
+          "/cord-sets/FB_IMG_1779114342702.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0317.jpg.jpeg"
         ]
       }
@@ -6391,7 +5509,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -6450,18 +5568,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/cord-sets/FB_IMG_1784625643083.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/cord-sets/FB_IMG_1784625643083.jpg.jpeg",
           "/cord-sets/13464.jpg.jpeg"
         ]
       }
@@ -6517,18 +5628,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1784625645899.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1784625645899.jpg.jpeg",
           "/cord-sets/Screenshot_2026-05-04-22-27-57-02_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
         ]
       }
@@ -6582,7 +5686,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -6641,18 +5745,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/b61fabf5a6df0e105522d602e64adedf_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/b61fabf5a6df0e105522d602e64adedf_1.jpg.jpeg",
           "/cord-sets/12975.jpg.jpeg"
         ]
       }
@@ -6712,34 +5809,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/_MG_7669.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7670.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7671.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/_MG_7669.JPG.jpeg",
+          "/cord-sets/_MG_7670.JPG.jpeg",
+          "/cord-sets/_MG_7671.JPG.jpeg",
           "/cord-sets/_MG_7672.JPG.jpeg"
         ]
       }
@@ -6793,7 +5869,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -6850,7 +5926,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -6987,26 +6063,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/cord-sets/FB_IMG_1713081208941.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/cord-sets/FB_IMG_1713081213138.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
+          "/cord-sets/FB_IMG_1713081208941.jpg.jpeg",
+          "/cord-sets/FB_IMG_1713081213138.jpg.jpeg",
           "/cord-sets/FB_IMG_1781721435030.jpg.jpeg"
         ]
       }
@@ -7070,50 +6132,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1713081211167.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1784625648070.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1789572710403.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0318.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0320.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1713081211167.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784625648070.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789572710403.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0318.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0320.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA1466.jpg.jpeg"
         ]
       }
@@ -7167,7 +6194,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -7224,7 +6251,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -7281,7 +6308,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -7342,26 +6369,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/13004.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/13487.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/13004.jpg.jpeg",
+          "/cord-sets/13487.jpg.jpeg",
           "/cord-sets/Screenshot_2026-05-04-22-29-20-05_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
         ]
       }
@@ -7415,7 +6428,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -7552,26 +6565,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/cord-sets/FB_IMG_1751900360456.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
-          "/cord-sets/FB_IMG_1751900362574.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#EAB308",
-        "images": [
+          "/cord-sets/FB_IMG_1751900360456.jpg.jpeg",
+          "/cord-sets/FB_IMG_1751900362574.jpg.jpeg",
           "/cord-sets/FB_IMG_1751900372868.jpg.jpeg"
         ]
       }
@@ -7643,82 +6642,19 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1751900365059.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1784631177942.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1784631181931.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1784631183779.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13005.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13488.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0324.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0327.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0328.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1751900365059.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784631177942.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784631181931.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784631183779.jpg.jpeg",
+          "/cord-sets/13005.jpg.jpeg",
+          "/cord-sets/13488.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0324.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0327.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0328.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0330.jpg.jpeg"
         ]
       }
@@ -7776,26 +6712,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1781721437011.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0326.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1781721437011.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0326.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA6103.jpg.jpeg"
         ]
       }
@@ -7849,7 +6771,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -7906,7 +6828,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -7963,7 +6885,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -8024,26 +6946,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/cord-sets/FB_IMG_1789572713031.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/cord-sets/1689.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/cord-sets/FB_IMG_1789572713031.jpg.jpeg",
+          "/cord-sets/1689.jpg.jpeg",
           "/cord-sets/Screenshot_2026-05-04-22-29-27-59_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
         ]
       }
@@ -8097,7 +7005,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -8154,7 +7062,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -8211,7 +7119,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -8352,34 +7260,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/cord-sets/FB_IMG_1760503132861.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
-          "/cord-sets/FB_IMG_1760503135504.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#C2410C",
-        "images": [
-          "/cord-sets/FB_IMG_1760503137770.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#C2410C",
-        "images": [
+          "/cord-sets/FB_IMG_1760503132861.jpg.jpeg",
+          "/cord-sets/FB_IMG_1760503135504.jpg.jpeg",
+          "/cord-sets/FB_IMG_1760503137770.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA2443.jpg.jpeg"
         ]
       }
@@ -8433,7 +7320,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -8490,7 +7377,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -8547,7 +7434,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -8616,58 +7503,16 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1785237447824.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237450729.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237455202.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237459180.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13043.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13491.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1785237447824.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237450729.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237455202.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237459180.jpg.jpeg",
+          "/cord-sets/13043.jpg.jpeg",
+          "/cord-sets/13491.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA6390.jpg.jpeg"
         ]
       }
@@ -8721,7 +7566,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -8780,18 +7625,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/d6212f5b8331bc89a7d05513e97db05a_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/d6212f5b8331bc89a7d05513e97db05a_1.jpg.jpeg",
           "/cord-sets/1690.jpg.jpeg"
         ]
       }
@@ -8847,18 +7685,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/cord-sets/Screenshot_2026-05-04-22-29-30-13_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/cord-sets/Screenshot_2026-05-04-22-29-30-13_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0334.jpg.jpeg"
         ]
       }
@@ -8912,7 +7743,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -9053,34 +7884,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1766593328107.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1766593334273.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/e9f8bf6840da743eb769001a9d60ffe3_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1766593328107.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593334273.jpg.jpeg",
+          "/cord-sets/e9f8bf6840da743eb769001a9d60ffe3_1.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA3319.jpg.jpeg"
         ]
       }
@@ -9154,90 +7964,20 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1766593330065.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1766593332218.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237461313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237463453.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1789572749362.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13053.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13508.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0386.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0388.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261019-WA0390.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-11",
-        "name": "Styling 11",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1766593330065.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593332218.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237461313.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237463453.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789572749362.jpg.jpeg",
+          "/cord-sets/13053.jpg.jpeg",
+          "/cord-sets/13508.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0386.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0388.jpg.jpeg",
+          "/cord-sets/IMG-20261019-WA0390.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA6592.jpg.jpeg"
         ]
       }
@@ -9299,42 +8039,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1766593336441.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1781721442157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1784914745973.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1784914747851.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1766593336441.jpg.jpeg",
+          "/cord-sets/FB_IMG_1781721442157.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784914745973.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784914747851.jpg.jpeg",
           "/cord-sets/1691.jpg.jpeg"
         ]
       }
@@ -9392,26 +8104,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/cord-sets/FB_IMG_1766593338735.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/cord-sets/FB_IMG_1766593340817.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/cord-sets/FB_IMG_1766593338735.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593340817.jpg.jpeg",
           "/cord-sets/IMG-20261019-WA0389.jpg.jpeg"
         ]
       }
@@ -9465,7 +8163,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -9603,18 +8301,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1766593343908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1766593343908.jpg.jpeg",
           "/cord-sets/FB_IMG_1784914749615.jpg.jpeg"
         ]
       }
@@ -9672,26 +8363,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/cord-sets/FB_IMG_1781721815245.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/cord-sets/FB_IMG_1781721817599.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/cord-sets/FB_IMG_1781721815245.jpg.jpeg",
+          "/cord-sets/FB_IMG_1781721817599.jpg.jpeg",
           "/cord-sets/FB_IMG_1785237465814.jpg.jpeg"
         ]
       }
@@ -9745,7 +8422,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -9806,26 +8483,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1E1B4B",
         "images": [
-          "/cord-sets/FB_IMG_1789572752507.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/cord-sets/FB_IMG_1789572761032.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1E1B4B",
-        "images": [
+          "/cord-sets/FB_IMG_1789572752507.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789572761032.jpg.jpeg",
           "/cord-sets/FB_IMG_1789572765654.jpg.jpeg"
         ]
       }
@@ -9879,7 +8542,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -9938,18 +8601,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/f2b6b9f9847639f508bd7116a6d34f97_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/f2b6b9f9847639f508bd7116a6d34f97_1.jpg.jpeg",
           "/cord-sets/1904.jpg.jpeg"
         ]
       }
@@ -10007,26 +8663,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/13077.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13542.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/13077.jpg.jpeg",
+          "/cord-sets/13542.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA7158.jpg.jpeg"
         ]
       }
@@ -10082,18 +8724,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/cord-sets/IMG-20250708-WA0024.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/cord-sets/IMG-20250708-WA0024.jpg.jpeg",
           "/cord-sets/IMG-20250708-WA0025.jpg.jpeg"
         ]
       }
@@ -10147,7 +8782,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -10204,7 +8839,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -10344,26 +8979,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/FB_IMG_1766593347242.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/FB_IMG_1766593349396.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/FB_IMG_1766593347242.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593349396.jpg.jpeg",
           "/cord-sets/FB_IMG_1766593351451.jpg.jpeg"
         ]
       }
@@ -10421,26 +9042,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/cord-sets/FB_IMG_1766593353674.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
-          "/cord-sets/FB_IMG_1766593355695.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#0E7490",
-        "images": [
+          "/cord-sets/FB_IMG_1766593353674.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593355695.jpg.jpeg",
           "/cord-sets/FB_IMG_1766593358078.jpg.jpeg"
         ]
       }
@@ -10494,7 +9101,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -10563,58 +9170,16 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1784914751496.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1784914753561.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7607.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7608.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7609.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7610.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1784914751496.jpg.jpeg",
+          "/cord-sets/FB_IMG_1784914753561.jpg.jpeg",
+          "/cord-sets/_MG_7607.JPG.jpeg",
+          "/cord-sets/_MG_7608.JPG.jpeg",
+          "/cord-sets/_MG_7609.JPG.jpeg",
+          "/cord-sets/_MG_7610.JPG.jpeg",
           "/cord-sets/2084.jpg.jpeg"
         ]
       }
@@ -10670,18 +9235,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
-          "/cord-sets/FB_IMG_1784914762367.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#854D0E",
-        "images": [
+          "/cord-sets/FB_IMG_1784914762367.jpg.jpeg",
           "/cord-sets/FB_IMG_1784914764659.jpg.jpeg"
         ]
       }
@@ -10741,34 +9299,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1785237471000.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237479230.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1785237482469.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1785237471000.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237479230.jpg.jpeg",
+          "/cord-sets/FB_IMG_1785237482469.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA1189.jpg.jpeg"
         ]
       }
@@ -10822,7 +9359,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -10879,7 +9416,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -10936,7 +9473,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -10995,18 +9532,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/cord-sets/IMG-20250708-WA0031.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/cord-sets/IMG-20250708-WA0031.jpg.jpeg",
           "/cord-sets/IMG-20250708-WA0032.jpg.jpeg"
         ]
       }
@@ -11060,7 +9590,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -11117,7 +9647,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -11266,50 +9796,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1766593595926.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1766593599893.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1766593649256.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/FB_IMG_1766593652199.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/2313.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1766593595926.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593599893.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593649256.jpg.jpeg",
+          "/cord-sets/FB_IMG_1766593652199.jpg.jpeg",
+          "/cord-sets/2313.jpg.jpeg",
           "/cord-sets/13135.jpg.jpeg"
         ]
       }
@@ -11377,66 +9872,17 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1766593654240.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1782288450786.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1782288455887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1782288457887.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1782288459857.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1789315439679.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA1620.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1766593654240.jpg.jpeg",
+          "/cord-sets/FB_IMG_1782288450786.jpg.jpeg",
+          "/cord-sets/FB_IMG_1782288455887.jpg.jpeg",
+          "/cord-sets/FB_IMG_1782288457887.jpg.jpeg",
+          "/cord-sets/FB_IMG_1782288459857.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789315439679.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA1620.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA1624.jpg.jpeg"
         ]
       }
@@ -11498,42 +9944,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/FB_IMG_1784914766427.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/IMG-20250731-WA2155.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/IMG-20250731-WA2156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/IMG-20250731-WA2157.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/FB_IMG_1784914766427.jpg.jpeg",
+          "/cord-sets/IMG-20250731-WA2155.jpg.jpeg",
+          "/cord-sets/IMG-20250731-WA2156.jpg.jpeg",
+          "/cord-sets/IMG-20250731-WA2157.jpg.jpeg",
           "/cord-sets/IMG-20250731-WA2158.jpg.jpeg"
         ]
       }
@@ -11591,26 +10009,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/cord-sets/FB_IMG_1789572781243.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/cord-sets/FB_IMG_1789572785911.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/cord-sets/FB_IMG_1789572781243.jpg.jpeg",
+          "/cord-sets/FB_IMG_1789572785911.jpg.jpeg",
           "/cord-sets/13577.jpg.jpeg"
         ]
       }
@@ -11664,7 +10068,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -11721,7 +10125,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -11778,7 +10182,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -11930,50 +10334,15 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1767273261129.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1767273263273.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1767273265619.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1767273269295.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/60303.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1767273261129.jpg.jpeg",
+          "/cord-sets/FB_IMG_1767273263273.jpg.jpeg",
+          "/cord-sets/FB_IMG_1767273265619.jpg.jpeg",
+          "/cord-sets/FB_IMG_1767273269295.jpg.jpeg",
+          "/cord-sets/60303.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9145.jpg.jpeg"
         ]
       }
@@ -12039,58 +10408,16 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1783352626374.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7618.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7619.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7620.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/2314.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/IMG-20250731-WA2160.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1783352626374.jpg.jpeg",
+          "/cord-sets/_MG_7618.JPG.jpeg",
+          "/cord-sets/_MG_7619.JPG.jpeg",
+          "/cord-sets/_MG_7620.JPG.jpeg",
+          "/cord-sets/2314.jpg.jpeg",
+          "/cord-sets/IMG-20250731-WA2160.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA4052.jpg.jpeg"
         ]
       }
@@ -12144,7 +10471,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
@@ -12203,18 +10530,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1789315441656.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1789315441656.jpg.jpeg",
           "/cord-sets/FB_IMG_1789315443152.jpg.jpeg"
         ]
       }
@@ -12274,34 +10594,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
-          "/cord-sets/FB_IMG_1792222359924.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#831843",
-        "images": [
-          "/cord-sets/FB_IMG_1792222359924.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#831843",
-        "images": [
-          "/cord-sets/FB_IMG_1792222363810.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#831843",
-        "images": [
+          "/cord-sets/FB_IMG_1792222359924.jpg (1).jpeg",
+          "/cord-sets/FB_IMG_1792222359924.jpg.jpeg",
+          "/cord-sets/FB_IMG_1792222363810.jpg (1).jpeg",
           "/cord-sets/FB_IMG_1792222363810.jpg.jpeg"
         ]
       }
@@ -12357,18 +10656,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/cord-sets/FB_IMG_1792222359924.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
+          "/cord-sets/FB_IMG_1792222359924.jpg%20(1).jpeg",
           "/cord-sets/FB_IMG_1792222363810.jpg%20(1).jpeg"
         ]
       }
@@ -12422,7 +10714,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -12479,7 +10771,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -12636,7 +10928,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -12701,42 +10993,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1775735437622.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1792222367777.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/FB_IMG_1792222367777.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA2227.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1775735437622.jpg.jpeg",
+          "/cord-sets/FB_IMG_1792222367777.jpg (1).jpeg",
+          "/cord-sets/FB_IMG_1792222367777.jpg.jpeg",
+          "/mix-category-product-images/IMG-20261102-WA2227.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA5069.jpg.jpeg"
         ]
       }
@@ -12796,34 +11060,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1783352628095.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1792222369706.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1792222369706.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1783352628095.jpg.jpeg",
+          "/cord-sets/FB_IMG_1792222369706.jpg (1).jpeg",
+          "/cord-sets/FB_IMG_1792222369706.jpg.jpeg",
           "/cord-sets/60306.jpg.jpeg"
         ]
       }
@@ -12881,26 +11124,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/cord-sets/FB_IMG_1784914770318.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
-          "/cord-sets/FB_IMG_1784914770318.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#18181B",
-        "images": [
+          "/cord-sets/FB_IMG_1784914770318.jpg (1).jpeg",
+          "/cord-sets/FB_IMG_1784914770318.jpg.jpeg",
           "/cord-sets/13157.jpg.jpeg"
         ]
       }
@@ -12962,42 +11191,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/cord-sets/FB_IMG_1784914770318.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
-          "/cord-sets/FB_IMG_1792222365770.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#8B7355",
-        "images": [
-          "/cord-sets/FB_IMG_1792222367777.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#8B7355",
-        "images": [
-          "/cord-sets/FB_IMG_1792222369706.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#8B7355",
-        "images": [
+          "/cord-sets/FB_IMG_1784914770318.jpg%20(1).jpeg",
+          "/cord-sets/FB_IMG_1792222365770.jpg%20(1).jpeg",
+          "/cord-sets/FB_IMG_1792222367777.jpg%20(1).jpeg",
+          "/cord-sets/FB_IMG_1792222369706.jpg%20(1).jpeg",
           "/cord-sets/FB_IMG_1792222371549.jpg%20(1).jpeg"
         ]
       }
@@ -13051,7 +11252,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -13112,26 +11313,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/cord-sets/FB_IMG_1792222365770.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
-          "/cord-sets/FB_IMG_1792222365770.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#334155",
-        "images": [
+          "/cord-sets/FB_IMG_1792222365770.jpg (1).jpeg",
+          "/cord-sets/FB_IMG_1792222365770.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9224.jpg.jpeg"
         ]
       }
@@ -13187,18 +11374,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
-          "/cord-sets/FB_IMG_1792222371549.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EAB308",
-        "images": [
+          "/cord-sets/FB_IMG_1792222371549.jpg (1).jpeg",
           "/cord-sets/FB_IMG_1792222371549.jpg.jpeg"
         ]
       }
@@ -13252,7 +11432,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -13309,7 +11489,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -13368,18 +11548,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/cord-sets/IMG-20250731-WA2163.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/cord-sets/IMG-20250731-WA2163.jpg.jpeg",
           "/cord-sets/IMG-20250731-WA2166.jpg.jpeg"
         ]
       }
@@ -13522,42 +11695,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1775735440451.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/13217.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/60309.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/60312.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1775735440451.jpg.jpeg",
+          "/cord-sets/13217.jpg.jpeg",
+          "/cord-sets/60309.jpg.jpeg",
+          "/cord-sets/60312.jpg.jpeg",
           "/mix-category-product-images/IMG-20261102-WA9302.jpg.jpeg"
         ]
       }
@@ -13619,42 +11764,14 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1783352632198.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1783352635021.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/FB_IMG_1783352636872.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/cord-sets/_MG_7623.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1783352632198.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783352635021.jpg.jpeg",
+          "/cord-sets/FB_IMG_1783352636872.jpg.jpeg",
+          "/cord-sets/_MG_7623.JPG.jpeg",
           "/cord-sets/_MG_7625.JPG.jpeg"
         ]
       }
@@ -13708,7 +11825,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
@@ -13769,26 +11886,12 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/FB_IMG_1789315873396.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/cord-sets/_MG_7622.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/FB_IMG_1789315873396.jpg.jpeg",
+          "/cord-sets/_MG_7622.JPG.jpeg",
           "/cord-sets/_MG_7624.JPG.jpeg"
         ]
       }
@@ -13844,18 +11947,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/cord-sets/FB_IMG_1792222373919.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/cord-sets/FB_IMG_1792222373919.jpg (1).jpeg",
           "/cord-sets/FB_IMG_1792222373919.jpg.jpeg"
         ]
       }
@@ -13909,7 +12005,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -13966,7 +12062,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -14025,18 +12121,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/cord-sets/IMG-20250731-WA2167.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/cord-sets/IMG-20250731-WA2167.jpg.jpeg",
           "/cord-sets/IMG-20250731-WA2170.jpg.jpeg"
         ]
       }
@@ -14096,34 +12185,13 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/cord-sets/IMG-20250731-WA2171.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/cord-sets/IMG-20250731-WA2172.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/cord-sets/IMG-20250731-WA2176.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
+          "/cord-sets/IMG-20250731-WA2171.jpg.jpeg",
+          "/cord-sets/IMG-20250731-WA2172.jpg.jpeg",
+          "/cord-sets/IMG-20250731-WA2176.jpg.jpeg",
           "/cord-sets/IMG-20250731-WA2178.jpg.jpeg"
         ]
       }
@@ -14177,7 +12245,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -14234,7 +12302,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -14369,7 +12437,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#854D0E",
         "images": [
@@ -14428,18 +12496,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/cord-sets/FB_IMG_1775737278041.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/cord-sets/FB_IMG_1775737278041.jpg.jpeg",
           "/cord-sets/13252.jpg.jpeg"
         ]
       }
@@ -14495,18 +12556,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/cord-sets/FB_IMG_1783352638788.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/cord-sets/FB_IMG_1783352638788.jpg.jpeg",
           "/cord-sets/FB_IMG_1784915407601.jpg.jpeg"
         ]
       }
@@ -14578,82 +12632,19 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/cord-sets/FB_IMG_1789315877292.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/_MG_7626.JPG.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261014-WA0150.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261014-WA0151.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261014-WA0152.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261014-WA0153.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261014-WA0154.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261014-WA0155.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-9",
-        "name": "Styling 9",
-        "colorCode": "#D97706",
-        "images": [
-          "/cord-sets/IMG-20261014-WA0156.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-10",
-        "name": "Styling 10",
-        "colorCode": "#D97706",
-        "images": [
+          "/cord-sets/FB_IMG_1789315877292.jpg.jpeg",
+          "/cord-sets/_MG_7626.JPG.jpeg",
+          "/cord-sets/IMG-20261014-WA0150.jpg.jpeg",
+          "/cord-sets/IMG-20261014-WA0151.jpg.jpeg",
+          "/cord-sets/IMG-20261014-WA0152.jpg.jpeg",
+          "/cord-sets/IMG-20261014-WA0153.jpg.jpeg",
+          "/cord-sets/IMG-20261014-WA0154.jpg.jpeg",
+          "/cord-sets/IMG-20261014-WA0155.jpg.jpeg",
+          "/cord-sets/IMG-20261014-WA0156.jpg.jpeg",
           "/cord-sets/IMG-20261014-WA0157.jpg.jpeg"
         ]
       }
@@ -14707,7 +12698,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -14764,7 +12755,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -14823,18 +12814,11 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/cord-sets/67785.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/cord-sets/67785.jpg.jpeg",
           "/mix-category-product-images/IMG-20261104-WA6123.jpg.jpeg"
         ]
       }
@@ -14888,7 +12872,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -14945,7 +12929,7 @@ export const CORD_SETS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [

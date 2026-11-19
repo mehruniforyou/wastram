@@ -107,42 +107,14 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/t-shirts/FB_IMG_1793535761695.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/13681.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16517.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16518.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
+          "/t-shirts/13681.jpg.jpeg",
+          "/t-shirts/16517.jpg.jpeg",
+          "/t-shirts/16518.jpg.jpeg",
           "/t-shirts/16609.jpg.jpeg"
         ]
       }
@@ -198,18 +170,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/t-shirts/16380.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/t-shirts/16380.jpg.jpeg",
           "/t-shirts/16422.jpg.jpeg"
         ]
       }
@@ -263,7 +228,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -320,7 +285,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -377,7 +342,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -436,18 +401,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16562.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16562.jpg.jpeg",
           "/t-shirts/16561.jpg.jpeg"
         ]
       }
@@ -501,7 +459,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -632,18 +590,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/t-shirts/FB_IMG_1793535763621.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
           "/t-shirts/16567.jpg.jpeg"
         ]
       }
@@ -701,26 +652,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/t-shirts/13682.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
-          "/t-shirts/13683.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#0E7490",
-        "images": [
+          "/t-shirts/13682.jpg.jpeg",
+          "/t-shirts/13683.jpg.jpeg",
           "/t-shirts/16519.jpg.jpeg"
         ]
       }
@@ -776,18 +713,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16381.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16381.jpg.jpeg",
           "/t-shirts/16382.jpg.jpeg"
         ]
       }
@@ -843,18 +773,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/t-shirts/16383.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/t-shirts/16383.jpg.jpeg",
           "/t-shirts/16610.jpg.jpeg"
         ]
       }
@@ -908,7 +831,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -965,7 +888,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -1032,50 +955,15 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16407.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16540.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16541.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16563.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16564.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16407.jpg.jpeg",
+          "/t-shirts/16540.jpg.jpeg",
+          "/t-shirts/16541.jpg.jpeg",
+          "/t-shirts/16563.jpg.jpeg",
+          "/t-shirts/16564.jpg.jpeg",
           "/t-shirts/16566.jpg.jpeg"
         ]
       }
@@ -1129,7 +1017,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -1186,7 +1074,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -1243,7 +1131,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -1373,50 +1261,15 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/t-shirts/FB_IMG_1793535765481.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/13684.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16520.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16521.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16589.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/t-shirts/FB_IMG_1793535765481.jpg.jpeg",
+          "/t-shirts/13684.jpg.jpeg",
+          "/t-shirts/16520.jpg.jpeg",
+          "/t-shirts/16521.jpg.jpeg",
+          "/t-shirts/16589.jpg (1).jpeg",
           "/t-shirts/16589.jpg.jpeg"
         ]
       }
@@ -1472,18 +1325,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/t-shirts/16386.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/t-shirts/16386.jpg.jpeg",
           "/t-shirts/16387.jpg.jpeg"
         ]
       }
@@ -1537,7 +1383,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -1596,18 +1442,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16424.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16424.jpg.jpeg",
           "/t-shirts/16425.jpg.jpeg"
         ]
       }
@@ -1663,18 +1502,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/t-shirts/16542.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/t-shirts/16542.jpg.jpeg",
           "/t-shirts/16543.jpg.jpeg"
         ]
       }
@@ -1730,18 +1562,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/t-shirts/16568.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/t-shirts/16568.jpg.jpeg",
           "/t-shirts/16611.jpg.jpeg"
         ]
       }
@@ -1795,7 +1620,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -1915,7 +1740,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -1972,7 +1797,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -2029,7 +1854,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -2094,42 +1919,14 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16409.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16410.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16426.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16590.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16409.jpg.jpeg",
+          "/t-shirts/16410.jpg.jpeg",
+          "/t-shirts/16426.jpg.jpeg",
+          "/t-shirts/16590.jpg (1).jpeg",
           "/t-shirts/16590.jpg.jpeg"
         ]
       }
@@ -2187,26 +1984,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16522.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16523.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16522.jpg.jpeg",
+          "/t-shirts/16523.jpg.jpeg",
           "/t-shirts/16591.jpg.jpeg"
         ]
       }
@@ -2260,7 +2043,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -2317,7 +2100,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -2374,7 +2157,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -2431,7 +2214,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -2550,18 +2333,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/13667.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/13667.jpg.jpeg",
           "/t-shirts/16524.jpg.jpeg"
         ]
       }
@@ -2615,7 +2391,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -2674,18 +2450,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16389.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16389.jpg.jpeg",
           "/t-shirts/16613.jpg.jpeg"
         ]
       }
@@ -2739,7 +2508,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -2796,7 +2565,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -2853,7 +2622,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -2910,7 +2679,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -2967,7 +2736,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -3096,7 +2865,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -3153,7 +2922,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EAB308",
         "images": [
@@ -3224,66 +2993,17 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16390.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16391.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16392.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16393.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16412.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16430.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16594.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-8",
-        "name": "Styling 8",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16390.jpg.jpeg",
+          "/t-shirts/16391.jpg.jpeg",
+          "/t-shirts/16392.jpg.jpeg",
+          "/t-shirts/16393.jpg.jpeg",
+          "/t-shirts/16412.jpg.jpeg",
+          "/t-shirts/16430.jpg.jpeg",
+          "/t-shirts/16594.jpg.jpeg",
           "/t-shirts/16616.jpg.jpeg"
         ]
       }
@@ -3343,34 +3063,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/t-shirts/16428.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16429.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16547.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
+          "/t-shirts/16428.jpg.jpeg",
+          "/t-shirts/16429.jpg.jpeg",
+          "/t-shirts/16547.jpg.jpeg",
           "/t-shirts/16617.jpg.jpeg"
         ]
       }
@@ -3428,26 +3127,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16525.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16614.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16525.jpg.jpeg",
+          "/t-shirts/16614.jpg.jpeg",
           "/t-shirts/16615.jpg.jpeg"
         ]
       }
@@ -3503,18 +3188,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/t-shirts/16546.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/t-shirts/16546.jpg.jpeg",
           "/t-shirts/16595.jpg.jpeg"
         ]
       }
@@ -3568,7 +3246,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -3694,34 +3372,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
-          "/t-shirts/13670.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/t-shirts/13671.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/t-shirts/13688.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#CA8A04",
-        "images": [
+          "/t-shirts/13670.jpg.jpeg",
+          "/t-shirts/13671.jpg.jpeg",
+          "/t-shirts/13688.jpg.jpeg",
           "/t-shirts/13689.jpg.jpeg"
         ]
       }
@@ -3781,34 +3438,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/13672.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16394.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16548.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/13672.jpg.jpeg",
+          "/t-shirts/16394.jpg.jpeg",
+          "/t-shirts/16548.jpg.jpeg",
           "/t-shirts/16573.jpg.jpeg"
         ]
       }
@@ -3864,18 +3500,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/t-shirts/16413.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/t-shirts/16413.jpg.jpeg",
           "/t-shirts/16416.jpg.jpeg"
         ]
       }
@@ -3931,18 +3560,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/t-shirts/16414.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/t-shirts/16414.jpg.jpeg",
           "/t-shirts/16415.jpg.jpeg"
         ]
       }
@@ -3996,7 +3618,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -4053,7 +3675,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -4112,18 +3734,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/t-shirts/16572.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/t-shirts/16572.jpg.jpeg",
           "/t-shirts/16574.jpg.jpeg"
         ]
       }
@@ -4177,7 +3792,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -4236,18 +3851,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
-          "/t-shirts/16599.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#C2410C",
-        "images": [
+          "/t-shirts/16599.jpg.jpeg",
           "/t-shirts/16600.jpg.jpeg"
         ]
       }
@@ -4301,7 +3909,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -4427,34 +4035,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/13673.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/13674.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/13675.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/13673.jpg.jpeg",
+          "/t-shirts/13674.jpg.jpeg",
+          "/t-shirts/13675.jpg.jpeg",
           "/t-shirts/16529.jpg.jpeg"
         ]
       }
@@ -4514,34 +4101,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/t-shirts/13690.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16527.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16528.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/t-shirts/13690.jpg.jpeg",
+          "/t-shirts/16527.jpg.jpeg",
+          "/t-shirts/16528.jpg.jpeg",
           "/t-shirts/16530.jpg.jpeg"
         ]
       }
@@ -4597,18 +4163,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16395.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16395.jpg.jpeg",
           "/t-shirts/16601.jpg.jpeg"
         ]
       }
@@ -4662,7 +4221,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -4721,18 +4280,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/t-shirts/16432.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/t-shirts/16432.jpg.jpeg",
           "/t-shirts/16549.jpg.jpeg"
         ]
       }
@@ -4786,7 +4338,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -4843,7 +4395,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -4969,7 +4521,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -5028,18 +4580,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/13691.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/13691.jpg.jpeg",
           "/t-shirts/16550.jpg.jpeg"
         ]
       }
@@ -5097,26 +4642,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16396.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16620.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16396.jpg.jpeg",
+          "/t-shirts/16620.jpg.jpeg",
           "/t-shirts/16621.jpg.jpeg"
         ]
       }
@@ -5172,18 +4703,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/t-shirts/16418.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/t-shirts/16418.jpg.jpeg",
           "/t-shirts/16602.jpg.jpeg"
         ]
       }
@@ -5237,7 +4761,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -5298,26 +4822,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/t-shirts/16531.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/t-shirts/16532.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/t-shirts/16531.jpg.jpeg",
+          "/t-shirts/16532.jpg.jpeg",
           "/t-shirts/16533.jpg.jpeg"
         ]
       }
@@ -5373,18 +4883,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
-          "/t-shirts/16578.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#EA580C",
-        "images": [
+          "/t-shirts/16578.jpg.jpeg",
           "/t-shirts/16579.jpg.jpeg"
         ]
       }
@@ -5438,7 +4941,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
@@ -5561,7 +5064,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -5622,26 +5125,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16376.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16397.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16376.jpg.jpeg",
+          "/t-shirts/16397.jpg.jpeg",
           "/t-shirts/16580.jpg.jpeg"
         ]
       }
@@ -5695,7 +5184,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -5754,18 +5243,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
-          "/t-shirts/16419.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#18181B",
-        "images": [
+          "/t-shirts/16419.jpg.jpeg",
           "/t-shirts/16434.jpg.jpeg"
         ]
       }
@@ -5819,7 +5301,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -5876,7 +5358,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -5933,7 +5415,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -5990,7 +5472,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -6049,18 +5531,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/t-shirts/16622.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/t-shirts/16622.jpg (1).jpeg",
           "/t-shirts/16622.jpg.jpeg"
         ]
       }
@@ -6114,7 +5589,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -6243,7 +5718,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -6304,26 +5779,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16378.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16398.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16378.jpg.jpeg",
+          "/t-shirts/16398.jpg.jpeg",
           "/t-shirts/16400.jpg.jpeg"
         ]
       }
@@ -6377,7 +5838,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#C2410C",
         "images": [
@@ -6438,26 +5899,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#7C3AED",
         "images": [
-          "/t-shirts/16401.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/t-shirts/16402.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#7C3AED",
-        "images": [
+          "/t-shirts/16401.jpg.jpeg",
+          "/t-shirts/16402.jpg.jpeg",
           "/t-shirts/16403.jpg.jpeg"
         ]
       }
@@ -6511,7 +5958,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#EA580C",
         "images": [
@@ -6568,7 +6015,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -6627,18 +6074,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/t-shirts/16535.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/t-shirts/16535.jpg.jpeg",
           "/t-shirts/16536.jpg.jpeg"
         ]
       }
@@ -6696,26 +6136,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16552.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16555.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16552.jpg.jpeg",
+          "/t-shirts/16555.jpg.jpeg",
           "/t-shirts/16556.jpg.jpeg"
         ]
       }
@@ -6775,34 +6201,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/t-shirts/16554.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16557.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16558.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#DB2777",
-        "images": [
+          "/t-shirts/16554.jpg.jpeg",
+          "/t-shirts/16557.jpg.jpeg",
+          "/t-shirts/16558.jpg.jpeg",
           "/t-shirts/16553.jpg.jpeg"
         ]
       }
@@ -6862,34 +6267,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/t-shirts/16581.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16582.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16582.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/t-shirts/16581.jpg.jpeg",
+          "/t-shirts/16582.jpg (1).jpeg",
+          "/t-shirts/16582.jpg.jpeg",
           "/t-shirts/16605.jpg.jpeg"
         ]
       }
@@ -6945,18 +6329,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
-          "/t-shirts/16582.jpg%20(1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#8B7355",
-        "images": [
+          "/t-shirts/16582.jpg%20(1).jpeg",
           "/t-shirts/16583.jpg%20(1).jpeg"
         ]
       }
@@ -7014,26 +6391,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
-          "/t-shirts/16583.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/t-shirts/16583.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FAF7F2",
-        "images": [
+          "/t-shirts/16583.jpg (1).jpeg",
+          "/t-shirts/16583.jpg.jpeg",
           "/t-shirts/16584.jpg.jpeg"
         ]
       }
@@ -7087,7 +6450,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -7225,58 +6588,16 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/13679.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/13680.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16438.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16537.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-5",
-        "name": "Styling 5",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16559.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-6",
-        "name": "Styling 6",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16628.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-7",
-        "name": "Styling 7",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/13679.jpg.jpeg",
+          "/t-shirts/13680.jpg.jpeg",
+          "/t-shirts/16438.jpg.jpeg",
+          "/t-shirts/16537.jpg.jpeg",
+          "/t-shirts/16559.jpg.jpeg",
+          "/t-shirts/16628.jpg.jpeg",
           "/t-shirts/16627.jpg.jpeg"
         ]
       }
@@ -7334,26 +6655,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16379.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16626.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16379.jpg.jpeg",
+          "/t-shirts/16626.jpg.jpeg",
           "/t-shirts/16629.jpg.jpeg"
         ]
       }
@@ -7411,26 +6718,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/t-shirts/16404.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16405.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
+          "/t-shirts/16404.jpg.jpeg",
+          "/t-shirts/16405.jpg.jpeg",
           "/t-shirts/16437.jpg.jpeg"
         ]
       }
@@ -7484,7 +6777,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -7541,7 +6834,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -7600,18 +6893,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
-          "/t-shirts/16606.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/t-shirts/16606.jpg.jpeg",
           "/t-shirts/16607.jpg.jpeg"
         ]
       }
@@ -7665,7 +6951,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -7722,7 +7008,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -7779,7 +7065,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -7849,7 +7135,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -7908,18 +7194,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/t-shirts/16633.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/t-shirts/16633.jpg.jpeg",
           "/t-shirts/16634.jpg.jpeg"
         ]
       }
@@ -7973,7 +7252,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -8030,7 +7309,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -8087,7 +7366,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -8163,7 +7442,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -8226,34 +7505,13 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16636.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16637.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16638.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16636.jpg.jpeg",
+          "/t-shirts/16637.jpg.jpeg",
+          "/t-shirts/16638.jpg.jpeg",
           "/t-shirts/16643.jpg.jpeg"
         ]
       }
@@ -8307,7 +7565,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -8364,7 +7622,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -8421,7 +7679,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -8491,7 +7749,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -8548,7 +7806,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -8618,7 +7876,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -8675,7 +7933,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -8751,7 +8009,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -8808,7 +8066,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -8869,26 +8127,12 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/t-shirts/16838.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16839.jpg (1).jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/t-shirts/16838.jpg.jpeg",
+          "/t-shirts/16839.jpg (1).jpeg",
           "/t-shirts/16839.jpg.jpeg"
         ]
       }
@@ -8942,7 +8186,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#8B7355",
         "images": [
@@ -8999,7 +8243,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -9069,7 +8313,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -9126,7 +8370,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -9196,7 +8440,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -9253,7 +8497,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -9323,7 +8567,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -9380,7 +8624,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -9437,7 +8681,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
@@ -9507,7 +8751,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -9564,7 +8808,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -9637,7 +8881,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#831843",
         "images": [
@@ -9696,18 +8940,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/t-shirts/16765.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
+          "/t-shirts/16765.jpg.jpeg",
           "/t-shirts/16868.jpg.jpeg"
         ]
       }
@@ -9763,18 +9000,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#991B1B",
         "images": [
-          "/t-shirts/16766.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#991B1B",
-        "images": [
+          "/t-shirts/16766.jpg.jpeg",
           "/t-shirts/16867.jpg.jpeg"
         ]
       }
@@ -9828,7 +9058,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#581C87",
         "images": [
@@ -9898,7 +9128,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -9957,18 +9187,11 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/t-shirts/16869.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16869.jpg.jpeg",
           "/t-shirts/16870.jpg.jpeg"
         ]
       }
@@ -10029,7 +9252,7 @@ export const T_SHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [

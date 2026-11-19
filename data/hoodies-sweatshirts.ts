@@ -81,34 +81,13 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/hoodies-sweatshirts/FB_IMG_1793535753908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/1839e9e2eedb0439915b007ceef9ee83_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/73b4def989ffc741687aef8c312cd4ac_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/hoodies-sweatshirts/FB_IMG_1793535753908.jpg.jpeg",
+          "/hoodies-sweatshirts/1839e9e2eedb0439915b007ceef9ee83_1.jpg.jpeg",
+          "/hoodies-sweatshirts/73b4def989ffc741687aef8c312cd4ac_1.jpg.jpeg",
           "/hoodies-sweatshirts/16886.jpg.jpeg"
         ]
       }
@@ -162,7 +141,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -219,7 +198,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -278,18 +257,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/hoodies-sweatshirts/16921.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/hoodies-sweatshirts/16921.jpg.jpeg",
           "/hoodies-sweatshirts/16922.jpg.jpeg"
         ]
       }
@@ -343,7 +315,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -446,26 +418,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/hoodies-sweatshirts/FB_IMG_1793535755888.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/hoodies-sweatshirts/775f7ff959045d0e9495e9301c1563c8.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/hoodies-sweatshirts/FB_IMG_1793535755888.jpg.jpeg",
+          "/hoodies-sweatshirts/775f7ff959045d0e9495e9301c1563c8.jpg.jpeg",
           "/hoodies-sweatshirts/16888.jpg.jpeg"
         ]
       }
@@ -519,7 +477,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -576,7 +534,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
@@ -633,7 +591,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -690,7 +648,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -749,18 +707,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/hoodies-sweatshirts/16924.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/hoodies-sweatshirts/16924.jpg.jpeg",
           "/hoodies-sweatshirts/16925.jpg.jpeg"
         ]
       }
@@ -816,18 +767,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/hoodies-sweatshirts/16945.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
+          "/hoodies-sweatshirts/16945.jpg.jpeg",
           "/hoodies-sweatshirts/16946.jpg.jpeg"
         ]
       }
@@ -923,34 +867,13 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/hoodies-sweatshirts/FB_IMG_1793535757844.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/FB_IMG_1793535759691.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/2f3db7a63a3fa0bfd5065cf543087f82_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/hoodies-sweatshirts/FB_IMG_1793535757844.jpg.jpeg",
+          "/hoodies-sweatshirts/FB_IMG_1793535759691.jpg.jpeg",
+          "/hoodies-sweatshirts/2f3db7a63a3fa0bfd5065cf543087f82_1.jpg.jpeg",
           "/hoodies-sweatshirts/16890.jpg.jpeg"
         ]
       }
@@ -1004,7 +927,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -1063,18 +986,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/hoodies-sweatshirts/16926.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/hoodies-sweatshirts/16926.jpg.jpeg",
           "/hoodies-sweatshirts/16947.jpg.jpeg"
         ]
       }
@@ -1167,7 +1083,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -1224,7 +1140,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -1281,7 +1197,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -1342,26 +1258,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DC2626",
         "images": [
-          "/hoodies-sweatshirts/16891.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DC2626",
-        "images": [
-          "/hoodies-sweatshirts/16892.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DC2626",
-        "images": [
+          "/hoodies-sweatshirts/16891.jpg.jpeg",
+          "/hoodies-sweatshirts/16892.jpg.jpeg",
           "/hoodies-sweatshirts/16893.jpg.jpeg"
         ]
       }
@@ -1415,7 +1317,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -1472,7 +1374,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
@@ -1568,7 +1470,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -1625,7 +1527,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -1682,7 +1584,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -1739,7 +1641,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -1800,26 +1702,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/hoodies-sweatshirts/16895.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/hoodies-sweatshirts/16896.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/hoodies-sweatshirts/16895.jpg.jpeg",
+          "/hoodies-sweatshirts/16896.jpg.jpeg",
           "/hoodies-sweatshirts/16897.jpg.jpeg"
         ]
       }
@@ -1875,18 +1763,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/hoodies-sweatshirts/16928.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/hoodies-sweatshirts/16928.jpg.jpeg",
           "/hoodies-sweatshirts/16949.jpg.jpeg"
         ]
       }
@@ -1976,7 +1857,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -2033,7 +1914,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#38BDF8",
         "images": [
@@ -2090,7 +1971,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -2149,18 +2030,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/hoodies-sweatshirts/16898.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/hoodies-sweatshirts/16898.jpg.jpeg",
           "/hoodies-sweatshirts/16951.jpg.jpeg"
         ]
       }
@@ -2218,26 +2092,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/hoodies-sweatshirts/16929.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
-          "/hoodies-sweatshirts/16930.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#DB2777",
-        "images": [
+          "/hoodies-sweatshirts/16929.jpg.jpeg",
+          "/hoodies-sweatshirts/16930.jpg.jpeg",
           "/hoodies-sweatshirts/16950.jpg.jpeg"
         ]
       }
@@ -2323,18 +2183,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/hoodies-sweatshirts/FB_IMG_1793535774414.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/hoodies-sweatshirts/FB_IMG_1793535774414.jpg.jpeg",
           "/hoodies-sweatshirts/16899.jpg.jpeg"
         ]
       }
@@ -2388,7 +2241,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -2449,26 +2302,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/hoodies-sweatshirts/a4c71a3e354fef1cabdfa4c07f86aecf.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/a4c71a3e354fef1cabdfa4c07f86aecf_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/hoodies-sweatshirts/a4c71a3e354fef1cabdfa4c07f86aecf.jpg.jpeg",
+          "/hoodies-sweatshirts/a4c71a3e354fef1cabdfa4c07f86aecf_1.jpg.jpeg",
           "/hoodies-sweatshirts/a4c71a3e354fef1cabdfa4c07f86aecf_2.jpg.jpeg"
         ]
       }
@@ -2522,7 +2361,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
@@ -2621,34 +2460,13 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/hoodies-sweatshirts/FB_IMG_1793535776298.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/hoodies-sweatshirts/16900.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/hoodies-sweatshirts/16903.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/hoodies-sweatshirts/FB_IMG_1793535776298.jpg.jpeg",
+          "/hoodies-sweatshirts/16900.jpg.jpeg",
+          "/hoodies-sweatshirts/16903.jpg.jpeg",
           "/hoodies-sweatshirts/16904.jpg.jpeg"
         ]
       }
@@ -2702,7 +2520,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -2759,7 +2577,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FAF7F2",
         "images": [
@@ -2816,7 +2634,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
@@ -2875,18 +2693,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/hoodies-sweatshirts/16902.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/hoodies-sweatshirts/16902.jpg.jpeg",
           "/hoodies-sweatshirts/16905.jpg.jpeg"
         ]
       }
@@ -2944,26 +2755,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
-          "/hoodies-sweatshirts/16932.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#FB7185",
-        "images": [
-          "/hoodies-sweatshirts/16934.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#FB7185",
-        "images": [
+          "/hoodies-sweatshirts/16932.jpg.jpeg",
+          "/hoodies-sweatshirts/16934.jpg.jpeg",
           "/hoodies-sweatshirts/16937.jpg.jpeg"
         ]
       }
@@ -3019,18 +2816,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#DB2777",
         "images": [
-          "/hoodies-sweatshirts/16933.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#DB2777",
-        "images": [
+          "/hoodies-sweatshirts/16933.jpg.jpeg",
           "/hoodies-sweatshirts/16935.jpg.jpeg"
         ]
       }
@@ -3084,7 +2874,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -3177,7 +2967,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -3236,18 +3026,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#475569",
         "images": [
-          "/hoodies-sweatshirts/FB_IMG_1793535780274.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#475569",
-        "images": [
+          "/hoodies-sweatshirts/FB_IMG_1793535780274.jpg.jpeg",
           "/hoodies-sweatshirts/FB_IMG_1793535782092.jpg.jpeg"
         ]
       }
@@ -3307,34 +3090,13 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/hoodies-sweatshirts/5cbec775a0f32f4f73331b694757cdbb.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/5cbec775a0f32f4f73331b694757cdbb_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/5cbec775a0f32f4f73331b694757cdbb_2.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-4",
-        "name": "Styling 4",
-        "colorCode": "#D97706",
-        "images": [
+          "/hoodies-sweatshirts/5cbec775a0f32f4f73331b694757cdbb.jpg.jpeg",
+          "/hoodies-sweatshirts/5cbec775a0f32f4f73331b694757cdbb_1.jpg.jpeg",
+          "/hoodies-sweatshirts/5cbec775a0f32f4f73331b694757cdbb_2.jpg.jpeg",
           "/hoodies-sweatshirts/16906.jpg.jpeg"
         ]
       }
@@ -3388,7 +3150,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#FB7185",
         "images": [
@@ -3445,7 +3207,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -3535,7 +3297,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -3592,7 +3354,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -3649,7 +3411,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
@@ -3708,18 +3470,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
-          "/hoodies-sweatshirts/16907.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#0E7490",
-        "images": [
+          "/hoodies-sweatshirts/16907.jpg.jpeg",
           "/hoodies-sweatshirts/16939.jpg.jpeg"
         ]
       }
@@ -3777,26 +3532,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#06B6D4",
         "images": [
-          "/hoodies-sweatshirts/16908.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/hoodies-sweatshirts/16909.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#06B6D4",
-        "images": [
+          "/hoodies-sweatshirts/16908.jpg.jpeg",
+          "/hoodies-sweatshirts/16909.jpg.jpeg",
           "/hoodies-sweatshirts/16941.jpg.jpeg"
         ]
       }
@@ -3850,7 +3591,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -3944,26 +3685,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
-          "/hoodies-sweatshirts/0eaab8af0d3dcfa8ef0848387ca79b93.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#D97706",
-        "images": [
-          "/hoodies-sweatshirts/faf97b35833ec28dda765b4399a003a6_1.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#D97706",
-        "images": [
+          "/hoodies-sweatshirts/0eaab8af0d3dcfa8ef0848387ca79b93.jpg.jpeg",
+          "/hoodies-sweatshirts/faf97b35833ec28dda765b4399a003a6_1.jpg.jpeg",
           "/hoodies-sweatshirts/16942.jpg.jpeg"
         ]
       }
@@ -4017,7 +3744,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#1D4ED8",
         "images": [
@@ -4074,7 +3801,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#115E59",
         "images": [
@@ -4131,7 +3858,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
@@ -4190,18 +3917,11 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#334155",
         "images": [
-          "/hoodies-sweatshirts/16912.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#334155",
-        "images": [
+          "/hoodies-sweatshirts/16912.jpg.jpeg",
           "/hoodies-sweatshirts/16913.jpg.jpeg"
         ]
       }
@@ -4259,26 +3979,12 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
-          "/hoodies-sweatshirts/16914.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-2",
-        "name": "Styling 2",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/hoodies-sweatshirts/16915.jpg.jpeg"
-        ]
-      },
-      {
-        "id": "view-3",
-        "name": "Styling 3",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/hoodies-sweatshirts/16914.jpg.jpeg",
+          "/hoodies-sweatshirts/16915.jpg.jpeg",
           "/hoodies-sweatshirts/16916.jpg.jpeg"
         ]
       }
@@ -4362,7 +4068,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#0E7490",
         "images": [
@@ -4419,7 +4125,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#CA8A04",
         "images": [
@@ -4476,7 +4182,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#94A3B8",
         "images": [
@@ -4533,7 +4239,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#D97706",
         "images": [
@@ -4590,7 +4296,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#4D7C0F",
         "images": [
@@ -4647,7 +4353,7 @@ export const HOODIES_SWEATSHIRTS: NishoramaProduct[] = [
     ],
     "colorVariants": [
       {
-        "id": "view-1",
+        "id": "var-1",
         "name": "Styling 1",
         "colorCode": "#18181B",
         "images": [
