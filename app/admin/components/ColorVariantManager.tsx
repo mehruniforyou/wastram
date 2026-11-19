@@ -22,6 +22,7 @@ import {
   Images,
 } from "lucide-react";
 import { ColorVariant } from "@/data/products";
+import { CATEGORIES } from "@/data/categories";
 import { adminFetch } from "../AdminClientPage";
 import { optimizeImageFile } from "@/lib/imageOptimizer";
 import { generateProductSlug } from "@/utils/slug";
@@ -63,6 +64,7 @@ interface ColorVariantManagerProps {
   parentProduct?: ParentProductInfo;
   onProductCreated?: (newProduct: any) => Promise<void> | void;
   existingProducts?: any[];
+  categories?: any[];
 }
 
 export default function ColorVariantManager({
@@ -72,6 +74,7 @@ export default function ColorVariantManager({
   parentProduct,
   onProductCreated,
   existingProducts = [],
+  categories = [],
 }: ColorVariantManagerProps) {
   const [isEditing, setIsEditing] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
@@ -84,11 +87,20 @@ export default function ColorVariantManager({
   // Checkbox for future adding variants: also create as separate product
   const [createAsSeparateOnSave, setCreateAsSeparateOnSave] = useState(false);
 
+  // Available categories (with guaranteed fallback to CATEGORIES)
+  const availableCategories = useMemo(() => {
+    if (Array.isArray(categories) && categories.length > 0) {
+      return categories;
+    }
+    return CATEGORIES;
+  }, [categories]);
+
   // Split Modal State
   const [splitModalOpen, setSplitModalOpen] = useState(false);
   const [splittingVariant, setSplittingVariant] = useState<ColorVariant | null>(null);
   const [splitProductName, setSplitProductName] = useState("");
   const [splitProductSlug, setSplitProductSlug] = useState("");
+  const [splitCategoryId, setSplitCategoryId] = useState("");
   const [keepVariantInCurrent, setKeepVariantInCurrent] = useState(true);
   const [isSplitting, setIsSplitting] = useState(false);
   const [splitSuccess, setSplitSuccess] = useState<{
@@ -302,12 +314,38 @@ export default function ColorVariantManager({
     setIsEditing(true);
   };
 
+  const resolveInitialCategory = () => {
+    const candidates = [
+      parentProduct?.category_id,
+      parentProduct?.category_slug,
+      typeof parentProduct?.category === "string"
+        ? parentProduct.category
+        : (parentProduct?.category as any)?.id || (parentProduct?.category as any)?.slug,
+      (parentProduct as any)?.categoryId,
+      parentProduct?.tab,
+    ].filter(Boolean);
+
+    for (const cand of candidates) {
+      const str = String(cand).trim().toLowerCase();
+      const match = availableCategories.find(
+        (c) =>
+          c.id.toLowerCase() === str ||
+          c.slug.toLowerCase() === str ||
+          c.name.toLowerCase() === str
+      );
+      if (match) return match.id;
+    }
+
+    return availableCategories[0]?.id || "traditional-gowns";
+  };
+
   // Open the dedicated Split Modal for an existing variant
   const handleOpenSplitModal = (v: ColorVariant) => {
     const { autoName, autoSlug } = computeAutoNameAndSlug(v.name);
     setSplittingVariant(v);
     setSplitProductName(autoName);
     setSplitProductSlug(autoSlug);
+    setSplitCategoryId(resolveInitialCategory());
     setKeepVariantInCurrent(true);
     setSplitSuccess(null);
     setSplitModalOpen(true);
@@ -392,20 +430,20 @@ export default function ColorVariantManager({
       return;
     }
 
+    const targetCatId = splitCategoryId || resolveInitialCategory();
+
+    const matchedCat = availableCategories.find(
+      (c) =>
+        c.id.toLowerCase() === targetCatId.toLowerCase() ||
+        c.slug.toLowerCase() === targetCatId.toLowerCase() ||
+        c.name.toLowerCase() === targetCatId.toLowerCase()
+    );
+
+    const finalCatId = matchedCat ? matchedCat.id : targetCatId;
+    const finalCatName = matchedCat ? matchedCat.name : (parentProduct?.category_name || finalCatId);
+
     setIsSplitting(true);
     try {
-      const parentCat =
-        parentProduct?.category_id ||
-        (typeof parentProduct?.category === "string"
-          ? parentProduct?.category
-          : parentProduct?.category?.id || parentProduct?.category?.slug) ||
-        "western-dresses";
-
-      const parentCatName =
-        parentProduct?.category_name ||
-        (typeof parentProduct?.category === "object" ? parentProduct?.category?.name : undefined) ||
-        parentCat;
-
       const variantImgs =
         Array.isArray(splittingVariant.images) && splittingVariant.images.length > 0
           ? splittingVariant.images
@@ -421,11 +459,12 @@ export default function ColorVariantManager({
         name: finalName,
         title: finalName,
         slug: finalSlug,
-        category: parentCat,
-        category_id: parentCat,
-        category_name: parentCatName,
-        category_slug: parentCat,
-        tab: parentProduct?.tab || parentCat,
+        category: finalCatName,
+        category_id: finalCatId,
+        category_name: finalCatName,
+        category_slug: finalCatId,
+        categoryId: finalCatId,
+        tab: finalCatId,
         price: parentProduct?.price ?? parentProduct?.salePrice ?? 1899,
         regularPrice:
           parentProduct?.regularPrice ??
@@ -455,6 +494,12 @@ export default function ColorVariantManager({
                 `Precision anatomical grading across sizes S to XXL`,
                 `Wholesale export MOQ: ${parentProduct?.moq || "20 pcs / Flexible Wholesale Pack"}`,
               ],
+        technical_specs: {
+          "Fabric": parentProduct?.fabric || "Pure Handloom Silk & Cotton",
+          "Part Number": newProductId,
+          "SKU": newProductId,
+          "Wholesale MOQ": parentProduct?.moq || "20 pcs / Flexible Wholesale Pack",
+        },
         colorVariants: [],
         isCustomProduct: true,
         inStock: true,
@@ -1036,17 +1081,45 @@ export default function ColorVariantManager({
                   </p>
                 </div>
 
-                {/* Category & Specifications Confirmation */}
+                {/* Category Selection Dropdown (Assign to Willed Category) */}
+                <div>
+                  <div className="flex items-center justify-between mb-1">
+                    <label className="block text-[11px] font-heading font-black text-black uppercase tracking-wider">
+                      Assign to Category *
+                    </label>
+                    <span className="text-[10px] text-neutral-500 font-medium">
+                      Select willed category
+                    </span>
+                  </div>
+                  <div className="relative">
+                    <select
+                      value={splitCategoryId}
+                      onChange={(e) => setSplitCategoryId(e.target.value)}
+                      className="w-full bg-white border-2 border-neutral-200 focus:border-[#0B2D7F] rounded-xl px-3 py-2 text-xs font-heading font-bold text-black outline-none cursor-pointer transition-colors"
+                    >
+                      {availableCategories.map((cat) => (
+                        <option key={cat.id} value={cat.id}>
+                          {cat.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                  <p className="text-[10px] text-neutral-400 mt-1">
+                    The newly generated product will be immediately filed under this category in your admin catalogue and storefront collections.
+                  </p>
+                </div>
+
+                {/* Wholesale Specifications Confirmation */}
                 <div className="p-3 rounded-xl bg-blue-50/50 border border-blue-100 flex items-center justify-between text-[11px]">
                   <div>
-                    <span className="text-neutral-500 font-medium block">Department / Category:</span>
-                    <span className="font-heading font-bold text-[#0B2D7F] uppercase tracking-wide">
-                      {parentProduct?.category_name || parentProduct?.category || "Western Dresses"}
+                    <span className="text-neutral-500 font-medium block">Parent Source:</span>
+                    <span className="font-heading font-bold text-black truncate block max-w-[200px]">
+                      {getParentTitle() || "Wastram Silhouette"}
                     </span>
                   </div>
                   <div className="text-right">
                     <span className="text-neutral-500 font-medium block">Wholesale MOQ:</span>
-                    <span className="font-bold text-neutral-800">
+                    <span className="font-bold text-[#0B2D7F]">
                       {parentProduct?.moq || "20 pcs"}
                     </span>
                   </div>

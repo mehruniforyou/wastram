@@ -345,7 +345,10 @@ export async function saveProductOverride(
       };
     } else {
       const catMeta = CATEGORIES.find(
-        (c) => c.id.toLowerCase() === strRaw.toLowerCase() || c.slug.toLowerCase() === strRaw.toLowerCase()
+        (c) =>
+          c.id.toLowerCase() === strRaw.toLowerCase() ||
+          c.slug.toLowerCase() === strRaw.toLowerCase() ||
+          c.name.toLowerCase() === strRaw.toLowerCase()
       );
       const catId = catMeta ? catMeta.id : strRaw;
       const catName = catMeta ? catMeta.name : (data.category_name || data.category || catId);
@@ -647,14 +650,14 @@ export function applyOverrideToProduct(
     if (override.category_id !== undefined || override.category !== undefined) {
       const val = String(override.category_id || override.category || "").trim();
       if (!val || val === "none" || val === "unassigned") return "";
-      const catMeta = CATEGORIES.find((c) => c.id.toLowerCase() === val.toLowerCase() || c.slug.toLowerCase() === val.toLowerCase());
+      const catMeta = CATEGORIES.find((c) => c.id.toLowerCase() === val.toLowerCase() || c.slug.toLowerCase() === val.toLowerCase() || c.name.toLowerCase() === val.toLowerCase());
       return catMeta ? catMeta.name : (override.category_name || val);
     }
     const rawCat = (p as any).category_id || p.category;
     const str = String(rawCat || "").trim();
     if (!str || str === "none" || str === "unassigned") return "";
     const catMeta = CATEGORIES.find(
-      (c) => c.id.toLowerCase() === str.toLowerCase() || c.slug.toLowerCase() === str.toLowerCase()
+      (c) => c.id.toLowerCase() === str.toLowerCase() || c.slug.toLowerCase() === str.toLowerCase() || c.name.toLowerCase() === str.toLowerCase()
     );
     return catMeta ? catMeta.name : (typeof p.category === "string" ? p.category : str);
   })();
@@ -663,14 +666,14 @@ export function applyOverrideToProduct(
     if (override.category_id !== undefined || override.category !== undefined) {
       const val = String(override.category_id || override.category || "").trim();
       if (!val || val === "none" || val === "unassigned") return "";
-      const catMeta = CATEGORIES.find((c) => c.id.toLowerCase() === val.toLowerCase() || c.slug.toLowerCase() === val.toLowerCase());
+      const catMeta = CATEGORIES.find((c) => c.id.toLowerCase() === val.toLowerCase() || c.slug.toLowerCase() === val.toLowerCase() || c.name.toLowerCase() === val.toLowerCase());
       return catMeta ? catMeta.id : val;
     }
     const rawCat = (p as any).category_id || p.category;
     const str = String(rawCat || "").trim();
     if (!str || str === "none" || str === "unassigned") return "";
     const catMeta = CATEGORIES.find(
-      (c) => c.id.toLowerCase() === str.toLowerCase() || c.slug.toLowerCase() === str.toLowerCase()
+      (c) => c.id.toLowerCase() === str.toLowerCase() || c.slug.toLowerCase() === str.toLowerCase() || c.name.toLowerCase() === str.toLowerCase()
     );
     return catMeta ? catMeta.id : str;
   })();
@@ -803,7 +806,10 @@ export async function getLiveProductBySlug(slug: string): Promise<Product | null
     let targetCatName = "";
     if (strRaw && strRaw !== "none" && strRaw !== "unassigned") {
       const catMeta = CATEGORIES.find(
-        (c) => c.id.toLowerCase() === strRaw.toLowerCase() || c.slug.toLowerCase() === strRaw.toLowerCase()
+        (c) =>
+          c.id.toLowerCase() === strRaw.toLowerCase() ||
+          c.slug.toLowerCase() === strRaw.toLowerCase() ||
+          c.name.toLowerCase() === strRaw.toLowerCase()
       );
       targetCatId = catMeta ? catMeta.id : strRaw;
       targetCatName = catMeta ? catMeta.name : (matchingOverride.category_name || targetCatId);
@@ -959,7 +965,10 @@ export async function getAllMergedProducts(options?: {
       let targetCatName = "";
       if (strRaw && strRaw !== "none" && strRaw !== "unassigned") {
         const catMeta = CATEGORIES.find(
-          (c) => c.id.toLowerCase() === strRaw.toLowerCase() || c.slug.toLowerCase() === strRaw.toLowerCase()
+          (c) =>
+            c.id.toLowerCase() === strRaw.toLowerCase() ||
+            c.slug.toLowerCase() === strRaw.toLowerCase() ||
+            c.name.toLowerCase() === strRaw.toLowerCase()
         );
         targetCatId = catMeta ? catMeta.id : strRaw;
         targetCatName = catMeta ? catMeta.name : (ov.category_name || targetCatId);
@@ -991,6 +1000,8 @@ export async function getAllMergedProducts(options?: {
         category_id: targetCatId,
         category_name: targetCatName,
         category_slug: targetCatId,
+        categoryId: targetCatId,
+        tab: targetCatId,
         mainImage: customMainImg,
         featured_image: customMainImg,
         images: customGalleryUrls,

@@ -43,13 +43,20 @@ export async function GET(req: NextRequest) {
         if (!handled.has(id) && ovr.isCustomProduct) {
           if (ovr.deleted || ovr.purged) continue;
           const primaryImage = ovr.featured_image || ovr.mainImage || (ovr.images && ovr.images[0]) || "";
+          const resolvedCatId = ovr.category_id || ovr.category_slug || ovr.categoryId || (typeof ovr.category === "string" ? ovr.category : "western-dresses");
+          const resolvedCatName = ovr.category_name || ovr.category || "Western Dresses";
+
           all.push({
             id,
             title: ovr.title || "Custom Atelier Ensemble",
             name: ovr.title || ovr.name || "Custom Atelier Ensemble",
             slug: ovr.slug || id,
-            category: ovr.category || "western-dresses",
-            tab: ovr.tab || ovr.category || "western-dresses",
+            category: resolvedCatName,
+            category_id: resolvedCatId,
+            category_name: resolvedCatName,
+            category_slug: resolvedCatId,
+            categoryId: resolvedCatId,
+            tab: ovr.tab || resolvedCatId,
             badge: ovr.badge || "Signature Collection",
             regularPrice: ovr.regularPrice || 0,
             salePrice: ovr.salePrice || 0,
@@ -64,6 +71,12 @@ export async function GET(req: NextRequest) {
             details: ovr.details || [],
             moq: ovr.moq || "20 pcs / Flexible Wholesale Pack",
             sku: ovr.sku || id,
+            technical_specs: ovr.technical_specs || {
+              "Fabric": ovr.fabric || "Pure Handloom Silk & Cotton",
+              "Part Number": ovr.sku || id,
+              "SKU": ovr.sku || id,
+              "Wholesale MOQ": ovr.moq || "20 pcs / Flexible Wholesale Pack",
+            },
             is_hidden: ovr.is_hidden || false,
             is_featured: ovr.is_featured || false,
             deleted: ovr.deleted || false,

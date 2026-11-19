@@ -4913,13 +4913,22 @@ function AdminPageContent() {
                                       {prod.name}
                                     </h3>
                                     <div className="text-xs text-neutral-800 font-semibold flex items-center gap-2 flex-wrap">
-                                      {(!prod.category_id || prod.category_id === "none" || prod.category_id === "" || prod.category_id === "unassigned") ? (
-                                        <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>
-                                      ) : (
-                                        <span className="text-black font-bold">
-                                          {categories.find(c => c.id === prod.category_id || c.slug === prod.category_id || c.id === (prod as any).category?.id)?.name || prod.category?.name || (typeof prod.category === "string" ? prod.category : "Uncategorized")}
-                                        </span>
-                                      )}
+                                      {(() => {
+                                        const normCatId = getProductNormalizedCategoryId(prod);
+                                        const matchedCat = categories.find(c => 
+                                          c.id.toLowerCase() === normCatId.toLowerCase() || 
+                                          c.slug.toLowerCase() === normCatId.toLowerCase() ||
+                                          c.name.toLowerCase() === normCatId.toLowerCase()
+                                        );
+                                        if (!normCatId || normCatId === "none" || normCatId === "unassigned" || (!matchedCat && !prod.category && !prod.category_name)) {
+                                          return <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>;
+                                        }
+                                        return (
+                                          <span className="text-black font-bold">
+                                            {matchedCat?.name || prod.category_name || (typeof prod.category === "string" ? prod.category : matchedCat?.name || "Uncategorized")}
+                                          </span>
+                                        );
+                                      })()}
                                       <span>•</span>
                                       <span className="font-mono">
                                         SKU: {prod.technical_specs?.["Part Number"] || prod.technical_specs?.SKU || prod.id}
@@ -7957,12 +7966,12 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
     }
     const directId = product.category_id || (product as any)?.category?.id || (product as any)?.category?.slug;
     if (directId) {
-      const match = categories.find(c => c.id.toLowerCase() === String(directId).toLowerCase() || c.slug.toLowerCase() === String(directId).toLowerCase());
+      const match = categories.find(c => c.id.toLowerCase() === String(directId).toLowerCase() || c.slug.toLowerCase() === String(directId).toLowerCase() || c.name.toLowerCase() === String(directId).toLowerCase());
       if (match) return match.id;
     }
     const normId = getProductNormalizedCategoryId(product);
     if (!normId) return "";
-    const matchNorm = categories.find(c => c.id.toLowerCase() === normId.toLowerCase() || c.slug.toLowerCase() === normId.toLowerCase());
+    const matchNorm = categories.find(c => c.id.toLowerCase() === normId.toLowerCase() || c.slug.toLowerCase() === normId.toLowerCase() || c.name.toLowerCase() === normId.toLowerCase());
     if (matchNorm) return matchNorm.id;
     return "";
   })();
@@ -8469,6 +8478,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 }}
                 onProductCreated={onProductCreated}
                 existingProducts={existingProducts}
+                categories={categories}
               />
             </div>
 
@@ -9235,7 +9245,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
                 if (!normCatId) {
                   return <span className="text-red-600 font-bold">⚠️ Unassigned Category</span>;
                 }
-                const cat = categories.find(c => c.id.toLowerCase() === normCatId.toLowerCase() || c.slug.toLowerCase() === normCatId.toLowerCase());
+                const cat = categories.find(c => c.id.toLowerCase() === normCatId.toLowerCase() || c.slug.toLowerCase() === normCatId.toLowerCase() || c.name.toLowerCase() === normCatId.toLowerCase());
                 return <span className="text-slate-800">{cat?.name || normCatId}</span>;
               })()}
             </p>
@@ -9322,6 +9332,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
             parentProduct={product}
             onProductCreated={onProductCreated}
             existingProducts={existingProducts}
+            categories={categories}
           />
         </div>
       )}
