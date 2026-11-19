@@ -5090,6 +5090,9 @@ function AdminPageContent() {
                         setShowProdForm(false);
                         handleOpenSelectExistingForUsed();
                       }}
+                      onProductCreated={async () => {
+                        await fetchProducts();
+                      }}
                     />
                   )}
 
@@ -5569,6 +5572,7 @@ function AdminPageContent() {
               categories={categories}
               onBack={() => setDetailProduct(null)}
               onDeleteProduct={(prod) => setProductToDelete(prod)}
+              onProductCreated={async () => { await fetchProducts(); }}
               onSaveProduct={async (data) => { await saveProd(data); if (detailProduct) loadProductDetail(detailProduct.slug); }}
               onEditProduct={(prod) => {
                 setEditingProd(prod);
@@ -7921,13 +7925,14 @@ function SpecBuilder({
   );
 }
 
-function ProductFormModal({ product, categories, existingProducts = [], onSave, onClose, onOpenSelectExisting }: {
+function ProductFormModal({ product, categories, existingProducts = [], onSave, onClose, onOpenSelectExisting, onProductCreated }: {
   product: Product | null;
   categories: Category[];
   existingProducts?: Product[];
   onSave: (prod: Partial<Product>) => Promise<void> | void;
   onClose: () => void;
   onOpenSelectExisting?: () => void;
+  onProductCreated?: (newProduct: any) => Promise<void> | void;
 }) {
   const specs = ((product?.technical_specs || (product as any)?.variants?.[0]?.specs || {}) as Record<string, string>);
 
@@ -8439,6 +8444,29 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
                 variants={form.colorVariants}
                 onChange={(updated) => setForm(prev => ({ ...prev, colorVariants: updated }))}
                 productId={product?.id}
+                parentProduct={{
+                  id: product?.id,
+                  name: form.name,
+                  title: form.name,
+                  slug: form.slug,
+                  category_id: form.category_id,
+                  category: form.category_id,
+                  category_name: categories.find(c => c.id === form.category_id || c.slug === form.category_id)?.name || form.category_id,
+                  price: form.price ? parseFloat(form.price) : undefined,
+                  salePrice: form.salePrice ? parseFloat(form.salePrice) : undefined,
+                  regularPrice: form.regularPrice ? parseFloat(form.regularPrice) : undefined,
+                  fabric: form.fabric,
+                  moq: form.moq,
+                  sizes: form.sizes,
+                  badge: form.tag,
+                  brand: form.brand,
+                  description: form.short_desc,
+                  featured_image: form.featured_image,
+                  mainImage: form.featured_image,
+                  gallery: form.gallery,
+                  images: form.gallery,
+                }}
+                onProductCreated={onProductCreated}
               />
             </div>
 
@@ -9112,7 +9140,7 @@ function ProductFormModal({ product, categories, existingProducts = [], onSave, 
 // ═══════════════════════════════════════════════════════════════════
 // PRODUCT DETAIL EDITOR (Variants, Images, Downloads, FAQs)
 // ═══════════════════════════════════════════════════════════════════
-function ProductDetailEditor({ product, variants, images, downloads, faqs, categories, onBack, onSaveProduct, onSaveVariant, onDeleteVariant, onAddPartNumber, onDeletePartNumber, onAddImage, onDeleteImage, onAddDownload, onDeleteDownload, onAddFaq, onDeleteFaq, onUploadMedia, isUploading, onEditProduct, onDeleteProduct }: {
+function ProductDetailEditor({ product, variants, images, downloads, faqs, categories, onBack, onSaveProduct, onSaveVariant, onDeleteVariant, onAddPartNumber, onDeletePartNumber, onAddImage, onDeleteImage, onAddDownload, onDeleteDownload, onAddFaq, onDeleteFaq, onUploadMedia, isUploading, onEditProduct, onDeleteProduct, onProductCreated }: {
   product: Product;
   variants: Variant[];
   images: ProductImage[];
@@ -9135,6 +9163,7 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
   isUploading: boolean;
   onEditProduct: (prod: Product) => void;
   onDeleteProduct?: (prod: Product) => void;
+  onProductCreated?: (newProduct: any) => Promise<void> | void;
 }) {
   const [activeSection, setActiveSection] = useState<"variants" | "images" | "downloads" | "faqs">("variants");
 
@@ -9287,6 +9316,8 @@ function ProductDetailEditor({ product, variants, images, downloads, faqs, categ
               await onSaveProduct({ colorVariants: updatedVariants });
             }}
             productId={product.id}
+            parentProduct={product}
+            onProductCreated={onProductCreated}
           />
         </div>
       )}
