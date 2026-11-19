@@ -13,6 +13,7 @@ export interface VariantSubset {
   name: string;
   colorCode?: string;
   images: string[];
+  coverImage?: string;
 }
 
 export interface ProductGroup {
@@ -21,6 +22,7 @@ export interface ProductGroup {
   categoryId: string;
   generalImages: string[];
   variants: VariantSubset[];
+  coverImage?: string;
   notes?: string;
   createdAt: string;
   updatedAt: string;

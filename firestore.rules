@@ -27,6 +27,10 @@ service cloud.firestore {
       allow read, write: if true;
       allow delete: if false;
     }
+    match /orders/_image_productisation_store {
+      allow read, write: if true;
+      allow delete: if false;
+    }
     match /orders/_discounts_store {
       allow read, write: if true;
       allow delete: if false;

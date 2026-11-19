@@ -32,7 +32,8 @@ import {
   ShieldAlert,
   Loader2,
   Boxes,
-  HelpCircle
+  HelpCircle,
+  Star
 } from 'lucide-react';
 
 interface VariantSubset {
@@ -40,6 +41,7 @@ interface VariantSubset {
   name: string;
   colorCode?: string;
   images: string[];
+  coverImage?: string;
 }
 
 interface ProductGroup {
@@ -48,6 +50,7 @@ interface ProductGroup {
   categoryId: string;
   generalImages: string[];
   variants: VariantSubset[];
+  coverImage?: string;
   notes?: string;
   createdAt: string;
   updatedAt: string;
@@ -584,8 +587,62 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
           generalImages: g.generalImages.filter((u) => u !== url),
           variants: g.variants.map((v) => ({
             ...v,
-            images: v.images.filter((u) => u !== url)
+            images: v.images.filter((u) => u !== url),
+            coverImage: v.coverImage === url ? undefined : v.coverImage
           })),
+          coverImage: g.coverImage === url ? undefined : g.coverImage,
+          updatedAt: new Date().toISOString()
+        };
+      })
+    );
+  };
+
+  // Cover Image handlers (Group level & Variant level)
+  const handleSetGroupCover = (groupId: string, url: string) => {
+    updateGroupsAndSave((prev) =>
+      prev.map((g) => {
+        if (g.id !== groupId) return g;
+        // Clicking the currently designated cover toggles it off (falling back to auto 1st image)
+        const nextCover = g.coverImage === url ? undefined : url;
+        return {
+          ...g,
+          coverImage: nextCover,
+          updatedAt: new Date().toISOString()
+        };
+      })
+    );
+  };
+
+  const handleClearGroupCover = (groupId: string) => {
+    updateGroupsAndSave((prev) =>
+      prev.map((g) => (g.id === groupId ? { ...g, coverImage: undefined, updatedAt: new Date().toISOString() } : g))
+    );
+  };
+
+  const handleSetVariantCover = (groupId: string, variantId: string, url: string) => {
+    updateGroupsAndSave((prev) =>
+      prev.map((g) => {
+        if (g.id !== groupId) return g;
+        return {
+          ...g,
+          variants: g.variants.map((v) => {
+            if (v.id !== variantId) return v;
+            const nextVarCover = v.coverImage === url ? undefined : url;
+            return { ...v, coverImage: nextVarCover };
+          }),
+          updatedAt: new Date().toISOString()
+        };
+      })
+    );
+  };
+
+  const handleClearVariantCover = (groupId: string, variantId: string) => {
+    updateGroupsAndSave((prev) =>
+      prev.map((g) => {
+        if (g.id !== groupId) return g;
+        return {
+          ...g,
+          variants: g.variants.map((v) => (v.id === variantId ? { ...v, coverImage: undefined } : v)),
           updatedAt: new Date().toISOString()
         };
       })
@@ -697,6 +754,7 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
             ...g,
             generalImages: Array.from(new Set([...g.generalImages, ...source.generalImages])),
             variants: [...g.variants, ...source.variants],
+            coverImage: target.coverImage || source.coverImage,
             updatedAt: new Date().toISOString()
           };
         });
@@ -1534,6 +1592,12 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                 const totalImgs =
                   group.generalImages.length +
                   group.variants.reduce((acc, v) => acc + (v.images || []).length, 0);
+                const effectiveGroupCover =
+                  group.coverImage ||
+                  group.generalImages[0] ||
+                  group.variants[0]?.coverImage ||
+                  group.variants[0]?.images[0] ||
+                  '';
 
                 return (
                   <div
@@ -1553,7 +1617,7 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                               return next;
                             });
                           }}
-                          className="text-neutral-500 hover:text-black p-0.5"
+                          className="text-neutral-500 hover:text-black p-0.5 cursor-pointer"
                         >
                           {isExpanded ? (
                             <ChevronDown className="w-4 h-4" />
@@ -1561,6 +1625,30 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                             <ChevronRight className="w-4 h-4" />
                           )}
                         </button>
+
+                        {/* Group Cover Thumbnail */}
+                        {effectiveGroupCover && (
+                          <div
+                            className={`relative w-8 h-8 rounded-lg overflow-hidden border shrink-0 bg-neutral-100 cursor-pointer group/th ${
+                              group.coverImage ? 'border-amber-500 ring-2 ring-amber-400/50' : 'border-neutral-300'
+                            }`}
+                            onClick={() => setPreviewImage(effectiveGroupCover)}
+                            title={group.coverImage ? `Cover photo set: ${group.coverImage}` : `Auto cover (first photo): ${effectiveGroupCover}`}
+                          >
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={encodeURI(effectiveGroupCover)} alt="cover" className="w-full h-full object-cover" />
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover/th:opacity-100 transition-opacity flex items-center justify-center">
+                              <Eye className="w-3 h-3 text-white" />
+                            </div>
+                            <div className="absolute top-0 right-0">
+                              <span
+                                className={`block w-2.5 h-2.5 rounded-bl-sm ${
+                                  group.coverImage ? 'bg-amber-500' : 'bg-neutral-400'
+                                }`}
+                              />
+                            </div>
+                          </div>
+                        )}
 
                         <input
                           type="text"
@@ -1573,6 +1661,23 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
 
                       {/* Group Badges & Quick Action Controls */}
                       <div className="flex items-center gap-1.5 shrink-0">
+                        {group.coverImage ? (
+                          <span
+                            className="text-[9px] font-heading font-black bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.5 rounded-md flex items-center gap-1 shadow-2xs"
+                            title="Custom Cover Image is active for this product"
+                          >
+                            <Star className="w-2.5 h-2.5 fill-amber-500 text-amber-500" />
+                            <span>Cover Set</span>
+                          </span>
+                        ) : (
+                          <span
+                            className="text-[9px] font-mono text-neutral-500 bg-neutral-100 border border-neutral-200 px-1.5 py-0.5 rounded-md"
+                            title="Auto-using first image as cover until you choose one"
+                          >
+                            Auto Cover
+                          </span>
+                        )}
+
                         <span className="text-[10px] font-mono font-bold bg-[#0B2D7F]/10 text-[#0B2D7F] px-2 py-0.5 rounded-md">
                           {totalImgs} photos
                         </span>
@@ -1587,7 +1692,7 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                         <button
                           type="button"
                           onClick={() => setMergeSourceGroupId(group.id)}
-                          className="p-1 text-neutral-400 hover:text-blue-600 rounded-md hover:bg-neutral-200 transition-colors"
+                          className="p-1 text-neutral-400 hover:text-blue-600 rounded-md hover:bg-neutral-200 transition-colors cursor-pointer"
                           title="Merge into another group"
                         >
                           <Merge className="w-3.5 h-3.5" />
@@ -1597,7 +1702,7 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                         <button
                           type="button"
                           onClick={() => handleDeleteGroup(group.id)}
-                          className="p-1 text-neutral-400 hover:text-red-600 rounded-md hover:bg-neutral-200 transition-colors"
+                          className="p-1 text-neutral-400 hover:text-red-600 rounded-md hover:bg-neutral-200 transition-colors cursor-pointer"
                           title="Delete group (return images to pool)"
                         >
                           <Trash2 className="w-3.5 h-3.5" />
@@ -1620,60 +1725,103 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                             <p className="text-[10px] text-neutral-400 italic">No main images assigned.</p>
                           ) : (
                             <div className="grid grid-cols-4 sm:grid-cols-5 gap-2">
-                              {group.generalImages.map((url) => (
-                                <div
-                                  key={url}
-                                  className="group/img relative aspect-square rounded-lg border border-neutral-200 overflow-hidden bg-neutral-100"
-                                >
-                                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                                  <img src={encodeURI(url)} alt="img" className="w-full h-full object-cover" />
+                              {group.generalImages.map((url) => {
+                                const isExplicitCover = group.coverImage === url;
+                                const isAutoCover = !group.coverImage && url === group.generalImages[0];
 
-                                  {/* Overlay Controls */}
-                                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover/img:opacity-100 transition-opacity flex flex-col justify-between p-1">
-                                    <div className="flex justify-between items-center">
-                                      <button
-                                        type="button"
-                                        onClick={() => setPreviewImage(url)}
-                                        className="text-white hover:text-blue-300 p-0.5"
-                                        title="Preview"
-                                      >
-                                        <Eye className="w-3 h-3" />
-                                      </button>
-                                      <button
-                                        type="button"
-                                        onClick={() => handleRemoveImageFromGroup(group.id, url)}
-                                        className="text-white hover:text-red-400 p-0.5"
-                                        title="Remove from group"
-                                      >
-                                        <X className="w-3 h-3" />
-                                      </button>
+                                return (
+                                  <div
+                                    key={url}
+                                    className={`group/img relative aspect-square rounded-lg overflow-hidden bg-neutral-100 transition-all ${
+                                      isExplicitCover
+                                        ? 'ring-2 ring-amber-500 border border-amber-500 shadow-md'
+                                        : isAutoCover
+                                        ? 'ring-1 ring-amber-300 border border-neutral-300'
+                                        : 'border border-neutral-200 hover:border-neutral-400'
+                                    }`}
+                                  >
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                                    <img src={encodeURI(url)} alt="img" className="w-full h-full object-cover" />
+
+                                    {/* Permanent Cover Indicator Badge */}
+                                    {isExplicitCover ? (
+                                      <div className="absolute top-1 left-1 z-10 pointer-events-none">
+                                        <span className="text-[8px] font-heading font-black bg-amber-500 text-white px-1.5 py-0.5 rounded shadow-md flex items-center gap-0.5">
+                                          <Star className="w-2.5 h-2.5 fill-white text-white" />
+                                          <span>COVER</span>
+                                        </span>
+                                      </div>
+                                    ) : isAutoCover ? (
+                                      <div className="absolute top-1 left-1 z-10 pointer-events-none">
+                                        <span className="text-[7px] font-heading font-bold bg-neutral-900/80 text-amber-300 px-1 py-0.5 rounded shadow flex items-center gap-0.5 backdrop-blur-xs">
+                                          <Star className="w-2 h-2 fill-amber-300 text-amber-300" />
+                                          <span>AUTO</span>
+                                        </span>
+                                      </div>
+                                    ) : null}
+
+                                    {/* Overlay Controls */}
+                                    <div className="absolute inset-0 bg-black/65 opacity-0 group-hover/img:opacity-100 transition-opacity flex flex-col justify-between p-1 z-20">
+                                      <div className="flex justify-between items-center">
+                                        <button
+                                          type="button"
+                                          onClick={() => setPreviewImage(url)}
+                                          className="text-white hover:text-blue-300 p-0.5 cursor-pointer"
+                                          title="Preview"
+                                        >
+                                          <Eye className="w-3 h-3" />
+                                        </button>
+                                        <button
+                                          type="button"
+                                          onClick={() => handleRemoveImageFromGroup(group.id, url)}
+                                          className="text-white hover:text-red-400 p-0.5 cursor-pointer"
+                                          title="Remove from group"
+                                        >
+                                          <X className="w-3 h-3" />
+                                        </button>
+                                      </div>
+
+                                      {/* Quick Action: Set as Group Cover & Move to Variant */}
+                                      <div className="space-y-1">
+                                        <button
+                                          type="button"
+                                          onClick={() => handleSetGroupCover(group.id, url)}
+                                          className={`w-full text-[8px] font-heading font-black py-0.5 px-1 rounded flex items-center justify-center gap-1 transition-colors cursor-pointer shadow-xs ${
+                                            isExplicitCover
+                                              ? 'bg-amber-500 text-white hover:bg-amber-600'
+                                              : 'bg-amber-600/90 hover:bg-amber-500 text-white'
+                                          }`}
+                                          title={isExplicitCover ? 'Click to unset custom cover (returns to auto 1st image)' : 'Set as main product catalogue cover image'}
+                                        >
+                                          <Star className={`w-2.5 h-2.5 ${isExplicitCover ? 'fill-white text-white' : 'text-white'}`} />
+                                          <span>{isExplicitCover ? '★ Cover Set' : 'Set Cover'}</span>
+                                        </button>
+
+                                        {group.variants.length > 0 && (
+                                          <select
+                                            onChange={(e) => {
+                                              if (e.target.value) {
+                                                handleMoveImageToVariant(group.id, url, e.target.value);
+                                              }
+                                            }}
+                                            defaultValue=""
+                                            className="w-full bg-black/80 text-white text-[8px] font-heading font-bold rounded p-0.5 outline-none cursor-pointer"
+                                          >
+                                            <option value="" disabled>
+                                              Move to Var...
+                                            </option>
+                                            {group.variants.map((v) => (
+                                              <option key={v.id} value={v.id}>
+                                                {v.name}
+                                              </option>
+                                            ))}
+                                          </select>
+                                        )}
+                                      </div>
                                     </div>
-
-                                    {/* Move to Variant Selector */}
-                                    {group.variants.length > 0 && (
-                                      <select
-                                        onChange={(e) => {
-                                          if (e.target.value) {
-                                            handleMoveImageToVariant(group.id, url, e.target.value);
-                                          }
-                                        }}
-                                        defaultValue=""
-                                        className="bg-black/80 text-white text-[8px] font-heading font-bold rounded p-0.5 outline-none cursor-pointer"
-                                      >
-                                        <option value="" disabled>
-                                          Move to Var...
-                                        </option>
-                                        {group.variants.map((v) => (
-                                          <option key={v.id} value={v.id}>
-                                            {v.name}
-                                          </option>
-                                        ))}
-                                      </select>
-                                    )}
                                   </div>
-                                </div>
-                              ))}
+                                );
+                              })}
                             </div>
                           )}
                         </div>
@@ -1702,88 +1850,193 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
                             </p>
                           ) : (
                             <div className="space-y-2">
-                              {group.variants.map((v) => (
-                                <div
-                                  key={v.id}
-                                  className="p-2.5 rounded-lg bg-purple-50/50 border border-purple-200 space-y-2"
-                                >
-                                  {/* Variant Header */}
-                                  <div className="flex items-center justify-between gap-2">
-                                    <input
-                                      type="text"
-                                      defaultValue={v.name}
-                                      onBlur={(e) => handleRenameVariant(group.id, v.id, e.target.value)}
-                                      className="font-heading font-black text-[11px] text-purple-900 bg-transparent border-b border-transparent hover:border-purple-300 focus:border-purple-700 outline-none px-1 py-0.5 flex-1 min-w-0"
-                                      title="Click to rename variant"
-                                    />
+                              {group.variants.map((v) => {
+                                const effectiveVarCover = v.coverImage || v.images[0];
 
-                                    <div className="flex items-center gap-1.5">
-                                      <span className="text-[9px] font-mono text-purple-700 font-bold">
-                                        {v.images.length} photos
-                                      </span>
-                                      <button
-                                        type="button"
-                                        onClick={() => handleDeleteVariant(group.id, v.id)}
-                                        className="text-neutral-400 hover:text-red-600 p-0.5"
-                                        title="Delete variant subset"
-                                      >
-                                        <Trash2 className="w-3 h-3" />
-                                      </button>
-                                    </div>
-                                  </div>
-
-                                  {/* Variant Images */}
-                                  {v.images.length === 0 ? (
-                                    <p className="text-[9px] text-neutral-400 italic">
-                                      No images in this variant subset.
-                                    </p>
-                                  ) : (
-                                    <div className="grid grid-cols-4 sm:grid-cols-5 gap-1.5">
-                                      {v.images.map((url) => (
-                                        <div
-                                          key={url}
-                                          className="group/vimg relative aspect-square rounded-md border border-purple-200 overflow-hidden bg-white"
-                                        >
-                                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                                          <img src={encodeURI(url)} alt="vimg" className="w-full h-full object-cover" />
-
-                                          {/* Overlay Controls */}
-                                          <div className="absolute inset-0 bg-black/60 opacity-0 group-hover/vimg:opacity-100 transition-opacity flex flex-col justify-between p-1">
-                                            <div className="flex justify-between items-center">
-                                              <button
-                                                type="button"
-                                                onClick={() => setPreviewImage(url)}
-                                                className="text-white hover:text-blue-300 p-0.5"
-                                                title="Preview"
-                                              >
-                                                <Eye className="w-2.5 h-2.5" />
-                                              </button>
-                                              <button
-                                                type="button"
-                                                onClick={() => handleRemoveImageFromGroup(group.id, url)}
-                                                className="text-white hover:text-red-400 p-0.5"
-                                                title="Remove"
-                                              >
-                                                <X className="w-2.5 h-2.5" />
-                                              </button>
+                                return (
+                                  <div
+                                    key={v.id}
+                                    className="p-2.5 rounded-lg bg-purple-50/50 border border-purple-200 space-y-2"
+                                  >
+                                    {/* Variant Header */}
+                                    <div className="flex items-center justify-between gap-2">
+                                      <div className="flex items-center gap-2 flex-1 min-w-0">
+                                        {/* Variant Cover Thumbnail */}
+                                        {effectiveVarCover && (
+                                          <div
+                                            className={`relative w-6 h-6 rounded overflow-hidden border shrink-0 bg-white cursor-pointer group/vcth ${
+                                              v.coverImage ? 'border-purple-600 ring-2 ring-purple-400/50' : 'border-purple-300'
+                                            }`}
+                                            onClick={() => setPreviewImage(effectiveVarCover)}
+                                            title={v.coverImage ? `Variant Cover: ${v.coverImage}` : `Auto Variant Cover: ${effectiveVarCover}`}
+                                          >
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                                            <img src={encodeURI(effectiveVarCover)} alt="vcover" className="w-full h-full object-cover" />
+                                            <div className="absolute top-0 right-0">
+                                              <span className={`block w-2 h-2 rounded-bl-xs ${v.coverImage ? 'bg-purple-600' : 'bg-neutral-300'}`} />
                                             </div>
-
-                                            <button
-                                              type="button"
-                                              onClick={() => handleMoveImageToGeneral(group.id, url)}
-                                              className="bg-black/80 text-white text-[7px] font-heading font-bold rounded p-0.5 text-center hover:bg-black"
-                                              title="Move to Main Images"
-                                            >
-                                              To Main
-                                            </button>
                                           </div>
-                                        </div>
-                                      ))}
+                                        )}
+
+                                        <input
+                                          type="text"
+                                          defaultValue={v.name}
+                                          onBlur={(e) => handleRenameVariant(group.id, v.id, e.target.value)}
+                                          className="font-heading font-black text-[11px] text-purple-900 bg-transparent border-b border-transparent hover:border-purple-300 focus:border-purple-700 outline-none px-1 py-0.5 flex-1 min-w-0"
+                                          title="Click to rename variant"
+                                        />
+                                      </div>
+
+                                      <div className="flex items-center gap-1.5 shrink-0">
+                                        {v.coverImage ? (
+                                          <span
+                                            className="text-[8px] font-heading font-bold bg-purple-200 text-purple-900 border border-purple-300 px-1.5 py-0.5 rounded flex items-center gap-0.5"
+                                            title="Custom variant cover photo set"
+                                          >
+                                            <Star className="w-2 h-2 fill-purple-700 text-purple-700" />
+                                            <span>V-Cover</span>
+                                          </span>
+                                        ) : (
+                                          <span className="text-[8px] font-mono text-purple-600/70">
+                                            Auto
+                                          </span>
+                                        )}
+
+                                        <span className="text-[9px] font-mono text-purple-700 font-bold">
+                                          {v.images.length} photos
+                                        </span>
+                                        <button
+                                          type="button"
+                                          onClick={() => handleDeleteVariant(group.id, v.id)}
+                                          className="text-neutral-400 hover:text-red-600 p-0.5 cursor-pointer"
+                                          title="Delete variant subset"
+                                        >
+                                          <Trash2 className="w-3 h-3" />
+                                        </button>
+                                      </div>
                                     </div>
-                                  )}
-                                </div>
-                              ))}
+
+                                    {/* Variant Images */}
+                                    {v.images.length === 0 ? (
+                                      <p className="text-[9px] text-neutral-400 italic">
+                                        No images in this variant subset.
+                                      </p>
+                                    ) : (
+                                      <div className="grid grid-cols-4 sm:grid-cols-5 gap-1.5">
+                                        {v.images.map((url) => {
+                                          const isVarExplicitCover = v.coverImage === url;
+                                          const isVarAutoCover = !v.coverImage && url === v.images[0];
+                                          const isGroupCover = group.coverImage === url;
+
+                                          return (
+                                            <div
+                                              key={url}
+                                              className={`group/vimg relative aspect-square rounded-md overflow-hidden bg-white transition-all ${
+                                                isGroupCover
+                                                  ? 'ring-2 ring-amber-500 border border-amber-500 shadow-md'
+                                                  : isVarExplicitCover
+                                                  ? 'ring-2 ring-purple-600 border border-purple-600 shadow-sm'
+                                                  : isVarAutoCover
+                                                  ? 'ring-1 ring-purple-300 border border-purple-200'
+                                                  : 'border border-purple-200 hover:border-purple-400'
+                                              }`}
+                                            >
+                                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                                              <img src={encodeURI(url)} alt="vimg" className="w-full h-full object-cover" />
+
+                                              {/* Permanent Badges */}
+                                              {isGroupCover ? (
+                                                <div className="absolute top-0.5 left-0.5 z-10 pointer-events-none">
+                                                  <span className="text-[7px] font-heading font-black bg-amber-500 text-white px-1 py-0.2 rounded shadow flex items-center gap-0.5">
+                                                    <Star className="w-2 h-2 fill-white text-white" />
+                                                    <span>G-COVER</span>
+                                                  </span>
+                                                </div>
+                                              ) : isVarExplicitCover ? (
+                                                <div className="absolute top-0.5 left-0.5 z-10 pointer-events-none">
+                                                  <span className="text-[7px] font-heading font-black bg-purple-700 text-white px-1 py-0.2 rounded shadow flex items-center gap-0.5">
+                                                    <Star className="w-2 h-2 fill-white text-white" />
+                                                    <span>V-COVER</span>
+                                                  </span>
+                                                </div>
+                                              ) : isVarAutoCover ? (
+                                                <div className="absolute top-0.5 left-0.5 z-10 pointer-events-none">
+                                                  <span className="text-[6px] font-heading font-bold bg-neutral-900/75 text-purple-200 px-0.5 py-0.2 rounded">
+                                                    AUTO
+                                                  </span>
+                                                </div>
+                                              ) : null}
+
+                                              {/* Overlay Controls */}
+                                              <div className="absolute inset-0 bg-black/70 opacity-0 group-hover/vimg:opacity-100 transition-opacity flex flex-col justify-between p-1 z-20">
+                                                <div className="flex justify-between items-center">
+                                                  <button
+                                                    type="button"
+                                                    onClick={() => setPreviewImage(url)}
+                                                    className="text-white hover:text-blue-300 p-0.5 cursor-pointer"
+                                                    title="Preview photo"
+                                                  >
+                                                    <Eye className="w-2.5 h-2.5" />
+                                                  </button>
+                                                  <button
+                                                    type="button"
+                                                    onClick={() => handleRemoveImageFromGroup(group.id, url)}
+                                                    className="text-white hover:text-red-400 p-0.5 cursor-pointer"
+                                                    title="Remove from group"
+                                                  >
+                                                    <X className="w-2.5 h-2.5" />
+                                                  </button>
+                                                </div>
+
+                                                <div className="space-y-0.5">
+                                                  {/* Set as Variant Cover */}
+                                                  <button
+                                                    type="button"
+                                                    onClick={() => handleSetVariantCover(group.id, v.id, url)}
+                                                    className={`w-full text-[7px] font-heading font-bold rounded p-0.5 text-center flex items-center justify-center gap-0.5 cursor-pointer transition-colors shadow-2xs ${
+                                                      isVarExplicitCover
+                                                        ? 'bg-purple-700 text-white hover:bg-purple-800'
+                                                        : 'bg-purple-600/90 hover:bg-purple-600 text-white'
+                                                    }`}
+                                                    title={isVarExplicitCover ? 'Click to unset variant cover' : 'Set as this variant\'s cover image'}
+                                                  >
+                                                    <Star className={`w-2 h-2 ${isVarExplicitCover ? 'fill-white text-white' : 'text-white'}`} />
+                                                    <span>{isVarExplicitCover ? '★ V-Cover' : 'Set V-Cover'}</span>
+                                                  </button>
+
+                                                  {/* Set as Group Cover */}
+                                                  <button
+                                                    type="button"
+                                                    onClick={() => handleSetGroupCover(group.id, url)}
+                                                    className={`w-full text-[7px] font-heading font-bold rounded p-0.5 text-center flex items-center justify-center gap-0.5 cursor-pointer transition-colors ${
+                                                      isGroupCover
+                                                        ? 'bg-amber-500 text-white'
+                                                        : 'bg-black/80 hover:bg-black text-amber-300'
+                                                    }`}
+                                                    title="Set this variant photo as the main Product Group Cover"
+                                                  >
+                                                    <Sparkles className="w-2 h-2" />
+                                                    <span>{isGroupCover ? '★ G-Cover' : 'Set G-Cover'}</span>
+                                                  </button>
+
+                                                  <button
+                                                    type="button"
+                                                    onClick={() => handleMoveImageToGeneral(group.id, url)}
+                                                    className="w-full bg-white/20 hover:bg-white/30 text-white text-[7px] font-heading font-medium rounded p-0.5 text-center cursor-pointer"
+                                                    title="Move to Main Images"
+                                                  >
+                                                    To Main
+                                                  </button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          );
+                                        })}
+                                      </div>
+                                    )}
+                                  </div>
+                                );
+                              })}
                             </div>
                           )}
                         </div>
@@ -1949,29 +2202,90 @@ export default function ImageProductisationPage({ onBack }: { onBack?: () => voi
               {/* Group Breakdown Table */}
               <div className="space-y-2">
                 <span className="text-xs font-heading font-black text-black uppercase tracking-wider">
-                  Product Group Breakdown
+                  Product Group Breakdown ({currentCategoryGroups.length} Products)
                 </span>
                 <div className="border border-neutral-200 rounded-xl overflow-hidden divide-y divide-neutral-200">
-                  {currentCategoryGroups.map((g, idx) => (
-                    <div key={g.id} className="p-3 bg-white flex items-center justify-between gap-3 text-xs">
-                      <div>
-                        <span className="font-heading font-bold text-black block">{g.name}</span>
-                        <span className="text-[10px] text-neutral-500 font-mono">
-                          {g.generalImages.length} main photos • {g.variants.length} variant subsets
-                        </span>
+                  {currentCategoryGroups.map((g) => {
+                    const cover = g.coverImage || g.generalImages[0] || g.variants[0]?.coverImage || g.variants[0]?.images[0];
+
+                    return (
+                      <div key={g.id} className="p-3 bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+                        <div className="flex items-center gap-2.5 min-w-0">
+                          {/* Product Cover Thumbnail */}
+                          {cover ? (
+                            <div
+                              className={`relative w-11 h-11 rounded-lg overflow-hidden border shrink-0 bg-neutral-100 cursor-pointer ${
+                                g.coverImage ? 'border-amber-500 ring-2 ring-amber-400/50' : 'border-neutral-300'
+                              }`}
+                              onClick={() => setPreviewImage(cover)}
+                              title={g.coverImage ? `Cover photo: ${g.coverImage}` : `Auto cover: ${cover}`}
+                            >
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img src={encodeURI(cover)} alt="cover" className="w-full h-full object-cover" />
+                              <div className="absolute bottom-0 inset-x-0 bg-black/60 text-[7px] text-amber-300 font-bold text-center leading-tight py-0.5">
+                                {g.coverImage ? '★ COVER' : 'AUTO'}
+                              </div>
+                            </div>
+                          ) : null}
+
+                          <div className="min-w-0">
+                            <div className="flex items-center gap-2">
+                              <span className="font-heading font-bold text-black block truncate">{g.name}</span>
+                              {g.coverImage ? (
+                                <span className="text-[9px] font-heading font-bold bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.2 rounded flex items-center gap-0.5">
+                                  <Star className="w-2.5 h-2.5 fill-amber-500 text-amber-500" />
+                                  <span>Cover Set</span>
+                                </span>
+                              ) : (
+                                <span className="text-[9px] font-mono text-neutral-400">Auto Cover</span>
+                              )}
+                            </div>
+                            <span className="text-[10px] text-neutral-500 font-mono">
+                              {g.generalImages.length} main photos • {g.variants.length} variant subsets
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Variant Subsets with their designated cover images */}
+                        <div className="flex items-center gap-1.5 flex-wrap sm:justify-end">
+                          {g.variants.length === 0 ? (
+                            <span className="text-[10px] text-neutral-400 italic">Uniform styling (0 variants)</span>
+                          ) : (
+                            g.variants.map((v) => {
+                              const vCover = v.coverImage || v.images[0];
+                              return (
+                                <div
+                                  key={v.id}
+                                  className={`flex items-center gap-1.5 px-2 py-1 rounded-md border text-purple-900 ${
+                                    v.coverImage ? 'bg-purple-100/80 border-purple-300' : 'bg-purple-50 border-purple-200'
+                                  }`}
+                                >
+                                  {vCover && (
+                                    <div
+                                      className="w-5 h-5 rounded overflow-hidden border border-purple-300 shrink-0 cursor-pointer"
+                                      onClick={() => setPreviewImage(vCover)}
+                                      title={v.coverImage ? `Variant Cover: ${vCover}` : `Auto Variant Cover: ${vCover}`}
+                                    >
+                                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                                      <img src={encodeURI(vCover)} alt="vcover" className="w-full h-full object-cover" />
+                                    </div>
+                                  )}
+                                  <span className="text-[9px] font-mono font-bold">
+                                    {v.name}: {v.images.length}
+                                  </span>
+                                  {v.coverImage && (
+                                    <span title="Custom Variant Cover Set">
+                                      <Star className="w-2 h-2 fill-purple-700 text-purple-700" />
+                                    </span>
+                                  )}
+                                </div>
+                              );
+                            })
+                          )}
+                        </div>
                       </div>
-                      <div className="flex items-center gap-1.5">
-                        {g.variants.map((v) => (
-                          <span
-                            key={v.id}
-                            className="text-[9px] font-mono px-2 py-0.5 rounded-md bg-purple-100 text-purple-900 font-bold"
-                          >
-                            {v.name}: {v.images.length}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
