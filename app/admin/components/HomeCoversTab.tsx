@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import {
   Image as ImageIcon,
   Save,
@@ -21,6 +22,8 @@ import {
   AlertCircle,
   Eye,
   SlidersHorizontal,
+  ChevronLeft,
+  ChevronRight,
 } from 'lucide-react';
 import defaultHomeCovers from '@/data/home-covers.json';
 import { HomeCoversStore } from '@/lib/homeCoversStore';
@@ -51,6 +54,28 @@ export default function HomeCoversTab() {
   } | null>(null);
   const [pickerCategory, setPickerCategory] = useState<string>('western-dresses');
   const [pickerSearch, setPickerSearch] = useState('');
+  const [pickerPage, setPickerPage] = useState(1);
+  const [isClientMounted, setIsClientMounted] = useState(false);
+  const PICKER_PAGE_SIZE = 48;
+
+  useEffect(() => {
+    setIsClientMounted(true);
+  }, []);
+
+  // Lock body scroll and listen for Escape key when picker modal is open
+  useEffect(() => {
+    if (!isPickerOpen) return;
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsPickerOpen(false);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isPickerOpen]);
 
   // Hidden upload input ref
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -183,6 +208,7 @@ export default function HomeCoversTab() {
       setPickerCategory(suggestedCategory);
     }
     setPickerSearch('');
+    setPickerPage(1);
     setIsPickerOpen(true);
   };
 
@@ -243,6 +269,12 @@ export default function HomeCoversTab() {
     const q = pickerSearch.toLowerCase().trim();
     return list.filter((img) => img.filename.toLowerCase().includes(q) || img.url.toLowerCase().includes(q));
   }, [categoryImages, pickerCategory, pickerSearch]);
+
+  const totalPickerPages = Math.max(1, Math.ceil(filteredPickerImages.length / PICKER_PAGE_SIZE));
+  const pagedPickerImages = useMemo(() => {
+    const start = (pickerPage - 1) * PICKER_PAGE_SIZE;
+    return filteredPickerImages.slice(start, start + PICKER_PAGE_SIZE);
+  }, [filteredPickerImages, pickerPage]);
 
   if (isLoading) {
     return (
@@ -533,41 +565,51 @@ export default function HomeCoversTab() {
         </div>
       )}
 
-      {/* ── MEDIA LIBRARY IMAGE PICKER MODAL ── */}
-      {isPickerOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
-          <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-white/15 rounded-3xl w-full max-w-4xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+      {/* ── MEDIA LIBRARY IMAGE PICKER MODAL (PORTAL TO ROOT BODY) ── */}
+      {isPickerOpen && isClientMounted && typeof document !== 'undefined' && createPortal(
+        <div
+          className="fixed inset-0 z-[99999] flex items-center justify-center p-3 sm:p-6 bg-black/75 backdrop-blur-sm animate-in fade-in duration-200 font-sans"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setIsPickerOpen(false);
+          }}
+        >
+          <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-white/15 rounded-3xl w-full max-w-5xl h-[88vh] max-h-[820px] flex flex-col shadow-2xl overflow-hidden min-h-0">
             {/* Modal Header */}
-            <div className="p-5 border-b border-neutral-200 dark:border-white/10 flex items-center justify-between">
-              <div>
-                <h3 className="font-serif text-lg font-semibold text-neutral-900 dark:text-white flex items-center gap-2">
-                  <FolderOpen size={18} className="text-[#0B2D7F] dark:text-[#D4AF37]" />
-                  <span>Select Image for: {targetSlot?.label}</span>
+            <div className="p-4 sm:p-5 border-b border-neutral-200 dark:border-white/10 flex items-center justify-between shrink-0 bg-white dark:bg-neutral-900">
+              <div className="min-w-0 pr-4">
+                <h3 className="font-serif text-base sm:text-lg font-semibold text-neutral-900 dark:text-white flex items-center gap-2 truncate">
+                  <FolderOpen size={18} className="text-[#0B2D7F] dark:text-[#D4AF37] shrink-0" />
+                  <span className="truncate">Select Cover: {targetSlot?.label}</span>
                 </h3>
-                <p className="text-xs text-neutral-500">
+                <p className="text-xs text-neutral-500 dark:text-neutral-400 truncate">
                   Pick any authentic photoshoot image from your catalog categories or uploads.
                 </p>
               </div>
               <button
                 type="button"
                 onClick={() => setIsPickerOpen(false)}
-                className="w-8 h-8 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-500 hover:text-neutral-900 dark:hover:text-white transition-colors cursor-pointer"
+                className="w-8 h-8 rounded-full bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center text-neutral-500 hover:text-neutral-900 dark:hover:text-white transition-colors cursor-pointer shrink-0"
+                title="Close (Esc)"
               >
                 <X size={16} />
               </button>
             </div>
 
-            {/* Modal Controls: Category Tabs & Search */}
-            <div className="p-4 border-b border-neutral-200 dark:border-white/10 bg-neutral-50 dark:bg-neutral-950/40 flex flex-col sm:flex-row gap-3 items-center justify-between">
-              {/* Category selector */}
-              <div className="flex items-center gap-1.5 overflow-x-auto w-full sm:w-auto no-scrollbar pb-1">
+            {/* Modal Controls: Category Tabs & Search Bar */}
+            <div className="p-3 sm:p-4 border-b border-neutral-200 dark:border-white/10 bg-neutral-50 dark:bg-neutral-950/60 flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between shrink-0">
+              {/* Category selector pills */}
+              <div className="flex items-center gap-1.5 overflow-x-auto w-full sm:max-w-2xl pb-1 no-scrollbar min-w-0">
                 {categoriesMeta.map((cat) => (
                   <button
                     key={cat.id}
-                    onClick={() => setPickerCategory(cat.id)}
-                    className={`px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors cursor-pointer ${
+                    type="button"
+                    onClick={() => {
+                      setPickerCategory(cat.id);
+                      setPickerPage(1);
+                    }}
+                    className={`px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors cursor-pointer shrink-0 ${
                       pickerCategory === cat.id
-                        ? 'bg-[#0B2D7F] text-white font-semibold'
+                        ? 'bg-[#0B2D7F] text-white font-semibold shadow-xs'
                         : 'bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-white/10 text-neutral-700 dark:text-neutral-300 hover:border-[#0B2D7F]'
                     }`}
                   >
@@ -576,10 +618,14 @@ export default function HomeCoversTab() {
                 ))}
                 {categoryImages['uploads'] && categoryImages['uploads'].length > 0 && (
                   <button
-                    onClick={() => setPickerCategory('uploads')}
-                    className={`px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors cursor-pointer ${
+                    type="button"
+                    onClick={() => {
+                      setPickerCategory('uploads');
+                      setPickerPage(1);
+                    }}
+                    className={`px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap transition-colors cursor-pointer shrink-0 ${
                       pickerCategory === 'uploads'
-                        ? 'bg-[#0B2D7F] text-white font-semibold'
+                        ? 'bg-[#0B2D7F] text-white font-semibold shadow-xs'
                         : 'bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-white/10 text-neutral-700 dark:text-neutral-300 hover:border-[#0B2D7F]'
                     }`}
                   >
@@ -589,67 +635,110 @@ export default function HomeCoversTab() {
               </div>
 
               {/* Search input */}
-              <div className="relative w-full sm:w-64 shrink-0">
+              <div className="relative w-full sm:w-60 shrink-0">
                 <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400" />
                 <input
                   type="text"
-                  placeholder="Filter images..."
+                  placeholder="Filter by filename..."
                   value={pickerSearch}
-                  onChange={(e) => setPickerSearch(e.target.value)}
+                  onChange={(e) => {
+                    setPickerSearch(e.target.value);
+                    setPickerPage(1);
+                  }}
                   className="w-full text-xs bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-white/10 rounded-full pl-8 pr-4 py-1.5 text-neutral-900 dark:text-white focus:outline-none focus:border-[#0B2D7F]"
                 />
               </div>
             </div>
 
-            {/* Modal Image Grid */}
-            <div className="flex-1 overflow-y-auto p-5 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+            {/* Modal Image Grid with Bound Scroll Container */}
+            <div className="flex-1 min-h-0 overflow-y-auto p-4 sm:p-5 bg-neutral-100/50 dark:bg-neutral-950/40">
               {filteredPickerImages.length === 0 ? (
-                <div className="col-span-full py-16 text-center text-neutral-400 text-xs">
-                  No images found in this category matching your filter.
+                <div className="h-full min-h-[250px] flex flex-col items-center justify-center text-center text-neutral-400 text-xs">
+                  <FolderOpen size={32} className="mb-2 opacity-40 text-neutral-400" />
+                  <p className="font-medium text-neutral-600 dark:text-neutral-300">No images match your filter</p>
+                  <p className="text-[11px] text-neutral-400 mt-0.5">Try clearing the search or picking another category.</p>
                 </div>
               ) : (
-                filteredPickerImages.map((img) => (
-                  <button
-                    key={img.url}
-                    type="button"
-                    onClick={() => handleSelectFromPicker(img.url)}
-                    className="group relative aspect-[3/4] rounded-xl overflow-hidden border border-neutral-200 dark:border-white/10 hover:border-[#0B2D7F] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#0B2D7F] transition-all bg-neutral-100 dark:bg-neutral-800 cursor-pointer text-left"
-                  >
-                    <img
-                      src={img.url}
-                      alt={img.filename}
-                      loading="lazy"
-                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">
-                      <span className="text-[10px] text-white truncate w-full font-mono">
-                        {img.filename}
-                      </span>
-                    </div>
-                  </button>
-                ))
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
+                  {pagedPickerImages.map((img) => (
+                    <button
+                      key={img.url}
+                      type="button"
+                      onClick={() => handleSelectFromPicker(img.url)}
+                      className="group relative aspect-[3/4] rounded-xl overflow-hidden border-2 border-neutral-200/80 dark:border-white/10 hover:border-[#0B2D7F] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#0B2D7F] transition-all bg-white dark:bg-neutral-800 cursor-pointer text-left"
+                    >
+                      <img
+                        src={img.url}
+                        alt={img.filename}
+                        loading="lazy"
+                        className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-between p-2">
+                        <span className="self-end px-2 py-0.5 rounded-full bg-[#0B2D7F] text-white text-[10px] font-semibold">
+                          Apply
+                        </span>
+                        <span className="text-[10px] text-white truncate w-full font-mono bg-black/60 px-1 py-0.5 rounded">
+                          {img.filename}
+                        </span>
+                      </div>
+                    </button>
+                  ))}
+                </div>
               )}
             </div>
 
-            {/* Modal Footer */}
-            <div className="p-4 border-t border-neutral-200 dark:border-white/10 bg-neutral-50 dark:bg-neutral-950 flex items-center justify-between text-xs text-neutral-500">
-              <span>Showing {filteredPickerImages.length} images</span>
+            {/* Modal Footer with Pagination Controls */}
+            <div className="p-3 sm:p-4 border-t border-neutral-200 dark:border-white/10 bg-white dark:bg-neutral-900 flex flex-wrap items-center justify-between gap-3 text-xs text-neutral-600 dark:text-neutral-400 shrink-0">
+              <span className="text-[11px] sm:text-xs font-medium">
+                Showing {filteredPickerImages.length > 0 ? (pickerPage - 1) * PICKER_PAGE_SIZE + 1 : 0}–
+                {Math.min(pickerPage * PICKER_PAGE_SIZE, filteredPickerImages.length)} of {filteredPickerImages.length} images
+              </span>
+
+              {/* Pagination Next/Prev */}
+              {totalPickerPages > 1 && (
+                <div className="flex items-center gap-1.5">
+                  <button
+                    type="button"
+                    disabled={pickerPage <= 1}
+                    onClick={() => setPickerPage((prev) => Math.max(1, prev - 1))}
+                    className="p-1.5 rounded-lg border border-neutral-200 dark:border-white/10 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                    title="Previous Page"
+                  >
+                    <ChevronLeft size={16} />
+                  </button>
+                  <span className="px-2 text-xs font-semibold text-neutral-800 dark:text-neutral-200">
+                    Page {pickerPage} of {totalPickerPages}
+                  </span>
+                  <button
+                    type="button"
+                    disabled={pickerPage >= totalPickerPages}
+                    onClick={() => setPickerPage((prev) => Math.min(totalPickerPages, prev + 1))}
+                    className="p-1.5 rounded-lg border border-neutral-200 dark:border-white/10 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                    title="Next Page"
+                  >
+                    <ChevronRight size={16} />
+                  </button>
+                </div>
+              )}
+
               <button
                 type="button"
                 onClick={() => setIsPickerOpen(false)}
-                className="px-4 py-2 rounded-xl bg-neutral-200 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 font-medium hover:bg-neutral-300 transition-colors cursor-pointer"
+                className="px-4 py-2 rounded-xl bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-medium transition-colors cursor-pointer text-xs"
               >
                 Close
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
 }
 
 // ── Visual Card Component for Single Cover Slot ──
+
 interface CoverImageCardProps {
   title: string;
   subtitle: string;
