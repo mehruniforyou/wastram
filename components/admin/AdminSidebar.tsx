@@ -27,6 +27,7 @@ import {
   Truck,
   FileText,
   Boxes,
+  Image as ImageIcon,
 } from 'lucide-react'
 import {
   Sidebar,
@@ -196,6 +197,36 @@ export function AdminSidebar({
               >
                 <Box />
                 <span>Products</span>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+
+            {/* Image Productisation */}
+            <SidebarMenuItem>
+              <SidebarMenuButton
+                isActive={activeTab === 'image-productisation'}
+                tooltip='Image Productisation'
+                onClick={() => {
+                  onSelectTab('image-productisation')
+                  setOpenMobile(false)
+                }}
+              >
+                <ImageIcon />
+                <span>Image Productisation</span>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+
+            {/* Home Covers */}
+            <SidebarMenuItem>
+              <SidebarMenuButton
+                isActive={activeTab === 'home-covers'}
+                tooltip='Home Covers'
+                onClick={() => {
+                  onSelectTab('home-covers')
+                  setOpenMobile(false)
+                }}
+              >
+                <ImageIcon />
+                <span>Home Covers</span>
               </SidebarMenuButton>
             </SidebarMenuItem>
 

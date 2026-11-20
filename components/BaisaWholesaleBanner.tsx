@@ -4,8 +4,10 @@ import React from 'react';
 import Link from 'next/link';
 import { MessageCircle, ArrowRight, ShieldCheck, Plane, Sparkles } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import { useHomeCovers } from '@/hooks/useHomeCovers';
 
 export default function BaisaWholesaleBanner() {
+  const { covers } = useHomeCovers();
   const whatsappUrl = `https://wa.me/918003088838?text=${encodeURIComponent(
     'Hello Wastram Export Atelier, I would like to inquire about wholesale boutique sourcing and catalog line sheets.'
   )}`;
@@ -87,7 +89,7 @@ export default function BaisaWholesaleBanner() {
               {/* Primary Atelier Model Frame */}
               <div className="relative w-full max-w-[320px] sm:max-w-[360px] aspect-[4/5] rounded-[28px] overflow-hidden shadow-2xl border-2 border-white/20 bg-neutral-900 group">
                 <img
-                  src="/traditional-gowns/16668.jpg.jpeg"
+                  src={covers?.wholesaleBanner?.image || "/traditional-gowns/16668.jpg.jpeg"}
                   alt="Wastram Sanganer Atelier Batch"
                   loading="lazy"
                   className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"

@@ -11,6 +11,7 @@ import {
   MessageCircle,
 } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import { useHomeCovers } from '@/hooks/useHomeCovers';
 
 const TRUST_BADGES = [
   {
@@ -69,6 +70,7 @@ const ORDER_STEPS = [
 ];
 
 export default function BaisaFactoryStats() {
+  const { covers } = useHomeCovers();
   return (
     <section className="py-8 md:py-14 bg-[#FFFEFE] dark:bg-[#12100E]">
       {/* 1. Craft & Heritage Intro */}
@@ -106,7 +108,7 @@ export default function BaisaFactoryStats() {
           <ScrollReveal direction="scale" delay={150} duration={850} className="lg:col-span-6">
             <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-neutral-200/80 dark:border-white/10 group bg-neutral-900">
               <img
-                src="/images/hero/hero-main.jpg"
+                src={covers?.craftStats?.image || "/images/hero/hero-main.jpg"}
                 alt="Jaipur Sanganer Hand Block Printing & Handloom Atelier"
                 className="h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
               />

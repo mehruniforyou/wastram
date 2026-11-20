@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Play, Volume2, VolumeX, ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import { useHomeCovers } from '@/hooks/useHomeCovers';
 
 interface ReelItem {
   id: string;
@@ -50,6 +51,7 @@ const REELS: ReelItem[] = [
 ];
 
 export default function BaisaReels() {
+  const { covers } = useHomeCovers();
   const [activeReel, setActiveReel] = useState<string | null>(null);
 
   return (
@@ -92,8 +94,8 @@ export default function BaisaReels() {
             >
               {/* Background Media */}
               <img
-                src={reel.thumbnail}
-                alt={reel.title}
+                src={covers?.reels?.[i]?.thumbnail || reel.thumbnail}
+                alt={covers?.reels?.[i]?.title || reel.title}
                 className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
               />
 

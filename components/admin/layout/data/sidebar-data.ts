@@ -19,6 +19,7 @@ import {
   Sparkles,
   Headphones,
   Boxes,
+  Image as ImageIcon,
 } from 'lucide-react'
 import { type SidebarData } from '../types'
 
@@ -75,6 +76,16 @@ export const getSidebarData = (unreadOrdersCount = 0, openTicketsCount = 0): Sid
           title: 'Products',
           url: 'products',
           icon: Box,
+        },
+        {
+          title: 'Image Productisation',
+          url: 'image-productisation',
+          icon: ImageIcon,
+        },
+        {
+          title: 'Home Covers',
+          url: 'home-covers',
+          icon: ImageIcon,
         },
         {
           title: 'Inventory',

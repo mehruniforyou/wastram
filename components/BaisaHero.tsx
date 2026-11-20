@@ -4,8 +4,13 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, Sparkles, ShieldCheck } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import { useHomeCovers } from '@/hooks/useHomeCovers';
 
 export default function BaisaHero() {
+  const { covers } = useHomeCovers();
+  const heroPrimary = covers?.hero?.primary || { image: '/western-dresses/10045.jpg.jpeg', tagText: 'Morpankh Ikat Co-ord', tagLink: '/collections/cord-sets' };
+  const heroSecondary = covers?.hero?.secondary || { image: '/cord-sets/12550.jpg.jpeg' };
+  const heroTertiary = covers?.hero?.tertiary || { image: '/traditional-gowns/16668.jpg.jpeg' };
   return (
     <section className="relative overflow-hidden bg-[#FFFEFE] dark:bg-[#12100E] pt-4 md:pt-8 pb-8 md:pb-12">
       {/* Delicate Sanganeri Block-print Paisley Watermark Motif */}
@@ -30,7 +35,7 @@ export default function BaisaHero() {
             {/* 1. Tertiary Subtle Background Frame (Top-Left Flank) */}
             <div className="absolute left-0 sm:left-2 top-0 sm:top-2 w-32 sm:w-44 lg:w-48 aspect-[3/4] rounded-2xl overflow-hidden opacity-50 sm:opacity-60 border border-[#E7E5E4] dark:border-white/10 z-0 bg-[#FFFEFE] shadow-sm">
               <img
-                src="/traditional-gowns/16668.jpg.jpeg"
+                src={heroTertiary.image || "/traditional-gowns/16668.jpg.jpeg"}
                 alt="Traditional Gown Silhouette"
                 className="w-full h-full object-cover object-top grayscale"
               />
@@ -39,7 +44,7 @@ export default function BaisaHero() {
             {/* 2. Main Primary Center Model Frame (Anchor) */}
             <div className="relative w-56 sm:w-72 lg:w-80 aspect-[3/4] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border-2 border-white dark:border-white/10 hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] bg-[#FFFEFE] z-10 group transition-all duration-300 ease-out">
               <img
-                src="/western-dresses/10045.jpg.jpeg"
+                src={heroPrimary.image || "/western-dresses/10045.jpg.jpeg"}
                 alt="Wastram Jaipur Handcrafted Ethnic Wear"
                 className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
               />
@@ -61,7 +66,7 @@ export default function BaisaHero() {
             {/* 3. Secondary Layered Overlapping Lifestyle Card (Bottom-Right Flank) */}
             <div className="absolute right-0 sm:right-2 -bottom-2 sm:-bottom-4 w-32 sm:w-44 lg:w-52 aspect-[3/4] rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl border-2 sm:border-4 border-white dark:border-[#1E1B18] hover:border-[#0B2D7F] dark:hover:border-[#D4AF37] bg-[#FFFEFE] z-20 transition-all duration-300 ease-out">
               <img
-                src="/cord-sets/12550.jpg.jpeg"
+                src={heroSecondary.image || "/cord-sets/12550.jpg.jpeg"}
                 alt="Jaipur Cotton Co-ord"
                 className="w-full h-full object-cover object-top"
               />

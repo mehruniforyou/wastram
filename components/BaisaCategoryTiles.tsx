@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import { useHomeCovers } from '@/hooks/useHomeCovers';
 
 interface CategoryTile {
   name: string;
@@ -83,6 +84,19 @@ function NishoramaCategoryCard({
 }
 
 export default function BaisaCategoryTiles() {
+  const { covers } = useHomeCovers();
+  const getCat = (base: CategoryTile) => {
+    const live = covers?.categories?.[base.slug];
+    if (!live || !live.image) return base;
+    return { ...base, image: live.image, name: live.name || base.name };
+  };
+
+  const col1Hero = getCat(COL1_HERO);
+  const col2Top = getCat(COL2_TOP);
+  const col2Bottom = getCat(COL2_BOTTOM);
+  const col3Top = getCat(COL3_TOP);
+  const col3Bottom = getCat(COL3_BOTTOM);
+  const col4Hero = getCat(COL4_HERO);
   return (
     <section className="py-8 md:py-14 container-x">
       {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
@@ -113,7 +127,7 @@ export default function BaisaCategoryTiles() {
         {/* Column 1 (3 Cols): Left Tall Bookend */}
         <ScrollReveal direction="up" delay={0} duration={800} className="lg:col-span-3 h-full">
           <NishoramaCategoryCard
-            cat={COL1_HERO}
+            cat={col1Hero}
             className="w-full h-full rounded-[32px]"
           />
         </ScrollReveal>
@@ -121,11 +135,11 @@ export default function BaisaCategoryTiles() {
         {/* Column 2 (2 Cols): Stacked Portrait Pair */}
         <ScrollReveal direction="up" delay={100} duration={800} className="lg:col-span-2 flex flex-col gap-3.5 lg:gap-4.5 h-full">
           <NishoramaCategoryCard
-            cat={COL2_TOP}
+            cat={col2Top}
             className="flex-1 rounded-[28px]"
           />
           <NishoramaCategoryCard
-            cat={COL2_BOTTOM}
+            cat={col2Bottom}
             className="flex-1 rounded-[28px]"
           />
         </ScrollReveal>
@@ -133,11 +147,11 @@ export default function BaisaCategoryTiles() {
         {/* Column 3 (3 Cols): Asymmetric Stacked Pair */}
         <ScrollReveal direction="up" delay={200} duration={800} className="lg:col-span-3 flex flex-col gap-3.5 lg:gap-4.5 h-full">
           <NishoramaCategoryCard
-            cat={COL3_TOP}
+            cat={col3Top}
             className="h-[57%] rounded-[28px]"
           />
           <NishoramaCategoryCard
-            cat={COL3_BOTTOM}
+            cat={col3Bottom}
             className="h-[43%] rounded-[28px]"
           />
         </ScrollReveal>
@@ -145,7 +159,7 @@ export default function BaisaCategoryTiles() {
         {/* Column 4 (4 Cols): Prominent Hero Card with Large Curved Corner */}
         <ScrollReveal direction="up" delay={300} duration={800} className="lg:col-span-4 h-full">
           <NishoramaCategoryCard
-            cat={COL4_HERO}
+            cat={col4Hero}
             className="w-full h-full rounded-[36px] rounded-tl-[64px]"
           />
         </ScrollReveal>
@@ -155,37 +169,37 @@ export default function BaisaCategoryTiles() {
       <div className="grid grid-cols-2 lg:hidden gap-3 sm:gap-4">
         {/* Card 1: Tall Left Portrait */}
         <NishoramaCategoryCard
-          cat={COL1_HERO}
+          cat={col1Hero}
           className="col-span-1 aspect-[3/4] sm:aspect-[4/5] rounded-[24px]"
         />
 
         {/* Card 2: Tall Right Portrait */}
         <NishoramaCategoryCard
-          cat={COL2_TOP}
+          cat={col2Top}
           className="col-span-1 aspect-[3/4] sm:aspect-[4/5] rounded-[24px]"
         />
 
         {/* Card 3: Full Width Editorial Banner */}
         <NishoramaCategoryCard
-          cat={COL4_HERO}
+          cat={col4Hero}
           className="col-span-2 aspect-[16/10] sm:aspect-[16/9] rounded-[28px]"
         />
 
         {/* Card 4: Paired Card Left */}
         <NishoramaCategoryCard
-          cat={COL2_BOTTOM}
+          cat={col2Bottom}
           className="col-span-1 aspect-[3/4] sm:aspect-[4/5] rounded-[24px]"
         />
 
         {/* Card 5: Paired Card Right */}
         <NishoramaCategoryCard
-          cat={COL3_TOP}
+          cat={col3Top}
           className="col-span-1 aspect-[3/4] sm:aspect-[4/5] rounded-[24px]"
         />
 
         {/* Card 6: Closing Wide Card */}
         <NishoramaCategoryCard
-          cat={COL3_BOTTOM}
+          cat={col3Bottom}
           className="col-span-2 aspect-[16/9] rounded-[28px]"
         />
       </div>

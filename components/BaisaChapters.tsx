@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import { useHomeCovers } from '@/hooks/useHomeCovers';
 
 interface Chapter {
   number: string;
@@ -66,6 +67,7 @@ const CHAPTERS: Chapter[] = [
 ];
 
 export default function BaisaChapters() {
+  const { covers } = useHomeCovers();
   return (
     <section className="py-8 md:py-14 container-x bg-[#FFFEFE] dark:bg-[#12100E]">
       {/* Consistent Centered Header (Exact Layout as Artisanal Collections) */}
@@ -98,8 +100,8 @@ export default function BaisaChapters() {
               {/* Rectangular Image Frame with Rounded Corners */}
               <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-neutral-100 dark:bg-neutral-800">
                 <img
-                  src={chapter.image}
-                  alt={chapter.title}
+                  src={covers?.chapters?.[i]?.image || chapter.image}
+                  alt={covers?.chapters?.[i]?.title || chapter.title}
                   loading="lazy"
                   className="h-full w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-108"
                 />

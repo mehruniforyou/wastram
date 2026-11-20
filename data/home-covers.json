@@ -1,0 +1,218 @@
+{
+  "hero": {
+    "primary": {
+      "id": "hero_primary",
+      "label": "Primary Hero Center Frame",
+      "section": "Hero Section",
+      "image": "/western-dresses/10045.jpg.jpeg",
+      "tagText": "Morpankh Ikat Co-ord",
+      "tagLink": "/collections/cord-sets",
+      "alt": "Wastram Jaipur Handcrafted Ethnic Wear"
+    },
+    "secondary": {
+      "id": "hero_secondary",
+      "label": "Hero Bottom-Right Flank",
+      "section": "Hero Section",
+      "image": "/cord-sets/12550.jpg.jpeg",
+      "tagText": "Jaipur Cotton Co-ord",
+      "tagLink": "/collections/cord-sets",
+      "alt": "Jaipur Cotton Co-ord"
+    },
+    "tertiary": {
+      "id": "hero_tertiary",
+      "label": "Hero Top-Left Background Flank",
+      "section": "Hero Section",
+      "image": "/traditional-gowns/16668.jpg.jpeg",
+      "tagText": "Traditional Gown Silhouette",
+      "tagLink": "/collections/traditional-gowns",
+      "alt": "Traditional Gown Silhouette"
+    }
+  },
+  "categories": {
+    "western-dresses": {
+      "id": "western-dresses",
+      "name": "Western Dresses",
+      "slug": "western-dresses",
+      "image": "/western-dresses/10045.jpg.jpeg",
+      "label": "Western Dresses Cover Image"
+    },
+    "traditional-gowns": {
+      "id": "traditional-gowns",
+      "name": "Gowns & Anarkalis",
+      "slug": "traditional-gowns",
+      "image": "/traditional-gowns/16668.jpg.jpeg",
+      "label": "Traditional Gowns Cover Image"
+    },
+    "cord-sets": {
+      "id": "cord-sets",
+      "name": "Co-ord Sets",
+      "slug": "cord-sets",
+      "image": "/cord-sets/12550.jpg.jpeg",
+      "label": "Co-ord Sets Cover Image"
+    },
+    "ethnic-wear-sets": {
+      "id": "ethnic-wear-sets",
+      "name": "Kurta Sets",
+      "slug": "ethnic-wear-sets",
+      "image": "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg",
+      "label": "Ethnic Wear Sets Cover Image"
+    },
+    "short-long-kaftan": {
+      "id": "short-long-kaftan",
+      "name": "Kaftans",
+      "slug": "short-long-kaftan",
+      "image": "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+      "label": "Kaftans Cover Image"
+    },
+    "tops-shirts": {
+      "id": "tops-shirts",
+      "name": "Tops & Shirts",
+      "slug": "tops-shirts",
+      "image": "/tops-shirts/5246.jpg.jpeg",
+      "label": "Tops & Shirts Cover Image"
+    },
+    "umbrella-dresses": {
+      "id": "umbrella-dresses",
+      "name": "Umbrella Dresses",
+      "slug": "umbrella-dresses",
+      "image": "/umbrella-dresses/4726.jpg.jpeg",
+      "label": "Umbrella Dresses Cover Image"
+    },
+    "denim-collection": {
+      "id": "denim-collection",
+      "name": "Denim Collection",
+      "slug": "denim-collection",
+      "image": "/denim-collection/IMG-20261102-WA0252.jpg.jpeg",
+      "label": "Denim Collection Cover Image"
+    },
+    "t-shirts": {
+      "id": "t-shirts",
+      "name": "T-Shirts",
+      "slug": "t-shirts",
+      "image": "/t-shirts/13665.jpg.jpeg",
+      "label": "T-Shirts Cover Image"
+    },
+    "hoodies-sweatshirts": {
+      "id": "hoodies-sweatshirts",
+      "name": "Hoodies & Sweatshirts",
+      "slug": "hoodies-sweatshirts",
+      "image": "/hoodies-sweatshirts/05f0493ca29232f8f185133c8fa9b6a7.jpg.jpeg",
+      "label": "Hoodies & Sweatshirts Cover Image"
+    }
+  },
+  "chapters": [
+    {
+      "id": "chapter_01",
+      "number": "CHAPTER 01",
+      "title": "The Co-ord Edit",
+      "subtitle": "Breathable 2-piece & 3-piece matched sets in handloom cotton & ikat.",
+      "slug": "cord-sets",
+      "image": "/cord-sets/12550.jpg.jpeg",
+      "tag": "Bestselling Silhouette",
+      "label": "Chapter 01 (The Co-ord Edit) Cover"
+    },
+    {
+      "id": "chapter_02",
+      "number": "CHAPTER 02",
+      "title": "Kurta Sets & Suits",
+      "subtitle": "Pure cotton kurtas with farshi salwars, straight trousers & chanderi dupattas.",
+      "slug": "ethnic-wear-sets",
+      "image": "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg",
+      "tag": "Classic Atelier",
+      "label": "Chapter 02 (Kurta Sets & Suits) Cover"
+    },
+    {
+      "id": "chapter_03",
+      "number": "CHAPTER 03",
+      "title": "Western & Tiered Dresses",
+      "subtitle": "Flared maxi, tiered midi & shirt dresses tailored for effortless ease.",
+      "slug": "western-dresses",
+      "image": "/western-dresses/10045.jpg.jpeg",
+      "tag": "Export Grade",
+      "label": "Chapter 03 (Western Dresses) Cover"
+    },
+    {
+      "id": "chapter_04",
+      "number": "CHAPTER 04",
+      "title": "Kaftans & Resort Silhouettes",
+      "subtitle": "Flowing bohemian loungewear with tasselled ties & Sanganeri floral prints.",
+      "slug": "short-long-kaftan",
+      "image": "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+      "tag": "Summer Lounge",
+      "label": "Chapter 04 (Kaftans & Resort) Cover"
+    },
+    {
+      "id": "chapter_05",
+      "number": "CHAPTER 05",
+      "title": "Tops, Tunics & Shirts",
+      "subtitle": "Block-printed peplums, mandarin collared tunics & relaxed cotton shirts.",
+      "slug": "tops-shirts",
+      "image": "/tops-shirts/5246.jpg.jpeg",
+      "tag": "Everyday Ease",
+      "label": "Chapter 05 (Tops, Tunics & Shirts) Cover"
+    },
+    {
+      "id": "chapter_06",
+      "number": "CHAPTER 06",
+      "title": "Gowns & Royal Anarkalis",
+      "subtitle": "Floor-length flared silhouettes adorned with Gota Patti and zari needlework.",
+      "slug": "traditional-gowns",
+      "image": "/traditional-gowns/16668.jpg.jpeg",
+      "tag": "Occasion & Festive",
+      "label": "Chapter 06 (Gowns & Anarkalis) Cover"
+    }
+  ],
+  "reels": [
+    {
+      "id": "reel_01",
+      "title": "Morpankh Ikat 3-Piece Co-ord",
+      "category": "Co-ord Sets",
+      "slug": "cord-sets",
+      "thumbnail": "/cord-sets/12550.jpg.jpeg",
+      "caption": "100% Cotton twirl test in Sanganer sunshine.",
+      "label": "Reel 1 (Co-ord twirl test) Video Poster"
+    },
+    {
+      "id": "reel_02",
+      "title": "Chanderi Silk Flared Anarkali",
+      "category": "Gowns",
+      "slug": "traditional-gowns",
+      "thumbnail": "/traditional-gowns/16668.jpg.jpeg",
+      "caption": "Pure Gota Patti needlework along a 5-meter flare.",
+      "label": "Reel 2 (Chanderi Anarkali) Video Poster"
+    },
+    {
+      "id": "reel_03",
+      "title": "Indigo Dabu Handblock Maxi",
+      "category": "Western Dresses",
+      "slug": "western-dresses",
+      "thumbnail": "/western-dresses/10045.jpg.jpeg",
+      "caption": "Natural mud-resist block printing in Jaipur.",
+      "label": "Reel 3 (Indigo Dabu Maxi) Video Poster"
+    },
+    {
+      "id": "reel_04",
+      "title": "Boho Kaftan with Tassel Tie",
+      "category": "Kaftans",
+      "slug": "short-long-kaftan",
+      "thumbnail": "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+      "caption": "Breezy ease for resort mornings and summer travel.",
+      "label": "Reel 4 (Boho Kaftan) Video Poster"
+    }
+  ],
+  "craftStats": {
+    "id": "craft_stats_hero",
+    "image": "/images/hero/hero-main.jpg",
+    "label": "Sanganer Textile Craft Hub Image",
+    "alt": "Jaipur Sanganer Hand Block Printing & Handloom Atelier",
+    "caption": "Sanganer Textile Craft Hub, Jaipur",
+    "subcaption": "Every motif aligned and stamped by hand on seasoned looms."
+  },
+  "wholesaleBanner": {
+    "id": "wholesale_banner_model",
+    "image": "/traditional-gowns/16668.jpg.jpeg",
+    "label": "Wholesale Editorial Atelier Frame",
+    "alt": "Wastram Sanganer Atelier Batch"
+  },
+  "updatedAt": "2026-11-20T10:30:00.000Z"
+}
