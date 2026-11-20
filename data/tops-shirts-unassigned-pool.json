@@ -1,0 +1,1397 @@
+{
+  "category": "tops-shirts",
+  "categoryName": "Tops & Shirts",
+  "generatedAt": "2026-11-20T10:16:21.583Z",
+  "statistics": {
+    "total_category_images": 495,
+    "productised_images_used": 482,
+    "remaining_unassigned_images": 13,
+    "product_groups_created": 142
+  },
+  "unassigned_images": [
+    {
+      "filename": "5324.jpg.jpeg",
+      "url": "/tops-shirts/5324.jpg.jpeg",
+      "path": "public/tops-shirts/5324.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5327.jpg.jpeg",
+      "url": "/tops-shirts/5327.jpg.jpeg",
+      "path": "public/tops-shirts/5327.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5328.jpg.jpeg",
+      "url": "/tops-shirts/5328.jpg.jpeg",
+      "path": "public/tops-shirts/5328.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5334.jpg.jpeg",
+      "url": "/tops-shirts/5334.jpg.jpeg",
+      "path": "public/tops-shirts/5334.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5335.jpg.jpeg",
+      "url": "/tops-shirts/5335.jpg.jpeg",
+      "path": "public/tops-shirts/5335.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5336.jpg.jpeg",
+      "url": "/tops-shirts/5336.jpg.jpeg",
+      "path": "public/tops-shirts/5336.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5337.jpg.jpeg",
+      "url": "/tops-shirts/5337.jpg.jpeg",
+      "path": "public/tops-shirts/5337.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5338.jpg.jpeg",
+      "url": "/tops-shirts/5338.jpg.jpeg",
+      "path": "public/tops-shirts/5338.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5365.jpg.jpeg",
+      "url": "/tops-shirts/5365.jpg.jpeg",
+      "path": "public/tops-shirts/5365.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5373.jpg.jpeg",
+      "url": "/tops-shirts/5373.jpg.jpeg",
+      "path": "public/tops-shirts/5373.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5374.jpg.jpeg",
+      "url": "/tops-shirts/5374.jpg.jpeg",
+      "path": "public/tops-shirts/5374.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5377.jpg.jpeg",
+      "url": "/tops-shirts/5377.jpg.jpeg",
+      "path": "public/tops-shirts/5377.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG20260930105313.jpg.jpeg",
+      "url": "/tops-shirts/IMG20260930105313.jpg.jpeg",
+      "path": "public/tops-shirts/IMG20260930105313.jpg.jpeg",
+      "category": "tops-shirts",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    }
+  ],
+  "products_reference": [
+    {
+      "id": "tp-0001",
+      "sku": "WST-TP-0001",
+      "name": "Jaipur Pink Sanganeri Wooden Buti Tunic Top",
+      "slug": "jaipur-pink-sanganeri-wooden-buti-tunic-top",
+      "coverPhoto": "/tops-shirts/_MG_3049.JPG.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "tp-0002",
+      "sku": "WST-TP-0002",
+      "name": "Indigo Dabu Pintuck Pleated Artisan Blouse",
+      "slug": "indigo-dabu-pintuck-pleated-artisan-blouse",
+      "coverPhoto": "/tops-shirts/_MG_3051.JPG.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "tp-0003",
+      "sku": "WST-TP-0003",
+      "name": "Ivory Pearl Mandarin Collar Gathered Top",
+      "slug": "ivory-pearl-mandarin-collar-gathered-top",
+      "coverPhoto": "/tops-shirts/_MG_3060.JPG.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "tp-0004",
+      "sku": "WST-TP-0004",
+      "name": "Olive Grove Button-Down Casual Casual Shirt",
+      "slug": "olive-grove-button-down-casual-casual-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1700480925850.jpg (1).jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "tp-0005",
+      "sku": "WST-TP-0005",
+      "name": "Mustard Bloom Embroidered Yoke Short Kurti Top",
+      "slug": "mustard-bloom-embroidered-yoke-short-kurti-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1734502817871.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "tp-0006",
+      "sku": "WST-TP-0006",
+      "name": "Rust Amber Flounce Peplum Everyday Tunic",
+      "slug": "rust-amber-flounce-peplum-everyday-tunic",
+      "coverPhoto": "/tops-shirts/FB_IMG_1734516638765.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "tp-0007",
+      "sku": "WST-TP-0007",
+      "name": "Sky Azure Gathered Tiered Peplum Top",
+      "slug": "sky-azure-gathered-tiered-peplum-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1734516813406.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "tp-0008",
+      "sku": "WST-TP-0008",
+      "name": "Charcoal Kashish Bohemian Tie-Neck Boxy Shirt",
+      "slug": "charcoal-kashish-bohemian-tie-neck-boxy-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1737652097081.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "tp-0009",
+      "sku": "WST-TP-0009",
+      "name": "Coral Peach Bishop Sleeve Tunic Top",
+      "slug": "coral-peach-bishop-sleeve-tunic-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1766593400807.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "tp-0010",
+      "sku": "WST-TP-0010",
+      "name": "Forest Moss A-Line Flared Artisan Blouse",
+      "slug": "forest-moss-a-line-flared-artisan-blouse",
+      "coverPhoto": "/tops-shirts/FB_IMG_1766593413710.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "tp-0011",
+      "sku": "WST-TP-0011",
+      "name": "Lavender Mist Ruffle Trimmed Gathered Top",
+      "slug": "lavender-mist-ruffle-trimmed-gathered-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1766593443916.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "tp-0012",
+      "sku": "WST-TP-0012",
+      "name": "Saffron Sun Slit Sleeve Casual Shirt",
+      "slug": "saffron-sun-slit-sleeve-casual-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1766593654240.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "tp-0013",
+      "sku": "WST-TP-0013",
+      "name": "Mint Green Sanganeri Wooden Buti Short Kurti Top",
+      "slug": "mint-green-sanganeri-wooden-buti-short-kurti-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1771508182546.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "tp-0014",
+      "sku": "WST-TP-0014",
+      "name": "Maroon Wine Pintuck Pleated Everyday Tunic",
+      "slug": "maroon-wine-pintuck-pleated-everyday-tunic",
+      "coverPhoto": "/tops-shirts/FB_IMG_1777964263793.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "tp-0015",
+      "sku": "WST-TP-0015",
+      "name": "Dusty Cedar Mandarin Collar Peplum Top",
+      "slug": "dusty-cedar-mandarin-collar-peplum-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1781108370675.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "tp-0016",
+      "sku": "WST-TP-0016",
+      "name": "Turquoise Splash Button-Down Casual Boxy Shirt",
+      "slug": "turquoise-splash-button-down-casual-boxy-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1781793145540.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 016"
+    },
+    {
+      "id": "tp-0017",
+      "sku": "WST-TP-0017",
+      "name": "Sunflower Glow Embroidered Yoke Tunic Top",
+      "slug": "sunflower-glow-embroidered-yoke-tunic-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1783351930948.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "tp-0018",
+      "sku": "WST-TP-0018",
+      "name": "Plum Berry Flounce Peplum Artisan Blouse",
+      "slug": "plum-berry-flounce-peplum-artisan-blouse",
+      "coverPhoto": "/tops-shirts/FB_IMG_1788980212340.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "tp-0019",
+      "sku": "WST-TP-0019",
+      "name": "Parchment White Gathered Tiered Gathered Top",
+      "slug": "parchment-white-gathered-tiered-gathered-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1788980239280.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "tp-0020",
+      "sku": "WST-TP-0020",
+      "name": "Mocha Bark Bohemian Tie-Neck Casual Shirt",
+      "slug": "mocha-bark-bohemian-tie-neck-casual-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789315352815.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "tp-0021",
+      "sku": "WST-TP-0021",
+      "name": "Blush Petal Bishop Sleeve Short Kurti Top",
+      "slug": "blush-petal-bishop-sleeve-short-kurti-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789558221255.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 021"
+    },
+    {
+      "id": "tp-0022",
+      "sku": "WST-TP-0022",
+      "name": "Cobalt Royal A-Line Flared Everyday Tunic",
+      "slug": "cobalt-royal-a-line-flared-everyday-tunic",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572508546.jpg.jpeg",
+      "photosCount": 10,
+      "originalGroup": "Product Group 022"
+    },
+    {
+      "id": "tp-0023",
+      "sku": "WST-TP-0023",
+      "name": "Honey Butter Ruffle Trimmed Peplum Top",
+      "slug": "honey-butter-ruffle-trimmed-peplum-top",
+      "coverPhoto": "/tops-shirts/5294.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 023"
+    },
+    {
+      "id": "tp-0024",
+      "sku": "WST-TP-0024",
+      "name": "Seafoam Glade Slit Sleeve Boxy Shirt",
+      "slug": "seafoam-glade-slit-sleeve-boxy-shirt",
+      "coverPhoto": "/tops-shirts/5258.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 024"
+    },
+    {
+      "id": "tp-0025",
+      "sku": "WST-TP-0025",
+      "name": "Rose Quartz Sanganeri Wooden Buti Tunic Top",
+      "slug": "rose-quartz-sanganeri-wooden-buti-tunic-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572657325.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 025"
+    },
+    {
+      "id": "tp-0026",
+      "sku": "WST-TP-0026",
+      "name": "Jaipur Pink Mandarin Collar Artisan Blouse",
+      "slug": "jaipur-pink-mandarin-collar-artisan-blouse",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572584626.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 026"
+    },
+    {
+      "id": "tp-0027",
+      "sku": "WST-TP-0027",
+      "name": "Indigo Dabu Button-Down Casual Gathered Top",
+      "slug": "indigo-dabu-button-down-casual-gathered-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572672520.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 027"
+    },
+    {
+      "id": "tp-0028",
+      "sku": "WST-TP-0028",
+      "name": "Ivory Pearl Embroidered Yoke Casual Shirt",
+      "slug": "ivory-pearl-embroidered-yoke-casual-shirt",
+      "coverPhoto": "/tops-shirts/5256.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 028"
+    },
+    {
+      "id": "tp-0029",
+      "sku": "WST-TP-0029",
+      "name": "Olive Grove Flounce Peplum Short Kurti Top",
+      "slug": "olive-grove-flounce-peplum-short-kurti-top",
+      "coverPhoto": "/tops-shirts/5316.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 029"
+    },
+    {
+      "id": "tp-0030",
+      "sku": "WST-TP-0030",
+      "name": "Mustard Bloom Gathered Tiered Everyday Tunic",
+      "slug": "mustard-bloom-gathered-tiered-everyday-tunic",
+      "coverPhoto": "/tops-shirts/5252.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 030"
+    },
+    {
+      "id": "tp-0031",
+      "sku": "WST-TP-0031",
+      "name": "Rust Amber Bohemian Tie-Neck Peplum Top",
+      "slug": "rust-amber-bohemian-tie-neck-peplum-top",
+      "coverPhoto": "/tops-shirts/5275.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 031"
+    },
+    {
+      "id": "tp-0032",
+      "sku": "WST-TP-0032",
+      "name": "Sky Azure Bishop Sleeve Boxy Shirt",
+      "slug": "sky-azure-bishop-sleeve-boxy-shirt",
+      "coverPhoto": "/tops-shirts/5286.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 032"
+    },
+    {
+      "id": "tp-0033",
+      "sku": "WST-TP-0033",
+      "name": "Charcoal Kashish A-Line Flared Tunic Top",
+      "slug": "charcoal-kashish-a-line-flared-tunic-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1786468315951.jpg.jpeg",
+      "photosCount": 34,
+      "originalGroup": "Product Group 033"
+    },
+    {
+      "id": "tp-0034",
+      "sku": "WST-TP-0034",
+      "name": "Coral Peach Ruffle Trimmed Artisan Blouse",
+      "slug": "coral-peach-ruffle-trimmed-artisan-blouse",
+      "coverPhoto": "/tops-shirts/FB_IMG_1780915663799.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 034"
+    },
+    {
+      "id": "tp-0035",
+      "sku": "WST-TP-0035",
+      "name": "Forest Moss Slit Sleeve Gathered Top",
+      "slug": "forest-moss-slit-sleeve-gathered-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1781723153203.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 035"
+    },
+    {
+      "id": "tp-0036",
+      "sku": "WST-TP-0036",
+      "name": "Lavender Mist Sanganeri Wooden Buti Casual Shirt",
+      "slug": "lavender-mist-sanganeri-wooden-buti-casual-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572573977.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 036"
+    },
+    {
+      "id": "tp-0037",
+      "sku": "WST-TP-0037",
+      "name": "Saffron Sun Pintuck Pleated Short Kurti Top",
+      "slug": "saffron-sun-pintuck-pleated-short-kurti-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572752507.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 037"
+    },
+    {
+      "id": "tp-0038",
+      "sku": "WST-TP-0038",
+      "name": "Mint Green Mandarin Collar Everyday Tunic",
+      "slug": "mint-green-mandarin-collar-everyday-tunic",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789645728291.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 038"
+    },
+    {
+      "id": "tp-0039",
+      "sku": "WST-TP-0039",
+      "name": "Maroon Wine Button-Down Casual Peplum Top",
+      "slug": "maroon-wine-button-down-casual-peplum-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789645739542.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 039"
+    },
+    {
+      "id": "tp-0040",
+      "sku": "WST-TP-0040",
+      "name": "Dusty Cedar Embroidered Yoke Boxy Shirt",
+      "slug": "dusty-cedar-embroidered-yoke-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20250122-WA0005.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 040"
+    },
+    {
+      "id": "tp-0041",
+      "sku": "WST-TP-0041",
+      "name": "Turquoise Splash Flounce Peplum Tunic Top",
+      "slug": "turquoise-splash-flounce-peplum-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261003-WA0134.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 041"
+    },
+    {
+      "id": "tp-0042",
+      "sku": "WST-TP-0042",
+      "name": "Sunflower Glow Gathered Tiered Artisan Blouse",
+      "slug": "sunflower-glow-gathered-tiered-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261003-WA0136.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 042"
+    },
+    {
+      "id": "tp-0043",
+      "sku": "WST-TP-0043",
+      "name": "Plum Berry Bohemian Tie-Neck Gathered Top",
+      "slug": "plum-berry-bohemian-tie-neck-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261005-WA0080.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 043"
+    },
+    {
+      "id": "tp-0044",
+      "sku": "WST-TP-0044",
+      "name": "Parchment White Bishop Sleeve Casual Shirt",
+      "slug": "parchment-white-bishop-sleeve-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261005-WA0085.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 044"
+    },
+    {
+      "id": "tp-0045",
+      "sku": "WST-TP-0045",
+      "name": "Mocha Bark A-Line Flared Short Kurti Top",
+      "slug": "mocha-bark-a-line-flared-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG-20261008-WA0023.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 045"
+    },
+    {
+      "id": "tp-0046",
+      "sku": "WST-TP-0046",
+      "name": "Blush Petal Ruffle Trimmed Everyday Tunic",
+      "slug": "blush-petal-ruffle-trimmed-everyday-tunic",
+      "coverPhoto": "/tops-shirts/IMG-20261008-WA0027.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 046"
+    },
+    {
+      "id": "tp-0047",
+      "sku": "WST-TP-0047",
+      "name": "Cobalt Royal Slit Sleeve Peplum Top",
+      "slug": "cobalt-royal-slit-sleeve-peplum-top",
+      "coverPhoto": "/tops-shirts/IMG-20261014-WA0186.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 047"
+    },
+    {
+      "id": "tp-0048",
+      "sku": "WST-TP-0048",
+      "name": "Honey Butter Sanganeri Wooden Buti Boxy Shirt",
+      "slug": "honey-butter-sanganeri-wooden-buti-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261014-WA0189.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 048"
+    },
+    {
+      "id": "tp-0049",
+      "sku": "WST-TP-0049",
+      "name": "Seafoam Glade Pintuck Pleated Tunic Top",
+      "slug": "seafoam-glade-pintuck-pleated-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261015-WA0113.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 049"
+    },
+    {
+      "id": "tp-0050",
+      "sku": "WST-TP-0050",
+      "name": "Rose Quartz Mandarin Collar Artisan Blouse",
+      "slug": "rose-quartz-mandarin-collar-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261018-WA0102.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 050"
+    },
+    {
+      "id": "tp-0051",
+      "sku": "WST-TP-0051",
+      "name": "Jaipur Pink Embroidered Yoke Gathered Top",
+      "slug": "jaipur-pink-embroidered-yoke-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261021-WA0034.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 051"
+    },
+    {
+      "id": "tp-0052",
+      "sku": "WST-TP-0052",
+      "name": "Indigo Dabu Flounce Peplum Casual Shirt",
+      "slug": "indigo-dabu-flounce-peplum-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261021-WA0038.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 052"
+    },
+    {
+      "id": "tp-0053",
+      "sku": "WST-TP-0053",
+      "name": "Ivory Pearl Gathered Tiered Short Kurti Top",
+      "slug": "ivory-pearl-gathered-tiered-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG-20261023-WA0080.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 053"
+    },
+    {
+      "id": "tp-0054",
+      "sku": "WST-TP-0054",
+      "name": "Olive Grove Bohemian Tie-Neck Everyday Tunic",
+      "slug": "olive-grove-bohemian-tie-neck-everyday-tunic",
+      "coverPhoto": "/tops-shirts/IMG-20261023-WA0084.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 054"
+    },
+    {
+      "id": "tp-0055",
+      "sku": "WST-TP-0055",
+      "name": "Mustard Bloom Bishop Sleeve Peplum Top",
+      "slug": "mustard-bloom-bishop-sleeve-peplum-top",
+      "coverPhoto": "/tops-shirts/IMG-20261024-WA0029.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 055"
+    },
+    {
+      "id": "tp-0056",
+      "sku": "WST-TP-0056",
+      "name": "Rust Amber A-Line Flared Boxy Shirt",
+      "slug": "rust-amber-a-line-flared-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261024-WA0033.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 056"
+    },
+    {
+      "id": "tp-0057",
+      "sku": "WST-TP-0057",
+      "name": "Sky Azure Ruffle Trimmed Tunic Top",
+      "slug": "sky-azure-ruffle-trimmed-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261024-WA0060.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 057"
+    },
+    {
+      "id": "tp-0058",
+      "sku": "WST-TP-0058",
+      "name": "Charcoal Kashish Slit Sleeve Artisan Blouse",
+      "slug": "charcoal-kashish-slit-sleeve-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261024-WA0065.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 058"
+    },
+    {
+      "id": "tp-0059",
+      "sku": "WST-TP-0059",
+      "name": "Coral Peach Sanganeri Wooden Buti Gathered Top",
+      "slug": "coral-peach-sanganeri-wooden-buti-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261027-WA0038.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 059"
+    },
+    {
+      "id": "tp-0060",
+      "sku": "WST-TP-0060",
+      "name": "Forest Moss Pintuck Pleated Casual Shirt",
+      "slug": "forest-moss-pintuck-pleated-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261027-WA0052.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 060"
+    },
+    {
+      "id": "tp-0061",
+      "sku": "WST-TP-0061",
+      "name": "Lavender Mist Mandarin Collar Short Kurti Top",
+      "slug": "lavender-mist-mandarin-collar-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG-20261027-WA0042.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 061"
+    },
+    {
+      "id": "tp-0062",
+      "sku": "WST-TP-0062",
+      "name": "Saffron Sun Button-Down Casual Everyday Tunic",
+      "slug": "saffron-sun-button-down-casual-everyday-tunic",
+      "coverPhoto": "/tops-shirts/IMG-20261028-WA0100.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 062"
+    },
+    {
+      "id": "tp-0063",
+      "sku": "WST-TP-0063",
+      "name": "Mint Green Embroidered Yoke Peplum Top",
+      "slug": "mint-green-embroidered-yoke-peplum-top",
+      "coverPhoto": "/tops-shirts/IMG-20261028-WA0127.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 063"
+    },
+    {
+      "id": "tp-0064",
+      "sku": "WST-TP-0064",
+      "name": "Maroon Wine Flounce Peplum Boxy Shirt",
+      "slug": "maroon-wine-flounce-peplum-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261028-WA0128.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 064"
+    },
+    {
+      "id": "tp-0065",
+      "sku": "WST-TP-0065",
+      "name": "Dusty Cedar Gathered Tiered Tunic Top",
+      "slug": "dusty-cedar-gathered-tiered-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261031-WA0074.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 065"
+    },
+    {
+      "id": "tp-0066",
+      "sku": "WST-TP-0066",
+      "name": "Turquoise Splash Bohemian Tie-Neck Artisan Blouse",
+      "slug": "turquoise-splash-bohemian-tie-neck-artisan-blouse",
+      "coverPhoto": "/tops-shirts/5292.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 066"
+    },
+    {
+      "id": "tp-0067",
+      "sku": "WST-TP-0067",
+      "name": "Sunflower Glow Bishop Sleeve Gathered Top",
+      "slug": "sunflower-glow-bishop-sleeve-gathered-top",
+      "coverPhoto": "/tops-shirts/9e932fdfada900e035b4209137727876.jpg.jpeg",
+      "photosCount": 27,
+      "originalGroup": "Product Group 067"
+    },
+    {
+      "id": "tp-0068",
+      "sku": "WST-TP-0068",
+      "name": "Plum Berry A-Line Flared Casual Shirt",
+      "slug": "plum-berry-a-line-flared-casual-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1655805495098.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 068"
+    },
+    {
+      "id": "tp-0069",
+      "sku": "WST-TP-0069",
+      "name": "Parchment White Ruffle Trimmed Short Kurti Top",
+      "slug": "parchment-white-ruffle-trimmed-short-kurti-top",
+      "coverPhoto": "/tops-shirts/f1003872d50f3466acd40d9376d34083_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 069"
+    },
+    {
+      "id": "tp-0070",
+      "sku": "WST-TP-0070",
+      "name": "Mocha Bark Slit Sleeve Everyday Tunic",
+      "slug": "mocha-bark-slit-sleeve-everyday-tunic",
+      "coverPhoto": "/tops-shirts/8a5c8ea6ebf5344349056fb5715eb55b_1.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 070"
+    },
+    {
+      "id": "tp-0071",
+      "sku": "WST-TP-0071",
+      "name": "Blush Petal Sanganeri Wooden Buti Peplum Top",
+      "slug": "blush-petal-sanganeri-wooden-buti-peplum-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1766593450876.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 071"
+    },
+    {
+      "id": "tp-0072",
+      "sku": "WST-TP-0072",
+      "name": "Cobalt Royal Pintuck Pleated Boxy Shirt",
+      "slug": "cobalt-royal-pintuck-pleated-boxy-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1766593455454.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 072"
+    },
+    {
+      "id": "tp-0073",
+      "sku": "WST-TP-0073",
+      "name": "Honey Butter Mandarin Collar Tunic Top",
+      "slug": "honey-butter-mandarin-collar-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20250122-WA0008.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 073"
+    },
+    {
+      "id": "tp-0074",
+      "sku": "WST-TP-0074",
+      "name": "Seafoam Glade Button-Down Casual Artisan Blouse",
+      "slug": "seafoam-glade-button-down-casual-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20250122-WA0011.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 074"
+    },
+    {
+      "id": "tp-0075",
+      "sku": "WST-TP-0075",
+      "name": "Rose Quartz Embroidered Yoke Gathered Top",
+      "slug": "rose-quartz-embroidered-yoke-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20250122-WA0015.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 075"
+    },
+    {
+      "id": "tp-0076",
+      "sku": "WST-TP-0076",
+      "name": "Jaipur Pink Gathered Tiered Casual Shirt",
+      "slug": "jaipur-pink-gathered-tiered-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20250122-WA0017.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 076"
+    },
+    {
+      "id": "tp-0077",
+      "sku": "WST-TP-0077",
+      "name": "Indigo Dabu Bohemian Tie-Neck Short Kurti Top",
+      "slug": "indigo-dabu-bohemian-tie-neck-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG_20250122_101504.jpg.jpeg",
+      "photosCount": 11,
+      "originalGroup": "Product Group 077"
+    },
+    {
+      "id": "tp-0078",
+      "sku": "WST-TP-0078",
+      "name": "Ivory Pearl Bishop Sleeve Everyday Tunic",
+      "slug": "ivory-pearl-bishop-sleeve-everyday-tunic",
+      "coverPhoto": "/tops-shirts/5250.jpg.jpeg",
+      "photosCount": 15,
+      "originalGroup": "Product Group 078"
+    },
+    {
+      "id": "tp-0079",
+      "sku": "WST-TP-0079",
+      "name": "Olive Grove A-Line Flared Peplum Top",
+      "slug": "olive-grove-a-line-flared-peplum-top",
+      "coverPhoto": "/tops-shirts/5296.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 079"
+    },
+    {
+      "id": "tp-0080",
+      "sku": "WST-TP-0080",
+      "name": "Mustard Bloom Ruffle Trimmed Boxy Shirt",
+      "slug": "mustard-bloom-ruffle-trimmed-boxy-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572558670.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 080"
+    },
+    {
+      "id": "tp-0081",
+      "sku": "WST-TP-0081",
+      "name": "Rust Amber Slit Sleeve Tunic Top",
+      "slug": "rust-amber-slit-sleeve-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0136.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 081"
+    },
+    {
+      "id": "tp-0082",
+      "sku": "WST-TP-0082",
+      "name": "Sky Azure Sanganeri Wooden Buti Artisan Blouse",
+      "slug": "sky-azure-sanganeri-wooden-buti-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0135.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 082"
+    },
+    {
+      "id": "tp-0083",
+      "sku": "WST-TP-0083",
+      "name": "Charcoal Kashish Pintuck Pleated Gathered Top",
+      "slug": "charcoal-kashish-pintuck-pleated-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0134.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 083"
+    },
+    {
+      "id": "tp-0084",
+      "sku": "WST-TP-0084",
+      "name": "Coral Peach Mandarin Collar Casual Shirt",
+      "slug": "coral-peach-mandarin-collar-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0133.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 084"
+    },
+    {
+      "id": "tp-0085",
+      "sku": "WST-TP-0085",
+      "name": "Forest Moss Button-Down Casual Short Kurti Top",
+      "slug": "forest-moss-button-down-casual-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0132.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 085"
+    },
+    {
+      "id": "tp-0086",
+      "sku": "WST-TP-0086",
+      "name": "Lavender Mist Embroidered Yoke Everyday Tunic",
+      "slug": "lavender-mist-embroidered-yoke-everyday-tunic",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0131.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 086"
+    },
+    {
+      "id": "tp-0087",
+      "sku": "WST-TP-0087",
+      "name": "Saffron Sun Flounce Peplum Peplum Top",
+      "slug": "saffron-sun-flounce-peplum-peplum-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0130.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 087"
+    },
+    {
+      "id": "tp-0088",
+      "sku": "WST-TP-0088",
+      "name": "Mint Green Gathered Tiered Boxy Shirt",
+      "slug": "mint-green-gathered-tiered-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0129.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 088"
+    },
+    {
+      "id": "tp-0089",
+      "sku": "WST-TP-0089",
+      "name": "Maroon Wine Bohemian Tie-Neck Tunic Top",
+      "slug": "maroon-wine-bohemian-tie-neck-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0128.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 089"
+    },
+    {
+      "id": "tp-0090",
+      "sku": "WST-TP-0090",
+      "name": "Dusty Cedar Bishop Sleeve Artisan Blouse",
+      "slug": "dusty-cedar-bishop-sleeve-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0127.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 090"
+    },
+    {
+      "id": "tp-0091",
+      "sku": "WST-TP-0091",
+      "name": "Turquoise Splash A-Line Flared Gathered Top",
+      "slug": "turquoise-splash-a-line-flared-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0126.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 091"
+    },
+    {
+      "id": "tp-0092",
+      "sku": "WST-TP-0092",
+      "name": "Sunflower Glow Ruffle Trimmed Casual Shirt",
+      "slug": "sunflower-glow-ruffle-trimmed-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0125.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 092"
+    },
+    {
+      "id": "tp-0093",
+      "sku": "WST-TP-0093",
+      "name": "Plum Berry Slit Sleeve Short Kurti Top",
+      "slug": "plum-berry-slit-sleeve-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0124.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 093"
+    },
+    {
+      "id": "tp-0094",
+      "sku": "WST-TP-0094",
+      "name": "Parchment White Sanganeri Wooden Buti Everyday Tunic",
+      "slug": "parchment-white-sanganeri-wooden-buti-everyday-tunic",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0123.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 094"
+    },
+    {
+      "id": "tp-0095",
+      "sku": "WST-TP-0095",
+      "name": "Mocha Bark Pintuck Pleated Peplum Top",
+      "slug": "mocha-bark-pintuck-pleated-peplum-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0122.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 095"
+    },
+    {
+      "id": "tp-0096",
+      "sku": "WST-TP-0096",
+      "name": "Blush Petal Mandarin Collar Boxy Shirt",
+      "slug": "blush-petal-mandarin-collar-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0121.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 096"
+    },
+    {
+      "id": "tp-0097",
+      "sku": "WST-TP-0097",
+      "name": "Cobalt Royal Button-Down Casual Tunic Top",
+      "slug": "cobalt-royal-button-down-casual-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0120.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 097"
+    },
+    {
+      "id": "tp-0098",
+      "sku": "WST-TP-0098",
+      "name": "Honey Butter Embroidered Yoke Artisan Blouse",
+      "slug": "honey-butter-embroidered-yoke-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0119.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 098"
+    },
+    {
+      "id": "tp-0099",
+      "sku": "WST-TP-0099",
+      "name": "Seafoam Glade Flounce Peplum Gathered Top",
+      "slug": "seafoam-glade-flounce-peplum-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0118.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 099"
+    },
+    {
+      "id": "tp-0100",
+      "sku": "WST-TP-0100",
+      "name": "Rose Quartz Gathered Tiered Casual Shirt",
+      "slug": "rose-quartz-gathered-tiered-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0117.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 100"
+    },
+    {
+      "id": "tp-0101",
+      "sku": "WST-TP-0101",
+      "name": "Jaipur Pink Bishop Sleeve Short Kurti Top",
+      "slug": "jaipur-pink-bishop-sleeve-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0116.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 101"
+    },
+    {
+      "id": "tp-0102",
+      "sku": "WST-TP-0102",
+      "name": "Indigo Dabu A-Line Flared Everyday Tunic",
+      "slug": "indigo-dabu-a-line-flared-everyday-tunic",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0115.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 102"
+    },
+    {
+      "id": "tp-0103",
+      "sku": "WST-TP-0103",
+      "name": "Ivory Pearl Ruffle Trimmed Peplum Top",
+      "slug": "ivory-pearl-ruffle-trimmed-peplum-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0114.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 103"
+    },
+    {
+      "id": "tp-0104",
+      "sku": "WST-TP-0104",
+      "name": "Olive Grove Slit Sleeve Boxy Shirt",
+      "slug": "olive-grove-slit-sleeve-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0113.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 104"
+    },
+    {
+      "id": "tp-0105",
+      "sku": "WST-TP-0105",
+      "name": "Mustard Bloom Sanganeri Wooden Buti Tunic Top",
+      "slug": "mustard-bloom-sanganeri-wooden-buti-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0112.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 105"
+    },
+    {
+      "id": "tp-0106",
+      "sku": "WST-TP-0106",
+      "name": "Rust Amber Pintuck Pleated Artisan Blouse",
+      "slug": "rust-amber-pintuck-pleated-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0111.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 106"
+    },
+    {
+      "id": "tp-0107",
+      "sku": "WST-TP-0107",
+      "name": "Sky Azure Mandarin Collar Gathered Top",
+      "slug": "sky-azure-mandarin-collar-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0110.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 107"
+    },
+    {
+      "id": "tp-0108",
+      "sku": "WST-TP-0108",
+      "name": "Charcoal Kashish Button-Down Casual Casual Shirt",
+      "slug": "charcoal-kashish-button-down-casual-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0109.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 108"
+    },
+    {
+      "id": "tp-0109",
+      "sku": "WST-TP-0109",
+      "name": "Coral Peach Embroidered Yoke Short Kurti Top",
+      "slug": "coral-peach-embroidered-yoke-short-kurti-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0108.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 109"
+    },
+    {
+      "id": "tp-0110",
+      "sku": "WST-TP-0110",
+      "name": "Forest Moss Flounce Peplum Everyday Tunic",
+      "slug": "forest-moss-flounce-peplum-everyday-tunic",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0107.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 110"
+    },
+    {
+      "id": "tp-0111",
+      "sku": "WST-TP-0111",
+      "name": "Lavender Mist Gathered Tiered Peplum Top",
+      "slug": "lavender-mist-gathered-tiered-peplum-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0106.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 111"
+    },
+    {
+      "id": "tp-0112",
+      "sku": "WST-TP-0112",
+      "name": "Saffron Sun Bohemian Tie-Neck Boxy Shirt",
+      "slug": "saffron-sun-bohemian-tie-neck-boxy-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0105.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 112"
+    },
+    {
+      "id": "tp-0113",
+      "sku": "WST-TP-0113",
+      "name": "Mint Green Bishop Sleeve Tunic Top",
+      "slug": "mint-green-bishop-sleeve-tunic-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0104.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 113"
+    },
+    {
+      "id": "tp-0114",
+      "sku": "WST-TP-0114",
+      "name": "Maroon Wine A-Line Flared Artisan Blouse",
+      "slug": "maroon-wine-a-line-flared-artisan-blouse",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0103.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 114"
+    },
+    {
+      "id": "tp-0115",
+      "sku": "WST-TP-0115",
+      "name": "Dusty Cedar Ruffle Trimmed Gathered Top",
+      "slug": "dusty-cedar-ruffle-trimmed-gathered-top",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0102.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 115"
+    },
+    {
+      "id": "tp-0116",
+      "sku": "WST-TP-0116",
+      "name": "Turquoise Splash Slit Sleeve Casual Shirt",
+      "slug": "turquoise-splash-slit-sleeve-casual-shirt",
+      "coverPhoto": "/tops-shirts/IMG-20261019-WA0101.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 116"
+    },
+    {
+      "id": "tp-0117",
+      "sku": "WST-TP-0117",
+      "name": "Sunflower Glow Sanganeri Wooden Buti Short Kurti Top",
+      "slug": "sunflower-glow-sanganeri-wooden-buti-short-kurti-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572785911.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 117"
+    },
+    {
+      "id": "tp-0118",
+      "sku": "WST-TP-0118",
+      "name": "Plum Berry Pintuck Pleated Everyday Tunic",
+      "slug": "plum-berry-pintuck-pleated-everyday-tunic",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572738169.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 118"
+    },
+    {
+      "id": "tp-0119",
+      "sku": "WST-TP-0119",
+      "name": "Parchment White Mandarin Collar Peplum Top",
+      "slug": "parchment-white-mandarin-collar-peplum-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1789572710403.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 119"
+    },
+    {
+      "id": "tp-0120",
+      "sku": "WST-TP-0120",
+      "name": "Mocha Bark Button-Down Casual Boxy Shirt",
+      "slug": "mocha-bark-button-down-casual-boxy-shirt",
+      "coverPhoto": "/tops-shirts/FB_IMG_1742603073941.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 120"
+    },
+    {
+      "id": "tp-0121",
+      "sku": "WST-TP-0121",
+      "name": "Blush Petal Embroidered Yoke Tunic Top",
+      "slug": "blush-petal-embroidered-yoke-tunic-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1742603067363.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 121"
+    },
+    {
+      "id": "tp-0122",
+      "sku": "WST-TP-0122",
+      "name": "Cobalt Royal Flounce Peplum Artisan Blouse",
+      "slug": "cobalt-royal-flounce-peplum-artisan-blouse",
+      "coverPhoto": "/tops-shirts/FB_IMG_1742603071891.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 122"
+    },
+    {
+      "id": "tp-0123",
+      "sku": "WST-TP-0123",
+      "name": "Honey Butter Gathered Tiered Gathered Top",
+      "slug": "honey-butter-gathered-tiered-gathered-top",
+      "coverPhoto": "/tops-shirts/FB_IMG_1742603069729.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 123"
+    },
+    {
+      "id": "tp-0124",
+      "sku": "WST-TP-0124",
+      "name": "Seafoam Glade Bohemian Tie-Neck Casual Shirt",
+      "slug": "seafoam-glade-bohemian-tie-neck-casual-shirt",
+      "coverPhoto": "/tops-shirts/5364.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 124"
+    },
+    {
+      "id": "tp-0125",
+      "sku": "WST-TP-0125",
+      "name": "Rose Quartz Bishop Sleeve Short Kurti Top",
+      "slug": "rose-quartz-bishop-sleeve-short-kurti-top",
+      "coverPhoto": "/tops-shirts/5363.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 125"
+    },
+    {
+      "id": "tp-0126",
+      "sku": "WST-TP-0126",
+      "name": "Jaipur Pink Ruffle Trimmed Everyday Tunic",
+      "slug": "jaipur-pink-ruffle-trimmed-everyday-tunic",
+      "coverPhoto": "/tops-shirts/5362.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 126"
+    },
+    {
+      "id": "tp-0127",
+      "sku": "WST-TP-0127",
+      "name": "Indigo Dabu Slit Sleeve Peplum Top",
+      "slug": "indigo-dabu-slit-sleeve-peplum-top",
+      "coverPhoto": "/tops-shirts/5360.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 127"
+    },
+    {
+      "id": "tp-0128",
+      "sku": "WST-TP-0128",
+      "name": "Ivory Pearl Sanganeri Wooden Buti Boxy Shirt",
+      "slug": "ivory-pearl-sanganeri-wooden-buti-boxy-shirt",
+      "coverPhoto": "/tops-shirts/5359.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 128"
+    },
+    {
+      "id": "tp-0129",
+      "sku": "WST-TP-0129",
+      "name": "Olive Grove Pintuck Pleated Tunic Top",
+      "slug": "olive-grove-pintuck-pleated-tunic-top",
+      "coverPhoto": "/tops-shirts/5357.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 129"
+    },
+    {
+      "id": "tp-0130",
+      "sku": "WST-TP-0130",
+      "name": "Mustard Bloom Mandarin Collar Artisan Blouse",
+      "slug": "mustard-bloom-mandarin-collar-artisan-blouse",
+      "coverPhoto": "/tops-shirts/5354.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 130"
+    },
+    {
+      "id": "tp-0131",
+      "sku": "WST-TP-0131",
+      "name": "Rust Amber Button-Down Casual Gathered Top",
+      "slug": "rust-amber-button-down-casual-gathered-top",
+      "coverPhoto": "/tops-shirts/5372.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 131"
+    },
+    {
+      "id": "tp-0132",
+      "sku": "WST-TP-0132",
+      "name": "Sky Azure Embroidered Yoke Casual Shirt",
+      "slug": "sky-azure-embroidered-yoke-casual-shirt",
+      "coverPhoto": "/tops-shirts/5366.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 132"
+    },
+    {
+      "id": "tp-0133",
+      "sku": "WST-TP-0133",
+      "name": "Charcoal Kashish Flounce Peplum Short Kurti Top",
+      "slug": "charcoal-kashish-flounce-peplum-short-kurti-top",
+      "coverPhoto": "/tops-shirts/5322.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 133"
+    },
+    {
+      "id": "tp-0134",
+      "sku": "WST-TP-0134",
+      "name": "Coral Peach Gathered Tiered Everyday Tunic",
+      "slug": "coral-peach-gathered-tiered-everyday-tunic",
+      "coverPhoto": "/tops-shirts/5321.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 134"
+    },
+    {
+      "id": "tp-0135",
+      "sku": "WST-TP-0135",
+      "name": "Forest Moss Bohemian Tie-Neck Peplum Top",
+      "slug": "forest-moss-bohemian-tie-neck-peplum-top",
+      "coverPhoto": "/tops-shirts/5320.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 135"
+    },
+    {
+      "id": "tp-0136",
+      "sku": "WST-TP-0136",
+      "name": "Lavender Mist Bishop Sleeve Boxy Shirt",
+      "slug": "lavender-mist-bishop-sleeve-boxy-shirt",
+      "coverPhoto": "/tops-shirts/5313.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 136"
+    },
+    {
+      "id": "tp-0137",
+      "sku": "WST-TP-0137",
+      "name": "Saffron Sun A-Line Flared Tunic Top",
+      "slug": "saffron-sun-a-line-flared-tunic-top",
+      "coverPhoto": "/tops-shirts/5305.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 137"
+    },
+    {
+      "id": "tp-0138",
+      "sku": "WST-TP-0138",
+      "name": "Mint Green Ruffle Trimmed Artisan Blouse",
+      "slug": "mint-green-ruffle-trimmed-artisan-blouse",
+      "coverPhoto": "/tops-shirts/5281.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 138"
+    },
+    {
+      "id": "tp-0139",
+      "sku": "WST-TP-0139",
+      "name": "Maroon Wine Slit Sleeve Gathered Top",
+      "slug": "maroon-wine-slit-sleeve-gathered-top",
+      "coverPhoto": "/tops-shirts/5295.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 139"
+    },
+    {
+      "id": "tp-0140",
+      "sku": "WST-TP-0140",
+      "name": "Dusty Cedar Sanganeri Wooden Buti Casual Shirt",
+      "slug": "dusty-cedar-sanganeri-wooden-buti-casual-shirt",
+      "coverPhoto": "/tops-shirts/5301.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 140"
+    },
+    {
+      "id": "tp-0141",
+      "sku": "WST-TP-0141",
+      "name": "Turquoise Splash Pintuck Pleated Short Kurti Top",
+      "slug": "turquoise-splash-pintuck-pleated-short-kurti-top",
+      "coverPhoto": "/tops-shirts/5332.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 141"
+    },
+    {
+      "id": "tp-0142",
+      "sku": "WST-TP-0142",
+      "name": "Sunflower Glow Mandarin Collar Everyday Tunic",
+      "slug": "sunflower-glow-mandarin-collar-everyday-tunic",
+      "coverPhoto": "/tops-shirts/5370.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 142"
+    }
+  ]
+}

@@ -1,156 +1,99 @@
-// Wastram Atelier — t-shirts catalogue (Reconstructed 140 Individual Products)
+// Wastram Atelier — t-shirts catalogue (50 Reconstructed Individual Products)
 import { NishoramaProduct } from './nishorama-data';
 
 export const T_SHIRTS: NishoramaProduct[] = [
   {
-    "id": "ts-0001-v1",
-    "title": "Pebble Grey Bio-Washed Crewneck Tee",
-    "slug": "pebble-grey-bio-washed-crewneck-tee",
+    "id": "ts-0001",
+    "partNumber": "WST-TS-0001",
+    "sku": "WST-TS-0001",
+    "name": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee",
+    "title": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee",
+    "slug": "pristine-white-sanganeri-pocket-accent-bio-washed-crewneck-tee",
     "aliasSlugs": [
-      "ts-0001-v1",
-      "pebble-grey-bio-washed-crewneck-tee",
-      "bio-washed-crewneck-tee-var-1",
-      "aditi-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0003",
-      "aria-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0026",
-      "diya-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0022",
-      "elena-mineral-washed-premium-streetwear-t-shirt-tsh-0006",
-      "freya-mineral-washed-premium-streetwear-t-shirt-tsh-0014",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0011",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0038",
-      "luna-boxy-heavyweight-drop-shoulder-tee-tsh-0018",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "maya-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "meera-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0009",
-      "naira-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "noor-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "product-ts-0001",
-      "product-ts-0013",
-      "product-ts-0025",
-      "product-ts-0037",
-      "product-ts-0049",
-      "product-ts-0061",
-      "product-ts-0073",
-      "product-ts-0085",
-      "product-ts-0097",
-      "product-ts-0109",
-      "product-tsh-0003",
-      "product-tsh-0006",
-      "product-tsh-0009",
-      "product-tsh-0011",
-      "product-tsh-0014",
-      "product-tsh-0016",
-      "product-tsh-0018",
-      "product-tsh-0022",
-      "product-tsh-0026",
-      "product-tsh-0038",
-      "saanvi-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "sara-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "suhana-ribbed-crewneck-classic-fit-bio-washed-tee",
       "ts-0001",
-      "ts-0013",
-      "ts-0025",
-      "ts-0037",
-      "ts-0049",
-      "ts-0061",
-      "ts-0073",
-      "ts-0085",
-      "ts-0097",
-      "ts-0109",
-      "tsh-0003",
-      "tsh-0006",
-      "tsh-0009",
-      "tsh-0011",
-      "tsh-0014",
-      "tsh-0016",
-      "tsh-0018",
-      "tsh-0022",
-      "tsh-0026",
-      "tsh-0038"
+      "pristine-white-sanganeri-pocket-accent-bio-washed-crewneck-tee",
+      "product-ts-0001",
+      "pg-001",
+      "product-group-001"
     ],
-    "category": "T-Shirts",
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.85,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
     "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
     "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
     "category_slug": "t-shirts",
     "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
-    "mainImage": "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
+    "badge": "Signature Atelier",
+    "featured_image": "/t-shirts/16412.jpg.jpeg",
+    "mainImage": "/t-shirts/16412.jpg.jpeg",
+    "image": "/t-shirts/16412.jpg.jpeg",
     "images": [
-      "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
-      "/t-shirts/13681.jpg.jpeg",
-      "/t-shirts/16517.jpg.jpeg",
-      "/t-shirts/16518.jpg.jpeg",
-      "/t-shirts/16609.jpg.jpeg"
+      "/t-shirts/16412.jpg.jpeg",
+      "/t-shirts/16411.jpg.jpeg",
+      "/t-shirts/16410.jpg.jpeg",
+      "/t-shirts/16409.jpg.jpeg",
+      "/t-shirts/16408.jpg.jpeg",
+      "/t-shirts/16407.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
-      "/t-shirts/13681.jpg.jpeg",
-      "/t-shirts/16517.jpg.jpeg",
-      "/t-shirts/16518.jpg.jpeg",
-      "/t-shirts/16609.jpg.jpeg"
+      "/t-shirts/16412.jpg.jpeg",
+      "/t-shirts/16411.jpg.jpeg",
+      "/t-shirts/16410.jpg.jpeg",
+      "/t-shirts/16409.jpg.jpeg",
+      "/t-shirts/16408.jpg.jpeg",
+      "/t-shirts/16407.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16412.jpg.jpeg",
+        "caption": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16411.jpg.jpeg",
+        "caption": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16410.jpg.jpeg",
+        "caption": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16409.jpg.jpeg",
+        "caption": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16408.jpg.jpeg",
+        "caption": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16407.jpg.jpeg",
+        "caption": "Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
-          "/t-shirts/13681.jpg.jpeg",
-          "/t-shirts/16517.jpg.jpeg",
-          "/t-shirts/16518.jpg.jpeg",
-          "/t-shirts/16609.jpg.jpeg"
+          "/t-shirts/16412.jpg.jpeg",
+          "/t-shirts/16411.jpg.jpeg",
+          "/t-shirts/16410.jpg.jpeg",
+          "/t-shirts/16409.jpg.jpeg",
+          "/t-shirts/16408.jpg.jpeg",
+          "/t-shirts/16407.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Pebble Grey Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Bio-Washed Crewneck Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0001-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0001-v2",
-    "title": "Sunset Tangerine Bio-Washed Crewneck Tee",
-    "slug": "sunset-tangerine-bio-washed-crewneck-tee",
-    "aliasSlugs": [
-      "ts-0001-v2",
-      "sunset-tangerine-bio-washed-crewneck-tee",
-      "bio-washed-crewneck-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -158,602 +101,138 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Pristine White Sanganeri Pocket Accent Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0001",
+      "Part Number": "WST-TS-0001",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168619574-lajs4cf",
+      "groupName": "Product Group 001",
+      "groupNum": 1,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0002",
+    "partNumber": "WST-TS-0002",
+    "sku": "WST-TS-0002",
+    "name": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt",
+    "title": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt",
+    "slug": "jet-obsidian-black-minimalist-handblock-crest-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0002",
+      "jet-obsidian-black-minimalist-handblock-crest-classic-artisan-t-shirt",
+      "product-ts-0002",
+      "pg-002",
+      "product-group-002"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.86,
+    "reviewCount": 13,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Bestseller",
     "featured_image": "/t-shirts/16380.jpg.jpeg",
     "mainImage": "/t-shirts/16380.jpg.jpeg",
+    "image": "/t-shirts/16380.jpg.jpeg",
     "images": [
       "/t-shirts/16380.jpg.jpeg",
-      "/t-shirts/16422.jpg.jpeg"
+      "/t-shirts/16376.jpg.jpeg",
+      "/t-shirts/16377.jpg.jpeg",
+      "/t-shirts/16378.jpg.jpeg",
+      "/t-shirts/16379.jpg.jpeg",
+      "/t-shirts/16381.jpg.jpeg",
+      "/t-shirts/16382.jpg.jpeg"
     ],
     "gallery": [
       "/t-shirts/16380.jpg.jpeg",
-      "/t-shirts/16422.jpg.jpeg"
+      "/t-shirts/16376.jpg.jpeg",
+      "/t-shirts/16377.jpg.jpeg",
+      "/t-shirts/16378.jpg.jpeg",
+      "/t-shirts/16379.jpg.jpeg",
+      "/t-shirts/16381.jpg.jpeg",
+      "/t-shirts/16382.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16380.jpg.jpeg",
+        "caption": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16376.jpg.jpeg",
+        "caption": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16377.jpg.jpeg",
+        "caption": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16378.jpg.jpeg",
+        "caption": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16379.jpg.jpeg",
+        "caption": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16381.jpg.jpeg",
+        "caption": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16382.jpg.jpeg",
+        "caption": "Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
           "/t-shirts/16380.jpg.jpeg",
-          "/t-shirts/16422.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Bio-Washed Crewneck Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0001-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0001-v3",
-    "title": "Lavender Violet Bio-Washed Crewneck Tee",
-    "slug": "lavender-violet-bio-washed-crewneck-tee",
-    "aliasSlugs": [
-      "ts-0001-v3",
-      "lavender-violet-bio-washed-crewneck-tee",
-      "bio-washed-crewneck-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16406.jpg.jpeg",
-    "mainImage": "/t-shirts/16406.jpg.jpeg",
-    "images": [
-      "/t-shirts/16406.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16406.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/t-shirts/16406.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Lavender Violet Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Lavender Violet Bio-Washed Crewneck Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0001-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0001-v4",
-    "title": "Steel Slate Bio-Washed Crewneck Tee",
-    "slug": "steel-slate-bio-washed-crewneck-tee",
-    "aliasSlugs": [
-      "ts-0001-v4",
-      "steel-slate-bio-washed-crewneck-tee",
-      "bio-washed-crewneck-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16539.jpg.jpeg",
-    "mainImage": "/t-shirts/16539.jpg.jpeg",
-    "images": [
-      "/t-shirts/16539.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16539.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/t-shirts/16539.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Bio-Washed Crewneck Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0001-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0001-v5",
-    "title": "Orchid Pink Bio-Washed Crewneck Tee",
-    "slug": "orchid-pink-bio-washed-crewneck-tee",
-    "aliasSlugs": [
-      "ts-0001-v5",
-      "orchid-pink-bio-washed-crewneck-tee",
-      "bio-washed-crewneck-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16560.jpg.jpeg",
-    "mainImage": "/t-shirts/16560.jpg.jpeg",
-    "images": [
-      "/t-shirts/16560.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16560.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16560.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Bio-Washed Crewneck Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0001-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0001-v6",
-    "title": "Blush Rose Bio-Washed Crewneck Tee",
-    "slug": "blush-rose-bio-washed-crewneck-tee",
-    "aliasSlugs": [
-      "ts-0001-v6",
-      "blush-rose-bio-washed-crewneck-tee",
-      "bio-washed-crewneck-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16562.jpg.jpeg",
-    "mainImage": "/t-shirts/16562.jpg.jpeg",
-    "images": [
-      "/t-shirts/16562.jpg.jpeg",
-      "/t-shirts/16561.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16562.jpg.jpeg",
-      "/t-shirts/16561.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16562.jpg.jpeg",
-          "/t-shirts/16561.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Bio-Washed Crewneck Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0001-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0001-v7",
-    "title": "Aqua Marine Bio-Washed Crewneck Tee",
-    "slug": "aqua-marine-bio-washed-crewneck-tee",
-    "aliasSlugs": [
-      "ts-0001-v7",
-      "aqua-marine-bio-washed-crewneck-tee",
-      "bio-washed-crewneck-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16587.jpg.jpeg",
-    "mainImage": "/t-shirts/16587.jpg.jpeg",
-    "images": [
-      "/t-shirts/16587.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16587.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16587.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Aqua Marine Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Bio-Washed Crewneck Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0001-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v1",
-    "title": "Charcoal Slate Retro Ringer Tee",
-    "slug": "charcoal-slate-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v1",
-      "charcoal-slate-retro-ringer-tee",
-      "retro-ringer-tee-var-1",
-      "alia-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "ananya-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0003",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0026",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0007",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0022",
-      "elena-mineral-washed-premium-streetwear-t-shirt-tsh-0006",
-      "freya-mineral-washed-premium-streetwear-t-shirt-tsh-0014",
-      "isha-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0011",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0038",
-      "janvi-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "kavya-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "kiara-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "luna-boxy-heavyweight-drop-shoulder-tee-tsh-0018",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0017",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "product-ts-0002",
-      "product-ts-0014",
-      "product-ts-0026",
-      "product-ts-0038",
-      "product-ts-0050",
-      "product-ts-0062",
-      "product-ts-0074",
-      "product-ts-0086",
-      "product-ts-0098",
-      "product-ts-0110",
-      "product-tsh-0003",
-      "product-tsh-0004",
-      "product-tsh-0006",
-      "product-tsh-0007",
-      "product-tsh-0008",
-      "product-tsh-0011",
-      "product-tsh-0014",
-      "product-tsh-0016",
-      "product-tsh-0017",
-      "product-tsh-0018",
-      "product-tsh-0019",
-      "product-tsh-0022",
-      "product-tsh-0026",
-      "product-tsh-0038",
-      "riddhi-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "sienna-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "sienna-supima-cotton-luxury-crewneck-tee-tsh-0004",
-      "simran-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "ts-0002",
-      "ts-0014",
-      "ts-0026",
-      "ts-0038",
-      "ts-0050",
-      "ts-0062",
-      "ts-0074",
-      "ts-0086",
-      "ts-0098",
-      "ts-0110",
-      "tsh-0003",
-      "tsh-0004",
-      "tsh-0006",
-      "tsh-0007",
-      "tsh-0008",
-      "tsh-0011",
-      "tsh-0014",
-      "tsh-0016",
-      "tsh-0017",
-      "tsh-0018",
-      "tsh-0019",
-      "tsh-0022",
-      "tsh-0026",
-      "tsh-0038",
-      "zara-contrast-ribbed-collar-retro-ringer-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
-    "mainImage": "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
-    "images": [
-      "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
-      "/t-shirts/16567.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
-      "/t-shirts/16567.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
-          "/t-shirts/16567.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v2",
-    "title": "Teal Slate Retro Ringer Tee",
-    "slug": "teal-slate-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v2",
-      "teal-slate-retro-ringer-tee",
-      "retro-ringer-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13682.jpg.jpeg",
-    "mainImage": "/t-shirts/13682.jpg.jpeg",
-    "images": [
-      "/t-shirts/13682.jpg.jpeg",
-      "/t-shirts/13683.jpg.jpeg",
-      "/t-shirts/16519.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13682.jpg.jpeg",
-      "/t-shirts/13683.jpg.jpeg",
-      "/t-shirts/16519.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/t-shirts/13682.jpg.jpeg",
-          "/t-shirts/13683.jpg.jpeg",
-          "/t-shirts/16519.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v3",
-    "title": "Warm Caramel Retro Ringer Tee",
-    "slug": "warm-caramel-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v3",
-      "warm-caramel-retro-ringer-tee",
-      "retro-ringer-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16381.jpg.jpeg",
-    "mainImage": "/t-shirts/16381.jpg.jpeg",
-    "images": [
-      "/t-shirts/16381.jpg.jpeg",
-      "/t-shirts/16382.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16381.jpg.jpeg",
-      "/t-shirts/16382.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16376.jpg.jpeg",
+          "/t-shirts/16377.jpg.jpeg",
+          "/t-shirts/16378.jpg.jpeg",
+          "/t-shirts/16379.jpg.jpeg",
           "/t-shirts/16381.jpg.jpeg",
           "/t-shirts/16382.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Warm Caramel Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v4",
-    "title": "Aqua Marine Retro Ringer Tee",
-    "slug": "aqua-marine-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v4",
-      "aqua-marine-retro-ringer-tee",
-      "retro-ringer-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -761,59 +240,131 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16383.jpg.jpeg",
-    "mainImage": "/t-shirts/16383.jpg.jpeg",
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Jet Obsidian Black Minimalist Handblock Crest Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0002",
+      "Part Number": "WST-TS-0002",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168637281-l3lh4mw",
+      "groupName": "Product Group 002",
+      "groupNum": 2,
+      "photosCount": 7,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0003",
+    "partNumber": "WST-TS-0003",
+    "sku": "WST-TS-0003",
+    "name": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt",
+    "title": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt",
+    "slug": "earthy-olive-garment-dyed-enzyme-washed-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0003",
+      "earthy-olive-garment-dyed-enzyme-washed-relaxed-oversized-t-shirt",
+      "product-ts-0003",
+      "pg-003",
+      "product-group-003"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.87,
+    "reviewCount": 14,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Popular",
+    "featured_image": "/t-shirts/16391.jpg.jpeg",
+    "mainImage": "/t-shirts/16391.jpg.jpeg",
+    "image": "/t-shirts/16391.jpg.jpeg",
     "images": [
-      "/t-shirts/16383.jpg.jpeg",
-      "/t-shirts/16610.jpg.jpeg"
+      "/t-shirts/16391.jpg.jpeg",
+      "/t-shirts/16392.jpg.jpeg",
+      "/t-shirts/16393.jpg.jpeg",
+      "/t-shirts/16394.jpg.jpeg",
+      "/t-shirts/16395.jpg.jpeg",
+      "/t-shirts/16389.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16383.jpg.jpeg",
-      "/t-shirts/16610.jpg.jpeg"
+      "/t-shirts/16391.jpg.jpeg",
+      "/t-shirts/16392.jpg.jpeg",
+      "/t-shirts/16393.jpg.jpeg",
+      "/t-shirts/16394.jpg.jpeg",
+      "/t-shirts/16395.jpg.jpeg",
+      "/t-shirts/16389.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16391.jpg.jpeg",
+        "caption": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16392.jpg.jpeg",
+        "caption": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16393.jpg.jpeg",
+        "caption": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16394.jpg.jpeg",
+        "caption": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16395.jpg.jpeg",
+        "caption": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16389.jpg.jpeg",
+        "caption": "Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16383.jpg.jpeg",
-          "/t-shirts/16610.jpg.jpeg"
+          "/t-shirts/16391.jpg.jpeg",
+          "/t-shirts/16392.jpg.jpeg",
+          "/t-shirts/16393.jpg.jpeg",
+          "/t-shirts/16394.jpg.jpeg",
+          "/t-shirts/16395.jpg.jpeg",
+          "/t-shirts/16389.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Aqua Marine Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v5",
-    "title": "Sky Azure Retro Ringer Tee",
-    "slug": "sky-azure-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v5",
-      "sky-azure-retro-ringer-tee",
-      "retro-ringer-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -821,113 +372,131 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16384.jpg.jpeg",
-    "mainImage": "/t-shirts/16384.jpg.jpeg",
-    "images": [
-      "/t-shirts/16384.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16384.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/t-shirts/16384.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sky Azure Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Sky Azure Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Earthy Olive Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-TS-0002-V5",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0003",
+      "Part Number": "WST-TS-0003",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168669991-64e39wa",
+      "groupName": "Product Group 003",
+      "groupNum": 3,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ts-0002-v6",
-    "title": "Steel Slate Retro Ringer Tee",
-    "slug": "steel-slate-retro-ringer-tee",
+    "id": "ts-0004",
+    "partNumber": "WST-TS-0004",
+    "sku": "WST-TS-0004",
+    "name": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee",
+    "title": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee",
+    "slug": "warm-ochre-drop-shoulder-oversized-pocket-detail-cotton-tee",
     "aliasSlugs": [
-      "ts-0002-v6",
-      "steel-slate-retro-ringer-tee",
-      "retro-ringer-tee-var-6"
+      "ts-0004",
+      "warm-ochre-drop-shoulder-oversized-pocket-detail-cotton-tee",
+      "product-ts-0004",
+      "pg-004",
+      "product-group-004"
     ],
-    "category": "T-Shirts",
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.88,
+    "reviewCount": 15,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
     "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
     "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
     "category_slug": "t-shirts",
     "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
+    "badge": "Atelier Edition",
     "featured_image": "/t-shirts/16385.jpg.jpeg",
     "mainImage": "/t-shirts/16385.jpg.jpeg",
+    "image": "/t-shirts/16385.jpg.jpeg",
     "images": [
-      "/t-shirts/16385.jpg.jpeg"
+      "/t-shirts/16385.jpg.jpeg",
+      "/t-shirts/16383.jpg.jpeg",
+      "/t-shirts/16384.jpg.jpeg",
+      "/t-shirts/16386.jpg.jpeg",
+      "/t-shirts/16387.jpg.jpeg",
+      "/t-shirts/16388.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16385.jpg.jpeg"
+      "/t-shirts/16385.jpg.jpeg",
+      "/t-shirts/16383.jpg.jpeg",
+      "/t-shirts/16384.jpg.jpeg",
+      "/t-shirts/16386.jpg.jpeg",
+      "/t-shirts/16387.jpg.jpeg",
+      "/t-shirts/16388.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16385.jpg.jpeg",
+        "caption": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16383.jpg.jpeg",
+        "caption": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16384.jpg.jpeg",
+        "caption": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16386.jpg.jpeg",
+        "caption": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16387.jpg.jpeg",
+        "caption": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16388.jpg.jpeg",
+        "caption": "Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16385.jpg.jpeg"
+          "/t-shirts/16385.jpg.jpeg",
+          "/t-shirts/16383.jpg.jpeg",
+          "/t-shirts/16384.jpg.jpeg",
+          "/t-shirts/16386.jpg.jpeg",
+          "/t-shirts/16387.jpg.jpeg",
+          "/t-shirts/16388.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Steel Slate Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v7",
-    "title": "Blush Rose Retro Ringer Tee",
-    "slug": "blush-rose-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v7",
-      "blush-rose-retro-ringer-tee",
-      "retro-ringer-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -935,71 +504,124 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16407.jpg.jpeg",
-    "mainImage": "/t-shirts/16407.jpg.jpeg",
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Warm Ochre Drop-Shoulder Oversized Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0004",
+      "Part Number": "WST-TS-0004",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168707991-dqxzfw1",
+      "groupName": "Product Group 004",
+      "groupNum": 4,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0005",
+    "partNumber": "WST-TS-0005",
+    "sku": "WST-TS-0005",
+    "name": "Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee",
+    "title": "Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee",
+    "slug": "heather-slate-grey-classic-ribbed-crewneck-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0005",
+      "heather-slate-grey-classic-ribbed-crewneck-drop-shoulder-street-tee",
+      "product-ts-0005",
+      "pg-005",
+      "product-group-005"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.89,
+    "reviewCount": 16,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Handloom Luxe",
+    "featured_image": "/t-shirts/16400.jpg.jpeg",
+    "mainImage": "/t-shirts/16400.jpg.jpeg",
+    "image": "/t-shirts/16400.jpg.jpeg",
     "images": [
-      "/t-shirts/16407.jpg.jpeg",
-      "/t-shirts/16540.jpg.jpeg",
-      "/t-shirts/16541.jpg.jpeg",
-      "/t-shirts/16563.jpg.jpeg",
-      "/t-shirts/16564.jpg.jpeg",
-      "/t-shirts/16566.jpg.jpeg"
+      "/t-shirts/16400.jpg.jpeg",
+      "/t-shirts/16396.jpg.jpeg",
+      "/t-shirts/16397.jpg.jpeg",
+      "/t-shirts/16398.jpg.jpeg",
+      "/t-shirts/16399.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16407.jpg.jpeg",
-      "/t-shirts/16540.jpg.jpeg",
-      "/t-shirts/16541.jpg.jpeg",
-      "/t-shirts/16563.jpg.jpeg",
-      "/t-shirts/16564.jpg.jpeg",
-      "/t-shirts/16566.jpg.jpeg"
+      "/t-shirts/16400.jpg.jpeg",
+      "/t-shirts/16396.jpg.jpeg",
+      "/t-shirts/16397.jpg.jpeg",
+      "/t-shirts/16398.jpg.jpeg",
+      "/t-shirts/16399.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16400.jpg.jpeg",
+        "caption": "Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16396.jpg.jpeg",
+        "caption": "Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16397.jpg.jpeg",
+        "caption": "Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16398.jpg.jpeg",
+        "caption": "Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16399.jpg.jpeg",
+        "caption": "Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16407.jpg.jpeg",
-          "/t-shirts/16540.jpg.jpeg",
-          "/t-shirts/16541.jpg.jpeg",
-          "/t-shirts/16563.jpg.jpeg",
-          "/t-shirts/16564.jpg.jpeg",
-          "/t-shirts/16566.jpg.jpeg"
+          "/t-shirts/16400.jpg.jpeg",
+          "/t-shirts/16396.jpg.jpeg",
+          "/t-shirts/16397.jpg.jpeg",
+          "/t-shirts/16398.jpg.jpeg",
+          "/t-shirts/16399.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Blush Rose Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v8",
-    "title": "Sunset Tangerine Retro Ringer Tee",
-    "slug": "sunset-tangerine-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v8",
-      "sunset-tangerine-retro-ringer-tee",
-      "retro-ringer-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1007,56 +629,402 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Heather Slate Grey Classic Ribbed Crewneck Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0005",
+      "Part Number": "WST-TS-0005",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168717009-pelqthy",
+      "groupName": "Product Group 005",
+      "groupNum": 5,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0006",
+    "partNumber": "WST-TS-0006",
+    "sku": "WST-TS-0006",
+    "name": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee",
+    "title": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee",
+    "slug": "royal-navy-clean-tailored-fit-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0006",
+      "royal-navy-clean-tailored-fit-bio-washed-crewneck-tee",
+      "product-ts-0006",
+      "pg-006",
+      "product-group-006"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.9,
+    "reviewCount": 17,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Seasonal Release",
+    "featured_image": "/t-shirts/16402.jpg.jpeg",
+    "mainImage": "/t-shirts/16402.jpg.jpeg",
+    "image": "/t-shirts/16402.jpg.jpeg",
+    "images": [
+      "/t-shirts/16402.jpg.jpeg",
+      "/t-shirts/16401.jpg.jpeg",
+      "/t-shirts/16403.jpg.jpeg",
+      "/t-shirts/16404.jpg.jpeg",
+      "/t-shirts/16405.jpg.jpeg",
+      "/t-shirts/16406.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16402.jpg.jpeg",
+      "/t-shirts/16401.jpg.jpeg",
+      "/t-shirts/16403.jpg.jpeg",
+      "/t-shirts/16404.jpg.jpeg",
+      "/t-shirts/16405.jpg.jpeg",
+      "/t-shirts/16406.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16402.jpg.jpeg",
+        "caption": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16401.jpg.jpeg",
+        "caption": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16403.jpg.jpeg",
+        "caption": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16404.jpg.jpeg",
+        "caption": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16405.jpg.jpeg",
+        "caption": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16406.jpg.jpeg",
+        "caption": "Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16402.jpg.jpeg",
+          "/t-shirts/16401.jpg.jpeg",
+          "/t-shirts/16403.jpg.jpeg",
+          "/t-shirts/16404.jpg.jpeg",
+          "/t-shirts/16405.jpg.jpeg",
+          "/t-shirts/16406.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Navy Clean Tailored Fit Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0006",
+      "Part Number": "WST-TS-0006",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168732519-1hdean9",
+      "groupName": "Product Group 006",
+      "groupNum": 6,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0007",
+    "partNumber": "WST-TS-0007",
+    "sku": "WST-TS-0007",
+    "name": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt",
+    "title": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt",
+    "slug": "terracotta-rust-sanganeri-pocket-accent-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0007",
+      "terracotta-rust-sanganeri-pocket-accent-classic-artisan-t-shirt",
+      "product-ts-0007",
+      "pg-007",
+      "product-group-007"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.91,
+    "reviewCount": 18,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Special",
+    "featured_image": "/t-shirts/16416.jpg.jpeg",
+    "mainImage": "/t-shirts/16416.jpg.jpeg",
+    "image": "/t-shirts/16416.jpg.jpeg",
+    "images": [
+      "/t-shirts/16416.jpg.jpeg",
+      "/t-shirts/16415.jpg.jpeg",
+      "/t-shirts/16417.jpg.jpeg",
+      "/t-shirts/16418.jpg.jpeg",
+      "/t-shirts/16413.jpg.jpeg",
+      "/t-shirts/16414.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16416.jpg.jpeg",
+      "/t-shirts/16415.jpg.jpeg",
+      "/t-shirts/16417.jpg.jpeg",
+      "/t-shirts/16418.jpg.jpeg",
+      "/t-shirts/16413.jpg.jpeg",
+      "/t-shirts/16414.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16416.jpg.jpeg",
+        "caption": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16415.jpg.jpeg",
+        "caption": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16417.jpg.jpeg",
+        "caption": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16418.jpg.jpeg",
+        "caption": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16413.jpg.jpeg",
+        "caption": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16414.jpg.jpeg",
+        "caption": "Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16416.jpg.jpeg",
+          "/t-shirts/16415.jpg.jpeg",
+          "/t-shirts/16417.jpg.jpeg",
+          "/t-shirts/16418.jpg.jpeg",
+          "/t-shirts/16413.jpg.jpeg",
+          "/t-shirts/16414.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Terracotta Rust Sanganeri Pocket Accent Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0007",
+      "Part Number": "WST-TS-0007",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168739705-m0i23s2",
+      "groupName": "Product Group 007",
+      "groupNum": 7,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0008",
+    "partNumber": "WST-TS-0008",
+    "sku": "WST-TS-0008",
+    "name": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt",
+    "title": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt",
+    "slug": "sage-glade-minimalist-handblock-crest-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0008",
+      "sage-glade-minimalist-handblock-crest-relaxed-oversized-t-shirt",
+      "product-ts-0008",
+      "pg-008",
+      "product-group-008"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.92,
+    "reviewCount": 19,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Signature Atelier",
     "featured_image": "/t-shirts/16423.jpg.jpeg",
     "mainImage": "/t-shirts/16423.jpg.jpeg",
+    "image": "/t-shirts/16423.jpg.jpeg",
     "images": [
-      "/t-shirts/16423.jpg.jpeg"
+      "/t-shirts/16423.jpg.jpeg",
+      "/t-shirts/16426.jpg.jpeg",
+      "/t-shirts/16425.jpg.jpeg",
+      "/t-shirts/16421.jpg.jpeg",
+      "/t-shirts/16422.jpg.jpeg",
+      "/t-shirts/16424.jpg.jpeg",
+      "/t-shirts/16420.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16423.jpg.jpeg"
+      "/t-shirts/16423.jpg.jpeg",
+      "/t-shirts/16426.jpg.jpeg",
+      "/t-shirts/16425.jpg.jpeg",
+      "/t-shirts/16421.jpg.jpeg",
+      "/t-shirts/16422.jpg.jpeg",
+      "/t-shirts/16424.jpg.jpeg",
+      "/t-shirts/16420.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16423.jpg.jpeg",
+        "caption": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16426.jpg.jpeg",
+        "caption": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16425.jpg.jpeg",
+        "caption": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16421.jpg.jpeg",
+        "caption": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16422.jpg.jpeg",
+        "caption": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16424.jpg.jpeg",
+        "caption": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16420.jpg.jpeg",
+        "caption": "Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16423.jpg.jpeg"
+          "/t-shirts/16423.jpg.jpeg",
+          "/t-shirts/16426.jpg.jpeg",
+          "/t-shirts/16425.jpg.jpeg",
+          "/t-shirts/16421.jpg.jpeg",
+          "/t-shirts/16422.jpg.jpeg",
+          "/t-shirts/16424.jpg.jpeg",
+          "/t-shirts/16420.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Sunset Tangerine Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v9",
-    "title": "Orchid Pink Retro Ringer Tee",
-    "slug": "orchid-pink-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v9",
-      "orchid-pink-retro-ringer-tee",
-      "retro-ringer-tee-var-9"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1064,56 +1032,131 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16565.jpg.jpeg",
-    "mainImage": "/t-shirts/16565.jpg.jpeg",
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sage Glade Minimalist Handblock Crest Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0008",
+      "Part Number": "WST-TS-0008",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168751020-w4mip8b",
+      "groupName": "Product Group 008",
+      "groupNum": 8,
+      "photosCount": 7,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0009",
+    "partNumber": "WST-TS-0009",
+    "sku": "WST-TS-0009",
+    "name": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee",
+    "title": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee",
+    "slug": "dusty-rose-garment-dyed-enzyme-washed-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0009",
+      "dusty-rose-garment-dyed-enzyme-washed-pocket-detail-cotton-tee",
+      "product-ts-0009",
+      "pg-009",
+      "product-group-009"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.93,
+    "reviewCount": 20,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Bestseller",
+    "featured_image": "/t-shirts/16429.jpg.jpeg",
+    "mainImage": "/t-shirts/16429.jpg.jpeg",
+    "image": "/t-shirts/16429.jpg.jpeg",
     "images": [
-      "/t-shirts/16565.jpg.jpeg"
+      "/t-shirts/16429.jpg.jpeg",
+      "/t-shirts/16428.jpg.jpeg",
+      "/t-shirts/16432.jpg.jpeg",
+      "/t-shirts/16431.jpg.jpeg",
+      "/t-shirts/16430.jpg.jpeg",
+      "/t-shirts/16427.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16565.jpg.jpeg"
+      "/t-shirts/16429.jpg.jpeg",
+      "/t-shirts/16428.jpg.jpeg",
+      "/t-shirts/16432.jpg.jpeg",
+      "/t-shirts/16431.jpg.jpeg",
+      "/t-shirts/16430.jpg.jpeg",
+      "/t-shirts/16427.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16429.jpg.jpeg",
+        "caption": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16428.jpg.jpeg",
+        "caption": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16432.jpg.jpeg",
+        "caption": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16431.jpg.jpeg",
+        "caption": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16430.jpg.jpeg",
+        "caption": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16427.jpg.jpeg",
+        "caption": "Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16565.jpg.jpeg"
+          "/t-shirts/16429.jpg.jpeg",
+          "/t-shirts/16428.jpg.jpeg",
+          "/t-shirts/16432.jpg.jpeg",
+          "/t-shirts/16431.jpg.jpeg",
+          "/t-shirts/16430.jpg.jpeg",
+          "/t-shirts/16427.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Orchid Pink Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0002-v10",
-    "title": "Ivory Cream Retro Ringer Tee",
-    "slug": "ivory-cream-retro-ringer-tee",
-    "aliasSlugs": [
-      "ts-0002-v10",
-      "ivory-cream-retro-ringer-tee",
-      "retro-ringer-tee-var-10"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1121,119 +1164,131 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16588.jpg.jpeg",
-    "mainImage": "/t-shirts/16588.jpg.jpeg",
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Dusty Rose Garment-Dyed Enzyme Washed Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0009",
+      "Part Number": "WST-TS-0009",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168760545-xguveab",
+      "groupName": "Product Group 009",
+      "groupNum": 9,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0010",
+    "partNumber": "WST-TS-0010",
+    "sku": "WST-TS-0010",
+    "name": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee",
+    "title": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee",
+    "slug": "mustard-sun-drop-shoulder-oversized-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0010",
+      "mustard-sun-drop-shoulder-oversized-drop-shoulder-street-tee",
+      "product-ts-0010",
+      "pg-010",
+      "product-group-010"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.94,
+    "reviewCount": 21,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Popular",
+    "featured_image": "/t-shirts/16437.jpg.jpeg",
+    "mainImage": "/t-shirts/16437.jpg.jpeg",
+    "image": "/t-shirts/16437.jpg.jpeg",
     "images": [
-      "/t-shirts/16588.jpg.jpeg"
+      "/t-shirts/16437.jpg.jpeg",
+      "/t-shirts/16438.jpg.jpeg",
+      "/t-shirts/16434.jpg.jpeg",
+      "/t-shirts/16435.jpg.jpeg",
+      "/t-shirts/16436.jpg.jpeg",
+      "/t-shirts/16433.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16588.jpg.jpeg"
+      "/t-shirts/16437.jpg.jpeg",
+      "/t-shirts/16438.jpg.jpeg",
+      "/t-shirts/16434.jpg.jpeg",
+      "/t-shirts/16435.jpg.jpeg",
+      "/t-shirts/16436.jpg.jpeg",
+      "/t-shirts/16433.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16437.jpg.jpeg",
+        "caption": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16438.jpg.jpeg",
+        "caption": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16434.jpg.jpeg",
+        "caption": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16435.jpg.jpeg",
+        "caption": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16436.jpg.jpeg",
+        "caption": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16433.jpg.jpeg",
+        "caption": "Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16588.jpg.jpeg"
+          "/t-shirts/16437.jpg.jpeg",
+          "/t-shirts/16438.jpg.jpeg",
+          "/t-shirts/16434.jpg.jpeg",
+          "/t-shirts/16435.jpg.jpeg",
+          "/t-shirts/16436.jpg.jpeg",
+          "/t-shirts/16433.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Ivory Cream Retro Ringer Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Retro Ringer Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0002-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0003-v1",
-    "title": "Pebble Grey Embroidered Pocket Tee",
-    "slug": "pebble-grey-embroidered-pocket-tee",
-    "aliasSlugs": [
-      "ts-0003-v1",
-      "pebble-grey-embroidered-pocket-tee",
-      "embroidered-pocket-tee-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "avani-minimalist-embroidered-chest-pocket-tee",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0026",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0007",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0022",
-      "elena-minimalist-embroidered-chest-pocket-tee",
-      "freya-mineral-washed-premium-streetwear-t-shirt-tsh-0014",
-      "ishita-minimalist-embroidered-chest-pocket-tee",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0038",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "khushi-minimalist-embroidered-chest-pocket-tee",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0017",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0023",
-      "product-ts-0003",
-      "product-ts-0015",
-      "product-ts-0027",
-      "product-ts-0039",
-      "product-ts-0051",
-      "product-ts-0063",
-      "product-ts-0075",
-      "product-ts-0087",
-      "product-ts-0099",
-      "product-ts-0111",
-      "product-tsh-0004",
-      "product-tsh-0007",
-      "product-tsh-0010",
-      "product-tsh-0012",
-      "product-tsh-0014",
-      "product-tsh-0017",
-      "product-tsh-0019",
-      "product-tsh-0022",
-      "product-tsh-0023",
-      "product-tsh-0026",
-      "product-tsh-0038",
-      "radhika-minimalist-embroidered-chest-pocket-tee",
-      "reet-minimalist-embroidered-chest-pocket-tee",
-      "rhea-minimalist-embroidered-chest-pocket-tee",
-      "sienna-supima-cotton-luxury-crewneck-tee-tsh-0004",
-      "sitara-minimalist-embroidered-chest-pocket-tee",
-      "tara-minimalist-embroidered-chest-pocket-tee",
-      "trisha-minimalist-embroidered-chest-pocket-tee",
-      "ts-0003",
-      "ts-0015",
-      "ts-0027",
-      "ts-0039",
-      "ts-0051",
-      "ts-0063",
-      "ts-0075",
-      "ts-0087",
-      "ts-0099",
-      "ts-0111",
-      "tsh-0004",
-      "tsh-0007",
-      "tsh-0010",
-      "tsh-0012",
-      "tsh-0014",
-      "tsh-0017",
-      "tsh-0019",
-      "tsh-0022",
-      "tsh-0023",
-      "tsh-0026",
-      "tsh-0038"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1241,71 +1296,1721 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/FB_IMG_1793535765481.jpg.jpeg",
-    "mainImage": "/t-shirts/FB_IMG_1793535765481.jpg.jpeg",
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Mustard Sun Drop-Shoulder Oversized Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0010",
+      "Part Number": "WST-TS-0010",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168769952-ws01024",
+      "groupName": "Product Group 010",
+      "groupNum": 10,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0011",
+    "partNumber": "WST-TS-0011",
+    "sku": "WST-TS-0011",
+    "name": "Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee",
+    "title": "Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee",
+    "slug": "deep-pine-classic-ribbed-crewneck-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0011",
+      "deep-pine-classic-ribbed-crewneck-bio-washed-crewneck-tee",
+      "product-ts-0011",
+      "pg-011",
+      "product-group-011"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.85,
+    "reviewCount": 22,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Edition",
+    "featured_image": "/t-shirts/16521.jpg.jpeg",
+    "mainImage": "/t-shirts/16521.jpg.jpeg",
+    "image": "/t-shirts/16521.jpg.jpeg",
     "images": [
-      "/t-shirts/FB_IMG_1793535765481.jpg.jpeg",
-      "/t-shirts/13684.jpg.jpeg",
-      "/t-shirts/16520.jpg.jpeg",
       "/t-shirts/16521.jpg.jpeg",
-      "/t-shirts/16589.jpg (1).jpeg",
-      "/t-shirts/16589.jpg.jpeg"
+      "/t-shirts/16518.jpg.jpeg",
+      "/t-shirts/16519.jpg.jpeg",
+      "/t-shirts/16520.jpg.jpeg",
+      "/t-shirts/16517.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/FB_IMG_1793535765481.jpg.jpeg",
-      "/t-shirts/13684.jpg.jpeg",
-      "/t-shirts/16520.jpg.jpeg",
       "/t-shirts/16521.jpg.jpeg",
-      "/t-shirts/16589.jpg (1).jpeg",
-      "/t-shirts/16589.jpg.jpeg"
+      "/t-shirts/16518.jpg.jpeg",
+      "/t-shirts/16519.jpg.jpeg",
+      "/t-shirts/16520.jpg.jpeg",
+      "/t-shirts/16517.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16521.jpg.jpeg",
+        "caption": "Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16518.jpg.jpeg",
+        "caption": "Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16519.jpg.jpeg",
+        "caption": "Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16520.jpg.jpeg",
+        "caption": "Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16517.jpg.jpeg",
+        "caption": "Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/FB_IMG_1793535765481.jpg.jpeg",
-          "/t-shirts/13684.jpg.jpeg",
-          "/t-shirts/16520.jpg.jpeg",
           "/t-shirts/16521.jpg.jpeg",
+          "/t-shirts/16518.jpg.jpeg",
+          "/t-shirts/16519.jpg.jpeg",
+          "/t-shirts/16520.jpg.jpeg",
+          "/t-shirts/16517.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Deep Pine Classic Ribbed Crewneck Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0011",
+      "Part Number": "WST-TS-0011",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168775888-1qdx4oq",
+      "groupName": "Product Group 011",
+      "groupNum": 11,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0012",
+    "partNumber": "WST-TS-0012",
+    "sku": "WST-TS-0012",
+    "name": "Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt",
+    "title": "Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt",
+    "slug": "charcoal-smoke-clean-tailored-fit-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0012",
+      "charcoal-smoke-clean-tailored-fit-classic-artisan-t-shirt",
+      "product-ts-0012",
+      "pg-012",
+      "product-group-012"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.86,
+    "reviewCount": 23,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Handloom Luxe",
+    "featured_image": "/t-shirts/16525.jpg.jpeg",
+    "mainImage": "/t-shirts/16525.jpg.jpeg",
+    "image": "/t-shirts/16525.jpg.jpeg",
+    "images": [
+      "/t-shirts/16525.jpg.jpeg",
+      "/t-shirts/16523.jpg.jpeg",
+      "/t-shirts/16524.jpg.jpeg",
+      "/t-shirts/16529.jpg.jpeg",
+      "/t-shirts/16522.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16525.jpg.jpeg",
+      "/t-shirts/16523.jpg.jpeg",
+      "/t-shirts/16524.jpg.jpeg",
+      "/t-shirts/16529.jpg.jpeg",
+      "/t-shirts/16522.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16525.jpg.jpeg",
+        "caption": "Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16523.jpg.jpeg",
+        "caption": "Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16524.jpg.jpeg",
+        "caption": "Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16529.jpg.jpeg",
+        "caption": "Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16522.jpg.jpeg",
+        "caption": "Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16525.jpg.jpeg",
+          "/t-shirts/16523.jpg.jpeg",
+          "/t-shirts/16524.jpg.jpeg",
+          "/t-shirts/16529.jpg.jpeg",
+          "/t-shirts/16522.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Charcoal Smoke Clean Tailored Fit Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0012",
+      "Part Number": "WST-TS-0012",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168786451-8ifkw1z",
+      "groupName": "Product Group 012",
+      "groupNum": 12,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0013",
+    "partNumber": "WST-TS-0013",
+    "sku": "WST-TS-0013",
+    "name": "Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt",
+    "title": "Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt",
+    "slug": "sand-beige-sanganeri-pocket-accent-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0013",
+      "sand-beige-sanganeri-pocket-accent-relaxed-oversized-t-shirt",
+      "product-ts-0013",
+      "pg-013",
+      "product-group-013"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.87,
+    "reviewCount": 24,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Seasonal Release",
+    "featured_image": "/t-shirts/16534.jpg.jpeg",
+    "mainImage": "/t-shirts/16534.jpg.jpeg",
+    "image": "/t-shirts/16534.jpg.jpeg",
+    "images": [
+      "/t-shirts/16534.jpg.jpeg",
+      "/t-shirts/16530.jpg.jpeg",
+      "/t-shirts/16528.jpg.jpeg",
+      "/t-shirts/16527.jpg.jpeg",
+      "/t-shirts/16526.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16534.jpg.jpeg",
+      "/t-shirts/16530.jpg.jpeg",
+      "/t-shirts/16528.jpg.jpeg",
+      "/t-shirts/16527.jpg.jpeg",
+      "/t-shirts/16526.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16534.jpg.jpeg",
+        "caption": "Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16530.jpg.jpeg",
+        "caption": "Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16528.jpg.jpeg",
+        "caption": "Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16527.jpg.jpeg",
+        "caption": "Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16526.jpg.jpeg",
+        "caption": "Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16534.jpg.jpeg",
+          "/t-shirts/16530.jpg.jpeg",
+          "/t-shirts/16528.jpg.jpeg",
+          "/t-shirts/16527.jpg.jpeg",
+          "/t-shirts/16526.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sand Beige Sanganeri Pocket Accent Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0013",
+      "Part Number": "WST-TS-0013",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168792966-03plmu8",
+      "groupName": "Product Group 013",
+      "groupNum": 13,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0014",
+    "partNumber": "WST-TS-0014",
+    "sku": "WST-TS-0014",
+    "name": "Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee",
+    "title": "Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee",
+    "slug": "crimson-berry-minimalist-handblock-crest-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0014",
+      "crimson-berry-minimalist-handblock-crest-pocket-detail-cotton-tee",
+      "product-ts-0014",
+      "pg-014",
+      "product-group-014"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.88,
+    "reviewCount": 25,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Special",
+    "featured_image": "/t-shirts/16536.jpg.jpeg",
+    "mainImage": "/t-shirts/16536.jpg.jpeg",
+    "image": "/t-shirts/16536.jpg.jpeg",
+    "images": [
+      "/t-shirts/16536.jpg.jpeg",
+      "/t-shirts/16535.jpg.jpeg",
+      "/t-shirts/16533.jpg.jpeg",
+      "/t-shirts/16532.jpg.jpeg",
+      "/t-shirts/16531.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16536.jpg.jpeg",
+      "/t-shirts/16535.jpg.jpeg",
+      "/t-shirts/16533.jpg.jpeg",
+      "/t-shirts/16532.jpg.jpeg",
+      "/t-shirts/16531.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16536.jpg.jpeg",
+        "caption": "Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16535.jpg.jpeg",
+        "caption": "Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16533.jpg.jpeg",
+        "caption": "Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16532.jpg.jpeg",
+        "caption": "Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16531.jpg.jpeg",
+        "caption": "Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16536.jpg.jpeg",
+          "/t-shirts/16535.jpg.jpeg",
+          "/t-shirts/16533.jpg.jpeg",
+          "/t-shirts/16532.jpg.jpeg",
+          "/t-shirts/16531.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Crimson Berry Minimalist Handblock Crest Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0014",
+      "Part Number": "WST-TS-0014",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168798867-x98eowu",
+      "groupName": "Product Group 014",
+      "groupNum": 14,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0015",
+    "partNumber": "WST-TS-0015",
+    "sku": "WST-TS-0015",
+    "name": "Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee",
+    "title": "Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee",
+    "slug": "air-force-blue-garment-dyed-enzyme-washed-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0015",
+      "air-force-blue-garment-dyed-enzyme-washed-drop-shoulder-street-tee",
+      "product-ts-0015",
+      "pg-015",
+      "product-group-015"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.89,
+    "reviewCount": 26,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Signature Atelier",
+    "featured_image": "/t-shirts/16541.jpg.jpeg",
+    "mainImage": "/t-shirts/16541.jpg.jpeg",
+    "image": "/t-shirts/16541.jpg.jpeg",
+    "images": [
+      "/t-shirts/16541.jpg.jpeg",
+      "/t-shirts/16540.jpg.jpeg",
+      "/t-shirts/16539.jpg.jpeg",
+      "/t-shirts/16537.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16541.jpg.jpeg",
+      "/t-shirts/16540.jpg.jpeg",
+      "/t-shirts/16539.jpg.jpeg",
+      "/t-shirts/16537.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16541.jpg.jpeg",
+        "caption": "Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16540.jpg.jpeg",
+        "caption": "Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16539.jpg.jpeg",
+        "caption": "Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16537.jpg.jpeg",
+        "caption": "Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16541.jpg.jpeg",
+          "/t-shirts/16540.jpg.jpeg",
+          "/t-shirts/16539.jpg.jpeg",
+          "/t-shirts/16537.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Air Force Blue Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0015",
+      "Part Number": "WST-TS-0015",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168803465-ymehwcc",
+      "groupName": "Product Group 015",
+      "groupNum": 15,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0016",
+    "partNumber": "WST-TS-0016",
+    "sku": "WST-TS-0016",
+    "name": "Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee",
+    "title": "Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee",
+    "slug": "pristine-white-classic-ribbed-crewneck-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0016",
+      "pristine-white-classic-ribbed-crewneck-bio-washed-crewneck-tee",
+      "product-ts-0016",
+      "pg-016",
+      "product-group-016"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.9,
+    "reviewCount": 27,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Bestseller",
+    "featured_image": "/t-shirts/16545.jpg.jpeg",
+    "mainImage": "/t-shirts/16545.jpg.jpeg",
+    "image": "/t-shirts/16545.jpg.jpeg",
+    "images": [
+      "/t-shirts/16545.jpg.jpeg",
+      "/t-shirts/16544.jpg.jpeg",
+      "/t-shirts/16543.jpg.jpeg",
+      "/t-shirts/16542.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16545.jpg.jpeg",
+      "/t-shirts/16544.jpg.jpeg",
+      "/t-shirts/16543.jpg.jpeg",
+      "/t-shirts/16542.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16545.jpg.jpeg",
+        "caption": "Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16544.jpg.jpeg",
+        "caption": "Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16543.jpg.jpeg",
+        "caption": "Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16542.jpg.jpeg",
+        "caption": "Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16545.jpg.jpeg",
+          "/t-shirts/16544.jpg.jpeg",
+          "/t-shirts/16543.jpg.jpeg",
+          "/t-shirts/16542.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Pristine White Classic Ribbed Crewneck Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0016",
+      "Part Number": "WST-TS-0016",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168808555-c74114y",
+      "groupName": "Product Group 016",
+      "groupNum": 16,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0017",
+    "partNumber": "WST-TS-0017",
+    "sku": "WST-TS-0017",
+    "name": "Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt",
+    "title": "Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt",
+    "slug": "jet-obsidian-black-clean-tailored-fit-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0017",
+      "jet-obsidian-black-clean-tailored-fit-classic-artisan-t-shirt",
+      "product-ts-0017",
+      "pg-017",
+      "product-group-017"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.91,
+    "reviewCount": 28,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Popular",
+    "featured_image": "/t-shirts/16549.jpg.jpeg",
+    "mainImage": "/t-shirts/16549.jpg.jpeg",
+    "image": "/t-shirts/16549.jpg.jpeg",
+    "images": [
+      "/t-shirts/16549.jpg.jpeg",
+      "/t-shirts/16548.jpg.jpeg",
+      "/t-shirts/16547.jpg.jpeg",
+      "/t-shirts/16546.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16549.jpg.jpeg",
+      "/t-shirts/16548.jpg.jpeg",
+      "/t-shirts/16547.jpg.jpeg",
+      "/t-shirts/16546.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16549.jpg.jpeg",
+        "caption": "Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16548.jpg.jpeg",
+        "caption": "Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16547.jpg.jpeg",
+        "caption": "Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16546.jpg.jpeg",
+        "caption": "Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16549.jpg.jpeg",
+          "/t-shirts/16548.jpg.jpeg",
+          "/t-shirts/16547.jpg.jpeg",
+          "/t-shirts/16546.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Jet Obsidian Black Clean Tailored Fit Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0017",
+      "Part Number": "WST-TS-0017",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168815497-elwhj1q",
+      "groupName": "Product Group 017",
+      "groupNum": 17,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0018",
+    "partNumber": "WST-TS-0018",
+    "sku": "WST-TS-0018",
+    "name": "Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt",
+    "title": "Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt",
+    "slug": "earthy-olive-sanganeri-pocket-accent-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0018",
+      "earthy-olive-sanganeri-pocket-accent-relaxed-oversized-t-shirt",
+      "product-ts-0018",
+      "pg-018",
+      "product-group-018"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.92,
+    "reviewCount": 29,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Edition",
+    "featured_image": "/t-shirts/16552.jpg.jpeg",
+    "mainImage": "/t-shirts/16552.jpg.jpeg",
+    "image": "/t-shirts/16552.jpg.jpeg",
+    "images": [
+      "/t-shirts/16552.jpg.jpeg",
+      "/t-shirts/16553.jpg.jpeg",
+      "/t-shirts/16550.jpg.jpeg",
+      "/t-shirts/16556.jpg.jpeg",
+      "/t-shirts/16555.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16552.jpg.jpeg",
+      "/t-shirts/16553.jpg.jpeg",
+      "/t-shirts/16550.jpg.jpeg",
+      "/t-shirts/16556.jpg.jpeg",
+      "/t-shirts/16555.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16552.jpg.jpeg",
+        "caption": "Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16553.jpg.jpeg",
+        "caption": "Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16550.jpg.jpeg",
+        "caption": "Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16556.jpg.jpeg",
+        "caption": "Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16555.jpg.jpeg",
+        "caption": "Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16552.jpg.jpeg",
+          "/t-shirts/16553.jpg.jpeg",
+          "/t-shirts/16550.jpg.jpeg",
+          "/t-shirts/16556.jpg.jpeg",
+          "/t-shirts/16555.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Earthy Olive Sanganeri Pocket Accent Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0018",
+      "Part Number": "WST-TS-0018",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168823022-j3294b5",
+      "groupName": "Product Group 018",
+      "groupNum": 18,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0019",
+    "partNumber": "WST-TS-0019",
+    "sku": "WST-TS-0019",
+    "name": "Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee",
+    "title": "Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee",
+    "slug": "warm-ochre-minimalist-handblock-crest-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0019",
+      "warm-ochre-minimalist-handblock-crest-pocket-detail-cotton-tee",
+      "product-ts-0019",
+      "pg-019",
+      "product-group-019"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.93,
+    "reviewCount": 30,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Handloom Luxe",
+    "featured_image": "/t-shirts/16562.jpg.jpeg",
+    "mainImage": "/t-shirts/16562.jpg.jpeg",
+    "image": "/t-shirts/16562.jpg.jpeg",
+    "images": [
+      "/t-shirts/16562.jpg.jpeg",
+      "/t-shirts/16560.jpg.jpeg",
+      "/t-shirts/16554.jpg.jpeg",
+      "/t-shirts/16557.jpg.jpeg",
+      "/t-shirts/16558.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16562.jpg.jpeg",
+      "/t-shirts/16560.jpg.jpeg",
+      "/t-shirts/16554.jpg.jpeg",
+      "/t-shirts/16557.jpg.jpeg",
+      "/t-shirts/16558.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16562.jpg.jpeg",
+        "caption": "Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16560.jpg.jpeg",
+        "caption": "Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16554.jpg.jpeg",
+        "caption": "Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16557.jpg.jpeg",
+        "caption": "Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16558.jpg.jpeg",
+        "caption": "Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16562.jpg.jpeg",
+          "/t-shirts/16560.jpg.jpeg",
+          "/t-shirts/16554.jpg.jpeg",
+          "/t-shirts/16557.jpg.jpeg",
+          "/t-shirts/16558.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Warm Ochre Minimalist Handblock Crest Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0019",
+      "Part Number": "WST-TS-0019",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168833072-3ussmmy",
+      "groupName": "Product Group 019",
+      "groupNum": 19,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0020",
+    "partNumber": "WST-TS-0020",
+    "sku": "WST-TS-0020",
+    "name": "Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee",
+    "title": "Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee",
+    "slug": "heather-slate-grey-garment-dyed-enzyme-washed-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0020",
+      "heather-slate-grey-garment-dyed-enzyme-washed-drop-shoulder-street-tee",
+      "product-ts-0020",
+      "pg-020",
+      "product-group-020"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.94,
+    "reviewCount": 31,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Seasonal Release",
+    "featured_image": "/t-shirts/16564.jpg.jpeg",
+    "mainImage": "/t-shirts/16564.jpg.jpeg",
+    "image": "/t-shirts/16564.jpg.jpeg",
+    "images": [
+      "/t-shirts/16564.jpg.jpeg",
+      "/t-shirts/16563.jpg.jpeg",
+      "/t-shirts/16561.jpg.jpeg",
+      "/t-shirts/16559.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16564.jpg.jpeg",
+      "/t-shirts/16563.jpg.jpeg",
+      "/t-shirts/16561.jpg.jpeg",
+      "/t-shirts/16559.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16564.jpg.jpeg",
+        "caption": "Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16563.jpg.jpeg",
+        "caption": "Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16561.jpg.jpeg",
+        "caption": "Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16559.jpg.jpeg",
+        "caption": "Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16564.jpg.jpeg",
+          "/t-shirts/16563.jpg.jpeg",
+          "/t-shirts/16561.jpg.jpeg",
+          "/t-shirts/16559.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Heather Slate Grey Garment-Dyed Enzyme Washed Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0020",
+      "Part Number": "WST-TS-0020",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168838481-95jc01w",
+      "groupName": "Product Group 020",
+      "groupNum": 20,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0021",
+    "partNumber": "WST-TS-0021",
+    "sku": "WST-TS-0021",
+    "name": "Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee",
+    "title": "Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee",
+    "slug": "royal-navy-drop-shoulder-oversized-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0021",
+      "royal-navy-drop-shoulder-oversized-bio-washed-crewneck-tee",
+      "product-ts-0021",
+      "pg-021",
+      "product-group-021"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.85,
+    "reviewCount": 32,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Special",
+    "featured_image": "/t-shirts/16566.jpg.jpeg",
+    "mainImage": "/t-shirts/16566.jpg.jpeg",
+    "image": "/t-shirts/16566.jpg.jpeg",
+    "images": [
+      "/t-shirts/16566.jpg.jpeg",
+      "/t-shirts/16565.jpg.jpeg",
+      "/t-shirts/16567.jpg.jpeg",
+      "/t-shirts/16568.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16566.jpg.jpeg",
+      "/t-shirts/16565.jpg.jpeg",
+      "/t-shirts/16567.jpg.jpeg",
+      "/t-shirts/16568.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16566.jpg.jpeg",
+        "caption": "Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16565.jpg.jpeg",
+        "caption": "Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16567.jpg.jpeg",
+        "caption": "Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16568.jpg.jpeg",
+        "caption": "Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16566.jpg.jpeg",
+          "/t-shirts/16565.jpg.jpeg",
+          "/t-shirts/16567.jpg.jpeg",
+          "/t-shirts/16568.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Navy Drop-Shoulder Oversized Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0021",
+      "Part Number": "WST-TS-0021",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168844766-xkv7xx3",
+      "groupName": "Product Group 021",
+      "groupNum": 21,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0022",
+    "partNumber": "WST-TS-0022",
+    "sku": "WST-TS-0022",
+    "name": "Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt",
+    "title": "Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt",
+    "slug": "terracotta-rust-classic-ribbed-crewneck-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0022",
+      "terracotta-rust-classic-ribbed-crewneck-classic-artisan-t-shirt",
+      "product-ts-0022",
+      "pg-022",
+      "product-group-022"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.86,
+    "reviewCount": 33,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Signature Atelier",
+    "featured_image": "/t-shirts/16574.jpg.jpeg",
+    "mainImage": "/t-shirts/16574.jpg.jpeg",
+    "image": "/t-shirts/16574.jpg.jpeg",
+    "images": [
+      "/t-shirts/16574.jpg.jpeg",
+      "/t-shirts/16572.jpg.jpeg",
+      "/t-shirts/16571.jpg.jpeg",
+      "/t-shirts/16570.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16574.jpg.jpeg",
+      "/t-shirts/16572.jpg.jpeg",
+      "/t-shirts/16571.jpg.jpeg",
+      "/t-shirts/16570.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16574.jpg.jpeg",
+        "caption": "Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16572.jpg.jpeg",
+        "caption": "Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16571.jpg.jpeg",
+        "caption": "Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16570.jpg.jpeg",
+        "caption": "Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16574.jpg.jpeg",
+          "/t-shirts/16572.jpg.jpeg",
+          "/t-shirts/16571.jpg.jpeg",
+          "/t-shirts/16570.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Terracotta Rust Classic Ribbed Crewneck Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0022",
+      "Part Number": "WST-TS-0022",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168852811-5ku5lma",
+      "groupName": "Product Group 022",
+      "groupNum": 22,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0023",
+    "partNumber": "WST-TS-0023",
+    "sku": "WST-TS-0023",
+    "name": "Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt",
+    "title": "Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt",
+    "slug": "sage-glade-clean-tailored-fit-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0023",
+      "sage-glade-clean-tailored-fit-relaxed-oversized-t-shirt",
+      "product-ts-0023",
+      "pg-023",
+      "product-group-023"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.87,
+    "reviewCount": 34,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Bestseller",
+    "featured_image": "/t-shirts/16580.jpg.jpeg",
+    "mainImage": "/t-shirts/16580.jpg.jpeg",
+    "image": "/t-shirts/16580.jpg.jpeg",
+    "images": [
+      "/t-shirts/16580.jpg.jpeg",
+      "/t-shirts/16579.jpg.jpeg",
+      "/t-shirts/16578.jpg.jpeg",
+      "/t-shirts/16575.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16580.jpg.jpeg",
+      "/t-shirts/16579.jpg.jpeg",
+      "/t-shirts/16578.jpg.jpeg",
+      "/t-shirts/16575.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16580.jpg.jpeg",
+        "caption": "Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16579.jpg.jpeg",
+        "caption": "Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16578.jpg.jpeg",
+        "caption": "Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16575.jpg.jpeg",
+        "caption": "Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16580.jpg.jpeg",
+          "/t-shirts/16579.jpg.jpeg",
+          "/t-shirts/16578.jpg.jpeg",
+          "/t-shirts/16575.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sage Glade Clean Tailored Fit Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0023",
+      "Part Number": "WST-TS-0023",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168857727-r719ldd",
+      "groupName": "Product Group 023",
+      "groupNum": 23,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0024",
+    "partNumber": "WST-TS-0024",
+    "sku": "WST-TS-0024",
+    "name": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee",
+    "title": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee",
+    "slug": "dusty-rose-sanganeri-pocket-accent-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0024",
+      "dusty-rose-sanganeri-pocket-accent-pocket-detail-cotton-tee",
+      "product-ts-0024",
+      "pg-024",
+      "product-group-024"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.88,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Popular",
+    "featured_image": "/t-shirts/16583.jpg (1).jpeg",
+    "mainImage": "/t-shirts/16583.jpg (1).jpeg",
+    "image": "/t-shirts/16583.jpg (1).jpeg",
+    "images": [
+      "/t-shirts/16583.jpg (1).jpeg",
+      "/t-shirts/16582.jpg.jpeg",
+      "/t-shirts/16583.jpg.jpeg",
+      "/t-shirts/16584.jpg.jpeg",
+      "/t-shirts/16581.jpg.jpeg",
+      "/t-shirts/16582.jpg (1).jpeg",
+      "/t-shirts/16589.jpg (1).jpeg",
+      "/t-shirts/16589.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16583.jpg (1).jpeg",
+      "/t-shirts/16582.jpg.jpeg",
+      "/t-shirts/16583.jpg.jpeg",
+      "/t-shirts/16584.jpg.jpeg",
+      "/t-shirts/16581.jpg.jpeg",
+      "/t-shirts/16582.jpg (1).jpeg",
+      "/t-shirts/16589.jpg (1).jpeg",
+      "/t-shirts/16589.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16583.jpg (1).jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16582.jpg.jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16583.jpg.jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16584.jpg.jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16581.jpg.jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16582.jpg (1).jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16589.jpg (1).jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16589.jpg.jpeg",
+        "caption": "Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16583.jpg (1).jpeg",
+          "/t-shirts/16582.jpg.jpeg",
+          "/t-shirts/16583.jpg.jpeg",
+          "/t-shirts/16584.jpg.jpeg",
+          "/t-shirts/16581.jpg.jpeg",
+          "/t-shirts/16582.jpg (1).jpeg",
           "/t-shirts/16589.jpg (1).jpeg",
           "/t-shirts/16589.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Pebble Grey Embroidered Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Embroidered Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0003-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0003-v2",
-    "title": "Teal Slate Embroidered Pocket Tee",
-    "slug": "teal-slate-embroidered-pocket-tee",
-    "aliasSlugs": [
-      "ts-0003-v2",
-      "teal-slate-embroidered-pocket-tee",
-      "embroidered-pocket-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -1313,5567 +3018,124 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16386.jpg.jpeg",
-    "mainImage": "/t-shirts/16386.jpg.jpeg",
-    "images": [
-      "/t-shirts/16386.jpg.jpeg",
-      "/t-shirts/16387.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16386.jpg.jpeg",
-      "/t-shirts/16387.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/t-shirts/16386.jpg.jpeg",
-          "/t-shirts/16387.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Embroidered Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Teal Slate Embroidered Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Dusty Rose Sanganeri Pocket Accent Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-TS-0003-V2",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0024",
+      "Part Number": "WST-TS-0024",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168869248-fug6940",
+      "groupName": "Product Group 024",
+      "groupNum": 24,
+      "photosCount": 8,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ts-0003-v3",
-    "title": "Midnight Black Embroidered Pocket Tee",
-    "slug": "midnight-black-embroidered-pocket-tee",
+    "id": "ts-0025",
+    "partNumber": "WST-TS-0025",
+    "sku": "WST-TS-0025",
+    "name": "Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee",
+    "title": "Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee",
+    "slug": "mustard-sun-minimalist-handblock-crest-drop-shoulder-street-tee",
     "aliasSlugs": [
-      "ts-0003-v3",
-      "midnight-black-embroidered-pocket-tee",
-      "embroidered-pocket-tee-var-3"
+      "ts-0025",
+      "mustard-sun-minimalist-handblock-crest-drop-shoulder-street-tee",
+      "product-ts-0025",
+      "pg-025",
+      "product-group-025"
     ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16408.jpg.jpeg",
-    "mainImage": "/t-shirts/16408.jpg.jpeg",
-    "images": [
-      "/t-shirts/16408.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16408.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/t-shirts/16408.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Embroidered Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Embroidered Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0003-V3",
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.89,
+    "reviewCount": 36,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0003-v4",
-    "title": "Blush Rose Embroidered Pocket Tee",
-    "slug": "blush-rose-embroidered-pocket-tee",
-    "aliasSlugs": [
-      "ts-0003-v4",
-      "blush-rose-embroidered-pocket-tee",
-      "embroidered-pocket-tee-var-4"
-    ],
-    "category": "T-Shirts",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
     "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
     "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
     "category_slug": "t-shirts",
     "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16424.jpg.jpeg",
-    "mainImage": "/t-shirts/16424.jpg.jpeg",
+    "badge": "Atelier Edition",
+    "featured_image": "/t-shirts/16591.jpg.jpeg",
+    "mainImage": "/t-shirts/16591.jpg.jpeg",
+    "image": "/t-shirts/16591.jpg.jpeg",
     "images": [
-      "/t-shirts/16424.jpg.jpeg",
-      "/t-shirts/16425.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16424.jpg.jpeg",
-      "/t-shirts/16425.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16424.jpg.jpeg",
-          "/t-shirts/16425.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Embroidered Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Embroidered Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0003-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0003-v5",
-    "title": "Aqua Marine Embroidered Pocket Tee",
-    "slug": "aqua-marine-embroidered-pocket-tee",
-    "aliasSlugs": [
-      "ts-0003-v5",
-      "aqua-marine-embroidered-pocket-tee",
-      "embroidered-pocket-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16542.jpg.jpeg",
-    "mainImage": "/t-shirts/16542.jpg.jpeg",
-    "images": [
-      "/t-shirts/16542.jpg.jpeg",
-      "/t-shirts/16543.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16542.jpg.jpeg",
-      "/t-shirts/16543.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16542.jpg.jpeg",
-          "/t-shirts/16543.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Aqua Marine Embroidered Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Embroidered Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0003-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0003-v6",
-    "title": "Orchid Pink Embroidered Pocket Tee",
-    "slug": "orchid-pink-embroidered-pocket-tee",
-    "aliasSlugs": [
-      "ts-0003-v6",
-      "orchid-pink-embroidered-pocket-tee",
-      "embroidered-pocket-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16568.jpg.jpeg",
-    "mainImage": "/t-shirts/16568.jpg.jpeg",
-    "images": [
-      "/t-shirts/16568.jpg.jpeg",
-      "/t-shirts/16611.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16568.jpg.jpeg",
-      "/t-shirts/16611.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16568.jpg.jpeg",
-          "/t-shirts/16611.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Embroidered Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Embroidered Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0003-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0003-v7",
-    "title": "Artisan Earth Embroidered Pocket Tee",
-    "slug": "artisan-earth-embroidered-pocket-tee",
-    "aliasSlugs": [
-      "ts-0003-v7",
-      "artisan-earth-embroidered-pocket-tee",
-      "embroidered-pocket-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16589.jpg%20(1).jpeg",
-    "mainImage": "/t-shirts/16589.jpg%20(1).jpeg",
-    "images": [
-      "/t-shirts/16589.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16589.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/t-shirts/16589.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth Embroidered Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth Embroidered Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0003-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v1",
-    "title": "Sand Ochre 240 GSM Oversized Tee",
-    "slug": "sand-ochre-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v1",
-      "sand-ochre-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-1",
-      "aanya-heavyweight-combed-cotton-oversized-t-shirt",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-tsh-0001",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0026",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "deepika-heavyweight-combed-cotton-oversized-t-shirt",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0007",
-      "freya-mineral-washed-premium-streetwear-t-shirt-tsh-0014",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0024",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0023",
-      "mira-heavyweight-combed-cotton-oversized-t-shirt",
-      "pari-heavyweight-combed-cotton-oversized-t-shirt",
-      "product-ts-0004",
-      "product-ts-0016",
-      "product-ts-0028",
-      "product-ts-0040",
-      "product-ts-0052",
-      "product-ts-0064",
-      "product-ts-0076",
-      "product-ts-0088",
-      "product-ts-0100",
-      "product-ts-0112",
-      "product-tsh-0001",
-      "product-tsh-0004",
-      "product-tsh-0007",
-      "product-tsh-0010",
-      "product-tsh-0012",
-      "product-tsh-0014",
-      "product-tsh-0016",
-      "product-tsh-0019",
-      "product-tsh-0023",
-      "product-tsh-0024",
-      "product-tsh-0026",
-      "shanaya-heavyweight-combed-cotton-oversized-t-shirt",
-      "shreya-heavyweight-combed-cotton-oversized-t-shirt",
-      "sienna-supima-cotton-luxury-crewneck-tee-tsh-0004",
-      "siya-heavyweight-combed-cotton-oversized-t-shirt",
-      "tanvi-heavyweight-combed-cotton-oversized-t-shirt",
-      "ts-0004",
-      "ts-0016",
-      "ts-0028",
-      "ts-0040",
-      "ts-0052",
-      "ts-0064",
-      "ts-0076",
-      "ts-0088",
-      "ts-0100",
-      "ts-0112",
-      "tsh-0001",
-      "tsh-0004",
-      "tsh-0007",
-      "tsh-0010",
-      "tsh-0012",
-      "tsh-0014",
-      "tsh-0016",
-      "tsh-0019",
-      "tsh-0023",
-      "tsh-0024",
-      "tsh-0026",
-      "vanya-heavyweight-combed-cotton-oversized-t-shirt",
-      "zoya-heavyweight-combed-cotton-oversized-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13665.jpg.jpeg",
-    "mainImage": "/t-shirts/13665.jpg.jpeg",
-    "images": [
-      "/t-shirts/13665.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13665.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/t-shirts/13665.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sand Ochre 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v2",
-    "title": "Mustard Gold 240 GSM Oversized Tee",
-    "slug": "mustard-gold-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v2",
-      "mustard-gold-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13685.jpg.jpeg",
-    "mainImage": "/t-shirts/13685.jpg.jpeg",
-    "images": [
-      "/t-shirts/13685.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13685.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
-        "images": [
-          "/t-shirts/13685.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v3",
-    "title": "Sky Azure 240 GSM Oversized Tee",
-    "slug": "sky-azure-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v3",
-      "sky-azure-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16388.jpg.jpeg",
-    "mainImage": "/t-shirts/16388.jpg.jpeg",
-    "images": [
-      "/t-shirts/16388.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16388.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#38BDF8",
-        "images": [
-          "/t-shirts/16388.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sky Azure 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sky Azure 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v4",
-    "title": "Blush Rose 240 GSM Oversized Tee",
-    "slug": "blush-rose-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v4",
-      "blush-rose-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16409.jpg.jpeg",
-    "mainImage": "/t-shirts/16409.jpg.jpeg",
-    "images": [
-      "/t-shirts/16409.jpg.jpeg",
-      "/t-shirts/16410.jpg.jpeg",
-      "/t-shirts/16426.jpg.jpeg",
+      "/t-shirts/16591.jpg.jpeg",
+      "/t-shirts/16590.jpg.jpeg",
       "/t-shirts/16590.jpg (1).jpeg",
-      "/t-shirts/16590.jpg.jpeg"
+      "/t-shirts/16594.jpg.jpeg",
+      "/t-shirts/16586.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16409.jpg.jpeg",
-      "/t-shirts/16410.jpg.jpeg",
-      "/t-shirts/16426.jpg.jpeg",
+      "/t-shirts/16591.jpg.jpeg",
+      "/t-shirts/16590.jpg.jpeg",
       "/t-shirts/16590.jpg (1).jpeg",
-      "/t-shirts/16590.jpg.jpeg"
+      "/t-shirts/16594.jpg.jpeg",
+      "/t-shirts/16586.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16591.jpg.jpeg",
+        "caption": "Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16590.jpg.jpeg",
+        "caption": "Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16590.jpg (1).jpeg",
+        "caption": "Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16594.jpg.jpeg",
+        "caption": "Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16586.jpg.jpeg",
+        "caption": "Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16409.jpg.jpeg",
-          "/t-shirts/16410.jpg.jpeg",
-          "/t-shirts/16426.jpg.jpeg",
+          "/t-shirts/16591.jpg.jpeg",
+          "/t-shirts/16590.jpg.jpeg",
           "/t-shirts/16590.jpg (1).jpeg",
-          "/t-shirts/16590.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v5",
-    "title": "Warm Caramel 240 GSM Oversized Tee",
-    "slug": "warm-caramel-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v5",
-      "warm-caramel-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16522.jpg.jpeg",
-    "mainImage": "/t-shirts/16522.jpg.jpeg",
-    "images": [
-      "/t-shirts/16522.jpg.jpeg",
-      "/t-shirts/16523.jpg.jpeg",
-      "/t-shirts/16591.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16522.jpg.jpeg",
-      "/t-shirts/16523.jpg.jpeg",
-      "/t-shirts/16591.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16522.jpg.jpeg",
-          "/t-shirts/16523.jpg.jpeg",
-          "/t-shirts/16591.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v6",
-    "title": "Aqua Marine 240 GSM Oversized Tee",
-    "slug": "aqua-marine-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v6",
-      "aqua-marine-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16544.jpg.jpeg",
-    "mainImage": "/t-shirts/16544.jpg.jpeg",
-    "images": [
-      "/t-shirts/16544.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16544.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16544.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Aqua Marine 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v7",
-    "title": "Teal Slate 240 GSM Oversized Tee",
-    "slug": "teal-slate-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v7",
-      "teal-slate-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16569.jpg.jpeg",
-    "mainImage": "/t-shirts/16569.jpg.jpeg",
-    "images": [
-      "/t-shirts/16569.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16569.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/t-shirts/16569.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v8",
-    "title": "Artisan Earth 240 GSM Oversized Tee",
-    "slug": "artisan-earth-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v8",
-      "artisan-earth-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16590.jpg%20(1).jpeg",
-    "mainImage": "/t-shirts/16590.jpg%20(1).jpeg",
-    "images": [
-      "/t-shirts/16590.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16590.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/t-shirts/16590.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0004-v9",
-    "title": "Steel Slate 240 GSM Oversized Tee",
-    "slug": "steel-slate-240-gsm-oversized-tee",
-    "aliasSlugs": [
-      "ts-0004-v9",
-      "steel-slate-240-gsm-oversized-tee",
-      "240-gsm-oversized-tee-var-9"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16612.jpg.jpeg",
-    "mainImage": "/t-shirts/16612.jpg.jpeg",
-    "images": [
-      "/t-shirts/16612.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16612.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/t-shirts/16612.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate 240 GSM Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate 240 GSM Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0004-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v1",
-    "title": "Blush Rose Distressed Hem Oversized Tee",
-    "slug": "blush-rose-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v1",
-      "blush-rose-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-1",
-      "aditi-distressed-hem-streetwear-oversized-tee",
-      "aria-distressed-hem-streetwear-oversized-tee",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-tsh-0001",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0026",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "diya-distressed-hem-streetwear-oversized-tee",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0007",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0015",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0024",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "maya-distressed-hem-streetwear-oversized-tee",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0017",
-      "meera-distressed-hem-streetwear-oversized-tee",
-      "naira-distressed-hem-streetwear-oversized-tee",
-      "noor-distressed-hem-streetwear-oversized-tee",
-      "product-ts-0005",
-      "product-ts-0017",
-      "product-ts-0029",
-      "product-ts-0041",
-      "product-ts-0053",
-      "product-ts-0065",
-      "product-ts-0077",
-      "product-ts-0089",
-      "product-ts-0101",
-      "product-ts-0113",
-      "product-tsh-0001",
-      "product-tsh-0004",
-      "product-tsh-0007",
-      "product-tsh-0010",
-      "product-tsh-0012",
-      "product-tsh-0015",
-      "product-tsh-0017",
-      "product-tsh-0019",
-      "product-tsh-0024",
-      "product-tsh-0026",
-      "saanvi-distressed-hem-streetwear-oversized-tee",
-      "sara-distressed-hem-streetwear-oversized-tee",
-      "sienna-supima-cotton-luxury-crewneck-tee-tsh-0004",
-      "suhana-distressed-hem-streetwear-oversized-tee",
-      "ts-0005",
-      "ts-0017",
-      "ts-0029",
-      "ts-0041",
-      "ts-0053",
-      "ts-0065",
-      "ts-0077",
-      "ts-0089",
-      "ts-0101",
-      "ts-0113",
-      "tsh-0001",
-      "tsh-0004",
-      "tsh-0007",
-      "tsh-0010",
-      "tsh-0012",
-      "tsh-0015",
-      "tsh-0017",
-      "tsh-0019",
-      "tsh-0024",
-      "tsh-0026"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13667.jpg.jpeg",
-    "mainImage": "/t-shirts/13667.jpg.jpeg",
-    "images": [
-      "/t-shirts/13667.jpg.jpeg",
-      "/t-shirts/16524.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13667.jpg.jpeg",
-      "/t-shirts/16524.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/13667.jpg.jpeg",
-          "/t-shirts/16524.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v2",
-    "title": "Steel Slate Distressed Hem Oversized Tee",
-    "slug": "steel-slate-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v2",
-      "steel-slate-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13686.jpg.jpeg",
-    "mainImage": "/t-shirts/13686.jpg.jpeg",
-    "images": [
-      "/t-shirts/13686.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13686.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/t-shirts/13686.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v3",
-    "title": "Warm Caramel Distressed Hem Oversized Tee",
-    "slug": "warm-caramel-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v3",
-      "warm-caramel-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16389.jpg.jpeg",
-    "mainImage": "/t-shirts/16389.jpg.jpeg",
-    "images": [
-      "/t-shirts/16389.jpg.jpeg",
-      "/t-shirts/16613.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16389.jpg.jpeg",
-      "/t-shirts/16613.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16389.jpg.jpeg",
-          "/t-shirts/16613.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v4",
-    "title": "Midnight Black Distressed Hem Oversized Tee",
-    "slug": "midnight-black-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v4",
-      "midnight-black-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16411.jpg.jpeg",
-    "mainImage": "/t-shirts/16411.jpg.jpeg",
-    "images": [
-      "/t-shirts/16411.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16411.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/t-shirts/16411.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v5",
-    "title": "Plum Wine Distressed Hem Oversized Tee",
-    "slug": "plum-wine-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v5",
-      "plum-wine-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16427.jpg.jpeg",
-    "mainImage": "/t-shirts/16427.jpg.jpeg",
-    "images": [
-      "/t-shirts/16427.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16427.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#581C87",
-        "images": [
-          "/t-shirts/16427.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Plum Wine Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Plum Wine Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v6",
-    "title": "Aqua Marine Distressed Hem Oversized Tee",
-    "slug": "aqua-marine-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v6",
-      "aqua-marine-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16545.jpg.jpeg",
-    "mainImage": "/t-shirts/16545.jpg.jpeg",
-    "images": [
-      "/t-shirts/16545.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16545.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16545.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Aqua Marine Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v7",
-    "title": "Orchid Pink Distressed Hem Oversized Tee",
-    "slug": "orchid-pink-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v7",
-      "orchid-pink-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16570.jpg.jpeg",
-    "mainImage": "/t-shirts/16570.jpg.jpeg",
-    "images": [
-      "/t-shirts/16570.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16570.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16570.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0005-v8",
-    "title": "Pebble Grey Distressed Hem Oversized Tee",
-    "slug": "pebble-grey-distressed-hem-oversized-tee",
-    "aliasSlugs": [
-      "ts-0005-v8",
-      "pebble-grey-distressed-hem-oversized-tee",
-      "distressed-hem-oversized-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16592.jpg.jpeg",
-    "mainImage": "/t-shirts/16592.jpg.jpeg",
-    "images": [
-      "/t-shirts/16592.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16592.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16592.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Distressed Hem Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Distressed Hem Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0005-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0006-v1",
-    "title": "Charcoal Slate Vintage Wash Graphic Tee",
-    "slug": "charcoal-slate-vintage-wash-graphic-tee",
-    "aliasSlugs": [
-      "ts-0006-v1",
-      "charcoal-slate-vintage-wash-graphic-tee",
-      "vintage-wash-graphic-tee-var-1",
-      "alia-vintage-washed-organic-cotton-graphic-t-shirt",
-      "ananya-vintage-washed-organic-cotton-graphic-t-shirt",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-tsh-0001",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-edition-2-tsh-0027",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0013",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0026",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0007",
-      "elena-mineral-washed-premium-streetwear-t-shirt-tsh-0006",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0015",
-      "isha-vintage-washed-organic-cotton-graphic-t-shirt",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0024",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "janvi-vintage-washed-organic-cotton-graphic-t-shirt",
-      "kavya-vintage-washed-organic-cotton-graphic-t-shirt",
-      "kiara-vintage-washed-organic-cotton-graphic-t-shirt",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "product-ts-0006",
-      "product-ts-0018",
-      "product-ts-0030",
-      "product-ts-0042",
-      "product-ts-0054",
-      "product-ts-0066",
-      "product-ts-0078",
-      "product-ts-0090",
-      "product-ts-0102",
-      "product-ts-0114",
-      "product-tsh-0001",
-      "product-tsh-0005",
-      "product-tsh-0006",
-      "product-tsh-0007",
-      "product-tsh-0008",
-      "product-tsh-0010",
-      "product-tsh-0012",
-      "product-tsh-0013",
-      "product-tsh-0015",
-      "product-tsh-0016",
-      "product-tsh-0019",
-      "product-tsh-0024",
-      "product-tsh-0026",
-      "product-tsh-0027",
-      "riddhi-vintage-washed-organic-cotton-graphic-t-shirt",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0005",
-      "sienna-vintage-washed-organic-cotton-graphic-t-shirt",
-      "simran-vintage-washed-organic-cotton-graphic-t-shirt",
-      "ts-0006",
-      "ts-0018",
-      "ts-0030",
-      "ts-0042",
-      "ts-0054",
-      "ts-0066",
-      "ts-0078",
-      "ts-0090",
-      "ts-0102",
-      "ts-0114",
-      "tsh-0001",
-      "tsh-0005",
-      "tsh-0006",
-      "tsh-0007",
-      "tsh-0008",
-      "tsh-0010",
-      "tsh-0012",
-      "tsh-0013",
-      "tsh-0015",
-      "tsh-0016",
-      "tsh-0019",
-      "tsh-0024",
-      "tsh-0026",
-      "tsh-0027",
-      "zara-vintage-washed-organic-cotton-graphic-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13669.jpg.jpeg",
-    "mainImage": "/t-shirts/13669.jpg.jpeg",
-    "images": [
-      "/t-shirts/13669.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13669.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/t-shirts/13669.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Vintage Wash Graphic Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Vintage Wash Graphic Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0006-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0006-v2",
-    "title": "Mustard Gold Vintage Wash Graphic Tee",
-    "slug": "mustard-gold-vintage-wash-graphic-tee",
-    "aliasSlugs": [
-      "ts-0006-v2",
-      "mustard-gold-vintage-wash-graphic-tee",
-      "vintage-wash-graphic-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13687.jpg.jpeg",
-    "mainImage": "/t-shirts/13687.jpg.jpeg",
-    "images": [
-      "/t-shirts/13687.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13687.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
-        "images": [
-          "/t-shirts/13687.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold Vintage Wash Graphic Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Vintage Wash Graphic Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0006-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0006-v3",
-    "title": "Blush Rose Vintage Wash Graphic Tee",
-    "slug": "blush-rose-vintage-wash-graphic-tee",
-    "aliasSlugs": [
-      "ts-0006-v3",
-      "blush-rose-vintage-wash-graphic-tee",
-      "vintage-wash-graphic-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16390.jpg.jpeg",
-    "mainImage": "/t-shirts/16390.jpg.jpeg",
-    "images": [
-      "/t-shirts/16390.jpg.jpeg",
-      "/t-shirts/16391.jpg.jpeg",
-      "/t-shirts/16392.jpg.jpeg",
-      "/t-shirts/16393.jpg.jpeg",
-      "/t-shirts/16412.jpg.jpeg",
-      "/t-shirts/16430.jpg.jpeg",
-      "/t-shirts/16594.jpg.jpeg",
-      "/t-shirts/16616.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16390.jpg.jpeg",
-      "/t-shirts/16391.jpg.jpeg",
-      "/t-shirts/16392.jpg.jpeg",
-      "/t-shirts/16393.jpg.jpeg",
-      "/t-shirts/16412.jpg.jpeg",
-      "/t-shirts/16430.jpg.jpeg",
-      "/t-shirts/16594.jpg.jpeg",
-      "/t-shirts/16616.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16390.jpg.jpeg",
-          "/t-shirts/16391.jpg.jpeg",
-          "/t-shirts/16392.jpg.jpeg",
-          "/t-shirts/16393.jpg.jpeg",
-          "/t-shirts/16412.jpg.jpeg",
-          "/t-shirts/16430.jpg.jpeg",
           "/t-shirts/16594.jpg.jpeg",
-          "/t-shirts/16616.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Vintage Wash Graphic Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Vintage Wash Graphic Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0006-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0006-v4",
-    "title": "Orchid Pink Vintage Wash Graphic Tee",
-    "slug": "orchid-pink-vintage-wash-graphic-tee",
-    "aliasSlugs": [
-      "ts-0006-v4",
-      "orchid-pink-vintage-wash-graphic-tee",
-      "vintage-wash-graphic-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16428.jpg.jpeg",
-    "mainImage": "/t-shirts/16428.jpg.jpeg",
-    "images": [
-      "/t-shirts/16428.jpg.jpeg",
-      "/t-shirts/16429.jpg.jpeg",
-      "/t-shirts/16547.jpg.jpeg",
-      "/t-shirts/16617.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16428.jpg.jpeg",
-      "/t-shirts/16429.jpg.jpeg",
-      "/t-shirts/16547.jpg.jpeg",
-      "/t-shirts/16617.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16428.jpg.jpeg",
-          "/t-shirts/16429.jpg.jpeg",
-          "/t-shirts/16547.jpg.jpeg",
-          "/t-shirts/16617.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Vintage Wash Graphic Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Vintage Wash Graphic Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0006-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0006-v5",
-    "title": "Warm Caramel Vintage Wash Graphic Tee",
-    "slug": "warm-caramel-vintage-wash-graphic-tee",
-    "aliasSlugs": [
-      "ts-0006-v5",
-      "warm-caramel-vintage-wash-graphic-tee",
-      "vintage-wash-graphic-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16525.jpg.jpeg",
-    "mainImage": "/t-shirts/16525.jpg.jpeg",
-    "images": [
-      "/t-shirts/16525.jpg.jpeg",
-      "/t-shirts/16614.jpg.jpeg",
-      "/t-shirts/16615.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16525.jpg.jpeg",
-      "/t-shirts/16614.jpg.jpeg",
-      "/t-shirts/16615.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16525.jpg.jpeg",
-          "/t-shirts/16614.jpg.jpeg",
-          "/t-shirts/16615.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Vintage Wash Graphic Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Vintage Wash Graphic Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0006-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0006-v6",
-    "title": "Ivory Cream Vintage Wash Graphic Tee",
-    "slug": "ivory-cream-vintage-wash-graphic-tee",
-    "aliasSlugs": [
-      "ts-0006-v6",
-      "ivory-cream-vintage-wash-graphic-tee",
-      "vintage-wash-graphic-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16546.jpg.jpeg",
-    "mainImage": "/t-shirts/16546.jpg.jpeg",
-    "images": [
-      "/t-shirts/16546.jpg.jpeg",
-      "/t-shirts/16595.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16546.jpg.jpeg",
-      "/t-shirts/16595.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/t-shirts/16546.jpg.jpeg",
-          "/t-shirts/16595.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Vintage Wash Graphic Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Vintage Wash Graphic Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0006-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0006-v7",
-    "title": "Steel Slate Vintage Wash Graphic Tee",
-    "slug": "steel-slate-vintage-wash-graphic-tee",
-    "aliasSlugs": [
-      "ts-0006-v7",
-      "steel-slate-vintage-wash-graphic-tee",
-      "vintage-wash-graphic-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16571.jpg.jpeg",
-    "mainImage": "/t-shirts/16571.jpg.jpeg",
-    "images": [
-      "/t-shirts/16571.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16571.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/t-shirts/16571.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Vintage Wash Graphic Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Vintage Wash Graphic Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0006-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v1",
-    "title": "Sand Ochre Ring-Spun Cotton Lounge Tee",
-    "slug": "sand-ochre-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v1",
-      "sand-ochre-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0002",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "avani-premium-ring-spun-cotton-lounge-tee",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-edition-2-tsh-0027",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0013",
-      "elena-premium-ring-spun-cotton-lounge-tee",
-      "freya-mineral-washed-premium-streetwear-t-shirt-tsh-0014",
-      "ishita-premium-ring-spun-cotton-lounge-tee",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-edition-2-tsh-0025",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0024",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "khushi-premium-ring-spun-cotton-lounge-tee",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "product-ts-0007",
-      "product-ts-0019",
-      "product-ts-0031",
-      "product-ts-0043",
-      "product-ts-0055",
-      "product-ts-0067",
-      "product-ts-0079",
-      "product-ts-0091",
-      "product-ts-0103",
-      "product-ts-0115",
-      "product-tsh-0002",
-      "product-tsh-0005",
-      "product-tsh-0008",
-      "product-tsh-0010",
-      "product-tsh-0013",
-      "product-tsh-0014",
-      "product-tsh-0016",
-      "product-tsh-0019",
-      "product-tsh-0024",
-      "product-tsh-0025",
-      "product-tsh-0027",
-      "radhika-premium-ring-spun-cotton-lounge-tee",
-      "reet-premium-ring-spun-cotton-lounge-tee",
-      "rhea-premium-ring-spun-cotton-lounge-tee",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0005",
-      "sitara-premium-ring-spun-cotton-lounge-tee",
-      "tara-premium-ring-spun-cotton-lounge-tee",
-      "trisha-premium-ring-spun-cotton-lounge-tee",
-      "ts-0007",
-      "ts-0019",
-      "ts-0031",
-      "ts-0043",
-      "ts-0055",
-      "ts-0067",
-      "ts-0079",
-      "ts-0091",
-      "ts-0103",
-      "ts-0115",
-      "tsh-0002",
-      "tsh-0005",
-      "tsh-0008",
-      "tsh-0010",
-      "tsh-0013",
-      "tsh-0014",
-      "tsh-0016",
-      "tsh-0019",
-      "tsh-0024",
-      "tsh-0025",
-      "tsh-0027"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13670.jpg.jpeg",
-    "mainImage": "/t-shirts/13670.jpg.jpeg",
-    "images": [
-      "/t-shirts/13670.jpg.jpeg",
-      "/t-shirts/13671.jpg.jpeg",
-      "/t-shirts/13688.jpg.jpeg",
-      "/t-shirts/13689.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13670.jpg.jpeg",
-      "/t-shirts/13671.jpg.jpeg",
-      "/t-shirts/13688.jpg.jpeg",
-      "/t-shirts/13689.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/t-shirts/13670.jpg.jpeg",
-          "/t-shirts/13671.jpg.jpeg",
-          "/t-shirts/13688.jpg.jpeg",
-          "/t-shirts/13689.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sand Ochre Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v2",
-    "title": "Blush Rose Ring-Spun Cotton Lounge Tee",
-    "slug": "blush-rose-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v2",
-      "blush-rose-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13672.jpg.jpeg",
-    "mainImage": "/t-shirts/13672.jpg.jpeg",
-    "images": [
-      "/t-shirts/13672.jpg.jpeg",
-      "/t-shirts/16394.jpg.jpeg",
-      "/t-shirts/16548.jpg.jpeg",
-      "/t-shirts/16573.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13672.jpg.jpeg",
-      "/t-shirts/16394.jpg.jpeg",
-      "/t-shirts/16548.jpg.jpeg",
-      "/t-shirts/16573.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/13672.jpg.jpeg",
-          "/t-shirts/16394.jpg.jpeg",
-          "/t-shirts/16548.jpg.jpeg",
-          "/t-shirts/16573.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v3",
-    "title": "Pebble Grey Ring-Spun Cotton Lounge Tee",
-    "slug": "pebble-grey-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v3",
-      "pebble-grey-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16413.jpg.jpeg",
-    "mainImage": "/t-shirts/16413.jpg.jpeg",
-    "images": [
-      "/t-shirts/16413.jpg.jpeg",
-      "/t-shirts/16416.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16413.jpg.jpeg",
-      "/t-shirts/16416.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16413.jpg.jpeg",
-          "/t-shirts/16416.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v4",
-    "title": "Ivory Cream Ring-Spun Cotton Lounge Tee",
-    "slug": "ivory-cream-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v4",
-      "ivory-cream-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16414.jpg.jpeg",
-    "mainImage": "/t-shirts/16414.jpg.jpeg",
-    "images": [
-      "/t-shirts/16414.jpg.jpeg",
-      "/t-shirts/16415.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16414.jpg.jpeg",
-      "/t-shirts/16415.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/t-shirts/16414.jpg.jpeg",
-          "/t-shirts/16415.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v5",
-    "title": "Midnight Black Ring-Spun Cotton Lounge Tee",
-    "slug": "midnight-black-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v5",
-      "midnight-black-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16431.jpg.jpeg",
-    "mainImage": "/t-shirts/16431.jpg.jpeg",
-    "images": [
-      "/t-shirts/16431.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16431.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/t-shirts/16431.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v6",
-    "title": "Indigo Royal Ring-Spun Cotton Lounge Tee",
-    "slug": "indigo-royal-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v6",
-      "indigo-royal-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16526.jpg.jpeg",
-    "mainImage": "/t-shirts/16526.jpg.jpeg",
-    "images": [
-      "/t-shirts/16526.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16526.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/t-shirts/16526.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Indigo Royal Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v7",
-    "title": "Orchid Pink Ring-Spun Cotton Lounge Tee",
-    "slug": "orchid-pink-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v7",
-      "orchid-pink-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16572.jpg.jpeg",
-    "mainImage": "/t-shirts/16572.jpg.jpeg",
-    "images": [
-      "/t-shirts/16572.jpg.jpeg",
-      "/t-shirts/16574.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16572.jpg.jpeg",
-      "/t-shirts/16574.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16572.jpg.jpeg",
-          "/t-shirts/16574.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v8",
-    "title": "Charcoal Slate Ring-Spun Cotton Lounge Tee",
-    "slug": "charcoal-slate-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v8",
-      "charcoal-slate-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16597.jpg.jpeg",
-    "mainImage": "/t-shirts/16597.jpg.jpeg",
-    "images": [
-      "/t-shirts/16597.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16597.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/t-shirts/16597.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v9",
-    "title": "Rust Terracotta Ring-Spun Cotton Lounge Tee",
-    "slug": "rust-terracotta-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v9",
-      "rust-terracotta-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-9"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16599.jpg.jpeg",
-    "mainImage": "/t-shirts/16599.jpg.jpeg",
-    "images": [
-      "/t-shirts/16599.jpg.jpeg",
-      "/t-shirts/16600.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16599.jpg.jpeg",
-      "/t-shirts/16600.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/t-shirts/16599.jpg.jpeg",
-          "/t-shirts/16600.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0007-v10",
-    "title": "Warm Caramel Ring-Spun Cotton Lounge Tee",
-    "slug": "warm-caramel-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0007-v10",
-      "warm-caramel-ring-spun-cotton-lounge-tee",
-      "ring-spun-cotton-lounge-tee-var-10"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16618.jpg.jpeg",
-    "mainImage": "/t-shirts/16618.jpg.jpeg",
-    "images": [
-      "/t-shirts/16618.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16618.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16618.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0007-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0008-v1",
-    "title": "Warm Caramel Acid-Wash Screen Print Tee",
-    "slug": "warm-caramel-acid-wash-screen-print-tee",
-    "aliasSlugs": [
-      "ts-0008-v1",
-      "warm-caramel-acid-wash-screen-print-tee",
-      "acid-wash-screen-print-tee-var-1",
-      "aanya-artisanal-screen-printed-acid-wash-t-shirt",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0002",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-edition-2-tsh-0027",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0013",
-      "deepika-artisanal-screen-printed-acid-wash-t-shirt",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0015",
-      "freya-mineral-washed-premium-streetwear-t-shirt-tsh-0014",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0024",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "mira-artisanal-screen-printed-acid-wash-t-shirt",
-      "pari-artisanal-screen-printed-acid-wash-t-shirt",
-      "product-ts-0008",
-      "product-ts-0020",
-      "product-ts-0032",
-      "product-ts-0044",
-      "product-ts-0056",
-      "product-ts-0068",
-      "product-ts-0080",
-      "product-ts-0092",
-      "product-ts-0104",
-      "product-ts-0116",
-      "product-tsh-0002",
-      "product-tsh-0004",
-      "product-tsh-0008",
-      "product-tsh-0010",
-      "product-tsh-0013",
-      "product-tsh-0014",
-      "product-tsh-0015",
-      "product-tsh-0016",
-      "product-tsh-0019",
-      "product-tsh-0024",
-      "product-tsh-0027",
-      "shanaya-artisanal-screen-printed-acid-wash-t-shirt",
-      "shreya-artisanal-screen-printed-acid-wash-t-shirt",
-      "sienna-supima-cotton-luxury-crewneck-tee-tsh-0004",
-      "siya-artisanal-screen-printed-acid-wash-t-shirt",
-      "tanvi-artisanal-screen-printed-acid-wash-t-shirt",
-      "ts-0008",
-      "ts-0020",
-      "ts-0032",
-      "ts-0044",
-      "ts-0056",
-      "ts-0068",
-      "ts-0080",
-      "ts-0092",
-      "ts-0104",
-      "ts-0116",
-      "tsh-0002",
-      "tsh-0004",
-      "tsh-0008",
-      "tsh-0010",
-      "tsh-0013",
-      "tsh-0014",
-      "tsh-0015",
-      "tsh-0016",
-      "tsh-0019",
-      "tsh-0024",
-      "tsh-0027",
-      "vanya-artisanal-screen-printed-acid-wash-t-shirt",
-      "zoya-artisanal-screen-printed-acid-wash-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13673.jpg.jpeg",
-    "mainImage": "/t-shirts/13673.jpg.jpeg",
-    "images": [
-      "/t-shirts/13673.jpg.jpeg",
-      "/t-shirts/13674.jpg.jpeg",
-      "/t-shirts/13675.jpg.jpeg",
-      "/t-shirts/16529.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13673.jpg.jpeg",
-      "/t-shirts/13674.jpg.jpeg",
-      "/t-shirts/13675.jpg.jpeg",
-      "/t-shirts/16529.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/13673.jpg.jpeg",
-          "/t-shirts/13674.jpg.jpeg",
-          "/t-shirts/13675.jpg.jpeg",
-          "/t-shirts/16529.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Acid-Wash Screen Print Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Acid-Wash Screen Print Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0008-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0008-v2",
-    "title": "Aqua Marine Acid-Wash Screen Print Tee",
-    "slug": "aqua-marine-acid-wash-screen-print-tee",
-    "aliasSlugs": [
-      "ts-0008-v2",
-      "aqua-marine-acid-wash-screen-print-tee",
-      "acid-wash-screen-print-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13690.jpg.jpeg",
-    "mainImage": "/t-shirts/13690.jpg.jpeg",
-    "images": [
-      "/t-shirts/13690.jpg.jpeg",
-      "/t-shirts/16527.jpg.jpeg",
-      "/t-shirts/16528.jpg.jpeg",
-      "/t-shirts/16530.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13690.jpg.jpeg",
-      "/t-shirts/16527.jpg.jpeg",
-      "/t-shirts/16528.jpg.jpeg",
-      "/t-shirts/16530.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/13690.jpg.jpeg",
-          "/t-shirts/16527.jpg.jpeg",
-          "/t-shirts/16528.jpg.jpeg",
-          "/t-shirts/16530.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Aqua Marine Acid-Wash Screen Print Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Acid-Wash Screen Print Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0008-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0008-v3",
-    "title": "Blush Rose Acid-Wash Screen Print Tee",
-    "slug": "blush-rose-acid-wash-screen-print-tee",
-    "aliasSlugs": [
-      "ts-0008-v3",
-      "blush-rose-acid-wash-screen-print-tee",
-      "acid-wash-screen-print-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16395.jpg.jpeg",
-    "mainImage": "/t-shirts/16395.jpg.jpeg",
-    "images": [
-      "/t-shirts/16395.jpg.jpeg",
-      "/t-shirts/16601.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16395.jpg.jpeg",
-      "/t-shirts/16601.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16395.jpg.jpeg",
-          "/t-shirts/16601.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Acid-Wash Screen Print Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Acid-Wash Screen Print Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0008-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0008-v4",
-    "title": "Midnight Black Acid-Wash Screen Print Tee",
-    "slug": "midnight-black-acid-wash-screen-print-tee",
-    "aliasSlugs": [
-      "ts-0008-v4",
-      "midnight-black-acid-wash-screen-print-tee",
-      "acid-wash-screen-print-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16417.jpg.jpeg",
-    "mainImage": "/t-shirts/16417.jpg.jpeg",
-    "images": [
-      "/t-shirts/16417.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16417.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/t-shirts/16417.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Acid-Wash Screen Print Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Acid-Wash Screen Print Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0008-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0008-v5",
-    "title": "Orchid Pink Acid-Wash Screen Print Tee",
-    "slug": "orchid-pink-acid-wash-screen-print-tee",
-    "aliasSlugs": [
-      "ts-0008-v5",
-      "orchid-pink-acid-wash-screen-print-tee",
-      "acid-wash-screen-print-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16432.jpg.jpeg",
-    "mainImage": "/t-shirts/16432.jpg.jpeg",
-    "images": [
-      "/t-shirts/16432.jpg.jpeg",
-      "/t-shirts/16549.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16432.jpg.jpeg",
-      "/t-shirts/16549.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16432.jpg.jpeg",
-          "/t-shirts/16549.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Acid-Wash Screen Print Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Acid-Wash Screen Print Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0008-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0008-v6",
-    "title": "Deep Teal Acid-Wash Screen Print Tee",
-    "slug": "deep-teal-acid-wash-screen-print-tee",
-    "aliasSlugs": [
-      "ts-0008-v6",
-      "deep-teal-acid-wash-screen-print-tee",
-      "acid-wash-screen-print-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16575.jpg.jpeg",
-    "mainImage": "/t-shirts/16575.jpg.jpeg",
-    "images": [
-      "/t-shirts/16575.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16575.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#115E59",
-        "images": [
-          "/t-shirts/16575.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Deep Teal Acid-Wash Screen Print Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Deep Teal Acid-Wash Screen Print Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0008-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0008-v7",
-    "title": "Scarlet Red Acid-Wash Screen Print Tee",
-    "slug": "scarlet-red-acid-wash-screen-print-tee",
-    "aliasSlugs": [
-      "ts-0008-v7",
-      "scarlet-red-acid-wash-screen-print-tee",
-      "acid-wash-screen-print-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16619.jpg.jpeg",
-    "mainImage": "/t-shirts/16619.jpg.jpeg",
-    "images": [
-      "/t-shirts/16619.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16619.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/t-shirts/16619.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Acid-Wash Screen Print Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Acid-Wash Screen Print Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0008-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v1",
-    "title": "Steel Slate Slub Jersey Casual Tee",
-    "slug": "steel-slate-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v1",
-      "steel-slate-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-1",
-      "aditi-slub-jersey-breathable-casual-tee",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-edition-2-tsh-0020",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0019",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0003",
-      "aria-slub-jersey-breathable-casual-tee",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-edition-2-tsh-0027",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "diya-slub-jersey-breathable-casual-tee",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0015",
-      "freya-mineral-washed-premium-streetwear-t-shirt-tsh-0014",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-edition-2-tsh-0025",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0011",
-      "luna-boxy-heavyweight-drop-shoulder-tee-tsh-0018",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "maya-slub-jersey-breathable-casual-tee",
-      "meera-slub-jersey-breathable-casual-tee",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "naira-slub-jersey-breathable-casual-tee",
-      "noor-slub-jersey-breathable-casual-tee",
-      "product-ts-0009",
-      "product-ts-0021",
-      "product-ts-0033",
-      "product-ts-0045",
-      "product-ts-0057",
-      "product-ts-0069",
-      "product-ts-0081",
-      "product-ts-0093",
-      "product-ts-0105",
-      "product-ts-0117",
-      "product-tsh-0003",
-      "product-tsh-0005",
-      "product-tsh-0008",
-      "product-tsh-0011",
-      "product-tsh-0012",
-      "product-tsh-0014",
-      "product-tsh-0015",
-      "product-tsh-0016",
-      "product-tsh-0018",
-      "product-tsh-0019",
-      "product-tsh-0020",
-      "product-tsh-0025",
-      "product-tsh-0027",
-      "saanvi-slub-jersey-breathable-casual-tee",
-      "sara-slub-jersey-breathable-casual-tee",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0005",
-      "suhana-slub-jersey-breathable-casual-tee",
-      "ts-0009",
-      "ts-0021",
-      "ts-0033",
-      "ts-0045",
-      "ts-0057",
-      "ts-0069",
-      "ts-0081",
-      "ts-0093",
-      "ts-0105",
-      "ts-0117",
-      "tsh-0003",
-      "tsh-0005",
-      "tsh-0008",
-      "tsh-0011",
-      "tsh-0012",
-      "tsh-0014",
-      "tsh-0015",
-      "tsh-0016",
-      "tsh-0018",
-      "tsh-0019",
-      "tsh-0020",
-      "tsh-0025",
-      "tsh-0027"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13676.jpg.jpeg",
-    "mainImage": "/t-shirts/13676.jpg.jpeg",
-    "images": [
-      "/t-shirts/13676.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13676.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/t-shirts/13676.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v2",
-    "title": "Blush Rose Slub Jersey Casual Tee",
-    "slug": "blush-rose-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v2",
-      "blush-rose-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13691.jpg.jpeg",
-    "mainImage": "/t-shirts/13691.jpg.jpeg",
-    "images": [
-      "/t-shirts/13691.jpg.jpeg",
-      "/t-shirts/16550.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13691.jpg.jpeg",
-      "/t-shirts/16550.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/13691.jpg.jpeg",
-          "/t-shirts/16550.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v3",
-    "title": "Warm Caramel Slub Jersey Casual Tee",
-    "slug": "warm-caramel-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v3",
-      "warm-caramel-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16396.jpg.jpeg",
-    "mainImage": "/t-shirts/16396.jpg.jpeg",
-    "images": [
-      "/t-shirts/16396.jpg.jpeg",
-      "/t-shirts/16620.jpg.jpeg",
-      "/t-shirts/16621.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16396.jpg.jpeg",
-      "/t-shirts/16620.jpg.jpeg",
-      "/t-shirts/16621.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16396.jpg.jpeg",
-          "/t-shirts/16620.jpg.jpeg",
-          "/t-shirts/16621.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v4",
-    "title": "Pebble Grey Slub Jersey Casual Tee",
-    "slug": "pebble-grey-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v4",
-      "pebble-grey-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16418.jpg.jpeg",
-    "mainImage": "/t-shirts/16418.jpg.jpeg",
-    "images": [
-      "/t-shirts/16418.jpg.jpeg",
-      "/t-shirts/16602.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16418.jpg.jpeg",
-      "/t-shirts/16602.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16418.jpg.jpeg",
-          "/t-shirts/16602.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v5",
-    "title": "Orchid Pink Slub Jersey Casual Tee",
-    "slug": "orchid-pink-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v5",
-      "orchid-pink-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16433.jpg.jpeg",
-    "mainImage": "/t-shirts/16433.jpg.jpeg",
-    "images": [
-      "/t-shirts/16433.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16433.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16433.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v6",
-    "title": "Indigo Royal Slub Jersey Casual Tee",
-    "slug": "indigo-royal-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v6",
-      "indigo-royal-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16531.jpg.jpeg",
-    "mainImage": "/t-shirts/16531.jpg.jpeg",
-    "images": [
-      "/t-shirts/16531.jpg.jpeg",
-      "/t-shirts/16532.jpg.jpeg",
-      "/t-shirts/16533.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16531.jpg.jpeg",
-      "/t-shirts/16532.jpg.jpeg",
-      "/t-shirts/16533.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/t-shirts/16531.jpg.jpeg",
-          "/t-shirts/16532.jpg.jpeg",
-          "/t-shirts/16533.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Indigo Royal Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v7",
-    "title": "Sunset Tangerine Slub Jersey Casual Tee",
-    "slug": "sunset-tangerine-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v7",
-      "sunset-tangerine-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16578.jpg.jpeg",
-    "mainImage": "/t-shirts/16578.jpg.jpeg",
-    "images": [
-      "/t-shirts/16578.jpg.jpeg",
-      "/t-shirts/16579.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16578.jpg.jpeg",
-      "/t-shirts/16579.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/t-shirts/16578.jpg.jpeg",
-          "/t-shirts/16579.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0009-v8",
-    "title": "Lavender Violet Slub Jersey Casual Tee",
-    "slug": "lavender-violet-slub-jersey-casual-tee",
-    "aliasSlugs": [
-      "ts-0009-v8",
-      "lavender-violet-slub-jersey-casual-tee",
-      "slub-jersey-casual-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16603.jpg.jpeg",
-    "mainImage": "/t-shirts/16603.jpg.jpeg",
-    "images": [
-      "/t-shirts/16603.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16603.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/t-shirts/16603.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Lavender Violet Slub Jersey Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Lavender Violet Slub Jersey Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0009-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v1",
-    "title": "Sage Olive French Terry Crop Tee",
-    "slug": "sage-olive-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v1",
-      "sage-olive-french-terry-crop-tee",
-      "french-terry-crop-tee-var-1",
-      "alia-french-terry-cotton-boxy-crop-t-shirt",
-      "ananya-french-terry-cotton-boxy-crop-t-shirt",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-edition-2-tsh-0020",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0003",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0013",
-      "chloe-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0026",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "elena-mineral-washed-premium-streetwear-t-shirt-tsh-0006",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0028",
-      "isha-french-terry-cotton-boxy-crop-t-shirt",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-edition-2-tsh-0025",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "janvi-french-terry-cotton-boxy-crop-t-shirt",
-      "kavya-french-terry-cotton-boxy-crop-t-shirt",
-      "kiara-french-terry-cotton-boxy-crop-t-shirt",
-      "luna-boxy-heavyweight-drop-shoulder-tee-tsh-0018",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "product-ts-0010",
-      "product-ts-0022",
-      "product-ts-0034",
-      "product-ts-0046",
-      "product-ts-0058",
-      "product-ts-0070",
-      "product-ts-0082",
-      "product-ts-0094",
-      "product-ts-0106",
-      "product-ts-0118",
-      "product-tsh-0003",
-      "product-tsh-0006",
-      "product-tsh-0008",
-      "product-tsh-0010",
-      "product-tsh-0012",
-      "product-tsh-0013",
-      "product-tsh-0016",
-      "product-tsh-0018",
-      "product-tsh-0020",
-      "product-tsh-0025",
-      "product-tsh-0026",
-      "product-tsh-0028",
-      "riddhi-french-terry-cotton-boxy-crop-t-shirt",
-      "sienna-french-terry-cotton-boxy-crop-t-shirt",
-      "simran-french-terry-cotton-boxy-crop-t-shirt",
-      "ts-0010",
-      "ts-0022",
-      "ts-0034",
-      "ts-0046",
-      "ts-0058",
-      "ts-0070",
-      "ts-0082",
-      "ts-0094",
-      "ts-0106",
-      "ts-0118",
-      "tsh-0003",
-      "tsh-0006",
-      "tsh-0008",
-      "tsh-0010",
-      "tsh-0012",
-      "tsh-0013",
-      "tsh-0016",
-      "tsh-0018",
-      "tsh-0020",
-      "tsh-0025",
-      "tsh-0026",
-      "tsh-0028",
-      "zara-french-terry-cotton-boxy-crop-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13677.jpg.jpeg",
-    "mainImage": "/t-shirts/13677.jpg.jpeg",
-    "images": [
-      "/t-shirts/13677.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13677.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/t-shirts/13677.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sage Olive French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sage Olive French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v2",
-    "title": "Warm Caramel French Terry Crop Tee",
-    "slug": "warm-caramel-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v2",
-      "warm-caramel-french-terry-crop-tee",
-      "french-terry-crop-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16376.jpg.jpeg",
-    "mainImage": "/t-shirts/16376.jpg.jpeg",
-    "images": [
-      "/t-shirts/16376.jpg.jpeg",
-      "/t-shirts/16397.jpg.jpeg",
-      "/t-shirts/16580.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16376.jpg.jpeg",
-      "/t-shirts/16397.jpg.jpeg",
-      "/t-shirts/16580.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16376.jpg.jpeg",
-          "/t-shirts/16397.jpg.jpeg",
-          "/t-shirts/16580.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v3",
-    "title": "Sunset Tangerine French Terry Crop Tee",
-    "slug": "sunset-tangerine-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v3",
-      "sunset-tangerine-french-terry-crop-tee",
-      "french-terry-crop-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16377.jpg.jpeg",
-    "mainImage": "/t-shirts/16377.jpg.jpeg",
-    "images": [
-      "/t-shirts/16377.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16377.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/t-shirts/16377.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v4",
-    "title": "Midnight Black French Terry Crop Tee",
-    "slug": "midnight-black-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v4",
-      "midnight-black-french-terry-crop-tee",
-      "french-terry-crop-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16419.jpg.jpeg",
-    "mainImage": "/t-shirts/16419.jpg.jpeg",
-    "images": [
-      "/t-shirts/16419.jpg.jpeg",
-      "/t-shirts/16434.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16419.jpg.jpeg",
-      "/t-shirts/16434.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/t-shirts/16419.jpg.jpeg",
-          "/t-shirts/16434.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v5",
-    "title": "Pebble Grey French Terry Crop Tee",
-    "slug": "pebble-grey-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v5",
-      "pebble-grey-french-terry-crop-tee",
-      "french-terry-crop-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16435.jpg.jpeg",
-    "mainImage": "/t-shirts/16435.jpg.jpeg",
-    "images": [
-      "/t-shirts/16435.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16435.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16435.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v6",
-    "title": "Aqua Marine French Terry Crop Tee",
-    "slug": "aqua-marine-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v6",
-      "aqua-marine-french-terry-crop-tee",
-      "french-terry-crop-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16534.jpg.jpeg",
-    "mainImage": "/t-shirts/16534.jpg.jpeg",
-    "images": [
-      "/t-shirts/16534.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16534.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16534.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Aqua Marine French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v7",
-    "title": "Orchid Pink French Terry Crop Tee",
-    "slug": "orchid-pink-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v7",
-      "orchid-pink-french-terry-crop-tee",
-      "french-terry-crop-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16551.jpg.jpeg",
-    "mainImage": "/t-shirts/16551.jpg.jpeg",
-    "images": [
-      "/t-shirts/16551.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16551.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16551.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v8",
-    "title": "Rust Terracotta French Terry Crop Tee",
-    "slug": "rust-terracotta-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v8",
-      "rust-terracotta-french-terry-crop-tee",
-      "french-terry-crop-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16604.jpg.jpeg",
-    "mainImage": "/t-shirts/16604.jpg.jpeg",
-    "images": [
-      "/t-shirts/16604.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16604.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/t-shirts/16604.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v9",
-    "title": "Teal Slate French Terry Crop Tee",
-    "slug": "teal-slate-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v9",
-      "teal-slate-french-terry-crop-tee",
-      "french-terry-crop-tee-var-9"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16622.jpg (1).jpeg",
-    "mainImage": "/t-shirts/16622.jpg (1).jpeg",
-    "images": [
-      "/t-shirts/16622.jpg (1).jpeg",
-      "/t-shirts/16622.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16622.jpg (1).jpeg",
-      "/t-shirts/16622.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/t-shirts/16622.jpg (1).jpeg",
-          "/t-shirts/16622.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0010-v10",
-    "title": "Artisan Earth French Terry Crop Tee",
-    "slug": "artisan-earth-french-terry-crop-tee",
-    "aliasSlugs": [
-      "ts-0010-v10",
-      "artisan-earth-french-terry-crop-tee",
-      "french-terry-crop-tee-var-10"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16622.jpg%20(1).jpeg",
-    "mainImage": "/t-shirts/16622.jpg%20(1).jpeg",
-    "images": [
-      "/t-shirts/16622.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16622.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/t-shirts/16622.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth French Terry Crop Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth French Terry Crop Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0010-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v1",
-    "title": "Steel Slate Drop-Shoulder Boxy Tee",
-    "slug": "steel-slate-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v1",
-      "steel-slate-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-edition-2-tsh-0020",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0003",
-      "avani-relaxed-drop-shoulder-boxy-tee",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0022",
-      "elena-mineral-washed-premium-streetwear-t-shirt-tsh-0006",
-      "elena-relaxed-drop-shoulder-boxy-tee",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0028",
-      "ishita-relaxed-drop-shoulder-boxy-tee",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0011",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0024",
-      "khushi-relaxed-drop-shoulder-boxy-tee",
-      "luna-boxy-heavyweight-drop-shoulder-tee-tsh-0018",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0017",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-tsh-0016",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0009",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "product-ts-0011",
-      "product-ts-0023",
-      "product-ts-0035",
-      "product-ts-0047",
-      "product-ts-0059",
-      "product-ts-0071",
-      "product-ts-0083",
-      "product-ts-0095",
-      "product-ts-0107",
-      "product-ts-0119",
-      "product-tsh-0003",
-      "product-tsh-0006",
-      "product-tsh-0008",
-      "product-tsh-0009",
-      "product-tsh-0011",
-      "product-tsh-0012",
-      "product-tsh-0016",
-      "product-tsh-0017",
-      "product-tsh-0018",
-      "product-tsh-0020",
-      "product-tsh-0021",
-      "product-tsh-0022",
-      "product-tsh-0024",
-      "product-tsh-0028",
-      "radhika-relaxed-drop-shoulder-boxy-tee",
-      "reet-relaxed-drop-shoulder-boxy-tee",
-      "rhea-relaxed-drop-shoulder-boxy-tee",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-2-tsh-0021",
-      "sitara-relaxed-drop-shoulder-boxy-tee",
-      "tara-relaxed-drop-shoulder-boxy-tee",
-      "trisha-relaxed-drop-shoulder-boxy-tee",
-      "ts-0011",
-      "ts-0023",
-      "ts-0035",
-      "ts-0047",
-      "ts-0059",
-      "ts-0071",
-      "ts-0083",
-      "ts-0095",
-      "ts-0107",
-      "ts-0119",
-      "tsh-0003",
-      "tsh-0006",
-      "tsh-0008",
-      "tsh-0009",
-      "tsh-0011",
-      "tsh-0012",
-      "tsh-0016",
-      "tsh-0017",
-      "tsh-0018",
-      "tsh-0020",
-      "tsh-0021",
-      "tsh-0022",
-      "tsh-0024",
-      "tsh-0028"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13678.jpg.jpeg",
-    "mainImage": "/t-shirts/13678.jpg.jpeg",
-    "images": [
-      "/t-shirts/13678.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13678.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/t-shirts/13678.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v2",
-    "title": "Warm Caramel Drop-Shoulder Boxy Tee",
-    "slug": "warm-caramel-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v2",
-      "warm-caramel-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16378.jpg.jpeg",
-    "mainImage": "/t-shirts/16378.jpg.jpeg",
-    "images": [
-      "/t-shirts/16378.jpg.jpeg",
-      "/t-shirts/16398.jpg.jpeg",
-      "/t-shirts/16400.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16378.jpg.jpeg",
-      "/t-shirts/16398.jpg.jpeg",
-      "/t-shirts/16400.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16378.jpg.jpeg",
-          "/t-shirts/16398.jpg.jpeg",
-          "/t-shirts/16400.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v3",
-    "title": "Rust Terracotta Drop-Shoulder Boxy Tee",
-    "slug": "rust-terracotta-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v3",
-      "rust-terracotta-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16399.jpg.jpeg",
-    "mainImage": "/t-shirts/16399.jpg.jpeg",
-    "images": [
-      "/t-shirts/16399.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16399.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/t-shirts/16399.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v4",
-    "title": "Lavender Violet Drop-Shoulder Boxy Tee",
-    "slug": "lavender-violet-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v4",
-      "lavender-violet-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16401.jpg.jpeg",
-    "mainImage": "/t-shirts/16401.jpg.jpeg",
-    "images": [
-      "/t-shirts/16401.jpg.jpeg",
-      "/t-shirts/16402.jpg.jpeg",
-      "/t-shirts/16403.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16401.jpg.jpeg",
-      "/t-shirts/16402.jpg.jpeg",
-      "/t-shirts/16403.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/t-shirts/16401.jpg.jpeg",
-          "/t-shirts/16402.jpg.jpeg",
-          "/t-shirts/16403.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Lavender Violet Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Lavender Violet Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v5",
-    "title": "Sunset Tangerine Drop-Shoulder Boxy Tee",
-    "slug": "sunset-tangerine-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v5",
-      "sunset-tangerine-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16420.jpg.jpeg",
-    "mainImage": "/t-shirts/16420.jpg.jpeg",
-    "images": [
-      "/t-shirts/16420.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16420.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/t-shirts/16420.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v6",
-    "title": "Berry Magenta Drop-Shoulder Boxy Tee",
-    "slug": "berry-magenta-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v6",
-      "berry-magenta-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16436.jpg.jpeg",
-    "mainImage": "/t-shirts/16436.jpg.jpeg",
-    "images": [
-      "/t-shirts/16436.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16436.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#831843",
-        "images": [
-          "/t-shirts/16436.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Berry Magenta Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Berry Magenta Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v7",
-    "title": "Indigo Royal Drop-Shoulder Boxy Tee",
-    "slug": "indigo-royal-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v7",
-      "indigo-royal-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16535.jpg.jpeg",
-    "mainImage": "/t-shirts/16535.jpg.jpeg",
-    "images": [
-      "/t-shirts/16535.jpg.jpeg",
-      "/t-shirts/16536.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16535.jpg.jpeg",
-      "/t-shirts/16536.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/t-shirts/16535.jpg.jpeg",
-          "/t-shirts/16536.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Indigo Royal Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v8",
-    "title": "Blush Rose Drop-Shoulder Boxy Tee",
-    "slug": "blush-rose-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v8",
-      "blush-rose-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16552.jpg.jpeg",
-    "mainImage": "/t-shirts/16552.jpg.jpeg",
-    "images": [
-      "/t-shirts/16552.jpg.jpeg",
-      "/t-shirts/16555.jpg.jpeg",
-      "/t-shirts/16556.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16552.jpg.jpeg",
-      "/t-shirts/16555.jpg.jpeg",
-      "/t-shirts/16556.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16552.jpg.jpeg",
-          "/t-shirts/16555.jpg.jpeg",
-          "/t-shirts/16556.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v9",
-    "title": "Orchid Pink Drop-Shoulder Boxy Tee",
-    "slug": "orchid-pink-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v9",
-      "orchid-pink-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-9"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16554.jpg.jpeg",
-    "mainImage": "/t-shirts/16554.jpg.jpeg",
-    "images": [
-      "/t-shirts/16554.jpg.jpeg",
-      "/t-shirts/16557.jpg.jpeg",
-      "/t-shirts/16558.jpg.jpeg",
-      "/t-shirts/16553.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16554.jpg.jpeg",
-      "/t-shirts/16557.jpg.jpeg",
-      "/t-shirts/16558.jpg.jpeg",
-      "/t-shirts/16553.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16554.jpg.jpeg",
-          "/t-shirts/16557.jpg.jpeg",
-          "/t-shirts/16558.jpg.jpeg",
-          "/t-shirts/16553.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v10",
-    "title": "Pebble Grey Drop-Shoulder Boxy Tee",
-    "slug": "pebble-grey-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v10",
-      "pebble-grey-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-10"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16581.jpg.jpeg",
-    "mainImage": "/t-shirts/16581.jpg.jpeg",
-    "images": [
-      "/t-shirts/16581.jpg.jpeg",
-      "/t-shirts/16582.jpg (1).jpeg",
-      "/t-shirts/16582.jpg.jpeg",
-      "/t-shirts/16605.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16581.jpg.jpeg",
-      "/t-shirts/16582.jpg (1).jpeg",
-      "/t-shirts/16582.jpg.jpeg",
-      "/t-shirts/16605.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16581.jpg.jpeg",
-          "/t-shirts/16582.jpg (1).jpeg",
-          "/t-shirts/16582.jpg.jpeg",
-          "/t-shirts/16605.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v11",
-    "title": "Artisan Earth Drop-Shoulder Boxy Tee",
-    "slug": "artisan-earth-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v11",
-      "artisan-earth-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-11"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16582.jpg%20(1).jpeg",
-    "mainImage": "/t-shirts/16582.jpg%20(1).jpeg",
-    "images": [
-      "/t-shirts/16582.jpg%20(1).jpeg",
-      "/t-shirts/16583.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16582.jpg%20(1).jpeg",
-      "/t-shirts/16583.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/t-shirts/16582.jpg%20(1).jpeg",
-          "/t-shirts/16583.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v12",
-    "title": "Ivory Cream Drop-Shoulder Boxy Tee",
-    "slug": "ivory-cream-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v12",
-      "ivory-cream-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-12"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16583.jpg (1).jpeg",
-    "mainImage": "/t-shirts/16583.jpg (1).jpeg",
-    "images": [
-      "/t-shirts/16583.jpg (1).jpeg",
-      "/t-shirts/16583.jpg.jpeg",
-      "/t-shirts/16584.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16583.jpg (1).jpeg",
-      "/t-shirts/16583.jpg.jpeg",
-      "/t-shirts/16584.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/t-shirts/16583.jpg (1).jpeg",
-          "/t-shirts/16583.jpg.jpeg",
-          "/t-shirts/16584.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0011-v13",
-    "title": "Scarlet Red Drop-Shoulder Boxy Tee",
-    "slug": "scarlet-red-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0011-v13",
-      "scarlet-red-drop-shoulder-boxy-tee",
-      "drop-shoulder-boxy-tee-var-13"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16623.jpg.jpeg",
-    "mainImage": "/t-shirts/16623.jpg.jpeg",
-    "images": [
-      "/t-shirts/16623.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16623.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/t-shirts/16623.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0011-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v1",
-    "title": "Blush Rose Garment-Dyed Relaxed Tee",
-    "slug": "blush-rose-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v1",
-      "blush-rose-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-1",
-      "aanya-garment-dyed-heavyweight-relaxed-t-shirt",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0002",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-tsh-0001",
-      "chloe-supima-cotton-luxury-crewneck-tee-tsh-0012",
-      "deepika-garment-dyed-heavyweight-relaxed-t-shirt",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0022",
-      "elena-mineral-washed-premium-streetwear-t-shirt-tsh-0006",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-edition-2-tsh-0029",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0028",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-edition-2-tsh-0025",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-edition-2-tsh-0024",
-      "isla-fine-combed-cotton-relaxed-graphic-tee-tsh-0010",
-      "luna-boxy-heavyweight-drop-shoulder-tee-tsh-0018",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0017",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-tsh-0008",
-      "mira-garment-dyed-heavyweight-relaxed-t-shirt",
-      "pari-garment-dyed-heavyweight-relaxed-t-shirt",
-      "product-ts-0012",
-      "product-ts-0024",
-      "product-ts-0036",
-      "product-ts-0048",
-      "product-ts-0060",
-      "product-ts-0072",
-      "product-ts-0084",
-      "product-ts-0096",
-      "product-ts-0108",
-      "product-ts-0120",
-      "product-tsh-0001",
-      "product-tsh-0002",
-      "product-tsh-0006",
-      "product-tsh-0008",
-      "product-tsh-0010",
-      "product-tsh-0012",
-      "product-tsh-0017",
-      "product-tsh-0018",
-      "product-tsh-0022",
-      "product-tsh-0024",
-      "product-tsh-0025",
-      "product-tsh-0028",
-      "product-tsh-0029",
-      "shanaya-garment-dyed-heavyweight-relaxed-t-shirt",
-      "shreya-garment-dyed-heavyweight-relaxed-t-shirt",
-      "siya-garment-dyed-heavyweight-relaxed-t-shirt",
-      "tanvi-garment-dyed-heavyweight-relaxed-t-shirt",
-      "ts-0012",
-      "ts-0024",
-      "ts-0036",
-      "ts-0048",
-      "ts-0060",
-      "ts-0072",
-      "ts-0084",
-      "ts-0096",
-      "ts-0108",
-      "ts-0120",
-      "tsh-0001",
-      "tsh-0002",
-      "tsh-0006",
-      "tsh-0008",
-      "tsh-0010",
-      "tsh-0012",
-      "tsh-0017",
-      "tsh-0018",
-      "tsh-0022",
-      "tsh-0024",
-      "tsh-0025",
-      "tsh-0028",
-      "tsh-0029",
-      "vanya-garment-dyed-heavyweight-relaxed-t-shirt",
-      "zoya-garment-dyed-heavyweight-relaxed-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/13679.jpg.jpeg",
-    "mainImage": "/t-shirts/13679.jpg.jpeg",
-    "images": [
-      "/t-shirts/13679.jpg.jpeg",
-      "/t-shirts/13680.jpg.jpeg",
-      "/t-shirts/16438.jpg.jpeg",
-      "/t-shirts/16537.jpg.jpeg",
-      "/t-shirts/16559.jpg.jpeg",
-      "/t-shirts/16628.jpg.jpeg",
-      "/t-shirts/16627.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/13679.jpg.jpeg",
-      "/t-shirts/13680.jpg.jpeg",
-      "/t-shirts/16438.jpg.jpeg",
-      "/t-shirts/16537.jpg.jpeg",
-      "/t-shirts/16559.jpg.jpeg",
-      "/t-shirts/16628.jpg.jpeg",
-      "/t-shirts/16627.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/13679.jpg.jpeg",
-          "/t-shirts/13680.jpg.jpeg",
-          "/t-shirts/16438.jpg.jpeg",
-          "/t-shirts/16537.jpg.jpeg",
-          "/t-shirts/16559.jpg.jpeg",
-          "/t-shirts/16628.jpg.jpeg",
-          "/t-shirts/16627.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v2",
-    "title": "Warm Caramel Garment-Dyed Relaxed Tee",
-    "slug": "warm-caramel-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v2",
-      "warm-caramel-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16379.jpg.jpeg",
-    "mainImage": "/t-shirts/16379.jpg.jpeg",
-    "images": [
-      "/t-shirts/16379.jpg.jpeg",
-      "/t-shirts/16626.jpg.jpeg",
-      "/t-shirts/16629.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16379.jpg.jpeg",
-      "/t-shirts/16626.jpg.jpeg",
-      "/t-shirts/16629.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16379.jpg.jpeg",
-          "/t-shirts/16626.jpg.jpeg",
-          "/t-shirts/16629.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v3",
-    "title": "Orchid Pink Garment-Dyed Relaxed Tee",
-    "slug": "orchid-pink-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v3",
-      "orchid-pink-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16404.jpg.jpeg",
-    "mainImage": "/t-shirts/16404.jpg.jpeg",
-    "images": [
-      "/t-shirts/16404.jpg.jpeg",
-      "/t-shirts/16405.jpg.jpeg",
-      "/t-shirts/16437.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16404.jpg.jpeg",
-      "/t-shirts/16405.jpg.jpeg",
-      "/t-shirts/16437.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/t-shirts/16404.jpg.jpeg",
-          "/t-shirts/16405.jpg.jpeg",
-          "/t-shirts/16437.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v4",
-    "title": "Midnight Black Garment-Dyed Relaxed Tee",
-    "slug": "midnight-black-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v4",
-      "midnight-black-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16421.jpg.jpeg",
-    "mainImage": "/t-shirts/16421.jpg.jpeg",
-    "images": [
-      "/t-shirts/16421.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16421.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/t-shirts/16421.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v5",
-    "title": "Charcoal Slate Garment-Dyed Relaxed Tee",
-    "slug": "charcoal-slate-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v5",
-      "charcoal-slate-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16586.jpg.jpeg",
-    "mainImage": "/t-shirts/16586.jpg.jpeg",
-    "images": [
-      "/t-shirts/16586.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16586.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
           "/t-shirts/16586.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Charcoal Slate Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v6",
-    "title": "Indigo Royal Garment-Dyed Relaxed Tee",
-    "slug": "indigo-royal-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v6",
-      "indigo-royal-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-6"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -6881,59 +3143,117 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16606.jpg.jpeg",
-    "mainImage": "/t-shirts/16606.jpg.jpeg",
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Mustard Sun Minimalist Handblock Crest Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0025",
+      "Part Number": "WST-TS-0025",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168878000-9lkxa5t",
+      "groupName": "Product Group 025",
+      "groupNum": 25,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0026",
+    "partNumber": "WST-TS-0026",
+    "sku": "WST-TS-0026",
+    "name": "Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee",
+    "title": "Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee",
+    "slug": "deep-pine-garment-dyed-enzyme-washed-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0026",
+      "deep-pine-garment-dyed-enzyme-washed-bio-washed-crewneck-tee",
+      "product-ts-0026",
+      "pg-026",
+      "product-group-026"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.9,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Handloom Luxe",
+    "featured_image": "/t-shirts/16605.jpg.jpeg",
+    "mainImage": "/t-shirts/16605.jpg.jpeg",
+    "image": "/t-shirts/16605.jpg.jpeg",
     "images": [
-      "/t-shirts/16606.jpg.jpeg",
-      "/t-shirts/16607.jpg.jpeg"
+      "/t-shirts/16605.jpg.jpeg",
+      "/t-shirts/16603.jpg.jpeg",
+      "/t-shirts/16602.jpg.jpeg",
+      "/t-shirts/16601.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16606.jpg.jpeg",
-      "/t-shirts/16607.jpg.jpeg"
+      "/t-shirts/16605.jpg.jpeg",
+      "/t-shirts/16603.jpg.jpeg",
+      "/t-shirts/16602.jpg.jpeg",
+      "/t-shirts/16601.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16605.jpg.jpeg",
+        "caption": "Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16603.jpg.jpeg",
+        "caption": "Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16602.jpg.jpeg",
+        "caption": "Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16601.jpg.jpeg",
+        "caption": "Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16606.jpg.jpeg",
-          "/t-shirts/16607.jpg.jpeg"
+          "/t-shirts/16605.jpg.jpeg",
+          "/t-shirts/16603.jpg.jpeg",
+          "/t-shirts/16602.jpg.jpeg",
+          "/t-shirts/16601.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Indigo Royal Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v7",
-    "title": "Aqua Marine Garment-Dyed Relaxed Tee",
-    "slug": "aqua-marine-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v7",
-      "aqua-marine-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-7"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -6941,56 +3261,117 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16608.jpg.jpeg",
-    "mainImage": "/t-shirts/16608.jpg.jpeg",
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Deep Pine Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0026",
+      "Part Number": "WST-TS-0026",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.611Z",
+    "updatedAt": "2026-11-20T10:16:21.611Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168917572-r9o9elh",
+      "groupName": "Product Group 026",
+      "groupNum": 26,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0027",
+    "partNumber": "WST-TS-0027",
+    "sku": "WST-TS-0027",
+    "name": "Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt",
+    "title": "Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt",
+    "slug": "charcoal-smoke-drop-shoulder-oversized-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0027",
+      "charcoal-smoke-drop-shoulder-oversized-classic-artisan-t-shirt",
+      "product-ts-0027",
+      "pg-027",
+      "product-group-027"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.91,
+    "reviewCount": 13,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Seasonal Release",
+    "featured_image": "/t-shirts/16604.jpg.jpeg",
+    "mainImage": "/t-shirts/16604.jpg.jpeg",
+    "image": "/t-shirts/16604.jpg.jpeg",
     "images": [
-      "/t-shirts/16608.jpg.jpeg"
+      "/t-shirts/16604.jpg.jpeg",
+      "/t-shirts/16600.jpg.jpeg",
+      "/t-shirts/16599.jpg.jpeg",
+      "/t-shirts/16597.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16608.jpg.jpeg"
+      "/t-shirts/16604.jpg.jpeg",
+      "/t-shirts/16600.jpg.jpeg",
+      "/t-shirts/16599.jpg.jpeg",
+      "/t-shirts/16597.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16604.jpg.jpeg",
+        "caption": "Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16600.jpg.jpeg",
+        "caption": "Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16599.jpg.jpeg",
+        "caption": "Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16597.jpg.jpeg",
+        "caption": "Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16608.jpg.jpeg"
+          "/t-shirts/16604.jpg.jpeg",
+          "/t-shirts/16600.jpg.jpeg",
+          "/t-shirts/16599.jpg.jpeg",
+          "/t-shirts/16597.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Aqua Marine Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v8",
-    "title": "Ivory Cream Garment-Dyed Relaxed Tee",
-    "slug": "ivory-cream-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v8",
-      "ivory-cream-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-8"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -6998,56 +3379,374 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16624.jpg.jpeg",
-    "mainImage": "/t-shirts/16624.jpg.jpeg",
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Charcoal Smoke Drop-Shoulder Oversized Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0027",
+      "Part Number": "WST-TS-0027",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168922571-tnyc6ff",
+      "groupName": "Product Group 027",
+      "groupNum": 27,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0028",
+    "partNumber": "WST-TS-0028",
+    "sku": "WST-TS-0028",
+    "name": "Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt",
+    "title": "Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt",
+    "slug": "sand-beige-classic-ribbed-crewneck-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0028",
+      "sand-beige-classic-ribbed-crewneck-relaxed-oversized-t-shirt",
+      "product-ts-0028",
+      "pg-028",
+      "product-group-028"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.92,
+    "reviewCount": 14,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Special",
+    "featured_image": "/t-shirts/16612.jpg.jpeg",
+    "mainImage": "/t-shirts/16612.jpg.jpeg",
+    "image": "/t-shirts/16612.jpg.jpeg",
     "images": [
-      "/t-shirts/16624.jpg.jpeg"
+      "/t-shirts/16612.jpg.jpeg",
+      "/t-shirts/16610.jpg.jpeg",
+      "/t-shirts/16608.jpg.jpeg",
+      "/t-shirts/16607.jpg.jpeg",
+      "/t-shirts/16606.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16624.jpg.jpeg"
+      "/t-shirts/16612.jpg.jpeg",
+      "/t-shirts/16610.jpg.jpeg",
+      "/t-shirts/16608.jpg.jpeg",
+      "/t-shirts/16607.jpg.jpeg",
+      "/t-shirts/16606.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16612.jpg.jpeg",
+        "caption": "Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16610.jpg.jpeg",
+        "caption": "Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16608.jpg.jpeg",
+        "caption": "Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16607.jpg.jpeg",
+        "caption": "Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16606.jpg.jpeg",
+        "caption": "Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
+          "/t-shirts/16612.jpg.jpeg",
+          "/t-shirts/16610.jpg.jpeg",
+          "/t-shirts/16608.jpg.jpeg",
+          "/t-shirts/16607.jpg.jpeg",
+          "/t-shirts/16606.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sand Beige Classic Ribbed Crewneck Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0028",
+      "Part Number": "WST-TS-0028",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168935400-zfpn0n2",
+      "groupName": "Product Group 028",
+      "groupNum": 28,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0029",
+    "partNumber": "WST-TS-0029",
+    "sku": "WST-TS-0029",
+    "name": "Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee",
+    "title": "Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee",
+    "slug": "crimson-berry-clean-tailored-fit-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0029",
+      "crimson-berry-clean-tailored-fit-pocket-detail-cotton-tee",
+      "product-ts-0029",
+      "pg-029",
+      "product-group-029"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.93,
+    "reviewCount": 15,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Signature Atelier",
+    "featured_image": "/t-shirts/16615.jpg.jpeg",
+    "mainImage": "/t-shirts/16615.jpg.jpeg",
+    "image": "/t-shirts/16615.jpg.jpeg",
+    "images": [
+      "/t-shirts/16615.jpg.jpeg",
+      "/t-shirts/16614.jpg.jpeg",
+      "/t-shirts/16613.jpg.jpeg",
+      "/t-shirts/16616.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16615.jpg.jpeg",
+      "/t-shirts/16614.jpg.jpeg",
+      "/t-shirts/16613.jpg.jpeg",
+      "/t-shirts/16616.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16615.jpg.jpeg",
+        "caption": "Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16614.jpg.jpeg",
+        "caption": "Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16613.jpg.jpeg",
+        "caption": "Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16616.jpg.jpeg",
+        "caption": "Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16615.jpg.jpeg",
+          "/t-shirts/16614.jpg.jpeg",
+          "/t-shirts/16613.jpg.jpeg",
+          "/t-shirts/16616.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Crimson Berry Clean Tailored Fit Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0029",
+      "Part Number": "WST-TS-0029",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168942414-j0lk8j7",
+      "groupName": "Product Group 029",
+      "groupNum": 29,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0030",
+    "partNumber": "WST-TS-0030",
+    "sku": "WST-TS-0030",
+    "name": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee",
+    "title": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee",
+    "slug": "air-force-blue-sanganeri-pocket-accent-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0030",
+      "air-force-blue-sanganeri-pocket-accent-drop-shoulder-street-tee",
+      "product-ts-0030",
+      "pg-030",
+      "product-group-030"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.94,
+    "reviewCount": 16,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Bestseller",
+    "featured_image": "/t-shirts/16621.jpg.jpeg",
+    "mainImage": "/t-shirts/16621.jpg.jpeg",
+    "image": "/t-shirts/16621.jpg.jpeg",
+    "images": [
+      "/t-shirts/16621.jpg.jpeg",
+      "/t-shirts/16622.jpg (1).jpeg",
+      "/t-shirts/16622.jpg.jpeg",
+      "/t-shirts/16620.jpg.jpeg",
+      "/t-shirts/16626.jpg.jpeg",
+      "/t-shirts/16624.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16621.jpg.jpeg",
+      "/t-shirts/16622.jpg (1).jpeg",
+      "/t-shirts/16622.jpg.jpeg",
+      "/t-shirts/16620.jpg.jpeg",
+      "/t-shirts/16626.jpg.jpeg",
+      "/t-shirts/16624.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16621.jpg.jpeg",
+        "caption": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16622.jpg (1).jpeg",
+        "caption": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16622.jpg.jpeg",
+        "caption": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16620.jpg.jpeg",
+        "caption": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16626.jpg.jpeg",
+        "caption": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16624.jpg.jpeg",
+        "caption": "Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16621.jpg.jpeg",
+          "/t-shirts/16622.jpg (1).jpeg",
+          "/t-shirts/16622.jpg.jpeg",
+          "/t-shirts/16620.jpg.jpeg",
+          "/t-shirts/16626.jpg.jpeg",
           "/t-shirts/16624.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Ivory Cream Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0012-v9",
-    "title": "Pebble Grey Garment-Dyed Relaxed Tee",
-    "slug": "pebble-grey-garment-dyed-relaxed-tee",
-    "aliasSlugs": [
-      "ts-0012-v9",
-      "pebble-grey-garment-dyed-relaxed-tee",
-      "garment-dyed-relaxed-tee-var-9"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7055,69 +3754,124 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16625.jpg.jpeg",
-    "mainImage": "/t-shirts/16625.jpg.jpeg",
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Air Force Blue Sanganeri Pocket Accent Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0030",
+      "Part Number": "WST-TS-0030",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168948160-6pgq0mv",
+      "groupName": "Product Group 030",
+      "groupNum": 30,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0031",
+    "partNumber": "WST-TS-0031",
+    "sku": "WST-TS-0031",
+    "name": "Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee",
+    "title": "Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee",
+    "slug": "pristine-white-garment-dyed-enzyme-washed-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0031",
+      "pristine-white-garment-dyed-enzyme-washed-bio-washed-crewneck-tee",
+      "product-ts-0031",
+      "pg-031",
+      "product-group-031"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.85,
+    "reviewCount": 17,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Popular",
+    "featured_image": "/t-shirts/16618.jpg.jpeg",
+    "mainImage": "/t-shirts/16618.jpg.jpeg",
+    "image": "/t-shirts/16618.jpg.jpeg",
     "images": [
-      "/t-shirts/16625.jpg.jpeg"
+      "/t-shirts/16618.jpg.jpeg",
+      "/t-shirts/16617.jpg.jpeg",
+      "/t-shirts/16619.jpg.jpeg",
+      "/t-shirts/16623.jpg.jpeg",
+      "/t-shirts/16627.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16625.jpg.jpeg"
+      "/t-shirts/16618.jpg.jpeg",
+      "/t-shirts/16617.jpg.jpeg",
+      "/t-shirts/16619.jpg.jpeg",
+      "/t-shirts/16623.jpg.jpeg",
+      "/t-shirts/16627.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16618.jpg.jpeg",
+        "caption": "Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16617.jpg.jpeg",
+        "caption": "Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16619.jpg.jpeg",
+        "caption": "Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16623.jpg.jpeg",
+        "caption": "Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16627.jpg.jpeg",
+        "caption": "Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16625.jpg.jpeg"
+          "/t-shirts/16618.jpg.jpeg",
+          "/t-shirts/16617.jpg.jpeg",
+          "/t-shirts/16619.jpg.jpeg",
+          "/t-shirts/16623.jpg.jpeg",
+          "/t-shirts/16627.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Pebble Grey Garment-Dyed Relaxed Tee handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Garment-Dyed Relaxed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0012-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0013-v1",
-    "title": "Aqua Marine Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee",
-    "slug": "aqua-marine-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-    "aliasSlugs": [
-      "ts-0013-v1",
-      "aqua-marine-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "artisanal-ribbed-crewneck-classic-fit-bio-washed-tee-var-1",
-      "aria-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "diya-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0028",
-      "product-ts-0121",
-      "product-ts-0133",
-      "product-tsh-0028",
-      "product-tsh-0034",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-3-tsh-0034",
-      "ts-0013",
-      "ts-0121",
-      "ts-0133",
-      "tsh-0028",
-      "tsh-0034"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7125,363 +3879,117 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16630.jpg.jpeg",
-    "mainImage": "/t-shirts/16630.jpg.jpeg",
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Pristine White Garment-Dyed Enzyme Washed Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0031",
+      "Part Number": "WST-TS-0031",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168955174-c643oae",
+      "groupName": "Product Group 031",
+      "groupNum": 31,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0032",
+    "partNumber": "WST-TS-0032",
+    "sku": "WST-TS-0032",
+    "name": "Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt",
+    "title": "Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt",
+    "slug": "jet-obsidian-black-drop-shoulder-oversized-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0032",
+      "jet-obsidian-black-drop-shoulder-oversized-classic-artisan-t-shirt",
+      "product-ts-0032",
+      "pg-032",
+      "product-group-032"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.86,
+    "reviewCount": 18,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Edition",
+    "featured_image": "/t-shirts/16634.jpg.jpeg",
+    "mainImage": "/t-shirts/16634.jpg.jpeg",
+    "image": "/t-shirts/16634.jpg.jpeg",
     "images": [
-      "/t-shirts/16630.jpg.jpeg"
+      "/t-shirts/16634.jpg.jpeg",
+      "/t-shirts/16633.jpg.jpeg",
+      "/t-shirts/16630.jpg.jpeg",
+      "/t-shirts/16635.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16630.jpg.jpeg"
+      "/t-shirts/16634.jpg.jpeg",
+      "/t-shirts/16633.jpg.jpeg",
+      "/t-shirts/16630.jpg.jpeg",
+      "/t-shirts/16635.jpg.jpeg"
     ],
-    "colorVariants": [
+    "galleryImages": [
       {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16630.jpg.jpeg"
-        ]
+        "url": "/t-shirts/16634.jpg.jpeg",
+        "caption": "Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16633.jpg.jpeg",
+        "caption": "Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16630.jpg.jpeg",
+        "caption": "Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16635.jpg.jpeg",
+        "caption": "Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt"
       }
     ],
-    "description": "Authentic Aqua Marine Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0013-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0013-v2",
-    "title": "Teal Slate Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee",
-    "slug": "teal-slate-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-    "aliasSlugs": [
-      "ts-0013-v2",
-      "teal-slate-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "artisanal-ribbed-crewneck-classic-fit-bio-washed-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16633.jpg.jpeg",
-    "mainImage": "/t-shirts/16633.jpg.jpeg",
-    "images": [
-      "/t-shirts/16633.jpg.jpeg",
-      "/t-shirts/16634.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16633.jpg.jpeg",
-      "/t-shirts/16634.jpg.jpeg"
-    ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
+          "/t-shirts/16634.jpg.jpeg",
           "/t-shirts/16633.jpg.jpeg",
-          "/t-shirts/16634.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0013-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0013-v3",
-    "title": "Pebble Grey Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee",
-    "slug": "pebble-grey-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-    "aliasSlugs": [
-      "ts-0013-v3",
-      "pebble-grey-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "artisanal-ribbed-crewneck-classic-fit-bio-washed-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16631.jpg.jpeg",
-    "mainImage": "/t-shirts/16631.jpg.jpeg",
-    "images": [
-      "/t-shirts/16631.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16631.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16631.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0013-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0013-v4",
-    "title": "Blush Rose Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee",
-    "slug": "blush-rose-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-    "aliasSlugs": [
-      "ts-0013-v4",
-      "blush-rose-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "artisanal-ribbed-crewneck-classic-fit-bio-washed-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16632.jpg.jpeg",
-    "mainImage": "/t-shirts/16632.jpg.jpeg",
-    "images": [
-      "/t-shirts/16632.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16632.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16632.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0013-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0013-v5",
-    "title": "Charcoal Slate Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee",
-    "slug": "charcoal-slate-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-    "aliasSlugs": [
-      "ts-0013-v5",
-      "charcoal-slate-artisanal-ribbed-crewneck-classic-fit-bio-washed-tee",
-      "artisanal-ribbed-crewneck-classic-fit-bio-washed-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16831.jpg.jpeg",
-    "mainImage": "/t-shirts/16831.jpg.jpeg",
-    "images": [
-      "/t-shirts/16831.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16831.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/t-shirts/16831.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Artisanal Ribbed Crewneck Classic Fit Bio-Washed Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0013-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0014-v1",
-    "title": "Indigo Royal Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt",
-    "slug": "indigo-royal-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-    "aliasSlugs": [
-      "ts-0014-v1",
-      "indigo-royal-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "artisanal-contrast-ribbed-collar-retro-ringer-t-shirt-var-1",
-      "ananya-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-edition-2-tsh-0029",
-      "freya-mineral-washed-premium-streetwear-t-shirt-edition-2-tsh-0028",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0030",
-      "product-ts-0122",
-      "product-ts-0134",
-      "product-tsh-0028",
-      "product-tsh-0029",
-      "product-tsh-0030",
-      "product-tsh-0034",
-      "sienna-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-3-tsh-0034",
-      "ts-0014",
-      "ts-0122",
-      "ts-0134",
-      "tsh-0028",
-      "tsh-0029",
-      "tsh-0030",
-      "tsh-0034"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16635.jpg.jpeg",
-    "mainImage": "/t-shirts/16635.jpg.jpeg",
-    "images": [
-      "/t-shirts/16635.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16635.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
+          "/t-shirts/16630.jpg.jpeg",
           "/t-shirts/16635.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Indigo Royal Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0014-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0014-v2",
-    "title": "Blush Rose Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt",
-    "slug": "blush-rose-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-    "aliasSlugs": [
-      "ts-0014-v2",
-      "blush-rose-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "artisanal-contrast-ribbed-collar-retro-ringer-t-shirt-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7489,65 +3997,124 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16636.jpg.jpeg",
-    "mainImage": "/t-shirts/16636.jpg.jpeg",
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Jet Obsidian Black Drop-Shoulder Oversized Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0032",
+      "Part Number": "WST-TS-0032",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168969959-l50raf8",
+      "groupName": "Product Group 032",
+      "groupNum": 32,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0033",
+    "partNumber": "WST-TS-0033",
+    "sku": "WST-TS-0033",
+    "name": "Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt",
+    "title": "Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt",
+    "slug": "earthy-olive-classic-ribbed-crewneck-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0033",
+      "earthy-olive-classic-ribbed-crewneck-relaxed-oversized-t-shirt",
+      "product-ts-0033",
+      "pg-033",
+      "product-group-033"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.87,
+    "reviewCount": 19,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Handloom Luxe",
+    "featured_image": "/t-shirts/16625.jpg.jpeg",
+    "mainImage": "/t-shirts/16625.jpg.jpeg",
+    "image": "/t-shirts/16625.jpg.jpeg",
     "images": [
-      "/t-shirts/16636.jpg.jpeg",
-      "/t-shirts/16637.jpg.jpeg",
-      "/t-shirts/16638.jpg.jpeg",
-      "/t-shirts/16643.jpg.jpeg"
+      "/t-shirts/16625.jpg.jpeg",
+      "/t-shirts/16628.jpg.jpeg",
+      "/t-shirts/16629.jpg.jpeg",
+      "/t-shirts/16631.jpg.jpeg",
+      "/t-shirts/16632.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16636.jpg.jpeg",
-      "/t-shirts/16637.jpg.jpeg",
-      "/t-shirts/16638.jpg.jpeg",
-      "/t-shirts/16643.jpg.jpeg"
+      "/t-shirts/16625.jpg.jpeg",
+      "/t-shirts/16628.jpg.jpeg",
+      "/t-shirts/16629.jpg.jpeg",
+      "/t-shirts/16631.jpg.jpeg",
+      "/t-shirts/16632.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16625.jpg.jpeg",
+        "caption": "Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16628.jpg.jpeg",
+        "caption": "Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16629.jpg.jpeg",
+        "caption": "Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16631.jpg.jpeg",
+        "caption": "Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16632.jpg.jpeg",
+        "caption": "Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16636.jpg.jpeg",
-          "/t-shirts/16637.jpg.jpeg",
-          "/t-shirts/16638.jpg.jpeg",
-          "/t-shirts/16643.jpg.jpeg"
+          "/t-shirts/16625.jpg.jpeg",
+          "/t-shirts/16628.jpg.jpeg",
+          "/t-shirts/16629.jpg.jpeg",
+          "/t-shirts/16631.jpg.jpeg",
+          "/t-shirts/16632.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Blush Rose Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0014-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0014-v3",
-    "title": "Orchid Pink Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt",
-    "slug": "orchid-pink-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-    "aliasSlugs": [
-      "ts-0014-v3",
-      "orchid-pink-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "artisanal-contrast-ribbed-collar-retro-ringer-t-shirt-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7555,56 +4122,124 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16639.jpg.jpeg",
-    "mainImage": "/t-shirts/16639.jpg.jpeg",
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Earthy Olive Classic Ribbed Crewneck Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0033",
+      "Part Number": "WST-TS-0033",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168979083-mw7tc7e",
+      "groupName": "Product Group 033",
+      "groupNum": 33,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0034",
+    "partNumber": "WST-TS-0034",
+    "sku": "WST-TS-0034",
+    "name": "Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee",
+    "title": "Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee",
+    "slug": "warm-ochre-clean-tailored-fit-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0034",
+      "warm-ochre-clean-tailored-fit-pocket-detail-cotton-tee",
+      "product-ts-0034",
+      "pg-034",
+      "product-group-034"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.88,
+    "reviewCount": 20,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Seasonal Release",
+    "featured_image": "/t-shirts/16638.jpg.jpeg",
+    "mainImage": "/t-shirts/16638.jpg.jpeg",
+    "image": "/t-shirts/16638.jpg.jpeg",
     "images": [
+      "/t-shirts/16638.jpg.jpeg",
+      "/t-shirts/16643.jpg.jpeg",
+      "/t-shirts/16636.jpg.jpeg",
+      "/t-shirts/16637.jpg.jpeg",
       "/t-shirts/16639.jpg.jpeg"
     ],
     "gallery": [
+      "/t-shirts/16638.jpg.jpeg",
+      "/t-shirts/16643.jpg.jpeg",
+      "/t-shirts/16636.jpg.jpeg",
+      "/t-shirts/16637.jpg.jpeg",
       "/t-shirts/16639.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16638.jpg.jpeg",
+        "caption": "Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16643.jpg.jpeg",
+        "caption": "Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16636.jpg.jpeg",
+        "caption": "Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16637.jpg.jpeg",
+        "caption": "Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16639.jpg.jpeg",
+        "caption": "Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
+          "/t-shirts/16638.jpg.jpeg",
+          "/t-shirts/16643.jpg.jpeg",
+          "/t-shirts/16636.jpg.jpeg",
+          "/t-shirts/16637.jpg.jpeg",
           "/t-shirts/16639.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Orchid Pink Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0014-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0014-v4",
-    "title": "Warm Caramel Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt",
-    "slug": "warm-caramel-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-    "aliasSlugs": [
-      "ts-0014-v4",
-      "warm-caramel-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "artisanal-contrast-ribbed-collar-retro-ringer-t-shirt-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7612,56 +4247,110 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16832.jpg.jpeg",
-    "mainImage": "/t-shirts/16832.jpg.jpeg",
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Warm Ochre Clean Tailored Fit Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0034",
+      "Part Number": "WST-TS-0034",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168986252-c3bnxh0",
+      "groupName": "Product Group 034",
+      "groupNum": 34,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0035",
+    "partNumber": "WST-TS-0035",
+    "sku": "WST-TS-0035",
+    "name": "Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee",
+    "title": "Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee",
+    "slug": "heather-slate-grey-sanganeri-pocket-accent-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0035",
+      "heather-slate-grey-sanganeri-pocket-accent-drop-shoulder-street-tee",
+      "product-ts-0035",
+      "pg-035",
+      "product-group-035"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.89,
+    "reviewCount": 21,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Special",
+    "featured_image": "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
+    "mainImage": "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
+    "image": "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
     "images": [
-      "/t-shirts/16832.jpg.jpeg"
+      "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
+      "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
+      "/t-shirts/FB_IMG_1793535765481.jpg.jpeg"
     ],
     "gallery": [
-      "/t-shirts/16832.jpg.jpeg"
+      "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
+      "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
+      "/t-shirts/FB_IMG_1793535765481.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
+        "caption": "Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
+        "caption": "Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/FB_IMG_1793535765481.jpg.jpeg",
+        "caption": "Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/t-shirts/16832.jpg.jpeg"
+          "/t-shirts/FB_IMG_1793535763621.jpg.jpeg",
+          "/t-shirts/FB_IMG_1793535761695.jpg.jpeg",
+          "/t-shirts/FB_IMG_1793535765481.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Warm Caramel Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0014-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0014-v5",
-    "title": "Pebble Grey Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt",
-    "slug": "pebble-grey-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-    "aliasSlugs": [
-      "ts-0014-v5",
-      "pebble-grey-artisanal-contrast-ribbed-collar-retro-ringer-t-shirt",
-      "artisanal-contrast-ribbed-collar-retro-ringer-t-shirt-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7669,1607 +4358,1793 @@ export const T_SHIRTS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/t-shirts/16834.jpg.jpeg",
-    "mainImage": "/t-shirts/16834.jpg.jpeg",
-    "images": [
-      "/t-shirts/16834.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16834.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16834.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Pebble Grey Artisanal Contrast Ribbed Collar Retro Ringer T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Heather Slate Grey Sanganeri Pocket Accent Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-TS-0014-V5",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0035",
+      "Part Number": "WST-TS-0035",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795168999530-0rvq54w",
+      "groupName": "Product Group 035",
+      "groupNum": 35,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ts-0015-v1",
-    "title": "Teal Slate Artisanal Minimalist Embroidered Chest Pocket Tee",
-    "slug": "teal-slate-artisanal-minimalist-embroidered-chest-pocket-tee",
+    "id": "ts-0036",
+    "partNumber": "WST-TS-0036",
+    "sku": "WST-TS-0036",
+    "name": "Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee",
+    "title": "Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee",
+    "slug": "royal-navy-minimalist-handblock-crest-bio-washed-crewneck-tee",
     "aliasSlugs": [
-      "ts-0015-v1",
-      "teal-slate-artisanal-minimalist-embroidered-chest-pocket-tee",
-      "artisanal-minimalist-embroidered-chest-pocket-tee-var-1",
-      "elena-artisanal-minimalist-embroidered-chest-pocket-tee",
-      "ishita-artisanal-minimalist-embroidered-chest-pocket-tee",
-      "maya-minimalist-atelier-heavyweight-cotton-tee-edition-2-tsh-0030",
-      "product-ts-0123",
-      "product-ts-0135",
-      "product-tsh-0030",
-      "product-tsh-0035",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-3-edition-2-tsh-0035",
-      "ts-0015",
-      "ts-0123",
-      "ts-0135",
-      "tsh-0030",
-      "tsh-0035"
+      "ts-0036",
+      "royal-navy-minimalist-handblock-crest-bio-washed-crewneck-tee",
+      "product-ts-0036",
+      "pg-036",
+      "product-group-036"
     ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16644.jpg.jpeg",
-    "mainImage": "/t-shirts/16644.jpg.jpeg",
-    "images": [
-      "/t-shirts/16644.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16644.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/t-shirts/16644.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Artisanal Minimalist Embroidered Chest Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Artisanal Minimalist Embroidered Chest Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0015-V1",
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.9,
+    "reviewCount": 22,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0015-v2",
-    "title": "Aqua Marine Artisanal Minimalist Embroidered Chest Pocket Tee",
-    "slug": "aqua-marine-artisanal-minimalist-embroidered-chest-pocket-tee",
-    "aliasSlugs": [
-      "ts-0015-v2",
-      "aqua-marine-artisanal-minimalist-embroidered-chest-pocket-tee",
-      "artisanal-minimalist-embroidered-chest-pocket-tee-var-2"
-    ],
-    "category": "T-Shirts",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
     "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
     "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
     "category_slug": "t-shirts",
     "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16835.jpg.jpeg",
-    "mainImage": "/t-shirts/16835.jpg.jpeg",
+    "badge": "Signature Atelier",
+    "featured_image": "/t-shirts/16870.jpg.jpeg",
+    "mainImage": "/t-shirts/16870.jpg.jpeg",
+    "image": "/t-shirts/16870.jpg.jpeg",
     "images": [
-      "/t-shirts/16835.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16835.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
-        "images": [
-          "/t-shirts/16835.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Aqua Marine Artisanal Minimalist Embroidered Chest Pocket Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Artisanal Minimalist Embroidered Chest Pocket Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0015-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0016-v1",
-    "title": "Warm Caramel Artisanal Heavyweight Combed Cotton Oversized T-Shirt",
-    "slug": "warm-caramel-artisanal-heavyweight-combed-cotton-oversized-t-shirt",
-    "aliasSlugs": [
-      "ts-0016-v1",
-      "warm-caramel-artisanal-heavyweight-combed-cotton-oversized-t-shirt",
-      "artisanal-heavyweight-combed-cotton-oversized-t-shirt-var-1",
-      "luna-boxy-heavyweight-drop-shoulder-tee-edition-2-tsh-0031",
-      "product-ts-0124",
-      "product-ts-0136",
-      "product-tsh-0031",
-      "product-tsh-0035",
-      "shanaya-artisanal-heavyweight-combed-cotton-oversized-t-shirt",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-3-edition-2-tsh-0035",
-      "ts-0016",
-      "ts-0124",
-      "ts-0136",
-      "tsh-0031",
-      "tsh-0035",
-      "zoya-artisanal-heavyweight-combed-cotton-oversized-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16723.jpg.jpeg",
-    "mainImage": "/t-shirts/16723.jpg.jpeg",
-    "images": [
-      "/t-shirts/16723.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16723.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16723.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Artisanal Heavyweight Combed Cotton Oversized T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Artisanal Heavyweight Combed Cotton Oversized T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0016-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0016-v2",
-    "title": "Blush Rose Artisanal Heavyweight Combed Cotton Oversized T-Shirt",
-    "slug": "blush-rose-artisanal-heavyweight-combed-cotton-oversized-t-shirt",
-    "aliasSlugs": [
-      "ts-0016-v2",
-      "blush-rose-artisanal-heavyweight-combed-cotton-oversized-t-shirt",
-      "artisanal-heavyweight-combed-cotton-oversized-t-shirt-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16836.jpg.jpeg",
-    "mainImage": "/t-shirts/16836.jpg.jpeg",
-    "images": [
-      "/t-shirts/16836.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16836.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16836.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Artisanal Heavyweight Combed Cotton Oversized T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Artisanal Heavyweight Combed Cotton Oversized T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0016-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0017-v1",
-    "title": "Scarlet Red Artisanal Distressed Hem Streetwear Oversized Tee",
-    "slug": "scarlet-red-artisanal-distressed-hem-streetwear-oversized-tee",
-    "aliasSlugs": [
-      "ts-0017-v1",
-      "scarlet-red-artisanal-distressed-hem-streetwear-oversized-tee",
-      "artisanal-distressed-hem-streetwear-oversized-tee-var-1",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-3-tsh-0036",
-      "luna-boxy-heavyweight-drop-shoulder-tee-edition-2-tsh-0031",
-      "maya-artisanal-distressed-hem-streetwear-oversized-tee",
-      "product-ts-0125",
-      "product-ts-0137",
-      "product-tsh-0031",
-      "product-tsh-0034",
-      "product-tsh-0035",
-      "product-tsh-0036",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-3-edition-2-tsh-0035",
-      "sienna-supima-cotton-luxury-crewneck-tee-edition-3-tsh-0034",
-      "suhana-artisanal-distressed-hem-streetwear-oversized-tee",
-      "ts-0017",
-      "ts-0125",
-      "ts-0137",
-      "tsh-0031",
-      "tsh-0034",
-      "tsh-0035",
-      "tsh-0036"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16724.jpg.jpeg",
-    "mainImage": "/t-shirts/16724.jpg.jpeg",
-    "images": [
-      "/t-shirts/16724.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16724.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/t-shirts/16724.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Artisanal Distressed Hem Streetwear Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Artisanal Distressed Hem Streetwear Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0017-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0017-v2",
-    "title": "Pebble Grey Artisanal Distressed Hem Streetwear Oversized Tee",
-    "slug": "pebble-grey-artisanal-distressed-hem-streetwear-oversized-tee",
-    "aliasSlugs": [
-      "ts-0017-v2",
-      "pebble-grey-artisanal-distressed-hem-streetwear-oversized-tee",
-      "artisanal-distressed-hem-streetwear-oversized-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16837.jpg.jpeg",
-    "mainImage": "/t-shirts/16837.jpg.jpeg",
-    "images": [
-      "/t-shirts/16837.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16837.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16837.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Artisanal Distressed Hem Streetwear Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Artisanal Distressed Hem Streetwear Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0017-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0017-v3",
-    "title": "Blush Rose Artisanal Distressed Hem Streetwear Oversized Tee",
-    "slug": "blush-rose-artisanal-distressed-hem-streetwear-oversized-tee",
-    "aliasSlugs": [
-      "ts-0017-v3",
-      "blush-rose-artisanal-distressed-hem-streetwear-oversized-tee",
-      "artisanal-distressed-hem-streetwear-oversized-tee-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16838.jpg.jpeg",
-    "mainImage": "/t-shirts/16838.jpg.jpeg",
-    "images": [
-      "/t-shirts/16838.jpg.jpeg",
-      "/t-shirts/16839.jpg (1).jpeg",
-      "/t-shirts/16839.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16838.jpg.jpeg",
-      "/t-shirts/16839.jpg (1).jpeg",
-      "/t-shirts/16839.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/t-shirts/16838.jpg.jpeg",
-          "/t-shirts/16839.jpg (1).jpeg",
-          "/t-shirts/16839.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Artisanal Distressed Hem Streetwear Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Artisanal Distressed Hem Streetwear Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0017-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0017-v4",
-    "title": "Artisan Earth Artisanal Distressed Hem Streetwear Oversized Tee",
-    "slug": "artisan-earth-artisanal-distressed-hem-streetwear-oversized-tee",
-    "aliasSlugs": [
-      "ts-0017-v4",
-      "artisan-earth-artisanal-distressed-hem-streetwear-oversized-tee",
-      "artisanal-distressed-hem-streetwear-oversized-tee-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16839.jpg%20(1).jpeg",
-    "mainImage": "/t-shirts/16839.jpg%20(1).jpeg",
-    "images": [
-      "/t-shirts/16839.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16839.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/t-shirts/16839.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth Artisanal Distressed Hem Streetwear Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth Artisanal Distressed Hem Streetwear Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0017-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0017-v5",
-    "title": "Warm Caramel Artisanal Distressed Hem Streetwear Oversized Tee",
-    "slug": "warm-caramel-artisanal-distressed-hem-streetwear-oversized-tee",
-    "aliasSlugs": [
-      "ts-0017-v5",
-      "warm-caramel-artisanal-distressed-hem-streetwear-oversized-tee",
-      "artisanal-distressed-hem-streetwear-oversized-tee-var-5"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16841.jpg.jpeg",
-    "mainImage": "/t-shirts/16841.jpg.jpeg",
-    "images": [
-      "/t-shirts/16841.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16841.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16841.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Artisanal Distressed Hem Streetwear Oversized Tee handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Artisanal Distressed Hem Streetwear Oversized Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0017-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0018-v1",
-    "title": "Scarlet Red Artisanal Vintage Washed Organic Cotton Graphic T-Shirt",
-    "slug": "scarlet-red-artisanal-vintage-washed-organic-cotton-graphic-t-shirt",
-    "aliasSlugs": [
-      "ts-0018-v1",
-      "scarlet-red-artisanal-vintage-washed-organic-cotton-graphic-t-shirt",
-      "artisanal-vintage-washed-organic-cotton-graphic-t-shirt-var-1",
-      "elena-mineral-washed-premium-streetwear-t-shirt-edition-3-tsh-0036",
-      "kavya-artisanal-vintage-washed-organic-cotton-graphic-t-shirt",
-      "luna-boxy-heavyweight-drop-shoulder-tee-edition-2-tsh-0031",
-      "product-ts-0126",
-      "product-ts-0138",
-      "product-tsh-0031",
-      "product-tsh-0036",
-      "ts-0018",
-      "ts-0126",
-      "ts-0138",
-      "tsh-0031",
-      "tsh-0036",
-      "zara-artisanal-vintage-washed-organic-cotton-graphic-t-shirt"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16725.jpg.jpeg",
-    "mainImage": "/t-shirts/16725.jpg.jpeg",
-    "images": [
-      "/t-shirts/16725.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16725.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/t-shirts/16725.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Artisanal Vintage Washed Organic Cotton Graphic T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Artisanal Vintage Washed Organic Cotton Graphic T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0018-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0018-v2",
-    "title": "Teal Slate Artisanal Vintage Washed Organic Cotton Graphic T-Shirt",
-    "slug": "teal-slate-artisanal-vintage-washed-organic-cotton-graphic-t-shirt",
-    "aliasSlugs": [
-      "ts-0018-v2",
-      "teal-slate-artisanal-vintage-washed-organic-cotton-graphic-t-shirt",
-      "artisanal-vintage-washed-organic-cotton-graphic-t-shirt-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "240 GSM Heavyweight 100% Combed Cotton Single Jersey",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16842.jpg.jpeg",
-    "mainImage": "/t-shirts/16842.jpg.jpeg",
-    "images": [
-      "/t-shirts/16842.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16842.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/t-shirts/16842.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Artisanal Vintage Washed Organic Cotton Graphic T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 240 GSM Heavyweight 100% Combed Cotton Single Jersey with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Artisanal Vintage Washed Organic Cotton Graphic T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 240 GSM Heavyweight 100% Combed Cotton Single Jersey with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0018-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0019-v1",
-    "title": "Warm Caramel Artisanal Premium Ring-Spun Cotton Lounge Tee",
-    "slug": "warm-caramel-artisanal-premium-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0019-v1",
-      "warm-caramel-artisanal-premium-ring-spun-cotton-lounge-tee",
-      "artisanal-premium-ring-spun-cotton-lounge-tee-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0032",
-      "avani-artisanal-premium-ring-spun-cotton-lounge-tee",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-3-tsh-0037",
-      "product-ts-0127",
-      "product-ts-0139",
-      "product-tsh-0032",
-      "product-tsh-0037",
-      "rhea-artisanal-premium-ring-spun-cotton-lounge-tee",
-      "ts-0019",
-      "ts-0127",
-      "ts-0139",
-      "tsh-0032",
-      "tsh-0037"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16761.jpg.jpeg",
-    "mainImage": "/t-shirts/16761.jpg.jpeg",
-    "images": [
-      "/t-shirts/16761.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16761.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16761.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Artisanal Premium Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Artisanal Premium Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0019-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0019-v2",
-    "title": "Scarlet Red Artisanal Premium Ring-Spun Cotton Lounge Tee",
-    "slug": "scarlet-red-artisanal-premium-ring-spun-cotton-lounge-tee",
-    "aliasSlugs": [
-      "ts-0019-v2",
-      "scarlet-red-artisanal-premium-ring-spun-cotton-lounge-tee",
-      "artisanal-premium-ring-spun-cotton-lounge-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16863.jpg.jpeg",
-    "mainImage": "/t-shirts/16863.jpg.jpeg",
-    "images": [
-      "/t-shirts/16863.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16863.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/t-shirts/16863.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Artisanal Premium Ring-Spun Cotton Lounge Tee handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Artisanal Premium Ring-Spun Cotton Lounge Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0019-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0020-v1",
-    "title": "Pebble Grey Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt",
-    "slug": "pebble-grey-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-    "aliasSlugs": [
-      "ts-0020-v1",
-      "pebble-grey-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-      "artisanal-artisanal-screen-printed-acid-wash-t-shirt-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0032",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-3-tsh-0037",
-      "mira-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-      "product-ts-0128",
-      "product-ts-0140",
-      "product-tsh-0032",
-      "product-tsh-0037",
-      "tanvi-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-      "ts-0020",
-      "ts-0128",
-      "ts-0140",
-      "tsh-0032",
-      "tsh-0037"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16762.jpg.jpeg",
-    "mainImage": "/t-shirts/16762.jpg.jpeg",
-    "images": [
-      "/t-shirts/16762.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16762.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16762.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0020-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0020-v2",
-    "title": "Berry Magenta Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt",
-    "slug": "berry-magenta-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-    "aliasSlugs": [
-      "ts-0020-v2",
-      "berry-magenta-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-      "artisanal-artisanal-screen-printed-acid-wash-t-shirt-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16864.jpg.jpeg",
-    "mainImage": "/t-shirts/16864.jpg.jpeg",
-    "images": [
-      "/t-shirts/16864.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16864.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#831843",
-        "images": [
-          "/t-shirts/16864.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Berry Magenta Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Berry Magenta Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0020-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0020-v3",
-    "title": "Ruby Crimson Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt",
-    "slug": "ruby-crimson-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-    "aliasSlugs": [
-      "ts-0020-v3",
-      "ruby-crimson-artisanal-artisanal-screen-printed-acid-wash-t-shirt",
-      "artisanal-artisanal-screen-printed-acid-wash-t-shirt-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16865.jpg.jpeg",
-    "mainImage": "/t-shirts/16865.jpg.jpeg",
-    "images": [
-      "/t-shirts/16865.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16865.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/t-shirts/16865.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Artisanal Artisanal Screen-Printed Acid-Wash T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0020-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0021-v1",
-    "title": "Warm Caramel Artisanal Slub Jersey Breathable Casual Tee",
-    "slug": "warm-caramel-artisanal-slub-jersey-breathable-casual-tee",
-    "aliasSlugs": [
-      "ts-0021-v1",
-      "warm-caramel-artisanal-slub-jersey-breathable-casual-tee",
-      "artisanal-slub-jersey-breathable-casual-tee-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0032",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-3-tsh-0037",
-      "naira-artisanal-slub-jersey-breathable-casual-tee",
-      "noor-artisanal-slub-jersey-breathable-casual-tee",
-      "product-ts-0129",
-      "product-ts-0141",
-      "product-tsh-0032",
-      "product-tsh-0037",
-      "ts-0021",
-      "ts-0129",
-      "ts-0141",
-      "tsh-0032",
-      "tsh-0037"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16763.jpg.jpeg",
-    "mainImage": "/t-shirts/16763.jpg.jpeg",
-    "images": [
-      "/t-shirts/16763.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16763.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/t-shirts/16763.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Artisanal Slub Jersey Breathable Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Artisanal Slub Jersey Breathable Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0021-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0021-v2",
-    "title": "Pebble Grey Artisanal Slub Jersey Breathable Casual Tee",
-    "slug": "pebble-grey-artisanal-slub-jersey-breathable-casual-tee",
-    "aliasSlugs": [
-      "ts-0021-v2",
-      "pebble-grey-artisanal-slub-jersey-breathable-casual-tee",
-      "artisanal-slub-jersey-breathable-casual-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "French Terry 260 GSM Loopback Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16866.jpg.jpeg",
-    "mainImage": "/t-shirts/16866.jpg.jpeg",
-    "images": [
-      "/t-shirts/16866.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16866.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/t-shirts/16866.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Artisanal Slub Jersey Breathable Casual Tee handcrafted at Wastram's Jaipur atelier. Tailored in French Terry 260 GSM Loopback Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Artisanal Slub Jersey Breathable Casual Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium French Terry 260 GSM Loopback Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0021-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0022-v1",
-    "title": "Berry Magenta Artisanal French Terry Cotton Boxy Crop T-Shirt",
-    "slug": "berry-magenta-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-    "aliasSlugs": [
-      "ts-0022-v1",
-      "berry-magenta-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-      "artisanal-french-terry-cotton-boxy-crop-t-shirt-var-1",
-      "alia-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-edition-2-tsh-0033",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-tsh-0032",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-3-tsh-0037",
-      "product-ts-0130",
-      "product-ts-0142",
-      "product-tsh-0032",
-      "product-tsh-0033",
-      "product-tsh-0037",
-      "riddhi-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-      "ts-0022",
-      "ts-0130",
-      "ts-0142",
-      "tsh-0032",
-      "tsh-0033",
-      "tsh-0037"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16764.jpg.jpeg",
-    "mainImage": "/t-shirts/16764.jpg.jpeg",
-    "images": [
-      "/t-shirts/16764.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16764.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#831843",
-        "images": [
-          "/t-shirts/16764.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Berry Magenta Artisanal French Terry Cotton Boxy Crop T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Berry Magenta Artisanal French Terry Cotton Boxy Crop T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0022-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0022-v2",
-    "title": "Scarlet Red Artisanal French Terry Cotton Boxy Crop T-Shirt",
-    "slug": "scarlet-red-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-    "aliasSlugs": [
-      "ts-0022-v2",
-      "scarlet-red-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-      "artisanal-french-terry-cotton-boxy-crop-t-shirt-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16765.jpg.jpeg",
-    "mainImage": "/t-shirts/16765.jpg.jpeg",
-    "images": [
-      "/t-shirts/16765.jpg.jpeg",
-      "/t-shirts/16868.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16765.jpg.jpeg",
-      "/t-shirts/16868.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/t-shirts/16765.jpg.jpeg",
-          "/t-shirts/16868.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Artisanal French Terry Cotton Boxy Crop T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Artisanal French Terry Cotton Boxy Crop T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0022-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0022-v3",
-    "title": "Ruby Crimson Artisanal French Terry Cotton Boxy Crop T-Shirt",
-    "slug": "ruby-crimson-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-    "aliasSlugs": [
-      "ts-0022-v3",
-      "ruby-crimson-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-      "artisanal-french-terry-cotton-boxy-crop-t-shirt-var-3"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16766.jpg.jpeg",
-    "mainImage": "/t-shirts/16766.jpg.jpeg",
-    "images": [
-      "/t-shirts/16766.jpg.jpeg",
-      "/t-shirts/16867.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16766.jpg.jpeg",
-      "/t-shirts/16867.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/t-shirts/16766.jpg.jpeg",
-          "/t-shirts/16867.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Artisanal French Terry Cotton Boxy Crop T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Artisanal French Terry Cotton Boxy Crop T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0022-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0022-v4",
-    "title": "Plum Wine Artisanal French Terry Cotton Boxy Crop T-Shirt",
-    "slug": "plum-wine-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-    "aliasSlugs": [
-      "ts-0022-v4",
-      "plum-wine-artisanal-french-terry-cotton-boxy-crop-t-shirt",
-      "artisanal-french-terry-cotton-boxy-crop-t-shirt-var-4"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Breathable Slub Cotton Jersey with Pre-Shrunk Finish",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16767.jpg.jpeg",
-    "mainImage": "/t-shirts/16767.jpg.jpeg",
-    "images": [
-      "/t-shirts/16767.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16767.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#581C87",
-        "images": [
-          "/t-shirts/16767.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Plum Wine Artisanal French Terry Cotton Boxy Crop T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in Breathable Slub Cotton Jersey with Pre-Shrunk Finish with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Plum Wine Artisanal French Terry Cotton Boxy Crop T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Breathable Slub Cotton Jersey with Pre-Shrunk Finish with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0022-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0023-v1",
-    "title": "Scarlet Red Artisanal Relaxed Drop-Shoulder Boxy Tee",
-    "slug": "scarlet-red-artisanal-relaxed-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0023-v1",
-      "scarlet-red-artisanal-relaxed-drop-shoulder-boxy-tee",
-      "artisanal-relaxed-drop-shoulder-boxy-tee-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-edition-2-tsh-0033",
-      "mila-minimalist-atelier-heavyweight-cotton-tee-edition-3-tsh-0037",
-      "product-ts-0131",
-      "product-ts-0143",
-      "product-tsh-0033",
-      "product-tsh-0037",
-      "sitara-artisanal-relaxed-drop-shoulder-boxy-tee",
-      "tara-artisanal-relaxed-drop-shoulder-boxy-tee",
-      "ts-0023",
-      "ts-0131",
-      "ts-0143",
-      "tsh-0033",
-      "tsh-0037"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16768.jpg.jpeg",
-    "mainImage": "/t-shirts/16768.jpg.jpeg",
-    "images": [
-      "/t-shirts/16768.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16768.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/t-shirts/16768.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Artisanal Relaxed Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Artisanal Relaxed Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0023-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0023-v2",
-    "title": "Warm Caramel Artisanal Relaxed Drop-Shoulder Boxy Tee",
-    "slug": "warm-caramel-artisanal-relaxed-drop-shoulder-boxy-tee",
-    "aliasSlugs": [
-      "ts-0023-v2",
-      "warm-caramel-artisanal-relaxed-drop-shoulder-boxy-tee",
-      "artisanal-relaxed-drop-shoulder-boxy-tee-var-2"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "Acid-Washed Vintage Cotton with Silicone Soft Wash",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16869.jpg.jpeg",
-    "mainImage": "/t-shirts/16869.jpg.jpeg",
-    "images": [
+      "/t-shirts/16870.jpg.jpeg",
       "/t-shirts/16869.jpg.jpeg",
-      "/t-shirts/16870.jpg.jpeg"
+      "/t-shirts/16842.jpg.jpeg",
+      "/t-shirts/16841.jpg.jpeg",
+      "/t-shirts/16769.jpg.jpeg"
     ],
     "gallery": [
+      "/t-shirts/16870.jpg.jpeg",
       "/t-shirts/16869.jpg.jpeg",
-      "/t-shirts/16870.jpg.jpeg"
+      "/t-shirts/16842.jpg.jpeg",
+      "/t-shirts/16841.jpg.jpeg",
+      "/t-shirts/16769.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16870.jpg.jpeg",
+        "caption": "Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16869.jpg.jpeg",
+        "caption": "Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16842.jpg.jpeg",
+        "caption": "Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16841.jpg.jpeg",
+        "caption": "Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16769.jpg.jpeg",
+        "caption": "Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
+          "/t-shirts/16870.jpg.jpeg",
           "/t-shirts/16869.jpg.jpeg",
-          "/t-shirts/16870.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Artisanal Relaxed Drop-Shoulder Boxy Tee handcrafted at Wastram's Jaipur atelier. Tailored in Acid-Washed Vintage Cotton with Silicone Soft Wash with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Artisanal Relaxed Drop-Shoulder Boxy Tee crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Acid-Washed Vintage Cotton with Silicone Soft Wash with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-TS-0023-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ts-0024-v1",
-    "title": "Warm Caramel Artisanal Garment-Dyed Heavyweight Relaxed T-Shirt",
-    "slug": "warm-caramel-artisanal-garment-dyed-heavyweight-relaxed-t-shirt",
-    "aliasSlugs": [
-      "ts-0024-v1",
-      "warm-caramel-artisanal-garment-dyed-heavyweight-relaxed-t-shirt",
-      "artisanal-garment-dyed-heavyweight-relaxed-t-shirt-var-1",
-      "aria-fine-combed-cotton-relaxed-graphic-tee-edition-3-edition-2-tsh-0033",
-      "product-ts-0132",
-      "product-tsh-0033",
-      "siya-artisanal-garment-dyed-heavyweight-relaxed-t-shirt",
-      "ts-0024",
-      "ts-0132",
-      "tsh-0033"
-    ],
-    "category": "T-Shirts",
-    "category_id": "t-shirts",
-    "category_name": "T-Shirts",
-    "category_slug": "t-shirts",
-    "tab": "t-shirts",
-    "badge": "Streetwear Essential",
-    "regularPrice": 1499,
-    "salePrice": 899,
-    "price": 899,
-    "fabric": "220 GSM Bio-Washed Ring-Spun Organic Cotton",
-    "moq": "30 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/t-shirts/16769.jpg.jpeg",
-    "mainImage": "/t-shirts/16769.jpg.jpeg",
-    "images": [
-      "/t-shirts/16769.jpg.jpeg"
-    ],
-    "gallery": [
-      "/t-shirts/16769.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
+          "/t-shirts/16842.jpg.jpeg",
+          "/t-shirts/16841.jpg.jpeg",
           "/t-shirts/16769.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Warm Caramel Artisanal Garment-Dyed Heavyweight Relaxed T-Shirt handcrafted at Wastram's Jaipur atelier. Tailored in 220 GSM Bio-Washed Ring-Spun Organic Cotton with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Artisanal Garment-Dyed Heavyweight Relaxed T-Shirt crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium 220 GSM Bio-Washed Ring-Spun Organic Cotton with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
     ],
-    "sku": "WST-TS-0024-V1",
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Navy Minimalist Handblock Crest Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0036",
+      "Part Number": "WST-TS-0036",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169015878-pqo2cuw",
+      "groupName": "Product Group 036",
+      "groupNum": 36,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0037",
+    "partNumber": "WST-TS-0037",
+    "sku": "WST-TS-0037",
+    "name": "Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt",
+    "title": "Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt",
+    "slug": "terracotta-rust-garment-dyed-enzyme-washed-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0037",
+      "terracotta-rust-garment-dyed-enzyme-washed-classic-artisan-t-shirt",
+      "product-ts-0037",
+      "pg-037",
+      "product-group-037"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.91,
+    "reviewCount": 23,
     "inStock": true,
-    "stockQty": 50
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Bestseller",
+    "featured_image": "/t-shirts/16867.jpg.jpeg",
+    "mainImage": "/t-shirts/16867.jpg.jpeg",
+    "image": "/t-shirts/16867.jpg.jpeg",
+    "images": [
+      "/t-shirts/16867.jpg.jpeg",
+      "/t-shirts/16865.jpg.jpeg",
+      "/t-shirts/16864.jpg.jpeg",
+      "/t-shirts/16766.jpg.jpeg",
+      "/t-shirts/16764.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16867.jpg.jpeg",
+      "/t-shirts/16865.jpg.jpeg",
+      "/t-shirts/16864.jpg.jpeg",
+      "/t-shirts/16766.jpg.jpeg",
+      "/t-shirts/16764.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16867.jpg.jpeg",
+        "caption": "Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16865.jpg.jpeg",
+        "caption": "Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16864.jpg.jpeg",
+        "caption": "Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16766.jpg.jpeg",
+        "caption": "Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16764.jpg.jpeg",
+        "caption": "Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16867.jpg.jpeg",
+          "/t-shirts/16865.jpg.jpeg",
+          "/t-shirts/16864.jpg.jpeg",
+          "/t-shirts/16766.jpg.jpeg",
+          "/t-shirts/16764.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Terracotta Rust Garment-Dyed Enzyme Washed Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0037",
+      "Part Number": "WST-TS-0037",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169035496-mme4eut",
+      "groupName": "Product Group 037",
+      "groupNum": 37,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0038",
+    "partNumber": "WST-TS-0038",
+    "sku": "WST-TS-0038",
+    "name": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt",
+    "title": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt",
+    "slug": "sage-glade-drop-shoulder-oversized-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0038",
+      "sage-glade-drop-shoulder-oversized-relaxed-oversized-t-shirt",
+      "product-ts-0038",
+      "pg-038",
+      "product-group-038"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.92,
+    "reviewCount": 24,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Popular",
+    "featured_image": "/t-shirts/16863.jpg.jpeg",
+    "mainImage": "/t-shirts/16863.jpg.jpeg",
+    "image": "/t-shirts/16863.jpg.jpeg",
+    "images": [
+      "/t-shirts/16863.jpg.jpeg",
+      "/t-shirts/16839.jpg.jpeg",
+      "/t-shirts/16839.jpg (1).jpeg",
+      "/t-shirts/16838.jpg.jpeg",
+      "/t-shirts/16836.jpg.jpeg",
+      "/t-shirts/16724.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16863.jpg.jpeg",
+      "/t-shirts/16839.jpg.jpeg",
+      "/t-shirts/16839.jpg (1).jpeg",
+      "/t-shirts/16838.jpg.jpeg",
+      "/t-shirts/16836.jpg.jpeg",
+      "/t-shirts/16724.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16863.jpg.jpeg",
+        "caption": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16839.jpg.jpeg",
+        "caption": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16839.jpg (1).jpeg",
+        "caption": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16838.jpg.jpeg",
+        "caption": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16836.jpg.jpeg",
+        "caption": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/16724.jpg.jpeg",
+        "caption": "Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16863.jpg.jpeg",
+          "/t-shirts/16839.jpg.jpeg",
+          "/t-shirts/16839.jpg (1).jpeg",
+          "/t-shirts/16838.jpg.jpeg",
+          "/t-shirts/16836.jpg.jpeg",
+          "/t-shirts/16724.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sage Glade Drop-Shoulder Oversized Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0038",
+      "Part Number": "WST-TS-0038",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169044598-2n9kxj6",
+      "groupName": "Product Group 038",
+      "groupNum": 38,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0039",
+    "partNumber": "WST-TS-0039",
+    "sku": "WST-TS-0039",
+    "name": "Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee",
+    "title": "Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee",
+    "slug": "dusty-rose-classic-ribbed-crewneck-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0039",
+      "dusty-rose-classic-ribbed-crewneck-pocket-detail-cotton-tee",
+      "product-ts-0039",
+      "pg-039",
+      "product-group-039"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.93,
+    "reviewCount": 25,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Edition",
+    "featured_image": "/t-shirts/16868.jpg.jpeg",
+    "mainImage": "/t-shirts/16868.jpg.jpeg",
+    "image": "/t-shirts/16868.jpg.jpeg",
+    "images": [
+      "/t-shirts/16868.jpg.jpeg",
+      "/t-shirts/16768.jpg.jpeg",
+      "/t-shirts/16767.jpg.jpeg",
+      "/t-shirts/16765.jpg.jpeg",
+      "/t-shirts/16725.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16868.jpg.jpeg",
+      "/t-shirts/16768.jpg.jpeg",
+      "/t-shirts/16767.jpg.jpeg",
+      "/t-shirts/16765.jpg.jpeg",
+      "/t-shirts/16725.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16868.jpg.jpeg",
+        "caption": "Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16768.jpg.jpeg",
+        "caption": "Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16767.jpg.jpeg",
+        "caption": "Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16765.jpg.jpeg",
+        "caption": "Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16725.jpg.jpeg",
+        "caption": "Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16868.jpg.jpeg",
+          "/t-shirts/16768.jpg.jpeg",
+          "/t-shirts/16767.jpg.jpeg",
+          "/t-shirts/16765.jpg.jpeg",
+          "/t-shirts/16725.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Dusty Rose Classic Ribbed Crewneck Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0039",
+      "Part Number": "WST-TS-0039",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169055766-gwbz1bz",
+      "groupName": "Product Group 039",
+      "groupNum": 39,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0040",
+    "partNumber": "WST-TS-0040",
+    "sku": "WST-TS-0040",
+    "name": "Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee",
+    "title": "Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee",
+    "slug": "mustard-sun-clean-tailored-fit-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0040",
+      "mustard-sun-clean-tailored-fit-drop-shoulder-street-tee",
+      "product-ts-0040",
+      "pg-040",
+      "product-group-040"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.94,
+    "reviewCount": 26,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Handloom Luxe",
+    "featured_image": "/t-shirts/16763.jpg.jpeg",
+    "mainImage": "/t-shirts/16763.jpg.jpeg",
+    "image": "/t-shirts/16763.jpg.jpeg",
+    "images": [
+      "/t-shirts/16763.jpg.jpeg",
+      "/t-shirts/16723.jpg.jpeg",
+      "/t-shirts/16761.jpg.jpeg",
+      "/t-shirts/16831.jpg.jpeg",
+      "/t-shirts/16832.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16763.jpg.jpeg",
+      "/t-shirts/16723.jpg.jpeg",
+      "/t-shirts/16761.jpg.jpeg",
+      "/t-shirts/16831.jpg.jpeg",
+      "/t-shirts/16832.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16763.jpg.jpeg",
+        "caption": "Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16723.jpg.jpeg",
+        "caption": "Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16761.jpg.jpeg",
+        "caption": "Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16831.jpg.jpeg",
+        "caption": "Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/16832.jpg.jpeg",
+        "caption": "Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16763.jpg.jpeg",
+          "/t-shirts/16723.jpg.jpeg",
+          "/t-shirts/16761.jpg.jpeg",
+          "/t-shirts/16831.jpg.jpeg",
+          "/t-shirts/16832.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Mustard Sun Clean Tailored Fit Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0040",
+      "Part Number": "WST-TS-0040",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169063315-tdx5g10",
+      "groupName": "Product Group 040",
+      "groupNum": 40,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0041",
+    "partNumber": "WST-TS-0041",
+    "sku": "WST-TS-0041",
+    "name": "Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee",
+    "title": "Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee",
+    "slug": "deep-pine-sanganeri-pocket-accent-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0041",
+      "deep-pine-sanganeri-pocket-accent-bio-washed-crewneck-tee",
+      "product-ts-0041",
+      "pg-041",
+      "product-group-041"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.85,
+    "reviewCount": 27,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Seasonal Release",
+    "featured_image": "/t-shirts/16834.jpg.jpeg",
+    "mainImage": "/t-shirts/16834.jpg.jpeg",
+    "image": "/t-shirts/16834.jpg.jpeg",
+    "images": [
+      "/t-shirts/16834.jpg.jpeg",
+      "/t-shirts/16762.jpg.jpeg",
+      "/t-shirts/16835.jpg.jpeg",
+      "/t-shirts/16866.jpg.jpeg",
+      "/t-shirts/16837.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16834.jpg.jpeg",
+      "/t-shirts/16762.jpg.jpeg",
+      "/t-shirts/16835.jpg.jpeg",
+      "/t-shirts/16866.jpg.jpeg",
+      "/t-shirts/16837.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16834.jpg.jpeg",
+        "caption": "Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16762.jpg.jpeg",
+        "caption": "Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16835.jpg.jpeg",
+        "caption": "Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16866.jpg.jpeg",
+        "caption": "Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/16837.jpg.jpeg",
+        "caption": "Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16834.jpg.jpeg",
+          "/t-shirts/16762.jpg.jpeg",
+          "/t-shirts/16835.jpg.jpeg",
+          "/t-shirts/16866.jpg.jpeg",
+          "/t-shirts/16837.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Deep Pine Sanganeri Pocket Accent Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0041",
+      "Part Number": "WST-TS-0041",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169083634-ig3pd8c",
+      "groupName": "Product Group 041",
+      "groupNum": 41,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0042",
+    "partNumber": "WST-TS-0042",
+    "sku": "WST-TS-0042",
+    "name": "Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt",
+    "title": "Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt",
+    "slug": "charcoal-smoke-minimalist-handblock-crest-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0042",
+      "charcoal-smoke-minimalist-handblock-crest-classic-artisan-t-shirt",
+      "product-ts-0042",
+      "pg-042",
+      "product-group-042"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.86,
+    "reviewCount": 28,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Special",
+    "featured_image": "/t-shirts/13670.jpg.jpeg",
+    "mainImage": "/t-shirts/13670.jpg.jpeg",
+    "image": "/t-shirts/13670.jpg.jpeg",
+    "images": [
+      "/t-shirts/13670.jpg.jpeg",
+      "/t-shirts/13671.jpg.jpeg",
+      "/t-shirts/13689.jpg.jpeg",
+      "/t-shirts/13688.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13670.jpg.jpeg",
+      "/t-shirts/13671.jpg.jpeg",
+      "/t-shirts/13689.jpg.jpeg",
+      "/t-shirts/13688.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13670.jpg.jpeg",
+        "caption": "Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13671.jpg.jpeg",
+        "caption": "Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13689.jpg.jpeg",
+        "caption": "Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13688.jpg.jpeg",
+        "caption": "Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13670.jpg.jpeg",
+          "/t-shirts/13671.jpg.jpeg",
+          "/t-shirts/13689.jpg.jpeg",
+          "/t-shirts/13688.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Charcoal Smoke Minimalist Handblock Crest Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0042",
+      "Part Number": "WST-TS-0042",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169101170-gi00aje",
+      "groupName": "Product Group 042",
+      "groupNum": 42,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0043",
+    "partNumber": "WST-TS-0043",
+    "sku": "WST-TS-0043",
+    "name": "Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt",
+    "title": "Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt",
+    "slug": "sand-beige-garment-dyed-enzyme-washed-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0043",
+      "sand-beige-garment-dyed-enzyme-washed-relaxed-oversized-t-shirt",
+      "product-ts-0043",
+      "pg-043",
+      "product-group-043"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.87,
+    "reviewCount": 29,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Signature Atelier",
+    "featured_image": "/t-shirts/13687.jpg.jpeg",
+    "mainImage": "/t-shirts/13687.jpg.jpeg",
+    "image": "/t-shirts/13687.jpg.jpeg",
+    "images": [
+      "/t-shirts/13687.jpg.jpeg",
+      "/t-shirts/13685.jpg.jpeg",
+      "/t-shirts/13665.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13687.jpg.jpeg",
+      "/t-shirts/13685.jpg.jpeg",
+      "/t-shirts/13665.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13687.jpg.jpeg",
+        "caption": "Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13685.jpg.jpeg",
+        "caption": "Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13665.jpg.jpeg",
+        "caption": "Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13687.jpg.jpeg",
+          "/t-shirts/13685.jpg.jpeg",
+          "/t-shirts/13665.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sand Beige Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0043",
+      "Part Number": "WST-TS-0043",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169114104-137wko3",
+      "groupName": "Product Group 043",
+      "groupNum": 43,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0044",
+    "partNumber": "WST-TS-0044",
+    "sku": "WST-TS-0044",
+    "name": "Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee",
+    "title": "Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee",
+    "slug": "crimson-berry-drop-shoulder-oversized-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0044",
+      "crimson-berry-drop-shoulder-oversized-pocket-detail-cotton-tee",
+      "product-ts-0044",
+      "pg-044",
+      "product-group-044"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.88,
+    "reviewCount": 30,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Bestseller",
+    "featured_image": "/t-shirts/16595.jpg.jpeg",
+    "mainImage": "/t-shirts/16595.jpg.jpeg",
+    "image": "/t-shirts/16595.jpg.jpeg",
+    "images": [
+      "/t-shirts/16595.jpg.jpeg",
+      "/t-shirts/16592.jpg.jpeg",
+      "/t-shirts/16588.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/16595.jpg.jpeg",
+      "/t-shirts/16592.jpg.jpeg",
+      "/t-shirts/16588.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/16595.jpg.jpeg",
+        "caption": "Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16592.jpg.jpeg",
+        "caption": "Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/16588.jpg.jpeg",
+        "caption": "Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/16595.jpg.jpeg",
+          "/t-shirts/16592.jpg.jpeg",
+          "/t-shirts/16588.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Crimson Berry Drop-Shoulder Oversized Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0044",
+      "Part Number": "WST-TS-0044",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169124771-fyc5om4",
+      "groupName": "Product Group 044",
+      "groupNum": 44,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0045",
+    "partNumber": "WST-TS-0045",
+    "sku": "WST-TS-0045",
+    "name": "Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee",
+    "title": "Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee",
+    "slug": "air-force-blue-classic-ribbed-crewneck-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0045",
+      "air-force-blue-classic-ribbed-crewneck-drop-shoulder-street-tee",
+      "product-ts-0045",
+      "pg-045",
+      "product-group-045"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.89,
+    "reviewCount": 31,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Popular",
+    "featured_image": "/t-shirts/13682.jpg.jpeg",
+    "mainImage": "/t-shirts/13682.jpg.jpeg",
+    "image": "/t-shirts/13682.jpg.jpeg",
+    "images": [
+      "/t-shirts/13682.jpg.jpeg",
+      "/t-shirts/13683.jpg.jpeg",
+      "/t-shirts/13677.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13682.jpg.jpeg",
+      "/t-shirts/13683.jpg.jpeg",
+      "/t-shirts/13677.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13682.jpg.jpeg",
+        "caption": "Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/13683.jpg.jpeg",
+        "caption": "Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/13677.jpg.jpeg",
+        "caption": "Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13682.jpg.jpeg",
+          "/t-shirts/13683.jpg.jpeg",
+          "/t-shirts/13677.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Air Force Blue Classic Ribbed Crewneck Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0045",
+      "Part Number": "WST-TS-0045",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169132648-53mtvq7",
+      "groupName": "Product Group 045",
+      "groupNum": 45,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0046",
+    "partNumber": "WST-TS-0046",
+    "sku": "WST-TS-0046",
+    "name": "Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee",
+    "title": "Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee",
+    "slug": "pristine-white-artisanal-sanganeri-pocket-accent-bio-washed-crewneck-tee",
+    "aliasSlugs": [
+      "ts-0046",
+      "pristine-white-artisanal-sanganeri-pocket-accent-bio-washed-crewneck-tee",
+      "product-ts-0046",
+      "pg-046",
+      "product-group-046"
+    ],
+    "price": 799,
+    "regularPrice": 1099,
+    "salePrice": 799,
+    "rating": 4.9,
+    "reviewCount": 32,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Edition",
+    "featured_image": "/t-shirts/13676.jpg.jpeg",
+    "mainImage": "/t-shirts/13676.jpg.jpeg",
+    "image": "/t-shirts/13676.jpg.jpeg",
+    "images": [
+      "/t-shirts/13676.jpg.jpeg",
+      "/t-shirts/13678.jpg.jpeg",
+      "/t-shirts/13686.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13676.jpg.jpeg",
+      "/t-shirts/13678.jpg.jpeg",
+      "/t-shirts/13686.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13676.jpg.jpeg",
+        "caption": "Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/13678.jpg.jpeg",
+        "caption": "Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      },
+      {
+        "url": "/t-shirts/13686.jpg.jpeg",
+        "caption": "Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13676.jpg.jpeg",
+          "/t-shirts/13678.jpg.jpeg",
+          "/t-shirts/13686.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Pristine White Artisanal Sanganeri Pocket Accent Bio-Washed Crewneck Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0046",
+      "Part Number": "WST-TS-0046",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169136903-gyxjgzg",
+      "groupName": "Product Group 046",
+      "groupNum": 46,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0047",
+    "partNumber": "WST-TS-0047",
+    "sku": "WST-TS-0047",
+    "name": "Jet Obsidian Black Artisanal Minimalist Handblock Crest Classic Artisan T-Shirt",
+    "title": "Jet Obsidian Black Artisanal Minimalist Handblock Crest Classic Artisan T-Shirt",
+    "slug": "jet-obsidian-black-artisanal-minimalist-handblock-crest-classic-artisan-t-shirt",
+    "aliasSlugs": [
+      "ts-0047",
+      "jet-obsidian-black-artisanal-minimalist-handblock-crest-classic-artisan-t-shirt",
+      "product-ts-0047",
+      "pg-047",
+      "product-group-047"
+    ],
+    "price": 899,
+    "regularPrice": 1199,
+    "salePrice": 899,
+    "rating": 4.91,
+    "reviewCount": 33,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Handloom Luxe",
+    "featured_image": "/t-shirts/13680.jpg.jpeg",
+    "mainImage": "/t-shirts/13680.jpg.jpeg",
+    "image": "/t-shirts/13680.jpg.jpeg",
+    "images": [
+      "/t-shirts/13680.jpg.jpeg",
+      "/t-shirts/13691.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13680.jpg.jpeg",
+      "/t-shirts/13691.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13680.jpg.jpeg",
+        "caption": "Jet Obsidian Black Artisanal Minimalist Handblock Crest Classic Artisan T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13691.jpg.jpeg",
+        "caption": "Jet Obsidian Black Artisanal Minimalist Handblock Crest Classic Artisan T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13680.jpg.jpeg",
+          "/t-shirts/13691.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Breathable Compact Cotton with Ribbed Collar",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Jet Obsidian Black Artisanal Minimalist Handblock Crest Classic Artisan T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Breathable Compact Cotton with Ribbed Collar with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Jet Obsidian Black Artisanal Minimalist Handblock Crest Classic Artisan T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Breathable Compact Cotton with Ribbed Collar, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Jet Obsidian Black Artisanal Minimalist Handblock Crest Classic Artisan T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Breathable Compact Cotton with Ribbed Collar with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Breathable Compact Cotton with Ribbed Collar",
+      "SKU": "WST-TS-0047",
+      "Part Number": "WST-TS-0047",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169151908-z8m4k4t",
+      "groupName": "Product Group 047",
+      "groupNum": 47,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0048",
+    "partNumber": "WST-TS-0048",
+    "sku": "WST-TS-0048",
+    "name": "Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt",
+    "title": "Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt",
+    "slug": "earthy-olive-artisanal-garment-dyed-enzyme-washed-relaxed-oversized-t-shirt",
+    "aliasSlugs": [
+      "ts-0048",
+      "earthy-olive-artisanal-garment-dyed-enzyme-washed-relaxed-oversized-t-shirt",
+      "product-ts-0048",
+      "pg-048",
+      "product-group-048"
+    ],
+    "price": 999,
+    "regularPrice": 1349,
+    "salePrice": 999,
+    "rating": 4.92,
+    "reviewCount": 34,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Seasonal Release",
+    "featured_image": "/t-shirts/13679.jpg.jpeg",
+    "mainImage": "/t-shirts/13679.jpg.jpeg",
+    "image": "/t-shirts/13679.jpg.jpeg",
+    "images": [
+      "/t-shirts/13679.jpg.jpeg",
+      "/t-shirts/13675.jpg.jpeg",
+      "/t-shirts/13667.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13679.jpg.jpeg",
+      "/t-shirts/13675.jpg.jpeg",
+      "/t-shirts/13667.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13679.jpg.jpeg",
+        "caption": "Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13675.jpg.jpeg",
+        "caption": "Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      },
+      {
+        "url": "/t-shirts/13667.jpg.jpeg",
+        "caption": "Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13679.jpg.jpeg",
+          "/t-shirts/13675.jpg.jpeg",
+          "/t-shirts/13667.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Garment-Dyed Premium Combed Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Garment-Dyed Premium Combed Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Garment-Dyed Premium Combed Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Earthy Olive Artisanal Garment-Dyed Enzyme Washed Relaxed Oversized T-Shirt handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Garment-Dyed Premium Combed Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Garment-Dyed Premium Combed Cotton",
+      "SKU": "WST-TS-0048",
+      "Part Number": "WST-TS-0048",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169158027-625hch3",
+      "groupName": "Product Group 048",
+      "groupNum": 48,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0049",
+    "partNumber": "WST-TS-0049",
+    "sku": "WST-TS-0049",
+    "name": "Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee",
+    "title": "Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee",
+    "slug": "warm-ochre-artisanal-drop-shoulder-oversized-pocket-detail-cotton-tee",
+    "aliasSlugs": [
+      "ts-0049",
+      "warm-ochre-artisanal-drop-shoulder-oversized-pocket-detail-cotton-tee",
+      "product-ts-0049",
+      "pg-049",
+      "product-group-049"
+    ],
+    "price": 1099,
+    "regularPrice": 1499,
+    "salePrice": 1099,
+    "rating": 4.93,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Atelier Special",
+    "featured_image": "/t-shirts/13669.jpg.jpeg",
+    "mainImage": "/t-shirts/13669.jpg.jpeg",
+    "image": "/t-shirts/13669.jpg.jpeg",
+    "images": [
+      "/t-shirts/13669.jpg.jpeg",
+      "/t-shirts/13684.jpg.jpeg",
+      "/t-shirts/13674.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13669.jpg.jpeg",
+      "/t-shirts/13684.jpg.jpeg",
+      "/t-shirts/13674.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13669.jpg.jpeg",
+        "caption": "Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/13684.jpg.jpeg",
+        "caption": "Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      },
+      {
+        "url": "/t-shirts/13674.jpg.jpeg",
+        "caption": "Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13669.jpg.jpeg",
+          "/t-shirts/13684.jpg.jpeg",
+          "/t-shirts/13674.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in 100% Super-Combed Bio-Washed 220 GSM Cotton with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Warm Ochre Artisanal Drop-Shoulder Oversized Pocket Detail Cotton Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in 100% Super-Combed Bio-Washed 220 GSM Cotton with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "100% Super-Combed Bio-Washed 220 GSM Cotton",
+      "SKU": "WST-TS-0049",
+      "Part Number": "WST-TS-0049",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169169672-dvzvqah",
+      "groupName": "Product Group 049",
+      "groupNum": 49,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ts-0050",
+    "partNumber": "WST-TS-0050",
+    "sku": "WST-TS-0050",
+    "name": "Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee",
+    "title": "Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee",
+    "slug": "heather-slate-grey-artisanal-classic-ribbed-crewneck-drop-shoulder-street-tee",
+    "aliasSlugs": [
+      "ts-0050",
+      "heather-slate-grey-artisanal-classic-ribbed-crewneck-drop-shoulder-street-tee",
+      "product-ts-0050",
+      "pg-050",
+      "product-group-050"
+    ],
+    "price": 1199,
+    "regularPrice": 1599,
+    "salePrice": 1199,
+    "rating": 4.94,
+    "reviewCount": 36,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "t-shirts",
+    "categoryId": "t-shirts",
+    "category_id": "t-shirts",
+    "categoryName": "T-Shirts",
+    "category_name": "T-Shirts",
+    "categorySlug": "t-shirts",
+    "category_slug": "t-shirts",
+    "tab": "t-shirts",
+    "badge": "Signature Atelier",
+    "featured_image": "/t-shirts/13690.jpg.jpeg",
+    "mainImage": "/t-shirts/13690.jpg.jpeg",
+    "image": "/t-shirts/13690.jpg.jpeg",
+    "images": [
+      "/t-shirts/13690.jpg.jpeg",
+      "/t-shirts/13681.jpg.jpeg",
+      "/t-shirts/13673.jpg.jpeg"
+    ],
+    "gallery": [
+      "/t-shirts/13690.jpg.jpeg",
+      "/t-shirts/13681.jpg.jpeg",
+      "/t-shirts/13673.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/t-shirts/13690.jpg.jpeg",
+        "caption": "Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/13681.jpg.jpeg",
+        "caption": "Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      },
+      {
+        "url": "/t-shirts/13673.jpg.jpeg",
+        "caption": "Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/t-shirts/13690.jpg.jpeg",
+          "/t-shirts/13681.jpg.jpeg",
+          "/t-shirts/13673.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Organic Single Jersey Cotton with Ultra-Soft Feel with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Heather Slate Grey Artisanal Classic Ribbed Crewneck Drop-Shoulder Street Tee handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Organic Single Jersey Cotton with Ultra-Soft Feel with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Organic Single Jersey Cotton with Ultra-Soft Feel",
+      "SKU": "WST-TS-0050",
+      "Part Number": "WST-TS-0050",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.612Z",
+    "updatedAt": "2026-11-20T10:16:21.612Z",
+    "productisationRef": {
+      "groupId": "pg-t-sh-1795169174038-d6143iq",
+      "groupName": "Product Group 050",
+      "groupNum": 50,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
   }
 ];

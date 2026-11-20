@@ -1,0 +1,492 @@
+{
+  "category": "denim-collection",
+  "categoryName": "Denim Collection",
+  "generatedAt": "2026-11-20T10:16:21.609Z",
+  "statistics": {
+    "total_category_images": 162,
+    "productised_images_used": 144,
+    "remaining_unassigned_images": 18,
+    "product_groups_created": 37
+  },
+  "unassigned_images": [
+    {
+      "filename": "IMG-20261102-WA0296.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA0296.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA1242.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA1242.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA1242.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA1254.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA1254.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA2384.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA2384.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA2384.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA2692.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA2692.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA2692.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA3034.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA3034.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA3034.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA4149.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA4149.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA4149.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA4410.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA4410.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA4410.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA6504.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA6504.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA6504.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA6710.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA6710.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA6710.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA7149.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA7149.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA7149.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA7426.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA7426.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA7426.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA7573.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA7573.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA7573.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA7677.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA7677.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA7677.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA9138.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA9138.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA9138.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA9844.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261102-WA9844.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261102-WA9844.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4084.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261103-WA4084.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261103-WA4084.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6232.jpg.jpeg",
+      "url": "/denim-collection/IMG-20261103-WA6232.jpg.jpeg",
+      "path": "public/denim-collection/IMG-20261103-WA6232.jpg.jpeg",
+      "category": "denim-collection",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    }
+  ],
+  "products_reference": [
+    {
+      "id": "dn-0001",
+      "sku": "WST-DN-0001",
+      "name": "Vintage Indigo Wash Hand-Embroidered Floral Denim Shirt Dress",
+      "slug": "vintage-indigo-wash-hand-embroidered-floral-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261103-WA9870.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "dn-0002",
+      "sku": "WST-DN-0002",
+      "name": "Sky Blue Washed Sanganeri Block Patchwork Flared Denim Sundress",
+      "slug": "sky-blue-washed-sanganeri-block-patchwork-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261103-WA7841.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "dn-0003",
+      "sku": "WST-DN-0003",
+      "name": "Raw Midnight Navy Washed Tiered Flared Denim Shirt Dress",
+      "slug": "raw-midnight-navy-washed-tiered-flared-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA6169.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "dn-0004",
+      "sku": "WST-DN-0004",
+      "name": "Distressed Charcoal Western Button-Down Flared Denim Sundress",
+      "slug": "distressed-charcoal-western-button-down-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA0449.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "dn-0005",
+      "sku": "WST-DN-0005",
+      "name": "Bleached Azure Raw Hem Distressed Denim Shirt Dress",
+      "slug": "bleached-azure-raw-hem-distressed-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA0346.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "dn-0006",
+      "sku": "WST-DN-0006",
+      "name": "Heritage Classic Blue Belted Waist Tailored Flared Denim Sundress",
+      "slug": "heritage-classic-blue-belted-waist-tailored-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA0865.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "dn-0007",
+      "sku": "WST-DN-0007",
+      "name": "Acid Washed Indigo Mandarin Collar Shirt Denim Shirt Dress",
+      "slug": "acid-washed-indigo-mandarin-collar-shirt-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA0488.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "dn-0008",
+      "sku": "WST-DN-0008",
+      "name": "Deep River Wash Pintuck Detailed Yoke Flared Denim Sundress",
+      "slug": "deep-river-wash-pintuck-detailed-yoke-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA0916.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "dn-0009",
+      "sku": "WST-DN-0009",
+      "name": "Sun-Faded Denim Hand-Embroidered Floral Denim Shirt Dress",
+      "slug": "sun-faded-denim-hand-embroidered-floral-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA0992.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "dn-0010",
+      "sku": "WST-DN-0010",
+      "name": "Chambray Slate Sanganeri Block Patchwork Flared Denim Sundress",
+      "slug": "chambray-slate-sanganeri-block-patchwork-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA1240.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "dn-0011",
+      "sku": "WST-DN-0011",
+      "name": "Vintage Indigo Wash Western Button-Down Denim Shirt Dress",
+      "slug": "vintage-indigo-wash-western-button-down-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA2520.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "dn-0012",
+      "sku": "WST-DN-0012",
+      "name": "Sky Blue Washed Raw Hem Distressed Flared Denim Sundress",
+      "slug": "sky-blue-washed-raw-hem-distressed-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA3337.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "dn-0013",
+      "sku": "WST-DN-0013",
+      "name": "Raw Midnight Navy Belted Waist Tailored Denim Shirt Dress",
+      "slug": "raw-midnight-navy-belted-waist-tailored-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA4321.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "dn-0014",
+      "sku": "WST-DN-0014",
+      "name": "Distressed Charcoal Mandarin Collar Shirt Flared Denim Sundress",
+      "slug": "distressed-charcoal-mandarin-collar-shirt-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA5251.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "dn-0015",
+      "sku": "WST-DN-0015",
+      "name": "Bleached Azure Pintuck Detailed Yoke Denim Shirt Dress",
+      "slug": "bleached-azure-pintuck-detailed-yoke-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA9902.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "dn-0016",
+      "sku": "WST-DN-0016",
+      "name": "Heritage Classic Blue Hand-Embroidered Floral Flared Denim Sundress",
+      "slug": "heritage-classic-blue-hand-embroidered-floral-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA4555.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "dn-0017",
+      "sku": "WST-DN-0017",
+      "name": "Acid Washed Indigo Sanganeri Block Patchwork Denim Shirt Dress",
+      "slug": "acid-washed-indigo-sanganeri-block-patchwork-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA6173.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "dn-0018",
+      "sku": "WST-DN-0018",
+      "name": "Deep River Wash Washed Tiered Flared Flared Denim Sundress",
+      "slug": "deep-river-wash-washed-tiered-flared-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA9252.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "dn-0019",
+      "sku": "WST-DN-0019",
+      "name": "Sun-Faded Denim Western Button-Down Denim Shirt Dress",
+      "slug": "sun-faded-denim-western-button-down-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA1589.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "dn-0020",
+      "sku": "WST-DN-0020",
+      "name": "Chambray Slate Raw Hem Distressed Flared Denim Sundress",
+      "slug": "chambray-slate-raw-hem-distressed-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA1404.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 021"
+    },
+    {
+      "id": "dn-0021",
+      "sku": "WST-DN-0021",
+      "name": "Vintage Indigo Wash Mandarin Collar Shirt Denim Shirt Dress",
+      "slug": "vintage-indigo-wash-mandarin-collar-shirt-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA8986.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 022"
+    },
+    {
+      "id": "dn-0022",
+      "sku": "WST-DN-0022",
+      "name": "Sky Blue Washed Pintuck Detailed Yoke Flared Denim Sundress",
+      "slug": "sky-blue-washed-pintuck-detailed-yoke-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA6451.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 023"
+    },
+    {
+      "id": "dn-0023",
+      "sku": "WST-DN-0023",
+      "name": "Raw Midnight Navy Hand-Embroidered Floral Denim Shirt Dress",
+      "slug": "raw-midnight-navy-hand-embroidered-floral-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA5416.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 024"
+    },
+    {
+      "id": "dn-0024",
+      "sku": "WST-DN-0024",
+      "name": "Distressed Charcoal Sanganeri Block Patchwork Flared Denim Sundress",
+      "slug": "distressed-charcoal-sanganeri-block-patchwork-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA8355.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 025"
+    },
+    {
+      "id": "dn-0025",
+      "sku": "WST-DN-0025",
+      "name": "Bleached Azure Washed Tiered Flared Denim Shirt Dress",
+      "slug": "bleached-azure-washed-tiered-flared-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA9097.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 026"
+    },
+    {
+      "id": "dn-0026",
+      "sku": "WST-DN-0026",
+      "name": "Heritage Classic Blue Western Button-Down Flared Denim Sundress",
+      "slug": "heritage-classic-blue-western-button-down-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA8902.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 027"
+    },
+    {
+      "id": "dn-0027",
+      "sku": "WST-DN-0027",
+      "name": "Acid Washed Indigo Raw Hem Distressed Denim Shirt Dress",
+      "slug": "acid-washed-indigo-raw-hem-distressed-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA2703.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 028"
+    },
+    {
+      "id": "dn-0028",
+      "sku": "WST-DN-0028",
+      "name": "Deep River Wash Belted Waist Tailored Flared Denim Sundress",
+      "slug": "deep-river-wash-belted-waist-tailored-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA8416.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 029"
+    },
+    {
+      "id": "dn-0029",
+      "sku": "WST-DN-0029",
+      "name": "Sun-Faded Denim Mandarin Collar Shirt Denim Shirt Dress",
+      "slug": "sun-faded-denim-mandarin-collar-shirt-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA7753.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 030"
+    },
+    {
+      "id": "dn-0030",
+      "sku": "WST-DN-0030",
+      "name": "Chambray Slate Pintuck Detailed Yoke Flared Denim Sundress",
+      "slug": "chambray-slate-pintuck-detailed-yoke-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA6714.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 031"
+    },
+    {
+      "id": "dn-0031",
+      "sku": "WST-DN-0031",
+      "name": "Vintage Indigo Wash Sanganeri Block Patchwork Denim Shirt Dress",
+      "slug": "vintage-indigo-wash-sanganeri-block-patchwork-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA9739.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 032"
+    },
+    {
+      "id": "dn-0032",
+      "sku": "WST-DN-0032",
+      "name": "Sky Blue Washed Washed Tiered Flared Flared Denim Sundress",
+      "slug": "sky-blue-washed-washed-tiered-flared-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA4628.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 033"
+    },
+    {
+      "id": "dn-0033",
+      "sku": "WST-DN-0033",
+      "name": "Raw Midnight Navy Western Button-Down Denim Shirt Dress",
+      "slug": "raw-midnight-navy-western-button-down-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA3547.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 034"
+    },
+    {
+      "id": "dn-0034",
+      "sku": "WST-DN-0034",
+      "name": "Distressed Charcoal Raw Hem Distressed Flared Denim Sundress",
+      "slug": "distressed-charcoal-raw-hem-distressed-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA4188.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 035"
+    },
+    {
+      "id": "dn-0035",
+      "sku": "WST-DN-0035",
+      "name": "Bleached Azure Belted Waist Tailored Denim Shirt Dress",
+      "slug": "bleached-azure-belted-waist-tailored-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA5833.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 036"
+    },
+    {
+      "id": "dn-0036",
+      "sku": "WST-DN-0036",
+      "name": "Heritage Classic Blue Mandarin Collar Shirt Flared Denim Sundress",
+      "slug": "heritage-classic-blue-mandarin-collar-shirt-flared-denim-sundress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA8377.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 037"
+    },
+    {
+      "id": "dn-0037",
+      "sku": "WST-DN-0037",
+      "name": "Acid Washed Indigo Pintuck Detailed Yoke Denim Shirt Dress",
+      "slug": "acid-washed-indigo-pintuck-detailed-yoke-denim-shirt-dress",
+      "coverPhoto": "/denim-collection/IMG-20261102-WA1496.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 038"
+    }
+  ]
+}

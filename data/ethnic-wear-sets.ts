@@ -1,5069 +1,106 @@
-// Wastram Atelier — ethnic-wear-sets catalogue (Reconstructed 157 Individual Products)
+// Wastram Atelier — ethnic-wear-sets catalogue (102 Reconstructed Individual Products)
 import { NishoramaProduct } from './nishorama-data';
 
 export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
   {
-    "id": "ew-0001-v1",
-    "title": "Orchid Pink Zari Angrakha & Palazzo Set",
-    "slug": "orchid-pink-zari-angrakha-palazzo-set",
+    "id": "ew-0001",
+    "partNumber": "WST-EW-0001",
+    "sku": "WST-EW-0001",
+    "name": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "title": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "slug": "haldi-yellow-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
     "aliasSlugs": [
-      "ew-0001-v1",
-      "orchid-pink-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-1",
-      "ananya-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-16-ew-0147",
-      "aria-kashida-embroidered-kurta-pant-set-edition-17-ew-0156",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-edition-2-ew-0024",
-      "aria-kashida-embroidered-kurta-pant-set-edition-6-ew-0055",
-      "aria-kashida-embroidered-kurta-pant-set-ew-0001",
-      "aria-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "bhavya-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "charu-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-13-ew-0125",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-2-edition-2-ew-0017",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-2-ew-0016",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-3-ew-0029",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-8-ew-0080",
-      "diya-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "elena-resham-threadwork-straight-suit-edition-4-ew-0036",
-      "elena-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
       "ew-0001",
-      "ew-0005",
-      "ew-0011",
-      "ew-0012",
-      "ew-0013",
-      "ew-0016",
-      "ew-0017",
-      "ew-0020",
-      "ew-0024",
-      "ew-0025",
-      "ew-0029",
-      "ew-0032",
-      "ew-0036",
-      "ew-0037",
-      "ew-0042",
-      "ew-0046",
-      "ew-0049",
-      "ew-0052",
-      "ew-0053",
-      "ew-0055",
-      "ew-0059",
-      "ew-0061",
-      "ew-0064",
-      "ew-0073",
-      "ew-0080",
-      "ew-0085",
-      "ew-0097",
-      "ew-0101",
-      "ew-0109",
-      "ew-0115",
-      "ew-0121",
-      "ew-0125",
-      "ew-0127",
-      "ew-0133",
-      "ew-0136",
-      "ew-0142",
-      "ew-0145",
-      "ew-0147",
-      "ew-0156",
-      "ew-0157",
-      "ew-0169",
-      "ew-0181",
-      "ew-0193",
-      "ew-0205",
-      "ew-0217",
-      "ew-0229",
-      "ew-0241",
-      "ew-0253",
-      "ew-0265",
-      "ew-0277",
-      "fatima-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "freya-kashida-embroidered-kurta-pant-set-edition-4-edition-2-ew-0042",
-      "inaaya-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "ishita-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-12-ew-0115",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-15-ew-0142",
-      "isla-zari-yoke-chanderi-kurta-ensemble-ew-0005",
-      "janvi-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "khushi-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "kiara-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "luna-royal-festive-salwar-ensemble-edition-10-ew-0101",
-      "luna-royal-festive-salwar-ensemble-edition-5-ew-0053",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-13-ew-0127",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-14-ew-0136",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-2-ew-0020",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-3-ew-0032",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-5-ew-0052",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-6-ew-0059",
-      "mrinal-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "palak-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
+      "haldi-yellow-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
       "product-ew-0001",
-      "product-ew-0005",
-      "product-ew-0011",
-      "product-ew-0012",
-      "product-ew-0013",
-      "product-ew-0016",
-      "product-ew-0017",
-      "product-ew-0020",
-      "product-ew-0024",
-      "product-ew-0025",
-      "product-ew-0029",
-      "product-ew-0032",
-      "product-ew-0036",
-      "product-ew-0037",
-      "product-ew-0042",
-      "product-ew-0046",
-      "product-ew-0049",
-      "product-ew-0052",
-      "product-ew-0053",
-      "product-ew-0055",
-      "product-ew-0059",
-      "product-ew-0061",
-      "product-ew-0064",
-      "product-ew-0073",
-      "product-ew-0080",
-      "product-ew-0085",
-      "product-ew-0097",
-      "product-ew-0101",
-      "product-ew-0109",
-      "product-ew-0115",
-      "product-ew-0121",
-      "product-ew-0125",
-      "product-ew-0127",
-      "product-ew-0133",
-      "product-ew-0136",
-      "product-ew-0142",
-      "product-ew-0145",
-      "product-ew-0147",
-      "product-ew-0156",
-      "product-ew-0157",
-      "product-ew-0169",
-      "product-ew-0181",
-      "product-ew-0193",
-      "product-ew-0205",
-      "product-ew-0217",
-      "product-ew-0229",
-      "product-ew-0241",
-      "product-ew-0253",
-      "product-ew-0265",
-      "product-ew-0277",
-      "reet-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "roohi-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "saanvi-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "sanya-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "sara-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-2-edition-2-ew-0012",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-2-ew-0011",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-5-ew-0046",
-      "sienna-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "taapsee-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "tamannaah-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "tanya-zari-flared-angrakha-palazzo-dupatta-3-piece-set",
-      "yami-zari-flared-angrakha-palazzo-dupatta-3-piece-set"
+      "pg-001",
+      "product-group-001"
     ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
     "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V1",
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 12,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v2",
-    "title": "Sand Ochre Zari Angrakha & Palazzo Set",
-    "slug": "sand-ochre-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v2",
-      "sand-ochre-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sand Ochre Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v3",
-    "title": "Warm Caramel Zari Angrakha & Palazzo Set",
-    "slug": "warm-caramel-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v3",
-      "warm-caramel-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5211.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5211.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA5211.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v4",
-    "title": "Berry Magenta Zari Angrakha & Palazzo Set",
-    "slug": "berry-magenta-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v4",
-      "berry-magenta-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#831843",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Berry Magenta Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Berry Magenta Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v5",
-    "title": "Ruby Crimson Zari Angrakha & Palazzo Set",
-    "slug": "ruby-crimson-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v5",
-      "ruby-crimson-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9411.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9411.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA9411.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v6",
-    "title": "Blush Rose Zari Angrakha & Palazzo Set",
-    "slug": "blush-rose-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v6",
-      "blush-rose-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1689.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1689.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA1689.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v7",
-    "title": "Sunset Tangerine Zari Angrakha & Palazzo Set",
-    "slug": "sunset-tangerine-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v7",
-      "sunset-tangerine-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v8",
-    "title": "Pebble Grey Zari Angrakha & Palazzo Set",
-    "slug": "pebble-grey-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v8",
-      "pebble-grey-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1720.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6340.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1720.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6340.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1720.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6340.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v9",
-    "title": "Scarlet Red Zari Angrakha & Palazzo Set",
-    "slug": "scarlet-red-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v9",
-      "scarlet-red-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v10",
-    "title": "Steel Slate Zari Angrakha & Palazzo Set",
-    "slug": "steel-slate-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v10",
-      "steel-slate-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v11",
-    "title": "Midnight Black Zari Angrakha & Palazzo Set",
-    "slug": "midnight-black-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v11",
-      "midnight-black-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA7791.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA7791.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA0283.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA7791.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v12",
-    "title": "Ivory Cream Zari Angrakha & Palazzo Set",
-    "slug": "ivory-cream-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v12",
-      "ivory-cream-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3307.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3307.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3307.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0001-v13",
-    "title": "Rust Terracotta Zari Angrakha & Palazzo Set",
-    "slug": "rust-terracotta-zari-angrakha-palazzo-set",
-    "aliasSlugs": [
-      "ew-0001-v13",
-      "rust-terracotta-zari-angrakha-palazzo-set",
-      "zari-angrakha-palazzo-set-var-13"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA7233.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA7233.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA7233.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA7233.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA7233.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Zari Angrakha & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Zari Angrakha & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0001-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v1",
-    "title": "Orchid Pink Mirror Work Georgette Sharara Set",
-    "slug": "orchid-pink-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v1",
-      "orchid-pink-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-1",
-      "ananya-georgette-mirror-work-kurti-sharara-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-15-ew-0138",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-ew-0023",
-      "aria-kashida-embroidered-kurta-pant-set-edition-6-ew-0055",
-      "aria-kashida-embroidered-kurta-pant-set-edition-7-ew-0066",
-      "aria-kashida-embroidered-kurta-pant-set-edition-8-ew-0075",
-      "aria-kashida-embroidered-kurta-pant-set-ew-0001",
-      "bhavya-georgette-mirror-work-kurti-sharara-set",
-      "charu-georgette-mirror-work-kurti-sharara-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-16-ew-0152",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-2-edition-2-ew-0017",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-3-ew-0029",
-      "deepika-georgette-mirror-work-kurti-sharara-set",
-      "devika-georgette-mirror-work-kurti-sharara-set",
-      "elena-georgette-mirror-work-kurti-sharara-set",
-      "elena-resham-threadwork-straight-suit-edition-4-ew-0036",
-      "ew-0001",
-      "ew-0002",
-      "ew-0005",
-      "ew-0012",
-      "ew-0014",
-      "ew-0017",
-      "ew-0020",
-      "ew-0023",
-      "ew-0026",
-      "ew-0029",
-      "ew-0032",
-      "ew-0036",
-      "ew-0038",
-      "ew-0042",
-      "ew-0046",
-      "ew-0050",
-      "ew-0052",
-      "ew-0055",
-      "ew-0060",
-      "ew-0062",
-      "ew-0064",
-      "ew-0066",
-      "ew-0067",
-      "ew-0074",
-      "ew-0075",
-      "ew-0086",
-      "ew-0098",
-      "ew-0108",
-      "ew-0109",
-      "ew-0110",
-      "ew-0122",
-      "ew-0123",
-      "ew-0134",
-      "ew-0138",
-      "ew-0146",
-      "ew-0152",
-      "ew-0153",
-      "ew-0158",
-      "ew-0170",
-      "ew-0182",
-      "ew-0194",
-      "ew-0206",
-      "ew-0218",
-      "ew-0230",
-      "ew-0242",
-      "ew-0254",
-      "ew-0266",
-      "ew-0278",
-      "fatima-georgette-mirror-work-kurti-sharara-set",
-      "freya-kashida-embroidered-kurta-pant-set-edition-11-ew-0108",
-      "freya-kashida-embroidered-kurta-pant-set-edition-16-ew-0153",
-      "freya-kashida-embroidered-kurta-pant-set-edition-4-edition-2-ew-0042",
-      "inaaya-georgette-mirror-work-kurti-sharara-set",
-      "ishita-georgette-mirror-work-kurti-sharara-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-6-ew-0060",
-      "isla-zari-yoke-chanderi-kurta-ensemble-ew-0005",
-      "janvi-georgette-mirror-work-kurti-sharara-set",
-      "khushi-georgette-mirror-work-kurti-sharara-set",
-      "kiara-georgette-mirror-work-kurti-sharara-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-11-ew-0109",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-2-ew-0020",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-3-ew-0032",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-5-ew-0052",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-13-ew-0123",
-      "pari-georgette-mirror-work-kurti-sharara-set",
-      "product-ew-0001",
-      "product-ew-0002",
-      "product-ew-0005",
-      "product-ew-0012",
-      "product-ew-0014",
-      "product-ew-0017",
-      "product-ew-0020",
-      "product-ew-0023",
-      "product-ew-0026",
-      "product-ew-0029",
-      "product-ew-0032",
-      "product-ew-0036",
-      "product-ew-0038",
-      "product-ew-0042",
-      "product-ew-0046",
-      "product-ew-0050",
-      "product-ew-0052",
-      "product-ew-0055",
-      "product-ew-0060",
-      "product-ew-0062",
-      "product-ew-0064",
-      "product-ew-0066",
-      "product-ew-0067",
-      "product-ew-0074",
-      "product-ew-0075",
-      "product-ew-0086",
-      "product-ew-0098",
-      "product-ew-0108",
-      "product-ew-0109",
-      "product-ew-0110",
-      "product-ew-0122",
-      "product-ew-0123",
-      "product-ew-0134",
-      "product-ew-0138",
-      "product-ew-0146",
-      "product-ew-0152",
-      "product-ew-0153",
-      "product-ew-0158",
-      "product-ew-0170",
-      "product-ew-0182",
-      "product-ew-0194",
-      "product-ew-0206",
-      "product-ew-0218",
-      "product-ew-0230",
-      "product-ew-0242",
-      "product-ew-0254",
-      "product-ew-0266",
-      "product-ew-0278",
-      "rashmika-georgette-mirror-work-kurti-sharara-set",
-      "reet-georgette-mirror-work-kurti-sharara-set",
-      "roohi-georgette-mirror-work-kurti-sharara-set",
-      "samisha-georgette-mirror-work-kurti-sharara-set",
-      "sanya-georgette-mirror-work-kurti-sharara-set",
-      "shanaya-georgette-mirror-work-kurti-sharara-set",
-      "sienna-georgette-mirror-work-kurti-sharara-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-2-edition-2-ew-0012",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-5-ew-0046",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-7-ew-0067",
-      "sobhita-georgette-mirror-work-kurti-sharara-set",
-      "taapsee-georgette-mirror-work-kurti-sharara-set",
-      "tamannaah-georgette-mirror-work-kurti-sharara-set",
-      "zoya-georgette-mirror-work-kurti-sharara-set"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v2",
-    "title": "Lavender Violet Mirror Work Georgette Sharara Set",
-    "slug": "lavender-violet-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v2",
-      "lavender-violet-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Lavender Violet Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Lavender Violet Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v3",
-    "title": "Warm Caramel Mirror Work Georgette Sharara Set",
-    "slug": "warm-caramel-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v3",
-      "warm-caramel-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5236.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA6993.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5236.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA6993.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5236.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA6993.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v4",
-    "title": "Scarlet Red Mirror Work Georgette Sharara Set",
-    "slug": "scarlet-red-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v4",
-      "scarlet-red-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7993.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1711.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA7565.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7993.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1711.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA7565.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7993.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA1711.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA7565.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v5",
-    "title": "Rust Terracotta Mirror Work Georgette Sharara Set",
-    "slug": "rust-terracotta-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v5",
-      "rust-terracotta-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v6",
-    "title": "Bronze Ochre Mirror Work Georgette Sharara Set",
-    "slug": "bronze-ochre-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v6",
-      "bronze-ochre-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#854D0E",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Bronze Ochre Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Bronze Ochre Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v7",
-    "title": "Blush Rose Mirror Work Georgette Sharara Set",
-    "slug": "blush-rose-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v7",
-      "blush-rose-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v8",
-    "title": "Charcoal Slate Mirror Work Georgette Sharara Set",
-    "slug": "charcoal-slate-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v8",
-      "charcoal-slate-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v9",
-    "title": "Sunset Tangerine Mirror Work Georgette Sharara Set",
-    "slug": "sunset-tangerine-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v9",
-      "sunset-tangerine-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v10",
-    "title": "Ivory Cream Mirror Work Georgette Sharara Set",
-    "slug": "ivory-cream-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v10",
-      "ivory-cream-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0445.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2002.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9432.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0445.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2002.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9432.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0445.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2002.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9432.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0002-v11",
-    "title": "Teal Slate Mirror Work Georgette Sharara Set",
-    "slug": "teal-slate-mirror-work-georgette-sharara-set",
-    "aliasSlugs": [
-      "ew-0002-v11",
-      "teal-slate-mirror-work-georgette-sharara-set",
-      "mirror-work-georgette-sharara-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3448.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3448.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3448.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Mirror Work Georgette Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Mirror Work Georgette Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0002-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v1",
-    "title": "Pebble Grey Bandhani Kurti & Cigarette Pant Set",
-    "slug": "pebble-grey-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v1",
-      "pebble-grey-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-1",
-      "aria-kashida-embroidered-kurta-pant-set-edition-14-ew-0129",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-edition-2-ew-0024",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-ew-0023",
-      "aria-kashida-embroidered-kurta-pant-set-edition-6-edition-2-ew-0056",
-      "aria-kashida-embroidered-kurta-pant-set-edition-6-ew-0055",
-      "aria-kashida-embroidered-kurta-pant-set-ew-0001",
-      "charu-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-2-ew-0016",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-3-ew-0029",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-9-ew-0089",
-      "chloe-pintuck-straight-kurta-trouser-set-ew-0006",
-      "deepika-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "devika-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "elena-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "elena-resham-threadwork-straight-suit-edition-12-ew-0113",
-      "elena-resham-threadwork-straight-suit-edition-2-ew-0013",
-      "esha-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "ew-0001",
-      "ew-0003",
-      "ew-0006",
-      "ew-0013",
-      "ew-0015",
-      "ew-0016",
-      "ew-0021",
-      "ew-0023",
-      "ew-0024",
-      "ew-0025",
-      "ew-0027",
-      "ew-0029",
-      "ew-0033",
-      "ew-0037",
-      "ew-0039",
-      "ew-0043",
-      "ew-0046",
-      "ew-0051",
-      "ew-0052",
-      "ew-0055",
-      "ew-0056",
-      "ew-0060",
-      "ew-0063",
-      "ew-0064",
-      "ew-0073",
-      "ew-0075",
-      "ew-0087",
-      "ew-0089",
-      "ew-0094",
-      "ew-0099",
-      "ew-0111",
-      "ew-0113",
-      "ew-0121",
-      "ew-0123",
-      "ew-0124",
-      "ew-0129",
-      "ew-0135",
-      "ew-0147",
-      "ew-0154",
-      "ew-0159",
-      "ew-0171",
-      "ew-0183",
-      "ew-0195",
-      "ew-0207",
-      "ew-0219",
-      "ew-0231",
-      "ew-0243",
-      "ew-0255",
-      "ew-0267",
-      "ew-0279",
-      "fatima-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "inaaya-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "ishita-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-13-ew-0124",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-6-ew-0060",
-      "kareena-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "khushi-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "luna-royal-festive-salwar-ensemble-edition-2-ew-0021",
-      "luna-royal-festive-salwar-ensemble-edition-3-ew-0033",
-      "maya-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-16-ew-0154",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-4-ew-0043",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-5-ew-0052",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-7-ew-0073",
-      "meera-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-17-ew-0159",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-4-ew-0037",
-      "mithila-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "pari-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "product-ew-0001",
-      "product-ew-0003",
-      "product-ew-0006",
-      "product-ew-0013",
-      "product-ew-0015",
-      "product-ew-0016",
-      "product-ew-0021",
-      "product-ew-0023",
-      "product-ew-0024",
-      "product-ew-0025",
-      "product-ew-0027",
-      "product-ew-0029",
-      "product-ew-0033",
-      "product-ew-0037",
-      "product-ew-0039",
-      "product-ew-0043",
-      "product-ew-0046",
-      "product-ew-0051",
-      "product-ew-0052",
-      "product-ew-0055",
-      "product-ew-0056",
-      "product-ew-0060",
-      "product-ew-0063",
-      "product-ew-0064",
-      "product-ew-0073",
-      "product-ew-0075",
-      "product-ew-0087",
-      "product-ew-0089",
-      "product-ew-0094",
-      "product-ew-0099",
-      "product-ew-0111",
-      "product-ew-0113",
-      "product-ew-0121",
-      "product-ew-0123",
-      "product-ew-0124",
-      "product-ew-0129",
-      "product-ew-0135",
-      "product-ew-0147",
-      "product-ew-0154",
-      "product-ew-0159",
-      "product-ew-0171",
-      "product-ew-0183",
-      "product-ew-0195",
-      "product-ew-0207",
-      "product-ew-0219",
-      "product-ew-0231",
-      "product-ew-0243",
-      "product-ew-0255",
-      "product-ew-0267",
-      "product-ew-0279",
-      "rashmika-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "reet-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "samantha-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "samisha-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "shanaya-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-10-ew-0094",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-13-ew-0121",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-3-ew-0025",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-5-ew-0046",
-      "sobhita-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "suhana-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "tamannaah-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "vamika-bandhani-silk-straight-kurti-cigarette-pant-set",
-      "zoya-bandhani-silk-straight-kurti-cigarette-pant-set"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v2",
-    "title": "Blush Rose Bandhani Kurti & Cigarette Pant Set",
-    "slug": "blush-rose-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v2",
-      "blush-rose-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
+    "badge": "Signature Atelier",
     "featured_image": "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
     "mainImage": "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
     "images": [
       "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg"
     ],
     "gallery": [
       "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
+        "caption": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
+        "caption": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
+        "caption": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
+        "caption": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
+        "caption": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg",
+        "caption": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
         "images": [
           "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v3",
-    "title": "Sand Ochre Bandhani Kurti & Cigarette Pant Set",
-    "slug": "sand-ochre-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v3",
-      "sand-ochre-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sand Ochre Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v4",
-    "title": "Sage Olive Bandhani Kurti & Cigarette Pant Set",
-    "slug": "sage-olive-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v4",
-      "sage-olive-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sage Olive Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sage Olive Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v5",
-    "title": "Warm Caramel Bandhani Kurti & Cigarette Pant Set",
-    "slug": "warm-caramel-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v5",
-      "warm-caramel-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9452.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9452.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9452.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v6",
-    "title": "Berry Magenta Bandhani Kurti & Cigarette Pant Set",
-    "slug": "berry-magenta-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v6",
-      "berry-magenta-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#831843",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Berry Magenta Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Berry Magenta Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v7",
-    "title": "Sunset Tangerine Bandhani Kurti & Cigarette Pant Set",
-    "slug": "sunset-tangerine-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v7",
-      "sunset-tangerine-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v8",
-    "title": "Scarlet Red Bandhani Kurti & Cigarette Pant Set",
-    "slug": "scarlet-red-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v8",
-      "scarlet-red-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v9",
-    "title": "Charcoal Slate Bandhani Kurti & Cigarette Pant Set",
-    "slug": "charcoal-slate-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v9",
-      "charcoal-slate-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v10",
-    "title": "Steel Slate Bandhani Kurti & Cigarette Pant Set",
-    "slug": "steel-slate-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v10",
-      "steel-slate-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v11",
-    "title": "Ruby Crimson Bandhani Kurti & Cigarette Pant Set",
-    "slug": "ruby-crimson-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v11",
-      "ruby-crimson-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5318.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5318.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5318.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v12",
-    "title": "Midnight Navy Bandhani Kurti & Cigarette Pant Set",
-    "slug": "midnight-navy-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v12",
-      "midnight-navy-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Navy Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Navy Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v13",
-    "title": "Indigo Royal Bandhani Kurti & Cigarette Pant Set",
-    "slug": "indigo-royal-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v13",
-      "indigo-royal-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-13"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0599.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0599.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0599.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Indigo Royal Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v14",
-    "title": "Rust Terracotta Bandhani Kurti & Cigarette Pant Set",
-    "slug": "rust-terracotta-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v14",
-      "rust-terracotta-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-14"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8191.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8191.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA2050.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA8191.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V14",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v15",
-    "title": "Ivory Cream Bandhani Kurti & Cigarette Pant Set",
-    "slug": "ivory-cream-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v15",
-      "ivory-cream-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-15"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3558.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7009.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3558.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7009.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3558.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7009.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V15",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v16",
-    "title": "Artisan Earth Bandhani Kurti & Cigarette Pant Set",
-    "slug": "artisan-earth-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v16",
-      "artisan-earth-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-16"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA2181.jpg%20(1).jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA2181.jpg%20(1).jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA2181.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA2181.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA2181.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V16",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0003-v17",
-    "title": "Midnight Black Bandhani Kurti & Cigarette Pant Set",
-    "slug": "midnight-black-bandhani-kurti-cigarette-pant-set",
-    "aliasSlugs": [
-      "ew-0003-v17",
-      "midnight-black-bandhani-kurti-cigarette-pant-set",
-      "bandhani-kurti-cigarette-pant-set-var-17"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA7858.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA7858.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA7858.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA7858.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA7858.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Bandhani Kurti & Cigarette Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Bandhani Kurti & Cigarette Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0003-V17",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v1",
-    "title": "Blush Rose Embroidered Kurta & Dupatta Set",
-    "slug": "blush-rose-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v1",
-      "blush-rose-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-1",
-      "ahsaas-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "anushka-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-6-edition-2-ew-0056",
-      "aria-kashida-embroidered-kurta-pant-set-ew-0001",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-10-ew-0098",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-12-ew-0116",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-3-ew-0029",
-      "deepika-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "devi-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "devika-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "elena-resham-threadwork-straight-suit-edition-2-ew-0013",
-      "esha-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "ew-0001",
-      "ew-0004",
-      "ew-0007",
-      "ew-0013",
-      "ew-0016",
-      "ew-0018",
-      "ew-0021",
-      "ew-0025",
-      "ew-0028",
-      "ew-0029",
-      "ew-0033",
-      "ew-0038",
-      "ew-0040",
-      "ew-0043",
-      "ew-0046",
-      "ew-0052",
-      "ew-0056",
-      "ew-0061",
-      "ew-0064",
-      "ew-0076",
-      "ew-0078",
-      "ew-0079",
-      "ew-0088",
-      "ew-0098",
-      "ew-0100",
-      "ew-0112",
-      "ew-0116",
-      "ew-0119",
-      "ew-0124",
-      "ew-0133",
-      "ew-0135",
-      "ew-0136",
-      "ew-0148",
-      "ew-0160",
-      "ew-0162",
-      "ew-0172",
-      "ew-0184",
-      "ew-0196",
-      "ew-0208",
-      "ew-0220",
-      "ew-0232",
-      "ew-0244",
-      "ew-0256",
-      "ew-0268",
-      "ew-0280",
-      "freya-kashida-embroidered-kurta-pant-set-edition-14-ew-0135",
-      "freya-kashida-embroidered-kurta-pant-set-edition-17-ew-0162",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-ew-0018",
-      "freya-kashida-embroidered-kurta-pant-set-ew-0007",
-      "gauri-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "isha-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-14-ew-0133",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-17-ew-0160",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-4-ew-0038",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-6-edition-2-ew-0061",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-8-ew-0079",
-      "kareena-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "kavya-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "luna-royal-festive-salwar-ensemble-edition-12-ew-0119",
-      "luna-royal-festive-salwar-ensemble-edition-2-ew-0021",
-      "luna-royal-festive-salwar-ensemble-edition-3-ew-0033",
-      "maya-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-4-ew-0043",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-5-ew-0052",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "meera-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-8-ew-0078",
-      "mithila-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "nayanthara-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "pari-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "product-ew-0001",
-      "product-ew-0004",
-      "product-ew-0007",
-      "product-ew-0013",
-      "product-ew-0016",
-      "product-ew-0018",
-      "product-ew-0021",
-      "product-ew-0025",
-      "product-ew-0028",
-      "product-ew-0029",
-      "product-ew-0033",
-      "product-ew-0038",
-      "product-ew-0040",
-      "product-ew-0043",
-      "product-ew-0046",
-      "product-ew-0052",
-      "product-ew-0056",
-      "product-ew-0061",
-      "product-ew-0064",
-      "product-ew-0076",
-      "product-ew-0078",
-      "product-ew-0079",
-      "product-ew-0088",
-      "product-ew-0098",
-      "product-ew-0100",
-      "product-ew-0112",
-      "product-ew-0116",
-      "product-ew-0119",
-      "product-ew-0124",
-      "product-ew-0133",
-      "product-ew-0135",
-      "product-ew-0136",
-      "product-ew-0148",
-      "product-ew-0160",
-      "product-ew-0162",
-      "product-ew-0172",
-      "product-ew-0184",
-      "product-ew-0196",
-      "product-ew-0208",
-      "product-ew-0220",
-      "product-ew-0232",
-      "product-ew-0244",
-      "product-ew-0256",
-      "product-ew-0268",
-      "product-ew-0280",
-      "rashmika-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "samantha-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "samisha-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "shanaya-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-3-ew-0025",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-5-ew-0046",
-      "sobhita-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "suhana-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "vamika-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "zara-embroidered-kurta-pant-organza-dupatta-3-piece-set",
-      "zoya-embroidered-kurta-pant-organza-dupatta-3-piece-set"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA8421.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA8421.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA8421.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v2",
-    "title": "Warm Caramel Embroidered Kurta & Dupatta Set",
-    "slug": "warm-caramel-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v2",
-      "warm-caramel-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2228.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7034.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8231.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA2721.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2228.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7034.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA8231.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA2721.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA2228.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7034.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA8231.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA2721.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v3",
-    "title": "Ivory Cream Embroidered Kurta & Dupatta Set",
-    "slug": "ivory-cream-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v3",
-      "ivory-cream-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0671.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4229.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0671.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4229.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0671.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4229.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v4",
-    "title": "Rust Terracotta Embroidered Kurta & Dupatta Set",
-    "slug": "rust-terracotta-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v4",
-      "rust-terracotta-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5509.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5509.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA5509.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v5",
-    "title": "Scarlet Red Embroidered Kurta & Dupatta Set",
-    "slug": "scarlet-red-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v5",
-      "scarlet-red-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v6",
-    "title": "Teal Slate Embroidered Kurta & Dupatta Set",
-    "slug": "teal-slate-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v6",
-      "teal-slate-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v7",
-    "title": "Steel Slate Embroidered Kurta & Dupatta Set",
-    "slug": "steel-slate-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v7",
-      "steel-slate-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v8",
-    "title": "Charcoal Slate Embroidered Kurta & Dupatta Set",
-    "slug": "charcoal-slate-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v8",
-      "charcoal-slate-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v9",
-    "title": "Indigo Royal Embroidered Kurta & Dupatta Set",
-    "slug": "indigo-royal-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v9",
-      "indigo-royal-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Indigo Royal Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v10",
-    "title": "Mustard Gold Embroidered Kurta & Dupatta Set",
-    "slug": "mustard-gold-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v10",
-      "mustard-gold-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0004-v11",
-    "title": "Pebble Grey Embroidered Kurta & Dupatta Set",
-    "slug": "pebble-grey-embroidered-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0004-v11",
-      "pebble-grey-embroidered-kurta-dupatta-set",
-      "embroidered-kurta-dupatta-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9550.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9550.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9550.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Embroidered Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Embroidered Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0004-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v1",
-    "title": "Blush Rose Banarasi Brocade Kurta Set",
-    "slug": "blush-rose-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v1",
-      "blush-rose-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-1",
-      "ahsaas-banarasi-brocade-yoke-kurta-trousers-set",
-      "anushka-banarasi-brocade-yoke-kurta-trousers-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-13-ew-0120",
-      "aria-kashida-embroidered-kurta-pant-set-edition-6-edition-2-ew-0056",
-      "aria-kashida-embroidered-kurta-pant-set-ew-0001",
-      "avani-banarasi-brocade-yoke-kurta-trousers-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-11-ew-0107",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-14-ew-0134",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-3-ew-0029",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-4-ew-0039",
-      "devi-banarasi-brocade-yoke-kurta-trousers-set",
-      "elena-resham-threadwork-straight-suit-edition-5-ew-0047",
-      "esha-banarasi-brocade-yoke-kurta-trousers-set",
-      "ew-0001",
-      "ew-0005",
-      "ew-0008",
-      "ew-0014",
-      "ew-0017",
-      "ew-0018",
-      "ew-0021",
-      "ew-0025",
-      "ew-0029",
-      "ew-0033",
-      "ew-0039",
-      "ew-0041",
-      "ew-0044",
-      "ew-0047",
-      "ew-0053",
-      "ew-0056",
-      "ew-0061",
-      "ew-0064",
-      "ew-0065",
-      "ew-0077",
-      "ew-0083",
-      "ew-0089",
-      "ew-0101",
-      "ew-0103",
-      "ew-0107",
-      "ew-0112",
-      "ew-0113",
-      "ew-0117",
-      "ew-0120",
-      "ew-0125",
-      "ew-0134",
-      "ew-0137",
-      "ew-0149",
-      "ew-0161",
-      "ew-0164",
-      "ew-0168",
-      "ew-0173",
-      "ew-0185",
-      "ew-0197",
-      "ew-0209",
-      "ew-0221",
-      "ew-0233",
-      "ew-0245",
-      "ew-0257",
-      "ew-0269",
-      "ew-0281",
-      "freya-kashida-embroidered-kurta-pant-set-edition-12-ew-0117",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-ew-0018",
-      "gauri-banarasi-brocade-yoke-kurta-trousers-set",
-      "hansa-banarasi-brocade-yoke-kurta-trousers-set",
-      "isha-banarasi-brocade-yoke-kurta-trousers-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-6-edition-2-ew-0061",
-      "kareena-banarasi-brocade-yoke-kurta-trousers-set",
-      "kavya-banarasi-brocade-yoke-kurta-trousers-set",
-      "luna-royal-festive-salwar-ensemble-edition-17-ew-0164",
-      "luna-royal-festive-salwar-ensemble-edition-2-ew-0021",
-      "luna-royal-festive-salwar-ensemble-edition-3-ew-0033",
-      "luna-royal-festive-salwar-ensemble-edition-4-ew-0044",
-      "luna-royal-festive-salwar-ensemble-edition-5-ew-0053",
-      "luna-royal-festive-salwar-ensemble-edition-8-ew-0083",
-      "malti-banarasi-brocade-yoke-kurta-trousers-set",
-      "maya-banarasi-brocade-yoke-kurta-trousers-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "maya-handloom-a-line-kurta-palazzo-set-ew-0008",
-      "meera-banarasi-brocade-yoke-kurta-trousers-set",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-18-ew-0168",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-2-ew-0014",
-      "mithila-banarasi-brocade-yoke-kurta-trousers-set",
-      "nayanthara-banarasi-brocade-yoke-kurta-trousers-set",
-      "pooja-banarasi-brocade-yoke-kurta-trousers-set",
-      "prajakta-banarasi-brocade-yoke-kurta-trousers-set",
-      "priyanka-banarasi-brocade-yoke-kurta-trousers-set",
-      "product-ew-0001",
-      "product-ew-0005",
-      "product-ew-0008",
-      "product-ew-0014",
-      "product-ew-0017",
-      "product-ew-0018",
-      "product-ew-0021",
-      "product-ew-0025",
-      "product-ew-0029",
-      "product-ew-0033",
-      "product-ew-0039",
-      "product-ew-0041",
-      "product-ew-0044",
-      "product-ew-0047",
-      "product-ew-0053",
-      "product-ew-0056",
-      "product-ew-0061",
-      "product-ew-0064",
-      "product-ew-0065",
-      "product-ew-0077",
-      "product-ew-0083",
-      "product-ew-0089",
-      "product-ew-0101",
-      "product-ew-0103",
-      "product-ew-0107",
-      "product-ew-0112",
-      "product-ew-0113",
-      "product-ew-0117",
-      "product-ew-0120",
-      "product-ew-0125",
-      "product-ew-0134",
-      "product-ew-0137",
-      "product-ew-0149",
-      "product-ew-0161",
-      "product-ew-0164",
-      "product-ew-0168",
-      "product-ew-0173",
-      "product-ew-0185",
-      "product-ew-0197",
-      "product-ew-0209",
-      "product-ew-0221",
-      "product-ew-0233",
-      "product-ew-0245",
-      "product-ew-0257",
-      "product-ew-0269",
-      "product-ew-0281",
-      "radhika-banarasi-brocade-yoke-kurta-trousers-set",
-      "rhea-banarasi-brocade-yoke-kurta-trousers-set",
-      "samantha-banarasi-brocade-yoke-kurta-trousers-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-11-ew-0103",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-12-ew-0112",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-3-ew-0025",
-      "suhana-banarasi-brocade-yoke-kurta-trousers-set",
-      "vamika-banarasi-brocade-yoke-kurta-trousers-set",
-      "zara-banarasi-brocade-yoke-kurta-trousers-set"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
           "/ethnic-wear-sets/FB_IMG_1765518947583.jpg.jpeg",
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1765518945469.jpg.jpeg"
         ]
-      }
-    ],
-    "description": "Authentic Blush Rose Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v2",
-    "title": "Mustard Gold Banarasi Brocade Kurta Set",
-    "slug": "mustard-gold-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v2",
-      "mustard-gold-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg"
-    ],
-    "colorVariants": [
+      },
       {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
+        "id": "var-1795157176142-l0ok725-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v3",
-    "title": "Warm Caramel Banarasi Brocade Kurta Set",
-    "slug": "warm-caramel-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v3",
-      "warm-caramel-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5596.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5596.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA5596.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v4",
-    "title": "Ivory Cream Banarasi Brocade Kurta Set",
-    "slug": "ivory-cream-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v4",
-      "ivory-cream-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4258.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA2760.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4258.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA2760.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4258.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA2760.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v5",
-    "title": "Ruby Crimson Banarasi Brocade Kurta Set",
-    "slug": "ruby-crimson-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v5",
-      "ruby-crimson-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v6",
-    "title": "Scarlet Red Banarasi Brocade Kurta Set",
-    "slug": "scarlet-red-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v6",
-      "scarlet-red-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2380.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2380.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2380.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v7",
-    "title": "Teal Slate Banarasi Brocade Kurta Set",
-    "slug": "teal-slate-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v7",
-      "teal-slate-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v8",
-    "title": "Midnight Black Banarasi Brocade Kurta Set",
-    "slug": "midnight-black-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v8",
-      "midnight-black-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v9",
-    "title": "Pebble Grey Banarasi Brocade Kurta Set",
-    "slug": "pebble-grey-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v9",
-      "pebble-grey-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0726.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7221.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8373.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0726.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7221.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8373.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0726.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7221.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8373.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v10",
-    "title": "Charcoal Slate Banarasi Brocade Kurta Set",
-    "slug": "charcoal-slate-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v10",
-      "charcoal-slate-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9743.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9743.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9743.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0005-v11",
-    "title": "Forest Emerald Banarasi Brocade Kurta Set",
-    "slug": "forest-emerald-banarasi-brocade-kurta-set",
-    "aliasSlugs": [
-      "ew-0005-v11",
-      "forest-emerald-banarasi-brocade-kurta-set",
-      "banarasi-brocade-kurta-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA8482.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA8482.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA8482.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA8482.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#14532D",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA8482.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Forest Emerald Banarasi Brocade Kurta Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Forest Emerald Banarasi Brocade Kurta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0005-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v1",
-    "title": "Pebble Grey Gota Patti Kurti & Sharara Set",
-    "slug": "pebble-grey-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v1",
-      "pebble-grey-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-1",
-      "ahsaas-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "anushka-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-10-ew-0093",
-      "aria-kashida-embroidered-kurta-pant-set-edition-6-edition-2-ew-0056",
-      "aria-kashida-embroidered-kurta-pant-set-edition-9-ew-0084",
-      "aria-kashida-embroidered-kurta-pant-set-ew-0001",
-      "avani-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-3-ew-0029",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-4-ew-0039",
-      "devi-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "elena-resham-threadwork-straight-suit-edition-17-ew-0158",
-      "elena-resham-threadwork-straight-suit-edition-6-ew-0058",
-      "ew-0001",
-      "ew-0006",
-      "ew-0008",
-      "ew-0014",
-      "ew-0018",
-      "ew-0021",
-      "ew-0022",
-      "ew-0025",
-      "ew-0029",
-      "ew-0030",
-      "ew-0033",
-      "ew-0039",
-      "ew-0042",
-      "ew-0044",
-      "ew-0048",
-      "ew-0053",
-      "ew-0054",
-      "ew-0056",
-      "ew-0057",
-      "ew-0058",
-      "ew-0061",
-      "ew-0064",
-      "ew-0066",
-      "ew-0070",
-      "ew-0074",
-      "ew-0078",
-      "ew-0084",
-      "ew-0087",
-      "ew-0090",
-      "ew-0093",
-      "ew-0099",
-      "ew-0102",
-      "ew-0114",
-      "ew-0126",
-      "ew-0132",
-      "ew-0138",
-      "ew-0146",
-      "ew-0150",
-      "ew-0158",
-      "ew-0162",
-      "ew-0174",
-      "ew-0186",
-      "ew-0198",
-      "ew-0210",
-      "ew-0222",
-      "ew-0234",
-      "ew-0246",
-      "ew-0258",
-      "ew-0270",
-      "ew-0282",
-      "freya-kashida-embroidered-kurta-pant-set-edition-10-ew-0099",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-ew-0018",
-      "gauri-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "hansa-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "isha-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-6-edition-2-ew-0061",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-7-ew-0070",
-      "jahnavi-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "katrina-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "kavya-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "keerthy-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "kusha-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "luna-royal-festive-salwar-ensemble-edition-15-ew-0146",
-      "luna-royal-festive-salwar-ensemble-edition-2-edition-2-ew-0022",
-      "luna-royal-festive-salwar-ensemble-edition-2-ew-0021",
-      "luna-royal-festive-salwar-ensemble-edition-3-ew-0033",
-      "luna-royal-festive-salwar-ensemble-edition-4-ew-0044",
-      "luna-royal-festive-salwar-ensemble-edition-5-ew-0053",
-      "luna-royal-festive-salwar-ensemble-edition-7-ew-0074",
-      "malti-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "maya-handloom-a-line-kurta-palazzo-set-ew-0008",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-14-ew-0132",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-2-ew-0014",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-5-ew-0048",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-9-ew-0087",
-      "mira-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "nayanthara-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "pooja-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "prajakta-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "priyanka-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "product-ew-0001",
-      "product-ew-0006",
-      "product-ew-0008",
-      "product-ew-0014",
-      "product-ew-0018",
-      "product-ew-0021",
-      "product-ew-0022",
-      "product-ew-0025",
-      "product-ew-0029",
-      "product-ew-0030",
-      "product-ew-0033",
-      "product-ew-0039",
-      "product-ew-0042",
-      "product-ew-0044",
-      "product-ew-0048",
-      "product-ew-0053",
-      "product-ew-0054",
-      "product-ew-0056",
-      "product-ew-0057",
-      "product-ew-0058",
-      "product-ew-0061",
-      "product-ew-0064",
-      "product-ew-0066",
-      "product-ew-0070",
-      "product-ew-0074",
-      "product-ew-0078",
-      "product-ew-0084",
-      "product-ew-0087",
-      "product-ew-0090",
-      "product-ew-0093",
-      "product-ew-0099",
-      "product-ew-0102",
-      "product-ew-0114",
-      "product-ew-0126",
-      "product-ew-0132",
-      "product-ew-0138",
-      "product-ew-0146",
-      "product-ew-0150",
-      "product-ew-0158",
-      "product-ew-0162",
-      "product-ew-0174",
-      "product-ew-0186",
-      "product-ew-0198",
-      "product-ew-0210",
-      "product-ew-0222",
-      "product-ew-0234",
-      "product-ew-0246",
-      "product-ew-0258",
-      "product-ew-0270",
-      "product-ew-0282",
-      "radhika-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "raha-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "rhea-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "shreya-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-3-ew-0025",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-6-ew-0057",
-      "tanvi-handcrafted-gota-patti-kurti-sharara-3-piece-set",
-      "zara-handcrafted-gota-patti-kurti-sharara-3-piece-set"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2623.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2623.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
+          "/ethnic-wear-sets/FB_IMG_1765518939602.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1765518949458.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2623.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1765518941415.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Pebble Grey Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v2",
-    "title": "Warm Caramel Gota Patti Kurti & Sharara Set",
-    "slug": "warm-caramel-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v2",
-      "warm-caramel-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -5071,978 +108,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7246.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8387.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9787.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7246.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8387.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9787.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7246.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8387.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA9787.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v3",
-    "title": "Scarlet Red Gota Patti Kurti & Sharara Set",
-    "slug": "scarlet-red-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v3",
-      "scarlet-red-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
+    "description": "The Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Scarlet Red Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0006-V3",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0001",
+      "Part Number": "WST-EW-0001",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157174349-v74b0dh",
+      "groupName": "Product Group 001",
+      "groupNum": 1,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0006-v4",
-    "title": "Emerald Green Gota Patti Kurti & Sharara Set",
-    "slug": "emerald-green-gota-patti-kurti-sharara-set",
+    "id": "ew-0002",
+    "partNumber": "WST-EW-0002",
+    "sku": "WST-EW-0002",
+    "name": "Rani Pink Hand-Zardozi Accented Angrakha Kurta Set",
+    "title": "Rani Pink Hand-Zardozi Accented Angrakha Kurta Set",
+    "slug": "rani-pink-hand-zardozi-accented-angrakha-kurta-set",
     "aliasSlugs": [
-      "ew-0006-v4",
-      "emerald-green-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#16A34A",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Emerald Green Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Emerald Green Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v5",
-    "title": "Artisan Earth Gota Patti Kurti & Sharara Set",
-    "slug": "artisan-earth-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v5",
-      "artisan-earth-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg%20(1).jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg%20(1).jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315951076.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v6",
-    "title": "Blush Rose Gota Patti Kurti & Sharara Set",
-    "slug": "blush-rose-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v6",
-      "blush-rose-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg",
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA8553.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg",
-      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA8553.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg",
-          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA8553.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v7",
-    "title": "Ruby Crimson Gota Patti Kurti & Sharara Set",
-    "slug": "ruby-crimson-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v7",
-      "ruby-crimson-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4295.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4295.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4295.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v8",
-    "title": "Charcoal Slate Gota Patti Kurti & Sharara Set",
-    "slug": "charcoal-slate-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v8",
-      "charcoal-slate-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v9",
-    "title": "Steel Slate Gota Patti Kurti & Sharara Set",
-    "slug": "steel-slate-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v9",
-      "steel-slate-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v10",
-    "title": "Mustard Gold Gota Patti Kurti & Sharara Set",
-    "slug": "mustard-gold-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v10",
-      "mustard-gold-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v11",
-    "title": "Indigo Royal Gota Patti Kurti & Sharara Set",
-    "slug": "indigo-royal-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v11",
-      "indigo-royal-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0768.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0768.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0768.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Indigo Royal Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v12",
-    "title": "Ivory Cream Gota Patti Kurti & Sharara Set",
-    "slug": "ivory-cream-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v12",
-      "ivory-cream-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5604.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5604.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5604.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0006-v13",
-    "title": "Midnight Navy Gota Patti Kurti & Sharara Set",
-    "slug": "midnight-navy-gota-patti-kurti-sharara-set",
-    "aliasSlugs": [
-      "ew-0006-v13",
-      "midnight-navy-gota-patti-kurti-sharara-set",
-      "gota-patti-kurti-sharara-set-var-13"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Modal Silk with Zari Accents",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA3445.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA3445.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA3445.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA3445.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA3445.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Navy Gota Patti Kurti & Sharara Set handcrafted at Wastram's Jaipur atelier. Tailored in Modal Silk with Zari Accents with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Navy Gota Patti Kurti & Sharara Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Modal Silk with Zari Accents with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0006-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v1",
-    "title": "Orchid Pink Draped Kurta & Dhoti Pant Set",
-    "slug": "orchid-pink-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v1",
-      "orchid-pink-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-1",
-      "aditi-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-4-ew-0034",
-      "aria-kashida-embroidered-kurta-pant-set-edition-5-ew-0045",
-      "avani-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-17-ew-0161",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-4-ew-0039",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-6-ew-0062",
-      "dolly-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "elena-resham-threadwork-straight-suit-edition-10-ew-0095",
-      "elena-resham-threadwork-straight-suit-edition-15-ew-0140",
-      "elena-resham-threadwork-straight-suit-edition-16-ew-0149",
-      "elena-resham-threadwork-straight-suit-edition-3-ew-0026",
-      "elena-resham-threadwork-straight-suit-edition-6-ew-0058",
-      "elena-resham-threadwork-straight-suit-edition-9-ew-0086",
       "ew-0002",
-      "ew-0007",
-      "ew-0009",
-      "ew-0014",
-      "ew-0019",
-      "ew-0021",
-      "ew-0022",
-      "ew-0026",
-      "ew-0030",
-      "ew-0031",
-      "ew-0034",
-      "ew-0039",
-      "ew-0043",
-      "ew-0045",
-      "ew-0049",
-      "ew-0053",
-      "ew-0055",
-      "ew-0058",
-      "ew-0062",
-      "ew-0064",
-      "ew-0067",
-      "ew-0079",
-      "ew-0085",
-      "ew-0086",
-      "ew-0088",
-      "ew-0091",
-      "ew-0095",
-      "ew-0097",
-      "ew-0103",
-      "ew-0115",
-      "ew-0127",
-      "ew-0139",
-      "ew-0140",
-      "ew-0141",
-      "ew-0149",
-      "ew-0151",
-      "ew-0161",
-      "ew-0163",
-      "ew-0175",
-      "ew-0187",
-      "ew-0199",
-      "ew-0211",
-      "ew-0223",
-      "ew-0235",
-      "ew-0247",
-      "ew-0259",
-      "ew-0271",
-      "ew-0283",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-edition-2-ew-0019",
-      "freya-kashida-embroidered-kurta-pant-set-edition-3-ew-0030",
-      "hansa-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-10-ew-0097",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-5-ew-0049",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-9-ew-0088",
-      "jahnavi-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "katrina-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "keerthy-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "komal-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "kusha-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "luna-royal-festive-salwar-ensemble-edition-2-edition-2-ew-0022",
-      "luna-royal-festive-salwar-ensemble-edition-2-ew-0021",
-      "luna-royal-festive-salwar-ensemble-edition-5-ew-0053",
-      "luna-royal-festive-salwar-ensemble-ew-0009",
-      "malti-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-15-ew-0141",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-2-ew-0014",
-      "mira-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "naira-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "noor-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "pooja-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "prajakta-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "priyanka-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
+      "rani-pink-hand-zardozi-accented-angrakha-kurta-set",
       "product-ew-0002",
-      "product-ew-0007",
-      "product-ew-0009",
-      "product-ew-0014",
-      "product-ew-0019",
-      "product-ew-0021",
-      "product-ew-0022",
-      "product-ew-0026",
-      "product-ew-0030",
-      "product-ew-0031",
-      "product-ew-0034",
-      "product-ew-0039",
-      "product-ew-0043",
-      "product-ew-0045",
-      "product-ew-0049",
-      "product-ew-0053",
-      "product-ew-0055",
-      "product-ew-0058",
-      "product-ew-0062",
-      "product-ew-0064",
-      "product-ew-0067",
-      "product-ew-0079",
-      "product-ew-0085",
-      "product-ew-0086",
-      "product-ew-0088",
-      "product-ew-0091",
-      "product-ew-0095",
-      "product-ew-0097",
-      "product-ew-0103",
-      "product-ew-0115",
-      "product-ew-0127",
-      "product-ew-0139",
-      "product-ew-0140",
-      "product-ew-0141",
-      "product-ew-0149",
-      "product-ew-0151",
-      "product-ew-0161",
-      "product-ew-0163",
-      "product-ew-0175",
-      "product-ew-0187",
-      "product-ew-0199",
-      "product-ew-0211",
-      "product-ew-0223",
-      "product-ew-0235",
-      "product-ew-0247",
-      "product-ew-0259",
-      "product-ew-0271",
-      "product-ew-0283",
-      "radhika-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "raha-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "rhea-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "sai-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "shraddha-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "shreya-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-9-ew-0085",
-      "sienna-handloom-a-line-kurta-palazzo-set-ew-0002",
-      "tanvi-draped-asymmetric-kurta-dhoti-pant-3-piece-set",
-      "zehra-draped-asymmetric-kurta-dhoti-pant-3-piece-set"
+      "pg-002",
+      "product-group-002"
     ],
-    "category": "Ethnic Wear Sets",
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 13,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
+    "badge": "Bestseller",
     "featured_image": "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
     "mainImage": "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
     "images": [
       "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1767272868674.jpg.jpeg"
     ],
     "gallery": [
       "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1767272868674.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
+        "caption": "Rani Pink Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
+        "caption": "Rani Pink Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg",
+        "caption": "Rani Pink Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1767272868674.jpg.jpeg",
+        "caption": "Rani Pink Hand-Zardozi Accented Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
           "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1767272868674.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Orchid Pink Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v2",
-    "title": "Pebble Grey Draped Kurta & Dhoti Pant Set",
-    "slug": "pebble-grey-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v2",
-      "pebble-grey-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -6050,1064 +226,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5653.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5653.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1767272860987.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5653.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rani Pink Hand-Zardozi Accented Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rani Pink Hand-Zardozi Accented Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Pebble Grey Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Rani Pink Hand-Zardozi Accented Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0007-V2",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0002",
+      "Part Number": "WST-EW-0002",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157195530-a8m2c9a",
+      "groupName": "Product Group 002",
+      "groupNum": 2,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0007-v3",
-    "title": "Blush Rose Draped Kurta & Dhoti Pant Set",
-    "slug": "blush-rose-draped-kurta-dhoti-pant-set",
+    "id": "ew-0003",
+    "partNumber": "WST-EW-0003",
+    "sku": "WST-EW-0003",
+    "name": "Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "title": "Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "slug": "royal-peacock-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
     "aliasSlugs": [
-      "ew-0007-v3",
-      "blush-rose-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-3"
+      "ew-0003",
+      "royal-peacock-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0003",
+      "pg-003",
+      "product-group-003"
     ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1767272863848.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V3",
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 14,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v4",
-    "title": "Mustard Gold Draped Kurta & Dhoti Pant Set",
-    "slug": "mustard-gold-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v4",
-      "mustard-gold-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v5",
-    "title": "Rust Terracotta Draped Kurta & Dhoti Pant Set",
-    "slug": "rust-terracotta-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v5",
-      "rust-terracotta-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v6",
-    "title": "Warm Caramel Draped Kurta & Dhoti Pant Set",
-    "slug": "warm-caramel-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v6",
-      "warm-caramel-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2747.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4313.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9970.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2747.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4313.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9970.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA2747.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4313.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA9970.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v7",
-    "title": "Sage Olive Draped Kurta & Dhoti Pant Set",
-    "slug": "sage-olive-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v7",
-      "sage-olive-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#4D7C0F",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sage Olive Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sage Olive Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v8",
-    "title": "Sand Ochre Draped Kurta & Dhoti Pant Set",
-    "slug": "sand-ochre-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v8",
-      "sand-ochre-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sand Ochre Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v9",
-    "title": "Forest Emerald Draped Kurta & Dhoti Pant Set",
-    "slug": "forest-emerald-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v9",
-      "forest-emerald-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#14532D",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Forest Emerald Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Forest Emerald Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v10",
-    "title": "Sunset Tangerine Draped Kurta & Dhoti Pant Set",
-    "slug": "sunset-tangerine-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v10",
-      "sunset-tangerine-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v11",
-    "title": "Ivory Cream Draped Kurta & Dhoti Pant Set",
-    "slug": "ivory-cream-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v11",
-      "ivory-cream-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0834.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0834.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0834.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v12",
-    "title": "Teal Slate Draped Kurta & Dhoti Pant Set",
-    "slug": "teal-slate-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v12",
-      "teal-slate-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7263.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7263.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7263.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v13",
-    "title": "Ruby Crimson Draped Kurta & Dhoti Pant Set",
-    "slug": "ruby-crimson-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v13",
-      "ruby-crimson-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-13"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8443.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8443.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8443.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v14",
-    "title": "Berry Magenta Draped Kurta & Dhoti Pant Set",
-    "slug": "berry-magenta-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v14",
-      "berry-magenta-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-14"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA4765.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA4765.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA4765.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA4765.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#831843",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA4765.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Berry Magenta Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Berry Magenta Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V14",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0007-v15",
-    "title": "Scarlet Red Draped Kurta & Dhoti Pant Set",
-    "slug": "scarlet-red-draped-kurta-dhoti-pant-set",
-    "aliasSlugs": [
-      "ew-0007-v15",
-      "scarlet-red-draped-kurta-dhoti-pant-set",
-      "draped-kurta-dhoti-pant-set-var-15"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Handloom Silk Cotton with Organza Dupatta",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA9413.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA9413.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA9413.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA9413.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA9413.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Draped Kurta & Dhoti Pant Set handcrafted at Wastram's Jaipur atelier. Tailored in Handloom Silk Cotton with Organza Dupatta with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Draped Kurta & Dhoti Pant Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Handloom Silk Cotton with Organza Dupatta with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0007-V15",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v1",
-    "title": "Mustard Gold Chikankari Kurta & Dupatta Set",
-    "slug": "mustard-gold-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v1",
-      "mustard-gold-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-1",
-      "aditi-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "alia-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "aria-kashida-embroidered-kurta-pant-set-edition-11-ew-0102",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-ew-0023",
-      "aria-kashida-embroidered-kurta-pant-set-edition-5-ew-0045",
-      "arya-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-4-edition-2-ew-0040",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-6-ew-0062",
-      "dolly-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "elena-resham-threadwork-straight-suit-edition-14-ew-0131",
-      "elena-resham-threadwork-straight-suit-edition-18-ew-0167",
-      "elena-resham-threadwork-straight-suit-edition-3-ew-0026",
-      "elena-resham-threadwork-straight-suit-edition-6-ew-0058",
-      "ew-0002",
-      "ew-0008",
-      "ew-0009",
-      "ew-0014",
-      "ew-0018",
-      "ew-0020",
-      "ew-0023",
-      "ew-0026",
-      "ew-0030",
-      "ew-0032",
-      "ew-0035",
-      "ew-0040",
-      "ew-0044",
-      "ew-0045",
-      "ew-0049",
-      "ew-0053",
-      "ew-0056",
-      "ew-0058",
-      "ew-0062",
-      "ew-0064",
-      "ew-0068",
-      "ew-0072",
-      "ew-0080",
-      "ew-0082",
-      "ew-0092",
-      "ew-0100",
-      "ew-0102",
-      "ew-0104",
-      "ew-0106",
-      "ew-0116",
-      "ew-0128",
-      "ew-0131",
-      "ew-0140",
-      "ew-0145",
-      "ew-0152",
-      "ew-0164",
-      "ew-0167",
-      "ew-0171",
-      "ew-0176",
-      "ew-0188",
-      "ew-0200",
-      "ew-0212",
-      "ew-0224",
-      "ew-0236",
-      "ew-0248",
-      "ew-0260",
-      "ew-0272",
-      "ew-0284",
-      "freya-kashida-embroidered-kurta-pant-set-edition-18-ew-0171",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-ew-0018",
-      "freya-kashida-embroidered-kurta-pant-set-edition-3-ew-0030",
-      "freya-kashida-embroidered-kurta-pant-set-edition-7-ew-0072",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-11-ew-0106",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-5-ew-0049",
-      "jahnavi-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "kajal-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "katrina-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "keerthy-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "komal-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "kriti-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "kusha-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "lopa-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "luna-royal-festive-salwar-ensemble-edition-5-ew-0053",
-      "luna-royal-festive-salwar-ensemble-ew-0009",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-10-ew-0100",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-15-ew-0145",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-8-ew-0082",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-2-ew-0014",
-      "mira-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "naira-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "navya-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "noor-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "product-ew-0002",
-      "product-ew-0008",
-      "product-ew-0009",
-      "product-ew-0014",
-      "product-ew-0018",
-      "product-ew-0020",
-      "product-ew-0023",
-      "product-ew-0026",
-      "product-ew-0030",
-      "product-ew-0032",
-      "product-ew-0035",
-      "product-ew-0040",
-      "product-ew-0044",
-      "product-ew-0045",
-      "product-ew-0049",
-      "product-ew-0053",
-      "product-ew-0056",
-      "product-ew-0058",
-      "product-ew-0062",
-      "product-ew-0064",
-      "product-ew-0068",
-      "product-ew-0072",
-      "product-ew-0080",
-      "product-ew-0082",
-      "product-ew-0092",
-      "product-ew-0100",
-      "product-ew-0102",
-      "product-ew-0104",
-      "product-ew-0106",
-      "product-ew-0116",
-      "product-ew-0128",
-      "product-ew-0131",
-      "product-ew-0140",
-      "product-ew-0145",
-      "product-ew-0152",
-      "product-ew-0164",
-      "product-ew-0167",
-      "product-ew-0171",
-      "product-ew-0176",
-      "product-ew-0188",
-      "product-ew-0200",
-      "product-ew-0212",
-      "product-ew-0224",
-      "product-ew-0236",
-      "product-ew-0248",
-      "product-ew-0260",
-      "product-ew-0272",
-      "product-ew-0284",
-      "raha-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "riddhi-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "sai-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "shraddha-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "shreya-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-4-ew-0035",
-      "sienna-handloom-a-line-kurta-palazzo-set-ew-0002",
-      "simran-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "tanvi-chikankari-hand-embroidered-kurta-pant-set-with-dupatta",
-      "zehra-chikankari-hand-embroidered-kurta-pant-set-with-dupatta"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102685514.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102685514.jpg.jpeg",
-    "images": [
+      "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1769102685514.jpg.jpeg"
     ],
     "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1769102685514.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+        "caption": "Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg",
+        "caption": "Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
+        "caption": "Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769102685514.jpg.jpeg",
+        "caption": "Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
+          "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1769102685514.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Mustard Gold Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v2",
-    "title": "Sand Ochre Chikankari Kurta & Dupatta Set",
-    "slug": "sand-ochre-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v2",
-      "sand-ochre-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7115,59 +344,110 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0003",
+      "Part Number": "WST-EW-0003",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157201524-40gycxr",
+      "groupName": "Product Group 003",
+      "groupNum": 3,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0004",
+    "partNumber": "WST-EW-0004",
+    "sku": "WST-EW-0004",
+    "name": "Emerald Green Dabu Block Printed Angrakha Kurta Set",
+    "title": "Emerald Green Dabu Block Printed Angrakha Kurta Set",
+    "slug": "emerald-green-dabu-block-printed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0004",
+      "emerald-green-dabu-block-printed-angrakha-kurta-set",
+      "product-ew-0004",
+      "pg-004",
+      "product-group-004"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 15,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+        "caption": "Emerald Green Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
+        "caption": "Emerald Green Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg",
+        "caption": "Emerald Green Dabu Block Printed Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1769102690134.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Sand Ochre Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v3",
-    "title": "Teal Slate Chikankari Kurta & Dupatta Set",
-    "slug": "teal-slate-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v3",
-      "teal-slate-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7175,59 +455,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Emerald Green Dabu Block Printed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Emerald Green Dabu Block Printed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Emerald Green Dabu Block Printed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0004",
+      "Part Number": "WST-EW-0004",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157207282-gwr6gbb",
+      "groupName": "Product Group 004",
+      "groupNum": 4,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0005",
+    "partNumber": "WST-EW-0005",
+    "sku": "WST-EW-0005",
+    "name": "Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "title": "Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "slug": "wine-maroon-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0005",
+      "wine-maroon-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0005",
+      "pg-005",
+      "product-group-005"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 16,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9638.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9638.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
+        "caption": "Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
+        "caption": "Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
+        "caption": "Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg",
+        "caption": "Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA9638.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769438472928.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769438468773.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Teal Slate Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v4",
-    "title": "Midnight Black Chikankari Kurta & Dupatta Set",
-    "slug": "midnight-black-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v4",
-      "midnight-black-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7235,59 +573,110 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0005",
+      "Part Number": "WST-EW-0005",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157215731-infzmyx",
+      "groupName": "Product Group 005",
+      "groupNum": 5,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0006",
+    "partNumber": "WST-EW-0006",
+    "sku": "WST-EW-0006",
+    "name": "Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set",
+    "title": "Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set",
+    "slug": "peach-blossom-chanderi-dupatta-paired-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0006",
+      "peach-blossom-chanderi-dupatta-paired-angrakha-kurta-set",
+      "product-ew-0006",
+      "pg-006",
+      "product-group-006"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 17,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5744.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5744.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
+        "caption": "Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg",
+        "caption": "Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg",
+        "caption": "Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA5744.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1777813729015.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1777813731180.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Midnight Black Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v5",
-    "title": "Blush Rose Chikankari Kurta & Dupatta Set",
-    "slug": "blush-rose-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v5",
-      "blush-rose-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7295,74 +684,110 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg",
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0006",
+      "Part Number": "WST-EW-0006",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157221678-yd2tyf9",
+      "groupName": "Product Group 006",
+      "groupNum": 6,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0007",
+    "partNumber": "WST-EW-0007",
+    "sku": "WST-EW-0007",
+    "name": "Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "title": "Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "slug": "ivory-zari-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0007",
+      "ivory-zari-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0007",
+      "pg-007",
+      "product-group-007"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 18,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4498.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4498.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+        "caption": "Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
+        "caption": "Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg",
+        "caption": "Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4498.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1777813793763.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1777813793341.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Blush Rose Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v6",
-    "title": "Scarlet Red Chikankari Kurta & Dupatta Set",
-    "slug": "scarlet-red-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v6",
-      "scarlet-red-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -7370,842 +795,166 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Scarlet Red Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0008-V6",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0007",
+      "Part Number": "WST-EW-0007",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157226344-u4yzwnd",
+      "groupName": "Product Group 007",
+      "groupNum": 7,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0008-v7",
-    "title": "Pebble Grey Chikankari Kurta & Dupatta Set",
-    "slug": "pebble-grey-chikankari-kurta-dupatta-set",
+    "id": "ew-0008",
+    "partNumber": "WST-EW-0008",
+    "sku": "WST-EW-0008",
+    "name": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set",
+    "title": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set",
+    "slug": "turquoise-jewel-anarkali-flared-angrakha-kurta-set",
     "aliasSlugs": [
-      "ew-0008-v7",
-      "pebble-grey-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-7"
+      "ew-0008",
+      "turquoise-jewel-anarkali-flared-angrakha-kurta-set",
+      "product-ew-0008",
+      "pg-008",
+      "product-group-008"
     ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V7",
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 19,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v8",
-    "title": "Charcoal Slate Chikankari Kurta & Dupatta Set",
-    "slug": "charcoal-slate-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v8",
-      "charcoal-slate-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v9",
-    "title": "Ivory Cream Chikankari Kurta & Dupatta Set",
-    "slug": "ivory-cream-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v9",
-      "ivory-cream-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7268.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8548.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9972.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA4859.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7268.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8548.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9972.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA4859.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7268.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8548.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA9972.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA4859.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v10",
-    "title": "Warm Caramel Chikankari Kurta & Dupatta Set",
-    "slug": "warm-caramel-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v10",
-      "warm-caramel-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0851.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2876.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0851.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA2876.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA0851.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA2876.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v11",
-    "title": "Ruby Crimson Chikankari Kurta & Dupatta Set",
-    "slug": "ruby-crimson-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v11",
-      "ruby-crimson-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ruby Crimson Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v12",
-    "title": "Berry Magenta Chikankari Kurta & Dupatta Set",
-    "slug": "berry-magenta-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v12",
-      "berry-magenta-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#831843",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Berry Magenta Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Berry Magenta Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0008-v13",
-    "title": "Orchid Pink Chikankari Kurta & Dupatta Set",
-    "slug": "orchid-pink-chikankari-kurta-dupatta-set",
-    "aliasSlugs": [
-      "ew-0008-v13",
-      "orchid-pink-chikankari-kurta-dupatta-set",
-      "chikankari-kurta-dupatta-set-var-13"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Mulmul Cotton with Gota Patti Trim",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Chikankari Kurta & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Mulmul Cotton with Gota Patti Trim with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Chikankari Kurta & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Mulmul Cotton with Gota Patti Trim with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0008-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v1",
-    "title": "Warm Caramel Chiffon Draped Kurta & Culottes Set",
-    "slug": "warm-caramel-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v1",
-      "warm-caramel-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-1",
-      "aditi-pure-chiffon-draped-kurta-culottes-set",
-      "alanna-pure-chiffon-draped-kurta-culottes-set",
-      "alia-pure-chiffon-draped-kurta-culottes-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-ew-0023",
-      "aria-kashida-embroidered-kurta-pant-set-edition-5-ew-0045",
-      "arya-pure-chiffon-draped-kurta-culottes-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-4-edition-2-ew-0040",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-6-ew-0062",
-      "disha-pure-chiffon-draped-kurta-culottes-set",
-      "dolly-pure-chiffon-draped-kurta-culottes-set",
-      "elena-resham-threadwork-straight-suit-edition-13-ew-0122",
-      "elena-resham-threadwork-straight-suit-edition-6-ew-0058",
-      "elena-resham-threadwork-straight-suit-ew-0003",
-      "ew-0003",
-      "ew-0009",
-      "ew-0015",
-      "ew-0019",
-      "ew-0021",
-      "ew-0023",
-      "ew-0027",
-      "ew-0030",
-      "ew-0033",
-      "ew-0035",
-      "ew-0040",
-      "ew-0045",
-      "ew-0049",
-      "ew-0054",
-      "ew-0057",
-      "ew-0058",
-      "ew-0062",
-      "ew-0064",
-      "ew-0069",
-      "ew-0081",
-      "ew-0091",
-      "ew-0092",
-      "ew-0093",
-      "ew-0105",
-      "ew-0110",
-      "ew-0117",
-      "ew-0122",
-      "ew-0128",
-      "ew-0129",
-      "ew-0141",
-      "ew-0150",
-      "ew-0153",
-      "ew-0157",
-      "ew-0163",
-      "ew-0165",
-      "ew-0177",
-      "ew-0189",
-      "ew-0201",
-      "ew-0213",
-      "ew-0225",
-      "ew-0237",
-      "ew-0249",
-      "ew-0261",
-      "ew-0273",
-      "ew-0285",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-edition-2-ew-0019",
-      "freya-kashida-embroidered-kurta-pant-set-edition-3-ew-0030",
-      "freya-kashida-embroidered-kurta-pant-set-edition-8-ew-0081",
-      "hansika-pure-chiffon-draped-kurta-culottes-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-2-ew-0015",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-5-ew-0049",
-      "kajal-pure-chiffon-draped-kurta-culottes-set",
-      "komal-pure-chiffon-draped-kurta-culottes-set",
-      "kriti-pure-chiffon-draped-kurta-culottes-set",
-      "lavanya-pure-chiffon-draped-kurta-culottes-set",
-      "lopa-pure-chiffon-draped-kurta-culottes-set",
-      "luna-royal-festive-salwar-ensemble-edition-11-ew-0110",
-      "luna-royal-festive-salwar-ensemble-edition-13-ew-0128",
-      "luna-royal-festive-salwar-ensemble-edition-5-edition-2-ew-0054",
-      "luna-royal-festive-salwar-ensemble-edition-9-ew-0092",
-      "luna-royal-festive-salwar-ensemble-ew-0009",
-      "mansi-pure-chiffon-draped-kurta-culottes-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-17-ew-0163",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-9-ew-0091",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-16-ew-0150",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-3-ew-0027",
-      "naira-pure-chiffon-draped-kurta-culottes-set",
-      "navya-pure-chiffon-draped-kurta-culottes-set",
-      "noor-pure-chiffon-draped-kurta-culottes-set",
-      "product-ew-0003",
-      "product-ew-0009",
-      "product-ew-0015",
-      "product-ew-0019",
-      "product-ew-0021",
-      "product-ew-0023",
-      "product-ew-0027",
-      "product-ew-0030",
-      "product-ew-0033",
-      "product-ew-0035",
-      "product-ew-0040",
-      "product-ew-0045",
-      "product-ew-0049",
-      "product-ew-0054",
-      "product-ew-0057",
-      "product-ew-0058",
-      "product-ew-0062",
-      "product-ew-0064",
-      "product-ew-0069",
-      "product-ew-0081",
-      "product-ew-0091",
-      "product-ew-0092",
-      "product-ew-0093",
-      "product-ew-0105",
-      "product-ew-0110",
-      "product-ew-0117",
-      "product-ew-0122",
-      "product-ew-0128",
-      "product-ew-0129",
-      "product-ew-0141",
-      "product-ew-0150",
-      "product-ew-0153",
-      "product-ew-0157",
-      "product-ew-0163",
-      "product-ew-0165",
-      "product-ew-0177",
-      "product-ew-0189",
-      "product-ew-0201",
-      "product-ew-0213",
-      "product-ew-0225",
-      "product-ew-0237",
-      "product-ew-0249",
-      "product-ew-0261",
-      "product-ew-0273",
-      "product-ew-0285",
-      "riddhi-pure-chiffon-draped-kurta-culottes-set",
-      "sai-pure-chiffon-draped-kurta-culottes-set",
-      "shraddha-pure-chiffon-draped-kurta-culottes-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-17-ew-0157",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-4-ew-0035",
-      "simran-pure-chiffon-draped-kurta-culottes-set",
-      "sitara-pure-chiffon-draped-kurta-culottes-set",
-      "tara-pure-chiffon-draped-kurta-culottes-set",
-      "trisha-pure-chiffon-draped-kurta-culottes-set",
-      "zehra-pure-chiffon-draped-kurta-culottes-set"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2983.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2983.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102692335.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA2983.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v2",
-    "title": "Sunset Tangerine Chiffon Draped Kurta & Culottes Set",
-    "slug": "sunset-tangerine-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v2",
-      "sunset-tangerine-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v3",
-    "title": "Orchid Pink Chiffon Draped Kurta & Culottes Set",
-    "slug": "orchid-pink-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v3",
-      "orchid-pink-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
+    "badge": "Signature Atelier",
     "featured_image": "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
     "mainImage": "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
     "images": [
       "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg"
     ],
     "gallery": [
       "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
+        "caption": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg",
+        "caption": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg",
+        "caption": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg",
+        "caption": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg",
+        "caption": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg",
+        "caption": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157237319-dvpzymv-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777239679.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157240680-evzn71k-2",
+        "name": "Variant B",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777242145.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157243460-ibqw7mi-3",
+        "name": "Variant C",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777244255.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157246776-ha387xq-4",
+        "name": "Variant D",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777246230.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157250191-qeguk2p-5",
+        "name": "Variant E",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1781777248124.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Orchid Pink Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v4",
-    "title": "Rust Terracotta Chiffon Draped Kurta & Culottes Set",
-    "slug": "rust-terracotta-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v4",
-      "rust-terracotta-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -8213,819 +962,74 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4608.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA4608.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA4608.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v5",
-    "title": "Charcoal Slate Chiffon Draped Kurta & Culottes Set",
-    "slug": "charcoal-slate-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v5",
-      "charcoal-slate-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
+    "description": "The Turquoise Jewel Anarkali Flared Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Turquoise Jewel Anarkali Flared Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Charcoal Slate Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Turquoise Jewel Anarkali Flared Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0009-V5",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0008",
+      "Part Number": "WST-EW-0008",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": true,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157235712-1lyziv2",
+      "groupName": "Product Group 008",
+      "groupNum": 8,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0009-v6",
-    "title": "Scarlet Red Chiffon Draped Kurta & Culottes Set",
-    "slug": "scarlet-red-chiffon-draped-kurta-culottes-set",
+    "id": "ew-0009",
+    "partNumber": "WST-EW-0009",
+    "sku": "WST-EW-0009",
+    "name": "Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "title": "Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "slug": "dusty-rose-straight-silhouette-3-piece-kurta-pant-dupatta-set",
     "aliasSlugs": [
-      "ew-0009-v6",
-      "scarlet-red-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1264.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0186.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9769.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1264.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0186.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9769.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1264.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA0186.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA9769.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v7",
-    "title": "Blush Rose Chiffon Draped Kurta & Culottes Set",
-    "slug": "blush-rose-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v7",
-      "blush-rose-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v8",
-    "title": "Midnight Black Chiffon Draped Kurta & Culottes Set",
-    "slug": "midnight-black-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v8",
-      "midnight-black-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v9",
-    "title": "Steel Slate Chiffon Draped Kurta & Culottes Set",
-    "slug": "steel-slate-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v9",
-      "steel-slate-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Steel Slate Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v10",
-    "title": "Mustard Gold Chiffon Draped Kurta & Culottes Set",
-    "slug": "mustard-gold-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v10",
-      "mustard-gold-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v11",
-    "title": "Ivory Cream Chiffon Draped Kurta & Culottes Set",
-    "slug": "ivory-cream-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v11",
-      "ivory-cream-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5864.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7324.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8626.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5864.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7324.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8626.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5864.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7324.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8626.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0009-v12",
-    "title": "Artisan Earth Chiffon Draped Kurta & Culottes Set",
-    "slug": "artisan-earth-chiffon-draped-kurta-culottes-set",
-    "aliasSlugs": [
-      "ew-0009-v12",
-      "artisan-earth-chiffon-draped-kurta-culottes-set",
-      "chiffon-draped-kurta-culottes-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA5378.jpg%20(1).jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA5378.jpg%20(1).jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA5378.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA5378.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA5378.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth Chiffon Draped Kurta & Culottes Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Artisan Earth Chiffon Draped Kurta & Culottes Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0009-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v1",
-    "title": "Warm Caramel Tiered Anarkali & Net Dupatta Set",
-    "slug": "warm-caramel-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v1",
-      "warm-caramel-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-1",
-      "aaliyah-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "aanya-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "alanna-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "alia-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "aria-kashida-embroidered-kurta-pant-set-edition-18-ew-0165",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-edition-2-ew-0024",
-      "aria-kashida-embroidered-kurta-pant-set-edition-5-ew-0045",
-      "aria-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "arya-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "bhumi-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-2-ew-0016",
-      "disha-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "elena-resham-threadwork-straight-suit-edition-6-ew-0058",
-      "elena-resham-threadwork-straight-suit-edition-8-ew-0077",
-      "elena-resham-threadwork-straight-suit-ew-0003",
-      "ew-0003",
       "ew-0009",
-      "ew-0010",
-      "ew-0016",
-      "ew-0019",
-      "ew-0022",
-      "ew-0024",
-      "ew-0027",
-      "ew-0030",
-      "ew-0031",
-      "ew-0034",
-      "ew-0035",
-      "ew-0041",
-      "ew-0045",
-      "ew-0046",
-      "ew-0049",
-      "ew-0053",
-      "ew-0058",
-      "ew-0063",
-      "ew-0064",
-      "ew-0070",
-      "ew-0076",
-      "ew-0077",
-      "ew-0082",
-      "ew-0094",
-      "ew-0096",
-      "ew-0105",
-      "ew-0106",
-      "ew-0118",
-      "ew-0130",
-      "ew-0139",
-      "ew-0142",
-      "ew-0144",
-      "ew-0148",
-      "ew-0151",
-      "ew-0154",
-      "ew-0165",
-      "ew-0166",
-      "ew-0178",
-      "ew-0190",
-      "ew-0202",
-      "ew-0214",
-      "ew-0226",
-      "ew-0238",
-      "ew-0250",
-      "ew-0262",
-      "ew-0274",
-      "ew-0286",
-      "freya-kashida-embroidered-kurta-pant-set-edition-15-ew-0144",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-edition-2-ew-0019",
-      "freya-kashida-embroidered-kurta-pant-set-edition-3-edition-2-ew-0031",
-      "freya-kashida-embroidered-kurta-pant-set-edition-3-ew-0030",
-      "freya-kashida-embroidered-kurta-pant-set-edition-4-ew-0041",
-      "freya-kashida-embroidered-kurta-pant-set-edition-6-ew-0063",
-      "hansika-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-16-ew-0151",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-5-ew-0049",
-      "kajal-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "kriti-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "lavanya-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "lopa-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "luna-royal-festive-salwar-ensemble-edition-5-ew-0053",
-      "luna-royal-festive-salwar-ensemble-ew-0009",
-      "mansi-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-6-ew-0064",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-10-ew-0096",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-11-ew-0105",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-3-ew-0027",
-      "navya-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "niharika-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "product-ew-0003",
+      "dusty-rose-straight-silhouette-3-piece-kurta-pant-dupatta-set",
       "product-ew-0009",
-      "product-ew-0010",
-      "product-ew-0016",
-      "product-ew-0019",
-      "product-ew-0022",
-      "product-ew-0024",
-      "product-ew-0027",
-      "product-ew-0030",
-      "product-ew-0031",
-      "product-ew-0034",
-      "product-ew-0035",
-      "product-ew-0041",
-      "product-ew-0045",
-      "product-ew-0046",
-      "product-ew-0049",
-      "product-ew-0053",
-      "product-ew-0058",
-      "product-ew-0063",
-      "product-ew-0064",
-      "product-ew-0070",
-      "product-ew-0076",
-      "product-ew-0077",
-      "product-ew-0082",
-      "product-ew-0094",
-      "product-ew-0096",
-      "product-ew-0105",
-      "product-ew-0106",
-      "product-ew-0118",
-      "product-ew-0130",
-      "product-ew-0139",
-      "product-ew-0142",
-      "product-ew-0144",
-      "product-ew-0148",
-      "product-ew-0151",
-      "product-ew-0154",
-      "product-ew-0165",
-      "product-ew-0166",
-      "product-ew-0178",
-      "product-ew-0190",
-      "product-ew-0202",
-      "product-ew-0214",
-      "product-ew-0226",
-      "product-ew-0238",
-      "product-ew-0250",
-      "product-ew-0262",
-      "product-ew-0274",
-      "product-ew-0286",
-      "raashii-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "riddhi-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-15-ew-0139",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-16-ew-0148",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-4-ew-0035",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-8-ew-0076",
-      "simran-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "sitara-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "siya-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "tara-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "trisha-tiered-flared-anarkali-with-embroidered-net-dupatta",
-      "vanya-tiered-flared-anarkali-with-embroidered-net-dupatta"
+      "pg-009",
+      "product-group-009"
     ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1548.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5898.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1548.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA5898.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102695058.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1548.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA5898.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V1",
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 20,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v2",
-    "title": "Midnight Black Tiered Anarkali & Net Dupatta Set",
-    "slug": "midnight-black-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v2",
-      "midnight-black-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
+    "badge": "Bestseller",
     "featured_image": "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
     "mainImage": "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
     "images": [
       "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1784914675145.jpg.jpeg",
@@ -9038,11 +1042,29 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "/ethnic-wear-sets/FB_IMG_1784914681181.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1784914685472.jpg.jpeg"
     ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
+        "caption": "Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914675145.jpg.jpeg",
+        "caption": "Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914681181.jpg.jpeg",
+        "caption": "Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914685472.jpg.jpeg",
+        "caption": "Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
           "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1784914675145.jpg.jpeg",
@@ -9051,38 +1073,6 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
         ]
       }
     ],
-    "description": "Authentic Midnight Black Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v3",
-    "title": "Pebble Grey Tiered Anarkali & Net Dupatta Set",
-    "slug": "pebble-grey-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v3",
-      "pebble-grey-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -9090,1115 +1080,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA3006.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA3006.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA3006.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Pebble Grey Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Pebble Grey Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0010-V3",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0009",
+      "Part Number": "WST-EW-0009",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157259337-s2je9ic",
+      "groupName": "Product Group 009",
+      "groupNum": 9,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0010-v4",
-    "title": "Blush Rose Tiered Anarkali & Net Dupatta Set",
-    "slug": "blush-rose-tiered-anarkali-net-dupatta-set",
+    "id": "ew-0010",
+    "partNumber": "WST-EW-0010",
+    "sku": "WST-EW-0010",
+    "name": "Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set",
+    "title": "Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set",
+    "slug": "midnight-sapphire-gota-lace-detailed-angrakha-kurta-set",
     "aliasSlugs": [
-      "ew-0010-v4",
-      "blush-rose-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-4"
+      "ew-0010",
+      "midnight-sapphire-gota-lace-detailed-angrakha-kurta-set",
+      "product-ew-0010",
+      "pg-010",
+      "product-group-010"
     ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA5890.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA5890.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA5890.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V4",
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 21,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v5",
-    "title": "Sunset Tangerine Tiered Anarkali & Net Dupatta Set",
-    "slug": "sunset-tangerine-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v5",
-      "sunset-tangerine-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v6",
-    "title": "Deep Teal Tiered Anarkali & Net Dupatta Set",
-    "slug": "deep-teal-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v6",
-      "deep-teal-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#115E59",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Deep Teal Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Deep Teal Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v7",
-    "title": "Charcoal Slate Tiered Anarkali & Net Dupatta Set",
-    "slug": "charcoal-slate-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v7",
-      "charcoal-slate-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v8",
-    "title": "Teal Slate Tiered Anarkali & Net Dupatta Set",
-    "slug": "teal-slate-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v8",
-      "teal-slate-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#0E7490",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Teal Slate Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Teal Slate Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v9",
-    "title": "Mustard Gold Tiered Anarkali & Net Dupatta Set",
-    "slug": "mustard-gold-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v9",
-      "mustard-gold-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EAB308",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Mustard Gold Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Mustard Gold Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v10",
-    "title": "Forest Emerald Tiered Anarkali & Net Dupatta Set",
-    "slug": "forest-emerald-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v10",
-      "forest-emerald-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9834.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA9834.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#14532D",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA9834.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Forest Emerald Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Forest Emerald Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v11",
-    "title": "Rust Terracotta Tiered Anarkali & Net Dupatta Set",
-    "slug": "rust-terracotta-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v11",
-      "rust-terracotta-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#C2410C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Rust Terracotta Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Rust Terracotta Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v12",
-    "title": "Scarlet Red Tiered Anarkali & Net Dupatta Set",
-    "slug": "scarlet-red-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v12",
-      "scarlet-red-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8879.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8879.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA8879.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v13",
-    "title": "Indigo Royal Tiered Anarkali & Net Dupatta Set",
-    "slug": "indigo-royal-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v13",
-      "indigo-royal-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-13"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4671.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7505.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4671.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7505.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1D4ED8",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4671.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7505.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Indigo Royal Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Indigo Royal Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0010-v14",
-    "title": "Midnight Navy Tiered Anarkali & Net Dupatta Set",
-    "slug": "midnight-navy-tiered-anarkali-net-dupatta-set",
-    "aliasSlugs": [
-      "ew-0010-v14",
-      "midnight-navy-tiered-anarkali-net-dupatta-set",
-      "tiered-anarkali-net-dupatta-set-var-14"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA0546.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA0546.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261104-WA0546.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA0546.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#1E1B4B",
-        "images": [
-          "/mix-category-product-images/IMG-20261104-WA0546.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Navy Tiered Anarkali & Net Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Navy Tiered Anarkali & Net Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0010-V14",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v1",
-    "title": "Warm Caramel Chanderi Anarkali & Dupatta Set",
-    "slug": "warm-caramel-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v1",
-      "warm-caramel-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-1",
-      "aaliyah-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "aanya-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "alanna-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "aria-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-12-ew-0111",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-edition-2-ew-0024",
-      "bhumi-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-15-ew-0143",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-18-ew-0170",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-2-ew-0016",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-5-ew-0050",
-      "disha-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "diya-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "elena-resham-threadwork-straight-suit-edition-11-ew-0104",
-      "elena-resham-threadwork-straight-suit-edition-7-ew-0068",
-      "ew-0004",
-      "ew-0009",
-      "ew-0011",
-      "ew-0016",
-      "ew-0018",
-      "ew-0019",
-      "ew-0020",
-      "ew-0023",
-      "ew-0024",
-      "ew-0027",
-      "ew-0031",
-      "ew-0035",
-      "ew-0041",
-      "ew-0046",
-      "ew-0047",
-      "ew-0049",
-      "ew-0050",
-      "ew-0051",
-      "ew-0053",
-      "ew-0054",
-      "ew-0059",
-      "ew-0063",
-      "ew-0065",
-      "ew-0068",
-      "ew-0069",
-      "ew-0071",
-      "ew-0083",
-      "ew-0095",
-      "ew-0104",
-      "ew-0107",
-      "ew-0111",
-      "ew-0118",
-      "ew-0119",
-      "ew-0131",
-      "ew-0143",
-      "ew-0155",
-      "ew-0166",
-      "ew-0167",
-      "ew-0170",
-      "ew-0179",
-      "ew-0191",
-      "ew-0203",
-      "ew-0215",
-      "ew-0227",
-      "ew-0239",
-      "ew-0251",
-      "ew-0263",
-      "ew-0275",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-edition-2-ew-0019",
-      "freya-kashida-embroidered-kurta-pant-set-edition-2-ew-0018",
-      "freya-kashida-embroidered-kurta-pant-set-edition-3-edition-2-ew-0031",
-      "freya-kashida-embroidered-kurta-pant-set-edition-4-ew-0041",
-      "freya-kashida-embroidered-kurta-pant-set-edition-5-ew-0051",
-      "freya-kashida-embroidered-kurta-pant-set-edition-6-ew-0063",
-      "hansika-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-5-ew-0049",
-      "lavanya-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "luna-royal-festive-salwar-ensemble-edition-5-edition-2-ew-0054",
-      "luna-royal-festive-salwar-ensemble-edition-5-ew-0053",
-      "luna-royal-festive-salwar-ensemble-edition-6-ew-0065",
-      "luna-royal-festive-salwar-ensemble-ew-0009",
-      "mansi-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-12-ew-0118",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-2-ew-0020",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-3-ew-0027",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-6-ew-0059",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-7-ew-0069",
-      "mila-jaipuri-sanganeri-print-kurta-set-ew-0004",
-      "mrinal-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "niharika-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "palak-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "product-ew-0004",
-      "product-ew-0009",
-      "product-ew-0011",
-      "product-ew-0016",
-      "product-ew-0018",
-      "product-ew-0019",
-      "product-ew-0020",
-      "product-ew-0023",
-      "product-ew-0024",
-      "product-ew-0027",
-      "product-ew-0031",
-      "product-ew-0035",
-      "product-ew-0041",
-      "product-ew-0046",
-      "product-ew-0047",
-      "product-ew-0049",
-      "product-ew-0050",
-      "product-ew-0051",
-      "product-ew-0053",
-      "product-ew-0054",
-      "product-ew-0059",
-      "product-ew-0063",
-      "product-ew-0065",
-      "product-ew-0068",
-      "product-ew-0069",
-      "product-ew-0071",
-      "product-ew-0083",
-      "product-ew-0095",
-      "product-ew-0104",
-      "product-ew-0107",
-      "product-ew-0111",
-      "product-ew-0118",
-      "product-ew-0119",
-      "product-ew-0131",
-      "product-ew-0143",
-      "product-ew-0155",
-      "product-ew-0166",
-      "product-ew-0167",
-      "product-ew-0170",
-      "product-ew-0179",
-      "product-ew-0191",
-      "product-ew-0203",
-      "product-ew-0215",
-      "product-ew-0227",
-      "product-ew-0239",
-      "product-ew-0251",
-      "product-ew-0263",
-      "product-ew-0275",
-      "raashii-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "saanvi-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "sara-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-18-ew-0166",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-4-ew-0035",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-5-ew-0046",
-      "sitara-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "siya-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "tanya-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "tara-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "trisha-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "vanya-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set",
-      "yami-chanderi-silk-kalidar-anarkali-dupatta-3-piece-set"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9125.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9125.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102697210.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA9125.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Warm Caramel Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v2",
-    "title": "Blush Rose Chanderi Anarkali & Dupatta Set",
-    "slug": "blush-rose-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v2",
-      "blush-rose-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7641.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7641.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7641.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Blush Rose Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v3",
-    "title": "Orchid Pink Chanderi Anarkali & Dupatta Set",
-    "slug": "orchid-pink-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v3",
-      "orchid-pink-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914694936.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914694936.jpg.jpeg",
-    "images": [
+      "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1784914694936.jpg.jpeg"
     ],
     "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1784914694936.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914694936.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1784914694936.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Orchid Pink Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Orchid Pink Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v4",
-    "title": "Ruby Crimson Chanderi Anarkali & Dupatta Set",
-    "slug": "ruby-crimson-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v4",
-      "ruby-crimson-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -10206,62 +1198,715 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg",
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0010",
+      "Part Number": "WST-EW-0010",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157264571-bph8ngv",
+      "groupName": "Product Group 010",
+      "groupNum": 10,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0011",
+    "partNumber": "WST-EW-0011",
+    "sku": "WST-EW-0011",
+    "name": "Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "title": "Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "slug": "rust-henna-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0011",
+      "rust-henna-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0011",
+      "pg-011",
+      "product-group-011"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 22,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
     "images": [
+      "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+        "caption": "Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
+        "caption": "Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
+        "caption": "Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg",
+        "caption": "Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914718210.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914720043.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914721966.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0011",
+      "Part Number": "WST-EW-0011",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157270772-9fi46bm",
+      "groupName": "Product Group 011",
+      "groupNum": 11,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0012",
+    "partNumber": "WST-EW-0012",
+    "sku": "WST-EW-0012",
+    "name": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set",
+    "title": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set",
+    "slug": "sage-olive-hand-zardozi-accented-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0012",
+      "sage-olive-hand-zardozi-accented-angrakha-kurta-set",
+      "product-ew-0012",
+      "pg-012",
+      "product-group-012"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 23,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+        "caption": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
+        "caption": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
+        "caption": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
+        "caption": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
+        "caption": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg",
+        "caption": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914805190.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914807204.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914809113.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914811560.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914803086.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Olive Hand-Zardozi Accented Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Olive Hand-Zardozi Accented Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sage Olive Hand-Zardozi Accented Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0012",
+      "Part Number": "WST-EW-0012",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157277731-na9j7qm",
+      "groupName": "Product Group 012",
+      "groupNum": 12,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0013",
+    "partNumber": "WST-EW-0013",
+    "sku": "WST-EW-0013",
+    "name": "Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "title": "Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "slug": "sunset-crimson-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0013",
+      "sunset-crimson-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0013",
+      "pg-013",
+      "product-group-013"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 24,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+        "caption": "Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
+        "caption": "Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
+        "caption": "Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg",
+        "caption": "Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914990029.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914988049.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784914984480.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0013",
+      "Part Number": "WST-EW-0013",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157282989-2w679lc",
+      "groupName": "Product Group 013",
+      "groupNum": 13,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0014",
+    "partNumber": "WST-EW-0014",
+    "sku": "WST-EW-0014",
+    "name": "Opal Cream Dabu Block Printed Angrakha Kurta Set",
+    "title": "Opal Cream Dabu Block Printed Angrakha Kurta Set",
+    "slug": "opal-cream-dabu-block-printed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0014",
+      "opal-cream-dabu-block-printed-angrakha-kurta-set",
+      "product-ew-0014",
+      "pg-014",
+      "product-group-014"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 25,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+        "caption": "Opal Cream Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
+        "caption": "Opal Cream Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg",
+        "caption": "Opal Cream Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
+        "caption": "Opal Cream Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg",
+        "caption": "Opal Cream Dabu Block Printed Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784915604914.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784915612191.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784915620001.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1784915602619.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Opal Cream Dabu Block Printed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Opal Cream Dabu Block Printed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Opal Cream Dabu Block Printed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0014",
+      "Part Number": "WST-EW-0014",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.586Z",
+    "updatedAt": "2026-11-20T10:16:21.586Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157288806-xkzqqii",
+      "groupName": "Product Group 014",
+      "groupNum": 14,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0015",
+    "partNumber": "WST-EW-0015",
+    "sku": "WST-EW-0015",
+    "name": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "title": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "slug": "kashish-grey-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0015",
+      "kashish-grey-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0015",
+      "pg-015",
+      "product-group-015"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 26,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg"
     ],
     "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg",
+        "caption": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237580275.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237575892.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237559393.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237557760.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237515492.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157313736-eitf1zs-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157331348-1zpzbxh-2",
+        "name": "Variant B",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237561289.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237567955.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237572104.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1785237570157.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Ruby Crimson Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v5",
-    "title": "Emerald Green Chanderi Anarkali & Dupatta Set",
-    "slug": "emerald-green-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v5",
-      "emerald-green-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -10269,56 +1914,110 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg",
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0015",
+      "Part Number": "WST-EW-0015",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157310799-rj1a7us",
+      "groupName": "Product Group 015",
+      "groupNum": 15,
+      "photosCount": 17,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0016",
+    "partNumber": "WST-EW-0016",
+    "sku": "WST-EW-0016",
+    "name": "Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set",
+    "title": "Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set",
+    "slug": "coral-amber-chanderi-dupatta-paired-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0016",
+      "coral-amber-chanderi-dupatta-paired-angrakha-kurta-set",
+      "product-ew-0016",
+      "pg-016",
+      "product-group-016"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 27,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+        "caption": "Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
+        "caption": "Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg",
+        "caption": "Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#16A34A",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315480825.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315482427.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Emerald Green Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Emerald Green Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V5",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v6",
-    "title": "Sage Olive Chanderi Anarkali & Dupatta Set",
-    "slug": "sage-olive-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v6",
-      "sage-olive-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-6"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -10326,59 +2025,180 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0016",
+      "Part Number": "WST-EW-0016",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157381875-l0k9gdh",
+      "groupName": "Product Group 016",
+      "groupNum": 16,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0017",
+    "partNumber": "WST-EW-0017",
+    "sku": "WST-EW-0017",
+    "name": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "title": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "slug": "plum-regal-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0017",
+      "plum-regal-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0017",
+      "pg-017",
+      "product-group-017"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 28,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg",
+        "caption": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#4D7C0F",
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg"
+          "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157389929-l3c773d-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1754660375429.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157393059-c0dtvk8-2",
+        "name": "Variant B",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1754660373365.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Sage Olive Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sage Olive Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v7",
-    "title": "Sand Ochre Chanderi Anarkali & Dupatta Set",
-    "slug": "sand-ochre-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v7",
-      "sand-ochre-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -10386,68 +2206,9059 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg",
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0017",
+      "Part Number": "WST-EW-0017",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157387957-zwfdtu2",
+      "groupName": "Product Group 017",
+      "groupNum": 17,
+      "photosCount": 11,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0018",
+    "partNumber": "WST-EW-0018",
+    "sku": "WST-EW-0018",
+    "name": "Lilac Bloom Anarkali Flared Angrakha Kurta Set",
+    "title": "Lilac Bloom Anarkali Flared Angrakha Kurta Set",
+    "slug": "lilac-bloom-anarkali-flared-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0018",
+      "lilac-bloom-anarkali-flared-angrakha-kurta-set",
+      "product-ew-0018",
+      "pg-018",
+      "product-group-018"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 29,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
     "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+        "caption": "Lilac Bloom Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
+        "caption": "Lilac Bloom Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg",
+        "caption": "Lilac Bloom Anarkali Flared Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315413883.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315415789.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Lilac Bloom Anarkali Flared Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Lilac Bloom Anarkali Flared Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Lilac Bloom Anarkali Flared Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0018",
+      "Part Number": "WST-EW-0018",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157404885-zvvrxfc",
+      "groupName": "Product Group 018",
+      "groupNum": 18,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0019",
+    "partNumber": "WST-EW-0019",
+    "sku": "WST-EW-0019",
+    "name": "Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "title": "Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "slug": "mocha-bronze-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0019",
+      "mocha-bronze-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0019",
+      "pg-019",
+      "product-group-019"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 30,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+        "caption": "Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
+        "caption": "Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg",
+        "caption": "Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315508410.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315506690.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0019",
+      "Part Number": "WST-EW-0019",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157409777-f5q2j1w",
+      "groupName": "Product Group 019",
+      "groupNum": 19,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0020",
+    "partNumber": "WST-EW-0020",
+    "sku": "WST-EW-0020",
+    "name": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set",
+    "title": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set",
+    "slug": "teal-maharani-gota-lace-detailed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0020",
+      "teal-maharani-gota-lace-detailed-angrakha-kurta-set",
+      "product-ew-0020",
+      "pg-020",
+      "product-group-020"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 31,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg",
       "/ethnic-wear-sets/FB_IMG_1789315523527.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1789315554276.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0081.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg"
     ],
     "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg",
       "/ethnic-wear-sets/FB_IMG_1789315523527.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
       "/ethnic-wear-sets/FB_IMG_1789315554276.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0081.jpg.jpeg"
+      "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315523527.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315554276.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg",
+        "caption": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315519726.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315523527.jpg (1).jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315523527.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315552475.jpg.jpeg",
           "/ethnic-wear-sets/FB_IMG_1789315554276.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315781305.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315778194.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315776134.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Teal Maharani Gota Lace Detailed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Teal Maharani Gota Lace Detailed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Teal Maharani Gota Lace Detailed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0020",
+      "Part Number": "WST-EW-0020",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157418241-npqvtnc",
+      "groupName": "Product Group 020",
+      "groupNum": 20,
+      "photosCount": 10,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0021",
+    "partNumber": "WST-EW-0021",
+    "sku": "WST-EW-0021",
+    "name": "Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "title": "Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "slug": "haldi-yellow-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0021",
+      "haldi-yellow-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0021",
+      "pg-021",
+      "product-group-021"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 32,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+        "caption": "Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
+        "caption": "Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
+        "caption": "Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg",
+        "caption": "Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315636076.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315636078.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315658779.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0021",
+      "Part Number": "WST-EW-0021",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157426837-eacw7fq",
+      "groupName": "Product Group 021",
+      "groupNum": 21,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0022",
+    "partNumber": "WST-EW-0022",
+    "sku": "WST-EW-0022",
+    "name": "Rani Pink Sanganeri Royal Floral Angrakha Kurta Set",
+    "title": "Rani Pink Sanganeri Royal Floral Angrakha Kurta Set",
+    "slug": "rani-pink-sanganeri-royal-floral-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0022",
+      "rani-pink-sanganeri-royal-floral-angrakha-kurta-set",
+      "product-ew-0022",
+      "pg-022",
+      "product-group-022"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 33,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+        "caption": "Rani Pink Sanganeri Royal Floral Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
+        "caption": "Rani Pink Sanganeri Royal Floral Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg",
+        "caption": "Rani Pink Sanganeri Royal Floral Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315640139.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315642600.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rani Pink Sanganeri Royal Floral Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rani Pink Sanganeri Royal Floral Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rani Pink Sanganeri Royal Floral Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0022",
+      "Part Number": "WST-EW-0022",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157432018-5u4yd94",
+      "groupName": "Product Group 022",
+      "groupNum": 22,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0023",
+    "partNumber": "WST-EW-0023",
+    "sku": "WST-EW-0023",
+    "name": "Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "royal-peacock-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0023",
+      "royal-peacock-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0023",
+      "pg-023",
+      "product-group-023"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 34,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+        "caption": "Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
+        "caption": "Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
+        "caption": "Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg",
+        "caption": "Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315678096.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315679683.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315684203.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0023",
+      "Part Number": "WST-EW-0023",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157436993-jeamhot",
+      "groupName": "Product Group 023",
+      "groupNum": 23,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0024",
+    "partNumber": "WST-EW-0024",
+    "sku": "WST-EW-0024",
+    "name": "Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set",
+    "title": "Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set",
+    "slug": "emerald-green-embroidered-yoke-pleated-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0024",
+      "emerald-green-embroidered-yoke-pleated-angrakha-kurta-set",
+      "product-ew-0024",
+      "pg-024",
+      "product-group-024"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+        "caption": "Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
+        "caption": "Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg",
+        "caption": "Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315769733.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315773346.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0024",
+      "Part Number": "WST-EW-0024",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157441481-ea31ta7",
+      "groupName": "Product Group 024",
+      "groupNum": 24,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0025",
+    "partNumber": "WST-EW-0025",
+    "sku": "WST-EW-0025",
+    "name": "Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "title": "Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "slug": "wine-maroon-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0025",
+      "wine-maroon-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0025",
+      "pg-025",
+      "product-group-025"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 36,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+        "caption": "Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
+        "caption": "Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg",
+        "caption": "Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315814245.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315817893.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0025",
+      "Part Number": "WST-EW-0025",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157453786-qiaibev",
+      "groupName": "Product Group 025",
+      "groupNum": 25,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0026",
+    "partNumber": "WST-EW-0026",
+    "sku": "WST-EW-0026",
+    "name": "Peach Blossom Angrakha Cutwork Angrakha Kurta Set",
+    "title": "Peach Blossom Angrakha Cutwork Angrakha Kurta Set",
+    "slug": "peach-blossom-angrakha-cutwork-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0026",
+      "peach-blossom-angrakha-cutwork-angrakha-kurta-set",
+      "product-ew-0026",
+      "pg-026",
+      "product-group-026"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+        "caption": "Peach Blossom Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
+        "caption": "Peach Blossom Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg",
+        "caption": "Peach Blossom Angrakha Cutwork Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315826648.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Peach Blossom Angrakha Cutwork Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Peach Blossom Angrakha Cutwork Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Peach Blossom Angrakha Cutwork Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0026",
+      "Part Number": "WST-EW-0026",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157459001-0sjjdzb",
+      "groupName": "Product Group 026",
+      "groupNum": 26,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0027",
+    "partNumber": "WST-EW-0027",
+    "sku": "WST-EW-0027",
+    "name": "Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "title": "Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "slug": "ivory-zari-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0027",
+      "ivory-zari-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0027",
+      "pg-027",
+      "product-group-027"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 13,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+        "caption": "Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
+        "caption": "Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg",
+        "caption": "Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0027",
+      "Part Number": "WST-EW-0027",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157463324-ajotfqo",
+      "groupName": "Product Group 027",
+      "groupNum": 27,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0028",
+    "partNumber": "WST-EW-0028",
+    "sku": "WST-EW-0028",
+    "name": "Turquoise Jewel Straight Silhouette Angrakha Kurta Set",
+    "title": "Turquoise Jewel Straight Silhouette Angrakha Kurta Set",
+    "slug": "turquoise-jewel-straight-silhouette-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0028",
+      "turquoise-jewel-straight-silhouette-angrakha-kurta-set",
+      "product-ew-0028",
+      "pg-028",
+      "product-group-028"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 14,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+        "caption": "Turquoise Jewel Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg",
+        "caption": "Turquoise Jewel Straight Silhouette Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315897832.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Turquoise Jewel Straight Silhouette Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Turquoise Jewel Straight Silhouette Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Turquoise Jewel Straight Silhouette Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0028",
+      "Part Number": "WST-EW-0028",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157467920-jf1oll0",
+      "groupName": "Product Group 028",
+      "groupNum": 28,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0029",
+    "partNumber": "WST-EW-0029",
+    "sku": "WST-EW-0029",
+    "name": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "dusty-rose-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0029",
+      "dusty-rose-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0029",
+      "pg-029",
+      "product-group-029"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 15,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+        "caption": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
+        "caption": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
+        "caption": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
+        "caption": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg",
+        "caption": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315880144.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315884161.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315904539.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315906761.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0029",
+      "Part Number": "WST-EW-0029",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157474031-f2y68hd",
+      "groupName": "Product Group 029",
+      "groupNum": 29,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0030",
+    "partNumber": "WST-EW-0030",
+    "sku": "WST-EW-0030",
+    "name": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set",
+    "title": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set",
+    "slug": "midnight-sapphire-gota-patti-embroidered-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0030",
+      "midnight-sapphire-gota-patti-embroidered-angrakha-kurta-set",
+      "product-ew-0030",
+      "pg-030",
+      "product-group-030"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 16,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
+        "caption": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg",
+        "caption": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315970939.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315949244.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315951076.jpg (1).jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315953139.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315946307.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0030",
+      "Part Number": "WST-EW-0030",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157483481-slksdid",
+      "groupName": "Product Group 030",
+      "groupNum": 30,
+      "photosCount": 6,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0031",
+    "partNumber": "WST-EW-0031",
+    "sku": "WST-EW-0031",
+    "name": "Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "title": "Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "slug": "rust-henna-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0031",
+      "rust-henna-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0031",
+      "pg-031",
+      "product-group-031"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 17,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+        "caption": "Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
+        "caption": "Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg",
+        "caption": "Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315916370.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315918912.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0031",
+      "Part Number": "WST-EW-0031",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157487146-9pik776",
+      "groupName": "Product Group 031",
+      "groupNum": 31,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0032",
+    "partNumber": "WST-EW-0032",
+    "sku": "WST-EW-0032",
+    "name": "Sage Olive Sanganeri Royal Floral Angrakha Kurta Set",
+    "title": "Sage Olive Sanganeri Royal Floral Angrakha Kurta Set",
+    "slug": "sage-olive-sanganeri-royal-floral-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0032",
+      "sage-olive-sanganeri-royal-floral-angrakha-kurta-set",
+      "product-ew-0032",
+      "pg-032",
+      "product-group-032"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 18,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+        "caption": "Sage Olive Sanganeri Royal Floral Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
+        "caption": "Sage Olive Sanganeri Royal Floral Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg",
+        "caption": "Sage Olive Sanganeri Royal Floral Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789316011219.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789316013125.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Olive Sanganeri Royal Floral Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Olive Sanganeri Royal Floral Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sage Olive Sanganeri Royal Floral Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0032",
+      "Part Number": "WST-EW-0032",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157492578-jls3haa",
+      "groupName": "Product Group 032",
+      "groupNum": 32,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0033",
+    "partNumber": "WST-EW-0033",
+    "sku": "WST-EW-0033",
+    "name": "Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "sunset-crimson-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0033",
+      "sunset-crimson-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0033",
+      "pg-033",
+      "product-group-033"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 19,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+        "caption": "Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
+        "caption": "Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg",
+        "caption": "Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315999103.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789315996905.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0033",
+      "Part Number": "WST-EW-0033",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157496556-rc0fyni",
+      "groupName": "Product Group 033",
+      "groupNum": 33,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0034",
+    "partNumber": "WST-EW-0034",
+    "sku": "WST-EW-0034",
+    "name": "Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set",
+    "title": "Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set",
+    "slug": "opal-cream-embroidered-yoke-pleated-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0034",
+      "opal-cream-embroidered-yoke-pleated-angrakha-kurta-set",
+      "product-ew-0034",
+      "pg-034",
+      "product-group-034"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 20,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+        "caption": "Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
+        "caption": "Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
+        "caption": "Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg",
+        "caption": "Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789730871207.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789730869476.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0034",
+      "Part Number": "WST-EW-0034",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157501330-4onzrss",
+      "groupName": "Product Group 034",
+      "groupNum": 34,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0035",
+    "partNumber": "WST-EW-0035",
+    "sku": "WST-EW-0035",
+    "name": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "title": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "slug": "kashish-grey-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0035",
+      "kashish-grey-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0035",
+      "pg-035",
+      "product-group-035"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 21,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg",
+        "caption": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731054725.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731049088.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731043253.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157531761-vd209j4-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731072297.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731078930.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731069928.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731067722.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731082794.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157548583-k007mfc-2",
+        "name": "Variant B",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731163929.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731166087.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731168897.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731170766.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157557679-32ahyfi-3",
+        "name": "Variant C",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731129864.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731127454.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731125542.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731121104.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157568757-8bhx1do-4",
+        "name": "Variant D",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731106590.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731104600.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731100810.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731110660.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157588496-gwly8q1-5",
+        "name": "Variant E",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1789731092329.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731094544.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1789731096697.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0035",
+      "Part Number": "WST-EW-0035",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157526424-cxbfwox",
+      "groupName": "Product Group 035",
+      "groupNum": 35,
+      "photosCount": 24,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0036",
+    "partNumber": "WST-EW-0036",
+    "sku": "WST-EW-0036",
+    "name": "Coral Amber Angrakha Cutwork Angrakha Kurta Set",
+    "title": "Coral Amber Angrakha Cutwork Angrakha Kurta Set",
+    "slug": "coral-amber-angrakha-cutwork-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0036",
+      "coral-amber-angrakha-cutwork-angrakha-kurta-set",
+      "product-ew-0036",
+      "pg-036",
+      "product-group-036"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 22,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+        "caption": "Coral Amber Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
+        "caption": "Coral Amber Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg",
+        "caption": "Coral Amber Angrakha Cutwork Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1790246743453.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1790246747705.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Coral Amber Angrakha Cutwork Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Coral Amber Angrakha Cutwork Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Coral Amber Angrakha Cutwork Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0036",
+      "Part Number": "WST-EW-0036",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157607341-ywmyv5i",
+      "groupName": "Product Group 036",
+      "groupNum": 36,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0037",
+    "partNumber": "WST-EW-0037",
+    "sku": "WST-EW-0037",
+    "name": "Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "title": "Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "slug": "plum-regal-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0037",
+      "plum-regal-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0037",
+      "pg-037",
+      "product-group-037"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 23,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+        "caption": "Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg",
+        "caption": "Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg",
+        "caption": "Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157623607-qxlt1sz-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0037",
+      "Part Number": "WST-EW-0037",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157616131-c4z9gyv",
+      "groupName": "Product Group 037",
+      "groupNum": 37,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0038",
+    "partNumber": "WST-EW-0038",
+    "sku": "WST-EW-0038",
+    "name": "Lilac Bloom Straight Silhouette Angrakha Kurta Set",
+    "title": "Lilac Bloom Straight Silhouette Angrakha Kurta Set",
+    "slug": "lilac-bloom-straight-silhouette-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0038",
+      "lilac-bloom-straight-silhouette-angrakha-kurta-set",
+      "product-ew-0038",
+      "pg-038",
+      "product-group-038"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 24,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+    "image": "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
+      "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg",
+        "caption": "Lilac Bloom Straight Silhouette Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286506507.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286492178.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286486921.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157655091-rtu95cb-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286504576.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286522506.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286516317.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286510552.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286490625.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157672497-9khy3cp-2",
+        "name": "Variant B",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286496341.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286502054.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286498178.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286500082.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286518329.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157704806-emeyhcc-3",
+        "name": "Variant C",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/FB_IMG_1793286494052.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286512443.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286515148.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286519824.jpg.jpeg",
+          "/ethnic-wear-sets/FB_IMG_1793286488697.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Lilac Bloom Straight Silhouette Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Lilac Bloom Straight Silhouette Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Lilac Bloom Straight Silhouette Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0038",
+      "Part Number": "WST-EW-0038",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157652173-rs04sc5",
+      "groupName": "Product Group 038",
+      "groupNum": 38,
+      "photosCount": 20,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0039",
+    "partNumber": "WST-EW-0039",
+    "sku": "WST-EW-0039",
+    "name": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "mocha-bronze-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0039",
+      "mocha-bronze-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0039",
+      "pg-039",
+      "product-group-039"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 25,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20250731-WA0573.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA1515.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA1524.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157747265-f2qvvzh-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20250731-WA0574.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA0575.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA0576.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250731-WA0577.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0039",
+      "Part Number": "WST-EW-0039",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157739689-syj4d3c",
+      "groupName": "Product Group 039",
+      "groupNum": 39,
+      "photosCount": 8,
+      "hasCustomCover": true
+    }
+  },
+  {
+    "id": "ew-0040",
+    "partNumber": "WST-EW-0040",
+    "sku": "WST-EW-0040",
+    "name": "Teal Maharani Gota Patti Embroidered Angrakha Kurta Set",
+    "title": "Teal Maharani Gota Patti Embroidered Angrakha Kurta Set",
+    "slug": "teal-maharani-gota-patti-embroidered-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0040",
+      "teal-maharani-gota-patti-embroidered-angrakha-kurta-set",
+      "product-ew-0040",
+      "pg-040",
+      "product-group-040"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 26,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+        "caption": "Teal Maharani Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
+        "caption": "Teal Maharani Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
+        "caption": "Teal Maharani Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg",
+        "caption": "Teal Maharani Gota Patti Embroidered Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250823-WA0032.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250823-WA0031.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20250823-WA0040.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Teal Maharani Gota Patti Embroidered Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Teal Maharani Gota Patti Embroidered Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Teal Maharani Gota Patti Embroidered Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0040",
+      "Part Number": "WST-EW-0040",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157801397-bk0uz1w",
+      "groupName": "Product Group 040",
+      "groupNum": 40,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0041",
+    "partNumber": "WST-EW-0041",
+    "sku": "WST-EW-0041",
+    "name": "Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "title": "Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "slug": "haldi-yellow-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0041",
+      "haldi-yellow-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0041",
+      "pg-041",
+      "product-group-041"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 27,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+        "caption": "Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
+        "caption": "Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg",
+        "caption": "Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg",
+        "caption": "Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261007-WA0018.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261007-WA0020.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261007-WA0021.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0041",
+      "Part Number": "WST-EW-0041",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157807518-3enggmy",
+      "groupName": "Product Group 041",
+      "groupNum": 41,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0042",
+    "partNumber": "WST-EW-0042",
+    "sku": "WST-EW-0042",
+    "name": "Rani Pink Dabu Block Printed Angrakha Kurta Set",
+    "title": "Rani Pink Dabu Block Printed Angrakha Kurta Set",
+    "slug": "rani-pink-dabu-block-printed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0042",
+      "rani-pink-dabu-block-printed-angrakha-kurta-set",
+      "product-ew-0042",
+      "pg-042",
+      "product-group-042"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 28,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+        "caption": "Rani Pink Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
+        "caption": "Rani Pink Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg",
+        "caption": "Rani Pink Dabu Block Printed Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261013-WA0068.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261013-WA0070.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rani Pink Dabu Block Printed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rani Pink Dabu Block Printed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rani Pink Dabu Block Printed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0042",
+      "Part Number": "WST-EW-0042",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157811566-z8hajm8",
+      "groupName": "Product Group 042",
+      "groupNum": 42,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0043",
+    "partNumber": "WST-EW-0043",
+    "sku": "WST-EW-0043",
+    "name": "Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "title": "Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "slug": "royal-peacock-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0043",
+      "royal-peacock-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0043",
+      "pg-043",
+      "product-group-043"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 29,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+        "caption": "Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
+        "caption": "Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
+        "caption": "Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg",
+        "caption": "Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0001.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0002.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0003.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0043",
+      "Part Number": "WST-EW-0043",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157816517-wt2wzxr",
+      "groupName": "Product Group 043",
+      "groupNum": 43,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0044",
+    "partNumber": "WST-EW-0044",
+    "sku": "WST-EW-0044",
+    "name": "Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set",
+    "title": "Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set",
+    "slug": "emerald-green-chanderi-dupatta-paired-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0044",
+      "emerald-green-chanderi-dupatta-paired-angrakha-kurta-set",
+      "product-ew-0044",
+      "pg-044",
+      "product-group-044"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 30,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+        "caption": "Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
+        "caption": "Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
+        "caption": "Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg",
+        "caption": "Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0243.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0246.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0249.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0044",
+      "Part Number": "WST-EW-0044",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157823422-0fsdvgr",
+      "groupName": "Product Group 044",
+      "groupNum": 44,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0045",
+    "partNumber": "WST-EW-0045",
+    "sku": "WST-EW-0045",
+    "name": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "title": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "slug": "wine-maroon-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0045",
+      "wine-maroon-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0045",
+      "pg-045",
+      "product-group-045"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 31,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg",
+        "caption": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0253.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0261.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157839729-znb4r44-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261014-WA0260.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0258.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0252.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157850825-vcqc3lr-2",
+        "name": "Variant B",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261014-WA0256.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0259.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261014-WA0255.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0045",
+      "Part Number": "WST-EW-0045",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157834383-zvz1xu5",
+      "groupName": "Product Group 045",
+      "groupNum": 45,
+      "photosCount": 9,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0046",
+    "partNumber": "WST-EW-0046",
+    "sku": "WST-EW-0046",
+    "name": "Peach Blossom Anarkali Flared Angrakha Kurta Set",
+    "title": "Peach Blossom Anarkali Flared Angrakha Kurta Set",
+    "slug": "peach-blossom-anarkali-flared-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0046",
+      "peach-blossom-anarkali-flared-angrakha-kurta-set",
+      "product-ew-0046",
+      "pg-046",
+      "product-group-046"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 32,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+        "caption": "Peach Blossom Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
+        "caption": "Peach Blossom Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
+        "caption": "Peach Blossom Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg",
+        "caption": "Peach Blossom Anarkali Flared Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Peach Blossom Anarkali Flared Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Peach Blossom Anarkali Flared Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Peach Blossom Anarkali Flared Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0046",
+      "Part Number": "WST-EW-0046",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157863449-mcetzn2",
+      "groupName": "Product Group 046",
+      "groupNum": 46,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0047",
+    "partNumber": "WST-EW-0047",
+    "sku": "WST-EW-0047",
+    "name": "Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "title": "Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "slug": "ivory-zari-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0047",
+      "ivory-zari-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0047",
+      "pg-047",
+      "product-group-047"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 33,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+        "caption": "Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
+        "caption": "Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
+        "caption": "Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg",
+        "caption": "Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0074.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0075.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0077.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0047",
+      "Part Number": "WST-EW-0047",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157868484-i6hjh8m",
+      "groupName": "Product Group 047",
+      "groupNum": 47,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0048",
+    "partNumber": "WST-EW-0048",
+    "sku": "WST-EW-0048",
+    "name": "Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set",
+    "title": "Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set",
+    "slug": "turquoise-jewel-gota-lace-detailed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0048",
+      "turquoise-jewel-gota-lace-detailed-angrakha-kurta-set",
+      "product-ew-0048",
+      "pg-048",
+      "product-group-048"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 34,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+        "caption": "Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
+        "caption": "Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
+        "caption": "Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg",
+        "caption": "Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0078.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0079.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0081.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0048",
+      "Part Number": "WST-EW-0048",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157873149-33dpek8",
+      "groupName": "Product Group 048",
+      "groupNum": 48,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0049",
+    "partNumber": "WST-EW-0049",
+    "sku": "WST-EW-0049",
+    "name": "Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "title": "Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "slug": "dusty-rose-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0049",
+      "dusty-rose-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0049",
+      "pg-049",
+      "product-group-049"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+        "caption": "Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
+        "caption": "Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg",
+        "caption": "Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg",
+        "caption": "Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0105.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0104.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261016-WA0107.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0049",
+      "Part Number": "WST-EW-0049",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157880468-ll1gvem",
+      "groupName": "Product Group 049",
+      "groupNum": 49,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0050",
+    "partNumber": "WST-EW-0050",
+    "sku": "WST-EW-0050",
+    "name": "Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set",
+    "title": "Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set",
+    "slug": "midnight-sapphire-hand-zardozi-accented-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0050",
+      "midnight-sapphire-hand-zardozi-accented-angrakha-kurta-set",
+      "product-ew-0050",
+      "pg-050",
+      "product-group-050"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 36,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+        "caption": "Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
+        "caption": "Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
+        "caption": "Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg",
+        "caption": "Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0097.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0098.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0100.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0050",
+      "Part Number": "WST-EW-0050",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157885763-hs509w2",
+      "groupName": "Product Group 050",
+      "groupNum": 50,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0051",
+    "partNumber": "WST-EW-0051",
+    "sku": "WST-EW-0051",
+    "name": "Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "title": "Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "slug": "rust-henna-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0051",
+      "rust-henna-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0051",
+      "pg-051",
+      "product-group-051"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+        "caption": "Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
+        "caption": "Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg",
+        "caption": "Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg",
+        "caption": "Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0101.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0102.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261017-WA0103.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0051",
+      "Part Number": "WST-EW-0051",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157891915-mt6nwcb",
+      "groupName": "Product Group 051",
+      "groupNum": 51,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0052",
+    "partNumber": "WST-EW-0052",
+    "sku": "WST-EW-0052",
+    "name": "Sage Olive Dabu Block Printed Angrakha Kurta Set",
+    "title": "Sage Olive Dabu Block Printed Angrakha Kurta Set",
+    "slug": "sage-olive-dabu-block-printed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0052",
+      "sage-olive-dabu-block-printed-angrakha-kurta-set",
+      "product-ew-0052",
+      "pg-052",
+      "product-group-052"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 13,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg",
+        "caption": "Sage Olive Dabu Block Printed Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-main",
+        "name": "Main Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA2002.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5604.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8548.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157959404-fz3puju-1",
+        "name": "Variant A",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA7268.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5864.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA0671.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA3307.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA9972.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7324.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4258.jpg.jpeg"
+        ]
+      },
+      {
+        "id": "var-1795157983638-bpufrns-2",
+        "name": "Variant B",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261102-WA0834.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA3558.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA9432.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8626.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7009.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4229.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Olive Dabu Block Printed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Olive Dabu Block Printed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sage Olive Dabu Block Printed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0052",
+      "Part Number": "WST-EW-0052",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795157952834-bznf33z",
+      "groupName": "Product Group 052",
+      "groupNum": 52,
+      "photosCount": 22,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0053",
+    "partNumber": "WST-EW-0053",
+    "sku": "WST-EW-0053",
+    "name": "Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "title": "Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "slug": "sunset-crimson-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0053",
+      "sunset-crimson-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0053",
+      "pg-053",
+      "product-group-053"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 14,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+    "image": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+        "caption": "Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+        "caption": "Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+        "caption": "Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-22-77_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-15-24_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0053",
+      "Part Number": "WST-EW-0053",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158039483-kyxh6nc",
+      "groupName": "Product Group 053",
+      "groupNum": 53,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0054",
+    "partNumber": "WST-EW-0054",
+    "sku": "WST-EW-0054",
+    "name": "Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set",
+    "title": "Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set",
+    "slug": "opal-cream-chanderi-dupatta-paired-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0054",
+      "opal-cream-chanderi-dupatta-paired-angrakha-kurta-set",
+      "product-ew-0054",
+      "pg-054",
+      "product-group-054"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 15,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+    "image": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+        "caption": "Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+        "caption": "Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+        "caption": "Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-31-00_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+          "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-33-34_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0054",
+      "Part Number": "WST-EW-0054",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158045674-ufqpvij",
+      "groupName": "Product Group 054",
+      "groupNum": 54,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0055",
+    "partNumber": "WST-EW-0055",
+    "sku": "WST-EW-0055",
+    "name": "Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "title": "Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "slug": "kashish-grey-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0055",
+      "kashish-grey-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0055",
+      "pg-055",
+      "product-group-055"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 16,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+        "caption": "Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
+        "caption": "Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg",
+        "caption": "Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0148.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0143.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0055",
+      "Part Number": "WST-EW-0055",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158076843-sc6uhtd",
+      "groupName": "Product Group 055",
+      "groupNum": 55,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0056",
+    "partNumber": "WST-EW-0056",
+    "sku": "WST-EW-0056",
+    "name": "Coral Amber Anarkali Flared Angrakha Kurta Set",
+    "title": "Coral Amber Anarkali Flared Angrakha Kurta Set",
+    "slug": "coral-amber-anarkali-flared-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0056",
+      "coral-amber-anarkali-flared-angrakha-kurta-set",
+      "product-ew-0056",
+      "pg-056",
+      "product-group-056"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 17,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+        "caption": "Coral Amber Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg",
+        "caption": "Coral Amber Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
+        "caption": "Coral Amber Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg",
+        "caption": "Coral Amber Anarkali Flared Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0137.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0146.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0139.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Coral Amber Anarkali Flared Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Coral Amber Anarkali Flared Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Coral Amber Anarkali Flared Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0056",
+      "Part Number": "WST-EW-0056",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158085061-w5qebuq",
+      "groupName": "Product Group 056",
+      "groupNum": 56,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0057",
+    "partNumber": "WST-EW-0057",
+    "sku": "WST-EW-0057",
+    "name": "Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "title": "Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "slug": "plum-regal-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0057",
+      "plum-regal-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0057",
+      "pg-057",
+      "product-group-057"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 18,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+        "caption": "Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
+        "caption": "Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg",
+        "caption": "Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0138.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0147.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0057",
+      "Part Number": "WST-EW-0057",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158091254-diupf1a",
+      "groupName": "Product Group 057",
+      "groupNum": 57,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0058",
+    "partNumber": "WST-EW-0058",
+    "sku": "WST-EW-0058",
+    "name": "Lilac Bloom Gota Lace Detailed Angrakha Kurta Set",
+    "title": "Lilac Bloom Gota Lace Detailed Angrakha Kurta Set",
+    "slug": "lilac-bloom-gota-lace-detailed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0058",
+      "lilac-bloom-gota-lace-detailed-angrakha-kurta-set",
+      "product-ew-0058",
+      "pg-058",
+      "product-group-058"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 19,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+        "caption": "Lilac Bloom Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
+        "caption": "Lilac Bloom Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg",
+        "caption": "Lilac Bloom Gota Lace Detailed Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0149.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0055.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Lilac Bloom Gota Lace Detailed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Lilac Bloom Gota Lace Detailed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Lilac Bloom Gota Lace Detailed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0058",
+      "Part Number": "WST-EW-0058",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158095893-sd1v3at",
+      "groupName": "Product Group 058",
+      "groupNum": 58,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0059",
+    "partNumber": "WST-EW-0059",
+    "sku": "WST-EW-0059",
+    "name": "Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "title": "Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "slug": "mocha-bronze-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0059",
+      "mocha-bronze-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0059",
+      "pg-059",
+      "product-group-059"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 20,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg",
+        "caption": "Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0140.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0165.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0059",
+      "Part Number": "WST-EW-0059",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158101940-ibkr1og",
+      "groupName": "Product Group 059",
+      "groupNum": 59,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0060",
+    "partNumber": "WST-EW-0060",
+    "sku": "WST-EW-0060",
+    "name": "Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set",
+    "title": "Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set",
+    "slug": "teal-maharani-hand-zardozi-accented-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0060",
+      "teal-maharani-hand-zardozi-accented-angrakha-kurta-set",
+      "product-ew-0060",
+      "pg-060",
+      "product-group-060"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 21,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+        "caption": "Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
+        "caption": "Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg",
+        "caption": "Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0166.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0167.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0060",
+      "Part Number": "WST-EW-0060",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158110900-suhiul2",
+      "groupName": "Product Group 060",
+      "groupNum": 60,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0061",
+    "partNumber": "WST-EW-0061",
+    "sku": "WST-EW-0061",
+    "name": "Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "haldi-yellow-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0061",
+      "haldi-yellow-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0061",
+      "pg-061",
+      "product-group-061"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 22,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+        "caption": "Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
+        "caption": "Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg",
+        "caption": "Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0162.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0173.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0061",
+      "Part Number": "WST-EW-0061",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158118099-x0i5213",
+      "groupName": "Product Group 061",
+      "groupNum": 61,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0062",
+    "partNumber": "WST-EW-0062",
+    "sku": "WST-EW-0062",
+    "name": "Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set",
+    "title": "Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set",
+    "slug": "rani-pink-embroidered-yoke-pleated-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0062",
+      "rani-pink-embroidered-yoke-pleated-angrakha-kurta-set",
+      "product-ew-0062",
+      "pg-062",
+      "product-group-062"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 23,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+        "caption": "Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
+        "caption": "Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg",
+        "caption": "Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0172.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0168.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0062",
+      "Part Number": "WST-EW-0062",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.587Z",
+    "updatedAt": "2026-11-20T10:16:21.587Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158137098-oormplb",
+      "groupName": "Product Group 062",
+      "groupNum": 62,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0063",
+    "partNumber": "WST-EW-0063",
+    "sku": "WST-EW-0063",
+    "name": "Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "title": "Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "slug": "royal-peacock-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0063",
+      "royal-peacock-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0063",
+      "pg-063",
+      "product-group-063"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 24,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+        "caption": "Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
+        "caption": "Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg",
+        "caption": "Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0161.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0174.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0063",
+      "Part Number": "WST-EW-0063",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158142692-vzd091i",
+      "groupName": "Product Group 063",
+      "groupNum": 63,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0064",
+    "partNumber": "WST-EW-0064",
+    "sku": "WST-EW-0064",
+    "name": "Emerald Green Angrakha Cutwork Angrakha Kurta Set",
+    "title": "Emerald Green Angrakha Cutwork Angrakha Kurta Set",
+    "slug": "emerald-green-angrakha-cutwork-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0064",
+      "emerald-green-angrakha-cutwork-angrakha-kurta-set",
+      "product-ew-0064",
+      "pg-064",
+      "product-group-064"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 25,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+        "caption": "Emerald Green Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
+        "caption": "Emerald Green Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg",
+        "caption": "Emerald Green Angrakha Cutwork Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0169.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Emerald Green Angrakha Cutwork Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Emerald Green Angrakha Cutwork Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Emerald Green Angrakha Cutwork Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0064",
+      "Part Number": "WST-EW-0064",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158175762-urpz3aa",
+      "groupName": "Product Group 064",
+      "groupNum": 64,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0065",
+    "partNumber": "WST-EW-0065",
+    "sku": "WST-EW-0065",
+    "name": "Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "title": "Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "slug": "wine-maroon-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0065",
+      "wine-maroon-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0065",
+      "pg-065",
+      "product-group-065"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 26,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+        "caption": "Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg",
+        "caption": "Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0164.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0065",
+      "Part Number": "WST-EW-0065",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158181923-6ki8618",
+      "groupName": "Product Group 065",
+      "groupNum": 65,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0066",
+    "partNumber": "WST-EW-0066",
+    "sku": "WST-EW-0066",
+    "name": "Peach Blossom Straight Silhouette Angrakha Kurta Set",
+    "title": "Peach Blossom Straight Silhouette Angrakha Kurta Set",
+    "slug": "peach-blossom-straight-silhouette-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0066",
+      "peach-blossom-straight-silhouette-angrakha-kurta-set",
+      "product-ew-0066",
+      "pg-066",
+      "product-group-066"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 27,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+        "caption": "Peach Blossom Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg",
+        "caption": "Peach Blossom Straight Silhouette Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0175.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Peach Blossom Straight Silhouette Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Peach Blossom Straight Silhouette Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Peach Blossom Straight Silhouette Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0066",
+      "Part Number": "WST-EW-0066",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158186297-uirngq2",
+      "groupName": "Product Group 066",
+      "groupNum": 66,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0067",
+    "partNumber": "WST-EW-0067",
+    "sku": "WST-EW-0067",
+    "name": "Ivory Zari Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Ivory Zari Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "ivory-zari-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0067",
+      "ivory-zari-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0067",
+      "pg-067",
+      "product-group-067"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 28,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
+        "caption": "Ivory Zari Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Ivory Zari Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Ivory Zari Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Ivory Zari Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0067",
+      "Part Number": "WST-EW-0067",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158189026-fkkkdyp",
+      "groupName": "Product Group 067",
+      "groupNum": 67,
+      "photosCount": 1,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0068",
+    "partNumber": "WST-EW-0068",
+    "sku": "WST-EW-0068",
+    "name": "Turquoise Jewel Gota Patti Embroidered Angrakha Kurta Set",
+    "title": "Turquoise Jewel Gota Patti Embroidered Angrakha Kurta Set",
+    "slug": "turquoise-jewel-gota-patti-embroidered-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0068",
+      "turquoise-jewel-gota-patti-embroidered-angrakha-kurta-set",
+      "product-ew-0068",
+      "pg-068",
+      "product-group-068"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 29,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
+        "caption": "Turquoise Jewel Gota Patti Embroidered Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Turquoise Jewel Gota Patti Embroidered Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Turquoise Jewel Gota Patti Embroidered Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Turquoise Jewel Gota Patti Embroidered Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0068",
+      "Part Number": "WST-EW-0068",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158192074-nipkvye",
+      "groupName": "Product Group 068",
+      "groupNum": 68,
+      "photosCount": 1,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0069",
+    "partNumber": "WST-EW-0069",
+    "sku": "WST-EW-0069",
+    "name": "Dusty Rose Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "title": "Dusty Rose Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "slug": "dusty-rose-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0069",
+      "dusty-rose-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0069",
+      "pg-069",
+      "product-group-069"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 30,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
+        "caption": "Dusty Rose Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Dusty Rose Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0069",
+      "Part Number": "WST-EW-0069",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158194467-6axe32n",
+      "groupName": "Product Group 069",
+      "groupNum": 69,
+      "photosCount": 1,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0070",
+    "partNumber": "WST-EW-0070",
+    "sku": "WST-EW-0070",
+    "name": "Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set",
+    "title": "Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set",
+    "slug": "midnight-sapphire-sanganeri-royal-floral-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0070",
+      "midnight-sapphire-sanganeri-royal-floral-angrakha-kurta-set",
+      "product-ew-0070",
+      "pg-070",
+      "product-group-070"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 31,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+        "caption": "Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg",
+        "caption": "Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0070",
+      "Part Number": "WST-EW-0070",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158200197-njjcln0",
+      "groupName": "Product Group 070",
+      "groupNum": 70,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0071",
+    "partNumber": "WST-EW-0071",
+    "sku": "WST-EW-0071",
+    "name": "Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "rust-henna-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0071",
+      "rust-henna-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0071",
+      "pg-071",
+      "product-group-071"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 32,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+        "caption": "Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg",
+        "caption": "Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg",
+        "caption": "Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg",
+        "caption": "Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0398.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0071",
+      "Part Number": "WST-EW-0071",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158234787-dzukoa3",
+      "groupName": "Product Group 071",
+      "groupNum": 71,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0072",
+    "partNumber": "WST-EW-0072",
+    "sku": "WST-EW-0072",
+    "name": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set",
+    "title": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set",
+    "slug": "sage-olive-embroidered-yoke-pleated-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0072",
+      "sage-olive-embroidered-yoke-pleated-angrakha-kurta-set",
+      "product-ew-0072",
+      "pg-072",
+      "product-group-072"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 33,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+        "caption": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
+        "caption": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg",
+        "caption": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg",
+        "caption": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
+        "caption": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg",
+        "caption": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg",
+        "caption": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0424.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0418.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0412.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0411.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0406.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0395.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0072",
+      "Part Number": "WST-EW-0072",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158261428-w6ugevt",
+      "groupName": "Product Group 072",
+      "groupNum": 72,
+      "photosCount": 7,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0073",
+    "partNumber": "WST-EW-0073",
+    "sku": "WST-EW-0073",
+    "name": "Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "title": "Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "slug": "sunset-crimson-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0073",
+      "sunset-crimson-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0073",
+      "pg-073",
+      "product-group-073"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 34,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+        "caption": "Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
+        "caption": "Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
+        "caption": "Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg",
+        "caption": "Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0394.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0405.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0409.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0073",
+      "Part Number": "WST-EW-0073",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158273792-efgedm1",
+      "groupName": "Product Group 073",
+      "groupNum": 73,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0074",
+    "partNumber": "WST-EW-0074",
+    "sku": "WST-EW-0074",
+    "name": "Opal Cream Angrakha Cutwork Angrakha Kurta Set",
+    "title": "Opal Cream Angrakha Cutwork Angrakha Kurta Set",
+    "slug": "opal-cream-angrakha-cutwork-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0074",
+      "opal-cream-angrakha-cutwork-angrakha-kurta-set",
+      "product-ew-0074",
+      "pg-074",
+      "product-group-074"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+        "caption": "Opal Cream Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
+        "caption": "Opal Cream Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg",
+        "caption": "Opal Cream Angrakha Cutwork Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0402.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0399.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Opal Cream Angrakha Cutwork Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Opal Cream Angrakha Cutwork Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Opal Cream Angrakha Cutwork Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0074",
+      "Part Number": "WST-EW-0074",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158282778-ze9urpq",
+      "groupName": "Product Group 074",
+      "groupNum": 74,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0075",
+    "partNumber": "WST-EW-0075",
+    "sku": "WST-EW-0075",
+    "name": "Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "title": "Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+    "slug": "kashish-grey-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0075",
+      "kashish-grey-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0075",
+      "pg-075",
+      "product-group-075"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 36,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+        "caption": "Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
+        "caption": "Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg",
+        "caption": "Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0407.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0429.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0075",
+      "Part Number": "WST-EW-0075",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158299275-7i8kxos",
+      "groupName": "Product Group 075",
+      "groupNum": 75,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0076",
+    "partNumber": "WST-EW-0076",
+    "sku": "WST-EW-0076",
+    "name": "Coral Amber Straight Silhouette Angrakha Kurta Set",
+    "title": "Coral Amber Straight Silhouette Angrakha Kurta Set",
+    "slug": "coral-amber-straight-silhouette-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0076",
+      "coral-amber-straight-silhouette-angrakha-kurta-set",
+      "product-ew-0076",
+      "pg-076",
+      "product-group-076"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+        "caption": "Coral Amber Straight Silhouette Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg",
+        "caption": "Coral Amber Straight Silhouette Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0397.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Coral Amber Straight Silhouette Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Coral Amber Straight Silhouette Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Coral Amber Straight Silhouette Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0076",
+      "Part Number": "WST-EW-0076",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158314286-utl9uyt",
+      "groupName": "Product Group 076",
+      "groupNum": 76,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0077",
+    "partNumber": "WST-EW-0077",
+    "sku": "WST-EW-0077",
+    "name": "Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "title": "Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+    "slug": "plum-regal-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0077",
+      "plum-regal-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0077",
+      "pg-077",
+      "product-group-077"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 13,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+        "caption": "Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg",
+        "caption": "Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
+        "caption": "Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg",
+        "caption": "Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0419.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0423.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0434.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0077",
+      "Part Number": "WST-EW-0077",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158331042-0gmjia5",
+      "groupName": "Product Group 077",
+      "groupNum": 77,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0078",
+    "partNumber": "WST-EW-0078",
+    "sku": "WST-EW-0078",
+    "name": "Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set",
+    "title": "Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set",
+    "slug": "lilac-bloom-gota-patti-embroidered-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0078",
+      "lilac-bloom-gota-patti-embroidered-angrakha-kurta-set",
+      "product-ew-0078",
+      "pg-078",
+      "product-group-078"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 14,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+        "caption": "Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
+        "caption": "Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg",
+        "caption": "Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0420.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0408.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0078",
+      "Part Number": "WST-EW-0078",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158351916-hp3l4bg",
+      "groupName": "Product Group 078",
+      "groupNum": 78,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0079",
+    "partNumber": "WST-EW-0079",
+    "sku": "WST-EW-0079",
+    "name": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "title": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+    "slug": "mocha-bronze-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0079",
+      "mocha-bronze-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0079",
+      "pg-079",
+      "product-group-079"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 15,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+        "caption": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
+        "caption": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
+        "caption": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
+        "caption": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg",
+        "caption": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0414.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0403.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0432.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0079",
+      "Part Number": "WST-EW-0079",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158360975-i42q264",
+      "groupName": "Product Group 079",
+      "groupNum": 79,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0080",
+    "partNumber": "WST-EW-0080",
+    "sku": "WST-EW-0080",
+    "name": "Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set",
+    "title": "Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set",
+    "slug": "teal-maharani-sanganeri-royal-floral-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0080",
+      "teal-maharani-sanganeri-royal-floral-angrakha-kurta-set",
+      "product-ew-0080",
+      "pg-080",
+      "product-group-080"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 16,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+        "caption": "Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg",
+        "caption": "Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg",
+        "caption": "Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0425.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261019-WA0413.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0080",
+      "Part Number": "WST-EW-0080",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158371253-qw0njnz",
+      "groupName": "Product Group 080",
+      "groupNum": 80,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0081",
+    "partNumber": "WST-EW-0081",
+    "sku": "WST-EW-0081",
+    "name": "Haldi Yellow Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "title": "Haldi Yellow Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "slug": "haldi-yellow-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0081",
+      "haldi-yellow-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0081",
+      "pg-081",
+      "product-group-081"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 17,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
+        "caption": "Haldi Yellow Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Haldi Yellow Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Haldi Yellow Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Haldi Yellow Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0081",
+      "Part Number": "WST-EW-0081",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158373838-r4s2f0y",
+      "groupName": "Product Group 081",
+      "groupNum": 81,
+      "photosCount": 1,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0082",
+    "partNumber": "WST-EW-0082",
+    "sku": "WST-EW-0082",
+    "name": "Rani Pink Chanderi Dupatta Paired Angrakha Kurta Set",
+    "title": "Rani Pink Chanderi Dupatta Paired Angrakha Kurta Set",
+    "slug": "rani-pink-chanderi-dupatta-paired-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0082",
+      "rani-pink-chanderi-dupatta-paired-angrakha-kurta-set",
+      "product-ew-0082",
+      "pg-082",
+      "product-group-082"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 18,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
+        "caption": "Rani Pink Chanderi Dupatta Paired Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rani Pink Chanderi Dupatta Paired Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rani Pink Chanderi Dupatta Paired Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rani Pink Chanderi Dupatta Paired Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0082",
+      "Part Number": "WST-EW-0082",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158375928-ojk0ncv",
+      "groupName": "Product Group 082",
+      "groupNum": 82,
+      "photosCount": 1,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0083",
+    "partNumber": "WST-EW-0083",
+    "sku": "WST-EW-0083",
+    "name": "Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "title": "Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "slug": "royal-peacock-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0083",
+      "royal-peacock-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0083",
+      "pg-083",
+      "product-group-083"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 19,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+        "caption": "Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
+        "caption": "Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
+        "caption": "Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg",
+        "caption": "Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0054.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0055.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0057.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0083",
+      "Part Number": "WST-EW-0083",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158387127-9pq31vs",
+      "groupName": "Product Group 083",
+      "groupNum": 83,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0084",
+    "partNumber": "WST-EW-0084",
+    "sku": "WST-EW-0084",
+    "name": "Emerald Green Anarkali Flared Angrakha Kurta Set",
+    "title": "Emerald Green Anarkali Flared Angrakha Kurta Set",
+    "slug": "emerald-green-anarkali-flared-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0084",
+      "emerald-green-anarkali-flared-angrakha-kurta-set",
+      "product-ew-0084",
+      "pg-084",
+      "product-group-084"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 20,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+        "caption": "Emerald Green Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
+        "caption": "Emerald Green Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
+        "caption": "Emerald Green Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg",
+        "caption": "Emerald Green Anarkali Flared Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0071.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0072.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0073.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Emerald Green Anarkali Flared Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Emerald Green Anarkali Flared Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Emerald Green Anarkali Flared Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0084",
+      "Part Number": "WST-EW-0084",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158394358-91tgamr",
+      "groupName": "Product Group 084",
+      "groupNum": 84,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0085",
+    "partNumber": "WST-EW-0085",
+    "sku": "WST-EW-0085",
+    "name": "Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "title": "Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "slug": "wine-maroon-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0085",
+      "wine-maroon-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0085",
+      "pg-085",
+      "product-group-085"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 21,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+        "caption": "Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
+        "caption": "Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
+        "caption": "Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg",
+        "caption": "Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0085",
+      "Part Number": "WST-EW-0085",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158402139-8cdc3d1",
+      "groupName": "Product Group 085",
+      "groupNum": 85,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0086",
+    "partNumber": "WST-EW-0086",
+    "sku": "WST-EW-0086",
+    "name": "Peach Blossom Gota Lace Detailed Angrakha Kurta Set",
+    "title": "Peach Blossom Gota Lace Detailed Angrakha Kurta Set",
+    "slug": "peach-blossom-gota-lace-detailed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0086",
+      "peach-blossom-gota-lace-detailed-angrakha-kurta-set",
+      "product-ew-0086",
+      "pg-086",
+      "product-group-086"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 22,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+        "caption": "Peach Blossom Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
+        "caption": "Peach Blossom Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
+        "caption": "Peach Blossom Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg",
+        "caption": "Peach Blossom Gota Lace Detailed Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Peach Blossom Gota Lace Detailed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Peach Blossom Gota Lace Detailed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Peach Blossom Gota Lace Detailed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0086",
+      "Part Number": "WST-EW-0086",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158407875-64b7436",
+      "groupName": "Product Group 086",
+      "groupNum": 86,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0087",
+    "partNumber": "WST-EW-0087",
+    "sku": "WST-EW-0087",
+    "name": "Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "title": "Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "slug": "ivory-zari-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0087",
+      "ivory-zari-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0087",
+      "pg-087",
+      "product-group-087"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 23,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+        "caption": "Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
+        "caption": "Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg",
+        "caption": "Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg",
+        "caption": "Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0053.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0055.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0061.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0087",
+      "Part Number": "WST-EW-0087",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158415327-4a4s8ht",
+      "groupName": "Product Group 087",
+      "groupNum": 87,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0088",
+    "partNumber": "WST-EW-0088",
+    "sku": "WST-EW-0088",
+    "name": "Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set",
+    "title": "Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set",
+    "slug": "turquoise-jewel-hand-zardozi-accented-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0088",
+      "turquoise-jewel-hand-zardozi-accented-angrakha-kurta-set",
+      "product-ew-0088",
+      "pg-088",
+      "product-group-088"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 24,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+        "caption": "Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg",
+        "caption": "Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
+        "caption": "Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg",
+        "caption": "Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0057.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0059.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0060.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0088",
+      "Part Number": "WST-EW-0088",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158421401-caabi4o",
+      "groupName": "Product Group 088",
+      "groupNum": 88,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0089",
+    "partNumber": "WST-EW-0089",
+    "sku": "WST-EW-0089",
+    "name": "Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "title": "Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "slug": "dusty-rose-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0089",
+      "dusty-rose-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0089",
+      "pg-089",
+      "product-group-089"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 25,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+        "caption": "Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg",
+        "caption": "Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0073.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0089",
+      "Part Number": "WST-EW-0089",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158428927-gpa00gi",
+      "groupName": "Product Group 089",
+      "groupNum": 89,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0090",
+    "partNumber": "WST-EW-0090",
+    "sku": "WST-EW-0090",
+    "name": "Midnight Sapphire Dabu Block Printed Angrakha Kurta Set",
+    "title": "Midnight Sapphire Dabu Block Printed Angrakha Kurta Set",
+    "slug": "midnight-sapphire-dabu-block-printed-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0090",
+      "midnight-sapphire-dabu-block-printed-angrakha-kurta-set",
+      "product-ew-0090",
+      "pg-090",
+      "product-group-090"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 26,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+        "caption": "Midnight Sapphire Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg",
+        "caption": "Midnight Sapphire Dabu Block Printed Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0076.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Midnight Sapphire Dabu Block Printed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Midnight Sapphire Dabu Block Printed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Midnight Sapphire Dabu Block Printed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0090",
+      "Part Number": "WST-EW-0090",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158432350-4soyxny",
+      "groupName": "Product Group 090",
+      "groupNum": 90,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0091",
+    "partNumber": "WST-EW-0091",
+    "sku": "WST-EW-0091",
+    "name": "Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "title": "Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+    "slug": "rust-henna-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0091",
+      "rust-henna-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0091",
+      "pg-091",
+      "product-group-091"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 27,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+        "caption": "Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
+        "caption": "Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg",
+        "caption": "Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
+          "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0078.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0077.jpg.jpeg"
+        ]
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0091",
+      "Part Number": "WST-EW-0091",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158437567-4n0qbq9",
+      "groupName": "Product Group 091",
+      "groupNum": 91,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0092",
+    "partNumber": "WST-EW-0092",
+    "sku": "WST-EW-0092",
+    "name": "Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set",
+    "title": "Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set",
+    "slug": "sage-olive-chanderi-dupatta-paired-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0092",
+      "sage-olive-chanderi-dupatta-paired-angrakha-kurta-set",
+      "product-ew-0092",
+      "pg-092",
+      "product-group-092"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 28,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
+    "images": [
+      "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0081.jpg.jpeg"
+    ],
+    "gallery": [
+      "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0081.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
+        "caption": "Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0081.jpg.jpeg",
+        "caption": "Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set"
+      }
+    ],
+    "colorVariants": [
+      {
+        "id": "var-1",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
+        "images": [
           "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0081.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Sand Ochre Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v8",
-    "title": "Artisan Earth Chanderi Anarkali & Dupatta Set",
-    "slug": "artisan-earth-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v8",
-      "artisan-earth-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -10455,371 +11266,110 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315523527.jpg%20(1).jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315523527.jpg%20(1).jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315523527.jpg%20(1).jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315523527.jpg%20(1).jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#8B7355",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315523527.jpg%20(1).jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Artisan Earth Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Artisan Earth Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0011-V8",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0092",
+      "Part Number": "WST-EW-0092",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158440945-h4ny6mt",
+      "groupName": "Product Group 092",
+      "groupNum": 92,
+      "photosCount": 2,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0011-v9",
-    "title": "Scarlet Red Chanderi Anarkali & Dupatta Set",
-    "slug": "scarlet-red-chanderi-anarkali-dupatta-set",
+    "id": "ew-0093",
+    "partNumber": "WST-EW-0093",
+    "sku": "WST-EW-0093",
+    "name": "Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "title": "Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+    "slug": "sunset-crimson-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
     "aliasSlugs": [
-      "ew-0011-v9",
-      "scarlet-red-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-9"
+      "ew-0093",
+      "sunset-crimson-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0093",
+      "pg-093",
+      "product-group-093"
     ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5906.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5906.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315828990.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA5906.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Scarlet Red Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V9",
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.87,
+    "reviewCount": 29,
     "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v10",
-    "title": "Sunset Tangerine Chanderi Anarkali & Dupatta Set",
-    "slug": "sunset-tangerine-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v10",
-      "sunset-tangerine-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1790246749907.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v11",
-    "title": "Lavender Violet Chanderi Anarkali & Dupatta Set",
-    "slug": "lavender-violet-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v11",
-      "lavender-violet-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#7C3AED",
-        "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA2163.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA2166.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Lavender Violet Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Lavender Violet Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v12",
-    "title": "Charcoal Slate Chanderi Anarkali & Dupatta Set",
-    "slug": "charcoal-slate-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v12",
-      "charcoal-slate-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#334155",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0415.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0076.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Charcoal Slate Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Charcoal Slate Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V12",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v13",
-    "title": "Pebble Grey Chanderi Anarkali & Dupatta Set",
-    "slug": "pebble-grey-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v13",
-      "pebble-grey-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-13"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
       "/ethnic-wear-sets/IMG-20261029-WA0082.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
       "/ethnic-wear-sets/IMG-20261029-WA0082.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+        "caption": "Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
+        "caption": "Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261029-WA0082.jpg.jpeg",
+        "caption": "Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0416.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0074.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0075.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261029-WA0082.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Pebble Grey Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V13",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v14",
-    "title": "Ivory Cream Chanderi Anarkali & Dupatta Set",
-    "slug": "ivory-cream-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v14",
-      "ivory-cream-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-14"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -10827,74 +11377,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0093",
+      "Part Number": "WST-EW-0093",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158449442-j8s4i7p",
+      "groupName": "Product Group 093",
+      "groupNum": 93,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0094",
+    "partNumber": "WST-EW-0094",
+    "sku": "WST-EW-0094",
+    "name": "Opal Cream Anarkali Flared Angrakha Kurta Set",
+    "title": "Opal Cream Anarkali Flared Angrakha Kurta Set",
+    "slug": "opal-cream-anarkali-flared-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0094",
+      "opal-cream-anarkali-flared-angrakha-kurta-set",
+      "product-ew-0094",
+      "pg-094",
+      "product-group-094"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.88,
+    "reviewCount": 30,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1564.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3156.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4876.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0715.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1564.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3156.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4876.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA0715.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
+        "caption": "Opal Cream Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
+        "caption": "Opal Cream Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
+        "caption": "Opal Cream Anarkali Flared Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg",
+        "caption": "Opal Cream Anarkali Flared Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA1564.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA1564.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA3156.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3156.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA4876.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA4876.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA0715.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7221.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4498.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA1720.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Ivory Cream Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0011-V14",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0011-v15",
-    "title": "Aqua Marine Chanderi Anarkali & Dupatta Set",
-    "slug": "aqua-marine-chanderi-anarkali-dupatta-set",
-    "aliasSlugs": [
-      "ew-0011-v15",
-      "aqua-marine-chanderi-anarkali-dupatta-set",
-      "chanderi-anarkali-dupatta-set-var-15"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Fine Muslin with Delicate Thread Detailing",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -10902,255 +11495,235 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/mix-category-product-images/IMG-20261104-WA6084.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261104-WA6084.jpg.jpeg",
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Opal Cream Anarkali Flared Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Opal Cream Anarkali Flared Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Opal Cream Anarkali Flared Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0094",
+      "Part Number": "WST-EW-0094",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158466311-4ks2457",
+      "groupName": "Product Group 094",
+      "groupNum": 94,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0095",
+    "partNumber": "WST-EW-0095",
+    "sku": "WST-EW-0095",
+    "name": "Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "title": "Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+    "slug": "kashish-grey-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0095",
+      "kashish-grey-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0095",
+      "pg-095",
+      "product-group-095"
+    ],
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.89,
+    "reviewCount": 31,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
     "images": [
-      "/mix-category-product-images/IMG-20261104-WA6084.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg"
     ],
     "gallery": [
-      "/mix-category-product-images/IMG-20261104-WA6084.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
+        "caption": "Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
+        "caption": "Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
+        "caption": "Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg",
+        "caption": "Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#06B6D4",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/mix-category-product-images/IMG-20261104-WA6084.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8373.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5653.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA2623.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Aqua Marine Chanderi Anarkali & Dupatta Set handcrafted at Wastram's Jaipur atelier. Tailored in Fine Muslin with Delicate Thread Detailing with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Aqua Marine Chanderi Anarkali & Dupatta Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Fine Muslin with Delicate Thread Detailing with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
     ],
-    "sku": "WST-EW-0011-V15",
-    "inStock": true,
-    "stockQty": 50
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0095",
+      "Part Number": "WST-EW-0095",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158484789-cvfe9aw",
+      "groupName": "Product Group 095",
+      "groupNum": 95,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0012-v1",
-    "title": "Sand Ochre Handblock Kurti & Palazzo Set",
-    "slug": "sand-ochre-handblock-kurti-palazzo-set",
+    "id": "ew-0096",
+    "partNumber": "WST-EW-0096",
+    "sku": "WST-EW-0096",
+    "name": "Coral Amber Gota Lace Detailed Angrakha Kurta Set",
+    "title": "Coral Amber Gota Lace Detailed Angrakha Kurta Set",
+    "slug": "coral-amber-gota-lace-detailed-angrakha-kurta-set",
     "aliasSlugs": [
-      "ew-0012-v1",
-      "sand-ochre-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-1",
-      "aaliyah-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "aanya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "ananya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "aria-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "aria-kashida-embroidered-kurta-pant-set-edition-2-ew-0010",
-      "aria-kashida-embroidered-kurta-pant-set-edition-3-ew-0023",
-      "bhavya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "bhumi-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-2-ew-0016",
-      "chloe-pintuck-straight-kurta-trouser-set-edition-7-ew-0071",
-      "diya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "elena-resham-threadwork-straight-suit-edition-4-ew-0036",
-      "ew-0004",
-      "ew-0010",
-      "ew-0012",
-      "ew-0016",
-      "ew-0020",
-      "ew-0023",
-      "ew-0024",
-      "ew-0028",
-      "ew-0031",
-      "ew-0036",
-      "ew-0041",
-      "ew-0042",
-      "ew-0046",
-      "ew-0048",
-      "ew-0051",
-      "ew-0054",
-      "ew-0059",
-      "ew-0060",
-      "ew-0063",
-      "ew-0065",
-      "ew-0071",
-      "ew-0072",
-      "ew-0084",
-      "ew-0090",
       "ew-0096",
-      "ew-0108",
-      "ew-0114",
-      "ew-0120",
-      "ew-0126",
-      "ew-0130",
-      "ew-0132",
-      "ew-0137",
-      "ew-0144",
-      "ew-0155",
-      "ew-0156",
-      "ew-0168",
-      "ew-0169",
-      "ew-0180",
-      "ew-0192",
-      "ew-0204",
-      "ew-0216",
-      "ew-0228",
-      "ew-0240",
-      "ew-0252",
-      "ew-0264",
-      "ew-0276",
-      "freya-kashida-embroidered-kurta-pant-set-edition-13-ew-0126",
-      "freya-kashida-embroidered-kurta-pant-set-edition-3-edition-2-ew-0031",
-      "freya-kashida-embroidered-kurta-pant-set-edition-4-edition-2-ew-0042",
-      "freya-kashida-embroidered-kurta-pant-set-edition-4-ew-0041",
-      "freya-kashida-embroidered-kurta-pant-set-edition-5-ew-0051",
-      "freya-kashida-embroidered-kurta-pant-set-edition-6-ew-0063",
-      "freya-kashida-embroidered-kurta-pant-set-edition-9-ew-0090",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-18-ew-0169",
-      "isla-zari-yoke-chanderi-kurta-ensemble-edition-3-ew-0028",
-      "janvi-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "kiara-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "luna-royal-festive-salwar-ensemble-edition-14-ew-0137",
-      "luna-royal-festive-salwar-ensemble-edition-16-ew-0155",
-      "luna-royal-festive-salwar-ensemble-edition-5-edition-2-ew-0054",
-      "luna-royal-festive-salwar-ensemble-edition-6-ew-0065",
-      "maya-handloom-a-line-kurta-palazzo-set-edition-2-ew-0020",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-12-ew-0114",
-      "mila-jaipuri-sanganeri-print-kurta-set-edition-6-ew-0059",
-      "mila-jaipuri-sanganeri-print-kurta-set-ew-0004",
-      "mrinal-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "niharika-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "palak-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "product-ew-0004",
-      "product-ew-0010",
-      "product-ew-0012",
-      "product-ew-0016",
-      "product-ew-0020",
-      "product-ew-0023",
-      "product-ew-0024",
-      "product-ew-0028",
-      "product-ew-0031",
-      "product-ew-0036",
-      "product-ew-0041",
-      "product-ew-0042",
-      "product-ew-0046",
-      "product-ew-0048",
-      "product-ew-0051",
-      "product-ew-0054",
-      "product-ew-0059",
-      "product-ew-0060",
-      "product-ew-0063",
-      "product-ew-0065",
-      "product-ew-0071",
-      "product-ew-0072",
-      "product-ew-0084",
-      "product-ew-0090",
+      "coral-amber-gota-lace-detailed-angrakha-kurta-set",
       "product-ew-0096",
-      "product-ew-0108",
-      "product-ew-0114",
-      "product-ew-0120",
-      "product-ew-0126",
-      "product-ew-0130",
-      "product-ew-0132",
-      "product-ew-0137",
-      "product-ew-0144",
-      "product-ew-0155",
-      "product-ew-0156",
-      "product-ew-0168",
-      "product-ew-0169",
-      "product-ew-0180",
-      "product-ew-0192",
-      "product-ew-0204",
-      "product-ew-0216",
-      "product-ew-0228",
-      "product-ew-0240",
-      "product-ew-0252",
-      "product-ew-0264",
-      "product-ew-0276",
-      "raashii-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "roohi-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "saanvi-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "sanya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "sara-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "sienna-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-14-ew-0130",
-      "sienna-handloom-a-line-kurta-palazzo-set-edition-5-ew-0046",
-      "siya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "taapsee-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "tanya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "vanya-hand-block-floral-printed-kurti-flared-palazzo-set",
-      "yami-hand-block-floral-printed-kurti-flared-palazzo-set"
+      "pg-096",
+      "product-group-096"
     ],
-    "category": "Ethnic Wear Sets",
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.9,
+    "reviewCount": 32,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Heritage Craft",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg",
+    "badge": "Handloom Luxe",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
+        "caption": "Coral Amber Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
+        "caption": "Coral Amber Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
+        "caption": "Coral Amber Gota Lace Detailed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg",
+        "caption": "Coral Amber Gota Lace Detailed Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#CA8A04",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1769438466762.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315556289.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA0768.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4671.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7505.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Sand Ochre Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sand Ochre Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V1",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v2",
-    "title": "Blush Rose Handblock Kurti & Palazzo Set",
-    "slug": "blush-rose-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v2",
-      "blush-rose-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-2"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -11158,71 +11731,110 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Coral Amber Gota Lace Detailed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Coral Amber Gota Lace Detailed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Coral Amber Gota Lace Detailed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0096",
+      "Part Number": "WST-EW-0096",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158496705-iun2nhx",
+      "groupName": "Product Group 096",
+      "groupNum": 96,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0097",
+    "partNumber": "WST-EW-0097",
+    "sku": "WST-EW-0097",
+    "name": "Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "title": "Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+    "slug": "plum-regal-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0097",
+      "plum-regal-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0097",
+      "pg-097",
+      "product-group-097"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.91,
+    "reviewCount": 33,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Seasonal Release",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
+        "caption": "Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
+        "caption": "Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg",
+        "caption": "Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FB7185",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1784914697270.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914699101.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0095.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0098.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA9452.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA2983.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Blush Rose Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Blush Rose Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V2",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v3",
-    "title": "Scarlet Red Handblock Kurti & Palazzo Set",
-    "slug": "scarlet-red-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v3",
-      "scarlet-red-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-3"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -11230,86 +11842,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0097",
+      "Part Number": "WST-EW-0097",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158508504-vb6ladb",
+      "groupName": "Product Group 097",
+      "groupNum": 97,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0098",
+    "partNumber": "WST-EW-0098",
+    "sku": "WST-EW-0098",
+    "name": "Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set",
+    "title": "Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set",
+    "slug": "lilac-bloom-hand-zardozi-accented-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0098",
+      "lilac-bloom-hand-zardozi-accented-angrakha-kurta-set",
+      "product-ew-0098",
+      "pg-098",
+      "product-group-098"
+    ],
+    "price": 3299,
+    "regularPrice": 4449,
+    "salePrice": 3299,
+    "rating": 4.92,
+    "reviewCount": 34,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Special",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
+        "caption": "Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
+        "caption": "Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
+        "caption": "Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg",
+        "caption": "Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DC2626",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1785237518788.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237521033.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237525312.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237528700.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237535297.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237537480.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1785237541516.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261015-WA0147.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261015-WA0149.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA1264.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5318.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8443.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Scarlet Red Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Scarlet Red Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V3",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v4",
-    "title": "Warm Caramel Handblock Kurti & Palazzo Set",
-    "slug": "warm-caramel-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v4",
-      "warm-caramel-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-4"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -11317,86 +11960,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
+    "fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Fine 60-60 Cambric Cotton with Pure Organza Dupatta with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Fine 60-60 Cambric Cotton with Pure Organza Dupatta",
+      "SKU": "WST-EW-0098",
+      "Part Number": "WST-EW-0098",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158520978-9x8tyod",
+      "groupName": "Product Group 098",
+      "groupNum": 98,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0099",
+    "partNumber": "WST-EW-0099",
+    "sku": "WST-EW-0099",
+    "name": "Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "title": "Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+    "slug": "mocha-bronze-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0099",
+      "mocha-bronze-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0099",
+      "pg-099",
+      "product-group-099"
+    ],
+    "price": 3499,
+    "regularPrice": 4699,
+    "salePrice": 3499,
+    "rating": 4.93,
+    "reviewCount": 35,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Signature Atelier",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9262.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1646.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg",
-      "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA9262.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA1646.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+        "caption": "Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
+        "caption": "Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
+        "caption": "Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg",
+        "caption": "Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#D97706",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1789315834272.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789315838149.jpg.jpeg",
-          "/ethnic-wear-sets/FB_IMG_1789730877734.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0142.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0176.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0084.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA9262.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA1646.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA4313.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7034.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA1548.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Warm Caramel Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Warm Caramel Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V4",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v5",
-    "title": "Orchid Pink Handblock Kurti & Palazzo Set",
-    "slug": "orchid-pink-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v5",
-      "orchid-pink-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-5"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -11404,134 +12078,110 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#DB2777",
-        "images": [
-          "/ethnic-wear-sets/FB_IMG_1790246754507.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA2171.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA2172.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA2176.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA2178.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Orchid Pink Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
+    "fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Handwoven Chanderi Cotton Silk with Resham Embroidery with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Orchid Pink Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Handwoven Chanderi Cotton Silk with Resham Embroidery with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0012-V5",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Handwoven Chanderi Cotton Silk with Resham Embroidery",
+      "SKU": "WST-EW-0099",
+      "Part Number": "WST-EW-0099",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158530388-p4jyq7f",
+      "groupName": "Product Group 099",
+      "groupNum": 99,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
   },
   {
-    "id": "ew-0012-v6",
-    "title": "Pebble Grey Handblock Kurti & Palazzo Set",
-    "slug": "pebble-grey-handblock-kurti-palazzo-set",
+    "id": "ew-0100",
+    "partNumber": "WST-EW-0100",
+    "sku": "WST-EW-0100",
+    "name": "Teal Maharani Dabu Block Printed Angrakha Kurta Set",
+    "title": "Teal Maharani Dabu Block Printed Angrakha Kurta Set",
+    "slug": "teal-maharani-dabu-block-printed-angrakha-kurta-set",
     "aliasSlugs": [
-      "ew-0012-v6",
-      "pebble-grey-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-6"
+      "ew-0100",
+      "teal-maharani-dabu-block-printed-angrakha-kurta-set",
+      "product-ew-0100",
+      "pg-100",
+      "product-group-100"
     ],
-    "category": "Ethnic Wear Sets",
+    "price": 3799,
+    "regularPrice": 5149,
+    "salePrice": 3799,
+    "rating": 4.94,
+    "reviewCount": 36,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
     "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
     "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
     "category_slug": "ethnic-wear-sets",
     "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
+    "badge": "Bestseller",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
       "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3163.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
       "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3163.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
+        "caption": "Teal Maharani Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
+        "caption": "Teal Maharani Dabu Block Printed Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg",
+        "caption": "Teal Maharani Dabu Block Printed Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#94A3B8",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/FB_IMG_1793286523566.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261023-WA0097.jpg.jpeg",
           "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA3163.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA6340.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA9550.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Pebble Grey Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Pebble Grey Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V6",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v7",
-    "title": "Lavender Violet Handblock Kurti & Palazzo Set",
-    "slug": "lavender-violet-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v7",
-      "lavender-violet-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-7"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -11539,59 +12189,117 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
+    "fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Teal Maharani Dabu Block Printed Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Artisanal Maheshwari Silk Blend with Zardozi Work with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Teal Maharani Dabu Block Printed Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Teal Maharani Dabu Block Printed Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Artisanal Maheshwari Silk Blend with Zardozi Work with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Artisanal Maheshwari Silk Blend with Zardozi Work",
+      "SKU": "WST-EW-0100",
+      "Part Number": "WST-EW-0100",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158537696-oflribd",
+      "groupName": "Product Group 100",
+      "groupNum": 100,
+      "photosCount": 3,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0101",
+    "partNumber": "WST-EW-0101",
+    "sku": "WST-EW-0101",
+    "name": "Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "title": "Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+    "slug": "haldi-yellow-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+    "aliasSlugs": [
+      "ew-0101",
+      "haldi-yellow-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "product-ew-0101",
+      "pg-101",
+      "product-group-101"
+    ],
+    "price": 2799,
+    "regularPrice": 3799,
+    "salePrice": 2799,
+    "rating": 4.85,
+    "reviewCount": 12,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Popular",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
+        "caption": "Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
+        "caption": "Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
+        "caption": "Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg",
+        "caption": "Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#7C3AED",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/IMG-20250731-WA2167.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20250731-WA2170.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA0726.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA3448.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA8387.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Lavender Violet Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Lavender Violet Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V7",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v8",
-    "title": "Ruby Crimson Handblock Kurti & Palazzo Set",
-    "slug": "ruby-crimson-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v8",
-      "ruby-crimson-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-8"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -11599,56 +12307,124 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg",
+    "fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+    "moq": "20 pcs / Flexible Wholesale Pack",
+    "description": "The Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Pure Handloom Chanderi Silk with Zari Borders with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Pure Handloom Chanderi Silk with Zari Borders, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
+    "details": [
+      "Authentic Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Pure Handloom Chanderi Silk with Zari Borders with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
+    ],
+    "technical_specs": {
+      "Fabric": "Pure Handloom Chanderi Silk with Zari Borders",
+      "SKU": "WST-EW-0101",
+      "Part Number": "WST-EW-0101",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158544943-jp65t0y",
+      "groupName": "Product Group 101",
+      "groupNum": 101,
+      "photosCount": 4,
+      "hasCustomCover": false
+    }
+  },
+  {
+    "id": "ew-0102",
+    "partNumber": "WST-EW-0102",
+    "sku": "WST-EW-0102",
+    "name": "Rani Pink Angrakha Cutwork Angrakha Kurta Set",
+    "title": "Rani Pink Angrakha Cutwork Angrakha Kurta Set",
+    "slug": "rani-pink-angrakha-cutwork-angrakha-kurta-set",
+    "aliasSlugs": [
+      "ew-0102",
+      "rani-pink-angrakha-cutwork-angrakha-kurta-set",
+      "product-ew-0102",
+      "pg-102",
+      "product-group-102"
+    ],
+    "price": 2999,
+    "regularPrice": 4049,
+    "salePrice": 2999,
+    "rating": 4.86,
+    "reviewCount": 13,
+    "inStock": true,
+    "stockQty": 50,
+    "freeShipping": true,
+    "brand": "Wastram Atelier",
+    "category": "ethnic-wear-sets",
+    "categoryId": "ethnic-wear-sets",
+    "category_id": "ethnic-wear-sets",
+    "categoryName": "Ethnic Wear Sets",
+    "category_name": "Ethnic Wear Sets",
+    "categorySlug": "ethnic-wear-sets",
+    "category_slug": "ethnic-wear-sets",
+    "tab": "ethnic-wear-sets",
+    "badge": "Atelier Edition",
+    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
+    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
+    "image": "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
     "images": [
-      "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg"
     ],
     "gallery": [
-      "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg"
+      "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
+      "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg"
+    ],
+    "galleryImages": [
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
+        "caption": "Rani Pink Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
+        "caption": "Rani Pink Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
+        "caption": "Rani Pink Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
+        "caption": "Rani Pink Angrakha Cutwork Angrakha Kurta Set"
+      },
+      {
+        "url": "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg",
+        "caption": "Rani Pink Angrakha Cutwork Angrakha Kurta Set"
+      }
     ],
     "colorVariants": [
       {
         "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#991B1B",
+        "name": "Standard Styling",
+        "colorCode": "#1A1A1A",
         "images": [
-          "/ethnic-wear-sets/IMG-20261015-WA0151.jpg.jpeg"
+          "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA0851.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5236.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA7993.jpg.jpeg",
+          "/ethnic-wear-sets/IMG-20261102-WA5906.jpg.jpeg"
         ]
       }
     ],
-    "description": "Authentic Ruby Crimson Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ruby Crimson Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V8",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v9",
-    "title": "Sunset Tangerine Handblock Kurti & Palazzo Set",
-    "slug": "sunset-tangerine-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v9",
-      "sunset-tangerine-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-9"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
     "sizes": [
       "S",
       "M",
@@ -11656,220 +12432,37 @@ export const ETHNIC_WEAR_SETS: NishoramaProduct[] = [
       "XL",
       "XXL"
     ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA1696.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261102-WA1696.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#EA580C",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261102-WA1696.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Sunset Tangerine Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Sunset Tangerine Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V9",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v10",
-    "title": "Steel Slate Handblock Kurti & Palazzo Set",
-    "slug": "steel-slate-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v10",
-      "steel-slate-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-10"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
+    "fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
     "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#475569",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261019-WA0417.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Steel Slate Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
+    "description": "The Rani Pink Angrakha Cutwork Angrakha Kurta Set is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.",
+    "short_desc": "Handcrafted in Premium Modal Silk with Soft Cotton Voile Lining with signature atelier finishing. Wholesale export MOQ: 20 pcs.",
+    "descriptionHtml": "<p>The <strong>Rani Pink Angrakha Cutwork Angrakha Kurta Set</strong> is an export-grade boutique garment handcrafted at Wastram's Sanganer atelier in Jaipur. Tailored in Premium Modal Silk with Soft Cotton Voile Lining, it features reinforced artisanal finishing, effortless drape, and precision grading across sizes for global retail and boutique orders.</p>",
     "details": [
-      "Authentic Steel Slate Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
+      "Authentic Rani Pink Angrakha Cutwork Angrakha Kurta Set handcrafted at Wastram's Jaipur atelier",
+      "Tailored in Premium Modal Silk with Soft Cotton Voile Lining with colour-fast, pre-shrunk artisanal finishing",
+      "Precision grading across sizes S, M, L, XL, XXL",
+      "Wholesale export MOQ: 20 pcs / Flexible Wholesale Pack"
     ],
-    "sku": "WST-EW-0012-V10",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v11",
-    "title": "Midnight Black Handblock Kurti & Palazzo Set",
-    "slug": "midnight-black-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v11",
-      "midnight-black-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-11"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/mix-category-product-images/IMG-20261102-WA5001.jpg.jpeg",
-    "mainImage": "/mix-category-product-images/IMG-20261102-WA5001.jpg.jpeg",
-    "images": [
-      "/mix-category-product-images/IMG-20261102-WA5001.jpg.jpeg"
-    ],
-    "gallery": [
-      "/mix-category-product-images/IMG-20261102-WA5001.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#18181B",
-        "images": [
-          "/mix-category-product-images/IMG-20261102-WA5001.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Midnight Black Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Midnight Black Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V11",
-    "inStock": true,
-    "stockQty": 50
-  },
-  {
-    "id": "ew-0012-v12",
-    "title": "Ivory Cream Handblock Kurti & Palazzo Set",
-    "slug": "ivory-cream-handblock-kurti-palazzo-set",
-    "aliasSlugs": [
-      "ew-0012-v12",
-      "ivory-cream-handblock-kurti-palazzo-set",
-      "handblock-kurti-palazzo-set-var-12"
-    ],
-    "category": "Ethnic Wear Sets",
-    "category_id": "ethnic-wear-sets",
-    "category_name": "Ethnic Wear Sets",
-    "category_slug": "ethnic-wear-sets",
-    "tab": "ethnic-wear-sets",
-    "badge": "Atelier Exclusive",
-    "regularPrice": 3399,
-    "salePrice": 2799,
-    "price": 2799,
-    "fabric": "Pure Chanderi Silk with Mulmul Lining",
-    "moq": "20 pcs / Flexible Wholesale Pack",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "featured_image": "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
-    "mainImage": "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
-    "images": [
-      "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6199.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7700.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA6747.jpg.jpeg"
-    ],
-    "gallery": [
-      "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6199.jpg.jpeg",
-      "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
-      "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7700.jpg.jpeg",
-      "/mix-category-product-images/IMG-20261104-WA6747.jpg.jpeg"
-    ],
-    "colorVariants": [
-      {
-        "id": "var-1",
-        "name": "Styling 1",
-        "colorCode": "#FAF7F2",
-        "images": [
-          "/ethnic-wear-sets/IMG-20261102-WA6199.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA6199.jpg.jpeg",
-          "/ethnic-wear-sets/IMG-20261102-WA7700.jpg.jpeg",
-          "/ethnic-wear-sets/dresses-images/IMG-20261102-WA7700.jpg.jpeg",
-          "/mix-category-product-images/IMG-20261104-WA6747.jpg.jpeg"
-        ]
-      }
-    ],
-    "description": "Authentic Ivory Cream Handblock Kurti & Palazzo Set handcrafted at Wastram's Jaipur atelier. Tailored in Pure Chanderi Silk with Mulmul Lining with precision anatomical curve grading across sizes S to XXL.",
-    "details": [
-      "Authentic Ivory Cream Handblock Kurti & Palazzo Set crafted in Sanganer, Jaipur atelier",
-      "Available with exact matching photographic views",
-      "Tailored in premium Pure Chanderi Silk with Mulmul Lining with colour-fast finish",
-      "Precision curve grading across standard sizes S, M, L, XL, XXL",
-      "Flexible wholesale export MOQ: 20 pieces per style"
-    ],
-    "sku": "WST-EW-0012-V12",
-    "inStock": true,
-    "stockQty": 50
+    "technical_specs": {
+      "Fabric": "Premium Modal Silk with Soft Cotton Voile Lining",
+      "SKU": "WST-EW-0102",
+      "Part Number": "WST-EW-0102",
+      "Wholesale MOQ": "20 pcs / Flexible Wholesale Pack",
+      "Sizes": "S, M, L, XL, XXL",
+      "Origin": "Jaipur Atelier, India",
+      "Export Pack": "Individually poly-bagged master carton"
+    },
+    "is_hidden": false,
+    "is_featured": false,
+    "deleted": false,
+    "createdAt": "2026-11-20T10:16:21.588Z",
+    "updatedAt": "2026-11-20T10:16:21.588Z",
+    "productisationRef": {
+      "groupId": "pg-ethn-1795158560893-71ibthu",
+      "groupName": "Product Group 102",
+      "groupNum": 102,
+      "photosCount": 5,
+      "hasCustomCover": false
+    }
   }
 ];

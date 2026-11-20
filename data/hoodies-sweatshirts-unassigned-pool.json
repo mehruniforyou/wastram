@@ -1,0 +1,203 @@
+{
+  "category": "hoodies-sweatshirts",
+  "categoryName": "Hoodies & Sweatshirts",
+  "generatedAt": "2026-11-20T10:16:21.614Z",
+  "statistics": {
+    "total_category_images": 109,
+    "productised_images_used": 109,
+    "remaining_unassigned_images": 0,
+    "product_groups_created": 21
+  },
+  "unassigned_images": [],
+  "products_reference": [
+    {
+      "id": "hd-0001",
+      "sku": "WST-HD-0001",
+      "name": "Ash Melange Grey Heavyweight Double-Lined Hood Pullover Fleece Hoodie",
+      "slug": "ash-melange-grey-heavyweight-double-lined-hood-pullover-fleece-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/FB_IMG_1793535782092.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "hd-0002",
+      "sku": "WST-HD-0002",
+      "name": "Charcoal Smoke Kangaroo Pocket Detailed Relaxed Fit Hooded Sweatshirt",
+      "slug": "charcoal-smoke-kangaroo-pocket-detailed-relaxed-fit-hooded-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/FB_IMG_1793535774414.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "hd-0003",
+      "sku": "WST-HD-0003",
+      "name": "Deep Pine Forest Minimalist Embroidered Crest Oversized Streetwear Sweatshirt",
+      "slug": "deep-pine-forest-minimalist-embroidered-crest-oversized-streetwear-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/FB_IMG_1793535757844.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "hd-0004",
+      "sku": "WST-HD-0004",
+      "name": "Coffee Toffee Brown Drop-Shoulder Relaxed Cut Boxy Minimalist Hoodie",
+      "slug": "coffee-toffee-brown-drop-shoulder-relaxed-cut-boxy-minimalist-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/16948.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "hd-0005",
+      "sku": "WST-HD-0005",
+      "name": "Dune Desert Sand Ribbed Cuffs & Waistband Drop-Shoulder Crewneck",
+      "slug": "dune-desert-sand-ribbed-cuffs-waistband-drop-shoulder-crewneck",
+      "coverPhoto": "/hoodies-sweatshirts/16934.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "hd-0006",
+      "sku": "WST-HD-0006",
+      "name": "Night Obsidian Black Sanganeri Patch Inset Pullover Fleece Hoodie",
+      "slug": "night-obsidian-black-sanganeri-patch-inset-pullover-fleece-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/16936.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "hd-0007",
+      "sku": "WST-HD-0007",
+      "name": "Crimson Maroon Heavyweight Double-Lined Hood Relaxed Fit Hooded Sweatshirt",
+      "slug": "crimson-maroon-heavyweight-double-lined-hood-relaxed-fit-hooded-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/16929.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "hd-0008",
+      "sku": "WST-HD-0008",
+      "name": "Midnight Indigo Kangaroo Pocket Detailed Oversized Streetwear Sweatshirt",
+      "slug": "midnight-indigo-kangaroo-pocket-detailed-oversized-streetwear-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/16915.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "hd-0009",
+      "sku": "WST-HD-0009",
+      "name": "Earthy Sage Minimalist Embroidered Crest Boxy Minimalist Hoodie",
+      "slug": "earthy-sage-minimalist-embroidered-crest-boxy-minimalist-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/16918.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "hd-0010",
+      "sku": "WST-HD-0010",
+      "name": "Warm Camel Drop-Shoulder Relaxed Cut Drop-Shoulder Crewneck",
+      "slug": "warm-camel-drop-shoulder-relaxed-cut-drop-shoulder-crewneck",
+      "coverPhoto": "/hoodies-sweatshirts/16891.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "hd-0011",
+      "sku": "WST-HD-0011",
+      "name": "Ash Melange Grey Sanganeri Patch Inset Pullover Fleece Hoodie",
+      "slug": "ash-melange-grey-sanganeri-patch-inset-pullover-fleece-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/16890.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "hd-0012",
+      "sku": "WST-HD-0012",
+      "name": "Charcoal Smoke Heavyweight Double-Lined Hood Relaxed Fit Hooded Sweatshirt",
+      "slug": "charcoal-smoke-heavyweight-double-lined-hood-relaxed-fit-hooded-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/16909.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "hd-0013",
+      "sku": "WST-HD-0013",
+      "name": "Deep Pine Forest Kangaroo Pocket Detailed Oversized Streetwear Sweatshirt",
+      "slug": "deep-pine-forest-kangaroo-pocket-detailed-oversized-streetwear-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/16899.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "hd-0014",
+      "sku": "WST-HD-0014",
+      "name": "Coffee Toffee Brown Minimalist Embroidered Crest Boxy Minimalist Hoodie",
+      "slug": "coffee-toffee-brown-minimalist-embroidered-crest-boxy-minimalist-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/9c7d34b2fa2a00c93157318ccad30aab.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "hd-0015",
+      "sku": "WST-HD-0015",
+      "name": "Dune Desert Sand Drop-Shoulder Relaxed Cut Drop-Shoulder Crewneck",
+      "slug": "dune-desert-sand-drop-shoulder-relaxed-cut-drop-shoulder-crewneck",
+      "coverPhoto": "/hoodies-sweatshirts/5cbec775a0f32f4f73331b694757cdbb.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "hd-0016",
+      "sku": "WST-HD-0016",
+      "name": "Night Obsidian Black Ribbed Cuffs & Waistband Pullover Fleece Hoodie",
+      "slug": "night-obsidian-black-ribbed-cuffs-waistband-pullover-fleece-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/a811d6868275ec7893c51ba1f408559a_1.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 016"
+    },
+    {
+      "id": "hd-0017",
+      "sku": "WST-HD-0017",
+      "name": "Crimson Maroon Sanganeri Patch Inset Relaxed Fit Hooded Sweatshirt",
+      "slug": "crimson-maroon-sanganeri-patch-inset-relaxed-fit-hooded-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/391bab0608ee2705b67e6cc51d94ddd3.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "hd-0018",
+      "sku": "WST-HD-0018",
+      "name": "Midnight Indigo Heavyweight Double-Lined Hood Oversized Streetwear Sweatshirt",
+      "slug": "midnight-indigo-heavyweight-double-lined-hood-oversized-streetwear-sweatshirt",
+      "coverPhoto": "/hoodies-sweatshirts/96cd2adf4641e8d7c4acb62ee06827d7.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "hd-0019",
+      "sku": "WST-HD-0019",
+      "name": "Earthy Sage Kangaroo Pocket Detailed Boxy Minimalist Hoodie",
+      "slug": "earthy-sage-kangaroo-pocket-detailed-boxy-minimalist-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/1839e9e2eedb0439915b007ceef9ee83_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "hd-0020",
+      "sku": "WST-HD-0020",
+      "name": "Warm Camel Minimalist Embroidered Crest Drop-Shoulder Crewneck",
+      "slug": "warm-camel-minimalist-embroidered-crest-drop-shoulder-crewneck",
+      "coverPhoto": "/hoodies-sweatshirts/8fc98bca625be47c1c8bdeae714799ab.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "hd-0021",
+      "sku": "WST-HD-0021",
+      "name": "Ash Melange Grey Ribbed Cuffs & Waistband Pullover Fleece Hoodie",
+      "slug": "ash-melange-grey-ribbed-cuffs-waistband-pullover-fleece-hoodie",
+      "coverPhoto": "/hoodies-sweatshirts/798d29b78bd6df65196a30f4bb6eb9a7.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 021"
+    }
+  ]
+}

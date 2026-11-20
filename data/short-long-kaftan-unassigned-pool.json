@@ -1,0 +1,2489 @@
+{
+  "category": "short-long-kaftan",
+  "categoryName": "Kaftans (Short & Long)",
+  "generatedAt": "2026-11-20T10:16:21.598Z",
+  "statistics": {
+    "total_category_images": 611,
+    "productised_images_used": 538,
+    "remaining_unassigned_images": 73,
+    "product_groups_created": 210
+  },
+  "unassigned_images": [
+    {
+      "filename": "120d0764cec493639750feaca3c5bbd5.jpg.jpeg",
+      "url": "/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg",
+      "path": "public/short-long-kaftan/120d0764cec493639750feaca3c5bbd5.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg",
+      "url": "/short-long-kaftan/2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg",
+      "path": "public/short-long-kaftan/2f5d016e7ee00c4205f91f0330b23985_2.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
+      "url": "/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
+      "path": "public/short-long-kaftan/4a5a68794391cb45aed488feacc91e4d.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg",
+      "url": "/short-long-kaftan/4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg",
+      "path": "public/short-long-kaftan/4d84ea658e74fa8d866cd9997168a75c_2.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
+      "url": "/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
+      "path": "public/short-long-kaftan/51ef369c08feae565ce1be93b3f9c598_2.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg",
+      "url": "/short-long-kaftan/55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg",
+      "path": "public/short-long-kaftan/55d71b66b1fe2eb16a5f796097c90d4e.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg",
+      "url": "/short-long-kaftan/5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg",
+      "path": "public/short-long-kaftan/5620af8957e7c28a2bdb5f6889bcfa55_2.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
+      "url": "/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
+      "path": "public/short-long-kaftan/5e2e4b42813205e471242ff98013ff7e_2.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg",
+      "url": "/short-long-kaftan/7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg",
+      "path": "public/short-long-kaftan/7833b8f9334d99741dd7563e5ef9c2cc.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg",
+      "url": "/short-long-kaftan/7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg",
+      "path": "public/short-long-kaftan/7a31da25c575ecf99b9ea77e8d6ade67_1.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "8fd3fc05ac36acefa1ddbddea7f41a9f.jpg.jpeg",
+      "url": "/short-long-kaftan/8fd3fc05ac36acefa1ddbddea7f41a9f.jpg.jpeg",
+      "path": "public/short-long-kaftan/8fd3fc05ac36acefa1ddbddea7f41a9f.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg",
+      "url": "/short-long-kaftan/9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg",
+      "path": "public/short-long-kaftan/9f28e25df531fc209fd98c23b92f1a31_2.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg",
+      "url": "/short-long-kaftan/d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg",
+      "path": "public/short-long-kaftan/d8c5a47c221db4b20cf0d828cdc731f8.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg",
+      "url": "/short-long-kaftan/f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg",
+      "path": "public/short-long-kaftan/f2c1a8b8bc760df33a41f687863f6327.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1686816332987.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1686816332987.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1785154016302.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1785154016302.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1785154016302.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1785154018359.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1785154018359.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1785154018359.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1785154020702.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1785154020702.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1785154020702.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1785154023486.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1785154023486.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1785154023486.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1785154025474.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1785154025474.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1785154025474.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1785154027222.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1785154027222.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1785154027222.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535295209.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535295209.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535295209.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535300630.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535300630.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535300630.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535303911.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535303911.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535364884.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535364884.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535364884.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535366577.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535366577.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535366577.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535368242.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535368242.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535368242.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535370381.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535370381.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535370381.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535372033.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535372033.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535372033.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535373772.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535373772.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535375636.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535375636.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535375636.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535377262.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535377262.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535377262.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535379346.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535379346.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535379346.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535381355.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535381355.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535381355.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535383175.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535383175.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535383175.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535385149.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535385149.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535385149.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535386635.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535386635.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535389050.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535389050.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535389050.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535397178.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535397178.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535398981.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535398981.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535398981.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535400667.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535400667.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535400667.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535402434.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535402434.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535402434.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535421802.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535421802.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535421802.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535424075.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535424075.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535424075.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535425779.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535425779.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535425779.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535448346.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535448346.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535448346.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535450103.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535450103.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535451644.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535451644.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535451644.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793535453522.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793535453522.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793535453522.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536000555.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536000555.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536000555.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536002432.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536002432.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536002432.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536004245.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536004245.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536004245.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536022937.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536022937.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536022937.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536024879.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536024879.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536027945.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536027945.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536027945.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536030009.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536030009.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536030009.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536040056.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536040056.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536040056.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536041982.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536041982.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536041982.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536044390.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536044390.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536044390.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536046366.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536046366.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536046366.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536048473.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536048473.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536048473.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536050398.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536050398.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536050398.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536052573.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536052573.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536052573.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536054683.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536054683.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536054683.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536056609.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536056609.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536056609.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536058704.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536058704.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536058704.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536060794.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536060794.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536060794.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536065426.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536065426.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536065426.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536068446.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536068446.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536068446.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536071278.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536071278.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536071278.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536073403.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536073403.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536073403.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536076111.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536076111.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536076111.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "FB_IMG_1793536077444.jpg.jpeg",
+      "url": "/short-long-kaftan/FB_IMG_1793536077444.jpg.jpeg",
+      "path": "public/short-long-kaftan/FB_IMG_1793536077444.jpg.jpeg",
+      "category": "short-long-kaftan",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    }
+  ],
+  "products_reference": [
+    {
+      "id": "kf-0001",
+      "sku": "WST-KF-0001",
+      "name": "Ocean Turquoise Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "ocean-turquoise-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_2665.JPG (1).jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "kf-0002",
+      "sku": "WST-KF-0002",
+      "name": "Coral Sunset Kimono Silhouette Flared Caftan Tunic",
+      "slug": "coral-sunset-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/_MG_2670.JPG.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "kf-0003",
+      "sku": "WST-KF-0003",
+      "name": "Desert Palm V-Neck Relaxed Resort Long Kaftan",
+      "slug": "desert-palm-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_2676.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "kf-0004",
+      "sku": "WST-KF-0004",
+      "name": "Indigo Wave Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "indigo-wave-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/_MG_2692.JPG (1).jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "kf-0005",
+      "sku": "WST-KF-0005",
+      "name": "Marigold Sun Border Print Accented Resort Long Kaftan",
+      "slug": "marigold-sun-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_2703.JPG.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "kf-0006",
+      "sku": "WST-KF-0006",
+      "name": "Orchid Purple Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "orchid-purple-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/_MG_2713.JPG.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "kf-0007",
+      "sku": "WST-KF-0007",
+      "name": "Mint Splash Batwing Sleeve Resort Long Kaftan",
+      "slug": "mint-splash-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_2747.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "kf-0008",
+      "sku": "WST-KF-0008",
+      "name": "Pistachio Sage Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "pistachio-sage-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/_MG_2794.JPG.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "kf-0009",
+      "sku": "WST-KF-0009",
+      "name": "Honey Gold Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "honey-gold-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_3066.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "kf-0010",
+      "sku": "WST-KF-0010",
+      "name": "Dusty Mauve Resort Flowing Flared Caftan Tunic",
+      "slug": "dusty-mauve-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/_MG_3070.JPG.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "kf-0011",
+      "sku": "WST-KF-0011",
+      "name": "Crimson Flame Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "crimson-flame-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_3075.JPG.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "kf-0012",
+      "sku": "WST-KF-0012",
+      "name": "Midnight Sky Kimono Silhouette Flared Caftan Tunic",
+      "slug": "midnight-sky-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/_MG_3080.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "kf-0013",
+      "sku": "WST-KF-0013",
+      "name": "Saffron Mirage V-Neck Relaxed Resort Long Kaftan",
+      "slug": "saffron-mirage-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_3083.JPG.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "kf-0014",
+      "sku": "WST-KF-0014",
+      "name": "Alabaster White Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "alabaster-white-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/_MG_3090.JPG.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "kf-0015",
+      "sku": "WST-KF-0015",
+      "name": "Olive Grove Border Print Accented Resort Long Kaftan",
+      "slug": "olive-grove-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/499d4fe88e9f666d96b4a3f2b94dd7a9-1.jpg.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "kf-0016",
+      "sku": "WST-KF-0016",
+      "name": "Fuchsia Tropics Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "fuchsia-tropics-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061186213.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 016"
+    },
+    {
+      "id": "kf-0017",
+      "sku": "WST-KF-0017",
+      "name": "Azure Coast Batwing Sleeve Resort Long Kaftan",
+      "slug": "azure-coast-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1659589018362.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "kf-0018",
+      "sku": "WST-KF-0018",
+      "name": "Chestnut Earth Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "chestnut-earth-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/3662e1152c9f0c61d5f22676a51db8eb-1.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "kf-0019",
+      "sku": "WST-KF-0019",
+      "name": "Peacock Green Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "peacock-green-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/793321c411df3e5a32d4a80cb1dd5714-1.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "kf-0020",
+      "sku": "WST-KF-0020",
+      "name": "Lavender Haze Resort Flowing Flared Caftan Tunic",
+      "slug": "lavender-haze-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/2c4609986b48c39e1c35f42c83c8ceb6-1.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "kf-0021",
+      "sku": "WST-KF-0021",
+      "name": "Amber Glow Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "amber-glow-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/1bf62bad541e76be3396a778563ac859_2.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 021"
+    },
+    {
+      "id": "kf-0022",
+      "sku": "WST-KF-0022",
+      "name": "Teal Ripple Kimono Silhouette Flared Caftan Tunic",
+      "slug": "teal-ripple-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1690178776804.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 022"
+    },
+    {
+      "id": "kf-0023",
+      "sku": "WST-KF-0023",
+      "name": "Paprika Spice V-Neck Relaxed Resort Long Kaftan",
+      "slug": "paprika-spice-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/a7e01d20a612f0f7bd7e083b28354470_2.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 023"
+    },
+    {
+      "id": "kf-0024",
+      "sku": "WST-KF-0024",
+      "name": "Mulberry Bloom Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "mulberry-bloom-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1655805439194.jpg.jpeg",
+      "photosCount": 15,
+      "originalGroup": "Product Group 024"
+    },
+    {
+      "id": "kf-0025",
+      "sku": "WST-KF-0025",
+      "name": "Golden Sand Border Print Accented Resort Long Kaftan",
+      "slug": "golden-sand-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1720156770600.jpg.jpeg",
+      "photosCount": 11,
+      "originalGroup": "Product Group 025"
+    },
+    {
+      "id": "kf-0026",
+      "sku": "WST-KF-0026",
+      "name": "Ocean Turquoise Batwing Sleeve Flared Caftan Tunic",
+      "slug": "ocean-turquoise-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722360609530.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 026"
+    },
+    {
+      "id": "kf-0027",
+      "sku": "WST-KF-0027",
+      "name": "Coral Sunset Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "coral-sunset-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722360636027.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 027"
+    },
+    {
+      "id": "kf-0028",
+      "sku": "WST-KF-0028",
+      "name": "Desert Palm Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "desert-palm-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722360510035.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 028"
+    },
+    {
+      "id": "kf-0029",
+      "sku": "WST-KF-0029",
+      "name": "Indigo Wave Resort Flowing Resort Long Kaftan",
+      "slug": "indigo-wave-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722360500730.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 029"
+    },
+    {
+      "id": "kf-0030",
+      "sku": "WST-KF-0030",
+      "name": "Marigold Sun Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "marigold-sun-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722360286419.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 030"
+    },
+    {
+      "id": "kf-0031",
+      "sku": "WST-KF-0031",
+      "name": "Orchid Purple Kimono Silhouette Resort Long Kaftan",
+      "slug": "orchid-purple-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722018740289.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 031"
+    },
+    {
+      "id": "kf-0032",
+      "sku": "WST-KF-0032",
+      "name": "Mint Splash V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "mint-splash-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722016481541.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 032"
+    },
+    {
+      "id": "kf-0033",
+      "sku": "WST-KF-0033",
+      "name": "Pistachio Sage Artisanal Block Placed Resort Long Kaftan",
+      "slug": "pistachio-sage-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1711349926108.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 033"
+    },
+    {
+      "id": "kf-0034",
+      "sku": "WST-KF-0034",
+      "name": "Honey Gold Border Print Accented Flared Caftan Tunic",
+      "slug": "honey-gold-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1711349921320.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 034"
+    },
+    {
+      "id": "kf-0035",
+      "sku": "WST-KF-0035",
+      "name": "Dusty Mauve Tiered Hem Flared Resort Long Kaftan",
+      "slug": "dusty-mauve-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/da1236a3905329472f22c964f9f53d47-1.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 035"
+    },
+    {
+      "id": "kf-0036",
+      "sku": "WST-KF-0036",
+      "name": "Crimson Flame Batwing Sleeve Flared Caftan Tunic",
+      "slug": "crimson-flame-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1741762986001.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 036"
+    },
+    {
+      "id": "kf-0037",
+      "sku": "WST-KF-0037",
+      "name": "Midnight Sky Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "midnight-sky-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1768632559845.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 037"
+    },
+    {
+      "id": "kf-0038",
+      "sku": "WST-KF-0038",
+      "name": "Saffron Mirage Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "saffron-mirage-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1741024463116.jpg.jpeg",
+      "photosCount": 19,
+      "originalGroup": "Product Group 038"
+    },
+    {
+      "id": "kf-0039",
+      "sku": "WST-KF-0039",
+      "name": "Alabaster White Resort Flowing Resort Long Kaftan",
+      "slug": "alabaster-white-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1781723119261.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 039"
+    },
+    {
+      "id": "kf-0040",
+      "sku": "WST-KF-0040",
+      "name": "Olive Grove Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "olive-grove-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/0b944963040c5133e0b3fb5c6035943b_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 040"
+    },
+    {
+      "id": "kf-0041",
+      "sku": "WST-KF-0041",
+      "name": "Fuchsia Tropics Kimono Silhouette Resort Long Kaftan",
+      "slug": "fuchsia-tropics-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/74fcb9715cc8cc2b46d561b0fd1c450b-1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 041"
+    },
+    {
+      "id": "kf-0042",
+      "sku": "WST-KF-0042",
+      "name": "Azure Coast V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "azure-coast-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1707158114236.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 042"
+    },
+    {
+      "id": "kf-0043",
+      "sku": "WST-KF-0043",
+      "name": "Chestnut Earth Artisanal Block Placed Resort Long Kaftan",
+      "slug": "chestnut-earth-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1707158124869.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 043"
+    },
+    {
+      "id": "kf-0044",
+      "sku": "WST-KF-0044",
+      "name": "Peacock Green Border Print Accented Flared Caftan Tunic",
+      "slug": "peacock-green-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061571560.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 044"
+    },
+    {
+      "id": "kf-0045",
+      "sku": "WST-KF-0045",
+      "name": "Lavender Haze Tiered Hem Flared Resort Long Kaftan",
+      "slug": "lavender-haze-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1707158135101.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 045"
+    },
+    {
+      "id": "kf-0046",
+      "sku": "WST-KF-0046",
+      "name": "Amber Glow Batwing Sleeve Flared Caftan Tunic",
+      "slug": "amber-glow-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061568730.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 046"
+    },
+    {
+      "id": "kf-0047",
+      "sku": "WST-KF-0047",
+      "name": "Teal Ripple Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "teal-ripple-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061566021.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 047"
+    },
+    {
+      "id": "kf-0048",
+      "sku": "WST-KF-0048",
+      "name": "Paprika Spice Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "paprika-spice-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061563712.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 048"
+    },
+    {
+      "id": "kf-0049",
+      "sku": "WST-KF-0049",
+      "name": "Mulberry Bloom Resort Flowing Resort Long Kaftan",
+      "slug": "mulberry-bloom-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061550435.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 049"
+    },
+    {
+      "id": "kf-0050",
+      "sku": "WST-KF-0050",
+      "name": "Golden Sand Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "golden-sand-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061545466.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 050"
+    },
+    {
+      "id": "kf-0051",
+      "sku": "WST-KF-0051",
+      "name": "Ocean Turquoise V-Neck Relaxed Resort Long Kaftan",
+      "slug": "ocean-turquoise-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061504442.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 051"
+    },
+    {
+      "id": "kf-0052",
+      "sku": "WST-KF-0052",
+      "name": "Coral Sunset Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "coral-sunset-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061502466.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 052"
+    },
+    {
+      "id": "kf-0053",
+      "sku": "WST-KF-0053",
+      "name": "Desert Palm Border Print Accented Resort Long Kaftan",
+      "slug": "desert-palm-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061500163.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 053"
+    },
+    {
+      "id": "kf-0054",
+      "sku": "WST-KF-0054",
+      "name": "Indigo Wave Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "indigo-wave-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061498255.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 054"
+    },
+    {
+      "id": "kf-0055",
+      "sku": "WST-KF-0055",
+      "name": "Marigold Sun Batwing Sleeve Resort Long Kaftan",
+      "slug": "marigold-sun-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061496208.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 055"
+    },
+    {
+      "id": "kf-0056",
+      "sku": "WST-KF-0056",
+      "name": "Orchid Purple Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "orchid-purple-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061494112.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 056"
+    },
+    {
+      "id": "kf-0057",
+      "sku": "WST-KF-0057",
+      "name": "Mint Splash Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "mint-splash-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061229444.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 057"
+    },
+    {
+      "id": "kf-0058",
+      "sku": "WST-KF-0058",
+      "name": "Pistachio Sage Resort Flowing Flared Caftan Tunic",
+      "slug": "pistachio-sage-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061227185.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 058"
+    },
+    {
+      "id": "kf-0059",
+      "sku": "WST-KF-0059",
+      "name": "Honey Gold Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "honey-gold-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061225109.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 059"
+    },
+    {
+      "id": "kf-0060",
+      "sku": "WST-KF-0060",
+      "name": "Dusty Mauve Kimono Silhouette Flared Caftan Tunic",
+      "slug": "dusty-mauve-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061221163.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 060"
+    },
+    {
+      "id": "kf-0061",
+      "sku": "WST-KF-0061",
+      "name": "Crimson Flame V-Neck Relaxed Resort Long Kaftan",
+      "slug": "crimson-flame-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061217946.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 061"
+    },
+    {
+      "id": "kf-0062",
+      "sku": "WST-KF-0062",
+      "name": "Midnight Sky Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "midnight-sky-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061214784.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 062"
+    },
+    {
+      "id": "kf-0063",
+      "sku": "WST-KF-0063",
+      "name": "Saffron Mirage Border Print Accented Resort Long Kaftan",
+      "slug": "saffron-mirage-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061212317.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 063"
+    },
+    {
+      "id": "kf-0064",
+      "sku": "WST-KF-0064",
+      "name": "Alabaster White Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "alabaster-white-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061199963.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 064"
+    },
+    {
+      "id": "kf-0065",
+      "sku": "WST-KF-0065",
+      "name": "Olive Grove Batwing Sleeve Resort Long Kaftan",
+      "slug": "olive-grove-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061195342.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 065"
+    },
+    {
+      "id": "kf-0066",
+      "sku": "WST-KF-0066",
+      "name": "Fuchsia Tropics Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "fuchsia-tropics-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061180954.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 066"
+    },
+    {
+      "id": "kf-0067",
+      "sku": "WST-KF-0067",
+      "name": "Azure Coast Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "azure-coast-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061178449.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 067"
+    },
+    {
+      "id": "kf-0068",
+      "sku": "WST-KF-0068",
+      "name": "Chestnut Earth Resort Flowing Flared Caftan Tunic",
+      "slug": "chestnut-earth-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061176172.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 068"
+    },
+    {
+      "id": "kf-0069",
+      "sku": "WST-KF-0069",
+      "name": "Peacock Green Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "peacock-green-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061156473.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 069"
+    },
+    {
+      "id": "kf-0070",
+      "sku": "WST-KF-0070",
+      "name": "Lavender Haze Kimono Silhouette Flared Caftan Tunic",
+      "slug": "lavender-haze-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061009608.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 070"
+    },
+    {
+      "id": "kf-0071",
+      "sku": "WST-KF-0071",
+      "name": "Amber Glow V-Neck Relaxed Resort Long Kaftan",
+      "slug": "amber-glow-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061007331.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 071"
+    },
+    {
+      "id": "kf-0072",
+      "sku": "WST-KF-0072",
+      "name": "Teal Ripple Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "teal-ripple-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1700061005085.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 072"
+    },
+    {
+      "id": "kf-0073",
+      "sku": "WST-KF-0073",
+      "name": "Paprika Spice Border Print Accented Resort Long Kaftan",
+      "slug": "paprika-spice-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1695641834400.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 073"
+    },
+    {
+      "id": "kf-0074",
+      "sku": "WST-KF-0074",
+      "name": "Mulberry Bloom Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "mulberry-bloom-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1695641799281.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 074"
+    },
+    {
+      "id": "kf-0075",
+      "sku": "WST-KF-0075",
+      "name": "Golden Sand Batwing Sleeve Resort Long Kaftan",
+      "slug": "golden-sand-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1695641792038.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 075"
+    },
+    {
+      "id": "kf-0076",
+      "sku": "WST-KF-0076",
+      "name": "Ocean Turquoise Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "ocean-turquoise-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589219084.jpg (1).jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 076"
+    },
+    {
+      "id": "kf-0077",
+      "sku": "WST-KF-0077",
+      "name": "Coral Sunset Resort Flowing Resort Long Kaftan",
+      "slug": "coral-sunset-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1695641818773.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 077"
+    },
+    {
+      "id": "kf-0078",
+      "sku": "WST-KF-0078",
+      "name": "Desert Palm Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "desert-palm-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1695641806768.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 078"
+    },
+    {
+      "id": "kf-0079",
+      "sku": "WST-KF-0079",
+      "name": "Indigo Wave Kimono Silhouette Resort Long Kaftan",
+      "slug": "indigo-wave-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/_MG_2739.JPG.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 079"
+    },
+    {
+      "id": "kf-0080",
+      "sku": "WST-KF-0080",
+      "name": "Marigold Sun V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "marigold-sun-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/061d7e1ece60bb0d271efdbed6a0075b_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 080"
+    },
+    {
+      "id": "kf-0081",
+      "sku": "WST-KF-0081",
+      "name": "Orchid Purple Artisanal Block Placed Resort Long Kaftan",
+      "slug": "orchid-purple-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/d7c7e1e584b436601ebd35a8688c8e13_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 081"
+    },
+    {
+      "id": "kf-0082",
+      "sku": "WST-KF-0082",
+      "name": "Mint Splash Border Print Accented Flared Caftan Tunic",
+      "slug": "mint-splash-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/71b203f6869b90afe1ce8ea1066e044d.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 082"
+    },
+    {
+      "id": "kf-0083",
+      "sku": "WST-KF-0083",
+      "name": "Pistachio Sage Tiered Hem Flared Resort Long Kaftan",
+      "slug": "pistachio-sage-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/92270df1e6c8fac2c229ddd57ddc232f_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 083"
+    },
+    {
+      "id": "kf-0084",
+      "sku": "WST-KF-0084",
+      "name": "Honey Gold Batwing Sleeve Flared Caftan Tunic",
+      "slug": "honey-gold-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/6b98f49029aa7bf65653a50a8e328875.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 084"
+    },
+    {
+      "id": "kf-0085",
+      "sku": "WST-KF-0085",
+      "name": "Dusty Mauve Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "dusty-mauve-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722535913836.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 085"
+    },
+    {
+      "id": "kf-0086",
+      "sku": "WST-KF-0086",
+      "name": "Crimson Flame Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "crimson-flame-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1783346464192.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 086"
+    },
+    {
+      "id": "kf-0087",
+      "sku": "WST-KF-0087",
+      "name": "Midnight Sky Resort Flowing Resort Long Kaftan",
+      "slug": "midnight-sky-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1783346471907.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 087"
+    },
+    {
+      "id": "kf-0088",
+      "sku": "WST-KF-0088",
+      "name": "Saffron Mirage Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "saffron-mirage-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1793536158205.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 088"
+    },
+    {
+      "id": "kf-0089",
+      "sku": "WST-KF-0089",
+      "name": "Alabaster White Kimono Silhouette Resort Long Kaftan",
+      "slug": "alabaster-white-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1793536154156.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 089"
+    },
+    {
+      "id": "kf-0090",
+      "sku": "WST-KF-0090",
+      "name": "Olive Grove V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "olive-grove-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1793536146518.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 090"
+    },
+    {
+      "id": "kf-0091",
+      "sku": "WST-KF-0091",
+      "name": "Fuchsia Tropics Artisanal Block Placed Resort Long Kaftan",
+      "slug": "fuchsia-tropics-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1793536126181.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 091"
+    },
+    {
+      "id": "kf-0092",
+      "sku": "WST-KF-0092",
+      "name": "Azure Coast Border Print Accented Flared Caftan Tunic",
+      "slug": "azure-coast-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1034(1).jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 092"
+    },
+    {
+      "id": "kf-0093",
+      "sku": "WST-KF-0093",
+      "name": "Chestnut Earth Tiered Hem Flared Resort Long Kaftan",
+      "slug": "chestnut-earth-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20261022-WA0322.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 093"
+    },
+    {
+      "id": "kf-0094",
+      "sku": "WST-KF-0094",
+      "name": "Peacock Green Batwing Sleeve Flared Caftan Tunic",
+      "slug": "peacock-green-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20261022-WA0312.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 094"
+    },
+    {
+      "id": "kf-0095",
+      "sku": "WST-KF-0095",
+      "name": "Lavender Haze Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "lavender-haze-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20261008-WA0019.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 095"
+    },
+    {
+      "id": "kf-0096",
+      "sku": "WST-KF-0096",
+      "name": "Amber Glow Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "amber-glow-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20261008-WA0015.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 096"
+    },
+    {
+      "id": "kf-0097",
+      "sku": "WST-KF-0097",
+      "name": "Teal Ripple Resort Flowing Resort Long Kaftan",
+      "slug": "teal-ripple-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20261005-WA0079.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 097"
+    },
+    {
+      "id": "kf-0098",
+      "sku": "WST-KF-0098",
+      "name": "Paprika Spice Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "paprika-spice-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20261005-WA0074.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 098"
+    },
+    {
+      "id": "kf-0099",
+      "sku": "WST-KF-0099",
+      "name": "Mulberry Bloom Kimono Silhouette Resort Long Kaftan",
+      "slug": "mulberry-bloom-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20261003-WA0129.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 099"
+    },
+    {
+      "id": "kf-0100",
+      "sku": "WST-KF-0100",
+      "name": "Golden Sand V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "golden-sand-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20261003-WA0125.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 100"
+    },
+    {
+      "id": "kf-0101",
+      "sku": "WST-KF-0101",
+      "name": "Ocean Turquoise Border Print Accented Resort Long Kaftan",
+      "slug": "ocean-turquoise-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0154.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 101"
+    },
+    {
+      "id": "kf-0102",
+      "sku": "WST-KF-0102",
+      "name": "Coral Sunset Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "coral-sunset-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0150.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 102"
+    },
+    {
+      "id": "kf-0103",
+      "sku": "WST-KF-0103",
+      "name": "Desert Palm Batwing Sleeve Resort Long Kaftan",
+      "slug": "desert-palm-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0148.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 103"
+    },
+    {
+      "id": "kf-0104",
+      "sku": "WST-KF-0104",
+      "name": "Indigo Wave Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "indigo-wave-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0140.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 104"
+    },
+    {
+      "id": "kf-0105",
+      "sku": "WST-KF-0105",
+      "name": "Marigold Sun Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "marigold-sun-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0133.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 105"
+    },
+    {
+      "id": "kf-0106",
+      "sku": "WST-KF-0106",
+      "name": "Orchid Purple Resort Flowing Flared Caftan Tunic",
+      "slug": "orchid-purple-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0129.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 106"
+    },
+    {
+      "id": "kf-0107",
+      "sku": "WST-KF-0107",
+      "name": "Mint Splash Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "mint-splash-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0118.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 107"
+    },
+    {
+      "id": "kf-0108",
+      "sku": "WST-KF-0108",
+      "name": "Pistachio Sage Kimono Silhouette Flared Caftan Tunic",
+      "slug": "pistachio-sage-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0117.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 108"
+    },
+    {
+      "id": "kf-0109",
+      "sku": "WST-KF-0109",
+      "name": "Honey Gold V-Neck Relaxed Resort Long Kaftan",
+      "slug": "honey-gold-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0114.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 109"
+    },
+    {
+      "id": "kf-0110",
+      "sku": "WST-KF-0110",
+      "name": "Dusty Mauve Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "dusty-mauve-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0112.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 110"
+    },
+    {
+      "id": "kf-0111",
+      "sku": "WST-KF-0111",
+      "name": "Crimson Flame Border Print Accented Resort Long Kaftan",
+      "slug": "crimson-flame-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0104.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 111"
+    },
+    {
+      "id": "kf-0112",
+      "sku": "WST-KF-0112",
+      "name": "Midnight Sky Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "midnight-sky-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0101.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 112"
+    },
+    {
+      "id": "kf-0113",
+      "sku": "WST-KF-0113",
+      "name": "Saffron Mirage Batwing Sleeve Resort Long Kaftan",
+      "slug": "saffron-mirage-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20250405-WA0084.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 113"
+    },
+    {
+      "id": "kf-0114",
+      "sku": "WST-KF-0114",
+      "name": "Alabaster White Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "alabaster-white-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20231115-WA0052.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 114"
+    },
+    {
+      "id": "kf-0115",
+      "sku": "WST-KF-0115",
+      "name": "Olive Grove Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "olive-grove-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20231115-WA0051.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 115"
+    },
+    {
+      "id": "kf-0116",
+      "sku": "WST-KF-0116",
+      "name": "Fuchsia Tropics Resort Flowing Flared Caftan Tunic",
+      "slug": "fuchsia-tropics-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20231115-WA0049.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 116"
+    },
+    {
+      "id": "kf-0117",
+      "sku": "WST-KF-0117",
+      "name": "Azure Coast Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "azure-coast-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20231115-WA0048.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 117"
+    },
+    {
+      "id": "kf-0118",
+      "sku": "WST-KF-0118",
+      "name": "Chestnut Earth Kimono Silhouette Flared Caftan Tunic",
+      "slug": "chestnut-earth-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20231115-WA0047.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 118"
+    },
+    {
+      "id": "kf-0119",
+      "sku": "WST-KF-0119",
+      "name": "Peacock Green V-Neck Relaxed Resort Long Kaftan",
+      "slug": "peacock-green-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20231115-WA0045.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 119"
+    },
+    {
+      "id": "kf-0120",
+      "sku": "WST-KF-0120",
+      "name": "Lavender Haze Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "lavender-haze-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20231115-WA0042.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 120"
+    },
+    {
+      "id": "kf-0121",
+      "sku": "WST-KF-0121",
+      "name": "Amber Glow Border Print Accented Resort Long Kaftan",
+      "slug": "amber-glow-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1123_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 121"
+    },
+    {
+      "id": "kf-0122",
+      "sku": "WST-KF-0122",
+      "name": "Teal Ripple Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "teal-ripple-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1122_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 122"
+    },
+    {
+      "id": "kf-0123",
+      "sku": "WST-KF-0123",
+      "name": "Paprika Spice Batwing Sleeve Resort Long Kaftan",
+      "slug": "paprika-spice-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1122_1.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 123"
+    },
+    {
+      "id": "kf-0124",
+      "sku": "WST-KF-0124",
+      "name": "Mulberry Bloom Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "mulberry-bloom-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1121_1.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 124"
+    },
+    {
+      "id": "kf-0125",
+      "sku": "WST-KF-0125",
+      "name": "Golden Sand Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "golden-sand-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1118_1.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 125"
+    },
+    {
+      "id": "kf-0126",
+      "sku": "WST-KF-0126",
+      "name": "Ocean Turquoise Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "ocean-turquoise-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1117_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 126"
+    },
+    {
+      "id": "kf-0127",
+      "sku": "WST-KF-0127",
+      "name": "Coral Sunset Kimono Silhouette Resort Long Kaftan",
+      "slug": "coral-sunset-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1117_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 127"
+    },
+    {
+      "id": "kf-0128",
+      "sku": "WST-KF-0128",
+      "name": "Desert Palm V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "desert-palm-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1113_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 128"
+    },
+    {
+      "id": "kf-0129",
+      "sku": "WST-KF-0129",
+      "name": "Indigo Wave Artisanal Block Placed Resort Long Kaftan",
+      "slug": "indigo-wave-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1107_2.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 129"
+    },
+    {
+      "id": "kf-0130",
+      "sku": "WST-KF-0130",
+      "name": "Marigold Sun Border Print Accented Flared Caftan Tunic",
+      "slug": "marigold-sun-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1100_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 130"
+    },
+    {
+      "id": "kf-0131",
+      "sku": "WST-KF-0131",
+      "name": "Orchid Purple Tiered Hem Flared Resort Long Kaftan",
+      "slug": "orchid-purple-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1114_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 131"
+    },
+    {
+      "id": "kf-0132",
+      "sku": "WST-KF-0132",
+      "name": "Mint Splash Batwing Sleeve Flared Caftan Tunic",
+      "slug": "mint-splash-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1098_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 132"
+    },
+    {
+      "id": "kf-0133",
+      "sku": "WST-KF-0133",
+      "name": "Pistachio Sage Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "pistachio-sage-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1097_1.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 133"
+    },
+    {
+      "id": "kf-0134",
+      "sku": "WST-KF-0134",
+      "name": "Honey Gold Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "honey-gold-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1095.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 134"
+    },
+    {
+      "id": "kf-0135",
+      "sku": "WST-KF-0135",
+      "name": "Dusty Mauve Resort Flowing Resort Long Kaftan",
+      "slug": "dusty-mauve-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1094.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 135"
+    },
+    {
+      "id": "kf-0136",
+      "sku": "WST-KF-0136",
+      "name": "Crimson Flame Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "crimson-flame-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1094_1.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 136"
+    },
+    {
+      "id": "kf-0137",
+      "sku": "WST-KF-0137",
+      "name": "Midnight Sky Kimono Silhouette Resort Long Kaftan",
+      "slug": "midnight-sky-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1090.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 137"
+    },
+    {
+      "id": "kf-0138",
+      "sku": "WST-KF-0138",
+      "name": "Saffron Mirage V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "saffron-mirage-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1093_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 138"
+    },
+    {
+      "id": "kf-0139",
+      "sku": "WST-KF-0139",
+      "name": "Alabaster White Artisanal Block Placed Resort Long Kaftan",
+      "slug": "alabaster-white-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1091_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 139"
+    },
+    {
+      "id": "kf-0140",
+      "sku": "WST-KF-0140",
+      "name": "Olive Grove Border Print Accented Flared Caftan Tunic",
+      "slug": "olive-grove-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1089.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 140"
+    },
+    {
+      "id": "kf-0141",
+      "sku": "WST-KF-0141",
+      "name": "Fuchsia Tropics Tiered Hem Flared Resort Long Kaftan",
+      "slug": "fuchsia-tropics-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1087_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 141"
+    },
+    {
+      "id": "kf-0142",
+      "sku": "WST-KF-0142",
+      "name": "Azure Coast Batwing Sleeve Flared Caftan Tunic",
+      "slug": "azure-coast-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1085.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 142"
+    },
+    {
+      "id": "kf-0143",
+      "sku": "WST-KF-0143",
+      "name": "Chestnut Earth Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "chestnut-earth-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1084_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 143"
+    },
+    {
+      "id": "kf-0144",
+      "sku": "WST-KF-0144",
+      "name": "Peacock Green Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "peacock-green-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1079_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 144"
+    },
+    {
+      "id": "kf-0145",
+      "sku": "WST-KF-0145",
+      "name": "Lavender Haze Resort Flowing Resort Long Kaftan",
+      "slug": "lavender-haze-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1081_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 145"
+    },
+    {
+      "id": "kf-0146",
+      "sku": "WST-KF-0146",
+      "name": "Amber Glow Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "amber-glow-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1056_1.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 146"
+    },
+    {
+      "id": "kf-0147",
+      "sku": "WST-KF-0147",
+      "name": "Teal Ripple Kimono Silhouette Resort Long Kaftan",
+      "slug": "teal-ripple-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1055_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 147"
+    },
+    {
+      "id": "kf-0148",
+      "sku": "WST-KF-0148",
+      "name": "Paprika Spice V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "paprika-spice-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1051_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 148"
+    },
+    {
+      "id": "kf-0149",
+      "sku": "WST-KF-0149",
+      "name": "Mulberry Bloom Artisanal Block Placed Resort Long Kaftan",
+      "slug": "mulberry-bloom-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1049_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 149"
+    },
+    {
+      "id": "kf-0150",
+      "sku": "WST-KF-0150",
+      "name": "Golden Sand Border Print Accented Flared Caftan Tunic",
+      "slug": "golden-sand-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1045_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 150"
+    },
+    {
+      "id": "kf-0151",
+      "sku": "WST-KF-0151",
+      "name": "Ocean Turquoise Batwing Sleeve Resort Long Kaftan",
+      "slug": "ocean-turquoise-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1044(1).jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 151"
+    },
+    {
+      "id": "kf-0152",
+      "sku": "WST-KF-0152",
+      "name": "Coral Sunset Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "coral-sunset-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1043_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 152"
+    },
+    {
+      "id": "kf-0153",
+      "sku": "WST-KF-0153",
+      "name": "Desert Palm Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "desert-palm-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1036_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 153"
+    },
+    {
+      "id": "kf-0154",
+      "sku": "WST-KF-0154",
+      "name": "Indigo Wave Resort Flowing Flared Caftan Tunic",
+      "slug": "indigo-wave-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/IMG-20230802-WA1035_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 154"
+    },
+    {
+      "id": "kf-0155",
+      "sku": "WST-KF-0155",
+      "name": "Marigold Sun Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "marigold-sun-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/IMG_20250112_174958.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 155"
+    },
+    {
+      "id": "kf-0156",
+      "sku": "WST-KF-0156",
+      "name": "Orchid Purple Kimono Silhouette Flared Caftan Tunic",
+      "slug": "orchid-purple-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/fe81f630c7e0a1257a084008fb7f303a_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 156"
+    },
+    {
+      "id": "kf-0157",
+      "sku": "WST-KF-0157",
+      "name": "Mint Splash V-Neck Relaxed Resort Long Kaftan",
+      "slug": "mint-splash-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1793536184884.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 157"
+    },
+    {
+      "id": "kf-0158",
+      "sku": "WST-KF-0158",
+      "name": "Pistachio Sage Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "pistachio-sage-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1793536162556.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 158"
+    },
+    {
+      "id": "kf-0159",
+      "sku": "WST-KF-0159",
+      "name": "Honey Gold Border Print Accented Resort Long Kaftan",
+      "slug": "honey-gold-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1793536099884.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 159"
+    },
+    {
+      "id": "kf-0160",
+      "sku": "WST-KF-0160",
+      "name": "Dusty Mauve Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "dusty-mauve-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1722473531595.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 160"
+    },
+    {
+      "id": "kf-0161",
+      "sku": "WST-KF-0161",
+      "name": "Crimson Flame Batwing Sleeve Resort Long Kaftan",
+      "slug": "crimson-flame-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1690178783393.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 161"
+    },
+    {
+      "id": "kf-0162",
+      "sku": "WST-KF-0162",
+      "name": "Midnight Sky Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "midnight-sky-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1690178778887.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 162"
+    },
+    {
+      "id": "kf-0163",
+      "sku": "WST-KF-0163",
+      "name": "Saffron Mirage Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "saffron-mirage-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1690178773334.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 163"
+    },
+    {
+      "id": "kf-0164",
+      "sku": "WST-KF-0164",
+      "name": "Alabaster White Resort Flowing Flared Caftan Tunic",
+      "slug": "alabaster-white-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1785152907686.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 164"
+    },
+    {
+      "id": "kf-0165",
+      "sku": "WST-KF-0165",
+      "name": "Olive Grove Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "olive-grove-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1785152909493.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 165"
+    },
+    {
+      "id": "kf-0166",
+      "sku": "WST-KF-0166",
+      "name": "Fuchsia Tropics Kimono Silhouette Flared Caftan Tunic",
+      "slug": "fuchsia-tropics-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1785152911304.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 166"
+    },
+    {
+      "id": "kf-0167",
+      "sku": "WST-KF-0167",
+      "name": "Azure Coast V-Neck Relaxed Resort Long Kaftan",
+      "slug": "azure-coast-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1785152913079.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 167"
+    },
+    {
+      "id": "kf-0168",
+      "sku": "WST-KF-0168",
+      "name": "Chestnut Earth Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "chestnut-earth-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1785154010654.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 168"
+    },
+    {
+      "id": "kf-0169",
+      "sku": "WST-KF-0169",
+      "name": "Peacock Green Border Print Accented Resort Long Kaftan",
+      "slug": "peacock-green-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1785154013510.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 169"
+    },
+    {
+      "id": "kf-0170",
+      "sku": "WST-KF-0170",
+      "name": "Lavender Haze Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "lavender-haze-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1785154029287.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 170"
+    },
+    {
+      "id": "kf-0171",
+      "sku": "WST-KF-0171",
+      "name": "Amber Glow Batwing Sleeve Resort Long Kaftan",
+      "slug": "amber-glow-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589207306.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 171"
+    },
+    {
+      "id": "kf-0172",
+      "sku": "WST-KF-0172",
+      "name": "Teal Ripple Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "teal-ripple-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589204905.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 172"
+    },
+    {
+      "id": "kf-0173",
+      "sku": "WST-KF-0173",
+      "name": "Paprika Spice Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "paprika-spice-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589202922.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 173"
+    },
+    {
+      "id": "kf-0174",
+      "sku": "WST-KF-0174",
+      "name": "Mulberry Bloom Resort Flowing Flared Caftan Tunic",
+      "slug": "mulberry-bloom-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589192882.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 174"
+    },
+    {
+      "id": "kf-0175",
+      "sku": "WST-KF-0175",
+      "name": "Golden Sand Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "golden-sand-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589211867.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 175"
+    },
+    {
+      "id": "kf-0176",
+      "sku": "WST-KF-0176",
+      "name": "Ocean Turquoise V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "ocean-turquoise-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589209278.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 176"
+    },
+    {
+      "id": "kf-0177",
+      "sku": "WST-KF-0177",
+      "name": "Coral Sunset Artisanal Block Placed Resort Long Kaftan",
+      "slug": "coral-sunset-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589214498.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 177"
+    },
+    {
+      "id": "kf-0178",
+      "sku": "WST-KF-0178",
+      "name": "Desert Palm Border Print Accented Flared Caftan Tunic",
+      "slug": "desert-palm-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589181073.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 178"
+    },
+    {
+      "id": "kf-0179",
+      "sku": "WST-KF-0179",
+      "name": "Indigo Wave Tiered Hem Flared Resort Long Kaftan",
+      "slug": "indigo-wave-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1654342824568.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 179"
+    },
+    {
+      "id": "kf-0180",
+      "sku": "WST-KF-0180",
+      "name": "Marigold Sun Batwing Sleeve Flared Caftan Tunic",
+      "slug": "marigold-sun-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589186043.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 180"
+    },
+    {
+      "id": "kf-0181",
+      "sku": "WST-KF-0181",
+      "name": "Orchid Purple Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "orchid-purple-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1654342807725.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 181"
+    },
+    {
+      "id": "kf-0182",
+      "sku": "WST-KF-0182",
+      "name": "Mint Splash Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "mint-splash-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/FB_IMG_1684589183630.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 182"
+    },
+    {
+      "id": "kf-0183",
+      "sku": "WST-KF-0183",
+      "name": "Pistachio Sage Resort Flowing Resort Long Kaftan",
+      "slug": "pistachio-sage-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/f787c3c7639788d8dcb0ed04c16e369b_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 183"
+    },
+    {
+      "id": "kf-0184",
+      "sku": "WST-KF-0184",
+      "name": "Honey Gold Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "honey-gold-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/f34022bdab374b987b94e419b2a81c92-1.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 184"
+    },
+    {
+      "id": "kf-0185",
+      "sku": "WST-KF-0185",
+      "name": "Dusty Mauve Kimono Silhouette Resort Long Kaftan",
+      "slug": "dusty-mauve-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/751a42df73332193b2c6bfee7c5f8d20_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 185"
+    },
+    {
+      "id": "kf-0186",
+      "sku": "WST-KF-0186",
+      "name": "Crimson Flame V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "crimson-flame-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/0b98b871526a158d621b68d74c954c4b.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 186"
+    },
+    {
+      "id": "kf-0187",
+      "sku": "WST-KF-0187",
+      "name": "Midnight Sky Artisanal Block Placed Resort Long Kaftan",
+      "slug": "midnight-sky-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/023fdea0b48306bda8bc878660bf429f.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 187"
+    },
+    {
+      "id": "kf-0188",
+      "sku": "WST-KF-0188",
+      "name": "Saffron Mirage Border Print Accented Flared Caftan Tunic",
+      "slug": "saffron-mirage-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/0041a02dcf6def76a860d012cb1771f5_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 188"
+    },
+    {
+      "id": "kf-0189",
+      "sku": "WST-KF-0189",
+      "name": "Alabaster White Tiered Hem Flared Resort Long Kaftan",
+      "slug": "alabaster-white-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/05dbdaa6daee33cad00f07b97f6ff364_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 189"
+    },
+    {
+      "id": "kf-0190",
+      "sku": "WST-KF-0190",
+      "name": "Olive Grove Batwing Sleeve Flared Caftan Tunic",
+      "slug": "olive-grove-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/378fd6c8aacda094a45d13570f4e5b55_2.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 190"
+    },
+    {
+      "id": "kf-0191",
+      "sku": "WST-KF-0191",
+      "name": "Fuchsia Tropics Slit Hem Bohemian Resort Long Kaftan",
+      "slug": "fuchsia-tropics-slit-hem-bohemian-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/e2a3a99c2a0e02abdb1f1849f145bfcb.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 191"
+    },
+    {
+      "id": "kf-0192",
+      "sku": "WST-KF-0192",
+      "name": "Azure Coast Hand-Tied Keyhole Flared Caftan Tunic",
+      "slug": "azure-coast-hand-tied-keyhole-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/e6fea89a488d34b6165240ebb2ae04be_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 192"
+    },
+    {
+      "id": "kf-0193",
+      "sku": "WST-KF-0193",
+      "name": "Chestnut Earth Resort Flowing Resort Long Kaftan",
+      "slug": "chestnut-earth-resort-flowing-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/e2784fce6f4bc7cd5258f0d1d8adeab2-1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 193"
+    },
+    {
+      "id": "kf-0194",
+      "sku": "WST-KF-0194",
+      "name": "Peacock Green Tasselled Drawstring Waist Flared Caftan Tunic",
+      "slug": "peacock-green-tasselled-drawstring-waist-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/dddb74008b87a02dd9d40108ba3b1785_2.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 194"
+    },
+    {
+      "id": "kf-0195",
+      "sku": "WST-KF-0195",
+      "name": "Lavender Haze Kimono Silhouette Resort Long Kaftan",
+      "slug": "lavender-haze-kimono-silhouette-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/dd99a61954a5d0e36f1309c0f862861d_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 195"
+    },
+    {
+      "id": "kf-0196",
+      "sku": "WST-KF-0196",
+      "name": "Amber Glow V-Neck Relaxed Flared Caftan Tunic",
+      "slug": "amber-glow-v-neck-relaxed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/db9aebb2832c860884a8ec5b83fc31d4_2.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 196"
+    },
+    {
+      "id": "kf-0197",
+      "sku": "WST-KF-0197",
+      "name": "Teal Ripple Artisanal Block Placed Resort Long Kaftan",
+      "slug": "teal-ripple-artisanal-block-placed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/a5b37718706c9a97ab0e4eeef7b4f7ea_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 197"
+    },
+    {
+      "id": "kf-0198",
+      "sku": "WST-KF-0198",
+      "name": "Paprika Spice Border Print Accented Flared Caftan Tunic",
+      "slug": "paprika-spice-border-print-accented-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/c8fe288c29af436f4f97156da1766afc_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 198"
+    },
+    {
+      "id": "kf-0199",
+      "sku": "WST-KF-0199",
+      "name": "Mulberry Bloom Tiered Hem Flared Resort Long Kaftan",
+      "slug": "mulberry-bloom-tiered-hem-flared-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/3e7157a1792d12b96d986f77a2a4fa51_2.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 199"
+    },
+    {
+      "id": "kf-0200",
+      "sku": "WST-KF-0200",
+      "name": "Golden Sand Batwing Sleeve Flared Caftan Tunic",
+      "slug": "golden-sand-batwing-sleeve-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/451bfca8945a98951a56be2c76768fdf_2.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 200"
+    },
+    {
+      "id": "kf-0201",
+      "sku": "WST-KF-0201",
+      "name": "Ocean Turquoise Hand-Tied Keyhole Resort Long Kaftan",
+      "slug": "ocean-turquoise-hand-tied-keyhole-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/68ecb44adef7d83a64f23b59371d7601_1.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 201"
+    },
+    {
+      "id": "kf-0202",
+      "sku": "WST-KF-0202",
+      "name": "Coral Sunset Resort Flowing Flared Caftan Tunic",
+      "slug": "coral-sunset-resort-flowing-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/a23c46e1cc4471c0e70bba0c11396abc.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 202"
+    },
+    {
+      "id": "kf-0203",
+      "sku": "WST-KF-0203",
+      "name": "Desert Palm Tasselled Drawstring Waist Resort Long Kaftan",
+      "slug": "desert-palm-tasselled-drawstring-waist-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/9b98d56f2bb48d5f61b9600cde8c1453.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 203"
+    },
+    {
+      "id": "kf-0204",
+      "sku": "WST-KF-0204",
+      "name": "Indigo Wave Kimono Silhouette Flared Caftan Tunic",
+      "slug": "indigo-wave-kimono-silhouette-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/387579ebaeebe52b01dad5dec46be5c6.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 204"
+    },
+    {
+      "id": "kf-0205",
+      "sku": "WST-KF-0205",
+      "name": "Marigold Sun V-Neck Relaxed Resort Long Kaftan",
+      "slug": "marigold-sun-v-neck-relaxed-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/a66a66f53f28ad237e7e577599fb89f5_2.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 205"
+    },
+    {
+      "id": "kf-0206",
+      "sku": "WST-KF-0206",
+      "name": "Orchid Purple Artisanal Block Placed Flared Caftan Tunic",
+      "slug": "orchid-purple-artisanal-block-placed-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/8a3eb0d8fcdf83dc2bba55c8e8e0f9d1_2.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 206"
+    },
+    {
+      "id": "kf-0207",
+      "sku": "WST-KF-0207",
+      "name": "Mint Splash Border Print Accented Resort Long Kaftan",
+      "slug": "mint-splash-border-print-accented-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/984a2240420b951bef1ffe7210234321_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 207"
+    },
+    {
+      "id": "kf-0208",
+      "sku": "WST-KF-0208",
+      "name": "Pistachio Sage Tiered Hem Flared Flared Caftan Tunic",
+      "slug": "pistachio-sage-tiered-hem-flared-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/614df56bbdae8419b571bca9c066515b_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 208"
+    },
+    {
+      "id": "kf-0209",
+      "sku": "WST-KF-0209",
+      "name": "Honey Gold Batwing Sleeve Resort Long Kaftan",
+      "slug": "honey-gold-batwing-sleeve-resort-long-kaftan",
+      "coverPhoto": "/short-long-kaftan/6288be65095fad1f521e0850e1c89ad6_2.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 209"
+    },
+    {
+      "id": "kf-0210",
+      "sku": "WST-KF-0210",
+      "name": "Dusty Mauve Slit Hem Bohemian Flared Caftan Tunic",
+      "slug": "dusty-mauve-slit-hem-bohemian-flared-caftan-tunic",
+      "coverPhoto": "/short-long-kaftan/48c58203c160511d4d937fa69311fba8_1.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 210"
+    }
+  ]
+}

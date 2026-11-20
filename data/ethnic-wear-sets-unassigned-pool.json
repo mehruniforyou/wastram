@@ -1,0 +1,932 @@
+{
+  "category": "ethnic-wear-sets",
+  "categoryName": "Ethnic Wear Sets",
+  "generatedAt": "2026-11-20T10:16:21.589Z",
+  "statistics": {
+    "total_category_images": 445,
+    "productised_images_used": 445,
+    "remaining_unassigned_images": 0,
+    "product_groups_created": 102
+  },
+  "unassigned_images": [],
+  "products_reference": [
+    {
+      "id": "ew-0001",
+      "sku": "WST-EW-0001",
+      "name": "Haldi Yellow Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+      "slug": "haldi-yellow-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1765518943357.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "ew-0002",
+      "sku": "WST-EW-0002",
+      "name": "Rani Pink Hand-Zardozi Accented Angrakha Kurta Set",
+      "slug": "rani-pink-hand-zardozi-accented-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1767272858627.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "ew-0003",
+      "sku": "WST-EW-0003",
+      "name": "Royal Peacock Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+      "slug": "royal-peacock-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1769102687896.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "ew-0004",
+      "sku": "WST-EW-0004",
+      "name": "Emerald Green Dabu Block Printed Angrakha Kurta Set",
+      "slug": "emerald-green-dabu-block-printed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1769102699483.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "ew-0005",
+      "sku": "WST-EW-0005",
+      "name": "Wine Maroon Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+      "slug": "wine-maroon-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1769438470460.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "ew-0006",
+      "sku": "WST-EW-0006",
+      "name": "Peach Blossom Chanderi Dupatta Paired Angrakha Kurta Set",
+      "slug": "peach-blossom-chanderi-dupatta-paired-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1777813726795.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "ew-0007",
+      "sku": "WST-EW-0007",
+      "name": "Ivory Zari Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+      "slug": "ivory-zari-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1777813801321.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "ew-0008",
+      "sku": "WST-EW-0008",
+      "name": "Turquoise Jewel Anarkali Flared Angrakha Kurta Set",
+      "slug": "turquoise-jewel-anarkali-flared-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1781777250117.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "ew-0009",
+      "sku": "WST-EW-0009",
+      "name": "Dusty Rose Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+      "slug": "dusty-rose-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1784914673176.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "ew-0010",
+      "sku": "WST-EW-0010",
+      "name": "Midnight Sapphire Gota Lace Detailed Angrakha Kurta Set",
+      "slug": "midnight-sapphire-gota-lace-detailed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1784914701058.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "ew-0011",
+      "sku": "WST-EW-0011",
+      "name": "Rust Henna Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+      "slug": "rust-henna-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1784914716249.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "ew-0012",
+      "sku": "WST-EW-0012",
+      "name": "Sage Olive Hand-Zardozi Accented Angrakha Kurta Set",
+      "slug": "sage-olive-hand-zardozi-accented-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1784914813620.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "ew-0013",
+      "sku": "WST-EW-0013",
+      "name": "Sunset Crimson Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+      "slug": "sunset-crimson-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1784914992386.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "ew-0014",
+      "sku": "WST-EW-0014",
+      "name": "Opal Cream Dabu Block Printed Angrakha Kurta Set",
+      "slug": "opal-cream-dabu-block-printed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1784915608491.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "ew-0015",
+      "sku": "WST-EW-0015",
+      "name": "Kashish Grey Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+      "slug": "kashish-grey-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1785237582579.jpg.jpeg",
+      "photosCount": 17,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "ew-0016",
+      "sku": "WST-EW-0016",
+      "name": "Coral Amber Chanderi Dupatta Paired Angrakha Kurta Set",
+      "slug": "coral-amber-chanderi-dupatta-paired-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315479056.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 016"
+    },
+    {
+      "id": "ew-0017",
+      "sku": "WST-EW-0017",
+      "name": "Plum Regal Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+      "slug": "plum-regal-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1754660377224.jpg.jpeg",
+      "photosCount": 11,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "ew-0018",
+      "sku": "WST-EW-0018",
+      "name": "Lilac Bloom Anarkali Flared Angrakha Kurta Set",
+      "slug": "lilac-bloom-anarkali-flared-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315418236.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "ew-0019",
+      "sku": "WST-EW-0019",
+      "name": "Mocha Bronze Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+      "slug": "mocha-bronze-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315509634.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "ew-0020",
+      "sku": "WST-EW-0020",
+      "name": "Teal Maharani Gota Lace Detailed Angrakha Kurta Set",
+      "slug": "teal-maharani-gota-lace-detailed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315521652.jpg.jpeg",
+      "photosCount": 10,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "ew-0021",
+      "sku": "WST-EW-0021",
+      "name": "Haldi Yellow Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+      "slug": "haldi-yellow-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315630756.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 021"
+    },
+    {
+      "id": "ew-0022",
+      "sku": "WST-EW-0022",
+      "name": "Rani Pink Sanganeri Royal Floral Angrakha Kurta Set",
+      "slug": "rani-pink-sanganeri-royal-floral-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315638208.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 022"
+    },
+    {
+      "id": "ew-0023",
+      "sku": "WST-EW-0023",
+      "name": "Royal Peacock Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "royal-peacock-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315681329.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 023"
+    },
+    {
+      "id": "ew-0024",
+      "sku": "WST-EW-0024",
+      "name": "Emerald Green Embroidered Yoke Pleated Angrakha Kurta Set",
+      "slug": "emerald-green-embroidered-yoke-pleated-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315772346.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 024"
+    },
+    {
+      "id": "ew-0025",
+      "sku": "WST-EW-0025",
+      "name": "Wine Maroon Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+      "slug": "wine-maroon-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315816771.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 025"
+    },
+    {
+      "id": "ew-0026",
+      "sku": "WST-EW-0026",
+      "name": "Peach Blossom Angrakha Cutwork Angrakha Kurta Set",
+      "slug": "peach-blossom-angrakha-cutwork-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315830919.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 026"
+    },
+    {
+      "id": "ew-0027",
+      "sku": "WST-EW-0027",
+      "name": "Ivory Zari Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+      "slug": "ivory-zari-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315836325.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 027"
+    },
+    {
+      "id": "ew-0028",
+      "sku": "WST-EW-0028",
+      "name": "Turquoise Jewel Straight Silhouette Angrakha Kurta Set",
+      "slug": "turquoise-jewel-straight-silhouette-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315899562.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 028"
+    },
+    {
+      "id": "ew-0029",
+      "sku": "WST-EW-0029",
+      "name": "Dusty Rose Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "dusty-rose-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315908860.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 029"
+    },
+    {
+      "id": "ew-0030",
+      "sku": "WST-EW-0030",
+      "name": "Midnight Sapphire Gota Patti Embroidered Angrakha Kurta Set",
+      "slug": "midnight-sapphire-gota-patti-embroidered-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315951076.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 030"
+    },
+    {
+      "id": "ew-0031",
+      "sku": "WST-EW-0031",
+      "name": "Rust Henna Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+      "slug": "rust-henna-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789315923589.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 031"
+    },
+    {
+      "id": "ew-0032",
+      "sku": "WST-EW-0032",
+      "name": "Sage Olive Sanganeri Royal Floral Angrakha Kurta Set",
+      "slug": "sage-olive-sanganeri-royal-floral-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789316009446.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 032"
+    },
+    {
+      "id": "ew-0033",
+      "sku": "WST-EW-0033",
+      "name": "Sunset Crimson Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "sunset-crimson-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789316000779.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 033"
+    },
+    {
+      "id": "ew-0034",
+      "sku": "WST-EW-0034",
+      "name": "Opal Cream Embroidered Yoke Pleated Angrakha Kurta Set",
+      "slug": "opal-cream-embroidered-yoke-pleated-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789730881839.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 034"
+    },
+    {
+      "id": "ew-0035",
+      "sku": "WST-EW-0035",
+      "name": "Kashish Grey Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+      "slug": "kashish-grey-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1789731051222.jpg.jpeg",
+      "photosCount": 24,
+      "originalGroup": "Product Group 035"
+    },
+    {
+      "id": "ew-0036",
+      "sku": "WST-EW-0036",
+      "name": "Coral Amber Angrakha Cutwork Angrakha Kurta Set",
+      "slug": "coral-amber-angrakha-cutwork-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1790246745674.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 036"
+    },
+    {
+      "id": "ew-0037",
+      "sku": "WST-EW-0037",
+      "name": "Plum Regal Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+      "slug": "plum-regal-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1790246751998.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 037"
+    },
+    {
+      "id": "ew-0038",
+      "sku": "WST-EW-0038",
+      "name": "Lilac Bloom Straight Silhouette Angrakha Kurta Set",
+      "slug": "lilac-bloom-straight-silhouette-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/FB_IMG_1793286508988.jpg.jpeg",
+      "photosCount": 20,
+      "originalGroup": "Product Group 038"
+    },
+    {
+      "id": "ew-0039",
+      "sku": "WST-EW-0039",
+      "name": "Mocha Bronze Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "mocha-bronze-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20250731-WA1521.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 039"
+    },
+    {
+      "id": "ew-0040",
+      "sku": "WST-EW-0040",
+      "name": "Teal Maharani Gota Patti Embroidered Angrakha Kurta Set",
+      "slug": "teal-maharani-gota-patti-embroidered-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20250823-WA0033.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 040"
+    },
+    {
+      "id": "ew-0041",
+      "sku": "WST-EW-0041",
+      "name": "Haldi Yellow Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+      "slug": "haldi-yellow-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261007-WA0019.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 041"
+    },
+    {
+      "id": "ew-0042",
+      "sku": "WST-EW-0042",
+      "name": "Rani Pink Dabu Block Printed Angrakha Kurta Set",
+      "slug": "rani-pink-dabu-block-printed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261013-WA0069.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 042"
+    },
+    {
+      "id": "ew-0043",
+      "sku": "WST-EW-0043",
+      "name": "Royal Peacock Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+      "slug": "royal-peacock-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261014-WA0004.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 043"
+    },
+    {
+      "id": "ew-0044",
+      "sku": "WST-EW-0044",
+      "name": "Emerald Green Chanderi Dupatta Paired Angrakha Kurta Set",
+      "slug": "emerald-green-chanderi-dupatta-paired-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261014-WA0250.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 044"
+    },
+    {
+      "id": "ew-0045",
+      "sku": "WST-EW-0045",
+      "name": "Wine Maroon Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+      "slug": "wine-maroon-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261014-WA0251.jpg.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 045"
+    },
+    {
+      "id": "ew-0046",
+      "sku": "WST-EW-0046",
+      "name": "Peach Blossom Anarkali Flared Angrakha Kurta Set",
+      "slug": "peach-blossom-anarkali-flared-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261015-WA0148.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 046"
+    },
+    {
+      "id": "ew-0047",
+      "sku": "WST-EW-0047",
+      "name": "Ivory Zari Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+      "slug": "ivory-zari-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261016-WA0076.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 047"
+    },
+    {
+      "id": "ew-0048",
+      "sku": "WST-EW-0048",
+      "name": "Turquoise Jewel Gota Lace Detailed Angrakha Kurta Set",
+      "slug": "turquoise-jewel-gota-lace-detailed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261016-WA0080.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 048"
+    },
+    {
+      "id": "ew-0049",
+      "sku": "WST-EW-0049",
+      "name": "Dusty Rose Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+      "slug": "dusty-rose-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261016-WA0106.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 049"
+    },
+    {
+      "id": "ew-0050",
+      "sku": "WST-EW-0050",
+      "name": "Midnight Sapphire Hand-Zardozi Accented Angrakha Kurta Set",
+      "slug": "midnight-sapphire-hand-zardozi-accented-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261017-WA0099.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 050"
+    },
+    {
+      "id": "ew-0051",
+      "sku": "WST-EW-0051",
+      "name": "Rust Henna Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+      "slug": "rust-henna-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261017-WA0104.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 051"
+    },
+    {
+      "id": "ew-0052",
+      "sku": "WST-EW-0052",
+      "name": "Sage Olive Dabu Block Printed Angrakha Kurta Set",
+      "slug": "sage-olive-dabu-block-printed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA0445.jpg.jpeg",
+      "photosCount": 22,
+      "originalGroup": "Product Group 052"
+    },
+    {
+      "id": "ew-0053",
+      "sku": "WST-EW-0053",
+      "name": "Sunset Crimson Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+      "slug": "sunset-crimson-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-25-46_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 053"
+    },
+    {
+      "id": "ew-0054",
+      "sku": "WST-EW-0054",
+      "name": "Opal Cream Chanderi Dupatta Paired Angrakha Kurta Set",
+      "slug": "opal-cream-chanderi-dupatta-paired-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/Screenshot_2026-05-04-23-09-28-33_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 054"
+    },
+    {
+      "id": "ew-0055",
+      "sku": "WST-EW-0055",
+      "name": "Kashish Grey Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+      "slug": "kashish-grey-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0152.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 055"
+    },
+    {
+      "id": "ew-0056",
+      "sku": "WST-EW-0056",
+      "name": "Coral Amber Anarkali Flared Angrakha Kurta Set",
+      "slug": "coral-amber-anarkali-flared-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0141.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 056"
+    },
+    {
+      "id": "ew-0057",
+      "sku": "WST-EW-0057",
+      "name": "Plum Regal Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+      "slug": "plum-regal-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0150.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 057"
+    },
+    {
+      "id": "ew-0058",
+      "sku": "WST-EW-0058",
+      "name": "Lilac Bloom Gota Lace Detailed Angrakha Kurta Set",
+      "slug": "lilac-bloom-gota-lace-detailed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0144.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 058"
+    },
+    {
+      "id": "ew-0059",
+      "sku": "WST-EW-0059",
+      "name": "Mocha Bronze Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+      "slug": "mocha-bronze-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0157.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 059"
+    },
+    {
+      "id": "ew-0060",
+      "sku": "WST-EW-0060",
+      "name": "Teal Maharani Hand-Zardozi Accented Angrakha Kurta Set",
+      "slug": "teal-maharani-hand-zardozi-accented-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0159.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 060"
+    },
+    {
+      "id": "ew-0061",
+      "sku": "WST-EW-0061",
+      "name": "Haldi Yellow Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "haldi-yellow-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0170.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 061"
+    },
+    {
+      "id": "ew-0062",
+      "sku": "WST-EW-0062",
+      "name": "Rani Pink Embroidered Yoke Pleated Angrakha Kurta Set",
+      "slug": "rani-pink-embroidered-yoke-pleated-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0171.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 062"
+    },
+    {
+      "id": "ew-0063",
+      "sku": "WST-EW-0063",
+      "name": "Royal Peacock Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+      "slug": "royal-peacock-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0163.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 063"
+    },
+    {
+      "id": "ew-0064",
+      "sku": "WST-EW-0064",
+      "name": "Emerald Green Angrakha Cutwork Angrakha Kurta Set",
+      "slug": "emerald-green-angrakha-cutwork-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0156.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 064"
+    },
+    {
+      "id": "ew-0065",
+      "sku": "WST-EW-0065",
+      "name": "Wine Maroon Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+      "slug": "wine-maroon-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0178.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 065"
+    },
+    {
+      "id": "ew-0066",
+      "sku": "WST-EW-0066",
+      "name": "Peach Blossom Straight Silhouette Angrakha Kurta Set",
+      "slug": "peach-blossom-straight-silhouette-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0180.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 066"
+    },
+    {
+      "id": "ew-0067",
+      "sku": "WST-EW-0067",
+      "name": "Ivory Zari Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "ivory-zari-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0177.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 067"
+    },
+    {
+      "id": "ew-0068",
+      "sku": "WST-EW-0068",
+      "name": "Turquoise Jewel Gota Patti Embroidered Angrakha Kurta Set",
+      "slug": "turquoise-jewel-gota-patti-embroidered-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0179.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 068"
+    },
+    {
+      "id": "ew-0069",
+      "sku": "WST-EW-0069",
+      "name": "Dusty Rose Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+      "slug": "dusty-rose-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0155.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 069"
+    },
+    {
+      "id": "ew-0070",
+      "sku": "WST-EW-0070",
+      "name": "Midnight Sapphire Sanganeri Royal Floral Angrakha Kurta Set",
+      "slug": "midnight-sapphire-sanganeri-royal-floral-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0181.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 070"
+    },
+    {
+      "id": "ew-0071",
+      "sku": "WST-EW-0071",
+      "name": "Rust Henna Dabu Block Printed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "rust-henna-dabu-block-printed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0391.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 071"
+    },
+    {
+      "id": "ew-0072",
+      "sku": "WST-EW-0072",
+      "name": "Sage Olive Embroidered Yoke Pleated Angrakha Kurta Set",
+      "slug": "sage-olive-embroidered-yoke-pleated-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0431.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 072"
+    },
+    {
+      "id": "ew-0073",
+      "sku": "WST-EW-0073",
+      "name": "Sunset Crimson Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+      "slug": "sunset-crimson-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0396.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 073"
+    },
+    {
+      "id": "ew-0074",
+      "sku": "WST-EW-0074",
+      "name": "Opal Cream Angrakha Cutwork Angrakha Kurta Set",
+      "slug": "opal-cream-angrakha-cutwork-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0410.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 074"
+    },
+    {
+      "id": "ew-0075",
+      "sku": "WST-EW-0075",
+      "name": "Kashish Grey Anarkali Flared 3-Piece Kurta Pant Dupatta Set",
+      "slug": "kashish-grey-anarkali-flared-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0401.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 075"
+    },
+    {
+      "id": "ew-0076",
+      "sku": "WST-EW-0076",
+      "name": "Coral Amber Straight Silhouette Angrakha Kurta Set",
+      "slug": "coral-amber-straight-silhouette-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0392.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 076"
+    },
+    {
+      "id": "ew-0077",
+      "sku": "WST-EW-0077",
+      "name": "Plum Regal Gota Lace Detailed 3-Piece Kurta Pant Dupatta Set",
+      "slug": "plum-regal-gota-lace-detailed-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0404.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 077"
+    },
+    {
+      "id": "ew-0078",
+      "sku": "WST-EW-0078",
+      "name": "Lilac Bloom Gota Patti Embroidered Angrakha Kurta Set",
+      "slug": "lilac-bloom-gota-patti-embroidered-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0428.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 078"
+    },
+    {
+      "id": "ew-0079",
+      "sku": "WST-EW-0079",
+      "name": "Mocha Bronze Hand-Zardozi Accented 3-Piece Kurta Pant Dupatta Set",
+      "slug": "mocha-bronze-hand-zardozi-accented-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0421.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 079"
+    },
+    {
+      "id": "ew-0080",
+      "sku": "WST-EW-0080",
+      "name": "Teal Maharani Sanganeri Royal Floral Angrakha Kurta Set",
+      "slug": "teal-maharani-sanganeri-royal-floral-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0430.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 080"
+    },
+    {
+      "id": "ew-0081",
+      "sku": "WST-EW-0081",
+      "name": "Haldi Yellow Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+      "slug": "haldi-yellow-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0433.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 081"
+    },
+    {
+      "id": "ew-0082",
+      "sku": "WST-EW-0082",
+      "name": "Rani Pink Chanderi Dupatta Paired Angrakha Kurta Set",
+      "slug": "rani-pink-chanderi-dupatta-paired-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261019-WA0427.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 082"
+    },
+    {
+      "id": "ew-0083",
+      "sku": "WST-EW-0083",
+      "name": "Royal Peacock Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+      "slug": "royal-peacock-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261023-WA0056.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 083"
+    },
+    {
+      "id": "ew-0084",
+      "sku": "WST-EW-0084",
+      "name": "Emerald Green Anarkali Flared Angrakha Kurta Set",
+      "slug": "emerald-green-anarkali-flared-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261023-WA0070.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 084"
+    },
+    {
+      "id": "ew-0085",
+      "sku": "WST-EW-0085",
+      "name": "Wine Maroon Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+      "slug": "wine-maroon-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261023-WA0077.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 085"
+    },
+    {
+      "id": "ew-0086",
+      "sku": "WST-EW-0086",
+      "name": "Peach Blossom Gota Lace Detailed Angrakha Kurta Set",
+      "slug": "peach-blossom-gota-lace-detailed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261023-WA0096.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 086"
+    },
+    {
+      "id": "ew-0087",
+      "sku": "WST-EW-0087",
+      "name": "Ivory Zari Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+      "slug": "ivory-zari-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261029-WA0058.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 087"
+    },
+    {
+      "id": "ew-0088",
+      "sku": "WST-EW-0088",
+      "name": "Turquoise Jewel Hand-Zardozi Accented Angrakha Kurta Set",
+      "slug": "turquoise-jewel-hand-zardozi-accented-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261029-WA0062.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 088"
+    },
+    {
+      "id": "ew-0089",
+      "sku": "WST-EW-0089",
+      "name": "Dusty Rose Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+      "slug": "dusty-rose-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261029-WA0075.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 089"
+    },
+    {
+      "id": "ew-0090",
+      "sku": "WST-EW-0090",
+      "name": "Midnight Sapphire Dabu Block Printed Angrakha Kurta Set",
+      "slug": "midnight-sapphire-dabu-block-printed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261029-WA0074.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 090"
+    },
+    {
+      "id": "ew-0091",
+      "sku": "WST-EW-0091",
+      "name": "Rust Henna Embroidered Yoke Pleated 3-Piece Kurta Pant Dupatta Set",
+      "slug": "rust-henna-embroidered-yoke-pleated-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261029-WA0079.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 091"
+    },
+    {
+      "id": "ew-0092",
+      "sku": "WST-EW-0092",
+      "name": "Sage Olive Chanderi Dupatta Paired Angrakha Kurta Set",
+      "slug": "sage-olive-chanderi-dupatta-paired-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261029-WA0080.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 092"
+    },
+    {
+      "id": "ew-0093",
+      "sku": "WST-EW-0093",
+      "name": "Sunset Crimson Angrakha Cutwork 3-Piece Kurta Pant Dupatta Set",
+      "slug": "sunset-crimson-angrakha-cutwork-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261029-WA0085.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 093"
+    },
+    {
+      "id": "ew-0094",
+      "sku": "WST-EW-0094",
+      "name": "Opal Cream Anarkali Flared Angrakha Kurta Set",
+      "slug": "opal-cream-anarkali-flared-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA7641.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 094"
+    },
+    {
+      "id": "ew-0095",
+      "sku": "WST-EW-0095",
+      "name": "Kashish Grey Straight Silhouette 3-Piece Kurta Pant Dupatta Set",
+      "slug": "kashish-grey-straight-silhouette-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA9743.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 095"
+    },
+    {
+      "id": "ew-0096",
+      "sku": "WST-EW-0096",
+      "name": "Coral Amber Gota Lace Detailed Angrakha Kurta Set",
+      "slug": "coral-amber-gota-lace-detailed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA0599.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 096"
+    },
+    {
+      "id": "ew-0097",
+      "sku": "WST-EW-0097",
+      "name": "Plum Regal Gota Patti Embroidered 3-Piece Kurta Pant Dupatta Set",
+      "slug": "plum-regal-gota-patti-embroidered-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA8879.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 097"
+    },
+    {
+      "id": "ew-0098",
+      "sku": "WST-EW-0098",
+      "name": "Lilac Bloom Hand-Zardozi Accented Angrakha Kurta Set",
+      "slug": "lilac-bloom-hand-zardozi-accented-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA4295.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 098"
+    },
+    {
+      "id": "ew-0099",
+      "sku": "WST-EW-0099",
+      "name": "Mocha Bronze Sanganeri Royal Floral 3-Piece Kurta Pant Dupatta Set",
+      "slug": "mocha-bronze-sanganeri-royal-floral-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA7246.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 099"
+    },
+    {
+      "id": "ew-0100",
+      "sku": "WST-EW-0100",
+      "name": "Teal Maharani Dabu Block Printed Angrakha Kurta Set",
+      "slug": "teal-maharani-dabu-block-printed-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA3163.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 100"
+    },
+    {
+      "id": "ew-0101",
+      "sku": "WST-EW-0101",
+      "name": "Haldi Yellow Chanderi Dupatta Paired 3-Piece Kurta Pant Dupatta Set",
+      "slug": "haldi-yellow-chanderi-dupatta-paired-3-piece-kurta-pant-dupatta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA7263.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 101"
+    },
+    {
+      "id": "ew-0102",
+      "sku": "WST-EW-0102",
+      "name": "Rani Pink Angrakha Cutwork Angrakha Kurta Set",
+      "slug": "rani-pink-angrakha-cutwork-angrakha-kurta-set",
+      "coverPhoto": "/ethnic-wear-sets/IMG-20261102-WA2380.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 102"
+    }
+  ]
+}

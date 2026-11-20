@@ -1,0 +1,3236 @@
+{
+  "category": "umbrella-dresses",
+  "categoryName": "Umbrella Dresses",
+  "generatedAt": "2026-11-20T10:16:21.605Z",
+  "statistics": {
+    "total_category_images": 518,
+    "productised_images_used": 148,
+    "remaining_unassigned_images": 370,
+    "product_groups_created": 29
+  },
+  "unassigned_images": [
+    {
+      "filename": "FB_IMG_1741762616331.jpg.jpeg",
+      "url": "/umbrella-dresses/FB_IMG_1741762616331.jpg.jpeg",
+      "path": "public/umbrella-dresses/FB_IMG_1741762616331.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA2384.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261102-WA2384.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261102-WA2384.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261102-WA8436.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261102-WA8436.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261102-WA8436.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0012.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0012.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0012.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0053.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0053.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0053.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0054.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0054.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0054.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0086.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0086.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0086.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0127.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0127.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0127.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0218.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0218.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0218.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0229.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0229.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0229.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0230.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0230.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0230.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0248.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0248.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0248.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0254.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0254.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0254.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0290.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0290.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0290.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0304.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0304.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0304.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0307.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0307.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0307.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0327.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0327.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0327.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0338.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0338.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0338.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0368.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0368.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0368.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0382.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0382.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0382.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0388.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0388.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0388.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0412.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0412.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0412.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0461.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0461.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0461.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0502.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0502.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0502.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0543.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0543.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0543.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0580.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0580.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0580.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0617.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0617.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0617.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0625.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0625.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0625.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0678.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0678.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0678.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0737.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0737.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0737.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0763.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0763.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0763.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0774.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0774.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0774.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0815.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0815.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0815.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0846.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0846.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0846.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0889.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0889.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0889.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0900.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0900.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0900.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0902.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0902.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0902.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0970.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0970.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0970.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0975.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0975.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0975.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0978.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA0978.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA0978.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1020.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1020.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1020.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1029.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1029.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1029.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1045.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1045.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1045.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1079.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1079.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1079.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1098.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1098.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1098.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1132.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1132.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1132.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1133.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1133.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1133.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1155.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1155.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1155.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1157.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1157.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1157.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1162.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1162.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1162.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1184.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1184.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1184.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1195.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1195.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1195.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1217.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1217.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1217.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1236.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1236.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1236.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1238.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1238.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1238.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1249.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1249.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1249.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1253.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1253.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1253.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1260.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1260.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1260.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1261.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1261.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1261.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1276.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1276.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1276.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1313.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1313.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1313.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1320.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1320.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1320.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1360.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1360.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1360.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1362.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1362.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1362.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1370.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1370.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1370.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1428.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1428.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1428.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1462.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1462.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1462.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1522.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1522.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1522.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1538.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1538.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1538.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1547.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1547.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1547.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1610.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1610.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1610.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1644.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1644.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1644.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1683.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1683.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1683.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1687.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1687.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1687.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1689.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1689.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1689.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1690.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1690.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1690.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1701.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1701.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1701.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1744.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1744.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1744.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1752.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1752.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1752.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1826.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1826.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1826.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1835.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1835.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1835.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1847.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1847.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1847.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1857.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1857.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1857.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1858.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1858.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1858.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1864.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1864.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1864.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1875.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1875.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1875.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1887.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1887.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1887.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1893.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1893.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1893.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1904.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1904.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1904.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1908.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1908.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1908.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1959.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1959.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1959.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1968.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1968.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1968.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1999.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA1999.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA1999.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2020.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2020.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2020.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2050.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2050.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2050.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2124.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2124.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2124.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2125.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2125.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2125.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2183.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2183.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2183.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2290.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2290.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2290.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2352.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2352.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2352.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2381.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2381.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2381.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2394.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2394.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2394.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2424.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2424.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2424.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2440.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2440.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2440.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2446.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2446.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2446.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2447.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2447.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2447.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2505.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2505.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2505.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2530.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2530.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2530.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2544.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2544.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2544.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2650.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2650.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2650.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2655.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2655.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2655.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2682.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2682.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2682.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2700.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2700.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2700.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2711.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2711.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2711.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2755.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2755.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2755.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2821.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2821.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2821.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2865.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2865.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2865.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2873.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2873.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2873.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2878.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2878.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2878.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2900.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2900.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2900.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2922.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2922.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2922.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2945.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2945.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2945.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2964.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2964.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2964.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2966.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2966.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2966.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2976.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2976.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2976.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA2986.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA2986.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA2986.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3050.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3050.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3050.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3061.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3061.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3061.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3074.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3074.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3074.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3083.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3083.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3083.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3206.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3206.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3206.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3247.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3247.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3247.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3273.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3273.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3273.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3281.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3281.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3281.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3282.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3282.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3282.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3357.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3357.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3357.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3378.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3378.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3378.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3414.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3414.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3414.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3457.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3457.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3457.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3460.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3460.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3460.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3577.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3577.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3577.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3646.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3646.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3646.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3679.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3679.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3679.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3702.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3702.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3702.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3709.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3709.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3709.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3745.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3745.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3745.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3796.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3796.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3796.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3800.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3800.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3800.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3824.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3824.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3824.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3841.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3841.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3841.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3845.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3845.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3845.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3849.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3849.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3849.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3874.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3874.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3874.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3881.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3881.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3881.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3883.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3883.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3883.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3903.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3903.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3903.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3908.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3908.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3908.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3955.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3955.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3955.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3996.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA3996.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA3996.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4007.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4007.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4007.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4043.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4043.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4043.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4046.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4046.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4046.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4084.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4084.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4084.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4158.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4158.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4158.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4167.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4167.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4167.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4190.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4190.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4190.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4226.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4226.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4226.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4243.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4243.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4243.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4261.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4261.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4261.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4272.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4272.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4272.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4281.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4281.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4281.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4282.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4282.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4282.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4406.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4406.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4406.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4423.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4423.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4423.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4424.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4424.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4424.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4446.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4446.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4446.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4467.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4467.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4467.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4519.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4519.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4519.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4592.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4592.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4592.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4619.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4619.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4619.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4668.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4668.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4668.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4676.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4676.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4676.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4705.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4705.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4705.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4719.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4719.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4719.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4733.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4733.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4733.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4738.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4738.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4738.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4748.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4748.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4748.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4760.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4760.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4760.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4814.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4814.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4814.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4824.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4824.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4824.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4932.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4932.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4932.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4947.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4947.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4947.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4983.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4983.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4983.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA4992.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA4992.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA4992.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5015.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5015.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5015.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5021.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5021.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5021.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5069.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5069.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5069.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5078.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5078.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5078.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5134.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5134.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5134.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5146.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5146.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5146.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5179.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5179.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5179.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5204.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5204.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5204.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5255.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5255.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5255.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5338.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5338.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5338.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5344.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5344.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5344.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5416.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5416.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5416.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5440.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5440.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5440.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5499.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5499.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5499.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5500.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5500.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5500.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5517.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5517.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5517.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5555.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5555.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5555.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5562.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5562.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5562.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5593.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5593.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5593.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5635.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5635.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5635.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5652.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5652.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5652.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5658.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5658.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5658.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5761.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5761.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5761.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5769.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5769.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5769.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5775.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5775.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5775.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5781.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5781.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5781.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5803.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5803.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5803.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5809.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5809.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5809.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5901.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5901.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5901.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5905.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5905.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5905.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5938.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5938.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5938.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5944.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5944.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5944.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5965.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5965.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5965.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5979.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA5979.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA5979.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6007.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6007.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6007.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6026.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6026.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6026.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6044.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6044.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6044.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6045.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6045.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6045.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6050.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6050.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6050.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6070.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6070.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6070.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6123.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6123.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6123.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6129.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6129.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6129.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6193.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6193.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6193.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6197.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6197.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6197.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6241.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6241.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6241.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6293.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6293.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6293.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6331.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6331.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6331.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6347.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6347.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6347.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6379.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6379.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6379.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6440.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6440.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6440.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6463.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6463.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6463.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6477.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6477.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6477.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6563.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6563.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6563.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6568.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6568.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6568.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6577.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6577.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6577.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6600.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6600.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6600.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6602.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6602.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6602.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6665.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6665.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6665.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6672.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6672.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6672.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6678.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6678.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6678.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6684.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6684.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6684.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6715.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6715.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6715.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6748.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6748.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6748.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6799.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6799.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6799.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6805.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6805.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6805.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6886.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6886.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6886.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6951.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6951.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6951.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6975.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6975.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6975.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA6978.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA6978.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA6978.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7007.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7007.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7007.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7036.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7036.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7036.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7094.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7094.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7094.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7108.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7108.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7108.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7177.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7177.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7177.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7225.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7225.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7225.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7271.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7271.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7271.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7323.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7323.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7323.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7327.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7327.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7327.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7333.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7333.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7333.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7372.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7372.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7372.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7380.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7380.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7380.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7447.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7447.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7447.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7450.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7450.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7450.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7508.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7508.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7508.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7556.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7556.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7556.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7586.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7586.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7586.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7590.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7590.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7590.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7643.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7643.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7643.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7652.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7652.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7652.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7681.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7681.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7681.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7724.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7724.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7724.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7728.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7728.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7728.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7752.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7752.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7752.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7774.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7774.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7774.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7777.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7777.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7777.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7834.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7834.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7834.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7841.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7841.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7841.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7851.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7851.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7851.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7853.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7853.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7853.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7866.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7866.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7866.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7878.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7878.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7878.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7883.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7883.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7883.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7900.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7900.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7900.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7913.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7913.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7913.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7919.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7919.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7919.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7944.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7944.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7944.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA7966.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA7966.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA7966.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8000.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8000.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8000.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8014.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8014.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8014.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8029.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8029.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8029.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8126.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8126.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8126.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8136.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8136.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8136.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8154.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8154.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8154.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8176.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8176.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8176.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8189.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8189.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8189.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8257.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8257.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8257.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8276.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8276.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8276.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8356.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8356.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8356.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8357.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8357.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8357.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8359.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8359.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8359.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8486.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8486.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8486.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8487.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8487.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8487.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8495.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8495.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8495.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8497.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8497.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8497.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8499.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8499.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8499.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8505.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8505.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8505.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8510.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8510.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8510.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8514.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8514.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8514.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8544.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8544.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8544.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8570.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8570.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8570.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8572.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8572.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8572.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8590.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8590.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8590.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8604.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8604.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8604.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8609.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8609.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8609.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8651.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8651.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8651.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8654.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8654.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8654.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8655.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8655.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8655.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8697.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8697.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8697.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8755.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8755.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8755.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8813.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8813.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8813.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8815.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8815.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8815.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8823.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8823.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8823.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8888.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8888.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8888.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8894.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8894.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8894.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8931.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8931.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8931.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA8980.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA8980.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA8980.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9032.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9032.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9032.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9036.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9036.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9036.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9048.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9048.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9048.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9066.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9066.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9066.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9137.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9137.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9137.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9190.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9190.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9190.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9288.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9288.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9288.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9298.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9298.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9298.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9312.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9312.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9312.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9342.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9342.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9342.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9345.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9345.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9345.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9357.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9357.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9357.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9399.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9399.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9399.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9412.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9412.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9412.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9443.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9443.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9443.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9500.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9500.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9500.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9547.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9547.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9547.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9555.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9555.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9555.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9584.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9584.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9584.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9589.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9589.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9589.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9708.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9708.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9708.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9738.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9738.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9738.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9765.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9765.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9765.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9823.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9823.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9823.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9914.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9914.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9914.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9941.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9941.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9941.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9953.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9953.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9953.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9959.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9959.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9959.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9965.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9965.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9965.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9995.jpg.jpeg",
+      "url": "/umbrella-dresses/IMG-20261103-WA9995.jpg.jpeg",
+      "path": "public/umbrella-dresses/IMG-20261103-WA9995.jpg.jpeg",
+      "category": "umbrella-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    }
+  ],
+  "products_reference": [
+    {
+      "id": "ud-0001",
+      "sku": "WST-UD-0001",
+      "name": "Sunflower Yellow Full 360° Circular Motion 360° Umbrella Dress",
+      "slug": "sunflower-yellow-full-360-circular-motion-360-umbrella-dress",
+      "coverPhoto": "/umbrella-dresses/4726.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "ud-0002",
+      "sku": "WST-UD-0002",
+      "name": "Ruby Crimson Pom-Pom Lace Trimmed Tiered Flare Midi Dress",
+      "slug": "ruby-crimson-pom-pom-lace-trimmed-tiered-flare-midi-dress",
+      "coverPhoto": "/umbrella-dresses/4733.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "ud-0003",
+      "sku": "WST-UD-0003",
+      "name": "Peacock Teal Tiered Ghera Flared Full Flare Circular Maxi",
+      "slug": "peacock-teal-tiered-ghera-flared-full-flare-circular-maxi",
+      "coverPhoto": "/umbrella-dresses/4736.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "ud-0004",
+      "sku": "WST-UD-0004",
+      "name": "Fuchsia Rani Hand-Blocked Sanganeri Flared Kali Circular Dress",
+      "slug": "fuchsia-rani-hand-blocked-sanganeri-flared-kali-circular-dress",
+      "coverPhoto": "/umbrella-dresses/4840.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "ud-0005",
+      "sku": "WST-UD-0005",
+      "name": "Sunset Tangerine Kali Detailed Sweeping Sweeping Umbrella Sundress",
+      "slug": "sunset-tangerine-kali-detailed-sweeping-sweeping-umbrella-sundress",
+      "coverPhoto": "/umbrella-dresses/4837.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "ud-0006",
+      "sku": "WST-UD-0006",
+      "name": "Indigo Dabu Mirror Lace Accent 360° Umbrella Dress",
+      "slug": "indigo-dabu-mirror-lace-accent-360-umbrella-dress",
+      "coverPhoto": "/umbrella-dresses/4892.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "ud-0007",
+      "sku": "WST-UD-0007",
+      "name": "Forest Emerald Full 360° Circular Motion Tiered Flare Midi Dress",
+      "slug": "forest-emerald-full-360-circular-motion-tiered-flare-midi-dress",
+      "coverPhoto": "/umbrella-dresses/4961.jpg.jpeg",
+      "photosCount": 11,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "ud-0008",
+      "sku": "WST-UD-0008",
+      "name": "Ivory Ochre Pom-Pom Lace Trimmed Full Flare Circular Maxi",
+      "slug": "ivory-ochre-pom-pom-lace-trimmed-full-flare-circular-maxi",
+      "coverPhoto": "/umbrella-dresses/4978.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "ud-0009",
+      "sku": "WST-UD-0009",
+      "name": "Turquoise Wave Tiered Ghera Flared Flared Kali Circular Dress",
+      "slug": "turquoise-wave-tiered-ghera-flared-flared-kali-circular-dress",
+      "coverPhoto": "/umbrella-dresses/4986.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "ud-0010",
+      "sku": "WST-UD-0010",
+      "name": "Dusty Rose Hand-Blocked Sanganeri Sweeping Umbrella Sundress",
+      "slug": "dusty-rose-hand-blocked-sanganeri-sweeping-umbrella-sundress",
+      "coverPhoto": "/umbrella-dresses/5082.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "ud-0011",
+      "sku": "WST-UD-0011",
+      "name": "Cobalt Blue Kali Detailed Sweeping 360° Umbrella Dress",
+      "slug": "cobalt-blue-kali-detailed-sweeping-360-umbrella-dress",
+      "coverPhoto": "/umbrella-dresses/4977.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "ud-0012",
+      "sku": "WST-UD-0012",
+      "name": "Mint Sage Mirror Lace Accent Tiered Flare Midi Dress",
+      "slug": "mint-sage-mirror-lace-accent-tiered-flare-midi-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762548874.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "ud-0013",
+      "sku": "WST-UD-0013",
+      "name": "Coral Peach Full 360° Circular Motion Full Flare Circular Maxi",
+      "slug": "coral-peach-full-360-circular-motion-full-flare-circular-maxi",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762561563.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "ud-0014",
+      "sku": "WST-UD-0014",
+      "name": "Charcoal Kashish Pom-Pom Lace Trimmed Flared Kali Circular Dress",
+      "slug": "charcoal-kashish-pom-pom-lace-trimmed-flared-kali-circular-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762571785.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "ud-0015",
+      "sku": "WST-UD-0015",
+      "name": "Mulberry Wine Tiered Ghera Flared Sweeping Umbrella Sundress",
+      "slug": "mulberry-wine-tiered-ghera-flared-sweeping-umbrella-sundress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762583207.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "ud-0016",
+      "sku": "WST-UD-0016",
+      "name": "Sunflower Yellow Kali Detailed Sweeping 360° Umbrella Dress",
+      "slug": "sunflower-yellow-kali-detailed-sweeping-360-umbrella-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762588061.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 016"
+    },
+    {
+      "id": "ud-0017",
+      "sku": "WST-UD-0017",
+      "name": "Ruby Crimson Mirror Lace Accent Tiered Flare Midi Dress",
+      "slug": "ruby-crimson-mirror-lace-accent-tiered-flare-midi-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762602307.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "ud-0018",
+      "sku": "WST-UD-0018",
+      "name": "Peacock Teal Full 360° Circular Motion Full Flare Circular Maxi",
+      "slug": "peacock-teal-full-360-circular-motion-full-flare-circular-maxi",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762611604.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "ud-0019",
+      "sku": "WST-UD-0019",
+      "name": "Fuchsia Rani Pom-Pom Lace Trimmed Flared Kali Circular Dress",
+      "slug": "fuchsia-rani-pom-pom-lace-trimmed-flared-kali-circular-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762620085.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "ud-0020",
+      "sku": "WST-UD-0020",
+      "name": "Sunset Tangerine Tiered Ghera Flared Sweeping Umbrella Sundress",
+      "slug": "sunset-tangerine-tiered-ghera-flared-sweeping-umbrella-sundress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762639066.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "ud-0021",
+      "sku": "WST-UD-0021",
+      "name": "Indigo Dabu Hand-Blocked Sanganeri 360° Umbrella Dress",
+      "slug": "indigo-dabu-hand-blocked-sanganeri-360-umbrella-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762647826.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 021"
+    },
+    {
+      "id": "ud-0022",
+      "sku": "WST-UD-0022",
+      "name": "Forest Emerald Kali Detailed Sweeping Tiered Flare Midi Dress",
+      "slug": "forest-emerald-kali-detailed-sweeping-tiered-flare-midi-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762658821.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 022"
+    },
+    {
+      "id": "ud-0023",
+      "sku": "WST-UD-0023",
+      "name": "Ivory Ochre Mirror Lace Accent Full Flare Circular Maxi",
+      "slug": "ivory-ochre-mirror-lace-accent-full-flare-circular-maxi",
+      "coverPhoto": "/umbrella-dresses/5091.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 023"
+    },
+    {
+      "id": "ud-0024",
+      "sku": "WST-UD-0024",
+      "name": "Turquoise Wave Full 360° Circular Motion Flared Kali Circular Dress",
+      "slug": "turquoise-wave-full-360-circular-motion-flared-kali-circular-dress",
+      "coverPhoto": "/umbrella-dresses/5097.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 024"
+    },
+    {
+      "id": "ud-0025",
+      "sku": "WST-UD-0025",
+      "name": "Dusty Rose Pom-Pom Lace Trimmed Sweeping Umbrella Sundress",
+      "slug": "dusty-rose-pom-pom-lace-trimmed-sweeping-umbrella-sundress",
+      "coverPhoto": "/umbrella-dresses/5095.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 025"
+    },
+    {
+      "id": "ud-0026",
+      "sku": "WST-UD-0026",
+      "name": "Cobalt Blue Tiered Ghera Flared 360° Umbrella Dress",
+      "slug": "cobalt-blue-tiered-ghera-flared-360-umbrella-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1681114138871.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 026"
+    },
+    {
+      "id": "ud-0027",
+      "sku": "WST-UD-0027",
+      "name": "Mint Sage Hand-Blocked Sanganeri Tiered Flare Midi Dress",
+      "slug": "mint-sage-hand-blocked-sanganeri-tiered-flare-midi-dress",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1741762535775.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 027"
+    },
+    {
+      "id": "ud-0028",
+      "sku": "WST-UD-0028",
+      "name": "Coral Peach Kali Detailed Sweeping Full Flare Circular Maxi",
+      "slug": "coral-peach-kali-detailed-sweeping-full-flare-circular-maxi",
+      "coverPhoto": "/umbrella-dresses/FB_IMG_1698290208695.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 028"
+    },
+    {
+      "id": "ud-0029",
+      "sku": "WST-UD-0029",
+      "name": "Charcoal Kashish Mirror Lace Accent Flared Kali Circular Dress",
+      "slug": "charcoal-kashish-mirror-lace-accent-flared-kali-circular-dress",
+      "coverPhoto": "/umbrella-dresses/4972.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 029"
+    }
+  ]
+}

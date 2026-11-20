@@ -1,0 +1,797 @@
+{
+  "category": "cord-sets",
+  "categoryName": "Co-ord Sets",
+  "generatedAt": "2026-11-20T10:16:21.569Z",
+  "statistics": {
+    "total_category_images": 406,
+    "productised_images_used": 406,
+    "remaining_unassigned_images": 0,
+    "product_groups_created": 87
+  },
+  "unassigned_images": [],
+  "products_reference": [
+    {
+      "id": "cs-0001",
+      "sku": "WST-CS-0001",
+      "name": "Royal Indigo Handblock Printed Co-ord Set",
+      "slug": "royal-indigo-handblock-printed-co-ord-set",
+      "coverPhoto": "/cord-sets/_MG_7608.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "cs-0002",
+      "sku": "WST-CS-0002",
+      "name": "Sage Blossom Sanganeri Floral Tunic & Trouser Set",
+      "slug": "sage-blossom-sanganeri-floral-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/_MG_7619.JPG.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "cs-0003",
+      "sku": "WST-CS-0003",
+      "name": "Terracotta Dune Ajrakh Geometric Blazer & Pant Set",
+      "slug": "terracotta-dune-ajrakh-geometric-blazer-pant-set",
+      "coverPhoto": "/cord-sets/_MG_7624.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "cs-0004",
+      "sku": "WST-CS-0004",
+      "name": "Ivory Jasmine Bagru Dabu 2-Piece Pant Set",
+      "slug": "ivory-jasmine-bagru-dabu-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/_MG_7629.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "cs-0005",
+      "sku": "WST-CS-0005",
+      "name": "Rosewood Vintage Pintuck Pleated Crop Top & Wide Leg Set",
+      "slug": "rosewood-vintage-pintuck-pleated-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/_MG_7634.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "cs-0006",
+      "sku": "WST-CS-0006",
+      "name": "Saffron Sunset Cutwork Embroidered Lounge Set",
+      "slug": "saffron-sunset-cutwork-embroidered-lounge-set",
+      "coverPhoto": "/cord-sets/_MG_7639.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "cs-0007",
+      "sku": "WST-CS-0007",
+      "name": "Marigold Bloom Angrakha Wrap Kurta & Farshi Set",
+      "slug": "marigold-bloom-angrakha-wrap-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/_MG_7655.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "cs-0008",
+      "sku": "WST-CS-0008",
+      "name": "Peacock Jewel Tailored Notch Collar Tunic & Culotte Set",
+      "slug": "peacock-jewel-tailored-notch-collar-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/_MG_7660.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "cs-0009",
+      "sku": "WST-CS-0009",
+      "name": "Desert Sand Mandarin Collar Co-ord Set",
+      "slug": "desert-sand-mandarin-collar-co-ord-set",
+      "coverPhoto": "/cord-sets/_MG_7666.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "cs-0010",
+      "sku": "WST-CS-0010",
+      "name": "Crimson Dahlia Kimono Silhouette Tunic & Trouser Set",
+      "slug": "crimson-dahlia-kimono-silhouette-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/_MG_7672.JPG.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "cs-0011",
+      "sku": "WST-CS-0011",
+      "name": "Cobalt Ocean Belted Waist Blazer & Pant Set",
+      "slug": "cobalt-ocean-belted-waist-blazer-pant-set",
+      "coverPhoto": "/cord-sets/12960.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "cs-0012",
+      "sku": "WST-CS-0012",
+      "name": "Honey Amber Resort Casual 2-Piece Pant Set",
+      "slug": "honey-amber-resort-casual-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/12785.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "cs-0013",
+      "sku": "WST-CS-0013",
+      "name": "Mint Breeze Handblock Printed Crop Top & Wide Leg Set",
+      "slug": "mint-breeze-handblock-printed-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/13135.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "cs-0014",
+      "sku": "WST-CS-0014",
+      "name": "Gulabi Lotus Sanganeri Floral Lounge Set",
+      "slug": "gulabi-lotus-sanganeri-floral-lounge-set",
+      "coverPhoto": "/cord-sets/13053.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "cs-0015",
+      "sku": "WST-CS-0015",
+      "name": "Kashish Earth Ajrakh Geometric Kurta & Farshi Set",
+      "slug": "kashish-earth-ajrakh-geometric-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/13004.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "cs-0016",
+      "sku": "WST-CS-0016",
+      "name": "Mulberry Wine Bagru Dabu Tunic & Culotte Set",
+      "slug": "mulberry-wine-bagru-dabu-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/13312.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 016"
+    },
+    {
+      "id": "cs-0017",
+      "sku": "WST-CS-0017",
+      "name": "Turmeric Gold Pintuck Pleated Co-ord Set",
+      "slug": "turmeric-gold-pintuck-pleated-co-ord-set",
+      "coverPhoto": "/cord-sets/13554.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "cs-0018",
+      "sku": "WST-CS-0018",
+      "name": "French Lilac Cutwork Embroidered Tunic & Trouser Set",
+      "slug": "french-lilac-cutwork-embroidered-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/2313.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "cs-0019",
+      "sku": "WST-CS-0019",
+      "name": "Emerald Grove Angrakha Wrap Blazer & Pant Set",
+      "slug": "emerald-grove-angrakha-wrap-blazer-pant-set",
+      "coverPhoto": "/cord-sets/60312.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "cs-0020",
+      "sku": "WST-CS-0020",
+      "name": "Amethyst Mist Tailored Notch Collar 2-Piece Pant Set",
+      "slug": "amethyst-mist-tailored-notch-collar-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/67789.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "cs-0021",
+      "sku": "WST-CS-0021",
+      "name": "Coral Sunset Mandarin Collar Crop Top & Wide Leg Set",
+      "slug": "coral-sunset-mandarin-collar-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/d6212f5b8331bc89a7d05513e97db05a_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 021"
+    },
+    {
+      "id": "cs-0022",
+      "sku": "WST-CS-0022",
+      "name": "Pistachio Frost Kimono Silhouette Lounge Set",
+      "slug": "pistachio-frost-kimono-silhouette-lounge-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1702537579380.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 022"
+    },
+    {
+      "id": "cs-0023",
+      "sku": "WST-CS-0023",
+      "name": "Caramel Dune Belted Waist Kurta & Farshi Set",
+      "slug": "caramel-dune-belted-waist-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1713081213138.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 023"
+    },
+    {
+      "id": "cs-0024",
+      "sku": "WST-CS-0024",
+      "name": "Ocean Teal Resort Casual Tunic & Culotte Set",
+      "slug": "ocean-teal-resort-casual-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/c9be39e2e015113db7ab9063bc547b79_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 024"
+    },
+    {
+      "id": "cs-0025",
+      "sku": "WST-CS-0025",
+      "name": "Paprika Glow Handblock Printed Co-ord Set",
+      "slug": "paprika-glow-handblock-printed-co-ord-set",
+      "coverPhoto": "/cord-sets/a4430c43cc8ea250fc2ceb5f2a1fcce4_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 025"
+    },
+    {
+      "id": "cs-0026",
+      "sku": "WST-CS-0026",
+      "name": "Midnight Navy Sanganeri Floral Tunic & Trouser Set",
+      "slug": "midnight-navy-sanganeri-floral-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/213c9d6ec18a5a627dc3413be5e7faf5_1.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 026"
+    },
+    {
+      "id": "cs-0027",
+      "sku": "WST-CS-0027",
+      "name": "Dusty Rose Ajrakh Geometric Blazer & Pant Set",
+      "slug": "dusty-rose-ajrakh-geometric-blazer-pant-set",
+      "coverPhoto": "/cord-sets/ade4f0c1c5dabc222d9a68423aa1197e.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 027"
+    },
+    {
+      "id": "cs-0028",
+      "sku": "WST-CS-0028",
+      "name": "Auburn Sunset Bagru Dabu 2-Piece Pant Set",
+      "slug": "auburn-sunset-bagru-dabu-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1704904323981.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 028"
+    },
+    {
+      "id": "cs-0029",
+      "sku": "WST-CS-0029",
+      "name": "Opal Whisper Pintuck Pleated Crop Top & Wide Leg Set",
+      "slug": "opal-whisper-pintuck-pleated-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1751900362574.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 029"
+    },
+    {
+      "id": "cs-0030",
+      "sku": "WST-CS-0030",
+      "name": "Golden Sunburst Cutwork Embroidered Lounge Set",
+      "slug": "golden-sunburst-cutwork-embroidered-lounge-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1760503135504.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 030"
+    },
+    {
+      "id": "cs-0031",
+      "sku": "WST-CS-0031",
+      "name": "Royal Indigo Tailored Notch Collar Kurta & Farshi Set",
+      "slug": "royal-indigo-tailored-notch-collar-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1766593332218.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 031"
+    },
+    {
+      "id": "cs-0032",
+      "sku": "WST-CS-0032",
+      "name": "Sage Blossom Mandarin Collar Tunic & Culotte Set",
+      "slug": "sage-blossom-mandarin-collar-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1766593336441.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 032"
+    },
+    {
+      "id": "cs-0033",
+      "sku": "WST-CS-0033",
+      "name": "Terracotta Dune Kimono Silhouette Co-ord Set",
+      "slug": "terracotta-dune-kimono-silhouette-co-ord-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1766593347242.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 033"
+    },
+    {
+      "id": "cs-0034",
+      "sku": "WST-CS-0034",
+      "name": "Ivory Jasmine Belted Waist Tunic & Trouser Set",
+      "slug": "ivory-jasmine-belted-waist-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1766593353674.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 034"
+    },
+    {
+      "id": "cs-0035",
+      "sku": "WST-CS-0035",
+      "name": "Rosewood Vintage Resort Casual Blazer & Pant Set",
+      "slug": "rosewood-vintage-resort-casual-blazer-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1766593654240.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 035"
+    },
+    {
+      "id": "cs-0036",
+      "sku": "WST-CS-0036",
+      "name": "Saffron Sunset Handblock Printed 2-Piece Pant Set",
+      "slug": "saffron-sunset-handblock-printed-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1767273261129.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 036"
+    },
+    {
+      "id": "cs-0037",
+      "sku": "WST-CS-0037",
+      "name": "Marigold Bloom Sanganeri Floral Crop Top & Wide Leg Set",
+      "slug": "marigold-bloom-sanganeri-floral-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1777916961890.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 037"
+    },
+    {
+      "id": "cs-0038",
+      "sku": "WST-CS-0038",
+      "name": "Peacock Jewel Ajrakh Geometric Lounge Set",
+      "slug": "peacock-jewel-ajrakh-geometric-lounge-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1777919221708.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 038"
+    },
+    {
+      "id": "cs-0039",
+      "sku": "WST-CS-0039",
+      "name": "Desert Sand Bagru Dabu Kurta & Farshi Set",
+      "slug": "desert-sand-bagru-dabu-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1781721442157.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 039"
+    },
+    {
+      "id": "cs-0040",
+      "sku": "WST-CS-0040",
+      "name": "Crimson Dahlia Pintuck Pleated Tunic & Culotte Set",
+      "slug": "crimson-dahlia-pintuck-pleated-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1781721815245.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 040"
+    },
+    {
+      "id": "cs-0041",
+      "sku": "WST-CS-0041",
+      "name": "Cobalt Ocean Cutwork Embroidered Co-ord Set",
+      "slug": "cobalt-ocean-cutwork-embroidered-co-ord-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1783352638788.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 041"
+    },
+    {
+      "id": "cs-0042",
+      "sku": "WST-CS-0042",
+      "name": "Honey Amber Angrakha Wrap Tunic & Trouser Set",
+      "slug": "honey-amber-angrakha-wrap-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1783842027071.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 042"
+    },
+    {
+      "id": "cs-0043",
+      "sku": "WST-CS-0043",
+      "name": "Mint Breeze Tailored Notch Collar Blazer & Pant Set",
+      "slug": "mint-breeze-tailored-notch-collar-blazer-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1784625624844.jpg.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 043"
+    },
+    {
+      "id": "cs-0044",
+      "sku": "WST-CS-0044",
+      "name": "Gulabi Lotus Mandarin Collar 2-Piece Pant Set",
+      "slug": "gulabi-lotus-mandarin-collar-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1784631190080.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 044"
+    },
+    {
+      "id": "cs-0045",
+      "sku": "WST-CS-0045",
+      "name": "Kashish Earth Kimono Silhouette Crop Top & Wide Leg Set",
+      "slug": "kashish-earth-kimono-silhouette-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1784914745973.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 045"
+    },
+    {
+      "id": "cs-0046",
+      "sku": "WST-CS-0046",
+      "name": "Mulberry Wine Belted Waist Lounge Set",
+      "slug": "mulberry-wine-belted-waist-lounge-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1784914762367.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 046"
+    },
+    {
+      "id": "cs-0047",
+      "sku": "WST-CS-0047",
+      "name": "Turmeric Gold Resort Casual Kurta & Farshi Set",
+      "slug": "turmeric-gold-resort-casual-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1784915407601.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 047"
+    },
+    {
+      "id": "cs-0048",
+      "sku": "WST-CS-0048",
+      "name": "French Lilac Handblock Printed Tunic & Culotte Set",
+      "slug": "french-lilac-handblock-printed-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1784915548275.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 048"
+    },
+    {
+      "id": "cs-0049",
+      "sku": "WST-CS-0049",
+      "name": "Emerald Grove Sanganeri Floral Co-ord Set",
+      "slug": "emerald-grove-sanganeri-floral-co-ord-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1785150085375.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 049"
+    },
+    {
+      "id": "cs-0050",
+      "sku": "WST-CS-0050",
+      "name": "Amethyst Mist Ajrakh Geometric Tunic & Trouser Set",
+      "slug": "amethyst-mist-ajrakh-geometric-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1785237436135.jpg.jpeg",
+      "photosCount": 16,
+      "originalGroup": "Product Group 050"
+    },
+    {
+      "id": "cs-0051",
+      "sku": "WST-CS-0051",
+      "name": "Coral Sunset Bagru Dabu Blazer & Pant Set",
+      "slug": "coral-sunset-bagru-dabu-blazer-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1784631177942.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 051"
+    },
+    {
+      "id": "cs-0052",
+      "sku": "WST-CS-0052",
+      "name": "Pistachio Frost Pintuck Pleated 2-Piece Pant Set",
+      "slug": "pistachio-frost-pintuck-pleated-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1789315443152.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 052"
+    },
+    {
+      "id": "cs-0053",
+      "sku": "WST-CS-0053",
+      "name": "Caramel Dune Cutwork Embroidered Crop Top & Wide Leg Set",
+      "slug": "caramel-dune-cutwork-embroidered-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1789315877292.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 053"
+    },
+    {
+      "id": "cs-0054",
+      "sku": "WST-CS-0054",
+      "name": "Ocean Teal Angrakha Wrap Lounge Set",
+      "slug": "ocean-teal-angrakha-wrap-lounge-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1789558221255.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 054"
+    },
+    {
+      "id": "cs-0055",
+      "sku": "WST-CS-0055",
+      "name": "Paprika Glow Tailored Notch Collar Kurta & Farshi Set",
+      "slug": "paprika-glow-tailored-notch-collar-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1789572752507.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 055"
+    },
+    {
+      "id": "cs-0056",
+      "sku": "WST-CS-0056",
+      "name": "Midnight Navy Mandarin Collar Tunic & Culotte Set",
+      "slug": "midnight-navy-mandarin-collar-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1789572666317.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 056"
+    },
+    {
+      "id": "cs-0057",
+      "sku": "WST-CS-0057",
+      "name": "Dusty Rose Kimono Silhouette Co-ord Set",
+      "slug": "dusty-rose-kimono-silhouette-co-ord-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1792222363810.jpg.jpeg",
+      "photosCount": 14,
+      "originalGroup": "Product Group 057"
+    },
+    {
+      "id": "cs-0058",
+      "sku": "WST-CS-0058",
+      "name": "Auburn Sunset Belted Waist Tunic & Trouser Set",
+      "slug": "auburn-sunset-belted-waist-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/IMG-20250708-WA0031.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 058"
+    },
+    {
+      "id": "cs-0059",
+      "sku": "WST-CS-0059",
+      "name": "Opal Whisper Resort Casual Blazer & Pant Set",
+      "slug": "opal-whisper-resort-casual-blazer-pant-set",
+      "coverPhoto": "/cord-sets/IMG-20250731-WA2170.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 059"
+    },
+    {
+      "id": "cs-0060",
+      "sku": "WST-CS-0060",
+      "name": "Golden Sunburst Handblock Printed 2-Piece Pant Set",
+      "slug": "golden-sunburst-handblock-printed-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/IMG-20261014-WA0151.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 060"
+    },
+    {
+      "id": "cs-0061",
+      "sku": "WST-CS-0061",
+      "name": "Royal Indigo Ajrakh Geometric Crop Top & Wide Leg Set",
+      "slug": "royal-indigo-ajrakh-geometric-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/IMG-20261014-WA0156.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 061"
+    },
+    {
+      "id": "cs-0062",
+      "sku": "WST-CS-0062",
+      "name": "Sage Blossom Bagru Dabu Lounge Set",
+      "slug": "sage-blossom-bagru-dabu-lounge-set",
+      "coverPhoto": "/cord-sets/IMG-20261016-WA0066.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 062"
+    },
+    {
+      "id": "cs-0063",
+      "sku": "WST-CS-0063",
+      "name": "Terracotta Dune Pintuck Pleated Kurta & Farshi Set",
+      "slug": "terracotta-dune-pintuck-pleated-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/IMG-20261016-WA0072.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 063"
+    },
+    {
+      "id": "cs-0064",
+      "sku": "WST-CS-0064",
+      "name": "Ivory Jasmine Cutwork Embroidered Tunic & Culotte Set",
+      "slug": "ivory-jasmine-cutwork-embroidered-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/Screenshot_2026-05-04-22-29-20-05_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 064"
+    },
+    {
+      "id": "cs-0065",
+      "sku": "WST-CS-0065",
+      "name": "Rosewood Vintage Angrakha Wrap Co-ord Set",
+      "slug": "rosewood-vintage-angrakha-wrap-co-ord-set",
+      "coverPhoto": "/cord-sets/Screenshot_2026-05-04-22-27-49-95_a23b203fd3aafc6dcb84e438dda678b6.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 065"
+    },
+    {
+      "id": "cs-0066",
+      "sku": "WST-CS-0066",
+      "name": "Saffron Sunset Tailored Notch Collar Tunic & Trouser Set",
+      "slug": "saffron-sunset-tailored-notch-collar-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/IMG-20250731-WA2156.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 066"
+    },
+    {
+      "id": "cs-0067",
+      "sku": "WST-CS-0067",
+      "name": "Marigold Bloom Mandarin Collar Blazer & Pant Set",
+      "slug": "marigold-bloom-mandarin-collar-blazer-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1775735440451.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 067"
+    },
+    {
+      "id": "cs-0068",
+      "sku": "WST-CS-0068",
+      "name": "Peacock Jewel Kimono Silhouette 2-Piece Pant Set",
+      "slug": "peacock-jewel-kimono-silhouette-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1789572781243.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 068"
+    },
+    {
+      "id": "cs-0069",
+      "sku": "WST-CS-0069",
+      "name": "Desert Sand Belted Waist Crop Top & Wide Leg Set",
+      "slug": "desert-sand-belted-waist-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0285.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 069"
+    },
+    {
+      "id": "cs-0070",
+      "sku": "WST-CS-0070",
+      "name": "Crimson Dahlia Resort Casual Lounge Set",
+      "slug": "crimson-dahlia-resort-casual-lounge-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0388.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 070"
+    },
+    {
+      "id": "cs-0071",
+      "sku": "WST-CS-0071",
+      "name": "Cobalt Ocean Handblock Printed Kurta & Farshi Set",
+      "slug": "cobalt-ocean-handblock-printed-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0330.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 071"
+    },
+    {
+      "id": "cs-0072",
+      "sku": "WST-CS-0072",
+      "name": "Honey Amber Sanganeri Floral Tunic & Culotte Set",
+      "slug": "honey-amber-sanganeri-floral-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0312.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 072"
+    },
+    {
+      "id": "cs-0073",
+      "sku": "WST-CS-0073",
+      "name": "Mint Breeze Ajrakh Geometric Co-ord Set",
+      "slug": "mint-breeze-ajrakh-geometric-co-ord-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0303.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 073"
+    },
+    {
+      "id": "cs-0074",
+      "sku": "WST-CS-0074",
+      "name": "Gulabi Lotus Bagru Dabu Tunic & Trouser Set",
+      "slug": "gulabi-lotus-bagru-dabu-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0328.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 074"
+    },
+    {
+      "id": "cs-0075",
+      "sku": "WST-CS-0075",
+      "name": "Kashish Earth Pintuck Pleated Blazer & Pant Set",
+      "slug": "kashish-earth-pintuck-pleated-blazer-pant-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0283.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 075"
+    },
+    {
+      "id": "cs-0076",
+      "sku": "WST-CS-0076",
+      "name": "Mulberry Wine Cutwork Embroidered 2-Piece Pant Set",
+      "slug": "mulberry-wine-cutwork-embroidered-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1779114303497.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 076"
+    },
+    {
+      "id": "cs-0077",
+      "sku": "WST-CS-0077",
+      "name": "Turmeric Gold Angrakha Wrap Crop Top & Wide Leg Set",
+      "slug": "turmeric-gold-angrakha-wrap-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1782288459857.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 077"
+    },
+    {
+      "id": "cs-0078",
+      "sku": "WST-CS-0078",
+      "name": "French Lilac Tailored Notch Collar Lounge Set",
+      "slug": "french-lilac-tailored-notch-collar-lounge-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0318.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 078"
+    },
+    {
+      "id": "cs-0079",
+      "sku": "WST-CS-0079",
+      "name": "Emerald Grove Mandarin Collar Kurta & Farshi Set",
+      "slug": "emerald-grove-mandarin-collar-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/12550.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 079"
+    },
+    {
+      "id": "cs-0080",
+      "sku": "WST-CS-0080",
+      "name": "Amethyst Mist Kimono Silhouette Tunic & Culotte Set",
+      "slug": "amethyst-mist-kimono-silhouette-tunic-culotte-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1775887033069.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 080"
+    },
+    {
+      "id": "cs-0081",
+      "sku": "WST-CS-0081",
+      "name": "Coral Sunset Belted Waist Co-ord Set",
+      "slug": "coral-sunset-belted-waist-co-ord-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1783923279088.jpg.jpeg",
+      "photosCount": 11,
+      "originalGroup": "Product Group 081"
+    },
+    {
+      "id": "cs-0082",
+      "sku": "WST-CS-0082",
+      "name": "Pistachio Frost Resort Casual Tunic & Trouser Set",
+      "slug": "pistachio-frost-resort-casual-tunic-trouser-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0320.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 082"
+    },
+    {
+      "id": "cs-0083",
+      "sku": "WST-CS-0083",
+      "name": "Caramel Dune Handblock Printed Blazer & Pant Set",
+      "slug": "caramel-dune-handblock-printed-blazer-pant-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0311.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 083"
+    },
+    {
+      "id": "cs-0084",
+      "sku": "WST-CS-0084",
+      "name": "Ocean Teal Sanganeri Floral 2-Piece Pant Set",
+      "slug": "ocean-teal-sanganeri-floral-2-piece-pant-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0300.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 084"
+    },
+    {
+      "id": "cs-0085",
+      "sku": "WST-CS-0085",
+      "name": "Paprika Glow Ajrakh Geometric Crop Top & Wide Leg Set",
+      "slug": "paprika-glow-ajrakh-geometric-crop-top-wide-leg-set",
+      "coverPhoto": "/cord-sets/IMG-20261019-WA0282.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 085"
+    },
+    {
+      "id": "cs-0086",
+      "sku": "WST-CS-0086",
+      "name": "Midnight Navy Bagru Dabu Lounge Set",
+      "slug": "midnight-navy-bagru-dabu-lounge-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1789572713031.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 086"
+    },
+    {
+      "id": "cs-0087",
+      "sku": "WST-CS-0087",
+      "name": "Dusty Rose Pintuck Pleated Kurta & Farshi Set",
+      "slug": "dusty-rose-pintuck-pleated-kurta-farshi-set",
+      "coverPhoto": "/cord-sets/FB_IMG_1775737280048.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 087"
+    }
+  ]
+}
